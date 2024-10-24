@@ -1,13 +1,6 @@
 ---
-
 title: "Developer Relations workflow: UTM Tracking Strategy"
 ---
-
-
-
-
-
-
 
 ## <i class="" id="overview"></i> Overview
 
@@ -36,7 +29,6 @@ UTM Parameters are used to track how a user got to a website, their transition t
 | Campaign Content  | utm_content    |  | This parameter is used to identify the specific campaign a community DRI is using the UTM tracking for and used to separate reporting for different campaigns of the team in Sisense. To further make it easier, the MS&A team will have approved using prefixes to enable filtering of tracking by programs. i.e. `de_`, `edu_`, `oss_`, `code_`, `heroes_` will be used to filter each program results.|
 | Campaign Budget   | utm_budget     |  cmty | Indicates which budget is used for the campaign promotion. |
 
-
 ## <i class="" id="compulsory-utm-codes"></i> Compulsory fields
 
 For results to get to the right dashboards, it is necessary to set the right UTM parameters. The compulsory parameters are:
@@ -46,14 +38,13 @@ For results to get to the right dashboards, it is necessary to set the right UTM
 
 The values of these parameters should not be changed. Optional but necessary parameters with example values are
 
-- `utm_source=linkedin` 
+- `utm_source=linkedin`
 - `utm_medium=social`
-- `utm_content=de_gitlab_release` 
+- `utm_content=de_gitlab_release`
 
 ## <i class="" id="example-utm-codes"></i> Examples
 
 Example 1: https://about.gitlab.com/releases/2022/11/22/gitlab-15-6-released/?utm_campaign=community&utm_source=linkedin&utm_medium=social&utm_content=de_gitlab_release&utm_budget=cmty
-
 
 - utm_campaign=community : default campaign code for the community team
 - utm_source=linkedin : Where visit is coming from
@@ -77,6 +68,7 @@ TBD
 
 ## UTM Generator
 
+```html
 <div>
     <table>
         <tr width="35%">
@@ -85,28 +77,28 @@ TBD
         </tr>
         <tr>
             <td> Where will you be sharing it: </td>
-            <td> 
+            <td>
                 <select class='utm_generator' id="utm_where" >
-                    <option value="social-linkedin">Linkedin</option>
+                    <option value="social-linkedin">LinkedIn</option>
                     <option value="social-twitter">Twitter</option>
                     <option value="display-blog">Blog Post</option>
                     <option value="display-partner">Partner Website</option>
                     <option value="display">Physical assets</option>
                     <option value="email">Newsletter</option>
                 </select>
-            
+
             </td>
         </tr>
         <tr>
             <td> What Program is the DRI for Campaign: </td>
-            <td> 
+            <td>
                 <select class='utm_generator' id="utm_who" >
                     <option value="oss">Open Source</option>
                     <option value="edu">Education</option>
                     <option value="de">Developer Evangelism</option>
                     <option value="code">Code Contributor</option>
                 </select>
-            
+
             </td>
         </tr>
         <tr>
@@ -119,9 +111,6 @@ TBD
         </tr>
     </table>
 
-    
-
-    
 </div>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
 <script>
@@ -133,7 +122,7 @@ TBD
             var unique_code = $('#utm_unique_code').val();
 
             var result = link + '?utm_campaign=community&utm_budget=cmty&';
-            
+
             switch(source){
                 case 'social-linkedin':
                     result = result + 'utm_medium=social&utm_source=linkedin'
@@ -161,7 +150,8 @@ TBD
             result = result + '&utm_content='+dri+'_'+unique_code;
 
             $('#utm_generator_result').text(result)
-            
+
         })
     });
 </script>
+```

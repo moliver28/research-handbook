@@ -1,17 +1,10 @@
 ---
-aliases: handbook/marketing/brand-and-product-marketing/product-and-solution-marketing/getting-started/group-conversations
 title: "Product and Solution Marketing Group Conversations How-to"
 ---
 
-
-
-
-
-
-
 ## What is a Group Conversation (GC)?
 
-GitLab departments update the rest of the company on what they are achieving and working on through [Group Conversations](/handbook/group-conversations/). Group Conversations are an important way to make sure the rest of the organization is aware of what each team is up to, has an opportunity to ask questions, and have a collection of links and information for reference.
+GitLab departments update the rest of the company on what they are achieving and working on through [Group Conversations](/handbook/company/group-conversations/). Group Conversations are an important way to make sure the rest of the organization is aware of what each team is up to, has an opportunity to ask questions, and have a collection of links and information for reference.
 
 ## Old GC decks
 
@@ -24,6 +17,7 @@ We almost always know when our next GC is and create the deck for it as soon as 
 ### Creating the next deck
 
 As soon as we know the date of our next GC, someone (usually the person who will run the next GC) should create the next deck, so that people can start adding to it. THis is done by
+
 1. Going to the [SM GC folder](https://drive.google.com/drive/u/0/folders/1fCEAj1HCegJOJE_haBqxcy2NYm0DS1FO) on the Google drive.
 1. making a copy of file names `Product and Solution Marketing GC TEMPLATE - DO NOT EDIT` (please keep it in the same directory).
 1. rename the copy by replacing the `TEMPLATE - DO NOT EDIT` part with the [ISO date](/handbook/communication/#writing-style-guidelines) of the next GC
@@ -70,6 +64,7 @@ GC decks are a team effort. Here are some suggestions to make sure that everyone
 ## Validation and Quality
 
 Part of your responsibility as the next GC host is to make sure that the GC deck meets/adheres to some quality standards that we've set for ourselves
+
 1. check over the deck for any mentions of Analyst work/interactions/etc that should be kept anonymous/unspecified. Check with Collin/Ryan if you aren't sure.
 1. check to make sure that everything as much as possible has a link to either the asset, the webpage, the issue, etc
 1. check that there is nothing listed as new that was already listed in the previous GC
@@ -89,4 +84,3 @@ Part of your responsibility as the next GC host is to make sure that the GC deck
 - During the GC call you are the host and the quarterback. This does not mean that you should answer all of the questions. This means that you guide the call and conversations, and call in team members when needed.
 - Most of the time team members will be on the call and jump in with answers for their respective areas of responsibility without your prompting. Don't think that this is a statement about how you are doing. It's not. This is a team sport and we are all supporting each other and speaking up for areas we are DRI's for.
 - If there are no questions don't count down tot he end. Wait silently, and if there still aren't questions, wrap the call up.
-

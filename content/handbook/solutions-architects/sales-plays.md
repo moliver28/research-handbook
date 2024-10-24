@@ -1,9 +1,7 @@
 ---
-
 title: Solutions Architect Sales Plays
-description: “Discover GitLab Solutions Architects’ Sales Plays practices”
+description: "Discover GitLab Solutions Architects' Sales Plays practices"
 ---
-
 
 ## Sales Plays for new account & teams(existing customer) lands
 
@@ -25,8 +23,6 @@ Who is this sales play for?
 - Secondary: CSMs who help in discovery with new teams in existing customers
 
 ## Who to meet
-
-{: .alert .alert-gitlab-orange}
 
 **Ideal Customer Profile** - Prospects or new teams in existing customers who are listed in this qualification [list](https://gitlab.my.salesforce.com/00O4M000004aULR) for enterprise customers
 
@@ -69,7 +65,7 @@ Consider the following questions:
     1. Customer presentations & GTM use cases link [here](/handbook/marketing/brand-and-product-marketing/product-and-solution-marketing/#customer-facing-presentations)
     1. [Discovery questions](/handbook/marketing/brand-and-product-marketing/product-and-solution-marketing/usecase-gtm/devsecops/#discovery-questions) for GitLab Protect/Secure
     1. Potential [objections](/handbook/marketing/sales-plays-cicd/playbook-premium-to-ultimate/#objection-handling) from prospects/customers
-1. Review how to position gitlab's values & why does gitlab does it better [here](/handbook/marketing/sales-plays-cicd/playbook-premium-to-ultimate/#positioning-value)
+1. Review how to position GitLab's values & why does GitLab does it better [here](/handbook/marketing/sales-plays-cicd/playbook-premium-to-ultimate/#positioning-value)
 
 **Expected Outcome**
 
@@ -86,9 +82,9 @@ Secondary: SA
 
 1. Choose & create a list of discovery questions based on your customer profile in order to identify pain points
     1. Discover the pain points through general discovery questions & resources below:
-    1. SA technical discovery [questionaire](https://docs.google.com/document/d/1GZnbqE_rtGFRAJxoeje4mtFyP1AfpLLueESijXgikm4/edit#heading=h.4b6ktib5prk9)
+    1. SA technical discovery questionaire
     1. Market [requirements](/handbook/marketing/brand-and-product-marketing/product-and-solution-marketing/usecase-gtm/devsecops/#market-requirements-in-priority-order)
-    1. Pick the ones that apply from value discovery pains, benefits & required capabilities[here](/handbook/marketing/sales-plays-cicd/playbook-premium-to-ultimate/#value-discovery)
+    1. Pick the ones that apply from value discovery pains, benefits & required capabilities [here](/handbook/marketing/sales-plays-cicd/playbook-premium-to-ultimate/#value-discovery)
     1. Discovery questions for customer currently not on secure/protect with specific entry points [highlighted](/handbook/marketing/brand-and-product-marketing/product-and-solution-marketing/usecase-gtm/devsecops/#discovery-questions)
     1. Please review potential [objections](/handbook/marketing/sales-plays-cicd/playbook-premium-to-ultimate/#objection-handling)from prospects/customers before the meeting
 1. Identify & get access to high-level DRI for security
@@ -165,7 +161,6 @@ SA and SAE
 
 SA and SAE
 
-
 ## Additional Resources to use
 
 Will have specific resources under actions above. This is for additional resources.
@@ -188,8 +183,6 @@ Will have specific resources under actions above. This is for additional resourc
 Not sure? Get in contact with your region's [PS Engagement Manager](/handbook/company/team/?department=practice-management) in [#professional-services](https://gitlab.slack.com/archives/CFRLYG77X) to discuss specific customer opportunities.
 
 ## Measuring progress
-
-{: .alert .alert-gitlab-orange}
 
 Please copy [this checklist](https://docs.google.com/spreadsheets/d/1YT-w0MXpD6-v2Z2PqNqU9tdKsNknzzLAKlb_ktuPNBo/edit?usp=sharing) per opportunity & update as needed.
 

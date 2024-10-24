@@ -25,24 +25,26 @@ important to those working within Zendesk:
 <details>
 <summary>SLA Related Tags</summary>
 
-| Tag                 | What it means |
-|---------------------|---------------|
-| `starter`           | Signifies the ticket is using a Starter plan, granting Standard SLA on Support tickets |
-| `premium`           | Signifies the ticket is using a Premium plan, granting Priority SLA on Support tickets |
-| `ultimate`          | Signifies the ticket is using a Ultimate plan, granting Priority SLA on Support tickets |
-| `bronze`            | Signifies the ticket is using a Bronze plan, granting Standard SLA on Support tickets |
-| `silver`            | Signifies the ticket is using a Silver plan, granting Priority SLA on Support tickets |
-| `gold`              | Signifies the ticket is using a Gold plan, granting Priority SLA on Support tickets |
-| `priority_prospect` | Signifies the ticket is from a prospect who has been temporarily granted Standard SLA on Support tickets |
-| `free_customer`     | Signifies the ticket is from a non-paying end-user. This means they receive no SLA on Support Tickets |
-| `missing_sla_tag`   | This means the ticket is missing any form of SLA tagging. As this is a problem, this tag applies a Standard SLA |
-| `low`               | Signifies the ticket as a Low priority, thus granting it bare-level support SLAs for Support tickets with Priority SLA |
-| `medium`            | Signifies the ticket as a Normal priority, thus granting it mid-level support SLAs for Support tickets with Priority SLA |
-| `high`              | Signifies the ticket as a High priority, thus granting it high level support SLAs for Support tickets with Priority SLA |
-| `urgent`            | Signifies the ticket is an emergency request |
-| `prospect`          | Signifies the ticket is from a prospect. This means they receive no SLA on Support Tickets |
-| `trial`             | Signifies the ticket is from a non-paying end-user using the trial system. This means they receive no SLA on Support Tickets |
-| `consumption_only`  | Signifies the ticket is a consumption ticket |
+| Tag                            | SLA granted | What it means |
+|--------------------------------|-------------|---------------|
+| `sub_community_other`          | None        | The organization has a community subscription of an unknown type |
+| `sub_consumption_ai`           | Consumption | The organization has purchased an AI addon |
+| `sub_consumption_cicd_minutes` | Consumption | The organization has purchased CI/CD minutes |
+| `sub_consumption_eap`          | Consumption | The organization has purchased the Enterprise Agile Planning addon |
+| `sub_consumption_storage`      | Consumption | The organization has storage |
+| `sub_dotcom_premium`           | Priority    | The organization has a GitLab.com Premium subscription |
+| `sub_dotcom_ultimate`          | Priority    | The organization has a GitLab.com Ultimate subscription |
+| `sub_edu`                      | None        | The organization has a EDU community subscription |
+| `sub_gitlab_dedicated`         | Priority    | The organization has a GitLab Dedicated subscription |
+| `sub_oss`                      | None        | The organization has a OSS community subscription |
+| `sub_other`                    | General     | The organization has an unknown purchase |
+| `sub_proserv`                  | None        | The organization has a Professional Services engagement purchase |
+| `sub_sm_premium`               | Priority    | The organization has a Self-managed Premium subscription |
+| `sub_sm_starter`               | Standard    | The organization has a Self-managed Starter subscription |
+| `sub_sm_ultimate`              | Priority    | The organization has a Self-managed Ultimate subscription |
+| `sub_ss_ase`                   | General     | The organization has purchased an Assigned Support Engineer addon |
+| `sub_usgov_12x5`               | Priority    | The organization has a US Government purchase granting 12x5 support |
+| `sub_usgov_24x7`               | Priority    | The organization has a US Government purchase granting 24x7 support |
 
 </details>
 <details>
@@ -59,6 +61,36 @@ important to those working within Zendesk:
 | `open_partner`        | Signifies the ticket is from an account labeled as Open Partner |
 | `select_partner`      | Signifies the ticket is from an account labeled as Select Partner |
 | `alliance_partner`    | Signifies the ticket is from an account labeled as Alliance Partner |
+| `support_hold`        | Signifies the organization that filed the ticket has a Support Hold in place |
+
+</details>
+<details>
+<summary>Organization Tags</summary>
+
+| Tag                            | What it means |
+|--------------------------------|---------------|
+| `greatly_expired`              | The organization is slated to be removed due to data rentention policies |
+| `not_in_sfdc`                  | The organization is not being controlled by the ZD-SFDC sync |
+| `partner_customer`             | The organization has purchased from an OEM partner |
+| `restricted_account`           | The SFDC account is classified as restricted and cannot receive support |
+| `sub_community_other`          | The organization has a community subscription which had an undetectable type |
+| `sub_consumption_ai`           | The organization has an AI subscription |
+| `sub_consumption_cicd_minutes` | The organization has a CI/CD minutes purchase |
+| `sub_consumption_eap`          | The organization has an Agile Planning addon |
+| `sub_consumption_storage`      | The organization has a storage purchase |
+| `sub_dotcom_premium`           | The organization has a gitlab.com Premium subscription |
+| `sub_dotcom_ultimate`          | The organization has a gitlab.com Ultimate subscription |
+| `sub_edu`                      | The organization has an EDU community subscription |
+| `sub_gitlab_dedicated`         | The organization has a GitLab Dedicated subscription |
+| `sub_oss`                      | The organization has an OSS subscription |
+| `sub_other`                    | The organization has a subscription but the type could not be determined |
+| `sub_proserv`                  | The organization has a Proserv subscription |
+| `sub_sm_premium`               | The organization has a Self-Managed Premium subscription |
+| `sub_sm_starter`               | The organization has a Self-Managed Starter subscription |
+| `sub_sm_ultimate`              | The organization has a Self-Managed Ultimate subscription |
+| `sub_ss_ase`                   | The organization has an Assigned Support Engineer addon |
+| `sub_usgov_12x5`               | The organization has a US Government 12x5 subscription |
+| `sub_usgov_24x7`               | The organization has a US Government 24x7 subscription |
 
 </details>
 <details>
@@ -209,6 +241,7 @@ important to those working within Zendesk:
 | `support_category_auth`                                    | The Support ticket involves Authentication and Authorization                              |
 | `support_category_cicd`                                    | The Support ticket involves CI/CD                                                         |
 | `support_category_deployments`                             | The Support ticket involves Deployments                                                   |
+| `support_category_gitlab_duo`                              | The Support ticket involves GitLab Duo                                                    |
 | `support_category_instance_management`                     | The Support ticket involves Instance Management                                           |
 | `support_category_integrations`                            | The Support ticket involves Integrations                                                  |
 | `support_category_manage_infra`                            | The Support ticket involves Managing infrastructure via GitLab                            |
@@ -280,6 +313,21 @@ important to those working within Zendesk:
 | `support_deployments_review_apps`                          | The Support ticket involves deployment review apps                                        |
 | `support_deployments_rollouts`                             | The Support ticket involves deployment rollouts                                           |
 | `support_deployments_setup`                                | The Support ticket involves deployment setup                                              |
+| `support_gitlab_duo_chat`                                  | The Support ticket involves GitLab Duo chat                                               |
+| `support_gitlab_duo_code_suggestions`                      | The Support ticket involves GitLab Duo code suggestions                                   |
+| `support_gitlab_duo_errors_topic`                          | The Support ticket involves GitLab Duo errors                                             |
+| `support_gitlab_duo_generated_response_topic`              | The Support ticket involves GitLab Duo responses                                          |
+| `support_gitlab_duo_integrations_topic`                    | The Support ticket involves GitLab Duo integrations                                       |
+| `support_gitlab_duo_licensing_topic`                       | The Support ticket involves GitLab Duo licening                                           |
+| `support_gitlab_duo_mr_summary`                            | The Support ticket involves GitLab Duo merge request summaries                            |
+| `support_gitlab_duo_other`                                 | The Support ticket involves GitLab Duo                                                    |
+| `support_gitlab_duo_other_topic`                           | The Support ticket involves GitLab Duo                                                    |
+| `support_gitlab_duo_questions_topic`                       | The Support ticket involves GitLab Duo questions                                          |
+| `support_gitlab_duo_reviewers`                             | The Support ticket involves GitLab Duo reviewers                                          |
+| `support_gitlab_duo_suggestion_accuracy`                   | The Support ticket involves GitLab Duo suggestion accuracy                                |
+| `support_gitlab_duo_tests`                                 | The Support ticket involves GitLab Duo tests                                              |
+| `support_gitlab_duo_vulnerabilities`                       | The Support ticket involves GitLab Duo vulnerabilities                                    |
+| `support_gitlab_setup_topic`                               | The Support ticket involves GitLab Duo setup                                              |
 | `support_instance_management_configuration_backups`        | The Support ticket involves configuring backups                                           |
 | `support_instance_management_configuration_database`       | The Support ticket involves configuring databases                                         |
 | `support_instance_management_configuration_grafana`        | The Support ticket involves configuring grafana                                           |
@@ -722,6 +770,27 @@ So an example:
 | `high`            | Signifies the ticket as a High priority, thus granting it high level support SLAs for Support tickets with Priority SLA |
 | `urgent`          | Signifies the ticket is an emergency request |
 
+| Tag                            | SLA granted | What it means |
+|--------------------------------|-------------|---------------|
+| `sub_community_other`          | None        | The organization has a community subscription of an unknown type |
+| `sub_consumption_ai`           | None        | The organization has purchased an AI addon |
+| `sub_consumption_cicd_minutes` | None        | The organization has purchased CI/CD minutes |
+| `sub_consumption_eap`          | None        | The organization has purchased the Enterprise Agile Planning addon |
+| `sub_consumption_storage`      | None        | The organization has storage |
+| `sub_dotcom_premium`           | None        | The organization has a GitLab.com Premium subscription |
+| `sub_dotcom_ultimate`          | None        | The organization has a GitLab.com Ultimate subscription |
+| `sub_edu`                      | None        | The organization has a EDU community subscription |
+| `sub_gitlab_dedicated`         | Priority    | The organization has a GitLab Dedicated subscription |
+| `sub_oss`                      | None        | The organization has a OSS community subscription |
+| `sub_other`                    | None        | The organization has an unknown purchase |
+| `sub_proserv`                  | None        | The organization has a Professional Services engagement purchase |
+| `sub_sm_premium`               | Priority    | The organization has a Self-managed Premium subscription |
+| `sub_sm_starter`               | Standard    | The organization has a Self-managed Starter subscription |
+| `sub_sm_ultimate`              | Priority    | The organization has a Self-managed Ultimate subscription |
+| `sub_ss_ase`                   | None        | The organization has purchased an Assigned Support Engineer addon |
+| `sub_usgov_12x5`               | Priority    | The organization has a US Government purchase granting 12x5 support |
+| `sub_usgov_24x7`               | Priority    | The organization has a US Government purchase granting 24x7 support |
+
 </details>
 <details>
 <summary>Account Related Tags</summary>
@@ -738,6 +807,35 @@ So an example:
 | `open_partner`        | Signifies the ticket is from an account labeled as Open Partner |
 | `select_partner`      | Signifies the ticket is from an account labeled as Select Partner |
 | `alliance_partner`    | Signifies the ticket is from an account labeled as Alliance Partner |
+| `support_hold`        | Signifies the organization that filed the ticket has a Support Hold in place |
+
+</details>
+<details>
+<summary>Organization Tags</summary>
+
+| Tag                            | What it means |
+|--------------------------------|---------------|
+| `greatly_expired`              | The organization is slated to be removed due to data rentention policies |
+| `not_in_sfdc`                  | The organization is not being controlled by the ZD-SFDC sync |
+| `restricted_account`           | The SFDC account is classified as restricted and cannot receive support |
+| `sub_community_other`          | The organization has a community subscription which had an undetectable type |
+| `sub_consumption_ai`           | The organization has an AI subscription |
+| `sub_consumption_cicd_minutes` | The organization has a CI/CD minutes purchase |
+| `sub_consumption_eap`          | The organization has an Agile Planning addon |
+| `sub_consumption_storage`      | The organization has a storage purchase |
+| `sub_dotcom_premium`           | The organization has a gitlab.com Premium subscription |
+| `sub_dotcom_ultimate`          | The organization has a gitlab.com Ultimate subscription |
+| `sub_edu`                      | The organization has an EDU community subscription |
+| `sub_gitlab_dedicated`         | The organization has a GitLab Dedicated subscription |
+| `sub_oss`                      | The organization has an OSS subscription |
+| `sub_other`                    | The organization has a subscription but the type could not be determined |
+| `sub_proserv`                  | The organization has a Proserv subscription |
+| `sub_sm_premium`               | The organization has a Self-Managed Premium subscription |
+| `sub_sm_starter`               | The organization has a Self-Managed Starter subscription |
+| `sub_sm_ultimate`              | The organization has a Self-Managed Ultimate subscription |
+| `sub_ss_ase`                   | The organization has an Assigned Support Engineer addon |
+| `sub_usgov_12x5`               | The organization has a US Government 12x5 subscription |
+| `sub_usgov_24x7`               | The organization has a US Government 24x7 subscription |
 
 </details>
 <details>

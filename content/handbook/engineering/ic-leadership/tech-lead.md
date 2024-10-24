@@ -1,5 +1,4 @@
 ---
-
 title: "Tech Lead at GitLab"
 ---
 

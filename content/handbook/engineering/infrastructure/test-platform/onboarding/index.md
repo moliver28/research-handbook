@@ -1,5 +1,4 @@
 ---
-
 title: "Test Platform Onboarding"
 description: "Guidelines for onboarding as a new Test Platform team member"
 ---
@@ -19,8 +18,8 @@ and complete the issue.
 * General testing guidelines
   * [Testing standards and style guidelines](https://docs.gitlab.com/ee/development/testing_guide/index.html)
 * CI infrastructure for CE and EE
-  * [GitLab project pipelines](https://docs.gitlab.com/ee/development/pipelines.html)
-  * [Testing from CI](https://docs.gitlab.com/ee/development/testing_guide/ci.html)
+  * [GitLab project pipelines](https://docs.gitlab.com/ee/development/testing_guide/end_to_end/)
+  * [Testing from CI](https://docs.gitlab.com/ee/development/cicd/)
   * [Review Apps](https://docs.gitlab.com/ee/development/testing_guide/review_apps.html)
 * Tests statistics
   * [Redash Test Suite Statistics](https://redash.gitlab.com/dashboard/test-suite-statistics)
@@ -46,11 +45,10 @@ and complete the issue.
   * [Release](https://release.gitlab.net)
   * [Customer-dot](https://customers.staging.gitlab.com/)
 * CI environments
-  * Main - Slack channel [#qa-master](https://gitlab.slack.com/archives/CNV2N29DM)
-  * Nightly - Slack channel [#qa-nightly](https://gitlab.slack.com/archives/CGLMP1G7M)
-  * Performance - Slack channel [#qa-performance](https://gitlab.slack.com/archives/CH8J9EG49)
+  * Main - Slack channel [#e2e-run-master](https://gitlab.slack.com/archives/CNV2N29DM)
+  * Performance - Slack channel [#gpt-performance-run](https://gitlab.slack.com/archives/CH8J9EG49)
 * Code Review
-  * [Quality team's code review checklists](https://gitlab.com/gitlab-org/quality/code-review-checklists)
+  * [Test Platform team's code review checklists](https://gitlab.com/gitlab-org/quality/code-review-checklists)
 
 ### Slack channels
 
@@ -60,16 +58,15 @@ These internal Slack channels may be helpful to join.
   * [#infrastructure-department](https://gitlab.slack.com/archives/C02GR2DV5QT) - general department channel
   * [#test-platform](https://gitlab.slack.com/messages/C3JJET4Q6) - general sub-department channel
   * [#test-platform-lounge](https://gitlab.slack.com/archives/CGZQCTU8J) - channel where the Test Platform sub-department hangs out and posts their weekly updates
-  * [#quality_maintainers](https://gitlab.slack.com/archives/C0437FV9KBN) - channel for quality maintainers to request. Can be used to request expedited maintainer reviews when required
+  * [#test-platform-maintainers](https://gitlab.slack.com/archives/C0437FV9KBN) - channel for test platorm maintainers to request. Can be used to request expedited maintainer reviews when required
   * [#infrastructure-managers](https://gitlab.slack.com/archives/C017BFF9CJU) - channel to communicate and collaborate with all engineering managers in Infrastructure
-  * [#qa-master](https://gitlab.slack.com/archives/CNV2N29DM) - channel with end-to-end test results on master pipeline
-  * [#qa-nightly](https://gitlab.slack.com/messages/CGLMP1G7M) - channel with end-to-end test results against FIPS nightly package
-  * [#qa-preprod](https://gitlab.slack.com/messages/CCNNKFP8B) - channel with  end-to-end test results for run against pre.gitlab.com
-  * [#qa-release](https://gitlab.slack.com/archives/C0154HCFLRE) - channel with end-to-end test results for run against release.gitlab.net
-  * [#qa-staging](https://gitlab.slack.com/messages/CBS3YKMGD) -  channel with  end-to-end test results for run against staging.gitlab.com
-  * [#qa-staging-ref](https://gitlab.slack.com/archives/C02JGFF2EAZ) - channel with end-to-end test results for run against staging-ref.gitlab.com
-  * [#qa-production](https://gitlab.slack.com/messages/CCNNKFP8B) - channel with end-to-end test results for run against gitlab.com
-  * [#qa-performance](https://gitlab.slack.com/messages/CH8J9EG49) - channel with performance testing results
+  * [#e2e-run-master](https://gitlab.slack.com/archives/CNV2N29DM) - channel with end-to-end test results on master pipeline
+  * [#e2e-run-preprod](https://gitlab.slack.com/messages/CCNNKFP8B) - channel with  end-to-end test results for run against pre.gitlab.com
+  * [#e2e-run-release](https://gitlab.slack.com/archives/C0154HCFLRE) - channel with end-to-end test results for run against release.gitlab.net
+  * [#e2e-run-staging](https://gitlab.slack.com/messages/CBS3YKMGD) -  channel with  end-to-end test results for run against staging.gitlab.com
+  * [#e2e-run-staging-ref](https://gitlab.slack.com/archives/C02JGFF2EAZ) - channel with end-to-end test results for run against staging-ref.gitlab.com
+  * [#e2e-run-production](https://gitlab.slack.com/messages/CCNNKFP8B) - channel with end-to-end test results for run against gitlab.com
+  * [#gpt-performance-run](https://gitlab.slack.com/messages/CH8J9EG49) - channel with performance testing results
   * [#quality-reports](https://gitlab.slack.com/archives/C02MH85L5EF) - channel with various end-to-end test metrics reports
 * Company
   * [#product](https://gitlab.slack.com/messages/C0NFPSFA8) - observe and interact with members of the product team
@@ -99,16 +96,16 @@ When starting something new, the goal is to discover unknowns and learn them qui
 
 [Organizational psychology](https://en.wikipedia.org/wiki/Industrial_and_organizational_psychology) is the study of human behavior and motivations as it relates to work.
 
-- [WorkLife podcast by Adam Grant](https://podcasts.apple.com/us/podcast/worklife-with-adam-grant/id1346314086?mt=2)
-- [Heartbeat podcast by Claire Lew](https://knowyourteam.com/blog/podcast/)
-- [HBR IdeaCast podcast](https://hbr.org/2018/01/podcast-ideacast)
-- [Dear HBR podcast](https://hbr.org/2018/01/podcast-dear-hbr)
-- [Know Your Team blog](https://knowyourteam.com/blog/) - [most popular articles](https://knowyourteam.com/blog/our-most-popular-articles/)
+* [WorkLife podcast by Adam Grant](https://podcasts.apple.com/us/podcast/worklife-with-adam-grant/id1346314086?mt=2)
+* [Heartbeat podcast by Claire Lew](https://knowyourteam.com/blog/podcast/)
+* [HBR IdeaCast podcast](https://hbr.org/2018/01/podcast-ideacast)
+* [Dear HBR podcast](https://hbr.org/2018/01/podcast-dear-hbr)
+* [Know Your Team blog](https://knowyourteam.com/blog/) - [most popular articles](https://knowyourteam.com/blog/our-most-popular-articles/)
 
 #### People to follow on social media
 
-- [Adam Grant](https://twitter.com/AdamMGrant) - Organizational psychologist professor from Wharton
-- [Dan Pink](https://twitter.com/DanielPink) - author of [Drive: The surprising truth about what motivates us](https://www.amazon.com/Drive-Surprising-Truth-About-Motivates/dp/1594484805)
-- [Camille Fournier](https://twitter.com/skamille)
-- [Claire Lew](https://twitter.com/clairejlew) - CEO of Know Your Team.
-- [Dan Ariely](https://twitter.com/danariely) - more behavioral economics than organizational psychology
+* [Adam Grant](https://twitter.com/AdamMGrant) - Organizational psychologist professor from Wharton
+* [Dan Pink](https://twitter.com/DanielPink) - author of [Drive: The surprising truth about what motivates us](https://www.amazon.com/Drive-Surprising-Truth-About-Motivates/dp/1594484805)
+* [Camille Fournier](https://twitter.com/skamille)
+* [Claire Lew](https://twitter.com/clairejlew) - CEO of Know Your Team.
+* [Dan Ariely](https://twitter.com/danariely) - more behavioral economics than organizational psychology

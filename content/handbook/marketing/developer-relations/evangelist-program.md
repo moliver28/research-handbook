@@ -1,13 +1,6 @@
 ---
-
 title: "Evangelist Program"
 ---
-
-
-
-
-
-
 
 ## Overview
 
@@ -38,16 +31,19 @@ Key Performance Indicators for the Evangelist Program can be found in the [Marke
 When reporting on program activity, you may wish to include charts or graphs for different program KPIs. For example, you will likely want to update the program metrics when preparing for a Group Conversation. When you need to report on program metrics and activity, please follow these steps:
 
 **Meetup metrics**
+
 1. Visit GitLab's [Meetup Pro page](https://www.meetup.com/pro/gitlab/)
 1. The number of countries, meetups, and members can be found next to the GitLab logo near the top of the page.
 1. Additional Meetup insights can be found in the [Pro admin dashboard](https://www.meetup.com/pro/gitlab/admin/analytics) on Meetup (note: requires admin access)
 
 **GitLab Heroes members**
+
 1. Visit the [GitLab Heroes members page](https://about.gitlab.com/community/heroes/members/).
 1. The number of current Heroes on the page will be listed within the hero section of the page. This is our single source of truth for the number of GitLab Heroes in the program.
 1. We welcome all level of contributors to [apply](mailto:incoming+gitlab-com-marketing-community-relations-evangelist-program-git-18503012-issue-@incoming.gitlab.com) to the GitLab Heroes program. If you would like to refer someone to the program, use the GitLab Heroes referral [form](https://forms.gle/X632fCybQ5tsRQWt9).
 
 **GitLab Heroes contributions**
+
 1. Heroes Contributions are documented in the [heroes_contributions.yml](https://gitlab.com/gitlab-com/www-gitlab-com/-/blob/master/data/heroes_contributions.yml) file. This is the single source of truth for Heroes contributions.
 1. You can see recent commits to this file in the [file history](https://gitlab.com/gitlab-com/www-gitlab-com/-/commits/master/data/heroes_contributions.yml). These will provide you insight into the recent activities of the GitLab Heroes members which you can include in your reporting on the program.
 
@@ -64,7 +60,7 @@ GitLab supports team members and members of the wider GitLab community who want 
 - We love and support meetups. If you participate in local tech groups and are interested in having a GitLab speaker or GitLab as a sponsor, members of the wider GitLab community should email `evangelists@gitlab.com`. Team members should submit an [issue](https://gitlab.com/gitlab-com/marketing/community-relations/evangelist-program/general/issues/new?issuable_template=community-event). Please note, providing sufficient lead time (at least a month) allows us to better support your event so feel free to reach out as soon as possible.
 - When a meetup issue is submitted by a community member, an issue should be created using the [community event template](https://gitlab.com/gitlab-com/marketing/community-relations/evangelist-program/general/issues/new?issuable_template=community-event), labeled with the [`Meetups`](https://gitlab.com/groups/gitlab-com/marketing/-/issues?label_name%5B%5D=Meetups) label, and be given a due date on the date of the event. Meetup issues created by a GitLab team member should receive the same treatment.
 - If you are interested in creating your own GitLab meetup or if you already have an existing meetup on meetup.com that you would like to link to GitLab's meetup.com Pro account, please email `evangelists@gitlab.com`. You can find the list of GitLab meetups on the [meetup.com page](https://www.meetup.com/pro/gitlab).
-    - Connecting your group to GitLab's Meetup Pro instance will also allow you to utilize easy-to-use, custom templates for your Meetup events. When scheduling a new event on Meetup, you can choose a template by clicking on `Start from a template` in the right sidebar and choosing a template that best fits your event.
+  - Connecting your group to GitLab's Meetup Pro instance will also allow you to utilize easy-to-use, custom templates for your Meetup events. When scheduling a new event on Meetup, you can choose a template by clicking on `Start from a template` in the right sidebar and choosing a template that best fits your event.
 - When you are getting started, we recommend scheduling at least 2 meetups. Publish your first meeting with a date and topic, and then a second meeting with a date and topic. The second meeting can have a flexible topic based on how the first meeting goes. The point of setting two meet-ups is to help build momentum in the new group.
 - Often, we try to have GitLab employees attend the first couple of meetups. Once the group has hosted a couple of successful events, it becomes easier for the group to sustain itself. It is much harder to start new meetups versus maintaining existing ones. So we make an effort to support and keep new meetups going.
 - Additional information on organizing your own meetup events can be found on our [Meetup checklist](https://about.gitlab.com/community/meetups/checklist/).
@@ -82,7 +78,7 @@ Think outside the box. All meetups and community events are different. Find what
 #### Create a new Meetup group
 
 - First,  contact the Evangelism Program Manager, they will ensure you are granted access by sending you a ticket. The ticket link grants the organizer access to meetup. You then will follow the prompts to set up your new group. Happy organizing.
-- Internal steps: Dashboard → Groups → Click the button to “+ Add group” → Click button to “Create tickets” → open txt file →Copy and paste link → Send to the requestor (via Slack or Email)
+- Internal steps: Dashboard → Groups → Click the button to "+ Add group" → Click button to "Create tickets" → open txt file →Copy and paste link → Send to the requestor (via Slack or Email)
 
 #### Meetup Promotion
 
@@ -107,6 +103,7 @@ Note: GitLab asks that community organizers do not create social media accounts 
 #### Virtual Meetup support
 
 For some virtual meetups, a Zoom link may be required to execute the event. To create a Zoom link for a meetup, follow these steps:
+
 1. Log into Zoom.us with your GitLab Zoom account.
 1. Click "My Account" in the menu bar located in the upper right corner of the page.
 1. Click "Meetings" in the left side menu.
@@ -123,10 +120,10 @@ Meetups help us raise awareness of GitLab and build communities in new places. W
 
 - GitLab team member speakers should use the [Meetup Speaker template](https://gitlab.com/gitlab-com/marketing/community-relations/evangelist-program/general/issues/new?issuable_template=meetup-speaker) to create a new issue with the details for your meetup talk. Community members can contact `evangelists@gitlab.com` if they wish to share an upcoming speaking opportunity with the GitLab team.
 - Opening an issue helps us support you. A few ways we can help:
-    - Marketing: We'll share the event on our blog, via social, and with GitLab community members in the area to raise awareness of the event.
-    - Sponsorship: GitLab will cover the cost of food and beverages for meetup organizers.
-    - Swag: Our swag is pretty popular so we'll send you plenty of stickers and _maybe_ some other fun stuff to give away.
-    - Speaker prep: If you need help with your deck or would like someone to offer feedback on a dry run of your talk, the [Evangelist Program Manager](mailto:evangelists@gitlab.com) is happy to help.
+  - Marketing: We'll share the event on our blog, via social, and with GitLab community members in the area to raise awareness of the event.
+  - Sponsorship: GitLab will cover the cost of food and beverages for meetup organizers.
+  - Swag: Our swag is pretty popular so we'll send you plenty of stickers and _maybe_ some other fun stuff to give away.
+  - Speaker prep: If you need help with your deck or would like someone to offer feedback on a dry run of your talk, the [Evangelist Program Manager](mailto:evangelists@gitlab.com) is happy to help.
 
 ### GitLab Virtual Meetup group
 
@@ -271,6 +268,7 @@ Communication with Heroes applicants and members of the GitLab Heroes program is
 The [GitLab Heroes Feedback form](https://forms.gle/kGp9num9nHGWk4TF6) collects the feedback of the heroes who are looking for a more private way to contact the Evangelist Program Manager.
 
 When communicating with GitLab Heroes:
+
 - you may wish to use the **GitLab Heroes Email Templates doc** in Google Drive for acceptances, declines, follow-ups for clarification on contributions, and regular program updates. Access to these templates is limited to GitLab employees due to the sensitivity of some of the content in the templates (such as codes for Heroes swag).
 - when emailing multiple Heroes, please use BCC to add them to the email. If the intent of the email is to encourage communication between Heroes (which would be impaired by using BCC), use an issue and send it to the necessary Heroes using BCC.
 
@@ -289,29 +287,16 @@ Please follow the process detailed in the GitLab Heroes project to [request supp
 
 ### GitLab Heroes Licenses
 
-If you are a GitLab Hero seeking an Ultimate license, please create an issue in the GitLab Heroes project using the [heroes-license-request template](https://gitlab.com/gitlab-com/marketing/community-relations/gitlab-heroes/-/issues/new?issuable_template=heroes-license-request). These licenses are only open to GitLab Heroes at the Hero or Superhero level. Licenses should be for 1 user. Licenses should be issued for 6 months and can be extended as long as the GitLab Hero maintains their Hero or Superhero status in the program.
+If you are a GitLab Hero seeking access to Ultimate and Duo, please create an issue in the GitLab Heroes project using the [heroes-license-request template](https://gitlab.com/gitlab-com/marketing/community-relations/gitlab-heroes/-/issues/new?issuable_template=heroes-license-request).
 
-GitLab team members follow the steps below to assist with license request.
+Please note:
 
-The [internal request form](https://support-super-form-gitlab-com-support-support-op-651f22e90ce6d7.gitlab.io/) is used by a GitLab team member to conduct or request any modifications to licenses. Use either the **GitLab Support Internal Requests for Global customers** or **GitLab Support Internal Requests for Federal customers** request option, then select the appropriate internal request type, either for SaaS or Self-Managed.
+- These licenses are only available to GitLab Heroes at the Hero or Superhero level.
+- Licenses are for personal use and therefore limited to one user.
+- Licenses are only availble for a personal subgroup within the Community group on GitLab.com.
+- Membership to the group will be issued for 6 months and can be extended as long as the GitLab Hero maintains their Hero or Superhero status in the program.
 
-Type of request:
-
-    *  SaaS Subscription related
-    *  SaaS Trial related
-    *  Self-Managed Licence Related (paid customer only)
-    *  Self-Manged Trial Related
-    *  Other (includes wider community)
-
-Internal team member steps to complete Internal Request Form:
-
-* When filling in the form select under, What kind of request? select 'Other'.
-* Next select, Wider Community Licence
-* Fill in all the required fields.
-* For the field, What is the plan? Select, Ultimate
-* Leave note in the reason for licence being issue, mention the benefits of GitLab hero program.
-* For approval manager enter, Dev Evangelist, Senior Manager email, jcoghlan.gitlab.com.
-* double check fields - and select submit
+GitLab team members should follow the steps in the License Request issue to fulfill the license request.
 
 ### GitLab Hero Alumni Group
 
@@ -319,11 +304,11 @@ We are planning to launch the GitLab Heroes Alumni group in early February 2022.
 
 Those who join the GHA group are welcome to reinstate their active status upon resuming community activity at the GitLab Heroes level.
 
-The requirements listed on the [hero’s journey table](https://about.gitlab.com/community/heroes/#heros-journey) will continue to be the standard for qualifying to be a Hero.
+The requirements listed on the [hero's journey table](https://about.gitlab.com/community/heroes/#heros-journey) will continue to be the standard for qualifying to be a Hero.
 
 **The ask**
 
-If you would like to remain in the active GitLab Heroes group, please update your community contributions to maintain your GitLab Heroes status by following these steps:[ Adding a contribution to the GitLab Heroes Contributions](https://gitlab.com/gitlab-com/marketing/community-relations/gitlab-heroes#adding-a-contribution-to-the-gitlab-heroes-contributions-page).
+If you would like to remain in the active GitLab Heroes group, please update your community contributions to maintain your GitLab Heroes status by following these steps:[Adding a contribution to the GitLab Heroes Contributions](https://gitlab.com/gitlab-com/marketing/community-relations/gitlab-heroes#adding-a-contribution-to-the-gitlab-heroes-contributions-page).
 
 If you have not shared any recent contributions or otherwise been involved in the GitLab community between February 1, 2021 and January 31, 2022, the Evangelist Program Manager will reach out with an invite to join the GitLab Heroes Alumni group.
 
@@ -333,10 +318,10 @@ The evangelism team is looking towards the future of the GitLab Heroes program a
 
 The future of the program includes:
 
-* Heroes summits hosted during GitLab Commit conferences
-* Wider community meetups and other auxiliary events
-* Speaker support
-* and more.
+- Heroes summits hosted during GitLab Commit conferences
+- Wider community meetups and other auxiliary events
+- Speaker support
+- and more.
 
 These are just a few benefits of being an active hero. We look forward to learning more about each of your contributions to GitLab. #EveryoneCanContribute
 
@@ -348,7 +333,6 @@ GitLab Heroes swag fulfillment is managed by Boundless.
 
 Note: Process will be updated soon, new merch is coming soon.
 
-
 To replish Heroes swag, please follow the necessary steps in the [Merchandise workflow](/handbook/marketing/brand-and-product-marketing/brand/merchandise-handling/#ordering-new-swag) pages of the Handbook.
 
 ### GitLab Heroes Project
@@ -359,7 +343,7 @@ The [GitLab Heroes project](https://gitlab.com/gitlab-com/marketing/community-re
 
 If you are organizing or speaking at a community-driven GitLab-centric event, we will do our best to support you including connecting you with speakers and, when possible, sending stickers or other small swag items. At this time, we are unable to provide financial support to community events. If you have questions, you can always reach us by sending an e-mail to `evangelists@gitlab.com`.
 
-#### Student-run hackathons
+### Student-run hackathons
 
 Student hackathons are the events most frequently submitting requests for support from GitLab. Hackathon organizers who wish to leverage GitLab's DevOps platform for their events are encouraged to use free trials for their events. This can be done by directing hackathon participants to apply for a [free trial of GitLab](https://about.gitlab.com/free-trial/) for use during the hackathon which will allow them to use all of GitLab's features. In some cases, if your event meets [the criteria](/handbook/marketing/developer-relations/workflows-tools/team-budgets/#community-event-sponsorship) above at a score of 9 or higher, we may also send stickers for participants or swags as prizes. Given the volume of requests we receive, providing financial support for these events is not feasible.
 
@@ -369,9 +353,9 @@ Student hackathons are the events most frequently submitting requests for suppor
 
 The Beyond Code series elevates non-technical conversations and connects GitLab to the wider community. The topics are relatable, ranging from burnout, developer relations, remote work, branding, and much more. The chats are casual and intended for all audiences. We would like folks to feel included and heard in the discussions.
 
-We chose to host the conversations on [Twitter Spaces](https://help.twitter.com/en/using-twitter/spaces). It is an audio-only component of the social platform, Twitter. Hosting on Twitter Spaces allows us to expand our reach of listeners. Everyone is able to listen in from their phone or a web browser. Attendees can also ask questions by ‘raising a hand’ or by using the hashtag #BeyondCode. Speakers are required to join the Twitter Space from the Twitter application on their phones (iOS or Android) in order to be able to speak. A recording is available on Twitter after the space ends.
+We chose to host the conversations on [Twitter Spaces](https://help.twitter.com/en/using-twitter/spaces). It is an audio-only component of the social platform, Twitter. Hosting on Twitter Spaces allows us to expand our reach of listeners. Everyone is able to listen in from their phone or a web browser. Attendees can also ask questions by 'raising a hand' or by using the hashtag #BeyondCode. Speakers are required to join the Twitter Space from the Twitter application on their phones (iOS or Android) in order to be able to speak. A recording is available on Twitter after the space ends.
 
-* Each space is required to have a corresponding call to action (CTA). Examples of CTAs include a link to the handbook to drive traffic, a link to a GitLab issue for discussion, a blog post, learning course, or event.
+- Each space is required to have a corresponding call to action (CTA). Examples of CTAs include a link to the handbook to drive traffic, a link to a GitLab issue for discussion, a blog post, learning course, or event.
 
 #### What if I have an idea for a Beyond Code Episode?
 
@@ -379,20 +363,20 @@ Use the [Beyond Code Episode Proposal](https://gitlab.com/gitlab-com/marketing/c
 
 #### Structure of a Beyond Code Conversation
 
-* 1 Moderator (GitLab Team Member)
-* 2-3 Speakers
-* 45 minute live-recorded conversation
-* 1 administrator from the Social Media Marketing team
+- 1 Moderator (GitLab Team Member)
+- 2-3 Speakers
+- 45 minute live-recorded conversation
+- 1 administrator from the Social Media Marketing team
 
 #### Social Team Support
 
 The social team plays a very key role in the success of each episode of a Beyond Code episode. Alisha Ward, Sr. Social Media Marketing Manager, is the driving force behind all of the behind-the-scenes social media strategies of the series.
 
-* Creating the Twitter Space, including bit.ly link
-* Pre and post-event engagement
-* Recordings
-* Providing metrics/ analytics
-* and any other amplification of the episode
+- Creating the Twitter Space, including bit.ly link
+- Pre and post-event engagement
+- Recordings
+- Providing metrics/ analytics
+- and any other amplification of the episode
 
 #### Choosing speakers
 
@@ -400,7 +384,7 @@ Each conversation should showcase a diverse array of thoughts on the topic. The 
 
 When looking for internal guests, mention the topic in the #whats-happening-at-gitlab slack channel. If you have a particular person or persons in mind for the topic mention them directly in the issue template.
 
-Contact external guests by sending an email. The email allows for tracking the conversation taking place. Being that everyone doesn’t have a GitLab account.
+Contact external guests by sending an email. The email allows for tracking the conversation taking place. Being that everyone doesn't have a GitLab account.
 
 Use the guest invitation copy provided [here](https://docs.google.com/document/d/1YdyPNOFoOomhlAfyo5CQBoBuCUI00o2GW17zZUC7CA4/edit). The email template has the Know-Before-You-Chat checklist which sets expectations for pre, post, and day-of logistics for each conversation.
 
@@ -410,9 +394,9 @@ We have digital assets on Canva that were created by the GitLab Design team.
 
 There will be digital asset cards created for every episode. All cards have pertinent information to promote the episode. Only selected team members have access to edit these assets.
 
-* Introducing the event (date, time, speakers, and topic)
-* All speakers will receive a speaker card to share on social media platforms
-* Post-event retweet cards
+- Introducing the event (date, time, speakers, and topic)
+- All speakers will receive a speaker card to share on social media platforms
+- Post-event retweet cards
 
 #### Past and Upcoming Beyond Code Conversations
 
@@ -433,7 +417,7 @@ There will be digital asset cards created for every episode. All cards have pert
    <td>
 <ol>
 
-<li>GitLab talks DevRel: Don’t Judge a Career by its Title?
+<li>GitLab talks DevRel: Don't Judge a Career by its Title?
 </li>
 </ol>
    </td>
@@ -482,12 +466,11 @@ There will be digital asset cards created for every episode. All cards have pert
   </tr>
 </table>
 
-
 #### Resources
 
-* [Beyond Code Proposed Conversation Issue Template](https://gitlab.com/gitlab-com/marketing/community-relations/evangelist-program/general/-/blob/master/.gitlab/issue_templates/beyond-code.md)
-* [Guest Invitation Email Template](https://docs.google.com/document/d/1DXPP1GQ8IhYV4tWSWXJ6wdh0CMBfvzOfImSzSLp6Ymo/edit)
-* [KBYC (Know Before You Chat) Checklist ](https://docs.google.com/document/d/1DXPP1GQ8IhYV4tWSWXJ6wdh0CMBfvzOfImSzSLp6Ymo/edit)
+- [Beyond Code Proposed Conversation Issue Template](https://gitlab.com/gitlab-com/marketing/community-relations/evangelist-program/general/-/blob/master/.gitlab/issue_templates/beyond-code.md)
+- [Guest Invitation Email Template](https://docs.google.com/document/d/1DXPP1GQ8IhYV4tWSWXJ6wdh0CMBfvzOfImSzSLp6Ymo/edit)
+- [KBYC (Know Before You Chat) Checklist](https://docs.google.com/document/d/1DXPP1GQ8IhYV4tWSWXJ6wdh0CMBfvzOfImSzSLp6Ymo/edit)
 
 ## Find a tech speaker
 
@@ -519,7 +502,7 @@ GitLab must collect a signed `Media Consent and Release Form` before their conte
 
 ## Evangelist Program Office Hours
 
-Join GitLab Developer Advocates and community program managers as they host Community Program office hours. Office hours will begin May 10, 2022, via Zoom every other Tuesday at 10:30 - 11:10 AM ET - excluding holidays. They want to answer all things pertaining to contributions, release features, hackathons, meetups, events, and more. The team wants to connect with you all. Find the meeting information on the [Community Events](<a target="_blank" href="https://calendar.google.com/event?action=TEMPLATE&amp;tmeid=NTEzZGhmMWpiOWg0cjBmcXJydTZuc202MzAgZ2l0bGFiLmNvbV9ldGE3bzR0bjRidG44aDBmOGVpZDVxOThyb0Bn&amp;tmsrc=gitlab.com_eta7o4tn4btn8h0f8eid5q98ro%40group.calendar.google.com"><img border="0" src="https://www.google.com/calendar/images/ext/gc_button1_en.gif"></a>) calendar and our [meetup group](https://www.meetup.com/gitlab-virtual-meetups/).
+Join GitLab Developer Advocates and community program managers as they host Community Program office hours. Office hours will begin May 10, 2022, via Zoom every other Tuesday at 10:30 - 11:10 AM ET - excluding holidays. They want to answer all things pertaining to contributions, release features, hackathons, meetups, events, and more. The team wants to connect with you all. Find the meeting information on the [Community Events](<a target="_blank" href="https://calendar.google.com/event?action=TEMPLATE&amp;tmeid=NTEzZGhmMWpiOWg0cjBmcXJydTZuc202MzAgZ2l0bGFiLmNvbV9ldGE3bzR0bjRidG44aDBmOGVpZDVxOThyb0Bn&amp;tmsrc=gitlab.com_eta7o4tn4btn8h0f8eid5q98ro%40group.calendar.google.com"><img border="0" src="https://www.google.com/calendar/images/ext/gc_button1_en.gif" alt=""></a>) calendar and our [meetup group](https://www.meetup.com/gitlab-virtual-meetups/).
 
 ## Helpful Resources
 

@@ -24,7 +24,9 @@ To ship one real-time feature to self-managed customers.
 
 (✅ Done, ✏️ In-progress)
 
-##### [One Working Real-Time Feature, Usable by Single Instance/Small Cluster, Self-Hosting Customers](https://gitlab.com/gitlab-org/gitlab/issues/17589) `=> 100%`
+### One Real-Time Feature, Usable by Single Instance/Small Cluster, Self-Hosting Customers `=> 100%`
+
+[Issue](https://gitlab.com/gitlab-org/gitlab/issues/17589)
 
 - [Supports starting Action Cable in embedded mode](https://gitlab.com/gitlab-org/gitlab/-/issues/214061) ✅
 - [Omnibus includes ability to start embedded Action Cable with config/cable.yml](https://gitlab.com/gitlab-org/omnibus-gitlab/-/merge_requests/4066) ✅
@@ -41,7 +43,9 @@ To ship one real-time feature to self-managed customers.
 
 (✅ Done, ✏️ In-progress)
 
-##### [One Working Real-Time Feature, Usable on larger deployments](https://gitlab.com/gitlab-org/gitlab/issues/17589) `=> 100%`
+### One Real-Time Feature, Usable on larger deployments `=> 100%`
+
+[Issue](https://gitlab.com/gitlab-org/gitlab/issues/17589)
 
 - Omnibus includes ability to start standalone Action Cable Puma Server with config/cable.yml ✅
 - GDK allows configuration of standalone Action Cable and starts Puma server ✅
@@ -51,7 +55,9 @@ To ship one real-time feature to self-managed customers.
 - [QA work complete to test initial feature](https://gitlab.com/gitlab-org/quality/testcases/-/issues/1048) ✅
 - [Feature flag defaulted to on, with suitable fallback](https://gitlab.com/gitlab-org/gitlab/-/merge_requests/71953) ✅
 
-##### [Working, Real-Time Feature Available on .com](https://gitlab.com/groups/gitlab-com/gl-infra/-/epics/228) `=> 100%`
+### Working, Real-Time Feature Available on .com `=> 100%`
+
+[Epic](https://gitlab.com/groups/gitlab-com/gl-infra/-/epics/228)
 
 - [Containerization of Real-Time Feature including Action Cable and Puma](https://gitlab.com/gitlab-org/gitlab/-/issues/213861) ✅
 - [Update of Helm charts allowing use of multiple Redis instances](https://gitlab.com/gitlab-org/charts/gitlab/-/merge_requests/1287) ✅
@@ -85,8 +91,6 @@ Technical decisions and rationale are captured in [this design document]({{<ref 
 ## Meetings
 
 Meetings are recorded and publicly available on
-YouTube in the [Real-Time Working Group playlist][youtube].
+YouTube in the [Real-Time Working Group playlist](https://www.youtube.com/playlist?list=PL05JrBw4t0KoMOc_LID1fKWWR4H_2n2hQ).
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/videoseries?list=PL05JrBw4t0KoMOc_LID1fKWWR4H_2n2hQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
-[youtube]: https://www.youtube.com/playlist?list=PL05JrBw4t0KoMOc_LID1fKWWR4H_2n2hQ

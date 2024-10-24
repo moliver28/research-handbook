@@ -1,15 +1,7 @@
 ---
-aliases: /handbook/engineering/infrastructure/core-platform/systems/distribution/maintenance/dev-gitlab-org.html
-
 title: "Distribution Team Infrastructure and Maintenance - dev.gitlab.org"
 description: "Guidelines for maintaining dev.gitlab.org, including manual package upgrades/downgrades, and GitLab configuration changes."
 ---
-
-
-
-
-
-
 
 ## Common links
 
@@ -49,7 +41,6 @@ on this server is operational.
   [an issue in Infrastructure issue tracker](https://gitlab.com/gitlab-com/gl-infra/infrastructure/issues/new?issue%5Bassignee_id%5D=&issue%5Bmilestone_id%5D=)
   and label it `access request`.
 
-
 #### Manually upgrading/downgrading packages
 
 In case of an issue with the latest deploy, we might need to revert the
@@ -64,7 +55,7 @@ using the instance.
 1. Next, make an announcement in `#announcements` slack channel before
    downgrading the package:
 
-    ```
+    ```text
     I will be manually downgrading package on dev.gitlab.org to <version> as latest nightly is not working as expected. <link to issue>
     ```
 
@@ -106,6 +97,7 @@ using the instance.
     ```bash
     sudo apt-mark hold gitlab-ce
     ```
+
     and verify the hold is in place.
 
     ```bash
@@ -115,7 +107,7 @@ using the instance.
 1. Back in the `#announcements` channel, leave a message that the downgrade is
    completed:
 
-    ```
+    ```text
     Downgrade completed. The package has also been put on hold to prevent automatic upgrades. <link to issue>
     ```
 
@@ -124,7 +116,7 @@ version.**
 
 1. Start by announcing this in `#announcements` channel
 
-    ```
+    ```text
     I will be removing the package hold and manually upgrading package on dev.gitlab.org to the latest nightly. <link to issue>
     ```
 
@@ -146,7 +138,7 @@ version.**
 
 1. Finally, leave a note at the `#announcements` channel
 
-    ```
+    ```console
     Upgrade completed. dev.gitlab.org now runs <version>.
     ```
 
@@ -161,7 +153,7 @@ configuration testing, the following steps can be performed:
 
 1. Stop chef-client on this node:
 
-    ```
+    ```console
     sudo service chef-client stop
     ```
 

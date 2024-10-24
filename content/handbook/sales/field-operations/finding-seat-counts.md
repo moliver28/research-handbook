@@ -1,22 +1,12 @@
 ---
-
 title: Growth Resources
 ---
-
-
-
-
-
-
-
-
 
 ## Finding Customer Seat Counts
 
 Seat expansion is at the heart of our revenue growth. This has a strong impact on IACV and both Net and Gross Retention. There are various ways to determine the seat counts for a subscription:
 
-
-#### GitLab.com
+### GitLab.com
 
 The best way to view Seat Counts for a GitLab.com customer is to access the Customers Portal admin section.
 
@@ -31,19 +21,17 @@ The best way to view Seat Counts for a GitLab.com customer is to access the Cust
     1. Seats in Subscription is what was paid for
     1. Seats Currently in Use is what is active
 
-
 It's important to note that ultimately the Customer Portal admin will have the most accurate and up-to-date view of this information.
 
-#### Self-managed
+### Self-managed
 
-###### License Usage App
+#### License Usage App
 
 The best way to understand seat utilization for self-managed customers is by using the [License Usage Salesforce App](/handbook/sales/field-operations/sales-systems/license-usage-app/)
 
-###### Version App
+#### Version App
 
 An alternative to License Usage Salesfore App is the [Version App](https://version.gitlab.com). You will need developer access to this application to log in. Once logged in navigate to the Hosts tab. There you will be able to filter by license tier and see active user counts, historical max user counts, and other important information including last usage ping and version.
-
 
 ## Communicating Number of Seats Owed / Helping Customers Find Information - GitLab.com
 
@@ -52,6 +40,3 @@ Sometimes customers can get confused as to what they owe because they have both 
 `https://gitlab.com/groups/[group-path-name]/-/billings`
 
 To find the `group-path-name`, go to the `GitLab Groups` page in the Customers Portal admin (see instructions above) and copy the value under the `Path` column.
-
-
-

@@ -1,14 +1,7 @@
 ---
-aliases: /handbook/engineering/infrastructure/feature-support.html
 title: "Infrastructure Feature Support"
 description: "How the Infrastructure Department supports shipping features to Production."
 ---
-
-
-
-
-
-
 
 ## Getting started
 
@@ -21,9 +14,9 @@ These guidelines ensure that features in our Production environments can be oper
 
 ### Requesting and creating new GCP infrastructure resources
 
-Please use the [Sandbox Cloud GCP Group Project issue template](https://gitlab.com/gitlab-com/business-technology/engineering/infrastructure/issue-tracker/-/issues/new?issuable_template=gcp_group_account_create_request) to request new resources. After the GCP project is created, it can be configured as needed, this provides initial provisioning and IAM management. This provides basic resources and is available to anyone team-member.
+Runway is the preferred method to create and launch new services. Self service onboarding is available via the [onboarding guide](https://docs.runway.gitlab.com/guides/onboarding/) and any questions should be directed to the [`#f_runway` Slack channel](https://gitlab.enterprise.slack.com/archives/C05G970PHSA). Runway includes automated configuration and Runway provides many of the Infrastructure Readiness requirements as standard. Using Runway will make it easier and faster to promote new features into a Generally Available state in Production.
 
-As we make progress on [Project Runway](/handbook/engineering/infrastructure/platforms/tools/runway), we will encourage development teams to use Runway to provision new resources. Runway projects will include automated configuration and Runway provides many of the Infrastucture Readiness requirements as standard. Using Runway will make it easier and faster to promote new features into a Generally Available state in Production.
+If your requirements are not currently supported by Runway, or on the [Runway roadmap](https://gitlab.com/groups/gitlab-com/gl-infra/-/epics/969), you can use the [Sandbox Cloud GCP Group Project issue template](https://gitlab.com/gitlab-com/business-technology/engineering/infrastructure/issue-tracker/-/issues/new?issuable_template=gcp_group_account_create_request) to request new resources. After the GCP project is created, it can be configured as needed, this provides initial provisioning and IAM management. This provides basic resources and is available to anyone team-member.
 
 ## Severity levels for different product maturity
 

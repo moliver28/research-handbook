@@ -1,9 +1,6 @@
 ---
-
 title: "Product and Solution Marketing Metrics"
 ---
-
-
 
 ## North Star Metrics (CEO (Sid) ask on North Star Metrics)
 
@@ -18,29 +15,29 @@ Below is a list of metrics by different marketing functions in Product and Solut
 | Cust Ref | Views | Content Created (Case Studies, Quotes, References, etc) | IACV Attribution |
 | Comp Intel | Views | Content Created (Comparison Pages, etc) | IACV Attribution |
 
-## Working Definitions:
+## Working Definitions
 
 - **Impressions**: A total count of how many people viewed our content.
-    - Web pages, this is page views.  (source: google analytics?)
-    - Downloadable assets, it's downloads.   (source:??)
-    - YouTube Videos - views.   (source: youtube?...
-    - Webinars, Workshops, etc (Live Views). (source)   (note: a webinar becomes a youtube video and accrues "views").
-    - In person events where we are speaking - audience count.
+  - Web pages, this is page views.  (source: google analytics?)
+  - Downloadable assets, it's downloads.   (source:??)
+  - YouTube Videos - views.   (source: YouTube?...)
+  - Webinars, Workshops, etc (Live Views). (source)   (note: a webinar becomes a YouTube video and accrues "views").
+  - In person events where we are speaking - audience count.
 - **Content Created:** A total count of content that was NEWly created or significantly improved/updated.  (source: SM Inventory)
-- **IACV Attribution:** - our contribution to pipeline (source: sisense - attribution dashboard)??   Note: campaigns contain a Product and Solution Marketing Field which should be used to document our campaign contribution.
-- **SM Field in SFDC:** - a new field has been created in SFDC campaigns to measure our "active contribution" to campaigns. We use the following rubrik to determine our contribution:
-    - **None or Blank**: No active Contribution
-    - **Low**: Review content, validating messaging
-    - **Medium**: Revising content and /or customizing existing content
-    - **High**: Developing net new content and / or delivering content (whether new or existing content)
+- **IACV Attribution:** - our contribution to pipeline (source: Sisense - attribution dashboard)??   Note: campaigns contain a Product and Solution Marketing Field which should be used to document our campaign contribution.
+- **SM Field in SFDC:** - a new field has been created in SFDC campaigns to measure our "active contribution" to campaigns. We use the following rubric to determine our contribution:
+  - **None or Blank**: No active Contribution
+  - **Low**: Review content, validating messaging
+  - **Medium**: Revising content and /or customizing existing content
+  - **High**: Developing net new content and / or delivering content (whether new or existing content)
 
-## Product and Solution Marketing (Ashish) thoughts on metrics we should consider:
+## Product and Solution Marketing (Ashish) thoughts on metrics we should consider
 
 Multiple lenses of metrics are needed to build the narrative such as:
 
 1. WHAT do we produce?
     - Example: 5 WPs, 16 Demos, 2 customer case studies
-    - Assign to right category (Outbound, Campaign, Internal
+    - Assign to right category (Outbound, Campaign, Internal)
     - Content created vs. curated
 1. WHERE does it show up?
     - What are the various ways we activate content?
@@ -61,22 +58,23 @@ Multiple lenses of metrics are needed to build the narrative such as:
 Challenge: Why do we measure? What are our next steps / actions based on what we learn?
 
 Other considerations:
+
 - Program Budget spend analytics
 
 ## CMO (Todd) Challenge on how to measure
 
 - View of output metrics:
     1. Views/reads - Google Analytics dashboard is great because I can set goals. Some suggested fixes:
-        - Tagging youtube and blog content so you can filter
+        - Tagging YouTube and blog content so you can filter
         - Changing Use case pages to public website pages
     1. Linear Attribution of content in programs and campaigns
     1. Value of Product and Solution Marketing to other teams
         - Impact to sales (Survey?)
         - Rest of marketing (Survey?)
 - Other metrics to consider:
-    - Website first (MRs?)
-    - Metrics on views, etc.
-    - Maybe update BOM colors/links at every stand up
+  - Website first (MRs?)
+  - Metrics on views, etc.
+  - Maybe update BOM colors/links at every stand up
 
 ## Asset Inventory
 
@@ -92,24 +90,24 @@ Product and Solution Marketing tracks an inventory about what it creates and pub
 - [Website and handbook pages](https://datastudio.google.com/u/0/reporting/1jhpxOcfWp9B44smdc6Uv-tGMNyWoludX/page/JKsTB)
 - [YouTube Metrics](https://studio.youtube.com/channel/UCMtZ0sc1HHNtGGWZFDRTh5AC)
 - Learning Links:
-    - [Shane Rice - youtube video on how to build such a dashboard](https://youtu.be/tNOD5qrH6Ao)
-    - [Google Analytics for Beginners](https://analytics.google.com/analytics/academy/course/6)
+  - [Shane Rice - YouTube video on how to build such a dashboard](https://youtu.be/tNOD5qrH6Ao)
+  - [Google Analytics for Beginners](https://analytics.google.com/analytics/academy/course/6)
 
 ## Marketing Attribution Model
 
 - [Marketing attribution](https://10az.online.tableau.com/#/site/gitlab/views/DraftTDCampaigns-L2RInteractions/CampaignDrillDown?:iid=1)
-- Learning: [Marketing attribution - quick overview](https://www.bizible.com/blog/marketing-attribution-models-complete-list)
+- Learning: [Marketing attribution - quick overview](https://experienceleague.adobe.com/en/docs/marketo-measure/using/introduction-to-marketo-measure/overview-resources/marketo-measure-attribution-models)
 
 ## Customer Reference Analytics
 
 Current metric - number of cases published per month - current target - 2 / month
 
 - Metric not most efficient or in control of customer reference team
-    - Number of case studies published not always in control - example, several “completed” case studies stuck in pipeline for reasons such as - hold at pre-publish stage for PR purposes (example - EMEA), still to be approved by customer legal or marketing department
-    - Does not reflect true value to business. Examples:
-        - References help obtain results in important AR reports - Gartner MQs or Forrester Waves
-        - References help close opportunities (sales references)
-        - References help generate pipeline (example - customer speakers for webinars or conferences)
+  - Number of case studies published not always in control - example, several "completed" case studies stuck in pipeline for reasons such as - hold at pre-publish stage for PR purposes (example - EMEA), still to be approved by customer legal or marketing department
+  - Does not reflect true value to business. Examples:
+    - References help obtain results in important AR reports - Gartner MQs or Forrester Waves
+    - References help close opportunities (sales references)
+    - References help generate pipeline (example - customer speakers for webinars or conferences)
 
 Need additional metrics to measure value of customer reference activities and value delivered to the business.
 
@@ -153,7 +151,7 @@ Additional sources of metrics to consider:
         - Engagement (low threshold CTAs clicked)
         - Leads (clicked on a register/signup)
     1. Campaign (gated asset)
-        - Visits (to landing page) - (isn’t this also a valid measure, yes)
+        - Visits (to landing page) - (isn't this also a valid measure, yes)
         - Leads
     1. Internal (tied to sales ops)
         - Opportunities influenced (decks, showing up, ROI, cust ref, etc)
@@ -168,14 +166,14 @@ What do we measure today?
 Forrester reprint info (views, d/l, dwell)
 - [Customer Reference metrics](https://docs.google.com/presentation/d/1ajOzG91G3hxlqWo8uOuVUR8wrslTRVA8-0lFzjYXhZ0/edit?usp=sharing) - slide 2 is an example of current metrics (pool and attributes, requests and attributes, starting to measure some revenue attribution/impact, etc)
 - Ideas to consider:
-    - Analyst Newsletter metrics
-    - Number of briefings and inquiries led
-    - Coverage heat map - overall
-    - Coverage heat map - changes over time
-    - Analyst Relations web traffic
-    - Impact on sales (pipeline, conversion, win/loss) - SFDC touch points
-    - TEI Metrics
-    - Satisfaction - a regular internal and external surveying/measurement metric
+  - Analyst Newsletter metrics
+  - Number of briefings and inquiries led
+  - Coverage heat map - overall
+  - Coverage heat map - changes over time
+  - Analyst Relations web traffic
+  - Impact on sales (pipeline, conversion, win/loss) - SFDC touch points
+  - TEI Metrics
+  - Satisfaction - a regular internal and external surveying/measurement metric
 
 ## Examples to consider
 
@@ -186,17 +184,17 @@ Forrester reprint info (views, d/l, dwell)
 - SM Issues Analysis
 - SM Budget Spend analysis
 - CAB Data (to consider)
-    - x% that have case studies
-    - y% are active in sales
-    - z% are speaking in events (gitlab, industry, etc) for/with GitLab
-    - a% are active in analyst reference calls
-    - b% provide messaging, positioning, and persona feedback
-    - c% “decline” for our requests?
-    - STRETCH Goal: Can we analyze if we have been able to sell more into these organizations since they joined the CAB
+  - x% that have case studies
+  - y% are active in sales
+  - z% are speaking in events (GitLab, industry, etc) for/with GitLab
+  - a% are active in analyst reference calls
+  - b% provide messaging, positioning, and persona feedback
+  - c% "decline" for our requests?
+  - STRETCH Goal: Can we analyze if we have been able to sell more into these organizations since they joined the CAB
 
 ## Useful links
 
 - [Marketing KPIs](/handbook/company/kpis/#marketing-kpis)
 - Slack Channel - #keymonthlymarketingmetric
 - [Tech Stack](https://gitlab.com/gitlab-com/www-gitlab-com/-/blob/master/data/tech_stack.yml)
-    - [Pathfactory](/handbook/marketing/marketing-operations/pathfactory/)
+  - [Pathfactory](/handbook/marketing/marketing-operations/pathfactory/)

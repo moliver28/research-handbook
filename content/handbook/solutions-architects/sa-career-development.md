@@ -1,11 +1,9 @@
 ---
-aliases: /handbook/solutions-architects/career-development
 title: SA Career Development
 description: >-
   For career development Solution Architects can choose between an individual
   contributor or leadership track
 ---
-
 
 ## Career Development
 
@@ -18,11 +16,11 @@ Solutions Architecture team members you should review the [GitLab People Group C
 Because of the valuable experience and skills gained while driving customer outcomes, Solutions Architects can move to a variety of technical, sales and leadership roles in GitLab and across industries.
 The diagram below can help you exploring potential evolutions of your career development.
 
-<iframe style="border: 1px solid rgba(0, 0, 0, 0.1);" width="800" height="450" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Ffile%2FGbJpPTw3N06rIoDk93HQG9%2FSA-Career-Path%3Ftype%3Dwhiteboard%26node-id%3D0%253A1%26t%3DpWZgSrpSxzLS5CDh-1" allowfullscreen></iframe>
+<iframe style="border: 1px solid rgba(0, 0, 0, 0.1);" width="800" height="450" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fboard%2FGbJpPTw3N06rIoDk93HQG9%2FSA-Career-Path%3Fnode-id%3D0-1%26t%3D3bKqHgWXxzLX3oSk-1" allowfullscreen></iframe>
 
 While maturing a decision or assessing options, the below steps can help you throughout the process:
 
-1. Have a [career development conversation](/handbook/people-group/learning-and-development/career-development/#what-is-career-development) with your manager to discuss the learning opportunity. It’s important to:
+1. Have a [career development conversation](/handbook/people-group/learning-and-development/career-development/#what-is-career-development) with your manager to discuss the learning opportunity. It's important to:
 
     - Discuss the Career Path you want to explore and your motivation
     - Learn about what involves to be in these roles (for instance, you can read the job description for the roles you are interested in or speak directly with people who are in these roles)
@@ -45,13 +43,12 @@ The Solutions Architecture promotion process augments the [People Group Promotio
 
 1. The Planning stage of the calibration process [here](/handbook/people-group/promotions-transfers/#twice-per-year-promotion-calibration-process--timeline) typically means the SA leaders have completed all the required set of approvals including the VP of Customer Success.
 1. Before the SA Manager starts the [Promotion Approval Process](/handbook/people-group/promotions-transfers/#processing-a-promotion), the manager will inform the Director/VP of Solutions Architecture that the justification document is ready for review, typically during a 1 on 1 weekly meeting.
-    - For Staff and Principal level promotions, the promotion justificaiton document must be completed 2 quarters prior to promotion date and submitted to the Sr Director of SA for review.  The Sr Director of SA will in turn review the justificaiton with the VP of Customer Success.
+    - For Staff and Principal level promotions, the promotion justification document must be completed 2 quarters prior to promotion date and submitted to the Sr Director of SA for review.  The Sr Director of SA will in turn review the justification with the VP of Customer Success.
     - For Staff and Principal level promotions, the promotion candidate's manager will consult with the SA leadership team, typically during a weekly team meeting. This is to ensure continuous calibration for Staff and above-level roles that have lower representation amongst the SA organization.  This must occur 2 quarters before the expected promotion quarter.  For example, for a Q1 promotion, the calibration should occur in Q3 of the prior FY.
     - For Staff level promotions, the promotion candidate's manager will consult with existing Staff and Principal level SAs for peer-level review and feedback while taking detailed notes.
     - For Principal level promotions, the Principal candidates will prepare and present their accomplishments and their vision for improving GitLab and the SA organization to a panel of SA leaders and Principal level SAs after calibration has occurred.
     - The Principal promotion panel will then meet to discuss the candidate's suitability for the Principal SA role.
-1. After reviewing and providing feedback, the VP of Solutions Architecture will inform the VP of Customer success, typically during a weekly 1 on 1 meeting.
-1. The VP of Customer Success will review the request and provide feedback if necessary. If the request is approved, the VP will annotate the justification document with their approval.
+1. After reviewing and providing feedback, the VP of Solutions Architecture will inform the Manager or Director of his/her approval.
 1. At this point, the standard quarterly promotion process is followed
 
 ### Associate Solution Architecture Program
@@ -59,7 +56,7 @@ The Solutions Architecture promotion process augments the [People Group Promotio
 In FY23, GitLab kicked off its first ever Associate Program across Customer Success with the aim to:
 
 - Build the next generation of highly-diverse, well-prepared GitLab Solutions Architects
-- Grow pre-sales engineering skill sets that are focused on GitLab’s product offering, business model and aligned to customer needs
+- Grow pre-sales engineering skill sets that are focused on GitLab's product offering, business model and aligned to customer needs
 - Give existing SAs an opportunity to grow in their careers through having early-in-career SAs to mentor and coach
 
 The program leverages the enablement material that all SAs use in the onboarding process in addition
@@ -90,7 +87,6 @@ The content is supplemental to the [30/60/90 day onboarding](/handbook/solutions
 |**[SA-to-AE Coffee Chats](https://gitlab.com/gitlab-com/customer-success/solutions-architecture/associate-program/training/-/issues/new?issuable_template=SA-to-AE%20Coffee%20Chats)**||As the cohort becomes comfortable with demoing and taking the lead on calls, it is important to begin establishing relationships with the Account Executives they will support. |
 |**[Associate SA Reference Materials](https://drive.google.com/drive/folders/1NRp-a8WHdaY3nq_lLb6ejJt4Am0JEyG2)**||Associate SAs can refer to examples of demos leveraging Demo2win strategies along with the slide deck, as well as other supplemental materials. |
 
-
 #### Cohort Coaches
 
 Coaches meet with the entire cohort for either a specific session or multiple sessions.
@@ -116,7 +112,7 @@ Coaches meet with the entire cohort for either a specific session or multiple se
 | Sarah Bailey      | Sophia Manicor   |
 | Corina Patachia   | Christian Nnachi |
 
-#### How to Get Engaged with the Program!
+#### How to Get Engaged with the Program
 
 **If you are looking to coach or mentor Associate SAs** that are going through the program you can do so by helping the Associate SAs understand
 the value of different [GitLab categories within our stages](/handbook/product/categories/#hierarchy). Upon completion of Demo2Win, every week, the team is assigned a new Category to learn about and
@@ -139,13 +135,11 @@ Recognizing (and being recognized) by your peers is extremely fulfilling.  If an
 - The #deal-gratitude Slack Channel (Used primarily by the [Field Organization](/handbook/sales/field-operations/field-enablement/field-team-recognition/#deal-gratitude-slack-channel) for recognizing work on sales deals.)
 - The #wins-key-deals Slack Channel (When an SA is associated with a high profile win, they are automatically added to the details of the win within this channel. SA Leadership is working with Sales Ops to bring more attention to this notification.)
 - Various team meetings (At the start of most SA calls, there is a devoted section for expressing gratitude and appreciation.)
-- [Discretionary Bonuses](/handbook/incentives/#discretionary-bonuses-for-individuals) (If an SA has gone above and beyond and truly lived up to GitLab's CREDIT values, a discretionary bonus of $1000 US can be awarded. These nominations can come from anyone in the company and at any time.)
-
-
+- [Discretionary Bonuses](/handbook/total-rewards/incentives/#discretionary-bonuses-for-individuals) (If an SA has gone above and beyond and truly lived up to GitLab's CREDIT values, a discretionary bonus of $1000 US can be awarded. These nominations can come from anyone in the company and at any time.)
 
 ### Management Recognition
 
 At various points of the year, SA's have the opportunity to be recognized by their managers and/or Customer Success leadership.
 
 - [Field Organization Quarterly Achievers](/handbook/sales/field-operations/field-enablement/field-team-recognition/#field-quarterly-achievers-chat) (12 various winners from accross the Field Organization for outstanding performance in the Quarter. A designated chat with the CEO, CRO and the other winners as well as a $250 US expensed dinner are included)
-- [President's Club](https://internal.gitlab.com/handbook/sales/presidents-club/) (8 SA's from across the company are selected based on sales contributions throughout the year. More on the selection criteria can be found in the internal link)
+- [President's Club](https://internal.gitlab.com/handbook/sales/presidents-club/) (13 members of the SA organization (and their optional guests) from across the globe are selected based on contributions throughout the year. More on the selection criteria can be found in the internal link)

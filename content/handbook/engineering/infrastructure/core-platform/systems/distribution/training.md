@@ -1,15 +1,7 @@
 ---
-aliases: /handbook/engineering/infrastructure/core-platform/systems/distribution/training.html
-
 title: "Distribution Team Training"
 description: "Distribution Team training overview and videos"
 ---
-
-
-
-
-
-
 
 ## Common links
 
@@ -55,15 +47,15 @@ training other team members.
 
 ## Training Listings
 
-- DIS001 [GitLab Pivotal Cloud Foundry Tile](https://youtu.be/oo2p6WtHhG4)
-- DIS002 [GitLab Terraform Module](https://youtu.be/JbbKq0UrDec)
-- DIS003 [Kubernetes](https://youtu.be/Po8vUvoiMYU)
-- DIS004 [Omnibus](https://youtu.be/m89NHLhTMj4)
-- DIS005 [PG HA](https://youtu.be/2Uz2piFLp7k)
-- DIS006 [GitLab QA project](https://youtu.be/Ym159ATYN_g)
-- DIS007 [Let's Encrypt with the omnibus-gitlab package](https://youtu.be/Ac7uAED1Qzk)
-- DIS008 [GitLab Helm Chart Operator](https://youtu.be/suP5vnhBYf8)
-- [Contributor introduction to Omnibus-GitLab](https://www.youtube.com/watch?v=mCec7g6Ml70)
+* DIS001 [GitLab Pivotal Cloud Foundry Tile](https://youtu.be/oo2p6WtHhG4)
+* DIS002 [GitLab Terraform Module](https://youtu.be/JbbKq0UrDec)
+* DIS003 [Kubernetes](https://youtu.be/Po8vUvoiMYU)
+* DIS004 [Omnibus](https://youtu.be/m89NHLhTMj4)
+* DIS005 [PG HA](https://youtu.be/2Uz2piFLp7k)
+* DIS006 [GitLab QA project](https://youtu.be/Ym159ATYN_g)
+* DIS007 [Let's Encrypt with the omnibus-gitlab package](https://youtu.be/Ac7uAED1Qzk)
+* DIS008 [GitLab Helm Chart Operator](https://youtu.be/suP5vnhBYf8)
+* [Contributor introduction to Omnibus-GitLab](https://www.youtube.com/watch?v=mCec7g6Ml70)
 
 ### FAQ
 

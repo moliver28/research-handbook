@@ -29,7 +29,7 @@ Follow the steps and details for workflows that involve different types of revie
 - Ensure that direct reports to the CMO have reviewed and approved before asking the CMO to review
   - Example: A new product messaging house is developed, and the VP of Product Marketing must sign off first.
   - Example: The marketing handbook front page adds a new strategic vision for events. The VP of Integrated Marketing, and the VP of Product Marketing must sign off first.
-- When urgent, please let the [CMO’s EBA](/handbook/eba/) know and include a [due date](/handbook/communication/#communicating-dates-and-time) until when the review is required.
+- Please add [CMO's EBA](/handbook/eba/) as CC into the message and include a [due date](/handbook/communication/#communicating-dates-and-time) until when the review is required.
   - The CMO's EBA will add a notification to the CMO's calendar to finish the review request on the same day/week.
   - Example: `Urgent review ask because of the new quarter starting in two weeks, requiring the new messaging. Please review by YYYY-MM-DD, 5 PM PT. cc @<EBA name>`
 
@@ -40,7 +40,7 @@ Example review request:
 
 Context is your request to create a dedicated Slack channel, and documented guidelines for team members to share review requests and content updates, similar to the #ceo Slack channel.
 
-Please review until 2022-12-01 10am PT. cc @Jeanette McCarthy
+Please review until 2022-12-01 10am PT. cc @Laura Vickerman
 
 Follow-up actions: Share with CMO leadership, add an update for the next Marketing all-hands meeting.
 ```
@@ -55,7 +55,6 @@ Before assigning the CMO for review and approval, please ensure that the followi
 
 Follow the best practices for merge request reviews in the [CEO handbook](/handbook/ceo/#communicating-merge-requests).
 
-
 ## Sharing content to read
 
 If you have an interesting article or news item to read and learn, feel free to share it in the [#cmo Slack channel](https://gitlab.slack.com/archives/C04C38T1KQV) too.
@@ -65,5 +64,3 @@ If you have an interesting article or news item to read and learn, feel free to 
 - Add screenshots, or source URLs for better context
 - Optional: `Suggested actions:` that suggest a follow-up task for the CMO.
   - Example: Retweet/Reshare a Twitter/LinkedIn share, or share an article in the network for thought leadership.
-
-

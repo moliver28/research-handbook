@@ -1,5 +1,4 @@
 ---
-
 title: "Community Programs"
 description: "Meet the Community Programs team at GitLab"
 ---
@@ -18,7 +17,7 @@ We do this by collaborating across organizational functions whenever possible.
 
 In all that we do, we aim to create and sustain mutually beneficial relationships between members of our programs and GitLab.
 
-Please see the [Community Programs Job Family](/job-families/marketing/community-programs/) for more details about individual roles on the team.
+Please see the [Developer Relations Program Manager Job Family](https://handbook.gitlab.com/job-families/marketing/devrel-program-manager/) for more details about individual roles on the team.
 
 ## What is a community program?
 
@@ -41,8 +40,8 @@ We strive to be thought leaders in each respective community.
 
 | Community Program      | Handbook Page                                                                               | Marketing Page | Application Page | Program Owner                                     | Email Address|
 |------------------------|---------------------------------------------------------------------------------------------| -------------- | ---------------- |---------------------------------------------------|-----------|
-| GitLab for Education   | [Handbook](/handbook/marketing/developer-relations/community-programs/education-program/)   | [Marketing page](https://about.gitlab.com/solutions/education/) | [Application page](https://about.gitlab.com/solutions/education/join/) | [Alexander Karsten](https://gitlab.com/akarsten1) | `education@gitlab.com` |
-| GitLab for Open Source | [Handbook](/handbook/marketing/developer-relations/community-programs/open-source-program/) | [Marketing page](https://about.gitlab.com/solutions/open-source/) | [Application page](https://about.gitlab.com/solutions/open-source/join/) | [Alexander Karsten](https://gitlab.com/akarsten1) | `opensource@gitlab.com` |
-| GitLab for Startups    | [Handbook](/handbook/marketing/developer-relations/community-programs/startups-program/)    | [Marketing page](https://about.gitlab.com/solutions/startups/join/) | [Application page](https://about.gitlab.com/solutions/startups/join/)| [Alexander Karsten](https://gitlab.com/akarsten1) | `startups@gitlab.com` |
+| GitLab for Education   | [Handbook](/handbook/marketing/developer-relations/community-programs/education-program/)   | [Marketing page](https://about.gitlab.com/solutions/education/) | [Application page](https://about.gitlab.com/solutions/education/join/) | [Alexander Karsten] (https://gitlab.com/akarsten1)  [Jana Sena](https://gitlab.com/janasenap)| `education@gitlab.com` |
+| GitLab for Open Source | [Handbook](/handbook/marketing/developer-relations/community-programs/open-source-program/) | [Marketing page](https://about.gitlab.com/solutions/open-source/) | [Application page](https://about.gitlab.com/solutions/open-source/join/) | [Alexander Karsten](https://gitlab.com/akarsten1) [Jana Sena](https://gitlab.com/janasenap)| `opensource@gitlab.com` |
+| GitLab for Startups    | [Handbook](/handbook/marketing/developer-relations/community-programs/startups-program/)    | [Marketing page](https://about.gitlab.com/solutions/startups/join/) | [Application page](https://about.gitlab.com/solutions/startups/join/)| [Alexander Karsten](https://gitlab.com/akarsten1) [Jana Sena](https://gitlab.com/janasenap)| `startups@gitlab.com` |
 
-Please see the GitLab [Environment, Social, and Governance (ESG)](/handbook/legal/ESG/) handbook page for information about the GitLab for Non-Profits Program.
+GitLab for Non-Profits is not a part of Community Programs.Please see the GitLab [Environment, Social, and Governance (ESG)](/handbook/legal/esg/) handbook page for information about the GitLab for Non-Profits Program.

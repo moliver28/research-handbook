@@ -6,28 +6,29 @@ description: Learn about the dashboards that are used in community-related dashb
 ### Dashboards we use
 
 To view the dashboard your browser must allow third-party cookies.
+
 - [Wider Community PIs](https://us-west-2b.online.tableau.com/t/gitlabpublic/views/WiderCommunityPIsPart1/WiderCommunityPIsDashboardPart1)
-   - Unique Wider Community Contributors per Month
-   - Amount of MRs created, merged & closed
-   - Time between MR created and merged (OCMA)
-   - Time between MR ready for review & reviewed
+  - Unique Wider Community Contributors per Month
+  - Amount of MRs created, merged & closed
+  - Time between MR created and merged (OCMA)
+  - Time between MR ready for review & reviewed
 - [Leading Organizations PIs](https://us-west-2b.online.tableau.com/t/gitlabpublic/views/LeadingOrganizationsPIsPart1/LeadingOrganizationsPIsPart1)
-   - Time to review SLO
-   - Open MRs from Leading Organizations & their age
+  - Time to review SLO
+  - Open MRs from Leading Organizations & their age
 - [MRARR Dashboard](https://10az.online.tableau.com/t/gitlab/views/MRARRDashboard_17055242209630/MRARRDashboard)
-   - Customers ARR * Number of MRs
-   - Shows how we are doing towards the target
+  - Customers ARR * Number of MRs
+  - Shows how we are doing towards the target
 - [MRARR Diagnostics](https://10az.online.tableau.com/t/gitlab/views/MRARRDiagnostics/MRARRDiagnostics)
-   - Identifies MRs from customers that are not being tracked yet
-   - Identifies projects with contributions that are not being tracked yet
-   - See [Contributing Orgs tracker](/handbook/marketing/developer-relations/contributor-success/contributing-org-tracker.html) for details
+  - Identifies MRs from customers that are not being tracked yet
+  - Identifies projects with contributions that are not being tracked yet
+  - See [Contributing Orgs tracker](/handbook/marketing/developer-relations/contributor-success/contributing-org-tracker.html) for details
 
 ## Tableau dashboard
 
 ### `product_community_contribution_mrs`
 
 Merge requests with ~"Community contribution" label, opened in
-[projects that are part of the product](/handbook/engineering/metrics/#projects-that-are-part-of-the-product).
+[projects that are part of the product](/handbook/product/groups/product-analysis/engineering/dashboards/#projects-that-are-part-of-the-product).
 
 The results include MR type, MR age, MR labels, MR stage, MR group, MR section.
 

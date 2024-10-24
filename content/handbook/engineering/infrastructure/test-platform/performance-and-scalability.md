@@ -1,14 +1,7 @@
 ---
-
 title: "Performance and Scalability"
 description: "The Quality Department has a focus on measuring and improving the performance of GitLab, as well as creating and validating reference architectures that self-managed customers can rely on as performant configurations."
 ---
-
-
-
-
-
-
 
 The Quality Department has a focus on measuring and improving the performance of GitLab, as well as
 creating and validating reference architectures that self-managed customers can rely on as
@@ -22,7 +15,7 @@ The goal is to provide tested and verified examples to customers which can be us
 give insight into what changes need to be made as organizations scale.
 
 [Reference Architectures](https://gitlab.com/gitlab-org/quality/reference-architectures) project is used to track all work related
-to GitLab Reference Architectures and [`#reference-architectures`](https://gitlab.slack.com/archives/C015V8PDUSW) Slack channel is used for 
+to GitLab Reference Architectures and [`#reference-architectures`](https://gitlab.slack.com/archives/C015V8PDUSW) Slack channel is used for
 discussions related to the Reference Architectures.
 
 | Users      | Status            | Link to more info                                                                                                                                                         |
@@ -42,7 +35,6 @@ discussions related to the Reference Architectures.
 | 50k        | Complete          | [Documentation](https://docs.gitlab.com/ee/administration/reference_architectures/50k_users.html)                                                                         |
 | 50k hyrbid | Complete          | [Documentation](https://docs.gitlab.com/ee/administration/reference_architectures/50k_users.html#cloud-native-hybrid-reference-architecture-with-helm-charts-alternative) |
 | 100k       | To Do (on demand) | [Issue link](https://gitlab.com/gitlab-org/quality/reference-architectures/-/issues/6)                                                                                    |
-
 
 ## Performance Tool
 
@@ -67,9 +59,10 @@ found, issues are created for degraded endpoints and are then prioritized during
 [Bug Refinement](../#bug-refinement) meeting.
 
 High-level GPT pipeline overview:
+
 - Update environment job: starts up and updates the target environment from [Quality Config](https://gitlab.com/gitlab-org/quality/gitlab-environment-toolkit-configs/quality) with the latest Nightly using [GitLab Environment Toolkit](https://gitlab.com/gitlab-org/gitlab-environment-toolkit)
 - Test job: runs performance [tests](https://gitlab.com/gitlab-org/quality/performance/wikis/current-test-details) against the environment
-- Report job: publishes results to [GPT Wiki](https://gitlab.com/gitlab-org/quality/performance/wikis/Benchmarks/Latest) and [`#qa-performance`](https://gitlab.slack.com/archives/CH8J9EG49) Slack channel
+- Report job: publishes results to [GPT Wiki](https://gitlab.com/gitlab-org/quality/performance/wikis/Benchmarks/Latest) and [`#gpt-performance-run`](https://gitlab.slack.com/archives/CH8J9EG49) Slack channel
 - Stop job: [stops](https://cloud.google.com/compute/docs/instances/stop-start-instance) the target environment instances to save costs
 
 #### Test Results
@@ -85,7 +78,7 @@ It builds GitLab docker container with the test data using [performance-images](
 runs GPT against the last 5 GitLab versions simultaneously, then it generates performance results summary.
 
 The latest results are automatically posted to [the GitLab versions wiki page](https://gitlab.com/gitlab-org/quality/performance/wikis/Benchmarks/GitLab-Versions)
-in the GPT project and [`#qa-performance`](https://gitlab.slack.com/archives/CH8J9EG49) Slack channel.
+in the GPT project and [`#gpt-performance-run`](https://gitlab.slack.com/archives/CH8J9EG49) Slack channel.
 
 #### No shared environments usage
 
@@ -98,6 +91,29 @@ To ensure consistent and reliable performance results we need to effectively con
 1. Investigating any performance test failures wouldn't be possible due to various reasons as shown above to find the cause as well as not having full access to the environment to perform investigations.
 
 For the above reasons we test against fully controlled environments and don't tests others such as Staging or Production.
+
+#### No performance test runs in merge requests
+
+GitLab Performance Tool tests are not executed in merge requests due to several critical factors:
+
+1. Requirement for Consistent Test Conditions: 
+   - Performance tests demand strictly repeatable conditions for accurate results.
+   - This includes identical server specifications, network conditions, and test data across runs.
+2. Cost, Time and Resource Constraints:
+   - A complete performance pipeline, including environment setup, data seeding, test execution, and teardown, can exceed 6 hours.
+   - This duration is not cost-effective for merge request pipelines and can significantly slow down the development process.
+   - Full-scale performance tests require a Reference Architecture environment, which is impractical and costly to build for each merge request.
+   - It may also consume excessive CI/CD resources, impacting other critical pipelines.
+3. Result Interpretation Complexity:
+   - Performance test results often have inherent variability or "noise".
+   - Accurate interpretation requires human expertise to distinguish between normal fluctuations and actual performance degradations.
+   - This manual review process is not feasible for every merge request.
+4. Focus on End-to-End Performance:
+   - These tests are designed to evaluate the overall system performance, which may not be significantly impacted by individual merge requests.
+
+Given these considerations, we adopt an approach of conducting comprehensive performance tests at the end of the test chain, where we can best control the conditions and allocate necessary resources.
+
+For shifting performance testing left, the recommended approach is to break down performance testing to specific components rather than the entire application. For example, GitLab team maintains performance testing for [Database Queries](https://docs.gitlab.com/ee/development/database/database_lab.html). Similar unit-level performance testing approach can be followed by creating dedicated test frameworks, where the components are configured only the mock data and stressed tested accordingly.
 
 ### Expanding the Tool
 
@@ -121,7 +137,7 @@ We have created the [GitLab Browser Performance Tool](https://gitlab.com/gitlab-
 to specifically test web page frontend performance in browsers. More detailed information about
 the current test pages list can be viewed at the [Test Details wiki page](https://gitlab.com/gitlab-org/quality/performance-sitespeed/-/wikis/Current-Test-Details).
 
-Testing process is similar to [GPT testing process](#testing-process). After 10k environment is updated to the latest Nightly,
+Testing process is similar to [GPT testing process](#test-process). After 10k environment is updated to the latest Nightly,
 GBPT is run against the environment and then it's being shut down to save costs.
 
 | Environment                                                                             | GCP project                                                                         | Schedule                                                                                          | Latest results and dashboards                                                                  |

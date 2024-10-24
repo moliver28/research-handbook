@@ -108,7 +108,10 @@ At GitLab, we define them a bit differently:
 - Open
   - This means the ticket is awaiting our reply.
 - Pending
-  - This means we are waiting on the end-user to reply.
+  - This means we are waiting on the end-user to reply. We should only use this
+    specifically when the user will reply back to the ticket (or it will
+    auto-solve). If you need to keep a ticket in a "pending" like state for
+    lengthy periods of time, use `On-hold`.
 - On-hold
   - This means the end-user is waiting on us, but we are waiting on something
     that is blocking us from replying. We should only be using this in
@@ -121,32 +124,89 @@ At GitLab, we define them a bit differently:
 - Closed
   - We use them exactly as Zendesk defines them.
 
+## Basic status state flowchart
+
+```mermaid
+flowchart LR
+  ASSIGNED-->OPEN
+  CUSTOMER_REPLY-->OPEN
+  DEV_PULSE-->ONHOLD_SPECIAL
+  HOLDING_REPLY-->ONHOLD
+  ISSUE_MR_UPDATED-->OPEN
+  NEW-->ASSIGNED
+  NEW-->DEV_PULSE
+  NEW-->HOLDING_REPLY
+  NEW-->STANDARD_REPLY
+  NEW-->TASK_REPLY
+  ONHOLD-->CUSTOMER_REPLY
+  ONHOLD-->DEV_PULSE
+  ONHOLD_SPECIAL-->ISSUE_MR_UPDATED
+  ONHOLD-->TIME_PASSES_4
+  ONHOLD-->TIME_PASSES_DUE_DATE
+  ONHOLD-->TIME_PASSES_NAMESQUATTING_7
+  OPEN-->DEV_PULSE
+  OPEN-->HOLDING_REPLY
+  OPEN-->STANDARD_REPLY
+  OPEN-->TASK_REPLY
+  PENDING-->CUSTOMER_REPLY
+  PENDING-->DEV_PULSE
+  PENDING-->TIME_PASSES_14
+  SOLVED-->CUSTOMER_REPLY
+  SOLVED-->DEV_PULSE
+  STANDARD_REPLY-->PENDING
+  SOLVED-->TIME_PASSED_7
+  TASK_REPLY-->ONHOLD
+  TIME_PASSED_7-->CLOSED
+  TIME_PASSES_14-->SOLVED
+  TIME_PASSES_4-->OPEN
+  TIME_PASSES_DUE_DATE-->OPEN
+  TIME_PASSES_NAMESQUATTING_7-->OPEN
+
+  ASSIGNED[Ticket is<br />assigned]
+  CLOSED[Status:<br />Closed]
+  CUSTOMER_REPLY[Customer replies]
+  DEV_PULSE[Agent activates<br />Dev Pulse]
+  HOLDING_REPLY[Agent sends<br />standard<br />holding reply]
+  ISSUE_MR_UPDATED[Linked issue/MR<br />reaches needed<br />state]
+  NEW{Status:<br />New}
+  ONHOLD_SPECIAL{"Status:<br />On-hold<br />(Dev Pulse)"}
+  ONHOLD{Status:<br />On-hold}
+  OPEN{Status:<br />Open}
+  PENDING{Status:<br />Pending}
+  SOLVED{Status:<br />Solved}
+  STANDARD_REPLY[Agent sends<br />standard reply]
+  TASK_REPLY[Agent sends task<br />holding reply]
+  TIME_PASSED_7[7 days pass]
+  TIME_PASSES_14[14 days pass]
+  TIME_PASSES_4[4 days pass for<br />non-namesquatting<br />ticket]
+  TIME_PASSES_DUE_DATE[Time passes until<br />1 hour before<br />due date]
+  TIME_PASSES_NAMESQUATTING_7[7 days pass<br />for namesquatting<br />ticket]
+```
+
 ## Manually creating tickets
 
 The process to manually create a ticket depends largely on the type of ticket it
 is.
 
-#### Creating tickets on behalf of customers
+### Creating tickets on behalf of customers
 
-When creating a ticket on behalf of a customer, you need to navigate to the
-support portal for the Zendesk instance you are working on in a browser that is
-*not logged into Zendesk*. From there, you would create a ticket much like any
-customer would. See
-[Creating a ticket](https://about.gitlab.com/support/portal/#creating-a-ticket)
-for more information.
+When creating a ticket on behalf of a customer, you have to use the Zendesk
+Super App to do so (namely the `Create new ticket` plugin). You can find more
+information on this via the following documentation pages:
 
-#### Creating tickets for outbound requests
+- [Zendesk Global](/handbook/support/readiness/operations/docs/zendesk/apps/global-apps#zendesk-super-app)
+- [Zendesk US Government](/handbook/support/readiness/operations/docs/zendesk/apps/us-government-apps#zendesk-super-app)
+
+**Note** This should never be used for outbound requests.
+[See below](#creating-tickets-for-outbound-requests) for more info for those.
+
+### Creating tickets for outbound requests
 
 **Warning** This often requires the ability to *create users* in Zendesk, which
 is only available on specific roles i.e. CMOCs. That access is *very* risky and
 should only be used as documented in this section.
 
 **Note** This only applies to Zendesk Global at this time.
-
-**Note** Doing this will bring up the new ticket page. The main part of the page
-may look different depending on if you are using the
-[agent workspace](/handbook/support/readiness/operations/docs/agent_workspace)
-or not, but the left side should be uniform.
 
 When you need to send an outbound request, it must be done in a very specific
 manner to ensure it routes properly and the end-user we wish to contact receives
@@ -203,12 +263,12 @@ As the ticket settings changes are unique in deployment, please see
 [Zendesk settings change management](/handbook/support/readiness/operations/docs/change_management#zendesk-settings-change-management)
 for more information.
 
-#### Labels to use
+### Labels to use
 
 For all issues and MRs involving Zendesk settings, the label
 `Support-Ops-Category::Zendesk Settings` should be used.
 
-#### Change criticality
+### Change criticality
 
 Due to wildly varying nature and impact adding/editing/deleting Zendesk
 settings can impose, all issues/MRs related to Zendesk organizations need

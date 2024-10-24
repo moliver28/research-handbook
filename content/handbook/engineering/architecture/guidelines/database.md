@@ -1,9 +1,8 @@
 ---
-
 title: "Database"
 ---
 
-GitLab is a [single application](/handbook/product/single-application/) that relies on a [single data store](/handbook/product/single-application/#single-data-store) (terminology we use in the context of stringent durability requirements, e.g., PostgreSQL as opposed to Redis).
+GitLab is a [single application](/handbook/product/categories/gitlab-the-product/single-application/) that relies on a [single data store](/handbook/product/categories/gitlab-the-product/single-application/#single-data-store) (terminology we use in the context of stringent durability requirements, e.g., PostgreSQL as opposed to Redis).
 
 This directive drives GitLab's product development: while GitLab is [*SaaS first*](https://about.gitlab.com/direction/#product-strategy), it is not *SaaS only*. In terms of databases, GitLab supports self-managed configurations with a single database cluster, generally through the use of logical databases. Only at scale do we contemplate unfolding the single cluster into multiple ones, as GitLab.com does. This implies that the code base stays stable and can leverage flexible backend strategies to address scalability. Self-managed and GitLab.com will continue to operate as a single application, and self-managed in particular will continue to provide simplicity while offering the flexibility to scale.
 
@@ -17,9 +16,9 @@ These guidelines rely heavily on the Database Working Group [glossary](/handbook
 
 First and foremost, access to the database (any database) can only happen within the confines of the production environment and relevant access controls and procedures. Features and services requesting new resources must undergo a [production readiness review](/handbook/engineering/infrastructure/production/readiness/).
 
-Second, we need to fully understand what that statement actually means, particularly in terms of the type of data that has to be stored and queried, how tightly coupled it is to the main database, and how schemas and configurations are to be managed. 
+Second, we need to fully understand what that statement actually means, particularly in terms of the type of data that has to be stored and queried, how tightly coupled it is to the main database, and how schemas and configurations are to be managed.
 
-Third, we need to understand what it will mean in terms of resource utilization (space requirements, transaction rates, expected growth for both). 
+Third, we need to understand what it will mean in terms of resource utilization (space requirements, transaction rates, expected growth for both).
 
 Finally, we need to understand if the data requires a new data store engine, since this will have significant implications once it is deployed in production in terms of the deployment itself, on-going maintenance (such as upgrades), observability integrations, and, more importantly, troubleshooting during incidents.
 

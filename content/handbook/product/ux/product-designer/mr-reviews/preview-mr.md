@@ -5,19 +5,19 @@ description: "Guidelines for Product Designers when reviewing merge requests."
 
 ## Overview
 
-This page outlines detailed guidelines for different ways of reviewing merge requests (MRs) for “UX reviews” or “Product Design MR reviews”. For step by step guidance of the full process go to the [Product Design MR reviews page](/handbook/product/ux/product-designer/mr-reviews).
+This page outlines detailed guidelines for different ways of reviewing merge requests (MRs) for "UX reviews" or "Product Design MR reviews". For step by step guidance of the full process go to the [Product Design MR reviews page](/handbook/product/ux/product-designer/mr-reviews).
 
 ## Review, test, and contribute
 
 There are several methods for you to review, test, and contribute changes to the app, user documentation, Pajamas, GitLab UI or company handbook.
 
 We [encourage MR authors to add screenshots or videos](https://docs.gitlab.com/ee/development/contributing/merge_request_workflow.html)
-of their changes. However as they don’t cover all review aspects (for example, hover states, small viewports, accessibility, and so on.), you cannot rely on them exclusively and should always review the MR in a live environment.
+of their changes. However as they don't cover all review aspects (for example, hover states, small viewports, accessibility, and so on.), you cannot rely on them exclusively and should always review the MR in a live environment.
 
 The most common methods to review the MR in a live environment are:
 
 - **Gitpod** ([Get started](#gitpod) and [Help](#help)): Pre-configured cloud environment that quickly provides a clean and immediately usable app, by just clicking on a link. Can be used to run GitLab instances (using GDK, see below), user documentation, Pajamas, or company handbook.
-- **GitLab Development Kit (GDK)** ([Get started](#gdk) and [Help](#help)): It's how we install and maintain GitLab instances on our local machines. However, some technical knowledge is needed, its speed depends on your local machine, and it’s quite easy for the GDK to become “broken” when it's updated.
+- **GitLab Development Kit (GDK)** ([Get started](#gdk) and [Help](#help)): It's how we install and maintain GitLab instances on our local machines. However, some technical knowledge is needed, its speed depends on your local machine, and it's quite easy for the GDK to become "broken" when it's updated.
 - **Review Apps** ([Get started](#review-apps)): Unique links specifically created for each MR to preview their changes. Ideal for documentation changes (Pajamas or company handbook). Unfortunately, previewing a GitLab instance is very limited compared to other methods ([improvements epic](https://gitlab.com/groups/gitlab-org/-/epics/6660)).
 - **Sync with author**: Although we have a [bias towards asynchronous communication](/handbook/values/#bias-towards-asynchronous-communication), sometimes it's more productive to have a one-on-one sync with the MR author. Can be especially helpful if changes are hard to test or reproduce.
 
@@ -95,7 +95,7 @@ see [how to manually connect your GitLab.com account](https://www.gitpod.io/docs
 
 You can enable a feature flag by sending an API request to the review app using a tool such as `curl` or [Postman](https://www.postman.com).
 
-### Help!
+### Help
 
 If you get stuck using any of these methods, follow the tips below in order. Don't
 struggle on your own and, when in doubt, ping a UX member to facilitate finding
@@ -113,4 +113,3 @@ the right help.
     1. Ask for help in the `#gdk` Slack channel.
     1. Reach out to a UX help volunteer: [Taurie Davis](/handbook/company/team/#tauriedavis), [Sunjung Park](/handbook/company/team/#sunjungp)
     (add yourself!)
-

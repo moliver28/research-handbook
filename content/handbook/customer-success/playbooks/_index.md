@@ -1,17 +1,10 @@
 ---
-
 title: Customer Success Playbooks
 ---
 
-
-
-
-
-
-
 View the [Customer Success homepage](/handbook/customer-success/) for additional Customer Success handbook content.
 
-- - -
+---
 
 Customer Success playbooks assist in selling, driving adoption, and ultimately delivering more value to customers via GitLab's DevOps platform. The below playbooks will include original content as well as links to other parts of the handbook.
 
@@ -48,7 +41,7 @@ Customer Success playbooks assist in selling, driving adoption, and ultimately d
 
 ## Catalog of Playbooks
 
-The following playbooks are aligned to our [customer adoption journey](/handbook/customer-success/vision/#high-level-visual-of-gitlab-adoption-journey) and support adoption of the related customer capability and [GitLab stage](/handbook/product/categories/). Within Gainsight, the CSM can manually add any Playbook ([instructions](/handbook/customer-success/csm/gainsight/#ctas)) to a Customer.
+The following playbooks are aligned to our [customer adoption journey](/handbook/customer-success/customer-success-vision/#high-level-visual-of-gitlab-adoption-journey) and support adoption of the related customer capability and [GitLab stage](/handbook/product/categories/). Within Gainsight, the CSM can manually add any Playbook ([instructions](/handbook/customer-success/csm/gainsight/#ctas)) to a Customer.
 
 | Playbook Name                                                   | Automated/Manual | Type            | Internal Reference Link                                      |
 |-----------------------------------------------------------------|------------------|-----------------|--------------------------------------------------------------|

@@ -1,5 +1,4 @@
 ---
-
 title: How to Perform Customer Emergencies Duties
 category: On-call
 description: "Describes the role and responsibilities for Customer Emergencies rotation in Support Engineering"
@@ -44,9 +43,40 @@ An example DRI schedule is below. Note that AMER 2 is DRI for 30 minutes longer 
 - AMER 2 DRI: 14:30pm - 17:30pm EDT
 - AMER 3 DRI: 17:30pm - 20:00 EDT
 
+##### Balancing ticket load while on-call
+
+###### Before On-Call
+
+- 🎫 Maintain your regular workload during the week prior.
+- 📅 Toward the end of the week (Thursday-Friday), look through your queue:
+  - Identify the tickets that will need to be [handed over](https://gitlab.com/gitlab-com/support/support-team-meta/-/issues/6371) (i.e. High priority tickets, high touch tickets, STAR’ed or escalated customers)
+    - Leave the summary you would want to receive
+    - Work with your network/peers/Support Pod to find an Assignee for each of those tickets
+- During the week before you are on-call, discuss tickets that need to be handed over with your manager. Assign these tickets to them to ensure they have a DRI and chat through Next Steps as needed. (It's expected that your Manager will help with finding an Assignee to work on the ticket.)
+  - 🔎 Identify tickets you can reasonably keep during on-call week
+    - 📉Try to enter the on-call week with about ~20% less than the AQC baseline. (Current: 22) 
+NOTE: 💡Solving emergency tickets will count towards your AQC
+
+###### During On-Call
+
+- Emergencies are unpredictable, so remember that your main objective this week is to deliver results for customers who contact CEOC
+- 🔥 If one of your assigned tickets gets hot, you can [STAR the ticket](/handbook/support/internal-support/support-ticket-attention-requests.md), or raise attention to a Support Leader who can help
+- Help with the Global queue as you can
+  - Take easy win tickets (i.e. 2FA, Low priority, free user tickets) as you are able 
+  - Leave internal notes with next steps on tickets if you cannot take assignment
+  - Pair and participate in Support Pod sessions as you are able
+- 🧠 Remember: your goal this week is to take care of customers who page CEOC 
+
+###### Week After On-Call
+
+- Take time off as needed based on how things went that weekend or the previous week
+  - If you plan to take time off, please ensure that you complete any extra steps so that your pending tickets are in good hands 🫶
+- If you had to leave something for later while on-call — do it now
+- Ramp up as quickly as you reasonably can to normal AQC
+
 ### Communicate
 
-When you get an alert, you should immediately use the PagerDuty message in Slack to start a thread and take notes therein. Tag the Customer Success Manager (CSM) - "cc @user" is good enough - if the customer has one (steps [here](/handbook/support/workflows/support-sales-escalations#role-customer-success-manager-csm) for how to identify CSMs). This creates visibility around the situation and opens the door to let the team join in.
+When you get an alert, you should immediately use the PagerDuty message in Slack to start a thread and take notes therein. Tag the Customer Success Manager (CSM)—`cc @user` is good enough—if the customer has one (see [this workflow for how to identify CSMs](/handbook/support/workflows/support-sales-escalations#role-customer-success-manager-csm)). This creates visibility around the situation and opens the door to let the team join in.
 
 Good notes in Slack help others follow along, and help you with your follow-ups after the call.
 
@@ -88,6 +118,7 @@ Once you have enough information to make a determination, use one of the other m
 ##### Apply "Downgrade emergency ticket" macro
 
 Applying the macro will lead to the following changes:
+
 - Form will be set to Self-Managed.
 - Priority will be set to High.
 - Ticket stage will be set to NRT.
@@ -125,7 +156,7 @@ The important details to include in the message are:
 
 ### (Optional) Contact the on-call Support Manager
 
-If at any point you would like advice or help finding additional support, [contact the on-call Support Manager](/handbook/support/on-call/#paging-the-on-call-manager). The on-call manager is there to support you. They can locate additional Support Engineers if needed. This can make it easier to handle a complex emergency by having more than one person on the call, so you can share responsibilities (e.g., one person takes notes in Slack while the other communicates verbally on the call). Managers are on-call during weekends, so you can page for help at any time.
+If at any point you would like advice or help finding additional support, [contact the on-call Support Manager](/handbook/support/on-call/#engaging-the-on-call-manager). The on-call manager is there to support you. They can locate additional Support Engineers if needed. This can make it easier to handle a complex emergency by having more than one person on the call, so you can share responsibilities (e.g., one person takes notes in Slack while the other communicates verbally on the call). Managers are on-call during weekends, so you can page for help at any time.
 
 ### Respond to PagerDuty alerts
 
@@ -267,11 +298,11 @@ As soon as the customer incident is resolved, mark the emergency ticket as solve
   - Be sure to let the customer know that follow up work will continue in this ticket.
 
 - **Option 2: There is no related ticket:**
-   1. Use a browser incognito window to create a new ticket via the [support portal](https://support.gitlab.com) (not via Zendesk itself). Use the customer email address in the "Your email address" field. Review the new ticket to ensure it is properly associated to the correct customer Organization.
+   1. Create a new ticket by following the steps provided in this doc [How can I open a new ticket on behalf of a customer?](/handbook/support/workflows/working-on-tickets/#how-can-i-open-a-new-ticket-on-behalf-of-a-customer).
    1. Let customer know in the ticket description that follow-up work will continue in this ticket.
    1. Add an internal comment linking to the (closed) emergency ticket.
    1. Add an internal comment in the emergency ticket, linking to this ticket as the follow-up ticket.
-   1. The new ticket will now be picked up by the round robin automation and assigned to an SGG, like any other ticket. Optionally, an engineer involved in the emergency can take ownership of the ticket instead.
+   1. Optionally, an engineer involved in the emergency can take ownership of the ticket.
 
 Why do follow up work in another ticket?
 
@@ -314,9 +345,9 @@ If you are still stuck *and* are having difficulty finding help, contact the [ma
 
 ### Triggering a Developer Escalation
 
-On rare occasions, you and the manager on-call may decide it's necessary to initiate the [developer escalation process](/handbook/engineering/development/processes/Infra-Dev-Escalation/process.html#escalation-process) to get the needed developer input. Keep in mind that the developer who takes the escalation might not be familiar with the aspect of GitLab that is the focus of the emergency, and it can take them time to get up to speed.
+On rare occasions, you and the manager on-call may decide it's necessary to initiate the [developer escalation process](/handbook/engineering/development/processes/infra-dev-escalation/process/#escalation-process) to get the needed developer input. Keep in mind that the developer who takes the escalation might not be familiar with the aspect of GitLab that is the focus of the emergency, and it can take them time to get up to speed.
 
-To trigger a developer escalation, see [this process outline](/handbook/engineering/development/processes/Infra-Dev-Escalation/process.html#process-outline).
+To trigger a developer escalation, see [this process outline](/handbook/engineering/development/processes/infra-dev-escalation/process/#process-outline).
 
 ## License Emergencies
 
@@ -368,7 +399,7 @@ Some legacy-type subscriptions are called "multi-year" but are actually multiple
 1. Follow these [steps to ensure their GitLab.com account is linked](https://docs.gitlab.com/ee/subscriptions/customers_portal.html#change-the-linked-account).
 1. Follow these [steps to update the linked namespace](https://docs.gitlab.com/ee/subscriptions/gitlab_com/index.html#change-the-linked-namespace).
 
-If a customer is an [Unlinked CustomersDot account](https://handbook.gitlab.com/handbook/support/license-and-renewals/workflows/troubleshoot_purchases_on_gitlab/#unlinked-customersdot-account-for-purchases-via-sales) and you need to act on their behalf, you can try [Force Association of the subscription](https://handbook.gitlab.com/handbook/support/license-and-renewals/workflows/customersdot/mechanizer#force-associate) as a workaround.
+If a customer is an [Unlinked CustomersDot account](/handbook/support/license-and-renewals/workflows/troubleshoot_purchases_on_gitlab/#unlinked-customersdot-account-for-purchases-via-sales) and you need to act on their behalf, you can try [Force Association of the subscription](/handbook/support/license-and-renewals/workflows/customersdot/mechanizer#force-associate) as a workaround.
 
 If neither of the above resolves the issue for the customer, [contact the on-call Support Manager](#optional-contact-the-on-call-support-manager) requesting further guidance.
 
@@ -511,7 +542,7 @@ You can bulk edit tickets by:
 
 US Government on-call support is provided 7 days a week between the hours of 0500 and 1700 Pacific Time for [severity one](https://about.gitlab.com/support/definitions/#severity-1) issues that arise with premium and ultimate customers who have purchased 12x5 US Gov support. Customers who have opted for the 24x7 ultimate for high and emergency coverage can page at any time.
 
-The current on-call schedule can be viewed in [PagerDuty](https://gitlab.pagerduty.com/schedules#P89ZYHZ)(Internal Link), or in the [Support Team on-call page](https://gitlab-com.gitlab.io/support/team/oncall.html)(GitLab Employees only). The schedule is currently split into three, 8 hour shifts which roughly correlate with the dayshift, evening, and overnight team member hours:
+The current on-call schedule can be viewed in [PagerDuty](https://gitlab.pagerduty.com/schedules#P89ZYHZ)(Internal Link). The schedule is currently split into three, 8 hour shifts which roughly correlate with the dayshift, evening, and overnight team member hours:
 
 - Dayshift: 05:00 - 13:00 PT
 - Evenings: 13:00 - 21:00 PT
@@ -519,29 +550,39 @@ The current on-call schedule can be viewed in [PagerDuty](https://gitlab.pagerdu
 
 Customers are permitted to submit emergencies via email or via the emergency form in the US Government support portal.
 
-#### Emergencies outside on-call hours
+### On-call Shift Coverage in US Government
+
+In the event that a Support Engineer needs coverage for a scheduled On-call shift, open an issue in Support Team Meta using the `us-gov-oncall-coverage` template.
+
+Dayshift engineers needing coverage on a **non-holiday weekday** may give the shift to the Support Bot.  To do so, open an issue in Support Team Meta using the `us-gov-oncall-coverage` template and mention your manager for review. After ensuring that the shift(s) in question do not fall on a weekend or holiday remove the override for your shift in PagerDuty and ensure it falls back to the bot user.
+
+### Emergencies outside on-call hours
 
 If a non-24x7 eligible customer submits an emergency case outside the [working hours of Government Support](https://about.gitlab.com/support/us-government-support/#hours-of-operation) the following will occur:
 
 - A slack notification will trigger in the #spt_us-government channel alerting the team to an off hours emergency and indicating follow-up is needed at the start of business hours
 - The `Off hours emergency request` trigger will inform the ticket submitter that it is after hours and give them the option to either create an emergency case in Global support or wait for US Government support to follow-up at the next start of business hours.
 
-##### Responding to after hours emergencies
+#### Responding to after hours emergencies
 
 Team members who are working after the 12x5 hours may opt to provide support for customers who are having a production incident at the engineer's own discretion. When addressing these it is important to ensure the following is clear with the customer:
 
-   - They are not entitled to 24x7 support based on their subscription
-   - Emergency support is being provided as a one off exception based on the engineer's availability and future after hours support is not guaranteed
+- They are not entitled to 24x7 support based on their subscription
+- Emergency support is being provided as a one off exception based on the engineer's availability and future after hours support is not guaranteed
 
 The responding engineer should also add their manager as a follower and indicate in an internal note that after hours support is being provided. This will help ensure the appropriate follow-up occurs with the customer's account team.
 
-#### US Gov Emergencies in Global
+### US Gov Emergencies in Global
 
 US Government customers with 12x5 support packages are permitted to use the global support portal for after hours emergencies if their organization's policies permit interacting and sharing information with non-US citizens. The US Gov support team **cannot confirm or deny** whether a specific case belongs to a user or organization entitled to US Government support. There is no requirement or restriction on who can reply to emergencies filed in the global support portal. If a user asks for a US citizen please remind them they are using the global support portal where US citizenship is not guaranteed and let them know if that is a requirement they should use the US Government Support portal for future communication instead.
 
 ## GitLab Dedicated Emergencies
 
-Emergencies from [GitLab Dedicated](https://docs.gitlab.com/ee/subscriptions/gitlab_dedicated/) come through the Customer Emergency On Call rotation. The [GitLab Dedicated Handbook](/handbook/support/workflows/dedicated) has information about [working with logs](/handbook/support/workflows/dedicated_logs) and a section on [escalating emergency issues](/handbook/support/workflows/dedicated#escalating-an-emergency-issue).
+Emergencies from [GitLab Dedicated](https://docs.gitlab.com/ee/subscriptions/gitlab_dedicated/) come through the Customer Emergency On Call rotation. The [GitLab Dedicated Handbook](/handbook/support/workflows/dedicated) has information about [working with logs](/handbook/support/workflows/dedicated_logs) and viewing [observability dashboards](/handbook/support/workflows/dedicated_instance_health/).
+
+Consider using the `@spt_focus-dedicated` Slack handle to ping members of the GitLab Support team who focus on GitLab Dedicated for additional assistance.
+
+As appropriate, you can use the section on [escalating emergency issues](/handbook/support/workflows/dedicated#escalating-an-emergency-issue) to engage the Engineer on Call for GitLab Dedicated.
 
 ## Special handling notes
 

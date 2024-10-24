@@ -1,5 +1,4 @@
 ---
-
 title: "CSM Operations Manager"
 description: "Regional role to manage operations for CSM teams."
 ---
@@ -8,7 +7,7 @@ description: "Regional role to manage operations for CSM teams."
 
 The Operations Manager is a regional role, held by a [Senior CSM Manager](/job-families/sales/customer-success-management/#senior-manager-csm). The Operations Manager works with the [CSM Regional Director](/job-families/sales/customer-success-management/#director-of-customer-success-management) to ensure operational plans are clearly defined, and consistency across the teams in the region is established & maintained. The Operations Manager works with the [CSM Managers](/job-families/sales/customer-success-management/#manager-csm) in the region to implement operational plans, provide guidance, and verify consistency of operations across the teams.
 
-This role is in addition to the Senior CSM Manager’s [responsibilities](/job-families/sales/customer-success-management/#senior-manager-csm-responsibilities) managing their team.
+This role is in addition to the Senior CSM Manager's [responsibilities](/job-families/sales/customer-success-management/#senior-manager-csm-responsibilities) managing their team.
 
 ## Responsibilities
 

@@ -1,5 +1,4 @@
 ---
-aliases: /handbook/product/ux/ux-research-coordination/incentives
 title: "Research participation gratuities"
 description: "Learn about how UX Research Operations Coordinators recruit"
 ---
@@ -81,14 +80,14 @@ Contact `success@tangocard.com` with questions or to expand the options availabl
 
 ### Rybbon
 
-[Rybbon](https://www.rybbon.net) is another incentive distributor that we use, particularly when the country a participant is based in is unavailable on Tango Card/Rewards Genius.
+Rybbon is another incentive distributor that we use, particularly when the country a participant is based in is unavailable on Tango Card/Rewards Genius.
 
 Rybbon uses an API feature to present rewards that are relevant for each participant based on their location. As such, we only provide the USD reward value on the platform and Rybbon handles the conversion automatically. Each researcher has their own folder with a campaign set up to send incentives. This is so that the email communication that our participants receive is more personable. There's also a general folder for the UX Research Operations Coordinator for incentive requests from the wider team. Specific campaigns can also be set up for longer projects, as well as an integration with Qualtrics if required.
 
 Unsupported Countries in Rybbon: No rewards are available in the following countries.
 Belarus, Congo, Cuba, Iran, Iraq, Korea North, Lebanon, Libya, Somalia, South Sudan, Sudan, Syria, Ukraine, Yemen, Zimbabwe.
 
-Check out Rybbon's [FAQ page](https://www.rybbon.net/faqs/) or #uxr_reops_lounge in Slack.
+Check out Rybbon's FAQ page or #uxr_reops_lounge in Slack.
 
 ### Tremendous
 
@@ -119,19 +118,18 @@ The accounting team funds Tremendous, Rybbon, and Respondent accounts with a lum
 
 - To purchase a bundle, use the Vendor contract request process.
 
-
 ## Monthly Gratuity Report
 
-To avoid having to distribute W-9 forms, the UX research team will not compensate a single participant more than $600 in a calendar year. To ensure we don’t recruit participants that are nearing our cutoff we follow the below process.
+To avoid having to distribute W-9 forms, the UX research team will not compensate a single participant more than $600 in a calendar year. To ensure we don't recruit participants that are nearing our cutoff we follow the below process.
 
-The UX Research Operations team will make a monthly pull of all gratuities sent to users that participated in UX research studies and then update our “Do no recruit” list. To do this process follow these steps:
+The UX Research Operations team will make a monthly pull of all gratuities sent to users that participated in UX research studies and then update our "Do no recruit" list. To do this process follow these steps:
 
 1. Download report from Tremendous
   ![image](tremendous.png)
 1. Update the Gratuity tracking spreadsheet (In Google drive called Gratuity tracking, since it contains PII access will be restricted)
-    - Paste in the new rows on the current years’ tab
-    - Check the list to see if any new participants are nearing the $600 limit in the “2023 Rollup” tab
-    - If any participants are at or close (within $100) to the $600 limit, add them to the “Do no recruit” tab
-1. If new participants are added to the “do not recruit” list then the Marketo and Data warehouse filters will also need to be updated.
+    - Paste in the new rows on the current years' tab
+    - Check the list to see if any new participants are nearing the $600 limit in the "2023 Rollup" tab
+    - If any participants are at or close (within $100) to the $600 limit, add them to the "Do no recruit" tab
+1. If new participants are added to the "do not recruit" list then the Marketo and Data warehouse filters will also need to be updated.
 
-We do not need to worry about filtering by our “do not recruit” list in Respondent or UserTesting as these are third-party recruitment platforms and they are responsible for tax implications.
+We do not need to worry about filtering by our "do not recruit" list in Respondent or UserTesting as these are third-party recruitment platforms and they are responsible for tax implications.

@@ -13,7 +13,7 @@ On this page, we're detailing how compensation works in a global all-remote comp
 
 When you open your hiring pipeline to practically every nation on the planet, you get questions like "How do you pay people?"
 
-While there are certain complexities to paying team members who are spread across the globe, we believe that it's worthwhile. Being an all-remote company enables us to [hire the world's best talent]({{< ref "./hiring" >}}), not just the best talent from a few cities.
+While there are certain complexities to paying team members who are spread across the globe, we believe that it's worthwhile. Being an all-remote company enables us to [hire the world's best talent](hiring/), not just the best talent from a few cities.
 
 {{< youtube "Yr2do8A38r0" >}}
 
@@ -35,7 +35,7 @@ GitLab endeavors to [pay local rates]({{< ref "compensation#paying-local-rates" 
 
 Our co-founder and CEO Sid Sijbrandij discusses this in a blog post entitled "[Why GitLab pays local rates](https://about.gitlab.com/blog/2019/02/28/why-we-pay-local-rates/)."
 
-> If we pay everyone the San Francisco wage for their respective roles, our compensation costs would increase greatly, and we would be forced to hire a lot fewer people. Then we wouldn’t be able to produce as much as we would like. If we started paying everyone the lowest rate possible, we would not be able to retain the people we want to keep.
+> If we pay everyone the San Francisco wage for their respective roles, our compensation costs would increase greatly, and we would be forced to hire a lot fewer people. Then we wouldn't be able to produce as much as we would like. If we started paying everyone the lowest rate possible, we would not be able to retain the people we want to keep.
 
 Particularly in comparison to companies in cities with high costs of living, such as London, San Francisco, Singapore, Sydney, etc., an all-remote company realizes [a notable set of advantages]({{< ref "compensation#why-we-pay-local-rates" >}}) by hiring brilliant minds in locales with lower costs of living.
 
@@ -45,13 +45,13 @@ These additional investments can be made simply by lowering a company's overall 
 
 ## How can other companies move to a remote compensation model?
 
-To talk through Best Practices for Remote Compensation, GitLab partnered with [Compaas](https://www2.compa.as/gitlab) to outline how to get started recommendations, and pitfalls when transitioning to a remote friendly or remote only compensation model.
+To talk through Best Practices for Remote Compensation, GitLab partnered with [Compaas](https://web.archive.org/web/20230327015045/https://www2.compa.as/gitlab) to outline how to get started recommendations, and pitfalls when transitioning to a remote friendly or remote only compensation model.
 
 ## How do you decide how much to pay people?
 
 Plainly, we want our compensation to be at a level were we can recruit and retain people who meet our requirements. A far more elaborate explanation can be found in the [Compensation Principles section of GitLab's Handbook]({{< ref "compensation#compensation-principles" >}}).
 
-Deciding how much we pay people who live and work in a multitude of regions across the globe is a continual process. [Iteration]({{< ref "values#iteration" >}}) and [Transparency]({{< ref "values#transparency" >}}) are values at GitLab, and both apply to compensation calculations.
+Deciding how much we pay people who live and work in a multitude of regions across the globe is a continual process. [Iteration](/handbook/values/#iteration) and [Transparency](/handbook/values/#transparency) are values at GitLab, and both apply to compensation calculations.
 
 {{< youtube "CgQNFffuHrc?start=34" >}}
 
@@ -94,7 +94,7 @@ As many other organizations do, GitLab provides equity grants in the form of Inc
 
 The difference in these two types of grants are, generally, as follows: ISOs are issued to US employees and carry a special form of tax treatment recognized by the US Internal Revenue Service (IRS). NSOs are granted to contractors and non-US employees.
 
-You can learn more in the [Stock Options section of the Handbook](/handbook/stock-options/).
+You can learn more in the [Stock Options section of the Handbook](/handbook/total-rewards/stock-options/).
 
 {{% include "includes/is_this_advice_any_good_remote.md" %}}
 
@@ -102,6 +102,6 @@ You can learn more in the [Stock Options section of the Handbook](/handbook/stoc
 
 GitLab believes that all-remote is the [future of work]({{< ref "remote-vision" >}}), and remote companies have a shared responsibility to show the way for other organizations who are embracing it. If you or your company has an experience that would benefit the greater world, consider creating a [merge request](https://docs.gitlab.com/ee/user/project/merge_requests/) and adding a contribution to this page.
 
-----
+---
 
 Return to the main [all-remote page]({{< ref "_index.md" >}}).

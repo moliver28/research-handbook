@@ -71,7 +71,6 @@ This diagram shows the current steps involved in establishing an open WebSocket 
         Client->>Rails/AC: websocket traffic
 ```
 
-
 1. The client sends a connection upgrade request to `/-/cable`;
 1. Workhorse proxies this to the correct backend (set using the `cableBackend` option, defaulting to `authBackend`);
 1. The backend responds with 101 Switching Protocols and upgrades the request;

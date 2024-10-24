@@ -5,7 +5,7 @@ description: "Learn more about unconscious bias and how to recognize it."
 
 ## What is unconscious bias?
 
-Unconscious biases are stereotypes about certain groups of people that individuals form outside their own conscious awareness. Nearly all our thoughts and actions are influenced, at least in part, by unconscious impulses. There’s no reason bias should be out of scope.
+Unconscious biases are stereotypes about certain groups of people that individuals form outside their own conscious awareness. Nearly all our thoughts and actions are influenced, at least in part, by unconscious impulses. There's no reason bias should be out of scope.
 Categorizing people based on social and other characteristics is a powerful  survival mechanism, as it helps to distinguish friends from foes and make quick "life or death" decisions based on "inner feeling". At the same time this is a fertile ground for growing stereotypes, prejudice, discrimination.
 
 Biases help the brain create shortcuts for the decision-making process and detect threats. Our unconscious biases are based on our own experiences and they help us detect patterns and find in-groups, a basic survival mechanism below our conscious radar. If unconscious bias goes unchecked, it can lead to fixed general views of how people should act or behave, and/or negative out-spoken attitude towards a person or group.
@@ -30,7 +30,7 @@ Everyone has unconscious biases, the goal is to bring them to our consciousness 
 - **Conformity Bias**: Tendency to take cues for proper behavior based on the actions of others. **Example:** studies show that people are more likely to donate to charity if they know/see others donating.
 - **[Contrast Effect](https://effectiviology.com/contrast-effect/)**: A cognitive bias that distorts our perception of something when we compare it to something else, by enhancing the differences between them. For example, your performance evaluation of a team member is affected by the evaluation that you wrote for a different team member just before.
 - **Gender**: The tendency to prefer one gender over another gender.
-- **Height**: Tendency to judge a person who is significantly shorter or taller than what is “deemed as socially accepted” human height.
+- **Height**: Tendency to judge a person who is significantly shorter or taller than what is "deemed as socially accepted" human height.
 - **[Halo Effect](https://en.wikipedia.org/wiki/Halo_effect)**: Form of bias which favors one aspect that makes a person seem more attractive or desirable. **Example:**  If we think someone is good looking we might also think that they are intelligible and charismatic.
 - **[Horn Effect](https://en.wikipedia.org/wiki/Horn_effect)**: Opposite of **Halo Effect**. Form of bias that causes one's perception of another to be overly influenced by one or more negative traits. **Example:**  Someone who has failed the project is always like that and incapable of improving.
 - **[Name Bias](https://metro.co.uk/2019/09/17/unconscious-name-bias-damaging-10757825/)**: Form of bias which favors a person based on their name and the perceived origin of their name.
@@ -39,7 +39,7 @@ For further reading: Wikipedia has [a comprehensive list of cognitive biases](ht
 
 ### Can I test it?
 
-Unconscious bias is far more prevalent than conscious prejudice and often incompatible with one’s conscious values. Therefore it would be good to have an instrument to detect and fight it.
+Unconscious bias is far more prevalent than conscious prejudice and often incompatible with one's conscious values. Therefore it would be good to have an instrument to detect and fight it.
 The tool that achieved most popularity both in scientific circles and public is the [implicit-association test (IAT)](https://implicit.harvard.edu/implicit/), which is a collaborative research effort between researchers at Harvard University, the University of Virginia, and University of Washington. It is meant to reveal the strength of one's mental association between certain groups of people and certain traits. It is used to investigate biases in racial groups, gender, sexuality, age, and religion, as well as assessing self-esteem.
 
 Though it has some [criticisms](https://qz.com/1144504/the-world-is-relying-on-a-flawed-psychological-test-to-fight-racism/), IAT can jumpstart our thinking about hidden biases:
@@ -88,13 +88,13 @@ On 2020-06-24 we held three Live Learning sessions to cover how to recognize bia
 
 ## Resources
 
-#### Inner resources
+### Inner resources
 
 - [Ongoing discussion](https://gitlab.com/gitlab-com/diversity-and-inclusion/issues/27)
 - [This MVC is based on Ashley Sullivan's comment here](https://gitlab.com/gitlab-com/people-ops/General/issues/379#note_208972342)
-- [Diversity, Inclusion and Belonging at GitLab]({{< ref "inclusion" >}})
+- [Diversity, Inclusion and Belonging at GitLab](/handbook/company/culture/inclusion/)
 
-#### External resources
+### External resources
 
 - [Teaching Tolerance](https://www.tolerance.org/professional-development/test-yourself-for-hidden-bias)
 - [Diversity and Outreach, UCSF](https://diversity.ucsf.edu/resources/unconscious-bias)

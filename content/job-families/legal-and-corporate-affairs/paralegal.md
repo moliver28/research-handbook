@@ -38,7 +38,6 @@ The Associate Paralegal is a [grade 5](/handbook/total-rewards/compensation/comp
 - Previous experience in a Global Start-up and remote first environment preferred.
 - Ability to use GitLab.
 
-
 ### Paralegal
 
 The Paralegal reports to the Director of Legal, or Senior Director of Legal.
@@ -67,7 +66,7 @@ The Senior Paralegal is a [Grade 7](/handbook/total-rewards/compensation/compens
 
 #### Responsibilities
 
-- Act as the DRI (“Directly Responsible Individual”) with respect to complex / strategic projects and legal matters
+- Act as the DRI ("Directly Responsible Individual") with respect to complex / strategic projects and legal matters
 - Guide other Paralegals, and personally develop and add information and content to internal knowledge-base repositories and playbooks
 - Engage leadership across the organization to proactively address requests and projects
 - At the direction of leadership, research legal, regulatory and industry standards to identify areas of improvement to enable GitLab to meet best-in-class standards
@@ -85,6 +84,38 @@ The Senior Paralegal is a [Grade 7](/handbook/total-rewards/compensation/compens
 - Ability to adapt and willingness to work on a variety of projects and types of requests
 - Strong attention to detail and affinity for use of various types of technologies including Slack, G-Suite, Microsoft Office and other applications
 - Proactive, dynamic and result driven individual with strong organizational skills
+- Ability to use GitLab
+
+### Lead Paralegal
+
+#### Job Grade
+
+The Lead Paralegal is a [Grade 8](/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades)
+
+#### Responsibilities
+
+- Act as a DRI on tasks and projects and effectively manage relationships with stakeholders across legal and GitLab, including skills in providing education and enablement; excellent at leading and participating in cross-functional projects
+- Contribute to internal and external training materials
+- Consider commercial impact when applying legal and regulatory principles and seeks workable solutions
+- Network internally beyond the legal team to build relationships, knowledge, and insight
+- Identify and apply governance processes and control mechanisms relevant to GitLab
+- Accurately communicate risks to senior leadership while weighing business needs 
+- Provide technical and functional knowledge to projects that contribute to overall direction across teams 
+- Lead by sharing solutions and problem-solving approaches with others 
+- Interact with team members in addition to suppliers, vendors, and/or customers where applicable to the role
+- Collaborate with the team and other stakeholders within the department to maintain a high bar for quality in a fast-paced, iterative environment
+
+#### Requirements
+
+- Minimum of 10+ years experience working in a law firm, in-house legal department, or combination of both, in a paralegal capacity
+- Paralegal certification preferred, but will consider comparable experience in lieu of certification
+- Demonstrated ability to successfully manage cross-functional projects
+- Exceptional written and verbal communication, organizational, and analytical skills
+- Ability to adapt and willingness to work on a variety of projects and types of requests
+- Strong attention to detail and affinity for use of various types of technologies including Slack, G-Suite, Microsoft Office and other applications
+- Proactive, dynamic and result driven individual with strong organizational skills
+- High degree of deep subject matter expertise and ability to break this down to non-legal team members in simple non-technical communication
+- Decisive and comfortable making decisions
 - Ability to use GitLab
 
 ### Specialties
@@ -124,18 +155,18 @@ The Senior Paralegal is a [Grade 7](/handbook/total-rewards/compensation/compens
 - Exceptional level of accuracy, superb attention to detail and excellent proofreading skills.
 - Self-starter who has exceptional interpersonal skills.
 - Collaborative team-player with a sense of humor who is intellectually curious, capable of learning on the job, and developing new approaches when there are no precedents.
-- Bachelor’s degree preferred
+- Bachelor's degree preferred
 
 #### Paralegal (Corporate) Performance Indicators
 
 - Review legal issue tracker for corporate compliance requests and timely response.
-- Complete MR’s and Open Epics and Issues to support corporate compliance projects.
-- Maintain, and manage GitLab Inc. and its subsidiaries’ corporate records.
+- Complete MR's and Open Epics and Issues to support corporate compliance projects.
+- Maintain, and manage GitLab Inc. and its subsidiaries' corporate records.
 - Ensure all due diligence and deal documentation for strategic transactions are organized within the appropriate shared folders.
 
 ### Paralegal (Employment)
 
-The Paralegal (Employment) works collaboratively with the GitLab Legal Employment team on matters affecting the entire arc of the employment relationship, from pre-hire all the way through to post-employment.  These areas will include hiring practices, compensation, benefits, performance management, promotions/demotions, employment policies, contract templates, separations, enforcing post-contractual obligations, and litigation management where it arises, across the company’s global footprint. The team member will exercise independent judgment towards matter preparation, and will provide organizational and substantive support to the Legal team, including building out new systems and procedures as needed.
+The Paralegal (Employment) works collaboratively with the GitLab Legal Employment team on matters affecting the entire arc of the employment relationship, from pre-hire all the way through to post-employment.  These areas will include hiring practices, compensation, benefits, performance management, promotions/demotions, employment policies, contract templates, separations, enforcing post-contractual obligations, and litigation management where it arises, across the company's global footprint. The team member will exercise independent judgment towards matter preparation, and will provide organizational and substantive support to the Legal team, including building out new systems and procedures as needed.
 
 #### Paralegal (Employment) Requirements
 
@@ -147,7 +178,7 @@ The Paralegal (Employment) works collaboratively with the GitLab Legal Employmen
 - Self-starter who has exceptional interpersonal skills.
 - Collaborative team-player with a sense of humor who is intellectually curious, capable of learning on the job, and developing new approaches when there are no precedents.
 - Experience using GitLab a plus.
-- Bachelor’s degree preferred.
+- Bachelor's degree preferred.
 
 #### Paralegal (Employment) Responsibilities
 
@@ -172,7 +203,7 @@ The Paralegal (Employment) works collaboratively with the GitLab Legal Employmen
 
 - [Review legal issue tracker for employment and employment compliance requests and timely respond.](/handbook/legal/#review-the-legal-issue-tracker-daily-ongoing--24-hours).
 - Track People Ops and People Success Issues for requests for legal support and timely respond.
-- Complete MR’s and Open Epics and Issues to support employment compliance projects.
+- Complete MR's and Open Epics and Issues to support employment compliance projects.
 - Maintain and manage records for employment matters.
 
 ### Paralegal (Privacy & Product)
@@ -190,7 +221,7 @@ The Paralegal, Privacy & Product works collaboratively with the Legal Privacy & 
 - Exceptional level of accuracy, superb attention to detail and excellent proofreading skills.
 - Self-starter who has exceptional interpersonal skills.
 - Collaborative team-player with a sense of humor who is intellectually curious, capable of learning on the job, and developing new approaches when there are no precedents.
-- Bachelor’s degree preferred.
+- Bachelor's degree preferred.
 
 #### Paralegal (Privacy & Product) Responsibilities
 
@@ -206,7 +237,7 @@ The Paralegal, Privacy & Product works collaboratively with the Legal Privacy & 
 #### Paralegal (Privacy & Product) Performance Indicators
 
 Review product and privacy requests received and provide timely responses.
-Complete MR’s and Open Epics and Issues to support privacy and product projects.
+Complete MR's and Open Epics and Issues to support privacy and product projects.
 Maintain and manage records for privacy and law enforcement matters
 
 ## Career Ladder

@@ -30,7 +30,9 @@ GitLab fault-tolerance:
    1. https://gitlab.com/gitlab-org/gitlab/issues/32203
 1. [Use multiple Redis cache instances in Rails.cache](https://gitlab.com/gitlab-com/gl-infra/scalability/issues/49)
 
-#### [Isolation](https://gitlab.com/groups/gitlab-org/-/epics/2283)
+#### Isolation
+
+[Isolation epic](https://gitlab.com/groups/gitlab-org/-/epics/2283)
 
 1. Allow GitLab to function if a single Gitaly node is down
     1. https://gitlab.com/gitlab-org/gitlab/issues/34722
@@ -67,6 +69,5 @@ managing configuration and redundancy of these services as well.
 
 That being said, microservices may be worth it if we can clearly define
 the engineering benefit towards maintainability, scalability, and
-reliability.  For example, we've considered introducing a [GitLab CI
-service daemon](https://gitlab.com/gitlab-org/gitlab/issues/19435) that
-can better handle CI queues.
+reliability.  For example, we've considered introducing a [GitLab CI service daemon](https://gitlab.com/gitlab-org/gitlab/issues/19435)
+that can better handle CI queues.

@@ -20,7 +20,7 @@ The scope of gap analysis procedures performed by the Security Compliance team a
 | Role | Responsibility|
 | ---- | ------ |
 | Gap Analysis Owner | The individual Security Compliance team member responsible for being the gap analysis DRI through the analysis lifecycle, performing the gap analysis, and mapping/formalizing controls to address the identified gaps. |
-| Gap Analysis Requestor | The individual GitLab team member who requests the performance of a gap analysis. Any GitLab team member can request a gap analysis from the Security Compliance team.
+| Gap Analysis Requestor | The individual GitLab team member who requests the performance of a gap analysis. Any GitLab team member can request a gap analysis from the Security Compliance team. |
 | Gap Analysis Program DRI | Responsible for regular reviews of program health and stakeholder report delivery |
 
 ## Gap Analysis Phases Overview
@@ -47,7 +47,7 @@ Gap analysis requests can be submitted to the Security Compliance team by any Gi
 
 ### Performing The Gap Analysis
 
-Once the gap analysis request has been received, a member of the Security Compliance team will utilize [ZenGRC]({{< ref "zg-activities" >}}) to manage/perform the gap analysis which involves identifying control gaps, mapping existing controls to the requested frameworks requirements, and evaluating the mapped/created controls for their design and operating effectiveness via the [Control Assessment Guide](https://gitlab.com/gitlab-com/gl-security/security-assurance/security-compliance-commercial-and-dedicated/gcf/-/blob/main/runbooks/assessment_testing_manual.md). Refer to this [Gap Analysis Runbook](https://gitlab.com/gitlab-com/gl-security/security-assurance/team-commercial-compliance/gap-analysis/-/blob/main/runbooks/Gap_Assessment_Manual.md) for further details over how the Security Compliance team performs a gap analysis.
+Once the gap analysis request has been received, a member of the Security Compliance team will utilize Hyperproof to manage/perform the gap analysis which involves identifying control gaps, mapping existing controls to the requested frameworks requirements, and evaluating the mapped/created controls for their design and operating effectiveness via the [Control Assessment Guide](https://gitlab.com/gitlab-com/gl-security/security-assurance/security-compliance-commercial-and-dedicated/gcf/-/blob/main/runbooks/assessment_testing_manual.md). Refer to this [Gap Analysis Runbook](https://gitlab.com/gitlab-com/gl-security/security-assurance/team-commercial-compliance/gap-analysis/-/blob/main/runbooks/Gap_Assessment_Manual.md) for further details over how the Security Compliance team performs a gap analysis.
 
 ### Reporting Gap Analysis Results
 

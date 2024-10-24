@@ -1,5 +1,4 @@
 ---
-
 title: Handling trials and extensions for GitLab Self-Managed
 category: GitLab Self-Managed licenses
 description: Issuing a license to "extend" Self-managed trials and grace periods
@@ -30,7 +29,6 @@ We are allowed to issue trial licenses because they:
 ### How to extend an expired or soon to expire license
 
 **Note:** Unlike [SaaS](/handbook/support/license-and-renewals/workflows/saas/trials_and_plan_change#extending-trials), a Self-managed extension does **not** require a pre-existing Trial license. Instead, start with the current almost-expired license, or most-recent expired license.
-
 
 1. Open the expired or soon to expire license.
 1. Confirm that:
@@ -73,8 +71,7 @@ If you're on call and you need a license generated, but don't have access to the
 
 ### SFDC generated trial license extensions
 
-Account Executives (AEs) can now use SalesForce.com (SFDC) to issue a self-managed 21-day license extension to a customer when the renewal opportunity is taking longer than expected to close. When an AE uses this functionality, the license code is automatically generated and sent to the customer without any L&R Support involvement. The [Temporary renewal extensions](/handbook/product/fulfillment-guide/#temporary-renewal-extensions) handbook entry documents this approach. Note that there are guardrails in place to prevent abuse of this ability, and that as a result only one license extension can be generated per renewal event. Therefore on occasions L&R Support will still be required to generate further license extensions.
-
+Account Executives (AEs) can now use SalesForce.com (SFDC) to issue a self-managed 21-day license extension to a customer when the renewal opportunity is taking longer than expected to close. When an AE uses this functionality, the license code is automatically generated and sent to the customer without any L&R Support involvement. The [Temporary renewal extensions](/handbook/product/groups/fulfillment-guide/#temporary-renewal-extensions) handbook entry documents this approach. Note that there are guardrails in place to prevent abuse of this ability, and that as a result only one license extension can be generated per renewal event. Therefore on occasions L&R Support will still be required to generate further license extensions.
 
 #### Sales AE requests for a manual temporary extension
 
@@ -92,7 +89,7 @@ The `Deviation from SM License Extension Workflow` macro is to be used to record
 
 #### Customer requests for a license extension
 
-For tracking customer requests for a license extension, we rely on the SE to review the problem type and fix it if it's wrong. When a customer submits a ticket requesting a license extension, we should apply the macro `Customer Request for SM License Extension` to redirect the customer to their AE.  In this scenario, we need to modify the template text to provide the customer with their AE’s email address.
+For tracking customer requests for a license extension, we rely on the SE to review the problem type and fix it if it's wrong. When a customer submits a ticket requesting a license extension, we should apply the macro `Customer Request for SM License Extension` to redirect the customer to their AE.  In this scenario, we need to modify the template text to provide the customer with their AE's email address.
 
 This macro will automatically add the tag `lnr_sm_extension_customer_request` to track these instances.
 
@@ -100,10 +97,9 @@ This macro will automatically add the tag `lnr_sm_extension_customer_request` to
 
 In certain scenarios where customer renewals or new customer sales are experiencing delays, the L&R Support process workflows provide flexibility to address these challenges. The following table outlines the options available to issue temporary trial licenses based on specific use cases:
 
-
 | Use Case | Pathway |
 | ------ | ------ |
-|  Customer renewal is taking longer than expected      | The sales AE (Account Executive) generates a one-off 21 day [temporary renewal extension](/handbook/product/fulfillment-guide/#temporary-renewal-extensions) via SFDC        |
+|  Customer renewal is taking longer than expected      | The sales AE (Account Executive) generates a one-off 21 day [temporary renewal extension](/handbook/product/groups/fulfillment-guide/#temporary-renewal-extensions) via SFDC        |
 |  Customer renewal exceeds the additional 21 days     |  The sales AE can open a new Internal Request (IR) ticket with L&R support and request a trial license extension for up to 1 month      |
 |  Customer renewal exceeds the additional 21 days + 1 month     | The sales AE can open a new Internal Request (IR) ticket with L&R support who request approval via the ticket from the senior director of revenue @andrew_murray       |
 |  New customer potential sale     |  The sales AE can request up to 1 month trial extension via an IR with L&R support.|

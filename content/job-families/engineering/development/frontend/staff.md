@@ -12,7 +12,7 @@ Frontend Engineers at GitLab work on our product. This includes both the open so
 - Consistently ship small features and improvements with minimal guidance and support from other team members. Collaborate with the team on larger projects.
 - Help improve the overall experience of our product through improving the quality of the Frontend features both in your [group](/handbook/product/categories/#hierarchy) and features that benefit other groups.
 - Help identify areas of improvements in the code base, both specific to your [group](/handbook/product/categories/#hierarchy) and outside your group (e.g. component library) and help contribute to make it better
-- Learn, collaborate, and teach other Frontend Engineers. Everyone can contribute something new to the team regardless of how long they’ve been in the industry.
+- Learn, collaborate, and teach other Frontend Engineers. Everyone can contribute something new to the team regardless of how long they've been in the industry.
 - Fix prioritized issues from the issue tracker. These are typically bugs listed in a GitLab issue with an attached severity and priority label.
 - Contribute to and follow our workflow process, alongside the rest of the Frontend Engineers and the GitLab community as a whole.
 - Advocate for improvements to product quality, security, and performance that have particular impact across your team and others.

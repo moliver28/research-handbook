@@ -1,5 +1,4 @@
 ---
-
 title: KPIs
 ---
 
@@ -12,7 +11,7 @@ A function's KPIs are owned by the respective member of e-group.
 A function may have many performance indicators (PIs) they track and not all of them will be KPIs.
 KPIs should be a subset of PIs and used to indicate the most important PIs to be surfaced to leadership.
 
-The KPI definition should be in the most relevant part of the handbook which is organized by [function and results](/handbook/handbook-usage/#style-guide-and-information-architecture).
+The KPI definition should be in the most relevant part of the handbook which is organized by [function and results](/handbook/about/handbook-usage/#style-guide-and-information-architecture).
 In the definition, it should mention what the canonical source is for this indicator.
 Where there are formulas, include those as well.
 Goals related to KPIs should co-exist with the definition.
@@ -36,19 +35,21 @@ The icons below are relevant for [Phase 1](/handbook/company/kpis/) and can be a
 
 ## GitLab KPIs
 
+GitLab's **North Star metric** is run-rate revenue. In addition, there are other 10 other top KPIs.
+
 GitLab KPIs are duplicates of goals of the reports further down this page.
 GitLab KPIs are the 10 most important indicators of company performance, and the most important KPI is Net ARR.
 We review these at each quarterly meeting of the Board of Directors.
 These KPIs are determined by a combination of their stand alone importance to the company and the amount of management focus devoted to improving the metric.
 
-1. [Revenue](/handbook/company/kpis/#sales-kpis) vs. plan (lagging) **North Star KPI**
+1. [Revenue](/handbook/company/kpis/#sales-kpis) vs. plan (lagging)
 1. [R&D Overall MR Rate](/handbook/engineering/performance-indicators/#rd-overall-mr-rate) (leading)
-1. [Estimated Combined Monthly Active Users (CMAU)](/handbook/product/performance-indicators/#estimated-combined-monthly-active-users) (leading)
+1. [Estimated Combined Monthly Active Users (CMAU)](https://internal.gitlab.com/handbook/company/performance-indicators/product/#estimated-combined-monthly-active-users) (leading)
 1. [Net New Business Pipeline Created ($s)](/handbook/marketing/performance-indicators/#net-new-business-pipeline-created) 🐔 (leading)
 1. [Pipeline coverage start of quarter stage 3+](/handbook/marketing/performance-indicators/#pipeline-coverage) (leading)
 1. [Percent of Ramped Reps at or Above Quota](https://internal.gitlab.com/handbook/company/performance-indicators/sales/#percent-of-ramped-reps-at-or-above-quota) (lagging)
-1. [Net Retention](/handbook/customer-success/vision/#retention-and-reasons-for-churn) (lagging)
-1. [Gross Retention](/handbook/customer-success/vision/#retention-and-reasons-for-churn) (lagging)
+1. [Net Retention](/handbook/customer-success/customer-success-vision/#retention-and-reasons-for-churn) (lagging)
+1. [Gross Retention](/handbook/customer-success/customer-success-vision/#retention-and-reasons-for-churn) (lagging)
 1. [12 Month Team Member Voluntary Retention](/handbook/people-group/people-success-performance-indicators/#team-member-voluntary-retention-rolling-12-months) (lagging)
 1. [Unique Wider Community Contributors per Month](/handbook/marketing/developer-relations/performance-indicators/#unique-wider-community-contributors-per-month) (lagging)
 
@@ -58,7 +59,7 @@ These KPIs are determined by a combination of their stand alone importance to th
 
 ## Sales KPIs
 
-[Sales KPIs](https://internal.gitlab.com/handbook/company/performance-indicators/sales/#kpi-summary) are [Not Public](/handbook/communication/confidentiality-levels/#not-public) and documented in [the Internal handbook](/handbook/handbook-usage/#the-internal-handbook).
+[Sales KPIs](https://internal.gitlab.com/handbook/company/performance-indicators/sales/#kpi-summary) are [Not Public](/handbook/communication/confidentiality-levels/#not-public) and documented in [the Internal handbook](/handbook/about/handbook-usage/#the-internal-handbook).
 
 {{< kpi "Sales" >}}
 
@@ -109,15 +110,15 @@ GitLab team members can access and update all Product performance indicators wit
 ## Satisfaction
 
 We do satisfaction scope on a scale of 1 to 5 how satisfied people are with the experience.
-We don’t use NPS since that cuts off certain scores and we want to preserve fidelity.
-We have the following abbreviation letter before SAT, please don’t use SAT without letter before to specify it:
+We don't use NPS since that cuts off certain scores and we want to preserve fidelity.
+We have the following abbreviation letter before SAT, please don't use SAT without letter before to specify it:
 
 - C = unused since customer is ambiguous (can mean product or support, not all users are customers)
 - E = unused since employee is used by other companies but not by us
 - I = [Interviewee](/#interviewee-satisfaction-isat) (would you recommend applying here)
 - L = [Leadership](/handbook/eba/#leadership-sat-survey) (as an executive with dedicated administrative support, how is your executive administrative support received)
-- O = [Onboarding](/handbook/people-group/people-group-metrics/#onboarding-tsat) (how was your onboarding experience)
-- P = [Product](/handbook/product/performance-indicators/) (would you recommend GitLab the product)
+- O = [Onboarding](/handbook/people-group/people-success-performance-indicators/#onboarding-tsat) (how was your onboarding experience)
+- P = [Product](https://internal.gitlab.com/handbook/company/performance-indicators/product/) (would you recommend GitLab the product)
 - S = [Support](/handbook/support/#support-satisfaction-ssat) (would you recommend our support followup)
 - T = Team-members (would you recommend working here)
 
@@ -126,10 +127,10 @@ We have the following abbreviation letter before SAT, please don’t use SAT wit
 Since we track retention in a lot of ways, we should never refer to just "Retention" without indicating what kind of retention.
 We track:
 
-- [Net Retention](/handbook/customer-success/vision/#retention-and-reasons-for-churn)
-- [Gross Retention](/handbook/customer-success/vision/#retention-and-reasons-for-churn)
+- [Net Retention](/handbook/customer-success/customer-success-vision/#retention-and-reasons-for-churn)
+- [Gross Retention](/handbook/customer-success/customer-success-vision/#retention-and-reasons-for-churn)
 - User Retention
-- [Team Member Retention](/handbook/people-group/people-group-metrics/#team-member-retention)
+- [Team Member Retention](/handbook/people-group/people-success-performance-indicators/#team-member-retention)
 
 ## Layers of KPIs
 

@@ -1,5 +1,4 @@
 ---
-
 title: Support Team APAC
 description: Support Team APAC home page
 ---
@@ -12,7 +11,7 @@ found a home for in the wider Support Team Handbook.
 The intent is to enable APAC Support team members to contribute to Results for
 APAC-specific iniatitives, policies, processes and workflows by prioritizing:
 
-1. Transparency, through being [handbook first](/handbook/handbook-usage/#why-handbook-first)
+1. Transparency, through being [handbook first](/handbook/about/handbook-usage/#why-handbook-first)
    and providing a single source of truth for APAC-specific.
 1. Iteration, through providing a safe space where APAC Support team members can
    introduce or update APAC-specific policies, workflows and processes without
@@ -29,6 +28,15 @@ of the GitLab Support On-Call Guide Handbook page.
 
 - APAC Support Readiness department members are part of Support Team APAC too.
 - Avoid calling individual manager's direct reports group "my team" or "your team".
+
+### Support Engineering team members should work primarily during APAC support business hours
+
+- Support Engineering team members are hired in specific locations with an aim to cover specific
+  parts of APAC support business hours.
+- When located in a different time zone, team members are granted flexibility to work outside their
+  usual time zone's working hours, but must continue to work within APAC support business hours.
+- Exceptions can be made on a case-by-case basis, but must be discussed with and approved by your
+  manager.
 
 ### Support engineers should be able to work across all GitLab product platforms
 
@@ -117,12 +125,14 @@ each financial quarter.
   <summary markdown="span">Historical & current data</summary>
 
   The following shows:
-   - the number for the Cliff of Definite Underperformance (CoDU) as observed for the 12 month period concluding prior to the listed quarter.
-   - a link to the notification issue when the number was reviewed for that period.
+
+- the number for the Cliff of Definite Underperformance (CoDU) as observed for the 12 month period concluding prior to the listed quarter.
+- a link to the notification issue when the number was reviewed for that period.
 
 | **Quarter** | **Cliff Number** | **Notification Issue**  |
-|------------| -------- |------|--------------------------|
-| FY25-Q1 (Current) | 9 | [STM#5821](https://gitlab.com/gitlab-com/support/support-team-meta/-/issues/5821) |
+|-------------| ---------------- | ------------------------|
+| FY25-Q2 (Current) | 8 | [STM#6046](https://gitlab.com/gitlab-com/support/support-team-meta/-/issues/6046) |
+| FY25-Q1 | 9 | [STM#5821](https://gitlab.com/gitlab-com/support/support-team-meta/-/issues/5821) |
 | FY24-Q4 | 8 | [STM#5672](https://gitlab.com/gitlab-com/support/support-team-meta/-/issues/5672) |
 | FY24-Q3 | 7 | [STM#5494](https://gitlab.com/gitlab-com/support/support-team-meta/-/issues/5494) |
 | FY24-Q2 | 7 | Nil - practice started in FY24-Q3 |
@@ -131,7 +141,6 @@ each financial quarter.
 | FY23-Q3 | 5 | |
 | FY23-Q2 | 5 | |
 | FY23-Q1 | 5 | |
-
 
 </details>
 
@@ -269,8 +278,8 @@ each financial quarter.
   When a review of the measurement is carried out:
 
 - Create an MR to:
-   - Update the number in the first paragraph of the [Cliff of Definite Underperformance section](#cliff-of-definite-underperformance) if the number has changed.
-   - Add a new row to the top of the `Historical & Current Data` table for the current quarter's number. Also move the reference to `(Current)` data to this row.
+  - Update the number in the first paragraph of the [Cliff of Definite Underperformance section](#cliff-of-definite-underperformance) if the number has changed.
+  - Add a new row to the top of the `Historical & Current Data` table for the current quarter's number. Also move the reference to `(Current)` data to this row.
 - Create a notification issue in [Support Team Meta](https://gitlab.com/gitlab-com/support/support-team-meta) to record that the number has been reviewed and if it has changed.  (Copy a previous notification issue to use as a template).
 - Add a link to the notification issue to the relevant column in the `Historical and Current data` table.
 
@@ -278,7 +287,7 @@ each financial quarter.
 
 ## Daily Bot in the #support_licensing-subscription slack channel
 
-There is a daily bot that follows the SGG bot format and tags all APAC Support
+There is a daily bot that tags all APAC Support
 engineers who have a Focus `name: License and Renewals` listed in their [Support Team Page](https://gitlab.com/gitlab-com/support/team/-/blob/master/data/support-team.yaml) entry.
 
 Example Support Team Bot post:

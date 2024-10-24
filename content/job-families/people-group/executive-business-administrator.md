@@ -6,8 +6,7 @@ title: "Executive Business Administration"
 
 Executive Business Administrators (EBAs) at GitLab toggle seamlessly between various systems including Google Workspace, Slack, Navan, Zoom, and GitLab to accomplish an array of tasks, while staying focused on prioritization and escalating urgent issues.
 
-EBAs at GitLab are self-driven, collaborative, and agile team members who are experienced in managing multiple priorities, juggling various responsibilities, and anticipating the executive’s needs. EBAs are exceptionally organized, relentlessly resourceful, calm under pressure, and strategic multitaskers with a deep love of logistics and the ability to thrive in a dynamic start-up environment.
-
+EBAs at GitLab are self-driven, collaborative, and agile team members who are experienced in managing multiple priorities, juggling various responsibilities, and anticipating the executive's needs. EBAs are exceptionally organized, relentlessly resourceful, calm under pressure, and strategic multitaskers with a deep love of logistics and the ability to thrive in a dynamic start-up environment.
 
 ## Levels
 
@@ -39,7 +38,7 @@ The Executive Business Administrator is a [grade 6](/handbook/total-rewards/comp
 
 - Previous experience at a quickly-scaling or large company
 - Successful history of managing the calendars, expenses, and travel of multiple executives
-- Experience predicting, prioritizing, and assisting an executive’s workload
+- Experience predicting, prioritizing, and assisting an executive's workload
 - Extensive technical skills in Google Workspace, Zoom, Slack, and Navan
 - Proactive and able to deal with ambiguity, prioritize own work and resources, and juggle multiple tasks in a manner transparent to the team, and work independently to achieve results with a high degree of accuracy
 - Exceptional communication and interpersonal skills and ability to interact autonomously with internal and external partners
@@ -66,8 +65,8 @@ The Senior Executive Business Administrator is a [grade 7](/handbook/total-rewar
 - Support members of our Executive Group [E-Group](/handbook/company/structure/#e-group) across various time zones. May support VPs if all responsibilities are consistently met.
 - Understand division wide KPIs and operating procedures and can prioritize projects, requests, and executive calendar accordingly. May make recommendations to leaders to help better prioritize incoming requests
 - Use independent judgment and discretion to prioritize demanding calendars, ensure the leader is prepared appropriately with all pre-read materials, in-meeting organization, and action item follow up
-- Serve as the executive’s central point of contact, driving task execution and project completion
-- May manage executive email inbox including prioritization of follow up  
+- Serve as the executive's central point of contact, driving task execution and project completion
+- May manage executive email inbox including prioritization of follow up
 - May manage the OKR process including updating OKRs,tracking and reporting progress
 - Proactively find opportunities to drive efficiencies and streamline or prioritize work based on the executive's business goals and expectations
 - Run cadence of weekly staff meetings and other important meetings, including planning agenda, organization, and follow-up on action items
@@ -80,15 +79,15 @@ The Senior Executive Business Administrator is a [grade 7](/handbook/total-rewar
 
 - Extends Executive Business Administrator (Intermediate) Requirements
 - Previous experience supporting a C-Staff Executive at a quickly-scaling or large company
-- Self-starter who can operate independently and move quickly from one task to another; creative problem solver, seeks “win-win” solutions; energized by challenges with superb attention to detail
-- Demonstrated leadership mindset in prior roles—ability to influence culture/environment around them and has a “one team” mindset; able to lead other EBAs and partner well across GitLab
+- Self-starter who can operate independently and move quickly from one task to another; creative problem solver, seeks "win-win" solutions; energized by challenges with superb attention to detail
+- Demonstrated leadership mindset in prior roles—ability to influence culture/environment around them and has a "one team" mindset; able to lead other EBAs and partner well across GitLab
 - Experience with event planning & coordination to include support for large meetings, off-sites and company events
 - Approachable and effective communicator across various communication channels and with all levels of the organization
 - Must be able to work flexible hours to support international business meetings and some travel is required in most roles
 
 ### Staff Executive Business Administrator
 
-Staff Executive Business Administrators (EBA) support the CEO or an E-Group member. Staff EBA roles report directly to their leader or the leader’s Chief of Staff.
+Staff Executive Business Administrators (EBA) support the CEO or an E-Group member. Staff EBA roles report directly to their leader or the leader's Chief of Staff.
 
 #### Staff Executive Business Administrator
 
@@ -99,15 +98,15 @@ The Staff Executive Business Administrator to the CEO is a [grade 8](/handbook/t
 - Extends Senior Executive Business Administrator Responsibilities
 - Strategically and methodically support executive leaders, serving as a partner and regularly handling highly confidential and sensitive materials
 - Regularly deliver results proactively and without supervision
-- Through a deep understanding of GitLab’s strategy, business objectives, and key priorities, anticipate needs of their executive
+- Through a deep understanding of GitLab's strategy, business objectives, and key priorities, anticipate needs of their executive
 - Vigorously safeguard the time and business priorities of executives by acting as a guardian and attentively managing access to the rest of the company
 - Follow through diligently, often using knowledge of the executive, their direct reports, external parties, and company values to make autonomous decisions that lead to more effective executive attention and communication
-- Maintain the executive’s calendar in a thoughtful and purposeful manner, ensuring meetings contain the appropriate attendees, agenda items, and any changes are done with full consideration of a global team, spanning multiple time zones; ensure executive is prepped and briefed as necessary for each meeting
+- Maintain the executive's calendar in a thoughtful and purposeful manner, ensuring meetings contain the appropriate attendees, agenda items, and any changes are done with full consideration of a global team, spanning multiple time zones; ensure executive is prepped and briefed as necessary for each meeting
 - Communicate effectively and regularly with business leaders and external leaders such as BoD or executives at key customers
 - Support the hiring process for new EBAs company-wide by participating in interviews upon request. Supports effective onboarding of new EBA.
 - Operate on behalf of the executive with internal team members, BoD, and customers in a manner that exemplifies the GitLab values on matters of significance
-- Draft internal and external communications on behalf of the executive keeping in mind our company values and safeguarding confidential information as well as the executive’s reputation
-- May manage executive’s email inbox including drafting internal and external communications on behalf of the executive when required
+- Draft internal and external communications on behalf of the executive keeping in mind our company values and safeguarding confidential information as well as the executive's reputation
+- May manage executive's email inbox including drafting internal and external communications on behalf of the executive when required
 - Serve as a helpful knowledge base for executives and other team members (e.g., other EBAs), especially for processes and procedures, and provide assistance in a hands-on, kind, and proactive manner
 - Contribute to the broader EBA community by sharing learnings, resources, and mentoring other EBAs as appropriate. Develops and fosters collaborative working relationships with stakeholders at all levels. Known as a positive influencer across GitLab and an informal leader amongst the EBA community
 - Able to provide CEO support, if needed
@@ -115,7 +114,7 @@ The Staff Executive Business Administrator to the CEO is a [grade 8](/handbook/t
 #### Staff Executive Business Administrator Requirements
 
 - Extends Senior Executive Business Administrator Requirements
-- Deep experience supporting a C-Level Executive(s) as an EA or executive business partner at a quickly-scaling company, effectively representing the personal brand of the executive as well as the company’s culture and value
+- Deep experience supporting a C-Level Executive(s) as an EA or executive business partner at a quickly-scaling company, effectively representing the personal brand of the executive as well as the company's culture and value
 - High integrity and track record of maintaining confidentiality of all work product and sensitive information
 
 ## Specialties
@@ -128,7 +127,7 @@ The Staff EBA to the CEO strategically supports our Chief Executive Officer in t
 
 Manage CEO's email inbox including drafting internal and external communications on their behalf when required
 Maintain collaborative relationships with the Board of Directors and prepare materials such as slide decks for Board meetings
-Act as a mentor to the EBA team, sharing best practices and workflows to positively influence the team’s workflows and collaboration
+Act as a mentor to the EBA team, sharing best practices and workflows to positively influence the team's workflows and collaboration
 
 #### Requirements
 
@@ -137,7 +136,7 @@ Act as a mentor to the EBA team, sharing best practices and workflows to positiv
 
 ## Career Ladder
 
-An Executive Business Administrator’s career path can take various routes depending on the long term career goals and aspirations of an EBA. One path that is routinely taken is that of a career EBA and is someone who is passionate about being in the EBA role for the long-term resulting in becoming a Senior or Staff EBA at GitLab to a member of our E-Group. Another path that is open to an EBA is one where they decide to leverage their experience as an EBA to transition into a new role, such as (but not limited to) a Chief of Staff, Project Manager, Recruiter, Corporate Events Manager, Business Analyst, Executive Communications, PR, Internal Communications, People Connect Specialist, etc.
+An Executive Business Administrator's career path can take various routes depending on the long term career goals and aspirations of an EBA. One path that is routinely taken is that of a career EBA and is someone who is passionate about being in the EBA role for the long-term resulting in becoming a Senior or Staff EBA at GitLab to a member of our E-Group. Another path that is open to an EBA is one where they decide to leverage their experience as an EBA to transition into a new role, such as (but not limited to) a Chief of Staff, Project Manager, Recruiter, Corporate Events Manager, Business Analyst, Executive Communications, PR, Internal Communications, People Connect Specialist, etc.
 
 ## Performance Indicator
 
@@ -153,7 +152,7 @@ Applicants for this position can expect the hiring process to follow the order b
 - Next, candidates will be invited to schedule a first interview with the hiring manager the role will report to
 - Next, candidates will be invited to schedule additional interviews with the Executive Business Administrator team
 - Next or in parallel with the EBA team interview, candidates will be invited to complete a detailed assessment
-- Next, candidates may be asked to meet with the department’s People Business Partner
+- Next, candidates may be asked to meet with the department's People Business Partner
 - Final candidates will then be invited to schedule interviews with members of the leadership team the role will be supporting
 
 Additional details about our process can be found on our [hiring page](/handbook/hiring/).

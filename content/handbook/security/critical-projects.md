@@ -4,7 +4,8 @@ title: "Critical Projects"
 
 ## How are critical projects defined?
 
-These projects aren’t considered a function of OKRs (e.g., ambitious) but are considered critical because they
+These projects aren't considered a function of OKRs (e.g., ambitious) but are considered critical because they
+
 - must be accomplished fully within a specific time frame; and
 - require cross-functional collaboration; and
 - address immediate-term risks within security or GitLab
@@ -32,5 +33,5 @@ Time-bound: The goal has a deadline or defined timeframe, giving it a sense of u
 - Work toward these objectives takes a higher priority over OKRs
 - The more critical projects we assume, the fewer OKRs we should have. It should be considered acceptable to have a quarter with one or zero OKRs due to critical project load.
 - Expected critical projects are identified during the OKR planning process between functional leaders.
-- It’s possible for there to be zero critical projects in a given quarter.
+- It's possible for there to be zero critical projects in a given quarter.
 - It's possible for an unexpected and critical project to appear mid-quarter outside of the OKR planning cycle. Functional leaders should recalibrate relevant KR expectations accordingly, and within the relevant OKR issues.

@@ -1,10 +1,8 @@
 ---
-
 title: "Set up GitLab CE or EE on Azure Container Service"
 ---
 
 ## Video
-
 
 The video below shows how to install GitLab EE onto Azure Container Service. For
 the DevOps lifecycle, please refer to the [sales demo](/handbook/marketing/brand-and-product-marketing/product-and-solution-marketing/demo/).
@@ -14,12 +12,6 @@ the DevOps lifecycle, please refer to the [sales demo](/handbook/marketing/brand
  </iframe>
 </figure>
 
-
-
-
-
-
-
 ## Preparation
 
 > - You need an Azure account. A free trial account will suffice. Ensure you are logged in.
@@ -27,16 +19,16 @@ the DevOps lifecycle, please refer to the [sales demo](/handbook/marketing/brand
 > - This script assumes the `tanuki.website` domain, but you should either:
 >   - Pick the least-recently used domain from the [Google Doc](https://docs.google.com/spreadsheets/d/1HZ-7XhDNzdCBxfjzDFIQi7EjliptkpY4CB3LbiLa9MY/edit#gid=0). (Let's Encrypt limits SSL cert creation on a weekly basis, so rotating usage helps reduce hitting the limits), or
 >   - Buy a new domain for your demo and substitute throughout the script.
->     - [Google Domains](https://domains.google.com) is $12 for `.com` domains, which isn't the cheapest, but comes with privacy protection.
 >     - [Create DNS Zone](https://console.cloud.google.com/networking/dns/zones/~new?project=gitlab-demos) to let Google manage DNS for you.
 >     - Click `Registrar Setup` to see what name servers to use.
 > - Disable desktop notifications (on a Mac, top-right corner, option click).
-> - Open up new browser window so the audience doesn’t see all your other open tabs.
-> - Share just the web browser window so the audience isn’t distracted by notes or other windows.
+> - Open up new browser window so the audience doesn't see all your other open tabs.
+> - Share just the web browser window so the audience isn't distracted by notes or other windows.
 > - [Optional] Go to 'Displays' settings, Resolution: Scaled, Larger text.
 > - [Optional] Open this page on an iPad that has screen lock disabled.
-
+>
 > **CLI setup**
+>
 > - On macOS, install `brew` for all the things
 >   - `ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"`
 > - You need to have the [Azure CLI](https://docs.microsoft.com/en-us/cli/azure/install-azure-cli) installed. e.g.
@@ -48,12 +40,12 @@ the DevOps lifecycle, please refer to the [sales demo](/handbook/marketing/brand
 
 ## Set up a container scheduler cluster
 
-We’re going to install everything from scratch and we’ll start by creating a new
+We're going to install everything from scratch and we'll start by creating a new
 container cluster. Today I'm going to use Azure Container Service, which is a
 Kubernetes platform hosted by Microsoft. We're going to use the CLI and I'm
 already logged in, so the first thing is to create a group to house the cluster.
 I'll create it in the northcentralus zone. Then we create the cluster and name
-it `tanukiWebsite`, based on the domain name I'll use. I’ll only use 1 node so
+it `tanukiWebsite`, based on the domain name I'll use. I'll only use 1 node so
 it fits in a free trial account, but you can bump up the agent-count if desired.
 
 > - `az group create -n GitLabDemos -l northcentralus` (Change group name to something appropriate for you)
@@ -81,12 +73,13 @@ Encrypt. Then we use `helm` to install all the necessary components.
 > - *Note, if you're using a non-trial account, we recommend dropping `redisDedicatedStorage=false,postgresDedicatedStorage=false` which will isolate your database disks.*
 >
 > **Alternate instructions for GitLab EE**
+>
 > - Go to [/free-trial/](https://about.gitlab.com/free-trial/) and enter in your info to request a trial license for GitLab EE
 > - Wait for email
 > - Download license to `~/.gitlab-license`
 > - Install helm chart, adding the gitlab and gitlabEELicense options:
 
-```
+```console
 export LICENSE= `cat ~/GitLab.gitlab-license`
 helm upgrade -i tanuki --namespace gitlab --set baseDomain=tanuki.website,legoEmail=you@gitlab.com,provider=acs,redisDedicatedStorage=false,postgresDedicatedStorage=false,gitlab=ee,gitlabEELicense=$LICENSE gitlab/gitlab-omnibus
 ```
@@ -124,13 +117,13 @@ monitoring. Then there's separate containers for Postgres and Redis and the
 autoscaling GitLab Runner for CI and CD. This is everything you need for the
 application development lifecycle on Kubernetes.
 
-While we're waiting: In the rest of the demo, I’ll take you through everything
+While we're waiting: In the rest of the demo, I'll take you through everything
 you need to take ideas to production, including chat with Mattermost, issues and
 issue tracking, planning with issue boards, coding with terminal access,
 committing with git version control, merge requests for code review, testing
 with continuous integration, getting peer reviews with live review apps,
 continuous delivery to staging, deploying to production directly from chat,
-cycle analytics to measure how fast you’re going from planning to monitoring, and
+cycle analytics to measure how fast you're going from planning to monitoring, and
 lastly, Prometheus monitoring of your GitLab instance. With GitLab, everything
 is integrated out of the box.
 
@@ -148,7 +141,7 @@ Looks like our deployment is finished. Let's check out GitLab...
 
 > - Go to `gitlab.tanuki.website` (Adjusting the URL to the domain you used for this demo)
 
-Boom, we’ve got a shiny new GitLab installation!
+Boom, we've got a shiny new GitLab installation!
 
 ### Set root password
 
@@ -201,7 +194,7 @@ cluster.
 
 - You can check logs from CLI using `kubectl` as well
 
- ```
+ ```console
   kubectl get namespaces
   kubectl get pods --namespace=<NAMESPACE>
   kubectl logs <POD> --namespace=<NAMESPACE>

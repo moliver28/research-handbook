@@ -8,7 +8,7 @@ On this page, we have outlined how we make decisions at GitLab.
 
 ## Making decisions
 
-GitLab's **[values]({{< ref "values" >}})** are the guiding principles for our business. They inform hiring, performance management, and promotion assessments. They also guide other decisions that we make. At times, values may be in conflict. To address this, GitLab has a [values hierarchy]({{< ref "values#hierarchy" >}}). At the top of this [hierarchy is "results"]({{< ref "values#hierarchy" >}}). While items higher in the hierarchy don't always override items lower in the hierarchy, this structure guides team members as they weigh decision making alternatives.
+GitLab's **[values](/handbook/values/)** are the guiding principles for our business. They inform hiring, performance management, and promotion assessments. They also guide other decisions that we make. At times, values may be in conflict. To address this, GitLab has a [values hierarchy](/handbook/values/#hierarchy). At the top of this [hierarchy is "results"](/handbook/values/#hierarchy). While items higher in the hierarchy don't always override items lower in the hierarchy, this structure guides team members as they weigh decision making alternatives.
 
 GitLab has a **decision making process** that avoids the short falls of [hierarchical and consensus organizations](/handbook/company/culture/all-remote/management/#separating-decision-gathering-from-decision-making). Hierarchical organizations can make decisions quickly, but aren't great at gathering data. This leads people to say "yes," but have relatively low follow through on their commitments. Consensus organizations are good at gathering data but lack decision making speed. This can lead to projects happening under the radar.
 
@@ -19,15 +19,15 @@ To avoid the undesirable outcomes of hierarchical and consensus organizations, G
 
 These phases don't work if you take a full consensus or hierarchy approach. If you apply consensus in both the data gathering phase and the decision phase, you lose speed. Decisions also stay under the radar as team members try to limit the amount of folks they need to buy-in. If you apply a hierarchy approach in both the data gathering phase and the decision phase, they lose valuable input. We can allow others into our kitchen, because we can always send them out. Inviting people to give input is much easier if you retain the ability to make a decision by yourself.
 
-GitLab's two phase decision making approach depends on aligned team member expectations and clear roles. Contributors can feel ignored when they provide input, but are not included in the decision making progress. They have to accept that the decision maker listened to them, but doesn’t owe them an explanation. Otherwise, you lose decision-making speed. To develop this level of trust, you need clear accountability and expectations for the decision maker.
+GitLab's two phase decision making approach depends on aligned team member expectations and clear roles. Contributors can feel ignored when they provide input, but are not included in the decision making progress. They have to accept that the decision maker listened to them, but doesn't owe them an explanation. Otherwise, you lose decision-making speed. To develop this level of trust, you need clear accountability and expectations for the decision maker.
 
 At GitLab, each decision has an assigned [Directly Responsible Individual (DRI)](/handbook/people-group/directly-responsible-individuals/). This is the person who leads the work, including data gathering, **and** makes the decision. The DRI analyzes the data and weighs different options. This requires the DRI to assess the validity and biases of different perspectives and the relevance and strength of data. The DRI should actively seek out input from folks who have meaningful data or experience in the subject area.
 
-The DRI should have the level of seniority and knowledgeability required to gather information and make decisions. While this will vary with the complexity and potential impact of a decision, a DRI who is well matched to the ask gives team members confidence in an informed and knowledgeable hierarchy. Team members will be more confident that their feedback has been considered and more likely to agree or [disagree and commit](/values/#disagree-commit-and-disagree) with a decision.
+The DRI should have the level of seniority and knowledgeability required to gather information and make decisions. While this will vary with the complexity and potential impact of a decision, a DRI who is well matched to the ask gives team members confidence in an informed and knowledgeable hierarchy. Team members will be more confident that their feedback has been considered and more likely to agree or [disagree and commit](/handbook/values/#disagree-and-commit) with a decision.
 
-At GitLab, DRIs can make decisions that other team members disagree with. We say that [collaboration is not consensus]({{< ref "values#collaboration-is-not-consensus" >}}) and [people are not their work]({{< ref "values#people-are-not-their-work" >}}). A DRI may make a decision that results in (and is hence the cause of) negative feelings, but the DRI isn't expected to make the popular decision and the person, the DRI, is not the decision that has been made. The DRI should consider input and make an informed decision, but the DRI is not responsible for how people feel. Once a DRI has made a decision, team members are asked to [disagree, commit, and disagree]({{< ref "values#disagree-commit-and-disagree" >}}).
+At GitLab, DRIs can make decisions that other team members disagree with. We say that [collaboration is not consensus](/handbook/values/#collaboration-is-not-consensus) and [people are not their work](/handbook/values/#people-are-not-their-work). A DRI may make a decision that results in (and is hence the cause of) negative feelings, but the DRI isn't expected to make the popular decision and the person, the DRI, is not the decision that has been made. The DRI should consider input and make an informed decision, but the DRI is not responsible for how people feel. Once a DRI has made a decision, team members are asked to [disagree, commit, and disagree](/handbook/values/#disagree-and-commit).
 
-> If good decision-making appears complicated, that’s because it is and has been for a long time. Let me quote from Alfred Sloan, who spent a lifetime preoccupied with decision-making: “Group decisions do not always come easily. There is a strong temptation for the leading officers to make decisions themselves without the sometimes onerous process of discussion.”
+> If good decision-making appears complicated, that's because it is and has been for a long time. Let me quote from Alfred Sloan, who spent a lifetime preoccupied with decision-making: "Group decisions do not always come easily. There is a strong temptation for the leading officers to make decisions themselves without the sometimes onerous process of discussion."
 >
 >
 > - *Chapter 5: Decisions, Decisions of High Output Management by Andy Grove*
@@ -55,8 +55,8 @@ DRIs are not project or program managers unless they are team members who work w
 Decisions that require input, buy-in, or awareness of others should be accompanied by a brief, documented proposal. This can be captured in an agenda, [issue](https://gitlab.com/gitlab-com/www-gitlab-com/-/blob/master/.gitlab/issue_templates/decision-template.md), or Google Doc. Proposals should include [SPADE Decision Making](https://coda.io/@gokulrajaram/gokuls-spade-toolkit) components. At GitLab, we should share the following:
 
 1. Setting
-    1. Precisely define the “what.” What decision is being made? What is the scope of the decision? Does this impact the product, the platform, or the entire company? Be as specific as possible.
-    1. Be clear on the "when." Explain the why of the “when.” Why that date? Why that duration?
+    1. Precisely define the "what." What decision is being made? What is the scope of the decision? Does this impact the product, the platform, or the entire company? Be as specific as possible.
+    1. Be clear on the "when." Explain the why of the "when." Why that date? Why that duration?
     1. Explain the "why." Clearly establishing the why is the key to the setting.
     1. Why is this smallest and fastest? A statement on how you are taking an [iterative approach](/handbook/values/#iteration). Otherwise said, could this decision be broken into even smaller parts? If not, why not?
 1. People
@@ -75,6 +75,7 @@ We have an issue template that captures these elements: https://gitlab.com/gitla
 GitLab E-Group and the Learning and Development team discussed strategies on making decisions as part of the [CEO Handbook Learning Session](/handbook/people-group/learning-and-development/learning-initiatives/#ceo-handbook-learning-sessions).
 
 Topics covered include:
+
 1. Living our Transparency value when making decisions
 1. How to improve our ability to Iterate
 1. Applying the GitLab values hierarchy in making decisions

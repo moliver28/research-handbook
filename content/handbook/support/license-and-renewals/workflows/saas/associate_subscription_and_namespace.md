@@ -1,12 +1,8 @@
 ---
-
-
 title: Associating a subscription with a namespace & troubleshooting errors
 description: "How to provision GitLab.com subscriptions"
 category: GitLab.com subscriptions & purchases
 ---
-
-
 
 ## Provisioning subscriptions for reseller customers
 
@@ -52,7 +48,8 @@ Navigate to the [Clear subscription form](https://gitlab-com.gitlab.io/support/t
 - If it's successful then the namespace will be switched to free plan: `"name"=>"Free"` -> You can also verify the namespace and close the issue.
 - If it's not successful then add the `~Console Escalation - customers` label and this will be investigated by the engineers with console access.
 
- ***
+ ---
+
  FYI: You can read more about using the Zendesk Mechanizer app for Licensing & Renewals tickets [here](/handbook/support/license-and-renewals/workflows/customersdot/mechanizer).
 
 ## Customer self-serve: associating the subscription and namespace

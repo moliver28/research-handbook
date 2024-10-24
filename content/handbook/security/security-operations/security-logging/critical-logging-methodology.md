@@ -77,7 +77,7 @@ Systems are assigned a Critical Logging tier based on the following matrix:
   <tr>
     <td class="tg-e02t">Tier 3 Business Operational</td>
     <td class="tg-zqun">Disruption affects operational business functions, negatively impacting efficiency/cost of operation across departments and/or systems contain [yellow data]({{< ref "data-classification-standard#yellow" >}})</td>
-    <td class="tg-zqun">Clearwater, PagerDuty, ZenGRC</td>
+    <td class="tg-zqun">Clearwater, PagerDuty</td>
     <td class="tg-zqun">Combination of Tier 2 Support and Tier 3 Non-critical and influenced by responses to BIA</td>
   </tr>
   <tr>
@@ -95,7 +95,7 @@ Systems are assigned a Critical Logging tier based on the following matrix:
 
 <span style="color:#DB3B21;"><b>\**</b></span> By default, any system that contains <b>RED Data</b> per the [Data Classification Standard]({{< ref "data-classification-standard#red" >}}) OR is a [Third Party Sub-Processor](https://about.gitlab.com/privacy/subprocessors/#third-party-sub-processors) will be a **Tier 1 Mission Critical** system. This is due to the fact that this data is customer owned and uploaded and as such, has been deemed to be mission critical in nature.
 
-<span style="color:#DB3B21;"><b>*\*\*</b></span> By default, any system in-scope for [SOX](/handbook/business-technology/it-compliance/ITGC.html#what-are-itgcs) will be a **Tier 2 Business Critical** system, at minimum.
+<span style="color:#DB3B21;"><b>*\*\*</b></span> By default, any system in-scope for [SOX](https://internal.gitlab.com/handbook/it/it-compliance/#what-are-gitlabs-itgcs) will be a **Tier 2 Business Critical** system, at minimum.
 {{% /panel %}}
 
 ### Why does GitLab need this methodology?
@@ -104,7 +104,7 @@ Tiering systems utilized across GitLab enables team members to make decisions on
 
 ### Maintaining Critical Logging Tiers
 
-A Critical Logging assessment is performed on an annual cadence in alignment with the [StORM annual risk assessment process]({{< ref "storm-program" >}}) to validate existing systems in GitLab’s environment and make adjustments to assigned tiers accordingly. A system's assigned tier can be found in the [tech_stack.yml file](https://gitlab.com/gitlab-com/www-gitlab-com/-/blob/master/data/tech_stack.yml). A systems logging inventory can be found in the [SecLogging Inventory Repository](https://gitlab.com/gitlab-com/gl-security/engineering-and-research/security-logging/sec-logging-inventory)
+A Critical Logging assessment is performed on an annual cadence in alignment with the [StORM annual risk assessment process]({{< ref "storm-program" >}}) to validate existing systems in GitLab's environment and make adjustments to assigned tiers accordingly. A system's assigned tier can be found in the [tech_stack.yml file](https://gitlab.com/gitlab-com/www-gitlab-com/-/blob/master/data/tech_stack.yml). A systems logging inventory can be found in the [SecLogging Inventory Repository](https://gitlab.com/gitlab-com/gl-security/engineering-and-research/security-logging/sec-logging-inventory)
 
 #### Exceptions
 

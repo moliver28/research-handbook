@@ -1,15 +1,6 @@
 ---
-
 title: "Developer Advocacy Community Response Process"
-aliases:
-- /handbook/marketing/developer-relations/developer-evangelism/community-response/index.html
 ---
-
-
-
-
-
-
 
 ## How to engage developer advocates in community response
 
@@ -29,7 +20,7 @@ Our team uses the [Community response board](https://gitlab.com/groups/gitlab-co
 * In alignment with GitLab's [efficiency value](/handbook/values/#efficiency), the developer advocates will work with the [Directly Responsible Individuals (DRIs)](/handbook/people-group/directly-responsible-individuals/) for the community response situation to help the DRI and other experts directly address the community feedback and questions.
 * When possible, the developer advocacy team will typically collaborate with the DRIs on a list of expected questions/concerns from the community and draft responses. When available, we also include materials prepared for media responses, customer responses, or other materials related to the situation in our response preparation.
 * For high-priority announcements and news, we will conduct a practice exercise alongside the DRIs to test our preparation.
-* In many cases, we will want to direct the community to share their feedback in the GitLab Forum. By preparing a post that we can link to from a blog post, announcement, or community response will streamline how we gather feedback feedback and manage responses. This post should be created by a Forum admin in advance as a private post which is published at the time of the announcement.
+* In many cases, we will want to direct the community to share their feedback in the GitLab Forum. By preparing a post that we can link to from a blog post, announcement, or community response will streamline how we gather feedback and manage responses. This post should be created by a Forum admin in advance as a private post which is published at the time of the announcement.
   * _Note: when a forum post is used for feedback, consider turning off comments on the blog to encourage discussion on the forum._
 
 #### Community Response plan
@@ -123,7 +114,7 @@ When there is an ongoing discussion with many threads and requiring multiple ans
 
 Example analysis for the [file extensions not being allowed in usernames thread on HackerNews](https://news.ycombinator.com/item?id=28535298):
 
-```
+```text
 This bug affects the user profile page, when you call it like https://gitlab.com/dnsmichi.html it will not render the page correctly.
 The attempt to fix was to disallow reserved file type extensions, but the error message was wrong.
 ```

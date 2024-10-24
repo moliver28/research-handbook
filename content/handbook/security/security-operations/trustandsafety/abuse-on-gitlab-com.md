@@ -15,12 +15,11 @@ title: "Abuse on GitLab.com"
    - The form will require you to enter information describing the type abuse you are reporting.
    - Reports with insufficient information, cannot be reviewed and will therefore be closed, more detailed reports can be sent to `abuse@gitlab.com`.
 
-#### Reporting Merge Requests, Issues and Comments.
+#### Reporting Merge Requests, Issues and Comments
 
 1. Reporting **Comments/Issues/Merge Requests** using the `Report abuse to admin` button.
    1. You can report abuse by using the **report abuse to admin** dropdown at the top right of the corner of the issue/comment/MR.
    1. Complete the form with detailed information to aid our team in reviewing the reported content.
-
 
 #### Email abuse@gitlab.com
 
@@ -31,9 +30,9 @@ title: "Abuse on GitLab.com"
 
 1. Requests to have your reinstated can be done by reaching out to our Support Team.
 
-### Exceptions:
+### Exceptions
 
-#### Malware for Research Purposes.
+#### Malware for Research Purposes
 
 Making use of GitLab.com services to deliver malicious executables or as attack infrastructure is prohibited under the [GitLab Acceptable Use Policy] [link to be added once AUP has been launched].
 We do however understand that making such technical details available for research purposes can benefit the wider community, and as such it will be allowed as an exception to our <Acceptable Use Policy> if the content meets the following criteria:
@@ -42,7 +41,7 @@ We do however understand that making such technical details available for resear
   – Further details about specific project content that can be independently verified by the **GitLab Security** department must be
   present in the project `README.md` file; for example, links to supporting materials such as a blog post describing the project.
   – All malicious binaries/files are stored in password-protected archive files, with the passwords clearly documented; for example
-  placed in the repository’s `README.md`.
+  placed in the repository's `README.md`.
      *Example: [GitHub](https://github.com/ytisf/theZoo)
      * `git-lfs` is available for use for binary files on GitLab.com.
 
@@ -50,7 +49,7 @@ We do however understand that making such technical details available for resear
 
 #### Security Testing Tools
 
-When researching security issues, especially those which may compromise the privacy of others, you must use only test accounts in order to respect our users’ privacy. Accessing private information of other users, performing actions that may negatively affect GitLab’s users (e.g., spam, denial of service). Activity that is disruptive to GitLab operations will result in account being blocked. Examples of disruptive activity include, but are not limited to:
+When researching security issues, especially those which may compromise the privacy of others, you must use only test accounts in order to respect our users' privacy. Accessing private information of other users, performing actions that may negatively affect GitLab's users (e.g., spam, denial of service). Activity that is disruptive to GitLab operations will result in account being blocked. Examples of disruptive activity include, but are not limited to:
 
 - Generating abusive requests including API requests.
 - Mass creation of users, groups, and projects
@@ -69,21 +68,24 @@ Disruptive activity such as that listed above can be researched freely on your o
   GitLab reporters with 3 or more valid reports are eligible for a 1-year Ultimate license for up to 5 users. As per the
   [H1 policy](https://gitlab.com/gitlab-com/gl-security/hackerone/configuration/-/blob/master/program-policy.md#gitlab-ultimate-license), reporters will request the license through a comment on one of their issues.
 
-  For more information, please refer to our [FAQ page]({{< ref "./faq#security-testing" >}}).
+  For more information, please refer to our [FAQ page](faq/#security-testing).
 
 ### Abuse Categories
 
 - Below is a list of common abuse types;
 
 {{% details summary="Malware" %}}
+
 - Defined as software that is designed and distributed with the intention of causing damage to a computer, server, client, or computer network.
 {{% /details %}}
 
 {{% details summary="Commercial Spam" %}}
+
 - An account that has been created for the purpose of distributing spam in the form of advertising a product, service, item etc.
 {{% /details %}}
 
 {{% details summary="Malicious Content" %}}
+
 - An account that has been created for the purpose of distributing fraudulent, illegal, pirated or deceptive content.
   - Webpage Spam,
   - Phishing Pages
@@ -119,7 +121,7 @@ In the interest of fostering an open and welcoming environment, we as contributo
 {{% details summary="Prohibited Content" %}}
 Distributing harmful or offensive content that is defamatory, obscene, abusive, an invasion of privacy (Personally Identifiable Information/PII) or harassing.
 
-  - Reports of Child Sexual Abuse Material (CSAM) please notify [INHOPE](https://www.inhope.org/EN) via the [Report it!](https://www.inhope.org/EN#hotlineReferral) option (follow the steps outlined on the site to submit a report).
+- Reports of Child Sexual Abuse Material (CSAM) please notify [INHOPE](https://www.inhope.org/EN) via the [Report it!](https://www.inhope.org/EN#hotlineReferral) option (follow the steps outlined on the site to submit a report).
 {{% /details %}}
 
 {{% details summary="Comment Spam" %}}
@@ -137,6 +139,7 @@ There are various types of Comment spam but is not limited to:
 {{% /details %}}
 
 {{% details summary="Copyright Abuse" %}}
+
 - URL redirects to popular events.
 - Copyright content of which the account holder does not hold the rights to distribute.
 {{% /details %}}

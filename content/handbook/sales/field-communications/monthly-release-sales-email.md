@@ -1,14 +1,7 @@
 ---
-
 title: "GitLab Monthly Release Email to Sales"
 description: "Following each GitLab release every month, Field Communications sends out an email template that members of the Field organization can repurpose to send to their customers and prospects"
 ---
-
-
-
-
-
-
 
 ## Overview
 
@@ -17,6 +10,7 @@ Following each GitLab release [every month](/handbook/marketing/blog/release-pos
 ### Format
 
 The quick format includes:
+
 1. An overview of [GitLab's value drivers](/handbook/sales/command-of-the-message/)
 1. 3-4 main/noteworthy features of the release
 1. Release blog post and the [GitLab Releases page](https://about.gitlab.com/releases/).

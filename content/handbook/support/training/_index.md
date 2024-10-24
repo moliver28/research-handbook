@@ -1,20 +1,15 @@
 ---
-
 title: Support Learning & Training
 description: Learning Pathways available to Support team members
 ---
 
-
-
-
-
 ## Support Learning Pathways
 
-All the learning pathways we have in Support are listed [here](https://gitlab-com.gitlab.io/support/team/skills-by-subject). Each pathway contains a set of modules, and a module may reside in multiple pathways.
+All the learning pathways we have in Support are listed [here](https://gitlab-support-readiness.gitlab.io/support-team/skills-by-subject.html). Each pathway contains a set of modules, and a module may reside in multiple pathways.
 
 To create an issue for yourself with one of the module templates:
 
-- Click on the module you want to pursue from the [Skills Catalog](https://gitlab-com.gitlab.io/support/team/skills-catalog) page
+- Click on the module you want to pursue from the [Skills Catalog](https://gitlab-support-readiness.gitlab.io/support-team/skills-catalog.html) page
 - Title it as ***Your Name*: *Module Name***
 - Assign it to yourself
 - Now you're all set to follow the instructions in the module!
@@ -123,7 +118,7 @@ The GitLab Support pathway covers all platforms that we offer. In completing the
 When these modules are complete:
 
 1. Let your manager know that you are ready to [proceed to the appropriate on-call rotation training](#on-call-rotations).
-1. With your manager, discuss how to describe your Area of Focus percentage in the [support-team.yaml page](https://gitlab.com/gitlab-com/support/team/-/blob/master/data/support-team.yaml), removing onboarding.
+1. With your manager, discuss how to describe your Area of Focus percentage in the [support-team project](https://gitlab.com/gitlab-support-readiness/support-team), removing onboarding.
 
 ### License and Renewals Learning Pathway
 
@@ -194,7 +189,7 @@ It is recommended that you complete the modules in the order listed, unless an i
 | [ZenDesk Basics](https://gitlab.com/gitlab-com/support/support-training/-/blob/main/.gitlab/issue_templates/Zendesk-Basics.md) | 1 Day | Utilize ZenDesk to perform ticket management |
 | [Triaging Tickets](https://gitlab.com/gitlab-com/support/support-training/issues/new?issuable_template=Triaging%20Tickets) | 4 Days | Understand how to triage tickets including the triage view in Zendesk |
 | [Customer Emergencies](https://gitlab.com/gitlab-com/support/support-training/-/blob/main/.gitlab/issue_templates/Customer-Emergencies.md) | 1 Week | Understand the responsibilities of being on-call for Customer Emergencies |
-| [SSAT Reviewing Manager](https://gitlab.com/gitlab-com/support/support-training/-/blob/main/.gitlab/issue_templates/SSAT-Reviewing-Manager.md) | 1 day | Understand how to handle Support Satisfaction feedback results |
+| [SSAT Reviewing for Managers](https://gitlab.com/gitlab-com/support/support-training/-/blob/main/.gitlab/issue_templates/SSAT%20Reviewing%20Manager.md) | 1 day | Understand how to handle Support Satisfaction feedback results |
 
 When this pathway is complete, let your manager know that you are ready to join the appropriate on-call rotations. (Your Support Manager Basics issue contains the instructions for this step.)
 

@@ -1,11 +1,8 @@
 ---
-
 title: Zendesk Ticket Basics
 category: Handling tickets
 description: Information about various Zendesk ticket fields, behaviors and procedures
 ---
-
-
 
 ## Ticket status
 
@@ -94,6 +91,14 @@ As a high percentage of our tickets are solved or closed automatically through
 our workflows, it is important to begin your work on a ticket by setting
 appropriate values in all of the required (*) fields and relevant non-required
 fields.
+
+## Adding CCs to a ticket
+
+Do not try to add external contacts to the CCs of a ticket, even if the customer asks you to.
+As a matter of security policy, customers have to add CCs themselves. Direct the customer to the
+[corresponding instructions](https://about.gitlab.com/support/portal/#adding-additional-participants-ccs-to-your-ticket) on how to do so.
+
+You can still add internal contacts (like other SEs, the customer's CSM, …) yourself.
 
 ## Handling Large Files
 

@@ -28,7 +28,7 @@ with fullstack teams (frontend, backend, and fullstack engineers), and/or Engine
 - Hold regular [1:1s](/handbook/leadership/1-1/) with team members and [skip-level](/handbook/leadership/skip-levels/) 1:1s with indirect reports
 - Provide management mentorship
 - Enable [quad planning team](/handbook/product/product-processes/#pm-em-ux-and-set-quad-dris) [collaboration](/handbook/values/#collaboration) within [product groups](/handbook/company/structure/#product-groups)
-- Enable [Product](/handbook/product/performance-indicators/), [Quality](/handbook/engineering/quality/performance-indicators/), and [UX](/handbook/product/ux/performance-indicators/) performance via solid [stable-counterpart](/handbook/leadership/#stable-counterparts) partnership
+- Enable [Product](https://internal.gitlab.com/handbook/company/performance-indicators/product/), [Quality](/handbook/engineering/infrastructure/performance-indicators/), and [UX](/handbook/product/ux/performance-indicators/) performance via solid [stable-counterpart](/handbook/leadership/#stable-counterparts) partnership
 - Contribute to the sense of psychological safety of multiple teams.
 - Give regular and clear feedback around the [individual's performance](/handbook/leadership/1-1/suggested-agenda-format/)
 - Draft quarterly [OKRs](/handbook/company/okrs/) and [Engineering KPIs](/handbook/engineering/performance-indicators/#key-performance-indicators)
@@ -45,7 +45,7 @@ with fullstack teams (frontend, backend, and fullstack engineers), and/or Engine
 - Technical credibility: Past experience as a product engineer and leading teams thereof
 - Management credibility: Significant past experience as an engineering manager
 - Ability to understand, communicate and improve the quality of multiple teams
-- Demonstrate longevity at at least one recent job
+- Demonstrate longevity at, at least, one recent job
 - Ability to be successful managing at a remote-only company
 - Demonstrated successful partnership with stable counterparts
 - Exemplify [diversity, inclusion, and belonging](/handbook/values/#diversity-inclusion) in leadership

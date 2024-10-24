@@ -10,9 +10,9 @@ cascade:
 
 Organizations need people and teams — their creativity, perspectives, and humanity. That need will only grow as we move towards a future with bigger problems to solve, and as AI displaces every variety of rules-based knowledge work which can be automated.
 
-Tomorrow's winners will be determined by how they bring teams together, and how well they’re able to get every person on those teams to contribute to their mission.
+Tomorrow's winners will be determined by how they bring teams together, and how well they're able to get every person on those teams to contribute to their mission.
 
-Up to this point, teams, and the ways the people on them work, have been treated in a profoundly subjective manner: ad hoc, DIY, left up to whims of the individual manager and the quirks of a given corporate culture. It’s viewed as a soft problem, mixing 20th century management philosophies with pop psychology. Grounded in opinion, not reality. Feelings, not behaviors.
+Up to this point, teams, and the ways the people on them work, have been treated in a profoundly subjective manner: ad hoc, DIY, left up to whims of the individual manager and the quirks of a given corporate culture. It's viewed as a soft problem, mixing 20th century management philosophies with pop psychology. Grounded in opinion, not reality. Feelings, not behaviors.
 
 Meanwhile, other critical areas of business have been studied, made objective, codified, and operationalized. Why not so with our most valuable resource: teams?
 
@@ -37,7 +37,6 @@ TeamOps is comprised of four principles, each with six tenets that outline group
 | [Inclusivity](/teamops/shared-reality/#inclusivity) | [Tool Prioritization](/teamops/equal-contributions/#tool-prioritization) | [Low-Context Communication](/teamops/decision-velocity/#low-context-communication) | [Transparent Feedback](/teamops/measurement-clarity/#transparent-feedback) |
 | [Informal Communication](/teamops/shared-reality/#informal-communication) | [Psychological Safety](/teamops/equal-contributions/#psychological-safety) | [Operational Transparency](/teamops/decision-velocity/#operational-transparency) | [Cadence](/teamops/measurement-clarity/#cadence) |
 
-
 ## Prerequisites for TeamOps
 
 There are five foundational elements that should already be in place in an organization in order to support the adoption of TeamOps. These prerequisites relate to the company processes, digital infrastructure, and culture that create an *ideal* environment to implement TeamOps tenets.
@@ -50,13 +49,12 @@ There are five foundational elements that should already be in place in an organ
    - HR management (eg: Workday)
    - Financial management (eg: Quickbooks)
    - Calendars and scheduling (eg: Google Calendar)
-1. **Company Handbook.** TeamOps relies heavily on knowledge sharing through documentation and asynchronous communication. If you don't already have some kind of knowledge management system to host this information sharing-such as a wiki or handbook- you'll want to create one before starting the courses and certifications. But don't worry, you only have to get it started, because the TeamOps Practitioner Certification will guide you through the process of using this resource as a [Single Source of Truth](/handbook.gitlab.com/teamops/shared-reality/#single-source-of-truth-ssot) and populating the content for your team to use.
+1. **Company Handbook.** TeamOps relies heavily on knowledge sharing through documentation and asynchronous communication. If you don't already have some kind of knowledge management system to host this information sharing-such as a wiki or handbook- you'll want to create one before starting the courses and certifications. But don't worry, you only have to get it started, because the TeamOps Practitioner Certification will guide you through the process of using this resource as a [Single Source of Truth](/teamops/shared-reality/#single-source-of-truth-ssot) and populating the content for your team to use.
 1. **Shared set of values.** Your [core values](/handbook/values/) must be more than words on a page. They should be actionable, [reinforced](/handbook/company/culture/all-remote/building-culture/#reinforcing-your-values) in everything you do as a team, and act as a [filter for hiring](/handbook/company/culture/all-remote/building-culture/#how-do-i-assess-culture-fit-remotely) to ensure you continue to grow the team with people who are committed to living out these values in their work.
 1. **Team trust and inclusion.** Implementing new management and operating techniques can be uncomfortable at first. A baseline of [trust](/handbook/leadership/building-trust/) and [inclusivity](/handbook/company/culture/inclusion/) across the organization will better enable the team to embrace change and assume positive intent along the way.
 1. **Focus on results.** [Measuring output](/handbook/company/culture/all-remote/management/#focusing-on-results) instead of input is foundational to managing a virtual-first team. This means establishing clear, transparent goals so that team members at all levels of the organization can see and take ownership for how their work is contributing to the team, department, and company's success.
 
-If your organization is missing some of these building blocks, consider this an opportunity to invest in your team. A variety of [TeamOps Partners](handbook.gitlab.com/handbook/teamops/partners/) have been recruited to support you through the change management process.
-
+If your organization is missing some of these building blocks, consider this an opportunity to invest in your team. A variety of [TeamOps Partners](/handbook/teamops/partners/) have been recruited to support you through the change management process.
 
 ## TeamOps Tips
 

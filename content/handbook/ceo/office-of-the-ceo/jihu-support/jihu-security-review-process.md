@@ -1,8 +1,5 @@
 ---
 title: JiHu Security Review Process
-aliases:
-- /handbook/ceo/office-of-the-ceo/jihu-support/jihu-security-review-process/
-- /handbook/ceo/chief-of-staff-team/jihu-support/jihu-security-review-process/
 ---
 
 ### Security review process for JiHu contributions
@@ -11,7 +8,6 @@ In order to make sure that a release with JiHu contributions can be certified, m
 need to perform a security review of any JiHu contribution and explicitly approve them.  The JiHu team will be contributing code to
 [a number of repositories]({{< ref "jihu-support#projects" >}}).
 These contributions will be [auto labeled]({{< ref "jihu-contribution-process#jihu-contribution-identification" >}}) with the `JiHu contribution` label.
-
 
 ```mermaid
 graph TD

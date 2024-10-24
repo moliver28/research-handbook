@@ -4,7 +4,7 @@ title: Finance Mentorship Program
 
 Update: The Finance Mentorship Program is not currently active. We will update this page in the future if that changes. For information on GitLab Mentorship programs, see this [page](/handbook/people-group/learning-and-development/mentor)
 
-As discussed in [GitLab’s Remote Playbook]({{< ref "all-remote" >}}), the intentionality behind communication, especially in remote settings, is a critical element of success. This pilot program aims to support GitLab’s communications plan by purposefully creating and cultivating opportunities for mentors, mentees, and connection.
+As discussed in [GitLab's Remote Playbook](/handbook/company/culture/all-remote/), the intentionality behind communication, especially in remote settings, is a critical element of success. This pilot program aims to support GitLab's communications plan by purposefully creating and cultivating opportunities for mentors, mentees, and connection.
 
 In the finance team, there's a great untapped opportunity for cross-training and relationship building. We are launching our first mentorship pilot program to establish whether mentorship is a good way for the finance team to facilitate learning and development and normalize knowledge sharing in our department.
 
@@ -42,13 +42,13 @@ The program will last for up to 3-months if both the mentor and the mentee remai
 
 ### Recommendations for Mentees
 
-Mentees identify, at minimum, one development goal that they’d like to discuss with their mentor.
+Mentees identify, at minimum, one development goal that they'd like to discuss with their mentor.
 
 ***How to identify a goal?***
 
 - Themes from 360 feedback
-- A skill that you’d like to improve
-- An experience that you’d like to obtain to learn and grow closer to a career development milestone that you are interested in obtaining
+- A skill that you'd like to improve
+- An experience that you'd like to obtain to learn and grow closer to a career development milestone that you are interested in obtaining
 - Remember to make goals SMART (Specific, Measurable, Achievable, Realistic, Timely)
 
 ### Program Participants

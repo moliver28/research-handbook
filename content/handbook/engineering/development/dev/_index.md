@@ -13,11 +13,12 @@ We thrive for ownership of the things that we built by having a clear view on it
 
 The Dev sub-department is taking care of the first part of the DevSecOps Lifecycle with the following stages and the specific groups:
 
-1. [Manage](/handbook/product/categories/#manage-stage)
-    - [Manage:Foundations](/handbook/engineering/development/dev/manage/foundations/)
-    - [Manage:Import and Integrate](/handbook/engineering/development/dev/manage/import-and-integrate)
+1. [Foundations](/handbook/product/categories/#foundations-stage)
+    - [Foundations:Design System](/handbook/engineering/development/dev/foundations/design-system)
+    - [Foundations:Import and Integrate](/handbook/engineering/development/dev/foundations/import-and-integrate)
+    - [Foundations:Personal Productivity](/handbook/engineering/development/dev/foundations/personal-productivity)
 1. [Plan](/handbook/product/categories/#plan-stage)
-    - [Plan:Project Management](/handbook/engineering/development/dev/plan-project-management/)
+    - [Plan:Project Management](/handbook/engineering/development/dev/plan/project-management/)
     - [Plan:Product Planning](/handbook/engineering/development/dev/plan/product-planning/)
     - [Plan:Optimize](/handbook/engineering/development/dev/plan/optimize)
     - [Plan:Editor](/handbook/engineering/development/dev/plan/editor/)
@@ -26,22 +27,26 @@ The Dev sub-department is taking care of the first part of the DevSecOps Lifecyc
     - [Create: Source Code FE](/handbook/engineering/development/dev/create/code-review/frontend/)
     - [Create: Code Review BE](/handbook/engineering/development/dev/create/code-review/backend/)
     - [Create: Code Review FE](/handbook/engineering/development/dev/create/code-review/frontend/)
-    - [Create: IDE](/handbook/engineering/development/dev/create/ide/)
+    - [Create: Remote Development](/handbook/engineering/development/dev/create/remote-development/)
     - [Create: Code Creation](/handbook/engineering/development/dev/create/code-creation/)
     - [Create: Editor Extensions](/handbook/engineering/development/dev/create/editor-extensions/)
     - [Create Frontend](/handbook/engineering/frontend/create/)
 
 ## Who we are
 
-### Manage
+### Foundations
 
-#### Manage:Foundations
+#### Foundations:Design System
 
-{{< team-by-manager-role "Engineering Manager(.*)Manage:Foundations" >}}
+{{< team-by-manager-role role="Manager(.*)Foundations:Design System" team="[,&] (Foundations:Design System)">}}
 
-#### Manage:Import and Integrate
+#### Foundations:Import and Integrate
 
 {{< team-by-manager-role "Engineering Manager(.*)Manage:Import and Integrate" >}}
+
+#### Foundations:Personal Productivity
+
+{{< team-by-manager-role role="Manager(.*)Foundations:Personal Productivity" team="[,&] (Foundations:Personal Productivity)">}}
 
 ### Plan
 
@@ -59,18 +64,13 @@ The Dev sub-department is taking care of the first part of the DevSecOps Lifecyc
 
 #### Plan:Knowledge
 
-
 {{< team-by-manager-role role="Senior Manager, Engineering(.*)Plan" team="[,&] (Plan:Knowledge)" >}}
 
 ### Create
 
 #### Create:Code Review
 
-{{< team-by-manager-role "Backend Engineering Manager(.*)Create:Code Review" >}}
-
-#### Create:Code Review Frontend
-
-{{< team-by-manager-role role="Frontend Engineering Manager(.*)Create:Source Code" team="Create:Code Review" >}}
+{{< team-by-manager-role role="Engineering Manager(.*)Create:Code Review" team="[,&] (Create:Code Review)" >}}
 
 #### Create:Code Creation
 
@@ -78,19 +78,15 @@ The Dev sub-department is taking care of the first part of the DevSecOps Lifecyc
 
 #### Create:Editor Extensions
 
-{{% team-by-manager-role role="(.*)Manager(.*)Create:Editor Extensions" %}}
+{{% team-by-manager-slug "kisha.mavryck" %}}
 
-#### Create:IDE
+#### Create:Remote Development
 
 {{< team-by-manager-slug "adebayo_a" >}}
 
 #### Create:Source Code
 
-{{< team-by-manager-role "Backend Engineering Manager(.*)Create:Source Code" >}}
-
-#### Create:Source Code Frontend
-
-{{< team-by-manager-role role="Frontend Engineering Manager(.*)Create:Source Code" team="Create:Source Code" >}}
+{{< team-by-manager-role role="Engineering Manager(.*)Create:Source Code" team="[,&] (Create:Source Code)">}}
 
 ## Stable Counterparts
 
@@ -132,7 +128,7 @@ A [Slack workflow](https://gitlab.com/gitlab-com/gl-infra/scalability/-/snippets
 
 - Issue Tracker
 - Slack Channels
-    - #sd_dev_engineering
-    - #s_manage
-    - #s_plan
-    - #s_create
+  - #sd_dev_engineering
+  - #s_manage
+  - #s_plan
+  - #s_create

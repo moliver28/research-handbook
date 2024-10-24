@@ -1,5 +1,4 @@
 ---
-
 title: Open Partners
 description: "Support specific information for open partners"
 ---
@@ -18,10 +17,10 @@ transacting partners, and can earn product discounts or referral fees.
 
 Open Partners and their end customers can contact us by submitting a ticket through the [Submit a Request](https://support.gitlab.com/hc/en-us/requests/new) form. To ensure efficient ticket handling and prevent any delays in receiving the first response, they have two options:
 
-   - Open Partners:
-      - If the Open Partner is opening a ticket on behalf of a customer or themselves then they can use the [Submit a Request](https://support.gitlab.com/hc/en-us/requests/new) page and select the appropriate form for their problem.
-   - End Customers of Partners:
-      - If the end customers would prefer to open a ticket directly with GitLab Support then they can also use the [Submit a Request](https://support.gitlab.com/hc/en-us/requests/new) page and select the appropriate form for their problem.
+- Open Partners:
+  - If the Open Partner is opening a ticket on behalf of a customer or themselves then they can use the [Submit a Request](https://support.gitlab.com/hc/en-us/requests/new) page and select the appropriate form for their problem.
+- End Customers of Partners:
+  - If the end customers would prefer to open a ticket directly with GitLab Support then they can also use the [Submit a Request](https://support.gitlab.com/hc/en-us/requests/new) page and select the appropriate form for their problem.
 
 The only requirement for submitting a new ticket is that you must first register on the [GitLab Support Portal](https://about.gitlab.com/support/portal/).
 

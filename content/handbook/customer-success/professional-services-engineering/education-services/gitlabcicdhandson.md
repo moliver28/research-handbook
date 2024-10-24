@@ -2,22 +2,21 @@
 title: "GitLab CI/CD - Hands-On Lab Overview"
 description: "This Hands-On Guide walks you through the lab exercises in the GitLab CI/CD course."
 ---
-# GitLab CI/CD Hands-On Guide
 
-## Lab Guides
+## GitLab CI/CD Lab Guides
 
 | Lab Name |  Lab Link |
 |-----------|------------|
-| Review example GitLab CI/CD section | [Lab Link](/handbook/customer-success/professional-services-engineering/education-services/gitlabcicdhandsonlab1) |
-| Create a project containing a `.gitlab-ci.yml` file and register a GitLab Runner | [Lab Link](/handbook/customer-success/professional-services-engineering/education-services/gitlabcicdhandsonlab2) |
-|  Create a basic CI configuration | [Lab Link](/handbook/customer-success/professional-services-engineering/education-services/gitlabcicdhandsonlab3) |
-| Display pipeline environment info | [Lab Link](/handbook/customer-success/professional-services-engineering/education-services/gitlabcicdhandsonlab4) |
-| Variable hierarchy | [Lab Link](/handbook/customer-success/professional-services-engineering/education-services/gitlabcicdhandsonlab5) |
-| Job policy pattern | [Lab Link](/handbook/customer-success/professional-services-engineering/education-services/gitlabcicdhandsonlab6) |
-|  Using artifacts |  [Lab Link](/handbook/customer-success/professional-services-engineering/education-services/gitlabcicdhandsonlab7) |
-| GitLab docker registry |  [Lab Link](/handbook/customer-success/professional-services-engineering/education-services/gitlabcicdhandsonlab8) |
-|  Security scanning | [Lab Link](/handbook/customer-success/professional-services-engineering/education-services/gitlabcicdhandsonlab9) |
-| Code quality scanning | [Lab Link](/handbook/customer-success/professional-services-engineering/education-services/gitlabcicdhandsonlab9alt) |
+| Understanding the Basics of Pipelines | [Lab Link](/handbook/customer-success/professional-services-engineering/education-services/gitlabcicdhandsonlab1) |
+| Defining Stages, Jobs, and Runners | [Lab Link](/handbook/customer-success/professional-services-engineering/education-services/gitlabcicdhandsonlab2) |
+| Create a basic CI configuration | [Lab Link](/handbook/customer-success/professional-services-engineering/education-services/gitlabcicdhandsonlab3) |
+| Display Pipeline Info | [Lab Link](/handbook/customer-success/professional-services-engineering/education-services/gitlabcicdhandsonlab4) |
+| Variable Hierarchy | [Lab Link](/handbook/customer-success/professional-services-engineering/education-services/gitlabcicdhandsonlab5) |
+| Job Policy Patterns | [Lab Link](/handbook/customer-success/professional-services-engineering/education-services/gitlabcicdhandsonlab6) |
+| Using Artifacts |  [Lab Link](/handbook/customer-success/professional-services-engineering/education-services/gitlabcicdhandsonlab7) |
+| GitLab Docker Registry |  [Lab Link](/handbook/customer-success/professional-services-engineering/education-services/gitlabcicdhandsonlab8) |
+| Security Scanning | [Lab Link](/handbook/customer-success/professional-services-engineering/education-services/gitlabcicdhandsonlab9) |
+| Code Quality Scanning | [Lab Link](/handbook/customer-success/professional-services-engineering/education-services/gitlabcicdhandsonlab9alt) |
 
 ## Quick links
 

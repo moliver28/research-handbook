@@ -1,13 +1,8 @@
 ---
-
-title: Mechanizer 
+title: Mechanizer
 category: CustomersDot
-description: How to use the mechanizer for L&R requests. 
+description: How to use the mechanizer for L&R requests.
 ---
-
-
-
-
 
 ## Overview
 
@@ -21,7 +16,7 @@ The new ZD Mechanizer app can be found by opening the ZD App side bar. You must 
 
 In the app you will have the option to select from the following request types:
 
-#### Note
+### Note
 
 **Your GitLab Username** will be automatically added to the form.
 
@@ -117,7 +112,7 @@ Sets [additional project storage](https://docs.gitlab.com/ee/user/usage_quotas.h
 
 ### Set max seats
 
-Modifies the highest number of seats used on the namespace during the current subscription term.  
+Modifies the highest number of seats used on the namespace during the current subscription term.
 
 #### Note
 

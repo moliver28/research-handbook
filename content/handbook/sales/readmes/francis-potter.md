@@ -1,5 +1,4 @@
 ---
-
 title: "Francis Potter - Senior Pro Services Engineer"
 description: Helping teams adopt transformational practices and technology for over 20 years
 job: "Professional Services"
@@ -25,4 +24,4 @@ Before GitLab, I ran a tiny independent professional services firm after serving
 
 Outside of this amazing organization, I consider myself an open source Python developer, brain tumour survivor, aspie, Rotarian, gender non-conformist, LGBTQ2S+ ally, concertgoer, musical theatre nut, electric guitar dabbler, MotoGP follower, Rush fan, husband, father, Canadian, and resident of the traditional territory of the K'ómoks people.
 
-Finally, those [values](https://handbook.gitlab.com/handbook/values/)? We really follow them, every moment of every day.
+Finally, those [values](/handbook/values/)? We really follow them, every moment of every day.

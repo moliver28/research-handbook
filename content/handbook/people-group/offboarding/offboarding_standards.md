@@ -12,7 +12,7 @@ These standards specify requirements related to the offboarding of GitLab team m
 
 These standards apply to all GitLab team-members, contractors, advisors, and contracted parties interacting with GitLab computing resources and accessing company or customer data.
 
-## Roles & Responsibilities:
+## Roles & Responsibilities
 
 | Role  | Responsibility |
 |-----------|-----------|
@@ -28,7 +28,7 @@ Once the termination process has been approved and completed in Workday either b
 
 In alignment with the needs of both People Connect and IT Operations, offboardings will kick off at a specific time, based on a **team members' local timezone** in Slack. For offboardings scheduled for Monday-Thursday, this will be at 1600 hrs / 4:00pm local time, and on Fridays would be opened at 1200 hrs / 12:00pm local time.
 
-**Note:** In instances where team members require deprovisioning initiated outside of these times, team members or their manager should reach out to People Connect via direct message or people-connect@gitlab.com to arrange an alternate time.
+**Note:** In instances where team members require deprovisioning initiated outside of these times, team members or their manager should reach out to People Connect via HelpLab to arrange an alternate time.
 
 Should the effective date fall on a day which People Connect is unable to support e.g. a Family and Friends Day or Global Holiday, People Connect will reach out to the People Business Partner to discuss alternate offboarding options.
 
@@ -42,9 +42,9 @@ Offboarding issues are created [automatically](/handbook/people-group/engineerin
 
 The assigned People Connect team member will be automatically added to the list of assignees once the offboarding issue is created.
 
-Many teams work to deprovision access including the IT Operations, this should be regarded as urgent and all tasks expected to be completed within 5 working days, with the exception of [laptop returns](/handbook/business-technology/end-user-services/onboarding-access-requests/#returning-oldoffboarded-laptops), which can take 2-4 weeks.
+Many teams work to deprovision access including the IT Operations, this should be regarded as urgent and all tasks expected to be completed within 5 working days, with the exception of [laptop returns](/handbook/it/end-user-services/onboarding-access-requests/#returning-oldoffboarded-laptops), which can take 2-4 weeks.
 
-Note: If the team member is temporarily transitioning to a [contractor or consultant role](/handbook/business-technology/end-user-services/onboarding-access-requests/temporary-service-providers/), please proceed with the full offboarding process and create a separate onboarding issue to grant only specific temporary access for what they would need to fulfill their contractual obligations.
+Note: If the team member is temporarily transitioning to a [contractor or consultant role](/handbook/it/end-user-services/onboarding-access-requests/temporary-service-providers/), please proceed with the full offboarding process and create a separate onboarding issue to grant only specific temporary access for what they would need to fulfill their contractual obligations.
 
 #### Creating the Offboarding Issue Manually
 
@@ -88,9 +88,9 @@ As per the [automation](/handbook/people-group/engineering/offboarding/#offboard
 The People Connect Team member will need to complete:
 
 - Remove the team members ReadMe
-   - If the ReadMe is in a private project, request assistance from the IT Ops team to delete (you can tag them in the team page MR and private Slack channel)
+  - If the ReadMe is in a private project, request assistance from the IT Ops team to delete (you can tag them in the team page MR and private Slack channel)
 - Check for hardcoded references
-   - The People Connect team member handling the offboarding should check to see whether the offboarded team members name is listed on any other public Handbook pages. This can be done by doing a Google search for the team members name and "GitLab" - this should pull up results that reflect any association with the team members name and GitLab (including a ReadMe).
+  - The People Connect team member handling the offboarding should check to see whether the offboarded team members name is listed on any other public Handbook pages. This can be done by doing a Google search for the team members name and "GitLab" - this should pull up results that reflect any association with the team members name and GitLab (including a ReadMe).
 
 ### Offboarding Compliance
 

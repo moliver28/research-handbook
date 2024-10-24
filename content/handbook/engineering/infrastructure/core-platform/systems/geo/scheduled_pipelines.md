@@ -1,17 +1,7 @@
 ---
-aliases: /handbook/engineering/infrastructure/core-platform/systems/geo/scheduled_pipelines.html
-
 title: Geo scheduled pipelines
 description: "Document the scheduled Geo pipelines"
 ---
-
-# On this page
-
-
-
-
-
-
 
 ## Summary
 
@@ -49,4 +39,3 @@ to check for errors, and handle them as appropriate.
    1. Open a follow up issues to handle the fix
    1. [Quarantine](https://docs.gitlab.com/ee/development/testing_guide/flaky_tests.html#quarantined-tests) the failing test
    1. Close the incident
-

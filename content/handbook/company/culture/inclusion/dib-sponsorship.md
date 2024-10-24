@@ -1,19 +1,18 @@
 ---
 title: "Sponsorship Program Guide"
 description: "The process for Sponsorship Programs at GitLab"
-aliases: /handbook/company/culture/inclusion/DIB-Sponsorship/
 ---
 
 ## Sponsorship vs Mentorship
 
 ### Sponsorship
 
-Sponsorship is defined as using your influence and/or power to advocate and positively impact the growth and career advancement of a team member. A sponsor is a senior leader with significant influence and responsibilities. A sponsor will then use this influence to but not limited to;
+Sponsorship is defined as using your influence and/or power to advocate and positively impact the growth and career advancement of a team member. A sponsor is a senior leader with significant influence and responsibilities. A sponsor may then use this influence for activities such as:
 
 - Advocating for career advancement opportunities
 - Providing stretch opportunities to up skill via active projects
 - Promoting sponsee visibility with other senior leaders
-- Giving advice on “presentation of self” to sponsee
+- Giving advice on "presentation of self" to sponsee
 - Giving timely, honest feedback on skills, capabilities or experience gaps
 
 At GitLab a sponsorship program can be a way of rewarding and growing top performing GitLab team members. Alternatively, it can be used to increase representation or provide visibility to underrepresented groups at GitLab, which can be seen via the [Sales Sponsorship Program Pilot for Black Team Members]({{< ref "dib-sponsorship-program" >}}).
@@ -24,7 +23,7 @@ This page outlines what sponsorship is and the pathway to creating a successful 
 
 Mentorship is defined in our [Mentoring handbook page:](/handbook/people-group/learning-and-development/mentor#what-is-mentoring) Mentor relationships are an opportunity for individuals to learn from someone's personal experience, background, and perspective. These relationships build trust on a team, provide safe space to make mistakes, and encourage both personal and professional development.
 
-[Harvard Business Review](https://hbr.org/2019/08/a-lack-of-sponsorship-is-keeping-women-from-advancing-into-leadership) defines the difference between sponsors versus mentors: “While a mentor is someone who has knowledge and will share it with you, a sponsor is a person who has power and will use it for you.”
+[Harvard Business Review](https://hbr.org/2019/08/a-lack-of-sponsorship-is-keeping-women-from-advancing-into-leadership) defines the difference between sponsors versus mentors: "While a mentor is someone who has knowledge and will share it with you, a sponsor is a person who has power and will use it for you."
 
 ## Starting a DIB Sponsorship Program
 
@@ -67,13 +66,13 @@ The Executive Sponsorship Advocates are nominated senior leaders by the E-Group 
 **A sponsor at GitLab is:**
 
 - A Senior Leader at a minimum [job grade 10+]({{< ref "compensation-calculator#job-grades" >}}) and is not the sponsees direct manager.
-    - The senior leader should be a People Manager or Manager of Managers
+  - The senior leader should be a People Manager or Manager of Managers
 - Must have been at GitLab for 6+ months
 - Be able to commit to the defined duration of the sponsorship program which will include
-    - Sponsor Training
-    - Kick-off calls
-    - Bi-weekly 1-1 with Sponsee
-    - Be able to fully commit and be held accountable for their role within the Sponsorship Program
+  - Sponsor Training
+  - Kick-off calls
+  - Bi-weekly 1-1 with Sponsee
+  - Be able to fully commit and be held accountable for their role within the Sponsorship Program
 
 **As a Sponsor you should be:**
 
@@ -128,7 +127,7 @@ The Executive Sponsorship Advocates are nominated senior leaders by the E-Group 
 ## Role of Manager
 
 - The manager will support the team member in ensuring that they have a Individual Growth Plan (IGP)
-    - As well reassess the IGP at regular intervals during the sponsorship program
+  - As well reassess the IGP at regular intervals during the sponsorship program
 - The manager will regularly check in on the progress of the Sponsorship Program with their report
 - The manager will regularly report on the success of the program to the leadership advocates of the program
 - Participate in a manager of sponsees session
@@ -209,7 +208,6 @@ Once sign up has closed for the Sponsees, matching can begin. You should utilize
 - The sponsor should not be in the direct hierarchy of the sponsor
 - Utilize the sign up form to match similar goals and experiences for the sponsee sponsor pairing
 
-
 ### Begin the program
 
 #### Sponsorship Framework
@@ -277,7 +275,7 @@ This will solidify any expectations for after the program, whether that is to en
 
 **Goals:**
 
-The goals of including Sponsorship Programs at GitLab is to help ensure that our top performers and team members from underrepresented groups are giving increased opportunities to work with senior leaders. This will increase engagement within these groups and ultimately increase the retention of of team members.
+The goals of including Sponsorship Programs at GitLab is to help ensure that our top performers and team members from underrepresented groups are giving increased opportunities to work with senior leaders. This will increase engagement within these groups and ultimately increase the retention of team members.
 
 **Benefits:**
 

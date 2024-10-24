@@ -40,8 +40,8 @@ For actions outlined below that involve paging SIRT, please check the "page imme
 
 #### Follow-up actions
 
-1. If the fix was found out to be insufficient shortly after it went out, consider opening an [AppSec review](https://handbook.gitlab.com/handbook/security/security-engineering/application-security/runbooks/review-process/) for that feature.
-1. Consider opening an [RCA issue](https://handbook.gitlab.com/handbook/security/root-cause-analysis/) to figure out why the fix was insufficient.
+1. If the fix was found out to be insufficient shortly after it went out, consider opening an [AppSec review](/handbook/security/security-engineering/application-security/runbooks/review-process/) for that feature.
+1. Consider opening an [RCA issue](/handbook/security/root-cause-analysis/) to figure out why the fix was insufficient.
 
 ### HackerOne reporter decides to make something public prior to a fix being made
 
@@ -56,7 +56,7 @@ For actions outlined below that involve paging SIRT, please check the "page imme
 
 #### Follow-up actions
 
-1. Ban the HackerOne researcher from the program following [the code of conduct violation](https://handbook.gitlab.com/handbook/security/product-security/application-security/runbooks/hackerone-process/#addressing-rules-of-engagement-or-code-of-conduct-violations) process.
+1. Ban the HackerOne researcher from the program following [the code of conduct violation](/handbook/security/product-security/application-security/runbooks/hackerone-process/#addressing-rules-of-engagement-or-code-of-conduct-violations) process.
 1. Communicate the situation to the Legal team via the `#legal` Slack channel or pinging them into the issue, so they can determine what (if any) steps need to be taken from a legal perspective
 1. Involve Communications to alert any potentially impacted customers.
 
@@ -73,14 +73,13 @@ For the following:
 
 #### Mitigation
 
-1. [Make the YouTube video private by following these instructions](https://handbook.gitlab.com/handbook/marketing/marketing-operations/youtube/#make-private-quickly).
+1. [Make the YouTube video private by following these instructions](/handbook/marketing/marketing-operations/youtube/#make-private-quickly).
 1. Communicate with the EMs, PMs, and development teams to urge them to work on fixing the vulnerability as a priority.
 1. Consider starting a conversation with Delivery, Dedicated, and the relevant development teams about potentially scheduling an ad-hoc critical security release, depending on the severity of the vulnerability.
 
 #### Follow-up actions
 
 1. Reach out to the team member that caused the leak, and educate them on keeping [vulnerability-related data](https://internal.gitlab.com/handbook/security/data_classification/#data-classification-index) SAFE.
-
 
 For the following:
 

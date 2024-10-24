@@ -84,12 +84,12 @@ To ensure all schedules we utilize are both consistent in nature and
 transparent in their actions, we strive to meet some standards on all
 schedules we work with.
 
-#### Naming standards
+### Naming standards
 
 The name of the schedule should be very explicit. Try to aim to make the name of
 the schedule reveal what it is to be used for.
 
-#### Timezone standards
+### Timezone standards
 
 The timezone used for schedules should be reflective of those using it. For
 example, if this schedule is for those in the EMEA region, you should use a
@@ -117,12 +117,12 @@ As the schedule changes are unique in deployment, please see
 [Zendesk schedules change management](/handbook/support/readiness/operations/docs/change_management#zendesk-schedules-change-management)
 for more information.
 
-#### Labels to use
+### Labels to use
 
 For all issues and MRs involving schedules, the label
 `Support-Ops-Category::Zendesk Settings` should be used.
 
-#### Change criticality
+### Change criticality
 
 Due to the nature and impact adding/editing/deleting Zendesk schedules imposes,
 all issues/MRs related to Zendesk schedules will be classified as

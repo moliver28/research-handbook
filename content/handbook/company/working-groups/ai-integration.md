@@ -68,7 +68,7 @@ The following criteria should be met for the group to disband:
 - We have a structured methodology for evaluating new AI models, adding them to the integration platform to allow them to be consumed by product teams.
 - We have a roadmap plan to achieve GA for our initial AI experiments.
 - Documented process for handling AI feature proposals as part of the [prioritization framework](/handbook/product/product-processes/#prioritization)
-- Move [SAFE](/handbook/legal/safe-framework/) content from the [internal handbook](https://internal-handbook.gitlab.io/handbook/product/ai-strategy/ai-integration-effort/) to the public handbook where appropriate and [SAFE](/handbook/legal/safe-framework/).
+- Move [SAFE](/handbook/legal/safe-framework/) content from the [internal handbook](https://internal.gitlab.com/handbook/product/ai-strategy/ai-integration-effort/) to the public handbook where appropriate and [SAFE](/handbook/legal/safe-framework/).
 - Develop an evaluation process of user experience between options to make more intelligent decisions on which engineering solution we recommend.
 
 ### Q2 OKRs
@@ -82,7 +82,6 @@ The following criteria should be met for the group to disband:
 | Executive Stakeholder   | @hbenson        | [Hillary Benson](/handbook/company/team/#hbenson)       | Senior Director, Product Management - Sec, Data Science & Monitor              |
 | Executive Stakeholder   | @timzallmann    | [Tim Zallmann](/handbook/company/team/#timzallmann)       | Senior Director of Engineering, Dev                             |
 | Facilitator             | @tmccaslin  | [Taylor McCaslin](/handbook/company/team/#tmccaslin)   | Group Manager, Product - Data Science                    |
-| Facilitator             | @wayne  | [Wayne Haber](/handbook/company/team/#wayne)   | Director of Engineering |
 | Functional Lead - AI Model Validation      | @mray  | [Monmayuri Ray](https://gitlab.com/mray2020)   | Engineering Manager AI Model Validation |
 | Functional Lead - UX             | @jmandell  | [Justin Mandell](/handbook/company/team/#jmandell)   | Product Design Manager: Analytics, Govern, ModelOps, and Secure |
 | Functional Lead - UX             | @pedroms  | [Pedro Moreira da Silva](/handbook/company/team/#pedroms)   | Staff Product Designer |
@@ -123,7 +122,6 @@ The following criteria should be met for the group to disband:
 | Support | @ralfaro | [Ronnie Alphero](https://gitlab.com/ralfaro) | Support Engineering Manager |
 | Enablement | @cs.wang | [Christopher Wang](https://gitlab.com/cs.wang) | Sr. Manager, Enablement (Sales Development) |
 
-
 ## Engineering Groups
 
 We currently have two core AI Development groups at GitLab: AI Framework group and AI Model Validation group.
@@ -134,7 +132,7 @@ The AI Model Validation group helps all product groups to match the right model(
 
 - [AI Model Validation group](/handbook/product/categories/#ai-powered-stage) develops in-house AI features that run natively within GitLab infrastructure. The group develops these models to meet capability, quality, customizability, privacy, and cost requirements.  These components include an inference engine, abstraction layer, and models.
 - The custom-built models help in use cases when there is a need to train models on customer-proprietary data (like all merge requests and commits for a customer) and when 3rd party models do meet our needs.
-- Their currently released features are [code suggestions](https://docs.gitlab.com/ee/user/project/repository/code_suggestions.html) which is currently in customer beta and [suggested reviewer](https://docs.gitlab.com/ee/user/project/merge_requests/reviews/#suggested-reviewers) which is GA.
+- Their currently released features are [code suggestions](https://docs.gitlab.com/ee/user/project/repository/code_suggestions/) which is currently in customer beta and [suggested reviewer](https://docs.gitlab.com/ee/user/project/merge_requests/reviews/#suggested-reviewers) which is GA.
 - This group can help evaluate models for functional correctness and [model perplexity](https://surge-ai.medium.com/evaluating-language-models-an-introduction-to-perplexity-in-nlp-f6019f7fb914) based on metrics and (often large) benchmark datasets, which is a more statistical evaluation than manual testing. This can help determine the most quality model for a feature's use-case.
 - They work in many languages, including Ruby on Rails, Golang, Python (for machine learning and data science), and Typescript (for the VS Code Plugin). The group comprises of [ML Scientistists](https://medium.com/cogitotech/what-is-the-difference-between-machine-learning-engineer-vs-machine-learning-scientist-cfcf4e48363f), [MLOps Engineers](https://www.databricks.com/glossary/mlops) , [ML Infrastructure Engineers](https://www.reddit.com/r/MLQuestions/comments/zd55mv/what_exactly_is_a_machine_learning_infrastructure/), and [Fullstack engineers](/job-families/engineering/development/fullstack/).
 
@@ -146,7 +144,7 @@ AI Framework exposes AI services and the underlying models (third party or nativ
 
 - The AI Framework group enables the rest of the development department to build AI features through the [abstraction layer](https://docs.gitlab.com/ee/development/ai_features).
 - The abstraction layer supports OpenAI and is being extended to support equivalent Google AI functionality. Other commercial, open-source, and GitLab custom-built models are also being considered.
-- This group empowers other groups to evaluate models via *manual human testing*, through the [Experimentation API](https://docs.gitlab.com/ee/development/ai_features.html).
+- This group empowers other groups to evaluate models via *manual human testing*, through the [Experimentation API](https://docs.gitlab.com/ee/development/ai_features/).
 - This group works with Ruby on Rails as they make it easy for the GitLab product to add AI functionality through the `gitlab/gitlab-org` repo.
 
 You can contact this group via Slack in [#g_ai_framework](https://gitlab.slack.com/archives/C051K31F30R). View their [issue board here](https://gitlab.com/gitlab-org/gitlab/-/boards/5518200).

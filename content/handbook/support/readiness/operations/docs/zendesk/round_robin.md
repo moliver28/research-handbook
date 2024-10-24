@@ -6,7 +6,7 @@ canonical_path: "/handbook/support/readiness/operations/docs/zendesk/round_robin
 
 ## How is it triggered
 
-The round robin, for both Zendesk Global and Zendesk US Government, runs via
+The round robin, only used for Zendesk US Government, runs via
 [gitLab Scheduled pipelines](https://docs.gitlab.com/ee/ci/pipelines/schedules.html)
 using a specific schedule for each Zendesk instance:
 
@@ -16,65 +16,7 @@ using a specific schedule for each Zendesk instance:
 
 ## How it works
 
-#### Zendesk Global
-
-- Ruby version: 3.2.2
-- Gems used:
-  - [date](https://rubygems.org/gems/date)
-  - [faraday_middleware](https://rubygems.org/gems/faraday_middleware)
-  - [json](https://rubygems.org/gems/json)
-  - [oj](https://rubygems.org/gems/oj)
-  - [redis](https://rubygems.org/gems/redis)
-  - [yaml](https://rubygems.org/gems/yaml)
-- CI/CD image: `ruby:3.2.2`
-
-Before each job runs, it performs a few actions to setup the image to perform
-the needed actions:
-
-- Output the response from running the command `ruby -v`
-- Install the `bundler` gem
-- Run the `bundle` command
-
-After this, the `./bin/run` script is executed, which simply requires the script
-files and runs the function `RoundRobin::Zendesk.process_queue!`.
-
-This script then fetches the tickets located in the following views:
-
-- [SGG: Unsorted GitLab.com](https://gitlab.zendesk.com/agent/filters/4427372366994)
-- [SGG: Unsorted SM](https://gitlab.zendesk.com/agent/filters/4427372846482)
-- [SGG: Unsorted Support Internal Request](https://gitlab.zendesk.com/agent/filters/12829080203676)
-
-With that list in hand, then determines if the ticket has a special assignment
-requirement by checking the values of the organization's `Assigned SE` and
-`Dedicated SGG` fields.
-
-- If the organization has a value for its `Assigned SE` field:
-  - An update object is stored in memory that will:
-    - assign the ticket to the user ID specific in the organization's
-      `Assigned SE` field
-    - set the ticket's SGG value to that of the assigned user's SGG value (if
-      present)
-  - It then increment the counter value for said SGG by 1 for that ticket type
-    if it was able to determine a SGG. In cases where it was not able to do so,
-    it will post in Slack and set the ticket's SGG value to `Not Applicable`.
-- If the organization has a value for its `Dedicated SGG` field
-  - An update object is stored in memory that will change the ticket's `SGG`
-    value to that of the value specified in the `Dedicated SGG` field.
-  - It then increments the counter value for said SGG by 1 for that ticket type.
-- If the organization has no value for either field (or there is no organization
-  associated to the ticket):
-  - An update object is stored in memory that will set the ticket's SGG value
-    to that of the SGG with the lowest counter values for that ticket type.
-  - It then increments the counter value for said SGG by 1 for that ticket type.
-
-After processing all those, bulk updates are made via the Zendesk API for the
-Zendesk instance to update the tickets.
-
-Once that is completed, the scripts will then update the counter value stored in
-Redis (via the object `global_round_robin_counter`) to be used as the starting
-counter values on the subsequent run.
-
-#### Zendesk US Government
+### Zendesk US Government
 
 - Ruby version: 3.2.2
 - Gems used:
@@ -137,5 +79,4 @@ Zendesk instance to update the tickets.
 
 ## Source projects
 
-- [Zendesk Global](https://gitlab.com/gitlab-support-readiness/zendesk-global/tickets/round-robin)
 - [Zendesk US Government](https://gitlab.com/gitlab-support-readiness/zendesk-us-government/tickets/round-robin)

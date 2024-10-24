@@ -1,5 +1,4 @@
 ---
-
 title: Jamstack Single-Engineer Group
 ---
 
@@ -33,45 +32,46 @@ In January 2023 we conducted a [User survey](/handbook/engineering/development/i
 
 ### Jobs to be done
 
-#### When I'm building a simple static site, I want to publish it without leaving the GitLab UI, so I can update faster and with fewer points of failure
+1. When I'm building a simple static site, I want to publish it without leaving the GitLab UI, so I can update faster and with fewer points of failure
 
-Maturity: `70%` Status: `work in progress`
+   Maturity: `70%` Status: `work in progress`
+
+   Issues:
+
+   - [Use the Pipeline Wizard for Pages onboarding](https://gitlab.com/gitlab-org/gitlab/-/issues/343557) - **Completed**
+   - [Remove the requirement for output files to be inside a folder called "public"](https://gitlab.com/gitlab-org/gitlab-pages/-/issues/668)
+
+1. When I'm building a server-side-rendered static site (SSR), I want to use GitLab to deploy, so that I don't have to configure and pay other services to do so
+
+   Maturity: `10%` Status: `work in progress`
+
+   Issues:
+
+   - [Allow the use of Javascript runtimes for Jamstack apps (SSR)](https://gitlab.com/gitlab-org/incubation-engineering/jamstack/meta/-/issues/32)
+
+1. When I'm deploying a Pages site, I want to have it distributed via a CDN so that the page is delivered faster
+
+   Maturity: `0%` Status: `planned`
+
+1. When I manage my own GitLab instance or group, I want to connect my own CDN account for Pages, so that developers can deploy static sites through a CDN without additional configuration
+
+   Maturity: `0%` Status: `planned`
+
+1. When I'm developing a Jamstack site, I want to create a simple CRUD API, so that I can save time on repetitive, boilerplate tasks
+
+   Maturity: `0%` Status: `planned`
+
+1. When I create a simple CRUD API through the GitLab UI, I want to export the API code into a repository so that I can continue development manually
+
+   Maturity: `0%` Status: `planned`
 
 Issues:
- - [Use the Pipeline Wizard for Pages onboarding](https://gitlab.
-   com/gitlab-org/gitlab/-/issues/343557) - **Completed**
- - [Remove the requirement for output files to be inside a folder called 
-   "public"](https://gitlab.com/gitlab-org/gitlab-pages/-/issues/668)
 
-#### When I'm building a server-side-rendered static site (SSR), I want to use GitLab to deploy, so that I don't have to configure and pay other services to do so
-
-Maturity: `10%` Status: `work in progress`
-
-Issues:
- - [Allow the use of Javascript runtimes for Jamstack apps (SSR)](https://gitlab.com/gitlab-org/incubation-engineering/jamstack/meta/-/issues/32)
-
-#### When I'm deploying a Pages site, I want to have it distributed via a CDN so that the page is delivered faster
-
-Maturity: `0%` Status: `planned`
-
-#### When I manage my own GitLab instance or group, I want to connect my own CDN account for Pages, so that developers can deploy static sites through a CDN without additional configuration
-
-Maturity: `0%` Status: `planned`
-
-#### When I'm developing a Jamstack site, I want to create a simple CRUD API, so that I can save time on repetitive, boilerplate tasks
-
-Maturity: `0%` Status: `planned`
-
-#### When I create a simple CRUD API through the GitLab UI, I want to export the API code into a repository so that I can continue development manually
-
-Maturity: `0%` Status: `planned`
-
-Issues:
- - [API Generator](https://gitlab.com/gitlab-org/incubation-engineering/jamstack/meta/-/issues/46)
+- [API Generator](https://gitlab.com/gitlab-org/incubation-engineering/jamstack/meta/-/issues/46)
 
 ## Guiding Principles
 
-These are the guiding principles that the Jamstack SEG optimizes its 
+These are the guiding principles that the Jamstack SEG optimizes its
 implementations for.
 
 1. [**Simplicity**](https://gitlab.com/groups/gitlab-org/incubation-engineering/jamstack/-/epics?label_name%5B%5D=Jamstack+Focus%3A%3ASimplicity) - It should be intuitive to use GitLab to deploy a static site. GitLab should be a great place to _just get started_ with the confidence that deployments can be fine-tuned and scaled later.
@@ -98,5 +98,4 @@ All frameworks have in common that there are three main approaches as to when th
 
 ### GitLab Product Development Group affinity
 
-- [Editor](/handbook/engineering/development/dev/create
-  /editor/)
+- [Editor](/handbook/engineering/development/dev/create/editor/)

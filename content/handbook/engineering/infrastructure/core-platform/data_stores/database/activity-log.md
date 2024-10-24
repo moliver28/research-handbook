@@ -1,27 +1,20 @@
 ---
-aliases: /handbook/engineering/infrastructure/core-platform/data_stores/database/activity-log.html
 title: Database Group Activity Log
 ---
-
-
-
-
-
-
 
 ## Overview
 
 This page captures the database group's activity and documents the outcomes, key results and some takeaways (most recent first). We've started doing this towards the end of 2021.
 
-### 2022:
+### 2022
 
-#### March 2022:
+#### March 2022
 
 Starting in November 2021, we performed a migration file cleanup with these goals:
 
- - Improve the performance of GitLab CI jobs.
- - Remove maintenance cost for old migrations.
- - Improve initialization speed for new GitLab instances.
+- Improve the performance of GitLab CI jobs.
+- Remove maintenance cost for old migrations.
+- Improve initialization speed for new GitLab instances.
 
 We decided to remove all of the migration files before version 14. We implemented a script that squashed multiple migrations files into one file (`init_schema`).
 
@@ -31,9 +24,9 @@ After the cleanup deployment, we saw a performance optimization in our CI, which
 
 ![image](https://gitlab.com/gitlab-com/www-gitlab-com/uploads/b50030d66e3e4f30b31d7fb8e1d0902a/gitlaborggitlabrspecmigrationjobmeanduration.png)
 
-### 2021:
+### 2021
 
-#### November 2021:
+#### November 2021
 
 This month, we shipped three changes to GitLab.com which led to a 20% reduction in total database size (about 3.3 TB total reduction):
 
@@ -45,4 +38,4 @@ We implemented priority reindexing which allows us to target specific indexes as
 
 We released a data retention strategy for time-decay data which is based on dropping partitions rather than deleting records. This solves a major problem on GitLab.com, where a deletion-based strategy hasn't been able to keep up and generated load. After switching on the new strategy, we immediately dropped 2 TB worth of data in `web_hook_logs`.
 
-![gitlab.com size reduction](./2021-11-15_gitlabcom_size_reduction.png)
+![gitlab.com size reduction](2021-11-15_gitlabcom_size_reduction.png)

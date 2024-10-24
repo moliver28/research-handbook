@@ -1,22 +1,15 @@
 ---
-
 title: "Self-Service Data Team at GitLab"
 description: "The Self-Service Data Team is responsible for leveraging data to optimize for the self-service customer experience and drive nARR growth via sales efficiency. Data insights from this team feed: sales visibility, self-service fulfillment features, and growth/marketing experiments. The Self-Service Data Team also aims to create data tools to help with efficiency, prioritization, and decision making."
 ---
-
-
-
-
-
-
 
 <link rel="stylesheet" type="text/css" href="/stylesheets/biztech.css" />
 
 ## Welcome to the Self-Service Data Team Handbook
 
-**The Self-Service Data Team is responsible for leveraging data to optimize for the self-service customer experience and drive nARR growth via sales efficiency. Data insights from this team feed: sales visibility, self-service fulfillment features, and growth/marketing experiments. The Self-Service Data Team also aims to create data tools to help with efficiency, prioritization, and decision making.**
-{: .alert .alert-success}
-
+{{% alert color="success" %}}
+The Self-Service Data Team is responsible for leveraging data to optimize for the self-service customer experience and drive nARR growth via sales efficiency. Data insights from this team feed: sales visibility, self-service fulfillment features, and growth/marketing experiments. The Self-Service Data Team also aims to create data tools to help with efficiency, prioritization, and decision making.
+{{% /alert %}}
 
 ## Team
 
@@ -27,7 +20,7 @@ description: "The Self-Service Data Team is responsible for leveraging data to o
 
 ## Who We Work With
 
-**Self Service Team** - We partner with the overall Self Service team to provide data insight around the self service customers (currently AMER SMB FO and Pooled accounts) to drive nARR and growth through sales efficiency and strategy.  
+**Self Service Team** - We partner with the overall Self Service team to provide data insight around the self service customers (currently AMER SMB FO and Pooled accounts) to drive nARR and growth through sales efficiency and strategy.
 
 **Central Data Team** - We work with the central data team by staying involved in cross functional data initiatives, collaborating where possible, and providing feedback on data models and the data that live in Snowflake. We also work with the data science team by staying up to date on their projects and models and incorporate many of their predictive outputs into our analyses and triggers,
 
@@ -47,7 +40,6 @@ description: "The Self-Service Data Team is responsible for leveraging data to o
 | :--------------- | :----------------- |
 | [Data Request Issue Template](https://gitlab.com/gitlab-com/sales-team/self-service/-/issues/new?issuable_template=Data_Question_Intake) | Template that should be used for ad-hoc data questions and requests |
 | [Data Hub](https://docs.google.com/document/d/10p86n7f5vt4UmhHM4ZGRZm4OSa5k5g-LKQ0uBAKnvSc/edit?usp=sharing) | All of our data assets and resources in one place |
-
 
 ### OKRs
 
@@ -78,26 +70,25 @@ description: "The Self-Service Data Team is responsible for leveraging data to o
 | FY24-Q2 | [Issue](https://gitlab.com/gitlab-com/sales-team/self-service/-/issues/362) | [Issue](https://gitlab.com/gitlab-com/sales-team/self-service/-/issues/108) |
 | FY24-Q3 | [Issue](https://gitlab.com/gitlab-com/sales-team/self-service/-/issues/402) | [Issue](https://gitlab.com/gitlab-com/sales-team/self-service/-/issues/401) |
 
-
 ## Working with us
 
 **Purpose**: Outline how the broader Self-Service team can engage the Self-Service Data Squad (Max, Sara)
 
 **Goal**: Minimize dependencies/blockers to insights while providing transparent engagement model
 
-**Disclaimer**: Not all data questions will be able to be answered. Ultimately, taking time to answer ad-hoc questions means less time on projects (aka the zero-sum capacity problem). That is not to say that ad-hoc questions are not important; however, we do have “boulder” level projects in flight have been prioritized via the OKR process, which we also need to make progress on.
+**Disclaimer**: Not all data questions will be able to be answered. Ultimately, taking time to answer ad-hoc questions means less time on projects (aka the zero-sum capacity problem). That is not to say that ad-hoc questions are not important; however, we do have "boulder" level projects in flight have been prioritized via the OKR process, which we also need to make progress on.
 
 **How to submit your ad-hoc data request or question**:
 
 1. Have you tried to answer this question leveraging existing resources (e.g. data hub, SFDC)?
 
-- If no, please try to answer your question using these existing resources.
-- If yes, but you’re still unable to answer your question, go to question 2.
+   - If no, please try to answer your question using these existing resources.
+   - If yes, but you're still unable to answer your question, go to question 2.
 
 2. Using the Data Question Intake issue template in [our project](https://gitlab.com/gitlab-com/sales-team/self-service/), please:
 
-- Fill out all items under the “Filled out by Requestor” section
-- Add the “Self-Service Data” and “Self-Service Data Ad Hoc” labels
+- Fill out all items under the "Filled out by Requestor" section
+- Add the "Self-Service Data" and "Self-Service Data Ad Hoc" labels
 - If business stopping: tag Max in Slack (ideally in [self-service_public](https://gitlab.slack.com/archives/C02F6JUKF6X)) with link to issue.
 
 <!-- ## How we prioritize ad hoc requests
@@ -110,14 +101,15 @@ The more points the better!
 
 If an ad-hoc request scores north of 7 points, we will re-consider prioritizing it above existing OKR work. -->
 
-## Data Definitions:
+## Data Definitions
 
 **Purpose**: To ensure that we are all speaking the same data language, we have created clear metrics that align with our agreed business definitions.
 
 **General Definitions**:
+
 - Low Touch - Consists of  any AMER SMB FO or Pooled Account opportunity
 - Pooled Model - handbook page
-- Pooled Cases - SFDC cases that are created for pooled accounts (Pooled cases will have record_type_id = ‘0128X000001pPRkQAM’)
+- Pooled Cases - SFDC cases that are created for pooled accounts (Pooled cases will have record_type_id = '0128X000001pPRkQAM')
 - Tasks - SFDC tasks
 - WW FO Count = All New - First Order deals
 - WW Web Growth nARR = Any non-First Order nARR transacted through Web (Web Portal Purchase = T)
@@ -127,6 +119,7 @@ If an ad-hoc request scores north of 7 points, we will re-consider prioritizing 
 - LT all-in = Everything closed by the AMER SMB FO and Pooled AE teams
 
 **Retention, Renewal, and Churn Definitions**:
+
 - NET_RETENTION = ARR in the Pooled account set in a given month / ARR in that account set 1 year prior
 - NET_LOGO_RETENTION = What % of account set from a year prior are still customers
 - Pooled Renewal and Churn Rates: Shows the components of nARR renewal outcomes, either Uplift, Contraction, or Churn, unit is % of ATR ARR monthly/quarterly
@@ -134,7 +127,7 @@ If an ad-hoc request scores north of 7 points, we will re-consider prioritizing 
 - Pooled Acct Set Growth Rates: Shows how the overall Pooled account CARR changes monthly/quarterly, broken in the TRX type components ("Growth" excludes Renewals)
 - Pooled Acct Set Growth nARR: Same as above but the actual nARR totals
 
-## SSOT Queries:
+## SSOT Queries
 
 SSOT data is necessary in order to have confidence in our metrics, have repeatable and replicable reporting, and for our data team to work more efficiently. We have created a [GitLab repo](https://gitlab.com/gitlab-com/sales-team/self-service/-/tree/main/SSOT%20Queries) to house our SSOT SQL queries for both our foundational [base queries](https://gitlab.com/gitlab-com/sales-team/self-service/-/tree/main/SSOT%20Queries/Base_Queries) and for [ad hoc analyses](https://gitlab.com/gitlab-com/sales-team/self-service/-/tree/main/SSOT%20Queries/Ad_Hoc_Analyses).
 
@@ -142,6 +135,7 @@ This allows us to keep a record of queries used for foundational projects like o
 Dashboard queries are also housed in Sisense as snippets in order for the data team to work more efficiently within the BI tool. We are currently updating these queries to work within Tableau as well.
 
 **The current workflow for creating or updating snippets and SSOT queries is the following**:
+
 1. Create or update the query and ensure it produces the desired results and accurate data
 2. Update the query in the SSOT Queries directory and commit to a new branch
 3. Create an MR and tag another Data Team member as a reviewer
@@ -149,6 +143,7 @@ Dashboard queries are also housed in Sisense as snippets in order for the data t
 5. Once MR is approved and merged, the original author will either update the snippet in Sisense (original author must also update the date in the comments with the most recent date updated)
 
 **Tableau Data Source Workflow (WIP - New Data Source)**:
+
 1. Create query using Snowflake worksheet to produce desired output
 2. Create new Data Source in Tableau Desktop from Snowflake
 3. Copy query into SSOT Repo to save work and track changes
@@ -161,6 +156,7 @@ Dashboard queries are also housed in Sisense as snippets in order for the data t
         - Embed Snowflake credentials to allow for refresh
 
 **Updating a published Tableau Data Source**:
+
 1. Log into Tableau Server
 2. Locate the Data Source in My Content or in the folder above
 3. Select Edit Data Source
@@ -170,7 +166,7 @@ Dashboard queries are also housed in Sisense as snippets in order for the data t
 7. Run the extract
 8. Publish the updated Data Source
 
-#### Current SSOT Queries (Updated Quarterly):
+### Current SSOT Queries (Updated Quarterly)
 
 - ARR Mart Price Quantity
 - Churn Renewal Rates (Low Touch)
@@ -190,15 +186,8 @@ Dashboard queries are also housed in Sisense as snippets in order for the data t
 - Touch Level Data on Opportunities (WIP)
 - TO BE ADDED: Tableau Queries
 
-#### Ad Hoc Analysis (updated Quarterly):
+### Ad Hoc Analysis (updated Quarterly)
 
 - Account Tiering (deprecated)
 - Credit Card Failure and Payment Method Analysis
 - Case Creation Automation Queries
-
-
-
-
-
-
-

@@ -69,7 +69,7 @@ If you are internal to GitLab, please leverage [GitLab Learn here](https://gitla
 
 <i class="fa-solid fa-book"></i> [People Success KPIs - Key Performance Indicators]({{< ref "people-success-performance-indicators" >}})
 
-<i class="fa-solid fa-book"></i> [GitLab Monthly Published Identity Data]({{< ref "identity-data" >}})
+<i class="fa-solid fa-book"></i> [GitLab Monthly Published Identity Data](/handbook/company/culture/inclusion/identity-data/)
 
 <i class="fa-brands fa-youtube"></i> [DIB in Talent Acquisition {{< external >}}](https://youtu.be/eXcjoPtkGXk)
 

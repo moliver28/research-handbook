@@ -64,14 +64,14 @@ Market Justification: The business need for an individual contributor Staff CSE 
 
 The Staff CSE reports to the Manager/Senior Manager, CSE.
 
-##### Staff Customer Success Engineer Job Grade
+#### Staff Customer Success Engineer Job Grade
 
 The Staff CSE is a job grade [level 9](/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades).
 
-##### Staff Customer Success Engineer Responsibilities
+#### Staff Customer Success Engineer Responsibilities
 
 - Extends the Senior Customer Success Engineer responsibilities
-- Demonstrates seniority in 3 or more [customer use cases](/handbook/use-cases/)
+- Demonstrates seniority in 3 or more [customer use cases](/handbook/marketing/use-cases/)
 - Provides subject matter expertise within a defined technical GitLab product area or as a trusted advisor
 - Is proficient with DevOps frameworks (e.g., LeSS, SaFe, etc.) and can communicate customers' goals and capabilities as they relate to customers' adoption roadmaps
 - Overlays with the global book of customers in roadblock areas for strategic customers removing barriers to growth and adoption concerning their area of expertise
@@ -80,7 +80,7 @@ The Staff CSE is a job grade [level 9](/handbook/total-rewards/compensation/comp
 - Increase global CS team knowledge and thought leadership within the realm of their expertise
 - Serves as advisor to Product Team providing feedback to promote customer use cases and assist in product feature prioritization
 
-##### Staff Customer Success Engineer Requirements
+#### Staff Customer Success Engineer Requirements
 
 - Extends the Senior Customer Success Engineer requirements
 - Experience and a proven track record with the additional responsibilities of a Staff TAM/CSE/CSM
@@ -100,14 +100,14 @@ The Manager, CSE is a [grade 9](/handbook/total-rewards/compensation/compensatio
 
 ### Manager, CSE Responsibilities
 
-- Extends the respsonsibilities of [Manager, CSM](/job-families/sales/customer-success-management/#manager-csm) by:
+- Extends the responsibilities of [Manager, CSM](/job-families/sales/customer-success-management/#manager-csm) by:
   - Working with a variety of customers in countries across a whole super-region (Americas, EMEA, APAC)
   - Foster relationship and collaboration of the whole CSE community on a global level
   - Oversee the creation and delivery of workshops, webinars and other content scaled for a larger target group
 
 ### Manager, CSE Requirements
 
-- Extends the respsonsibilities of [Manager, CSM](/job-families/sales/customer-success-management/#manager-csm) by:
+- Extends the responsibilities of [Manager, CSM](/job-families/sales/customer-success-management/#manager-csm) by:
   - Deeper technical understanding in DevSecOps and ability to coach and mentor team members on that topic
   - Experience with content creation and delivery at scale
 
@@ -127,7 +127,7 @@ The Senior Manager, CSE is a [grade 9](/handbook/total-rewards/compensation/comp
 - Consistent representation of our values to the customer, our CSE team, and the company as a whole
 - Lead in cross-functional work representing customer success in GitLabs more strategic revenue-focused initiatives
 - Owns and manages more than just the CSE manager purview - defined by looking for and solving larger team or organizational challenges, and owning initiatives that span wider than the CSE manager role
-- Aligned with the objectives of Gitlab and is responsible for ensuring that the CSE team as a whole is contributing to our company objectives
+- Aligned with the objectives of GitLab and is responsible for ensuring that the CSE team as a whole is contributing to our company objectives
 - Strategic in thinking to solve challenges for the entire CSE team and make improvements that will positively impact all customers
 
 ### Senior Manager, CSE Requirements

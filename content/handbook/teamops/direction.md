@@ -25,6 +25,7 @@ The future of TeamOps as an internal operational and as a revenue model is based
 
 **Key Results of TeamOps in FY24**
 To evolve TeamOps from a management philosophy into an operational framework, Laurel Farrer, a subject matter expert specializing in virtual organizational development, completed the following tasks:
+
 - Strategized business model for TeamOps revenue generation
 - Optimized the TeamOps content for productization and marketability, including copywriting, content development, market research, and unique value proposition design
 - Calculated the construction and growth roadmap for business operations
@@ -67,12 +68,12 @@ During its research and development phase, TeamOps offered the following trainin
 
 Additionally, as part of TeamOps research and development, the Office of the CEO maintained (and/or iterates on) the following current projects and responsibilities. All have now been suspended, but can be revived in the future if future investment in TeamOps is confirmed:
 
-- Publicly market and evangelize GitLab’s ways of working (TeamOps)
+- Publicly market and evangelize GitLab's ways of working (TeamOps)
 - Internally measure and optimize TeamOps to equalize employee experience
 - Produce and publish TeamOps social media content
 - Host TeamOps Group Conversation, AMAs, or internal training workshops each quarter
-- Optimize virtual “environmental” employee experiences (eg: digestibility and retention of handbook content, organizational behavior observation opportunities during onboarding, “office tours”, etc.)
-- Maintain GitLab’s position as an international, iconic thought leader in workplace innovation
+- Optimize virtual "environmental" employee experiences (eg: digestibility and retention of handbook content, organizational behavior observation opportunities during onboarding, "office tours", etc.)
+- Maintain GitLab's position as an international, iconic thought leader in workplace innovation
 
 **Stable Counterparts**
 

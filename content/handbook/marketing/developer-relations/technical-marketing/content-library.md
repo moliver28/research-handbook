@@ -1,14 +1,7 @@
 ---
-
 title: "Technical Marketing Content Library"
 description: "Library of technical content created by the Technical Marketing team at GitLab."
 ---
-
-
-
-
-
-
 
 ## List of assets
 
@@ -51,121 +44,122 @@ description: "Library of technical content created by the Technical Marketing te
 
 ### Technical Blogs
 
+#### Author -  Itzik Gan-Baruch
 
-#### Author -  [Itzik Gan-Baruch](/handbook/company/team/#itzikgb)
+Author: [Itzik Gan-Baruch](/handbook/company/team/#itzikgb)
 
+[The role of Value Stream Analytics in GitLab's DevOps Platform](https://about.gitlab.com/blog/2022/01/24/gitlab-value-stream-analytics/) - Jan 24, 2022
 
-[The role of Value Stream Analytics in GitLab's DevOps Platform](https://about.gitlab.com/blog/2022/01/24/gitlab-value-stream-analytics/) - Jan 24, 2022 
+[Downtime happens, but GitLab Incident Management can help](https://about.gitlab.com/blog/2021/11/30/gitlab-incident-management/) - Nov 30, 2021
 
-[Downtime happens, but GitLab Incident Management can help](https://about.gitlab.com/blog/2021/11/30/gitlab-incident-management/) - Nov 30, 2021 
+[How to use Terratag to automatically manage tags and labels for your Terraform Code](https://about.gitlab.com/blog/2021/09/14/gitlab-together-with-terratag-open-source-to-help-you-manage-terraform-resources/) - Sep 14, 2021
 
-[How to use Terratag to automatically manage tags and labels for your Terraform Code](https://about.gitlab.com/blog/2021/09/14/gitlab-together-with-terratag-open-source-to-help-you-manage-terraform-resources/) - Sep 14, 2021 
+[How to stand-up a GitLab instance in AWS Marketplace](https://about.gitlab.com/blog/2021/06/30/how-to-stand-up-gitlab-in-awsmp/) - Jun 30, 2021
 
-[How to stand-up a GitLab instance in AWS Marketplace](https://about.gitlab.com/blog/2021/06/30/how-to-stand-up-gitlab-in-awsmp/) - Jun 30, 2021 
+[The basics of CI: How to run jobs sequentially, in parallel, or out of order](https://about.gitlab.com/blog/2020/12/10/basics-of-gitlab-ci-updated/) -
+Dec 10, 2020
 
-[The basics of CI: How to run jobs sequentially, in parallel, or out of order](https://about.gitlab.com/blog/2020/12/10/basics-of-gitlab-ci-updated/) - 
-Dec 10, 2020 
+[Leading SCM, CI and Code Review in one application](https://about.gitlab.com/blog/2020/09/30/leading-scm-ci-and-code-review-in-one-application/) -
+Sep 30, 2020
 
-[Leading SCM, CI and Code Review in one application](https://about.gitlab.com/blog/2020/09/30/leading-scm-ci-and-code-review-in-one-application/) - 
-Sep 30, 2020 
+[How to integrate Azure DevOps repositories with GitLab](https://about.gitlab.com/blog/2020/07/09/integrating-azure-devops-scm-and-gitlab/) - Jul 9, 2020
 
-[How to integrate Azure DevOps repositories with GitLab](https://about.gitlab.com/blog/2020/07/09/integrating-azure-devops-scm-and-gitlab/) - Jul 9, 2020 
+[Get faster and more flexible pipelines with a Directed Acyclic Graph](https://about.gitlab.com/blog/2020/05/12/directed-acyclic-graph/) - May 12, 2020
 
-[Get faster and more flexible pipelines with a Directed Acyclic Graph](https://about.gitlab.com/blog/2020/05/12/directed-acyclic-graph/) - May 12, 2020 
+[How to trigger multiple pipelines using GitLab CI/CD](https://about.gitlab.com/blog/2019/07/24/cross-project-pipeline/) - Jul 24, 2019
 
-[How to trigger multiple pipelines using GitLab CI/CD](https://about.gitlab.com/blog/2019/07/24/cross-project-pipeline/) - Jul 24, 2019 
+#### Author - Cesar Saavedra
 
+Author: [Cesar Saavedra](/handbook/company/team/#csaavedra1)
 
-
-#### Author - [Cesar Saavedra](/handbook/company/team/#csaavedra1)
-
-[How to use fine-grained permissions via generic impersonation in CI/CD Tunnel](https://about.gitlab.com/blog/2022/02/01/cicd-tunnel-impersonation/) - 
+[How to use fine-grained permissions via generic impersonation in CI/CD Tunnel](https://about.gitlab.com/blog/2022/02/01/cicd-tunnel-impersonation/) -
 
 How to use Quarkus with GL - (Planned Q2)
 
-What's GitOps and why go that route rather than K8s? - (Planned Q2) 
+What's GitOps and why go that route rather than K8s? - (Planned Q2)
 
 In praise of developer experimentation - (Planned Q2)
 
-[How to install and use the GitLab Kubernetes Operator](https://about.gitlab.com/blog/2021/11/16/gko-on-ocp/) - Nov 16, 2021 
+[How to install and use the GitLab Kubernetes Operator](https://about.gitlab.com/blog/2021/11/16/gko-on-ocp/) - Nov 16, 2021
 
-[How to use external status checks for merge requests](https://about.gitlab.com/blog/2021/10/04/how-to-status-checks/) - Oct 4, 2021 
+[How to use external status checks for merge requests](https://about.gitlab.com/blog/2021/10/04/how-to-status-checks/) - Oct 4, 2021
 
-[How to use fine-grained permissions via generic impersonation in CI/CD Tunnel](https://about.gitlab.com/blog/2022/02/01/cicd-tunnel-impersonation/) - Feb 1, 2022 
+[How to use fine-grained permissions via generic impersonation in CI/CD Tunnel](https://about.gitlab.com/blog/2022/02/01/cicd-tunnel-impersonation/) - Feb 1, 2022
 
 [How to use a pull-based (agent-based) approach for GitOps](https://about.gitlab.com/blog/2021/06/23/how-to-use-agent-based-gitops/) - June 23, 2021
- 
+
 [How to use a push-based approach for GitOps with GitLab scripting and variables](https://about.gitlab.com/blog/2021/07/23/how-to-agentless-gitops-vars/) - July 23, 2021
 
-[How to use a push-based approach for GitOps with Terraform and AWS ECS and EC2](https://about.gitlab.com/blog/2021/08/10/how-to-agentless-gitops-aws/) - Aug 10, 2021 
+[How to use a push-based approach for GitOps with Terraform and AWS ECS and EC2](https://about.gitlab.com/blog/2021/08/10/how-to-agentless-gitops-aws/) - Aug 10, 2021
 
-[GitLab's unified and integrated monitoring strategies](https://about.gitlab.com/blog/2020/11/23/cd-unified-monitor-deploy/) - Nov 23, 2020 
+[GitLab's unified and integrated monitoring strategies](https://about.gitlab.com/blog/2020/11/23/cd-unified-monitor-deploy/) - Nov 23, 2020
 
 [How to use GitLab tools for continuous delivery](https://about.gitlab.com/blog/2020/12/17/cd-solution-overview/) - December 17, 2020
 
+#### Author - William Arias
 
-#### Author - [William Arias](/handbook/company/team/#warias)
+Author: [William Arias](/handbook/company/team/#warias)
 
-[How Comet can streamline machine learning on The GitLab DevOps Platform](https://about.gitlab.com/blog/2021/11/08/machine-learning-on-the-gitlab-devops-platform/) - Nov 8, 2021 
+[How Comet can streamline machine learning on The GitLab DevOps Platform](https://about.gitlab.com/blog/2021/11/08/machine-learning-on-the-gitlab-devops-platform/) - Nov 8, 2021
 
-[Create and Deploy Custom Actions Containers to Rasa X using GitLab DevOps Platform](https://about.gitlab.com/blog/2021/04/06/custom-actions-rasa-gitlab-devops/) - Apr 6, 2021 
+[Create and Deploy Custom Actions Containers to Rasa X using GitLab DevOps Platform](https://about.gitlab.com/blog/2021/04/06/custom-actions-rasa-gitlab-devops/) - Apr 6, 2021
 
-[Version control and collaborating for product development management](https://about.gitlab.com/blog/2020/10/02/product-development-management/) - 
-Oct 2, 2020 
+[Version control and collaborating for product development management](https://about.gitlab.com/blog/2020/10/02/product-development-management/) -
+Oct 2, 2020
 
-[Distributed Version Control & Collaboration](https://about.gitlab.com/blog/2020/10/02/distributed-version-control/) - Oct 2, 2020 
+[Distributed Version Control & Collaboration](https://about.gitlab.com/blog/2020/10/02/distributed-version-control/) - Oct 2, 2020
 
 [Using GitLab APIs: Real Use Case Scenario](https://about.gitlab.com/blog/2020/01/22/gitlab-apis-ci/) - Jan 22, 2020 )
 
+#### Author - Fernando Diaz
 
-#### Author - [Fernando Diaz](/handbook/company/team/#fjdiaz)
+Author: [Fernando Diaz](/handbook/company/team/#fjdiaz)
 
-Ensuring Continuous Software Compliance with GitLab - (Planned Q1) 
+Ensuring Continuous Software Compliance with GitLab - (Planned Q1)
 
-Integrating Jaeger Distributed Tracing with GitLab - (Planned Q2) 
+Integrating Jaeger Distributed Tracing with GitLab - (Planned Q2)
 
-Configuring Audit Event Streaming - (Planned Q2) 
+Configuring Audit Event Streaming - (Planned Q2)
 
-Setting up Connection to Hashicorp Vault with OIDC - (Planned Q2) 
+Setting up Connection to Hashicorp Vault with OIDC - (Planned Q2)
 
-GitOps using Terraform with Integrated Security Scanning - (Planned Q2) 
+GitOps using Terraform with Integrated Security Scanning - (Planned Q2)
 
-GitLab Technical Marketing Demo Resources - (Planned Q2) 
+GitLab Technical Marketing Demo Resources - (Planned Q2)
 
-[Detecting and alerting on anomalies in your container host with GitLab + Falco](https://about.gitlab.com/blog/2022/01/20/securing-the-container-host-with-falco/) - Jan 20, 2022 
+[Detecting and alerting on anomalies in your container host with GitLab + Falco](https://about.gitlab.com/blog/2022/01/20/securing-the-container-host-with-falco/) - Jan 20, 2022
 
-[Using the GitLab GraphQL API for vulnerability reporting](https://about.gitlab.com/blog/2022/02/02/graphql-vulnerability-api/) - Feb 2, 2022 
+[Using the GitLab GraphQL API for vulnerability reporting](https://about.gitlab.com/blog/2022/02/02/graphql-vulnerability-api/) - Feb 2, 2022
 
-[How to deploy the GitLab Agent for Kubernetes with limited permissions](https://about.gitlab.com/blog/2021/09/10/setting-up-the-k-agent/) - Sep 10, 2021 
+[How to deploy the GitLab Agent for Kubernetes with limited permissions](https://about.gitlab.com/blog/2021/09/10/setting-up-the-k-agent/) - Sep 10, 2021
 
-[Android App Security Testing with SAST](https://about.gitlab.com/blog/2020/12/16/mobile-static-application-security-testing-for-android/) - Dec 16, 2020 
+[Android App Security Testing with SAST](https://about.gitlab.com/blog/2020/12/16/mobile-static-application-security-testing-for-android/) - Dec 16, 2020
 
-[Running Security Scans in Limited Connectivity and Offline Environments](https://about.gitlab.com/blog/2020/10/01/offline-environments/) - Oct 1, 2020 
+[Running Security Scans in Limited Connectivity and Offline Environments](https://about.gitlab.com/blog/2020/10/01/offline-environments/) - Oct 1, 2020
 
-[Find Bugs with Coverage-Guided Fuzz Testing](https://about.gitlab.com/blog/2020/10/01/fuzzing-with-gitlab/) - Oct 1, 2020 
+[Find Bugs with Coverage-Guided Fuzz Testing](https://about.gitlab.com/blog/2020/10/01/fuzzing-with-gitlab/) - Oct 1, 2020
 
-[Managing Compliance with GitLab](https://about.gitlab.com/blog/2020/10/01/compliance-management/) - Oct 1, 2020 
+[Managing Compliance with GitLab](https://about.gitlab.com/blog/2020/10/01/compliance-management/) - Oct 1, 2020
 
-[How to secure your dependencies with GitLab and WhiteSource](https://about.gitlab.com/blog/2020/08/10/whitesource-for-dependency-scanning/) - Aug 10, 2020 
+[How to secure your dependencies with GitLab and WhiteSource](https://about.gitlab.com/blog/2020/08/10/whitesource-for-dependency-scanning/) - Aug 10, 2020
 
-[How to capitalize on GitLab Security tools with external CI](https://docs.gitlab.com/ee/integration/jenkins.html) - Jul 10, 2020 
+[How to capitalize on GitLab Security tools with external CI](https://docs.gitlab.com/ee/integration/jenkins.html) - Jul 10, 2020
 
 [How GitLab's application security dashboard helps AppSec engineers](https://about.gitlab.com/blog/2020/07/07/secure-stage-for-appsec/) - Jul 7, 2020
 
+#### Author - Tye Davis
 
-#### Author - [Tye Davis](/handbook/company/team/#TyeD19)
+Author: [Tye Davis](/handbook/company/team/#tyed19)
 
-[GitLab and Jira integration: the final steps](https://about.gitlab.com/blog/2021/05/24/gitlab-and-jira-integration-the-final-steps/) - May 24, 2021 
+[GitLab and Jira integration: the final steps](https://about.gitlab.com/blog/2021/05/24/gitlab-and-jira-integration-the-final-steps/) - May 24, 2021
 
-[How to achieve a GitLab Jira integration](https://about.gitlab.com/blog/2021/04/12/gitlab-jira-integration-selfmanaged/) - Apr 12, 2021 
+[How to achieve a GitLab Jira integration](https://about.gitlab.com/blog/2021/04/12/gitlab-jira-integration-selfmanaged/) - Apr 12, 2021
 
-[How to integrate GitLab.com with Jira Cloud](https://about.gitlab.com/blog/2021/03/25/integrating-gitlab-com-with-atlassian-jira-cloud/) - Mar 25, 2021 
+[How to integrate GitLab.com with Jira Cloud](https://about.gitlab.com/blog/2021/03/25/integrating-gitlab-com-with-atlassian-jira-cloud/) - Mar 25, 2021
 
-[A single application for your end-to-end DevOps needs starts with Version Control & Collaboration](https://about.gitlab.com/blog/2020/10/07/vcc-with-a-single-app/) - Oct 7, 2020 
+[A single application for your end-to-end DevOps needs starts with Version Control & Collaboration](https://about.gitlab.com/blog/2020/10/07/vcc-with-a-single-app/) - Oct 7, 2020
 
-[Without a shadow of a doubt: Inside GitLab's CEO shadow program](https://about.gitlab.com/blog/2019/07/11/without-a-shadow-of-a-doubt/) - Jul 11, 2019 
-
-
+[Without a shadow of a doubt: Inside GitLab's CEO shadow program](https://about.gitlab.com/blog/2019/07/11/without-a-shadow-of-a-doubt/) - Jul 11, 2019
 
 ### Technical Demos
 
@@ -261,13 +255,11 @@ GitLab Ultimate capabilities tech videos playlist - To-be-created
 
 [Security Dashboard](https://vimeo.com/670888630)
 
-
 [Container Security](https://vimeo.com/670892567)
 
 [Coverage Fuzzing](https://vimeo.com/670892067)
 
 [DAST On-Demand/ On-demand Dynamic Application Security Testing](https://vimeo.com/670891385)
-
 
 ##### Compliance
 
@@ -281,14 +273,13 @@ GitLab Ultimate capabilities tech videos playlist - To-be-created
 
 [External Status Checks](https://vimeo.com/670923123)
 
-
-##### Portfolio and Value Stream Mangement 
+##### Portfolio and Value Stream Mangement
 
 [Portfolio Management/Portfolio-Level Roadmaps/Issue and Epic Health Reporting](https://vimeo.com/670922063)
 
 [Value Stream Analytics/Group Level Value Stream Analytics](https://vimeo.com/670917764)
 
-[DORA Metrics Pricing/ Track DORA-4 lead time for changes metric]() Title needs edit
+DORA Metrics Pricing/ Track DORA-4 lead time for changes metric Title needs edit
 
 ### Capability Demos
 
@@ -338,7 +329,6 @@ GitLab Ultimate capabilities tech videos playlist - To-be-created
 
 ### Workshops/Labs
 
-
 [Advanced CI Workshop](https://docs.google.com/presentation/d/1u1HI8WzUlSmubI83gwmMarXc1nd63S3NwIOCJKhJLyY/edit)
 
 [Advanced CI Workshop (internal)](https://gitlab.com/tech-marketing/workshops/cicd/ci-workshop/simple-java)
@@ -353,7 +343,7 @@ GitLab Ultimate capabilities tech videos playlist - To-be-created
 
 [GitLab 14.8 Release: New Security Features](https://youtu.be/Ak4pJiK07b0)
 
-[GitLab 14.8 - Auto-completion of keywords in the Pipeline Editor and Add default issue and merge request templates in a project’s repository](https://youtu.be/DgJarI1xR5c)
+[GitLab 14.8 - Auto-completion of keywords in the Pipeline Editor and Add default issue and merge request templates in a project's repository](https://youtu.be/DgJarI1xR5c)
 
 [GitLab 14.8 - Additional data for deployment frequency graph & Display average and median for DORA4 graphs](https://youtu.be/rWMhlZ6Svb4)
 
@@ -385,8 +375,8 @@ GitLab 14.7
 
 [GitLab 14.3 Release - New Security Features](https://youtu.be/g_6C4veeq-8)
 
-
 #### GitLab 14.2
+
 [GitLab 14.2 - New GitLab Kubernetes Agent UI](https://youtu.be/7uBF8b6k4tU)
 
 [GitLab 14.2 - Release: New Security Features](https://youtu.be/Dk2i2psLpew)
@@ -411,8 +401,8 @@ GitLab 14.7
 
 [GitLab 14 - Inline code quality notices on MR diffs](https://youtu.be/DwfksFO16c4)
 
-
 #### GitLab 13.12
+
 [GitLab 13.12: New Gatsby CI Template](https://youtu.be/1-IbvHU4rTU)
 
 [GitLab 13.12 - New Security Features](https://youtu.be/y4NAoWsExvw)
@@ -420,6 +410,7 @@ GitLab 14.7
 [GitLab 13.12 - YAML include wildcard, CI/CD info in pipeline editor, group-level deployment freq chart](https://youtu.be/bLr_qAnHAHU)
 
 #### GitLab 13.11
+
 [GitLab 13.11 - Use multiple caches in the same job](https://youtu.be/-McVnwPt1z4)
 
 [GitLab 13.11 - Group-level environment-specific variables in GitLab 13.11](https://youtu.be/LCVx88kHQtg)
@@ -462,14 +453,13 @@ Available by searching GitLab's [YouTube Channel](https://www.youtube.com/c/gitl
 
 ### CS Skills Exchange
 
-Click Through demos - [Presentation](https://docs.google.com/presentation/d/1lLATZAyUUrxm7AeX6wXjpK8S7O_DhUNchExJXdtP16M/edit#slide=id.g63ad73583c_0_0) / [Recording](recording ) - 03-02-2022 
+Click Through demos - [Presentation](https://docs.google.com/presentation/d/1lLATZAyUUrxm7AeX6wXjpK8S7O_DhUNchExJXdtP16M/edit#slide=id.g63ad73583c_0_0) / [Recording](recording ) - 03-02-2022
 
 GitOps Using GitLab Terraform & Terratag - [Presenatation](https://docs.google.com/presentation/d/1imHwJxzieYLnkSmFtnjvdyZXj1XP5zLJKuKvaV6IySw/edit?usp=sharing) / [Recording](https://youtu.be/dMo11PzhVQI) - 10-06-2021
 
 CS Skills Exchange GitLab + Data Version Control - [Presentation](CS Skills Exchange GitLab + Data Version Control)
 
 GitOps with GitLab - [Issue with Links](https://gitlab.com/gitlab-com/sales-team/cs-skills-exchange/-/issues/141)
-
 
 ### Conference Presentations
 

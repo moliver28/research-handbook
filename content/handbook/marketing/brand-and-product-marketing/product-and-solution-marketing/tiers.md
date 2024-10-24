@@ -1,5 +1,4 @@
 ---
-
 title: "GitLab tiers"
 ---
 
@@ -20,25 +19,25 @@ title: "GitLab tiers"
 1. License: open source vs. source-available, for example moving a feature from a source-available tier to an open-source tier.
 1. [Distribution](#history-of-ce-and-ee-distributions): self-managed CE vs. EE, for example you can have a EE distribution but in the Free tier.
 1. Version: the [release of GitLab](https://about.gitlab.com/releases/), for example asking what version a user is on.
-1. [Product Category](https://internal.gitlab.com/handbook/sales/deal-desk/product_category/_productcategory/): An internal field that identifies the primary product sold on an opportunity. 
+1. [Product Category](https://internal.gitlab.com/handbook/sales/deal-desk/product_category/_productcategory/): An internal field that identifies the primary product sold on an opportunity.
 
 ## Types of Users
 
 1. Free User - anyone who uses GitLab free tier and does not pay for additional compute minutes or storage (but is eligible to beyond what is included in the free tier).
-2. Trial User - anyone who is currently in trial on one of the paid tiers.
-3. Consumption User - anyone who uses GitLab free tier and pays by consumption for additional compute minutes or storage beyond what is included in the free tier.
-4. Licensed User - anyone who is on a source-available license
-    1. Ultimate User - a licensed user on Ultimate
-    2. Premium User - a licensed user on Premium
-    3. Starter User - a licensed user on Starter (No longer available, but some users are finishing out previously purchased licenses.)
-5. Program User - anyone who is on Premium or Ultimate tier through programs such as [GitLab for Startups](https://about.gitlab.com/solutions/startups/), [GitLab for Education](https://about.gitlab.com/solutions/education/) or [GitLab for Open Source](https://about.gitlab.com/solutions/open-source/)
+1. Trial User - anyone who is currently in trial on one of the paid tiers.
+1. Consumption User - anyone who uses GitLab free tier and pays by consumption for additional compute minutes or storage beyond what is included in the free tier.
+1. Licensed User - anyone who is on a source-available license
+   1. Ultimate User - a licensed user on Ultimate
+   1. Premium User - a licensed user on Premium
+   1. Starter User - a licensed user on Starter (No longer available, but some users are finishing out previously purchased licenses.)
+1. Program User - anyone who is on Premium or Ultimate tier through programs such as [GitLab for Startups](https://about.gitlab.com/solutions/startups/), [GitLab for Education](https://about.gitlab.com/solutions/education/) or [GitLab for Open Source](https://about.gitlab.com/solutions/open-source/)
 
 ## Delivery
 
 In general each of the self-managed tiers match the features in the GitLab SaaS tiers. They have different names for two reasons:
 
 1. There is not complete feature parity between self-managed and GitLab SaaS plans. For example, GitLab self-managed Premium, and Ultimate include [LDAP Group Sync](https://docs.gitlab.com/ee/administration/auth/ldap/index.html#group-sync) but GitLab SaaS Premium and Ultimate do not.
-1. We want to know if a user is using self-managed or GitLab SaaS based on a just the tier name to prevent internal and external confusion.
+1. We want to know if a user is using self-managed or GitLab SaaS based on just the tier name to prevent internal and external confusion.
 
 When we need to specify which tier includes a particular feature using only one word (for example on our issue tracker), we reference the self-managed tiers by default because they tend to contain a superset of the GitLab SaaS tier features.
 Where we can, we highlight both the self-managed and the GitLab SaaS tiers (like in [a release post](https://about.gitlab.com/releases/2018/02/22/gitlab-10-5-released/#instant-ssl-with-lets-encrypt-for-gitlab)).
@@ -84,27 +83,27 @@ See the [Tier Messaging](#tier-messaging) section for how to talk about GitLab, 
 
 Community Edition (CE) and Enterprise Edition (EE) refer to software distributions of GitLab. We used to encourage customers to use the EE distribution since it provided the least painful upgrade path if/when users discovered they needed commercial features. If you aren't talking specifically about the distribution packages, then don't use these terms, [you are probably using them incorrectly](/handbook/communication/top-misused-terms/#enterprise_edition).
 
-### Don't use CE/EE to refer to non-paid/paid **users**.
+### Don't use CE/EE to refer to non-paid/paid **users**
 
 Users can be on the EE distribution for free. Distribution doesn't imply if a user is a customer or not.
 
-    1. Say "users" when you mean all users - paid and unpaid.
-    2. Say "customers" when you mean paid users.
-    3. Say "Free users" when you mean unpaid users.
+1. Say "users" when you mean all users - paid and unpaid.
+1. Say "customers" when you mean paid users.
+1. Say "Free users" when you mean unpaid users.
 
 ❌ Incorrect:  "Let's run a marketing campaign to encourage CE users to upgrade to a paid tier."
 
 ✅ Correct: "Let's run a marketing campaign to encourage Free users to upgrade to a paid tier."
 
-### Don't use CE/EE to refer to **tiers**.
+### Don't use CE/EE to refer to **tiers**
 
 GitLab has 3 tiers: Free, Premium, and Ultimate. Distribution doesn't imply which tier a user is on.
 
-    1. Say the "Free" when you mean the $0 tier.
-    2. Say "Open source" when you mean features in the $0 tier.
-    3. Say "Premium" or "Ultimate" to refer to those tiers.
-    4. Optionally, say "GitLab Free," "GitLab Premium," or "GitLab Ultimate" when you want to refer to a pricing tier.
-    5. Say "commercial tier" when you mean any paid tier.
+1. Say the "Free" when you mean the $0 tier.
+1. Say "Open source" when you mean features in the $0 tier.
+1. Say "Premium" or "Ultimate" to refer to those tiers.
+1. Optionally, say "GitLab Free," "GitLab Premium," or "GitLab Ultimate" when you want to refer to a pricing tier.
+1. Say "commercial tier" when you mean any paid tier.
 
 ❌ Incorrect:  "Let's move this feature to CE."
 
@@ -139,13 +138,13 @@ Please don't use CE, EE, or Free to refer to the type of license since:
 
 ## Tier Messaging
 
-When talking to customers, always use language that they are familiar with. They will likely not be familiar with terms we use internally as a company, it is important to use the customer’s language when you are talking to the customer to maximize understanding.
+When talking to customers, always use language that they are familiar with. They will likely not be familiar with terms we use internally as a company, it is important to use the customer's language when you are talking to the customer to maximize understanding.
 
 ### Themes Hierarchy
 
 The themes hierarchy is designed to communicate the value of GitLab **paid** features to customers.
 
-1. **Value Drivers**: Themes roll into [customer value drivers](/handbook/sales/command-of-the-message/#customer-value-drivers). Value drivers describe what organizations are likely proactively looking for or needing and are top-of-mind customer topics that exist even if GitLab doesn’t. Value drivers may cause buyers to re-allocate discretionary funds, and they support a value-based customer conversation. Organizations adopt and implement GitLab for the following value drivers:
+1. **Value Drivers**: Themes roll into [customer value drivers](/handbook/sales/command-of-the-message/#customer-value-drivers). Value drivers describe what organizations are likely proactively looking for or needing and are top-of-mind customer topics that exist even if GitLab doesn't. Value drivers may cause buyers to re-allocate discretionary funds, and they support a value-based customer conversation. Organizations adopt and implement GitLab for the following value drivers:
 Value drivers are also highlighted within [tiers](https://about.gitlab.com/pricing/).
 1. **Themes**: Themes refer to sets of paid features. They highlight the benefits of features through grouping related paid features together, so customers can focus on a short-list of benefits rather than a long list of 80+ paid features. Themes can be found on [GitLab's pricing page](https://about.gitlab.com/pricing/). Each tier has about five themes. For example, better code reviews, compliance, or portfolio management. When clicking on a theme on the pricing page, users will find a list of paid features that relate directly to a specific theme. For example, better code reviews is a theme that encompasses the following paid features: code and productivity analytics, efficient merge request reviews, code quality reports, merge trains, and multiple approvers.
 1. **Paid Features**: Paid features are small, discrete functionalities that are not included in GitLab's free tier. [Paid features](https://about.gitlab.com/features/by-paid-tier/) have historically been grouped into tiers, but this does little to call out key feature themes that differentiate one tier from the next and help customers to make sense of the key benefits derived from a long list of paid features. Paid features should be grouped into themes.
@@ -155,7 +154,7 @@ Value drivers are also highlighted within [tiers](https://about.gitlab.com/prici
 1. Do always present Ultimate as *the* product. Every customer and prospect would benefit greatly from the Ultimate product and it's the correct frame of reference to explain our complete vision.
 1. Don't introduce lower tiers unnecessarily. We are consultative sellers with a high-value product. If a customer asks about pricing, the answer is "We have end-to-end DevOps in a single application ranging from our free offering up to Ultimate at $1,188 per user per year." Only go into detail on the lower tiers when appropriate based on your assessment of the customer's needs and progression in the product. Focus on the value sale as long as possible and only discuss tiers once there is a clear path forward to purchase.
 
-### Use of “GitLab” by itself
+### Use of "GitLab" by itself
 
 1. Don't use the word "`GitLab`" alone unless you are referring to the company or an attribute that applies to both `GitLab Self-managed` and `GitLab SaaS`. If talking about an attribute that only applies to one delivery method but not the other, then specify (e.g. "GitLab SaaS does X" or "GitLab Self-managed does X").
 1. Do specify `GitLab Self-managed` or `GitLab SaaS` when you are referencing something that is unique to that delivery method (e.g. a security bug that only affects GitLab SaaS).

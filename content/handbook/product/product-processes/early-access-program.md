@@ -1,14 +1,13 @@
 ---
-
 title: "GitLab Early Access Program Direction"
 description: "Alignment & vision of the GitLab Early Access Program"
 ---
 
-# Purpose
+## Purpose
 
-The GitLab Early Access Program aims to increase engagement with early adopters, create brand ambassadors while also increasing the level of feedback received on non-GA high-priority features. 
+The GitLab Early Access Program aims to increase engagement with early adopters, create brand ambassadors while also increasing the level of feedback received on non-GA high-priority features.
 
-In a secondary priority, this helps to [cultivate contributions from the Wider Community](https://handbook.gitlab.com/handbook/engineering/development/dev/create/ide/community-contributions/) in alignment with GitLab's [dual-flywheel strategy](https://handbook.gitlab.com/handbook/company/strategy/#dual-flywheels) & GitLab's [Developer Relations strategy](https://internal.gitlab.com/handbook/marketing/developer-relations-and-community/#accountabilities)
+In a secondary priority, this helps to [cultivate contributions from the Wider Community](/handbook/engineering/development/dev/create/remote-development/community-contributions/) in alignment with GitLab's [dual-flywheel strategy](/handbook/company/strategy/#dual-flywheels) & GitLab's [Developer Relations strategy](https://internal.gitlab.com/handbook/marketing/developer-relations-and-community/#accountabilities)
 
 ## Key group that formed alignment on product direction
 
@@ -20,14 +19,13 @@ In a secondary priority, this helps to [cultivate contributions from the Wider C
 
 ## Alignments
 
-1. All customers who agree with the terms & conditions should gain access to available non GA-features. Otherwise said, we will not gate features to a subset of customers.
-2. The existing process of accepting the terms & conditions of our testing agreement will be followed.
-3. There must be an optional opt-in to receive marketing communications regarding beta or experimental features. 
-4. Guidance from UX & Product should be followed how this gets implemented for a consistent user experience. We should avoid adding friction.
-
-### Potential UX solutions discussed
-
-* A generic modal that pops up anytime you hit a beta feature toggle vs creating a new place to go opt in before you can toggle the actual feature.
+1. There are multiple categorizations of how customers and users access features:
+    1. Generally Available: These are features that are widely available to all customers and users, they may be only available via a paid subscription but otherwise won't be designed with any tag. We will offer full customer support for these features aligned with our support policy.0
+    1. Experiment, Beta: These are features any user can opt in and test independent of the Early Access Program; more detail on what distinguishes Experiment & Beta is included in our [Feature Support](https://docs.gitlab.com/ee/policy/experiment-beta-support.html) page.
+    1. Early Access Program Features:  PMs & Product Leadership might select features to require an opt-in to the Early Access Program. Guidance is that this feature must be behind a feature flag so it can be rolled out to a select group of interested customers.
+1. The existing process of accepting the terms & conditions of our testing agreement will be followed.
+1. Guidance from UX & Product should be followed how this gets implemented for a consistent user experience. We should avoid adding friction.
+1. Guidance from Legal should be followed to help decide on appropriate risks.
 
 ### FYI
 
@@ -41,8 +39,8 @@ The following list is not complete and up for iteration. It serves as an example
   * Incentive is joint-publicity.
 * Through engaging and building a specific early-access community, we can re-use existing recognition & incentive mechanisms built by Developer Relations.
   * Incentive is swag or donating trees when X testing activities are performed, when Y feedback items were created, leaderboards etc..
-* Through nurturing campaigns of active members we guide them to becoming a contributor. 
-  * Wider Community Contribution licenses can be granted for those that want to fix bugs or iterate on the features. 
+* Through nurturing campaigns of active members we guide them to becoming a contributor.
+  * Wider Community Contribution licenses can be granted for those that want to fix bugs or iterate on the features.
 
 ## Traffic Drivers
 

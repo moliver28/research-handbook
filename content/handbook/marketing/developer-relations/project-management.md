@@ -1,13 +1,6 @@
 ---
-
 title: "Developer Relations Program Management"
 ---
-
-
-
-
-
-
 
 The Developer Relations team works from issues and [issue boards](#developer-relations-issue-boards). If you need our assistance with any project, please open an issue and use one of the [_main program labels_](#developer-relations-labels) anywhere within the GitLab repo.
 
@@ -15,34 +8,34 @@ The Developer Relations team works from issues and [issue boards](#developer-rel
 
 Merged updates to the handbook are posted to the [#community-relations-fyi](https://gitlab.slack.com/archives/C015YDXTREK) Slack channel.
 
-MRs must be tagged with the `Developer Relations` labeled *before being merged* in order to be posted to Slack. When you create a new MR, be sure to add the label upon creation so this step isn't forgotten. If you are assigned to merge an MR, ensure the label is added prior to merging.
+MRs must be tagged with the `Developer Relations` labeled _before being merged_ in order to be posted to Slack. When you create a new MR, be sure to add the label upon creation so this step isn't forgotten. If you are assigned to merge an MR, ensure the label is added prior to merging.
 
-## Developer Relations Roadmap 
+## Developer Relations Roadmap
 
-The Developer Relations team conducts project and content planning via the [Roadmap in the Developer Relations Group](https://go.gitlab.com/community-roadmap). 
+The Developer Relations team conducts project and content planning via the [Roadmap in the Developer Relations Group](https://go.gitlab.com/community-roadmap).
 
-### Epics 
+### Epics
 
-Work items that fit into our team strategy, including events and content plans, are tracked in the roadmap by using Epics and Child Epics. 
+Work items that fit into our team strategy, including events and content plans, are tracked in the roadmap by using Epics and Child Epics.
 
-Please use this template when creating Epics for activities that should appear in the Developer Relations team roadmap: 
+Please use this template when creating Epics for activities that should appear in the Developer Relations team roadmap:
 
-```
+```markdown
 <!--  Epic Title Formatting Guide:
 
-Dates should be using ISO dates, see https://about.gitlab.com/handbook/communication/#writing-style-guidelines 
+Dates should be using ISO dates, see https://handbook.gitlab.com/handbook/communication/#writing-style-guidelines
 
-Event: Event Name, Location, Date 
+Event: Event Name, Location, Date
 Content: Title, Date
 Others: Title, Date
 
-Reminder: Start and due dates are required in order for this Epic to display correctly in the team roadmap. 
+Reminder: Start and due dates are required in order for this Epic to display correctly in the team roadmap.
 -->
 
 ## Activity Summary
 
 
-## Goal or expected outcome 
+## Goal or expected outcome
 
 
 
@@ -54,23 +47,22 @@ Reminder: Start and due dates are required in order for this Epic to display cor
 
 
 
-<!-- Example 
+<!-- Example
 
-/label ~"Community::Events" ~"Region::AMER" ~"FY24-Q1" 
+/label ~"Community::Events" ~"Region::AMER" ~"FY24-Q1"
 
 Note: These are samples for guidance, please add relevant labels for activity region, type, quarter or any other labels relevant to your team/program. Please include additional relevant labels here.  -->
 
 <!--Link to parent epic where necessary -->
-/parent_epic URL 
+/parent_epic URL
 
 <!-- Link to Child epic where necessary -->
-/child_epic URL 
+/child_epic URL
 
 <!-- Mention team members that should be aware of the epic -->
-/cc 
+/cc
 
 ```
-
 
 ## Developer Relations issue boards
 
@@ -125,17 +117,21 @@ Note: These are samples for guidance, please add relevant labels for activity re
 | `dev-evangelism` | Developer Evangelism | Any issue in the `gitlab-com` group where the developer evangelism team is involved |  |
 
 ## Developer Relations Group Conversation
+
 ### What is a Group Conversation (GC)?
-GitLab teams update the rest of the company on what they are achieving and working on through [Group Conversations](/handbook/group-conversations/). Group Conversations are an important way to make sure the rest of the organization is aware of what each team is up to, has an opportunity to ask questions, and have a collection of links and information for reference.
+
+GitLab teams update the rest of the company on what they are achieving and working on through [Group Conversations](/handbook/company/group-conversations/). Group Conversations are an important way to make sure the rest of the organization is aware of what each team is up to, has an opportunity to ask questions, and have a collection of links and information for reference.
 
 ### Old Group Conversation decks
+
 The Developer Relations team's previous decks are in our [Google drive](https://drive.google.com/drive/folders/11c011VkzvSIcS3ko98AbvEP4UcZJmfBk?usp=sharing) (GitLab employees only). It's useful when putting together the next GC deck to look at the last one to make sure that items on the calendar edge don't get missed or included a second time.
 
 ### Group Conversation Directly Responsible Individual (DRI)
+
 A DRI from the Developer Relations team will be identified for each GC approximately 3 weeks before the next scheduled GC. The DRI should rotate through team members to give everyone a chance to lead the GC. The DRI is responsible for:
 
 - Creating an issue in the [Community Building Project](https://gitlab.com/gitlab-com/marketing/community-relations/general) using the [community-relations-group-conversation template](https://gitlab.com/gitlab-com/marketing/community-relations/general/-/issues/new?issuable_template=community-relations-group-conversation).
--  Complete all the tasks in the group conversation template.
--  Prepare a few questions for the team prior to the GC in the case there aren't any questions in the agenda during the GC.
--  Lead the GC.
--  Close the GC issue.
+- Complete all the tasks in the group conversation template.
+- Prepare a few questions for the team prior to the GC in the case there aren't any questions in the agenda during the GC.
+- Lead the GC.
+- Close the GC issue.

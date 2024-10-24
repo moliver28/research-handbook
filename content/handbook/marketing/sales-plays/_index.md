@@ -1,29 +1,22 @@
 ---
-
 title: "Sales Plays"
 description: "Sales plays are designed to improve the quantity of opportunities and closed business with defined Land and Expand sales motions"
 ---
 
-
-
-
-
-
-
-
-
 ## Why Sales Plays
 
 Sales plays are designed to improve the quantity of opportunities and closed business with defined Land and Expand sales motions to ultimately generate more ARR for GitLab. More specifically, codified sales plays help to ensure that the sales team is trained and capable of executing either (or both) of the following:
-1. A repeatable set of proven successful sales tactics (Evergreen sales plays) 
+
+1. A repeatable set of proven successful sales tactics (Evergreen sales plays)
 1. A generated set of steps in coordination with a particular time-bound campaign (Focused sales plays)
 
 ## Sales Play Goals
 
 Specific sales play goals may vary from quarter to quarter but may include (but are not necessarily limited to) the following:
+
 - Increase the number of sales-generated First Order opportunities
-- Improve win rates against a specific competitor 
-- Increase MQL to SAO conversion 
+- Improve win rates against a specific competitor
+- Increase MQL to SAO conversion
 
 ## What is a Sales Play
 
@@ -40,12 +33,13 @@ A prescribed, structured set of steps or activities that sellers (GitLab and/or 
 ## Sales Play Bill of Materials
 
 Sales plays will include but are not necessarily limited to:
+
 - Ideal customer profile and target personas
-- Persona-based messaging 
+- Persona-based messaging
 - Prospecting guides
-    - What to know (common pains, positive business outcomes, required capabilities, key GitLab differentiators, and supporting proof points)
-    - What to say (including recommended discovery questions, business value-based positioning points, how to overcome common objections, potential services to attach) 
-    - What to do (steps and tactics to execute the play including suggestions for how to leverage various partner types)
+  - What to know (common pains, positive business outcomes, required capabilities, key GitLab differentiators, and supporting proof points)
+  - What to say (including recommended discovery questions, business value-based positioning points, how to overcome common objections, potential services to attach)
+  - What to do (steps and tactics to execute the play including suggestions for how to leverage various partner types)
 - Email and LinkedIn InMail templates (that Sales is encouraged to tailor as appropriate)
 - Featured assets to share with customers and prospects
 - Focused sales plays will also included target account and/or contact lists

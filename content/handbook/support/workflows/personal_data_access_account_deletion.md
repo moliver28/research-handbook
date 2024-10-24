@@ -1,12 +1,10 @@
 ---
-
 title: Account Deletion & Data Access Requests - Introduction
 category: GitLab.com
 subcategory: Legal
 description: "Description of duties and scope for Account Deletion and Data Access requests."
+controlled_document: true
 ---
-
-
 
 ## Overview
 
@@ -40,7 +38,7 @@ Every request will go through multiple stages, denoted by labels, before they're
 
 ## Exceptions
 
-Exceptions to this procedure will be tracked as per the [Information Security Policy Exception Management Process](/handbook/security/#information-security-policy-exception-management-process).
+Exceptions to this procedure will be tracked as per the [Information Security Policy Exception Management Process](/handbook/security/controlled-document-procedure/#exceptions).
 
 ## References
 

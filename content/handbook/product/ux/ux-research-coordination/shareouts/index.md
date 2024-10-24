@@ -3,7 +3,6 @@ title: "Getting the word out about research insights"
 description: "Getting the word out about research insights"
 ---
 
-
 ## Leveraging Slack
 
 ### The #ux_research_reports Slack channel
@@ -45,14 +44,13 @@ Next step 2
 
 1. Bold key pieces of information or to call out particular information.
 1. Separate your sections into the headings listed in the template.
-1. Use bullet points within each section to break up the information so it’s not just a wall of text.
+1. Use bullet points within each section to break up the information so it's not just a wall of text.
 1. Use emoji! Use different emoji to break up the info or to highlight different things such as:
     - :google_slides: for Research Reports
     - :youtube: for video readouts
     - :dovetail_logo: for Dovetail links
     - your choice of Tanuki for Research Issue links
-1. If you have a lot of links, we recommend hiding the previews for the majority of them once you post so that the focus is on your share-out and not the pop-ups. It’s fine to leave one in such as the research report which is shown in the examples.
-
+1. If you have a lot of links, we recommend hiding the previews for the majority of them once you post so that the focus is on your share-out and not the pop-ups. It's fine to leave one in such as the research report which is shown in the examples.
 
 **Examples**
 
@@ -100,7 +98,7 @@ MONTH Edition of: :scienceparrot:All things UX Research :scienceparrot:
 
 Include an introduction sentence and a call-out to join the ux_research_reports channel.
 
-******************************************************************************************************
+---
 
 :party-gitlab: STAGE GROUP - Pick out a key insight and bold it. Link to the Parent research issue. (The link should be the entire sentence to make it stand out.)
 
@@ -119,7 +117,7 @@ Next steps:
 Next step 1
 Next step 2
 
-******************************************************************************************************
+---
 
 :party-gitlab: STAGE GROUP - Pick out a key insight and bold it. Link to the Parent research issue. (The link should be the entire sentence to make it stand out.)
 

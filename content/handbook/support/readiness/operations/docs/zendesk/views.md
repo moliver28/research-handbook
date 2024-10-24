@@ -24,27 +24,26 @@ Currently, Zendesk has 3 view types:
 
 Currently, Zendesk views have some limitations:
 
-- Only 12 visible views (Default and Shared) will be displayed.
+- Only 30 (previously 12) visible views (Default and Shared) will be displayed.
 - Views cannot use criteria that is not "defined", meaning it must be selectable
   data (text fields will not work, as an example).
-- You can only display up to 8 personal views and Support Ops cannot manage/view
-  them.
+- You can only display up to 10 personal views and Support Ops cannot manage or
+  view them.
 - Views will not include
   [archived tickets](https://support.zendesk.com/hc/en-us/articles/203657756-About-ticket-archiving)
   (i.e. Closed tickets after 120 days.)
-
 
 ## Change management
 
 Keep in mind, all change management should be stemming from an issue, first and
 foremost.
 
-#### Creating a new view with managed content
+### Creating a new view with managed content
 
 When your new view is going to be using managed content, you will first need to
 get the managed content file in the Support managed content project. Remember to
 use the correct filenames for all of this to prevent
-[Pipeline error “No managed content file”](#pipeline-error-no-managed-content-file)
+[Pipeline error "No managed content file"](#pipeline-error-no-managed-content-file)
 in the sync repo project later on.
 
 Only after that has been done should you proceed to the next steps, which will
@@ -52,7 +51,7 @@ match the steps detailed in
 [Creating a new view without managed content](#creating-a-new-view-without-managed-content)
 exactly.
 
-#### Creating a new view without managed content
+### Creating a new view without managed content
 
 This is a bit simpler than creating one with managed content. You will start by
 creating a placeholder view within Zendesk itself (as you will need the ID for
@@ -78,10 +77,10 @@ you can see it in the URL).
 From here, create the merge request in the sync repo project. Keep in mind you
 are likely to need to adjust **many** view files due to positioning.
 
-#### Updating an existing view
+### Updating an existing view
 
 Updating an existing view is considerably easier than creating a new one. Simply
-change change the code in the source project and it will occur via the sync
+change the code in the source project and it will occur via the sync
 repo.
 
 The one caveat you need to consider is when you are changing a view to allow for
@@ -96,7 +95,7 @@ view file in the source sync repo project via your merge request. After that has
 been merged, you will want to comment on the original issue asking the requester
 to remove the file from the corresponding Support managed content project.
 
-#### Deactivating a view
+### Deactivating a view
 
 To deactivate a view, you will simply change the view file in the source sync
 repo project via your merge request. Ensure you merge request does the
@@ -109,7 +108,7 @@ following:
 - Remove all columns except for ticket ID
 - Ensure the restrictions allow anyone to access it
 
-#### Deleting a deactivated view
+### Deleting a deactivated view
 
 **NOTE** We avoid doing this unless a view has been deactivated for a full year.
 After that point it can be deleted completely. Do also note that this will
@@ -134,7 +133,7 @@ action. Click blue `Delete view` button to do so.
 
 ## Troubleshooting
 
-#### Pipeline error "No managed content file"
+### Pipeline error "No managed content file"
 
 This happens when we have said a managed content file should exist, but the git
 submodule does not contain one. This is commonly caused by:
@@ -155,37 +154,37 @@ submodule does not contain one. This is commonly caused by:
   done, you can rebase your MR by making a comment of `/rebase`. After it
   performs the rebase, your MR's CI/CD pipeline should pass.
 
-#### Pipeline error "Blank ID"
+### Pipeline error "Blank ID"
 
 This means the script detected a YAML file within `data/active` or
 `data/inactive` that has an `id` value of blank (or nil). You will need to
 locate the file mentioned in the error and correct that.
 
-#### Pipeline error "Blank position"
+### Pipeline error "Blank position"
 
 This means the script detected a YAML file within `data/active` or
 `data/inactive` that has an `position` value of blank (or nil). You will need to
 locate the file mentioned in the error and correct that.
 
-#### Pipeline error "Blank title"
+### Pipeline error "Blank title"
 
 This means the script detected a YAML file within `data/active` or
 `data/inactive` that has an `title` value of blank (or nil). You will need to
 locate the file mentioned in the error and correct that.
 
-#### Pipeline error "Inactive trigger in active folder"
+### Pipeline error "Inactive trigger in active folder"
 
 This means the script detected a YAML file within `data/active` that has an
 `active` value of `false`. You will need to locate the file mentioned in the
 error and correct that.
 
-#### Pipeline error "Active trigger in inactive folder"
+### Pipeline error "Active trigger in inactive folder"
 
 This means the script detected a YAML file within `data/inactive` that has an
 `active` value of anything other than `false`. You will need to locate the file
 mentioned in the error and correct that.
 
-#### Pipeline error "GitLab errors"
+### Pipeline error "GitLab errors"
 
 This is a generic error message that will detail some error that occurred when
 trying to either create or update the tag used on the source project. The exact
@@ -197,12 +196,12 @@ team.
 
 ## Source Projects
 
-#### Zendesk Global
+### Zendesk Global
 
 - [Support managed content project](https://gitlab.com/gitlab-com/support/zendesk-global/views)
 - [Sync repo project](https://gitlab.com/gitlab-support-readiness/zendesk-global/views)
 
-#### Zendesk US Government
+### Zendesk US Government
 
 - [Support managed content project](https://gitlab.com/gitlab-com/support/zendesk-us-government/views)
 - [Sync repo project](https://gitlab.com/gitlab-support-readiness/zendesk-us-government/views)
@@ -222,12 +221,12 @@ This is desired and we should *rarely* need to change this.
 To ensure all views we utilize are both consistent in nature and transparent in
 their actions, we strive to meet some standards on all views we work with.
 
-#### Naming standards
+### Naming standards
 
 The name used for the view should be simple, clear, and concise. You want the
 name to convey what the view is used for.
 
-#### Condition standards
+### Condition standards
 
 Generally speaking, we aim to make view conditions as simple as possible. When
 possible, you should use condition sets that are very specific and succinct. As

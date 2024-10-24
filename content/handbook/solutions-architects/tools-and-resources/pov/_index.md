@@ -1,13 +1,11 @@
 ---
-
 title: Proof of Value (POV)
 description: Proof of Value (POV)
 ---
 
-
 ## Proof of Value (POV)
 
-Proof of value is a combination of technical evaluation and the communication of the expected business value of a solution.  The solution, its practical application, and how it drives specific business value are proven and documented through the POV process.
+Proof of value is a combination of [technical evaluation](/content/handbook/solutions-architects/processes/_index.md) and the communication of the expected business value of a solution.  The solution, its practical application, and how it drives specific business value are proven and documented through the POV process.
 
 Solution Architects are instrumental in guiding prospects and customers to carry out a successful Proof of **Value**. POV's should focus on specific prospect/customer business outcomes that cannot be achieved through other consultative interactions.
 
@@ -39,7 +37,7 @@ A POV is conducted with a GitLab trial license either using GitLab.com or a self
 
 - Top business drivers are identified with POV scope, success criteria of the POV are defined to execute the POV and subsequently drive next step in the deal process
 
-- Must identify the champion and economic buyers and they must be in agreement (e.g., “sign-off”) on the success criteria; faciliate the executive connection and sponsorship
+- Must identify the champion and economic buyers and they must be in agreement (e.g., "sign-off") on the success criteria; faciliate the executive connection and sponsorship
 
 - A Command Plan is populated in Salesforce for the opportunity with the following fields:
     Why Now
@@ -114,12 +112,12 @@ Solutions Architects are the owners of the POV, guiding prospects through a succ
 
 Many prospects are tempted to include implementation of GitLab high availability as part of a POV. In this case, the implementation components should comprise a separate POV entirely, separating GitLab functionality evaluations from implementation, load and performance components.
 
-Other best practices for POV’s:
+Other best practices for POV's:
 
-- SA’s must be part of proposing or committing to POV’s
-- POV’s should be a late-stage component that triggers the sale, not an early offering
+- SA's must be part of proposing or committing to POV's
+- POV's should be a late-stage component that triggers the sale, not an early offering
 - Ask WHY a POV is required vs Q&A or other considerations, since prospects are often using existing GitLab installations
-- Feature/function POV’s should be run in basic environments, not HA, unless the HA environment is already established and proven
+- Feature/function POV's should be run in basic environments, not HA, unless the HA environment is already established and proven
 - Required capabilities should be a limited number, 5 or less ideally - these should be purchase triggers and differentiators
 - Please work together(SA & SAE) to map required capabilities to decision criteria in the COM plan
 - A POV does not implement a fully designed and configured ecosystem in a customer environment, it is a product evaluation
@@ -153,7 +151,7 @@ Below is best practice guidance for conducting each type of POV. These processes
 - SAE/AE: Opportunity updated in Salesforce, set to Stage 3-Technical Evaluation, with POV Information entered per the [handbook](/handbook/sales/field-operations/gtm-resources/)
 - SAE/AE: Signed NDA by the legal team if required
 - SAE/AE: Review [Customer Assurance Package](https://about.gitlab.com/security/cap/) with customer (if SaaS evaluation)
-    - The Customer Package requires an NDA, and contains commonly requested security information (SOC2, Penetration Test Results, etc) and can be requested via a [Field Security Issue](https://gitlab.com/gitlab-com/gl-security/security-assurance/field-security-team/customer-assurance-activities/caa-servicedesk/-/issues/new?issuable_template=Security%20Documents%20CAA)
+  - The Customer Package requires an NDA, and contains commonly requested security information (SOC2, Penetration Test Results, etc) and can be requested via a [Field Security Issue](https://gitlab.com/gitlab-com/gl-security/security-assurance/field-security-team/customer-assurance-activities/caa-servicedesk/-/issues/new?issuable_template=Security%20Documents%20CAA)
 - SAE/AE: Schedule Internal kick off meeting (detailed below)
 - SAE/AE: Schedule kickoff meeting with customer
 - CSM: Review collaboration project content prior to internal kickoff meeting
@@ -296,17 +294,17 @@ Commercial Sales POV's are commonly executed as a variety of the Lite POV, thoug
 - Duration: 30 Minutes
 - Attendees: GitLab Account Executive, GitLab Solutions Architect, Prospective Customer
 - Agenda:
-    - Define success criteria (as a best practice, have no more than 5 required capabilities)
-    - Confirm start and end date
-    - Determine primary communication method
-        - Customer to decide if they are interested in communicating on a collaborative GitLab project or email only
-        - Collaborative, time-limited Slack channels are an option depending on SA capacity and opportunity IACV
-        - Frequency options: 30 minute weekly call or email touchbase weekly with calls scheduled as needed
+  - Define success criteria (as a best practice, have no more than 5 required capabilities)
+  - Confirm start and end date
+  - Determine primary communication method
+    - Customer to decide if they are interested in communicating on a collaborative GitLab project or email only
+    - Collaborative, time-limited Slack channels are an option depending on SA capacity and opportunity IACV
+    - Frequency options: 30 minute weekly call or email touchbase weekly with calls scheduled as needed
 - SA role:
-    - Acts as the primary point of contact throughout POV process
-    - Tracks status updates regarding success criteria
-    - Records any existing or new feature requests of interest to customer
-    - Leads troubleshooting and escalation of blockers
+  - Acts as the primary point of contact throughout POV process
+  - Tracks status updates regarding success criteria
+  - Records any existing or new feature requests of interest to customer
+  - Leads troubleshooting and escalation of blockers
 
 ### Commercial Sales - POV and Customer Success Plan Creation
 
@@ -314,10 +312,10 @@ Commercial Sales POV's are commonly executed as a variety of the Lite POV, thoug
 - Create a new [customer project](https://gitlab.com/gitlab-com/account-management/commercial/pre-sales) in the Commercial/Pre-sales group. To use the template, select the 'Create from Template' tab, select the 'Group' templates, and then click 'Use template' for the 'New Customer Project - Commercial Sales' template.
 - Edit README.md with information specific to POV under the Proof of Value section and fill in any additional relevant fields.
 - Upon completion of POV, update Salesforce record with POV result as successful or unsuccessful and provide supportive reasons in the associated freeform fields
-    - For a successful POV:
-        - SA adds any other known information in README.md, then moves the project from the Pre-sales group to [Commercial](https://gitlab.com/gitlab-com/account-management/commercial)
-        - CSM and AE determine CSM eligibility and engagement based on Account Tier and IACV.
-        - CSM, SA and AE schedule meeting with new customer to establish a starting baseline, review the project data and establish intended collaborative usage moving forward.
+  - For a successful POV:
+    - SA adds any other known information in README.md, then moves the project from the Pre-sales group to [Commercial](https://gitlab.com/gitlab-com/account-management/commercial)
+    - CSM and AE determine CSM eligibility and engagement based on Account Tier and IACV.
+    - CSM, SA and AE schedule meeting with new customer to establish a starting baseline, review the project data and establish intended collaborative usage moving forward.
 
 ## POV Template Document
 
@@ -347,6 +345,7 @@ The advantages of using a wiki page are:
 
 For new customers wothout a collaboration project, the POV Plan template will be included in the Wiki when the collaboration project is created from the [POV project template](https://gitlab.com/gitlab-com/account-management/templates/poc-plan).
 For existing customers there are two options for getting the POV template into the existing customer collaboration project:
+
 1. Open the POV collaboration project wiki page and copy the text and paste it into a new page in the customer collaboration project wiki and uopdate it with the specific customer details
 1. Clone the POV template wiki locally, update it and push to the customer collaboration project following the steps below (assuming the customer name is MyCustomer):
    1. Access the wiki (Plan -> Wiki) page in the POV project template

@@ -1,5 +1,4 @@
 ---
-aliases: /handbook/engineering/infrastructure/database/disaster_recovery.html
 title: "Database: Disaster Recovery"
 controlled_document: true
 ---
@@ -13,8 +12,7 @@ incident).
 
 The overview here is not complete and is going to be extended soon.
 
-We base our strategy on PostgreSQL's [Point-in-Time Recovery
-(PITR)](https://www.postgresql.org/docs/9.6/static/continuous-archiving.html) feature.
+We base our strategy on PostgreSQL's [Point-in-Time Recovery (PITR)](https://www.postgresql.org/docs/9.6/static/continuous-archiving.html) feature.
 
 This means we're shipping daily snapshots and transaction logs (WAL) to
 an external storage (the archive). Given a snapshot, we are now able to
@@ -35,6 +33,7 @@ This handbook page applies to recovery of the GitLab PostgreSQL production datab
 | Infrastructure Management (Code Owners) | Responsible for approving significant changes and exceptions to this procedure |
 
 ## Procedure
+
 ### Restore testing
 
 A backup is only worth something if it can be successfully restored in a
@@ -114,7 +113,7 @@ confidence in our cold backup and PITR recovery strategy.
 
 ## Exceptions
 
-Exceptions to this procedure will be tracked as per the [Information Security Policy Exception Management Process](/handbook/security/#information-security-policy-exception-management-process).
+Exceptions to this procedure will be tracked as per the [Information Security Policy Exception Management Process](/handbook/security/controlled-document-procedure/#exceptions).
 
 ## References
 

@@ -1,5 +1,4 @@
 ---
-
 title: "Philippe Lafoucrière README"
 job: "Security Architect"
 ---
@@ -9,11 +8,10 @@ job: "Security Architect"
 ### About me
 
 Hi! I'm a [Security Architect](/job-families/security/security-engineer#security-architect) at
-GitLab, which is a specialty on top of my [Security Distinguished
-Engineer](/job-families/security/security-engineer#distinguished-security-engineer) role.
+GitLab, which is a specialty on top of my [Security Distinguished Engineer](/job-families/security/security-engineer#distinguished-security-engineer) role.
 
-I have an Engineering background, having graduated from the [Université de Technologie de
-Compiègne](https://www.utc.fr/en/) (France) with a Master's Degree in Computer Science.
+I have an Engineering background, having graduated from the
+[Université de Technologie de Compiègne](https://www.utc.fr/en/) (France) with a Master's Degree in Computer Science.
 Nevertheless, my career almost involved an Entrepreneur aspect. This makes me a Jack of all
 trades and a master of none.
 
@@ -30,11 +28,10 @@ A few facts about me:
 
 ### Background story at GitLab
 
-I joined GitLab with the [acquisition of
-Gemnasium](https://about.gitlab.com/press/releases/2018-01-30-gemnasium-acquisition.html) in 2018, when I become the first
+I joined GitLab with the [acquisition of Gemnasium](https://about.gitlab.com/press/releases/2018-01-30-gemnasium-acquisition.html)
+in 2018, when I become the first
 manager of the [Secure Stage](https://about.gitlab.com/direction/secure/). After having designed and developed security
-products, I decided to switch to the other side of the mirror and joined the [Security
-Department](/handbook/security) in 2020.
+products, I decided to switch to the other side of the mirror and joined the [Security Department](/handbook/security) in 2020.
 
 ![timeline](../timeline.png)
 
@@ -47,14 +44,14 @@ updates on issues where I've been involved, without getting pinged explicitly.
 You can always book a slot in my agenda (during working hours) if you want to talk to me, no need to
 ask.
 
-My English is not perfect. The best way for me to improve is to correct myself when I’m using wrong
+My English is not perfect. The best way for me to improve is to correct myself when I'm using wrong
 words or expressions.
 
-Also, you can tell I’m tired when my English is worse than usual!
+Also, you can tell I'm tired when my English is worse than usual!
 
 ### My working style
 
-I live by our [values]({{< ref "values" >}}) and embrace every one of them as much as I can. By
+I live by our [values](/handbook/values/) and embrace every one of them as much as I can. By
 default, I will go async via an issue or a merge request. I create a lot of issues, but they do not
 all translate into an action item. I use issues as a placeholder for discussions too. Sometimes,
 it's to document why I or we think it's not a good idea to do something. We can re-evaluate the
@@ -79,21 +76,20 @@ Having managed a company for a decade, I have an affinity for:
 
 ### Typical workday
 
-I wake up at 6 am, exercise until 8 am, breakfast until 8:30 am I usually don’t work before
+I wake up at 6 am, exercise until 8 am, breakfast until 8:30 am I usually don't work before
 this time, but always check my emails and slack messages when I wake up (old CEO habit).
 
 I take a 1-hour break for lunch, usually between 11:30 am - 12:30 pm.
 
 I end the day around 6 pm to cook dinner for the family.
 
-I get back to the computer between 7 and 8 pm After that, Slack and emails are still in “monitor
-mode”, but it’s usually family time.
+I get back to the computer between 7 and 8 pm After that, Slack and emails are still in "monitor
+mode", but it's usually family time.
 
 ### Projects
 
-I maintain the [GitLab Inventory
-Builder](https://gitlab.com/gitlab-com/gl-security/product-security/gib) as well as our
-[internal inventory](https://gitlab.com/gitlab-com/gl-security/product-security/inventory)
+I maintain the [GitLab Inventory Builder](https://gitlab.com/gitlab-com/gl-security/product-security/gib)
+as well as our [internal inventory](https://gitlab.com/gitlab-com/gl-security/product-security/inventory)
 (private project).
 
 ### Office Hours
@@ -111,12 +107,12 @@ My roadmap and vision can be found [here](https://gitlab.com/groups/gitlab-com/g
 
 These tools make my day, every single day. I would have a really hard time working without:
 
-#### Alfred:
+#### Alfred
 
 [Alfred](https://www.alfredapp.com/) is a productivity app for mac. It's a blazing-fast application
-launcher with some nice extra features. The best is the [clipboard
-history](https://www.alfredapp.com/help/features/clipboard/) that stacks everything copied in the
-clipboard. I can copy many different links for example and then switch to another window to paste
+launcher with some nice extra features. The best is the [clipboard history](https://www.alfredapp.com/help/features/clipboard/)
+that stacks everything copied in the clipboard.
+I can copy many different links for example and then switch to another window to paste
 them. It's also smart enough to remove secrets from 1password from the history once pasted.
 
 #### Little Snitch

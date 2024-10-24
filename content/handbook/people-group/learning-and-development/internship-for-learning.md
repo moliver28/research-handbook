@@ -33,7 +33,7 @@ First step is to discuss this with your manager at your next 1:1. Come prepared 
 
 **How do I find a mentor?**
 
-On the [team page](/handbook/company/team/), you can see who is willing to be a mentor by looking at the associated [expertise]({{< ref "structure#expert" >}}) on their entry.
+On the [team page](https://about.gitlab.com/company/team/), you can see who is willing to be a mentor by looking at the associated [expertise]({{< ref "structure#expert" >}}) on their entry.
 
 **Does completing an internship guarantee me a role on the team?**
 
@@ -53,4 +53,3 @@ Once you've agreed upon the internship goals, both managers should inform their 
 ## Recommendations
 
 We recommend that, at any given time, each [team]({{< ref "structure#team-and-team-members" >}}) is handling only one intern. This is to allow for an efficient and focused mentorship without impacting the capacity of the team. You can, of course, adjust this depending on the size of the team but please consider the impact of mentoring when scheduling internships.
-

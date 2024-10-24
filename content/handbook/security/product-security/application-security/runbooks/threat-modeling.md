@@ -7,6 +7,8 @@ description: "This threat modeling process is tailored to GitLab features."
 
 [As of 2023-11-02, AppSec is only prioritizing P1 AppSec reviews and threat models](https://gitlab.com/gitlab-com/gl-security/product-security/appsec/appsec-team/-/issues/475#note_1632226713). This does not mean P2 or P3 AppSec reviews or threat model requests can't be submitted, but please understand that due to capacity limitations we will only be able to prioritize P1 reviews. Reach out to us in the #sec-appsec Slack channel if you have any questions or concerns.
 
+AppSec wants to encourage teams to create their own threat models, and the team will try to support any queries in regards to the process.
+
 ## Using the `threat model` scoped labels
 
 To assist in the creation of threat models the two labels `~threat model::needed` and `~threat model::done`
@@ -15,35 +17,35 @@ counterpart will apply the `~threat model::needed` label to the epic or issue. T
 will also create a dedicated threat modeling issue in the
 [`threat-models`](https://gitlab.com/gitlab-com/gl-security/product-security/appsec/threat-models/-/issues/new?issuable_template=Threat%20Model)(internal link) project.
 Within the issue the development and the application security team should collaborate on the creation
-of a threat model. The issue template contains detailed steps to guide through the process.
+of a threat model. The development team must provide technical documentation in the issue before the process starts. The issue template contains detailed steps to guide through the process. 
 
 If you're new to threat modeling: for a beginner friendly start please have a look at our
-[threat modeling how to page](/handbook/security/threat-modeling/howto).
+[threat modeling how to page](/handbook/security/product-security/application-security/threat-modeling/howto/).
 
 ## Creating the threat model
 
 The scope definition and priortization is a very first step towards
-building a proper [threat model](/handbook/security/threat-modeling)
+building a proper [threat model](/handbook/security/product-security/application-security/threat-modeling/)
 for the to-be-reviewed item. If time allows and the complexity of
 to-be-reviewed feature justifies it, a more in-depth threat model
 should be developed. In the context of an AppSec review we will
-follow the [PASTA approach](/handbook/security/threat-modeling#the-framework)
+follow the [PASTA approach](/handbook/security/product-security/application-security/threat-modeling/#the-framework)
 which has been chosen to be the most flexible approach fitting
 for various threat modeling cases throughout GitLab.
 
-- In the AppSec review we should start with the [Stage III - Application Decomposition](/handbook/security/threat-modeling#stage-iii---application-decomposition)
+- In the AppSec review we should start with the [Stage III - Application Decomposition](/handbook/security/product-security/application-security/threat-modeling/#stage-iii---application-decomposition)
   as soon as we have a clear scope definition for the review. This stage
   of application decomposition is an extension of the priortization step
   where much more details should be considered.
-- The threat analysis [Stage IV - Threat Analysis](/handbook/security/threat-modeling#stage-iv---threat-analysis)
+- The threat analysis [Stage IV - Threat Analysis](/handbook/security/product-security/application-security/threat-modeling/#stage-iv---threat-analysis)
   should be used to create a detailed test plan for the review.
 - Finally the
-  [Stage V - Vulnerability and Weakness Analysis](/handbook/security/threat-modeling/#stage-v---vulnerability-and-weakness-analysis)
+  [Stage V - Vulnerability and Weakness Analysis](/handbook/security/product-security/application-security/threat-modeling//#stage-v---vulnerability-and-weakness-analysis)
   would be the actual technical review process which allows us to verify
   the assumptions of the two previous stages.
 
 In total this would reflect the
-[evidence driven threat model](/handbook/security/threat-modeling#evidence-driven-threat-model)
+[evidence driven threat model](/handbook/security/product-security/application-security/threat-modeling/#evidence-driven-threat-model)
 within the review.
 
 ### Stage III - Application Decomposition

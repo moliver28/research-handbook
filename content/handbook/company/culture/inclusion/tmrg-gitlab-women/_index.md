@@ -5,7 +5,7 @@ description: "An overview of our remote TMRG GitLab Women"
 
 ## Mission
 
-The mission of the GitLab Women TMRG is to cultivate an inclusive environment that supports and encourages those who identify as women to advance their skills and leadership potential through connection, mentorship, collaboration and discussion. This group shall serve as a forum for women to find their voice and be heard within the GitLab community. Through networking, socializing, and professional development, we hope to attract and retain women into GitLab’s positions. This group is open to all members of the GitLab community.
+The mission of the GitLab Women TMRG is to cultivate an inclusive environment that supports and encourages those who identify as women to advance their skills and leadership potential through connection, mentorship, collaboration and discussion. This group shall serve as a forum for women to find their voice and be heard within the GitLab community. Through networking, socializing, and professional development, we hope to attract and retain women into GitLab's positions. This group is open to all members of the GitLab community.
 
 Click through to meet some of the women working at GitLab!
 
@@ -18,7 +18,7 @@ This TMRG is focused on 4 key areas of impact. We call them our pillars. Review 
 | Pillar | Purpose | Example Results |
 | ----- | ----- | ----- |
 | Awareness and Education | Increase awareness of the experience of TMRG memebers at GitLab and educate allies. | |
-| Professional Development | Increase access to opportunity for career and professional growth of TMRG members | [Women at GitLab Mentorship Program]({{< ref "./mentorship-program" >}}) |
+| Professional Development | Increase access to opportunity for career and professional growth of TMRG members | [Women at GitLab Mentorship Program](mentorship-program/) |
 | Recruiting and Retention | Increase the successful recruitment and retention of women at GitLab | Participate in [candidate TMRG calls](/handbook/hiring/talent-acquisition-framework/coordinator#speaking-with-tmrg-team-members-in-the-hiring-process) by joining the [#candidate_tmrg-call Slack channel](https://app.slack.com/client/T02592416/C03JEQPSN3V/thread/C012GP5CGCR-1655385119.184549) |
 | Business Influence | Start and contribute to discusses that influence GitLab the business. | Surface burnout data to People Leadership |
 
@@ -89,15 +89,14 @@ If you have a resource you'd like to include, please open a merge request and co
 
 | Resource | Description |
 | ----- | ----- |
-| [Women at GitLab Mentorship Program]({{< ref "./mentorship-program" >}}) | FY22 Q2-Q3 program opportunity for mentorship at GitLab |
+| [Women at GitLab Mentorship Program](mentorship-program/) | FY22 Q2-Q3 program opportunity for mentorship at GitLab |
 | [WISE: Women in Sales Everywhere Memberships](https://womeninsaleseverywhere.com/) | In calendar year 2022, GitLab has allocated 15 licenses for women in the Sales organization to acceses memberships with [WISE](https://womeninsaleseverywhere.com/) including mentorship, events, and training. Reach out to TMRG leads if you are interested in a membership |
 | [GitLab Internship for Learning]({{< ref "internship-for-learning" >}}) | If your manager has coverage, you can spend a percentage of your time working (through an 'internship') with another team |
 | [Growth and Development benefit]({{< ref "general-and-entity-benefits#growth-and-development-benefit" >}}) | This benefit is available for GitLab team members and can be used to cover professional development costs associated with external resources |
 | [CEO Shadow Program](/handbook/ceo/shadow)| The goal of the CEO Shadow Program is to give current and future directors and senior leaders at GitLab an overview of all aspects of the company |
 | [Women in the Workplace Study Webinar](https://www.hracuity.com/webinar/leaninstudy-2020?utm_campaign=Content%20%7C%20Webinar%20%7C%20LeanIn&utm_medium=email&_hsmi=98577248&_hsenc=p2ANqtz-8kbiJWLM1fyvHgX1E15FQtDxjVDla2B4C3p2G7wSvpUQMJizBBdpFhEpmhEdG7PeYR-ekzWWPWhWK9EfpXoZwk5m6dWQ&utm_content=98577248&utm_source=hs_email) | A webinar from Lean In discussing the unique impact that COVID-19 has had on women of different races and ethnicities, working mothers, women in senior leadership and women with disabilities |
-| [The Harvard Gazette - Women less inclined to self-promote than men, even for a job](https://news.harvard.edu/gazette/story/2020/02/men-better-than-women-at-self-promotion-on-job-leading-to-inequities/) | Study finds female workers’ deep discomfort over touting skills, experience adds to gender gap in promotions, pay |
+| [The Harvard Gazette - Women less inclined to self-promote than men, even for a job](https://news.harvard.edu/gazette/story/2020/02/men-better-than-women-at-self-promotion-on-job-leading-to-inequities/) | Study finds female workers' deep discomfort over touting skills, experience adds to gender gap in promotions, pay |
 | [Stanford Continuing Studies Department](https://continuingstudies.stanford.edu/) | Standford offers many continuing education programs in multiple diciplines including leadership, writing, and professional/personal development |
-
 
 ### Book Suggestions
 
@@ -114,7 +113,9 @@ The following are books suggested by GitLab team members in the [#women Slack ch
 
 ## Past Events
 
-### Talking Confidently about your Accomplishments - Live Speaker Series with [Michelle Carrizosa](https://www.michellecarrizosa.com/)
+### Talking Confidently about your Accomplishments - Live Speaker Series with Michelle Carrizosa
+
+- [Michelle Carrizosa](https://www.michellecarrizosa.com/)
 
 {{< youtube "nXvTiBfEz-c" >}}
 

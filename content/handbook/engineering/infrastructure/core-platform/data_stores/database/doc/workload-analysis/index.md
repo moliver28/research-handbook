@@ -1,12 +1,6 @@
 ---
-aliases: /handbook/engineering/infrastructure/core-platform/data_stores/database/doc/workload-analysis.html
 title: Workload analysis for GitLab.com
 ---
-
-
-
-
-
 
 ## Workload Analysis for GitLab.com
 
@@ -30,7 +24,7 @@ We've started to address this through manual invocations of [pg_repack](https://
 
 ![index-bloat-2](workload-analysis/index-bloat-2.png)
 
-##### Addressing index bloat long term
+#### Addressing index bloat long term
 
 We came to realize that addressing index bloat is something we need to automate. This allows us to address this problem in a higher frequency, with no manual efforts and ultimately we maintain a healthy state of index bloat over time.
 
@@ -52,7 +46,7 @@ The reindexing lives inside a Rake task that gets triggered through a cronjob. F
 
 Going forward and with %13.6, we are going to improve this feature by adding a [good index selection strategy](https://gitlab.com/gitlab-org/gitlab/-/issues/258576) and [observability](https://gitlab.com/gitlab-org/gitlab/-/issues/273198) [features](https://gitlab.com/gitlab-org/gitlab/-/issues/263463) to it.
 
-###### Relevant links
+##### Relevant links
 
 1. [Automatic reindexing epic](https://gitlab.com/groups/gitlab-org/-/epics/3989)
 2. [Database bloat dashboard](https://dashboards.gitlab.net/d/000000224/postgresql-bloat?orgId=1&refresh=5m)
@@ -71,7 +65,7 @@ How do we look at database workload? Let's say, we are concerned with the primar
 
 With `pg_stat_statements`, this information is readily available on a per-query basis for most queries ever executed on the database (there is a configurable threshold, currently we track `pg_stat_statements.max = 5,000` queries at most). This means the approach has much more detailed insight into the actual workload than a log-based approach, effectively addressing concern (1) from above.
 
-##### High resolution top-k approach
+#### High resolution top-k approach
 
 This approach deals with concern (2): It provides a way to keep track of any queries that were considered "offending", even if only for a very short period of time (think 30 seconds).
 
@@ -85,7 +79,7 @@ Let's introduce a couple things first and then outline how the analysis works.
 
 *Offending strike count for a query*: We keep track of the overall number of times a query shows up as offending and call this the *strike count*.
 
-###### Methodology
+##### Methodology
 
 The analysis performs a few steps:
 
@@ -95,18 +89,18 @@ The analysis performs a few steps:
 
 In this approach, we still see queries in the result even if they were only being considered offending during one time frame (e.g. 30 seconds).
 
-###### Exemplary implementation and results
+##### Exemplary implementation and results
 
 An proof of concept implementation is available in [gitlab-org/database-team/highres-stat-statements](https://gitlab.com/gitlab-org/database-team/highres-stat-statements).
 
 An example report can be found in this [sheet](https://docs.google.com/spreadsheets/d/15C8chcgqTGDsKxg22M06WQUwSH4herugRlSQ7Jj8LQU/edit#gid=1953020943) (GitLab internal link). This is based on snapshots taken off the GitLab.com primary during 32 minutes at a 30 seconds interval.
 
-###### pg_stat_statements and Marginalia
+##### `pg_stat_statements` and Marginalia
 
 Marginalia is a Ruby gem that annotates database queries with their origin. For example, for sidekiq jobs and web requests, we would see similar SQL comments alongside each query:
 
 1. Sidekiq: `/*application:sidekiq,...,jid:...,job_class:AuthorizedProjectUpdate::UserRefreshWithLowUrgencyWorker*/`
-2. Web: ` /*application:web,controller:issues,action:related_branches,correlation_id:...*/`
+2. Web: `/*application:web,controller:issues,action:related_branches,correlation_id:...*/`
 
 This information is retained in `pg_stat_statements`. We can use it to aggregate across sidekiq jobs, controllers or controller actions.
 

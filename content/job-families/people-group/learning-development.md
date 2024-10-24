@@ -7,7 +7,7 @@ The Learning and Development (L&D) job family is responsible for building and ma
 
 ## Associate Learning & Development Program Manager
 
-The Associate Learning & Development Program Manager reports to the [Learning & Development Mnanager](#manager-learning--development).
+The Associate Learning & Development Program Manager reports to the [Learning & Development Manager](#manager-learning--development).
 
 ### Associate Learning & Development Program Manager Job Grade
 
@@ -76,7 +76,7 @@ The Learning & Development Partner is a [grade 7](/handbook/total-rewards/compen
 - Extends the Intermediate Learning & Development Program Manager responsibilities
 - Partner with members of the People group and the leadership team to identify, develop, and deliver solutions that support the growth of our team members and GitLab's success
 - Establish an internal learning and development roadmap for all GitLab managers and individual contributors
-- Iterate on existing materials and design and develop new onboarding/L&D content, utilizing [GitLab's YouTube channel](https://www.youtube.com/channel/UCMtZ0sc1HHNtGGWZFDRTh5A) and [handbook](/handbook/handbook-usage/)
+- Iterate on existing materials and design and develop new onboarding/L&D content, utilizing [GitLab's YouTube channel](https://www.youtube.com/channel/UCMtZ0sc1HHNtGGWZFDRTh5A) and [handbook](/handbook/about/handbook-usage/)
 - Monitor L&D metrics and iterate upon programs and courses for continuous improvement
 - Create and design the supporting course material for all onboarding and/or development programs, both for instructor-led and e-learning
 - Identify and design the right learning solutions to support GitLab's growth
@@ -108,7 +108,7 @@ The Learning & Development Manager is a [grade 8](/handbook/total-rewards/compen
 - Extends the Senior Program Manager, Learning & Development responsibilities
 - Develop and lead the Learning and Development team while creating quality learning lessons and programs
 - Design and develop role-based learning paths for individual contributors, managers, aspiring managers, and executive leadership
-- Advise People group and the leadership with organization wide training initiatives that support the growth of our team members and GitLab’s success
+- Advise People group and the leadership with organization wide training initiatives that support the growth of our team members and GitLab's success
 - Design, develop, and deploy a comprehensive eLearning, microlearning, and live learning curriculum for all team members with role-based learning paths for managers, team members, aspiring managers, and executives
 - Integrate the Learning Management System into GitLab and manage the change management and adoption activities and ensure all content is Handbook first
 - Introduce new learning vehicles that reinforce a personalized learning infrastructure that includes curated content, customized content, and eLearning modules
@@ -191,37 +191,6 @@ The Director, Talent Development is a [grade 10](/handbook/total-rewards/compens
 - Experience managing a team and potentially managing managers
 - Demonstrated excellence in written and verbal communication, organizational skills, and project management
 - Experience in influencing senior leaders/stakeholders at the director and above levels
-
-## Director, Talent Management
-
-The Director, Talent Management reports to the [VP, Talent & Engagement](/job-families/people-group/talent-acquisition-leadership/).
-
-### Job Grade
-
-The Director, Talent Management is a [grade 10](/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades).
-
-### Responsibilities
-
-- Partner with our People Business Partner team to evolve our evaluation and promotion processes
-- At an enterprise-view, build a process to continuously evaluate and report on organizational design themes to ensure that we grow in the most effective way possible (E.g. org shape)
-- Build out our “Talent Preparedness” vision, to ensure that we are ready to build the right skills for the future and the ever evolving technology landscape
-- Partnering with our Diversity, Inclusion & Belonging team to ensure that we build all talent programs with DIB involvement from the start.
-- Partnering with our People Connect and Ops teams to ensure that they have the appropriate information to help guide our team member population as appropriate
-- Partnering with Total Rewards to ensure our talent strategy aligns to Pay for Performance philosophy
-- In conjunction with Talent Development, Develop and own a company-wide coaching strategy for our leadership teams
-- Design and drive our Succession planning program
-
-### Requirements
-
-- Strong track record delivering talent management programs at a fast-growth company
-- Previous experience working in a strategic capacity, helping drive initiatives and influencing change through different stakeholder groups
-- Used to working closely with other people group stakeholders, notably the HRBP teams
-- Previous experience building out a talent management strategy, or parts thereof
-- Experience leading a Talent Management team, or been a key part in driving talent management initiatives for segments of the employee population
-- Proven understanding of how to build a successful evaluation and promotion process at scale
-- Understanding of technology architecture and have partnered with people technology in previous roles to help effectuate change
-- Comfortable setting a multi-year plan and delivering against it
-- Used to influencing and driving change at the Executive level
 
 ## Senior Director, Talent, Development & Management
 

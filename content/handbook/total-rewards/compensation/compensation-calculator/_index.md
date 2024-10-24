@@ -26,15 +26,15 @@ For any questions relating to the compensation calculator, reach out to [Total R
 
 ## The Compensation Calculator
 
-As a natural extension of the [Compensation Principles]({{< ref "compensation#gitlabs-compensation-principles" >}}) and our commitment to transparency, sharing, efficiency, directness, and boring solutions (see our [values]({{< ref "values" >}})) we developed a Compensation Calculator.
+As a natural extension of the [Compensation Principles]({{< ref "compensation#gitlabs-compensation-principles" >}}) and our commitment to transparency, sharing, efficiency, directness, and boring solutions (see our [values](/handbook/values/)) we developed a Compensation Calculator.
 The compensation of executives and anyone on a quota is not set with the calculator. We use a Compensation Calculator because it helps us align compensation to our values:
 
-1. **Transparency** - The calculator is open to GitLab team members and candidates in the pipeline. This means that at the time of hiring, candidates don’t have to blindly negotiate compensation. They simply need to enter the individual inputs on the Compensation Calculator and it comes up with a band consistent with the individual’s circumstance - where they live, level, currency, etc. When team members move across levels, departments and locations during their time at GitLab, they’ll also be able to see the appropriate band for the change.
-1. **Efficient** - There’s no need to have multiple back-and-forth conversations between team members, managers, recruiters and the Total Rewards team. For hiring managers and recruiters, they simply use the Compensation Calculator for the roles they’re hiring for rather than having multiple approval levels and conversations. Similar with promotions and any other changes with locations, benchmarks, levels, team members and managers can discuss compensation according to the inputs on the Compensation Calculator rather than having negotiations.
+1. **Transparency** - The calculator is open to GitLab team members and candidates in the pipeline. This means that at the time of hiring, candidates don't have to blindly negotiate compensation. They simply need to enter the individual inputs on the Compensation Calculator and it comes up with a band consistent with the individual's circumstance - where they live, level, currency, etc. When team members move across levels, departments and locations during their time at GitLab, they'll also be able to see the appropriate band for the change.
+1. **Efficient** - There's no need to have multiple back-and-forth conversations between team members, managers, recruiters and the Total Rewards team. For hiring managers and recruiters, they simply use the Compensation Calculator for the roles they're hiring for rather than having multiple approval levels and conversations. Similar with promotions and any other changes with locations, benchmarks, levels, team members and managers can discuss compensation according to the inputs on the Compensation Calculator rather than having negotiations.
 1. **Diversity, Inclusion & Belonging** - People with the same attributes should earn the same. The Compensation Calculator reduces unconscious bias or giving higher pay to individuals who can negotiate better. The Compensation Calculator allows us to take a data-driven approach to compensation where there's fairness across all teams, levels and countries.
 1. **Collaboration** - Allows for team members to review the Compensation Calculator and have the Total Rewards team iterate based on the data and feedback we get from the team.
 1. **Iteration** - The Compensation Calculator gets reviewed when feedback is received and all inputs are reviewed during the Annual Compensation Review.
-1. **Results** - The Compensation Calculator helps us focus on our outputs rather than spending unnecessary time talking about and negotiating money. It shifts conversations and focus from ‘I want X money’ to looking at the training and mentorship necessary for our team members to increase within the range based on performance.
+1. **Results** - The Compensation Calculator helps us focus on our outputs rather than spending unnecessary time talking about and negotiating money. It shifts conversations and focus from 'I want X money' to looking at the training and mentorship necessary for our team members to increase within the range based on performance.
 
 ### Goals of the Compensation Calculator
 
@@ -54,7 +54,7 @@ Your compensation = [SF benchmark](#sf-benchmark) x [Location Factor](#location-
 
 The calculator will output the amount as `base + variable = total target cash (TTC)`
 
-Your options can be found on [stock options](/handbook/stock-options/) and benefits can be found on relevant [entity specific benefits pages]({{< ref "general-and-entity-benefits" >}}).
+Your options can be found on [stock options](/handbook/total-rewards/stock-options/) and benefits can be found on relevant [entity specific benefits pages]({{< ref "general-and-entity-benefits" >}}).
 
 The compensation calculator is updated in December and June with the proper exchange rate, keeping compensation levels in line with local purchasing power.
 
@@ -69,15 +69,15 @@ As with all things at GitLab, the compensation calculator is a constant work in 
 **If you are an internal GitLab team member or external to GitLab:**
 
 - Create an issue utilizing the issue templates.
-   - [Requesting a review of a new location factor.](https://gitlab.com/gitlab-com/people-group/total-rewards/-/blob/master/.gitlab/issue_templates/new_location_factor.md)
-   - [Requesting a review of an existing location factor.](https://gitlab.com/gitlab-com/people-group/total-rewards/-/blob/master/.gitlab/issue_templates/review_existing_location_factor.md)
-   - [Requesting a review of a benchmark.](https://gitlab.com/gitlab-com/people-group/total-rewards/-/blob/master/.gitlab/issue_templates/review_benchmark.md)
+  - [Requesting a review of a new location factor.](https://gitlab.com/gitlab-com/people-group/total-rewards/-/blob/master/.gitlab/issue_templates/new_location_factor.md)
+  - [Requesting a review of an existing location factor.](https://gitlab.com/gitlab-com/people-group/total-rewards/-/blob/master/.gitlab/issue_templates/review_existing_location_factor.md)
+  - [Requesting a review of a benchmark.](https://gitlab.com/gitlab-com/people-group/total-rewards/-/blob/master/.gitlab/issue_templates/review_benchmark.md)
 - Email total-rewards@domain for more personal inquiries.
 
 **If you prefer to remain anonymous:**
 
 - You can use the [Reporting a Compensation Discrepancy Form](https://forms.gle/tEmiwzYxCJqZhivF8).
-   - Providing an email is optional, but we will only reach out directly with any updates if an email is provided.
+  - Providing an email is optional, but we will only reach out directly with any updates if an email is provided.
 
 ### Rounding Best Practice
 
@@ -153,9 +153,9 @@ If any one, or a combination of, the following statistics is met, a benchmark re
   - It is important to ensure when we discuss compensation we have an idea of the candidate's expectations of total rewards which is inclusive of cash and equity for compensation.
 - A voluntary departure rate of 12% or more by current GitLab team members in any given department due to the reason of compensation.
 - Evidence of leading indicators of increased compensation, for example:
-   - Increased recruiter reachouts to a specific department or role.
-   - Government policy announcements related to a specific business sector.
-   - Engagement Survey Results.
+  - Increased recruiter reachouts to a specific department or role.
+  - Government policy announcements related to a specific business sector.
+  - Engagement Survey Results.
 
 **Timing of requests for benchmark adjustments:**
 
@@ -163,7 +163,7 @@ Requests to review a benchmark adjustment can be requested between Feb 1 and Oct
 
 **Summary of the process:**
 
-Once data has been collected, the Total Rewards team will review the compensation expectations. During this review, we will look at survey data and candidate expectations (specifically declines due to compensation) to recommend an adjustment to our SF benchmark and target percentile for the role. Total Rewards will coordinate with FP&A and the department leader to draft a business case to be presented to the egroup leader. The business case would include:
+Once data has been collected, the Total Rewards team will review the compensation expectations. During this review, we will look at survey data and candidate expectations (specifically declines due to compensation) to recommend an adjustment to our SF benchmark and target percentile for the role. Total Rewards will coordinate with FP&A and the department leader to draft a business case to be presented to the e-group leader. The business case would include:
 
 - A google sheet with market data, candidate expectations, and impact to the current team.
 - A google doc outlining the problem statement, what the department has already tried, and an overall proposal which clarifies the budgetary impact.
@@ -178,8 +178,8 @@ Once data has been collected, the Total Rewards team will review the compensatio
 1. The Total Rewards team will summarize and review the results of the benchmark review with the hiring manager and PBP, and propose a recommendation and next steps for the benchmark adjustment, including reaching out to Finance for budgetary impact.
 1. The Hiring Manager should discuss the results to the Department Head, ensuring approval to move forward with the final recommendation.
 1. Once the Department Head has approved, the FP&A team will review and approve and discuss any tradeoffs needed for the department.
-1. The Department Head would escalate the business case for approval to the EGroup Leader after approval from the Total Rewards and FP&A team.
-1. After approval from the EGroup Leader, the Department Head and PBP review and prepare adjustments and communications.
+1. The Department Head would escalate the business case for approval to the e-group Leader after approval from the Total Rewards and FP&A team.
+1. After approval from the e-group Leader, the Department Head and PBP review and prepare adjustments and communications.
 1. The Total Rewards team will update the [Compensation Calculator](https://comp-calculator.gitlab.net/users/sign_in) and all other appropriate documentation
 1. If applicable, team members are notified of a pay adjustment and related information.
 
@@ -188,7 +188,7 @@ Once data has been collected, the Total Rewards team will review the compensatio
 To automate the process of pulling survey data from Comptryx and Radford to review benchmarks, GitLab has mapped each job title with a corresponding job code. As a first iteration GitLab will use the job codes Radford has outlined. Each job family and level must have a unique job code. The following structure is used:
 
 - Radford Code to be used as job code.
-- If there is a duplicate Radford code, the job code in BambooHR will have a letter behind to differentiate (A, B, C, etc).
+- If there is a duplicate Radford code, the job code in Workday will have a letter behind to differentiate (A, B, C, etc).
 - If there is no job code, GitLab will generate a four digit unique job code starting with "N".
 
 For example:
@@ -295,7 +295,7 @@ The nomenclature can be adjusted for each job family to ensure the appropriate l
 
 GitLab job grades aid in mapping a role for internal equity with respect to cash and equity. For example, if there is a stock option update, this mapping can act as a reference to update the compensation calculator for the various roles to ensure alignment. Job Grades can also provide an alternative path to finding the current number of options offered without having to fill out the compensation calculator.
 
-#### Job Grades:
+#### Job Grades
 
 *Note: This table excludes Enterprise Sales, Commercial Sales, Channel Sales, and Sales Development. Grading can be seen in the table below.*
 
@@ -315,7 +315,7 @@ GitLab job grades aid in mapping a role for internal equity with respect to cash
 
 Dual career tracks can be added to each job family (regardless of division) when supported by data. Each individual contributor level above senior (grade 7) will have links to market examples of that level in the relevant section of the job family.
 
-##### Sales/Sales Development:
+##### Sales/Sales Development
 
 | Grade    | Management      | Individual Contributor          |
 |-------|-----------------|---------------------------------|
@@ -330,8 +330,9 @@ Dual career tracks can be added to each job family (regardless of division) when
 | 6            |                 | SMB                            |
 | 5            |                 | SDR/BDR  |
 
-##### Customer Success:
+##### Customer Success
 
+<!-- vale handbook.Repetition = NO -->
 | Grade    | Management       | Individual Contributor    |
 |-------|------------------|---------------------------|
 | 15    | CEO              |                           |
@@ -345,6 +346,7 @@ Dual career tracks can be added to each job family (regardless of division) when
 | 6            |                  | Intermediate              |
 | 5            |                  | Junior                    |
 | 4            |                  | Intern                    |
+<!-- vale handbook.Repetition = YES -->
 
 ## Compa Ratio
 

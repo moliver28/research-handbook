@@ -1,5 +1,4 @@
 ---
-
 title: How to Perform CMOC Duties
 category: On-call
 description: "Describes the role and responsibilities for the Incident CMOC rotation in Support Engineering"
@@ -178,6 +177,8 @@ A better response would be to assume that an action was requested, relay your in
 
 You can create an incident directly through the `status.io` website **OR** through Slack (provided by Woodhouse). It is recommended to use the `status.io` website directly as it permits further customization of the incident beyond what the Slack form allows. It is also easier to confirm that the incident was created properly when using the `status.io` website.
 
+If the incident is related to GitLab Duo features, please review [GitLab Duo Special Handling](#gitlab-duo-special-handling)
+
 #### Create Through Status.io
 
 To create an incident through Status.io click the `New Incident` button from the main dashboard:
@@ -308,16 +309,20 @@ Click the pencil next to `Affected Infrastructure`, check the boxes next to the 
 
 ![Change affected infrastructure](/images/support/cmoc_update_infra.png)
 
-#### Create Zendesk Tag
+#### Zendesk Tag
 
-In order to track tickets submitted through Zendesk that relate to an incident, we need to create a [tag](https://support.zendesk.com/hc/en-us/articles/4408888664474-About-tags). To create a tag:
+In order to track tickets submitted through Zendesk that relate to an incident, a zendesk tag is automatically added to all tickets that mention the incident issue.
+
+The tag is available for use on other tickets. All tags that relate to incidents are in the format `gitlab-com_gl-infra_production_issues_#####` with `#####` being the incident number, which can be found in the incident issue.
+
+For all other internal or confidential incidents (such as security related incidents), a manual tag can be created since we would not be sharing a public link in the public ticket response. To create a manual tag:
 
 1. Create or edit a ticket.
-1. Start typing the name of the new tag in the `Tags` field.
+1. Start typing the name of the new tag in the `Tags` field with a format of `com_incident_###`
 1. Hit `Enter`.
 1. Submit the ticket, either with a response included or not.
 
-The tag will now be available to use on other tickets. All tags that relate to incidents should be in the format `com_incident_####` with `####` being the incident number, which can be found in the incident issue.
+The tag will now be available to use on other tickets.
 
 #### Monitor Zendesk
 
@@ -462,6 +467,8 @@ If handover occurs during an active incident where the quick summary you'd provi
 
 While the CMOC Handover issue tracker is open to the public, the template [defaults to confidential](https://gitlab.com/gitlab-com/support/support-team-meta/-/issues/3504) in an effort to prevent accidental leakage of confidential information.
 
+If the CMOC is called to partipicate in a new or ongoing SIRT incident during the shift, at handover invite the ingress CMOC to any related confidential issues/slack channels.
+
 Contact requests opened during a shift should by default be assigned to the Support Engineer that created the ticket. It can be useful to mention the request for awareness of the next shift. However, it's not necessary to re-assign the contact request or continue to include it in subsequent handoffs unless action needs to be taken. In many cases, users don't respond to the contact request. You may want to consider re-assigning contact requests and handing it off to another shift if you intend to be OOO, for example.
 
 ## CMOC Training Resources
@@ -490,3 +497,9 @@ Some example training activities are:
 Practice events are meant to provide more experience for the person wanting to CMOC a real incident. They include a practice scenario that requires them to update the status page, communicate with the incident manager as well as provide more confidence.
 
 To start a CMOC Practice event ask your trainer or any support engineer to go to the [Support Team Meta issue tracker](https://gitlab.com/gitlab-com/support/support-team-meta/-/issues/new?issuable_template=CMOC%20Practice%20Event) and to create an issue with the [CMOC Practice Event](https://gitlab.com/gitlab-com/support/support-team-meta/-/blob/master/.gitlab/issue_templates/CMOC%20Practice%20Event.md) issue template.
+
+## GitLab Duo Special Handling
+
+As GitLab Duo features are under active development we have a special issue dedicated to tracking individual feature availability at https://gitlab.com/gitlab-com/gl-infra/production/-/issues/18352.
+
+In the event of an incident being declared for a GitLab Duo feature, verify that the incident issue is crosslinked with https://gitlab.com/gitlab-com/gl-infra/production/-/issues/18352.

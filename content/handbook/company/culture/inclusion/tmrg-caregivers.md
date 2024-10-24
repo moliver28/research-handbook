@@ -28,7 +28,7 @@ We have four main objectives for this TMRG:
 
 ## Mission
 
-“To build a community for parents, parents to be, caregivers, and family life allies that promotes the advancement, cultural awareness, and professional development of navigating the challenges of workplace and family life balance."
+"To build a community for parents, parents to be, caregivers, and family life allies that promotes the advancement, cultural awareness, and professional development of navigating the challenges of workplace and family life balance."
 
 ## Leads
 

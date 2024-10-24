@@ -1,6 +1,6 @@
 ---
 title: Technical Close Plan
-description: A Technical Close Plan is an internal strategy that Solutions Architects can use to secure a technical win for a given opportunity. It is built off the information in the Command Plan and expands on it by including the customer’s desired business outcomes, notional architectures of the current and proposed states, key stakeholders, and known risks. This strategy can also be a subset of the Opportunity Plan created by AEs or live on its own.
+description: A Technical Close Plan is an internal strategy that Solutions Architects can use to secure a technical win for a given opportunity. It is built off the information in the Command Plan and expands on it by including the customer's desired business outcomes, notional architectures of the current and proposed states, key stakeholders, and known risks. This strategy can also be a subset of the Opportunity Plan created by AEs or live on its own.
 ---
 
 ## Why Use a Technical Close Plan
@@ -29,7 +29,7 @@ SA Managers have discretion for additional opportunities to be included or exclu
 
 A Technical Close Plan is primarily focused on opportunity rigor by capturing customer business outcomes and a plan to meet their needs, whereas a Customer Success Plan is primarily focused on successful customer adoption of GitLab after successfully evaluating GitLab against their needs.
 
-As both are customer-centric, the Technical Close Plan can and should feed into a Customer Success Plan. See [Converting to a Customer Success Plan](#converting-to-a-customer-success-plan) for more information.
+As both are customer-centric, the Technical Close Plan can and should feed into a Customer Success Plan. See [Converting to a Customer Success Plan](/handbook/solutions-architects/sa-practices/customer-success-plan/#how-does-this-differ-from-a-technical-close-plan) for more information.
 
 ![Sales Process](sales-process.png)
 
@@ -44,6 +44,7 @@ This [Google Drive Folder](https://drive.google.com/drive/folders/1nQaUD5l05eTN5
 The specific structure of a Technical Close Plan is not as relevant as the content and conversation.
 
 The primary focus areas should include:
+
 - [Business Outcomes](#business-outcomes) that describe what is valuable to the customer, using their terminology
 - [Key Stakeholders](#key-stakeholders) and how they align to the opportunity
 - [Notional Architecture](#notional-architecture) for the current and proposed state
@@ -56,11 +57,11 @@ Most Technical Close Plans should address all of the areas listed above. If the 
 
 As succintly as possible, describe the customer's critical business needs and outcomes. Focus on the customer rather than what GitLab provides. How does the customer plan to drive more revenue? What are their operational efficiency goals? What risks do they need to mitigate?
 
-When trying to connect the dots between lower-level customer goals and their broader initiatives that likely align to GitLab’s [value drivers](/handbook/sales/command-of-the-message/#customer-value-drivers), consider an Outcome Mapping exercise.
+When trying to connect the dots between lower-level customer goals and their broader initiatives that likely align to GitLab's [value drivers](/handbook/sales/command-of-the-message/#customer-value-drivers), consider an Outcome Mapping exercise.
 
 #### Key Stakeholders
 
-Either within the Business Outcomes section or in its own section, call out the key stakeholders whom have been involved or need to be. It’s important to map existing relationships and note aspects of the relationship or about the individual. Identify gaps to call out where to branch out and meet other members or functions within the organization. Examples of responsibilities could align to their role at the company or could include GitLab's perspective of a Champion, Influencer, Buyer, and Tech Champion.
+Either within the Business Outcomes section or in its own section, call out the key stakeholders whom have been involved or need to be. It's important to map existing relationships and note aspects of the relationship or about the individual. Identify gaps to call out where to branch out and meet other members or functions within the organization. Examples of responsibilities could align to their role at the company or could include GitLab's perspective of a Champion, Influencer, Buyer, and Tech Champion.
 
 #### Notional Architecture
 
@@ -73,6 +74,7 @@ Both notional architectures should reflect the customer's environment and how th
 ##### Current State
 
 A critical step in showing trust and empathy is knowing the current state of a customer. Capture the relevant information for their use case and their painpoints, which may include:
+
 - The value stream of a typical team showing issues like long vulnerability time to remediation
 - The typical application pipeline steps, or path to production, which includes inefficiencies or delays in releasing software
 - The different SDLC/DevOps/DevSecOps tools, how and when they're used, and how they're integrated, which show how developers need to context switch or operators manage many tools and integrations
@@ -83,6 +85,7 @@ Regardless of the focus for the current state notional architecture, the struggl
 ##### Proposed / Future State
 
 The proposed or future state notional architecture should be a deliberate contrast to the current state, and obviously highlight the outcomes the customer would realize if they adopted the recommendation. Some examples include:
+
 - Changing their value stream to identify a vulnerability at the point of change
 - A parallelized pipeline with a fail-fast mentality
 - Consolidated tooling that simplifies operations, reduces cognitive load, and enables reporting
@@ -114,10 +117,29 @@ If there are several opportunities relevant to the plan, each can point to the s
 
 Since the Technical Close Plan is used to progress a technical evaluation, the scope and definition could be fluid. It's important to regularly review the plan during 1:1s, account plans, and opportunity consults.
 
-## Converting to a Customer Success Plan
+### Peer Reviews
 
-In many instances, the Technical Close Plan can be used as-is for a Customer Success Plan, where the only real difference is the timing.
+To further foster SA collaboration and drive efficient results, SAs should regularly provide and solicit feedback on their Technical Close Plans to their peers. Anyone is empowered to provide insights that might improve upon a given Technical Close Plan. 
 
-In other cases, there may be additional adoption information to capture, like other known tools, migration plan, adoption plan, adoption risks, etc.
+Feedback is best provided directly in the Technical Close Plan in the form of comments, but other alternatives like synchronous meetings, Slack messasges, MRs, etc. are also appropriate. 
 
-There also may be parts of the original Technical Close Plan that are no longer relevant to share with the customer, like internal relationship notes, sales or GitLab terminology, or mitigated risks.
+### Technical Close Plan Review
+
+On occassion, a formal Technical Close Plan Review may help validate direction or further progress a deal. 
+
+The audience should be small - focused on the account team that has the context, the SA Leader, and a guest reviewer. Staff+ SAs are ideal guest reviewers given their broad background and perspectives that could be shared with account teams. 
+
+The SA should have the Technical Close Plan in what they consider a reviewable state 2 days prior to the scheduled review. Being a living document, a reviewable state will different opportunity to opportunity. All participants should come to the review having read the Technical Close Plan, in order to save time, spark questions, and focus the conversation.
+
+**Recommended Audience:** Account Team, SA Leader, Guest Reviewer (Staff+ SA)
+
+**Recommended Duration:** 1 hour
+
+**Recommended Agenda:**
+
+1. SA Leader: Setup
+1. SA: TCP Overview (uninterrupted for at least 5 minutes)
+1. All: Clarifying questions around Strengths, Gaps, and Actions
+    1. Strengths
+    1. Gaps
+    1. Actions

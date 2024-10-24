@@ -73,7 +73,7 @@ be referred to in the [terminology table](/handbook/support/license-and-renewals
 **Subscription** is a term used to explain the purchase of a specific tier of features for a set
 amount of time. There are two factors that comprise a subscription:
 
-- **SaaS** or **Self-Managed**, which defines where the subscription is ‘applied’.
+- **SaaS** or **Self-Managed**, which defines where the subscription is 'applied'.
 **GitLab Dedicated** is considered as Self-Managed for the purposes of how it is applied.
 - The **Tier**, providing access to different features. This includes **Premium** or **Ultimate**.
 
@@ -96,7 +96,7 @@ are rare and require an internal request and Sales VP approval.
 A **Namespace** is a top-level group where users can collaborate in subgroups and projects, and is
 considered a separate entity from other namespaces. SaaS customers purchase a subscription for a
 namespace, which means the namespace has access to their purchased tier of features, such as
-Premium or Ultimate. For example, company: `“Example Corporation”` has a namespace located
+Premium or Ultimate. For example, company: `"Example Corporation"` has a namespace located
 at: `gitlab.com/example-co`:
 
 - All subgroups (`gitlab.com/example-co/marketing`) and projects
@@ -142,9 +142,9 @@ as part of their subscription, which refresh every month:
 - Ultimate: `50,000`
 
 Units **are not a 1-to-1 translation of minutes** and are subject to
-[cost factors](https://docs.gitlab.com/ee/ci/pipelines/cicd_minutes.html#cost-factor),
-including [the type of Runner being used](https://docs.gitlab.com/ee/ci/pipelines/cicd_minutes.html#additional-costs-on-gitlab-saas)
-in a pipeline. A customer [can purchase additional units](https://docs.gitlab.com/ee/ci/pipelines/cicd_minutes.html#purchase-additional-cicd-minutes)
+[cost factors](https://docs.gitlab.com/ee/ci/pipelines/compute_minutes.html#cost-factor),
+including [the type of Runner being used](https://docs.gitlab.com/ee/ci/pipelines/compute_minutes.html#additional-costs-on-gitlab-saas)
+in a pipeline. A customer [can purchase additional units](https://docs.gitlab.com/ee/ci/pipelines/compute_minutes.html#purchase-additional-cicd-minutes)
 at any time.
 
 #### Storage and Transfer
@@ -226,9 +226,9 @@ channel in Slack. This ensures:
 > - Increased visibility in queries and shared knowledge
 > - Increased cohesion in the L&R team regardless of region
 
-At the commencement of the APAC region's Support Hours (23:00 UTC) there is a
-[Daily Stand-up Bot for Licensing and Renewals in APAC](/handbook/support/support-global-groups/#daily-stand-up-bot-for-licensing-and-renewals-in-apac)
-post which tags all Support Engineers who have some responsibility for L&R
+At the start of the APAC region's Support Hours (23:00 UTC) the
+[Support Daily Slackbot](https://gitlab.com/gitlab-com/support/toolbox/support-daily-slackbot)
+post that tags all APAC Support Engineers who have some responsibility for L&R
 tickets. This thread notifies the team of who is away for the current week, and
 allows team members to provide updates to each other about when they're working
 on the queue. This helps ensure coverage reliability of the L&R tickets across
@@ -236,8 +236,8 @@ the APAC region's support hours.
 
 #### Zuora
 
-Zuora is considered the [single source of truth](/handbook/handbook-usage/#single-source-of-truth)
-or [system of record](/handbook/handbook-usage/#system-of-record)
+Zuora is considered the [single source of truth](/handbook/about/handbook-usage/#single-source-of-truth)
+or [system of record](/handbook/about/handbook-usage/#system-of-record)
 for many subscription and renewal-related items, such as product SKUs,
 subscriptions and invoices. See the
 [Transition to Zuora as the SSOT issue](https://gitlab.com/groups/gitlab-org/-/epics/4664)
@@ -290,10 +290,10 @@ stage, we can see that the team owns responsibilities that align with some of
 the types of requests we generally see in the queue, in particular the
 `Conversion` group.
 
-- Activation Group: [New Group Namespace Verify Stage Adoption Rate](/handbook/product/performance-indicators/#new-group-namespace-verify-stage-adoption-rate)
-- Adoption Group: [New Group Namespace Create Stage Adoption Rate](/handbook/product/performance-indicators/#new-group-namespace-create-stage-adoption-rate)
-- Expansion Group: [New Group Namespace with at least two users added](/handbook/product/performance-indicators/#new-group-namespace-with-at-least-two-users-added)
-- Conversion Group:[New Group Namespace Trial to Paid Conversion Rate](/handbook/product/performance-indicators/#new-group-namespace-trial-to-paid-conversion-rate)
+- Activation Group: [New Group Namespace Verify Stage Adoption Rate](https://internal.gitlab.com/handbook/company/performance-indicators/product/#new-group-namespace-verify-stage-adoption-rate)
+- Adoption Group: [New Group Namespace Create Stage Adoption Rate](https://internal.gitlab.com/handbook/company/performance-indicators/product/#new-group-namespace-create-stage-adoption-rate)
+- Expansion Group: [New Group Namespace with at least two users added](https://internal.gitlab.com/handbook/company/performance-indicators/product/#new-group-namespace-with-at-least-two-users-added)
+- Conversion Group:[New Group Namespace Trial to Paid Conversion Rate](https://internal.gitlab.com/handbook/company/performance-indicators/product/#new-group-namespace-trial-to-paid-conversion-rate)
 
 ## What is **not in the scope** of L&R work in Support?
 

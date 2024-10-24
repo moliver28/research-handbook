@@ -8,22 +8,22 @@ Here at GitLab we use [Culture Amp](https://www.cultureamp.com/?_gl=1*1gyk1qk*_u
 
 ## People Analytics and Surveys
 
-The People Analytics team can provide support with surveys that are needed by stakeholders. The purpose of the survey should be decided by the requester and the People Analytics team will support the administration (survey creation, design and reporting) in Culture Amp. Below is an overview of the decisions that will need to be made when setting up the survey.  
+The People Analytics team can provide support with surveys that are needed by stakeholders. The purpose of the survey should be decided by the requester and the People Analytics team will support the administration (survey creation, design and reporting) in Culture Amp. Below is an overview of the decisions that will need to be made when setting up the survey.
 
 ### Participants
 
-The requester is to provide a list of participants to receive the survey. This can be a file with the participants or it can be criteria that is used to create a list. Since we have an integration between Workday and Culture Amp ([handbook page](https://handbook.gitlab.com/handbook/people-group/tech-stack-guide-workday/#system-diagrams)), only employees in Workday whose information is sent to Culture Amp can be selected to participate in our employee surveys. At the moment, this will exclude and contactors who are not in Workday.  
+The requester is to provide a list of participants to receive the survey. This can be a file with the participants or it can be criteria that is used to create a list. Since we have an integration between Workday and Culture Amp ([handbook page](/handbook/people-group/tech-stack-guide-workday/#system-diagrams)), only employees in Workday whose information is sent to Culture Amp can be selected to participate in our employee surveys. At the moment, this will exclude and contactors who are not in Workday.
 
 An example of criteria is `hire_date`. We often filter our engagement surveys by date of hire, so if an employee is hired after a specified date, they would be excluded from the survey.
 
 ### Question Review
 
-As part of the survey creation process, questions to be asked will be provided to the People Analytics team. The team can provide additional review of the questions to ensure they are designed according to [best practices](https://ssw.umich.edu/sites/default/files/documents/events/peg/survey-design.pdf).  
+As part of the survey creation process, questions to be asked will be provided to the People Analytics team. The team can provide additional review of the questions to ensure they are designed according to [best practices](https://ssw.umich.edu/sites/default/files/documents/events/peg/survey-design.pdf).
 
-Only a few types of questions are available within Culture Amp. Below are the types available:  
+Only a few types of questions are available within Culture Amp. Below are the types available:
 
-- Rating Scale - This is the most common type of question participants answer with employee surveys. The are typically asking your level of agreement with a given statement. There are several scale options available to choose from.  
-- Select - This is a multiple choice question where a user can make only 1 or multiple selections from the list of possible answers.  
+- Rating Scale - This is the most common type of question participants answer with employee surveys. The are typically asking your level of agreement with a given statement. There are several scale options available to choose from.
+- Select - This is a multiple choice question where a user can make only 1 or multiple selections from the list of possible answers.
 - Free Text - This is an open-ended question where the respondent can give as much or as little feedback as they'd like for a response.
 
 ### Constructs and/or Factors
@@ -32,21 +32,21 @@ When creating a survey, the creator typically wants to understand sentiment arou
 
 ### Communications Language
 
-There are standard communications that are provided by Culture Amp for their survey notifications. These communications can be modified and, if this is to be done, it is best if the survey requesters submit the language they would like used along with their request.  
+There are standard communications that are provided by Culture Amp for their survey notifications. These communications can be modified and, if this is to be done, it is best if the survey requesters submit the language they would like used along with their request.
 
-When thinking about the language it may be helpful to note the types of communications (listed below) to be sent from Culture Amp:  
+When thinking about the language it may be helpful to note the types of communications (listed below) to be sent from Culture Amp:
 
 #### Email Communications
 
-- Email Invitation - Initial invitiation with unique link to survey.  
+- Email Invitation - Initial invitiation with unique link to survey.
 - Email Reminder 1 - First reminder sent to those who have not completed the survey.
-- Email Reminder 2 - Final reminder sent to those who have not completed the survey.  
+- Email Reminder 2 - Final reminder sent to those who have not completed the survey.
 
 #### Slack Communications
 
 - Slack Invitation - Similar to email, but much shorter message using [Slack formatting](https://api.slack.com/reference/surfaces/formatting).
-- Slack Reminder 1 - First reminder in Slack to those who have not completed the survey.  
-- Slack Reminder 2 - Final reminder in Slack to those who have not completed the survey.  
+- Slack Reminder 1 - First reminder in Slack to those who have not completed the survey.
+- Slack Reminder 2 - Final reminder in Slack to those who have not completed the survey.
 
 ### Reports
 
@@ -62,4 +62,4 @@ Demographics are used to filter reports for surveys or to build the criteria for
 
 ### Launch Plan
 
-Every survey in Culture Amp comes with a `Launch Plan` that needs to be set up. The `Launch Plan` has a summary of all the above items for additional review and also has a `Launch Schedule`. The `Launch Schedule` consists of the dates the survey will open and close. The open date is also the date the survey will be sent to the participants. The additional items to schedul are the first and final reminders. These will be sent only to those who have not completed the survey on the given date and will be sent via email and Slack, with the pre-determined communcation language. The requester will be asked to give a `Launch Plan` schedule in the issue request.  
+Every survey in Culture Amp comes with a `Launch Plan` that needs to be set up. The `Launch Plan` has a summary of all the above items for additional review and also has a `Launch Schedule`. The `Launch Schedule` consists of the dates the survey will open and close. The open date is also the date the survey will be sent to the participants. The additional items to schedul are the first and final reminders. These will be sent only to those who have not completed the survey on the given date and will be sent via email and Slack, with the pre-determined communcation language. The requester will be asked to give a `Launch Plan` schedule in the issue request.

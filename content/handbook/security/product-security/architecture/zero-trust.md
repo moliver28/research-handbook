@@ -6,11 +6,12 @@ title: Zero Trust
 
 As part of raising that bar, GitLab is implementing Zero Trust, or the practice of  shifting access control from the perimeter of the org to the individuals, the assets and the endpoints. You can learn more about this strategy from the [Google BeyondCorp whitepaper: A New Approach to Enterprise Security](https://ai.google/research/pubs/pub43231).
 
-In our case, Zero Trust means that all devices trying to access an endpoint or asset within our GitLab environment will need to authenticate and be authorized. Because Zero Trust relies on dynamic, risk-based decisions, this also means that users must be authorized and validated: what department are they in, what role do they have, how sensitive is the data and the host that they are trying to access?  We’re at the beginning stages in our Zero Trust roadmap, but as we move along in the journey, we’ll document our lessons learned, process and progress in our [Security blog](https://about.gitlab.com/blog/categories/security/).
+In our case, Zero Trust means that all devices trying to access an endpoint or asset within our GitLab environment will need to authenticate and be authorized. Because Zero Trust relies on dynamic, risk-based decisions, this also means that users must be authorized and validated: what department are they in, what role do they have, how sensitive is the data and the host that they are trying to access?  We're at the beginning stages in our Zero Trust roadmap, but as we move along in the journey, we'll document our lessons learned, process and progress in our [Security blog](https://about.gitlab.com/blog/categories/security/).
 
 To learn more about the concept of Zero Trust and our roadmap for implementation, see this GitLab presentation from GoogleNext19: <https://www.youtube.com/watch?v=DrPiCBtaydM>
 
 You can also check out our [Zero Trust Networking (ZTN) blog series](https://about.gitlab.com/blog/tags.html#zero-trust) where we detail the ZTN implementation challenges we foresee ahead, some we've already managed to work through, and where we'll go from here:
+
 - Part one: [The evolution of Zero Trust](https://about.gitlab.com/blog/2019/04/01/evolution-of-zero-trust/)
 - Part two: [Zero Trust at GitLab: Problems, goals, and coming challenges](https://about.gitlab.com/blog/2019/08/09/zero-trust-at-gitlab-problems-goals-challenges)
 - Part three: [Zero Trust at GitLab: The data classification and infrastructure challenge](https://about.gitlab.com/blog/2019/08/21/zero-trust-at-gitlab-the-data-classification-and-infrastructure-challenge/)

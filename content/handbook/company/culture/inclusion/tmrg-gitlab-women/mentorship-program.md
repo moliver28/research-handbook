@@ -27,7 +27,7 @@ Don't take our word for it - check out what mentors and mentees at GitLab have t
 
 **From the Mentors**
 
-> I’ve been a Mentor throughout my career, the GitLab program is hands down the best experience I’ve had. Both Mentor and Mentee are provided with resources and guidance to ensure a successful connection.
+> I've been a Mentor throughout my career, the GitLab program is hands down the best experience I've had. Both Mentor and Mentee are provided with resources and guidance to ensure a successful connection.
 >
 > One of the elements I really enjoyed about this program was the opportunity to meaningfully connect with someone outside of my team - we both learned from each other!
 
@@ -44,19 +44,18 @@ Don't take our word for it - check out what mentors and mentees at GitLab have t
 
 ## Current Program Timeline
 
-Fill out [this Google form](https://docs.google.com/forms/d/e/1FAIpQLSf5yUA-H0RSeQSA8gj3_2mcdzZJkKLCsU-be-Ygdw5KfCSVLw/viewform?usp=sf_link) to be notified of mentorship programs happening in FY24!
+Fill out [this Google form](https://docs.google.com/forms/d/e/1FAIpQLSf5yUA-H0RSeQSA8gj3_2mcdzZJkKLCsU-be-Ygdw5KfCSVLw/viewform?usp=sf_link) to be notified of mentorship programs happening in FY25!
 
 | Date | Description | Related Resources |
 | ----- | ----- | ----- |
-| May 2023 | Discuss program details with Women's TMRG group meeting |  |
-| 2023-06-12  | Call for Mentors | Applications are currently closed. |
-| 2023-06-12 | Call for Mentees | Applications are currently closed. |
-| 2023-06-23  | Applications Close | |
-| 2023-06-30   | Pairing of mentor relationships complete and communicated to applicants | |
-| By 2023-07-14   | Pre-Program survey sent via Culture Amp | |
-| By 2023-07-14 | Mentor/Mentee pre-program coffee chats | |
-| 2023-07-12 and 2023-07-13  | Initial program Kickoff meeting |
-| Week of 2023-11-30 | End of program feedback due |  |
+| 2024-09-23  | Call for Mentors |  |
+| 2024-09-23 | Call for Mentees |  |
+| 2024-10-06  | Applications Close | |
+| 2024-10-30   | Pairing of mentor relationships complete and communicated to applicants | |
+| By 2024-11-04   | Pre-Program survey sent via Culture Amp | |
+| By 2024-11-14 | Mentor/Mentee pre-program coffee chats | |
+| TBA  | Initial program Kickoff meeting |  |
+| Week of 2025-02-01 | End of program feedback due |  |
 
 ## Being a Mentor
 
@@ -162,7 +161,6 @@ All mentee impacts trended upwards post program, with the greatest impact being 
 
 **Summary:** The experience of a mentee has an overall favorable rating, and positively impacts mentees knowledge of growth resources, support network, and personal vision.
 
-
 **Mentor Results**
 
 Both mentor impacts trended sligntly downward. Survey participation went from 91% to 67% pre to post.
@@ -173,7 +171,6 @@ Both mentor impacts trended sligntly downward. Survey participation went from 91
 | I am confident in my ability to support others towards achieving their goals. | Favorable, -2 |
 
 **Summary:** The experience of a mentor has an overall favorable rating, with negligible impact on mentors relationships outside their department and confidence in supporting others towards their goals.
-
 
 ### 2022
 

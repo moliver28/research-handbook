@@ -17,7 +17,7 @@ An easy way of cleaning up the HTML DOM output is by using a javascript bookmark
 1. Paste the following code snippet into the URL input box
 
 ```javascript
-javascript:(function(){document.getElementById('ccs').remove();document.getElementById('fields').remove();document.getElementById('custom_fields').remove();const list=document.querySelectorAll('#comments > .comment');for(let item of list){const commentChildren=item.children;const mastElement=[].filter.call(commentChildren,element=>[].includes.call(element.classList,'mast'))[0];const mastChildren=mastElement.children;const internalNoteElement=[].filter.call(mastChildren,element=>[].includes.call(element.classList,'internal_note'))[0];if(typeof internalNoteElement!=='undefined'){item.remove()}}})();
+javascript:(function(){null!==document.getElementById("ccs")&&document.getElementById("ccs").remove(),null!==document.getElementById("fields")&&document.getElementById("fields").remove(),null!==document.getElementById("custom_fields")&&document.getElementById("custom_fields").remove();const list=document.querySelectorAll("#comments > .comment");for(let item of list){let e=item.children,l=[].filter.call(e,e=>[].includes.call(e.classList,"mast"))[0],t=l.children,s=[].filter.call(t,e=>[].includes.call(e.classList,"internal_note"))[0];void 0!==s&&item.remove()}})();
 ```
 
 To use the bookmarklet, go to any ticket and click `Print ticket`. That will bring you to a new page with the print dialog opened. Cancel the print dialog and click the `Remove Zendesk Internal Notes` bookmark to remove the internal notes. Please verify that the content you want removed has been actually removed. You can then print to paper or save as a PDF
@@ -26,12 +26,18 @@ To use the bookmarklet, go to any ticket and click `Print ticket`. That will bri
 
 ```javascript
 javascript:(function(){
-    // Remove the cc section
-    document.getElementById('ccs').remove();
+    // Remove the cc 
+    if (document.getElementById('ccs') !== null) {
+        document.getElementById('ccs').remove();
+    }
     // Remove the fields section
-    document.getElementById('fields').remove();
+    if (document.getElementById('fields') !== null) {
+        document.getElementById('fields').remove();
+    }
     // Remove the custom fields section
-    document.getElementById('custom_fields').remove();
+    if (document.getElementById('custom_fields') !== null) {
+        document.getElementById('custom_fields').remove();
+    }
     // Select all comments
     const list = document.querySelectorAll('#comments > .comment');
     for (let item of list) {

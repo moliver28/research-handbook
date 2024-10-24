@@ -105,6 +105,7 @@ After enough participants have been recruited and scheduled, it is time to condu
 To help streamline data intake during interviews, you may use this [Persona Interview template (Google Form)](https://docs.google.com/forms/d/1o6Hn7fmnHQFW8hMZf7_HL3VHT02VI3rlUzhbsy-sTXg/copy) as a script and tool to fill in participant responses.
 
 To conduct these interviews:
+
 1. Create a new research issue for tracking your interviews and results.
     1. Use the [User Persona - External Interviews Script (Google Form template)](https://docs.google.com/forms/d/1o6Hn7fmnHQFW8hMZf7_HL3VHT02VI3rlUzhbsy-sTXg/copy) with your data from previous research. Use the form element as a method to read your script while recording the participant's responses.
     1. Link your Google Sheet in your issue.
@@ -122,11 +123,9 @@ If you are using the [Google Form template](https://docs.google.com/forms/d/1LkB
 
 For all open-ended questions, you first have to transform the qualitative data into something easier to understand. Do this by clustering responses into themes and tallying the counts of all themes. An example of this can be found in the table below:
 
-
-|                                Question asked                                |                                               Participant’s answer                                              |        Themes        |
+|                                Question asked                                |                                               Participant's answer                                              |        Themes        |
 |:----------------------------------------------------------------------------:|:---------------------------------------------------------------------------------------------------------------:|:--------------------:|
-| What obstacles do you face when trying to accomplish the goals for your job? | Sometimes when I don’t see that a coworker has sent a merge request, it can take a while for me to approve it.  | Missed communication |
-
+| What obstacles do you face when trying to accomplish the goals for your job? | Sometimes when I don't see that a coworker has sent a merge request, it can take a while for me to approve it.  | Missed communication |
 
 For all close-ended questions, document the number of times each answer was given across all participants for each question to identify trends.
 
@@ -136,7 +135,6 @@ Once you have all answers counted, look at how many participants answered each q
 |------------------------------------------------------------------|---------------------------------------------------------|
 | 50% or more of participants selecting a small handful of answers | **Answer A: 60%** <br>Answer B: 20% <br>Answer C: 10% <br>Answer D: 10% |
 | A large drop off in certain answers compared to others           | **Answer A: 40%** <br>**Answer B: 40%** <br>Answer C: 10% <br>Answer D: 10% |
-
 
 #### B) Compare Results
 
@@ -175,7 +173,7 @@ Personas that were originally independent from one another may become less disti
 
 ### How many personas should be used within a company? How many is too many?
 
-There is no “correct” number of personas that a company should have. In general, personas should be distinct enough from one another, so that one persona is not easily mistaken for another. The more personas you have, the greater the chance that team members will not remember distinct information about them. A simple way to determine the number of personas within a company is to identify the most important user groups that you want to target with your product and create personas based on those groups.
+There is no "correct" number of personas that a company should have. In general, personas should be distinct enough from one another, so that one persona is not easily mistaken for another. The more personas you have, the greater the chance that team members will not remember distinct information about them. A simple way to determine the number of personas within a company is to identify the most important user groups that you want to target with your product and create personas based on those groups.
 
 ### Is a broader persona better or worse than a detailed one?
 

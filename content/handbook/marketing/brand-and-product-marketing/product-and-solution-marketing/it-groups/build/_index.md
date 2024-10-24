@@ -1,5 +1,4 @@
 ---
-
 title: "Build"
 ---
 ## Overview
@@ -33,16 +32,9 @@ Able to focus on innovation and solving business problems. Responsive to change 
 ## VP of Applications Critical challenges
 
 There are several critical challenges that application development leaders are facing.
+
 1. [Cycle time - how to improve velocity](/handbook/marketing/brand-and-product-marketing/product-and-solution-marketing/it-groups/build/cycle-time/)
 1. [How deliver secure Applications](/handbook/marketing/brand-and-product-marketing/product-and-solution-marketing/it-groups/build/secure-applications/)
 1. [How to navigate hybrid cloud and not lock in.](/handbook/marketing/brand-and-product-marketing/product-and-solution-marketing/it-groups/build/modernize/)
-
-
-
-
-
-
-
-
 
 -

@@ -1,5 +1,4 @@
 ---
-
 title: "The Infrastructure SaaS Platforms Project Management"
 ---
 
@@ -7,7 +6,7 @@ title: "The Infrastructure SaaS Platforms Project Management"
 
 We use GitLab epics and issues to communicate the progress and status of our work.
 The [SaaS Platforms epic](https://gitlab.com/groups/gitlab-com/-/epics/2115) is indexing the top level epic for each team, and links to active OKR's for a given quarter.
-All teams in SaaS Plaforms follow these guidelines so that it is easy for team-members to contribute to different projects if needed.
+All teams in SaaS Platforms follow these guidelines so that it is easy for team-members to contribute to different projects if needed.
 
 ### Projects are reviewed weekly in the Grand Review
 
@@ -16,19 +15,35 @@ All teams in SaaS Plaforms follow these guidelines so that it is easy for team-m
 1. Indicate any project blockers.
 2. Briefly highlight progress since the last update.
 3. Indicate planned next steps, or mitigations required to progress.
+
 This enables other engineers and other managers to have good information about projects in an asynchronous fashion.
 
 Completed epics should remain "Open" with the ~"workflow-infra::In Progress" label.
 Update the status block in the epic description to summarize the project and share the completed status.
 
+We use [automation](https://gitlab.com/gitlab-com/gl-infra/epic-issue-summaries/) to collect the status information into top-level epics for each group, and to gather status updates from epic notes.
+This automation runs several times each day, and can be triggered by [running the pipeline listed on the project page](https://gitlab.com/gitlab-com/gl-infra/epic-issue-summaries/-/pipeline_schedules).
+
+#### Status updates on project epics
+
+Comments are automatically generated on project epics to report status.
+To enable this functionality, please ensure the epic follows [these steps](https://gitlab.com/gitlab-com/gl-infra/epic-issue-summaries/-/blob/26295198fedcde8af09bf6b6abb22ed3acd52f07/README.md#child-epics).
+
 #### When a project is finished
 
-The epic should be left "Open" and retain the ~"workflow-infra::In Progress" label so that the project will still be listed for the next Platforms Grand Review.
-The DRI should update the status to be a description of the entire project.
-The closing status should highlight the original problem, a brief description of the changes made, and information about the impact of the project now that it is completed.
-Closing statuses are helpful when producing the end-of-year team summaries.
+1. The epic should be left "Open" and retain the ~"workflow-infra::In Progress" label so that the project will still be listed for the next Platforms Grand Review.
+1. The DRI is responsible for updating the epic description to ensure each section is up to date including the `Participants` section.
+1. The DRI creates the closing status (final status update) which includes:
+   1. The original problem
+   1. A brief description of the changes made
+   1. Information about the impact of the project now that it is completed
+   1. A link to the demo / walkthrough video
+   1. An instruction to direct the Grand Reviewers to close the epic
+   1. Emojis and / or shout-outs are also welcome but not required
 
 Completed epics will be reviewed, celebrated, updated to done, and closed in the next [`Platforms Grand Review`](https://www.youtube.com/playlist?list=PL05JrBw4t0KqDXSHdlUvPWHOj_Hw8JdQ1) (Playlist accessible using GitLab Unfiltered account).
+
+Note that closing statuses are helpful when producing the end-of-year team summaries.
 
 ## Epics
 
@@ -38,28 +53,22 @@ Epics must always have the following sections:
 - Directly responsible individuals (DRI) responsible for the project completion
 - Defined exit criteria
 - Issue admin section to provide the issue priority, labels and epic for quick actions
-- Development Log, containing the previous Status Updates and any other relevant infromation to log
+- Development Log, containing the previous Status Updates and any other relevant information to log
 - Status Update, with the latest status update of the Epic
 - Start date and estimated due date
 
 ### Sections format
 
-We use [automation](https://gitlab.com/gitlab-com/gl-infra/epic-issue-summaries/) that relies on the presence of following headings and structure in the Epic description:
+The DRI of the epic should be the assignee, and there should only be one assignee for an epic.
 
-#### DRI Section
-
-```
-### DRI
-
-@user
-```
+Use the following headings and structure in the Epic description:
 
 #### Participants Section
 
 This section is dynamic and includes people who are currently contributing to the Epic work.
 The DRI and the EM are responsible for updating the list of participants accordingly.
 
-```
+```markdown
 ### Participants
 
 - @participant1
@@ -67,31 +76,10 @@ The DRI and the EM are responsible for updating the list of participants accordi
 - @participantN
 ```
 
-#### Development Log
-
-This section contains the previous Status Updates. At least, it is updated everytime the DRI updates the Status Section.
-
-```
-### Development Log
-
-<details>
-
-<details>
-<summary>(Previous) Status YYYY-MM-DD</summary>
-
-
-</details>
-
-</details>
-```
-
 #### Status Section
 
-```
-### Status YYYY-MM-DD
-
-<Updates about the project at the YYYY-MM-DD>
-```
+The status section is generated automatically on sub-epics.
+See the section on [status updates on project epics](#status-updates-on-project-epics) for more info.
 
 ### Should this be an issue or an epic?
 
@@ -161,7 +149,7 @@ This was discussed on a [Scalability issue](https://gitlab.com/gitlab-com/gl-inf
 
 ### Labels in gitlab-org group
 
-Stage groups use [type labels](/handbook/engineering/metrics/#data-classification) to label merge requests in projects in the `gitlab-org` group.
+Stage groups use [type labels](/handbook/product/groups/product-analysis/engineering/dashboards/#data-classification) to label merge requests in projects in the `gitlab-org` group.
 If you need a stage group to perform work, it is best to apply the relevant stage group label when the issue is created.
 
 ## Issue Trackers
@@ -175,3 +163,22 @@ This is a list of the group issue trackers:
 | Production Engineering | [issue tracker](https://gitlab.com/gitlab-com/gl-infra/production-engineering/-/issues)|
 | Scalability | [issue tracker](https://gitlab.com/gitlab-com/gl-infra/scalability/-/issues) |
 
+### Triage Ops
+
+For labeling and bot notifications under [gitlab-com/gl-infra](https://gitlab.com/gitlab-com/gl-infra) we use [gitlab-triage](https://gitlab.com/gitlab-org/ruby/gems/gitlab-triage) and the [triage-ops](https://gitlab.com/gitlab-com/gl-infra/triage-ops/) project.
+For labeling, enforcing SLOs, and managing workflow labeling there are common policies that are set uniformly for projects in Infrastructure, Platform.
+For more information and how to add additional policies see [the project README.md](https://gitlab.com/gitlab-com/gl-infra/triage-ops/-/blob/master/README.md?ref_type=heads).
+
+## Retrospectives
+
+At the end of the quarter, or the completion of a large deliverable, teams should perform a retrospective to capture learnings.
+There is no set format for the retrospective though Engineering Managers should be aware of the [GitLab Retrospective Guidelines](/handbook/engineering/management/group-retrospectives/).
+The retrospective DRI identifies a list of actions which they consolidate in the Summary of Actions section in the issue description.
+
+Process to identify actions:
+
+1. Add a comment on each thread with Actions as the title of the comment (H3 level)
+1. Some threads may not require an action, you may want to state this explicitly at the end of the thread for transparency
+1. Below the Actions comment, add a suggestion on an action the team can take
+1. Ping the contributors to get a round of validation on the actions and potential refinement
+1. Create an issue for each action and list them in the Summary of Actions section

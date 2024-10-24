@@ -1,8 +1,8 @@
 ---
 title: Talent Acquisition Leadership
 ---
- 
-## Levels
+
+### Levels
 
 #### Associate Recruiting Manager
 
@@ -164,7 +164,6 @@ The Senior Director, Talent Acquisition is a [grade 11](/handbook/total-rewards/
 - Resourceful and takes initiative to seek internal and external resources when problem solving
 - Have implemented talent acquisition tools while delivering internal OKRs
 
-
 ### VP, Talent Acquisition
 
 The VP, Talent Acquisition reports to the [CPO](/job-families/people-group/chief-people-officer/).
@@ -202,7 +201,7 @@ The VP of Talent Acquisition is a [grade 12](/handbook/total-rewards/compensatio
 ## Performance Indicators
 
 - [Active Users with a Recruiting or Hiring Manager LinkedIn Seat](/#active-users-with-a-recruiting-or-hiring-manager-linkedin-seat--x)
-- [Average Location Factor](/handbook/people-group/people-group-metrics/#average-location-factor)
+- [Average Location Factor](/handbook/people-group/people-success-performance-indicators/#average-location-factor)
 - [Interviewee Satisfaction (ISAT)](/#interviewee-satisfaction-isat)
 - [Candidates Sourced by Talent Acquisition Department vs. Candidates Hired](/#candidates-sourced-by-talent-acquisition-department-vs-candidates-hired)
 - [Cost Per Hire](/#cost-per-hire)

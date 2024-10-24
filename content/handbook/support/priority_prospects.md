@@ -23,14 +23,14 @@ All general policies in [the statement of support](https://about.gitlab.com/supp
 - If the prospect converts to customer status, they will automatically get the proper support
 associated with their subscription purchase.
 
-
 The following support specialties are excluded from gratis support for prospects:
+
 - [emergency support](https://about.gitlab.com/support/#how-to-trigger-emergency-support)
 - [upgrade assistance](https://about.gitlab.com/support/scheduling-upgrade-assistance/)
 - migration assistance
 - architecture review
-- [namesquatting requests](https://about.gitlab.com/support/workflows/namesquatting_policy)
-- for [PoVs](https://about.gitlab.com/customer-success/solutions-architects/tools-and-resources/pov/), support is limited to resolving errors from a setup (and not the setup process itself)
+- [namesquatting requests](https://about.gitlab.com/support/gitlab-com-policies/#name-squatting-policy)
+- for [PoVs](/handbook/customer-success/solutions-architects/tools-and-resources/pov/), support is limited to resolving errors from a setup (and not the setup process itself)
 - All response times are reasonable effort, with an internal SLO of 24 hours.
 
 Limitations within Zendesk:

@@ -1,7 +1,6 @@
 ---
 title: "GitLab Token Management Standard"
 description: "This is the GitLab Token Management Standard. It defines approved GitLab token usage, and distribution for the purposes of providing authentication and authorization within various systems and subsystems used by GitLab."
-controlled_document: true
 ---
 
 ## Purpose
@@ -40,7 +39,7 @@ GitLab customers are responsible for managing their own accounts and tokens, sho
 
 ### Compliance and Certification Standards
 
-##### General Assumptions:
+#### General Assumptions
 
 - The standard is currently not fully implemented within the GitLab product, but will help guide future development to achieve the standard.
 - The standard meets all relevant compliance needs (e.g. FedRAMP requirements).
@@ -50,7 +49,7 @@ GitLab customers are responsible for managing their own accounts and tokens, sho
 
 ### Token and Account Management
 
-1. Due to the nature of the GitLab application, and the ability of a malicious actor that has access to a GitLab instance to cause damage to information contained in the instance, account type definitions are necessary. A GitLab instance has both privileged and non-privileged accounts within the application. This privilege level is independent of the general system wide account privilege level. GitLab application accounts are of the “Development” account type. To further differentiate within the “Development” account type there are privileged and non-privileged accounts. ((AC-2(a), AC-2(7) `*`).  Roles associated with tokens:
+1. Due to the nature of the GitLab application, and the ability of a malicious actor that has access to a GitLab instance to cause damage to information contained in the instance, account type definitions are necessary. A GitLab instance has both privileged and non-privileged accounts within the application. This privilege level is independent of the general system wide account privilege level. GitLab application accounts are of the "Development" account type. To further differentiate within the "Development" account type there are privileged and non-privileged accounts. ((AC-2(a), AC-2(7) `*`).  Roles associated with tokens:
 | Role | Privilege state |
 | ---- | --------------- |
 | Site Administrator [`**`](#references) | Privileged |
@@ -104,7 +103,9 @@ GitLab customers are responsible for managing their own accounts and tokens, sho
 ### Token Compromises
 
 1. Compromised tokens must be mitigated immediately. As compromised tokens can lead to various dangers such as disclosure of sensitive data, unauthorized access, and even privilege escalation in some cases, any compromise must be taken seriously. At GitLab the standard is for immediate revocation of the token followed by an investigation to assess potential impact. It is understood that immediate revocation of a compromised token may break existing access and automation. This impact is typically much smaller than the risk associated with a valid token being used by a malicious actor. As it is possible to automate some of the detection methods to assist in detecting a compromised token, these automated detection methods should also include the capability to automate the revocation as well.
-1. All methods, procedures, notifications, and automations for mitigating a compromised token need to be fully documented. At GitLab any changes to any processes need to be approved by the Security Department, specifically [SIRT]({{< ref "sirt" >}}). Major changes (e.g. potential impact to production) need to be communicated in advance to all relevant parties.
+1. All methods, procedures, notifications, and automations for mitigating a compromised token need to be fully documented. At GitLab any changes to any processes need to be approved by the Security Department, specifically [SIRT]({{< ref "sirt" >}}). Major changes to gitlab.com (e.g. potential impact to production) need to be communicated in advance to all relevant parties.
+
+1. GitLab will revoke any tokens identified as leaked to protect user accounts. After revocation, the token owner will receive an automatic notification informing them that their token has been revoked.
 
 ### Token Logging and Auditing
 
@@ -131,7 +132,7 @@ GitLab customers are responsible for managing their own accounts and tokens, sho
 
 ## Exceptions
 
-Exceptions to this policy will be tracked as per the [Information Security Policy Exception Management Process]({{< ref "_index.md#information-security-policy-exception-management-process" >}}) and currently, potential exceptions need the permission of Security Assurance.
+Exceptions to this policy will be tracked as per the [Information Security Policy Exception Management Process](/handbook/security/controlled-document-procedure/#exceptions) and currently, potential exceptions need the permission of Security Assurance.
 
 ## References
 

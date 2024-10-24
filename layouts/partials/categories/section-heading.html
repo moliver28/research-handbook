@@ -77,7 +77,7 @@
 {{- end }}
 {{- end }}
 
-{{- with $section_data.fullstack_engineering_manager }}
+{{- with $section_data.fullstack_managers }}
 {{- range (slice | append .) }}
 {{- with . }}
 {{- $fullstackManager =  append $fullstackManager ($team_data.Get . | default slice) }}
@@ -257,7 +257,7 @@
 {{- with $section_data.slack.channel }}
 <tr>
     <th>Slack Channel</th>
-    <td><a href="https://gitlab.slack.com/app_redirect?channel=#{{.}}"><i class="fa-brands fa-slack"></i> {{ . }}</a></td>
+    <td><a href="https://gitlab.slack.com/channels/{{.}}"><i class="fa-brands fa-slack"></i>#{{ . }}</a></td>
 </tr>
 {{- end }}
 {{- with $section_data.slack.alias }}
@@ -352,7 +352,7 @@
 {{- end }}
 {{- with $setTeam }}
 <tr>
-    <th>Software Engineering</th>
+    <th>Test Platform</th>
     <td>{{- range . -}}{{ partial "member/with-team-link" . -}}&nbsp;{{- end -}}</td>
 </tr>
 {{- end }}

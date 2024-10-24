@@ -1,12 +1,6 @@
 ---
-aliases: /handbook/engineering/infrastructure/core-platform/data_stores/database/doc/issue-group-search-partitioning.html
 title: Partitioning - Issue group search
 ---
-
-
-
-
-
 
 ## Database Partitioning: Issue group search
 
@@ -35,7 +29,7 @@ Based on this setup, we looked at two types of queries:
 
 Both cases are targeted towards a single group and are able to benefit from a partitioning scheme based on namespaces.
 
-##### Complex issue group search
+#### Complex issue group search
 
 Details and results for this query can be found [in the issue](https://gitlab.com/gitlab-org/gitlab/-/issues/201871#note_298222262). The properties of this example are:
 
@@ -49,7 +43,7 @@ The results are:
 
 The increase in planning time is expected and it pays off as long as execution time is significantly improved.
 
-##### Simple count query
+#### Simple count query
 
 Details and results for this query can be found [in the issue](https://gitlab.com/gitlab-org/gitlab/-/issues/201871#note_299684145). The properties of this example are:
 
@@ -103,7 +97,7 @@ All data for these graphs can be found in a [public sheet](https://docs.google.c
 2. It increases planning times for cases where most partitions get pruned. This is expected too and pays off when the subsequent execution time can be drastically reduced.
 3. We need to be careful with queries that don't have a partitioning key.
 
-##### Queries without a partitioning key
+#### Queries without a partitioning key
 
 Partitioning only works when queries contain a filter on the partitioning key. Only then the planner is able to exclude non-relevant partitions from the execution plan.
 
@@ -122,6 +116,7 @@ For example, finding issues assigned to a user doesn't come with a notion of a n
 ### Working page for PostgreSQL table partitioning
 
 Also see the [working page for Introducing PostgreSQL table partitioning to GitLab's database](/handbook/engineering/infrastructure/core-platform/data_stores/database/doc/partitioning.html)
-------
+
+---
 
 Author: [Andreas Brandl](https://gitlab.com/abrandl)

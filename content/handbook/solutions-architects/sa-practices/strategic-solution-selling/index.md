@@ -2,7 +2,6 @@
 title: Strategic Solution Selling
 ---
 
-
 This is a practice guide for a Solutions Architect (SA) to engage enterprises for driving a **strategic solution** during discovery and scoping stage, which can lead into the technical evaluation.
 
 A strategic solution is aimed to provide a customer the DevOps capabilities for delivering software better and faster with an organizational wide impact and aligned with the enterprise transformational intiatitives. The SA will assess and provide the solutioning as the right fit for the enterprise from the business and technical perspectives. The solution should aligne with the business outcomes that can be realized based on the DevOps roadmap vision. Further the solution can accelerate the customer's DevOps transformation at scale.
@@ -32,7 +31,7 @@ From the Solution Architecture point of view, it is important to identify the te
 
 ### Activities for SA to Consider
 
-Research and analysis of the opportunity are critical to identify the strategic direction of the “scoping” and “technical evaluation” stages which may require SA lead technical discovery. Technical discovery activity should provide advantageous knowledge to help navigate the conversations with the customer. This can be even more crucial for a new logo, where the relationship with the prospect has not been well established yet.
+Research and analysis of the opportunity are critical to identify the strategic direction of the "scoping" and "technical evaluation" stages which may require SA lead technical discovery. Technical discovery activity should provide advantageous knowledge to help navigate the conversations with the customer. This can be even more crucial for a new logo, where the relationship with the prospect has not been well established yet.
 
 Since these activities require extensive work, there needs to be pre quallification of the opportunity for the consideration based on the personas engaged and the size of the opportunity.
 
@@ -57,7 +56,7 @@ The following mind map provides an example of building the information about the
 
 The complete [example](https://drive.google.com/file/d/1Qy9bsMmBDqr5ZaMguGGVDwJ5-rkPyxb9/view?usp=sharing), was created based on the GitLab's customer and can be found with the above link for reference (accessible only internally).
 
-This [template](https://docs.google.com/presentation/d/1xilP8z7nYHJVa05qiBNFq2cEoq4HtKj-c-bbR0Y29JY/edit?usp=sharing) can be used by the account team to brainstorm. The brainstorming session between the SA and SAE helps with the alignments of the future stages of the sales process, specifically focusing on “discovery”, "scoping" and “technical evaluation”.
+This [template](https://docs.google.com/presentation/d/1xilP8z7nYHJVa05qiBNFq2cEoq4HtKj-c-bbR0Y29JY/edit?usp=sharing) can be used by the account team to brainstorm. The brainstorming session between the SA and SAE helps with the alignments of the future stages of the sales process, specifically focusing on "discovery", "scoping" and "technical evaluation".
 
 ### Example Discussion Areas
 
@@ -80,6 +79,7 @@ After the initial engagement and activities, asynchronous / synchronous collabor
 ## During Technical Discovery and Scoping
 
 Armed with the information synthesized, the initial set of calls or reviews with the customer can be oriented based on the personas engaged. The typical personas booked can be:
+
 - DevOps or platform engineers
 - App Dev team engineers
 - DevOps team manager to director:
@@ -90,6 +90,7 @@ For teams managing the DevOps tools such as DevOps or platform teams, listen to 
 For the app dev teams, understanding the challenges with tools and process and how they may present any issues for software delivery;
 
 During the call, listen and probe for the key information about:
+
 - pain points and challenges, or opportunties
 - what is the current solution and who owns it
 - assess if it is **transactional** to solve a specific problem or pain point with a limited scope and the users with a prescribed solution
@@ -102,12 +103,14 @@ SAE Driven Activities: setting the stage for the discovery with the meetings and
 SA Driven Activities: during the call, more prescriptive in assessing the conversation as **transactional** vs **strategic** solution.
 
 Activities driven by the SA + collaboration with the SAE
+
 - Map out the technical team structure and work with the SAE to expand the stakeholders for discussion if we agree on the pre qualification
 - Collaborate on the organizational priority + inject into the discussion for initiatives and changes that can drive the conversation beyond just tools / features
 
 #### Transactional based solutioning
 
 Not all calls will lead into the strategic solution selling and some of them will simply result in a transactional deal. For a more tactical and transaction based sell, here are some points to note:
+
 - Point Solution: a customers is looking for a small team solution or a single stage to address a specific problem and required to integrate to existing tools
 - Support: There is no sponsorship or initiative to investigate the bigger DevOps problem at a broader scope
 - Sentiment: Uncertain about the Platform approach where the indvidual or team is more focusing on a specific feature
@@ -115,6 +118,7 @@ Not all calls will lead into the strategic solution selling and some of them wil
 #### Signs to Drive Strategic Discussion for a Broad Solution
 
 The following aspects oultine a more strategic dialog for SA to lead and engage with the customer:
+
 - Appetite for process and structure re-alignment and change, such as
   - Agile process
   - Shift-left security
@@ -138,17 +142,20 @@ A SA can lead and identify required capabilities and solution framework upon the
 Capabilities for the DevOps platform should have been explored with the customers in these areas as example:
 
 **Developer Experience**
+
 - Code management with review and approval
 - Ownership and process from develop, release and operate
 - Team collaboration and transferable skills
 - Talent retaining
 
 **Governance and Compliance**
+
 - Regulatory mandate
 - Compliance and audits
 - Change control
 
 **Security**
+
 - Application security
 - Secure software development
 - Security posture and Cybersecurity exposure

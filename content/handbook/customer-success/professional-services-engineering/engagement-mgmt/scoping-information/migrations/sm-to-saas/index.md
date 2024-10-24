@@ -1,24 +1,15 @@
 ---
-aliases: /handbook/customer-success/professional-services-engineering/engagement-mgmt/scoping-information/migrations/SM-to-GitLab-com
 title: "Migrating from Self-Managed GitLab to GitLab.com"
 description: "Things to know when helping customers migrate to GitLab.com."
 ---
 
-
-
-
-
-
-
-# Migrating from Self-Managed GitLab to GitLab.com
-
 ## Options for customers migrating from self-managed GitLab to GitLab.com
 
- - Self-service [UI migration of groups and projects by direct transfer](https://docs.gitlab.com/ee/user/group/import/index.html#migrate-groups-by-direct-transfer-recommended). Please pay attention that migrating projects by direct transfer is a **Beta** feature. This is the recommended way to migrate groups and projects between GitLab instances within capabilities of GitLab application. We are working towards reaching General Availability for migrating projects by direct transfer.
- - Self-service API based [group or project migration by direct transfer](https://docs.gitlab.com/ee/api/bulk_imports.html).
- - Self-service UI based migration using [group import/export](https://docs.gitlab.com/ee/user/group/settings/import_export.html), however that has been deprecated. [Project import/export](https://docs.gitlab.com/ee/user/project/settings/import_export.html#project-importexport) is not deprecated.
- - API based migration using [group import/export api](https://docs.gitlab.com/ee/api/group_import_export.html) and [project import/export api](https://docs.gitlab.com/ee/api/project_import_export.html)
- - Professional services automated migration using the [Congregate Automation Tool](https://gitlab.com/gitlab-org/professional-services-automation/tools/migration/congregate)
+- Self-service [UI migration of groups and projects by direct transfer](https://docs.gitlab.com/ee/user/group/import/index.html#migrate-groups-by-direct-transfer-recommended). Please pay attention that migrating projects by direct transfer is a **Beta** feature. This is the recommended way to migrate groups and projects between GitLab instances within capabilities of GitLab application. We are working towards reaching General Availability for migrating projects by direct transfer.
+- Self-service API based [group or project migration by direct transfer](https://docs.gitlab.com/ee/api/bulk_imports.html).
+- Self-service UI based migration using [group import/export](https://docs.gitlab.com/ee/user/project/settings/import_export.html), however that has been deprecated. [Project import/export](https://docs.gitlab.com/ee/user/project/settings/import_export.html#project-importexport) is not deprecated.
+- API based migration using [group import/export api](https://docs.gitlab.com/ee/api/group_import_export.html) and [project import/export api](https://docs.gitlab.com/ee/api/project_import_export.html)
+- Professional services automated migration using the [Congregate Automation Tool](https://gitlab.com/gitlab-org/professional-services-automation/tools/migration/congregate)
 
 ## Why choose Professional Services for migrations to GitLab.com?
 

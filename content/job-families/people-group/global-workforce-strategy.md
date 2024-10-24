@@ -15,16 +15,16 @@ The Global Workforce Strategy Specialist is a [grade 6](/handbook/total-rewards/
 ## Responsibilities
 
 - Handling all country conversions from Contractor to Professional Employer Org or Professional Employer Org to Entity. This is a key focus globally in this position and includes collaboration with the overall international expansion team and various stakeholders.
-- Manage the full cycle of the relocation process and liaise with other teams as necessary (with support from People Associate team on contract and administrative changes).
-- Engage with co-employer’s and PEO's on a regular basis, especially during onboarding within those regions.
-- Managing all sponsorships requests, including for new hires and existing team members in the Netherlands (with support from People Associate team on contract and administrative changes).
+- Manage the full cycle of the relocation process and liaise with other teams as necessary (with support from the People Connect team on contract and administrative changes).
+- Engage with co-employer's and PEO's on a regular basis, especially during onboarding within those regions.
+- Managing all sponsorship requests, including for new hires and existing team members in the Netherlands (with support from People Associate team on contract and administrative changes).
 - Proactively identify new locations GitLab can successfully sponsor in and collaborate with internal stakeholders to ensure it is a viable business case.
-- Along with the Interational Expansion team, supporting setting up new entities globally.
+- Along with the International Expansion team, supporting setting up new entities globally.
 - Quarterly  overview and reporting on relocations
 - Quarterly overview and reporting on Country Conversions
 - The ability to work autonomously and to drive your own performance & development would be important in this role.
 - Continue to improve the engagement with our PEO's and team member experience.
-- Proactively identify process inefficiencies and inconsistencies and collaborate towards an improved and more productive process that improves the employee and/or manager’s experience.
+- Proactively identify process inefficiencies and inconsistencies and collaborate towards an improved and more productive process that improves the employee and/or manager's experience.
 - Announcing changes and improvements in the #whats-happening-at-gitlab Slack channel
 
 ## Requirements
@@ -48,19 +48,13 @@ The Global Workforce Strategy Specialist is a [grade 6](/handbook/total-rewards/
 - Experience at a growth-stage tech company is preferred.
 - Ability to use GitLab
 
-### Global Workforce Strategy Specialist Performance Indicators
-
-- [100% relocations within due date for eligible relocation requests, in alignment with the people business partners & total rewards](/handbook/people-group/people-success-performance-indicators/#complete-relocations-within-due-date-for-eligible-relocation-requests-in-alignment-with-the-people-business-partners--total-rewards)
-- [100% of country conversions are closed within due date](/handbook/people-group/people-success-performance-indicators/#country-conversions-completed-within-due-date)
-- [Increase the locations GitLab can offer work-sponsorship in by 2, in alignment with legal and tax](/handbook/people-group/people-success-performance-indicators/#increase-the-locations-gitlab-can-offer-work-sponsorship-in-alignment-with-legal-and-tax)
-
 ### Senior Global Workforce Strategy Program Manager
 
 The Senior Global Workforce Strategy Program Manager reports to the [Director, People Operations](/job-families/people-group/people-connect/).
 
 #### Job Grade
 
-The Senior Global Workforcce Strategy Program Manager is a [grade 7](/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades).
+The Senior Global Workforce Strategy Program Manager is a [grade 7](/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades).
 
 #### Senior Global Workforce Strategy Program Manager Responsibilities
 
@@ -70,14 +64,13 @@ The Senior Global Workforcce Strategy Program Manager is a [grade 7](/handbook/t
 - Advise on occuring country expansion requests and anticipate future needs for the program.
 - Contribute and develop documentation required to support the program needs and ensure country hiring lists and restrictions are accurate.
 - Partner with the Legal and Tax team on international employment and contractual reviews, changes and requirements.
-- Oversee and maintain relationships with co-employer’s and PEO’s on a regular basis.
+- Oversee and maintain relationships with co-employer's and PEO's on a regular basis.
 - Facilitate meetings related to international expansion and ensure key initiatives and roadmaps reflect changing needs. Participate in PEO vendor selection through RFP/RFI's, and ensure vendor QBR's are conducted.
-- Proactively identify process inefficiencies and inconsistencies and collaborate towards an improved and more productive process that improves the team member and/or manager’s experience.
+- Proactively identify process inefficiencies and inconsistencies and collaborate towards an improved and more productive process that improves the team member and/or manager's experience.
 - Act as a point of escalation for internal teams if items have not been addressed timely by PEO vendors.
 - Announce hiring restriction changes as needed across the organization.
 
-
-#### Senior Global Workforcce Strategy Program Manager Requirements
+#### Senior Global Workforce Strategy Program Manager Requirements
 
 - The ability to work autonomously and to drive your own performance and development.
 - Prior extensive experience in an International Expansion or within a Senior People Operations role.
@@ -89,12 +82,41 @@ The Senior Global Workforcce Strategy Program Manager is a [grade 7](/handbook/t
 - Exceptional customer service skills.The ability to work in a fast-paced environment and thrive in ambiguity.
 - Experience with the following tools is a plus: Greenhouse, Workday, GitLab and Culture Amp.
 
+### Staff Global Workforce Strategy Program Manager
 
-### Senior Global Workforce Strategy Program Manager Performance Indicators
+The Staff Global Workforce Strategy Program Manager reports to the [Director, People Operations](/job-families/people-group/people-connect/).
 
-- [100% relocations within due date for eligible relocation requests, in alignment with the people business partners & total rewards](/handbook/people-group/people-success-performance-indicators/#complete-relocations-within-due-date-for-eligible-relocation-requests-in-alignment-with-the-people-business-partners--total-rewards)
-- [100% of country conversions are closed within due date](/handbook/people-group/people-success-performance-indicators/#country-conversions-completed-within-due-date)
-- [Increase the locations GitLab can offer work-sponsorship in by 2, in alignment with legal and tax](/handbook/people-group/people-success-performance-indicators/#increase-the-locations-gitlab-can-offer-work-sponsorship-in-alignment-with-legal-and-tax)
+#### Job Grade
+
+The Staff Global Workforce Strategy Program Manager is a [grade 8](/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades).
+
+#### Staff Global Workforce Strategy Program Manager Responsibilities
+
+- Drive global workforce expansion strategy using evidence-based decision trees, coordinating with key cross-functional partners.
+- Act as subject matter expert regarding vendor processes, program, and policy knowledge to assist team members.
+- Responsible for ensuring excellent team member experience and compliance standards are met when discussing implementation in a new hiring location.
+- Influence the implementation of country specific offerings and services based on team member feedback.
+- Accountable for ensuring high-quality and accuracy of documentation to support the program needs and ensure country hiring lists and restrictions are accurate.
+- Partner with the Legal and Tax team on international employment and contractual reviews, changes and requirements.
+- Oversee the vendor for immigration questions and counsel while building self-service content regarding immigration questions/processes.
+- Makes independent judgment decisions regarding mobility questions and requests.
+- Serve as a trusted partner with various cross-functional teams to execute program initiatives and policies to scale. 
+- Independently manage the PEO vendor selection through RFP/RFI's, and ensure vendor QBR's are conducted.
+- Constantly identify process inefficiencies and inconsistencies and collaborate towards an improved and more productive process that improves the team member and/or manager’s experience.
+- Understand our broader People Team strategy and processes to architect, develop and implement scalable, flexible solutions that are extensible to our business needs.
+
+#### Staff Global Workforce Strategy Program Manager Requirements
+
+- The ability to work autonomously and to drive your own performance and development.
+- Prior extensive experience in an International Expansion or within a Senior People Operations role.
+- Understands HR laws and can translate requirements and drive the solutions in one or multiple countries where GitLab is active.
+- Strong analytical abilities to solve complex problems with strong attention to detail and organization skills.
+- Proficient in optimizing process and program with a keen understanding of the balance between structure and flexibility.
+- Ability to build effective work relationships at all levels of the organization.
+- Excellent written and verbal communication and presentation skills.
+- Excellent organizational skills with high attention to detail and the ability to prioritize.
+- Exceptional customer service skills.The ability to work in a fast-paced environment and thrive in ambiguity.
+- Experience with the following tools is a plus: Greenhouse, Workday, GitLab and Culture Amp.
 
 ## Career Ladder
 

@@ -5,11 +5,11 @@ description: "You can use your research objectives to create categories you can 
 
 ## Decide what kinds of insights to collect
 
-As you take notes, it’s easy to think that everything you hear and/or see is important, but this makes it extremely difficult to analyze the information across all your participants. You can use your research objectives to create categories you can reference as you take notes to make sure you are capturing the most salient information. Focus on the **need-to-know information**, not the **nice-to-know information**.
+As you take notes, it's easy to think that everything you hear and/or see is important, but this makes it extremely difficult to analyze the information across all your participants. You can use your research objectives to create categories you can reference as you take notes to make sure you are capturing the most salient information. Focus on the **need-to-know information**, not the **nice-to-know information**.
 
 ## Decide on a collection method
 
-Conducting user research often results in a pretty hefty amount of information. To stay organized throughout this process, spend some time upfront deciding how you’ll collect your notes. Using [Dovetail](/handbook/product/ux/dovetail/) will help consolidate your data as well as facilitates [highlighting and tagging content](/handbook/product/ux/dovetail/#tagging-data-in-dovetail). Doing this makes it easier for your team to collaborate by adding their own notes and observations, and collecting everything in a central place will keep things organized and consistent.
+Conducting user research often results in a pretty hefty amount of information. To stay organized throughout this process, spend some time upfront deciding how you'll collect your notes. Using [Dovetail](/handbook/product/ux/dovetail/) will help consolidate your data as well as facilitates [highlighting and tagging content](/handbook/product/ux/dovetail/#tagging-data-in-dovetail). Doing this makes it easier for your team to collaborate by adding their own notes and observations, and collecting everything in a central place will keep things organized and consistent.
 
 Here are some note-taking resources to use, in addition to Dovetail, depending on the type of study you're conducting:
 

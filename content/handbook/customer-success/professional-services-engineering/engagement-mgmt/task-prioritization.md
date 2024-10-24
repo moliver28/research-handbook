@@ -1,21 +1,14 @@
 ---
-
 title: "Task Prioritization"
 description: "Describes the various EM job duties in order of prioritization."
 
 ---
 
-
-
-
-
-
-
 ## Prioritization of Job Responsibilities
 
 The list of job responsibilities is in ranked order with the highest priority task at the top.
 
-### SOW Processing for current opportunities including:
+### SOW Processing for current opportunities including
 
 - Creating a draft SOW from an estimate and providing to the customer for review
 - Working through SOW redlines with a customer in conjunction with legal and the account team
@@ -23,11 +16,12 @@ The list of job responsibilities is in ranked order with the highest priority ta
 - Sending SOW to Dale Brown (Principal Accounting Officer) and customer for signature. Alternatively sending SOW to Brian Robins (Chief Financial Officer) if Dale is unavailable.
 - Creating a COGS and uploading to salesforce
 
-**Note: SOW processing activities are a collaboration between the EM and the account team; who the “DRI” is will vary based on the circumstances.  For smaller, tactical opportunities, the EM might own the entire process with little or no SAE involvement.  For larger, strategic opportunities, especially when there are licenses and services being sold together, the SAE might handle all of the communication with the customer themselves.  It’s important to have a conversation with the SAE for each opportunity to gain agreement on how that opportunity will be worked.  It’s also important to keep a collaborative mindset when working with the SAEs.**
+**Note: SOW processing activities are a collaboration between the EM and the account team; who the "DRI" is will vary based on the circumstances.  For smaller, tactical opportunities, the EM might own the entire process with little or no SAE involvement.  For larger, strategic opportunities, especially when there are licenses and services being sold together, the SAE might handle all of the communication with the customer themselves.  It's important to have a conversation with the SAE for each opportunity to gain agreement on how that opportunity will be worked.  It's also important to keep a collaborative mindset when working with the SAEs.**
 
 **Suggested SLAs:**
+
 - 48 hours from confirmation of customer intent to move forward with an SOW to SOW draft in their hands.
-- 72 hours from confirmation of final SOW content to stamped SOW in customer’s hands for signature (Revenue and PS approval -> Legal stamp -> Dale signature-> Customer)
+- 72 hours from confirmation of final SOW content to stamped SOW in customer's hands for signature (Revenue and PS approval -> Legal stamp -> Dale signature-> Customer)
 
 ### Scoping of Early Stage PS Opportunities
 
@@ -38,8 +32,9 @@ The list of job responsibilities is in ranked order with the highest priority ta
 - Providing estimate to account team and customer for feedback
 
 **Suggested SLAs:**
+
 - 24 hours from initial scoping issue creation to EM interaction/reminder to SA or CSM to provide information about customer need
-- 72 hours from customer scoping call to estimate in customer’s hands for review
+- 72 hours from customer scoping call to estimate in customer's hands for review
 
 ### Territory Opportunity Management
 
@@ -73,18 +68,18 @@ The list of job responsibilities is in ranked order with the highest priority ta
 
 - Quoting/SOW gen tool evals
 - Updating scoping questions, slides, PS Engagement Estimate Templates, web page materials for our services offerings as we refine them
-- Reviewing MR’s for updates and providing feedback
+- Reviewing MR's for updates and providing feedback
 - Creating and refining SOW activities in Quilt (or PSQuote if we move to that)
-- Collaborating with new EM’s as they onboard to help them learn the role
+- Collaborating with new EM's as they onboard to help them learn the role
 - Providing feedback about customer conversations regarding PS needs to Practice Managers so that they can consider new offerings
 
 ### Channel Team Relationship Management
 
 ### Skills Development
 
- - Learning about GitLab offerings and how to position them
- - Learning about new GitLab features
- - Professional Development
+- Learning about GitLab offerings and how to position them
+- Learning about new GitLab features
+- Professional Development
 
 ### Patch-specific responsibilities
 
@@ -97,6 +92,3 @@ The list of job responsibilities is in ranked order with the highest priority ta
 - Act in a collaborative manner with account teams, Professional Services team members, and others within GitLab
 - Maintain a current understanding of the forecast and risk for each opportunity in the current quarter
 - Escalate any blockers and communicate any needs for help via the #ps-engagement-mgrs channel
-
-
-

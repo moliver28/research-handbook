@@ -22,7 +22,7 @@ This page provides detailed security information to prospective and existing Git
 
 ## Two types of Trust Center documentation
 
-- **Readily available information**: The first step on the trust journey, these documents are publicly available and are designed to introduce GitLab’s approach to security. Directly available from the [Trust Center](https://trust.gitlab.com).
+- **Readily available information**: The first step on the trust journey, these documents are publicly available and are designed to introduce GitLab's approach to security. Directly available from the [Trust Center](https://trust.gitlab.com).
 
 - **Information under NDA**: These documents provide detailed security information to prospective and existing customers for completing vendor security assessments. Due to the sensitive nature of the documentation, an NDA is required to be in place prior to viewing specific documents (such as SOC 2 Type 2). The NDA signing process will happened directly through the Trust Center.
 
@@ -45,9 +45,9 @@ For collateral owned by SMEs outside of Field Security, we perform an annual rev
 If you have any further questions, please follow the below steps:
 
 - Prospective Customers: Please [fill out a request](https://about.gitlab.com/sales/) and a representative will reach out to you.
-- Current Customers: Please contact your [Account Owner](https://about.gitlab.com/handbook/sales/#initial-account-owner---based-on-segment) at GitLab. If you don't know who that is, please [reach out to sales](https://about.gitlab.com/sales/) and ask to be connected to your Account Owner.
+- Current Customers: Please contact your [Account Owner](/handbook/sales/#initial-account-owner---based-on-segment) at GitLab. If you don't know who that is, please [reach out to sales](https://about.gitlab.com/sales/) and ask to be connected to your Account Owner.
 - GitLab Team Members: Contact the Field Security team using the **Customer Assurance workflow** in the [#sec-fieldsecurity](https://gitlab.slack.com/archives/CV5A53V70) slack channel.
 
 <div class="d-grid gap-2 my-4">
-<a href="https://about.gitlab.com/handbook/security/security-assurance/field-security/" class="btn bg-primary text-white btn-lg">Return to the Field Security Homepage</a>
+<a href="https://handbook.gitlab.com/handbook/security/security-assurance/field-security/" class="btn bg-primary text-white btn-lg">Return to the Field Security Homepage</a>
 </div>

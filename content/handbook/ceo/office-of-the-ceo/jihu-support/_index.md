@@ -1,9 +1,6 @@
 ---
 title: "JiHu Support"
 description: "How the GitLab Inc team provides support to JiHu"
-aliases:
-- /handbook/ceo/office-of-the-ceo/jihu-support/
-- /handbook/ceo/chief-of-staff-team/jihu-support/
 ---
 
 ## Overview
@@ -100,7 +97,7 @@ To notify JiHu of an upcoming security release, please simply post a comment in:
 
 GitLab Inc will follow the [documented vulnerability disclosure process](https://about.gitlab.com/security/disclosure/#vulnerability-disclosure) and will not provide detailed information about vulnerabilities directly to JiHu. No information will be shared prior to or during an in-progress security release.
 
-Only after a GitLab [security release](https://about.gitlab.com/handbook/engineering/releases/security-releases/), GitLab Inc may provide JiHu with:
+Only after a GitLab [security release](/handbook/engineering/releases/security-releases/), GitLab Inc may provide JiHu with:
 
 - A link to the public security release blog post
 - A link to the GitLab issue describing the vulnerability, which will remain confidential until 30 days after the release in which the vulnerability was patched
@@ -108,6 +105,7 @@ Only after a GitLab [security release](https://about.gitlab.com/handbook/enginee
 This information will be communicated via Slack and the weekly engineering sync with JiHu.
 
 For security vulnerabilities introduced by JiHu contributions, the GitLab Application Security team will share mitigation steps as long as they do not disclose vulnerability details or information that could result in the discovery of vulnerability details.
+
 - If such mitigation steps exist, the GitLab Application Security team will notify JiHu by creating a confidential issue in the JiHu enablement project with the mitigation steps.
 - If no mitigation steps exist, the vulnerability will be disclosed as per GitLab's regular security vulnerability disclosure process.
 
@@ -189,5 +187,5 @@ We differentiate proprietary features for JiHu distributions by including them i
 ## Links
 
 - [GitLab licensed its technology to new independent Chinese company](https://about.gitlab.com/blog/2021/03/18/gitlab-licensed-technology-to-new-independent-chinese-company/)
-- [GitLab licensing technology to independent Chinese company FAQ](/handbook/faq-gitlab-licensing-technology-to-independent-chinese-company/)
+- [GitLab licensing technology to independent Chinese company FAQ](/handbook/company/faq-gitlab-licensing-technology-to-independent-chinese-company/)
 - [China Service Working Group](/handbook/company/working-groups/china-service/)

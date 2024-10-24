@@ -3,10 +3,7 @@ title: "GitLab Security Essentials - Hands-On Lab Overview"
 description: "This Hands-On Guide walks you through the lab exercises used in the GitLab Security Essentials course."
 ---
 
-# GitLab Security Essentials
-
-## Lab Guides
-
+## Security Essentials Lab Guides
 
 | Lab Name | Lab Link |
 |-----------|------------|
@@ -25,4 +22,4 @@ Here are some quick links that may be useful when reviewing this Hands-On Guide.
 
 ## Suggestions
 
-If you’d like to suggest changes to the *GitLab Security Essentials Hands-on Guide*, please submit them via merge request.
+If you'd like to suggest changes to the *GitLab Security Essentials Hands-on Guide*, please submit them via merge request.

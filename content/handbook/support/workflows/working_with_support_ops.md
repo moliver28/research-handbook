@@ -1,11 +1,8 @@
 ---
-
 title: Working with Support Ops
 category: References
 description: "Workflow for working with Support Operations"
 ---
-
-
 
 ## Working with Support Ops
 
@@ -107,18 +104,17 @@ timely in nature, make sure you are available to work with Support Operations.
 
 ### Make changes to Zendesk Global or Zendesk US Government macros
 
-Macros are [deployed immediately](https://handbook.gitlab.com/handbook/support/readiness/operations/docs/change_management/#zendesk-macros-change-management). For information on macros, please see [Zendesk Global Macros](https://handbook.gitlab.com/handbook/support/readiness/operations/docs/zendesk/macros/).
+Macros are [deployed immediately](/handbook/support/readiness/operations/docs/change_management/#zendesk-macros-change-management). For information on macros, please see [Zendesk Global Macros](/handbook/support/readiness/operations/docs/zendesk/macros/).
 
 If you want to edit the wording of a macro, make an MR to the repo (Zendesk Global or Zendesk US Government).
-If you want to make non-wording changes (renaming it, add/removing options, etc.), use the [Support Super Form](https://support-super-form-gitlab-com-support-support-op-651f22e90ce6d7.gitlab.io) ‘Edit a Zendesk macro’ option.
-If you want to create a new macro, use the [Support Super Form](https://support-super-form-gitlab-com-support-support-op-651f22e90ce6d7.gitlab.io) ‘Create a Zendesk macro’ option.
+If you want to make non-wording changes (renaming it, add/removing options, etc.), use the [Support Super Form](https://support-super-form-gitlab-com-support-support-op-651f22e90ce6d7.gitlab.io) 'Edit a Zendesk macro' option.
+If you want to create a new macro, use the [Support Super Form](https://support-super-form-gitlab-com-support-support-op-651f22e90ce6d7.gitlab.io) 'Create a Zendesk macro' option.
 To discuss a macro (but not actually action on anything), use a support-team-meta issue.
-
 
 ### Support Team page requests
 
 For changes to the support team page, you would file an issue in the
-[support/team issue tracker](https://gitlab.com/gitlab-com/support/team/-/issues/new).
+[support-team-meta issue tracker](https://gitlab.com/gitlab-com/support/support-team-meta/-/issues/new).
 
 Once the issue is created, Support Operations will work the issue. They may
 create new issues or move the original request as needed.
@@ -186,7 +182,7 @@ graph TD;
   OpsWorksIssue["Support Ops works issue from there, making new ones as needed"];
   ZendeskMacros["Create an issue in the macros project"];
   ZendeskUsGovernment["Create an issue in the zendesk-us-government project"];
-  SupportTeam["Create an issue in the support/team project"];
+  SupportTeam["Create an issue in the support-team project"];
 ```
 
 ### Helpful links
@@ -199,5 +195,4 @@ graph TD;
 - [macros issue tracker](https://gitlab.com/gitlab-com/support/support-ops/zendesk-global/macros/-/issues/new)
 - [zendesk-us-government issue tracker](https://gitlab.com/gitlab-com/support/support-ops/zendesk-us-federal/-/issues/new)
 - [zendesk-us-government macros issue template](https://gitlab.com/gitlab-com/support/support-ops/zendesk-us-federal/-/issues/new?issuable_template=Macros)
-- [support/team issue tracker](https://gitlab.com/gitlab-com/support/team/-/issues/new)
 - [support-ops-project issue tracker](https://gitlab.com/gitlab-com/support/support-ops/support-ops-project/-/issues/new)

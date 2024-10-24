@@ -38,7 +38,7 @@ Here are some steps you can take to get started optimizing your profile.
 - It's also a great place to talk about your team and GitLab, and why a candidate would want to work with you.
 - Feel free to use and build from this boilerplate summary about working at GitLab:
 
-> Joining GitLab means you’ll contribute to the most comprehensive DevSecOps platform, empowering development, security, and ops teams to build better software, faster. As one of the largest all-remote companies in the world with globally distributed team members, this is a place where you can contribute from almost anywhere. You’ll be part of an ambitious, productive team that embraces a set of shared values in everything we do. As part of GitLab's (YOUR TEAM) team, my role is to (ADD CONTEXT HERE ABOUT YOUR ROLE AND TEAM).
+> Joining GitLab means you'll contribute to the most comprehensive DevSecOps platform, empowering development, security, and ops teams to build better software, faster. As one of the largest all-remote companies in the world with globally distributed team members, this is a place where you can contribute from almost anywhere. You'll be part of an ambitious, productive team that embraces a set of shared values in everything we do. As part of GitLab's (YOUR TEAM) team, my role is to (ADD CONTEXT HERE ABOUT YOUR ROLE AND TEAM).
 
 **4. Your current role**
 
@@ -56,9 +56,7 @@ Here are some steps you can take to get started optimizing your profile.
 
 #### More training for rocking your profile on LinkedIn
 
-- [How to optimize your LinkedIn presence
-(and why it matters)
-](https://docs.google.com/presentation/d/12APD_Ov1bCufRAyQEGGAnPHUq1PzHhR1U_57avtmP9g/edit#slide=id.g12b319f6181_0_0)
+- [How to optimize your LinkedIn presence (and why it matters)](https://docs.google.com/presentation/d/12APD_Ov1bCufRAyQEGGAnPHUq1PzHhR1U_57avtmP9g/edit#slide=id.g12b319f6181_0_0)
 
 ### 2. Share what life is like as part of the GitLab team
 
@@ -87,12 +85,11 @@ There are several important things to keep in mind when sharing your opinions ab
     - An example of what we want to avoid: "Lost your job? Come work at GitLab!"
 1. If you're unsure how to communicate something, you can always reach out to the #talent-brand channel on slack.
 
-
 #### On LinkedIn
 
 - As you're sharing content on LinkedIn, use the hashtags `#LifeAtGitLab` and `#AllRemote` as you deem suitable. This will connect your post to a curated feed of content from our team members on [GitLab's "life" tab](https://www.linkedin.com/company/gitlab-com/life) on LinkedIn, and promote our remote culture.
 - If you're sharing a GitLab job on LinkedIn, we require team members to use only the provided templates to ensure we have consistent messaging when sharing jobs. Messaging options include:
-  - > It’s an exciting time to join @gitlab. We're hiring for a [INSERT ROLE NAME]! [INSERT JOB LINK] #AllRemote #LifeAtGitLab
+  - > It's an exciting time to join @gitlab. We're hiring for a [INSERT ROLE NAME]! [INSERT JOB LINK] #AllRemote #LifeAtGitLab
   - > Interested in joining one of the world's largest #AllRemote companies? @gitlab is hiring a [INSERT ROLE NAME]! [INSERT JOB LINK] #LifeAtGitLab
   - > Do your best work from wherever works for you. @gitlab is one of the world's largest #AllRemote company and we're hiring a [INSERT ROLE NAME]. Interested? Learn more: [INSERT JOB LINK] #LifeAtGitLab
   - > Join @gitlab and put yourself at the intersection of #AI and #DevSecOps. We're hiring a/an [INSERT ROLE NAME] to contribute to cutting-edge projects that will help organizations around the world deliver software faster. Ready to lead the way? Apply now: [INSERT JOB LINK] #AllRemote #LifeAtGitLab
@@ -101,7 +98,6 @@ There are several important things to keep in mind when sharing your opinions ab
   - > Join @gitlab and help build a product that enables over 50% of Fortune 100 organizations to deliver software faster with our AI-powered DevSecOps platform. We're hiring a [INSERT ROLE NAME]. Apply now: [INSERT JOB LINK] #AllRemote #LifeAtGitLab
   - > Join a company that values transparency, collaboration, and iteration. @gitlab is hiring a [INSERT ROLE NAME]. Discover how our 6 CREDIT values drive our culture and learn more about this role: [INSERT JOB LINK] #AllRemote #LifeAtGitLab
   - > Unlock a world of opportunities at @gitlab. We're looking for a [INSERT ROLE NAME] to join our diverse and passionate team. Explore your potential with us: [INSERT JOB LINK] #AllRemote #LifeAtGitLab
-
 
 #### On X (formerly Twitter)
 
@@ -109,7 +105,7 @@ There are several important things to keep in mind when sharing your opinions ab
 - Consider tweeting some of the content ideas above, and tag the GitLab account for potential retweets.
 - Just like on LinkedIn, use the hashtags `#LifeAtGitLab` and `#AllRemote` as you deem suitable in your tweets.
 - If you're sharing a job opening on X (formerly Twitter), we require team members to use only the provided templates to ensure we have consistent messaging when sharing jobs.Messaging options include:
-  - > It’s an exciting time to join @gitlab. We're hiring for a [INSERT ROLE NAME]! [INSERT JOB LINK] #AllRemote #LifeAtGitLab
+  - > It's an exciting time to join @gitlab. We're hiring for a [INSERT ROLE NAME]! [INSERT JOB LINK] #AllRemote #LifeAtGitLab
   - > Interested in joining one of the world's largest #AllRemote companies? @gitlab is hiring a [INSERT ROLE NAME]! [INSERT JOB LINK] #LifeAtGitLab
   - > Do your best work from wherever works for you. @gitlab is one of the world's largest #AllRemote company and we're hiring a [INSERT ROLE NAME]. Interested? Learn more: [INSERT JOB LINK] #LifeAtGitLab
   - > Join @gitlab and put yourself at the intersection of #AI and #DevSecOps. We're hiring a/an [INSERT ROLE NAME] to contribute to cutting-edge projects that will help organizations around the world deliver software faster. Ready to lead the way? Apply now: [INSERT JOB LINK] #AllRemote #LifeAtGitLab
@@ -119,10 +115,11 @@ There are several important things to keep in mind when sharing your opinions ab
   - > Join a company that values transparency, collaboration, and iteration. @gitlab is hiring a [INSERT ROLE NAME]. Discover how our 6 CREDIT values drive our culture and learn more about this role: [INSERT JOB LINK] #AllRemote #LifeAtGitLab
   - > Unlock a world of opportunities at @gitlab. We're looking for a [INSERT ROLE NAME] to join our diverse and passionate team. Explore your potential with us: [INSERT JOB LINK] #AllRemote #LifeAtGitLab
 
-
-#### Other platforms
+#### Glassdoor & Comparably
 
 There are a number of platforms and touchpoints where candiates interact with our talent brand or our jobs prior to ever applying or talking with us.
+
+Beyond helping us to identify top candidates for our team and making referrals, you can also help us attract great candidates by sharing why GitLab is a great place to work on our Glassdoor & Comparably pages. Taking 3-5 minutes to post a review will help future joiners understand our culture and company!
 Here are a couple of ways you can help tell GitLab's story on these sites.
 
 - Leave a [Glassdoor review](https://www.glassdoor.com/mz-survey/start_input.htm?cr=&c=&showSurvey=Reviews)
@@ -141,7 +138,7 @@ Feel free to make this your own and personalize it based on the specific message
 
 > Hi, {NAME}, thank you for your interest in GitLab! It's an exciting time to be part of our team.
 >
-> The best way to share your information with our talent acquisition team is to apply to a relevant role on our [careers page](https://about.gitlab.com/jobs/). I'd also encourage you to take a look through our [company handbook](https://handbook.gitlab.com/handbook/) and our [Life at GitLab Content Library](/handbook/people-group/employment-branding/content-library) to learn a bit more about our culture.
+> The best way to share your information with our talent acquisition team is to apply to a relevant role on our [careers page](https://about.gitlab.com/jobs/). I'd also encourage you to take a look through our [company handbook](/handbook/) and our [Life at GitLab Content Library](/handbook/people-group/employment-branding/content-library) to learn a bit more about our culture.
 >
 > GitLab is an incredibly unique place to work.
 >
@@ -154,7 +151,7 @@ Feel free to make this your own and personalize it based on the specific message
 One of the best ways to help GitLab grow is by referring talented people in your network.
 
 As you think about who would be a good fit for GitLab, don't limit yourself to only the people you know are actively searching for a job. You never know when someone is ready for their next career journey.
-We want to hire the best candidate for the role and make sure that person will be a ["values add"]({{< ref "values#culture-fit-is-a-bad-excuse" >}}) to GitLab's unique [culture](/handbook/company/culture/).
+We want to hire the best candidate for the role and make sure that person will be a ["values add"](/handbook/values/#culture-fit-is-a-bad-excuse) to GitLab's unique [culture](/handbook/company/culture/).
 
 Here's a [fact sheet](https://gitlab.com/gitlab-com/people-group/talent-acquisition/-/blob/master/Hiring_fact_sheet_-_2020-03.pdf) that can be used as a reference guide as you're having conversations with potential candidates.
 

@@ -1,14 +1,7 @@
 ---
-
 title: "Continuous Interviews"
 description: "The purpose of continuous interviews and how to set them up"
 ---
-
-
-
-
-
-
 
 [Continuous interviewing](https://medium.com/@ttorres/continuous-interviewing-the-key-to-successful-product-teams-6bf63bfc1936) is a process where Product Managers (PMs) can continuously learn from their users and uncover insights that can be applied towards product discovery. These interviews follow the same script most of the time because they are not organized around any specific hypothesis or research requests. However, PMs can shift the potential focus of the interview as needed to dig deeper into specific topics.
 
@@ -35,15 +28,14 @@ The following is a non-exhaustive list of approaches to finding customers open t
 - Reply to users who are active in issues (create, comment, vote)
 - Follow related topics on Medium, Twitter, Hacker News, and reach out to authors writing about our product areas
 - Continuously communicate to the customer success team that we are open to customer calls, but make it clear that these are customer interviews, not sales calls. Use the #customer-success Slack channel or open a [CSM project issue](https://gitlab.com/gitlab-com/customer-success/tam/-/issues/new?issueable_template=Product%20Engagement)
-    - Attend monthly Customer Success Managers (CSM) meetings and make requests for continuous interviews within their Google Doc agenda
-    - Set up coffee chats with CSMs to discuss continuous interviewing requests
+  - Attend monthly Customer Success Managers (CSM) meetings and make requests for continuous interviews within their Google Doc agenda
+  - Set up coffee chats with CSMs to discuss continuous interviewing requests
 - Additional resources for [participant recruitment through UX Research](/handbook/engineering/ux/ux-research/recruiting-participants/)
 
 #### Tips for leading continuous interviews
 
-
 - Modify the process to best fit your teams' needs, including the PM, PD, and the engineering team
 - All continuous customer interview data should live in Dovetail. Any additional information (summaries, templates, etc.) can live in confidential issues as long as the data are connected back to the Dovetail project.
-- Remove customers’ [Personally Identifiable Information (PII)](/handbook/support/workflows/pii_removal_requests/) from Dovetail and GitLab issues, so that team members do not identify specific individuals as part of the research process.
-    - For example: Avoid including the first/last name of the user and company where the user works. Instead, you can reference them by their job title, persona type, or participant number (P6).
+- Remove customers' [Personally Identifiable Information (PII)](/handbook/support/workflows/pii_removal_requests/) from Dovetail and GitLab issues, so that team members do not identify specific individuals as part of the research process.
+  - For example: Avoid including the first/last name of the user and company where the user works. Instead, you can reference them by their job title, persona type, or participant number (P6).
 - With any customer research, you have the option to [compensate participants](/handbook/product/ux/ux-research-coordination/#thank-you-gifts) for their time. Providing a small token of thanks is a best practice to show users how we value their time.

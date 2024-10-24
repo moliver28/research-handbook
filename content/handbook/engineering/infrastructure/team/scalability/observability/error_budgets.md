@@ -1,6 +1,4 @@
 ---
-aliases: /handbook/engineering/infrastructure/team/scalability/observability/error_budgets.html
-
 title: "Error Budgets"
 ---
 

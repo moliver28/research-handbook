@@ -4,17 +4,9 @@ description: "This page covers the factors to consider for customer health, guid
 title: "Customer Health Assessment and Management"
 ---
 
-
-
-
-
-
-
-
-
 View the [CSM Handbook homepage](/handbook/customer-success/csm/) for additional CSM-related handbook pages.
 
-----
+---
 This page covers the factors to consider for customer health, guidelines for selecting the appropriate rating, communication guidelines, CSM responsibilities and instructions for the account triage issue creation.
 
 See [Customer Health Scoring](/handbook/customer-success/customer-health-scoring) for an overview on how customer health scoring is defined and calculated at GitLab.
@@ -61,11 +53,11 @@ Examples:
 
 - Potential risk of contraction or churn (even if this is unconfirmed)
 - Lack of alignment with stakeholders who can drive outcomes...
-   - [Economic Buyer](/handbook/sales/meddppicc/#economic-buyer)
-   - [Champion](/handbook/sales/meddppicc/#champion)
-   - Key [Personas](/handbook/product/personas/)
-      - [Cameron (Compliance Manager)](/handbook/product/personas/#cameron-compliance-manager)
-      - [Delaney (Development Team Lead)](/handbook/product/personas/#delaney-development-team-lead)
+  - [Economic Buyer](/handbook/sales/meddppicc/#economic-buyer)
+  - [Champion](/handbook/sales/meddppicc/#champion)
+  - Key [Personas](/handbook/product/personas/)
+    - [Cameron (Compliance Manager)](/handbook/product/personas/#cameron-compliance-manager)
+    - [Delaney (Development Team Lead)](/handbook/product/personas/#delaney-development-team-lead)
 - Product does not deliver expected value or outcomes as defined by success plan
 - No or low product adoption with no progression
 - Communication of poor sentiment
@@ -79,7 +71,7 @@ Very rarely, a customer reaches a point at which it is accepted by the account t
 
 In order for a customer to move to the `will churn` stage, the following must be completed:
 
-1. All options discussed during the at-risk reviews have been exhausted
+1. All options discussed during the health reviews have been exhausted
 1. CSM discusses it with their manager and gets agreement on moving to `will churn`
 1. RM/AE marks the opportunity as `Will Churn` or `Will Contract`
 1. CSM updates the Lifecycle Stage in Gainsight C360 > Attributes > Lifecycle Stage to `Will Churn`
@@ -102,20 +94,20 @@ CSMs are responsible for keeping Gainsight up to date regarding all of their acc
 
 For any account that is Red or Yellow, the following steps for an At Risk timeline update is required:
 
-1. In the account timeline, log an `At-Risk Update`, marking CSM Sentiment as Red (or Yellow). Also select values for the `Risk Reason` and `Risk Impact` fields.
-1. At-Risk Conclusion:
+1. In the account timeline, log a `Health Update`, marking CSM Sentiment as Red (or Yellow). Also select values for the `Risk Reason` and `Risk Impact` fields.
+1. Customer Health Conclusion:
    1. Customer is won back:
-      1. Log Account-level Timeline `At-Risk Update` type for CSM Sentiment as Green and final notes
+      1. Log Account-level Timeline `Health Update` type for CSM Sentiment as Green and final notes
       1. Change customer Lifecycle Stage to Adopting
    1. Customer is lost:
-      1. Log Account-level Timeline `At-Risk Update` type with final update
+      1. Log Account-level Timeline `Health Update` type with final update
       1. Change customer Lifecycle Stage to: Will Churn for a churning customer and Adopting for downgrade customer
 
 These can then be discussed with the [Account Team](/handbook/customer-success/account-team/) during account reviews.
 
-#### At-Risk Update Format
+#### Customer Health Update Format
 
-The At-Risk Update description should follow the following format:
+The Health Update description should follow the following format:
 
 1. Brief, high-level summary of the reason for the risk and what's needed to resolve the risk (1-2 sentences)
 1. Additional context & detail to amplify the summary, including reasons behind the cited risk driver, key people involved (customer and GitLab), and next steps being taken
@@ -123,13 +115,13 @@ The At-Risk Update description should follow the following format:
 1. Date of the next call with the customer and/or expected date for the next update
 1. CSM Sentiment updated to reflect current health status (typically Red)
 
-Here is a sample at-risk update:
+Here is a sample health update:
 
 > CUSTOMER X has risk of seat contraction due to under-utilization of licensed seats. We need top-down alignment with customer leadership and an agreed-upon plan to get more teams onto GitLab.
 >
 > CUSTOMER X is actively using 75% of their licensed seats, though adoption of use cases within those users is strong. We have reached out to the decision maker for the customer on DevOps tools and have a meeting scheduled with that person for next week that includes all of the members of the GitLab account team. We will discuss the current adoption status, and other groups within their org we can engage to help their users get onto GitLab. In order to mitigate this risk we need alignment with the decision maker on next steps to engage with teams not yet on GitLab, and define a plan to get those users onboarded.
 >
-> Following that discussion next week, I will add an At-Risk Update with details from that discussion and next steps, as well as any asks we may have from other GitLab team members.
+> Following that discussion next week, I will add a Health Update with details from that discussion and next steps, as well as any asks we may have from other GitLab team members.
 
 This format is to satisfy a few requirements:
 
@@ -137,9 +129,9 @@ This format is to satisfy a few requirements:
 - Ensure the most pertinent information is readily visible in other systems where it is synced and displayed
 - Consistency to improve async processes
 
-#### At-Risk Update for Resolution of Risk
+#### Health Update for Resolution of Risk
 
-When a customer's risk has been mitigated and they are no longer at risk, the CSM creates an AT-Risk Update timeline entry communicating:
+When a customer's risk has been mitigated and they are no longer at risk, the CSM creates a Health Update timeline entry communicating:
 
 1. The customer is no longer at risk
 1. Key details about what mitigated the risk
@@ -155,10 +147,10 @@ Here is a sample entry for risk resolution:
 ### Frequency of At Risk Timeline Entries
 
 1. If customer renewal is this fiscal quarter or next:
-   1. Weekly [At-Risk Timeline](/handbook/customer-success/csm/health-score-triage/#at-risk-timeline-entries) updates
+   1. Weekly [Health Timeline](/handbook/customer-success/csm/health-score-triage/#at-risk-timeline-entries) updates
       - Entry should include progress towards risk mitigation over the past week and plans for the upcoming week.
 1. If customer renewal is after next fiscal quarter:
-   1. Monthly [At-Risk Timeline](/handbook/customer-success/csm/health-score-triage/#at-risk-timeline-entries) updates
+   1. Monthly [Health Timeline](/handbook/customer-success/csm/health-score-triage/#at-risk-timeline-entries) updates
       - Entry should include progress towards risk mitigation over the past month and plans for the upcoming month.
 
 ![GitLab At-Risk Customer Process](/CSM_At-Risk_Customer_Process.png)
@@ -172,7 +164,7 @@ If a CSM has marked an account as [Red](/handbook/customer-success/csm/health-sc
 1. **Customer Churn** - fully churn the account
 1. **Tier Downgrade** - move down tiers
 1. **Seat Churn** - reduce license seat count
-1. **Customer Sentiment** (Impact Unknown) - customer is unhappy and the impact isn’t quantified
+1. **Customer Sentiment** (Impact Unknown) - customer is unhappy and the impact isn't quantified
 1. **Competitor** - any competitive intelligence we might be up against
 1. **Stage Name** - stage impact, for example, product deficiencies, direction, or needs.
 
@@ -201,12 +193,12 @@ The prospect or customer lost budget due to business contraction, change of prio
 #### Corporate Decision
 
 Due to management decision or policy, the prospect or customer chose a different product but not because of product gaps, adoption, etc. This would be a top-down decision (e.g., ELA, decision to commit to a single provider)
+
 - **Other** - other company issues that contribute to a blocker for the renewal
 
 ### Mitigation Strategies
 
 For CSM guidance on mitigating risk, please see the [Risk Types, Discovery & Mitigation Strategies](/handbook/customer-success/csm/risk-mitigation) page.
-
 
 ## At Risk Communication Guidelines
 
@@ -224,9 +216,6 @@ The following are guidelines on who to notify when an account is yellow or red. 
 - Area Sales Manager and Regional Director
 - Vice President of Customer Success
 
-
-
 ## Related Processes
 
 [Customer Success Escalations Process](/handbook/customer-success/csm/escalations/)
-

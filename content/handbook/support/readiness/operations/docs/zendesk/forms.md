@@ -13,7 +13,7 @@ These fall into one of two types:
 - Public - meaning both agents and end-users can see these
 - Internal - meaning only agents can see these
 
-## Change management
+### Change management
 
 Keep in mind, all change management should be stemming from an issue, first and
 foremost.
@@ -44,7 +44,7 @@ On this page, you will do the following:
 
 After doing so, click the blue `Save` button. You will then locate the
 placeholder ticket form you just created (should be at the bottom), hover over
-it, click the three vertical dots at at the right-hand side of the ticket form,
+it, click the three vertical dots at the right-hand side of the ticket form,
 and click `Deactivate`. After doing so, you will need to get the ID value for it
 (if you click it, you can see it in the URL).
 
@@ -54,7 +54,7 @@ are likely to need to adjust **many** ticket form files due to positioning.
 #### Updating an existing ticket form
 
 Updating an existing ticket form is considerably easier than creating a new one.
-Simply change change the code in the source project and it will occur via the
+Simply change the code in the source project and it will occur via the
 sync repo.
 
 #### Deactivating a ticket form
@@ -97,7 +97,7 @@ click on it. After doing so, click the three vertical dots at top-right of the
 page and click `Delete`. This will cause a pop-up modal to appear asking you to
 confirm the action. Click red `Delete` button to do so.
 
-## Troubleshooting
+### Troubleshooting
 
 #### Pipeline error "Blank ID"
 
@@ -139,17 +139,17 @@ need to review the error and determine the next steps from there.
 If you are unsure how to proceed, it is best to seek assistance from the wider
 team.
 
-## Source Projects
+### Source Projects
 
 #### Zendesk Global
 
-- [Support managed content project](https://gitlab.com/gitlab-com/support/zendesk-global/tickets/forms-and-fields)
+- [Sync repo](https://gitlab.com/gitlab-support-readiness/zendesk-global/tickets/forms-and-fields)
 
 #### Zendesk US Government
 
-- [Support managed content project](https://gitlab.com/gitlab-com/support/zendesk-us-government/tickets/forms-and-fields)
+- [Sync repo](https://gitlab.com/gitlab-support-readiness/zendesk-us-government/tickets/forms-and-fields)
 
-## Current Zendesk Global forms
+### Current Zendesk Global forms
 
 | Name                     | ID             | Visibility | Category    |
 |--------------------------|:--------------:|------------|-------------|
@@ -165,18 +165,19 @@ team.
 | GitLab Incidents         | 360001629679   | Internal   | Support     |
 | Support Internal Request | 12829030177948 | Internal   | Support     |
 
-## Current Zendesk US Federal forms
+### Current Zendesk US Federal forms
 
-| Name               | ID           | Visibility | Category |
-|--------------------|:------------:|------------|----------|
-| Support            | 360000446511 | Public     | Support  |
-| Upgrade Assistance | 360001434131 | Public     | Support  |
-| Support Ops        | 360001421052 | Public     | Support  |
-| L&R                | 360001421072 | Public     | Support  |
-| Emergency          | 360001421112 | Public     | Support  |
-| License Issue      | 360001803151 | Internal   | Support  |
+| Name               | ID             | Visibility | Category |
+|--------------------|----------------|------------|----------|
+| Support            | 360000446511   | Public     | Support  |
+| GitLab Dedicated   | 26347526042004 | Public     | Support  |
+| Upgrade Assistance | 360001434131   | Public     | Support  |
+| Support Ops        | 360001421052   | Public     | Support  |
+| L&R                | 360001421072   | Public     | Support  |
+| Emergency          | 360001421112   | Public     | Support  |
+| License Issue      | 360001803151   | Internal   | Support  |
 
-## Positioning
+### Positioning
 
 By default, new forms gain a position of `N+1`, where `N` is the highest
 position value of all forms currently in Zendesk (both active and inactive).
@@ -189,7 +190,7 @@ Clicking that will then allow you to drag and drop the list of forms into the
 order you desire. After making the changes, click the blue `Save` button at the
 top right of the page.
 
-## Ticket form standards
+### Ticket form standards
 
 To ensure all ticket forms we utilize are both consistent in nature and
 transparent in their actions, we strive to meet some standards on all

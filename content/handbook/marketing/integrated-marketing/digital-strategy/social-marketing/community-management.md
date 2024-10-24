@@ -1,5 +1,4 @@
 ---
-
 title: Social Media Community Management
 description: 'Engaging and responding to the community'
 twitter_image: /images/opengraph/handbook/social-marketing/social-admin-cm.png
@@ -8,25 +7,24 @@ twitter_site: 'gitlab'
 twitter_creator: 'gitlab'
 ---
 
-
-
-
-
-
 ## Community Management is a team effort
+
 In order to communicate and respond to our community effectively, management of responses and conversations is a shared effort between Social Media, [Developer Relations](/handbook/marketing/developer-relations/), [Developer Advocates](/handbook/marketing/developer-relations/developer-advocacy), various experts, and our Support Teams. The two key teams in our processes are the Social and Developer Relations teams. Both act as either the final point of contact or the responsible party to forward messages to the other teams.
 
 ## Engaging with team member social Posts
+
 _non-executive, non-evangelist, non-brand personality team members_
 
 GitLab brand channels provide additional impressions/view, comments, and clicks when engaging with team member social posts. It will be more common for the brand social profile to like or comment on a team member post, because this does not interfere with the editorial calendar, while still provding an amplification. We also leave a small amount of space to retweet/quote retweet users (including Team Members) on Twitter, as this is appropriate for the channel and still aids in our editorial efforts. Shares on Facebook or LinkedIn are highly unlikely, due to the low volume of appropriate content available to be calendared on these channels.
 
 Team member social posts that would considered for likes or comments from the brand channel include:
+
 - sharing GitLab content that would also be covered by brand channel posts (blogs, event registrations, etc.)
 - mentioning GitLab in a conversation with another user
 - sharing security or patch releases
 
 Team member social posts that would be considered for retweeting or sharing include:
+
 - promoting a region-wide (EMEA, APAC, etc) event that is or is not currently led by corporate events
 - when the author shares their own content (writer of a blog, speaker at an event, etc.)
 - breaking changes that were not otherwise covered with brand channel posts
@@ -35,7 +33,8 @@ Team member social posts that would be considered for retweeting or sharing incl
 
 It is important to note that team member social posts are considered the same pool of content as the greater community. Who's post gets shared is a subjective response from the social team and does not have a specific or repeatable formula, due to the nature of every day social media activity.
 
-##### Communicating team member posts to the social team
+### Communicating team member posts to the social team
+
 While our team will see every post where the brand handle is tagged, the volume creates a delay. Consider sharing the link to your post in the #social_media_action channel for the brand team to engage.
 
 Also, consider sharing the link to your post in #content_updates or #social_media_posts for additional awareness, increasing the possibility for other team members to engage with your post.
@@ -57,6 +56,7 @@ Adding the `actorCompanyId` to the url would look like
 This URL would allow for GitLab to comment and engage.
 
 ## Core Social Channel Escalations
+
 This escalation workflow dictates predetermined actions and DRIs for Twitter, Facebook, LinkedIn, and Instagram
 
 | If...                                                                                                                              | Then...                                                                                                                                                                                  | Who owns the response to the community member?                                                                                                                                                                               |
@@ -71,6 +71,7 @@ This escalation workflow dictates predetermined actions and DRIs for Twitter, Fa
 | We receive a message that breaks our code of conduct or that of the social channel                                                 | The receiver reviews the message reports the message via the native tools to the specific social channel as spam, a troll, etc.                                                          | Whoever the receiver is                                                                                                                                                                              |
 
 ## Channel and Source Ownership
+
 This chart defines who owns what channels, sources, and how often they are reviewed.
 
 | Channel                 | Source                                               | Tool                                                  | Who Reviews?                                                                                                                                                                   | Review Cycles                                                          | Justification                                                                                                                                                                                                 | Note                                                                                                                    |

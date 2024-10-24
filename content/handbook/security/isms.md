@@ -11,17 +11,17 @@ GitLab has adopted the ISO/IEC 27001:2022, ISO/IEC 27017:2015 and ISO/IEC 27018:
 
 The scope of GitLab's ISMS is limited to the production resources that directly support GitLab SaaS subscriptions: GitLab.com and GitLab Dedicated.
 
-#### Assets
+### Assets
 
 Assets within the scope of the ISMS include: customer data, software, people, and internal information assets to host and operate the cloud-based solution.
 
 External assets that are subject to shared responsiblity include cloud service providers. The scope of shared responsibility considerations include: assets maintained and stored in the cloud computing environment, infrastructure assets management, processes that run on a multi-tenant virtualized environment, and cloud service administration.
 
-#### Excluded from Scope
+### Excluded from Scope
 
 As an all remote company, there are no physical office locations in the scope of the ISMS. Contracted third party data center services to include physical and environmental controls are not in scope and are managed by the third party service providers.
 
-#### Locations
+### Locations
 
 GitLab's headquarter mailing address is in scope and covers all sub organizations. Please note this is a mailing address only, there is no physical location to visit:
 
@@ -30,7 +30,8 @@ GitLab's headquarter mailing address is in scope and covers all sub organization
 ### Organizational Units
 
 Business functions included in the scope of the ISMS include:
-- Engineering - Chief Information Security Officer; Security Assurance sub-department; Application Security, Security Operations, Security Incident Response (SIRT), Infrastructure Security teams
+
+- Engineering - Chief Information Security Officer; Security Assurance; Product Security; Security Operations; Threat Management Security teams. Division structure is defined [here](/handbook/security/#division-structure)
 - Engineering - VP of Development
 - Engineering - VP of Infrastructure and Quality
 - Finance - VP of Information Technology
@@ -42,11 +43,11 @@ Business functions included in the scope of the ISMS include:
 This ISMS governs GitLab security operations. Interested parties include:
 
 - Customers
-   - Require GitLab to operate according to this ISMS to protect their information
+  - Require GitLab to operate according to this ISMS to protect their information
 - Shareholders/owners of the business
-   - Require GitLab to operate in a secure manner to maintain a sustainable business
+  - Require GitLab to operate in a secure manner to maintain a sustainable business
 - Team Members
-   - GitLab requires Team Members to operate in a secure manner as defined by this ISMS. Require GitLab to operate in a secure manner to maintain services and provide continued employment
+  - GitLab requires Team Members to operate in a secure manner as defined by this ISMS. Require GitLab to operate in a secure manner to maintain services and provide continued employment
 
 ## ISMS Roles and Responsibilities
 
@@ -56,9 +57,9 @@ This ISMS governs GitLab security operations. Interested parties include:
 | Chief Information Security Officer | Executive sponsor of the ISMS; coordinate, promote and improve information security; establish information security policy |
 | Security Management (Code Owners) | Owner of the ISMS responsible for approving significant changes and exceptions of the ISMS |
 | Security Assurance | Reporting on the performance of the information security management system to top management; security risk assessments and treatment; continuous monitoring and auditing; customer assurance activities; security awareness program; security governance activities |
-| Application Security | Manage third party penetration and bug bounty programs; provide input to the software development lifecycle; manage application vulnerability program; administer security champions program; maintain application security tools; identify security risks |
+| Product Security | Manage third party penetration and bug bounty programs; provide input to the software development lifecycle; manage application vulnerability program; administer security champions program; maintain application security tools; identify security risks; infrastructure vulnerability program; maintain infrastructure security tools; identify security risks |
 | Security Operations | Monitor, manage and report on security incidents; monitor compliance with security policies through technical tools; identify security risks; monitor and respond to abuse of SaaS subscriptions |
-| Infrastructure Security | Manage infrastructure vulnerability program; maintain infrastructure security tools; identify security risks |
+| Threat Management | Manage identity and access management, role based access control, admin access |
 | Other ISMS Business units | Implement, operate and/or administer information security requirements; remediate information security findings; collaborate with the Security department |
 | All GitLab Team Members | Awareness of responsibilities as it relates to information security; adherence to information security controlled documents; reporting of suspected security violations |
 
@@ -83,7 +84,7 @@ The ISMS council, comprised of Security and Privacy (Legal) leadership, shall me
 
 ### Planning
 
-GitLab has implemented a formal [Security Operational Risk Management (“StORM”) program]({{< ref "storm-program" >}}) to identify, rank, track, and treat cybersecurity, IT, and privacy operational risks in support of GitLab's organization-wide objectives. The process for selecting in scope information security controls is executed by the Security Compliance team, leveraging technical functionality from the third party GRC application, and overseen by the Security Risk team. Implementation status is captured in GitLab's GRC application as well as in the Statement of Applicability.
+GitLab has implemented a formal [Security Operational Risk Management ("StORM") program]({{< ref "storm-program" >}}) to identify, rank, track, and treat cybersecurity, IT, and privacy operational risks in support of GitLab's organization-wide objectives. The process for selecting in scope information security controls is executed by the Security Compliance team, leveraging technical functionality from the third party GRC application, and overseen by the Security Risk team. Implementation status is captured in GitLab's GRC application as well as in the Statement of Applicability.
 
 The GitLab Security team executes quarterly cascading [Objectives and Key Results (OKRs)](/handbook/company/okrs) to define our security objectives and a plan for achieving those objectives while ensuring alignment throughout the organization.
 
@@ -115,12 +116,12 @@ If using a third party service to outsource or supplement security processes, a 
 GitLab monitors, measures, and improves security controls through various continuous monitoring measures, such as:
 
 - [Continuous control testing/Annual ISMS internal compliance audits]({{< ref "security-control-lifecycle" >}})
-- [External audits (SOC 2 Type 2, TISAX, customer security assessments)]({{< ref "./security-assurance/security-compliance/certifications" >}})
+- [External audits (SOC 2 Type 2, TISAX, customer security assessments)](security-assurance/security-compliance/certifications/)
 - [Annual security operational risk assessments]({{< ref "storm-program" >}})
 - [Annual third-party penetration testing]({{< ref "penetration-testing-policy" >}})
 - [Ongoing third party scorecard monitoring (BitSight)]({{< ref "independent_security_assurance#third-party-security-ratings" >}})
-- [Infrastructure Vulnerability scanning]({{< ref "./product-security/vulnerability-management" >}})
-- [Application Vulnerability Scanning]({{< ref "./product-security/application-security/vulnerability-management" >}})
+- [Infrastructure Vulnerability scanning](product-security/vulnerability-management/)
+- [Application Vulnerability Scanning](product-security/application-security/vulnerability-management/)
 - [HackerOne bug bounty program]({{< ref "hackerone-process" >}})
 - [Audit log monitoring]({{< ref "audit-logging-policy" >}})
 - ISMS Council (annual management review)
@@ -133,7 +134,7 @@ As part of GitLab's tier 2 security operational risk program, each risk identifi
 
 ## Exceptions
 
-Exceptions to Information Security policies or procedures will be tracked as per the [Information Security Policy Exception Management Process]({{< ref "_index.md#information-security-policy-exception-management-process" >}}).
+Exceptions to Information Security policies or procedures will be tracked as per the [Information Security Policy Exception Management Process](/handbook/security/controlled-document-procedure/#exceptions).
 
 ## References
 
