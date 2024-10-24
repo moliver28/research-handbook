@@ -61,7 +61,6 @@ You can find someone to review your merge requests by:
 2. Utilizing Reviewer Roulette which will drop suggestion(s) for both a maintainer an reviewer currently available on our team. The suggestion will be listed as on comment on the change associated with your MR *Reviewer Roulette is only availble for the Buyer Experience project*
 3. Utilizing the [Gitlab Review Workload Dashboard](https://gitlab-org.gitlab.io/gitlab-roulette/?currentProject=buyer-experience) this will randomly select a maintainer and reviewer for you *Gitlab Review Workload Dashboard is only availble for the Buyer Experience project*
 
-
 ## Review turnaround time
 
 Because [unblocking others is always a top priority](/handbook/values/#global-optimization),
