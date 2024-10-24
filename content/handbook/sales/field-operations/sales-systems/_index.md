@@ -17,7 +17,7 @@ CRM Systems exists to support the GitLab field organization by providing reliabl
 - **Kiran B - Senior IT Enterprise Applications Engineer** GitLab handle: [kiranbsalesforce] (https://gitlab.com/kiranbsalesforce) Slack handle: @Kiran
 - **Obbu Sekhar - Senior IT Enterprise Applications Engineer** GitLab handle: [sekharobbu](https://gitlab.com/sekharobbu) Slack handle: @osekhar
 - **Tai Schuller - Staff IT Enterprise Applications Engineer** GitLab handle: [tschuller](https://gitlab.com/tschuller) Slack handle: @Tai Schuller
-- **Analissa Moreno - IT Enterprise Applications Administrator** GitLab handle: [ana-moreno](https://gitlab.com/ana-moreno) Slack handle: Ana Moreno
+- **Analissa "Ana" Moreno - IT Enterprise Applications Administrator** GitLab handle: [ana-moreno](https://gitlab.com/ana-moreno) Slack handle: Ana Moreno
 - **Brett Latham - Senior Business Systems Administrator** GitLab handle: [Dlatham](https://gitlab.com/Dlatham) Slack handle: @Brett Latham
 - **Mohamed Hussain - Business Systems Administrator** GitLab handle: [Moh.hussain](https://gitlab.com/Moh.hussain) Slack handle: @Mohamed Hussain
 - **Neha Sharma - IT Enterprise Applications Administrator** GitLab handle: [nksharma2](https://gitlab.com/nksharma2) Slack handle: @Neha Sharma
@@ -154,45 +154,46 @@ Persuant with GitLab's [best practices for password security](/handbook/security
 2. In the issue description, include the name of the sandbox and the names of any users who need to be granted access to the sandbox.
 3. Link the issue to any other issues which are blocked pending the refresh of this environment.
 
-#### Refresh process for sandboxes maintained as part of the SDLC process
+#### Refresh process for Sandboxes maintained as part of the SDLC process
 
 1. The Sales Systems team will have an issue tracked in GitLab with a label of `SalesSystems` and `Sandbox Refresh Checklist` for the refresh of each environment with a due date of the refresh date.
+   1. The Sales Systems team has moved to the usage of a standard Template for each major Sandbox refresh. All steps will be outlined on each template and updated as necessary.
 2. On the date of the refresh, the assigned Sales Systems team member will kick off the refresh in production.  Note: A sandbox refresh can take up to 72 hours to complete.
 3. After the refresh completes, the Sales Systems team will complete the following steps to set the environment.
 
-|Refresh step|Owner|To be completed by|Environments|Action steps|
+##### Pre-Refresh Steps
+|Pre-Refresh step|Owner|To be completed by|Environments|Action steps|
 |-----|-----|-----|-----|-----|
-|Reconnect RingLead user|@ksavage|@ksavage/@rrosu|STAGING|1. Login to RingLead.<br>2. Locate the SFDC connections page.<br>3. Authenticate with the RingLead Integration user using the user password for this account in the production org (stored in 1Password).|
-|Disable Scheduled Apex Jobs|@sheelaviswanathan |@sheelaviswanathan |||
-|Disable Outbound Messages or point them to QA server endpoints|@sheelaviswanathan |@sheelaviswanathan  |||
-|Reconfigure External Web Service calls for a non-production environment|@sheelaviswanathan |@sheelaviswanathan  |||
-|Disable Analytic Snapshots [ If any ]|@sheelaviswanathan |@sheelaviswanathan  |||
-|Get the new Sandbox Org ID and instance Id if required|@sheelaviswanathan |@sheelaviswanathan  |||
-|Remove the email suffix for required users to send email with new sandbox link<br/><br/>Required Users in Staging Sandbox<br/><br/>jbren<br/>jpetr<br/>msnow<br/>mclyn<br/>lscho<br/>svisw|@sheelaviswanathan |@sheelaviswanathan  |||
-| Create any required users who don't exist in Production|@sheelaviswanathan |@sheelaviswanathan  |||
-| Regenerate (or completely disable) Inbound Email Services|@sheelaviswanathan |@sheelaviswanathan  |||
-|Delete / modify entries in Remote Site Settings if you don't want to perform certain callouts.|@sheelaviswanathan |@sheelaviswanathan  |||
-|Disable "Big Deal Alert" on Opportunities [ If any]|@sheelaviswanathan |@sheelaviswanathan  |||
-|If you have managed packages with API keys ask support teams to regenerate the keys [If Needed]|@sheelaviswanathan |@sheelaviswanathan |||
+|Date Alignment|Systems|Systems|Developer, Test1, Test2|Align the date of the refresh within the team|
+|Date Publicization|Systems|@ana-moreno|Developer, Test1, Test2|Publicize the date of the refresh ahead of time so affected business stakeholders are aware and ready for post-refresh date steps.|
+|Sandbox Access Group Access|@ana-moreno|@ana-moreno (or User Management)||Review recent login access to relevant sandbox and add any missing or new users to relevant Sandbox Access group.|
+|Disable Marketo sync|Marketing Operations|Marketing Operations|Test1|Contact MOPs to disable the SFDC sync (before refresh).|
+||||||
+
+##### Post-Refresh Steps
+|Post-Refresh step|Owner|To be completed by|Environments|Action steps|
+|-----|-----|-----|-----|-----|
+|Get the new Sandbox Org ID and instance Id if required|@ana-moreno|@ana-moreno||Find and update the Org ID/Instance ID on the Refresh issue|
+|Backup & Anonymize Data|@ana-moreno|@ana-moreno (Or Admin user with Own access)|Developer, Test1, Test2|Create a backup of the sandbox and anonymize the data when backup is complete.|
+|Reconnect RingLead user|@rrosue|@rrosu|Test1|After the RingLead Integration user has been reset and updated in 1Password, proceed with the following: <br> 1. Login to RingLead.<br>2. Locate the SFDC connections page.<br>3. Authenticate with the RingLead Integration user using the user password for this account in the production org (stored in 1Password).|
+|Reconnect CustomerDot|@ebaquet|@ebaquet & team||Follow instructions on the relevant Refresh template for which user to reset. <br>1. Reset the CustomerDot user for the org and retrieve the Security Token and update in 1Password.<br>2. Retrieve the Subscription Customer Portal Consumer Key & Consumer Secret and update the 1Pass user as well.<br> 3. Provide the login to the Fulfillment team for reconnection.|
+|Reset User Passwords|@monalibhide <br> @xliawang <br> @bienrcb |@sheelaviswanathan  ||Reset user passwords where requested/needed. If users are frozen, unfreeze and reset.|
+|Regenerate API Tokens/Keys|@sheelaviswanathan |@sheelaviswanathan ||If you have managed packages with API keys, ask the System team to regenerate the keys and update the user in 1Password|
 |If you have "power users" that will coordinate User Acceptance Testing - create entries in Delegated Administration area so they can "login as"|@sheelaviswanathan |@sheelaviswanathan |||
-|Break Email addresses on Contacts, Leads etc. with suffix like it's done for users (if there's any risk of routine communication kicking in for example from workflow email alerts)|@sheelaviswanathan |@sheelaviswanathan  |||
-|Disable Weekly Data Export|@sheelaviswanathan |@sheelaviswanathan  |||
-|For any sensitive email templates it might be worthwhile to change content (fake logo, big red "TEST ONLY" etc)|@sheelaviswanathan |@sheelaviswanathan  |||
-|Disable Marketo sync|Marketing Operations|Marketing Operations|Staging|Contact MOPs to disable the SFDC sync (before refresh).|
-|Create and turn on |Marketing Operations|Marketing Operations|Marketing Sandbox/Staging| Must create fields for `Marketo Sync` (Boolean) on Leads and Contacts in staging before reconnecting. This box should be unchecked, but editable by Mops profile and added to page layout for Mops. Mops will need to request Marketo support to set up custom sync before reconnecting. |
+|Reestablish Marketo Sync|Marketing Operations|Marketing Operations|Marketing Sandbox/Staging| Must create new field for `Marketo Sync` (Boolean) on Leads and Contacts in staging before reconnecting. <br>This box should be unchecked, but editable by Mops profile and added to page layout for Mops. Mops will need to request Marketo support to set up custom sync before reconnecting. |
 |Re-authenticate Marketo Sync (Systems Tasks)|Sales Systems|Sales Systems|Staging|[Configure connected Oauth App](https://experienceleague.adobe.com/docs/marketo/using/product-docs/crm-sync/salesforce-sync/log-in-using-oauth-2-0.html?lang=en), provide consumer secret, key and new OrgID to Mops. |
 |Re-authenticate Marketo Sync (Mops Tasks)|Marketing Operations|Marketing Operations|Marketo Sandbox| Create support ticket to re-map. Once re-map is completed, connect by updating [OAuth information](https://experienceleague.adobe.com/docs/marketo/using/product-docs/crm-sync/salesforce-sync/log-in-using-oauth-2-0.html?lang=en). Then, click `Login with salesforce` > use custom domain > `gitlab--staging` and login with Marketo Integration details in 1pw vault. Systems may need to provide verification code sent to admin email. Confirm mappings and sync.|
-| Setup new DKIM key and add to gitlab.com DNS|Sales Systems|Sales Systems|STAGING| Setup a new DKIM key following the [instructions here](https://help.salesforce.com/s/articleView?id=sf.emailadmin_setup_dkim_key.htm&type=5).  Once the key has been published, provide the CNAME and Alternate CNAME values to the GitLab IT team to add to the DNS for gitlab.com.  Once this is done, confirm an email can be sent to an external email address from a Case using the 'Send an Email' feature, and the email is delivered without issue.|
+| Setup new DKIM key and add to gitlab.com DNS|Sales Systems|Sales Systems|Test1| Setup a new DKIM key following the [instructions here](https://help.salesforce.com/s/articleView?id=sf.emailadmin_setup_dkim_key.htm&type=5).  Once the key has been published, provide the CNAME and Alternate CNAME values to the GitLab IT team to add to the DNS for gitlab.com.  Once this is done, confirm an email can be sent to an external email address from a Case using the 'Send an Email' feature, and the email is delivered without issue.|
 
-##### Refresh cadence
+#### Refresh cadence
 
 Sandboxes which are managed as part of our team's SDLC process will follow a regular refresh schedule, as detailed below.
 
-|Sandbox name|Classic URL|Sandbox type|Used for|Refresh cadence|Last refresh date|Next refresh issue|Zuora Billing Sandbox|Zuora Billing Sandbox Tenant ID|
-|-----|-----|-----|-----|-----|-----|-----|-----|-----|
-|[Developer](https://gitlab--developer.sandbox.my.salesforce.com/?ec=302&startURL=%2Fvisualforce%2Fsession%3Furl%3Dhttps%253A%252F%252Fgitlab--developer.sandbox.lightning.force.com%252Flightning%252Fsetup%252FManageUsers%252Fpage%253Faddress%253D%25252F005PL0000000MuzYAE%25253Fnoredirect%25253D1%252526isUserEntityOverride%25253D1%252526retURL%25253D%2525252Fsetup%2525252Fhome)|https://gitlab--developer.sandbox.my.salesforce.com/home/home.jsp?source=lex|Partial|Developer integration and testing org. |As needed, up to once per month, minimum once per quarter|2/14/2024|TBD|Developer Sandbox (i.e. "Dev Sandbox")|10002574|
-|[STAGING](https://gitlab--staging.sandbox.my.salesforce.com/?ec=302&startURL=%2Fvisualforce%2Fsession%3Furl%3Dhttps%253A%252F%252Fgitlab--staging.sandbox.lightning.force.com%252Flightning%252Fpage%252Fhome)|https://gitlab--staging.sandbox.my.salesforce.com/home/home.jsp?source=lex|Full|Used for UAT of Systems . Also used for troubleshooting.|As needed, up to once per month, minimum once per quarter|11/11/2022 |TBD|Central Sandbox 1 (i.e. "Staging Sandbox")|10000796|
-|[LIGHTNING](https://gitlab--lightning.sandbox.my.salesforce.com/?ec=302&startURL=%2Fvisualforce%2Fsession%3Furl%3Dhttps%253A%252F%252Fgitlab--lightning.sandbox.lightning.force.com%252Flightning%252Fpage%252Fhome)|https://gitlab--lightning.sandbox.my.salesforce.com/home/home.jsp?source=lex|Full|Pre-production org. Used for UAT of Systems issues prior to release to production. Also used for troubleshooting.|As needed, up to once per month, minimum once per quarter|03/26/2024|TBD|Central Sandbox 2|10000719|
+|Sandbox name|URL|Sandbox type|Used for|Refresh cadence|Last refresh date|Next refresh issue|Zuora Billing Sandbox|Zuora Billing Sandbox Tenant ID|Critical Connected Integrations|
+|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|
+|[Developer](https://gitlab--developer.sandbox.my.salesforce.com)|https://gitlab--developer.sandbox.my.salesforce.com|Partial|Developer integration and testing org. |As needed, up to once per month, minimum once per quarter|2/14/2024|[TBD](https://gitlab.com/gitlab-com/sales-team/field-operations/systems/-/issues/6403)|Developer Sandbox (i.e. "Dev Sandbox")|10002574||
+|[Test1](https://gitlab--test1.sandbox.my.salesforce.com)|https://gitlab--lightning.sandbox.my.salesforce.com|Full|Pre-production org. Used for UAT of Systems issues prior to release to production. Also used for troubleshooting.|As needed, up to once per month, minimum once per quarter|[06/10/24](https://gitlab.com/gitlab-com/sales-team/field-operations/systems/-/issues/5698)|[TBD](https://gitlab.com/gitlab-com/sales-team/field-operations/systems/-/issues/6663#note_2171037981)|Central Sandbox 2|10000796|CustomerDot<br>Marketo<br>Vartopia<br>RingLead<br>Traction<br>PSQuote|
+|[Test2](https://gitlab--test2.sandbox.my.salesforce.com)|https://gitlab--test2.sandbox.my.salesforce.com|Full|Used for UAT of Systems . Also used for troubleshooting.|As needed, up to once per month, minimum once per quarter|[08/15/24](https://gitlab.com/gitlab-com/sales-team/field-operations/systems/-/issues/5155) |TBD|Central Sandbox 1 (i.e. "Staging Sandbox")|10000719|CustomerDot|
 
 ## <i class="fas fa-users" id="biz-tech-icons"></i> How we Operate
 
