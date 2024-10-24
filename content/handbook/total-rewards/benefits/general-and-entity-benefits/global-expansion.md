@@ -36,7 +36,32 @@ There is no plan to offer life insurance at this time as team members can access
 
 ### Bike Leasing Benefit
 
-Global Expansion, through partnership with the local provider, is able to offer a bike leasing option to team members via [BikeLeasing.AT](https://bikeleasing.at/arbeitnehmer#c2991). Once a team member signs up, the monthly installments will be deducated from the team members salary every month. If you have any questions regarding this benefit, please reach out to the Global Expansion team via `gx_employeeexperience@globalexpansion.com`.
+Global Expansion, through partnership with the local provider, is able to offer a bike leasing option to team members via [BikeLeasing.AT](https://bikeleasing.at/arbeitnehmer#c2991). 
+
+#### Benefits of Bike Leasing:
+
+- Team members can lease bikes at a lower cost than purchasing, thanks to tax advantages and bulk pricing offered by leasing companies.
+- Encourages team members to stay fit and healthy by cycling regularly, which can lead to better overall well-being and potentially reduce sick days.
+- Promotes eco-friendly commuting, helping reduce a company's carbon footprint.
+- The cost is deducted from the team member's salary, spread over a fixed period, making the bike more affordable.
+
+#### Salary Deduction:
+
+The exact salary deduction depends on the terms of the lease agreement, but typically, a portion of the gross salary is deducted monthly. This could be calculated based on the bike's value over the leasing period (usually 36 months).
+
+#### Tax Efficiency:
+
+Bike leasing is considered a tax-efficient measure in Austria. Since the salary deduction occurs pre-tax, it reduces the employee’s taxable income, thus lowering their income tax liability.
+
+#### Process if resignation is submitted:
+
+If you resign before the end of the leasing period, you will generally have a few options:
+
+- Pay the Remaining Balance: You may be required to settle the outstanding lease payments (remaining balance) in a lump sum or through continued payments after resignation.
+- Purchase the Bike: Buy the bike at the end of the lease or upon resignation by paying a predefined residual value.
+- Transfer to a New Employer/Leasing Company: It may be possible to transfer the leasing contract to a new employer, but this depends on the policies of both the current leasing provider and the new company. So this would need to be clarified with bikeleasing.at directly.
+
+If you have any questions regarding this benefit, please reach out to the Global Expansion team via `gx_employeeexperience@globalexpansion.com`.
 
 ### GX Leave policy
 
