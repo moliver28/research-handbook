@@ -92,7 +92,7 @@ and then the feature flag is enabled for a larger group of customers. This proce
 repeats until the feature flag is enabled for all customers, the feature is considered
 stable and the feature flag can be removed.
 
-While feature flags are useful for rapidly changing the behavior of the application,
+While feature flags are useful for rapidly changing behavior of the application,
 having too many different combinations of feature flags can cause interactions that
 produce unforeseen behavior. It can also make
 it difficult to predict how a new change will behave and can make
@@ -124,12 +124,6 @@ ChatOps can communicate with Tissue to set feature flags on cells. ringctl can
 be used to create a patch for modifying feature flag gate values. Tissue's change
 management system will then rollout the feature flag change to the rings.
 
-ChatOps commands will provide an interface for targeting rings and cells. Targeting
-cells will only be allowed if the cell is in the quarantine ring.
-
-Feature flag changes will be recorded in the
-[feature flag log project](https://gitlab.com/gitlab-com/gl-infra/feature-flag-log).
-
 #### Support for feature flag actors
 
 Feature flags on cells will support the same actors (project, group, user, current_request,
@@ -143,29 +137,29 @@ actor (https://gitlab.com/gitlab-org/gitlab/-/issues/498238).
 
 ### Short term
 
+#### Iteration 1
+
 ChatOps will provide an interface for engineers to select a ring that the feature flag
 change should be rolled out to.
 
-ChatOps communicates with Tissue, and Tissue sets the feature flag on every cell
-of the ring, simultaneously.
+ChatOps communicates with Tissue, and Tissue sets the feature flag on every cell,
+one ring at a time.
 
-If Tissue fails to set the feature flag on any cell of the ring, an error is displayed
-to the initiator of the ChatOps command on Slack.
-
-The engineer then watches the health of the ring in which the feature flag was set,
-and executes the command to set the feature flag on the next ring if the previous
-ring is healthy.
-If the feature flag was set for a percentage of actors or requests, the engineer
-executes the command to increase the percentage of actors/requests on the same
-ring.
+If Tissue fails to set the feature flag on any cell of the ring, after a few retries,
+an error is displayed to the initiator of the ChatOps command on Slack.
 
 When a feature flag change is rolled out to a ring, create an issue on the
-[feature flag log project](https://gitlab.com/gitlab-com/gl-infra/feature-flag-log).
+[feature flag log project](https://gitlab.com/gitlab-com/gl-infra/feature-flag-log)
+and add a comment to the feature flag rollout issue.
 
-When the current state of a feature flag is queried, Tissue will reach out to each
-cell.
+When the current state of a feature flag is queried, Tissue will query each cell.
 
-### Medium term
+Epic: https://gitlab.com/groups/gitlab-com/gl-infra/-/epics/1423
+
+#### Iteration 2
+
+ChatOps commands will provide an interface for targeting cells. Targeting
+cells will only be allowed if the cell is in the quarantine ring.
 
 The current state of feature flags in each cell should be cached. When queried
 for the current state of a feature flag, Tissue can respond from the cache
@@ -178,24 +172,27 @@ to feature flags in a cell.
 ### Long term
 
 Rollout of feature flag changes should be automated as much as possible. Metrics
-should be defined for each feature flag, to allow Tissue to automate the rollout.
+and logs should be defined for each feature flag, to allow Tissue to automate the rollout.
 The initiator indicates upto which ring the change should be rolled out. Rollout
 will start with ring 0. It will skip ring 1 (legacy cell), and continue with ring 2.
 
 #### Gradual Rollout
 
-Gradual rollout will require engineers to define metrics and thresholds that can be used to determine
-if the feature being gated is behaving in a healthy manner.
+Gradual rollout will require engineers to define metric and log queries, and
+thresholds that can be used to determine if the feature being gated is behaving
+in a healthy manner.
 
 - The initiator indicates upto which ring the rollout should occur.
-- After rollout to a ring is complete, rollout will pause. After a period of time, if the metrics
-  (FF metrics as well as general metrics) indicate that the ring that the FF was rolled out to
-  continues to be healthy, rollout will continue to the next ring.
+- After rollout to a ring is complete, rollout will pause. After a period of time,
+  if the metrics (FF metrics as well as general metrics) or logs indicate that
+  the ring that the FF was rolled out to continues to be healthy, rollout will
+  continue to the next ring.
 - If setting the flag fails on a cell in a ring, rollout will stop at that ring, and
   the engineer who initiated the rollout will be notified.
-- If the FF metrics indicate that a ring that the FF has been rolled out to is unhealthy,
+- If the metrics or logs indicate that a ring that the FF has been rolled out to is unhealthy,
   rollout will be stopped.
-- A feature flag can also be rolled back if metrics indicate it is unhealthy.
+- A feature flag can also be rolled back if metrics or logs indicate it is unhealthy.
+  A separate threshold can be defined for rolling back.
 
 #### Immediate rollout
 
@@ -212,14 +209,11 @@ Immediate rollout should only be used by SREs for mitigating incidents.
 Feature flags can be set on a GitLab instance through the [feature flag API](https://docs.gitlab.com/ee/api/features.html),
 or through the Rails console.
 
-- ChatOps triggers a pipeline in Tissue.
-- Tissue can then trigger API calls to each cell itself, or it can call Instrumentor
-  to set the feature flags.
-- Instrumentor has access to the toolbox pod for each cell, and the feature flag
-  can be set using that. It will involve booting a rails console, which could
-  take a minute or more.
-- For Tissue to trigger API calls to the cells, it will need admin tokens for every
-  cell.
+| API                                                     | Instrumentor                                                                                          |
+|---------------------------------------------------------|-------------------------------------------------------------------------------------------------------|
+| Tissue can trigger API calls to each cell itelf.        | Tissue can trigger an Instrumentor pipeline to set feature flags.                                     |
+| Tissue will need access to admin tokens for every cell. | Instrumentor has access to the toolbox pod for each cell, and the feature flag can be set using that. |
+|                                                         | It will involve booting a rails console, which will slow down the process.                            |
 
 ### Storing feature flag configuration
 
@@ -228,26 +222,25 @@ We should treat feature flag configuration as infrastructure-as-code, so that ch
 can be easily tracked and managed. With cells, we will need feature flag configuration
 to live in a file somewhere.
 
-- Feature flag desired state can be stored in tenant models, or in a separate file
+- Feature flag configuration can be stored in tenant models, or in a separate file
   per ring or per cell.
 - Changes to the tenant model are usually applied by instrumentor.
 - Keeping this information outside the tenant model could result in information
   about the cell being stored in two locations. We could link the other file to the tenant model.
 - One of the factors in consideration should be what happens when a cell is moved?
   Information in the tenant model will move along with the cell, but if feature
-  flag desired state is stored outside the cell, it will also need to be moved.
+  flag configuration is stored outside the cell, it will also need to be moved.
 
-### Caching feature flag current state
+### Caching current feature flag state
 
 One of the most common operations performed with feature flags is to query the
 gate values of a feature flag. Querying every cell to get this information
 every time an engineer requests the current state of a feature flag will be slow
 and resource intensive.
 
-Tissue can cache persisted features and their gate values per ring, and per cell if required.
-At regular intervals, Tissue can pull all features and their gate values from each
-cell using the [feature flag API](https://docs.gitlab.com/ee/api/features.html#list-all-features)
-or Instrumentor. This can also be done after a deployment to a ring.
+Tissue can cache persisted feature flags and their gate values per cell.
+At regular intervals, Tissue can pull all feature flags and their gate values from each
+cell. This can also be done after a deployment to a ring.
 
 ## Alternative Solutions
 
