@@ -90,6 +90,7 @@ Development experience:
 | Member | Tetiana Chupryna | Senior Backend Engineer, Duo Chat |
 | Member | Mohamed Hamda | Senior Backend Engineer, Custom models |
 | Member | Dylan Bernardi | Backend Engineer, Editor Extensions |
+| Member | Shola Quadri | Associate Backend Engineer, Code Creation |
 
 ### Non-goals
 
