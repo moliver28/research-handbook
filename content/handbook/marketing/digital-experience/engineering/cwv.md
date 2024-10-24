@@ -8,25 +8,18 @@ Core Web Vitals (CWV) are a set of performance metrics introduced by Google to m
 ## Key Metrics
 
 1. Largest Contentful Paint (LCP): Measures loading performance. LCP represents the time it takes for the largest visible content element (e.g., image or block of text) to appear in the viewport.
- - Target: LCP should occur within 2.5 seconds of when the page first starts loading.
+- Target: LCP should occur within 2.5 seconds of when the page first starts loading.
 2. Cumulative Layout Shift (CLS): Measures visual stability. CLS tracks how much the layout shifts during the loading process. A page with minimal unexpected shifts provides a better experience.
- - Target: A CLS score of less than 0.1.
+- Target: A CLS score of less than 0.1.
 3. Interaction to Next Paint (INP): Measures interactivity. INP evaluates how quickly a webpage responds to user inputs, such as clicks or keyboard events.
- - Target: INP should be less than 200 milliseconds.
+- Target: INP should be less than 200 milliseconds.
 
 ## Importance of Core Web Vitals
 
 Core Web Vitals are part of Google’s overall page experience signals, which assess how users perceive their experience interacting with a web page. Websites that score well on Core Web Vitals tend to perform better in search rankings and offer improved user engagement. Ensuring these metrics are optimized can lead to reduced bounce rates, higher conversions, and better SEO performance.
 
+
 ## Tools for Monitoring Core Web Vitals
-
-There are several tools that can help us monitor and improve Core Web Vitals. These tools provide insights into performance, SEO health, and user experience.
-
-|Tool|Use Cases|Core Web Vitals|Other Features|Cons|
-Google Analytics|Track traffic, audience insights, conversions, and e-commerce performance.|Indirectly (via user behavior insights).|	Traffic sources, user behavior, real-time activity, audience insights, conversion tracking, e-commerce data.|Data sampling, delayed reports, privacy concerns, not focused on performance.
-|Google Search Console|	Monitor search performance, fix SEO issues, and track Core Web Vitals.|	LCP, CLS, INP|	Submit sitemaps, check indexing, monitor backlinks, track mobile usability.|Limited to Google Search, delayed data, limited historical data (up to 16 months).|ContentKing|Real-time SEO monitoring, track changes, and audit on-page SEO issues.|LCP, CLS, INP|Real-time SEO health monitoring, change tracking, on-page SEO audits, version history, team collaboration.|Limited to SEO insights, doesn’t replace full manual SEO audits.|DebugBear|Performance monitoring tool focused on page speed and Core Web Vitals.|LCP, CLS, INP|Page speed analysis, simulate network conditions, track performance over time, third-party script monitoring.|No traffic or SEO insights, limited integrations.|
-
-## Detailed Overview of Each Tool
 
 1. Google Analytics
 
