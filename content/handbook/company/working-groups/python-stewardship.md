@@ -89,6 +89,7 @@ Development experience:
 | Member | Stephan Rayner | Senior ML Engineer, Model Validation |
 | Member | Tetiana Chupryna | Senior Backend Engineer, Duo Chat |
 | Member | Mohamed Hamda | Senior Backend Engineer, Custom models |
+| Member | Dylan Bernardi | Backend Engineer, Editor Extensions |
 
 ### Non-goals
 
