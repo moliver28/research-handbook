@@ -10,7 +10,7 @@ description: How to engage with product Management
 TODO:  Need to review the processes in the handbook with Product Management, and determine what updates are needed with the introduction of the SME Program.
 
 1. Review [Customer Issues Prioritization Framework](/handbook/product/product-processes/customer-issues-prioritization-framework/)  
-2. How to [Engage Product Managers](/handbook/product/product-management/\#how-to-engage-product-managers)
+2. How to [Engage Product Managers](/handbook/product/product-management/#how-to-engage-product-managers)
 
 SMEs should relieve some load on the PMs for the most discussed and impactful product areas by:
 
