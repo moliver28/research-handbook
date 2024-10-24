@@ -88,6 +88,7 @@ Development experience:
 | Member | Tan Le | Staff ML Engineer, Model Validation |
 | Member | Stephan Rayner | Senior ML Engineer, Model Validation |
 | Member | Tetiana Chupryna | Senior Backend Engineer, Duo Chat |
+| Member | Dylan Bernardi | Backend Engineer, Editor Extensions |
 
 ### Non-goals
 
