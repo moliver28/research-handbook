@@ -66,7 +66,9 @@ If at any point during the refinement process it is determined that something is
 
 ### Completing work
 
-When work has been completed, be sure to update the relevant issues to be `workflow::complete` (or other appropriate `workflow::` label).
+When work has been completed:
+
+1. Update the `workflow::` label in the relevant issue to the appropriate state (likely `workflow:: complete`)
 
 ### Refinement, Design, and Build
 
