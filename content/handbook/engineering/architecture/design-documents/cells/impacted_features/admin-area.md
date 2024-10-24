@@ -199,6 +199,8 @@ sequenceDiagram
     Non-leader cell-->Non-leader cell: Encrypted attributes are decrypted with the<br>transit key, and re-encrypted with the cell's key
 ```
 
+This logic would be implemented in a new Rails initializer at `config/initializers/2_application_settings.rb`.
+
 ##### Periodically
 
 On non-leader cells, a CRON-based background job would perform the same request as the one described above for boot time synchronisation to ensure no settings have drifted.
