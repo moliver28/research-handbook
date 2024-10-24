@@ -147,67 +147,6 @@ If the answer to any of the above questions is "no", our team will collaborate w
 1. Find another team that is better suited to deliver the work.
 1. Come to an agreement that the work should not be done.
 
-### Evangelism on social media
-
-The GitLab for Education team builds thought leadership, connects with our community, and increases our reach on social media.
-We use social media and community engagement to reach stakeholders across the world.
-On social media, we evangelize the following topics:
-
-* Education and learning: Tips from own experience: Workshops, slides, blog posts, videos, etc.
-* Events live tweets / tweet storms: Amplify talks with screenshots and messages.
-* Community best practices and GitLab insights
-* Live demos and lesson plans
-
-X/Twitter and LinkedIn are our primary platforms.
-Both platforms have different target audiences and content distribution.
-We are always careful to choose the right platform to accomplish our goals, keeping the following guidelines in mind:
-
-* Keep the message short and appealing. If you have multiple sentences, break them down into a list.
-  * 💡 Use emoji as list markers, this one to learn something.
-  * 🏗 This way users learn what you want to share and build together.
-  * 🔥 Choose the right emoji. This one expresses a fast success for example.
-* Minimize hashtag use. Often a single hashtag is good enough, but too many clutters the message.
-  * `#education` or `#DevOps` can be used, but make sure to only include relevant tags.
-* Too many emoji can hide key messages.
-* Use an appealing screenshot image or funny animated GIF to make people stop when scrolling.
-* Do not start with an `@` character on X/Twitter, this can be hidden as reply and hinder audience reach on X/Twitter. You can add a period at the end, or restructure your sentence to work better with an intro. `Hey @gitlab, how's the new release looking?`
-
-Education Evangelists strive to become thought leaders on social media platforms.
-We do this with the following guidelines and strategies in mind:
-
-* Attract more active followers and therefore improve impression numbers and engagements.
-  * Users can follow you on LinkedIn, you do not need to accept every invitation. If you plan to extend your business network, ensure that profile details such as private email/phone are not shared with anyone.
-* Help and educate users
-* Analyse profile statistics
-  * The why on the most impressions, top media tweet or most engaging tweets
-* Follow users who share interesting stories
-  * They may follow back, increasing the follower count.
-* Retweet with comment and add your own thoughts or a funny emoji.
-  * Mix this with "normal" retweets.
-* Engage with tweets, like often, add replies and join the discussion.
-  * Say `Thanks for sharing :emoji:` whenever needed
-  * Share positive vibes
-  * Follow the [team member social media policy](/handbook/marketing/team-member-social-media-policy/)
-* Listen to criticism and ignore hate speech.
-* Do not criticize GitLab competitors.
-  * Instead, engage with their communities and learn how to improve.
-* Channel back feedback to product and engineering teams.
-* Adopt new ideas with live streaming or community coffee chats.
-  * Engage community members in discussions.
-  * Tag people and keep the tone ["at the table"](/handbook/marketing/brand-and-product-marketing/brand/brand-activation/brand-standards/)
-* Just as you are more than your work, your social accounts are more than work related. Be yourself and don't be afraid to share your own life to the degree that you're comfortable with.
-* Share your impressions and thoughts on work with `#allremote` and `#remotework`
-* Regularly tweet about daily work. Use the hash tag `#LifeAtGitLab` to share insights and funny moments.
-* Pick outstanding GitLab features from another stage/group and post about them (could be a blog post, screenshot, etc.).
-  * Share praise in Slack with linking the Tweet/LinkedIn URL.
-
-### Evangelism on Bambu
-
-[Bambu](/handbook/marketing/integrated-marketing/digital-strategy/social-marketing/team-member-social-advocacy/#bambu-our-social-advocacy-tool) is an app used to create suggested posts so other GitLab team members can use their own social media accounts to tweet relevant and useful articles, media, and other information to their own networks.
-The Education Evangelist should take the [training available](https://www.youtube.com/watch?v=HqeGYKkcovs) (Note: you must be logged into your GitLab unfiltered youtube account to view) to become a curator in order to be able to provide content to spread awareness of the Education program.
-Once you've finished the training, tag the Social Media specialist in an issue and request access.
-From there, follow the instructions in the [handbook](/handbook/marketing/integrated-marketing/digital-strategy/social-marketing/social-advocacy-curators/).
-Finally, add yourself to the table of known curators on the [curator page.](/handbook/marketing/integrated-marketing/digital-strategy/social-marketing/social-advocacy-curators/)
 
 Types of content that work well for Bambu include:
 
