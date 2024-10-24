@@ -9,7 +9,7 @@ problems are documented in this section.
 If you find an undocumented issue, you should document it in this section after
 you find a solution.
 
-If you need help developing or testing locally, plese see the [setup guide](ve_vr_setup).
+If you need help developing or testing locally, please see the [setup guide](ve_vr_setup).
 
 For availability of these features please first check the prerequisites listed here: [vulnerability explanation](https://docs.gitlab.com/ee/user/application_security/vulnerabilities/#vulnerability-explanation) and [vulnerability resolution](https://docs.gitlab.com/ee/user/application_security/vulnerabilities/#vulnerability-resolution).
 
