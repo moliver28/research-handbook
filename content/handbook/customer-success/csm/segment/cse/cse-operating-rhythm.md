@@ -28,6 +28,10 @@ Customer Success Operations and CS leaders determine, based on various GitLab he
 
 The CSE Team delivers monthly webinars and hands-on labs that are available to all.  The [webinar calendar](/handbook/customer-success/csm/segment/cse/webinar-calendar/) is published to our website, with a registration link for each.  Webinars are pre-recorded content with CSEs answering Q&A.  Labs provide a hands-on learning experience for each attendee with their own lab environment to work through lab exercises during the session.
 
+#### Creating Webinar Content
+
+The CSE Team works with our content team to create content for our Webinars. In order to create, from start to finish a strong webinar content. We have guidelines and tips and tricks which you can follow over at this link [Webinar Guidelines for CSEs](https://internal.gitlab.com/handbook/customer-success/cse/webinars/)
+
 #### Preparing for and Delivering a Webinar
 
 The upcoming month's webinar dates are added to an issue in the [Customer Success Engineering - Content Project](https://gitlab.com/gitlab-com/customer-success/customer-success-engineering/content/-/issues/?label_name%5B%5D=cse-events%3A%3Asign-up) and the CSE team is asked to sign up as DRIs.
