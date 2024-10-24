@@ -5,8 +5,8 @@ description: "OKRs stands for Objective-Key Results and are our quarterly object
 
 This page generally covers OKRs _at_ GitLab, including:
 
-1. [Considerations and guidance](#okrs-at-gitlab)
 1. [Company and function-level OKR expectations](#company-and-function-level-okr-expectations)
+1. [Considerations and guidance](#okrs-are-what-is-different)
 1. [OKR Process at GitLab](#okr-process-at-gitlab)
 1. [Maintaining the health status of OKRs](#maintaining-the-status-of-okrs)
 1. [Scoring OKRs](#scoring-okrs)
@@ -15,6 +15,16 @@ For information on:
 
 1. What OKRs are, and general guidance on how to forumlate them, please see [the gemeral OKRs page](okrs-basics.md).
 1. How to enter and organize OKRs in GitLab, please see [the OKRs in GitLab page](okrs-in-gitlab.md).
+
+## Overview
+
+[OKRs](okrs-basics.md) are quarterly objectives that help us achieve our [KPIs](../kpis.md), and [yearlies](../yearlies.md).
+
+We do not use it to [give performance feedback](/handbook/people-group/360-feedback/) or as a [compensation review](/handbook/total-rewards/compensation/) for team members.
+
+The [E-Group](/handbook/company/structure/#e-group) does use it for their [Performance Enablement Reviews](/handbook/people-group/learning-and-development/career-development/#performance-enablement-review).
+
+The [Chief of Staff to the CEO](/job-families/chief-executive-officer/chief-of-staff/) initiates and guides the OKR process.
 
 ## Most recent OKRs
 
@@ -26,15 +36,17 @@ Our OKR process and timelines are public and listed on the pages below.
 
 OKRs are internal-only in line with guidance from the [SAFE framework](/handbook/legal/safe-framework/).
 
-## OKRs at GitLab
+## Company and function-level OKR expectations
 
-[OKRs](okrs-basics.md) are quarterly objectives that help us achieve our [KPIs](../kpis.md), and [yearlies](../yearlies.md).
+Company-level [Yearlies](/handbook/company/yearlies/) guide company-level Objectives and Key Results though company-level goals are revisited and set on a quarterly basis. At a minimum, each Function should inherit the company-level Objectives for their function-level Objectives and have 1-3 function level Key Results that supports company Objective and KR attainment each quarter.
 
-We do not use it to [give performance feedback](/handbook/people-group/360-feedback/) or as a [compensation review](/handbook/total-rewards/compensation/) for team members.
+Individual functions and teams have discretion around how much they use OKRs beyond the Yearly cascade level.
 
-The [E-Group](/handbook/company/structure/#e-group) does use it for their [Performance Enablement Reviews](/handbook/people-group/learning-and-development/career-development/#performance-enablement-review).
+### Cadence
 
-The [Chief of Staff to the CEO](/job-families/chief-executive-officer/chief-of-staff/) initiates and guides the OKR process.
+OKRs are part of our company [cadence](/handbook/company/cadence/).
+
+Since OKRs create progress for our [Yearlies](/handbook/company/yearlies/), by achieving our quarterly priorities, we create progress for the rest of the items on the cadence page. By achieving our yearlies, we create progress to achieving our [strategy](/handbook/company/strategy/). Achieving our strategy is key to realizing our [vision](/handbook/company/vision/), [mission](/handbook/company/mission/), and eventually [purpose](/handbook/company/purpose/). In this way, OKRs are quarterly building blocks that create progress toward longer term goals.
 
 ### Alignment
 
@@ -42,7 +54,7 @@ OKRs are our quarterly priorities that create progress toward our [Yearlies](/ha
 
 OKRs are directly aligned to yearlies and not directly aligned to one of the three pillars of the [three year strategy](/handbook/company/strategy/#three-year-strategy).
 
-### OKRs are what is different
+## OKRs are what is different
 
 The OKRs are what we are focusing on this quarter specifically. Our most important work are things that happen every quarter.
 Things that happen every quarter are measured with [Key Performance Indicators](/handbook/company/kpis/).
@@ -71,18 +83,6 @@ You should decide your scoring methodology ahead of time. You might score an OKR
 ### How do I prioritize OKRs in light of other priorities?
 
 OKRs do not replace or supersede core team member responsibilities or performance indicators. OKRs are additive and are essentially a high signal request from your leadership team to prioritize the work. They typically are used to help galvanize the entire company or a set of teams to rapidly move in one direction together. You should aim to complete them unless you have higher priority work that is surfaced and agreed to by leadership.  When surfacing tradeoffs, team members should not factor in how an unmet OKR may impact your executive leadership bonus in their prioritization. They should instead focus on GitLab priorities. If your executive leader still feels that the OKR is more important, they will ask you to *disagree and commit*.
-
-## Company and function-level OKR expectations
-
-Company-level [Yearlies](/handbook/company/yearlies/) guide company-level Objectives and Key Results though company-level goals are revisited and set on a quarterly basis. At a minimum, each Function should inherit the company-level Objectives for their function-level Objectives and have 1-3 function level Key Results that supports company Objective and KR attainment each quarter.
-
-Individual functions and teams have discretion around how much they use OKRs beyond the Yearly cascade level.
-
-### Cadence
-
-OKRs are part of our company [cadence](/handbook/company/cadence/).
-
-Since OKRs create progress for our [Yearlies](/handbook/company/yearlies/), by achieving our quarterly priorities, we create progress for the rest of the items on the cadence page. By achieving our yearlies, we create progress to achieving our [strategy](/handbook/company/strategy/). Achieving our strategy is key to realizing our [vision](/handbook/company/vision/), [mission](/handbook/company/mission/), and eventually [purpose](/handbook/company/purpose/). In this way, OKRs are quarterly building blocks that create progress toward longer term goals.
 
 ## OKR Process at GitLab
 
