@@ -1,5 +1,5 @@
 ---
-title: "Objectives and Key Results (OKRs) at GitLab"
+title: "OKRs at GitLab"
 description: "OKRs stands for Objective-Key Results and are our quarterly objectives. OKRs are how to achieve the goal of the Key Performance Indicators KPIs."
 ---
 

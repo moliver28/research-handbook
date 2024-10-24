@@ -1,5 +1,5 @@
 ---
-title: "OKRs"
+title: "Objectives and Key Results (OKRs)"
 description: "General information on OKRs, criteria, and guidance on how to write them."
 ---
 
