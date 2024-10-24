@@ -1,22 +1,23 @@
 ---
-title: "Professional Services Technical Architect - Job Role"
+title: "Professional Services Technical Architect"
 description: "As a highly visible and customer-facing position, you will work with an exceptional Professional Services organization, and the wider Customer Success team."
 ---
 
 As a highly visible and customer-facing position, you will work with an exceptional Professional Services organization, and the wider Customer Success team, including Professional Services Engineers, Project Managers, and Solution Architects.
-You will play a critical role in the success of Professional Services engagements as we expanded our world class professional consulting organization that has a proven track record of working with clients from different industries around the world. The Professional Services Technical Architect reports to the Regional Manager.
+You will play a critical role in the success of Professional Services engagements as we expanded our world class professional consulting organization that has a proven track record of working with clients from different industries around the world. The Professional Services Technical Architect reports to the Senior Manager, Professional Services Technical Architects.
 
 #### Levels
 
-| Professional Services Technical Architect |
-| - |
-| [Intermediate](#technical-architect) | [Grade 6](/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades) |
-| [Senior](#senior-technical-architect) | [Grade 7](/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades) |
-| [Staff](#staff-technical-architect) | [Grade 8](/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades) |
+| Professional Services Technical Architect | Grade |
+| - | - |
+| [Intermediate Architect](#technical-architect) | [Grade 6](/handbook/total-rewards/compensation/compensation-calculator/#customer-success) |
+| [Senior Architect](#senior-technical-architect) | [Grade 7](/handbook/total-rewards/compensation/compensation-calculator/#customer-success) |
+| [Staff Architect](#staff-technical-architect) | [Grade 9](/handbook/total-rewards/compensation/compensation-calculator/#customer-success) |
+| [Senior Manager, Professional Service Architects](#senior-manager-professional-services-technical-architects) | [Grade 9](/handbook/total-rewards/compensation/compensation-calculator/#customer-success) |
 
 ### Performance Indicator
 
-- <span style="text-decoration:underline;">PSE: [Billable utilization](/handbook/customer-success/professional-services-engineering/#implementation-plan)</span> target >= 55%
+- <span style="text-decoration:underline;">[Billable utilization](/handbook/customer-success/professional-services-engineering/#implementation-plan)</span> target >= 55%
 
 ### Technical Architect
 
@@ -27,7 +28,7 @@ You will play a critical role in the success of Professional Services engagement
 - Responsible for the detailed design of GitLab-related projects from inception through production support
 - Ensure that the deliverable accurately meets the defined expectations of the customer, ensuring that proper testing is implemented and performance requirements are closely monitored by working with the customer
 - Coordinate and oversee functional implementation activities for internal and partner consultants, developers, and customer points of contact (POC) on large scale enterprise projects
-- Mentor PS and partner consultants providing guidance regarding ‘Best Practices,’ communication, and implementation strategies
+- Mentor PS and partner consultants providing guidance regarding 'Best Practices,' communication, and implementation strategies
 - Provide mentorship and collaterol in the form of documentation, delivery kits, and training materials
 - Liaise with and support of other functional groups within GitLab – including (but not limited to) training, development, support, product, engineering
 - Review and provide input to PS training materials and presentations
@@ -59,7 +60,7 @@ You will play a critical role in the success of Professional Services engagement
 #### Responsibilities
 
 - All of the responsibilities of a Technical Architect plus the following:
-- Mentor PS and Partner Consultants providing guidance regarding “Best Practice” communication, and implementation strategies
+- Mentor PS and Partner Consultants providing guidance regarding "Best Practice" communication, and implementation strategies
 - Hold enablement sessions for PS or other team members to learn how to use or how to sell particular service offerings
 - Assists Regional Delivery Managers with
   - Technical Vetting of Partner Consultants
@@ -90,6 +91,38 @@ You will play a critical role in the success of Professional Services engagement
 
 - Extends the Senior Technical Architect requirements
 - Has experience with the additional responsibilities of a Staff Techincal Architect
+
+### Senior Manager, Professional Services Technical Architects
+
+The Senior Manager, Professional Services Technical Architects role reports to the Director, Professional Services.
+
+#### Responsibilities
+
+- Lead delivery of consulting, specifically for the Technical Architects who provide pre-sales support to the PS Engagement Managers and to our customers
+- Oversee resource management, working closely with PS Operations and project delivery
+- Operational success metrics
+  - Maintain team utilization targets
+  - Ensure growth plans for each Architect foster professional development
+  - Support Engagement Managers in reaching booking targets
+- Build a team able to work closely with Engagement Managers on strategizing proposals, presentations, and how to - communicate the value proposition of services effectively
+- Accountable for the financial goals and metrics, including global revenue targets, gross margin, and billable utilization for the Technical Architect team
+- Own operational metrics and financial goals, as defined by organizational goals, for the Technical Architect team including:
+  - Revenue target
+  - Gross margin
+  - Engineer utilization and overall attainment
+  - Growth plans and individual professional development
+  - CSAT
+  - Percentage of projects on time and on budget
+
+#### Requirements
+
+- Strong leadership experience, with a track record of managing and mentoring high-performing in professional services or customer success.
+- Demonstrated progressive experience with a subscription-based business model, delivering on-premises and SaaS solutions
+- Experience managing technical, cross-functional professional services teams (e.g., consulting, implementation, trainers, project managers) and delivery partners
+- Demonstrated experience in software development, DevOps platforms, and technical consulting in cloud architecture, SCM migration, CI/CD consulting.
+- Superior written and verbal communication skills, with the ability to articulate complex technical concepts to various audiences
+- Strong strategic planning and analytical skills, with the ability to foresee and address challenges in service delivery
+- Strong interpersonal skills and the ability to work collaboratively with diverse teams and stakeholders
 
 ### Professional Experience
 

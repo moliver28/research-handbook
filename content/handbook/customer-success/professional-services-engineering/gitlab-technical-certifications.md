@@ -1,14 +1,7 @@
 ---
-
 title: "GitLab Technical Certifications"
 description: "Explore how GitLab Professional Services certifies engineers to validate their readiness to deliver Consulting Services offerings."
 ---
-
-
-
-
-
-
 
 ## GitLab Technical Certifications
 
@@ -16,4 +9,4 @@ GitLab offers technical certifications to help the GitLab community and team mem
 
 ### Available GitLab Certifications
 
-For the latest information on available certifications see **[Public GitLab Certifications](/learn/certifications/public/)**.
+For the latest information on available certifications see **[Public GitLab Certifications](https://about.gitlab.com/learn/certifications/public/)**.

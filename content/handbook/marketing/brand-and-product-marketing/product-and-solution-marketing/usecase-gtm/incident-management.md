@@ -1,15 +1,9 @@
 ---
-
 title: "Proposed Use Case - Incident Management"
 description: "Downtime is expensive and you can lower MTTR with GitLab Incident Management."
 ---
 
 <!--
-
-
-
-
-
 
 -->
 
@@ -19,8 +13,7 @@ description: "Downtime is expensive and you can lower MTTR with GitLab Incident 
 | ---- | --- |
 | @supadhyaya  | @abellucci |
 
-
-# The Market Viewpoint
+## The Market Viewpoint
 
 ## Incident Management
 
@@ -55,60 +48,65 @@ Incident Management is frequently referred to as Incident Response from the anal
 ### Integrate alerting sources
 
 Ability to integrate with any alerting source and consume alerts for IT service disruptions or outages. Alerts can be received in HTTP or email formats. Often tools will provide proprietary
+
 - Typical features
-    - Integrate via HTTP
-    - Integrate via Email
-    - Proprietary integrations with popular monitoring tools
-    - View credentials for integrations
-    - Ability to reset auth tokens
+  - Integrate via HTTP
+  - Integrate via Email
+  - Proprietary integrations with popular monitoring tools
+  - View credentials for integrations
+  - Ability to reset auth tokens
 - Value: Aggregate alerts from all sources saving the response team time because they have a single tool to check when something goes wrong.
 
 ### Alert Triage
 
 All incoming alerts are aggregated in a list to streamline triage. Each alert has a detail page that shows the payload and an audit trail of actions taken on the alert. The status of an alert can be changed to show state and progress and alerts can be assigned to demonstrate ownship.
+
 - Typical features
-   - List of alerts that shows high-level details
-   - Alert payload
-   - Links to metrics and logs
-   - Ability to change status
-   - Ability to assign an alert
-   - Audit trails showing actions taken on alerts
+  - List of alerts that shows high-level details
+  - Alert payload
+  - Links to metrics and logs
+  - Ability to change status
+  - Ability to assign an alert
+  - Audit trails showing actions taken on alerts
 - Value: Notification from monitoring tool that there is a problem. Provide details on service outage or disruption to aid the responder in starting their investigation.
 
 ### Incident Response
 
 All incidents are aggregated in a list to streamline triage. They also show up in Issue lits and on issue boards to fit the unique workflows of different teams. Incidents can be created manually or automatically from an alert. When an incident is created from an alert, it contains all of the alerts details. Incidents coordinate response and collboration.
+
 - Typical features
-   - Link to originating alert
-   - Alert payload
-   - Description
-   - Timeline
-   - Discussion
-   - Ability to assign
-   - Ability to set severity
-   - Slack integration
+  - Link to originating alert
+  - Alert payload
+  - Description
+  - Timeline
+  - Discussion
+  - Ability to assign
+  - Ability to set severity
+  - Slack integration
 - Value: Coordinate response workflows by providing a SSOT for collaboration, communicating with stakeholders, and collecting findings
 
 ### On-call Schedule Management
 
 Set-up schedules for responding on-call. Admins have flexible options for creating schedules and adding responders to the schedules. Schedules are used in Escalation policies to identify who is on-call when an alert is triggered. Responders get to set up paging policies with preferred paging methods.
+
 - Typical features
-   - Rotations
-   - Escalation Policies
-   - Schedules Overrides
-   - Personal paging policies
+  - Rotations
+  - Escalation Policies
+  - Schedules Overrides
+  - Personal paging policies
 - Value: Provide peace of mind to response teams that critial alerts and incidents will reach the right person at the right time. Help teams distribute and rotate on-call responsibilities which is a very stressful job.
 
 ### Post Incident Review
 
 Review what happened during a fire-fight in a blameless setting. Walk through the incident timeline and notate it with learnings, places to improve, and things to investigate. Create after action items to continuously improve.
+
 - Typical features
-   - Create post incident review linked to incident
-   - Ability to annotate incident timeline
-   - Create after action items
+  - Create post incident review linked to incident
+  - Ability to annotate incident timeline
+  - Create after action items
 - Value: Faciliate post incident review to help build a blameless culture focused on continuous improvement and documentation.
 
-# The GitLab Solution
+## The GitLab Solution
 
 ## How GitLab Meets the Market Requirements
 
@@ -138,7 +136,7 @@ Review what happened during a fire-fight in a blameless setting. Walk through th
 |Xmatters||||
 |DataDog Incident Management|A relatively new addition to DataDog's observability platform, introduced in 2020.|It has the advantage of having monitoring and incident response all housed within one integrated application. DataDog is a market leader in the Monitoring space and has a large pre-existing customer base to expand into. |Relatively new. Does not have on-call schedule management meaning that someone would also need an incident management tool to use it. Is proprietary to DataDog. |
 
-# Enablement & Training
+## Enablement & Training
 
 ## Use Cases
 
@@ -146,23 +144,23 @@ This table shows the recommended use cases to adopt, links to product documentat
 
 | Use Case | Description | Links to documentation | Applicable Subscription Tier | Metrics |
 |----------|-------------|------------------------|------------------------------|---------|
-|SRE team|This is a team of 10-30 people at a progressive company. In addition to responding on-call to incidents, they are involved in the architecture and maintenance of the infrastructure of the cloud-native services their company provides. They are agile and effective. They are committed to continuous improvement and have post-incident reviews built into their regular practices. They evangelize DevOps throughout their organization. They try to automate as much of their workfflows as possible. This type of team will be the ones submitting the most feaure requests and really pushing us (GitLab) to be more innovative.|Ultimate|TBD|
-|Development team|This team can range from 10-500 people. This is a team of engineers who are responsible for developing the software. They have recently been asked to be on-call as their organization moves through the DevOps transformation. They will rarely solve an incident themselves, they are much more likely to be paged to join a fire-fight with operations team members. More progressive organizations will have figured out a way to page engineers based on the area of the code-base they contribute to. In these teams it is common to find a lot of single points of failure (i.e. Senior team members that has a lot of domain knowledge)|Premium, Ultimate|TBD|
-|Support team|This team is typically 5-20 people and usually belongs to a much larger Support department. Support teams are reactive to customer reported outages and are the liasion between the company and the customer during a fire-fight. They handle stakeholder communication. We find these teams as traditional and progressive companies alike. Support teams are going to be satisfied with a "just-good-enough" solution. |Premium, Ultimate|TBD|
-
+|SRE team|This is a team of 10-30 people at a progressive company. In addition to responding on-call to incidents, they are involved in the architecture and maintenance of the infrastructure of the cloud-native services their company provides. They are agile and effective. They are committed to continuous improvement and have post-incident reviews built into their regular practices. They evangelize DevOps throughout their organization. They try to automate as much of their workfflows as possible. This type of team will be the ones submitting the most feaure requests and really pushing us (GitLab) to be more innovative.|Ultimate|TBD| |
+|Development team|This team can range from 10-500 people. This is a team of engineers who are responsible for developing the software. They have recently been asked to be on-call as their organization moves through the DevOps transformation. They will rarely solve an incident themselves, they are much more likely to be paged to join a fire-fight with operations team members. More progressive organizations will have figured out a way to page engineers based on the area of the code-base they contribute to. In these teams it is common to find a lot of single points of failure (i.e. Senior team members that has a lot of domain knowledge)|Premium, Ultimate|TBD| |
+|Support team|This team is typically 5-20 people and usually belongs to a much larger Support department. Support teams are reactive to customer reported outages and are the liasion between the company and the customer during a fire-fight. They handle stakeholder communication. We find these teams as traditional and progressive companies alike. Support teams are going to be satisfied with a "just-good-enough" solution. |Premium, Ultimate|TBD| |
 
 ## Discovery Questions
 
 **Question - What tools are you using for Incident Management today?**
-   - Answer: "Home-grown. We built and maintain our own solution."
-   - Response and Follow-up Questions: Wow! Seems like a lot of work to create an maintain. Tell me about your system.
-   - Things to listen for: Maintenance is time consuming and unreliable, we couldn't afford a real tool.
+
+- Answer: "Home-grown. We built and maintain our own solution."
+- Response and Follow-up Questions: Wow! Seems like a lot of work to create an maintain. Tell me about your system.
+- Things to listen for: Maintenance is time consuming and unreliable, we couldn't afford a real tool.
 
    -OR-
 
-   - Answer: "We use PagerDuty/Opsgenie/ServiceNow."
-   - Response and Follow-up Questions: Tell me about your experience using that tool.
-   - Things to listen for: It's expensive, we are using the free or cheapest tier, customer support is poor, it is missing feature X.
+- Answer: "We use PagerDuty/Opsgenie/ServiceNow."
+- Response and Follow-up Questions: Tell me about your experience using that tool.
+- Things to listen for: It's expensive, we are using the free or cheapest tier, customer support is poor, it is missing feature X.
 
 ## Resources
 

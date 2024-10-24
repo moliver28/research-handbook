@@ -1,5 +1,5 @@
-{{- $techStack := partials.IncludeCached "data/tech-stack" page }}
-{{- range $techStack }}
+{{- range site.Data.public.tech_stack }}
+
 ## {{ .title }}
 
 {{ .description  | markdownify }}

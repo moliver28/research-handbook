@@ -1,9 +1,7 @@
 ---
-
 title: Performance Management for Support Managers
 description: "Some support specific tips on performance management"
 ---
-
 
 ### What is this page?
 
@@ -18,7 +16,10 @@ Below are some common areas for goal setting:
 
 ##### FRT and Ticket Assignment
 
-Contributing towards our [first reply time target](/handbook/support/performance-indicators/#service-level-agreement-sla) and [assigning some portion of those tickets](/handbook/support/workflows/working-on-tickets.html#assigning-tickets) are [Support Engineer Responsibilities and Priorities](/handbook/support/support-global-groups/#success-of-their-group-means) in [Support Global Groups](/handbook/support/support-global-groups/).
+Contributing to the achievement of our
+[first reply time target](/handbook/support/performance-indicators/#service-level-agreement-sla)
+and [taking assignment of tickets](/handbook/support/workflows/working-on-tickets.html#selecting-new-tickets)
+are [Support Engineer Core Responsibilities](/handbook/support/support-engineer-responsibilities/#core-responsibility-of-a-support-engineer).
 
 ##### Public and internal comments
 
@@ -59,7 +60,7 @@ For a more complete look, see [warning signs / patterns of underperformance](/ha
 
 Underperformance for Support Engineers is defined as an Engineer **not** meeting their agreed upon goals for **4 consecutive weeks**.
 
-###### Working through Underperformance
+##### Working through Underperformance
 
 Managers should act early by having a conversation with their direct report when a team member is underperforming. A good guideline to what is "early" is when a support engineer hasn't been meeting their goals for four consecutive weeks. At this point you should [discuss the situation and plan for moving forward with your manager](/handbook/leadership/underperformance/#immediately-discuss-with-the-managers-manager).
 

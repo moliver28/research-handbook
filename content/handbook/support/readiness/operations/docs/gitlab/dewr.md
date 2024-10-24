@@ -44,18 +44,6 @@ Currently, DEWR runs every Saturday at 0000 UTC.
 
 ## Change management
 
-As these are maintained via sync repositories, our standard change management
-process applies to all DEWR changes. See
-[standard change management](/handbook/support/readiness/operations/docs/change_management#standard-change-management)
-for more information.
-
-#### Labels to use
-
-For all issues and MRs involving DEWR, the label
-`Support-Ops-Category::GitLab Projects` should be used.
-
-#### Change criticality
-
-As this is an internal tool with no direct impact, all issues/MRs related to
-DEWR will be classified as
-[criticality 4](/handbook/support/readiness/operations/docs/change_criticalities#criticality-4)
+Any merge requests made to the corresponding repos produce changes in real time.
+As such, these are "on demand" style changes and all "scheduling" should occur
+via the parent issue of the changes themselves.

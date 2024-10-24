@@ -95,6 +95,7 @@ Here is an example of a singular task as written in the task list:
 #### A note on cut-off time
 
 There isn't a hard and fast rule when it comes to assigning a cut-off time for your tasks. There are a few ways you might do this:
+
 - Time yourself completing the tasks, and, if you're an expert, multiply that by 3 (a [guideline](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5738945/#:~:text=An%20expert%20can%20take%20longer,second%20nature%20for%20an%20expert.&text=For%20routine%20tasks%2C%20experts%20complete,1.3%20to%20multiple%20times%20faster.) for how long a novice might take).
 - Perform a [KLM](https://measuringu.com/predicted-times/) (Keystroke Level Modeling) calculation to get a rough estimate of time on task.
 - Run a pilot without enforcing any cut off. Measure time on task, and use that as a baseline. This comes with some caveats: you should consider adding time to the tasks that your pilot participant completed quickly and possibly subtracting time from the tasks that you felt took too long.
@@ -104,12 +105,13 @@ There isn't a hard and fast rule when it comes to assigning a cut-off time for y
 One way to do weighting is to look at the number of steps necessary in the completion criteria and use that number.  In the example above, note that there are five steps listed in the completion criteria section, and the assigned weight is five. This assigns weight as a proxy for task complexity (which may or may not be appropriate for your study). How you use the weight in your calculations is usually as a multiplier for reporting summative metrics.
 
 As a simple example:
- - Take 2 tasks: A and B.
- - The score for task A is a perfect 20/20, and the score for task B is a dismal 10/20.
- - Now, suppose task A has a weight of 1, and task B has a weight of 2. In this case, B should be weighted twice as much as A.
- - When scoring the grade for the **combined** tasks, multiply each score by its weight. The score for A stays at 20/20, and the score from B becomes 20/40 (10 *2 = 20, 20* 2 = 40).
- - Next, add the totals from the tasks to get the final weighted score (20 + 20 / 20 + 40).
- - The total score is 40/60 or .67, not the unweighted average of 30/40 or .75, because we weighed task B more and task B performed worse.
+
+- Take 2 tasks: A and B.
+- The score for task A is a perfect 20/20, and the score for task B is a dismal 10/20.
+- Now, suppose task A has a weight of 1, and task B has a weight of 2. In this case, B should be weighted twice as much as A.
+- When scoring the grade for the **combined** tasks, multiply each score by its weight. The score for A stays at 20/20, and the score from B becomes 20/40 (10 *2 = 20, 20* 2 = 40).
+- Next, add the totals from the tasks to get the final weighted score (20 + 20 / 20 + 40).
+- The total score is 40/60 or .67, not the unweighted average of 30/40 or .75, because we weighed task B more and task B performed worse.
 
 ### Metrics
 
@@ -122,7 +124,7 @@ The following metrics and definitions are the core of how GitLab performs benchm
 | **CES** (Customer Effort Score) | Qualitative measure of perceived effort (1-7, 1 = extreme effort, 7 = effortless) | Measured per task, reported as average | At the end of the task, ask the participant, "On a scale of 1-7 where, 1 is extremely difficult and 7 is extremely easy, how easy was it for you to complete this task?"| Avg. CES for task 13 = 5.9 |
 | **Error Type Count**  | Number of the different type of errors or mistakes made during task completion | Measured per task, reported as average or mean | Errors need to be defined alongside the 'happy' or optimal path the user should take  | 2.6 avg. errors for task X|
 | **Error Rate** | The number of different types of errors observed over the number of steps in the task | Per task | Take the number of observed types of errors and divide by the number of steps or actions in that task. | Task A has 5 steps. There are 10 participants in the study. Our total steps (denominator) is therefore 50. The numerator is the observed errors across all participants for task A. Suppose there are 20 errors recorded for task A. Error rate is thus 20/50, or 40% |
-| **Severity**  |  Judged severity of the problem   |   Per task, overall   |  See [this handbook page](https://about.gitlab.com/handbook/engineering/quality/issue-triage/) for details | Critical |
+| **Severity**  |  Judged severity of the problem   |   Per task, overall   |  See [this handbook page](/handbook/engineering/infrastructure/engineering-productivity/issue-triage/) for details | Critical |
 | **Grade**     |   A cumulative letter grade portraying the usability of the task overall      |       per task, overall          |    see 'Per task grade calculation section below'         | C |
 | **UMUX lite** |  Canonically, UMUX lite is a 2-question survey that measures perceived usefulness and usability of a system or product. For benchmarking at GitLab, we tend to use it to measure usability against the specific JTBD in our study. |  Collected once per JTBD at end of session.  |    1 question, on a 7-point Likert scale from strongly disagree to strongly agree.    | On a scale of 1-7, where 1 is strongly disagree and 7 is strongly agree, how much to do agree with the statement, "This system helps me perform (insert description of JTBD here)" |
 
@@ -138,8 +140,8 @@ If participants *don't meet* the completion criteria for the task:
 For per-task metrics:
 
 - Report all metrics with a 95% confidence interval, unless you have a clear reason to do otherwise.
-- For completion rate, use the [adjusted Wald calculation](https://measuringu.com/calculators/wald/#:~:text=It%20uses%20the%20Wald%20Formula,of%201.96%20or%20approximately%202.) for the confidence interval.
-- For time on task, use a natural log calculation for confidence interval, and report geometric mean rather than the median as a recommended [best practice](https://measuringu.com/calculators/time_intervals/).
+- For completion rate, use the [adjusted Wald calculation](https://measuringu.com/calculators/wald/) for the confidence interval.
+- For time on task, use a natural log calculation for confidence interval, and report geometric mean rather than the median as a recommended [best practice](https://measuringu.com/calculators/ci-calc/).
 - Precisely defining and accurately counting errors is **tricky** and does not always need to be performed. If you plan to do it, you must be very clear about the definition for errors in your tasks.
 - If you collect error rate, report it per task. Count errors against all possible steps for that task, including multiple recorded errors from the same participant on the same part of a task (for example, clicking the same wrong link several times). This may leave you with an error rate greater than 100%.
 - For the Customer Effort Score (CES): If your sample is less than 30, use the population standard deviation to calculate your confidence interval. If N is greater than 30, use the standard deviation calculation. [Here's a handy calculator](https://www.calculator.net/standard-deviation-calculator.html) that includes both options and confidence intervals.
@@ -150,7 +152,7 @@ For per-workflow overall grade calculation:
 
 #### Severity calculation
 
-In each session, you will record (per task) the severity number that most closely represents that user's experience as defined on [this handbook page](https://about.gitlab.com/handbook/engineering/quality/issue-triage/). This methodology is similar to the widely-known [Nielsen/Norman system](https://www.nngroup.com/articles/how-to-rate-the-severity-of-usability-problems/), but inverse (where low numbers in our system are of greater severity).
+In each session, you will record (per task) the severity number that most closely represents that user's experience as defined on [this handbook page](/handbook/engineering/infrastructure/engineering-productivity/issue-triage/). This methodology is similar to the widely-known [Nielsen/Norman system](https://www.nngroup.com/articles/how-to-rate-the-severity-of-usability-problems/), but inverse (where low numbers in our system are of greater severity).
 
 For each incomplete task, rate the severity as 1. For a very painful completion, rate the severity as 2. For a mildly painful completion, rate the severity as 3 (and so on). If the user doesn't encounter any usability issues, rate the severity as 5.
 
@@ -193,7 +195,7 @@ As noted above, triangulating the pain points identified during your benchmark s
 Take the following steps to triangulate your benchmark study findings with the SUS verbatim for your stage.
 
 1. Compile a set of verbatims from your stage to use in your analysis.
-1. Take out verbatims that are positive-only (e.g., “it’s pretty slick with ci”) and those that are so brief as not to be informative (e.g., “ci”)
+1. Take out verbatims that are positive-only (e.g., "it's pretty slick with ci") and those that are so brief as not to be informative (e.g., "ci")
 1. Take a random sample of 25% of your verbatims to develop your categories.
 1. Start with a list of the benchmark pain points for each task and UX theme and add categories as needed to capture new themes like Learnabilty and Documentation. Break-up complex verbatims that reflect multiple themes into separate verbatims. That will help you to apply the categories in a mutually exclusive manner, which is needed to represent the percentage of verbatims that align with different themes.
 1. You should have a general category of NA (not applicable) for verbatims that can't be categorized. It makes sense that not all verbatim align with benchmark tasks and themes.
@@ -206,11 +208,11 @@ UX Researchers and their teams will identify [Actionable Insights](/handbook/pro
 
 Actionable Insights should get the following labels:
 
- - `Usability benchmark`
- - `Section::Stage` scoped labels to identify the section and stage(s) covered in the study
- - `Actionable Insight::Product change` or `Actionable Insight::Exploration needed`
- - NOTE: `Actionable Insight::Product change` require a Severity Label to be applied to each issue.
- - It's also helpful for stakeholders and for you to rate the severity level of each Actionable Insights so that teams know how to prioritize them. You can use the task level Severity ratings described above to attribute severity levels for each Actionable Insight.
+- `Usability benchmark`
+- `Section::Stage` scoped labels to identify the section and stage(s) covered in the study
+- `Actionable Insight::Product change` or `Actionable Insight::Exploration needed`
+- NOTE: `Actionable Insight::Product change` require a Severity Label to be applied to each issue.
+- It's also helpful for stakeholders and for you to rate the severity level of each Actionable Insights so that teams know how to prioritize them. You can use the task level Severity ratings described above to attribute severity levels for each Actionable Insight.
 
 #### Timeline
 
@@ -227,7 +229,7 @@ Preparing and conducting a benchmarking study takes time. Below is a sample time
 | Plan: Test environment | Set up your test environment with any projects and [sample data](/handbook/product/ux/ux-research/ux-cloud-sandbox) you will use for testing | 2 weeks |
 | Recruitment | Open a research recruitment issue at least a month prior to when you wish to run your sessions. A typical benchmarking study uses about 20 participants. | Opening ticket: 1 day. Recruitment itself: 1 month |
 | Run Pilot(s) | The week before your sessions, run 1 or 2 pilot sessions to perfect your protocol and tasks. | 1-2 days |
-| Run Sessions | Benchmarking sessions typically last from 90 minutes to two hours. Meaning that for 20 participants, conducting two sessions per day, you are looking at a solid two to four weeks of conducting sessions. Note that you will need to invite more participants than necessary to fill 20 sessions, since not everyone who qualifies will accept the research invite. In order to maximize participant attendance and avoid late cancelations, send reminder emails within 24 hours of each session. | 2-4 weeks |
+| Run Sessions | Benchmarking sessions typically last from 90 minutes to two hours. Meaning that for 20 participants, conducting two sessions per day, you are looking at a solid two to four weeks of conducting sessions. Note that you will need to invite more participants than necessary to fill 20 sessions, since not everyone who qualifies will accept the research invite. In order to maximize participant attendance and avoid late cancellations, send reminder emails within 24 hours of each session. | 2-4 weeks |
 | Analyze the results. | Calculate metrics, extract recommendations, pull verbatim, put things into Dovetail, and so on.  | 2 weeks |
 | Prepare the report and share it. | Produce research report, slides, recordings, and so on to disseminate your findings. | 2 weeks |
 
@@ -271,9 +273,9 @@ A: This is variable based on need and how quickly the recommendations from a pre
 
 A: Yes. Benchmarking is far too heavy-handed to perform for solution validation of upcoming features, and while you *could* perform benchmarking on a previous release, the results you gather may already be invalid when you collect them. Given the time commitment, this is **highly discouraged**.
 
-**Q: What Gitlab environment should the usability benchmarking be tested on?**
+**Q: What GitLab environment should the usability benchmarking be tested on?**
 
-A: The UX Researcher on the project can set up a cloud instance of Gitlab and create sample data in a project by following the instructions on the [UX Cloud Sandbox](/handbook/product/ux/ux-research/ux-cloud-sandbox/) page. Make sure there is enough sample data to complete all tasks in the benchmarking study when you run your pilot study. You can also ask for help on the #ux-cloud-sandbox Slack channel.
+A: The UX Researcher on the project can set up a cloud instance of GitLab and create sample data in a project by following the instructions on the [UX Cloud Sandbox](/handbook/product/ux/ux-research/ux-cloud-sandbox/) page. Make sure there is enough sample data to complete all tasks in the benchmarking study when you run your pilot study. You can also ask for help on the #ux-cloud-sandbox Slack channel.
 
 **Q: How complex/realistic does my testing environment need to be?**
 

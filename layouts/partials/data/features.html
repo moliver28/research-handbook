@@ -1,9 +1,0 @@
-{{- $features := dict }}
-{{- with resources.GetRemote "https://gitlab.com/gitlab-com/www-gitlab-com/-/raw/master/data/features.yml" }}
-  {{- with .Err }}
-    <h2>Unable to fetch features.yml</h2>
-  {{- else }}
-      {{- $features = . | transform.Unmarshal }}
-  {{- end }}
-{{- end }}
-{{- return $features }}

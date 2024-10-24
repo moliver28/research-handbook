@@ -1,13 +1,8 @@
 ---
-
-title: Mechanizer 
+title: Mechanizer
 category: CustomersDot
-description: How to use the mechanizer for L&R requests. 
+description: How to use the mechanizer for L&R requests.
 ---
-
-
-
-
 
 ## Overview
 
@@ -21,7 +16,7 @@ The new ZD Mechanizer app can be found by opening the ZD App side bar. You must 
 
 In the app you will have the option to select from the following request types:
 
-#### Note
+### Note
 
 **Your GitLab Username** will be automatically added to the form.
 
@@ -106,9 +101,9 @@ A note on **User Count**:
 
 For Self-Managed licences, GitLab will refuse to install a license key with less than the current number of billable users. Therefore, **User Count** for a trial license should *at least* be the same number as the current number of billable users plus any true-ups owed (if any).  For example, if 25 current billable users, and 5 true-ups owed, set **User Count** to at least 30.
 
-### Add storage to a namespace
+### Add project-level storage to a namespace
 
-Sets additional storage for a namespace to the value specified in the `Extra storage (MiB)` field
+Sets [additional project storage](https://docs.gitlab.com/ee/user/usage_quotas.html#excess-storage-usage) for a namespace to the value specified in the `Extra storage (MiB)` field
 
 - **Namespace:** The customer namespace as it appears in the URL.
 - **Extra storage (MiB):** Additional space to add in MB
@@ -117,7 +112,7 @@ Sets additional storage for a namespace to the value specified in the `Extra sto
 
 ### Set max seats
 
-Modifies the highest number of seats used on the namespace during the current subscription term.  
+Modifies the highest number of seats used on the namespace during the current subscription term.
 
 #### Note
 

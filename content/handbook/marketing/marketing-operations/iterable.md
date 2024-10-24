@@ -1,5 +1,4 @@
 ---
-
 title: Iterable
 description: Iterable Overview
 twitter_image: /images/tweets/handbook-marketing.png
@@ -7,15 +6,7 @@ twitter_site: "@gitlab"
 twitter_creator: "@gitlab"
 ---
 
-
-
-
-
-
-  
-
-# <i class="fab fa-gitlab fa-fw" style="color:rgb(252,109,38); font-size:.85em" aria-hidden="true"></i>
-
+## <i class="fab fa-gitlab fa-fw" style="color:rgb(252,109,38); font-size:.85em" aria-hidden="true"></i>
 
 ## DRIs
 
@@ -35,9 +26,10 @@ Journeys are a powerful feature that enable us to create complex, multi-step cus
 
 **List of journeys implemented:**
 
-| Journey Name          | Link                                                                                    |
+| Journey Name   (Folder)       | Link                                                                                    |
 | --------------------- | --------------------------------------------------------------------------------------- |
-| SaaS Trial Onboarding | [Link](https://app.iterable.com/workflows/361081/edit?mode=beta&workflowType=Published) |
+| SaaS Trial Onboarding + Post  | [Link](https://app.iterable.com/workflows/361081/edit?mode=beta&workflowType=Published) |
+| Free User + Invited Onboarding| [link](https://app.iterable.com/workflows?folderId=68331&page=1)|
 
 ## API Custom Events
 
@@ -51,7 +43,7 @@ graph LR
 
 ```
 
-1. **SaaS Trials Event**
+**SaaS Trials Event**
 
 The SaaS Trials event in Iterable, represents the action of a user signing up for a GitLab SaaS trial. The trigger is sent from CustomersDot to Workato and then to Iterable. Data fields sent over upon a trial sign-up are used to segment users in Journeys.
 
@@ -68,7 +60,7 @@ The SaaS Trials event in Iterable, represents the action of a user signing up fo
 | state                   | OR                       | String    |
 | userRole                | product_designer         | String    |
 
-2. **SaaS Free Registration**
+**SaaS Free Registration**
 
 The SaaS Free registration event in Iterable, represents the action of a user signing up for a free GitLab account. We only capture send this event if the user has chosen to setup their account for a team or company. We are not currently syncing personal signups.
 
@@ -80,7 +72,7 @@ The SaaS Free registration event in Iterable, represents the action of a user si
 | employeeBucket          | 1-99                    | String    |
 | firstName               | John                    | String    |
 | lastName                | Doe                     | String    |
-| latest_trial_start_date | 2023-06-11              | Date      | 
+| latest_trial_start_date | 2023-06-11              | Date      |
 | signupReason            | I want to use GitLab CI | String    |
 | state                   | Alabama                 | String    |
 | userRole                | other                   | String    |

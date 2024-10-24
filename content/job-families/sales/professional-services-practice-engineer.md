@@ -1,5 +1,5 @@
 ---
-title: "Professional Services Practice Engineer"
+title: "Professional Services Practice Engineer & Feature Acceleration Fullstack Engineer"
 description: "The GitLab Professional Services Consulting Practice organization defines and matures the consulting services offered by GitLab Professional Services and Partner organizations."
 ---
 
@@ -23,7 +23,7 @@ The Senior Professional Services Practice Engineer is a [grade 7](/handbook/tota
 - Use our product. [Dogfood](/handbook/values/#dogfooding) by collaborating on the handbook and utilizing GitLab.com, as appropriate.
 - Collaborate with Product and Engineering on the GitLab product roadmap to ensure core functionality is considered for prioritization.
 - Update professional services offering collateral to increase usability for professional services engineers and partners to use.
-- Create new service offerings to address market demand as it relates to [stage adoption](/handbook/customer-success/csm/stage-adoption/) and [customer retention](/handbook/customer-success/vision/#retention-gross--net-dollar-weighted)
+- Create new service offerings to address market demand as it relates to [stage adoption](/handbook/customer-success/csm/stage-adoption/) and [customer retention](/handbook/customer-success/customer-success-vision/#retention-gross--net-dollar-weighted)
 - Create enablement framework to help scale the delivery of professional services migration, implementation and other consulting engagements.
 - Collaborate with Professional Services Engineers, Service Partners, Product Management, Engineering, and Instructional Designers (as appropriate) to develop enablement to scale delivery of consulting services.
 - Ensure delivery model is focused on customer success outcomes while championing efficiency, collaboration, and results
@@ -47,7 +47,7 @@ The Senior Professional Services Practice Engineer is a [grade 7](/handbook/tota
 - Share and work in accordance with GitLab's values
 - Experience growing within a small start-up is a plus
 - You share our values, and work in accordance with those values
-- [Leadership at GitLab](/handbook/company/team/structure/#director-group)
+- [Leadership at GitLab](/handbook/company/structure/#director-group)
 - Highly determined to learn new things, including GitLab
 
 ## Performance Indicators
@@ -59,6 +59,56 @@ The Senior Professional Services Practice Engineer is a [grade 7](/handbook/tota
 ## Career Ladder
 
 The next steps for the Professional Services Practice Manager Job Family would be to move to the [Director, Professional Services](/job-families/sales/director-of-professional-services/) Job family.
+
+### Feature Acceleration Services (FAS) Fullstack Engineers
+
+#### Job Grades
+
+The FAS Fullstack Engineer is a [grade 7](/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades) depending on seniority, the Senior FAS Fullstack Engineer is a grade 8, and the Staff FAS Fullstack Engineer is a grade 9.
+
+#### FAS Fullstack Engineer Responsibilities
+
+- Develop features and improvements to the GitLab product in a secure, well-tested, and performant way
+- Analyze and interpret highly complex data to arrive at actionable recommendations
+- Collaborate with Product Management and other stakeholders within Engineering (e.g. UX) to maintain a high bar for quality in a fast-paced, iterative environment
+- Advocate for improvements to product quality, security, and performance
+- Solve technical problems of moderate scope and complexity
+- Craft code that meets our internal standards for style, maintainability, and best practices for a high-scale web environment. Maintain and advocate for these standards through code review
+- Represent GitLab and its values in public communication around specific projects and community contributions.
+- Confidently ship small features and improvements with minimal guidance and support from other team members. Collaborate with the team on larger projects.
+- Senior Fullstack Engineers improve the engineering projects at GitLab as a project maintainer. For more information regarding timelines and exceptions, see this page.
+
+#### FAS Fullstack Engineer Requirements
+
+- Professional experience with Python, Ruby, and Rails
+- Professional experience with JavaScript and associated web technologies (CSS, semantic HTML)
+- Proficiency in the English language, both written and verbal, sufficient for success in a remote and largely asynchronous work environment
+- Demonstrated capacity to clearly and concisely communicate about complex technical, architectural, and/or organizational problems and propose thorough iterative solutions
+- Experience with performance and optimization problems and a demonstrated ability to both diagnose and prevent these problems
+- Comfort working in a highly agile, intensely iterative software development process
+- Demonstrated ability to onboard and integrate with an organization long-term
+- Positive and solution-oriented mindset
+- Effective communication skills: Regularly achieve consensus with peers, and clear status updates
+- An inclination towards communication, inclusion, and visibility
+- Experience owning a project from concept to production, including proposal, discussion, and execution.
+- Self-motivated and self-managing, with strong organizational skills.
+- Demonstrated ability to work closely with other parts of the organization
+- Share our values, and work in accordance with those values
+- Ability to use GitLab
+- Ability to thrive in a fully remote organization
+
+##### Nice-to-haves
+
+- Experience working with modern frontend frameworks (eg. React, Vue.js, Angular)
+- Experience in a peak performance organization, preferably a tech startup
+- Experience with the GitLab product as a user or contributor
+- Product company experience
+- Experience working with a remote team
+- Enterprise software company experience
+- Developer platform/tool industry experience
+- Experience working with a global or otherwise multicultural team
+- Computer science education or equivalent experience
+- Passionate about/experienced with open source and developer tools
 
 ## Hiring Process
 

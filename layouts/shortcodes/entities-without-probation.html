@@ -1,4 +1,3 @@
-{{- $entityMapper := partials.IncludeCached "data/entity-mapper" . }}
 <table style="display: table;">
     <thead>
         <tr>
@@ -7,13 +6,11 @@
         </tr>
     </thead>
     <tbody>
-      {{- range sort $entityMapper "country" }}
-        {{- if and (or (eq .bhr_payroll_type "Employee") (eq .bhr_payroll_type "Contractor-PEO")) (eq .probation "None") }}
+      {{- range sort (where site.Data.public.entity_mapper "probation" "eq" "None") "country" }}
         <tr>
             <td>{{ .country }}</td>
             <td>{{ .notice_after_probation }}</td>
         </tr>
-        {{- end }}
       {{- end }}
     </tbody>
 </table>

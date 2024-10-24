@@ -1,15 +1,7 @@
 ---
-
 title: "CSM Development"
 description: "Available development paths and resources for Customer Success Managers at GitLab."
 ---
-
-
-
-
-
-
-
 
 As a Customer Success Manager at GitLab, you should feel empowered to take the time to invest in yourself and your career, leaning into the [70-20-10 rule for development](/handbook/people-group/learning-and-development/career-development/#70-20-10-rule-for-development).
 
@@ -32,13 +24,17 @@ The content is divided into three key categories of competencies. [LevelUp](http
 
 ---
 
-{: #general-csm}
+<a name="general-csm"></a>
 
 ### 💡 Customer Success Management
 
 #### CSM Best Practises and Examples at GitLab
 
 - [Chorus Playlist](https://chorus.ai/playlists/741604) gives you access to the recordings of the best CSM calls. The recordings are continuously updated, so keep this playlist bookmarked for best practices.
+
+#### CSM Intership
+
+- [CSM Internship for learning](/handbook/customer-success/csm/csm-internship/)
 
 #### Customer Success Management
 
@@ -86,7 +82,7 @@ As CSMs have positioned themselves to be more strategic and reach Director, VP, 
 - [Dynamic Public Speaking by University of Washington](https://www.coursera.org/specializations/public-speaking) (Coursera)
 - [Storytelling and influencing: Communicate with impact](https://www.coursera.org/learn/communicate-with-impact) (Coursera)
 
-{: #soft-skills}
+<a name="soft-skills"></a>
 
 ### 💬 Soft Skills
 
@@ -101,7 +97,7 @@ As CSMs have positioned themselves to be more strategic and reach Director, VP, 
 - [How to Make Strategic Thinking a Habit](https://www.linkedin.com/learning/how-to-make-strategic-thinking-a-habit/why-make-strategic-thinking-a-habit?u=2255073)  (LinkedIn Learning)
 - [Leading with Emotional Intelligence](https://www.linkedin.com/learning/leading-with-emotional-intelligence-3/lead-with-emotional-intelligence) (LinkedIn Learning)
 
-{: #tech-domain}
+<a name="tech-domain"></a>
 
 ### 🚀 Technology and Domain Knowledge
 
@@ -123,7 +119,7 @@ As CSMs have positioned themselves to be more strategic and reach Director, VP, 
 
 #### DevOps
 
-- [Devops Foundations](https://www.linkedin.com/learning/devops-foundations/) (LinkedIn Learning)
+- [DevOps Foundations](https://www.linkedin.com/learning/devops-foundations/) (LinkedIn Learning)
 
 #### Software Development
 
@@ -143,9 +139,9 @@ As CSMs have positioned themselves to be more strategic and reach Director, VP, 
 
 #### Markdown
 
-- [Handbook Markdown Guide](https://about.gitlab.com/handbook/markdown-guide/)
+- [Handbook Markdown Guide](/handbook/markdown-guide/)
 - [GitLab Flavored Markdown (GLFM)](https://docs.gitlab.com/ee/user/markdown.html)
-- [Handbook Style Guide](https://about.gitlab.com/handbook/style-guide/)
+- [Handbook Style Guide](/handbook/about/style-guide/)
 - [Markdown Tutorial](https://about.gitlab.com/blog/2018/08/17/gitlab-markdown-tutorial/)
 
 #### Docker
@@ -185,10 +181,10 @@ Access codes and recording links can be found in this [internal doc](https://doc
 
 ### LinkedIn Learning
 
-[Handbook details about LinkedIn Learning](/handbook/people-group/learning-and-development/linkedin-learning/).  
+[Handbook details about LinkedIn Learning](/handbook/people-group/learning-and-development/linkedin-learning/).
 
 We also have a list of [Recommended Learning Paths](/handbook/people-group/learning-and-development/linkedin-learning/#recommended-learning-paths).
 
 ### Coursera
 
-[Handbook details about Coursera](/handbook/total-rewards/benefits/general-and-entity-benefits/growth-and-development/#self-service-learning-skillserve-coursera-others)
+[Handbook details about Coursera](/handbook/people-group/learning-and-development/growth-and-development/#self-service-learning)

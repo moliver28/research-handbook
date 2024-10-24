@@ -1,4 +1,4 @@
-{{- $team_dict := partials.IncludeCached "data/team-by-name" page }}
+{{- $team := site.Data.public.team }}
 {{- $groupTeam := slice }}
 {{- $feTeam := slice }}
 {{- $beTeam := slice }}
@@ -7,7 +7,7 @@
 {{- $fe_team_tag := .fe_team_tag }}
 {{- $fs_team_tag := .fs_team_tag }}
 
-{{- range $team_dict }}
+{{- range $team }}
     {{- if in .departments $be_team_tag }}
         {{- $beTeam = $beTeam | append . }}
         {{- $groupTeam = $beTeam | append . }}

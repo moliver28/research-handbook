@@ -5,10 +5,11 @@ description: "Information on automations related to syncing to our team page, jo
 
 ## Team page entry daily sync
 
-Once/day we run a pipeline that syncs the the following fields for all team members:
+Once/day we run a pipeline that syncs the following fields for all team members:
+
 - `name`, team members preferred name or nick name.
-  - This can be changed at any time in the YAML entry itself, as a team member may want to set a custom nickname or preferred name.
-  - Only updated if the team member has opted out of having their information on the team page, in which case this will be updated to reflect their current job title.
+  - Will **not** sync name from Workday if **opted in**. This can be changed at any time in the YAML entry itself, to set a custom nickname or preferred name for the team page.
+  - Only overwritten if **opted out** of syncs, in which we will replace with the team members current job title.
 - `specialty`, included if the team member has a job specialty component.
 - `departments`, A list of the team members Workday department and extra departments added to their team page entry.
   - We will only ever update the **first** entry of this list to their current Workday department.
@@ -16,8 +17,11 @@ Once/day we run a pipeline that syncs the the following fields for all team memb
 - `job_title`, person's current job title.
 - `reports_to`, the `slug` reference of the team members manager team page entry.
 - `gitlab` the `customGitLabUsername` value from Workday.
+- `public` whether or not the team member has selected having their information exported or not.
 
 This means that if team members edit that field in the file, this will result in the sync overwriting when it runs again. The reason for this is that we consider Workday as the single source of truth for this data. Thus team members and managers will need to make adjustments in Workday first and this will be automatically propagated in the team page entry.
+
+Team members can edit their export preferences at any time by following [this job aid](https://docs.google.com/document/d/16_G0jQEjV3f08rGZ65g6RHTCSX5IfFalo9ZUdLEqH1s), which will reflect their export preferences the next time the sync runs.
 
 ### Diagram
 
@@ -70,18 +74,17 @@ eg. for Canada Corp, use `@gitlab-com/entities/canada-corp`.
 
 On the first day of each month, we populate a spreadsheet including information for team members who have been at GitLab for more than 3 months. The spreadsheet is used by engineering to plan for on-call availability.
 
-Synced fields are sourced from Workday and the team file.
+Synced fields are sourced from Workday.
 
 - Name
 - Job title
+- Start Date
 - Division
 - Department
-- Subdepartment
 - Role
-- City
-- Country
-- State/province
 - Weekend availability
+- Email
+- Manager
 
 ## Weekly New hires
 
@@ -94,3 +97,11 @@ spreadsheet we will list all the team members that we audited and mark the colum
 Every first of the month at 10AM UTC, we run the audit on all the active team members at GitLab. A spreadsheet is created
 in a Google Drive folder that is shared with Total Rewards and the VP People Operations, Technology & Analytics. In the spreadsheet
 we will list all the team members that we audited *and* that had something marked as *needs to be checked*.
+
+## GitLab Group
+
+We utilize a GitLab.com group for internal communications ('pings') on GitLab.com. This helps ensure the appropriate team members from the team are alerted and reduces noise for others that may not need to be alerted.
+
+This group is public https://gitlab.com/gl-people-engineering, and can be mentioned by tagging `@gl-people-engineering` within an issue, merge request, or epic on GitLab.com.
+
+> Project creation for this group has been disabled, all People Group Engineering projects that can be public should be committed to https://gitlab.com/gitlab-com/people-group-public/engineering.

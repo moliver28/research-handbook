@@ -4,7 +4,7 @@ title: "Engineering Analyst"
 
 Engineering Analysts at GitLab build and improve on the data capabilities needed to support a highly productive Engineering Division.
 They equip Engineering leaders with metric intelligence and actionable performance indicators.
-They work closely with GitLab’s Data team to enable new data capabilities that drives our analysis and visualizations.
+They work closely with GitLab's Data team to enable new data capabilities that drives our analysis and visualizations.
 
 ## Responsibilities
 
@@ -81,7 +81,7 @@ The Senior Engineering Analyst role extends the [Engineering Analyst](#engineeri
 - An expert in data domain of assigned Engineering Department.
 - Attend and ensure key-review readiness of assigned Engineering Department.
 - Occasionally represent Engineering Analytics in broad company communication and announcements.
-- Occasionally contribute to the company's strategic Data direction in collaboration with the [Data team](/handbook/business-technology/data-team/#data-job-families).
+- Occasionally contribute to the company's strategic Data direction in collaboration with the [Data team](/handbook/enterprise-data/#data-job-families).
 - Influence the overall objectives and long-range goals of the Engineering Analytics team.
 
 ### Staff Engineering Analyst
@@ -140,7 +140,7 @@ The Staff Engineering Analyst role extends the [Senior Engineering Analyst](#sen
 ### UX
 
 - SUS Scores
-- UX Debt
+- Deferred UX
 
 ### Security
 
@@ -158,8 +158,8 @@ The Staff Engineering Analyst role extends the [Senior Engineering Analyst](#sen
 - Handbook MR Rate
 - Open Engineering Analytics Issue Age
 - Infrastructure Specialty:
-  - [Infrastructure Cost per GitLab.com Monthly Active Users](https://about.gitlab.com/handbook/engineering/infrastructure/performance-indicators/#infrastructure-cost-per-gitlab-com-monthly-active-users)
-  - [Infrastructure cost vs plan](https://about.gitlab.com/handbook/engineering/infrastructure/performance-indicators/#infrastructure-cost-vs-plan)
+  - [Infrastructure Cost per GitLab.com Monthly Active Users](/handbook/engineering/infrastructure/performance-indicators/#infrastructure-cost-per-gitlab-com-monthly-active-users)
+  - [Infrastructure cost vs plan](/handbook/engineering/infrastructure/performance-indicators/#infrastructure-cost-vs-plan)
 
 ## Hiring Process
 
@@ -177,4 +177,4 @@ Additional details about our process can be found on our [hiring page](/handbook
 
 ## Career Ladder
 
-For more details on the engineering career ladders, please review the [engineering career development](https://about.gitlab.com/handbook/engineering/career-development/#roles) handbook page.
+For more details on the engineering career ladders, please review the [engineering career development](/handbook/engineering/careers/#roles) handbook page.

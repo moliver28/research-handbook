@@ -3,15 +3,15 @@ title: "Partner Code of Ethics"
 description: "GitLab Partner Code of Ethics and Due Diligence"
 ---
 
-GitLab, Inc. and its respective affiliates, subsidiaries and divisions (“GitLab”) operate business in a responsible manner. At GitLab, the way we conduct business is as important as the relationships we have and the products and services we provide. Accordingly, GitLab will only do business with suppliers, contractors, resellers, agents and consultants (collectively herein referenced as “Partners”) that comply with applicable and controlling laws, rules, and regulations (collectively herein referenced as “applicable laws”) and at a minimum, with standards of business conduct consistent with those set forth in this Partner Code of Ethics (“Code”).
+GitLab, Inc. and its respective affiliates, subsidiaries and divisions ("GitLab") operate business in a responsible manner. At GitLab, the way we conduct business is as important as the relationships we have and the products and services we provide. Accordingly, GitLab will only do business with suppliers, contractors, resellers, agents and consultants (collectively herein referenced as "Partners") that comply with applicable and controlling laws, rules, and regulations (collectively herein referenced as "applicable laws") and at a minimum, with standards of business conduct consistent with those set forth in this Partner Code of Ethics ("Code").
 
-It is GitLab’s expectation that Partners, their employees, sub-suppliers and any other parties involved with the execution of GitLab work, similarly comply with the applicable laws and the standards set forth in this Code. GitLab expects the following, without limitation, including respecting the human rights of employees from all its Partners:
+It is GitLab's expectation that Partners, their employees, sub-suppliers and any other parties involved with the execution of GitLab work, similarly comply with the applicable laws and the standards set forth in this Code. GitLab expects the following, without limitation, including respecting the human rights of employees from all its Partners:
 
 **HUMAN RIGHTS AND LABOR STANDARDS**
 
 *Forced Labor, Human Trafficking and Slavery*
 
-Partner shall not use any form of forced labor including prison, indentured, bonded, military, slave or any other forms of forced labor. Partner shall not participate in the recruitment, transportation, transfer, harboring or receipt of any persons by means of threat, use of force, or any other forms of coercion, abduction, fraud, deception, abuse of power or position of vulnerability, or the giving or receiving of payments or benefits to achieve the consent of a person having control over another person for the purpose of exploitation. Partners shall not retain an employees’ government-issued identification, passports or work permits as a condition of employment and shall allow employees to resign from their positions at any time.
+Partner shall not use any form of forced labor including prison, indentured, bonded, military, slave or any other forms of forced labor. Partner shall not participate in the recruitment, transportation, transfer, harboring or receipt of any persons by means of threat, use of force, or any other forms of coercion, abduction, fraud, deception, abuse of power or position of vulnerability, or the giving or receiving of payments or benefits to achieve the consent of a person having control over another person for the purpose of exploitation. Partners shall not retain an employees' government-issued identification, passports or work permits as a condition of employment and shall allow employees to resign from their positions at any time.
 
 *Child Labor*
 
@@ -19,7 +19,7 @@ Partner shall ensure that no underage labor has been used in the production or d
 
 *Working Hours*
 
-Partner’s employee working hours must be in compliance with all applicable laws and regulations. Partners should encourage employees to receive at least one day off every seven days in compliance with all applicable laws.
+Partner's employee working hours must be in compliance with all applicable laws and regulations. Partners should encourage employees to receive at least one day off every seven days in compliance with all applicable laws.
 
 *Wages and Benefits*
 
@@ -31,7 +31,7 @@ Partner must adhere to applicable laws regarding the right to affiliate with law
 
 *Nondiscrimination*
 
-Employment by Partner shall be based solely on an individual’s ability and not personal characteristics. Partner shall maintain a workplace free of unlawful discrimination, which includes, but is not limited to, race, gender, sexual orientation, age, pregnancy, caste, disability, union membership, ethnicity, religious belief or any other factors protected by applicable law. Employees shall not be subject to verbal, physical, sexual or psychological abuse or any other form of mental or physical coercion and shall be treated with respect and dignity.
+Employment by Partner shall be based solely on an individual's ability and not personal characteristics. Partner shall maintain a workplace free of unlawful discrimination, which includes, but is not limited to, race, gender, sexual orientation, age, pregnancy, caste, disability, union membership, ethnicity, religious belief or any other factors protected by applicable law. Employees shall not be subject to verbal, physical, sexual or psychological abuse or any other form of mental or physical coercion and shall be treated with respect and dignity.
 
 *Conflict Minerals*
 
@@ -50,24 +50,24 @@ Partners shall be sensitive to its impact on the environment (including but not 
 Partners shall not engage in any form of corrupt practices including without limitation to, extortion, fraud, impersonation, false declarations, bribery, money laundering, supporting or involved with terrorist or organized crime organizations or activities. Partners shall not offer bribes, kickbacks, illegal political contributions or other improper payments to GitLab representative or agency, any customer, government official or third party, with the intention of obtaining or retaining a business or other improper advantage. Partners must have a written anti-corruption / anti-bribery policy that includes an annual review with its employees of such policy.
 
 **PRIVACY AND SECURITY**
-
+<!-- vale handbook.Repetition = NO -->
 Partners shall ensure that there are appropriate administrative, technological, physical and technical controls in place to ensure the protection and security of any data subject subject to laws and regulations.  Partners will execute any necessary agreement relating to the handling of data and will notify GitLab of any known or suspected vulnerabilities that may compromise individuals subject to the relationship with GitLab.
-
+<!-- vale handbook.Repetition = YES -->
 **COMPLIANCE**
 
-If a Partner’s efforts to comply with this Code have been deficient and Partner fails to cooperate in developing and implementing reasonable remedial steps, GitLab reserves the right to take appropriate actions up to, and including, discontinuing the relationship with Partner. Nothing in this Code is intended to, in any way, grant any additional rights or expectations to a GitLab Partner or, in any way, modify or otherwise limit any of GitLab’s contractual or legal rights.
+If a Partner's efforts to comply with this Code have been deficient and Partner fails to cooperate in developing and implementing reasonable remedial steps, GitLab reserves the right to take appropriate actions up to, and including, discontinuing the relationship with Partner. Nothing in this Code is intended to, in any way, grant any additional rights or expectations to a GitLab Partner or, in any way, modify or otherwise limit any of GitLab's contractual or legal rights.
 
-No matter where we operate around the world, we are steadfast in our dedication to service and integrity. Strong partnerships are a cornerstone of GitLab’s business and a vital link in setting and achieving expectations for ethical sourcing and corporate social responsibility. At GitLab, the way we conduct business is as important as the people with whom we conduct business.
+No matter where we operate around the world, we are steadfast in our dedication to service and integrity. Strong partnerships are a cornerstone of GitLab's business and a vital link in setting and achieving expectations for ethical sourcing and corporate social responsibility. At GitLab, the way we conduct business is as important as the people with whom we conduct business.
 
 ## Partner Due Diligence
 
-GitLab’s Anti-Bribery Policy prohibit giving illegal or improper payments to, or receiving such payments from, any person or organization, including government officials (U.S. and foreign) and persons in the private sector. Such payments also are prohibited by the U.S. Foreign Corrupt Practices Act ("FCPA") and anti-bribery laws and regulations in foreign jurisdictions, including but not limited to the U.K. Bribery Act 2010 and the European Commission on Anti-Corruption (collectively, “Anti-Bribery Laws”).
+GitLab's Anti-Bribery Policy prohibit giving illegal or improper payments to, or receiving such payments from, any person or organization, including government officials (U.S. and foreign) and persons in the private sector. Such payments also are prohibited by the U.S. Foreign Corrupt Practices Act ("FCPA") and anti-bribery laws and regulations in foreign jurisdictions, including but not limited to the U.K. Bribery Act 2010 and the European Commission on Anti-Corruption (collectively, "Anti-Bribery Laws").
 
-GitLab’s export policy requires that we ensure compliance with applicable export laws including the Export Administration Regulations (EAR), the International Traffic in Arms Regulations (ITAR) (if and to the extent they become applicable to GitLab’s products), general prohibitions and country control lists (collectively “Export Laws”).
+GitLab's export policy requires that we ensure compliance with applicable export laws including the Export Administration Regulations (EAR), the International Traffic in Arms Regulations (ITAR) (if and to the extent they become applicable to GitLab's products), general prohibitions and country control lists (collectively "Export Laws").
 
-It is an offense under Anti-Bribery Laws for a company to engage a third party who pays bribes in connection with the company’s business. Additionally, it is an offense under US Export Laws for a company to engage a third party who violates export laws.  In short, GitLab can be held criminally and civilly liable for the bad acts of its partners.
+It is an offense under Anti-Bribery Laws for a company to engage a third party who pays bribes in connection with the company's business. Additionally, it is an offense under US Export Laws for a company to engage a third party who violates export laws.  In short, GitLab can be held criminally and civilly liable for the bad acts of its partners.
 
-Therefore, the Anti-Bribery, Anti-Corruption and Export Policy applies not only to GitLab’s employees, but also to all resellers, agents, consultants, joint venture partners or other representatives who provide services directly related to obtaining, retaining or facilitating businesses or business opportunities for GitLab (“Partners”).
+Therefore, the Anti-Bribery, Anti-Corruption and Export Policy applies not only to GitLab's employees, but also to all resellers, agents, consultants, joint venture partners or other representatives who provide services directly related to obtaining, retaining or facilitating businesses or business opportunities for GitLab ("Partners").
 
 In order to minimize the risk relating to Anti-Bribery Law and Export Law violations from such third parties, due diligence will be conducted on GitLab Partners.  Due diligence is the process of taking reasonable steps to satisfy legal requirements and ensure that there are no red flags associated with the respective Partner ("Due Diligence"). The manager of the relationship is responsible for ensuring that the Due Diligence is conducted.
 

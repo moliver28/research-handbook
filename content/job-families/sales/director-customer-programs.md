@@ -2,7 +2,7 @@
 title: Director, Digital Success
 ---
 
-The Director, Digital Success is responsible for defining, leading, and tracking strategic and operational programs to improve GitLab’s ability to effectively and efficiently deliver excellent customer outcomes through the digital experience. The Director, Digital Success works cross-functionally to orchestrate results with Customer Success, Sales, Marketing, Product and Engineering, Support, and Finance.
+The Director, Digital Success is responsible for defining, leading, and tracking strategic and operational programs to improve GitLab's ability to effectively and efficiently deliver excellent customer outcomes through the digital experience. The Director, Digital Success works cross-functionally to orchestrate results with Customer Success, Sales, Marketing, Product and Engineering, Support, and Finance.
 
 The Director, Digital Success reports to the [Director Customer Success Operations](/job-families/sales/director-customer-operations/).
 
@@ -42,7 +42,7 @@ The Director, Digital Success is a [grade 10](/handbook/total-rewards/compensati
 ## Performance Indicators
 
 - Bookings and revenue growth as measured by [ARR](/handbook/sales/sales-term-glossary/arr-in-practice/), including gross renewal, expansion, and net retention
-- Key [customer success](/handbook/customer-success/vision/#measurement-and-kpis) measures (e.g., time-to-value, product adoption / health score, expansion win rates, etc.). A number of these measures need to evolve to be developed.
+- Key [customer success](/handbook/customer-success/customer-success-vision/#measurement-and-kpis) measures (e.g., time-to-value, product adoption / health score, expansion win rates, etc.). A number of these measures need to evolve to be developed.
 
 ## Career Ladder
 

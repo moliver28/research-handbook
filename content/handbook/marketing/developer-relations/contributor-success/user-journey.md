@@ -6,6 +6,7 @@ description: "Code Contributor User Journey"
 ## Journey Map
 
 <div style="overflow-x: scroll;">
+
 ```mermaid
 %%{init: {"flowchart": { "useMaxWidth": false } }}%%
 flowchart TB
@@ -130,7 +131,8 @@ flowchart TB
         id9_sg8 --> id9_sg9
 
     end
- subgraph id1["Ask Questions"]
+
+    subgraph id1["Ask Questions"]
         id1_box1("Discord")
         %% id1_box2("FAQs")
         id1_box3("GitLab Forum")
@@ -139,24 +141,26 @@ flowchart TB
         %% click id1_box2 "https://docs.gitlab.com/ee/development/fe_guide/frontend_faq.html"
         click id1_box3 "https://forum.gitlab.com/"
     end
+
     subgraph id2["Engagements"]
         id2_box1("Co-working Days")
         id2_box2("Office hours")
         id2_box3("Community Pairing")
         id2_box4("Hackathons")
 
-        click id2_box2 "https://about.gitlab.com/handbook/marketing/developer-relations/contributor-success/#community-office-hours"
-        click id2_box3 "https://about.gitlab.com/handbook/marketing/developer-relations/contributor-success/community-pairing-sessions.html"
+        click id2_box2 "https://handbook.gitlab.com/handbook/marketing/developer-relations/contributor-success/#community-office-hours"
+        click id2_box3 "https://handbook.gitlab.com/handbook/marketing/developer-relations/contributor-success/community-pairing-sessions.html"
         click id2_box4 "https://about.gitlab.com/company/culture/all-remote/informal-communication/#coffee-chats"
         click id2_box5 "https://about.gitlab.com/community/hackathon/"
 
     end
-    subgraph id3["Learn about Gitlab"]
+
+    subgraph id3["Learn about GitLab"]
         id3_box1("Tutorials")
-        id3_box2("Gitlab Handbook")
+        id3_box2("GitLab Handbook")
 
         click id3_box1 "https://docs.gitlab.com/ee/tutorials/"
-        click id3_box2 "https://about.gitlab.com/handbook/"
+        click id3_box2 "https://handbook.gitlab.com/handbook/"
     end
 
 %% Root level mappings
@@ -178,4 +182,5 @@ flowchart TB
             id5_sg3 --> id9
     %% 6. Triage Process
 ```
+
 </div>

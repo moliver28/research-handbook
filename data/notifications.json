@@ -7,7 +7,7 @@
         "title": "Handbook Migration Notice",
         "messageHTML": "<p><strong>We are currently migrating content from about.gitlab.com</strong><p>During our migration period, you will find that some links point to this site and others to about.gitlab.com site.  Additionally, search results will be incomplete.</p>",
         "posted": "2023-07-19 20:00:00",
-        "expires": "2024-07-19 20:00:00",
+        "expires": "2023-12-21 20:00:00",
         "autohide": false
       },
       {
@@ -18,7 +18,7 @@
         "url": "/",
         "messageHTML": "<p>The GitLab Handbook homepage has been updated with a new look.</p>",
         "posted": "2023-07-20 16:54:00",
-        "expires": "2024-07-19 20:00:00",
+        "expires": "2023-12-21 20:00:00",
         "autohide": true
       }
     ]

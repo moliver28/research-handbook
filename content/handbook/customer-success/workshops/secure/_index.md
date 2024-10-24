@@ -1,13 +1,6 @@
 ---
-
 title: "Secure Workshop"
 ---
-
-
-
-
-
-
 
 ## Overview
 
@@ -65,9 +58,10 @@ It is **highly recommended** that you have at least one other team member helpin
 ### Attendee Registration
 
 The recommended way to manage attendees is [creating a signup page](https://support.zoom.us/hc/en-us/articles/211579443-Setting-up-registration-for-a-meeting) for the workshop for your customer to share internally. The benefit of a signup page is that:
-  - You can understand in advance the number of expected attendees, and prepare accordingly (i.e. by engaging volunteer resources to handle Q&A in chat)
-  - You will know who is coming and can tailor content to specific levels/titles of attendees (don't forget to add a `title` question to your signup page!)
-  - You will have a list of attendees to follow up with, which is incredibly significant as this workshop becomes a means to engage with dev leads and end users that we often may not have otherwise
+
+- You can understand in advance the number of expected attendees, and prepare accordingly (i.e. by engaging volunteer resources to handle Q&A in chat)
+- You will know who is coming and can tailor content to specific levels/titles of attendees (don't forget to add a `title` question to your signup page!)
+- You will have a list of attendees to follow up with, which is incredibly significant as this workshop becomes a means to engage with dev leads and end users that we often may not have otherwise
 
 If your customer would prefer not to use this method, you can suggest that they provide you a list of attendees that you can subsequently send out a meeting invite to.
 

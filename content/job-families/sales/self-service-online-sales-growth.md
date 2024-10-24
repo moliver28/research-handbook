@@ -1,25 +1,25 @@
 ---
-title: Self-Service Growth
+title: Global Digital SMB
 ---
 
-The Self Service Growth team is focused on building an easy self-service experience for our customers. The Growth team is accountable for the growth of our online sales KPI’s. The Growth team drives those numbers by experimenting with: programs that drive GTM or product improvements and campaigns to drive self-service customer adoption.
+The Global Digital SMB team is focused on building an easy self-service experience for our customers. The team is accountable for the growth of our online sales KPI's. The team drives those numbers by experimenting with: programs that drive GTM or product improvements and campaigns to drive self-service customer adoption.
 
 ## Levels
 
-## Senior Analyst, Online Sales & Self Service Growth
+## Senior Analyst, Global Digital SMB
 
 The Senior Analyst role is part of a team focused on transforming the way that GitLab goes to market. Aligned to a cohort of GitLab customers, this role is focused on leveraging data to empower these customers to onboard, transact, and manage their accounts online and at scale.
 
-The Senior Analyst, Online Sales & Self Service Growth reports to the Manager, Online Sales & Self Growth.
+The Senior Analyst, Global Digital SMB reports to the Manager, Global Digital SMB.
 
 ### Job Grade
 
-The Senior Analyst, Online Sales & Self Service Growth is a [grade 7](/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades).
+The Senior Analyst, Global Digital SMB is a [grade 7](/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades).
 
 ### Responsibilities
 
 - Develop strategies and drive team focus based on data insights and findings
-- Partner with Self-Service Growth Managers to create, execute, and measure experiments focused on driving business growth and improving the Self-Service customer experience
+- Partner with Global Digital SMB Managers to create, execute, and measure experiments focused on driving business growth and improving the Self-Service customer experience
 - Partner with direct sales to transform our current go-to-market and support a larger self-service channel
 - Work cross-functionally to optimize our customer journey and experience for a cohort of GitLab customers.
 - Design and build insightful dashboards for the self-service team and our stakeholders
@@ -43,11 +43,11 @@ The Senior Analyst, Online Sales & Self Service Growth is a [grade 7](/handbook/
 - Experience analyzing CRM data (e.g. Salesforce) and web tracking (e.g. Google Analytics)
 - Self-motivated and self-managing, with strong organizational skills
 
-## Manager, Online Sales & Self Service Growth
+## Manager, Global Digital SMB
 
 ### Job Grade
 
-The Manager, Online Sales & Self Service Growth is a [grade 8](/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades).
+The Manager, Global Digital SMB is a [grade 8](/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades).
 
 ### Responsibilities
 
@@ -75,11 +75,11 @@ The Manager, Online Sales & Self Service Growth is a [grade 8](/handbook/total-r
 - Operational execution and troubleshooting by identifying issues as they surface; proposing and executing changes to fix root causes
 - Willingness to learn and use GitLab
 
-## Senior Manager, Online Sales & Self Service Growth
+## Senior Manager, Global Digital SMB
 
 ### Job Grade
 
-The Senior Manager, Online Sales & Self Service Growth is a [grade 9](/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades).
+The Senior Manager, Global Digital SMB is a [grade 9](/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades).
 
 ### Responsibilities
 
@@ -98,18 +98,18 @@ The Senior Manager, Online Sales & Self Service Growth is a [grade 9](/handbook/
 - Curiosity to learn about new domains and ask discovery questions along the way
 - Ability to thrive in a cross-functional environment while juggling multiple responsibilities
 
-## Director, Online Sales & Self Service Growth
+## Director, Global Digital SMB
 
 ### Job Grade
 
-The Director, Online Sales & Self Service Growth is a [grade 10](/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades).
+The Director, Global Digital SMB is a [grade 10](/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades).
 
 ### Responsibilities
 
 - Same responsibilities as the Senior Manager listed above and also:
 - Provide visibility to Self-Service leadership team into the outputs your team is producing
 - Create methodology for tracking program launches and success of those programs
-- Provide feedback to leadership on identified process improvement areas that will increase GitLab’s efficiency while increasing customer adoption of self-service
+- Provide feedback to leadership on identified process improvement areas that will increase GitLab's efficiency while increasing customer adoption of self-service
 - Provide detailed and accurate sales forecasting for online sales by segment, channel, and region.
 - Plan and manage short and long term coordination with marketing and sales leadership
 
@@ -122,16 +122,16 @@ The Director, Online Sales & Self Service Growth is a [grade 10](/handbook/total
 - Demonstration of high levels of integrity, initiative, honesty and leadership
 - Must be adaptable, professional, courteous, motivated and work well on their own or as a member of a team
 
-## Senior Director, Online Sales & Self Service Growth
+## Senior Director, Global Digital SMB
 
 ### Job Grade
 
-The Senior Director, Online Sales & Self Service Growth is a [grade 11](/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades).
+The Senior Director, Global Digital SMB is a [grade 11](/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades).
 
 ### Responsibilities
 
 - Same requirements as the Director listed above and also:
-- The Directly Responsible Individual (DRI) for our self-service KPI’s
+- The Directly Responsible Individual (DRI) for our self-service KPI's
 - Set the charter and focus areas for the Growth team based on business needs
 - Represent the Self-Service team in GTM planning discussions and forecast calls
 - Mentor, guide, and grow the careers of all team members

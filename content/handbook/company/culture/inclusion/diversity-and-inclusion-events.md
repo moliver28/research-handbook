@@ -11,13 +11,12 @@ On this page you will be provided an overview of the Diversity, Inclusion & Belo
 |----------|-----------------------------------------------------------------|
 | Jan | [Published FY22 DIB Strategy and Roadmap](https://docs.google.com/presentation/d/1F4_5d8DBfn_SN39IQnCmEAoBbnWN1KU1Bu_Pji21KC8/edit?usp=sharing)|
 |     | [Launched our first Social Media Campaign - We Belong Here](https://www.instagram.com/gitlab/)                                    |
-|     | [Launched GitLab's First DIB Training Certification]({{< ref "dib-training" >}})
+|     | [Launched GitLab's First DIB Training Certification]({{< ref "dib-training" >}}) |
 | Feb | Annual DIB Survey via Culture Amp                         |
-| Apr | [Published updated Reverse AMA process]({{< ref "ask-me-anything#process-for-initiating-a-reverse-ama" >}})
-| May | Launched Global Seld ID Campaign
+| Apr | [Published updated Reverse AMA process]({{< ref "ask-me-anything#process-for-initiating-a-reverse-ama" >}}) |
+| May | Launched Global Seld ID Campaign |
 | Jun | [Published DIB Advisory Group Goals]({{< ref "influencer-group-guide" >}}) |
 | Aug | Published 2021 DIB survey results to the company |
-
 
 ## Summary of Events for 2020
 
@@ -46,7 +45,6 @@ On this page you will be provided an overview of the Diversity, Inclusion & Belo
 |          | [Coming Out Day Panel Discussion - Hosted by GitLab Pride TMRG](https://www.youtube.com/watch?v=OUKWs6hkMQY&feature=youtu.be)   |
 |          | Hired additional DIB Team Member - [Liam McNally](/handbook/company/team/#lmcnally1)                             |
 
-
 ## Summary of Events for 2019
 
 | Month    | Events                                                         |
@@ -54,15 +52,15 @@ On this page you will be provided an overview of the Diversity, Inclusion & Belo
 | Apr | Hired DIB Manager                                              |
 | May | DIB Breakout Sessions at Contribute 2019                       |
 |          | [Inclusive Language Training](https://docs.google.com/presentation/d/186RK9QqOYxF8BmVS15AOKvwFpt4WglKKDR7cUCeDGkE/edit?usp=sharing)                                  |
-|          | [Published GitLab DIB Mission Statement]({{< ref "inclusion#diversity-inclusion--belonging-mission-at-gitlab" >}})
-|          | [Published GitLab's Definition of Diversity, Inclusion & Belonging]({{< ref "inclusion#gitlabs-definition-of-diversity-inclusion--belonging" >}})
-| Jul | Launched Greenhouse Inclusion Tool
+|          | [Published GitLab DIB Mission Statement]({{< ref "inclusion#diversity-inclusion--belonging-mission-at-gitlab" >}}) |
+|          | [Published GitLab's Definition of Diversity, Inclusion & Belonging]({{< ref "inclusion#gitlabs-definition-of-diversity-inclusion--belonging" >}}) |
+| Jul | Launched Greenhouse Inclusion Tool |
 | Aug | [GitLab Pride launched]({{< ref "tmrg-gitlab-pride" >}})                               |
 |          | [GitLab MIT - Minorities in Tech]({{< ref "erg-minorities-in-tech" >}}) launched                       |
 |          | [GitLab DiversABILITY]({{< ref "erg-gitlab-diversability" >}}) launched                                  |
 |          | [GitLab Women]({{< ref "tmrg-gitlab-women" >}}) launched                                         |
 |          | [DIB Advisory Group launched]({{< ref "advisory-group-members" >}})                                    |
-| Sep | [DIB Advisory Group Guidelines]({{< ref "influencer-group-guide" >}}) published
+| Sep | [DIB Advisory Group Guidelines]({{< ref "influencer-group-guide" >}}) published |
 |          | [Published TMRG Guidelines]({{< ref "erg-guide" >}})                                       |
 |          | [DIB Framework](https://docs.google.com/presentation/d/1OMgmYc52J02PWacw72ZM_c-R6FYni-BibAhfV514KcQ/edit?usp=sharing)                                                  |
 | Oct | [Slack Channels for all TMRGs and DIB Advisory Group added]({{< ref "inclusion#ergs---employee-resource-groups" >}})       |

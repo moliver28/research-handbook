@@ -1,9 +1,0 @@
-{{- $peopleBusinessPartners := dict }}
-{{- with resources.GetRemote "https://gitlab.com/gitlab-com/www-gitlab-com/-/raw/master/data/people_group/people_business_partners.yml" }}
-  {{- with .Err}}
-    <h2>Unable to fetch performance indicator Data</h2>
-  {{- else }}
-      {{- $peopleBusinessPartners = . | transform.Unmarshal }}
-  {{- end }}
-{{- end }}
-{{- return $peopleBusinessPartners }}

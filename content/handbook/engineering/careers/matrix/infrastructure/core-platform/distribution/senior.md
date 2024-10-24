@@ -4,7 +4,7 @@ title: "Core Platform Career Framework: Senior Distribution Engineer"
 
 ## Core Platform Senior Distribution Engineer
 
-{{% include "includes/engineering/distribution-career-nav.md" %}}
+{{% include "includes/engineering-careers/distribution-career-nav.md" %}}
 
 **Core Platform Senior Distribution Engineers at GitLab are expected to exhibit the following competencies:**
 
@@ -15,14 +15,13 @@ title: "Core Platform Career Framework: Senior Distribution Engineer"
 
 ---
 
-
 ### Leadership Competencies
 
-{{% include "includes/engineering/senior-leadership-competency.md" %}}
+{{% include "includes/engineering-careers/senior-leadership-competency.md" %}}
 
 {{$ include "includes/engineering/development-senior-leadership-competency.md" %}}
 
-##### Distribution
+#### Distribution
 
 - Presents training or demos within their domain on a regular cadence.
 - Leads technical architecture discussions and help drive technical decisions.
@@ -34,11 +33,11 @@ title: "Core Platform Career Framework: Senior Distribution Engineer"
 
 ### Technical Competencies
 
-{{% include "includes/engineering/senior-technical-competency.md" %}}
+{{% include "includes/engineering-careers/senior-technical-competency.md" %}}
 
-{{% include "includes/engineering/development-senior-technical-competency.md" %}}
+{{% include "includes/engineering-careers/development-senior-technical-competency.md" %}}
 
-##### Distribution
+#### Distribution
 
 - Provides high level of expertise in programming languages and their frameworks used in Distribution managed engineering projects.
 - Acts as a subject matter expert in one or more linux system deployment technology.
@@ -46,11 +45,11 @@ title: "Core Platform Career Framework: Senior Distribution Engineer"
 - Able to provide deployment recommendations for production installations.
 - Understand how features in their domain operate at scale in production.
 
-###  Values Alignment
+### Values Alignment
 
-{{% include "includes/engineering/values-competency.md" %}}
+{{% include "includes/engineering-careers/values-competency.md" %}}
 
-{{% include "includes/engineering/development-senior-values-competency.md" %}}
+{{% include "includes/engineering-careers/development-senior-values-competency.md" %}}
 
 ### Intermediate Competencies
 

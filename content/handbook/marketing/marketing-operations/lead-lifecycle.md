@@ -1,15 +1,13 @@
 ---
-
 title: "Lead Lifecycle Management"
 description: "This page is a dedicated resource for information on how GitLab manages it's lead lifecycle"
 ---
-# Lead Lifecycle
 
-This page is a dedicated resource for all information on how we manage our lead lifecycle. We have two elements covering the lifecyle - The Lead / Contact Status in SFDC, and the Lifecycle Classifications Fields in SFDC. 
+This page is a dedicated resource for all information on how we manage our lead lifecycle. We have two elements covering the lifecyle - The Lead / Contact Status in SFDC, and the Lifecycle Classifications Fields in SFDC.
 
 ## Lead / Contact Status
 
-We have nine Lead / Contact Statuses to represent where the lead currently sits within our sales cycle in Salesforce. Each `Status` that represents a situation where Sales Development is not actively engaging a lead or contact record has a corresponding queue that owns records until they meet the criteria to be assigned to Sales Development again for reengagement and qualification. This means there are currently "holding" queues for Lead / Contact Statuses with a queue indicated in the third column of the table below. (Note: The renaming or replacement of these queues with ones that match the updated Lead / Contact Statuses is ongoing and this handbook page will be updated with their new names as soon as the queues are created and actively being used in Salesforce.) 
+We have nine Lead / Contact Statuses to represent where the lead currently sits within our sales cycle in Salesforce. Each `Status` that represents a situation where Sales Development is not actively engaging a lead or contact record has a corresponding queue that owns records until they meet the criteria to be assigned to Sales Development again for reengagement and qualification. This means there are currently "holding" queues for Lead / Contact Statuses with a queue indicated in the third column of the table below. (Note: The renaming or replacement of these queues with ones that match the updated Lead / Contact Statuses is ongoing and this handbook page will be updated with their new names as soon as the queues are created and actively being used in Salesforce.)
 
 | Status | Definition | Related Salesforce queue, if applicable |
 |--------|--------|--------|
@@ -21,12 +19,11 @@ We have nine Lead / Contact Statuses to represent where the lead currently sits 
 | Qualified | SAO created & hand off to Sales team | N/A, `Qualified` leads represent leads that have been converted, most often to create an opportunity |
 | Disqualified | Person has been disqualified from our sales cycle | `Disqualified Queue` |
 | Recycle | Record is not ready for our services or buying conversation now, possibly later | `Recycle Queue` |
-| Bad Data | Incorrect data - to potentially be researched to find correct data to contact by other means | `Bad Data Queue` |
-| Ineligible | All leads/contacts that are ineligible to go through the sales process after an initial review | `Ineligible Queue` | 
+| Ineligible | All leads/contacts that are ineligible to go through the sales process after an initial review | `Ineligible Queue` |
 
 In addition to our statuses, there are substatus that are required for XDRs to use. The substates are in use for the following Statuses: Disqualified, Ineligilble, Recycle & Bad Data:
 
-| Disqualified | 
+| Disqualified |
 |-----|
 | Competitior |
 | Consultant |
@@ -35,7 +32,9 @@ In addition to our statuses, there are substatus that are required for XDRs to u
 | Unsubscribe |
 | No longer at company |
 | Interested in CE only |
-| Interested in Gitlab.com only |
+| Interested in GitLab.com only |
+| Disqualified Account |
+| Bad Data |
 
 |Ineligible |
 |----|
@@ -59,23 +58,23 @@ In addition to our statuses, there are substatus that are required for XDRs to u
 | No response |
 | Product limitation |
 | Staying with subversion option |
-| No data aollected |
+| No data collected |
 | Recalled from Partner |
 | No Action |
 | Denied from Startups Program - Sales Dev to re-engage |
 
-| Bad Data |
+Bad Data Reason field on the lead and contact records if there is bad data on the lead/contact. If there is a bad phone number or email, please record as so in this field and reach out to the prospect using other methods. If there is both a bad phone number and a bad email, please move the prospect to `Disqualified - Bad Data`.
+
+| Bad Data Reasons |
 |---- |
 |Bad phone number |
 |Bounced email |
 |Invalid email |
 |Spam |
 
-* **Note on Updating Bad Data Leads** If you receive a new email/phone number for a prospect that is in Bad Data, before you sequence them, please first update the data and then place the lead in Recycle. You can use the Recycle status reason of No Response. You will need to wait or force a sync into Outreach before you sequence to make sure the status has updated there, otherwise if the status is still in Bad Data, Outreach will end the sequence.
-
 ## Lifecycle Classifications
 
-We have 6 fields on the lead and contact that's purpose is to represent where the person is in their jouney with GitLab. 
+We have 6 fields on the lead and contact that's purpose is to represent where the person is in their jouney with GitLab.
 
 | Field Name | Definition |
 |-----|------|
@@ -86,7 +85,20 @@ We have 6 fields on the lead and contact that's purpose is to represent where th
 | Former Customer Account | This person has matched with an account that is a former customer |
 | Partner Managed | This person is currently being managed by a partner |
 
-The fields are formula fields and have three possible options - `True`, `False` or `-`, `-` means that we don't have enough information to say if the field is true or false so it will stay in `-` until the information becomes available. More information to come on how to leverage these fields. 
+The fields are formula fields and have three possible options - `True`, `False` or `-`, `-` means that we don't have enough information to say if the field is true or false so it will stay in `-` until the information becomes available. More information to come on how to leverage these fields.
 
+## What happens to a lead when the lead owner is offboarded?
 
+In an effort to ensure that leads are not owned by inactive users in Salesforce, leads will be reassigned to either new owners or queues based on the lead's status. The following table describes where a lead is reassigned when it's owner moves into a new role or leaves the company.
 
+| Lead Status | New Owner Assignment |
+|----|----|
+| Raw | Raw Queue |
+| Inquiry | Inquiry Queue |
+| Recycle | Recycle Queue |
+| Disqualified | Disqualified Queue |
+| Ineligible | Ineligible Queue |
+| Qualifiying or Qualified | Inactive User Queue |
+| Accepted | Lead status is updated to `Recycle`, `No Response` and moved to Recycle Queue |
+| MQL (before 2023/02/01) | Lead status is updated to `Recycle`, `No Response` and moved to Recycle Queue |
+| MQL (on or after 2023/02/01) | `BDR Assigned` if the matched account is Actively Working. Otherwise, the lead will route to the round robin pool based on Geo |

@@ -5,7 +5,6 @@ description: "How to create and manage a research participant panel"
 
 A research panel is a frequently used means for recruiting participants when conducting research consisting of studying the same group of opted-in participants through various methods and stages that are developed as part of a research effort. This page walks through a self-service process to create and manage panels.
 
-
 ### When should I use a research panel?
 
 Recruiting participants for research with niche topics can take a lot of time and effort to find. Frequency, subject-matter, scope, and scale are all areas of consideration as to when a panel may be needed. If you have a need for a larger group surrounding a certain niche criteria focusing on an issue (that will contain multiple research studies) over a longer period of time, this would be a time to consider using a panel. For example, larger enterprise users or users that are on Ultimate that have experience using a SAST tool and a role that involves using security tools or practices.
@@ -18,18 +17,16 @@ It is also important to consider the various pros and cons when utilizing a pane
 - Better chance of gaining in-depth knowledge and an understanding of your participants through their consistent involvement with the research.
 - Ability to recruit participants on an expedited timeline, especially when you have a difficult or niche user profile.
 
-
 **Cons:**
 
 - Participant fatigue if users are contacted too frequently about participating in studies, which may also lead to having to refresh panel participants.
 - Bias may begin to occur if the same people are surveyed multiple times, possibly causing us to over-index on feedback from a few users, instead of representing as many users as possible. Participants may also begin to recognize your research patterns and respond in a less natural manner.
 - Periodically having to update the panel to ensure the appropriate participants are still included and there is an appropriate mix of individuals.
 
-
 Initially, answering the following questions will help determine whether a panel is the right solution for your project.
 
 - *Why do you need a panel?*
-  - It's best use a panel for users who are typically hard to recruit, either because there aren’t many of them (for example, Enterprise users), because they have attributes that are specialized and make them harder to find (for example, extensive experience with Kubernetes), or because they have been harder for us to recruit in the past (for example, self-managed users).
+  - It's best use a panel for users who are typically hard to recruit, either because there aren't many of them (for example, Enterprise users), because they have attributes that are specialized and make them harder to find (for example, extensive experience with Kubernetes), or because they have been harder for us to recruit in the past (for example, self-managed users).
 - *How long will this panel need to be sustained?*
   - For panels to be the most effective, setting a duration is crucial to ensure you are not over-indexing on feedback from a few users which will bias your results. Research Operations recommends a panel to last no longer than 6 months to help ensure that you are not over-indexing on panel participants.
 - *How large will the panel need to be?*
@@ -60,14 +57,14 @@ To create a panel, follow the steps below. If you have any questions, please con
     - The longer a panel runs, the higher the likelihood of overusing the same participants increases.
     - Who does this: Research project DRI
 1. **Find your participants by creating a research recruitment request**
-    - To populate your panel, open a [research recruitment request](https://about.gitlab.com/handbook/engineering/ux/ux-research/recruiting-participants/#how-to-recruit-participants-when-you-arent-sure-where-to-find-them) and indicate that the request is for a research panel.
+    - To populate your panel, open a [research recruitment request](/handbook/engineering/ux/ux-research/recruiting-participants/#how-to-recruit-participants-when-you-arent-sure-where-to-find-them) and indicate that the request is for a research panel.
     - You can find participants yourself and skip this step.
     - Who does this: Panel DRI and Research Operations
 1. **Decide who will be in your panel and use the [Panel Tracking & Reimbursement Template](https://docs.google.com/spreadsheets/d/1uQO7BfvXCB-ysIRMivH5ReG8LB5nptGw0ma7E4Rz5gM/copy) to compile participants**
     - After respondents complete the screener, you will need to review responses and determine who qualifies for the panel based on your criteria.
     - Add the panelists and their information in the Panelist Information sheet in the [Panel Tracking & Reimbursement Template](https://docs.google.com/spreadsheets/d/1uQO7BfvXCB-ysIRMivH5ReG8LB5nptGw0ma7E4Rz5gM/copy). To do so, download the results from Qualtrics and transfer to the Panelist Information sheet.
     - Who does this: Panel DRI
-1. **Communicate with participants regarding their inclusion in the panel, who their point of contact will be for the research effort, and frequency and length of participation.** [Refer to Communication guidelines for participant outreach](https://about.gitlab.com/handbook/engineering/ux/ux-research/research-panel-management/#panel-management-and-tracking).
+1. **Communicate with participants regarding their inclusion in the panel, who their point of contact will be for the research effort, and frequency and length of participation.** [Refer to Communication guidelines for participant outreach](/handbook/engineering/ux/ux-research/research-panel-management/#panel-management-and-tracking).
     - Who does this: Panel DRI
     - See [Participant email communication examples](https://docs.google.com/document/d/1vEthOeiZl-yly-afd6eZrh5DIXL-DzH79BZBOKxzqlM/edit?usp=sharing) for templates.
 
@@ -80,14 +77,13 @@ After you have established your panel, follow these steps to utilize panel parti
     - Check in the [Panel Tracking & Reimbursement](https://docs.google.com/spreadsheets/d/1uQO7BfvXCB-ysIRMivH5ReG8LB5nptGw0ma7E4Rz5gM/copy?usp=sharing) template to see how many times they have participated in previous studies. If they have already participated in (4) 60-minute sessions during the calendar year, remove them from the panel.
     - Who does this: Panel DRI
 1. **Schedule your sessions**
-    - Schedule your [sessions using Calendly](https://about.gitlab.com/handbook/engineering/ux/ux-research/recruiting-participants/#create-a-calendly-event). Here is an [email template](https://docs.google.com/document/d/1vEthOeiZl-yly-afd6eZrh5DIXL-DzH79BZBOKxzqlM/edit?usp=sharing) you can use when scheduling sessions with panelists.
+    - Schedule your [sessions using Calendly](/handbook/engineering/ux/ux-research/recruiting-participants/#create-a-calendly-event). Here is an [email template](https://docs.google.com/document/d/1vEthOeiZl-yly-afd6eZrh5DIXL-DzH79BZBOKxzqlM/edit?usp=sharing) you can use when scheduling sessions with panelists.
     - Who does this: Panel DRI
 1. **Compensate your participants by submitting a incentives request**
-    - To compensate panelists as they participate in studies, follow our existing process for incentives by submitting an [incentives request](https://about.gitlab.com/handbook/engineering/ux/ux-research/recruiting-participants/#when-do-i-submit-an-incentives-request-with-ux-research-operations).
+    - To compensate panelists as they participate in studies, follow our existing process for incentives by submitting an [incentives request](/handbook/engineering/ux/ux-research/recruiting-participants/#when-do-i-submit-an-incentives-request-with-ux-research-operations).
     - Who does this: Panel DRI
 
-**As you use your panel, you will need to continually manage and track panelist information and engagement. Refer to the [Panel management and tracking](https://about.gitlab.com/handbook/engineering/ux/ux-research/research-panel-management/#panel-management-and-tracking) section.**
-
+**As you use your panel, you will need to continually manage and track panelist information and engagement. Refer to the [Panel management and tracking](/handbook/engineering/ux/ux-research/research-panel-management/#panel-management-and-tracking) section.**
 
 ### Guidelines when communicating with panelists
 
@@ -95,7 +91,7 @@ One goal of a panel is to keep participants engaged and not to incur fatigue fro
 
 - Outline communication guidelines initially within the recruiting screener, such as how often they'll be contacted, who will contact them, how they'll be contacted, and how team members will coordinate contact. To stay within your guidelines, set up reminders on your Google calendar.
 - Consistency is key. If you communicate to participants that they will receive a total of three communications a month, send no less than and no more than three. Detouring from the set expectations could potentially make the panelist think that the research is not organized or serious, causing disengagement.
-- Track how often we’re communicating with panelists in the [Panel Tracking & Reimbursement Template](https://docs.google.com/spreadsheets/d/1uQO7BfvXCB-ysIRMivH5ReG8LB5nptGw0ma7E4Rz5gM/copy). Do not reach out more than once a month to panelists.
+- Track how often we're communicating with panelists in the [Panel Tracking & Reimbursement Template](https://docs.google.com/spreadsheets/d/1uQO7BfvXCB-ysIRMivH5ReG8LB5nptGw0ma7E4Rz5gM/copy). Do not reach out more than once a month to panelists.
 - If participants contact the designated point of contact, you must reply in a 24-hour time window if it is during the week (otherwise, the next business day will suffice). It is a top priority to be responsive and consistently engaged.
   - When the designated point of contact goes on PTO, ensure there is someone to cover communication with panelists.
 
@@ -163,15 +159,15 @@ Always follow these best practices for handling PII within panels:
 Do not collect data just to have it available for a non-specific purpose. For example, do not collect "time in a role" if role tenure is not relevant to the research effort.
 
 - If someone is working from a public workspace, screens should not show panel information.
-- Report any compromised data (see [GitLab’s data classification](/handbook/security/data-classification-standard/#data-classification-levels)) by creating a [security incident](/handbook/security/security-operations/sirt/engaging-security-on-call/#engage-the-security-engineer-on-call).
-- Remember to follow [GitLab’s privacy policy](https://about.gitlab.com/privacy/).
+- Report any compromised data (see [GitLab's data classification](/handbook/security/data-classification-standard/#data-classification-levels)) by creating a [security incident](/handbook/security/security-operations/sirt/engaging-security-on-call/#engage-the-security-engineer-on-call).
+- Remember to follow [GitLab's privacy policy](https://about.gitlab.com/privacy/).
 - Participants may request
-  - **To be removed from the panel:** Remove them, and then reach out to a Research Operations team member to ensure they are removed from other active panels such as First Look and other communications.
-  - **To see their personal data:** They can submit a [Personal data request](https://about.gitlab.com/handbook/gdpr/) to see which lists they are subscribed to. Reach out to a Research Operations team member to help with this request.
+  - **To be removed from the panel:** Remove them, and then reach out to a Research Operations team member to ensure they are removed from other active panels and other communications.
+  - **To see their personal data:** They can submit a [Personal data request](/handbook/legal/privacy/gdpr/) to see which lists they are subscribed to. Reach out to a Research Operations team member to help with this request.
 
 ### What is an example of a panel in action at GitLab?
 
-[Here is an example](https://gitlab.com/gitlab-org/ux-research/-/issues/1894) of a panel used by Verify and Package. The team created this issue to draft a [common screener](https://about.gitlab.com/handbook/engineering/ux/ux-research/recruiting-participants/common-screener/) for a panel that they could use across multiple studies to expedite recruitment efforts. In this scenario, the goal was to pool resources for user profiles that are hard to find.
+[Here is an example](https://gitlab.com/gitlab-org/ux-research/-/issues/1894) of a panel used by Verify and Package. The team created this issue to draft a [common screener](/handbook/engineering/ux/ux-research/recruiting-participants/common-screener/) for a panel that they could use across multiple studies to expedite recruitment efforts. In this scenario, the goal was to pool resources for user profiles that are hard to find.
 
 Researchers outlined the following aspects to build upon this issue:
 

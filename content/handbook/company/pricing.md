@@ -6,10 +6,9 @@ description: "Most GitLab functionality is and will be available for free in our
 GitLab's pricing strategy is set by the CEO, Sid Sibrandij. Everyone can contribute, and the best way to communicate is on the #pricing Slack channel.
 
 Contributions are part of the day-to-day jobs of the following people:
-- Principal Pricing Manager (Lisa Hoang)
-- Principal Pricing Manager (TBH)
-- Sr Director, Product Monetization (Justin Farris)
-- Product Marketing (Saumya Upadhyaya)
+
+- Principal Pricing Manager (Sean Hall)
+- VP, Product Management (Justin Farris)
 
 ## Pricing Strategy
 
@@ -24,7 +23,7 @@ this:
 
 1. We want to be a good [steward of our open source product](/handbook/company/stewardship/).
 1. Giving a great free product is part of our go to market, it helps create new users and customers.
-1. Having our scope available to all users increases adoption of our scope and helps people see the benefit of a [single application](/handbook/product/single-application/).
+1. Having our scope available to all users increases adoption of our scope and helps people see the benefit of a [single application](/handbook/product/categories/gitlab-the-product/single-application/).
 1. Including all major features in Free helps reduce merge conflicts between CE and EE
 
 Because we have a great free product we can't have one price. Setting it high
@@ -32,7 +31,7 @@ would make the difference from the free version too high. Setting it low would
 make it hard to run a sustainable business. There is no middle ground that would
 work out with one price.
 
-That is why we have [Premium and Ultimate tiers](/handbook/product/gitlab-the-product/#paid-tiers).
+That is why we have [Premium and Ultimate tiers](#three-tiers).
 The price difference between them is half an order of magnitude (5x).
 
 We will charge per user, per
@@ -72,8 +71,7 @@ Our pricing philosophy is aligned with our [GitLab Values](/handbook/values/).
 
 We take a value-based pricing approach at GitLab. The core of the value-based pricing is to understand the value proposition that our innovations provide to our current and future customers for that offering. We aim to price our offerings to achieve continued growth and financial success for both the customer and GitLab.
 
-
-#### 1. Value Proposition
+### 1. Value Proposition
 
 To understand the value that we deliver to our customers, we focus on the benefits that our customers can receive to achieve their business goals. The value to our customers can include:
 
@@ -83,17 +81,17 @@ To understand the value that we deliver to our customers, we focus on the benefi
 - Greater and more effective collaboration
 - Emotional contribution of having delighted users
 
-#### 2. Customer Collaboration
+### 2. Customer Collaboration
 
-Defining and quantifying the value being delivered does not happen in isolation. We regularly engage with customers to understand how our solutions help them. These engagements are important as they will provide insights on how our innovations are valued by the customers and how it impacts our customers’ willingness to pay. Willingness to pay is a crucial element when we decide on how to price and packaging our offerings.
+Defining and quantifying the value being delivered does not happen in isolation. We regularly engage with customers to understand how our solutions help them. These engagements are important as they will provide insights on how our innovations are valued by the customers and how it impacts our customers' willingness to pay. Willingness to pay is a crucial element when we decide on how to price and packaging our offerings.
 
-#### 3. Competitive Landscape
+### 3. Competitive Landscape
 
-We understand that customers have choices when they decide to make a purchase. Hence,  understanding the competitive landscape of our products is very critical. With respect to competition, we focus on the key differences between our value proposition and the competition’s value proposition. Our pricing aims to reflect the differential value that we provide. We aim to design the pricing structure that works best for our customers compared to our competitors inclusive of pricing metric.
+We understand that customers have choices when they decide to make a purchase. Hence,  understanding the competitive landscape of our products is very critical. With respect to competition, we focus on the key differences between our value proposition and the competition's value proposition. Our pricing aims to reflect the differential value that we provide. We aim to design the pricing structure that works best for our customers compared to our competitors inclusive of pricing metric.
 
-#### 4. Mutual Success
+### 4. Mutual Success
 
-To following our pricing philosophy, we aim to support long-lasting customer relationships. When we develop our pricing, the target is that both our customers and GitLab become successful together. For long term success, where we can run a sustainable business and meet our company’s financial goals, we do also consider cost to serve and margins as factors when pricing is determined. It is important to note that while costs and margins are factors in pricing, value provided to our customers is the foundational element.
+To following our pricing philosophy, we aim to support long-lasting customer relationships. When we develop our pricing, the target is that both our customers and GitLab become successful together. For long term success, where we can run a sustainable business and meet our company's financial goals, we do also consider cost to serve and margins as factors when pricing is determined. It is important to note that while costs and margins are factors in pricing, value provided to our customers is the foundational element.
 
 ## Departments and Decision Making
 
@@ -101,9 +99,9 @@ Pricing affects Product, Marketing, and Sales.
 Therefore, general pricing decisions are made by the CEO.
 
 Product makes most decisions on a day-to-day basis about what feature should go
-in what plan based on [the paid tiers](/handbook/product/gitlab-the-product/#paid-tiers).
+in what plan based on [the paid tiers](#three-tiers).
 
-The following table describes how large cross-functional pricing decisions should be made.  This decision making method differs from our normal [RADCIE](/handbook/people-group/directly-responsible-individuals/#radcie) method due to the extremely cross-functional nature and business risk of large pricing decisions.
+The following table describes how large cross-functional pricing decisions should be made.  This decision making method differs from our normal [RADCIE](/handbook/people-group/directly-responsible-individuals/) method due to the extremely cross-functional nature and business risk of large pricing decisions.
 
 | Responsible | Sr. Director, Pricing | Responsible for analysis and recommendation |
 | Agree | Chief Product Officer, CRO | Should ideally agree with the recommendation |
@@ -145,13 +143,13 @@ Below we list product categories and the current and proposed features which res
 #### Feature - Kanban Boards
 
 1. **Project and Group Boards (Free)** : The primary user and buyer for Issue Boards in general is Individual Contributors. While group boards likely span teams, there are also valid use cases for an individual to organize code in several projects and manage issues across those projects at the group level. The key differentiation is that an Individual Contributor will likely only ever need a single group level Issue Board; whereas Managers need several group level Issue Boards to facilitate their team's workflows. ([Documentation](https://docs.gitlab.com/ee/user/project/issue_board.html))
-1. **Issue Weight on Boards (Premium)** : The users assigning issue weights are individual contributors but the value of that weight is for Directors of teams to ensure proper milestone planning. (Documentation [with respect to boards](https://docs.gitlab.com/ee/user/project/issue_board.html#sum-of-issue-weights-starter))
-1. **Multiple Group Issue Boards (Premium)** : Issue boards which span groups are valuable to and also utilized by groups of groups which aligns to Director level likely buyer. ([Related documentation](https://docs.gitlab.com/ee/user/project/issue_board.html#group-issue-boards-premium))
+1. **Issue Weight on Boards (Premium)** : The users assigning issue weights are individual contributors but the value of that weight is for Directors of teams to ensure proper milestone planning. (Documentation [with respect to boards](https://docs.gitlab.com/ee/user/project/issue_board.html#sum-of-issue-weights))
+1. **Multiple Group Issue Boards (Premium)** : Issue boards which span groups are valuable to and also utilized by groups of groups which aligns to Director level likely buyer. ([Related documentation](https://docs.gitlab.com/ee/user/project/issue_board.html#group-issue-boards))
 1. **Issue Board Epic Swimlanes (Ultimate)** : Everyday users of swimlanes might be individual contributors but their value is in the visualization of activity for company wide portfolio management by Executives. ([Related issue](https://gitlab.com/gitlab-org/gitlab/issues/7371))
 
 #### Feature - Merge Requests
 
-1. **Merge conflict resolution (Free)** : Resolving merge conflicts is part of the daily workflow and valuable to Individual Contributors. ([Documentation](https://docs.gitlab.com/ee/user/project/merge_requests/resolve_conflicts.html#merge-request-conflict-resolution))
+1. **Merge conflict resolution (Free)** : Resolving merge conflicts is part of the daily workflow and valuable to Individual Contributors. ([Documentation](https://docs.gitlab.com/ee/user/project/merge_requests/conflicts.html#methods-of-resolving-conflicts))
 1. **Merge approvals (Premium)** : Requiring approvals on merge requests is only useful when there is a team working on a project and their Director (who isn't likely to be the user of approvals) requires specific individuals to provide their approval. ([Documentation](https://docs.gitlab.com/ee/user/project/merge_requests/approvals/))
 1. **Merge request reviews (Premium)** : Merge request reviews enables the expedient review by multiple team members on merge requests. Typically large enough teams to value the reduced chatter accompanying MR reviews reside under Directors. ([Documentation](https://docs.gitlab.com/ee/user/discussions/index.html))
 
@@ -159,7 +157,7 @@ Below we list product categories and the current and proposed features which res
 
 1. **Built in CI Pipelines (Free)** : CI Pipelines are integral to GitLab and used primarily by Individual Contributors. ([Documentation](https://docs.gitlab.com/ee/ci/))
 1. **Show pipeline code coverage rate (Premium)** : The ability to determine code coverage rate is particularly valuable to Directors. ([Documentation](https://docs.gitlab.com/ee/user/group/repositories_analytics/index.html))
-1. **Pipeline dashboards (Premium)** : Dashboards of pipelines across groups and projects are primarily used and valued by Directors. ([Documentation](https://docs.gitlab.com/ee/user/operations_dashboard/#operations-dashboard-premium))
+1. **Pipeline dashboards (Premium)** : Dashboards of pipelines across groups and projects are primarily used and valued by Directors. ([Documentation](https://docs.gitlab.com/ee/user/operations_dashboard/))
 1. **Downloadable all pipeline logs (Ultimate)** : Pipeline logs would be generated and even downloaded by individual contributors, but the value of collating these logs is provided to Executives responsible for ensuring compliance.
 
 ### Usage can be more important than buyer-based tiering
@@ -173,7 +171,7 @@ When considering tiering, if the feature is geared to be used (not purchased) by
 
 ### Prevent the ability to circumvent tiering
 
-If a feature in the free tier (typically useful to ICs, but also to others) will open up the possibility to circumvent or abuse our tiering policy, we should exercise extreme caution and err on the side of maintaining the feature in a paid tier. An example of this is [repo pull mirroring](https://docs.gitlab.com/ee/user/project/repository/repository_mirroring.html#pulling-from-a-remote-repository) that is useful for ICs and can also be great for adoption (i.e. trying out GitLab.). However, it may also lead to larger instances in Free tier mirroring to smaller instances in paid tiers to make use of paid-tiered features. This goes against our pricing terms & conditions and therefore we chose to keep the feature in a paid tier instead of Free tier.
+If a feature in the free tier (typically useful to ICs, but also to others) will open up the possibility to circumvent or abuse our tiering policy, we should exercise extreme caution and err on the side of maintaining the feature in a paid tier. An example of this is [repo pull mirroring](https://docs.gitlab.com/ee/user/project/repository/mirror/pull) that is useful for ICs and can also be great for adoption (i.e. trying out GitLab.). However, it may also lead to larger instances in Free tier mirroring to smaller instances in paid tiers to make use of paid-tiered features. This goes against our pricing terms & conditions and therefore we chose to keep the feature in a paid tier instead of Free tier.
 
 ### Partner integration considerations
 
@@ -181,7 +179,7 @@ When building integrations to partners it is possible to make exceptions to our 
 
 ### Themes
 
-We've found that bundling our features within tiers into themes [resulted in improved conversion performance on our pricing page](https://gitlab.com/groups/gitlab-com/marketing/growth-marketing/-/epics/11). While it is how we present the value of our tiers, this themes-based representation serves as an additive filter for, and is not a replace of, our Buyer Based Tiering decision.
+We've found that bundling our features within tiers into themes [resulted in improved conversion performance on our pricing page](https://gitlab.com/groups/gitlab-com/marketing/inbound-marketing/-/epics/11). While it is how we present the value of our tiers, this themes-based representation serves as an additive filter for, and is not a replace of, our Buyer Based Tiering decision.
 
 Themes are then bundled into [customer value drivers](/handbook/sales/command-of-the-message/#customer-value-drivers).
 
@@ -333,7 +331,7 @@ For the GitLab sales team and for GitLab customers, we suggest handling the obje
 
 ### Reporter User Permission Pricing
 
-As our customers adopt GitLab as the single application for their entire DevOps lifecycle, we are hearing more and more non-developer use cases using GitLab for Agile project management. The main functionality that some non-developer roles need aligns fairly well with our [reporter permission](https://docs.gitlab.com/ee/user/permissions.html#project-members-permissions) access, including Managing Labels, Assigning Issues, and Creating and Editing Epics, etc. Those users don’t really need to use much other developer functionality.
+As our customers adopt GitLab as the single application for their entire DevOps lifecycle, we are hearing more and more non-developer use cases using GitLab for Agile project management. The main functionality that some non-developer roles need aligns fairly well with our [reporter permission](https://docs.gitlab.com/ee/user/permissions.html#project-members-permissions) access, including Managing Labels, Assigning Issues, and Creating and Editing Epics, etc. Those users don't really need to use much other developer functionality.
 
 Currently, we do not offer a different list price for users who only need the reporter permission because:
 
@@ -354,7 +352,7 @@ We understand that our customers have non-developer use cases. Please [contact o
 ## Consumption pricing principles
 
 1. These are some principles we think are useful. These are not a promise not an entitlement. Our [pricing page](https://about.gitlab.com/pricing/) contains our current pricing which might deviate from the principles below.
-1. Our price is 5x the on-demand cost of the clouds, so we have 80% margin. This seems to be what's common in our market (for example: [GitHub](https://github.com/pricing) and [CircleCI](https://circleci.com/pricing/)), but we're open to other companies fact checking us with list prices. Here's [our long-term cost model](/handbook/finance/financial-planning-and-analysis/#long-term-targets) which shows how this enables us to get a 20% profit margin.
+1. Our price is 5x the on-demand cost of the clouds, so we have 80% margin. This seems to be what's common in our market (for example: [GitHub](https://github.com/pricing) and [CircleCI](https://circleci.com/pricing/)), but we're open to other companies fact checking us with list prices. Here's [our long-term cost model](/handbook/finance/financial-planning-and-analysis/#long-range-outlook-lro) which shows how this enables us to get a 20% profit margin.
 1. The user has the flexibility to bring their own resources whenever practical (for example, runners and clusters). This can be their on-premise equipment or from their own cloud contract.
 1. We don't want to compete with the major clouds because they are our partners. The only reasons we'd offer our own are because it needs to be in our infrastructure (repository storage) and it's convenient for the end user (runners).
 1. We reap the benefits of scale and sustained-use discounts. We use that to sponsor the resource use that isn't priced. For example: Coordinating the runners, logging in, showing the interface, and sending emails.
@@ -364,7 +362,7 @@ We understand that our customers have non-developer use cases. Please [contact o
 1. We anticipate that not all of the consumption that is included in the accounts is used.
 1. We simplify the pricing model for our customers whenever we can. For example, our pricing is one fee for storage, while the underlying repository might be on a Solid State Drive (SSD) or Hard Disk Drive (HDD).
 1. In the future we can offer extra credits if users do something that generates value to the company. Similar to the Dropbox "get GBs for inviting a friend" offering. Examples: Using new stages, linking to a partner (AWS/GCP), and inviting new users.
-1. Prepay vs. postpay: We select prepayment since it solves non-payment problems like bitcoin miners. It’s also more predictable for users with fewer unexpected bills, so it makes budgeting easier. Postpay reduces the risk of infrastructure going down due to the lack of funds. In GitLab, most of the consumption is driven by people in the organization instead of their customers. This makes it more likely that we can get them to pay quickly when that is needed. We should think about emergency processes for enterprise customers that have long ordering cycles.
+1. Prepay vs. postpay: We select prepayment since it solves non-payment problems like bitcoin miners. It's also more predictable for users with fewer unexpected bills, so it makes budgeting easier. Postpay reduces the risk of infrastructure going down due to the lack of funds. In GitLab, most of the consumption is driven by people in the organization instead of their customers. This makes it more likely that we can get them to pay quickly when that is needed. We should think about emergency processes for enterprise customers that have long ordering cycles.
 1. Manual vs. automatic ordering: We need both. We'll start with manual ordering since that is simpler to make, we need it anyway, and it leads to fewer unexpected bills for customers. Automatic ordering will help customers prevent their developers being ineffective because they don't have minutes. At some point, we might change the default from manual to automatic. If we do, we should communicate this well and always give customers the option to keep it manual.
 1. Recurring vs. non-recurring: We will make it recurring for anything that was manually ordered and non-recurring for anything that was automatically ordered. Recurring reduces work on the side of the customers. Non-recurring reduces the chance of customers paying for consumption they don't use.
 1. Refundable vs. non-refundable: We'll make it non-refundable for now, since refundable is complex to implement, has legal constraints, and makes revenue recognition harder. Refundable would be better for customers that have more consumption purchased than they need.
@@ -380,7 +378,7 @@ We currently think the pros with the non-cumulative approach outweigh the pros w
     1. The allotment with the plan is to get people started, not for serious consumption, that you can buy separately.
     1. It looks like a bigger number of minutes and storage.
     1. This gives the most to free users, for whom purchasing consumption is a big hurdle to try GitLab.
-    1. We need to make sure that a paid tier doesn’t benefit from free users quota.
+    1. We need to make sure that a paid tier doesn't benefit from free users quota.
     1. Some other vendors' pricing metrics are like this as well.
     1. It makes more logical sense.
     1. It is more fair as customers will have more minutes and storage as they sign up more users.
@@ -388,7 +386,7 @@ We currently think the pros with the non-cumulative approach outweigh the pros w
     1. It incentivizes more users per namespace of which we know it drives conversion.
     1. It drives free users to more quickly buy consumption and convert them into customers.
 1. Per user vs. per namespace: Are the consumption limits provisioned per user or per namespace?
-In the case of per namespace, the user gets more minutes and storage when they create another namespace. In the case of per user, the user receives fixed minutes and storage across all their contributions. We currently provision consumption limits per namespace. A user namespace also receives the group namespace’s quota.
+In the case of per namespace, the user gets more minutes and storage when they create another namespace. In the case of per user, the user receives fixed minutes and storage across all their contributions. We currently provision consumption limits per namespace. A user namespace also receives the group namespace's quota.
 1. Does storage pricing include other storage types: attachments, containers, etc.?
 The single storage pricing covers registry (containers are part of it), repository, artifacts, and attachments, etc.
 1. Pricing is not a substitute for scalability. For example, putting something in a higher tier if we are worried about its scalability is not what we do. We should rather start with Beta, limited access, or mailing lists etc.
@@ -411,7 +409,7 @@ Not sure what is normal in the market. Adobe did a good job, but they moved from
 
 ## When is a dollar not a dollar?
 
-This is the title of a [great article](https://codingvc.com/when-is-a-dollar-not-a-dollar/) of which we'll apply the 8 points to GitLab below:
+This is the title of a [great article](https://www.codingvc.com/p/when-is-a-dollar-not-a-dollar) of which we'll apply the 8 points to GitLab below:
 
 1. Cost vs. revenue: we can help both to reduce costs and increase revenue, make sure you align to what the priorities of the prospect are.
 1. Principle agent problem: for a VP of Engineering, you probably want to highlight our features that provide more visibility over features that save developers time.
@@ -450,7 +448,7 @@ Arguments supporting also offering monthly pricing:
 
 ## Why show monthly pricing on the website
 
-Almost all SaaS products show monthly pricing on their pricing pages. GitLab shows [monthly pricing on our website](https://about.gitlab.com/pricing/) and notes clearly that it is billed annually. This is also a standard practice followed by companies like [Salesforce](https://www.salesforce.com/editions-pricing/sales-cloud/). We previously have tried showing annual pricing on the website, but repeatedly heard from customers that they were confused by it. They often thought our product was priced significantly higher than it actually was because they expected the pricing to be displayed in monthly units and read the annual price as though it were per month.
+Almost all SaaS products show monthly pricing on their pricing pages. GitLab shows [monthly pricing on our website](https://about.gitlab.com/pricing/) and notes clearly that it is billed annually. This is also a standard practice followed by companies like [Salesforce](https://www.salesforce.com/products/sales-pricing/). We previously have tried showing annual pricing on the website, but repeatedly heard from customers that they were confused by it. They often thought our product was priced significantly higher than it actually was because they expected the pricing to be displayed in monthly units and read the annual price as though it were per month.
 
 ## Only sell a suite
 
@@ -475,11 +473,11 @@ Selling only a suite has risks, after the => is how we mitigate those at GitLab:
 Companies evolve to selling only a suite for the following reasons, after the => is how this applies to GitLab:
 
 1. Makes it easier for organizations to adopt the other products. => This is essential; organizations have official solutions and GitLab grows with organic adoption from developers.
-1. Show customers the benefit of a [single application](https://about.gitlab.com/direction/#single-application). => This is essential, since people are skeptical (showing beats telling).
+1. Show customers the benefit of a [single application](/handbook/product/categories/gitlab-the-product/single-application/). => This is essential, since people are skeptical (showing beats telling).
 1. More usage of all the products. => This is essential for us, due to our [seed then nurture](/handbook/company/strategy/) product strategy.
 1. Harder to displace the suite, once it is in place. => This will help if competitors offer a service based on our open source code.
 
-We're going even further than selling a suite by integrating everything in a single application. We do that because of the advantages mentioned on our [direction page section about us being single application](https://about.gitlab.com/direction/#single-application). A secondary effect is that the user doesn't have to make a buying, or even an adoption, decision.
+We're going even further than selling a suite by integrating everything in a single application. We do that because of the advantages mentioned on our [handbook page about us being single application](/handbook/product/categories/gitlab-the-product/single-application/). A secondary effect is that the user doesn't have to make a buying, or even an adoption, decision.
 
 Charging one price that incorporate all our stages is the **perfect bundle**.
 
@@ -537,7 +535,7 @@ Alternatives that don't work:
 
 More detail about this in Sid's presentations about Buyer-Based-Open-Core at the [Open Source Leadership Summit in 2019](https://about.gitlab.com/blog/2019/04/03/five-ways-resist-service-wrapping-buyer-based-open-core/) and at [Heavybit](https://www.heavybit.com/library/video/commercial-open-source-business-strategies/).
 
-Also see [fork and commoditize](https://internal-handbook.gitlab.io/handbook/leadership/mitigating-concerns/#fork-and-commoditize) in the list of our concerns.
+Also, see [fork and commoditize](https://internal.gitlab.com/handbook/leadership/mitigating-concerns/#fork-and-commoditize) (internal) in our list of concerns.
 
 ### Example template for customer response
 
@@ -554,7 +552,7 @@ Also see [fork and commoditize](https://internal-handbook.gitlab.io/handbook/lea
 We should not hesitate to open source features. When we put a feature into too high of a tier we should move it quickly because not having it in all tiers limits who can use the feature and this hurts:
 
 1. Getting more users: having the product sell itself makes us much more efficient, for it to sell itself it has to get used, more open source features can increase the popularity of GitLab compared to rival offerings.
-1. Getting more [stages per user](/handbook/product/performance-indicators/#stages-per-user-spu): if an open source feature gets a user to adopt a new stage this increases the value one user gets from GitLab greatly since the [single application](/handbook/product/single-application/) benefits grow exponentially is you adopt more stages.
+1. Getting more [stages per user](https://internal.gitlab.com/handbook/company/performance-indicators/product/#stages-per-user-spu) (internal): if an open-source feature gets a user to adopt a new stage, the value one user gets from GitLab increases greatly because the [single application](/handbook/product/categories/gitlab-the-product/single-application/) benefits grow exponentially when you adopt more stages.
 1. Getting more open source contributions to improve the feature: since the number of contributions grows with the number of users.
 1. Increase demand for paid features on top of what you open source: When you move a feature down this increases the usage of the specific feature, for example our service desk functionality. When a feature is popular this creates more demand for paid features that we can add later like custom templates for service desks.
 
@@ -591,7 +589,7 @@ To propose a change that impacts pricing or changes a feature's tier (e.g. movin
 
 What is interesting is that GitLab creates more value as you adopt more of it.
 This shouldn't be confused with DevOps maturity.
-DevOps maturity is how advanced your practices are and how fast your DevOps lifecycle is, shown in [cycle analytics](https://docs.gitlab.com/ee/user/analytics/value_stream_analytics.html).
+DevOps maturity is how advanced your practices are and how fast your DevOps lifecycle is, shown in [cycle analytics](https://docs.gitlab.com/ee/user/group/value_stream_analytics/).
 With the best practices embedded in GitLab, you will mature faster than without it. GitLab enables a 200% faster DevOps lifecycle.
 But DevOps maturity is mostly about organizational change. GitLab the product is just an enabler of it.
 Even if an organization uses everything of GitLab (high DevOps score), they can still have a slow process (slow lifecycle).
@@ -601,7 +599,7 @@ These large organizations with a slow lifecycle benefit the most from GitLab, si
 
 ## Location based pricing
 
-As suggested by [a user on Twitter](https://twitter.com/javierfeldman/status/1101246338824572928).
+As suggested by [a user on X](https://x.com/javierfeldman/status/1101246338824572928)(X login required).
 This is a good suggestion to consider given the GitLab approach to adapting to local markets throughout the business. GitLab will assess viability of the idea in our overall pricing strategy planning. It is difficult to do and our assessment of this will consider:
 
 1. This is a complex issue and requires that all parties are better off if a change is made to account for geography. We fully admit that this would be hard to pull off successfully.

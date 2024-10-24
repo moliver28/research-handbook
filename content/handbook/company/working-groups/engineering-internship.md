@@ -11,7 +11,7 @@ description: "Establish an Engineering Internship to Hire program"
 | End Date        | March 28, 2023                                                                                                  |
 | Slack           | [#wg_engineering_internship_program](https://gitlab.slack.com/archives/C03GW8WMVA9)                             |
 | Google Doc      | [Working Group Agenda](https://docs.google.com/document/d/1hcuE6I6rvdISFk_zzYYdxFdJM4ONhRrGY499ydDUiWc/edit#)   |
-| Docs            | [Handbook Page](https://about.gitlab.com/handbook/engineering/internships/)                                     |
+| Docs            | [Handbook Page](/handbook/engineering/internships/)                                     |
 | Meetings        | This working group meets bi-weekly (every other week) on Tuesday 21:00 UTC                                      |
 | Documents       | [Working Group - Shared Folder](https://drive.google.com/drive/folders/1KUNilJ_WPwklFO1N5_oKiMmoCAlxtqRV)       |
 
@@ -26,24 +26,24 @@ This working group aims to build on the previous work from the [internship-pilot
 
 ## Exit Criteria
 
-#### Stage 1: Establish the internship `=> 100%`
+### Stage 1: Establish the internship `=> 100%`
 
 - ✅ Form a team to re-establish the engineering internship
 - ✅ Open an evergreen internship for applicants
 - ✅ Identify and work with several hiring managers to review, screen, and interview candidates for specific roles
 
-#### Stage 2: Iterate on the process with a small number of teams  `=> 100%`
+### Stage 2: Iterate on the process with a small number of teams  `=> 100%`
 
 - ✅ Create role specific recruitment funnels
 - ✅ Determine requirements and benchmarks for technical interviews
 - ✅ Support managers, teams, and interns through the first round of internships
 - ✅ Re-introduce the Junior level, renamed Associate, and add as a pathway from internship
 
-#### Stage 3: Plan for FY24 `=> 0%`
+### Stage 3: Plan for FY24 `=> 0%`
 
 - ✅ Work through options to extend the internship in FY24
 
-Options to extend the [internship program for Engineering](https://about.gitlab.com/handbook/engineering/internships/) in FY24 and beyond are being worked through as part of the recruitment team emerging talent program.
+Options to extend the [internship program for Engineering](/handbook/engineering/internships/) in FY24 and beyond are being worked through as part of the recruitment team emerging talent program.
 
 ## Roles and Responsibilities
 
@@ -61,4 +61,3 @@ Options to extend the [internship program for Engineering](https://about.gitlab.
 | Member             | Mon Ray              | Engineering Manager                   |
 | Member             | Kamil Niechajewicz   | Engineering Manager                   |
 | Member             | Amar Patel           | Engineering Manager                   |
-

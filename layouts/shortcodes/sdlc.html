@@ -1,14 +1,12 @@
-{{- $stages := partials.IncludeCached "data/stages" page -}}
-{{- $categories := partials.IncludeCached "data/categories" page -}}
 {{- $displayStages := slice "plan" "create" "verify" "package" "secure" "deploy" "govern" "monitor" -}}
 {{- $marketingCategories := dict -}}
-{{- range $k, $v := $categories -}}
+{{- range $k, $v := site.Data.public.categories -}}
 	{{- if .marketing -}}
 		{{- $marketingCategories = merge $marketingCategories (dict $k $v) -}}
 	{{- end -}}
 {{- end -}}
 {{- $marketingStages := slice -}}
-{{- range $k, $v := $stages -}}
+{{- range $k, $v := site.Data.public.stages.stages -}}
 	{{- if .marketing -}}
 		{{- $mcats := slice -}}
 		{{- range .groups -}}

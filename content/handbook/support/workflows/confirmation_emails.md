@@ -27,11 +27,11 @@ Before the issue can be resolved we first need to locate the account in question
 1. Observe the results. Check if the app found an account associated with the username or email address provided by the user. If a result was returned for the username lookup only, go to the provided `Admin Link` and check what email address is listed on the account.
 1. Proceed to Step 2 under Check GitLab Admin.
 
-**If no account was found** use the Zendesk macro [`Support::SaaS::Account does not exist`](https://gitlab.com/gitlab-com/support/support-ops/zendesk-global/macros/-/blob/master/macros/active/Support/SaaS/Account%20does%20not%20exist.yaml) or, if you believe it's applicable, use [`General::Verify account self-managed or .com`](https://gitlab.com/gitlab-com/support/support-ops/zendesk-global/macros/-/blob/master/macros/active/General/Verify%20account%20self-managed%20or%20.com.yaml) and then wait for a followup from the user.
+**If no account was found** use the Zendesk macro [`Support::SaaS::Gitlab.com::Account does not exist`](https://gitlab.com/gitlab-com/support/zendesk-global/macros/-/blob/master/active/Support/SaaS/GitLab.com/Account%20does%20not%20exist.md?ref_type=heads) or, if you believe it's applicable, use [`General::Verify account self-managed or .com`](https://gitlab.com/gitlab-com/support/support-ops/zendesk-global/macros/-/blob/master/macros/active/General/Verify%20account%20self-managed%20or%20.com.yaml) and then wait for a followup from the user.
 
 ### Method 2: Check GitLab Admin
 
-1. In the GitLab SaaS Admin Area, [search for the user](https://gitlab.com/admin/users) by username to confirm the account exists. Alternatively, search in your browser using [the API](https://gitlab.com/api/v4/users?search=email@email.test) or [ChatOps](/handbook/support/workflows/chatops#user).
+1. In the GitLab.com Admin Area, [search for the user](https://gitlab.com/admin/users) by username to confirm the account exists. Alternatively, search in your browser using [the API](https://gitlab.com/api/v4/users?search=email@email.test) or [ChatOps](/handbook/support/workflows/chatops#user).
 1. Check the email address against what the user has reported and then perform one of the following fixes:
     - They likely are not receiving their confirmation email due to a suppression. See 👉 [Stage 2: Fix](#stage-2-fix).
 
@@ -45,6 +45,8 @@ Ensure the ticket has the correct:
 - Impacted email address
 
 Zendesk should automatically check for and remove a suppression if found.
+
+The automation will send out an email to the customer letting them know whether there was a suppresion on their account or not and what next steps they can take.
 
 ### Typo Fix
 
@@ -101,6 +103,9 @@ If the problem is with the customers portal account email, you can send the user
 
 ### Checking Mailgun logs
 
+NOTE:
+The `mg.gitlab.com` domain contains relevant data for Support troubleshooting. You will not see this list as a domain option in the drop-down on any pages. You must select the domain under Send > Sending > Domains. There is an email.mg.gitlab.com domain which appears by default, but will not work.
+
 On the first attempt, if our email system could not get through (usually server says it's non-existent or similar), then our mail server will put a suppression on sending further emails.
 
 This is useful to check if emails have been delivered successfully from our end, which could mean that the error is with the users' email provider.
@@ -113,6 +118,23 @@ This is useful to check if emails have been delivered successfully from our end,
     - If email is delayed, respond to the user and ask them to wait.
     - If email is bouncing due to a suppression (evidenced by the message `Not delivering to previously bounced address` in the log) proceed to [Removing a Suppression in Zendesk](#manually-remove-a-suppression-in-zendesk) or [Removing a Suppression in Mailgun](#manually-remove-a-suppression-in-mailgun).
     - If email is marked as `Delivered` and the response code under `delivery-status` is `"code": 250`, this indicates that the user's mail server acknowledged the receipt, and the email delivery was successful.
+
+### How to see or resend emails in Mailgun
+
+This is to check the content of an email sent:
+
+1. Follow the steps from the section [Checking Mailgun logs](#checking-mailgun-logs) to locate an email in Mailgun - The email subject must be "Verify your identity".
+1. Access the log details by clicking on the dented wheel icon at the right end of the log entry.
+1. In the log details, go to the third tab named "quick view" to display the full email.
+![Mailgun_email_body](../assets/Mailgun_email_body.png)
+
+To resend an email:
+
+**Important note**: Any email resend to a **different** email address must be approved by a manager and performed after an ownership verification. *No approval or ownership verification is needed if you resend to the same email address.*
+
+1. On the dented wheel icon at the right end of the log entry, click on the "Resend message" button.
+1. From there you can enter an email address and press "Send".
+![Mailgun_resend_email](../assets/Mailgun_resend_email.png)
 
 ### Identifying Multiple Suppressions on a Single Domain
 

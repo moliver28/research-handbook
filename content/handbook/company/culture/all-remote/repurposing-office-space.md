@@ -12,7 +12,7 @@ twitter_creator: "@gitlab"
 ![Remote journey illustration](/images/all-remote/gitlab-remote-journey-color-illustration.png)
 {style="max-width: 50%"}
 
-As organizations around the globe have embraced [various models of remote or hybrid work]({{< ref "./stages" >}}), a new question has emerged: What do we do with our office space? Business leaders and facilities teams must decide what their top priority will be for these physical spaces.
+As organizations around the globe have embraced [various models of remote or hybrid work](stages/), a new question has emerged: What do we do with our office space? Business leaders and facilities teams must decide what their top priority will be for these physical spaces.
 
 This question is also relevant for owners and investors in commercial real estate spaces that have traditionally been used as corporate office space. How do we optimize these spaces in this new world of remote and distributed work?
 
@@ -20,7 +20,7 @@ We'll explore a number of options on this page, as well as highlight examples fr
 
 ## Closing the office
 
-If you're a business leader whose team is transitioning to an all-remote model, the first option to examine is whether you can (or want to) close some or all of your office spaces. This sends the clearest signal that you're [fully embracing]({{< ref "./transition#close-the-office" >}}) remote work. It's likely to be the most cost-effective approach, and will eliminate the potential for the office to remain a crutch to collaboration.
+If you're a business leader whose team is transitioning to an all-remote model, the first option to examine is whether you can (or want to) close some or all of your office spaces. This sends the clearest signal that you're [fully embracing](transition/#close-the-office) remote work. It's likely to be the most cost-effective approach, and will eliminate the potential for the office to remain a crutch to collaboration.
 
 This may not be a feasible option for some organizations in the short term due to leasing terms and other binding factors. That's why we'll explore other ways to repurpose this space, both for organizations and the owners of the spaces.
 
@@ -30,7 +30,7 @@ For organizations that plan to retain some or all existing office space, there a
 
 **Ask for input from your team**
 
-Gathering input from your employees is an important first step in the decision-making process to determine the future use of your office space. This is especially key data if you're embracing a [hybrid]({{< ref "./hybrid-remote" >}}) work model. There's no "one size fits all" for [workspaces]({{< ref "./workspace" >}}), remote or colocated. Knowing your team's current needs and preferences for this space can help prioritize what features you invest in and ensure it's a productive space that serves your organization into the future.
+Gathering input from your employees is an important first step in the decision-making process to determine the future use of your office space. This is especially key data if you're embracing a [hybrid](hybrid-remote/) work model. There's no "one size fits all" for [workspaces](workspace/), remote or colocated. Knowing your team's current needs and preferences for this space can help prioritize what features you invest in and ensure it's a productive space that serves your organization into the future.
 
 ![Remote work environment](/images/all-remote/gitlab_all_remote_work_environment_scale.jpg)
 {style="max-width: 50%"}
@@ -39,19 +39,20 @@ Gathering input from your employees is an important first step in the decision-m
 
 Companies that were mostly colocated prior to the COVID-19 pandemic likely prioritized desks, hoteling workstations, and meeting spaces with the assumption that most work would happen within the walls of the office. Those spaces are in need of an upgrade in order to truly embrace your new remote-first or hybrid organizational design.
 
-The goal should be to ensure the office is treated as simply [another space to work remotely]({{< ref "./how-to-work-remote-first#offices-are-simply-venues-to-work-remotely-from" >}}).
+The goal should be to ensure the office is treated as simply [another space to work remotely](how-to-work-remote-first/#offices-are-simply-venues-to-work-remotely-from).
 
 Here are some changes to consider to make your space more inclusive of remote team members:
-1. Eliminate and/or redesign meeting rooms for [individual hybrid-remote meeting spaces]({{< ref "./hybrid-remote#redesigned-spaces-for-individual-hybrid-remote-meeting-rooms" >}})
+
+1. Eliminate and/or redesign meeting rooms for [individual hybrid-remote meeting spaces](hybrid-remote/#redesigned-spaces-for-individual-hybrid-remote-meeting-rooms)
 1. Install an LCD wall (or similar) with images and photos from remote team members to serve as a reminder of your team beyond the office
 1. Ensure that hoteling or co-working areas are prioritized within the office over dedicated desks or large cubicles
-1. Upgrade video conferencing technology in all meeting spaces to avoid the downsides of [hybrid calls]({{< ref "./how-to-work-remote-first#everyone-must-use-their-own-webcam-no-hybrid-calls" >}})
-1. Include reminders in meeting spaces about your documented, [remote-first meeting norms]({{< ref "./meetings" >}})
+1. Upgrade video conferencing technology in all meeting spaces to avoid the downsides of [hybrid calls](how-to-work-remote-first/#everyone-must-use-their-own-webcam-no-hybrid-calls)
+1. Include reminders in meeting spaces about your documented, [remote-first meeting norms](meetings/)
 1. Incorporate digital signage for internal communications campaigns and promotions so that remote team members have access outside of the office
 
 ### Turn the office into a social gathering space
 
-For remote or hybrid teams, [time spent together in-person]({{< ref "./in-person" >}}) is most valuable when used for social connection and team building.
+For remote or hybrid teams, [time spent together in-person](in-person/) is most valuable when used for social connection and team building.
 
 Most traditional office spaces have some kind of gathering space for employees, but it typically doubles as a cafeteria, break room, gaming area, or large conference room. These spaces often have capacity limits that prevent them from being able to accommodate the entire team for company celebrations and social events. Take your unused cubicle or "work only" space and convert this part of your office footprint to serve the emerging needs of your organization for social spaces of all sizes. Examples of these new spaces include:
 
@@ -104,7 +105,7 @@ Here are other examples that owners of commercial office space could consider in
 
 Reducing or eliminating corporate office space is likely to bring cost savings to your organization. Keep in mind that just because you no longer have to invest in physical real estate does not mean you have no need for a workspace-related budget. The onus is on business leaders to provide the space and equipment their employees need to create healthy and productive remote workspaces. As this continues to become the norm for remote and hybrid workers, top talent will expect this as a requisite part of any total rewards package and employee experience.
 
-You can find more guidance on how to invest in your team's workspace in [this guide]({{< ref "./work-from-home-field-guide" >}}).
+You can find more guidance on how to invest in your team's workspace in [this guide](work-from-home-field-guide/).
 
 {{% include "includes/is_this_advice_any_good_remote.md" %}}
 
@@ -115,4 +116,3 @@ GitLab believes that all-remote is the [future of work]({{< ref "remote-vision" 
 ---
 
 Return to the main [all-remote page]({{< ref "_index.md" >}}).
-

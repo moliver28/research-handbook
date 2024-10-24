@@ -18,7 +18,7 @@ The Intermediate Fullstack Engineer is a [grade](/handbook/total-rewards/compens
 - Craft code that meets our internal standards for style, maintainability, and best practices for a high-scale web environment. Maintain and advocate for these standards through code review.
 - Represent GitLab and its values in public communication around specific projects and community contributions.
 - Confidently ship small features and improvements with minimal guidance and support from other team members. Collaborate with the team on larger projects.
-- Participate in Tier 2 or Tier 3 weekday and weekend and occasional night [on-call rotations](https://about.gitlab.com/handbook/engineering/development/processes/Infra-Dev-Escalation/process.html) to assist troubleshooting product operations, security operations, and urgent engineering issues.
+- Participate in Tier 2 or Tier 3 weekday and weekend and occasional night [on-call rotations](/handbook/engineering/development/processes/infra-dev-escalation/process/) to assist troubleshooting product operations, security operations, and urgent engineering issues.
 
 ## Requirements
 
@@ -27,22 +27,17 @@ The Intermediate Fullstack Engineer is a [grade](/handbook/total-rewards/compens
 - Proficiency in the English language, both written and verbal, sufficient for success in a remote and largely asynchronous work environment
 - Demonstrated capacity to clearly and concisely communicate about complex technical, architectural, and/or organizational problems and propose thorough iterative solutions
 - Experience with performance and optimization problems and a demonstrated ability to both diagnose and prevent these problems
-- Comfort working in a highly agile, [intensely iterative][iteration] software development process
+- Comfort working in a highly agile, [intensely iterative](/handbook/values/#iteration) software development process
 - Demonstrated ability to onboard and integrate with an organization long-term
 - Positive and solution-oriented mindset
-- Effective communication skills: [Regularly achieve consensus with peers][collaboration], and clear status updates
+- Effective communication skills: [Regularly achieve consensus with peers](/handbook/values/#collaboration), and clear status updates
 - An inclination towards communication, inclusion, and visibility
 - Experience owning a project from concept to production, including proposal, discussion, and execution.
-- [Self-motivated and self-managing][efficiency], with strong organizational skills.
+- [Self-motivated and self-managing](/handbook/values/#efficiency), with strong organizational skills.
 - Demonstrated ability to work closely with other parts of the organization
-- Share [our values][values], and work in accordance with those values
+- Share [our values](/handbook/values/), and work in accordance with those values
 - Ability to use GitLab
 - Ability to thrive in a fully remote organization
-
-[values]: /handbook/values/
-[collaboration]: /handbook/values/#collaboration
-[efficiency]: /handbook/values/#efficiency
-[iteration]: /handbook/values/#iteration
 
 ## Nice-to-haves
 
@@ -65,7 +60,7 @@ The Intermediate Fullstack Engineer is a [grade](/handbook/total-rewards/compens
 
 ### Growth
 
-The [Growth sub-department](https://about.gitlab.com/handbook/engineering/development/growth/) analyzes the entire customer journey from the acquisition of a customer, to the flow across multiple GitLab features, and even reactivation of lost users. They work in small groups with a product manager, product designer, and a data analyst to scale GitLab usage by connecting users to the existing value that GitLab already delivers.
+The [Growth sub-department](/handbook/engineering/development/growth/) analyzes the entire customer journey from the acquisition of a customer, to the flow across multiple GitLab features, and even reactivation of lost users. They work in small groups with a product manager, product designer, and a data analyst to scale GitLab usage by connecting users to the existing value that GitLab already delivers.
 
 #### Growth Requirements
 
@@ -73,7 +68,7 @@ The [Growth sub-department](https://about.gitlab.com/handbook/engineering/develo
 
 ### Govern
 
-The [Govern sub-department](https://about.gitlab.com/handbook/engineering/development/sec/govern/) contributes to development in the [Sec](/handbook/product/categories/#sec-section) section.
+The [Govern sub-department](/handbook/engineering/development/sec/govern/) contributes to development in the [Sec](/handbook/product/categories/#sec-section) section.
 
 #### Govern Requirements
 
@@ -84,10 +79,10 @@ The [Govern sub-department](https://about.gitlab.com/handbook/engineering/develo
 
 ## Performance Indicators
 
-- [Backend Unit Test Coverage](https://about.gitlab.com/handbook/engineering/development/performance-indicators/#backend-unit-test-coverage)
-- [Frontend Unit Test Coverage](https://about.gitlab.com/handbook/engineering/development/performance-indicators/#frontend-unit-test-coverage)
-- [Open MR Review Time (OMRT)](https://about.gitlab.com/handbook/engineering/development/performance-indicators/#open-mr-review-time-omrt)
-- [Open MR Age (OMA)](https://about.gitlab.com/handbook/engineering/development/performance-indicators/#open-mr-age-oma)
+- [Backend Unit Test Coverage](/handbook/engineering/development/performance-indicators/#backend-unit-test-coverage)
+- [Frontend Unit Test Coverage](/handbook/engineering/development/performance-indicators/#frontend-unit-test-coverage)
+- [Open MR Review Time (OMRT)](/handbook/engineering/development/performance-indicators/#open-mr-review-time-omrt)
+- [Open MR Age (OMA)](/handbook/engineering/development/performance-indicators/#open-mr-age-oma)
 
 ## Hiring Process
 

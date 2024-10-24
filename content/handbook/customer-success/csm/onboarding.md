@@ -1,19 +1,12 @@
 ---
-
 title: "Customer Onboarding"
 ---
-
-
-
-
-
-
 
 View the [CSM Handbook homepage](/handbook/customer-success/csm/) for additional CSM-related handbook pages.
 
 ---
 
-Customer Onboarding is the [beginning phase of the customer lifecycle](/handbook/customer-success/vision/#lifecycle-stages).
+Customer Onboarding is the [beginning phase of the customer lifecycle](/handbook/customer-success/customer-success-vision/#lifecycle-stages).
 
 ## Overview
 
@@ -65,18 +58,19 @@ The CSM should review and revise this deck in advance of the kickoff call based 
 #### **What should I know coming out of the Kickoff call?**
 
 Ideally, the following information has been collected in the presales process and we use the kickoff to confirm and build upon this knowledge.  In the times that these questions are not known, we always seek to leave the kickoff with an understanding of the following?
+
 1. `Why did you buy GitLab?` Ideally you've already answered this question in your handoff from pre-sales, so if that's the case, reframe the question to validate that you understand they purchased GitLab for X reason and confirm your understanding of what challenges the customer is looking to solve.
 1. `What other tools are you using?` Understanding what the tool landscape is for the customer is crucial in being able to help them adopt GitLab in relation to their desired use cases. Try to write down their tool for each of the following use cases: SCM, CI, CD, Package, Security, Monitoring, Agile
 1. `What are your business goals?` After they achieve their immediate goal of whatever they want to use GitLab for, what's next for them?
 1. `Are there other stakeholders to involve?` Is there anyone else who would benefit from having business discussions with GitLab? CSMs should always have at least 2 regular contacts they speak with, ideally in line with our [target personas](/handbook/customer-success/csm/engagement/#customer-personas).
 
-In addition to the above questions, make sure to review the [tasklist for the first cadence call](/handbook/customer-success/csm/cadence-calls/#tasklist-for-the-first-cadence-call) to ensure you cover additional important items, such as support and training.
+In addition to the above questions, make sure to review the [tasklist for the first cadence call](/handbook/customer-success/csm/cadence-calls/#tasklist-for-the-first-cadence-call) to ensure you cover additional important items, such as support and training. It's also critical to ensure that customers (especially those that are self-managed) sign up for GitLab security alerts, which they can do by entering their email address in the "Sign up for security notices" section of [this page](https://about.gitlab.com/company/contact/). CSMs can monitor whether or not their customers are signed up for security alerts by looking at the relevant SFDC reports for [contacts](https://gitlab.my.salesforce.com/00O8X000008RTyM) (most customers will fall into this category) and [leads](https://gitlab.my.salesforce.com/00O8X000008RTyg). It is recommended to save versions of those SFDC reports with your preferred filters in your Personal Custom Reports folder in SFDC for efficiency and to avoid accidentally modifying the original reports. You can do this by opening the report,selecting "Save As", renaming the report, and saving it to "My Personal Custom Reports". From there, you can modify the report to include your desired filters. If a customer does not sign up for security alerts in between the kickoff call and the first cadence call, CSMs should revisit this topic in subsequent conversations and emphasize that opting in to these notifications will ensure the customer is aware of any action they may need to take to keep their instance(s) secure.
 
 One of the most important action items coming out of the kickoff call is [establishing the cadence call](/handbook/customer-success/csm/cadence-calls/). The CSM should have the ongoing cadence call schedule determined with the customer by the end of the kickoff call, as well as a plan for the [first cadence call](#1st-cadence-call-future-growth-discussion--checklist).
 
-#### Major Enterprise CSM Journey Spreadsheet
+#### CSM Journey Spreadsheet
 
-It is recommended for Major Enterprise CSMs to use a [Customer Journey Spreadsheet](https://docs.google.com/spreadsheets/d/1H6gGlsCAZoHKy27kPhJfZE8v4039_lI6pW9nif-um-A) (internal only) to identify the customer's entry point and better identify the enablement needed. The spreadsheet aims to cover the multiple onboarding steps we see as CSMs, from the infrastructure build review, to the required migration steps and expansion to DevSecOps. Scale and Growth CSMs are not recommended to create and maintain these spreadsheets.
+CSMs are welcome to use a [Customer Journey Spreadsheet](https://docs.google.com/spreadsheets/d/1H6gGlsCAZoHKy27kPhJfZE8v4039_lI6pW9nif-um-A) (internal only) to identify the customer's entry point and better identify the enablement needed. The spreadsheet aims to cover the multiple onboarding steps we see as CSMs, from the infrastructure build review, to the required migration steps and expansion to DevSecOps. Scale and Growth CSMs are not recommended to create and maintain these spreadsheets.
 
 ### Success plan development (document key attributes)
 
@@ -97,29 +91,31 @@ The completion of this second customer call marks the completion of customer onb
 Once onboarding is complete, close the onboarding CTA and then move the customer into the `Adoption` phase of the customer lifecycle in Gainsight.
 
 By accomplishing the following tasks, you'll know you have completed onboarding:
+
 - [ ] Complete internal handoff, where CSM reviews the command plan, adoption goals, priorities, and stakeholders with the SAE/AE and SA
 - [ ] Assign `GitLab Admin` and/or other persona roles to primary contacts
 - [ ] Complete kickoff call, where the CSM:
-   - [ ] Leads introductions (Less than 5 minutes)
-   - [ ] Validates the customer's reason for purchase
-   - [ ] Asks about any additional goals the customer has
-   - [ ] Asks about the customer's DevSecOps toolstack
-   - [ ] Asks about any additional customer stakeholders
-   - [ ] Advises the customer on how to get [support](/support/)
+  - [ ] Leads introductions (Less than 5 minutes)
+  - [ ] Validates the customer's reason for purchase
+  - [ ] Asks about any additional goals the customer has
+  - [ ] Asks about the customer's DevSecOps toolstack
+  - [ ] Asks about any additional customer stakeholders
+  - [ ] Advises the customer on how to get [support](https://about.gitlab.com/support/) as well as how to sign up for security alerts
+  - [ ] Raises the awareness at the customer that they bookmark our page for platform/service changes and announcements ([https://about.gitlab.com/blog/categories/bulletin-board/](https://about.gitlab.com/blog/categories/bulletin-board/))
 - [ ] Complete initial draft of success plan, with the objective being their primary use case with the relevant [Stage Enablement playbook](/handbook/customer-success/playbooks/)
 - [ ] Complete second call (first cadence), where the CSM:
-   - [ ] Discusses how they will work with the customer towards their goals, collecting metrics for success, milestones/timelines, and establishing next steps
-   - [ ] Discusses enablement opportunities (e.g. [workshops](/handbook/customer-success/csm/workshops/), Professional Services, GitLab documentation, etc.)
-   - [ ] Shares available content for workshops and webinars and advocates for the customer to attend a session on Intro to GitLab and/or their primary use case
-   - [ ] Discusses the monthly upgrade cadence for releases
-   - [ ] (If self-managed) Discusses usage ping
+  - [ ] Discusses how they will work with the customer towards their goals, collecting metrics for success, milestones/timelines, and establishing next steps
+  - [ ] Discusses enablement opportunities (e.g. [workshops](/handbook/customer-success/csm/workshops/), Professional Services, GitLab documentation, etc.)
+  - [ ] Shares available content for workshops and webinars and advocates for the customer to attend a session on Intro to GitLab and/or their primary use case
+  - [ ] Discusses the monthly upgrade cadence for releases
+  - [ ] (If self-managed) Discusses usage ping
 - [ ] Complete filling out any relevant fields in the Gainsight Attributes tab of the customer 360
 
 If you haven't been able to achieve all of this by the end of the second call, [document the reasons for the delay](#onboarding-delays) in your notes and aim to complete this by the next call. Please note the onboarding CTA currently asks you to log the First Value Date (#time-to-first-value) if the customer does not have service ping enabled; if you don't have this information yet, and everything else is complete, mark the onboarding as done regardless, and continue to work towards understanding the customer's progress towards first-value separately, logging it when known.
 
 ## Time to Value Metrics
 
-The [Time to Value KPIs](/handbook/customer-success/vision/#time-to-value-kpis) are developed to help us understand key facts about how we are serving our customers, and how we could improve. Below are the processes for how CSMs should update and track their Time to Value KPIs. For definitions, please see [Time to Value KPIs](/handbook/customer-success/vision/#time-to-value-kpis). For data visualization, see [Customer Onboarding Dashboard](https://gitlab.gainsightcloud.com/v1/ui/home#58502af5-e7c2-4cbd-8645-d612b74424ff).
+The [Time to Value KPIs](/handbook/customer-success/customer-success-vision/#time-to-value-kpis) are developed to help us understand key facts about how we are serving our customers, and how we could improve. Below are the processes for how CSMs should update and track their Time to Value KPIs. For definitions, please see [Time to Value KPIs](/handbook/customer-success/customer-success-vision/#time-to-value-kpis). For data visualization, see [Customer Onboarding Dashboard](https://gitlab.gainsightcloud.com/v1/ui/home#58502af5-e7c2-4cbd-8645-d612b74424ff).
 
 ### Time to Engage
 
@@ -134,7 +130,6 @@ Time to Engage is the number of days between the `Onboarding CTA Start Date` and
 
 **Why is this metric important?**
 Helps determine the time it takes to first engagement with the customer. Engagement is defined as the first CSM meeting with the customer.
-
 
 ### Time to First Value
 
@@ -188,6 +183,7 @@ A Command Plan is used as a living pre-sales document, and its objectives are co
 ### Command Plan Attainment Reporting in Gainsight
 
 To ensure the customer attains their original purchase intent, the field can now monitor the [Customer Health Dashboard](https://gitlab.gainsightcloud.com/v1/ui/dashboard#/6fe58b23-f27b-45a2-b2bc-1aca54a3495f) in Gainsight, which provides quick snapshot into the following fields and information related to an account's Command Plan:
+
 - `Solution` (i.e. Platform, Security, Automate Software Delivery, etc.)
 - `Primary Capability` (i.e. Agile, CI, DevSecOps, etc.)
 - `Primary Value Driver` (i.e. Reduce Security & Compliance risk, Increase operational efficiencies, etc.)

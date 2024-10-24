@@ -32,7 +32,7 @@ The  Senior Manager, Development is a [grade 9](/handbook/total-rewards/compensa
 - Technical credibility: Past experience as a product engineer and leading teams thereof
 - Management credibility: Past experience (3 to 5 years) as an engineering manager
 - Ability to understand, communicate and improve the quality of multiple teams
-- Demonstrate longevity at at least one recent job
+- Demonstrate longevity at, at least, one recent job
 - Ability to be successful managing at a remote-only company
 - Humble, servant leader
 - Ability to use GitLab
@@ -100,7 +100,7 @@ The  Director, Development is a [grade 10](/handbook/total-rewards/compensation/
 - Experience managing managers
 - Agile project management skills
 - Ability to understand, communicate and improve the quality of multiple teams
-- Demonstrate longevity at at least one recent job
+- Demonstrate longevity at, at least, one recent job
 - Ability to be successful managing at a remote-only company
 - Humble, servant leader
 - Be a user of GitLab, or familiar with our company recommended
@@ -245,14 +245,14 @@ The VP of Development is a [grade 12](/handbook/total-rewards/compensation/compe
 
 ## Performance Indicators
 
-- [Response to Community SLO](https://about.gitlab.com/handbook/engineering/development/performance-indicators/#response-to-community-slo)
-- [Hiring Actual vs. Plan](https://about.gitlab.com/handbook/engineering/performance-indicators/#engineering-hiring-actual-vs-plan)
-- [Team/Group MR Rate](https://about.gitlab.com/handbook/engineering/development/performance-indicators/#mr-rate)
-- [Handbook Update Frequency](https://about.gitlab.com/handbook/engineering/development/performance-indicators/#handbook-update-frequency)
+- [Response to Community SLO](/handbook/engineering/development/performance-indicators/#response-to-community-slo)
+- [Hiring Actual vs. Plan](/handbook/engineering/performance-indicators/#engineering-hiring-actual-vs-plan)
+- [Team/Group MR Rate](/handbook/engineering/development/performance-indicators/#mr-rate)
+- [Handbook Update Frequency](/handbook/engineering/development/performance-indicators/#handbook-update-frequency)
 
 ## Career Ladder
 
-For more details on the engineering career ladders, please review the [engineering career development](https://about.gitlab.com/handbook/engineering/career-development/#roles) handbook page.
+For more details on the engineering career ladders, please review the [engineering career development](/handbook/engineering/careers/#roles) handbook page.
 
 ## Hiring Process
 
@@ -293,12 +293,12 @@ The Chief Technology Officer is a [grade 12](/handbook/total-rewards/compensatio
 
 #### Chief Technology Officer Performance Indicators
 
-- [Response to Community SLO](https://about.gitlab.com/handbook/engineering/development/performance-indicators/#response-to-community-slo)
-- [Hiring Actual vs. Plan](https://about.gitlab.com/handbook/engineering/performance-indicators/#engineering-hiring-actual-vs-plan)
-- [Development Department merge request rate](https://about.gitlab.com/handbook/engineering/development/performance-indicators/#development-department-mr-rate)
-- [Diversity](https://about.gitlab.com/handbook/engineering/performance-indicators/#diversity)
-- [Handbook Update Frequency](https://about.gitlab.com/handbook/engineering/performance-indicators/#handbook-update-frequency)
-- [Team Member Retention](https://about.gitlab.com/handbook/engineering/performance-indicators/#team-member-retention)
+- [Response to Community SLO](/handbook/engineering/development/performance-indicators/#response-to-community-slo)
+- [Hiring Actual vs. Plan](/handbook/engineering/performance-indicators/#engineering-hiring-actual-vs-plan)
+- [Development Department merge request rate](/handbook/engineering/development/performance-indicators/#development-department-mr-rate)
+- [Diversity](/handbook/engineering/performance-indicators/#diversity)
+- [Handbook Update Frequency](/handbook/engineering/performance-indicators/#handbook-update-frequency)
+- [Team Member Retention](/handbook/engineering/performance-indicators/#team-member-retention)
 
 #### Chief Technology Officer Hiring Process
 

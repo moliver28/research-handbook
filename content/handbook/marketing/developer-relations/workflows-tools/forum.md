@@ -1,13 +1,6 @@
 ---
-
 title: "Forum workflow"
 ---
-
-
-
-
-
-
 
 ## Users
 
@@ -19,7 +12,7 @@ For GitLab team members it is recommended to use the `with GitLab` oauth method.
 
 ### Code of Conduct and FAQ
 
-Our [Community Code of Conduct](/community/contribute/code-of-conduct/) applies to the forum platform. When in doubt, [flag posts](https://meta.discourse.org/t/what-are-flags-and-how-do-they-work/32783) which violate the Code of Conduct or are inappropriate in other ways (spam, advertising, etc.). Moderators can review the posts and take action while the posts are hidden from public viewing.
+Our [Community Code of Conduct](https://about.gitlab.com/community/contribute/code-of-conduct/) applies to the forum platform. When in doubt, [flag posts](https://meta.discourse.org/t/what-are-flags-and-how-do-they-work/32783) which violate the Code of Conduct or are inappropriate in other ways (spam, advertising, etc.). Moderators can review the posts and take action while the posts are hidden from public viewing.
 
 Discourse provides a general [FAQ](https://forum.gitlab.com/faq) for users.
 
@@ -41,8 +34,9 @@ If you see a community member volunteering their time to help another community 
 
 ### Flagging Inappropriate Content
 
-If any GitLab team member sees a forum post that is inappropriate, abusive, spam, or a violation of our code of conduct, please flag the post by clicking the flag icon. If immediate action to hide or redact private information is required, flag the post and then ping one of the [admins](https://forum.gitlab.com/about) in the [#developer-relations](https://gitlab.slack.com/archives/C0R04UMT9) Slack channel.
+If any GitLab team member sees a forum post that is inappropriate, abusive, spam, or a violation of our code of conduct, please flag the post by clicking the flag icon. The post is automatically hidden from public viewing and added to the [moderation](#moderation) queue for review. If the flagging action requires more context or immediate actions, contact [admins](https://forum.gitlab.com/about) in the [#developer-relations](https://gitlab.slack.com/archives/C0R04UMT9) Slack channel.
 
+If immediate action to hide or redact private information is required, flag the post and then ping one of the [admins](https://forum.gitlab.com/about) in the [#developer-relations](https://gitlab.slack.com/archives/C0R04UMT9) Slack channel.
 
 ## Best Practices
 
@@ -63,7 +57,7 @@ Discourse implements an intelligent spam prevention system, which leads to users
 - Topics unrelated to GitLab, DevOps, etc. and text with many external URLs often is spam.
   - Take action with `Delete User > Delete and Block User`. This also deletes the post.
 - There are bots which copy the body text of another topic or reply, and create their own new topic with a new URL. Discourse detects them as `New user typed their first post suspiciously fast, suspected bot or spammer behavior.`
-  - Take action with `Delete User > Delete and Block User`.  
+  - Take action with `Delete User > Delete and Block User`.
 - False positives
   - Short replies such as `Me too.`
   - A copy-pasted question from a different platform.
@@ -83,7 +77,6 @@ When the user account looks suspicious, these tips can help with verification:
   - Different used names may indicate a fake profile.
 - With admin permissions:
   - On the user profile, open the admin interface. Inspect the user profile's IP address with the Discourse built-in Whois lookup including geo location. When in doubt, use a search engine with `whois <IP address>` and also verify the ASN and its ISP. Sometimes a google search unveils them belonging to a fraud friendly environment, or other insightful details.
-
 
 ### Moderator Specific Permissions
 
@@ -124,26 +117,26 @@ Sometimes users will accidentally post private information like license or API k
 
 **Instructions**
 
-If you need to edit a user’s post for whatever reason, please private message the user in the forum letting them know that you have done so, and the reason why.
+If you need to edit a user's post for whatever reason, please private message the user in the forum letting them know that you have done so, and the reason why.
 
 Click the ellipsis in the small grey toolbar on the post > click the pencil icon.
 
 **Instructions For Sending a Private Message**
 
-1. Click the user’s avatar icon, user card will appear
+1. Click the user's avatar icon, user card will appear
 2. Click the `message` button on the user card to draft private message
 
 The edit history diff is only visible to moderators.
 
 ##### Viewing email addresses
 
-For the sake of anonymity, only Forum Moderators can see the email address associated with a forum user’s account.
+For the sake of anonymity, only Forum Moderators can see the email address associated with a forum user's account.
 
 **Instructions*
 
-1. Click the user’s avatar icon, user card will appear
-2. Click the avatar icon on the user card to navigate to the user’s profile
-3. Click the `show` button in the user’s profile
+1. Click the user's avatar icon, user card will appear
+2. Click the avatar icon on the user card to navigate to the user's profile
+3. Click the `show` button in the user's profile
 
 ##### Drafting in/using the private Staff Category
 
@@ -159,7 +152,7 @@ Click the ellipsis in the small grey toolbar on the post > click the trash can i
 
 ##### Moving Posts To a New Thread
 
-It’s not uncommon that moderators will feel the need to move new posts out of old threads, or move posts to their own topic altogether. Please move new posts out of old topics when users try to bring topics a year or older back to life.
+It's not uncommon that moderators will feel the need to move new posts out of old threads, or move posts to their own topic altogether. Please move new posts out of old topics when users try to bring topics a year or older back to life.
 
 **Instructions**
 
@@ -204,7 +197,7 @@ F --> |Yes, using GitLab.com| G["ping #support_gitlab-com"]
 F --> |Yes, self-managed| H["ping #support_self-managed"]
 F --> |No| I["Direct them to support.gitlab.com"]
 A --> J("GitLab vs Competitor")
-J --> |Question|K["Find answer via devops tools page/blog and link"]
+J --> |Question|K["Find answer via DevOps tools page/blog and link"]
 J --> |Discussion|L["Link on #competition"]
 A --> M("Feature Proposal")
 M --> |Already exists|N["Link to the open issue"]
@@ -236,7 +229,7 @@ P --> |Questions answered|Q[ping relevant product channel]
 
 ### Forum Community Response Workflow
 
-[Community response situations](/handbook/marketing/developer-relations/developer-evangelism/community-response/#forum-topic-preparation) include preparing a forum topic as a draft in the [Internal](https://forum.gitlab.com/c/internal/) category.
+[Community response situations](/handbook/marketing/developer-relations/developer-advocacy/community-response/#forum-topic-preparation) include preparing a forum topic as a draft in the [Internal](https://forum.gitlab.com/c/internal/) category.
 
 Team members need to sign-up for a [forum account](/handbook/marketing/developer-relations/workflows-tools/forum/#registration-and-login) in order to create a topic. The Internal category allows team members review and edit the draft together without it being available to the public.
 
@@ -244,7 +237,7 @@ After a forum topic is created in the Internal category, team members have the a
 
 - To edit the title, category, or tags of the topic, click the pencil icon on the top.
 - To edit the description, use the pencil icon at the bottom of the topic next to 'Reply'. Note that the pencil icon may be collapsed within the ellipsis menu.
-- Editing a topic description only is available for [trust level 4](/handbook/marketing/developer-relations/workflows-tools/forum/#user-trust-levels) and moderators. Ask an administrator to update the [team member trust level](/handbook/marketing/developer-relations/workflows-tools/forum/#team-member-trust-level) if necessary.  
+- Editing a topic description only is available for [trust level 4](/handbook/marketing/developer-relations/workflows-tools/forum/#user-trust-levels) and moderators. Ask an administrator to update the [team member trust level](/handbook/marketing/developer-relations/workflows-tools/forum/#team-member-trust-level) if necessary.
 
 A sandbox topic to test editing is available [here (internal)](https://forum.gitlab.com/t/draft-announcement-sandbox-test-for-everyone/71974).
 
@@ -291,7 +284,7 @@ Steps for bannering on Discourse:
 
 The Discourse instance `forum.gitlab.com` is operated by the Discourse team on [their SaaS platform](https://www.discourse.org/pricing). The Discourse platform was started as self-hosted instance in 2015, and later [migrated to Discourse SaaS in February 2020](https://gitlab.com/groups/gitlab-com/gl-infra/-/epics/139). The domain is managed by the GitLab infrastructure team.
 
-Updates and important security fixes are applied by the Discourse team. Technical owners can reach out to their support team. For business organization and subscription updates, please open [a confidential issue in the Developer Evangelist Meta Project](https://gitlab.com/gitlab-com/marketing/community-relations/dev-evangelism/meta/-/issues). 
+Updates and important security fixes are applied by the Discourse team. Technical owners can reach out to their support team. For business organization and subscription updates, please open [a confidential issue in the Developer Advocate Meta Project](https://gitlab.com/gitlab-com/marketing/developer-relations/developer-advocacy/developer-advocacy-meta/-/issues).
 
 In October 2021, the Discourse forum exceeded 1 million monthly page views. More metric reports can be created using the [Admin dashboard](https://forum.gitlab.com/admin).
 
@@ -305,10 +298,9 @@ Discourse uses [trust levels](https://meta.discourse.org/t/trust-level-permissio
 - Trust level 3 as a regular user means becoming a GitLab community evangelist with visiting often, leading the path with helpful responses, engaging with likes and feeling energized.
 - Leaders with trust level 4 have earned their trust by staff team member nomination, helping with questions, engaging with likes, flagging posts to moderators, lending a hand to new users, and overall collaborate closely with GitLab team members.
 
-
 ##### Nomination for Trust Level 4
 
-Please open a [new issue in the Developer Evangelist Meta Project](https://gitlab.com/gitlab-com/marketing/community-relations/dev-evangelism/meta/-/issues) and share the user profile URL and a detailed reason why they should be promoted to trust level 4. Assign the issue to technical owners using this quick action: `/assign @dnsmichi @sugaroverflow`. Administrators will review and reach out to nominated community members.
+Please open a [new issue in the Developer Advocate Meta Project](https://gitlab.com/gitlab-com/marketing/developer-relations/developer-advocacy/developer-advocacy-meta/-/issues) and share the user profile URL and a detailed reason why they should be promoted to trust level 4. Assign the issue to technical owners using this quick action: `/assign @dnsmichi @sugaroverflow`. Administrators will review and reach out to nominated community members.
 
 ##### Team Member Trust Level
 
@@ -318,25 +310,48 @@ Administrators can promote team members to trust level 4 manually, for example w
 
 #### Categories
 
-The [forum categories](https://forum.gitlab.com/categories) allow to group posts by stages and topics. Users can also subscribe to category notifications.
+The [forum categories](https://forum.gitlab.com/categories) allow to group posts by sections and topics. Users can also subscribe to category notifications. The top-level categories are inspired by the DevSecOps lifecycle, common questions about GitLab features, and community activities.
+
+Categories are also shown in a dropdown when users follow the `New topic` action on the forum landing page. We try to keep the category list short and concise.
 
 There are two categories serving a special purpose, they must not be removed:
 
 - [Internal](https://forum.gitlab.com/c/internal/) is required for the [community response workflow](/handbook/marketing/developer-relations/workflows-tools/forum/#forum-community-response-workflow)
 - [Staff](https://forum.gitlab.com/c/staff/) is used by Discourse to manage site content and permissions (example: [FAQ](https://forum.gitlab.com/faq).
 
-#### Tags 
+For requesting a new category, please review the following steps:
+
+1. Do you want to filter specific topics, or subscribe to notifications? If yes, please consider using [tags](#tags) instead.
+1. New categories should fit as subcategory into the existing top-level categories. We try to avoid bigger layout changes to avoid breaking contributor workflows.
+1. Create a [new issue in the Developer Advocate Meta Project](https://gitlab.com/gitlab-com/marketing/developer-relations/developer-advocacy/developer-advocacy-meta/-/issues) to discuss, and add details about forum DRIs, expected topic count, and impact. Assign the issue to technical owners using this quick action: `/assign @dnsmichi @sugaroverflow`.
+
+##### Category Topic Templates
+
+Discourse supports [category topic templates](https://meta.discourse.org/t/topic-templates-for-categories-and-other-alternatives/38295), similar to GitLab description templates in issues/epics/MRs. Templates are used to guide users in providing all details for  questions (configuration, steps to reproduce, versions, etc.) which enables forum contributors to help more efficiently. The categories focus on support ("How to use GitLab", etc.), community engagement and programs, GitLab University. A general catch-all category guides users to select specific categories as default template.
+
+Administrators can edit each category, and navigate into `Templates` to modify the templates. Sub categories require a copy of the top-level templates, ensuring that all categories use templates by default. In the past, we had users specifically selecting categories without templates, creating new topics in the wrong place.
+
+All templates are persisted in the [discourse-assets Git repository](https://gitlab.com/gitlab-da/projects/discourse-assets/-/tree/main/category_templates?ref_type=heads), and provide templates for the top level categories.
+
+Steps to update a category topic template:
+
+1. Navigate into the category settings, and choose `Templates`.
+1. Edit the template and preview the changes.
+1. Save the template and test to create a new topic in the category.
+1. Persist the changes in the [discourse-assets Git repository](https://gitlab.com/gitlab-da/projects/discourse-assets/-/tree/main/category_templates?ref_type=heads).
+
+#### Tags
 
 Users can add tags to topics; higher trust levels also allow tag creation. Users can filter topics by tag, and subscribe to tag notifications too. This helps with specific workflows for docs and blog teams.
 
 The tag group [`feedback`](https://forum.gitlab.com/tag_groups/6) includes the following tags:
 
-- [`docs-feedback`](https://forum.gitlab.com/tag/docs-feedback) is used by the technical writing team to invite for docs.gitlab.com feedback. 
-- [`blog-feedback`](https://forum.gitlab.com/tag/blog-feedback) is embedded on the GitLab blog footer as CTA for feedback. 
+- [`docs-feedback`](https://forum.gitlab.com/tag/docs-feedback) is used by the technical writing team to invite for docs.gitlab.com feedback.
+- [`blog-feedback`](https://forum.gitlab.com/tag/blog-feedback) is embedded on the GitLab blog footer as CTA for feedback.
 
 #### Settings
 
-Administrators can modify the [Discourse settings](https://forum.gitlab.com/admin/site_settings/category/all_results). Please open a [new issue in the Developer Evangelist Meta Project](https://gitlab.com/gitlab-com/marketing/community-relations/dev-evangelism/meta/-/issues) to suggest, discuss and document changes. Note that plugins are installed by contacting Discourse Support.
+Administrators can modify the [Discourse settings](https://forum.gitlab.com/admin/site_settings/category/all_results). Please open a [new issue in the Developer Advocate Meta Project](https://gitlab.com/gitlab-com/marketing/developer-relations/developer-advocacy/developer-advocacy-meta/-/issues) to suggest, discuss and document changes. Note that plugins are installed by contacting Discourse Support.
 
 The `Only show overridden` checkbox can be helpful to see modified settings. The most notable changes are documented below.
 
@@ -348,7 +363,7 @@ The `Only show overridden` checkbox can be helpful to see modified settings. The
 - Posting: min post/topic title length, do not allow uncategorized topics, post edit time limit, do not show edit history to public, max reply history, newuser max replies/mentions per topic, newuser max links/embedded media/max attachments
 - Email: alternative reply by email addresses
 - Files: authorized extensions, do not download remote images to local, purge deleted uploads grace period days
-- Security: Allow moderators to manage categories and groups, allowed iframes
+- Security: Allow moderators to manage categories and groups, allowed iframes, enforce second factor for staff 
 - Spam: Hide post sensitivity, newuser spam host threshold, max new accounts per registration ip
 - Rate Limits: rate limit new user create post
 - User Preferences: Enable mailing list mode
@@ -378,9 +393,9 @@ Requires an administrative login. Open an issue with mockup design before changi
 
 Workflow for applying customizations:
 
-1. Create a [new issue in the Developer Evangelist Meta Project](https://gitlab.com/gitlab-com/marketing/community-relations/dev-evangelism/meta/-/issues) to propose changes, including design mockups, screenshots, etc.
+1. Create a [new issue in the Developer Advocate Meta Project](https://gitlab.com/gitlab-com/marketing/developer-relations/developer-advocacy/developer-advocacy-meta/-/issues) to propose changes, including design mockups, screenshots, etc.
 1. Apply the changes to the custom theme, colors, etc.
-1. Persist the changes for the custom theme in the [discourse-assets](https://gitlab.com/gitlab-de/projects/discourse-assets) project.
+1. Persist the changes for the custom theme in the [discourse-assets](https://gitlab.com/gitlab-da/projects/discourse-assets) project.
 
 #### API
 
@@ -394,7 +409,7 @@ The Discourse subscription plan includes many [plugins](https://forum.gitlab.com
 
 Most administrative tasks will be done from the [Discourse Admin Dashboard](https://forum.gitlab.com/admin). The dashboard provides metrics and dashboards for page views, user engagements, and community health stats.
 
-Create a [new issue in the Developer Evangelist Meta Project](https://gitlab.com/gitlab-com/marketing/community-relations/dev-evangelism/meta/-/issues) to document changes in settings, handle abusive behavior and other administrative tasks.
+Create a [new issue in the Developer Advocate Meta Project](https://gitlab.com/gitlab-com/marketing/developer-relations/developer-advocacy/developer-advocacy-meta/-/issues) to document changes in settings, handle abusive behavior and other administrative tasks.
 
 The [Logs section](https://forum.gitlab.com/admin/logs/staff_action_logs) provides an audit log of all actions.
 
@@ -405,6 +420,7 @@ To add an Admin:
 1. Go to the [list of forum users](https://forum.gitlab.com/admin/users/list/active)
 1. Use the search box to find the user you want to grant admin permissions to
 1. Click on the user to modify their profile
+1. Verify that the user has `Two-Factor Authentication` enabled. If not, ask them to enable it in `Profile > Preferences > Security > Two-Factor Authentication` as this is a requirement for all [staff members](https://forum.gitlab.com/admin/users/list/staff).
 1. Scroll down to the `Permissions` section
 1. Click on the `Grant Admin` button
 1. An e-mail confirmation will be sent to the Admin that granted the permission (i.e. you). Go to your inbox and click on the link to confirm granting Admin permission to the user
@@ -419,6 +435,7 @@ If you want to add an Moderator:
 1. Go to the [list of forum users](https://forum.gitlab.com/admin/users/list/active)
 1. Use the search box to find the user you want to grant moderator permissions to
 1. Click on the user to modify their profile
+1. Verify that the user has `Two-Factor Authentication` enabled. If not, ask them to enable it in `Profile > Preferences > Security > Two-Factor Authentication` as this is a requirement for all [staff members](https://forum.gitlab.com/admin/users/list/staff).
 1. Scroll down to the `Permissions` section
 1. Click on the `Grant Moderation` button
 1. Immediately the `Permissions` > `Admin?` section on the user's profile admin should read `Yes`

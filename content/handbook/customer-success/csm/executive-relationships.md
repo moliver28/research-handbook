@@ -1,18 +1,10 @@
 ---
-
 title: CSM Executive Relationships
 ---
 
-
-
-
-
-
-
 View the [CSM Handbook homepage](/handbook/customer-success/csm/) for additional CSM-related handbook pages.
 
-- - -
-
+---
 
 At GitLab, successful partnerships between our Customer Success Managers and their customer executives are crucial to the success of our customers and our business. As CSMs position themselves to be more strategic and reach Director, VP, and CISO personas, we have to adjust our communication styles and consider how to cater them to executives. This page provides guidance on how CSMs can effectively partner with executives to drive value for our customers.
 
@@ -24,7 +16,7 @@ Sometimes, we can establish an executive contact and relationship early on, whet
 
 ### Build Relationships with GitLab Admin & Champions
 
-Strong first impressions are important in building a successful and collaborative relationship with your customer. When being introduced to a new account, it is critical that you and the account team position the [Customer Success Manager role](/handbook/customer-success/csm/) as more than “technical support” or “technical point of contact.” This limits the scope of the CSM role and lowers the probability of gaining access to executives. By positioning the CSM as a consultant focused on their business success and enablement, it opens up conversations around high-level business outcomes.
+Strong first impressions are important in building a successful and collaborative relationship with your customer. When being introduced to a new account, it is critical that you and the account team position the [Customer Success Manager role](/handbook/customer-success/csm/) as more than "technical support" or "technical point of contact." This limits the scope of the CSM role and lowers the probability of gaining access to executives. By positioning the CSM as a consultant focused on their business success and enablement, it opens up conversations around high-level business outcomes.
 
 From there, asking deeper questions during the intro call is a great way to uncover the outcomes that are the highest priority for the customer. This could happen right after the initial sale, when you inherit a customer from another CSM, or even after having the account for a while in order to ensure continued alignment. Asking discovery questions such as those listed below are key to uncovering the problems your account is experiencing, the business impact of those problems, and the benefit that fixing those problems will have on their business.
 
@@ -58,7 +50,7 @@ One suggestion is to use the [business model canvas](https://docs.google.com/pre
 
 Sharing customer success stories is another excellent way to demonstrate the [value](https://docs.google.com/presentation/d/1ZEImIuiPyK9XpdLKf57dRmFSH_jRWOUl/edit#slide=id.p6) and [impact](https://docs.google.com/presentation/d/1ZEImIuiPyK9XpdLKf57dRmFSH_jRWOUl/edit#slide=id.p17) of our solutions to executives. Identify success stories that align with the executive's business objectives and share them during regular check-ins. This sharing of customer success stories can help build enthusiasm and support for our solutions and help identify opportunities to drive value.
 
-It is also vital to [highlight ROI](https://about.gitlab.com/calculator/) to the executive team. Results prove to customers that they made a smart choice to invest their time, energy, and resources into your solution and that they received a return on their investment (ROI). Results show that you are solving problems and positively impacting their business. Results mean you are able to “close the loop” and measure your impact. When communicating with executives, highlight the ROI of our solutions and how they can help the organization achieve its business goals.
+It is also vital to [highlight ROI](https://about.gitlab.com/calculator/) to the executive team. Results prove to customers that they made a smart choice to invest their time, energy, and resources into your solution and that they received a return on their investment (ROI). Results show that you are solving problems and positively impacting their business. Results mean you are able to "close the loop" and measure your impact. When communicating with executives, highlight the ROI of our solutions and how they can help the organization achieve its business goals.
 
 Furthermore, executives often have a broad view of the organization and its goals. When communicating with executives, focus on the big picture and how our solutions fit into the larger organizational strategy. Focus on [communicating how our solutions align with the executive's vision, mission, and values](https://docs.google.com/presentation/d/1ZEImIuiPyK9XpdLKf57dRmFSH_jRWOUl/edit#slide=id.p23). Some example questions you can ask to [identify what problems and priorities for the executive team](https://docs.google.com/presentation/d/1ZEImIuiPyK9XpdLKf57dRmFSH_jRWOUl/edit#slide=id.p9) are:
 
@@ -100,15 +92,16 @@ Finally, when working with executives, make sure to use [language that executive
 
 ### Continuous Engagement
 
-Finally, it's essential to continuously improve your partnership with executives. Solicit feedback from the executive team on how the partnership is progressing and areas for improvement. Use this feedback to refine your approach and identify opportunities for growth and innovation. An annual [EBR](/handbook/customer-success/csm/ebr/) is a great opportunity to open this dialogue and learn ways in which we at GitLab can improve to make the customer’s experience better. By implementing these best practices, CSMs can build strong partnerships with executives and drive successful outcomes for our customers.
+Finally, it's essential to continuously improve your partnership with executives. Solicit feedback from the executive team on how the partnership is progressing and areas for improvement. Use this feedback to refine your approach and identify opportunities for growth and innovation. An annual [EBR](/handbook/customer-success/csm/ebr/) is a great opportunity to open this dialogue and learn ways in which we at GitLab can improve to make the customer's experience better. By implementing these best practices, CSMs can build strong partnerships with executives and drive successful outcomes for our customers.
 
 It's recommended for each CSM to speak with an executive stakeholder at least annually, however each segment/region may warrant more frequent engagement, as follows:
 
 - WIP - to be added
 
-### Additional Resources:
+### Additional Resources
 
 The below resources are internal-only:
+
 - [Strategic Customer Engagement Workshop Recording](https://www.youtube.com/watch?v=IiScOF3bwFo)
 - [Strategic Customer Engagement Workshop PPT](https://docs.google.com/presentation/d/1ZEImIuiPyK9XpdLKf57dRmFSH_jRWOUl/edit#slide=id.p1)
 - [Strategic Customer Engagement Issue](https://gitlab.com/gitlab-com/sales-team/field-operations/enablement/-/issues/1171)

@@ -1,18 +1,11 @@
 ---
-
 title: "Using Gainsight at GitLab"
 description: "The key aspects of using Gainsight at GitLab to drive success for your customer"
 ---
 
-
-
-
-
-
-
 ## What is Gainsight?
 
-Gainsight is a tool for Strategic Account Leaders, Solutions Architects, and Customer Success Managers to manage the ongoing customer lifecycle.
+Gainsight is a tool for Account Executives, Solutions Architects, and Customer Success Managers to manage the ongoing customer lifecycle.
 
 ### Key Benefits of Gainsight
 
@@ -45,7 +38,7 @@ If you are logging in through Salesforce, you can also quickly open the Salesfor
 
 To access Gainsight directly, go to [gitlab.gainsightcloud.com](https://gitlab.gainsightcloud.com/) and when prompted for your username and password, enter *only* your GitLab email address. As soon as it is entered, the screen should change to indicate that you are using single sign-on, and when you click "log in" it will redirect you to Okta.
 
-- If you need to request access to Gainsight, fill out an [Access Request](/handbook/business-technology/team-member-enablement/onboarding-access-requests/access-requests/#individual-or-bulk-access-request) and have your manager add the manager approved label.
+- If you need to request access to Gainsight, fill out an [Access Request](/handbook/it/end-user-services/onboarding-access-requests/access-requests/#individual-or-bulk-access-request) and have your manager add the manager approved label.
 - If you need help locating the Gainsight NXT tab in Salesforce or the Gainsight Okta tile, submit an issue using the [Gainsight Request Template](https://gitlab.com/gitlab-com/sales-team/field-operations/customer-success-operations/issues/new?issue%5Bassignee_id%5D=&issue%5Bmilestone_id%5D=).
 
 ### Confirm your timezone
@@ -90,6 +83,7 @@ If your receive the error message "SUCCESS_PLAN_OBJECTIVES_UPDATED_FAILED" when 
 #### Account says "TO BE DELETED NO LONGER IN SFDC"
 
 This is because two SFDC accounts were merged into one. What happens is this:
+
 1. Salesforce has 2 records of the same account
 1. SAE/or someone asks SalesOps/Deal Desk to merge
 1. The two Salesforce accounts are merged
@@ -97,7 +91,7 @@ This is because two SFDC accounts were merged into one. What happens is this:
 1. Gainsight recognizes one was deleted and marks it with the "TO BE DELETED" title for CS Ops to review and/or delete it
 1. The remaining (merged) one in Salesforce remains synced to Gainsight
 
-#### Error "Timeline: Invalid authentication credentials. Authentication failed" when opening an email in Chrome
+#### Error "Timeline: Invalid authentication credentials. Authentication failed" (Chrome users only)
 
 Usually, this type of error occurs if the Chrome extension version is out of date. Try [updating the Chrome extension](https://community.gainsight.com/timeline-17/update-your-chrome-plugin-39237) to the latest version. It should automatically refresh and begin working, but try logging out and back in if it doesn't resolve right away.
 
@@ -107,4 +101,4 @@ If this doesn't solve the issue, reach out to [Gainsight support](#support-ticke
 
 - You can find more information about how Sales uses Gainsight on the [Using Gainsight within Sales](/handbook/sales/gainsight/account-planning/) page
 - You can find more information about how Customer Success Managers use Gainsight on the [Using Gainsight for CSMs](/handbook/customer-success/csm/gainsight/) page
-- You can find more information about how Solutions Architect use Gainsight on the [Using Gainsight for SAs](/handbook/customer-success/solutions-architects/processes/account-planning)
+- You can find more information about how Solutions Architect use Gainsight on the [Using Gainsight for SAs](/handbook/solutions-architects/processes/account-planning)

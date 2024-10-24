@@ -1,25 +1,14 @@
 ---
-
 title: "Trademark Guidelines"
 ---
 
-
-
-
-
-
-
-# Trademark Guidelines
-
-
-
-*Date of last revision: 2023/04/27*
+*Date of last revision: 2024/07/03*
 
 To protect our intellectual property rights and our reputation, we are careful about how our trademarks can be used.
 
-These Trademark Guidelines (“**Guidelines**”) apply to all trademarks of GitLab Inc. and its affiliates (“**GitLab Inc.**”, “**we**”, “**us**”, and “**our**”), including the GITLAB name (the “**GitLab Name**”); the [Core Logo](https://design.gitlab.com/brand-logo/core-logo/), [Logomark](https://design.gitlab.com/brand-logo/logomark/), and [Wordmark](https://design.gitlab.com/brand-logo/core-logo#wordmark) (the “**Logos**”); and all other registered and unregistered trademarks (collectively, the “**Trademarks**”).
+These Trademark Guidelines ("**Guidelines**") apply to all trademarks of GitLab Inc. and its affiliates ("**GitLab Inc.**", "**we**", "**us**", and "**our**"), including the GITLAB name (the "**GitLab Name**"); the [Core Logo](https://design.gitlab.com/brand-logo/core-logo/), [Logomark](https://design.gitlab.com/brand-logo/logomark/), and [Wordmark](https://design.gitlab.com/brand-logo/core-logo#wordmark) (the "**Logos**"); and all other registered and unregistered trademarks (collectively, the "**Trademarks**").
 
-To request use of the Trademarks in a manner, or for a purpose, not expressly permitted in these Guidelines, including use for any purpose of the Logos, email [intellectualproperty@gitlab.com](mailto:intellectualproperty@gitlab.com).
+Use of the Logos is not permitted under these Guidelines, except for the limited purpose set out in Section 3.1. below. To request use of the Trademarks in a manner, or for purposes, not expressly permitted in these Guidelines, email [intellectualproperty@gitlab.com](mailto:intellectualproperty@gitlab.com).
 
 ### **1. Use of the Trademarks**
 
@@ -49,7 +38,7 @@ To request use of the Trademarks in a manner, or for a purpose, not expressly pe
 
 2.1. Unless otherwise expressly permitted in these Guidelines, you must never:
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 2.1.1. Use the Trademarks in the name of your business, product, service, app, domain name, social media account, or business indicator, even if such use otherwise complies with Section 1.1.1;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 2.1.1. Use the Trademarks in the name of your business, product, service, app, domain name, email username, social media account, or business indicator, even if such use otherwise complies with Section 1.1.1;
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 2.1.2. Inaccurately imply an affiliation, endorsement, sponsorship, or approval with or by GitLab Inc., or use the Trademarks in a manner that is considered deceptive, unethical, illegal, or is detrimental to us in any way;
 
@@ -63,13 +52,29 @@ To request use of the Trademarks in a manner, or for a purpose, not expressly pe
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 2.1.7. File any application to register terms or logos identical or similar to the Trademarks as a trademark or any other proprietary right.
 
-### **3. Other terms**
+### **3. Use for distributing GitLab Community Edition software**
 
-3.1. GitLab Inc. retains all right, title, and interest in and to the Trademarks, and you agree never to challenge, contest, or question the validity, or GitLab Inc.’s exclusive ownership, of the Trademarks.
+GitLab Community Edition (CE) software is available under a free and open source MIT license. This license does not cover use of the Trademarks. We’re mindful that our trademarks are an important identifier to the GitLab community for the quality and origin of our products, and that modified versions of the CE software, or instances where unmodified CE software is offered as part of a managed service, may confuse users if they don’t receive the same features and standard of service as they would get if they downloaded the CE software directly from us or use a managed GitLab service hosted by GitLab or one of GitLab’s trusted partners.
 
-3.2. In the event of inconsistency between these Guidelines and the terms of any other agreement governing your relationship with GitLab Inc., or the use of the Trademarks, the provisions of such other agreement will prevail to the extent of the inconsistency.
+3.1. **Distribution of unmodified software:** When you distribute an unmodified copy of the CE software as downloaded from GitLab, you may retain any of the Trademarks, including the Logos, that we have included in the CE software, subject always to the prohibitions in Section 2.
 
-3.3. GitLab reserves the right in its sole discretion to (i) terminate, revoke, modify, or otherwise change permission to use the Trademarks at any time and; (ii) object to any use or misuse of the Trademarks in any jurisdiction worldwide. All changes to these Guidelines are effective immediately when posted, and your continued use of the Trademarks following the posting of revised Guidelines signifies your acceptance of such revision.
+3.2.  **Distribution of modified software:** When you distribute a modified version of the CE software, or host a modified or unmodified version of the CE software as a managed service, you:
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 3.2.1. may make use of the GitLab Name in accordance with applicable law to truthfully and accurately refer to, or identify, GitLab and its products and services, including to indicate if your product, service, or solution is complementary to, or integrates, or is interoperable or compatible, with GitLab, e.g. `[Your brand name] managed service for GitLab`, provided that doing so does not (i) create a likelihood of confusion as to the origin of such product, service, or solution; nor (ii) inaccurately imply an affiliation, endorsement, sponsorship, or approval with or by GitLab Inc.
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 3.2.2. may not use any of the Logos; any Logos present in the software must be removed and you may not use any Logos on the CE software or on any marketing or other materials related thereto,  and
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 3.2.3. must include the following statement on the software:
+
+`This product is based on GitLab software. GITLAB is a trademark of GitLab Inc. in the United States and other countries and regions.`
+
+### **4. Other terms**
+
+4.1. GitLab Inc. retains all right, title, and interest in and to the Trademarks, and you agree never to challenge, contest, or question the validity, or GitLab Inc.'s exclusive ownership, of the Trademarks.
+
+4.2. In the event of inconsistency between these Guidelines and the terms of any other agreement governing your relationship with GitLab Inc., or the use of the Trademarks, the provisions of such other agreement will prevail to the extent of the inconsistency.
+
+4.3. GitLab reserves the right in its sole discretion to (i) terminate, revoke, modify, or otherwise change permission to use the Trademarks at any time and; (ii) object to any use or misuse of the Trademarks in any jurisdiction worldwide. All changes to these Guidelines are effective immediately when posted, and your continued use of the Trademarks following the posting of revised Guidelines signifies your acceptance of such revision.
 
 ### **4. If you spot unauthorized use of the Trademarks**
 

@@ -6,7 +6,7 @@ description: "Security Governance Program"
 [Governance and Field Security team charter](/handbook/security/security-assurance/governance_and_field_security_team_charter.html)
 {.h2}
 
-## <i class="fas fa-bullseye" style="color:rgb(110,73,203)" aria-hidden="true"></i> Security Governance Mission
+## <i class="fas fa-bullseye" style="color:rgb(110,73,203)" aria-hidden="true"></i> Mission
 
 The 'G' in [GRC](https://www.oceg.org/about/what-is-grc/), GitLab's security governance discipline helps to define, train and measure security strategies and progress towards security objectives by creating a set of processes and practices that run across departments and functions. By following a Governance framework, GitLab ensures accountability, fairness and transparency in how the company runs and how it communicates with its stakeholders.
 
@@ -16,11 +16,11 @@ These are the core responsibilities of the security governance discipline.
 
 ### Security policies and standards
 
-Keeping the organization on track and within established boundaries to ensure compliance with applicable laws and regulations while maintaining GitLab's [Information Security Policies]({{< ref "/handbook/security/controlled-document-procedure" >}}). Providing guidance, consistency and accountability to streamline internal processes and align with GitLab's values and mission.
+Keeping the organization on track and within established boundaries to ensure compliance with applicable laws and regulations while maintaining GitLab's [Information Security Policies](/handbook/security/controlled-document-procedure). Providing guidance, consistency and accountability to streamline internal processes and align with GitLab's values and mission.
 
 #### Security handbook maintenance
 
-Security Governance is responsible for the continuous maintenance and improvement of the `security` section in GitLab's handbook. This includes the creation and maintenance of [controlled documents]({{< ref "controlled-document-procedure" >}}), maintenance of the `security` section's overall structure, content relevance and accuracy, and alignment with GitLab's [style guide]({{< ref "markdown-guide" >}}). To request an update to the handbook's `security` section, please open an issue using the link below.
+Security Governance is responsible for the continuous maintenance and improvement of the `security` section in GitLab's handbook. This includes the creation and maintenance of [controlled documents]({{< ref "controlled-document-procedure" >}}), maintenance of the `security` section's overall structure, content relevance and accuracy, and alignment with GitLab's [style guide](/docs/markdown-guide). To request an update to the handbook's `security` section, please open an issue using the link below.
 
 <a href="https://gitlab.com/gitlab-com/gl-security/security-assurance/governance/security-handbook/-/issues/new?issuable_template=security_handbook_request" class="btn bg-primary text-white btn-lg">Security Handbook Request</a>
 
@@ -54,12 +54,7 @@ We will assist in managing and providing guidance to carry out day to day activi
 
 ## <i class="fas fa-id-card" style="color:rgb(110,73,203)" aria-hidden="true"></i> Contact the Team
 
-[Donovan Felton](/handbook/company/team/#dfelton), @dfelton, Security Assurance Engineer, Automation
-
-- [Automation design, development, and implementation]({{< ref "security-assurance-automation" >}})
-- [GRC application administration]({{< ref "security-assurance#core-tools-and-systems-1" >}})
-
-[Joe Longo](/handbook/company/team/#jlongo_gitlab), @jlongo_gitlab, Manager, Governance and Field Security
+[Joe Longo](/handbook/company/team/#jlongo_gitlab), @jlongo_gitlab, Senior Manager, Governance and Field Security
 
 - [Controlled Documents]({{< ref "controlled-document-procedure" >}})
 - [Security compliance training]({{< ref "sec-training" >}})
@@ -72,4 +67,4 @@ We will assist in managing and providing guidance to carry out day to day activi
 - [Security Compliance Controls]({{< ref "sec-controls" >}})
 - [Controlled Document Procedure]({{< ref "controlled-document-procedure" >}})
 
-<a href="https://about.gitlab.com/handbook/security/security-assurance/field-security/" class="btn bg-primary text-white btn-lg">Return to the Field Security Homepage</a>
+<a href="{{< ref "security-assurance" >}}" class="btn bg-primary text-white btn-lg">Return to the Security Assurance Homepage</a>

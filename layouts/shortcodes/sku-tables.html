@@ -1,4 +1,3 @@
-{{- $services := partials.IncludeCached "data/services" . }}
 {{- $categories := dict }}
 {{- $maturities := dict }}
 {{- $stages := false }}
@@ -27,7 +26,7 @@
         </tr>
     </thead>
     <tbody>
-        {{- range $services }}
+        {{- range site.Data.public.services }}
         {{- if and (in $categories .category) (in $maturities .maturity) (or (not $stages) (.stages))  }}
         <tr>
             <td><a href="{{- .standard_sow }}">{{- .sku }}</a></td>

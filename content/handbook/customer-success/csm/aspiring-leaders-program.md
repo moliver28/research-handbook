@@ -1,15 +1,7 @@
 ---
-
 title: "CSM Aspiring Leaders Program"
 description: "A guide to help CSMs level up their skills to be ready for leadership"
 ---
-
-
-
-
-
-
-
 
 ## CSM Aspiring Leaders Program Overview
 
@@ -39,7 +31,7 @@ To kick off this guide, it's important to understand what being a manager entail
    - What do you anticipate being the best part of being a manager and why? What about the worst part and why?
    - What team do you want to lead / what team is best suited for your skills and experience? Why?
 1. Have coffee chats with multiple CSM Managers about their experiences in management (and, if applicable, their experience being promoted into the role from being an IC).
-1. Review GitLab's [Growth & Development budget](/handbook/total-rewards/benefits/general-and-entity-benefits/growth-and-development/) and identify opportunities to use this benefit for growing your leadership skills.
+1. Review GitLab's [Growth & Development budget](/handbook/people-group/learning-and-development/growth-and-development/) and identify opportunities to use this benefit for growing your leadership skills.
 
 ## Module 2: Learn
 
@@ -55,7 +47,7 @@ Once you feel confident you're interested in exploring management, it's time to 
    - What to discuss in mentorship calls:
       - During your first call, suggest a meeting cadence going forward.
       - Be prepared and succinct; consider sharing an agenda ahead of time that includes your leadership goals and what questions you have for your mentor.
-      - Ask for feedback on your existing work; consider sharing a success plan or success story that you’re proud of, or a story where you feel like you could have handled a situation better.
+      - Ask for feedback on your existing work; consider sharing a success plan or success story that you're proud of, or a story where you feel like you could have handled a situation better.
       - Explore leadership styles; ask your mentor about theirs and share your vision of your own leadership style.
       - Leave each meeting with agreed-upon action items for both parties.
 1. Read through the [leadership page](/handbook/leadership/) of the handbook.
@@ -97,7 +89,7 @@ It's important to take the learnings you've gained and put them into action, so 
       - Approach people directly that you feel may benefit or be interested in a mentor.
       - Seek recommendations from managers and above on anyone they think could be a good match for you.
    - What to discuss in mentorship calls:
-      - Be present, be honest, and be vulnerable. Don’t share just your successes - often the best learnings come from failures. Foster a safe environment for these conversations, where the mentee feels safe sharing both their failures and successes too.
+      - Be present, be honest, and be vulnerable. Don't share just your successes - often the best learnings come from failures. Foster a safe environment for these conversations, where the mentee feels safe sharing both their failures and successes too.
       - Be prepared, and review any agenda they have provided in advance, taking time to think of examples to share or questions to ask.
       - Ensure you are giving your mentee your full attention during the call.
       - Utilize [coaching methods](/handbook/leadership/coaching/#how-coaches-coach) to help your mentee figure things out on their own.
@@ -108,7 +100,7 @@ It's important to take the learnings you've gained and put them into action, so 
    - A common example of this is participating in CSM Big Rocks and OKRs (which is why it's task 1 in Module 3!). However, CSMs are encouraged to identify and drive creative solutions for problems or gaps, outside of OKRs. A great way to find these opportunities is to think about what you wish could be better, or where you have a unique skillset or background that could help others. Here are some examples:
       - Identifying a gap in a process or tool (e.g. customer onboarding, Gainsight playbooks, issue/handbook/Drive organization, etc.), researching options, discussing feedback with customers and peers, creating new content where needed, and working with team members to launch the content.
       - Creating new/updated content and training on an topic related to the CSM role (e.g. EBRs, workshops/enablements, success plans, persona engagement, risk management, etc.) and sharing it with the wider CSM team.
-      - Partake in or start a working group; these are typically long-term initiatives, but very valuable to have experience with (e.g. [the issue prioritization framework working group](/handbook/company/team/structure/working-groups/issue-prioritization-framework/)).
+      - Partake in or start a working group; these are typically long-term initiatives, but very valuable to have experience with (e.g. [the issue prioritization framework working group](/handbook/company/working-groups/issue-prioritization-framework/)).
 1. Join CSM Manager meetings and own action items that come out of that meeting.
    - To attend a CSM manager meeting, ask your manager to invite you to the next planned occurrence within your region.
    - When adding the participant, the CSM manager should create a separate agenda doc for the upcoming occurrence and add it to the appropriate calendar event, sharing it with all participants and transposing any existing items as appropriate from the running doc

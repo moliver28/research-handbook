@@ -28,11 +28,11 @@ full functional and product capabilities at GitLab.
 
 ## Performance Indicators
 
-- [Sale Renewal CSAT](https://about.gitlab.com/handbook/engineering/development/performance-indicators/#sales-renewal-csat)
-- [Hiring Actual vs. Plan](https://about.gitlab.com/handbook/engineering/performance-indicators/#engineering-hiring-actual-vs-plan)
-- [Team/Group MR Rate](https://about.gitlab.com/handbook/engineering/development/performance-indicators/#mr-rate)
-- [Team/Group Review To Merge Time (RTMT)](https://about.gitlab.com/handbook/engineering/development/performance-indicators/#review-to-merge-time-rtmt)
-- [Handbook Update Frequency](https://about.gitlab.com/handbook/engineering/development/performance-indicators/#handbook-update-frequency)
+- [Sale Renewal CSAT](/handbook/engineering/development/performance-indicators/#sales-renewal-csat)
+- [Hiring Actual vs. Plan](/handbook/engineering/performance-indicators/#engineering-hiring-actual-vs-plan)
+- [Team/Group MR Rate](/handbook/engineering/development/performance-indicators/#mr-rate)
+- [Team/Group Review To Merge Time (RTMT)](/handbook/engineering/development/performance-indicators/#review-to-merge-time-rtmt)
+- [Handbook Update Frequency](/handbook/engineering/development/performance-indicators/#handbook-update-frequency)
 
 ## Hiring Process
 

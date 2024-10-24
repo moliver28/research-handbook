@@ -4,7 +4,7 @@ title: "Incubation Engineering Department Career Framework: Staff"
 
 ## Incubation Engineering Department Competencies: Staff
 
-{{% include "includes/engineering/career-matrix-nav.md" %}}
+{{% include "includes/engineering-careers/career-matrix-nav.md" %}}
 
 **Staff at GitLab are expected to exhibit the following competencies:**
 
@@ -16,12 +16,12 @@ title: "Incubation Engineering Department Career Framework: Staff"
 
 ### Staff Leadership Competencies
 
-{{% include "includes/engineering/staff-leadership-competency.md" %}}
+{{% include "includes/engineering-careers/staff-leadership-competency.md" %}}
   
 ### Staff Technical Competencies
 
-{{% include "includes/engineering/staff-technical-competency.md" %}}
+{{% include "includes/engineering-careers/staff-technical-competency.md" %}}
 
 ### Staff Values Alignment
 
-{{% include "includes/engineering/values-competency.md" %}}
+{{% include "includes/engineering-careers/values-competency.md" %}}

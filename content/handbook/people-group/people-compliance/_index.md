@@ -10,11 +10,11 @@ People Compliance works collaboratively with multiple functional teams throughou
 ## Contact the Compliance Team
 
 - Email
-   - `people-compliance@gitlab.com`
+  - `people-compliance@gitlab.com`
 - Tag us in GitLab
-   - `@gl-peoplecompliance`
-- Slack
-   - The #people-connect Slack channel is the best place for questions relating to our team.
+  - `@gl-peoplecompliance`
+- HelpLab
+  - Please create a case in [HelpLab](/handbook/business-technology/enterprise-applications/guides/helplab-guide/#how-do-i-use-helplab) for the team to review
 
 ## Defining People Compliance
 
@@ -30,7 +30,7 @@ Understanding GitLab's strategic priorities lays the foundation for a better und
 
 ## People Compliance Core Competencies & Responsibilities
 
-All Responsibilities are listed in the [People Compliance job family page]({{< ref "/job-families/people-group/people-compliance" >}}), and they can be summarized as follows:
+All Responsibilities are listed in the [People Compliance job family page](/job-families/people-group/people-compliance), and they can be summarized as follows:
 
 1. To identify needs and propose strategies to collaborate and support the enablement of compliant protocols.
 1. Implement compliance initiatives and templates that can be utilised for initiatives.
@@ -66,9 +66,9 @@ Please see the [README.md](https://gitlab.com/gitlab-com/people-group/compliance
 
 ## Performance Indicators
 
-### [Annual Mandated HR Reporting]({{< ref "people-success-performance-indicators#compliance-annual-mandated-hr-reporting" >}})
+### Annual Mandated HR Reporting
 
-This PI encompasses the 100% completion of all mandated, annual HR reports to all relevant Offices and Departments, most commonly being related to United States HR-related reports.
+This PI encompasses the 100% completion of all mandated, [annual HR reports]({{< ref "people-success-performance-indicators#compliance-annual-mandated-hr-reporting" >}}) to all relevant Offices and Departments, most commonly being related to United States HR-related reports.
 
 - [People Compliance Reporting]({{< ref "people-compliance-reporting" >}})
 

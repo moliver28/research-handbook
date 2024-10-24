@@ -16,7 +16,7 @@ Each team of the Security Division should maintain their own maturity models.
 
 ### Tooling
 
-Maturity models leverage [Issue Boards](https://docs.gitlab.com/ee/user/project/issue_board.html) to organise and track progress on the various processes. These issue boards are located in projects under the team GitLab group in [https://gitlab.com/gitlab-com/gl-security/](https://gitlab.com/gitlab-com/gl-security/) (for example: [https://gitlab.com/gitlab-com/gl-security/threatmanagement/redteam/redteam-internal/red-team-maturity-model/](https://gitlab.com/gitlab-com/gl-security/threatmanagement/redteam/redteam-internal/red-team-maturity-model/) for the Red Team).
+Maturity models leverage [Issue Boards](https://docs.gitlab.com/ee/user/project/issue_board.html) to organise and track progress on the various processes. These issue boards are located in projects under the team GitLab group in [https://gitlab.com/gitlab-com/gl-security/](https://gitlab.com/gitlab-com/gl-security/) (for example: [https://gitlab.com/gitlab-com/gl-security/security-operations/redteam/redteam-internal/red-team-maturity-model/](https://gitlab.com/gitlab-com/gl-security/security-operations/redteam/redteam-internal/red-team-maturity-model/) for the Red Team).
 
 Each process of the maturity model is presented by an issue with a short title and a longer description.
 
@@ -27,7 +27,7 @@ Each process of the maturity model is presented by an issue with a short title a
 #### Maturity levels
 
 The `~Maturity Level::*` label reflects the level of the process and is **mandatory**.
-There are five levels defined along the continuum of the model (see the ["Capability Maturity Model" wikipedia page] for more details):
+There are five levels defined along the continuum of the model (see the ["Capability Maturity Model" wikipedia page](https://en.wikipedia.org/wiki/Capability_Maturity_Model) for more details):
 
 - `~Maturity Level::Initial (1)`
 - `~Maturity Level::Repeatable (2)`
@@ -47,6 +47,4 @@ The `~Maturity::*` label reflects the current state of the process and is **opti
 
 ## Resources
 
-- ["Capability Maturity Model" wikipedia page]
-
-["Capability Maturity Model" wikipedia page]: (https://en.wikipedia.org/wiki/Capability_Maturity_Model)
+- ["Capability Maturity Model" wikipedia page](https://en.wikipedia.org/wiki/Capability_Maturity_Model)

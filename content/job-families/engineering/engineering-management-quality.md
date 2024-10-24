@@ -3,7 +3,7 @@ title: "Engineering Management - Quality"
 description: "Engineering Managers in the Quality Department are motivated and experienced leaders who grow our test automation efforts across the entire GitLab ecosystem."
 ---
 
-At GitLab, Quality is everyone's responsibility and the output of the Quality Department is instrumental to GitLab’s success.
+At GitLab, Quality is everyone's responsibility and the output of the Quality Department is instrumental to GitLab's success.
 
 Engineering Managers in the Quality department are motivated and experienced leaders who grow our test automation efforts across the entire GitLab ecosystem.
 They demonstrate a passion for high quality software, strong Engineering principles, and methodical problem solving skills.
@@ -42,11 +42,11 @@ The Manager, Quality Engineering is a [grade 8](/handbook/total-rewards/compensa
 - Experience with Continuous Integration systems (e.g. Jenkins, Travis, GitLab).
 - Experience defining high-level test automation strategy based on DevOps industry's best practices.
 - Experience driving organizational change with cross-functional stakeholders.
-- Demonstrate longevity at at least one recent job.
+- Demonstrate longevity at, at least, one recent job.
 - Ability to be successful managing at a remote-only company.
 - Humble, servant leader.
 - You share our [values](/handbook/values/), and work in accordance with those values.
-- [Leadership at GitLab](/handbook/company/team/structure/#management-group)
+- [Leadership at GitLab](/handbook/company/structure/#management-group)
 - Ability to use GitLab.
 
 ### Nice-to-have Requirements
@@ -143,7 +143,7 @@ The Director, Quality Engineering is a [grade 10](/handbook/total-rewards/compen
 - Hire world class Engineering Managers and Software Engineers in Test (SETs) for the Quality Engineering sub-department.
 - Publish and socialize the progress of the Quality Engineering sub-department.
 - Drive retrospective and improvements that impacts Quality Engineering.
-- Manage the sub-department’s priorities and define prioritization guidelines for teams in Quality Engineering.
+- Manage the sub-department's priorities and define prioritization guidelines for teams in Quality Engineering.
 - Excellent written and verbal communication skills. Able to convey bottom-line messages to executives at C & VP level.
 - Hold regular skip-level 1:1's with all Software Engineer in Tests (SETs)
 - Help the teams in Quality Engineering grow their skills and experience, ensure that they are happy and productive.
@@ -179,7 +179,7 @@ The VP of Quality is a [grade 12](/handbook/total-rewards/compensation/compensat
 - Ensure that the department recruiting efforts stay in step with the product roadmap and company hiring plan
 - Track, publish and socialize the progress of the department.
 - Drive improvements and process that impacts Quality.
-- Manage the department’s priorities, set guidelines for Quality sub-departments and teams and align them strategically across all of Engineering.
+- Manage the department's priorities, set guidelines for Quality sub-departments and teams and align them strategically across all of Engineering.
 - Work across the company to define and implement mechanisms to bake in Quality and testing earlier in the software development process.
 - Work across the company to improve the efficiency and productivity of community contributions.
 - Work across Engineering to improve the Division's Data Analytics capabilities.
@@ -205,11 +205,11 @@ industry standard libraries (test tooling, orchestration, performance, and etc) 
 
 Quality Engineering Management has the following job-family performance indicators.
 
-- [Hiring actual vs plan](https://about.gitlab.com/handbook/engineering/quality/performance-indicators/#hiring-actual-vs-plan)
-- [Diversity](https://about.gitlab.com/handbook/engineering/quality/performance-indicators/#diversity)
-- [Handbook update frequency](https://about.gitlab.com/handbook/engineering/quality/performance-indicators/#handbook-update-frequency)
-- [Team member retention](https://about.gitlab.com/handbook/engineering/quality/performance-indicators/#team-member-retention)
+- [Hiring actual vs plan](/handbook/engineering/infrastructure/performance-indicators/#hiring-actual-vs-plan)
+- [Diversity](/handbook/engineering/infrastructure/performance-indicators/#diversity)
+- [Handbook update frequency](/handbook/engineering/infrastructure/performance-indicators/#handbook-update-frequency)
+- [Team member retention](/handbook/engineering/infrastructure/performance-indicators/#team-member-retention)
 
 ## Career Ladder
 
-For more details on the engineering career ladders, please review the [engineering career development](https://about.gitlab.com/handbook/engineering/career-development/#roles) handbook page.
+For more details on the engineering career ladders, please review the [engineering career development](/handbook/engineering/careers/#roles) handbook page.

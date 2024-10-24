@@ -1,11 +1,8 @@
 ---
-
 title: Performance reviews
 category: Support Team
 description: Information about performance reviews in Support Engineering
 ---
-
-
 
 ## Overview
 
@@ -45,8 +42,6 @@ corresponding Google Sheet.
 
 #### Growth, development and hiring of team members (Weighting: 20%)
 
-
-
 - **Developing:**
   - You are still getting to know your direct reports, and have not yet
     established a foundation to discuss career or learning goals.
@@ -73,8 +68,6 @@ corresponding Google Sheet.
     Talent Acquisition to ensure effective execution of the hiring plan.
 
 #### Process development and improvement (Weighting: 20%)
-
-
 
 - **Developing:**
   - You are just starting to build an understanding of Support Engineering
@@ -111,11 +104,9 @@ corresponding Google Sheet.
 
 #### People care and performance management (Weighting: 30%)
 
-
-
 - **Developing:**
   - You are just starting to build an understanding of most of your direct
-    reports' productivity, engagement with work and personal wellbeing. You are
+    reports' productivity, engagement with work and personal well-being. You are
     just starting to discover their learning styles and coaching needs and as a result may not be able to quickly identify changes or needs in the same.
 
   - You are begining to develop an awareness of the quality of your direct reports' work
@@ -124,7 +115,7 @@ corresponding Google Sheet.
 
 - **Performing:**
   - You keep up to date with your direct reports' productivity, engagement with
-    work and personal wellbeing, and provide a listening ear, encouragement and
+    work and personal well-being, and provide a listening ear, encouragement and
     coaching when necessary.
   - You coach your direct reports to increase and/or maintain the quality of
     their work with customers and their contributions to the Support Engineering
@@ -135,16 +126,14 @@ corresponding Google Sheet.
 - **Exceeding:**
   - Extends Performing descriptor.
   - You identify issues which might impact your direct reports' productivity,
-    engagement with work and personal wellbeing and work with your peers and
+    engagement with work and personal well-being and work with your peers and
     your manager to address the issues before they become problems.
   - You enable your direct reports and amplify their voice where appropriate so
     they can model being a manager of one and values alignment in the
-    areas of productivity, engagement with work and personal wellbeing to the
+    areas of productivity, engagement with work and personal well-being to the
     Support Engineering team.
 
 #### Managing customer service outcomes (Weighting: 30%)
-
-
 
 - **Developing:**
   - You are just starting to build an understanding of service-related Support

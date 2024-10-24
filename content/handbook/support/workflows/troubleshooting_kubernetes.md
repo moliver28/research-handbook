@@ -1,5 +1,4 @@
 ---
-
 title: Troubleshooting GitLab Cloud Native chart deployments
 category: Self-managed
 description: Using the kubeSOS to troubleshoot GitLab Cloud Native chart deployments
@@ -32,17 +31,17 @@ Or use `curl`:
 curl https://gitlab.com/gitlab-com/support/toolbox/kubesos/raw/master/kubeSOS.sh | bash -s -- [flags]
 ```
 
-| Flags | Description | Required   | Default
-| :---- | :---------- | :--------- | :------
-| `-n`  | namespace   | No | "default"
-| `-r`  | helm chart release | No | "gitlab"
-| `-l app`  | application label to match for logs (can be used multiple times) | No |
-| `-L` | select apps for logs interactively | No | n/a
-| `-s time`  | Only return logs newer than a relative duration like 5s, 2m, or 3h | No | 0=all logs
-| `-t time_stamp`  | Only return logs after a specific date (RFC3339) | No | all logs
-| `-m maxlines` | Override the default maximum lines output per log (-1 = no limit) | No | 10000
-| `-p` | Prepend log entries with pod and container names | No | n/a
-| `-w log_timeout` | Log generation wait time (seconds). Increase this if log collection does not complete in time  | No | 60
+| Flags | Description | Required   | Default |
+| :---- | :---------- | :--------- | :------ |
+| `-n`  | namespace   | No | "default" |
+| `-r`  | helm chart release | No | "gitlab" |
+| `-l app`  | application label to match for logs (can be used multiple times) | No | |
+| `-L` | select apps for logs interactively | No | n/a |
+| `-s time`  | Only return logs newer than a relative duration like 5s, 2m, or 3h | No | 0=all logs |
+| `-t time_stamp`  | Only return logs after a specific date (RFC3339) | No | all logs |
+| `-m maxlines` | Override the default maximum lines output per log (-1 = no limit) | No | 10000 |
+| `-p` | Prepend log entries with pod and container names | No | n/a |
+| `-w log_timeout` | Log generation wait time (seconds). Increase this if log collection does not complete in time  | No | 60 |
 
 Data will be archived to `kubesos-<timestamp>.tar.gz`
 
@@ -54,13 +53,13 @@ Use the `tar` linux utility to extract the data into a folder
 tar -zxvf kubesos-<timestamp>.tar.gz
 ```
 
-## Troubleshoot a Gitlab installation
+## Troubleshoot a GitLab installation
 
 There are two main areas to check when troubleshooting a cloud native application like GitLab:
 
 - **Cluster setup**: We will assume that the cluster is correctly setup as per our [recommendation](https://docs.gitlab.com/charts/installation/cloud/) and enough resources have been allocated to the nodes. We will look at a few commands that would be helpful in confirming this.
 
-- **Application Failures**: This will be our primary area of focus and we will be trying to identify why Gitlab is not working or not behaving correctly.
+- **Application Failures**: This will be our primary area of focus and we will be trying to identify why GitLab is not working or not behaving correctly.
 
 ## Cluster setup
 
@@ -80,7 +79,7 @@ kubectl cluster-info dump
 
 To delve deeper into troubleshooting the cluster have a look at [Troubleshoot Clusters](https://kubernetes.io/docs/tasks/debug-application-cluster/debug-cluster/#looking-at-logs) which gives you insights as to the logs that you would look into.
 
-### Gitlab Requirements
+### GitLab Requirements
 
 In order to deploy GitLab on Kubernetes, ensure the setup meets the [documented requirements](https://docs.gitlab.com/charts/installation/tools.html#prerequisites).
 
@@ -230,7 +229,6 @@ Where there is more than one helm revision (`helm history <release>`), we captur
 The above indicates a change was made to CertManager configuration between revisions 7 and 8.
 
 If the YAML files are not present, it is likely that kubeSOS was not run against the correct *namespace* or *release*, `helm list -A` will show all helm deployed releases. Be sure to run `kubeSOS.sh` with the appropriate `-n <namespace>` and `-r <release>` options.
-
 
 ### Application logs
 

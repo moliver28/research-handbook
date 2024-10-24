@@ -135,7 +135,7 @@ expiration date to remind them to delete the token. Should an extension be
 needed, a new access request issue will be required. The original token will
 still be deleted and a new one re-issued.
 
-## How to authenticate to the Zendesk API
+### How to authenticate to the Zendesk API
 
 #### Basic authentication
 
@@ -214,7 +214,7 @@ The most common library we use for the Zendesk Support API is the
 This ruby gem is quite powerful and acts as a nice HTTP library for interacting
 with the Zendesk Support API.
 
-#### Authenitcation with the ruby gem
+### Authenitcation with the ruby gem
 
 To authenticate with the ruby gem, you will need to setup the client itself so
 you can call upon it.
@@ -332,7 +332,7 @@ curl https://gitlab.zendesk.com/api/v2/automations/12345 \
   -X DELETE
 ```
 
-## Common use cases
+### Common use cases
 
 For all examples:
 

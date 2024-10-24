@@ -34,7 +34,6 @@ As Security Risk is responsible for executing third party security risk manageme
 1. Reviews SOC reports for CSOCs and initiates requests to obtain all CSOC reports. Note that Security Risk does not determine whether or not GitLab business processes rely on CSOCs. As such, we request all CSOC SOC reports.
 1. Validates that reports provide coverage over the prior fiscal year (2/1/20xx-1/31/20xx). If coverage is lacking additional requests are sent.
 
-
 Throughout this process, Security Risk manages the status of requested reports and CUEC mapping template creation prior to handoff to IA.
 
 ### Google Sheet CUEC Template Creation (Security Risk)
@@ -64,6 +63,5 @@ N/A
 
 ## References
 
-- [GitLab SOX ITGC Compliance](/handbook/business-technology/it-compliance/ITGC.html)
+- [GitLab SOX ITGC Compliance](https://internal.gitlab.com/handbook/it/it-compliance/)
 - [Third Party Risk Management]({{< ref "third-party-risk-management" >}})
-

@@ -9,7 +9,7 @@ status: active
 | Property        | Value                                                                                                                                             |
 |:----------------|:--------------------------------------------------------------------------------------------------------------------------------------------------|
 | Date Created    | 2022-02-07                                                                                                                                        |
-| Target End Date | TBD                                                                                                                                               |
+| End Date        | 2023-11-17                                                                                                                                               |
 | Slack           | [#wg_api_vision](https://gitlab.slack.com/archives/C030DMJE0SZ) (only accessible from within the company)                                         |
 | Google Doc      | [Working Group Agenda](https://docs.google.com/document/d/1o4Tq84Lt5VnxrVZmhlP0u4qiErzC1MtVfivnIc6_29E) (only accessible from within the company) |
 | Issue Board     | [Issue Board](https://gitlab.com/groups/gitlab-org/-/boards/3929903)                                                |
@@ -76,12 +76,12 @@ The table below lists all exit criteria for the working group. This is the [top-
 | Facilitator             | @g.hickman      | [Grant Hickman](/handbook/company/team/#g.hickman)        | Senior Product Manager, Manage:Integrations                  |
 | Functional Lead         | @.luke          | [Luke Duncalfe](/handbook/company/team/#.luke)            | Senior Backend Engineer, Manage:Integrations                 |
 | Functional Lead         | @axil           | [Achilleas Pipinellis](/handbook/company/team/#axil)      | Senior Technical Writer, Enablement                             |
-| Functional Lead         | @Andysoiron     | [Andy Soiron](/handbook/company/team/#Andysoiron)         | Senior Backend Engineer, Manage:Integrations                 |
+| Functional Lead         | @Andysoiron     | [Andy Soiron](/handbook/company/team/#andysoiron)         | Senior Backend Engineer, Manage:Integrations                 |
 | Member                  | @grzesiek       | [Grzegorz Bizon](/handbook/company/team/#grzesiek)        | Principal Engineer, Verify                                      |
 | Member                  | @f_caplette     | [Frédéric Caplette](/handbook/company/team/#f_caplette)   | Senior Frontend Engineer, Verify:Pipeline Authoring             |
 | Member                  | @bmarjanovic    | [Bojan Marjanovic](/handbook/company/team/#bmarjanovic)   | Senior Backend Engineer, Manage:Integrations                 |
 | Member                  | @kerrizor       | [Kerri Miller](/handbook/company/team/#kerrizor)          | Senior Backend Engineer, Create:Code Review                     |
-| Member                  | @lauraX         | [Laura Montemayor](/handbook/company/team/#lauraX)        | Backend Engineer, Verify:Pipeline Authoring                     |
+| Member                  | @lauraX         | [Laura Montemayor](/handbook/company/team/#laurax)        | Backend Engineer, Verify:Pipeline Authoring                     |
 | Member                  | @nagyv-gitlab   | [Viktor Nagy](/handbook/company/team/#nagyv-gitlab)       | Senior Product Manager, Configure                               |
 | Member                  | @kpaizee        | [Kati Paizee](/handbook/company/team/#kpaizee)            | Senior Technical Writer, Growth and Ecosystem                   |
 | Member                  | @fabiopitino    | [Fabio Pitino](/handbook/company/team/#fabiopitino)       | Staff Backend Engineer, Verify:Pipeline Execution               |

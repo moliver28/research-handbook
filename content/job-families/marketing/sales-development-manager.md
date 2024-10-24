@@ -38,7 +38,7 @@ The Manager, Sales Development is a [grade 8](/handbook/total-rewards/compensati
 - Passionate about technology and learning more about GitLab
 ( Be ready to learn how to use GitLab and Git
 - You share our [values](/handbook/values/), and work in accordance with those values.
-- [Leadership at GitLab](/handbook/company/team/structure/#management-group)
+- [Leadership at GitLab](/handbook/company/structure/#management-group)
 
 ### Manager, Business Development (BDR)
 
@@ -56,7 +56,7 @@ The Manager, Business Development is a [grade 8](/handbook/total-rewards/compens
 - Work closely with the Events and Digital teams on Field events and targeted ad and nurture campaigns.
 - Work closely with Sales and other members of the Sales Development Leadership team to improve opportunity management and qualification processes
 - Work closely with Sales, Senior SDR Manager/Director, as well as the Regional Sales Director's to identify key company accounts to develop.
-- Work in collaboration with Content, Marketing Program Managers, and Product Marketing to develop effective messaging for outbound communications to your team’s assigned accounts.
+- Work in collaboration with Content, Marketing Program Managers, and Product Marketing to develop effective messaging for outbound communications to your team's assigned accounts.
 
 #### Manager, Business Development Requirements
 
@@ -68,7 +68,7 @@ The Manager, Business Development is a [grade 8](/handbook/total-rewards/compens
 - Passionate about technology and learning more about GitLab
 - Be ready to learn how to use GitLab and Git
 - You share our [values](/handbook/values/), and work in accordance with those values.
-- [Leadership at GitLab](/handbook/company/team/structure/#management-group)
+- [Leadership at GitLab](/handbook/company/structure/#management-group)
 
 ## Segment
 

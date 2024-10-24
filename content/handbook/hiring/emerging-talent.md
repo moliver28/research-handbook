@@ -9,20 +9,18 @@ This page outlines the strategy for how we **enable**, **develop**, and **connec
 
 ## Our Mission
 
-Our mission is to **attract**, **acquire**, and **activate** talent to unlock their potential, connecting learning agility with opportunity.
+Our mission is to **attract**, **acquire**, and **activate** talent to unlock their potential, connecting learning agility with employment opportunities.
 
 This is anchored in the belief that building a balanced workforce will enable GitLab to scale effectively and inclusively, and that building a strong foundation today will greatly impact our future growth.
 
 ## Our Guiding Principles
 
-The guiding principles for the Emerging Talent Program cascade from GitLab’s hiring principles and will set us up to drive change in our organization over the next three years:
+The guiding principles for the Emerging Talent Program cascade from GitLab's hiring principles and will set us up to drive change in our organization over the next three years:
 
 - **Inclusion First**
-    - We build experiences and programming that contribute to and increases the representation of underrepresented communities at GitLab by being open to anyone, whoever they are, wherever they are*.
-    - Our actions are rooted in building a forward-thinking foundation at GitLab with experiences decoupled from academic-based prerequisites, rooted in competency-based assessment.
+  - We build experiences and programming that contribute to and increases the representation of underrepresented communities at GitLab by being open to anyone, whoever they are, wherever they are.
+  - Our actions are rooted in building a forward-thinking foundation at GitLab with experiences decoupled from academic-based prerequisites, rooted in competency-based assessment.
 - **Enable & Develop**
-    - We deliver content designed to minimize participants’ time to impact through programming and work-integrated learning.
+  - We deliver content designed to minimize participants' time to impact through programming and work-integrated learning.
 - **Build For The Long Term**
-    - We contribute to GitLab’s [long-term organizational effectiveness](https://dorieclark.com/longgame/) by investing in and building talent, our execution is iterative but our strategy drives toward building a [100-year company](https://bigthink.com/articles/how-to-build-the-100-year-company/).
-
-GitLab Team Members can click [here](https://docs.google.com/document/d/1zBV-94eNXVZI3Opp4U196viqVQBI9ZedGPmCTme4YJM/edit#heading=h.end9bv3ja91m) to learn about our Key Objectives and Programs that are currently being built.
+  - We contribute to GitLab's [long-term organizational effectiveness](https://dorieclark.com/longgame/) by investing in and building talent, our execution is iterative but our strategy drives toward building a [100-year company](https://bigthink.com/articles/how-to-build-the-100-year-company/).

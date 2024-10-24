@@ -1,10 +1,7 @@
 ---
-
 title: Support Managers
 description: Support Managers activities and references
 ---
-
-
 
 ## Role and Responsibilities
 
@@ -61,20 +58,20 @@ As a Support Management group we should be aware of the tooling we use to genera
 1. Sisense
 1. Zendesk Explore
 
-#### Sisense
+### Sisense
 
 Sisense is a general purpose visualization tool that is used by the greater company.
 It's extremely powerful with a full SQL interface to our data across functions.
 We work with the data team to generate "Stable" Graphs here. Think, KPIs and greater measures that make sense to report to the larger company.
 As managers, we will not need to edit these reports often, but we should consuming it regularly.
 
-#### Zendesk Explore
+### Zendesk Explore
 
 Zendesk Explore was released to replace Zendesk Insights. We will use this tool
 for quick interactions on new ideas or fact checking Sisense data. Support Managers
 should be ready to work with Explore regularly and be comfortable with the tool.
 
-#### Why two metrics systems?
+### Why two metrics systems?
 
 Sisense is a company wide tool that is extremely powerful which can make it unwieldy.
 Explore gives us an interface that is much easier to navigate and use.
@@ -91,7 +88,7 @@ If the metrics are at or below the following floors for 2 sustained weeks, manag
 1. Combined SSAT (L&R, GitLab SM and GitLab SaaS) at or below 93%
 1. Combined NRT (L&R, GitLab SM and GitLab Saas) at or below 83%
 
-This action is unique to Support and is somewhere in-between a [Rapid Action issue](https://about.gitlab.com/handbook/engineering/development/#rapid-action-issue) and a [Working Group](/handbook/company/team/structure/working-groups/).
+This action is unique to Support and is somewhere in-between a [Rapid Action issue](/handbook/engineering/development/#rapid-action-issue) and a [Working Group](/handbook/company/working-groups/).
 
 The purpose of the group will be unique to each situation that triggers it, but generally the members will:
 
@@ -114,7 +111,7 @@ All Support Engineering Managers have at least 1 [OKR](/handbook/company/okrs/#w
 
 1. [KPIs](/handbook/support/performance-indicators/)
 1. Team Growth (Hiring and Development)
-1. [OKRs](https://about.gitlab.com/handbook/engineering/#engineering-okr-process)
+1. [OKRs](/handbook/engineering/#engineering-okr-process)
 
 Having a project that is time bound to a quarter is completely acceptable as an OKR, and adjusting an OKR during the quarter (especially in light of other priorities) is also acceptable.
 
@@ -122,4 +119,4 @@ New managers will establish their own OKR after they have been in their role for
 
 ## Support Engineering Manager READMEs
 
-Support Engineering Manager READMEs are found in [Engineering Manager READMEs](https://about.gitlab.com/handbook/engineering/readmes/).
+Support Engineering Manager READMEs are found in [Engineering Manager READMEs](/handbook/engineering/readmes/).

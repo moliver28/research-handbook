@@ -1,12 +1,9 @@
 ---
-
 title: Working with Security
 category: GitLab.com
 subcategory: Security
 description: Documenting the various types of Security related tickets and the escalation process to notify Security.
 ---
-
-
 
 ## Overview
 
@@ -85,7 +82,7 @@ In the case that the customer has already filed an issue for the vulnerability:
 
 1. Add `security`, `customer`, and `bug` or `feature proposal` labels
 
-1. Assign [Severity and Priority Labels](/handbook/security/#severity-and-priority-labels-on-security-issues)
+1. Assign [Severity and Priority Labels](/handbook/security/engaging-with-security/#severity-and-priority-labels-on-security-issues)
 
 ### If the customer has not yet created an issue
 

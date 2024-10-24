@@ -1,4 +1,3 @@
-{{ $peopleBusinessPartners := partials.IncludeCached "data/people-business-partners" page }}
 <table style="display: table;">
     <thead>
         <tr>
@@ -7,26 +6,14 @@
         </tr>
     </thead>
     <tbody>
-        {{ range $peopleBusinessPartners }}
+        {{- range site.Data.public.people_business_partners }}
+        {{- $member := index (where site.Data.public.team "name" "eq" .name) 0 }}
+        {{- if $member }}
         <tr>
-            <td>{{ partial "member-by-name" .name }}</td>
+            <td>{{ partial "member/with-team-link" $member }}</td>
             <td>{{ .present }}</td>
         </tr>
-        {{ end }}
+        {{- end }}
+        {{- end }}
     </tbody>
 </table>
-
-<style>
-    img.avatar {
-    width: 30px;
-    height: 30px;
-    max-width: 30px;
-    max-height: 30px;
-    overflow: hidden;
-    margin-right: 10px;
-    border-radius: 50%;
-    border: 1px solid lightgray;
-    aspect-ratio: auto 90 / 90;
-    overflow-clip-margin: content-box;
-    }
-</style>

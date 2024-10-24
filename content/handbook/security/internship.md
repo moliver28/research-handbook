@@ -5,7 +5,7 @@ description: "The ultimate goal of this program is to transform an entry-level c
 
 ## Overview
 
-The **Security** internship is the result of [The Engineering Internship Pilot Program](https://about.gitlab.com/handbook/engineering/internships/) that started at the end of 2019. The ultimate goal of this program is to transform an entry-level candidate into an Individual Contributor who could meet the requirements for a [Security Engineer]({{< ref "/job-families/security/security-engineer" >}}).
+The **Security** internship is the result of [The Engineering Internship Pilot Program](/handbook/engineering/internships/) that started at the end of 2019. The ultimate goal of this program is to transform an entry-level candidate into an Individual Contributor who could meet the requirements for a [Security Engineer](/job-families/security/security-engineer).
 
 ## OKRs for the Internship
 
@@ -59,7 +59,7 @@ The **Security** internship is the result of [The Engineering Internship Pilot P
 ## Roles
 
 - [Security Manager]({{< ref "security-leadership" >}}) - Manager
-- [Senior Security Engineer(s)]({{< ref "/job-families/security/security-engineer#senior-security-engineer" >}}) - Mentor(s)
+- [Senior Security Engineer(s)](/job-families/security/security-engineer#senior-security-engineer) - Mentor(s)
 - Security Intern
 
 ## Responsibilities
@@ -85,10 +85,10 @@ The **Security** internship is the result of [The Engineering Internship Pilot P
 **Weekly**
 
 - Weekly 1-1:
-     - Agenda:
-          - Discuss Outstanding Questions
-          - Review Status of current rotation
-          - Review Status of growth goals and OKRs
+  - Agenda:
+    - Discuss Outstanding Questions
+    - Review Status of current rotation
+    - Review Status of growth goals and OKRs
 - Ensure that intern has pair work time scheduled for each week
 
 **As needed:**
@@ -118,10 +118,10 @@ for each time should be designated as the mentor for that rotation.
 
 - Participate in at least one pair work session
 - Weekly 1-1:
-     - Agenda:
-          - Discuss Outstanding Questions
-          - Review Status of current rotation
-          - Review Status of current project
+  - Agenda:
+    - Discuss Outstanding Questions
+    - Review Status of current rotation
+    - Review Status of current project
 
 **As needed:**
 
@@ -145,7 +145,7 @@ for each time should be designated as the mentor for that rotation.
 **Daily:**
 
 - Perform a Daily Check In through Slack to the Editor_Intern_Slack private channel
-     - What did you do yesterday?
-     - What do you plan to do today?
-     - Is anything blocking your work?
+  - What did you do yesterday?
+  - What do you plan to do today?
+  - Is anything blocking your work?
 - Complete pair work sessions and assigned tasks in team rotations

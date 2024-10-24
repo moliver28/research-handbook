@@ -1,14 +1,7 @@
 ---
-
 title: "Channel Sales Manager Operating Rhythm"
 description: "Successful management includes onboarding, reviewing joint partner business plans, aligning with regional sales leaders, coaching, career development and performance management"
 ---
-
-
-
-
-
-
 
 ## Overview
 
@@ -19,6 +12,7 @@ As a complement to the [Channel Sales Manager Operating Rhythm (MOR) 1-pager](ht
 ### Partner | Sales Alignment
 
 Channel Sales leaders should meet with regional sales leaders at least twice per quarter to align on the regional partner plan. Regional plans help to ensure that the team is recruiting, maintaining, and growing the right set of Select partners to support the business based on the 4 Cs:
+
 1. Commitment
 1. Capability
 1. Coverage
@@ -37,9 +31,10 @@ Channel sales leaders should ensure that their Channel Account Managers are havi
 ### Forecasting
 
 The VP of WW Channel Sales hosts a weekly forecast call with regional Channel Sales Directors to review and discuss details from the Channel & Alliances Dashboard including but not limited to:
+
 - Partner sourced vs. partner co-sell pipeline & forecasts
-    - For growth as well as for First Order (new) business
-    - For current quarter and future quarters
+  - For growth as well as for First Order (new) business
+  - For current quarter and future quarters
 - Partner coverage for new opportunities
 
 ### Team Meetings and 1x1s
@@ -53,6 +48,7 @@ Regional Channel Sales leaders typically host weekly team calls and have weekly 
 Always be recruiting! As outlined in the [Winning Top Talent](/handbook/sales/field-manager-development/#winning-top-talent) portion of the GitLab Field Manager Development Program, the importance of effective recruiting to GitLab's continued growth and success cannot be understated. Channel Sales leaders should meet regularly with your Talent Acquisition Recruiter (exact cadence will vary based on hiring needs) and should also be comfortable and confident in selling the amazing opportunity here at GitLab.
 
 **Key Resources**
+
 - Success Profile
 - Interview Guide
 - Networking tools
@@ -83,6 +79,7 @@ Channel Sales leaders actively participate in annual planning discussions and pr
 ### Quarterly Business Reviews
 
 Every three months, Channel Sales leaders provide an update on their business. These updates include but are not limited to:
+
 - Previous quarter's results relative to targets
 - Business outlook for the coming quarter
 - Assessment of strategic initiatives and resources needed with accompanying business justification

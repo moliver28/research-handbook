@@ -32,14 +32,6 @@ To opt-in, follow these steps on Slack
 1. Click on `Edit profile`
 1. Scroll down to the `GitLab Birthdays` field and select `Yes`
 
-### Parental Leave Welcome Back
-
-A scheduled pipeline runs every day to check who's coming back from parental leave in 3 days.
-For those team members we send them a Direct Message reminding them that they can take more
-PTO if needed and links to the handbook related to coming back after parental leave.
-
-For this pipeline we have a direct integration with Time Off by Deel.
-
 ### Informing People Connect Team about details missing in BambooHR for upcoming new hires
 
 For the new hire announcements to be accurate, it is required to ensure the
@@ -86,5 +78,5 @@ creation did not pick up a given template. This will show exactly what path the 
 
 ### GitLab Usernames
 
-Often times, team members won't follow the procedure outlined on the [tools and tips page]({{< ref "/handbook/tools-and-tips#change-your-username-at-gitlabcom" >}}) to change their GitLab username. This leads to inaccurate or outdated data in Workday.
+Often times, team members won't follow the procedure outlined on the [tools and tips page](/handbook/tools-and-tips#change-your-username-at-gitlabcom) to change their GitLab username. This leads to inaccurate or outdated data in Workday.
 To remedy this situation, every Wednesday, we audit all GitLab usernames stored on Workday (`GitLab Username` field) and verify that those usernames are members of the [gitlab-com group](https://gitlab.com/groups/gitlab-com/-/group_members). When a Workday `GitLab Username` is not in the group, a message is automatically sent in `#peopleops-alerts` on Slack.

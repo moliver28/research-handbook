@@ -15,29 +15,20 @@
 ###################################
 
 stages:
-  - prepare
+  - sync
+  - build
   - deploy
-  - test
   - notify
-  - cleanup
-
-.assume_role: &assume_role
-  - >
-    STS=($(aws sts assume-role-with-web-identity
-    --role-arn ${ROLE_ARN}
-    --role-session-name "GitLabRunner-${CI_PROJECT_ID}-${CI_PIPELINE_ID}"
-    --web-identity-token $ID_TOKEN
-    --duration-seconds 3600
-    --query 'Credentials.[AccessKeyId,SecretAccessKey,SessionToken]'
-    --output text))
-  - export AWS_ACCESS_KEY_ID="${STS[0]}"
-  - export AWS_SECRET_ACCESS_KEY="${STS[1]}"
-  - export AWS_SESSION_TOKEN="${STS[2]}"
+  - maintenance
 
 include:
-  - template: Security/Secret-Detection.gitlab-ci.yml
+  - component: gitlab.com/components/secret-detection/secret-detection@~latest
+  - component: gitlab.com/gitlab-org/components/danger-review/danger-review@1.4.1
+    inputs:
+      job_stage: build
 
 default:
+  image: alpine:latest
   interruptible: true # All jobs are interruptible by default
   # The following 'retry' configuration settings may help avoid false build failures
   #  during brief problems with CI/CD infrastructure availability
@@ -49,6 +40,26 @@ default:
       - runner_system_failure
       - job_execution_timeout
       - stuck_or_timeout_failure
+  tags:
+    - saas-linux-medium-amd64
+  cache:
+    - key:
+        files:
+          - go.mod
+          - go.sum
+      paths:
+        - $GOPATH/pkg/mod/
+    - key:
+        files:
+          - package.json
+          - package-lock.json
+      paths:
+        - $NPM_CACHE
+    - key:
+        files:
+          - go.sum
+      paths:
+        - $HUGO_CACHEDIR
 
 variables:
   # NOTE: The following PERFORMANCE and RELIABILITY variables are optional, but may
@@ -64,6 +75,11 @@ variables:
   GIT_LFS_SKIP_SMUDGE: 1
   GIT_SUBMODULE_STRATEGY: none
 
+  # Speed up artifact compression and upload
+  # https://gitlab.com/gitlab-org/gitlab-runner/-/merge_requests/2684
+  FF_USE_FASTZIP: 1
+  ARTIFACT_COMPRESSION_LEVEL: fast
+
   ### RELIABILITY ###
   # Reduce potential of flaky builds via https://docs.gitlab.com/ee/ci/yaml/#job-stages-attempts variables
   GET_SOURCES_ATTEMPTS: 3
@@ -71,87 +87,137 @@ variables:
   RESTORE_CACHE_ATTEMPTS: 3
   EXECUTOR_JOB_SECTION_ATTEMPTS: 3
 
-.security-scanning: &security-scanning-rules
-    if: '$CI_MERGE_REQUEST_IID || $CI_COMMIT_TAG'
+  ### BUILD / PAGES DEFAULTS **
+  ENVIRONMENT: 'production'
+  HUGO_BASEURL: 'https://handbook.gitlab.com/'
+  PAGES_PREFIX: ""
 
-.hugo:
-  image: registry.gitlab.com/pages/hugo/hugo_extended:0.120.3
-  stage: deploy
-  needs: []
+  ### TOOLING ###
+  # Specify versions of tools used in pipelines
+  HUGO_VERSION: '0.135.0'
+  HUGO_IMAGE: "registry.gitlab.com/pages/hugo/hugo_extended:$HUGO_VERSION"
+  MARKDOWNLINT_VERSION: '0.14.0'
+  VALE_VERSION: '3.7.1'
+
+  ### CACHE DEPENDENCIES ###
+  GOPATH: $CI_PROJECT_DIR/.GOPATH
+  NPM_CACHE: $CI_PROJECT_DIR/.npm
+  HUGO_CACHEDIR: $CI_PROJECT_DIR/.hugo_cache
+
+.default-branch: &default-branch
+  if: $CI_COMMIT_BRANCH == $CI_DEFAULT_BRANCH && $BUILD_AND_TEST_ONLY != "true"
+
+.merge-request-only: &merge-request-only
+  if: $CI_PIPELINE_SOURCE == 'merge_request_event'
+
+.merge-request-or-tag: &merge-request-or-tag
+  if: '$CI_MERGE_REQUEST_IID || $CI_COMMIT_TAG'
+
+.scheduled-pipeline: &scheduled-pipeline
+  if: '$CI_PIPELINE_SOURCE == "schedule" && $SCHEDULED_DEPLOY == "true"'
+
+.build-and-test-only: &build-and-test-only
+  if: '$BUILD_AND_TEST_ONLY == "true"'
+
+.is-fork: &is-fork
+  if: '$CI_PROJECT_ID != "42817607"'
+
+.quarterly-update: &quarterly
+  if: '$CI_PIPELINE_SOURCE == "schedule" && $RUN_TYPE == "quarterly"'
+
+###################################
+#
+# INTERRUPTION PROTECTION
+#
+###################################
+
+dont-interrupt-me:
+  stage: sync
+  interruptible: false
   script:
-    - apk update
-    - apk upgrade
-    - apk add go npm yq curl coreutils
-    - ./scripts/update-counts.sh
-    - ./scripts/sync-data.sh
-    - npm ci
-    - hugo --enableGitInfo
+    - echo "This jobs makes sure this pipeline won't be interrupted! See https://docs.gitlab.com/ee/ci/yaml/#interruptible."
+  variables:
+    GIT_STRATEGY: none
   rules:
-    - if: $CI_COMMIT_REF_NAME != $CI_DEFAULT_BRANCH
+    - if: $CI_PIPELINE_SOURCE == "pipeline"
+
+###################################
+#
+# BUILD STAGE
+#
+###################################
+
+build:
+  image: $HUGO_IMAGE
+  stage: build
+  script:
+    - echo -e "\e[0Ksection_start:`date +%s`:group1\r\e[0KGroup 1"
+    - apk update
+    - echo -e "\e[0Ksection_end:`date +%s`:group1\r\e[0K"
+    - echo -e "\e[0Ksection_start:`date +%s`:group2\r\e[0KGroup 2"
+    - apk upgrade
+    - echo -e "\e[0Ksection_end:`date +%s`:group2\r\e[0K"
+    - echo -e "\e[0Ksection_start:`date +%s`:group3\r\e[0KGroup 3"
+    - apk add go npm yq curl coreutils sed
+    - echo -e "\e[0Ksection_end:`date +%s`:group3\r\e[0K"
+    - echo -e "\e[0Ksection_start:`date +%s`:group4\r\e[0KGroup 4"
+    - ./scripts/sync-data.sh
+    - echo -e "\e[0Ksection_end:`date +%s`:group4\r\e[0K"
+    - echo -e "\e[0Ksection_start:`date +%s`:group5\r\e[0KGroup 5"
+    - npm ci --cache $NPM_CACHE
+    - echo -e "\e[0Ksection_end:`date +%s`:group5\r\e[0K"
+    - echo -e "\e[0Ksection_start:`date +%s`:group6\r\e[0KGroup 6"
+    - hugo --enableGitInfo
+    - echo -e "\e[0Ksection_end:`date +%s`:group6\r\e[0K"
+    - echo -e "\e[0Ksection_start:`date +%s`:group7\r\e[0KGroup 7"
+    - find "public" -type f -name '*.html' -exec sed -i -e "s/content-sites\/handbook\/${PAGES_PREFIX}\/content-sites\/handbook\/${PAGES_PREFIX}/content-sites\/handbook\/${PAGES_PREFIX}/g" {} +
+    - echo -e "\e[0Ksection_end:`date +%s`:group7\r\e[0K"
   artifacts:
     paths:
       - public
+  rules:
+  - <<: *default-branch
+  - <<: *build-and-test-only
+  - <<: *merge-request-only
+    variables:
+      PAGES_PREFIX: 'mr$CI_MERGE_REQUEST_IID'
+      HUGO_BASEURL: "${CI_PAGES_URL}/${PAGES_PREFIX}"
 
 ###################################
 #
 # DEPLOY STAGE
 #
 ###################################
-
-pages-review:
-  extends: [.hugo]
-  rules:
-    - if: $CI_MERGE_REQUEST_IID
+pages:
+  stage: deploy
+  dependencies: [build]
   environment:
-    name: review/$CI_COMMIT_REF_SLUG
-    # There is no predefined CI variable that is formatted quite right
-    # neither $CI_PAGES_URL nor $CI_JOB_URL have /-/ directly after the hostname
-    url: https://gitlab-com.gitlab.io/-/content-sites/handbook/-/jobs/$CI_JOB_ID/artifacts/public/index.html
-    on_stop: stop-pages-review
-  variables:
-    HUGO_ENVIRONMENT: review
-    RUN_TYPE: MR
-
-stop-pages-review:
-  image: busybox
-  stage: cleanup
-  script:
-    - echo "stop review app"
-  environment:
-    name: review/$CI_COMMIT_REF_SLUG
-    action: stop
-  rules:
-    - if: $CI_MERGE_REQUEST_IID
-      when: manual
-      allow_failure: true
+    name: $ENVIRONMENT
+    url: $HUGO_BASEURL
   variables:
     GIT_STRATEGY: none
-
-pages:
-  extends: [.hugo]
+  pages:
+    path_prefix: "$PAGES_PREFIX"
+  artifacts:
+    paths:
+      - public
+  script:
+    - echo "Pages accessible through ${CI_PAGES_URL}/${PAGES_PREFIX}"
   rules:
-    # Only run the deploy on the default branch. If you want to deploy from Merge Request branches,
-    # you can use Review Apps: https://docs.gitlab.com/ee/ci/review_apps
-    - if: $CI_COMMIT_BRANCH == $CI_DEFAULT_BRANCH
-    - if: '$CI_PIPELINE_SOURCE == "schedule" && $SCHEDULED_DEPLOY == "true"'
-
-deploy s3:
-    stage: deploy
-    needs:
-      - pages
-    image:
-      name: amazon/aws-cli:latest
-      entrypoint:
-        - '/usr/bin/env'
-    id_tokens:
-        ID_TOKEN:
-          aud: handbook_s3
-    script:
-      - *assume_role
-      - aws s3 sync public/ s3://$S3_BUCKET
-    rules:
-      - if: '$CI_COMMIT_REF_NAME == "main"'
-        when: on_success
+    - <<: *default-branch
+    - <<: *scheduled-pipeline
+    - if: '$CI_MERGE_REQUEST_LABELS =~ /deploy-review-app-always/'
+      variables:
+        PAGES_PREFIX: 'mr$CI_MERGE_REQUEST_IID'
+        ENVIRONMENT: 'review/mr$CI_MERGE_REQUEST_IID'
+        HUGO_BASEURL: "${CI_PAGES_URL}/${PAGES_PREFIX}"
+    - <<: *merge-request-only
+      variables:
+        PAGES_PREFIX: 'mr$CI_MERGE_REQUEST_IID'
+        ENVIRONMENT: 'review/mr$CI_MERGE_REQUEST_IID'
+        HUGO_BASEURL: "${CI_PAGES_URL}/${PAGES_PREFIX}"
+      when: manual
+      allow_failure: true
 
 ####################################
 ##
@@ -161,17 +227,23 @@ deploy s3:
 
 markdownlint:
   image:
-    name: davidanson/markdownlint-cli2:v0.11.0
-    entrypoint: ["/bin/sh", "-c"]
-  stage: test
+    name: davidanson/markdownlint-cli2:v${MARKDOWNLINT_VERSION}
+    entrypoint: [""]
+    docker:
+      user: root
+  stage: build
   needs: []
+  variables:
+    FORCE_COLOR: 1
   before_script:
-    - npm install markdownlint-cli2-formatter-codequality markdownlint-cli2-formatter-pretty
+    - npm install chalk terminal-link
   script:
-    - ./scripts/lint-custom.sh
-    - markdownlint-cli2 "content/**/*.md"
+    - apk add git
+    - sh ./scripts/markdownlint.sh
   rules:
-    - <<: *security-scanning-rules
+    - <<: *merge-request-or-tag
+    - <<: *build-and-test-only
+    - <<: *is-fork
   artifacts:
     when: always
     expire_in: 1 month
@@ -180,6 +252,87 @@ markdownlint:
     reports:
       codequality: markdownlint-cli2-codequality.json
 
+vale:
+  image:
+    name: jdkato/vale:v${VALE_VERSION}
+    entrypoint: [""]
+    docker:
+      user: root
+  stage: build
+  needs: []
+  script:
+    - apk add git
+    - sh ./scripts/vale.sh
+  rules:
+    - <<: *merge-request-or-tag
+    - <<: *build-and-test-only
+    - <<: *is-fork
+  artifacts:
+    when: always
+    expire_in: 1 month
+    paths:
+      - vale-codequality.json
+    reports:
+      codequality: vale-codequality.json
+
+handbooklint:
+  image:
+    name: gitlab/glab
+    entrypoint: [""]
+  stage: build
+  needs: []
+  before_script:
+    - apk update
+    - apk upgrade
+    - apk add jq sed bash
+  script:
+    - bash ./scripts/handbook-lint.sh
+  rules:
+    - <<: *merge-request-or-tag
+    - <<: *build-and-test-only
+    - <<: *is-fork
+  artifacts:
+    when: always
+    expire_in: 1 month
+    paths:
+      - handbook-codequality.json
+    reports:
+      codequality: handbook-codequality.json
+
+hugolint:
+  stage: build
+  needs: []
+  rules:
+    - <<: *build-and-test-only
+    - <<: *is-fork
+    - <<: *default-branch
+      allow_failure: true
+    - <<: *merge-request-or-tag
+      allow_failure: true
+  image:
+    name: registry.gitlab.com/gitlab-com/content-sites/handbook-tools/hugolint:latest
+  script:
+    - hugolint linkcheck --format=json $(find content -type f -name '*.md' | grep -v ' ') >linkcheck.json
+    - hugolint missinglinks --num 30 $(find content -name '*.md' | grep -v ' ') >missinglinks.txt 2>/dev/null
+    - head -n 20 missinglinks.txt
+  artifacts:
+    when: always
+    expire_in: 1 month
+    paths:
+      - linkcheck.json
+      - missinglinks.txt
+    reports:
+      codequality: linkcheck.json
+
+secret_detection:
+  stage: build
+  needs: []
+  dependencies: [] # Don't download artifacts, especially `./public/`
+  rules:
+    - <<: *build-and-test-only
+    - <<: *merge-request-or-tag
+    - <<: *is-fork
+
 ####################################
 ##
 ## NOTIFY STAGE
@@ -187,22 +340,37 @@ markdownlint:
 ####################################
 
 post_comment_on_failure:
-  needs: ["markdownlint"]
+  needs: ["markdownlint", "handbooklint", "vale"]
   when: on_failure
   stage: notify
   image:
     name: gitlab/glab
-    entrypoint: ["/bin/sh", "-c"]
+    entrypoint: [""]
+  before_script:
+    - apk add yq jq sed bash
   script:
-    - apk add yq
-    - glab auth login -t $MR_UPDATE_TOKEN
-    - glab mr note $CI_MERGE_REQUEST_IID -m "$(./scripts/parse-codequality-report.sh -r ./markdownlint-cli2-codequality.json)"
+    - bash ./scripts/parse-codequality-report.sh -r ./codequality.json > msg.txt
+    - bash ./scripts/post-comment.sh "$(cat msg.txt)"
   rules:
-  - <<: *security-scanning-rules
+  - <<: *merge-request-or-tag
 
-secret_detection:
-  needs: []
-  dependencies: [] # Don't download artifacts, especially `./public/`
+notify_slack_on_build_failures:
+  when: on_failure
+  stage: notify
+  script: ./scripts/send-failure-notification-to-slack.sh
   rules:
-    - <<: *security-scanning-rules
+  - <<: *is-fork
+    when: never
+  - <<: *default-branch
 
+####################################
+##
+## MAINTENANCE STAGE
+##
+####################################
+
+quarterly_counts:
+  stage: maintenance
+  script: ./scripts/update-counts.sh
+  rules:
+  - <<: *quarterly

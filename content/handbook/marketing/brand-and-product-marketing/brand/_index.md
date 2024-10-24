@@ -1,5 +1,4 @@
 ---
-
 title: "Brand"
 description: "GitLab Brand Handbook"
 twitter_image: '/images/tweets/handbook-marketing.png'
@@ -7,15 +6,7 @@ twitter_image: '/images/tweets/handbook-marketing.png'
 
 <link rel="stylesheet" type="text/css" href="/stylesheets/biztech.css" />
 
-
-
-
-
-
-
-# <i class="fas fa-bullhorn fa-fw color-orange font-awesome"></i> Welcome to the GitLab Brand Handbook
-
-{: .no_toc}
+## <i class="fas fa-bullhorn fa-fw color-orange font-awesome"></i> Welcome to the GitLab Brand Handbook
 
 The GitLab Brand team is made up of two teams that partner closely to bring our brand to life: the Brand Strategy team and the Brand Creative team.
 The Brand Strategy team is a group of brand strategists and marketers responsible for creating awareness, trust, and affinity for the GitLab brand.

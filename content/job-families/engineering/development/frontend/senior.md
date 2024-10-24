@@ -12,7 +12,7 @@ Frontend Engineers at GitLab work on our product. This includes both the open-so
 - Consistently ship small features and improvements with minimal guidance and support from other team members. Collaborate with the team on larger projects.
 - Help improve the overall experience of our product through improving the quality of the Frontend features both in your [group](/handbook/product/categories/#hierarchy) and features that benefit other groups.
 - Help identify areas of improvements in the code base, both specific to your [group](/handbook/product/categories/#hierarchy) and outside your group (e.g. component library) and help contribute to make it better
-- Learn, collaborate, and teach other Frontend Engineers. Everyone can contribute something new to the team regardless of how long they’ve been in the industry.
+- Learn, collaborate, and teach other Frontend Engineers. Everyone can contribute something new to the team regardless of how long they've been in the industry.
 - Fix prioritized issues from the issue tracker. These are typically bugs listed in a GitLab issue with an attached severity and priority label.
 - Contribute to and follow our workflow process, alongside the rest of the Frontend Engineers and the GitLab community.
 - Advocate for improvements to product quality, security, and performance that have particular impact across your team.
@@ -23,7 +23,7 @@ Frontend Engineers at GitLab work on our product. This includes both the open-so
 - Represent GitLab and its values in public communication around broader initiatives, specific projects, and community contributions.
 - Provide mentorship for Junior and Intermediate Engineers in your section to help them grow in their technical responsibilities and remove blockers.
 - Consistently ship moderately sized features and improvements with minimal guidance and support from other team members. Collaborate with the team on larger projects.
-- Improves the [engineering projects](https://about.gitlab.com/handbook/engineering/projects/) at GitLab as a [project maintainer](https://about.gitlab.com/handbook/engineering/workflow/code-review/#maintainer). For more information regarding timelines and exceptions, [see this page](https://about.gitlab.com/handbook/engineering/workflow/code-review/#senior-maintainers).
+- Improves the [engineering projects](/handbook/engineering/projects/) at GitLab as a [project maintainer](/handbook/engineering/workflow/code-review/#maintainer). For more information regarding timelines and exceptions, [see this page](/handbook/engineering/workflow/code-review/#senior-maintainers).
 
 ## Requirements
 
@@ -35,21 +35,16 @@ Frontend Engineers at GitLab work on our product. This includes both the open-so
 - Proficiency in the English language, both written and verbal, sufficient for success in a remote and largely asynchronous work environment
 - Demonstrated capacity to clearly and concisely communicate about complex technical, architectural, and/or organizational problems and propose thorough iterative solutions
 - Experience with performance and optimization problems and a demonstrated ability to both diagnose and prevent these problems
-- Comfort working in a highly agile, [intensely iterative][iteration] software development process
+- Comfort working in a highly agile, [intensely iterative](/handbook/values/#iteration) software development process
 - Demonstrated ability to onboard and integrate with an organization long-term
 - Positive and solution-oriented mindset
-- Effective communication skills: [Regularly achieve consensus with peers][collaboration], and clear status updates
+- Effective communication skills: [Regularly achieve consensus with peers](/handbook/values/#collaboration), and clear status updates
 - An inclination towards communication, inclusion, and visibility
-- [Self-motivated and self-managing][efficiency], with great organizational skills.
+- [Self-motivated and self-managing](/handbook/values/#efficiency), with great organizational skills.
 - Demonstrated ability to work closely with other parts of the organization
-- Share [our values][values], and work in accordance with those values
+- Share [our values](/handbook/values/), and work in accordance with those values
 - Ability to thrive in a fully remote organization
 - Ability to use GitLab
-
-[iteration]: https://about.gitlab.com/handbook/values/#iteration
-[collaboration]: https://about.gitlab.com/handbook/values/#collaboration
-[efficiency]: https://about.gitlab.com/handbook/values/#efficiency
-[values]: https://about.gitlab.com/handbook/values
 
 ## Nice-to-haves
 
@@ -77,9 +72,9 @@ The Senior Frontend Engineer is a [grade 7](/handbook/total-rewards/compensation
 
 ## Performance Indicators
 
-- [Frontend Unit Test Coverage](https://about.gitlab.com/handbook/engineering/development/performance-indicators/#frontend-unit-test-coverage)
-- [Open MR Review Time (OMRT)](https://about.gitlab.com/handbook/engineering/development/performance-indicators/#open-mr-review-time-omrt)
-- [Open MR Age (OMA)](https://about.gitlab.com/handbook/engineering/development/performance-indicators/#open-mr-age-oma)
+- [Frontend Unit Test Coverage](/handbook/engineering/development/performance-indicators/#frontend-unit-test-coverage)
+- [Open MR Review Time (OMRT)](/handbook/engineering/development/performance-indicators/#open-mr-review-time-omrt)
+- [Open MR Age (OMA)](/handbook/engineering/development/performance-indicators/#open-mr-age-oma)
 
 ## Hiring Process
 

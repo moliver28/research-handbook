@@ -37,7 +37,7 @@ Currently there are multiple approaches to rate limiting documented in [GitLab a
 This Working Group has the following goals:
 
 1. Develop a recommendation for the preferred way to implement application rate limits within GitLab
-1. Document this recommendation for GitLab developers in an [Architecture Evolution Blueprint](https://about.gitlab.com/handbook/engineering/architecture/workflow/).
+1. Document this recommendation for GitLab developers in an [Architecture Evolution Blueprint](/handbook/engineering/architecture/workflow/).
 1. Document iterative project plan for short term, medium term, and long term rate limiting improvements
 1. Determine organizational approach to funding effort on this work (e.g. new team, borrow, SIG, fan out, etc.)
 

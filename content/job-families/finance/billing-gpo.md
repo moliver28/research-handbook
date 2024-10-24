@@ -4,7 +4,7 @@ title: Billing Operations GPO Global Process Owner
 
 ## Billing Operations Global Process Owner (GPO)
 
-The Billing Operations Global Process Owner (GPO) Team at Gitlab forms part of the Revenue Organization. This problem solving, process oriented and outcome based team play a crucial role in system implementation, automation and enhancement, defining new processes and/or refining existing processes within the Billing and Accounts Receivable space. The GPO team provides technical guidance and consultation to the larger Revenue Accounting Team, liaising with internal audit for Billing Operations SOX compliance and participating in cross functional projects.
+The Billing Operations Global Process Owner (GPO) Team at GitLab forms part of the Revenue Organization. This problem solving, process oriented and outcome based team play a crucial role in system implementation, automation and enhancement, defining new processes and/or refining existing processes within the Billing and Accounts Receivable space. The GPO team provides technical guidance and consultation to the larger Revenue Accounting Team, liaising with internal audit for Billing Operations SOX compliance and participating in cross functional projects.
 
 ## Billing Operations GPO Levels
 
@@ -28,7 +28,7 @@ The Billing Operations Analyst, GPO is a [grade 6](/handbook/total-rewards/compe
 #### Billing Operations Analyst, GPO Requirements
 
 - Bachelor degree or equivalent experience (Accounting, Business, Finance or equivalent degree preferred)
-- 1-2 years of relevant experience with with a public company
+- 1-2 years of relevant experience with a public company
 - Experience working with Zuora Billing
 - Proficient with excel and google sheets
 - Ability to work effectively as part of a team and cross functionally to support a variety of complex projects
@@ -48,7 +48,7 @@ The Senior Billing Operations Analyst, GPO is a [grade 7](/handbook/total-reward
 
 #### Billing Operations Analyst, GPO Responsibilities
 
-- Extends that of the Subscription Operations Analyst, GPO responsibilities
+- Extends that of the Billing Operations Analyst, GPO responsibilities
 - Take a leading role in improvement and review of month-end close activities
 - Take a leading role in performing and resolving system data collection
 - Open & escalate support tickets with Zuora and in GitLab as issues are identified
@@ -72,7 +72,7 @@ The Senior Billing Operations Analyst, GPO is a [grade 7](/handbook/total-reward
 - Successful completion of a background check
 - Ability to use GitLab
 
-### Lead Subscription Operations Analyst, GPO
+### Lead Billing Operations Analyst, GPO
 
 The Lead Billing Operations Analyst, GPO will report to the Manager, Billing Operations GPO or above.
 
@@ -117,7 +117,7 @@ The Manager, Billing Operations GPO is a [grade 8](/handbook/total-rewards/compe
 - Develop a remediation plan when potential issues are identified within the current process
 - Communicate impact to the leadership team and stakeholders
 - Collaborate with cross-functional teams on system implementations and enhancements, including prioritization of roadmap items
-- Support management of Zuora Billing including approving role creation, accounting policies, rules, change in set-up to facilitate new/additional requirements from the Subscription Operations Team
+- Support management of Zuora Billing including approving role creation, accounting policies, rules, change in set-up to facilitate new/additional requirements from the Billing Operations Team
 - Review existing processes and policies and communicate with stakeholders for changes in Zuora Billing in alignment with Zuora Revenue requirements
 - Perform periodical review of SOX compliance, collaborate with internal audit team for any change in process and controls
 - Support external and internal audit requirements related to revenue reporting

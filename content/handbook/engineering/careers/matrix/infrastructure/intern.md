@@ -3,7 +3,7 @@ title: "Intern - Infrastructure Department Career Framework"
 description: "The expected team member competencies in the Infrastructure department at GitLab for the Intern job level."
 ---
 
-{{% include "includes/engineering/career-matrix-nav.md" %}}
+{{% include "includes/engineering-careers/career-matrix-nav.md" %}}
 
 ## Intern
 
@@ -30,17 +30,17 @@ Interns in Infrastructure are primarily focused on completing tasks and growing 
 1. Actively participates in team and ad-hoc merge requests to share workload and to grow skills.
 1. Contributes to the team culture by actively participating in team-led initiatives, such as: retros, team syncs and demos, discussions and similar.
 1. Supports colleagues who are currently on-call by assisting with investigations or making simple improvements to on-call tooling.
- 
+
 ## Engineering alignment
 
 ### Intern Leadership Competencies
 
-{{% include "includes/engineering/intern-leadership-competency.md" %}}
+{{% include "includes/engineering-careers/intern-leadership-competency.md" %}}
   
 ### Intern Technical Competencies
 
-{{% include "includes/engineering/intern-technical-competency.md" %}}
+{{% include "includes/engineering-careers/intern-technical-competency.md" %}}
 
 ### Intern Values Alignment
 
-{{% include "includes/engineering/values-competency.md" %}}
+{{% include "includes/engineering-careers/values-competency.md" %}}

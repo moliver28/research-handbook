@@ -8,12 +8,12 @@ canonical_path: "/company/strategy/"
 
 **[Current strategy is in the internal handbook](https://internal.gitlab.com/handbook/company/three-year-strategy/).** The rest of this page desribes the strategy process.
 
-## Three Year Strategy
+## Three Year Outlook
 
 Our strategy is looking 3 years out and [fits into our cadences](/handbook/company/cadence/#strategy). It also maps to and reflects GitLab's [mission](/handbook/company/mission/), [vision](/handbook/company/vision/) and [values](/handbook/values/). It is a living strategy, so we will revisit on a regular basis and [iterate](/handbook/values/#iteration) when there is reason to do so.
 
 Along the road to realizing our mission of **everyone can contribute**, our
-strategic goal is to be the leading complete [DevSecOps Platform](/solutions/devops-platform/). We help our customers build better software faster including developing cloud native applications, building mobile applications, and incorporating machine learning and artificial intelligence into their products and solutions. We believe that our [dual flywheels](#dual-flywheels) (single application + open-core model) will propel us to efficiently be the default choice in the Enterprise market.
+strategic goal is to be the leading complete [DevSecOps Platform](https://about.gitlab.com/solutions/devops-platform/). We help our customers build better software faster including developing cloud native applications, building mobile applications, and incorporating machine learning and artificial intelligence into their products and solutions. We believe that our [dual flywheels](#dual-flywheels) (single application + open-core model) will propel us to efficiently be the default choice in the Enterprise market.
 
 As we execute on our strategy, it is important to use our financial targets as guide rails and mature our internal processes for building a durable business for the long-term.
 
@@ -24,14 +24,14 @@ As we execute on our strategy, it is important to use our financial targets as g
 1. Reach: go for a broad reach, no focus on business verticals or certain programming languages.
 1. Seed then nurture: [plant seeds and nurture the product to build out depth](#seed-then-nurture).
 1. Speed: ship every change in the next release to maximize responsiveness and learning.
-1. Life balance: we want people to stay with us for a long time, so it is important to [take time off](/handbook/paid-time-off/) and work on life balance; being [all-remote](/handbook/company/culture/#all-remote-work) is a large part of the solution.
-1. Open Source Stewardship: be a good [steward of GitLab](/handbook/company/stewardship/) and [collaborate with the wider community](/community/contribute/) to [improve the product together](https://about.gitlab.com/handbook/engineering/development/performance-indicators/#mr-rate).
+1. Life balance: we want people to stay with us for a long time, so it is important to [take time off](/handbook/people-group/paid-time-off/) and work on life balance; being [all-remote](/handbook/company/culture/#all-remote-work) is a large part of the solution.
+1. Open Source Stewardship: be a good [steward of GitLab](/handbook/company/stewardship/) and [collaborate with the wider community](https://about.gitlab.com/community/contribute/) to [improve the product together](/handbook/engineering/development/performance-indicators/#mr-rate).
 
 ### Seed then nurture
 
-Our GitLab product [vision](https://about.gitlab.com/direction/#vision) is to deliver a single application for the entire DevOps lifecycle.  This is a very expansive product vision that requires us to build an enormous amount of product surface area.  Because we want to be efficient with capital, we want to build GitLab as a community. When we are early in a particular area of the product, we will plant seeds by shipping a small [MVC](/handbook/values/#minimal-viable-change-mvc). Shipping functionality that is incomplete to expand the scope sometimes goes against our instincts. However, planting those seeds even in an incomplete state allows others to see our path and contribute. With others contributing, we'll iterate faster and will accelerate the [maturity](https://about.gitlab.com/direction/maturity/) of our offering faster than GitLab could on its own.  We can have a **long tail** of categories that are at a minimal [maturity](https://about.gitlab.com/direction/maturity/) that don't get investment until they show traction. While these come with a [low level of shame](/handbook/values/#low-level-of-shame) they allow the wider community to contribute and people to express interest. It is much more common for people to contribute to categories that already exist and express interest in categories already shipping in the product. A minimal category is the placeholder to channel energy, and it is our responsibility to till the earth with minimal iterations.
+Our GitLab product [vision](https://about.gitlab.com/direction/#vision) is to deliver a single application for the entire DevOps lifecycle.  This is a very expansive product vision that requires us to build an enormous amount of product surface area.  Because we want to be efficient with capital, we want to build GitLab as a community. When we are early in a particular area of the product, we will plant seeds by shipping a small [MVC](/handbook/values/#minimal-valuable-change-mvc). Shipping functionality that is incomplete to expand the scope sometimes goes against our instincts. However, planting those seeds even in an incomplete state allows others to see our path and contribute. With others contributing, we'll iterate faster and will accelerate the [maturity](https://about.gitlab.com/direction/#maturity) of our offering faster than GitLab could on its own.  We can have a **long tail** of categories that are at a minimal [maturity](https://about.gitlab.com/direction/#maturity) that don't get investment until they show traction. While these come with a [low level of shame](/handbook/values/#low-level-of-shame) they allow the wider community to contribute and people to express interest. It is much more common for people to contribute to categories that already exist and express interest in categories already shipping in the product. A minimal category is the placeholder to channel energy, and it is our responsibility to till the earth with minimal iterations.
 
-GitLab the product should eventually have depth in every category it offers.  To build out real depth requires a shift in focus, from planting seeds to nurturing the product area to maturity. We should concentrate our nurture investments in the categories that have demonstrated [monthly active usage](/handbook/product/performance-indicators/#structure), revenue contribution, and demonstrated customer demand.  As a product team, we'll be particularly focused on driving monthly active usage at the stage and group level.  This should lead to more Stages per Organization, which is important as each stage added [triples paid conversion](https://about.gitlab.com/direction/#product-strategy)!  We'll also be heavily focused on driving usability, by measuring our [system usability score](/handbook/product/ux/ux-resources/#system-usability-score), which is a measure of the user perception of GitLab's usability.
+GitLab the product should eventually have depth in every category it offers.  To build out real depth requires a shift in focus, from planting seeds to nurturing the product area to maturity. We should concentrate our nurture investments in the categories that have demonstrated [monthly active usage](https://internal.gitlab.com/handbook/company/performance-indicators/product/#structure), revenue contribution, and demonstrated customer demand.  As a product team, we'll be particularly focused on driving monthly active usage at the stage and group level.  This should lead to more Stages per Organization, which is important as each stage added [triples paid conversion](https://about.gitlab.com/direction/#product-strategy)!  We'll also be heavily focused on driving usability, by measuring our [system usability score](/handbook/product/ux/ux-resources/#system-usability-score), which is a measure of the user perception of GitLab's usability.
 
 If we effectively seed and then nurture, we can fully activate GitLab's [two growth turbos](/handbook/company/strategy/#flywheel-with-two-turbos), by creating wider community contributions and driving more stages per user.
 
@@ -46,7 +46,6 @@ If we effectively seed and then nurture, we can fully activate GitLab's [two gro
 ## Pricing
 
 Please see our [pricing model](/handbook/company/pricing/) for details
-
 
 ## Dual flywheels
 
@@ -72,22 +71,21 @@ graph BT;
 
 | Part of flywheel | Key Performance Indicator (KPI) | Department |
 |-----------------|---------------------------------|------------|
-| More Users | [Stage Monthly Active Users](/handbook/product/performance-indicators/) | Product |
-| More Contributions | [Unique Wider Community Contributors per month](https://about.gitlab.com/handbook/engineering/quality/performance-indicators/#unique-wider-community-contributors-per-month) | Developer Relations and Engineering |
-| More Contributions | [MRARR](https://about.gitlab.com/handbook/engineering/quality/performance-indicators/#mrarr) | Developer Relations and Engineering |
+| More Users | [Stage Monthly Active Users](https://internal.gitlab.com/handbook/company/performance-indicators/product/) | Product |
+| More Contributions | [Unique Wider Community Contributors per month](/handbook/engineering/infrastructure/performance-indicators/#unique-wider-community-contributors-per-month) | Developer Relations and Engineering |
+| More Contributions | [MRARR](/handbook/engineering/infrastructure/performance-indicators/#mrarr) | Developer Relations and Engineering |
 | More Contributions | [Wider community contributions per release](/handbook/marketing/developer-relations/performance-indicators/#wider-community-merged-mrs-per-release) | Developer Relations and Engineering |
-| More Features | [Merge Requests per release per engineer in product development](https://about.gitlab.com/handbook/engineering/development/performance-indicators/#average-mrs-development-engineers-month) | Engineering and Product Management |
+| More Features | [Merge Requests per release per engineer in product development](/handbook/engineering/development/performance-indicators/#average-mrs-development-engineers-month) | Engineering and Product Management |
 | More Revenue | [IACV](/handbook/sales/#incremental-annual-contract-value-iacv) vs. plan | Sales and Marketing |
-
 
 ### Flywheel with two turbos
 
-GitLab is a [complete DevOps platform](/solutions/devops-platform/), delivered as a [single application](/handbook/product/single-application/), with [contributions from the wider community](/community/contribute/).
+GitLab is a [complete DevOps platform](https://about.gitlab.com/solutions/devops-platform/), delivered as a [single application](/handbook/product/categories/gitlab-the-product/single-application/), with [contributions from the wider community](https://about.gitlab.com/community/contribute/).
 
 Compared to other DevOps platforms, GitLab leverages one or two unique turbos that boost the company:
 
-1. [Advantages of a single application](/handbook/product/single-application/), leading to more [Stages per Organization](/handbook/product/performance-indicators/#stages-per-organization-spo)
-1. [Open Source stewardship](/handbook/company/stewardship/), leading to [Wider community contributions](/community/contribute/)
+1. [Advantages of a single application](/handbook/product/categories/gitlab-the-product/single-application/), leading to more [Stages per Organization](https://internal.gitlab.com/handbook/company/performance-indicators/product/#stages-per-organization-spo)
+1. [Open Source stewardship](/handbook/company/stewardship/), leading to [Wider community contributions](https://about.gitlab.com/community/contribute/)
 
 The advantage of a single application manifests itself if people start using more stages of the application.
 In the graph below this is visualized with [Stages per Organization (SpO), knowing that an organization using an extra stage triples conversion](https://about.gitlab.com/direction/#product-strategy).
@@ -119,17 +117,17 @@ graph TB
 Legend with links to the relevant metrics:
 
 1. [Wider community contributions Turbo](/handbook/marketing/developer-relations/performance-indicators/#wider-community-merged-mrs-per-release)
-1. [R&D Overall MR Rate](https://about.gitlab.com/handbook/engineering/performance-indicators/#rd-overall-mr-rate)
-1. [Stage maturity](https://about.gitlab.com/direction/maturity/) increase
-1. [MAU](/handbook/product/performance-indicators/) increase
-1. [SpO](/handbook/product/performance-indicators/#stages-per-organization-spo) increase Turbo which is only possible in a [single application with multiple stages](/handbook/product/single-application/)
-1. More [Licensed users](/handbook/sales/#licensed-users) is due to an increase in unlicensed users (MAU) and the increase in [SpO](/handbook/product/performance-indicators/#stages-per-organization-spo) leading to a higher conversion from free to paid and a higher gross retention.
-1. Higher [Revenue per licensed user](/handbook/sales/#revenue-per-licensed-user-also-known-as-arpu) due to the [Advantages of a single application](/handbook/product/single-application/)
+1. [R&D Overall MR Rate](/handbook/engineering/performance-indicators/#rd-overall-mr-rate)
+1. [Stage maturity](https://about.gitlab.com/direction/#maturity) increase
+1. [MAU](https://internal.gitlab.com/handbook/company/performance-indicators/product/) increase
+1. [SpO](https://internal.gitlab.com/handbook/company/performance-indicators/product/#stages-per-organization-spo) increase Turbo which is only possible in a [single application with multiple stages](/handbook/product/categories/gitlab-the-product/single-application/)
+1. More [Licensed users](/handbook/sales/#licensed-users) is due to an increase in unlicensed users (MAU) and the increase in [SpO](https://internal.gitlab.com/handbook/company/performance-indicators/product/#stages-per-organization-spo) leading to a higher conversion from free to paid and a higher gross retention.
+1. Higher [Revenue per licensed user](/handbook/sales/#revenue-per-licensed-user-also-known-as-arpu) due to the [Advantages of a single application](/handbook/product/categories/gitlab-the-product/single-application/)
 1. [Net ARR](https://docs.google.com/document/d/1UaKPTQePAU1RxtGSVb-BujdKiPVoepevrRh8q5bvbBg/edit#bookmark=id.a35sth38hahw) stands for Annual Recurring Revenue is our [most important KPI](/handbook/company/kpis/#gitlab-kpis)
 1. [ARR](/handbook/sales/#annual-recurring-revenue-arr) stands for Annual Recurring Revenue and IACV increases it.
 1. R&D spend ratio becomes higher if the growth rate is higher due to the [Hypergrowth Rule](/handbook/finance/financial-planning-and-analysis/hypergrowth-rule/)
 1. R&D investment is the amount of money spend on Product Management and Engineering excluding Support
-1. [Development Department Narrow MR Rate](https://about.gitlab.com/handbook/engineering/development/performance-indicators/#development-department-narrow-mr-rate)
+1. [Development Department Narrow MR Rate](/handbook/engineering/development/performance-indicators/#development-department-narrow-mr-rate)
 
 ## Publicly viewable OKRs and KPIs
 
@@ -149,7 +147,7 @@ Our yearly plans are linked from the [relevant cadence section](/handbook/compan
    1. Market Vision is our shared view of the market over the next ~3 years. Where is the market headed? What factors are influencing the market direction? Where are the points of change, as these will be the points of control?
    1. SWOT stands for Strengths, Weaknesses, Opportunities and Threats.
    1. Positioning strategy will highlight the way we want to position the company over the next three years. This will drive key decisions and tradeoffs we need to make in the strategy.
-1. The second phase of the strategy process is taking the SWOT, positioning strategy and define the GTM, Product and Operations strategy. The output of these three strategies will be the strategic priorities for each, capabilities needed that we have and that we need to develop and the things we will explicitly not do.  In addition we will define 3-5 big bets the company will take - this will fold in under the strategic themes. Once we have these 3 to 5 themes we will synthesize them into a corporate strategy that ensures alignment among GTM, Product and Operations strategy.
+1. The second phase of the strategy process is taking the SWOT, positioning strategy and define the go-to-market (GTM), Product and Operations strategy. The output of these three strategies will be the strategic priorities for each, capabilities needed that we have and that we need to develop and the things we will explicitly not do.  In addition we will define 3-5 big bets the company will take - this will fold in under the strategic themes. Once we have these 3 to 5 themes we will synthesize them into a corporate strategy that ensures alignment among GTM, Product and Operations strategy.
 1. Third phase will be the [Long Range Plan](/handbook/finance/financial-planning-and-analysis/#long-range-outlook-lro) process.
 1. Fourth phase will be defining yearlies and the [annual operating plan](/handbook/finance/financial-planning-and-analysis/#plan).
 
@@ -157,23 +155,28 @@ Our yearly plans are linked from the [relevant cadence section](/handbook/compan
 
 Activity
 
-Positioning and SWOT published in [internal handbook](https://internal-handbook.gitlab.io/handbook/company/swot-and-positioning/) with description of strategy process two weeks post offsite
-- May 15th eGroup review (Complete)
+Positioning and SWOT published in [internal handbook](https://internal.gitlab.com/handbook/company/swot-and-positioning/) with description of strategy process two weeks post offsite
 
-eGroup capability gap exercise at eGroup offsite (prework)
+- May 15th e-group review (Complete)
+
+E-group capability gap exercise at e-group offsite (prework)
+
 - Stella
 - Complete: Jun 28th
 
 Complete capability gap exercise at VP level to bring more input into the group
+
 - Directs Group
 - Drafts: July 12th
 - Final: July 19th
 
-Pull together comprehensive view of capabilities from eGroup and VP sessions
+Pull together comprehensive view of capabilities from e-group and VP sessions
 Craig/Dave
+
 - July 24th
 
-eGroup June Virtual Offsite Sessions:
+E-group June Virtual Offsite Sessions:
+
 - Decide on GTM, Ops and Product strategies
 - Decide on top capabilities for investment (feed into LRO)
 - Craig/Dave

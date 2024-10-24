@@ -1,0 +1,21 @@
+{{- $open := .open -}}
+{{- range .data.charts -}}
+<details {{ if eq $open true }}open="open"{{ end }}>	
+    <summary>Chart</summary>
+    <div style="min-height: {{ .height | default "300px" }};">
+			<tableau-viz src={{ .url | safeHTMLAttr }}
+				id="tableau-viz"
+				toolbar="{{ .toolbar | default "hidden" }}"
+				{{ if .hide_tabs | default true }} hide-tabs {{ end }}
+				>
+				{{- range .filters}}
+				<viz-filter field="{{ .field }}" value="{{ .value }}"></viz-filter> 
+				{{ end }}
+				{{- range .parameters}}
+				<viz-parameter  name="{{ .name }}"   value="{{ .value }}"></viz-parameter> 
+				{{ end }}
+			</tableau-viz>
+		</div>
+</details>
+
+{{ end }}

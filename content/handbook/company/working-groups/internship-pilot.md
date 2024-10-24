@@ -18,6 +18,7 @@ description: The business goal is to run a pilot internship program to determine
 Run a pilot internship program to determine feasibility for future programs.
 
 Overview:
+
 1. Intention of hiring available candidates that perform well at the end of the internship
 1. Limit duration (see exit criteria)
 1. Open to anyone starting their career in tech (not just students)
@@ -58,7 +59,7 @@ Phase 1 focuses on designing and launching the internship program with the prima
         1. Connect with Universities, Meetup groups and Programming bootcamps
         1. LinkedIn, Instagram, FB ads
         1. Sourcing
-        1. Gitlabbers to contact their universities/Meetup groups/programming clubs
+        1. GitLabbers to contact their universities/Meetup groups/programming clubs
     1. Define communication milestones ✅
         1. 2019-11-05: Internal announcement of the program + handbook update
         1. 2019-11-15: Opening of jobs (Glassdoor, LinkedIn, Stack Overflow etc.)

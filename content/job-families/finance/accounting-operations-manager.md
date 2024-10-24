@@ -35,14 +35,14 @@ The Manager, Accounting Operations is a [grade 8](/handbook/total-rewards/compen
 - Detail-oriented and able to effectively complete tasks with minimal supervision.
 - Proficiency with GitLab.
 - You share our [values](/handbook/values/), and work in accordance with those values.
-- [Leadership at GitLab](/handbook/company/team/structure/#management-group)
+- [Leadership at GitLab](/handbook/company/structure/#management-group)
 - Ability to use GitLab
 
 ## Performance Indicators
 
 - [Average days to close](/handbook/finance/accounting/#average-days-to-close-kpi-definition)
-- [Number of material audit adjustments = 0](/handbook/internal-audit/#performance-measures-for-accounting-and-finance-function-related-to-audit)
-- [Percentage of ineffective Sox Controls = 0%](/handbook/internal-audit/#performance-measures-for-accounting-and-finance-function-related-to-audit)
+- [Number of material audit adjustments = 0](https://internal.gitlab.com/handbook/internal-audit/#performance-measures-for-accounting-and-finance-function-related-to-audit)
+- [Percentage of ineffective Sox Controls = 0%](https://internal.gitlab.com/handbook/internal-audit/#performance-measures-for-accounting-and-finance-function-related-to-audit)
 
 ## Hiring Process
 

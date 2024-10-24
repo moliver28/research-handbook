@@ -19,11 +19,11 @@ We have decided to close this Sharding focused working group and will open a Sca
 
 Additionally, we have come to the consensus that sharding is not the desired approach for our long term scalability needs.  This decision was informed through investigation, proofs of concept, research, interviews and various implementation proposals.  Here's a brief list of items that helped to inform our decision to close this working group:
 
-- [Introducing PostgreSQL table partitioning to GitLab's database](https://about.gitlab.com/handbook/engineering/infrastructure/core-platform/data_stores/database/doc/partitioning.html)
-- [Table partitioning: Issue group search as an example](https://about.gitlab.com/handbook/engineering/infrastructure/core-platform/data_stores/database/doc/issue-group-search-partitioning.html)
-- [Sharding with CitusDB](https://about.gitlab.com/handbook/engineering/infrastructure/core-platform/data_stores/database/doc/citus.html)
-- [Postgres: Sharding with foreign data wrappers and partitioning](https://about.gitlab.com/handbook/engineering/infrastructure/core-platform/data_stores/database/doc/fdw-sharding.html)
-- [Sharding GitLab by root namespace](https://about.gitlab.com/handbook/engineering/infrastructure/core-platform/data_stores/database/doc/root-namespace-sharding.html)
+- [Introducing PostgreSQL table partitioning to GitLab's database](/handbook/engineering/infrastructure/core-platform/data_stores/database/doc/partitioning.html)
+- [Table partitioning: Issue group search as an example](/handbook/engineering/infrastructure/core-platform/data_stores/database/doc/issue-group-search-partitioning.html)
+- [Sharding with CitusDB](/handbook/engineering/infrastructure/core-platform/data_stores/database/doc/citus.html)
+- [Postgres: Sharding with foreign data wrappers and partitioning](/handbook/engineering/infrastructure/core-platform/data_stores/database/doc/fdw-sharding.html)
+- [Sharding GitLab by root namespace](/handbook/engineering/infrastructure/core-platform/data_stores/database/doc/root-namespace-sharding.html)
 - [Database Sharding Proposal: Sharding by Namespace](https://drive.google.com/drive/search?q=sharding%20by%20namespace)
 - [An Alternateive Database Sharding Proposal: Tenant Sharding](https://drive.google.com/drive/search?q=Tenant%20sharding%20by%20namespace)
 
@@ -87,7 +87,7 @@ While we continue to investigate Namespace vs. Tenant sharding, we can continue 
   - Measure results
 - Investigation
   - [x] [Explore CitusDB as a sharding solution](https://gitlab.com/gitlab-org/gitlab/issues/207833)
-  - [x] Document impact of [Sharding GitLab by root namespace](https://about.gitlab.com/handbook/engineering/infrastructure/core-platform/data_stores/database/doc/root-namespace-sharding.html#data-access-pattern)
+  - [x] Document impact of [Sharding GitLab by root namespace](/handbook/engineering/infrastructure/core-platform/data_stores/database/doc/root-namespace-sharding.html#data-access-pattern)
     - Identify application changes required by namespace sharding
   - Review Tenant Sharding approach
     - Identify application changes required by namespace sharding
@@ -128,7 +128,7 @@ The agenda doc can be found in our Google Drive when searching for "Sharding Wor
   - Issue created to investigate issues where sharding would have helped
 - 2020-02-24
   - Partitioning Issue [Spike](https://gitlab.com/gitlab-org/gitlab/issues/201871)
-  - Handbook entry published [On table partitioning](https://about.gitlab.com/handbook/engineering/infrastructure/core-platform/data_stores/database/doc/partitioning.html)
+  - Handbook entry published [On table partitioning](/handbook/engineering/infrastructure/core-platform/data_stores/database/doc/partitioning.html)
   - PG11 Nightly pipeline for [gitlab-org/gitlab](https://gitlab.com/gitlab-org/gitlab/issues/200036#note_291786476)
   - PG11 10k Reference Architecture [test](https://gitlab.com/gitlab-org/quality/team-tasks/issues/389#note_292242462)
 - 2020-03-02
@@ -136,7 +136,7 @@ The agenda doc can be found in our Google Drive when searching for "Sharding Wor
 - 2020-03-09
   - Incident Review [feedback](https://gitlab.com/gitlab-org/gitlab/issues/207327#breakdown-by-priority-and-severity)
   - Handbook entry update to explicitly set [priorities](https://gitlab.com/gitlab-com/www-gitlab-com/-/merge_requests/42496/diffs) for sharding
-  - Handbook entry [Introducing PostgreSQL table partitioning to GitLab's database](https://about.gitlab.com/handbook/engineering/infrastructure/core-platform/data_stores/database/doc/partitioning.html)
+  - Handbook entry [Introducing PostgreSQL table partitioning to GitLab's database](/handbook/engineering/infrastructure/core-platform/data_stores/database/doc/partitioning.html)
 - 2020-03-16
   - Partitioning spike [complete](https://gitlab.com/gitlab-org/gitlab/-/issues/201871)
   - Run GDK against a [Citus Installation](https://gitlab.com/gitlab-org/gitlab/-/issues/207833#note_302891589)

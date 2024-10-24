@@ -40,8 +40,8 @@ GitLab.com is a unique site and brings with it unique challenges: it is the larg
 
 - Coding infrastructure automation with [Chef](https://gitlab.com/gitlab-cookbooks/), Ansible, Terraform, and GitLab CI/CD
 - Improving our [Prometheus Monitoring](https://gitlab.com/gitlab-cookbooks/gitlab-prometheus) or building new [metrics](https://gitlab.com/gitlab-org/gitlab-exporter)
-- Helping [release managers](https://about.gitlab.com/handbook/engineering/#release-managers) deploy and fix new versions of GitLab-EE.
-- Plan, prepare for, and execute the [migration of GitLab.com](https://about.gitlab.com/handbook/engineering/infrastructure/production/architecture/#infra-proposed-cloud-native) from virtual machines running on Google Cloud to cloud-native container-based deployments with Kubernetes using Google Kubernetes Engine.
+- Helping [release managers](/handbook/engineering/#release-managers) deploy and fix new versions of GitLab-EE.
+- Plan, prepare for, and execute the [migration of GitLab.com](/handbook/engineering/infrastructure/production/architecture/#infra-proposed-cloud-native) from virtual machines running on Google Cloud to cloud-native container-based deployments with Kubernetes using Google Kubernetes Engine.
 - Develop a relationship with a [product group](/handbook/product/categories/), define their SLAs, share GitLab.com data on those SLAs and improve their reliability
 
 ## Leveling of Site Reliability Engineering at GitLab
@@ -67,7 +67,7 @@ GitLab.com is a unique site and brings with it unique challenges: it is the larg
 #### Collaboration and Communication
 
 - Leading and contributing to scope and designs for issues, epics, and OKRs
-- Contributing to the [Handbook](https://about.gitlab.com/handbook/), create and update [runbooks](https://gitlab.com/gitlab-com/runbooks) and [general documentation](https://gitlab.com/gitlab-com/runbooks/-/tree/master/docs), and write [blog posts](https://about.gitlab.com/blog/categories/engineering/)
+- Contributing to the [Handbook](/handbook/), create and update [runbooks](https://gitlab.com/gitlab-com/runbooks) and [general documentation](https://gitlab.com/gitlab-com/runbooks/-/tree/master/docs), and write [blog posts](https://about.gitlab.com/blog/categories/engineering/)
 - Completing Root Cause Analysis (RCA) investigations and perform readiness reviews
 - Improving team practices through code reviews, handoffs of work and incidents
 
@@ -184,7 +184,7 @@ Are Site Reliability Engineers who meet the following criteria:
 
 1. Identifies significant projects that result in substantial improvements in reliability, cost savings and/or revenue.
 1. Identifies changes for the product architecture from the reliability, performance and availability perspectives with a data driven approach.
-1. Influences the product roadmap and works with engineering and product counterparts to influence improved resiliency and reliability of the Gitlab product.
+1. Influences the product roadmap and works with engineering and product counterparts to influence improved resiliency and reliability of the GitLab product.
 1. Proactively work on the efficiency and capacity planning to set clear requirements and reduce the system resources usage to make GitLab cheaper to run for all our customers.
 1. Identify parts of the system that do not scale, provides immediate palliative measures and drives long term resolution of these incidents.
 1. Identify Service Level Indicators (SLIs) that will align the team to meet the availability and latency objectives.
@@ -192,7 +192,7 @@ Are Site Reliability Engineers who meet the following criteria:
 ##### Collaboration and Communication
 
 1. Leads initiatives and problem definition and scoping, design, and planning through epics and blueprints.
-1. Deep domain knowledge and radiation that knowledge through recorded demos, technical presentations, discussions, and [Incident Reviews](https://about.gitlab.com/handbook/engineering/infrastructure/incident-review/).
+1. Deep domain knowledge and radiation that knowledge through recorded demos, technical presentations, discussions, and [Incident Reviews](/handbook/engineering/infrastructure/incident-review/).
 1. Perform and run blameless RCAs on incidents and outages aggressively looking for answers that will prevent the incident from ever happening again.
 1. For stable counterpart assignments, maintain awareness and actively influence stage group plans and priorities through participation in stage group meetings and async discussions. Act as a champion for reliability.
 
@@ -278,12 +278,35 @@ a system that can scale to meet demand.
 
 In each of these responsibilities, we focus on the long-term mindset required to harden our systems for growth.
 
+### Gitaly
+
+SREs in [Gitaly](/handbook/engineering/infrastructure/core-platform/systems/gitaly/) work alongside [Backend Engineers](/job-families/engineering/development/backend/#gitaly) with a focus primarily on improving the availability, reliability and scalability  of the Gitaly fleet on GitLab.com. While the backend engineers approach their responsibilities from a software developer point of view, the SREs approach the same problems from the operational perspective and collaborate closely on finding an optimal solution, in addition to ensuring that new Gitaly features can run at scale and deployed to production safely.
+
+#### Responsibilities
+
+1. Work with peer SREs to maintain Gitaly’s environments within GitLab’s SaaS offerings, including cost and performance optimization, capacity planning, migrations and debugging production issues.
+1. Participate in architectural discussions and decisions surrounding Gitaly, within the greater GitLab ecosystem.
+1. Scope, estimate and describe tasks to reach the team’s goals.
+1. Develop production automation and tooling for Gitaly, for use both in SaaS and self-managed installations.
+1. Help ensure that Gitaly development tooling, releases and other processes serve the team and the product’s goals.
+1. Develop Gitaly in accordance with the product’s goals and a focus on reliability and maintainability.
+1. Instrument, monitor and profile Gitaly in the production environment.
+1. Build dashboards and alerts to monitor the health of your services.
+1. Conduct acceptance testing of the features you’ve built.
+1. Educate all team members on best practices relating to high availability and platform tooling.
+1. Write performant, maintainable, and elegant code and peer review others’ code.
+1. Be positive and solution-oriented.
+1. Constantly improve the quality & security of the product.
+1. Take initiative in improving the software in small or large ways to address pain points in your own experience as a developer.
+1. Qualify developers for hiring.
+1. Respond to user emergencies, platform alerts and support requests, including regular on-call duties.
+
 #### On-call Alignment
 
 SREs in Scalability are expected to be part of the on-call rotation.
 
 Further details about Scalability SRE's involvement with incidents is available on
-the [team handbook page](https://about.gitlab.com/handbook/engineering/infrastructure/team/scalability/#engagement-with-incidents).
+the [team handbook page](/handbook/engineering/infrastructure/team/scalability/#engagement-with-incidents).
 
 ### Environment Automation
 
@@ -295,7 +318,7 @@ SRE's with Environment Automation specialization primarily focus on provisioning
 1. Responding to platform emergencies, alerts, and escalations from Customer Support.
 1. Ensure systems exist to manage software life-cycles (e.g. Operating Systems) with a minimum of manual effort.
 1. Develop a fully automated multi-environment observability stack based on the existing SaaS system, and extend it to predict capacity needs based on the usage patterns.
-1. Plan for new service roll-outs, expansion and capacity management of existing services, and work with users to optimise their resource consumption.
+1. Plan for new service roll-outs, expansion and capacity management of existing services, and work with users to optimize their resource consumption.
 
 ### Cloud Efficiency Engineering
 
@@ -318,14 +341,14 @@ Individual Contributors in SRE roles can also move to roles in the [Engineering 
 
 Site Reliability Engineers have the following job-family performance indicators:
 
-- [GitLab.com Availability](https://about.gitlab.com/handbook/engineering/infrastructure/performance-indicators/#gitlab-com-availability)
-- [GitLab.com Performance](https://about.gitlab.com/handbook/engineering/infrastructure/performance-indicators/#gitlab-com-performance)
-- [Apdex and Error SLO per Service](https://about.gitlab.com/handbook/engineering/infrastructure/performance-indicators/#apdex-and-error-slo-per-service)
-- [Mean Time to Detection](https://about.gitlab.com/handbook/engineering/infrastructure/performance-indicators/#mean-time-to-detection-mttd)
-- [Mean Time to Resolution](https://about.gitlab.com/handbook/engineering/infrastructure/performance-indicators/#mean-time-to-resolution-mttr)
-- [Mean Time Between Failure](https://about.gitlab.com/handbook/engineering/infrastructure/performance-indicators/#mean-time-between-failures-mtbf)
-- [Mean Time to Production](https://about.gitlab.com/handbook/engineering/infrastructure/performance-indicators/#mean-time-to-production-mttp)
-- [Disaster Recovery Time to Recovery](https://about.gitlab.com/handbook/engineering/infrastructure/performance-indicators/#disaster-recovery-dr-time-to-recover)
+- [GitLab.com Availability](/handbook/engineering/infrastructure/performance-indicators/#gitlab-com-availability)
+- [GitLab.com Performance](/handbook/engineering/infrastructure/performance-indicators/#gitlab-com-performance)
+- [Apdex and Error SLO per Service](/handbook/engineering/infrastructure/performance-indicators/#apdex-and-error-slo-per-service)
+- [Mean Time to Detection](/handbook/engineering/infrastructure/performance-indicators/#mean-time-to-detection-mttd)
+- [Mean Time to Resolution](/handbook/engineering/infrastructure/performance-indicators/#mean-time-to-resolution-mttr)
+- [Mean Time Between Failure](/handbook/engineering/infrastructure/performance-indicators/#mean-time-between-failures-mtbf)
+- [Mean Time to Production](/handbook/engineering/infrastructure/performance-indicators/#mean-time-to-production-mttp)
+- [Disaster Recovery Time to Recovery](/handbook/engineering/infrastructure/performance-indicators/#disaster-recovery-dr-time-to-recover)
 
 ## Hiring Process
 

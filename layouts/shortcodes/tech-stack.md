@@ -1,16 +1,15 @@
-{{- /*  Initialize. */}}
+{{- /*Initialize.*/}}
 {{- $title := "" }}
 
-{{- /* Get params. */}}
+{{- /*Get params.*/}}
 {{- with (.Get 0) }}
   {{- $title = . }}
 {{- else }}
   {{- errorf "The %q shortcode requires a single positional argument."}}
 {{- end }}
 
+{{- with (index site.Data.public.teach_stack $title) }}
 
-{{- $techStack := partials.IncludeCached "data/tech-stack-by-title" page }}
-{{- with (index $techStack $title) }}
 - **Description:** {{ .description }}
 {{- with .provisioner }}
 - **Provisioner:** {{ . }}

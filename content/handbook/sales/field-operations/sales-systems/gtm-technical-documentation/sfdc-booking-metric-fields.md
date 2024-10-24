@@ -1,13 +1,6 @@
 ---
-
 title: "Booking Metric Technical Documentation"
 ---
-
-
-
-
-
-
 
 ## How to use this documentation
 
@@ -30,7 +23,7 @@ Below is a Data Dictionary and Technical Documentation for our ARR Booking Metri
 | **Field**                      | **Definition**                                              | **SFDC API**                      |
 |----------------------------|---------------------------------------------------------|-------------------------------|
 | Amount                     | The total dollars charged on the Opp (All Kinds)        | Amount                        |
-| Recurring Amount           | All Recurring dollars (Gitlab Seats, Storage)           | Recurring_Amount__c           |
+| Recurring Amount           | All Recurring dollars (GitLab Seats, Storage)           | Recurring_Amount__c           |
 | True Up Amount             | All One-time True Up dollars                            | True_Up_Amount__c            |
 | Pro Serv Amount            | All Professional Services Dollars                       | ProServ_Amount__c             |
 | Other Non-Recurring Amount | All other one-time fee products (Additional compute minutes) | Other_Non_Recurring_Amount__c |
@@ -60,7 +53,6 @@ Logic Locations:
 
 - [ZuoraQuoteClass.cls](https://gitlab.com/gitlab-com/sales-team/field-operations/salesforce-src/-/blob/master/force-app/main/default/classes/ZuoraQuoteClass.cls)
 - [ZuoraQuoteTrigger.trigger](https://gitlab.com/gitlab-com/sales-team/field-operations/salesforce-src/-/blob/master/force-app/main/default/triggers/ZuoraQuoteTrigger.trigger)
-
 
 Code Units:
 

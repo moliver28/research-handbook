@@ -1,13 +1,6 @@
 ---
-
 title: "CSM Rhythm of Business"
 ---
-
-
-
-
-
-
 
 View the [CSM Handbook homepage](/handbook/customer-success/csm/) for additional CSM-related handbook pages.
 
@@ -24,9 +17,3 @@ This chart, not only provides the task information, but also the purpose behind 
 Click here for a [downloadable version](https://lucid.app/documents/view/fd53487f-143b-420f-ae66-9e73f3505ef2) of the chart below.
 
 <iframe allowfullscreen frameborder="0" style="width:640px; height:480px" src="https://lucid.app/documents/embeddedchart/fd53487f-143b-420f-ae66-9e73f3505ef2" id="LvjclsjZrJBQ"></iframe>
-
-
-
-#### Commercial CSM Rhythm of Business
-
-While the motions in the rhythm of business will remain the same as above, the [Commercial](/handbook/customer-success/csm/segment/commercial/) CSM team will have a slightly different approach to their workflow and books of business. For details on what the expectations would be of a Commercial CSM, please see the [Commercial Segment handbook page](/handbook/customer-success/csm/segment/commercial/#rhythm-of-business).

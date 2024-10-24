@@ -18,7 +18,8 @@ The Senior Backend Engineer is a [grade 7](/handbook/total-rewards/compensation/
 - Recognize impediments to our efficiency as a team ("technical debt"), propose and implement solutions.
 - Represent GitLab and its values in public communication around specific projects and community contributions.
 - Ship small features and improvements with minimal guidance and support from other team members. Collaborate with the team on larger projects.
-- Participate in Tier 2 or Tier 3 weekday and weekend and occasional night [on-call rotations](https://about.gitlab.com/handbook/engineering/development/processes/Infra-Dev-Escalation/process.html) to assist troubleshooting product operations, security operations, and urgent engineering issues.
+- Participate in Tier 2 or Tier 3 weekday and weekend and occasional night [on-call rotations](/handbook/engineering/development/processes/infra-dev-escalation/process/) to assist troubleshooting product operations, security operations, and urgent engineering issues.
+- Encouraged to complete [Interview Training](/hiring/conducting-a-gitlab-interview/#interviewer-training-requirements) in support of hiring efforts for the department. Participation as either a technical interviewer or part of their team's interview panel may be expected from hiring managers, given ongoing hiring needs.
 
 ## Requirements
 
@@ -58,7 +59,7 @@ The Senior Backend Engineer is a [grade 7](/handbook/total-rewards/compensation/
 - Represent GitLab and its values in public communication around broader initiatives, specific projects, and community contributions.
 - Provide mentorship for Junior and Intermediate Engineers on your team to help them grow in their technical responsibilities and remove blockers to their autonomy.
 - Confidently ship moderately sized features and improvements with minimal guidance and support from other team members. Collaborate with the team on larger projects.
-- Improves the [engineering projects](https://about.gitlab.com/handbook/engineering/projects/) at GitLab as a [project maintainer](https://about.gitlab.com/handbook/engineering/workflow/code-review/#maintainer). For more information regarding timelines and exceptions, [see this page](https://about.gitlab.com/handbook/engineering/workflow/code-review/#senior-maintainers).
+- Improves the [engineering projects](/handbook/engineering/projects/) at GitLab as a [project maintainer](/handbook/engineering/workflow/code-review/#maintainer). For more information regarding timelines and exceptions, [see this page](/handbook/engineering/workflow/code-review/#senior-maintainers).
 
 #### Senior Requirements
 
@@ -66,7 +67,7 @@ The Senior Backend Engineer is a [grade 7](/handbook/total-rewards/compensation/
 
 ### Distribution:Build
 
-The Build team closely partners with our greater engineering organization to build and distribute GitLab services. The Build team is tasked with ensuring the components that make up GitLab are up to date, license compliant, and available for our users’ platforms and architectures. This group manages the build pipelines, researches support for new services, platforms, and architectures, as well as maintains existing ones. We strive to respond efficiently to build failures, security results, and dependency changes in order to ensure a safe reliable product for our users.
+The Build team closely partners with our greater engineering organization to build and distribute GitLab services. The Build team is tasked with ensuring the components that make up GitLab are up to date, license compliant, and available for our users' platforms and architectures. This group manages the build pipelines, researches support for new services, platforms, and architectures, as well as maintains existing ones. We strive to respond efficiently to build failures, security results, and dependency changes in order to ensure a safe reliable product for our users.
 
 Distribution Build engineering regularly interfaces with broader development teams in supporting newly created features. Notably, the Distribution Deploy team is the Build team's biggest internal collaborator, so there is significant team interdependency. The Distribution Build team is involved with diverse projects and tasks that include assisting community packaging efforts.
 
@@ -131,7 +132,7 @@ Package engineers are focused on creating and maintaining the dependency managem
 
 ### Runner
 
-Runner engineers are primarily responsible for the [GitLab-Runner](https://gitlab.com/gitlab-org/gitlab-runner). The GitLab-Runner service acts as the interface between the rest of GitLab and a user's CI infrastructure, so that whether CI is running on a cluster of Raspberry Pis, a super-computer, or, as in the case with GitLab.com, thousands of virtual machines running in the cloud - it’s the GitLab-Runner that makes this happen. You can learn more about the Runner group on the [Runner product category](/handbook/product/categories/#runner-group) handbook page.
+Runner engineers are primarily responsible for the [GitLab-Runner](https://gitlab.com/gitlab-org/gitlab-runner). The GitLab-Runner service acts as the interface between the rest of GitLab and a user's CI infrastructure, so that whether CI is running on a cluster of Raspberry Pis, a super-computer, or, as in the case with GitLab.com, thousands of virtual machines running in the cloud - it's the GitLab-Runner that makes this happen. You can learn more about the Runner group on the [Runner product category](/handbook/product/categories/#runner-group) handbook page.
 
 #### Requirements
 
@@ -207,7 +208,7 @@ CI/CD Backend Engineers are primarily tasked with improving the Continuous Integ
 
 - Provide value to the user and communicate such with product managers,
 - Introduce features that work at scale and in untrusting environments,
-- Always focus on defining and shipping [the Minimal Viable Change](/handbook/product/product-principles/#the-minimal-viable-change-mvc).
+- Always focus on defining and shipping [the Minimal Valuable Change](/handbook/product/product-principles/#the-minimal-valuable-change-mvc).
 
 We, as a team, cover end-to-end integration of CI/CD in GitLab, with components being written in Rails and Go. We work on a scale of processing a few million of CI/CD jobs on GitLab.com monthly. CI/CD engineering is interlaced with a number of teams across GitLab. We build new features by following our [direction](https://about.gitlab.com/direction/#ci--cd). Currently, we focus on providing a deep integration of Kubernetes with GitLab:
 
@@ -237,7 +238,7 @@ The CI/CD Engineering Manager also does weekly stand-up with a team and product 
 - Work with the Product Manager to carefully assess technical feasibility of feature requests.
 - Deliver proof-of-concept proposals to help guide technical discussions.
 - Identify ways to deliver complex technical projects in an iterative fashion.
-- Take [ownership](https://about.gitlab.com/handbook/engineering/infrastructure/core-platform/systems/geo/process.html#epic-ownership) of feature implementation.
+- Take [ownership](/handbook/engineering/infrastructure/core-platform/systems/geo/process.html#epic-ownership) of feature implementation.
 - Respond quickly to customer requests for support.
 
 #### Requirements
@@ -265,12 +266,12 @@ Growth: Analytics and Experimentation Engineers build, maintain, and integrate w
 - Experience with Snowplow
 - Frontend experience including HTML, CSS, and JavaScript frameworks (Vue.js preferred).
 
-### Product Intelligence
+### Analytics Instrumentation
 
-Senior Backend Engineers in the Product Intelligence group play a key role in implementing analytics and data collection tools within the GitLab product in a privacy-focused manner.
+Senior Backend Engineers in the Analytics Instrumentation group play a key role in implementing analytics and data collection tools within the GitLab product in a privacy-focused manner.
 The group focuses on providing GitLab's team with data-driven product insights to build a better GitLab.
 
-The Senior Backend Engineer for Product Intelligence extends the Senior Backend Engineer requirements with these additional requirements and responsibilities.
+The Senior Backend Engineer for Analytics Instrumentation extends the Senior Backend Engineer requirements with these additional requirements and responsibilities.
 
 #### Requirements
 
@@ -282,13 +283,15 @@ The Senior Backend Engineer for Product Intelligence extends the Senior Backend 
 - Experience with dbt, or other related data engineering tools.
 - Experience with Snowflake and Snowpipe.
 - Experience with Snowplow collector.
+- Experience with Go and/or Python.
 - Frontend experience including HTML, CSS, and JavaScript frameworks (Vue.js preferred).
 
 #### Responsibilities
 
-- Build tooling to collect metrics from GitLab.com and self managed instances.
+- Build tooling to collect events and metrics from GitLab.com, Self-Managed and
+  other GitLab and customer services.
 - Work closely with GitLab's Data team to analyse data pipelines.
-- Build automation to ensure the quality of our collected metrics.
+- Build automation to ensure the quality of our collected metrics and events.
 - Build monitoring to ensure the reliability of our data pipelines.
 
 ### Engineering Productivity
@@ -319,7 +322,7 @@ to understand what is working and what is not.
 - Experience using Continuous Integration systems (e.g., GitLab CI, Jenkins, Travis).
 - Experience using Docker and containerized architectures (e.g. Kubernetes).
 
-See the description of the [Quality team](https://about.gitlab.com/handbook/engineering/quality/) for more details. The position also involves working with the community as [Merge Request Coach](/job-families/expert/merge-request-coach/), and working together with our [Backend Engineers](/job-families/engineering/backend-engineer/) to respond and address issues from the community.
+See the description of the [Quality team](/handbook/engineering/quality/) for more details. The position also involves working with the community as [Merge Request Coach](/job-families/expert/merge-request-coach/), and working together with our [Backend Engineers](/job-families/engineering/backend-engineer/) to respond and address issues from the community.
 
 ### Application Performance
 
@@ -339,7 +342,7 @@ An ideal engineer candidate -
 
 - Expert of Ruby on Rails.
 - Experience of performance tuning and/or architecture, [Example](https://rubykaigi.org/2018/presentations/tenderlove.html).
-- Experience of memory leak troubleshooting, [Example 1](http://www.be9.io/2015/09/21/memory-leak/), [Example 2](https://samsaffron.com/archive/2015/03/31/debugging-memory-leaks-in-ruby).
+- Experience of memory leak troubleshooting, [Example 1](https://web.archive.org/web/20220826233628/http://www.be9.io/2015/09/21/memory-leak/), [Example 2](https://samsaffron.com/archive/2015/03/31/debugging-memory-leaks-in-ruby).
 
 Alternatively, some of the following qualifications, may not necessarily be all -
 
@@ -363,11 +366,11 @@ Alternatively, some of the following qualifications, may not necessarily be all 
 
 ### Ecosystem
 
-The Ecosystem team is responsible for seamless integration between GitLab and 3rd party products as well as making GitLab products available on cloud service providers’ marketplaces such as AWS. The team plays a critical role in developing APIs and SDK and expanding GitLab market opportunities.
+The Ecosystem team is responsible for seamless integration between GitLab and 3rd party products as well as making GitLab products available on cloud service providers' marketplaces such as AWS. The team plays a critical role in developing APIs and SDK and expanding GitLab market opportunities.
 
 #### Responsibilities
 
-- Design, build, and maintain APIs, Webhooks, and SDK of Gitlab products.
+- Design, build, and maintain APIs, Webhooks, and SDK of GitLab products.
 - Design, build, and maintain solutions to integrate to partner and 3rd party platforms.
 - Design, build, and maintain solutions for integrating with cloud service provider marketplaces, such as AWS.
 - Develop documentation and instructions of how to work with GitLab SDK & APIs.
@@ -387,20 +390,20 @@ Gitaly is a service that handles git and other filesystem operations for GitLab 
 #### Responsibilities
 
 - Participate in architectural discussions and decisions surrounding Gitaly.
-- Scope, estimate and describe tasks to reach the team’s goals.
+- Scope, estimate and describe tasks to reach the team's goals.
 - Collaborate on designing RPC interfaces for the Gitaly service.
 - Instrument, monitor and profile Gitaly in the production environment.
 - Build dashboards and alerts to monitor the health of your services.
-- Conduct acceptance testing of the features you’ve built.
+- Conduct acceptance testing of the features you've built.
 - Educate all team members on best practices relating to high availability.
 
 #### Requirements
 
 - Mandatory: production experience building, debugging, optimising software in large-scale, high-volume environments.
 - Mandatory: Solid production Ruby experience.
-- Highly desirable: Experience working with Go. It’s important that candidates must be willing to learn and work in both Go and Ruby.
+- Highly desirable: Experience working with Go. It's important that candidates must be willing to learn and work in both Go and Ruby.
 - Highly desirable: experience with gRPC.
-- Highly desirable: a good understanding of git’s internal data structures or experience running git servers. You can reason about software, algorithms, and performance from a high level.
+- Highly desirable: a good understanding of git's internal data structures or experience running git servers. You can reason about software, algorithms, and performance from a high level.
 - Understanding of how to build instrumented, observable software systems.
 - Experience highly-available systems in production environments.
 
@@ -445,7 +448,7 @@ Unlike the [Database Engineer](/job-families/engineering/database-engineer/) pos
 
 ### Infrastructure
 
-[Infrastructure](https://about.gitlab.com/handbook/engineering/infrastructure/) specialists work alongside DBREs and SREs and are experienced Ruby/GoLang developers who work in the product with a focus on reliability, observability, performance and scalability at the application level, as well as on resource optimization from an Infrastructure perspective and on operationally relevant features.
+[Infrastructure](/handbook/engineering/infrastructure/) specialists work alongside DBREs and SREs and are experienced Ruby/GoLang developers who work in the product with a focus on reliability, observability, performance and scalability at the application level, as well as on resource optimization from an Infrastructure perspective and on operationally relevant features.
 
 #### Requirements
 
@@ -467,7 +470,7 @@ Delivery specialist is an engineer that focuses on improving the engineering rel
 
 #### Responsibilities
 
-- Assures the [GitLab Release Process](https://about.gitlab.com/handbook/engineering/releases/).
+- Assures the [GitLab Release Process](/handbook/engineering/releases/).
 - Creates new tools to automate the release process.
 - Builds new GitLab release features to replace existing custom tooling.
 - Works with individual teams on defining and implementing solutions that will help them release quicker.
@@ -480,7 +483,7 @@ Delivery specialist is an engineer that focuses on improving the engineering rel
 
 ### Scalability
 
-The [Scalability team](https://about.gitlab.com/handbook/engineering/infrastructure/team/scalability/) is responsible for optimising GitLab.com
+The [Scalability team](/handbook/engineering/infrastructure/team/scalability/) is responsible for optimising GitLab.com
 performance through improving the reliability, availability and performance of individual GitLab services and the application as a whole.
 
 #### Responsibilities
@@ -491,7 +494,7 @@ performance through improving the reliability, availability and performance of i
 - Work with other engineering stakeholders on resolving larger architectural bottlenecks and participate as a representative of GitLab.com.
 - Provide guidance to other engineering stakeholders on scaling considerations.
 - Work closely with embedded Site Reliability Engineers to prepare and perform production changes.
-- Deliver scaling projects as a [Directly Responsible Individual (DRI)](https://about.gitlab.com/handbook/engineering/infrastructure/team/scalability/#project-ownership).
+- Deliver scaling projects as a [Directly Responsible Individual (DRI)](/handbook/engineering/infrastructure/team/scalability/#project-ownership).
 
 #### Requirements
 
@@ -530,9 +533,9 @@ Elasticsearch engineers are focused on delivering a first class global search ex
 
 ## Performance Indicators
 
-- [Backend Unit Test Coverage](https://about.gitlab.com/handbook/engineering/development/performance-indicators/#backend-unit-test-coverage)
-- [Open MR Review Time (OMRT)](https://about.gitlab.com/handbook/engineering/development/performance-indicators/#open-mr-review-time-omrt)
-- [Open MR Age (OMA)](https://about.gitlab.com/handbook/engineering/development/performance-indicators/#open-mr-age-oma)
+- [Backend Unit Test Coverage](/handbook/engineering/development/performance-indicators/#backend-unit-test-coverage)
+- [Open MR Review Time (OMRT)](/handbook/engineering/development/performance-indicators/#open-mr-review-time-omrt)
+- [Open MR Age (OMA)](/handbook/engineering/development/performance-indicators/#open-mr-age-oma)
 
 ## Hiring Process
 

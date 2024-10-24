@@ -21,7 +21,6 @@ This is a series of Speakers, Q&As, Talk and Workshops that the Diversity, Inclu
 
 {{< youtube "gjo4vAFzKqk" >}}
 
-
 - **19th/ 20th of October 2021 - 50 Shades of Bias with Tina, Leo and Maribel**
 
 {{< youtube "4WCZqNVz-ck" >}}
@@ -30,21 +29,19 @@ This is a series of Speakers, Q&As, Talk and Workshops that the Diversity, Inclu
 
 {{< youtube "KJwIDoxQeSc" >}}
 
-
 - **June 17th Fireside and Q&A with [Joy Gharoro-Akpotojor]
 
 {{< youtube "r2o2im4Gvog" >}}
 
-- **May 19th 2021** Gitlab Fireside chat with Shaun Christie-David - Social Entrepreneur and CEO of Plateitforward
+- **May 19th 2021** GitLab Fireside chat with Shaun Christie-David - Social Entrepreneur and CEO of Plateitforward
 
 {{< youtube "4xhj__1cyG8" >}}
 
-- **April 15th 2021** Gitlab x Kinspace: The importance and power of storytelling in building inclusive and intersectional workplaces**
+- **April 15th 2021** GitLab x Kinspace: The importance and power of storytelling in building inclusive and intersectional workplaces**
 
 [Zoom chat box](https://docs.google.com/document/d/1HPDZn1xx2ilTiyU3vdk0bAQQHYud9FTToeRNefPA_MQ/edit) as a lot of interaction here
 
 {{< youtube "hTeyU-z7z_c" >}}
-
 
 - **March 8th 2021 International Women's Day Event**: Kathryn Jacob, Sue Unerman and Mark Edwards. Authors of The Key to Transforming and Maintaining Diversity, Inclusion and Equality at Work
 

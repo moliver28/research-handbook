@@ -1,9 +1,0 @@
-{{- $dataAssets := dict }}
-{{- with resources.GetRemote "https://gitlab.com/gitlab-com/www-gitlab-com/-/raw/master/data/data_assets.yml" }}
-  {{- with .Err }}
-    <h2>Unable to fetch data_assets.yml</h2>
-  {{- else }}
-      {{- $dataAssets = . | transform.Unmarshal }}
-  {{- end }}
-{{- end }}
-{{- return $dataAssets }}

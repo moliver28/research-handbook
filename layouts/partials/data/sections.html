@@ -1,9 +1,0 @@
-{{- $sections := dict }}
-{{- with resources.GetRemote "https://gitlab.com/gitlab-com/www-gitlab-com/-/raw/master/data/sections.yml" }}
-  {{- with .Err }}
-    <h2>Unable to fetch sections.yml</h2>
-  {{- else }}
-      {{ $sections = . | transform.Unmarshal }}
-  {{- end }}
-{{- end }}
-{{- return $sections }}

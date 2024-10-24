@@ -21,7 +21,7 @@ When making a request to conduct a RDS, work closely with your Product Design Ma
 
 ### Who should participate in a Remote Design Sprint
 
-You should keep the RDS team to around 5-7 people. More than that becomes difficult for the facilitator to manage and less than that can limit the diversity of backgrounds and knowledge needed to solve the problem. RDS participants should be a mix of counterparts from each participating team, such as UX (Product Designers, Researchers, Tech Writers), Development, Product Management, Sales, Customer Support. The more diverse the better, but be sure they’re relevant to the challenges being worked on and that they have the time to contribute effectively.
+You should keep the RDS team to around 5-7 people. More than that becomes difficult for the facilitator to manage and less than that can limit the diversity of backgrounds and knowledge needed to solve the problem. RDS participants should be a mix of counterparts from each participating team, such as UX (Product Designers, Researchers, Tech Writers), Development, Product Management, Sales, Customer Support. The more diverse the better, but be sure they're relevant to the challenges being worked on and that they have the time to contribute effectively.
 
 ### Remote Design Sprint methodology
 
@@ -81,7 +81,7 @@ RDS participants are responsible for participating in the RDS activities as outl
 - It's recommended to attend the sync sessions. During sync sessions, follow the general [guidelines for effective all-remote meetings](/handbook/company/culture/all-remote/meetings/).
 - If the sync sessions are out of the participant's working hours, it's important to participate asynchronously, for example by sharing a video recording about the RDS deliverable for the day or any questions the RDS participant might have.
 - All asynchronous tasks must be completed before or on the due dates. If there is a problem achieving any of the above this must be communicated to the Facilitator or co-facilitator as quickly as possible so adjustments or assistance can be provided.
-- Honor the Facilitator’s directions. They’re the guide for the entire process.
+- Honor the Facilitator's directions. They're the guide for the entire process.
 - The Decider has the final, ultimate decision at the end of each activity.
 
 ### Tools
@@ -89,24 +89,24 @@ RDS participants are responsible for participating in the RDS activities as outl
 Here is the list of tools for RDS preparation, collaboration, and documentation. Prior to the RDS make sure you have access to all of the following:
 
 - GitLab
-    - Each RDS day's outcomes and materials will be documented in a separate issue under the RDS epic.
+  - Each RDS day's outcomes and materials will be documented in a separate issue under the RDS epic.
 - Figjam
-    - RDS participants can join as anonymous but there is a need to be able to identify input against names, so creating an account beforehand is recommended.
-    - Figjam will be used for most of the RDS collaboration. Some of the things done in Figjam:
-        - Create artifacts like affinity diagrams from RDS participants' input
-        - Use post-its to comment on each other's points and to add notes
-        - Vote on ideas and solutions
-        - Create the first draft of the prototype.
-    - The Figjam link to the collaboration project will be provided in the issue before the start of the RDS.
+  - RDS participants can join as anonymous but there is a need to be able to identify input against names, so creating an account beforehand is recommended.
+  - Figjam will be used for most of the RDS collaboration. Some of the things done in Figjam:
+    - Create artifacts like affinity diagrams from RDS participants' input
+    - Use post-its to comment on each other's points and to add notes
+    - Vote on ideas and solutions
+    - Create the first draft of the prototype.
+  - The Figjam link to the collaboration project will be provided in the issue before the start of the RDS.
 - Video and/or screen recording tool (Loom, QuickTime, Zoom, etc.).
-    - As part of the pre-RDS homework, RDS participants will be asked to record a short Lightning Walkthrough video. RDS participants can use any tool they feel comfortable with as long as it can capture their screen, mouse pointer, and audio.
-    - The faccilitator will also provide walkthroughs of each asynchronous activity, which participants will need to watch.
+  - As part of the pre-RDS homework, RDS participants will be asked to record a short Lightning Walkthrough video. RDS participants can use any tool they feel comfortable with as long as it can capture their screen, mouse pointer, and audio.
+  - The faccilitator will also provide walkthroughs of each asynchronous activity, which participants will need to watch.
 - A4/Letter-sized paper (preferably white blank), Sharpies/Pens (please don't use a pencil because it doesn't create enough contrast for photos).
-    - Parts of the RDS will involve some (async) ideation via sketching, RDS participants will need a writing utensil (Sharpies are preferred because they force you to draw at a lower fidelity because small details aren't necessary at this point) and some paper. This is the most fun part of the RDS where RDS participants get into a design thinking mindset and can appeal to their creative selves. Don't worry, it's not about artistry, it's about ideas and collaboration.
+  - Parts of the RDS will involve some (async) ideation via sketching, RDS participants will need a writing utensil (Sharpies are preferred because they force you to draw at a lower fidelity because small details aren't necessary at this point) and some paper. This is the most fun part of the RDS where RDS participants get into a design thinking mindset and can appeal to their creative selves. Don't worry, it's not about artistry, it's about ideas and collaboration.
 - Camera (phone or other) or scanner
-    - RDS participants will need to upload sketches as images for the facilitator to prepare the material before the next sync meeting. RDS participants can take a photo with their phone or use a scanner if available.
+  - RDS participants will need to upload sketches as images for the facilitator to prepare the material before the next sync meeting. RDS participants can take a photo with their phone or use a scanner if available.
 - Post-it notes (Optional)
-    - If you enjoy taking notes using post-it notes make sure to have some of them available as well. The upside is that they will make you feel more like you are in a workshop and will help the ideas flow. The downside is that you will have to digitalize the ones you want to share with the team in Figjam.
+  - If you enjoy taking notes using post-it notes make sure to have some of them available as well. The upside is that they will make you feel more like you are in a workshop and will help the ideas flow. The downside is that you will have to digitalize the ones you want to share with the team in Figjam.
 
 ### Past Remote Design Sprints
 
@@ -115,4 +115,3 @@ List of past RDSs:
 - [Auto DevOps Design Sprint](https://gitlab.com/groups/gitlab-org/-/epics/5939) ([Figjam board](https://www.figma.com/file/nVlJ78mfcnrEKLakrOESJb/Remote-Design-Sprint---Auto-DevOps_2023-08-22_10-43-19?type=whiteboard&node-id=0-1&t=pQx0iBKA1vhYgMyT-0))
 - [Configure Stage - Design Sprint (Kubernetes management focus)] ([Figjam board](https://www.figma.com/file/xhQlhEDmRHjr1xFOj33NjX/Configure-Design-Sprint---Kubernetes-focus_2023-08-22_11-01-16?type=whiteboard&node-id=0-1&t=KacnCW9AH1ceXKWB-0))
 - [Growth — User's dashboard design sprint](https://gitlab.com/gitlab-org/gitlab/-/issues/342877) ([Figjam board](https://www.figma.com/file/6Ro5pZp7QVC2W8R0xfhMpD/Dashboard-mini-design-sprint_2023-08-22_10-40-59?type=whiteboard&node-id=0-1&t=ARkOxI6r0bXtGDpi-0))
-

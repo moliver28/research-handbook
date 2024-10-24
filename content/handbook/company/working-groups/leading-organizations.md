@@ -33,7 +33,7 @@ Build scalable model to activate 100 Leading Organizations by the end of FY24-Q4
    1. Reduce time to activation
 1. Recognize and amplify success
    1. Publish case studies, blog posts and fireside chats with members about co-creation
-   1. Amplify Leading Organizations’ contributions at industry conferences
+   1. Amplify Leading Organizations' contributions at industry conferences
 1. Increase capacity and improve attribution
    1. Increase reviewer/maintainer capacity in product areas with high number of contributions
    1. Improve contribution tracking, customer segmentation and attribution
@@ -45,7 +45,7 @@ Build scalable model to activate 100 Leading Organizations by the end of FY24-Q4
 | DRI                    | Emilio Salvador   | VP, Developer Relations and Community          |
 | Executive Stakeholder          | Ashley Kramer   | Chief Marketing & Strategy Officer         |
 | Functional Lead: Contributor Success | Nick Veenhof | Director, Contributor Success           |
-| Functional Lead: Developer Evangelism | John Coghlan | Sr. Manager, Developer Evangelism       |
+| Functional Lead: Developer Advocates | John Coghlan | Director, Developer Advocacy       |
 | Functional Lead: Marketing Campaigns  | Jackie Gragnola | Sr. Manager, Marketing Campaigns and ABM |
 | Functional Lead: Product Marketing  | Nicole Smith | Director, Product Marketing — Customer Advocacy |
 | Functional Lead: Customer Success | Jamie Reid  | Manager, Strategic CSMs                     |

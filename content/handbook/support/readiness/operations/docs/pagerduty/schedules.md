@@ -55,7 +55,7 @@ done, the schedule is classified as "unused".
 1. Click the blue `Save Schedule` button
 1. Update the [schedules listing](#current-schedules-used-by-support)
 1. Update
-   [the static_data.yaml file](https://gitlab.com/gitlab-com/support/team/-/blob/master/data/static_data.yaml)
+   [the static_data.yaml file](https://gitlab.com/gitlab-support-readiness/support-team/-/blob/master/data/static_data.yaml)
 
 ## Modifying a schedule
 
@@ -75,7 +75,7 @@ pagerduty for more information.
 1. Click the blue `Save Schedule` button at the bottom-left of the page
 1. Update the [schedules listing](#current-schedules-used-by-support)
 1. Update
-   [the static_data.yaml file](https://gitlab.com/gitlab-com/support/team/-/blob/master/data/static_data.yaml)
+   [the static_data.yaml file](https://gitlab.com/gitlab-support-readiness/support-team/-/blob/master/data/static_data.yaml)
 
 ## Deleting a schedule
 
@@ -90,11 +90,11 @@ policy. You need to remove it first.
 1. Click the red `Delete this Schedule`
 1. Update the [schedules listing](#current-schedules-used-by-support)
 1. Update
-   [the static_data.yaml file](https://gitlab.com/gitlab-com/support/team/-/blob/master/data/static_data.yaml)
+   [the static_data.yaml file](https://gitlab.com/gitlab-support-readiness/support-team/-/blob/master/data/static_data.yaml)
 
 ## Current schedules used by support
 
-#### Customer Emergencies - AMER Group 1
+### Customer Emergencies - AMER Group 1
 
 This rotation is used for emergencies filed by customers during AMER hours.
 
@@ -112,7 +112,7 @@ This rotation is used for emergencies filed by customers during AMER hours.
     - Friday:    1600-2200
     - Saturday:  1600-2200
 
-#### Customer Emergencies - AMER Group 2
+### Customer Emergencies - AMER Group 2
 
 This rotation is used for emergencies filed by customers during AMER hours.
 
@@ -130,7 +130,7 @@ This rotation is used for emergencies filed by customers during AMER hours.
     - Friday:    1700-2300
     - Saturday:  1700-2300
 
-#### Customer Emergencies - AMER Group 3
+### Customer Emergencies - AMER Group 3
 
 This rotation is used for emergencies filed by customers during AMER hours.
 
@@ -148,7 +148,7 @@ This rotation is used for emergencies filed by customers during AMER hours.
     - Friday:    1800-0000
     - Saturday:  1800-0000
 
-#### Customer Emergencies - APAC Group 1
+### Customer Emergencies - APAC Group 1 A
 
 This rotation is used for emergencies filed by customers during the first half
 of APAC hours.
@@ -167,7 +167,26 @@ of APAC hours.
     - Friday:    0000-0400
     - Saturday:  0000-0400
 
-#### Customer Emergencies - APAC Group 2
+### Customer Emergencies - APAC Group 1 B
+
+This rotation is used for emergencies filed by customers during the first half
+of APAC hours.
+
+- [Schedule link](https://gitlab.pagerduty.com/schedules#PKAUGWW)
+- Timezone: UTC
+- Layer 4
+  - Rotation type: weekly
+  - Handoff time: Tuesday 0000
+  - Hours:
+    - Sunday:    0000-0400
+    - Monday:    0000-0400
+    - Tuesday:   0000-0400
+    - Wednesday: 0000-0400
+    - Thursday:  0000-0400
+    - Friday:    0000-0400
+    - Saturday:  0000-0400
+
+### Customer Emergencies - APAC Group 2 A
 
 This rotation is used for emergencies filed by customers during the second half
 of APAC hours.
@@ -186,7 +205,26 @@ of APAC hours.
     - Friday:    0400-0800
     - Saturday:  0400-0800
 
-#### Customer Emergencies - EMEA
+### Customer Emergencies - APAC Group 2 B
+
+This rotation is used for emergencies filed by customers during the second half
+of APAC hours.
+
+- [Schedule link](https://gitlab.pagerduty.com/schedules#PZ42YQR)
+- Timezone: UTC
+- Layer 4
+  - Rotation type: weekly
+  - Handoff time: Tuesday 0400
+  - Hours:
+    - Sunday:    0400-0800
+    - Monday:    0400-0800
+    - Tuesday:   0400-0800
+    - Wednesday: 0400-0800
+    - Thursday:  0400-0800
+    - Friday:    0400-0800
+    - Saturday:  0400-0800
+
+### Customer Emergencies - EMEA Group 1
 
 This rotation is used for emergencies filed by customers during EMEA hours.
 
@@ -215,7 +253,36 @@ This rotation is used for emergencies filed by customers during EMEA hours.
     - Friday:    N/A
     - Saturday:  0800-1600
 
-#### Incident Management - CMOC (AMER)
+### Customer Emergencies - EMEA Group 2
+
+This rotation is used for emergencies filed by customers during EMEA hours.
+
+- [Schedule link](https://gitlab.pagerduty.com/schedules#P7ML12U)
+- Timezone: UTC
+- Layer 2 Hours:
+  - Rotation type: daily
+  - Handoff time: 0800
+  - Hours:
+    - Sunday:    N/A
+    - Monday:    0800-1600
+    - Tuesday:   0800-1600
+    - Wednesday: 0800-1600
+    - Thursday:  0800-1600
+    - Friday:    0800-1600
+    - Saturday:  N/A
+- Layer 3
+  - Rotation type: weekly
+  - Handoff time: Monday 0800
+  - Hours:
+    - Sunday:    0800-1600
+    - Monday:    N/A
+    - Tuesday:   N/A
+    - Wednesday: N/A
+    - Thursday:  N/A
+    - Friday:    N/A
+    - Saturday:  0800-1600
+
+### Incident Management - CMOC (AMER)
 
 This rotation is used for Communications Manager on Call duties during AMER
 hours.
@@ -234,7 +301,7 @@ hours.
     - Friday:    1600-0000
     - Saturday:  1600-0000
 
-#### Incident Management - CMOC (APAC Group 1)
+### Incident Management - CMOC (APAC Group 1)
 
 This rotation is used for Communications Manager on Call duties during the
 first half of APAC hours.
@@ -253,7 +320,7 @@ first half of APAC hours.
     - Friday:    0000-0400
     - Saturday:  0000-0400
 
-#### Incident Management - CMOC (APAC Group 2)
+### Incident Management - CMOC (APAC Group 2)
 
 This rotation is used for Communications Manager on Call duties during the
 second half of APAC hours.
@@ -272,7 +339,7 @@ second half of APAC hours.
     - Friday:    0400-0800
     - Saturday:  0400-0800
 
-#### Incident Management - CMOC (EMEA)
+### Incident Management - CMOC (EMEA)
 
 This rotation is used for Communications Manager on Call duties during AMER
 hours.
@@ -291,9 +358,9 @@ hours.
     - Friday:    0800-1600
     - Saturday:  0800-1600
 
-#### US Federal On-Call
+### US Government On-Call
 
-This rotation is used for emergencies filed by US Federal customers.
+This rotation is used for emergencies filed by US Government customers.
 
 - [Schedule link](https://gitlab.pagerduty.com/schedules#P89ZYHZ)
 - Timezone: Pacific Time (US & Canada)
@@ -322,7 +389,7 @@ This rotation is used for emergencies filed by US Federal customers.
     - Friday:    1100-1700
     - Saturday:  1100-1700
 
-#### Support Manager - AMER
+### Support Manager - AMER
 
 This rotation is used for Support Managers during AMER hours.
 
@@ -340,7 +407,7 @@ This rotation is used for Support Managers during AMER hours.
     - Friday:    1600-0000
     - Saturday:  1600-0000
 
-#### Support Manager - APAC
+### Support Manager - APAC
 
 This rotation is used for Support Managers during APAC hours.
 
@@ -358,7 +425,7 @@ This rotation is used for Support Managers during APAC hours.
     - Friday:    0000-0800
     - Saturday:  0000-0800
 
-#### Support Manager - EMEA
+### Support Manager - EMEA
 
 This rotation is used for Support Managers during EMEA hours.
 
@@ -376,18 +443,35 @@ This rotation is used for Support Managers during EMEA hours.
     - Friday:    0800-1600
     - Saturday:  0800-1600
 
-#### SSAT Reviewing Manager
+### Support Director Oncall
 
-This rotation is used for assigning Support Managers SSAT reviewing duties.
+This rotation is used for Support Directors.
 
-- [Schedule link](https://gitlab.pagerduty.com/schedules#P9UIIDY)
+- [Schedule link](https://gitlab.pagerduty.com/schedules/P6KUUJP)
 - Timezone: UTC
 - Layer 1
+  - Name: APAC
   - Rotation type: weekly
-  - Handoff time: Tuesday 0000
-  - Hours: Not restricted to specific times
+  - Handoff time: Sunday 0800
+  - Hours: 0000-0800
+  - Members
+    - Shaun McCann
+- Layer 2
+  - Name: EMEA
+  - Rotation type: weekly
+  - Handoff time: Sunday 1600
+  - Hours: 0800-1600
+  - Members
+    - Val Parsons
+- Layer 3
+  - Name: AMER
+  - Rotation type: weekly
+  - Handoff time: Sunday 0000
+  - Hours: 1600-0000
+  - Members
+    - Lee Matos
 
-#### Shadow - Customer Emergenices
+### Shadow - Customer Emergenices
 
 - [Schedule link](https://gitlab.pagerduty.com/schedules#PLNQAAB)
 - Timezone: UTC
@@ -436,7 +520,7 @@ This rotation is used for assigning Support Managers SSAT reviewing duties.
     - Friday:    1600-0000
     - Saturday:  N/A
 
-#### Shadow - Incident Management - CMOC
+### Shadow - Incident Management - CMOC
 
 - [Schedule link](https://gitlab.pagerduty.com/schedules#P1UHNJP)
 - Timezone: UTC
@@ -506,12 +590,12 @@ As the Pagerduty changes are unique in deployment, please see
 [Pagerduty change management](/handbook/support/readiness/operations/docs/pagerduty/change_management)
 for more information.
 
-#### Labels to use
+### Labels to use
 
 For all issues and MRs involving Pagerduty fields, the label
 `Support-Ops-Category::Pagerduty` should be used.
 
-#### Change criticality
+### Change criticality
 
 Due to wildly varying nature and impact adding/editing/deleting things in
 Pagerduty can impose, all issues/MRs related to Pagerduty need

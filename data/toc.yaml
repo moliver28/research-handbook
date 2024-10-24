@@ -14,7 +14,7 @@
     - name: Vision
       url: vision
     - name: Strategy
-      url: strategy
+      url: /handbook/company/strategy
     - name: Communication
       url: communication
       links:
@@ -30,7 +30,7 @@
       - name: Life at GitLab
         url: culture#life-at-gitlab
       - name: GitLab Contribute
-        url: https://about.gitlab.com/events/gitlab-contribute/
+        url: /handbook/company/culture/summit/
       - name: Team
         url: /handbook/company/team
       - name: Only healthy constraints
@@ -49,13 +49,11 @@
       - name: KPIs
         url: kpis
       - name: OKRs
-        url: okrs
+        url: /handbook/company/okrs
       - name: Pricing Model
         url: /handbook/company/pricing
-    - name: Creator pairing
-      url: https://about.gitlab.com/handbook/engineering/fellow/shadow/
-    - name: Chief of Staff Team to the CEO
-      url: chief-of-staff-team
+    - name: Office of the CEO
+      url: office-of-the-ceo
     - name: Key Reviews
       url: key-review
     - name: Group Conversations
@@ -63,35 +61,27 @@
     - name: E-Group Weekly
       url: e-group-weekly
     - name: Environmental, Social, and Governance
-      url: /handbook/esg
+      url: /handbook/company/esg
 - name: Handbook
   icon: fa-solid fa-book
   url: handbook
   links:
   - name: About the Handbook
     url: about
-  - name: Handbook Preferences
-    url: preferences
   - name: Handbook Changelog
     url: changelog
-  - name: Handbook Roadmap
-    url: /handbook/about/roadmap
-  - name: Handbook Support
-    url: /content/handbook/about/support.md
-  - name: Handbook On-Call
-    url: /content/handbook/about/on-call.md
+  - name: Handbook Escalation
+    url: /handbook/about/on-call.md
   - name: Handbook Usage
     url: handbook-usage
   - name: Contribution Guide
-    url: docs
-  - name: Practical Handbook Edits
-    url: https://about.gitlab.com/handbook/practical-handbook-edits/
-  - name: Edit This Website Locally
-    url: https://about.gitlab.com/handbook/git-page-update/
+    url: /docs/development/
+  - name: Editing the handbook
+    url: /handbook/about/editing-handbook/
   - name: Handbook Style Guide
-    url: https://about.gitlab.com/handbook/style-guide/
-  - name: Content Websites
-    url: content-websites
+    url: /handbook/about/style-guide/
+  - name: Handbook maintenance
+    url: /handbook/about/maintenance/
 - name: People Group
   icon: fa-solid fa-people-group
   url: /handbook/people-group/
@@ -135,6 +125,8 @@
           url: travel
         - name: Visas
           url: visas
+    - name: Talent Assessment
+      url: /handbook/people-group/talent-assessment
     - name: Team Member Relations Philosophy
       url: /handbook/people-group/team-member-relations#team-member-relations-philosophy
     - name: Total Rewards
@@ -148,8 +140,8 @@
           url: paid-time-off
         - name: Compensation
           url: compensation
-        - name: Stock Options
-          url: /handbook/stock-options
+        - name: Equity Compensation
+          url: /handbook/total-rewards/stock-options
     - name: Tools and Tips
       url: tools-and-tips
       links:
@@ -157,50 +149,46 @@
           url: /handbook/tools-and-tips/searching
 - name: Engineering
   icon: fa-solid fa-laptop-code
-  url: https://about.gitlab.com/handbook/engineering/
+  url: /handbook/engineering/
   links:
   - name: Customer Support Department
-    url: /content/handbook/support/_index.md
+    url: /handbook/support/_index.md
   - name: Development Department
-    url: https://about.gitlab.com/handbook/engineering/development/
+    url: /handbook/engineering/development/
     links:
     - name: Dev Sub-department
-      url: https://about.gitlab.com/handbook/engineering/development/dev/
-    - name: Enablement Sub-department
-      url: https://about.gitlab.com/handbook/engineering/development/enablement/
+      url: /handbook/engineering/development/dev/
     - name: Fulfillment Sub-department
-      url: https://about.gitlab.com/handbook/engineering/development/fulfillment/
-    - name: Growth Sub-department
-      url: https://about.gitlab.com/handbook/engineering/development/growth/
+      url: /handbook/engineering/development/fulfillment/
     - name: Ops Sub-department
-      url: https://about.gitlab.com/handbook/engineering/development/ops/
+      url: /handbook/engineering/development/ops/
     - name: Govern Sub-department
-      url: https://about.gitlab.com/handbook/engineering/development/sec/govern/
+      url: /handbook/engineering/development/sec/govern/
     - name: Secure Sub-department
-      url: https://about.gitlab.com/handbook/engineering/development/sec/secure/
+      url: /handbook/engineering/development/sec/secure/
   - name: Incubation Engineering Department
-    url: https://about.gitlab.com/handbook/engineering/incubation/
+    url: /handbook/engineering/development/incubation
   - name: Infrastructure Department
-    url: https://about.gitlab.com/handbook/engineering/infrastructure/
+    url: /handbook/engineering/infrastructure/
   - name: Quality Department
-    url: https://about.gitlab.com/handbook/engineering/quality/
+    url: /handbook/engineering/quality/
     links:
-    - name: Quality Engineering
-      url: https://about.gitlab.com/handbook/engineering/quality/quality-engineering/
+    - name: Test Platform
+      url: /handbook/engineering/infrastructure/test-platform/
     - name: Engineering Productivity
-      url: https://about.gitlab.com/handbook/engineering/quality/engineering-productivity/
+      url: https://handbook.gitlab.com/handbook/engineering/infrastructure/engineering-productivity/
     - name: Engineering Analytics
-      url: https://about.gitlab.com/handbook/engineering/quality/engineering-analytics/
+      url: /handbook/engineering/quality/engineering-analytics
   - name: Security Practices
     url: /handbook/security/
   - name: Open Source
-    url: https://about.gitlab.com/handbook/engineering/open-source/
+    url: /handbook/engineering/open-source/
 - name: Security
   icon: fa-solid fa-shield-halved
   url: /handbook/security
   links:
-  - name: Security Engineering
-    url: /handbook/security/security-engineering/
+  - name: Product Security
+    url: /handbook/security/product-security/
   - name: Security Operations
     url: /handbook/security/security-operations/
   - name: Threat Management
@@ -230,8 +218,7 @@
               url: /handbook/marketing/brand-and-product-marketing/product-and-solution-marketing/demo
             - name: Core Product Marketing
               url: /handbook/marketing/brand-and-product-marketing/product-and-solution-marketing/core-product-marketing
-            - name: Technical Marketing
-              url: /handbook/marketing/developer-relations/technical-marketing
+
             - name: Competitive intelligence
               url: /handbook/marketing/brand-and-product-marketing/product-and-solution-marketing/competitive-intelligence
             - name: Customer Advocacy
@@ -240,6 +227,8 @@
           url: /handbook/marketing/brand-and-product-marketing/design
         - name: Content
           url: /handbook/marketing/brand-and-product-marketing/content
+    - name: Enterprise Data
+      url: /handbook/enterprise-data/
     - name: Integrated Marketing
       url: /handbook/marketing/integrated-marketing
       links:
@@ -259,12 +248,9 @@
           url: /handbook/marketing/integrated-marketing/digital-strategy
         - name: Digital Experience
           url: /handbook/marketing/digital-experience
-          links:
-            - name: Marketing Site
-              url: /handbook/marketing/digital-experience/website
     - name: Sales Development
       url: /handbook/marketing/sales-development
-    - name: Marketing Strategy, Ops, & Analytics
+    - name: Marketing Operations and Analytics
       url: /handbook/marketing/marketing-strategy-and-platforms
       links:
         - name: Marketing Operations
@@ -273,15 +259,13 @@
           url: /handbook/marketing/strategy-performance
     - name: Growth
       url: /handbook/marketing/growth
-    - name: Developer Relations & Community
+    - name: Developer Relations
       url: /handbook/marketing/developer-relations
       links:
-      - name: Evangelist Program
-        url: /handbook/marketing/developer-relations/evangelist-program
       - name: Community Programs
         url: /handbook/marketing/developer-relations/community-programs
-      - name: Developer Evangelism
-        url: /handbook/marketing/developer-relations/developer-evangelism
+      - name: Developer Advocacy
+        url: /handbook/marketing/developer-relations/developer-advocacy
       - name: Contributor Success
         url: /handbook/marketing/developer-relations/contributor-success
     - name: Corporate Communications
@@ -297,10 +281,14 @@
   icon: fa-solid fa-handshake
   url: /handbook/sales
   links:
+  - name: Alliances
+    url: /handbook/alliances
   - name: Commercial
     url: /handbook/sales/commercial
   - name: Customer Success
     url: /handbook/customer-success
+  - name: Customer Success Management
+    url: /handbook/customer-success/csm
   - name: Reseller Channels
     url: /handbook/resellers
   - name: Field Operations
@@ -321,10 +309,8 @@
       url: /handbook/sales/field-operations/sales-systems
   - name: Reporting
     url: /handbook/business-technology/#reporting
-  - name: Customer Success Management
-    url: /handbook/customer-success/csm
-  - name: Alliances
-    url: /handbook/alliances
+  - name: Solutions Architecture
+    url: /handbook/solutions-architects/
 - name: Finance
   icon: fa-solid fa-landmark
   url: /handbook/finance
@@ -344,16 +330,16 @@
   - name: Procurement
     url: /handbook/finance/procurement
   - name: Tax
-    url: /handbook/tax
+    url: /handbook/finance/tax
   - name: Board meetings
     url: /handbook/board-meetings
   - name: Internal Audit
-    url: /handbook/internal-audit
+    url: /handbook/finance/internal-audit
     links:
      - name: Sarbanes-Oxley (SOX) Compliance
        url: sarbanes-oxley
-  - name: Stock Options
-    url: /handbook/stock-options
+  - name: Equity Compensation
+    url: /handbook/total-rewards/stock-options
 - name: Product
   icon: fa-solid fa-comments
   url: /handbook/product
@@ -361,9 +347,9 @@
   - name: Release posts
     url: /handbook/marketing/blog/release-posts
   - name: About the GitLab Product
-    url: /handbook/product/gitlab-the-product
+    url: /handbook/product/categories/gitlab-the-product
   - name: Being a Product Manager at GitLab
-    url: /handbook/product/product-manager-role
+    url: /handbook/product/product-management
   - name: Product Principles
     url: /handbook/product/product-principles
   - name: Product Processes
@@ -373,13 +359,11 @@
   - name: Product Development Flow
     url: /handbook/product-development-flow
   - name: Product Development Timeline
-    url: https://about.gitlab.com/handbook/engineering/workflow/#product-development-timeline
+    url: /handbook/engineering/workflow/#product-development-timeline
   - name: Data for Product Managers
-    url: /handbook/business-technology/data-team/programs/data-for-product-managers
+    url: /handbook/enterprise-data/programs/data-for-product-managers
   - name: Product Pricing Model
     url: /handbook/company/pricing
-  - name: Data analysis
-    url: /handbook/business-technology/data-team/
   - name: Corporate Development / Acquisitions
     url: /handbook/acquisitions
   - name: UX Department
@@ -391,9 +375,27 @@
       url: /handbook/product/ux/ux-research
     - name: Product Design
       url: /handbook/product/ux/product-design
-- name: Legal and Compliance
+- name: Legal and Corporate Affairs
   icon: fa-solid fa-scale-balanced
   url: /handbook/legal
   links:
-  - name: GitLab Code of Business Conduct and Ethics
-    url: https://ir.gitlab.com/static-files/7d8c7eb3-cb17-4d68-a607-1b7a1fa1c95d
+  - name: Commercial
+    url: /handbook/legal/commercial
+  - name: Corporate
+    url: /handbook/legal/publiccompanyresources.md
+  - name: Corporate Development
+    url: /handbook/acquisitions
+  - name: Employment
+    url: /handbook/legal/employment-law.md
+  - name: Environment, Social, and Governance (ESG)
+    url: /handbook/legal/esg
+  - name: Operations
+    url: /handbook/legal/legalops
+  - name: Privacy
+    url: /handbook/legal/privacy
+  - name: Product
+    url: /handbook/legal/product.md
+  - name: Risk Management and Dispute Resolution
+    url: /handbook/legal/risk-management-dispute-resolution.md
+  - name: Trade Compliance
+    url: /handbook/legal/trade-compliance.md

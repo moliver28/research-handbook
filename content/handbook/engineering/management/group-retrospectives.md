@@ -2,7 +2,7 @@
 title: "Group Retrospectives"
 ---
 
-As a part of our [retrospective process](/handbook/engineering/workflow/#retrospective), at the end of each release, each [Product Group](/company/team/structure/#product-groups) should hold their own Group Retrospective. The goal of the retrospective is to talk through what went well, what went wrong, and what can be improved. Some Engineering sub-departments, such as UX and Quality, also conduct their own retrospectives to feed into the main R&D retrospective and should generally follow the same process outlined here.
+As a part of our [retrospective process](/handbook/engineering/workflow/#retrospective), at the end of each release, each [Product Group](/handbook/company/structure/#product-groups) should hold their own Group Retrospective. The goal of the retrospective is to talk through what went well, what went wrong, and what can be improved. Some Engineering sub-departments, such as UX and Quality, also conduct their own retrospectives to feed into the main R&D retrospective and should generally follow the same process outlined here.
 
 ## Requirements for an efficient retrospective
 

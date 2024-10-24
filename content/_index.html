@@ -1,0 +1,52 @@
+---
+title: The GitLab Handbook
+---
+
+{{< blocks/section type="container" color="white" height="min" >}}
+{{< /blocks/section >}}
+
+<!-- generate from data/toc.yaml -->
+{{< homepage-data-toc >}}
+
+{{< blocks/section color="dark" type="row" >}}
+{{< include "includes/take-gitlab-for-a-spin.md" >}}
+<style>
+    a.btn-lg {
+        color: #fff !important;
+        }
+    .td-box--dark > .col > .row > .row > .go-for-a-spin {
+        border-right: 3px solid #fff !important;
+        padding-bottom: 0px !important;
+    }
+    .td-box--dark > .col > .row > .row > .col > a {
+        color: #bdd7fe;
+    }
+    .td-box--dark > .col > .row > hr {
+        display: none;
+    }
+    .td-box--dark > .col > .row > p {
+        display: none;
+    }
+    .td-main > .td-box--height-min {
+        text-align: center;
+        padding-bottom: 0;
+        min-height: 0;
+        height: fit-content;
+    }
+    #td-block-1 {
+        padding-top: 0;
+    }
+</style>
+{{< /blocks/section >}}
+
+<script>
+    $( document ).ready(function(event) {
+        d = docsearch({
+          container: "#docsearch-1",
+          appId: '3IIMMA8IDY',
+          apiKey: '71feb3efa6044f78ab6b8a7422e727b7',
+          indexName: 'handbook-gitlab',
+          maxResultsPerGroup: 20
+        });
+    })
+</script>

@@ -40,8 +40,11 @@ a rough estimate is that about 15% of professional software developers today use
 
 ## Setup and Configuration
 
-See the [Common Jetbrains Setup and Configuration](setup-and-config) page for instructions on installing and
-configuring JetBrains IDEs.
+See the [Common Jetbrains Setup and Configuration](setup-and-config) page for instructions on installing and configuring JetBrains IDEs.
+
+## Recommendation
+
+**Please do not use personal access tokens (PAT) on plug-ins for security reasons. For GitLab Duo, please use an API token with scope ai_features**
 
 ## Debugging
 
@@ -69,7 +72,7 @@ else's.
 ## Code Inspections
 
 One of the powerful and productivity-enhancing features of JetBrains IDEs is
-[Code Inspections](<https://www.jetbrains.com/help/ruby/running-inspections.html>
+[Code Inspections](https://www.jetbrains.com/help/ruby/running-inspections.html)
 
 See more details at [Code Inspection](code-inspection)
 

@@ -4,6 +4,8 @@ description: Support Operations documentation page for the account deletion form
 canonical_path: "/handbook/support/readiness/operations/docs/gitlab/account_deletions"
 ---
 
+<sup>*Introduced via [support-team-meta#1329](https://gitlab.com/gitlab-com/support/support-team-meta/-/issues/1329)*</sup>
+
 ## What is the account deletion form?
 
 The account deletion form is a simple HTMl form generated via GitLab Pages that
@@ -18,7 +20,7 @@ The account deletion processor is a set of scripts that handle requests sent
 from the account deletion form.
 
 The source code for it is located
-[here](https://gitlab.com/gitlab-com/support/support-ops/other-software/account-deletion-processor).
+[here](https://gitlab.com/gitlab-support-readiness/processors/account-deletion-processor).
 
 ## What are the triage policies?
 
@@ -46,24 +48,8 @@ depending on the various conditions used within.
 
 ## Change management
 
-As these are maintained via sync repositories, our standard change management
-process applies to all account deletion form or processor changes. See
-[standard change management](/handbook/support/readiness/operations/docs/change_management#standard-change-management)
-for more information.
-
-#### Labels to use
-
-For all issues and MRs involving account deletion form changes, the label
-`Support-Ops-Category::Forms` should be used.
-
-For all issues and MRs involving account deletion processor or triage policy
-changes, the label `Support-Ops-Category::GitLab Projects` should be used.
-
-#### Change criticality
-
-As this tool is vital to properly handling account deletion and data privacy
-requests, all issues/MRs related to any of the components of account deletion
-will be classified as either
-[criticality 1](/handbook/support/readiness/operations/docs/change_criticalities#criticality-1)
-or
-[criticality 2](/handbook/support/readiness/operations/docs/change_criticalities#criticality-2)
+Currently, the form is set to send the pipeline triggers to the `master` branch
+of the processor. This means that any merge requests made to the corresponding
+repos produce changes in real time. As such, these are "on demand" style changes
+and all "scheduling" should occur via the parent issue of the changes
+themselves.

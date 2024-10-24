@@ -1,14 +1,7 @@
 ---
-
 title: "Professional Services Practice Management"
 description: "Discover how the GitLab Practice Management team works together."
 ---
-
-
-
-
-
-
 
 ## Practice Management Overview
 
@@ -20,7 +13,7 @@ The professional services practice management team is responsible for maturing [
 1. **Engagement Management** - positioning, selling, scoping and coordinating sigature of customer engagements. Check out the [Engagement Management page](/handbook/customer-success/professional-services-engineering/engagement-mgmt/) for more information
 1. **Practice Management** - building, maintaining, and bringing to market service offerings to be sold and delivered by GitLab PS and our partners. Also, improving back-office processes to decrease overall cost of revenue.
 
-## Meet the team - Lets Chat!
+## Meet the team - Lets Chat
 
 You can check out our team on the [team page here](/handbook/company/team/?department=practice-management). We are most reachable via the [#ps-practice](https://gitlab.slack.com/archives/C02DWMKHGRG) slack channel.
 
@@ -29,6 +22,7 @@ You can check out our team on the [team page here](/handbook/company/team/?depar
 We use the [PS-Practice-Management](https://gitlab.com/gitlab-com/customer-success/professional-services-group/ps-leadership-team/ps-practice-management) project to track our [backlog of issues](https://gitlab.com/gitlab-com/customer-success/professional-services-group/ps-leadership-team/ps-practice-management/-/issues).
 
 We use a few different [kanban boards](https://gitlab.com/gitlab-com/customer-success/professional-services-group/ps-leadership-team/ps-practice-management/-/boards/2685806?label_name[]=EM_Process) in this project to help track work from ideation to completion.
+
 - We use the scoped labels starting with `ps::` e.g. `ps::todo` to track progress on issues.
 - We use the `EM_process` label for engagement management and pre sales process improvements
 - We use the `PM-process` label for project management and delivery process improvements
@@ -85,14 +79,14 @@ Here are the main labels specific to the Education Practice Management projects.
 - **Add to customers.gitlab.com ordering page**: Gives visibility and leads user down path of discovering more offerings
 - **Event Presence**: Education Services presence at Commit
 - **Community and Evangelism**:
-    - **GitLab Heros**: Pilot with GitLab Heros to test out certifications. Have Heros participate in training in advance of commit and then iterate based on that. Offer trainings for free and offer free exam to get gitlab certified ahead of time (John Coghlan is contact)
-    - **GitLab Evangelism team**: Collaboration initiatives TBD
+  - **GitLab Heros**: Pilot with GitLab Heros to test out certifications. Have Heros participate in training in advance of commit and then iterate based on that. Offer trainings for free and offer free exam to get GitLab certified ahead of time (John Coghlan is contact)
+  - **GitLab Evangelism team**: Collaboration initiatives TBD
 - **Add to Customer Success Plan**: Make certifications part of success plan from CSM. Set metrics against percentage of users who complete certifications
 - Offerings integrated into customer adoption nurture campaign
 - In-product awareness
 - Direct marketing on 3rd party platforms/communities where target audience lives
-    - edEx, EdCast Leapest Marketplace, LinkedIn, Dice.com
-    - Blog posts -- GitLab and 3rd party sites (eg StackOverflow, FB)
+  - edEx, EdCast Leapest Marketplace, LinkedIn, Dice.com
+  - Blog posts -- GitLab and 3rd party sites (eg StackOverflow, FB)
 
 ## Practice Management How to
 

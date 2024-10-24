@@ -27,7 +27,7 @@ The Chief Information Security Officer (CISO) reports to our CEO. The CISO is re
 ## Links
 
 - [Security Handbook](/handbook/security/)
-- [Engineering Workflow](https://about.gitlab.com/handbook/engineering/workflow/)
+- [Engineering Workflow](/handbook/engineering/workflow/)
 
 ## Hiring Process
 

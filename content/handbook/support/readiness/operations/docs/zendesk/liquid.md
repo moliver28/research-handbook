@@ -4,7 +4,6 @@ description: Support Operations documentation page for the Zendesk liquid langua
 canonical_path: "/handbook/support/readiness/operations/docs/zendesk/liquid"
 ---
 
-
 ## What is the liquid language
 
 Liquid is an [open-source](https://github.com/Shopify/liquid) template language
@@ -149,7 +148,7 @@ that can be used, these are by far just the most common used at GitLab.
 | for | `for x in y`, `for x in y limit:5`, `for x in y offset:3`, `for x in y reversed` |
 | cycle | `cycle "apple", "banana", "cherry"` |
 
-## Examples
+### Examples
 
 #### Create documentation issue trigger
 
@@ -232,9 +231,9 @@ the ticket form.
 ```string
 {% assign form = ticket.ticket_form %}
 
-{% if form == 'Gitlab.com (SaaS) User Accounts and Login Issues' %}
+{% if form == 'GitLab.com User Accounts and Login Issues' %}
   {% assign form = 'form::GitLab.com' %}
-{% elsif form == 'Support for GitLab.com (SaaS)' %}
+{% elsif form == 'Support for GitLab.com' %}
   {% assign form = 'form::GitLab.com' %}
 {% elsif form == 'Support for a self-managed GitLab instance' %}
   {% assign form = 'form::Self-managed' %}
@@ -255,10 +254,10 @@ Line by line breakdown:
    - The value should be the ticket's form
 1. A blank line for spacing (not required, just makes it look nicer)
 1. Declare an `if` block, with the condition being if the value of `form` is
-   `Gitlab.com (SaaS) User Accounts and Login Issues`
+   `GitLab.com User Accounts and Login Issues`
 1. Assign a value to the variable `form`
 1. Declare an `elsif` block, with the condition being if the value of `form` is
-   `Support for GitLab.com (SaaS)`
+   `Support for GitLab.com`
 1. Assign a value to the variable `form`
 1. Declare an `elsif` block, with the condition being if the value of `form` is
    `Support for a self-managed GitLab instance`

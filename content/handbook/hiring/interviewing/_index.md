@@ -1,15 +1,15 @@
 ---
 title: "Interviewer Prep Requirements"
-description: "Learn more about the tools required to prepare you for interviewing at Gitlab"
+description: "Learn more about the tools required to prepare you for interviewing at GitLab"
 ---
 
-As an interviewer, you play a significant part in creating a seamless, candidate-centered experience for all applicants here at Gitlab. Keeping an up-to-date calendar and setting up your specific interviewer preferences is essential to help reduce interview cancellations or declines and the need for rescheduling. This page will provide links and examples on how to adjust your calendar and interviewer preferences as well. We urge you to visit this Handbook page for a deeper understanding of how Gitlab candidates are moved through the interview process. DRI: Candidate Experience Team
+As an interviewer, you play a significant part in creating a seamless, candidate-centered experience for all applicants here at GitLab. Keeping an up-to-date calendar and setting up your specific interviewer preferences is essential to help reduce interview cancellations or declines and the need for rescheduling. This page will provide links and examples on how to adjust your calendar and interviewer preferences as well. We urge you to visit this Handbook page for a deeper understanding of how GitLab candidates are moved through the interview process. DRI: Candidate Experience Team
 
 To provide you with the knowledge and skills necessary to conduct effective and equitable interviews and to make informed hiring decisions, please visit this [handbook page]({{< ref "conducting-a-gitlab-interview" >}}).
 
 ## Inclusive Interviewing
 
-At Gitlab we strive to ensure our hiring teams are well versed in every aspect of diversity, inclusion, and cultural competence. A positive and comfortable candidate experience needs to be our priority. As an interviewer at Gitlab, we urge you to be committed to creating a welcoming and inclusive environment for all candidates.
+At GitLab we strive to ensure our hiring teams are well versed in every aspect of diversity, inclusion, and cultural competence. A positive and comfortable candidate experience needs to be our priority. As an interviewer at GitLab, we urge you to be committed to creating a welcoming and inclusive environment for all candidates.
 
 We do not ask for the candidate's pronouns in the application form. This information is "sensitive information" according to GDPR and other applicable privacy acts. We encourage our interviewers to utilize Zoom's Pronoun feature and you're welcome to disclose your pronouns in any way you feel comfortable doing so.
 
@@ -31,8 +31,8 @@ We do not ask for the candidate's pronouns in the application form. This informa
 
 CES uses your Google calendar to schedule interviews. Our scheduling tool, Prelude will provide us with open times during your working hours to schedule. This is why it is *incredibly* important to maintain your calendar. Declined interviews prolong our recruiting process and negatively impact the experience of our candidates and hiring teams. Please only decline an interview invitation for an extenuating circumstance, such as an emergency, illness or childcare. We urge you to attend any scheduled interview to avoid a negative candidate experience. Please see best practices below when needing to decline and reschedule an interview.
 
-- If absolutely necessary, please decline interview calendar invites within 24-48 hours of receiving it. To decline, click “No” on the calendar invite. This will alert CES to work on rescheduling the interview and notifying the candidate in an acceptable amount of time.
-- When applicable, please provide a reason for declining the interview. (For example: if you’re feeling too ill to conduct the interview or if you were scheduled for another mandatory meeting, etc.). Then click Send.
+- If absolutely necessary, please decline interview calendar invites within 24-48 hours of receiving it. To decline, click "No" on the calendar invite. This will alert CES to work on rescheduling the interview and notifying the candidate in an acceptable amount of time.
+- When applicable, please provide a reason for declining the interview. (For example: if you're feeling too ill to conduct the interview or if you were scheduled for another mandatory meeting, etc.). Then click Send.
 - Declining the calendar invite allows our automated system to pick up the request, triage accordingly and bring it to the notice of the respective CES. All declined interviews will be considered urgent and CES will be prioritizing it accordingly.
 - If you need to decline an interview within 48 hours of the scheduled time and  you are able to provide CES a replacement interviewer, that would be preferred.
 - **Special Note:** Please do not add anyone else to your interview. If you need to swap with another interviewer or you would like to add a shadow, please tag @ces in your respective hiring channel or email ces@gitlab.com and we will happily make the adjustment to the invite.
@@ -59,12 +59,12 @@ Within Prelude, interviewers can set their interviewing availability, set daily 
 
 ***Examples of helpful notes include:***
 
-- “Can schedule 1 hour outside of availability with advance notice”
-- “No interviews on Monday/ Wednesday mornings if possible”
-- "CES can schedule over 1:1 or coffee chats”
+- "Can schedule 1 hour outside of availability with advance notice"
+- "No interviews on Monday/ Wednesday mornings if possible"
+- "CES can schedule over 1:1 or coffee chats"
 - "Do not book over Focus Fridays / please ask before scheduling"
 
-Additionally, you can help us understand which meetings are moveable and which are not. We’ve set up some recommendations in your Prelude account to get you started, but you can adjust these preferences yourself.
+Additionally, you can help us understand which meetings are moveable and which are not. We've set up some recommendations in your Prelude account to get you started, but you can adjust these preferences yourself.
 
 ![Scheduling conflicts](Conflicts.png)
 
@@ -74,7 +74,7 @@ In Preferences, interviewers also have the ability to set daily and weekly Inter
 
 ## Guide
 
-Guide is the Interview Confirmation tool CES uses to send candidates their interview schedule. Guide provides candidates information about what their interview journey looks like, their interviewers, and Gitlab! You have the ability as an interviewer to update your Guide profile which can include a photo, bio and more about your role here at GitLab.
+Guide is the Interview Confirmation tool CES uses to send candidates their interview schedule. Guide provides candidates information about what their interview journey looks like, their interviewers, and GitLab! You have the ability as an interviewer to update your Guide profile which can include a photo, bio and more about your role here at GitLab.
 
 **Logging into Guide**
 

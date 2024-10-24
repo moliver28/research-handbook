@@ -4,9 +4,9 @@ title: "Quality Department Career Framework"
 
 ## Quality Department Career Framework
 
-{{% include "includes/engineering/quality-career-nav.md" %}}
+{{% include "includes/engineering-careers/quality-career-nav.md" %}}
 
-Here is a [flowchart representation](https://about.gitlab.com/handbook/engineering/careers/#quality-department) of the Career development in Quality Department.
+Here is a [flowchart representation](/handbook/engineering/careers/#quality-department) of the Career development in Quality Department.
 
 ### Software Engineer in Test
 
@@ -38,4 +38,3 @@ These are the expected competencies of the Quality Backend Engineer, Engineering
 1. [Intermediate](/handbook/engineering/careers/matrix/quality/engineering-productivity/intermediate/)
 1. [Senior](/handbook/engineering/careers/matrix/quality/engineering-productivity/senior/)
 1. [Staff](/handbook/engineering/careers/matrix/quality/engineering-productivity/staff/)
-

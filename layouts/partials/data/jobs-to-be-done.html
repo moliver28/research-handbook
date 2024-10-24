@@ -1,9 +1,0 @@
-{{- $jobToBeDone := dict }}
-{{- with resources.GetRemote "https://gitlab.com/gitlab-com/www-gitlab-com/-/raw/master/data/jobs_to_be_done.yml" }}
-  {{- with .Err }}
-    <h2>Unable to fetch jobs_to_be_done.yml</h2>
-  {{- else }}
-      {{- $jobToBeDone = . | transform.Unmarshal }}
-  {{- end }}
-{{- end }}
-{{- return $jobToBeDone }}

@@ -1,71 +1,91 @@
 ---
-title: "GitLab System Administration Hands-on Guide: Lab 3"
-description: "This hands-on lab guide is designed to walk you through the lab exercises used in the GitLab System Administration course."
+title: "GitLab System Administration - Hands-on Lab: Configure GitLab Runners"
+description: "This Hands-On Guide walks you through installing and managing a GitLab Runner on a virtual machine."
 ---
 
-# GitLab System Administration Hands-on Guide: Lab 3
+> Estimated time to complete: 40 minutes
 
+## Objectives
 
-## LAB 3- CONFIGURE GITLAB RUNNERS
+The objective of this lab is to demonstrate how to create and register a GitLab Runner on a server. For more information about GitLab Runners, click [here](https://docs.gitlab.com/runner/).
 
-### A. Install the gitlab-runner package
+### Task A. Install the gitlab-runner package
 
 1. Use your assigned IP address and SSH key file to log into your **GitLab Runner** server (*not* your Omnibus server).
 
-     ```
-   ssh -i YOUR_ASSIGNED_SSH_KEYFILE ec2-user@YOUR_RUNNER_SERVER_PUBLIC_IP
-     ```
+    ```bash
+    ssh -i <YOUR_ASSIGNED_SSH_KEYFILE> root@<YOUR_RUNNER_SERVER_PUBLIC_IP>
+    ```
 
-     Press <kbd>Enter</kbd>
-2. If your system displays an authentication warning, type `yes` and press <kbd>Enter</kbd>
-3. Add the GitLab Runner installation repository.
+1. If your system displays an authentication warning, type `yes` and press <kbd>Enter</kbd>
 
-     ```
-   curl -L "https://packages.gitlab.com/install/repositories/runner/gitlab-runner/script.rpm.sh" | sudo bash
-     ```
+1. Add the GitLab Runner installation repository.
 
-4. Install the GitLab Runner agent.
+    ```bash
+    curl -L "https://packages.gitlab.com/install/repositories/runner/gitlab-runner/script.deb.sh" | sudo bash
+    ```
 
-     ```
-   sudo dnf install -y gitlab-runner
-     ```
+1. Install the GitLab Runner agent.
 
-5. Once the install completes, check that the service is running.
+    ```bash
+    sudo apt-get install -y gitlab-runner
+    ```
 
-     ```
-   sudo gitlab-runner status
-     ```
+1. Once the install completes, check that the service is running.
 
+    ```bash
+    sudo gitlab-runner status
+    ```
 
-### B. Register a runner with GitLab
+### Task B. Register a runner with GitLab
 
-1. Sign into your GitLab instance with a web browser and select **Menu > Admin**.
-2. In the left sidebar, under **Overview**, select **Runners**.
-3. Select the **Register an instance runner** dropdown, and copy the registration token to your clipboard.
-4. Return to your SSH session on your GitLab Runner server. Run the following command to begin the registration process.
+1. Sign into your GitLab instance with a web browser and select **Admin Area** from the left sidebar.
 
-     ```
-   sudo gitlab-runner register
-     ```
+1. In the left sidebar, under **CI/CD**, select **Runners**.
 
-5. Enter `http://GITLAB_INSTANCE_PUBLIC_IP` as the GitLab instance URL. Press <kbd>Enter</kbd> after completing this and the remaining prompts.
-6. Paste the registration token when prompted. Press <kbd>Enter</kbd>.
-7. Enter an optional description for the runner. Press <kbd>Enter</kbd>.
-8. When prompted to enter tags for the runner, press <kbd>Enter</kbd> through the prompt without specifying any tags.
-9. When prompted for an optional maintenance note, press <kbd>Enter</kbd> to bypass that step.
-10. When prompted to select a runner executor, type `shell`. Press <kbd>Enter</kbd>.
-11. Run `sudo gitlab-runner list` to verify the runner after registration.
-12. Return to your web browser and refresh the **Runners** page on your GitLab instance. Verify the runner you registered appears in the list and shows as online.
+1. Select **New instance runner**.
 
-### C. Test the runner with a CI/CD pipeline
+1. In the **Tags** section, select **Run untagged jobs**.
 
-1. From GitLab in your web browser, select **Menu > Projects > Your projects**.
-2. Select **New project**.
-3. Select **Create blank project**.
-4. Enter `CICD Test` as the project name. Leave all other settings as they are and click **Create project**.
-5. In the middle of the project landing page, under the project title, select the **+** dropdown. Select **New file**.
-6. On the new file page, enter `.gitlab-ci.yml` as the file name.
-7. Paste the following code into the body of the file.
+    > This will allow the runner to pick up any jobs rather than just jobs with specific tags.
+
+1. Leave all other options as default and select **Create runner**.
+
+1. Ensure that **Linux** is selected as the **Operating system** for the runner.
+
+1. Copy the command in **Step 1**, and add `sudo` in front of the command. Run it in your command prompt.
+
+1. The command will first prompt you for your GitLab instance URL. Verify that this URL matches your GitLab instance, then press <kbd>Enter</kbd>
+
+1. Enter any appropriate name for your runner.
+
+1. When you are prompted for an executor, type `shell`.
+
+    > A shell executor will run jobs using your instance's shell. For more information about executors, check the [documentation](https://docs.gitlab.com/runner/executors/).
+
+1. Run `sudo gitlab-runner list` to verify the runner after registration.
+
+1. Return to your web browser and select **View runners**. Verify the runner you registered appears in the list and shows as online.
+
+### Task C. Test the runner with a CI/CD pipeline
+
+1. Navigate back to the homepage of your GitLab instance by selecting the GitLab icon at the top of the left sidebar.
+
+1. Select **Create a project**.
+
+1. Select **Create blank project**.
+
+1. Enter `CICD Test` as the project name.
+
+1. In the `Project URL`, select `root` from the namespace dropdown.
+
+1. Leave all other settings as they are and click **Create project**.
+
+1. In the middle of the project landing page, under the project title, select the **+** dropdown. Select **New file**.
+
+1. On the new file page, enter `.gitlab-ci.yml` as the file name.
+
+1. Paste the following code into the body of the file.
 
     ```yml
     stages:
@@ -83,12 +103,18 @@ description: "This hands-on lab guide is designed to walk you through the lab ex
         - echo "The test stage requires at least one job"
     ```
 
-8. Select **Commit changes**.
-9. In the left sidebar, select **CI/CD > Pipelines**.
-10. Select the pipeline status (it should say **passed**).
-11. Click into each of the **build_app** and **test_app** jobs to see the job logs and commands that were executed on the runner.
+1. Select **Commit changes**.
 
-### SUGGESTIONS?
+1. In the left sidebar, select **Build > Pipelines**.
 
-If you’d like to suggest changes to the GitLab System Admin Basics Hands-on Guide, please submit them via merge request.
+1. Select the pipeline status (it should say **passed**).
 
+1. Click into each of the **build_app** and **test_app** jobs to see the job logs and commands that were executed on the runner.
+
+## Lab Guide Complete
+
+You have completed this lab exercise. You can view the other [lab guides for this course](/handbook/customer-success/professional-services-engineering/education-services/sysadminhandson).
+
+### Suggestions?
+
+If you'd like to suggest changes to the GitLab System Admin Hands-on Guide, please submit them via merge request.

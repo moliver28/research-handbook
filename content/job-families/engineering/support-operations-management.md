@@ -34,7 +34,7 @@ As a Support Operations Manager you will:
   company wide initiatives.
 - own and drive projects to completion in agreement with relevant stakeholders
   in a cross-departmental function.
-- contribute to the administering all software systems used by GitLab’s
+- contribute to the administering all software systems used by GitLab's
   Technical Support team (e.g. Zendesk Suite, GitLab, Slack, SFDC, Google
   groups, Insights/Explore, and GitLab internal systems) including user
   administration in accordance with written and audited security controls and
@@ -92,7 +92,7 @@ As a Support Operations Manager you will:
 ### Career Ladder
 
 For more details on the engineering career ladders, please review the
-[engineering career development](https://about.gitlab.com/handbook/engineering/career-development/#roles)
+[engineering career development](/handbook/engineering/careers/#roles)
 handbook page.
 
 ### How you'll be measured

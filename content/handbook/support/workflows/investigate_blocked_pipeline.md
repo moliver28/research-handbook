@@ -43,7 +43,7 @@ The rules are documented in the [Trust and Safety - Repository Validation Servic
 
 ## Trends / High Priority cases
 
-When rules change or are updated there's the potential for a batch of false positives. If there are many reported cases in a short period, [report an incident](https://about.gitlab.com/handbook/engineering/infrastructure/incident-management/#report-an-incident-via-slack).
+When rules change or are updated there's the potential for a batch of false positives. If there are many reported cases in a short period, [report an incident](/handbook/engineering/infrastructure/incident-management/#report-an-incident-via-slack).
 
 It will be helpful to:
 

@@ -1,13 +1,6 @@
 ---
-
 title: "Persona snippets"
 ---
-
-
-
-
-
-
 
 ## SDR Persona Snippets
 

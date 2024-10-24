@@ -68,7 +68,7 @@ When creating feature descriptions, follow these guidelines:
    - Less than 1 normal paragraph might be not enough. On the other hand, if the text is too long, participants will more likely skim through the content and not develop a full grasp of the feature.
 1. Include only new features
    - Including features that are already developed can set a benchmark; however, it is mostly not actionable and therefore useless in this context.
-1. Enrich the descriptions with images or gifs
+1. Enrich the descriptions with images or GIFs
    - Having a visual aid can help participants understand the concept being described in the feature description.
 
 In general, feature descriptions should follow this basic structure:
@@ -134,7 +134,7 @@ For ane example of a research plan, see this past [Kano study plan in Google Doc
 
 #### Questionnaire structure
 
-Use [Qualtrics](/handbook/product/ux/qualtrics/) to create the questionnaire. Each feature description with related questions (functional and dysfunctional question) should be presented on a separate block, so participants can answer each feature independent of another. Also, it is recommended to randomize the order of each block, so the presentation order does not affect participants' feedback.
+Use [Qualtrics](/handbook/product/ux/ux-research/surveys/qualtrics/) to create the questionnaire. Each feature description with related questions (functional and dysfunctional question) should be presented on a separate block, so participants can answer each feature independent of another. Also, it is recommended to randomize the order of each block, so the presentation order does not affect participants' feedback.
 
 Example [survey](https://gitlab.eu.qualtrics.com/jfe/preview/SV_3VoczISwBuK8ab3?Q_CHL=preview&Q_SurveyVersionID=current) that we used in [#1027](https://gitlab.com/gitlab-org/ux-research/-/issues/1027)
 

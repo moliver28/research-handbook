@@ -1,14 +1,7 @@
 ---
-aliases: /handbook/marketing/marketing-operations/Cognism
 title: "Cognism"
 description: "Cognism is sales intelligence software that provides contact or account data helping sales and marketing teams drive predictable pipeline"
 ---
-
-
-
-
-
-
 
 ## About Cognism
 
@@ -22,17 +15,19 @@ Once you receive your login and enter the Cognism platform you will need to down
 
 Once you are logged in into your Cognism Web-App, start by connecting your tools (Salesforce & Outreach). This will allow you to export leads to both tools.
 
-Even though this process is very straight forward, feel free to reference the [How to Integrate Cognism to Salesforce](https://help.cognism.com/hc/en-gb/articles/4407455139602-How-to-Integrate-Cognism-to-Salesforce-) and [How to Integrate Cognism to Outreach](https://help.cognism.com/hc/en-gb/articles/4403394602130-How-to-integrate-Cognism-to-Outreach) documentations if need be.
+Even though this process is very straight forward, feel free to reference the [How to Integrate Cognism to Salesforce](https://help.cognism.com/hc/en-gb/articles/4407455139602-How-to-Integrate-Cognism-to-Salesforce-) and [How to Integrate Cognism to Outreach](https://help.cognism.com/hc/en-gb/articles/12127689794834-How-to-integrate-Cognism-to-Outreach) documentations if need be.
 
 ## Ways to access Cognism
 
 Your direct login allows you to login in either the [Cognism Web App](https://app.cognism.com/auth/sign-in) or in the Cognism Chrome Extension. Both can be used to access the Cognism data. Additionally, Cognism data is populated directly into our SFDC instance, on the Cognism fields for the leads that meet the criteria to be automatically enriched or, on the leads that have been exported manually from the Chrome Extension or from Cognism Web App.
 
-## Who can use Cognism at Gitlab?
+## Who can use Cognism at GitLab?
 
 For the moment, the Cognism Web App and the Cognism Chrome Extension are only used by the Sales Development Organization and specifically by the BDR role. We do allow for temporary licenses outside of the BDR role if we have them available, however, the temporary license will get revoked as soon as a BDR needs it.
 
 The Cognism data that was enriched on specific lead records, however, can be viewed by anyone by just checking the Cognism fields on the lead & contact objects.
+
+Note, we redistribute inactive seats to new Cognism users. Any users who have not logged in to Cognism in the last 2 months are at risk of losing their seats. If you wish to keep your Cognism seats, please be sure you are regularly logging in and using the platform.
 
 ## Training
 
@@ -83,6 +78,7 @@ The current enrichment criteria is the following:
 2. `Last Interesting Moment Date` equals `Last 30 Days` *AND* `[PQL] Product Qualified Lead` equals `True` *AND* `[PTPT] Score Group` equals `4,5`;
 3. `Initial Source` equals `Zoominfo` *AND* (`Phone` equals `blank` *OR* `Email` equals `blank`) *AND* `Demographic Score` greater than `59`;
 4. `Initial Source` equals `Request - Contact` *AND* (`Phone` equals `blank` *OR* `Email` equals `blank`) *AND* `Lead Owner` does not contain `disq,inel,jihu`.
+5. `Lead Status` equals `MQL, Accepted, Qualifying` *AND* `Vartopia Partner Account` equals `blank` *AND* Campaign Field - `Member First Responded Date` equals `Current FY` *AND* Campaign Field - `Campaign Type` equals `Trial` *AND* `[Cognism] Automatically Enriched` equals `False` *AND* `Account Demographics: Region` equals `EMEA`.
 
 ## Cognism Licensing Policy & Procedures
 
@@ -92,7 +88,7 @@ Cognism management is exclusively done by the Marketing Operations team. We curr
 
 ### Access & Help
 
-BDRs receive acces to Cognism as part of the onboarding process. If the team member did not receive access or if access has been removed and you would like it back, you will need to open an [individual access request](/handbook/business-technology/team-member-enablement/onboarding-access-requests/access-requests/).
+BDRs receive acces to Cognism as part of the onboarding process. If the team member did not receive access or if access has been removed and you would like it back, you will need to open an [individual access request](/handbook/it/end-user-services/onboarding-access-requests/access-requests/).
 
 If you are experiencing issues with Cognism, feel free to chime in #mktgops slack channel and ask for help. You can also reach out to Cognism directly at help@cognism.com
 
@@ -117,5 +113,4 @@ If a temporary license is assigned to a non-BDR role it can be revoked at any ti
 
 ### Pending Invites
 
-Pending Cognim Invites have to be accepted in the time-span of a week because they block licenses from being assigned. If, after a week, the invite is still not accepted, it will be cancelled. Another invite can be sent out if requested through an [individual access request](/handbook/business-technology/team-member-enablement/onboarding-access-requests/access-requests/)
-
+Pending Cognim Invites have to be accepted in the time-span of a week because they block licenses from being assigned. If, after a week, the invite is still not accepted, it will be cancelled. Another invite can be sent out if requested through an [individual access request](/handbook/it/end-user-services/onboarding-access-requests/access-requests/)

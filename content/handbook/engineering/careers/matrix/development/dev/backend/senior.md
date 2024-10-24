@@ -3,29 +3,33 @@ title: "Dev Career Framework: Senior Backend Engineer"
 ---
 
 ## Dev Senior Backend Engineer (BE)
- 
-{{% include "includes/engineering/dev-be-career-matrix-nav.md" %}}
+
+{{% include "includes/engineering-careers/dev-be-career-matrix-nav.md" %}}
 
 **Dev Senior Backend Engineers at GitLab are expected to exhibit the following competencies:**
 
+<!-- markdownlint-disable MD051 -->
 - [Leadership Competencies](#leadership-competencies)
 - [Technical Competencies](#technical-competencies)
 - [Values Alignment](#values-alignment)
+<!-- markdownlint-enable MD051 -->
 
 ---
 
 ### Senior Leadership Competencies
 
-{{% include "includes/engineering/senior-leadership-competency.md" %}}
-{{% include "includes/engineering/development-senior-leadership-competency.md" %}}
+{{% include "includes/engineering-careers/senior-leadership-competency.md" %}}
+{{% include "includes/engineering-careers/development-senior-leadership-competency.md" %}}
+
 - Leads technical architecture discussions and help drive technical decisions
 - Performs Code Reviews across multiple stages on a regular cadence
 - Participates on Working Groups as the need arises
 
 ### Senior Technical Competencies
 
-{{% include "includes/engineering/senior-technical-competency.md" %}}
-{{% include "includes/engineering/development-senior-technical-competency.md" %}}
+{{% include "includes/engineering-careers/senior-technical-competency.md" %}}
+{{% include "includes/engineering-careers/development-senior-technical-competency.md" %}}
+
 - Able to work with 3rd party services regardless of the quality of the documentation
 - Identifies slow and inefficient code produced by team members
 - Provides high level of expertise in server side programming languages and their frameworks
@@ -35,5 +39,5 @@ title: "Dev Career Framework: Senior Backend Engineer"
 
 ### Senior Values Alignment
 
-{{% include "includes/engineering/values-competency.md" %}}
-{{% include "includes/engineering/development-senior-values-competency.md" %}}
+{{% include "includes/engineering-careers/values-competency.md" %}}
+{{% include "includes/engineering-careers/development-senior-values-competency.md" %}}

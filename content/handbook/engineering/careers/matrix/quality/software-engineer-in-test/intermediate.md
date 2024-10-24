@@ -5,7 +5,7 @@ description: "These are the expected competencies of an Intermediate Software En
 
 ## Quality Department Competencies: Intermediate
 
-{{% include "includes/engineering/quality-career-nav.md" %}}
+{{% include "includes/engineering-careers/quality-career-nav.md" %}}
 
 **Intermediates at GitLab are expected to exhibit the following competencies:**
 
@@ -17,15 +17,15 @@ description: "These are the expected competencies of an Intermediate Software En
 
 ### Intermediate Leadership Competencies
 
-{{% include "includes/engineering/intermediate-leadership-competency.md" %}}
+{{% include "includes/engineering-careers/intermediate-leadership-competency.md" %}}
   
 ### Intermediate Technical Competencies
 
-{{% include "includes/engineering/quality-intermediate-technical-competency.md" %}}
+{{% include "includes/engineering-careers/quality-intermediate-technical-competency.md" %}}
 
 ### Intermediate Values Alignment
 
-{{% include "includes/engineering/values-competency.md" %}}
+{{% include "includes/engineering-careers/values-competency.md" %}}
 
 ### Intermediate Career Matrix Worksheet
 

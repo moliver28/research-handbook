@@ -126,7 +126,7 @@ All requirements of previous roles plus:
 
 ### Security Leadership
 
-For details on the Security organization leadership roles, to include the Security Engineering Director and VP of Security, see the Security Leadership page.
+For details on the Security organization leadership roles, to include the Product Security Director and VP of Security, see the Security Leadership page.
 
 ## Specialties
 

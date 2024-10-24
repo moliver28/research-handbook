@@ -4,9 +4,9 @@ title: CFO Shadow Program
 
 ## Overview
 
-The CFO Shadow Program is an immersive 1 or 2 week assignment where team members can apply to shadow the CFO. The [70:20:10 model for learning]({{< ref "/handbook/people-group/learning-and-development#70-20-10-model-for-learning-and-development" >}}) shows us that most adults gain ~90% of their knowledge through experiential learning. While formal "classroom" style training plays an important role in teaching new concepts, real life experiences are critical to helping adults develop and retain new skills. The CFO Shadow program is a unique growth opportunity for team members who are looking to experience a "day in the life" of a CFO of a publicly traded company, gain greater cross-functional insight, and develop their general business and Finance acumen.
+The CFO Shadow Program is an immersive 1 or 2 week assignment where team members can apply to shadow the CFO. The [70:20:10 model for learning](/handbook/people-group/learning-and-development#70-20-10-model-for-learning-and-development) shows us that most adults gain ~90% of their knowledge through experiential learning. While formal "classroom" style training plays an important role in teaching new concepts, real life experiences are critical to helping adults develop and retain new skills. The CFO Shadow program is a unique growth opportunity for team members who are looking to experience a "day in the life" of a CFO of a publicly traded company, gain greater cross-functional insight, and develop their general business and Finance acumen.
 
-In the spirit of [boring solutions]({{< ref "values#boring-solutions" >}}), the CFO Shadow program mirrors the original [CEO Shadow program]({{< ref "/handbook/ceo/shadow#overview" >}}) in many ways, with some customizations.
+In the spirit of [boring solutions](/handbook/values/#boring-solutions), the CFO Shadow program mirrors the original [CEO Shadow program](/handbook/ceo/shadow#overview) in many ways, with some customizations.
 
 ## What to Expect
 
@@ -14,27 +14,27 @@ The CFO Shadow program consists of a 1 or 2 week rotation, depending on the CFO'
 
 ## Eligibility
 
-In the first iteration of the CFO shadow program, the program is open to Finance Division team members. We aim to open the program to the greater GitLab team in FY25 and to incorporate any learnings from our early Shadows.
+The CFO shadow program is now open to all team members.
 
-To benefit the most from the types of meetings that the CFO attends, it's recommended that the participants have a general understanding of Finance, Business, Economics, and/or Accounting principles.  CFO Shadows must be in good performance standing in their current role.
+To benefit the most from the types of meetings that the CFO attends, it's recommended that the participants have a general understanding of Finance, Business, Economics, and/or Accounting principles. CFO Shadows must be in good performance standing in their current role.
 
 ## How to Apply
 
 1. Create a merge request to add yourself to the [rotation schedule](#rotation-schedule)
 1. Assign your manager and ask them to approve (**but not to merge**) the merge request
-1. Once your manager approves the merge request, assign the merge request to the [Sr EBA to the CFO]({{< ref "eba#e-group-member-ebas" >}})
+1. Once your manager approves the merge request, assign the merge request to the [Sr EBA to the CFO](/handbook/eba/#e-group-member-ebas)
 
-## Additional Preparation:
+## Additional Preparation
 
 ### Confidentiality
 
-Participating in the shadow program is a privilege where you will be exposed to confidential information. This is underpinned by trust in the shadows to honor the confidentiality of topics being discussed and information shared. The continuation of this program is entirely dependent on shadows past, present, and future honoring this trust placed in them. Please be aware that the role of CFO Shadow will place you on the Designated Insider list for that quarter. You will need to request pre-clearance to trade during the open window. More info on the Designated Insider list and pre-clearance can be found [here] https://handbook.gitlab.com/handbook/legal/publiccompanyresources/.
+Participating in the shadow program is a privilege where you will be exposed to confidential information. This is underpinned by trust in the shadows to honor the confidentiality of topics being discussed and information shared. The continuation of this program is entirely dependent on shadows past, present, and future honoring this trust placed in them. Please be aware that the role of CFO Shadow will place you on the Designated Insider list for that quarter. You will need to request pre-clearance to trade during the open window. More info on the Designated Insider list and pre-clearance can be found [here](/handbook/legal/publiccompanyresources/).
 
 ### Create an onboarding and offboarding issue
 
- We currently track onboarding and offboarding in the [cfo-shadow](https://gitlab.com/gitlab-com/Finance-Division/cfo-shadow) project.  For questions, reach out to the [Sr EBA to the CFO]({{< ref "eba#e-group-member-ebas" >}}) in the `#cfo-shadow` channel
+ We currently track onboarding and offboarding in the [cfo-shadow](https://gitlab.com/gitlab-com/Finance-Division/cfo-shadow) project.  For questions, reach out to the [Sr EBA to the CFO](/handbook/eba/#e-group-member-ebas) in the `#cfo-shadow` channel
 
- At this time, we do not have a "See One, Teach One" [rotational rhythm]({{< ref "/handbook/ceo/shadow#rotation-rhythm" >}}) in place, but as a CFO shadow you should be prepared to be a buddy to the following quarter's shadow as described in the onboarding issue.
+ At this time, we do not have a "See One, Teach One" [rotational rhythm](/handbook/ceo/shadow#rotation-rhythm) in place, but as a CFO shadow you should be prepared to be a buddy to the following quarter's shadow as described in the onboarding issue.
 
 ### Consider adding goals
 
@@ -44,24 +44,25 @@ Develop goals for your time as a CFO Shadow and add them to your onboarding issu
 
 It's important that you represent yourself correctly when joining meetings, both internally and externally. You can introduce yourself by stating your name, your normal title, and then by stating that you are in the CFO Shadow Program. The stated purpose should be to give participants an overview of the finance function at GitLab. You will update your Zoom name to "CFO-Shadow" to provide clarity for why you are joining calls.
 
-It will be helpful to read more about introductions related to the [CEO Shadow Program here]({{< ref "/handbook/ceo/shadow#ceo-shadow-introductions" >}})
+It will be helpful to read more about introductions related to the [CEO Shadow Program here](/handbook/ceo/shadow#ceo-shadow-introductions)
 
 ### Review the CFO's calendar
 
-Schedule a call with the CFO's [Sr EBA to the CFO]({{< ref "eba#e-group-member-ebas" >}}) to review the CFO's calendar to get an idea of what your upcoming days will be like.
+Schedule a call with the CFO's [Sr EBA to the CFO](/handbook/eba/#e-group-member-ebas) to review the CFO's calendar to get an idea of what your upcoming days will be like.
 
 ## During the Program
 
 During the program, you will gain valuable context from a variety of conversations that you'll be part of.
 
 There will be short-term administrative tasks that you'll be asked to perform as the shadow.
+
 1. Handbook updates
 1. Prepare for, take notes during, and follow up on meetings
 
 ## Meetings
 
 1. The CFO's Senior Executive Business Administrator will add you to all meetings that you can attend. There will be some meetings and events the shadows do not attend. Do not feel obligated to attend every meeting — all meetings are considered optional.
-1. As a reminder, you should have your title updated within your last name on zoom. During the Shadow rotation update your title to "CFO Shadow". [Here]({{< ref "/handbook/tools-and-tips/zoom#adding-your-title-to-your-name" >}}) is the how to update your title as part of your last name to ensure it shows up on zoom.
+1. As a reminder, you should have your title updated within your last name on zoom. During the Shadow rotation update your title to "CFO Shadow". [Here](/handbook/tools-and-tips/zoom#adding-your-title-to-your-name) is the how to update your title as part of your last name to ensure it shows up on zoom.
 1. Because candidate interviews are marked as "private" (busy) for confidentiality reasons, the Sr EBA will invite the shadows to those events directly. As a result, you will get an email from Greenhouse asking for candidate feedback, which is not necessary.
 1. Meetings with those outside of GitLab may not be on Zoom. Prior to the call, check the CFO's calendar and load any other conferencing programs that may be needed. It may be necessary to dial in via phone for audio-conferences. If you have any problems confirming the link, reach out to the `#cfo-shadow` slack channel.
 
@@ -79,7 +80,6 @@ Meetings come in many different formats. Your responsibilities may change slight
 
 Here are the responsibilities shadows have during meetings:
 
-
 | Meeting type                     | Notes?         | Timekeeping?   |
 | -------------------------------- | -------------- | -------------- |
 | 1-1                              | No notes unless requested | No timekeeping unless requested |
@@ -96,7 +96,7 @@ Shadows are responsible for being aware of the current time and verbally providi
 **Tips for time-keeping:**
 
 - Decide who. Past shadows have found it helpful for the individual in the second week of the program to commit to keeping time when applicable.
-- Understand meeting length. Use the calendar invite as an indication of how long the meeting should last. Remember, we do [speedy meetings]({{< ref "communication#scheduling-meetings" >}}).
+- Understand meeting length. Use the calendar invite as an indication of how long the meeting should last. Remember, we do [speedy meetings](/handbook/communication/#scheduling-meetings).
 - Shadows should provide a 5-minute and a 1-minute notification. You can write "Time check, 5 minutes" on Zoom chat.
 - **If a meeting is running over the allocated time, unmute and verbally say "we're in overtime".** Don't wait for a break in the conversation.
 
@@ -105,6 +105,7 @@ Shadows are responsible for being aware of the current time and verbally providi
 You can use this [shell script](https://gitlab.com/gitlab-com/content-sites/handbook/-/blob/main/scripts/setalarm.sh) (MacOS only) to run a timer for the desired number of minutes. The script will notify you 5 minutes before the end of the meeting, and will copy "We have five minutes left" to you clipboard, so you can paste the text directly in the Zoom chat in addition to verbalizing it. At the end of the meeting, the same will occur with "We are at time".
 
 To use the script:
+
 1. Download [setalarm](https://gitlab.com/gitlab-com/content-sites/handbook/-/blob/main/scripts/setalarm.sh), making sure to preserve the .sh extension. (recommended within your Home folder for easy access)
 1. Load MacOS Terminal by running `Cmd+Space` and typing `terminal`.
 1. Run `source setalarm.sh` to load the `setalarm` function into memory.
@@ -112,7 +113,7 @@ To use the script:
 
 Press `Ctrl+C` if you need to cancel the alarm. You may keep the terminal window running indefinitely so that it is at your finger tips throughout your program duration.
 
-A handy App for time keeping is Senzillo's "Speech Timer for Talks".  It is available for [iOS](https://apps.apple.com/us/app/speech-timer-for-talks/id979433325) and [Android](https://play.google.com/store/apps/details?id=senzillo.talk_timer_free&hl=en_US&gl=US). Compared to other apps, this timer is easy to setup for the meeting warning levels and to switch between meeting time lengths. It costs $1 to have 3 warning levels - purchasing the application is not required if you just wish to have one warning visualization and watch the timer for the others.
+A handy App for time keeping is Senzillo's "Speech Timer for Talks".  It is available for [iOS](https://apps.apple.com/us/app/speech-timer-for-talks/id979433325). Compared to other apps, this timer is easy to setup for the meeting warning levels and to switch between meeting time lengths. It costs $1 to have 3 warning levels - purchasing the application is not required if you just wish to have one warning visualization and watch the timer for the others.
 
 ## Rotation Schedule
 
@@ -120,9 +121,7 @@ Finance team members have a high workload and may not be able to complete a full
 
 | Start Date | End Date |Shadow Name |
 |----|---------|--------|
-| Tuesday 2023-12-19 | Wednesday 2023-12-21| |
-| Tuesday 2024-01-16 | Thursday 2024-01-18| |
-| Tuesday 2024-01-23 | Thursday 2024-01-25 | |
-| Tuesday 2024-02-06 | Thursday 2024-02-08 | |
-| Tuesday 2024-02-20 | Thursday 2024-02-25 | |
-| Tuesday 2024-02-06 | Thursday 2024-02-08 | |
+| Tuesday 2024-10-15 | Thursday 2024-10-17 | |
+| Tuesday 2024-10-29 | Thursday 2024-10-31 | |
+| Tuesday 2024-11-05 | Thursday 2024-11-07 |Milidou Afroditi|
+| Tuesday 2024-11-12 | Thursday 2024-11-14 |@disla |

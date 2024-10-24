@@ -44,5 +44,5 @@ Intent is to:
 | Infrastructure Lead   | Andrew Newdigate      | Distinguished Engineer, Infrastructure |
 | Member                | Darby Frey            | Senior Engineering Manager, Verify     |
 | Member                | Steve Azzopardi       | Backend Engineer                       |
-| Member                | Darren Eastman        | Senior Product Manager, Gitlab-Runner  |
+| Member                | Darren Eastman        | Senior Product Manager, GitLab-Runner  |
 | Member                | Kamil Trzciński       | Distinguished Engineer                 |

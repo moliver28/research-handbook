@@ -1,11 +1,8 @@
 ---
-
 title: CMOC Practice Events
 category: On-call
 description: "Provides overview of Support Engineering CMOC quarterly practice events and how to run them"
 ---
-
-
 
 ## CMOC Practice Events
 
@@ -17,7 +14,7 @@ The practice events provide an opportunity to practice the activities and proces
 
 ### Outcomes
 
-- Familiarity with tools like Status.io so that in a real emergency they’re not a blocker to communication
+- Familiarity with tools like Status.io so that in a real emergency they're not a blocker to communication
 - Increased familiarity with the CMOC process and confidence in a live event
 - Familiarity with the incident room, Slack #incident-management channel and how communication is formalized between Incident Manager, EOC and CMOC during the course of an incident
 - An opportunity to retrospect and get live feedback from a friendly audience
@@ -35,7 +32,7 @@ The practice events provide an opportunity to practice the activities and proces
 - [Event feedback template](https://docs.google.com/document/d/1jMMpnwyfmQXI0uRoqk4AyvpwI75PevjyjeHOKNl1PPs/edit#heading=h.c2zm35l7tdgg) - coordinator of quarterly event creates a new version for the quarter
 - [Script library](https://docs.google.com/document/d/1vz64G0KUVnDwyUbqNsk12VuakU_IkeEfZtBBGFNrLtM/edit#heading=h.1acgctaxu9mf) - confidential to Support Managers (and SEs who may carry out the Incident Manager role for practice events)
 - [CMOC workflow](/handbook/support/workflows/cmoc_workflows) handbook page
-- [Incident roles and responsibilities](https://about.gitlab.com/handbook/engineering/infrastructure/incident-management/#roles-and-responsibilities) handbook page
+- [Incident roles and responsibilities](/handbook/engineering/infrastructure/incident-management/#roles-and-responsibilities) handbook page
 
 ### How to: Create and coordinate a quarterly practice event
 

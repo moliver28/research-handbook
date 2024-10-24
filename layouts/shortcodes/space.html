@@ -1,0 +1,98 @@
+<!-- As a draft, this is a copy of layouts/shortcodes/performance-indicators.md -->
+{{ $publicHandbookRef := "main" }}
+{{ .Page.Store.Set "hastableau" true -}}
+{{- $data := slice }}
+{{- $dataURL := printf "https://gitlab.com/gitlab-com/content-sites/handbook/-/raw/%s/data/engineering-productivity/space.yml" $publicHandbookRef }}
+{{- with resources.GetRemote $dataURL }}
+  {{- with .Err}}
+    <h2>Unable to fetch data</h2>
+  {{- else }}
+      {{ $data = . | transform.Unmarshal }}
+  {{- end }}
+{{- end }}
+
+{{- $satisfaction := where $data "category" "eq" "satisfaction" }}
+{{- $performance := where $data "category" "eq" "performance" }}
+{{- $activity := where $data "category" "eq" "activity" }}
+{{- $collaboration := where $data "category" "eq" "collaboration" }}
+{{- $efficiency := where $data "category" "eq" "efficiency" }}
+{{- $space := slice $satisfaction $performance $activity $collaboration $efficiency }}
+
+{{- range $space -}}
+  {{- $first := index . 0 -}}
+  {{- $category := $first.category -}}
+  <h2 id="{{ $category }}">{{ strings.FirstUpper $category }} <a href="#{{ $category }}">#</a></h2>
+
+  <table>
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Health</th>
+        <th>Status</th>
+      </tr>
+    </thead>
+    <tbody>
+    {{- range . -}}
+      <tr>
+        <td>{{- $link := printf "%s#%s" $.Page.RelPermalink (anchorize .name) }}
+            <a href="{{ $link }}">{{ .name }}</a>
+        </td>
+        <td>
+          {{- with .health.level -}}
+            {{- partial "performance-indicators/health-level" . -}}
+          {{- else }}
+            <span class="badge bg-dark">Unknown</span>
+          {{- end -}}
+        </td>
+        <td>
+          {{- with .health.reasons -}}
+            {{- partial "performance-indicators/health-reasons" . -}}
+          {{- end -}}
+        </td>
+      </tr>
+    {{- end }}
+    </tbody>
+  </table>
+{{- end -}}
+
+{{- range $space -}}
+  {{- $first := index . 0 -}}
+  {{- $category := $first.category -}}
+  <h3 id="metrics-for-{{ $category }}">Metrics for {{ $category }} <a href="#metrics-for-{{ $category }}">#</a></h3>
+
+  {{- range . -}}
+    {{- $anchor := .name | anchorize -}}
+    <h4 id="{{ $anchor }}">{{ .name }} <a href="{{ .base_path }}#{{ $anchor }}">#</a></h4>
+    <p>{{ .definition }}</p>
+    <p>
+      <strong>Target</strong>: {{ .target }}
+      <strong>Health</strong>:
+      {{- with .health.level -}}
+        {{- partial "performance-indicators/health-level" . -}}
+      {{- else }}
+      <span class="badge bg-dark">Unknown</span>
+      {{- end -}}
+
+      {{- with .health.reasons -}}
+        {{- partial "performance-indicators/health-reasons" . -}}
+      {{- end -}}
+    </p>
+
+    {{- with .tableau_data -}}
+    <p>
+      {{- partial "performance-indicators/tableau-chart" (dict "data" . "open" true) -}}
+    </p>
+    {{ end }}
+
+    {{- if .urls -}}
+    <p>
+      <strong>URL(s):</strong>
+      <ul>
+        {{- range .urls -}}
+          <li><a href="{{ . }}">{{ . }}</a></li>
+        {{- end -}}
+      </ul>
+    </p>
+    {{- end -}}
+  {{- end -}}
+{{- end -}}

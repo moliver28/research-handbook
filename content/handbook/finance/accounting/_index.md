@@ -2,7 +2,7 @@
 title: "Accounting and Reporting"
 ---
 
-This page contains GitLab's accounting and reporting policies, desktop procedures and guidelines. Our goal is to complete the monthly accounting close process within 10 business days from the last day of the month. Accounting and reporting process at GitLab is classified as enumerated below.
+This page contains GitLab's accounting and reporting policies, which can be made public. Please find our internal processes in the [Accounting and Reporting](https://internal.gitlab.com/handbook/finance/accounting/) internal handbook section.
 
 ## Quote to cash
 
@@ -14,7 +14,7 @@ Calculated billings is defined as revenue plus the sequential change in total de
 
 We do not believe that calculated billings provides a meaningful indicator of financial performance as billings can be impacted by timing volatility of renewals, co-terming upgrades and multi year prepayment of subscriptions.
 
-For order approval and invoicing process please view the [Billing Ops page.]({{< ref "./finance-ops/billing-ops" >}})
+For order approval and invoicing process please view the [Billing Ops page.](finance-ops/billing-ops/)
 
 **Invoicing: One Time Events**
 
@@ -42,7 +42,7 @@ To amend a customer's account, choose one of the options below from the subscrip
 
 **Basic Assumptions**
 
-- Subscriptions should only be cancelled with 45 days of the start. Exceptions can be made (see [Support Workflows]({{< ref "/handbook/support/workflows" >}}))
+- Subscriptions should only be cancelled with 45 days of the start. Exceptions can be made (see [Support Workflows](/handbook/support/workflows))
 - Subscriptions can be linked across multiple Zuora and SalesForce (SFDC) Accounts, but not SFDC Ultimate Parent Accounts.
 - All Zuora Accounts must be linked to a valid SFDC Account.
 - MRR can change historically due to customer behavior (renewals, cancellations, etc.)
@@ -78,18 +78,18 @@ The process to make the linkage is as follows:
 
 The active subscription status in Zuora needs to be reviewed in connection to the end date.
 If the end date is in the future it means that the subscription is still within the term and the customer is able to use the product.
-An ‘active’ subscription with an end date in the past means that the subscription was not renewed and the customer doesn’t have access to the product since the end date.
-We currently don’t actively cancel these subscriptions as this is a manual process and the cancellation or lack of it does not have any impact on other processes.
+An 'active' subscription with an end date in the past means that the subscription was not renewed and the customer doesn't have access to the product since the end date.
+We currently don't actively cancel these subscriptions as this is a manual process and the cancellation or lack of it does not have any impact on other processes.
 Additionally, where subscriptions remain in an active status they can be renewed by the customers on the CustomersDot
 
 ### Invoice cancellations and refunds
 
-For step by step processes please view [Billing Ops page.]({{< ref "./finance-ops/billing-ops" >}})
+For step by step processes please view [Billing Ops page.](finance-ops/billing-ops/)
 
 **How to process a partial refund in Stripe**
 
 1. Log in to Stripe.
-1. Type in the cardholder’s name in the search field at the top of the screen.
+1. Type in the cardholder's name in the search field at the top of the screen.
 1. Click on the original charge that will be refunded.
 1. Click on the refund button.
 1. Enter in the amount to refund.
@@ -110,8 +110,11 @@ For step by step processes please view [Billing Ops page.]({{< ref "./finance-op
 **Posting Swag Shop transactions in NetSuite**
 
 Transactions from the Swag Shop are remitted to the Comerica checking account daily and should be booked in NetSuite at the end of each month.
+
 1. In Shopify, download the transaction report in CSV format (found under Orders, then Export).
-  - This report contains swag shop revenue and tax data to be recorded in NetSuite.
+
+- This report contains swag shop revenue and tax data to be recorded in NetSuite.
+
 1. In portal used for swag download the orders report which should include cost for swag sold.
 1. Record the revenue, tax, cost and cash received.  At times cost maybe estimated using a historical average.
 1. Record the tax collected in the Ava Tax Portal.
@@ -177,19 +180,19 @@ Post a journal entry:
 1. Fill the "Description" with "To record Stripe transfer (date of transfer)".
 1. Click "Save".
 
-**Posting a payment from a “bank customer”**
+**Posting a payment from a "bank customer"**
 
 In Netsuite:
 
-1. Click on the “+” sign.
-1. Click on “Receive Payment” under Customers.
+1. Click on the "+" sign.
+1. Click on "Receive Payment" under Customers.
 1. Fill the "Payment Date" with the date payment was received.
 1. Fill the "Payment Method" choose from the dropdown menu.
 1. Fill the "Reference No." with the check # or bank reference # from incoming wire.
 1. Fill the "Deposit to" with "Comerica Checking".
 1. Fill the "Amount Received" with the amount received from the incoming wire.
 
-For step by step cash collections process please view [Billing Ops page.]({{< ref "./finance-ops/billing-ops" >}})
+For step by step cash collections process please view [Billing Ops page.](finance-ops/billing-ops/)
 
 **Account receivable provisions, bad debts and other period close adjustments**
 
@@ -205,7 +208,7 @@ The time from when a deal is closed won in Salesforce to when the invoice is gen
 1. Future amortisation of commissions expenses related to reserved invoices should also be stopped to ensure alignment with pattern of revenue recognition.
 1. Allowance for doubtful debt will be shared with Sales Operations on a monthly basis to ensure they have visibility of what may be written off in the future.
 1. On a quarterly basis, Senior Billing Manager and Revenue Director will determine the aged invoices that are uncollectible. They will create an issue ten (10) days before the end of the quarter to seek approval according to the [signature auhorization matrix]({{< ref "../authorization-matrix" >}}) to write off invoices and to also notify the Sr. Director of Sales Operations. Sales Operations will then create decommission opportunities in SFDC for approved write offs before the end of the quarter and these will be synced to Zuora to reverse original invoicing and revenue. Sales Operations will claw back commissions accordingly.
-1. Revenue team will review write-offs processed in zuora to ensure correct revenue reversal and will book MJEs in Netsuite to reclass impact to Bad Debt Reserve.
+1. Revenue team will review write-offs processed in Zuora to ensure correct revenue reversal and will book MJEs in Netsuite to reclass impact to Bad Debt Reserve.
 1. Customers that have had their invoices written off, consider no discounts or credit given for future deals.
 1. Where payment is received for an invoice after it has been written off, the write off will be reversed and the related commission will be reinstated.
 
@@ -225,13 +228,13 @@ Coupa is a procure-to-pay system that streamlines the purchase request process, 
 > You can learn more about Coupa on our [FAQ Page]({{< ref "../procurement/coupa-faq" >}})
 
 **How vendors are added into Coupa:**
+
 1. Any Coupa user can request a new supplier using the New Supplier Request form.
    - Check [How to Request a New Supplier in Coupa](/handbook/business-technology/enterprise-applications/guides/coupa-guide/#how-to-request-a-new-supplier) for a detailed guide.
 1. Once the New Supplier Request is approved, an External Supplier Form will be automatically sent to the Supplier to gather additional information.
    - Supplier must complete the form and submit it back.
 1. After supplier submission, the external form will be routed to Accounts Payable Approval Group for review and approval.
 1. After approval, the Supplier details will be integrated to NetSuite. Once the supplier is successfully created in NetSuite, it will flow back to Coupa to complete the New Supplier creation. By then, the Supplier should be available when creating Purchase Requests and Invoices.
-
 
 {{% alert title="Note" color="primary" %}}
 If you are a GitLab recurring vendor and did not receive an onboarding email from Coupa, please reach out to *ap@gitlab.com*.
@@ -243,10 +246,10 @@ If you are a GitLab recurring vendor and did not receive an onboarding email fro
 
 Please note the below steps reference how to manually enter bills into NetSuite.  Effective 2019-11-01 all AP invoices were processed through Tipalti. Effective 2021-06-01 (Coupa Phase I) and 2021-12-13 (Coupa Phase II), AP invoices will be processed in Coupa. These systems will automatically record the transaction into NetSuite after the invoice has been approved by the corresponding business partner in the respective system.
 
-1. On the NetSuite home page, click the “+” icon near the global search bar at the top of the screen and select “Bill."
+1. On the NetSuite home page, click the "+" icon near the global search bar at the top of the screen and select "Bill."
 1. Select the appropriate vendor record. If adding a new vendor, follow the bullets below before proceeding, otherwise skip to step 3.
     - Enter the company name, email address, applicable subsidiary, physical address, payment terms, primary currency, and Tax ID. (Note that the address field is located under the "Address" tab, while the Tax ID, primary currency, and payment terms fields are located under the "Financial" tab)
-    - Enter the banking information in the "Comments" field then click “Save.”
+    - Enter the banking information in the "Comments" field then click "Save."
     - Go to the "+" icon at the top of the vendor record and select "Bill" from the dropdown box.
 1. Enter Bill date. The due date should auto-fill based on payment terms entered during vendor setup. If not, select the correct due date and update the vendor record after the bill has been entered and saved.
 1. Enter Bill number.
@@ -256,47 +259,49 @@ Please note the below steps reference how to manually enter bills into NetSuite.
 1. Select tax code, if applicable.
 1. Enter department. (This must be entered if the account you selected in step 6 is an expense account)
 1. Add attachments: Go to the "Communication" tab and find the "Files" subtab.
-1. Click "New File.” A new window will appear, allowing you to select the file you wish to attach.
+1. Click "New File." A new window will appear, allowing you to select the file you wish to attach.
 1. In the new window, select the "Attachments Received" folder in the dropdown box, then click "Choose File" to attach both a copy of the vendor bill and email approval. (The supporting email approval must be attached along with a copy of the invoice)
-1. Click "Save.”
-1. In Google Drive, file invoice in the “Unpaid” folder.
+1. Click "Save."
+1. In Google Drive, file invoice in the "Unpaid" folder.
 
 #### Invoicing in Coupa
 
 Coupa is a Procurement and Invoicing Tool. Similarly to purchase requests for goods/services that must be initiated in Coupa, invoices are also created and approved in Coupa.
 
+{{% alert color="warning" %}}
 For all issues created before Coupa Go-Live (Phase I; 2021-06-01 and Phase II; 2021-12-13), the business will not be setting up Purchase Orders for those and the Accounts Payable team will manually enter the related invoices as Non PO-backed.
-{: .alert .alert-warning}
+{{% /alert %}}
 
 Invoices in Coupa can be created via 4 different channels:
 
 - **Coupa Supplier Portal (CSP)**
-   - Free, Web-based portal specifically for suppliers.
-   - Suppliers receive POs within CSP Coupa inbox and perform PO Flips to Invoices and is able to see a complete history of all their POs/invoices.
-   - Once CSP invoices are submitted by the supplier, Coupa triggers the approval workflows.
+  - Free, Web-based portal specifically for suppliers.
+  - Suppliers receive POs within CSP Coupa inbox and perform PO Flips to Invoices and is able to see a complete history of all their POs/invoices.
+  - Once CSP invoices are submitted by the supplier, Coupa triggers the approval workflows.
 - **Supplier Actionable Notification (SAN)**
-   - Suppliers act directly (flip PO to invoice) from Coupa PO SAN email.
-   - No need to register for/sign into Coupa/CSP, free service available any suppliers (with email).
+  - Suppliers act directly (flip PO to invoice) from Coupa PO SAN email.
+  - No need to register for/sign into Coupa/CSP, free service available any suppliers (with email).
 - **cXML**
-   - For “high-touch” suppliers (e.g. Amazon, CDW) with cXML invoicing capability to receive POs and transmit invoices directly.
-   - Works well in conjunction with punchouts.
+  - For "high-touch" suppliers (e.g. Amazon, CDW) with cXML invoicing capability to receive POs and transmit invoices directly.
+  - Works well in conjunction with punchouts.
 - **Manual Entry in Coupa UI**
-   - “Flip PO” option copies data from Coupa PO to pre-populate invoice fields for faster entry.
-   - Non PO backed invoice manual entry.
+  - "Flip PO" option copies data from Coupa PO to pre-populate invoice fields for faster entry.
+  - Non PO backed invoice manual entry.
 
 #### Coupa Integration - troubleshooting for Invoices
 
 A NetSuite error log identifying invoice integration issues will be emailed to the Accounts Payable Team every Tuesday and Friday. The email is sent from **Finance Systems Admins** and the Subject is **Coupa2NS Invoices - Integration Log**. Download the attached file and filter by Type = **Error** and **Audit**. Review the **Details** field to find the invoice number/document number that needs to be reviewed/corrected. For information regarding common errors and how to correct them, please review this [file](https://docs.google.com/spreadsheets/d/1KL6ft-kNkeKhvf-iORfar_3vzK6mySHB/edit#gid=1779396759); under the column labeled **Script** search for **Coupa Invoice Integration**. If any troubleshooting assistance is needed, please ask in the **#coupa_help** Slack channel.
 
 There is also a View in Coupa that will list invoices not exported to NetSuite. Under Invoices, select View = **Not Exported**
-![coupa-image-1](./finance-ops/coupainvoiceview.png)
+![coupa-image-1](finance-ops/coupainvoiceview.png)
 
 However, there will be no details regarding the integration issue. You will need to review the NetSuite error log (referenced above) for the details.
 
 <br>
 
+{{% alert color="warning" %}}
 For vendors who invoice GitLab for multiple entities, all invoices are separated by subsidiary (due to audit standards). If the vendor onboards for the Coupa Supplier Portal (CSP), the vendor will only see the POs related to those entities, and will need to email the others. If you are a GitLab vendor who invoices for multiple entitites and you have any questions, please reach out to *ap@gitlab.com*.
-{: .alert .alert-warning}
+{{% /alert %}}
 
 #### Approving an Invoice in Coupa
 
@@ -307,6 +312,7 @@ PO receipts notifications will enable users to "Create Receipt" by clicking on t
 Approval notifications will enable users to reject or approve invoices by clicking on the appropriate button.
 
 {{% panel header="**Top information to verify before approving an invoice**" header-bg="green" %}}
+
 - Verify invoice copy is attached
 - Verify correct PO is matched
 - Verify coding (Billing) is correct
@@ -316,7 +322,6 @@ Approval notifications will enable users to reject or approve invoices by clicki
 
 If there are issues with any of the above items, please tag `@Accounts Payable Approval Group` in the Comments section with details.
 {{% /panel %}}
-
 
 #### Disputing an Invoice in Coupa
 
@@ -334,12 +339,12 @@ The invoice rejection process in Coupa allows the Accounts Payable team to make 
 
 Please note the below steps reference how to manually enter bills into NetSuite.  Effective 2019-11-01 all AP invoices should be getting processed through Tipalti and Effective 2021-06-01 we will begin to process in Coupa as well. These 2 systems will automatically record the transaction into NetSuite after the invoice has been approved by the corresponding business partner in the respective system.
 
-1. On the NetSuite home page, click the “+” icon near the global search bar at the top of the screen and select “Bill."
+1. On the NetSuite home page, click the "+" icon near the global search bar at the top of the screen and select "Bill."
 1. Select the appropriate vendor record.
     >**If adding a new vendor, follow the bullets below before proceeding, otherwise skip to step 3**
     >
     > - Enter the company name, email address, applicable subsidiary, physical address, payment terms, primary currency, and Tax ID. (Note that the address field is located under the "Address" tab, while the Tax ID, primary currency, and payment terms fields are located under the "Financial" tab)
-    > - Enter the banking information in the "Comments" field then click “Save.”
+    > - Enter the banking information in the "Comments" field then click "Save."
     > - Go to the "+" icon at the top of the vendor record and select "Bill" from the dropdown box.
 1. Enter Bill date. The due date should auto-fill based on payment terms entered during vendor setup. If not, select the correct due date and update the vendor record after the bill has been entered and saved.
 1. Enter Bill number.
@@ -349,16 +354,16 @@ Please note the below steps reference how to manually enter bills into NetSuite.
 1. Select tax code, if applicable.
 1. Enter department. (This must be entered if the account you selected in step 6 is an expense account)
 1. Add attachments: Go to the "Communication" tab and find the "Files" subtab.
-1. Click "New File.” A new window will appear, allowing you to select the file you wish to attach.
+1. Click "New File." A new window will appear, allowing you to select the file you wish to attach.
 1. In the new window, select the "Attachments Received" folder in the dropdown box, then click "Choose File" to attach both a copy of the vendor bill and email approval. (The supporting email approval must be attached along with a copy of the invoice)
-1. Click "Save.”
-1. In Google Drive, file invoice in the “Entered” folder for that entity.
+1. Click "Save."
+1. In Google Drive, file invoice in the "Entered" folder for that entity.
 
 ### Payment Process
 
 **Billable Expenses**
 
-If you have an expense report that can be billed back to a customer please make sure to check the "billable" flag in Expensify along with tagging the customer name under the "customer" field in Expensify.
+If you have an expense report that can be billed back to a customer please make sure to check the "billable" flag in Navan along with tagging the customer name under the "customer" field in Navan.
 
 #### Processing payment for invoices in Coupa
 
@@ -381,16 +386,14 @@ After the supplier submits their supplier payment account information, it will t
 If the supplier is going through the SIM process, the approval for that supplier payment account will occur directly on the SIM External Form, and AP won't have to go into the supplier payment accounts to provide approval.
 {{% /alert %}}
 
-
 For more information regarding how to set up SPAs or Coupa Pay, please check out the lower section of our [Coupa FAQ page]({{< ref "../procurement/coupa-faq" >}}).
-
 
 #### Creating a Batch in Coupa
 
-- Only Invoices in the “Ready to Pay” status can be utilized to create a batch.
+- Only Invoices in the "Ready to Pay" status can be utilized to create a batch.
 - Invoices can be removed from payment by Coupa Pay using the slider button under "Actions" *(in case a supplier is selected for Coupa pay but need to be paid out of NetSuite, switch their payment method to ERP)*.
-- The “Pay from Account” (Company Payment Account or CPA) will be automatically defaulted based on the Chart Of Accounts. The CPA can be adjusted manually by selecting the dropdown.
-   - The “Pay to Account” (Supplier Payment Account or SPA) will be defaulted based on the Remit-To entered on the invoice.
+- The "Pay from Account" (Company Payment Account or CPA) will be automatically defaulted based on the Chart Of Accounts. The CPA can be adjusted manually by selecting the dropdown.
+  - The "Pay to Account" (Supplier Payment Account or SPA) will be defaulted based on the Remit-To entered on the invoice.
 
 #### Approving a Batch in Coupa
 
@@ -405,7 +408,7 @@ For more information regarding how to set up SPAs or Coupa Pay, please check out
 A NetSuite error log identifying payment integration issues will be emailed to the Accounts Payable Team every Tuesday and Friday. The email is sent from **Finance Systems Admins** and the Subject is **Coupa2NS Pay Payments Integration Log**. Download the attached file and filter by Type = **Error** and **Audit**. Review the **Details** field to find the payment number that needs to be reviewed/corrected. For information regarding common errors and how to correct them, please see this [file](https://docs.google.com/spreadsheets/d/1KL6ft-kNkeKhvf-iORfar_3vzK6mySHB/edit#gid=1779396759); under the column labeled **Script** search for **Coupa Invoice Payment Integration**. If any troubleshooting assistance is needed, please ask in the **#coupa_help** Slack channel.
 
 There is also a View in Coupa that will list payments not exported to NetSuite. Under Payments, select View = **Not Exported**
-![coupa-image-1](./finance-ops/coupapymtview.png)
+![coupa-image-1](finance-ops/coupapymtview.png)
 
 However, there will be no details regarding the integration issue. You will need to review the NetSuite error log (referenced above) for the details.
 
@@ -433,29 +436,29 @@ If your job function requires you to submit purchase requests in Coupa, follow t
 1. Add the labels ~"FinSys - Coupa" and ~"FinSys::Service Desk".
 
 {{< panel header="**Best Practices**" header-bg="green" >}}
-Due to the limited number of licenses available for Coupa, it is recommended that each department identify power users responsible for creating purchase requests on the team’s behalf.
+Due to the limited number of licenses available for Coupa, it is recommended that each department identify power users responsible for creating purchase requests on the team's behalf.
 {{< /panel >}}
 
 ## Expenses
 
 Please refer to GitLab's [Expense Policy]({{< ref "../expenses" >}}) for further details.
 
-### Team Member Reimbursements - Expensify
+### Team Member Reimbursements - Navan
 
-#### Processing Expensify Reports
+#### Processing Navan Reports
 
-1. Expensify will auto sync and record expense reports into NetSuite once the report is "final approved".  "Final approved" means it has been approved by the team member's manager and completed an audit review by an Accounts Payable analyst or our external contractor, Montgomery Pacific (Montpac).
+1. Navan will auto sync and record expense reports into NetSuite once the report is "final approved".  "Final approved" means it has been approved by the team member's manager and completed an audit review by an Accounts Payable analyst or our external contractor, Montgomery Pacific (Montpac).
 1. Accounts payable will do a daily check to ensure all reports which are "final approved" are successfully synced.  If any errors arise, AP will work out the errors until the report syncs into NetSuite.
 
 #### Billable Expenses
 
-- If you have an expense report that can be billed back to a customer please make sure to check the "billable" flag in Expensify along with tagging the customer name under the "customer" field in Expensify.
+- If you have an expense report that can be billed back to a customer please make sure to check the "billable" flag in Navan along with tagging the customer name under the "customer" field in Navan.
 
-#### Paying Expensify Reports
+#### Paying Navan Reports
 
-1. Team members in a US expense policy will be automatically reimbursed through Expensify after their report is "final approved" within 1-4 business days.
-    - The team member must set up their bank account in Expensify.
-    - Once an team member is reimbursed, Expensify will auto sync the payment to the expense record to mark the report as reimbursed.
+1. Team members in a US expense policy will be automatically reimbursed through Navan after their report is "final approved" within 1-4 business days.
+    - The team member must set up their bank account in Navan.
+    - Once an team member is reimbursed, Navan will auto sync the payment to the expense record to mark the report as reimbursed.
     - This will feed into NetSuite to show the bill as fully paid as well.
 1. Team memebers in a country paid through PEO will also receive expense reimbursement through their same payroll PEO payments each month.
     - **Please Note:**  The timing of reimbursement can vary if you are being reimbursed directly from payroll, CXC, SafeGuard, Global PEO, Remote and/or iiPay.
@@ -464,9 +467,9 @@ Please refer to GitLab's [Expense Policy]({{< ref "../expenses" >}}) for further
     - Expense report must have been "final approved" no later than EOD Tuesday of that same week.
     - Any report "final approved" on Wednesday to Friday of that week will be reimbursed the following week.
     - Once an employee is reimbursed, AP will create the payment in NetSuite against the record to close the report as paid.
-    - AP will manually mark the expense reports as "Reimbursed" in Expensify once they are confirmed to the payroll provider or batched to Tipalti.
+    - AP will manually mark the expense reports as "Reimbursed" in Navan once they are confirmed to the payroll provider or batched to Tipalti.
 
-##### Paying Expensify Reports in Tipalti
+##### Paying Navan Reports in Tipalti
 
 **Entites included: GmbH, BV, PTY LTD, Ireland, IT BV and GK.**
 
@@ -480,12 +483,11 @@ Please refer to GitLab's [Expense Policy]({{< ref "../expenses" >}}) for further
 
 1. Average days to action <= 3 business days
 
-    Number of days from when an team member's manager approves report to when AP analyst does final approval for payment or responds to team member in Expensify if there is a concern. (Approval for payment is not the reimbursement date.) This is calculated on a calendar month basis. The target for this is currently three business days.
+    Number of days from when an team member's manager approves report to when AP analyst does final approval for payment or responds to team member in Navan if there is a concern. (Approval for payment is not the reimbursement date.) This is calculated on a calendar month basis. The target for this is currently three business days.
 
-1. Time to get a new team member set up in Expensify < 3 business days
+1. Time to get a new team member set up in Navan < 3 business days
 
-    Have new team member set up in Expensify within 3 business days from team member start date.
-
+    Have new team member set up in Navan within 3 business days from team member start date.
 
 ### Travel and Expense Guidelines
 
@@ -493,7 +495,7 @@ Please refer to GitLab's [Expense Policy]({{< ref "../expenses" >}}) for further
 
 When reducing spend, we will not take the easy route of (temporarily) reducing discretionary spending.
 Discretionary spending includes expenses like travel, conferences, gifts, bonuses, merit pay increases and summits.
-By reducing in these areas we put ourselves at risk of [increasing voluntary turnover among the people we need most](https://steveblank.com/2009/12/21/the-elves-leave-middle-earth-–-soda’s-are-no-longer-free/).
+By reducing in these areas we put ourselves at risk of [increasing voluntary turnover among the people we need most](https://steveblank.com/2009/12/21/the-elves-leave-middle-earth-%e2%80%93-soda%e2%80%99s-are-no-longer-free/).
 
 Discretionary spending is always subject to questioning, we are frugal and all spending needs to contribute to our goals.
 But, we should not make cuts in reaction to the need to reduce spend; that would create a mediocre company with mediocre team members.
@@ -502,7 +504,7 @@ Even if this causes a bit more disruption in the short term, it will help us ens
 
 ### Non-Reimbursable Expenses
 
-In order to purchase goods and services on behalf of the company, you should first [consult the Signature Authorization Matrix]({{< ref "../authorization-matrix" >}}) to determine the approval requirements. Note that this **does not** include travel expenses and other incidentals. These expenses should be self-funded then submitted for reimbursement within Expensify, or in the case of independent contractors, included in invoices to the company (per the guidelines above).
+In order to purchase goods and services on behalf of the company, you should first [consult the Signature Authorization Matrix]({{< ref "../authorization-matrix" >}}) to determine the approval requirements. Note that this **does not** include travel expenses and other incidentals. These expenses should be self-funded then submitted for reimbursement within Navan, or in the case of independent contractors, included in invoices to the company (per the guidelines above).
 
 If further approval is not required, then proceed to the Procurement ["What are you buying" page]({{< ref "../procurement#-what-are-you-buying" >}}) for further instructions on the purchasing process at GitLab. Once those procedures are complete, have your vendor send their invoice to Accounts Payable: *ap@gitlab.com*.  Most importantly, the team member making the purchase request is ultimately responsible for final review and approval of the invoices. Final review and approval are critical process controls that help ensure we do not make erroneous payments to vendors. All original invoices and payment receipts must be sent to Accounts Payable.
 
@@ -511,7 +513,7 @@ If further approval is not required, then proceed to the Procurement ["What are 
 If you would like to track spend for a particular campaign, project and/or event you can do that through expense tag, also known as classes in NetSuite.  If you would like to request an expense tag/class to be set up please open [this tracker](https://docs.google.com/spreadsheets/d/1wBqvCvmou4afnb0p8lBXVvFmsl-j0IehS7GdfJybGzg/edit?usp=sharing) and enter the information required for the General Ledger (GL) team to create the tag.
 
 - The GL team will create the tags at the end of each day.
-- The tag is created in Netsuite and syncs with Expensify and Coupa.
+- The tag is created in Netsuite and syncs with Navan and Coupa.
 - Requisitions can be saved for later, while you complete the tag creation process.
 
 **Create Classes In NetSuite:**
@@ -521,9 +523,9 @@ If you would like to track spend for a particular campaign, project and/or event
 1. Under subsidiaries highlight GitLab Inc and check the box that states "Include in Children"
 1. Save
 
-Expensify will auto-sync any new "expense tags" on a daily basis, but if the Expensify admin wants to manually sync they can do so by following these steps:
+Navan will auto-sync any new "expense tags" on a daily basis, but if the Navan admin wants to manually sync they can do so by following these steps:
 
-**Import new Classes/Tags In Expensify:**
+**Import new Classes/Tags In Navan:**
 
 1. Go to the Admin page and click on the *Policies* tab.
 1. Select a policy and find the *Connections* subtab. The NetSuite connector is located on this page.
@@ -547,10 +549,9 @@ Please see the [campaign expense guidelines in the Marketing handbook](/handbook
 
 (Previously GitLab Summit)
 
-Tracking expenses for company Contributes enables us to analyze our spend and find opportunities to iterate, and in turn, improve subsequent Contributes. To enable tracking we create an expense tag that will allow GitLab team-members to tag Contribute related expenses in Expensify. This should be done prior to the announcement of each Contribute.
+Tracking expenses for company Contributes enables us to analyze our spend and find opportunities to iterate, and in turn, improve subsequent Contributes. To enable tracking we create an expense tag that will allow GitLab team-members to tag Contribute related expenses in Navan. This should be done prior to the announcement of each Contribute.
 
-- To categorize an expense under an expense tag to track a specific marketing campaign, contribute expense and/or any special project you will do this under the "classifications" tag in Expensify.
-
+- To categorize an expense under an expense tag to track a specific marketing campaign, contribute expense and/or any special project you will do this under the "classifications" tag in Navan.
 
 ## Property, Plant and Equipment
 
@@ -566,11 +567,13 @@ This policy establishes the minimum cost (capitalization amount) used to determi
 
 **Capital Assets Defined**
 
-A “Capital Asset” is a unit of property that has an economic useful life extending beyond 12 months **and** was acquired (or in some cases, produced) for a cost of [$5,000 (USD)]({{< ref "compensation#exchange-rates" >}}) or more. Capital Assets must be capitalized and depreciated for financial reporting purposes.
+A "Capital Asset" is a unit of property that has an economic useful life extending beyond 12 months **and** was acquired (or in some cases, produced) for a cost of [$5,000 (USD)]({{< ref "compensation#exchange-rates" >}}) or more. Capital Assets must be capitalized and depreciated for financial reporting purposes.
 
 **Capitalization Thresholds**
 
-GitLab establishes [$5,000 (USD)]({{< ref "compensation#exchange-rates" >}}) as the minimum amount required for capitalization. Any item with a cost below this amount is expensed on the date of purchase.
+GitLab establishes [$5,000 (USD)]({{< ref "compensation#exchange-rates" >}}) as the minimum amount required for capitalization. Any item with a cost below this amount is expensed on the date of purchase. Exceptions are Key Component Assets (i.e. computer laptops).
+
+Bulk purchases ("like" items acquired with a single purchase order, which are received within a reasonable period of time of one another (less than 60 days) and that individually have an Acquisition Cost less than the Individual Purchases Capitalization Threshold) have a Capitalization Threshold of $50,000 (USD)
 
 ### Depreciation/Amortization
 
@@ -578,32 +581,33 @@ GitLab establishes [$5,000 (USD)]({{< ref "compensation#exchange-rates" >}}) as 
 
 All capital assets are recorded at historical cost as of the acquisition date. These assets are depreciated on a straight-line basis, with the number of depreciation periods being determined by asset class.
 
-- **Equipment:** For our purposes, equipment generally consists of computers and other related office tools. Equipment under our INC entity is assigned a standard useful life of three (3) years. However, equipment under our BV entity is depreciated over five (5) years due to Dutch tax laws, which limit depreciation of capitals assets to a maximum of 20% of the asset cost per year. The following link contains additional information on Dutch tax laws surrounding capital and fixed  assets: [Netherlands Capital and Fixed Assets Guide](https://assets.ey.com/content/dam/ey-sites/ey-com/en_gl/topics/tax/tax-guides/2022/ey-worldwide-capital-and-fixed-assets-guide-fy22.pdf#page=156)
-- **Furniture:** Furniture includes office furniture and other fixtures. The standard useful life for furniture is seven (7) years. This depreciation schedule applies to all entities.
+- **Computer and I/T Equipment:** For our purposes, Computer and I/T Equipment generally consists of computers (laptops) and are assigned a standard useful life of two (2) years. This depreciation schedule applies to all entities.
+- **Office Equipment and Furniture & Fixtures:** The standard useful life for Office Equipment and Furniture & Fixtures is five (5) years. This depreciation schedule applies to all entities.
 
-Invoices and purchase receipts for capital assets are retained for a minimum of five years.
+Invoices and purchase receipts for capital assets are retained for a minimum of five (5) years.
 
 ### Fixed Asset Register and Asset Tracking
 
-Items paid for by the company are property of the company. Assets with purchasing value in excess of [$5000 USD]({{< ref "compensation#exchange-rates" >}}) are recorded through NetSuite and tracked using Floqast with an account reconciliation which includes details by individual asset purchased. The account reconciliation serves as an asset register. The accounting team  captures each individual asset purchased with the following information:
+Items paid for by the company are property of the company. Assets with purchasing value in excess of [$5000 USD]({{< ref "compensation#exchange-rates" >}}) or Key Component Assets are recorded and tracked through NetSuite Fixed Asset Management (FAM) module, which includes details of individual asset purchased. The Asset Register report provided by NetSuite FAM provides each individual asset purchased with the following information:
 
 1. Period and Date of purchase
 1. Asset Cost
 1. Asset Category
 1. Asset Description
 1. Useful life
-1. Name of employee assets was purchased on behalf of
 1. Serial number, if available
 1. GL Coding
 
-Once the information is captured in BlackLine a depreciation schedule will populate and accounting will book an entry in NetSuite each month to record the depreciation of the asset until it is fully depreciated.
+Once the information is captured in NetSuite FAM a depreciation schedule will populate and NetSuite FAM will post a journal entry each month to record the depreciation of the asset until it is fully depreciated. The asset will remain on GitLab's balance sheet until the asset is no longer being used and is identified to be disposed.
 
 ### Disposition of an Asset
 
-Assets will be disposed of if purchased by an employee upon termination (if approved by ITOps) or if the item is no longer useful before the useful life.
+Assets will be disposed of if purchased by an employee upon termination (if approved by IT Ops) or if the item is no longer useful before the useful life.
 
-1. If a team member would like to purchase an asset from the company (i.e. a laptop), they would request through an issue to IT Ops and accounting to obtain the amount to be paid. This is derived from original cost less accumulated depreciation.  If and asset is purchased accounting team will collect the funds and will book the appropriate accounting treatment to dispose of the asset.
-1. If an asset is no longer usable before the useful life has been reached the employee needs to submit an issue to IT Ops and accounting to inform them.  IT Ops will evaluate and if they deem the item is no longer useful accounting will book the appropriate accounting treatment to dispose of the asset.
+1. If a team member would like to purchase an asset from the company (i.e. a laptop), they would request through an issue to IT Ops and Accounting to obtain the amount to be paid. This is derived from original cost less accumulated depreciation.  If an asset is purchased, Accounting will collect the funds and will book the appropriate accounting treatment to dispose of the asset.
+1. If an asset is no longer usable before the useful life has been reached the employee needs to submit an issue to IT Ops and Accounting to inform them.  IT Ops will evaluate and if they deem the item is no longer useful, Accounting will book the appropriate accounting treatment to dispose of the asset.
+
+IT Ops will need to identify the asset and inform Accounting to properly dispose of the asset from NetSuite FAM.
 
 ## Accounting Policies
 
@@ -615,9 +619,9 @@ Refer to Legal page for [Related Party Transactions policy](/handbook/legal/#git
 
 ### Accounting Team PTO Guidelines
 
-Our ability to accomplish our Finance and Accounting mission of providing timely, fact-based information to drive business results as a public company depends on the participation of team members during certain critical times of year. Our accounting function provides critical, time based deliverables that directly impact our ability to support business growth and meet our public company obligations. These activities require the entire team’s support.
+Our ability to accomplish our Finance and Accounting mission of providing timely, fact-based information to drive business results as a public company depends on the participation of team members during certain critical times of year. Our accounting function provides critical, time based deliverables that directly impact our ability to support business growth and meet our public company obligations. These activities require the entire team's support.
 
-Team Members should prioritize taking time off to refresh and recharge outside of these critical windows. While these exact windows vary by team, generally we need all team members to support the last week of the quarter and first two weeks of the next quarter. Check with your manager if you are unsure what is applicable to your role. When these windows overlap a weekend (particularly the last day of the quarter) or public holiday/ Family and Friends day, we recommend team members work with their manager to reschedule the day off to a day outside of this critical end of quarter time period. If a team member is unavailable to work during this time period, they should provide their manager with at least one months’ notice whenever possible to allow for coverage to be arranged. When appropriate, we will create rotational coverage plans over holidays/weekends, while remaining in line with applicable jurisdictional requirements.
+Team Members should prioritize taking time off to refresh and recharge outside of these critical windows. While these exact windows vary by team, generally we need all team members to support the last week of the quarter and first two weeks of the next quarter. Check with your manager if you are unsure what is applicable to your role. When these windows overlap a weekend (particularly the last day of the quarter) or public holiday/ Family and Friends day, we recommend team members work with their manager to reschedule the day off to a day outside of this critical end of quarter time period. If a team member is unavailable to work during this time period, they should provide their manager with at least one months' notice whenever possible to allow for coverage to be arranged. When appropriate, we will create rotational coverage plans over holidays/weekends, while remaining in line with applicable jurisdictional requirements.
 
 ### Investment Policy
 
@@ -638,11 +642,11 @@ The Company may use the following brokerage institutions:
 
 **Investment Objectives**
 
-The basic objectives of the Company’s investment program are, in order of priority:
+The basic objectives of the Company's investment program are, in order of priority:
 
 - Safety and preservation of principal by investing in a high quality, diversified portfolio of securities, mutual funds, and bank deposits.
-- Liquidity of investments that is sufficient to meet the Company’s projected cash flow requirements and strategic needs.
-- Maximize after-tax market rates of return on invested funds that are consistent with the stated objectives herein, conservative risk tolerance and the Company’s current tax position.
+- Liquidity of investments that is sufficient to meet the Company's projected cash flow requirements and strategic needs.
+- Maximize after-tax market rates of return on invested funds that are consistent with the stated objectives herein, conservative risk tolerance and the Company's current tax position.
 - Maturity Limits
 - Individual security maturities should not exceed 24 months.  The weighted average maturity of the portfolio shall not exceed 12 months.  A maturity or effective maturity by definition shall include puts, announced calls or other structural features which will allow the Company to redeem the investments at a quantifiable price consistent with liquidity, safety and preservation of capital.
 
@@ -652,11 +656,11 @@ United States Government Securities:
 
 - Marketable debt securities which are direct obligations of the U.S.A., issued by or guaranteed as to principal and interest by the U.S. Government and supported by the full faith and credit of the United States.
 - United States Government Agency Securities:
-    - Debt securities issued by the Government Sponsored Enterprises, Federal Agencies and certain international institutions which are not direct obligations of the United States, but involve Government sponsorship and are fully guaranteed by government agencies or enterprises, including but not limited to:
-        - Federal Farm Credit Bank (FFCB)
-        - Federal Home Loan Bank (FHLB)
-        - Federal Home Loan Mortgage Corporation (FHLMC)
-        - Federal National Mortgage Association (FNMA)
+  - Debt securities issued by the Government Sponsored Enterprises, Federal Agencies and certain international institutions which are not direct obligations of the United States, but involve Government sponsorship and are fully guaranteed by government agencies or enterprises, including but not limited to:
+    - Federal Farm Credit Bank (FFCB)
+    - Federal Home Loan Bank (FHLB)
+    - Federal Home Loan Mortgage Corporation (FHLMC)
+    - Federal National Mortgage Association (FNMA)
 
 **Money Market funds**
 
@@ -674,10 +678,10 @@ Investment Products (Rating, Sector Concentration, Issuer Concentration)
 
 **Purpose**
 
-This policy describes the methodology used to monitor and account for GitLab’s prepaid expenses.
+This policy describes the methodology used to monitor and account for GitLab's prepaid expenses.
 
 {{% alert color="warning" %}}
-**Effective 2022-04-01 a new Accounting Prepaid Automation Process has been implemented. Please click [here](https://about.gitlab.com./prepaid/) to learn more about the process, which utilizes Coupa.**
+**Effective 2022-04-01 a new Accounting Prepaid Automation Process has been implemented. Please click [here](https://internal.gitlab.com/handbook/finance/accounting/prepaid/) to learn more about the process, which utilizes Coupa.**
 {{% /alert %}}
 
 **Prepaid Expenses Defined**
@@ -711,12 +715,11 @@ Once a purchase request makes it through the [company approval workflow]({{< ref
 
 Team member travel expenses are expensed in the period incurred. Costs related to third party vendors such as hotels, facilities, excursions are recorded to prepaid expenses and recognized as expense at the time of the event.
 
-
 ### Accrued Liabilities Policy
 
 **Purpose**
 
-To provide clear guidance concerning the identification and recording of items included in GitLab’s accrued and other liability accounts. The purpose of monthly accrual processes is to allocate expenses to the proper accounting period and match expenses with related revenues. At the close of each month, accrual processes ensure that all expenses related to that month are correctly included in the company's financial statements. Additionally, this policy establishes standards and guidelines for ensuring that GitLab accounts for monthly accruals in a manner that is compliant with management's objectives and generally accepted accounting principles (GAAP). This policy applies to GitLab and all subsidiaries.
+To provide clear guidance concerning the identification and recording of items included in GitLab's accrued and other liability accounts. The purpose of monthly accrual processes is to allocate expenses to the proper accounting period and match expenses with related revenues. At the close of each month, accrual processes ensure that all expenses related to that month are correctly included in the company's financial statements. Additionally, this policy establishes standards and guidelines for ensuring that GitLab accounts for monthly accruals in a manner that is compliant with management's objectives and generally accepted accounting principles (GAAP). This policy applies to GitLab and all subsidiaries.
 
 **Identification**
 
@@ -725,14 +728,18 @@ We require that all expenses be recorded where expense exceeds $5K USD or above,
 The following items should be accrued monthly as necessary (note: this list is not all-inclusive):
 
 1. Accounts Payable:
- - Contracts: Amounts due under contracts, including retainer fees. These items should be recorded as they become billable.
- - Professional Fees: This liability includes legal, tax, and audit consulting and other professional fees.
- - Legal Contingencies: Pending or threatened litigation, and actual or probable settlement. Legal contingencies should be determined with the help of GitLab’s VP of Legal - Commercial, IP & Compliance.
+
+   - Contracts: Amounts due under contracts, including retainer fees. These items should be recorded as they become billable.
+   - Professional Fees: This liability includes legal, tax, and audit consulting and other professional fees.
+   - Legal Contingencies: Pending or threatened litigation, and actual or probable settlement. Legal contingencies should be determined with the help of GitLab's VP of Legal - Commercial, IP & Compliance.
+
 1. Wages and Compensation:
- - Team Wages: This includes employee wages and independent contractor fees.
- - Commissions: Liabilities arising from commission obligations to team members who are eligible for commission compensation.
- - Bonuses: Liabilities related to bonus payments for GitLab team-members.
- - Taxes: All employment taxes required for statutory compliance that relate to the GitLab team.
+
+   - Team Wages: This includes employee wages and independent contractor fees.
+   - Commissions: Liabilities arising from commission obligations to team members who are eligible for commission compensation.
+   - Bonuses: Liabilities related to bonus payments for GitLab team-members.
+   - Taxes: All employment taxes required for statutory compliance that relate to the GitLab team.
+
 1. Any other material obligation not mentioned above that is a liability of GitLab
 
 **Timing**
@@ -758,12 +765,11 @@ The Sr. Accounting Manager is responsible for performing an overall review of ac
 
 **Please see [Procure-to-Pay](#procure-to-pay)**
 
-
 ### Foreign Currency Translation Policy
 
 **Overview**
 
-Foreign currency translation describes the method used in converting a foreign entity's functional currency (as determined and documented in GitLab.com>Finance>Issues>#630) to the reporting entity's financial statement currency. Prior to translating the foreign entity’s financial statements into the reporting entity’s currency, the foreign entity’s financials must be prepared in accordance with generally accepted accounting principles (GAAP), specifically under [Financial Accounting Standards Board (FASB) Statement No.52](https://www.fasb.org/page/PageContent?pageId=/reference-library/superseded-standards/summary-of-statement-no-52.html). GitLab’s financial statement reporting currency is USD. The functional currency of our non-U.S. subsidiaries is the local currency. Changes in foreign currency translation are recorded in other comprehensive income (loss), which is reported in the consolidated statement of equity and ultimately carried over to the consolidated balance sheet, under equity.
+Foreign currency translation describes the method used in converting a foreign entity's functional currency (as determined and documented in GitLab.com>Finance>Issues>#630) to the reporting entity's financial statement currency. Prior to translating the foreign entity's financial statements into the reporting entity's currency, the foreign entity's financials must be prepared in accordance with generally accepted accounting principles (GAAP), specifically under [Financial Accounting Standards Board (FASB) Statement No.52](https://www.fasb.org/page/PageContent?pageId=/reference-library/superseded-standards/summary-of-statement-no-52.html). GitLab's financial statement reporting currency is USD. The functional currency of our non-U.S. subsidiaries is the local currency. Changes in foreign currency translation are recorded in other comprehensive income (loss), which is reported in the consolidated statement of equity and ultimately carried over to the consolidated balance sheet, under equity.
 
 **Exchange Rates**
 
@@ -785,15 +791,15 @@ Currency translation risk occurs due to the company owning assets and liabilitie
 
 **Cumulative Translation Adjustment**
 
-A cumulative translation adjustment (CTA) is an entry to the comprehensive income section of a translated balance sheet that summarizes the gains(losses) resulting from exchange rate differences over time. Currency values shift constantly, affecting how a currency is valued against others. The CTA is a line item in the consolidated balance sheet that captures gains(losses) associated with international business activity and exposure to foreign markets. The changes in CTA are recorded in other comprehensive income (loss). CTA’s are required under GAAP since they help distinguish between actual operating gains(losses) and those that arise from the currency translation process. Additional information on our reporting standards surrounding CTA's can be found in [FASB Topic 830, "Foreign Currency Matters."](https://fasb.org/Page/ShowPdf?path=ASU2013-05.pdf)
+A cumulative translation adjustment (CTA) is an entry to the comprehensive income section of a translated balance sheet that summarizes the gains(losses) resulting from exchange rate differences over time. Currency values shift constantly, affecting how a currency is valued against others. The CTA is a line item in the consolidated balance sheet that captures gains(losses) associated with international business activity and exposure to foreign markets. The changes in CTA are recorded in other comprehensive income (loss). CTA's are required under GAAP since they help distinguish between actual operating gains(losses) and those that arise from the currency translation process. Additional information on our reporting standards surrounding CTA's can be found in [FASB Topic 830, "Foreign Currency Matters."](https://fasb.org/Page/ShowPdf?path=ASU2013-05.pdf)
 
 Recording CTA - Exchange rate gains and losses for individual transactions are captured automatically by our ERP system, NetSuite. However, a CTA entry must be made in order to properly distinguish currency translation gains(losses) from other general gains(losses) in the consolidated financial statements. This entry includes reconciliation of any inter-company activity that generates foreign exchange gains(losses). The CTA is made on a monthly basis as part of our financial statement reporting cycle.
 
-### Chart of Accounts Policy
+## Chart of Accounts Policy
 
 **Scope**
 
-This policy establishes GitLab’s guidelines regarding the structure, responsibilities and requirements underlying the [chart of accounts (COA).](https://www.investopedia.com/terms/c/chart-accounts.asp)
+This policy establishes GitLab's guidelines regarding the structure, responsibilities and requirements underlying the [chart of accounts (COA).](https://www.investopedia.com/terms/c/chart-accounts.asp)
 
 **Purpose**
 
@@ -823,15 +829,15 @@ Once an amendment to the COA has been approved, the Accounting Manager will ensu
 
 The COA is maintained in NetSuite. Changes to the COA can only be made by the Controller and/or Accounting Manager.
 
-#### Account Reconciliation Policy
+## Account Reconciliation Policy
 
 **Scope**
 
-This policy applies to GitLab Inc. (“GitLab” or the “Company”) and all of its subsidiaries.
+This policy applies to GitLab Inc. ("GitLab" or the "Company") and all of its subsidiaries.
 
 **Purpose**
 
-To establish guidelines for assessing, preparing and reviewing balance sheet account reconciliations on a consistent basis in accordance with corporate policies and US Generally Accepted Accounting Principles (“GAAP”).
+To establish guidelines for assessing, preparing and reviewing balance sheet account reconciliations on a consistent basis in accordance with corporate policies and US Generally Accepted Accounting Principles ("GAAP").
 
 **Policy**
 
@@ -882,259 +888,3 @@ Once each reconciliation is reviewed/approved the account reconciliation is lock
 **Completeness Check**
 
 Once the period is officially closed the Senior Accounting Manager will ensure all recons are in approved, reviewed or in a auto-certified status before moving into the next period.
-
-## PS Fair Value Allocation Process:
-
-The process of allocating and recomputing the recognizable revenue when the contractually stated price for any deliverable is not proportionate to the corresponding “fair value” (stand-alone selling price of each deliverable). Therefore, GitLab has created the process below to help recognize revenue accordingly.
-
-The process for this is listed below:
-
-1. Identification:
-  - Any client with a license booking and PS booking within 30 days of each other.
-  - Any client with multiple PS SKU’s with any one of the booking being within 30 days.
-1. Identify Performance Obligation:
-  - All the performance obligations/deliverables i.e. license, implementation, migration, training, etc. should be identified.
-1. Stand-alone Fair Value:
-  - Identify the stand-alone fair value for each performance obligation/deliverable which were identified in Step 2. Use/Refer to this [template](https://docs.google.com/spreadsheets/d/1E0gv1x7aln7u5lR61Og3l0_Sv5QhlD6jsbmzSI6MsmY/edit).
-1. Allocation
-  - The total transaction price (combined value if multiple deals identified in Step 1) should be allocated in the ratio of their fair value calculated in Step 3.
-1. Revenue Recognition
-  - Revenue should be recognized separately for each performance obligation/deliverable as per the Revenue Recognition policy.
-
-### Reporting
-
-The below details the current reporting structure for GitLab.  This will be updated as our reporting evolves.
-
-#### Cash
-
-Defined as cash in the bank.  Also counts short term securities that are readily convertible into cash within the next 90 days.
-
-#### Cash Burn and Average Cash Burn
-
-The change in cash balance from period to period excluding equity or debt financing. Average cash burn is measured over the prior three months.  The analysis can be found on the [Finance Dashboard](https://app.periscopedata.com/app/gitlab/483606/Finance-KPIs?widget=6880820&udv=0). Cash data is sourced from Netsuite.
-
-#### Line of Credit (LOC) Available
-
-The amount of contractually committee line of credit extended by the bank that is not in default status.
-
-#### Free Cash Flow (FCF)
-
-<a id="fcf"></a>
-
-Cash flow from operations as defined by GAAP less Capital Expenditures.
-
-#### Gross Burn Rate
-
-Total operating expenses plus capital expenditures.
-
-#### Non GAAP Revenue (Ratable Recognition)
-
-The amount of subscription revenue recognized using ratable accounting treatment as calculated by the subscription amount divided equally over the subscription term. Note that other GAAP adjustments such as non-delivery, performance obligations are not accounted for in this metric.
-
-#### Remaining Performance Obligations
-
-Remaining performance obligations, or RPO, represent all future, non-cancelable, contracted revenue under our subscription contracts with customers that has not yet been recognized, inclusive of deferred revenue that has been invoiced and noncancelable amounts that will be invoiced and recognized as revenue in future periods.
-
-#### Adding New GL Accounts
-
-GitLab has an established GL Accounting system for reporting specific expenses. However, sometimes additional GL accounts need to be added to better clarify expenses that occur as GitLab continues to mature as an organization. When the need for a new GL account arises, Accounting will create an issue in the Finance repository and notify the following teams to ensure the changes are effectively communicated.
-
-- Accounts Payable
-- Accounting
-- FP&A
-- Data
-
-#### Policy on Treasury activities
-
-Open, closing of bank accounts, approvals, authorization matrix etc
-
-#### Technical Accounting Performance Indicators
-
-##### Deals reviewed for revenue recognition = 100%
-
-All deals with a contract value above $50,000 executed in a particular week to be reviewed for revenue recognition matters, before the end of Wednesday of the following week.
-
-##### Issue opened for all key technical accounting matters <= 2 working days
-
-An issue to be opened for all key technical accounting matters within 2 working days of obtaining knowledge about the same.
-
-##### Key technical accounting matters to documented <= 5 working days
-
-All key technical accounting matters to documented in an accounting memo within 5 working days of opening an issue thereon.
-
-##### Technical accounting queries disposed of <= 2 working days
-
-All routine technical accounting queries to be disposed of within 2 working days.
-
-#### Journal Entries and Mass Loads for NetSuite
-
-The accounting team uses standard and advanced inter-company journal entries to complete their monthly close processes.  In addition, mass loads are used to add or update vendor and employee records, for example. See link for templates.
-[JE and Mass Load templates](https://docs.google.com/spreadsheets/d/1Jt01Il3DYhXefHEGXOiBrGTQK6bWQODV7-Iw7iGj5Qc/edit#gid=1846405456)
-
-Journal entries are either manual or system generated.  System generated entries would include elimination entries calculated by NetSuite when the elimination process is run as part of month end close or exchange rate adjustments based on final exchange rates.  Manual journal entries are entered by the appropriate person in the Accounting department, depending on the nature of the entry.  All manual journal entries require approval and posting by a second person in order to verify accuracy and that the appropriate documentation is included with the entry.
-
-Manual journal entries are recorded in order to ensure our financial statements are materially accurate.  As such, subsequent to the issuance of the preliminary reporting package, certain manual journal entries will not be recorded if they are immaterial.  It is inefficient to record entries that would not have a material impact on the users of our financial statements unless these entries would be material if accumulated.  Effective February 1, 2020, thresholds for manual journal entries are as follows:
-
-| **Journal Entry Type** | **Threshold** |
-| ------ | ------ |
-|Accruals |$5,000 |
-|Allocations between Departments (requires approval by FP&A team) |$25,000 |
-|Reclass between Accounts |$10,000 |
-
-Journal entry types not included above will always be recorded, no matter the amount.  These include entries such as bank account activity, payroll, and taxes.
-
-#### Finance Class/Tag creation in Netsuite
-
-#### Class/Tag Purpose
-
-The main function of a Finance Class/Tag created in Netsuite is to track expenses, segmenting expenses into cost centers allows for greater control and analysis of total costs.
-
-Campaign owners track costs associated with events, content, webcasts, Subscriptions, Memberships, Contracts etc. Campaign tags can be applied to Expensify reports, corporate credit card charges, and vendor bills processed by Accounts Payable. Campaign expenses that are incurred by independent contractors should be clearly noted with the appropriate tag and included in their invoices to the company.
-
-If the tag needed will incur costs greater than $5K, a Coupa PO needs to be created. Please visit the [Procurement page]({{< ref "../procurement#how-to-start-procurement-process" >}}) to identify which process is applicable to your purchase.
-
-#### How to create a Class or Tag in Netsuite:
-
-**Marketers**
-
-Please refer to : [Campaigns and Programs](/handbook/marketing/marketing-operations/campaigns-and-programs/#campaigns)
-
-**Other Departments/teams:**
-
-Please navigate to [this tracker](https://docs.google.com/spreadsheets/d/1wBqvCvmou4afnb0p8lBXVvFmsl-j0IehS7GdfJybGzg/edit?usp=sharing) and enter the information required for the GL team to create the tag.
-
-- The GL team will create the tags at the end of each day.
-- The tag is created in Netsuite and syncs with Expensify and Coupa.
-- If you have requisitions or an issue in process - it can be saved for later, while you complete the tag creation process.
-
-The name can be any combination of characters that does not exceed the 31 digits allowed by the system. The suggested format for assigning a name to the class is `YYYYYYMMDD_Vendor_Description`. We suggest that it contain the date or the related fiscal year, the vendor's name and/or the description of the expenses.
-
-Please be aware that once the class is created in Netsuite, the system automatically synchronizes with Expensify and Coupa to have the same classes created and available in each system.
-
-If a tag has been created the owner is responsible for communicating and including the class in any related communication or expense.
-
-### Recording Employee Stock Option Expense
-
-Employee stock options are recorded on a calendar quarterly basis. The purpose of this entry is to record the expense and allocate it between the appropriate departments.
-
-1. Request a copy of the Carta report named "GitLab-Inc 20XX Equity Incentive Plan Grant Date Annual US GAAP Consolidated" from the CFO (the report should be in CSV/Excel format).
-1. We will focus on the Expense Summary and Date tabs
-1. On the Expense Summary tab, click on the journal entry amount to see column and tabs being referenced in the formula.
-    - This should be column AX of the Date tab, and this column will be used to allocate the total expense between departments.
-1. Sort the columns on the Date tab and delete all rows with a zero balance
-1. Add a column to the Date tab with department information that corresponds to the employees referenced in column B (department information can be found in NetSuite).
-1. Create a pivot table using the data from column AX and the department column created in the previous step.
-    - The pivot table should provide the amount of stock option expense attributable to each department.
-1. Check that the total amount of the pivot table matches the amount on the Expense Summary tab.
-1. Proceed to NetSuite to create a journal entry that matches the Expense Summary tab.
-1. Date the journal entry using the last day of the quarter being closed.
-1. The debit side of the entry uses GL "6077 Stock Compensation Expense" for all departments other than Cost of Sales which uses GL "5090 Stock Compensation Cost of Sales."
-1. Be sure to fill in the Department attribute when adding lines to the journal entry.
-1. The credit side of the entry only needs one line and uses GL "3015 Additional Paid in Capital- Stock Options"
-1. Save the report used to calculate the journal entry and attach it to the entry within NetSuite.
-1. Click Save and the entry is complete
-
-## Month-End Review & Close
-
-Each month the Senior Accounting Manager will lead a Month-End review to discuss any updates that need to occur before Month-End Close. The review will also include topics for future improvements and to discuss any outstanding tasks from the previous Month-End review. This review is to encourage collaboration, identify efficiencies, and quickly fix any discrepancies. The Month-End review guidelines are highlighted below:
-
-1. All team members who are involved in the close process are encouraged to add topics to the [Month-End review doc](https://docs.google.com/document/d/1fr2PA_A4idTpxmbRzAL4fQY_VP8cW4c2lXyWR_cowC8/edit#)
-1. During monthly review meeting, the team reviews previous issues and adds new takeaway issues to [Month End Review](https://gitlab.com/gitlab-com/finance/boards/799989?&label_name[]=Month%20End%20Review) GitLab board. Issues specific to the Month-End review process can be found [here](https://gitlab.com/gitlab-com/finance/issues/new?issue%5Bassignee_id%5D=&issue%5Bmilestone_id%5D=&issuable_template=month_end_review)
-1. After the conclusion of the Month-End review, the team focuses on closing tasks
-1. Repeat 1
-
-In addition to the Month-End review process, Accounting will coordinated the Month-End Close Checklist to ensure all closing tasks are completed.
-
-- [Month-End Close Checklist](https://docs.google.com/a/gitlab.com/spreadsheets/d/1SSUQpudxxpPgXIS97Ctuj-JRII0qhq0I3r19jmBKU7c/edit?usp=sharing)
-
-### Preliminary vs Final
-
-The monthly close process includes both a preliminary and final close process. If any adjustments come out of the preliminary financial review the Accounting team will book the adjustments before the final financial results are published. After any adjustments are made the accounting team will then record the inter-company calculations and ensure all inter-company eliminates properly before officially closing the month.  Once the period is officially closed the accounting team will run the final financials and distribute to the appropriate management team.  The inter-company calculations are the very last entry during the month end close process. Therefore, the Accounting team ensures that the preliminary financial results are corrected and/or updated before the inter-company calculations are completed and books are officially closed to improve efficiency.
-
-## Inter-company transactions
-
-### Inter-company Calculation and Settlement
-
-This section will be updated soon.
-
-## Reporting
-
-### Types of Reporting:
-
-#### Internal / Management Reporting
-
-- Profit and Loss Statements (P&Ls)
-   - Management P&Ls - A roll up of departmental reporting.  These P&Ls form the primary basis for budgeting and variance analysis.
-   - Business Unit P&Ls - GitLab has one business unit at this time.
-   - Geographic P&L’s - used primarily for showing performance in various regions.
-   - Channel P&Ls - used to measure performance by channel of distribution.
-   - Product P&Ls - used to show performance by product line
-- The rolling twelve month expense trend can be found in Sisense here: [Expense Trend](https://app.periscopedata.com/app/gitlab/550489/12-Month-Expense-Trend)
-- Plan to Actual comparison
-
-#### External Reporting
-
-- Public Format - These are the audited financial statements that are reported to investors, bank, the public, etc.
-   - With and without stock option expense
-   - Department Roll up
-   - Future - SEC Requirements
-- Statutory P&Ls - used for tax filings on an entity by entity basis.
-- Bank Reporting
-   - Compliance certificate
-   - Borrowing base calculation
-   - Financials: Income Statement, Balance Sheet, Cash Flow, AR Aging, AP Aging
-
-#### Differences between Management Reporting and External Reporting
-
-- Stock Based Compensation Expense
-   -Management reporting does not include expenses associated with stock based compensation, including: 1) amortization of stock compensation expense and 2) compensation charges related to secondary offerings.  Stock based compensation expense is included in our external reporting.
-- Operating Expenses
-   - Management reporting has the following operating expense line items: Research and Development, GitLab.com, Sales, Marketing, General and Adminstrative.
-   - External reporting has the following operating expense line items: Research and Development, Sales and Marketing, General and Adminstrative.  GitLab.com operating expenses are included in Sales and Marketing for external reporting purposes.
-
-
-### Financial Planning and Analysis (FP&A)
-
-[FP&A Handbook]({{< ref "financial-planning-and-analysis" >}})
-
-## Hire to Retire
-
-<a name="payroll-inc"></a>
-
-### Commission Payment Process
-
-<a name="commission"></a>
-
-1. Each sales person will receive their own calculation template.
-1. Salesperson is to complete their monthly template four days (payroll will send reminder) prior to first payroll of the month. Upon completion, salesperson will ping a manager for review and approval.
-1. Approving manager will ping accounting upon approval.
-1. Accounting will review and reconcile paid vs unpaid invoices.
-1. Accounting will note in calculation template the amounts to be paid in commission.
-1. Accounting will ping payroll that commission calculation is complete.
-1. Commission will get pay on the 1st check date of the month for US team members and at the end of the month for all other countries.
-
-### Importing Swag Shop data to Avalara
-
-In [Shopify](https://www.shopify.com/login):
-
-1. Click on "Orders" in the left-hand toolbar.
-1. Select "Export" and the desired transaction history period.
-1. Download the report in CSV format.
-1. Copy the transaction data from the Shopify report to the [Avalara Tax Import template](https://drive.google.com/file/d/19_UBjfqKcnuOWDfHfRVfFRc5L35QF4Gf/view?usp=sharing) located in the Google Drive.
-    - Note that the import will fail if the columns that are highlighted green are left blank. Also check to ensure that the state and local tax data is entered into the correct columns. This is required for tax compliance.
-1. Save file for the remaining steps below.
-
-In [Avalara](https://admin-avatax.avalara.net/):
-
-1. Click on "Reports".
-1. Select the "Import Data" option.
-1. When prompted, choose the CSV import option.
-1. Check the import status report to ensure all transactions are successfully imported.
-
-#### Tax on stock options
-
-### Cash Forecasting and Tracking
-
-1. The Controller maintains the actual and forecast reporting for cash by entity.
-1. The google sheet is updating weekly and reconciled to Netsuite once per month.
-1. To find the internal google sheet search for "Cash Flow Forecast". If you need permission to access email the controller.

@@ -4,7 +4,7 @@ title: "Database Reliability Engineer"
 
 Database Reliability Engineers (DBRE) are responsible for keeping database systems that support all user-facing services (most notably GitLab.com) and many other GitLab production systems running smoothly 24/7/365. DBREs are a blend of database engineering and administration gearheads and software developers that apply sound engineering principles, operational discipline and mature software development and automation, specializing in databases (PostgreSQL in particular). In that capacity, DBREs are peers to SREs and bring database expertise to the SRE and SAE Infrastructure teams as well as our engineering teams.
 
-GitLab.com is a unique site and it brings unique challenges: it’s the biggest GitLab instance in existence; in fact, it’s one of the largest single-tenancy open-source SaaS sites on the internet. The experience of our team feeds back into other engineering groups within the company, as well as to GitLab customers running self-managed installations
+GitLab.com is a unique site and it brings unique challenges: it's the biggest GitLab instance in existence; in fact, it's one of the largest single-tenancy open-source SaaS sites on the internet. The experience of our team feeds back into other engineering groups within the company, as well as to GitLab customers running self-managed installations
 
 ## As a DBRE you will
 
@@ -101,7 +101,7 @@ The Senior Database Reliability Engineer is a [grade 7](/handbook/total-rewards/
 - Proactively work on the efficiency and capacity planning to set clear requirements and reduce the system resources usage to make GitLab cheaper to run for all our customers.
 - Perform and run blameless RCA's on incidents and outages, relentlessly looking for answers that will prevent the incident from ever happening again.
 - Show ownership of PostgreSQL ecosystem, great plus on ownership of major part of the infrastructure.
-- Deep knowledge in architectural overview, knowledge of engineering practices, ORM’s, caching...
+- Deep knowledge in architectural overview, knowledge of engineering practices, ORM's, caching...
 - Identify parts of the system that do not scale, provide immediate palliative measures and drive long term resolution of these incidents.
 - Identify the SLO (Service Level Objectives) that will align the team to meet the availability and latency objectives.
 - Be constructive, strong initiatives, approach with solutions, think out of the box, able to switch focus or priorities as required.
@@ -139,7 +139,7 @@ Communication and Collaboration:
 Influence and Maturity:
 
 1. Routinely has an impact on the broader Engineering organization
-1. Write in-depth documentation that shares knowledge and radiates GitLab technical strengths. Participate actively and lead Gitlab technical/Business calls.
+1. Write in-depth documentation that shares knowledge and radiates GitLab technical strengths. Participate actively and lead GitLab technical/Business calls.
 1. Have a high level of self awareness.
 1. Help to develop other team members into senior levels and leaders in the team.
 1. Collaborates closely with development groups and exerts influence on how GitLab (the application) interacts with the database
@@ -148,14 +148,14 @@ Influence and Maturity:
 
 Database Reliability Engineers have the following job-family performance indicators:
 
-- [GitLab.com Availability](https://about.gitlab.com/handbook/engineering/infrastructure/performance-indicators/#gitlab-com-availability)
-- [GitLab.com Performance](https://about.gitlab.com/handbook/engineering/infrastructure/performance-indicators/#gitlab-com-performance)
-- [Apdex and Error SLO per Service](https://about.gitlab.com/handbook/engineering/infrastructure/performance-indicators/#apdex-and-error-slo-per-service)
-- [Mean Time to Detection](https://about.gitlab.com/handbook/engineering/infrastructure/performance-indicators/#mean-time-to-detection-mttd)
-- [Mean Time to Resolution](https://about.gitlab.com/handbook/engineering/infrastructure/performance-indicators/#mean-time-to-resolution-mttr)
-- [Mean Time Between Failure](https://about.gitlab.com/handbook/engineering/infrastructure/performance-indicators/#mean-time-between-failures-mtbf)
-- [Mean Time to Production](https://about.gitlab.com/handbook/engineering/infrastructure/performance-indicators/#mean-time-to-production-mttp)
-- [Disaster Recovery Time to Recovery](https://about.gitlab.com/handbook/engineering/infrastructure/performance-indicators/#disaster-recovery-dr-time-to-recover)
+- [GitLab.com Availability](/handbook/engineering/infrastructure/performance-indicators/#gitlab-com-availability)
+- [GitLab.com Performance](/handbook/engineering/infrastructure/performance-indicators/#gitlab-com-performance)
+- [Apdex and Error SLO per Service](/handbook/engineering/infrastructure/performance-indicators/#apdex-and-error-slo-per-service)
+- [Mean Time to Detection](/handbook/engineering/infrastructure/performance-indicators/#mean-time-to-detection-mttd)
+- [Mean Time to Resolution](/handbook/engineering/infrastructure/performance-indicators/#mean-time-to-resolution-mttr)
+- [Mean Time Between Failure](/handbook/engineering/infrastructure/performance-indicators/#mean-time-between-failures-mtbf)
+- [Mean Time to Production](/handbook/engineering/infrastructure/performance-indicators/#mean-time-to-production-mttp)
+- [Disaster Recovery Time to Recovery](/handbook/engineering/infrastructure/performance-indicators/#disaster-recovery-dr-time-to-recover)
 
 ## Hiring Process
 
@@ -175,4 +175,4 @@ See more details about our hiring process on the [hiring handbook](/handbook/hir
 
 ## Career Ladder
 
-For more details on the engineering career ladders, please review the [engineering career development](https://about.gitlab.com/handbook/engineering/career-development/#roles) handbook page.
+For more details on the engineering career ladders, please review the [engineering career development](/handbook/engineering/careers/#roles) handbook page.

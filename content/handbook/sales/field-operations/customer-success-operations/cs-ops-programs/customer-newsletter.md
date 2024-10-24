@@ -1,16 +1,7 @@
 ---
-
 title: "Customer Newsletter"
 Description: The customer newsletter recaps each months release and highlights important information from the field, product and/or marketing.
 ---
-
-
-
-
-
-
-
-
 
 ### Overview
 
@@ -20,7 +11,6 @@ Ongoing feedback and participation from the field and Product is imperative to t
 
 - Submit an issue using our [CS Programs - Idea Request](https://gitlab.com/gitlab-com/sales-team/field-operations/customer-success-operations/-/issues/new) template
 - Reach out in the #cs-operations Slack channel
-
 
 ### Target Audience
 
@@ -35,7 +25,6 @@ The benefit of Gainsight is as follows:
 - Multi-step outreaches
 - Multiple email versions
 - Link your emails triggered by Programs, to other features in Gainsight (e.g. CTAs - Calls to Action)
-
 
 ### Opportunities & Requirements
 

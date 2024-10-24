@@ -11,7 +11,7 @@ See also [opstrace#1949](https://gitlab.com/gitlab-org/opstrace/opstrace/-/issue
 
 ## Responding
 
-A standard response is available as a macro: [`Support::SaaS::Temp IP Ban`](https://gitlab.com/search?utf8=%E2%9C%93&group_id=2573624&project_id=17008590&scope=&search_code=true&snippets=false&repository_ref=master&nav_source=navbar&search=id%3A+360045599533))
+A standard response is available as a macro: [`Support::SaaS::Gitlab.com::Temp IP Ban`](https://gitlab.com/gitlab-com/support/zendesk-global/macros/-/blob/master/active/Support/SaaS/GitLab.com/Temp%20IP%20Ban.md?ref_type=heads)
 
 Please also see [the log requests workflow](/handbook/support/workflows/log_requests) for what information we can provide when responding.
 
@@ -27,7 +27,7 @@ You can then drill down from there with positive and negative filters on [fields
 
 ### Checking for Rack Attack Blocks
 
-It can sometimes be unclear if a user has actually been blocked by our end or not. If they've been blocked by [Rack Attack](https://docs.gitlab.com/ee/security/rack_attack.html), we should be able to locate requests in Kibana that were blocked because of it.
+It can sometimes be unclear if a user has actually been blocked by our end or not. If they've been blocked by [Rack Attack](https://docs.gitlab.com/ee/development/application_limits.html#implement-rate-limits-using-rackattack), we should be able to locate requests in Kibana that were blocked because of it.
 
 To do so, enter the IP address into the main search field and set a positive filter on `json.message` for `Rack_Attack`.
 
@@ -39,7 +39,7 @@ You should see results similar to the following:
 
 The existence of these results tells us that this user was blocked by Rack Attack and we can add the `json.fullpath` field to see which exact path on GitLab.com each request tried to access.
 
-It's common to see multiple failed authentication requests (401) trigger a Rack Attack block which causes a 403 Forbidden message. We block IP addresses if we receive [30 failed requests from a single IP in a three minute period](https://docs.gitlab.com/ee/user/gitlab_com/index.html#git-and-container-registry-failed-authentication-ban). It's worth noting that by default, Git operations are first tried unauthenticated so it's expected to see two 401 responses for every Git operation.
+It's common to see multiple failed authentication requests (401) trigger a Rack Attack block which causes a 403 Forbidden message. We block IP addresses if we receive [300 failed requests from a single IP in a one minute period](https://docs.gitlab.com/ee/user/gitlab_com/index.html#git-and-container-registry-failed-authentication-ban). It's worth noting that by default, Git operations are first tried unauthenticated so it's expected to see two 401 responses for every Git operation.
 
 Rack Attack can also *throttle* traffic. If that is the case, this is recognizable by the HTTP 429 response code. The preferred solution to this is to have the user make fewer requests. If that is not possible you can create an infrastructure issue with [this template](https://gitlab.com/gitlab-com/gl-infra/infrastructure/-/issues/new?issuable_template=request-rate-limiting).
 
@@ -52,7 +52,7 @@ The following fields are the best to add to your search query in order to get th
 - `json.status` - Outputs the HTTP status code that was returned for the request. We're usually looking for `401` (Unauthorized) and/or `403` (Forbidden).
 - `json.path` - The path on GitLab.com that was accessed by the request or the API endpoint that was hit.
 - `json.method` - Can be either `GET`, `POST`, `PUT`, `PATCH`, or `DELETE`. The first three are the most common.
-- `json.env` - Can be `blocklist`, `throttle` or `track`. `track` is used for diagnostics when changing rate limiting settings and does not affect users: from a support perspective, ignore `track`. `blocked` happens in reaction to too many failed authentication attempts, for example with automated Git HTTP traffic. `throttle` means a user or IP is making too many requests per minute.
+- `json.env` - Can be `blocklist`, `throttle` or `track`. `track` is used for diagnostics when changing rate limiting settings and does not affect users: from a support perspective, ignore `track`. `blocklist` happens in reaction to too many failed authentication attempts, for example with automated Git HTTP traffic. `throttle` means a user or IP is making too many requests per minute.
 
 #### Secondary
 
@@ -99,7 +99,7 @@ A failed pull will look like the following in Kibana.
 
 #### `gitlab-ci-token` Pulls
 
-The `gitlab-ci-token` user is exempted from [rate-limitting](https://docs.gitlab.com/ee/user/gitlab_com/#git-and-container-registry-failed-authentication-ban).
+The `gitlab-ci-token` user is exempted from [rate-limiting](https://docs.gitlab.com/ee/user/gitlab_com/#git-and-container-registry-failed-authentication-ban).
 
 ### LFS
 
@@ -158,9 +158,19 @@ An IP can become rate-limited if a customer attempts to export or download proje
 
 - `json.path`: `/namespace/project/download_export`
 
-### Handling Gitlab.com "Access Denied" errors (CloudFlare Block)
+### Email verification process
 
-There may be cases where a user is being blocked by CloudFlare and they are not being blocked due to rate limiting. You can typically request a screenshot of the CloudFlare “Access Denied” page or have the customer perform a `curl` with the `-i` flag to retrieve the relevant headers:
+In certain cases, when the customer is using a shared user account to run pipelines, a signing sign in from a new IP address will trigger [Account email verifiation](https://docs.gitlab.com/ee/security/email_verification.html). this will block the account, and all tokens, until the signing is verify. This could cause enough `401` errors to trigger an [IP block](https://docs.gitlab.com/ee/user/gitlab_com/index.html#ip-blocks).
+
+#### Useful Fields
+
+- `json.details.custom_message` : `User access locked - sign in from untrusted IP address`
+- `json.custom_message`: `User access locked - sign in from untrusted IP address`
+- `json.entity_path` - The user name of the account
+
+### Handling GitLab.com "Access Denied" errors (CloudFlare Block)
+
+There may be cases where a user is being blocked by CloudFlare and they are not being blocked due to rate limiting. You can typically request a screenshot of the CloudFlare "Access Denied" page or have the customer perform a `curl` with the `-i` flag to retrieve the relevant headers:
 
 ![Access Denied](/handbook/support/workflows/assets/AccessDenied.png)
 
@@ -189,10 +199,10 @@ Note the `HTTP 403` response and `error code 1020`.
 
 Once you obtain this information you should open an issue in our [Reliability tracker](https://gitlab.com/gitlab-com/gl-infra/reliability/-/issues) providing the `cf-ray` ID and the timestamp (date) to request that the IP address block be removed. You can also consult the #infrastructure-lounge Slack channel with the open issue for further assistance. Some blocks may happen as a result of a mitigation effort, so you may want to verify that a [contact request](https://gitlab.com/gitlab-com/support/internal-requests/-/issues) is not open on the internal board.
 
-Note that IP addresses may be blocked if they are identified as being from a [current US embargoed country](https://home.treasury.gov/policy-issues/financial-sanctions/sanctions-programs-and-country-information) as per [our Terms of Use](/handbook/legal/subscription-agreement/). Blocks are done automatically through CloudFlare's GeoLocation block methods and cannot be changed. You can [enter an IP address](https://www.maxmind.com/en/geoip2-precision-demo) to determine how it is classified and verify against [the list of countries](/handbook/legal/trade-compliance/). A user can consider [requesting a data correction](https://support.maxmind.com/geoip-data-correction-request/) of their IP address but it is not guaranteed and GitLab has no control over this process.
+Note that IP addresses may be blocked if they are identified as being from a [current US embargoed country](https://home.treasury.gov/policy-issues/financial-sanctions/sanctions-programs-and-country-information) as per [our Terms of Use](/handbook/legal/subscription-agreement/). Blocks are done automatically through CloudFlare's GeoLocation block methods and cannot be changed. You can [enter an IP address](https://www.maxmind.com/en/geoip2-precision-demo) to determine how it is classified and verify against [the list of countries](/handbook/legal/trade-compliance/). A user can consider [requesting a data correction](https://www.maxmind.com/en/geoip-data-correction-request) of their IP address but it is not guaranteed and GitLab has no control over this process.
 
-## Applying for an exception
+## Applying for an exception (Deprecated)
 
 If a customer has concerns about being rate limited, work with them as much as possible to lower their traffic from a single IP address.
 
-In rare cases, all traffic must be routed through a single IP address. If this is a concern for the customer, please work with a support manager to consider opening an [issue in the reliability tracker](https://gitlab.com/gitlab-com/gl-infra/reliability/-/issues) to ask for an exception.
+Foundations team is no longer accepting new IP allowlist requests. Please add requests to [this issue](https://gitlab.com/gitlab-com/support/support-team-meta/-/issues/6033).

@@ -1,17 +1,9 @@
 ---
-
 title: "Freemium SaaS Usage Data"
 description: "How to view and use usage data from freemium and trial SaaS namespaces in Salesforce."
 ---
 
-
-
-
-
-
-
 ---
-
 
 ## Purpose
 
@@ -27,13 +19,13 @@ Empower our internal team with lightweight Free/Trial usage insights in Salesfor
 
 For more information on general Product Usage Statistics, see [Using Product Usage Reporting in Gainsight](/handbook/customer-success/product-usage-data/using-product-usage-data-in-gainsight/).
 
-##### Video Overview
+#### Video Overview
 
 For a high level overview (6 minutes), see:
 
 ([**SaaS Free Trial Usage Stats in SFDC: Training Video**](https://youtu.be/28_bgDL__BQ) above is Private on GitLab Unfiltered)
 
-##### Field Definitions
+#### Field Definitions
 
 Below are the fields, descriptions, and best practices for each field. These can be used to help us understand what the customer is using GitLab for and how we can help them achieve their desired outcomes. For example, high ci pipeline usage indicates we may want to start the conversation around CI, or that they've already accomplished that objective.
 
@@ -67,7 +59,7 @@ You can view this on the Salesforce Account page, or create a Salesforce report 
 | Namespace details | Plan | Tells if the namespace is in Trial or Free plan |
 | Namespace details | Duplicate Note | Tells if the namespace is displayed in other accounts as well or just in this account |
 | Owner details | SFDC_ID | If the owner is already a salesforce lead or contact, it shows the person salesforce id |
-| Owner details | User Name | Their username for Gitlab product |
+| Owner details | User Name | Their username for GitLab product |
 | Metric | Num of billable users | The number of users in the namespace that could be billed for |
 | Metric | Num of active users | The number of billable users in the namespace who have logged in and used 1+ stages in the last 3 months |
 | Metric | Num of stages | Measures the number of stages being used in the namespace in the last 3 months (e.g., Create, Verify, and Package would be "3") |
@@ -98,7 +90,6 @@ Priority 4: Number of billable members in the namespace<br>
 Priority 5: Number of stages used by namespace user in the last 3 months <br>
 Priority 6: Number of active users in the namespace using 1+ stages in the last 3 months<br>
 
-
 ### Additional Resources
 
 1. [List of all Free/Trial Accounts in SFDC](https://gitlab.my.salesforce.com/00O8X000008QZom)
@@ -106,8 +97,6 @@ Priority 6: Number of active users in the namespace using 1+ stages in the last 
 1. [Personalized Report for Account Owners](https://gitlab.my.salesforce.com/00O8X000008Qa7o) - This report will allow you to see a complete list of your assigned accounts which have Freemium SaaS usage, using an automated filter which should work for most Salesforce users. Please review and edit the date range if the report is lacking data.
 1. [Personalized Report for Account Owners](https://gitlab.my.salesforce.com/00O8X000008QaTa) - You can use this report if the one above does not populate for your user profile.  This report will allow you to see a complete list of your assigned accounts which have Freemium SaaS usage by manually inserting your name into the `Account Owner` filter. Please review and edit the date range if the report is lacking data.
 
-
 ### Providing feedback
 
 Please add your questions, data quality concerns, and general feedback on [this issue](https://gitlab.com/gitlab-com/sales-team/field-operations/customer-success-operations/-/issues/1031). This is needed for us to continue to improve the SaaS Free/Trial experience!
-

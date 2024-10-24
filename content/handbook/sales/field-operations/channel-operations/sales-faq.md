@@ -1,17 +1,8 @@
 ---
-
 title: "GitLab Sales FAQ - Selling with Partners"
 ---
 
-
-
-
-
-
 <link rel="stylesheet" type="text/css" href="/stylesheets/biztech.css" />
-
-
-
 
 This page documents frequently asked questions from our GitLab Sellers on how to collaborate with partners throughout the sales process. Please contact us at `#partner-programs-ops` in slack or `@Partner Operations` in SFDC chatter if you have any questions or would like to see another question/answer documented on this page.
 
@@ -22,7 +13,7 @@ This page documents frequently asked questions from our GitLab Sellers on how to
 When should my partner submit a Deal Registration? What opportunities are they able to register?
 </summary>
 
-GitLab has a [Partner Sourced Deal Registration](/handbook/sales/field-operations/channel-operations/#partner-sourced-deal-registration) (DR) program for Resale, MSP, and Referral opportunities. The partner should submit a Partner Sourced DR for an opportunity where they are **bringing net-new business to GitLab**, which can apply to opportunities for new logo, co-term add-on/upsell, or add-on/upsell as part of a renewal. Note, we can only approve one Partner Sourced DR for an opportunity, as only one partner can source a deal. Partners should not submit a Partner Sourced DR if they did not source the opportunity, and will generally receive Co-Sell discounts for these deals. Please refer to GitLab’s [Internal Incentive Guide](https://docs.google.com/document/d/1qiT_2EsnL20c4w0hyZ_CGaJQIzj8CSCsHERoR80cwws/edit#heading=h.9e3o7yaxw8mu) for more information on partner program discounts.
+GitLab has a [Partner Sourced Deal Registration](/handbook/sales/field-operations/channel-operations/#partner-sourced-deal-registration) (DR) program for Resale, MSP, and Referral opportunities. The partner should submit a Partner Sourced DR for an opportunity where they are **bringing net-new business to GitLab**, which can apply to opportunities for new logo, co-term add-on/upsell, or add-on/upsell as part of a renewal. Note, we can only approve one Partner Sourced DR for an opportunity, as only one partner can source a deal. Partners should not submit a Partner Sourced DR if they did not source the opportunity, and will generally receive Co-Sell discounts for these deals. Please refer to GitLab's [Internal Incentive Guide](https://docs.google.com/document/d/1qiT_2EsnL20c4w0hyZ_CGaJQIzj8CSCsHERoR80cwws/edit#heading=h.9e3o7yaxw8mu) for more information on partner program discounts.
 
 GitLab also has a [Service Attach DR](/handbook/sales/field-operations/channel-operations/#service-attach-opportunities) program which applies to opportunities where partners are selling their own professional services into a customer environment at the time of a GitLab product sale.
 
@@ -33,9 +24,9 @@ GitLab also has a [Service Attach DR](/handbook/sales/field-operations/channel-o
 My partner is unable to log into the Partner Portal to submit a Deal Registration (DR). How can they get access to submit a DR?
 </summary>
 
-If the partner contact has a Partner Portal account but is unable to login, they can [select “Forgot Password”](https://partners.gitlab.com/English/) to reset their password. If they do not have a Partner Portal account, they can [select “Request Portal Access”](https://partners.gitlab.com/English/) to set up an account. Please have the partner contact `partnersupport@gitlab.com` for assistance ​​if they have followed the directions but are still having issues.
+If the partner contact has a Partner Portal account but is unable to login, they can [select "Forgot Password"](https://partners.gitlab.com/English/) to reset their password. If they do not have a Partner Portal account, they can [select "Request Portal Access"](https://partners.gitlab.com/English/) to set up an account. Please have the partner contact `partnersupport@gitlab.com` for assistance ​​if they have followed the directions but are still having issues.
 
-Note, to submit a Deal Registration, the partner must first be an authorized GitLab partner as well as have completed the [required training](/handbook/resellers/channel-working-with-GitLab/#training--certification-requirements-for-transactions-deal-registrations-nfrs-and-letters-of-authorization-loas) in order to be granted access to submit a DR.
+Note, to submit a Deal Registration, the partner must first be an authorized GitLab partner as well as have completed the [required training](/handbook/resellers/channel-working-with-gitlab/#training--certification-requirements-for-transactions-deal-registrations-nfrs-and-letters-of-authorization-loas) in order to be granted access to submit a DR.
 
 </details>
 
@@ -50,13 +41,12 @@ Yes, the expired DR can be [extended](/handbook/sales/field-operations/channel-o
 
 <details>
 <summary markdown="span">
-What does it mean when the status of a Deal Registration (DR) is "Returned”?
+What does it mean when the status of a Deal Registration (DR) is "Returned"?
 </summary>
 
 The Channel Account Manager (CAM) assigned to the DR has reviewed and sent it back to the resale partner for additional information/context. Once the resale partner reviews and responds to the CAM's feedback, the CAM will be notified to review and action the updated DR.
 
 </details>
-
 
 ## SFDC Opportunity
 
@@ -66,11 +56,12 @@ Where can I find Deal Registration (DR) information on an opportunity?
 </summary>
 
 DR information can be found in two areas on the opportunity:
-- “Registrations” section in the related list quick links section at the top of the opportunity. This section contains all DRs attached to an opportunity, including approved, expired, rejected, and pending Partner Sourced DRs as well as Service Attach DRs.
+
+- "Registrations" section in the related list quick links section at the top of the opportunity. This section contains all DRs attached to an opportunity, including approved, expired, rejected, and pending Partner Sourced DRs as well as Service Attach DRs.
 
 ![Opp DR Top Section](/handbook/sales/field-operations/channel-operations/images/opp_top_section.png "Deal Registration Opp")
 
-- “Partner Sourced Deal Registration” section in the body of the opportunity which contains the approved Partner Sourced DR.
+- "Partner Sourced Deal Registration" section in the body of the opportunity which contains the approved Partner Sourced DR.
 
 ![DR Section](/handbook/sales/field-operations/channel-operations/images/dr_section.png "Deal Registration Section in Opp")
 
@@ -81,7 +72,7 @@ DR information can be found in two areas on the opportunity:
 Where can I find information on the partner we quoted on an opportunity?
 </summary>
 
-Please refer to the “Primary Quote Partner Details” section of the opportunity which displays the partner information from the Primary Quote.
+Please refer to the "Primary Quote Partner Details" section of the opportunity which displays the partner information from the Primary Quote.
 
 ![Primary Quote Section](/handbook/sales/field-operations/channel-operations/images/quote_section.png "Primary Quote Section")
 
@@ -96,14 +87,13 @@ SQS on the opportunity will be "Partner Generated" if (i) there is an approved P
 
 </details>
 
-
 ## Sales Process
 
 ### Partner Discounts and Incentives
 
 <details>
 <summary markdown="span">
-Where can I find information on GitLab’s partner discounts, incentives, and rebate programs?
+Where can I find information on GitLab's partner discounts, incentives, and rebate programs?
 </summary>
 
 Please refer to the [Internal Incentive Guide](https://docs.google.com/document/d/1qiT_2EsnL20c4w0hyZ_CGaJQIzj8CSCsHERoR80cwws/edit#heading=h.9e3o7yaxw8mu) which contains information on our partner discounts, incentives, rebate programs and more.
@@ -125,6 +115,7 @@ When should I provide Partner Sourced vs Co-Sell partner discounts?
 </summary>
 
 If the opportunity is for new or add-on/upsell business:
+
 - **sourced** by the partner (including adding licenses as part of a renewal opportunity), the partner should submit a Partner Sourced Deal Registration (DR) for the opportunity. The GitLab CAM and ASM will approve the DR and then you can provide Partner Sourced discounts to the DR partner for the new or add-on portion of the deal.
 - **not sourced** by the partner, the partner will generally receive co-sell discounts.
 
@@ -142,7 +133,6 @@ How do partner discounts impact my compensation?
 Please refer to GitLab's [channel neutral compensation policy](/handbook/sales/field-operations/channel-operations/#channel-neutral). Please contact the Sales Compensation team if you have any questions on a specific opportunity after reviewing the policy.
 
 </details>
-
 
 ### Quoting
 
@@ -190,6 +180,7 @@ Where do I send the quote when I have a reseller-direct or two-tier distribution
 </summary>
 
 The quote needs to be sent to the partner, not the customer. Specifically, if your quote is:
+
 - reseller-direct, send the quote to your reseller contact only (ensure you do not copy the customer)
 - via distribution, send the quote to your distributor contact only (ensure you do not copy the reseller or the customer). Please refer to the [Partner Operations handbook](/handbook/sales/field-operations/channel-operations/#distributor-requirements-and-coverage-by-geo-and-market) for distribution contact information
 
@@ -209,7 +200,7 @@ Please refer to the [Partner Operations handbook](/handbook/sales/field-operatio
 How do I find the `Invoice Owner` and `Invoice Owner Contact` for my partner quote?
 </summary>
 
-The `Invoice Owner` and `Invoice Owner Contact` on a partner quote represent the partner’s Billing Account and billing account Contact records, respectively. Please refer to the [Partner Operations handbook](/handbook/sales/field-operations/channel-operations/#how-to-find-partner-billing-records-in-sfdc-and-use-for-quoting) for details on how to find these records in SFDC and use them for quoting.
+The `Invoice Owner` and `Invoice Owner Contact` on a partner quote represent the partner's Billing Account and billing account Contact records, respectively. Please refer to the [Partner Operations handbook](/handbook/sales/field-operations/channel-operations/#how-to-find-partner-billing-records-in-sfdc-and-use-for-quoting) for details on how to find these records in SFDC and use them for quoting.
 
 </details>
 
@@ -224,10 +215,10 @@ We are not able to quote an unauthorized reseller. Please encourage the reseller
 
 <details>
 <summary markdown="span">
-I am unable to quote a partner as their `Partner Status` is “Prospect”? Why does this partner account have “Prospect” status and how do we update them to Authorized/Active?
+I am unable to quote a partner as their `Partner Status` is "Prospect"? Why does this partner account have "Prospect" status and how do we update them to Authorized/Active?
 </summary>
 
-The partner account is in [“Prospect” status](/handbook/sales/field-operations/channel-operations/#standard-channel-practices) because they have not yet signed our partner agreement and/or completed their required sales training. Please contact the Channel Account Manager that owns the partner account in SFDC to request that they work with the partner to get them authorized.
+The partner account is in ["Prospect" status](/handbook/sales/field-operations/channel-operations/#standard-channel-practices) because they have not yet signed our partner agreement and/or completed their required sales training. Please contact the Channel Account Manager that owns the partner account in SFDC to request that they work with the partner to get them authorized.
 
 </details>
 
@@ -287,10 +278,10 @@ Yes, if the customer provides formal communication through email to confirm they
 
 <details>
 <summary markdown="span">
-The partner requested to add seats to their customer’s instance before the renewal. Does the add-on need to be processed before we can create a renewal quote for the entire subscription?
+The partner requested to add seats to their customer's instance before the renewal. Does the add-on need to be processed before we can create a renewal quote for the entire subscription?
 </summary>
 
-Yes, for the customer’s overall license count to be accurate during the renewal, add-on licenses need to be fully processed before GitLab can generate a renewal quote. Please refer to the [Deal Desk handbook](/handbook/sales/field-operations/sales-operations/deal-desk/#transacting-a-separate-add-on-opportunity-prior-to-renewal) for further guidance.
+Yes, for the customer's overall license count to be accurate during the renewal, add-on licenses need to be fully processed before GitLab can generate a renewal quote. Please refer to the [Deal Desk handbook](/handbook/sales/field-operations/sales-operations/deal-desk/#transacting-a-separate-add-on-opportunity-prior-to-renewal) for further guidance.
 
 </details>
 
@@ -299,10 +290,9 @@ Yes, for the customer’s overall license count to be accurate during the renewa
 The partner is concerned their customer may not be able to renew their instance before their grace period expires and they lose access. Can a temp license extension be granted to have additional time to process the renewal?
 </summary>
 
-Yes, you can [submit an internal support ticket](https://gitlab-com.gitlab.io/support/internal-requests-form/) to request a temp license to prevent the customer from losing access while the renewal is processed.
+Yes, you can [submit an internal support ticket](https://support-super-form-gitlab-com-support-support-op-651f22e90ce6d7.gitlab.io/) to request a temp license to prevent the customer from losing access while the renewal is processed.
 
 </details>
-
 
 ### Purchase Orders (POs)
 
@@ -326,7 +316,7 @@ Please refer to the [Deal Desk handbook](/handbook/sales/field-operations/sales-
 
 <details>
 <summary markdown="span">
-I am expecting a PO from the partner on the last day of the quarter. How do I ensure my PO/opportunity submission will count toward GitLab’s current fiscal quarter?
+I am expecting a PO from the partner on the last day of the quarter. How do I ensure my PO/opportunity submission will count toward GitLab's current fiscal quarter?
 </summary>
 
 Please refer to the guidelines listed in the [Sales Order Processing handbook](/handbook/sales/field-operations/order-processing/#end-of-quarter-bookings) regarding end-of-quarter bookings.
@@ -341,7 +331,6 @@ My partner asked for GitLab's ECCN. Where can I find this information?
 You can find our ECCN in our [Trade Compliance handbook](/handbook/legal/trade-compliance/#how-do-trade-control-laws-apply-to-gitlab-software).
 
 </details>
-
 
 ## Post-Sale
 
@@ -371,8 +360,9 @@ The partner requested that the purchase confirmation email with license/activati
 </summary>
 
 This can be actioned by either the GitLab Sales Rep or the partner:
-- The GitLab Sales Rep can [submit an internal support ticket](https://gitlab-com.gitlab.io/support/internal-requests-form/) to request that the support team send the purchase confirmation email to the same end user contact.
-- The partner that received the Gitlab invoice (i.e., Distributor for two-tier deal, Reseller for one-tier deal) can [submit a support ticket](https://support.gitlab.com/hc/en-us/requests/new) with the GitLab invoice attached to request the purchase confirmation email be resent to the same end user contact.
+
+- The GitLab Sales Rep can [submit an internal support ticket](https://support-super-form-gitlab-com-support-support-op-651f22e90ce6d7.gitlab.io/) to request that the support team send the purchase confirmation email to the same end user contact.
+- The partner that received the GitLab invoice (i.e., Distributor for two-tier deal, Reseller for one-tier deal) can [submit a support ticket](https://support.gitlab.com/hc/en-us/requests/new) with the GitLab invoice attached to request the purchase confirmation email be resent to the same end user contact.
 
 </details>
 
@@ -381,7 +371,7 @@ This can be actioned by either the GitLab Sales Rep or the partner:
 The partner contacted me saying their customer did not receive the purchase confirmation email with license/activation code due to the PO/Quote listing the wrong end user contact. How can we send the purchase confirmation email to a different end user contact?
 </summary>
 
-The partner that received the Gitlab invoice (i.e., Distributor for two-tier deal, Reseller for one-tier deal) needs to [submit a support ticket](https://support.gitlab.com/hc/en-us/requests/new) with the GitLab invoice attached to request the purchase confirmation email be sent to a new end user contact.
+The partner that received the GitLab invoice (i.e., Distributor for two-tier deal, Reseller for one-tier deal) needs to [submit a support ticket](https://support.gitlab.com/hc/en-us/requests/new) with the GitLab invoice attached to request the purchase confirmation email be sent to a new end user contact.
 
 **Important to note**, the GitLab Sales Rep cannot change the end user contact post-sale on behalf of the partner or customer. The request to change the end user contact must either be submitted by the (i) partner that received our invoice as outlined above or (ii) customer contact listed as `Sold To Contact` on our final quote (i.e., the person that received the license).
 
@@ -392,6 +382,20 @@ The partner that received the Gitlab invoice (i.e., Distributor for two-tier dea
 The partner notified us that the customer is unable to use their GitLab Self-Managed activation code as they have an offline or air-gapped environment. How can we provide a legacy or offline license post-sale?
 </summary>
 
-Request approval from your VP via SFDC chatter to provide an offline or legacy license key for a closed-won opportunity. If/when VP approval is granted, [submit an internal support ticket](https://gitlab-com.gitlab.io/support/internal-requests-form/) to request an updated license be issued to the customer.
+Request approval from your VP via SFDC chatter to provide an offline or legacy license key for a closed-won opportunity. If/when VP approval is granted, [submit an internal support ticket](https://support-super-form-gitlab-com-support-support-op-651f22e90ce6d7.gitlab.io/) to request an updated license be issued to the customer.
+
+</details>
+
+<details>
+<summary markdown="span">
+The customer received an error stating they are out of Compute Minutes so their instance has stopped working. How can I quickly resolve this?
+</summary>
+
+The customer must add Compute Minutes via the same procurement path as the original order (i.e., if they purchased the original subscription through a partner, they must purchase the additional minutes through the same partner). Please take the following steps:
+
+1. Initiate the procurement process. For channel deals, GitLab Sales to provide the partner a quote for additional Compute Minutes. For AWS/GCP deals, GitLab Sales to generate a private offer to the customer for additional Compute Minutes
+2. GitLab Sales to submit an internal support ticket to request that the support team add minutes to the customer's instance to get the customer back online while the GitLab procurement cycle is completed. To submit an internal support ticket, use the `Other> Other License & Renewals Related Issue request type`, and provide as much information as possible in the request to help drive quick review and approval (e.g., customer is locked out and required to wait on our procurement cycle since they purchase via partner, needs additional minutes to get back online)
+
+**Important to Note**, The Support Team will not keep track nor remove any compute minutes, therefore GitLab Sales should request a modest amount of minutes to cover the time period necessary while waiting for the sale to process.
 
 </details>

@@ -1,5 +1,8 @@
-{{ $categories := partials.IncludeCached "data/categories" . }}
-{{ $stages := partials.IncludeCached "data/stages" . }}
+{{- $categories := dict }}
+{{- range $k, $v := site.Data.public.categories }}
+  {{- $categories = merge $categories (dict $k $v) }}
+{{ end }}
+{{ $stages := site.Data.public.stages.stages }}
 
 <table>
     <thead>
@@ -13,7 +16,7 @@
         <tr>
         <td>{{ .name }} <code>{{$k}}</code></td>
         <td>{{- $cat := $k }}
-            {{- range $key, $data := $stages.stages }}
+            {{- range $key, $data := $stages }}
             {{- range $k, $v := $data.groups }}
                 {{- if in .categories $cat }}
                 <a href="#{{$k}}">{{ $v.name }}</a>

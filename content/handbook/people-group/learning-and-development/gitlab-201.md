@@ -1,26 +1,10 @@
 ---
-title: GitLab 201 Tool
+title: GitLab 201
 ---
 
-Welcome to GitLab 201. This is a self-paced course consisting of reading material, video tutorials and knowledge assessments at the end of each lesson. To become complete GitLab 201, participants will have to pass all 3 lessons with at least 80%. We recommend that courses are completed and passed in order.
+## Welcome
 
-Please visit GitLab Learn and create an account to complete the [GitLab 201](https://levelup.gitlab.com/access/saml/login/internal-team-members?returnTo=https://levelup.gitlab.com/learn/course/gitlab-201-certification) and earn the GitLab 201 Badge!
-
-### Who can benefit from this 201 training?
-
-Everyone at GitLab needs to know how to use GitLab and be technical to some level. This training is geared toward GitLab team members who are in non-engineering roles (i.e. talent acquisition, peopleops, marketing, finance, etc) and/or have not used a DevOps tool like GitLab before. This can also be helpful for non-engineering people outside of GitLab wanting to learn how to use GitLab for personal projects.
-
-### Prerequsites
-
-[GitLab 101]({{< ref "gitlab-101" >}})
-
-### What do you need to get started?
-
-To get started with the GitLab 201, you will need:
-
-- A laptop
-- Wifi
-- 2 hours (this course can be completed in one sitting or lesson by lesson)
+Welcome to GitLab 201. This is a set of reading material and video tutorials for GitLab team members who are in non-engineering roles (i.e. talent acquisition, peopleops, marketing, finance, etc) and/or have not used a DevOps tool like GitLab before. This can also be helpful for non-engineering people outside of GitLab wanting to learn how to use GitLab for personal projects.
 
 ### Objectives
 
@@ -35,16 +19,16 @@ Epics let you manage your portfolio of projects more efficiently and with less e
 ### Uses
 
 1. Suppose your team is working on a project/OKR that involves multiple discussions throughout different issues created in distinct projects within a Group.  With epics, you can track all the related activities that together contribute to that single project/OKR.
-1. Track when the work for the group of issues is targeted to begin, and when it’s targeted to end.
+1. Track when the work for the group of issues is targeted to begin, and when it's targeted to end.
 1. Discuss and collaborate on ideas and scope at a high level.
 1. Helps to report on the health status of the different issues attached.
 
 ### How to create an epic
 
-Epics are created on group level. To create an epic, navigate to the project’s group, on the left panel,
+Epics are created on group level. To create an epic, navigate to the project's group, on the left panel,
 
-1. Click ‘epics’
-1. Then click ‘New epic’
+1. Click 'epics'
+1. Then click 'New epic'
 1. Type in the title of the epic and click create epic
 1. This epic is referred to as the parent epic
 
@@ -73,7 +57,7 @@ To add a child epic:
 
 ### How to link epics and issues
 
-An epic contains a list of issues and an issue can be associated with at most one epic. When you add an issue that’s already linked to an epic, the issue is automatically unlinked from its current parent.
+An epic contains a list of issues and an issue can be associated with at most one epic. When you add an issue that's already linked to an epic, the issue is automatically unlinked from its current parent.
 
 ### How to add an issue to an epic
 
@@ -86,7 +70,7 @@ In the epic, click the Add dropdown button.
 1. If there are multiple issues to be added, press the spacebar and repeat this step
 1. Click Add
 
-### Add an epic to an issue:
+### Add an epic to an issue
 
 For an existing issue, navigate to the side bar,
 
@@ -100,17 +84,13 @@ Once the desired epic has been selected, it will be shown on the issue like this
 
 ![issue sidebar](/images/handbook/people-group/epic_added_to_issue_4.png)
 
-### Helpful Tips:
+### Helpful Tips
 
 **Issues** - medium for collaborating on ideas and planning work in GitLab
 
 **Boards** - set up similar to how a kanban board would look. An issue board shows you what issues your team is working on, who is assigned to each, and where in the workflow those issues are.
 
 **Epic** - helps to track issues across multiple projects efficiently. Epics give a high level view of the health status of different issues attached to that epic.
-
-### Quiz - Lesson 1: Epics
-
-Please complete the Lesson 1 assessment in [Level Up](https://levelup.gitlab.com/access/saml/login/internal-team-members?returnTo=https://levelup.gitlab.com/learn/course/gitlab-201-certification)
 
 ## Lesson 2: Merge Requests
 
@@ -131,7 +111,7 @@ Write your comment in the dialogue box and click on the start a review button.
 
 ![comment dialogue](/images/handbook/people-group/start_a_review_dialogue_box_6.png)
 
-To add more comments to a review, start writing a comment as normal and click the ‘Add to review’ button.
+To add more comments to a review, start writing a comment as normal and click the 'Add to review' button.
 
 To resolve a thread, when replying to a comment, click the checkbox to resolve thread.
 
@@ -161,7 +141,7 @@ Once the suggestion has been applied, a new commit will be created and the sugge
 
 ### WIP/Draft merge requests
 
-If you are still working on a merge request and not ready for it to be merged, add `WIP:` or `Draft:` to the start of the merge request’s title, this will prevent the merge request from being merged.
+If you are still working on a merge request and not ready for it to be merged, add `WIP:` or `Draft:` to the start of the merge request's title, this will prevent the merge request from being merged.
 
 To update a WIP MR, in the changes tab, click on the pencil icon to edit the merge request.
 
@@ -172,10 +152,6 @@ Make your changes.  Click "commit changes".
 When you are ready for it to be merged, simply remove the `WIP:` or `Draft:` prefix from the title of the MR.
 
 Save changes, and assign the merge request to the DRI of the page.
-
-### Quiz - Lesson 2: Merge Requests
-
-Please complete the Lesson 2 assessment in [Level Up](https://levelup.gitlab.com/access/saml/login/internal-team-members?returnTo=https://levelup.gitlab.com/learn/course/gitlab-201-certification)
 
 ## Lesson 3: How to create a new handbook page
 
@@ -194,12 +170,12 @@ Before creating a new handbook page, ensure the information does not already exi
 1. Name the file path and ensure it ends in `/index.html.md`.
 1. To ensure the page is set up correctly, copy/paste the following to the top of your new handbook page. Remember to edit appropriately.
 
-```markdown
----
-title: "[insert title of your page]"
-description: "[insert a short sentence to appear as part of search results]"
----
-```
+    ```markdown
+    ---
+    title: "[insert title of your page]"
+    description: "[insert a short sentence to appear as part of search results]"
+    ---
+    ```
 
 1. Type in the commit message and click `commit changes`.
 1. Update the merge request template and assign the merge request to the appropriate reviewer.
@@ -207,15 +183,5 @@ description: "[insert a short sentence to appear as part of search results]"
 ### Helpful tips for updating the handbook
 
 1. To locate the handbook on gitlab.com, navigate to `www-gitlab-com` project, click sites - handbook - source - handbook. Click the section of the handbook you want to navigate to (eg people group, marketing), the folders are arranged alphabetically.
-1. The [markdown guide]({{< ref "/docs/markdown-guide#markdown-style-guide-for-aboutgitlabcom" >}}) page contains useful tips for updating the handbook, such as adding images, embedding documents and much more.
-1. If you don’t know how to do something - find another instance of it in the handbook. For example, if you want to add a table to the handbook. Navigate to a section of the handbook that contains a table, the [People Group]({{< ref "/handbook/people-group" >}}) page is a good example. Click `view source` to see how the table looks. You may copy/paste, then edit to suit your needs.
-
-### Quiz - Lesson 3: How to create a new handbook page
-
-Please complete the Lesson 3 assessment in [Level Up](https://levelup.gitlab.com/access/saml/login/internal-team-members?returnTo=https://levelup.gitlab.com/learn/course/gitlab-201-certification)
-
-To complete GitLab 201, you will have to pass (with at least an 80%) all three lessons.
-
-## Feedback
-
-We are always trying to improve. Please let us know what you thought of this GitLab 201 course by filling out our [feedback form in Level Up](https://levelup.gitlab.com/access/saml/login/internal-team-members?returnTo=https://levelup.gitlab.com/learn/course/gitlab-201-certification).
+1. The [markdown guide](/docs/markdown-guide#markdown-style-guide-for-aboutgitlabcom) page contains useful tips for updating the handbook, such as adding images, embedding documents and much more.
+1. If you don't know how to do something - find another instance of it in the handbook. For example, if you want to add a table to the handbook. Navigate to a section of the handbook that contains a table, the [People Group](/handbook/people-group) page is a good example. Click `view source` to see how the table looks. You may copy/paste, then edit to suit your needs.

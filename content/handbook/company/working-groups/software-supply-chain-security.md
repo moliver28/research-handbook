@@ -91,4 +91,5 @@ To be added once the project is complete
 | Engineering DRI    | Aaron Huntsman     | Sr. Backend Engineer, Govern                    |
 | Member             | Charlie Ablett     | Staff Backend Engineer, Plan                    |
 | Member             | Georgi N. Georgiev | Senior Backend Engineer, Verify                 |
-| Advisor            | Dominic Couture    | Staff Security Engineer, Application Security   |
+| Advisor            | Greg Myers         | Security Engineer, Application Security         |
+| Advisor            | Ottilia Westerlund       | Security Engineer, Application Security         |

@@ -6,7 +6,7 @@ canonical_path: "/company/purpose/"
 
 ## Purpose
 
-GitLab’s purpose is to help people increase their lifetime earnings through access to opportunities and the DevSecOps platform.
+GitLab's purpose is to help people increase their lifetime earnings through access to opportunities and the DevSecOps platform.
 
 ## Identifying GitLab's Purpose
 
@@ -43,7 +43,7 @@ Our knowledge sharing empowers everyone, not only to GitLab team members but als
 
 #### Aimed at under-represented or under-resourced groups
 
-1. [Coaching & mentoring program for people from underrepresented groups](https://about.gitlab.com/handbook/engineering/volunteer-coaches-for-urgs/)
+1. [Coaching & mentoring program for people from underrepresented groups](/handbook/engineering/volunteer-coaches-for-urgs/)
 1. [Morehouse College Advanced Software Engineering Course](/handbook/company/culture/inclusion/erg-minorities-in-tech/advanced-software-engineering-course/)
 1. Targeted events such as [workshops organized for Rails Girls](/handbook/people-group/givelab-volunteer-initiatives/#rails-girls)
 1. [Minorities in Tech (MIT) mentoring](/handbook/company/culture/inclusion/erg-minorities-in-tech/mentoring/program-structure/) for GitLab team members
@@ -56,13 +56,13 @@ We empower how people work by providing thought leadership on remote work which 
 #### All-remote
 
 1. Enable more companies to work remotely, which spreads job opportunities more evenly globally across regions and countries
-1. Published [The Remote Playbook](https://learn.gitlab.com/suddenlyremote) and the [Remote Work Report](/handbook/company/culture/all-remote/remote-work-report/): with over 100,000 downloads, it’s the de facto blueprint as the world transitions to remote work
-1. GitLab’s all-remote culture is being taught to execs and business students via case studies with [Harvard Business School](https://www.hbs.edu/faculty/Pages/item.aspx?num=57917) and [INSEAD](https://www.insead.edu/conversations/gitlab-can-all-remote-scale)
+1. Published [The Remote Playbook](https://learn.gitlab.com/suddenlyremote) and the [Remote Work Report](/handbook/company/culture/all-remote/remote-work-report/): with over 100,000 downloads, it's the de facto blueprint as the world transitions to remote work
+1. GitLab's all-remote culture is being taught to execs and business students via case studies with [Harvard Business School](https://www.hbs.edu/faculty/Pages/item.aspx?num=57917) and [INSEAD](https://www.insead.edu/conversations/gitlab-can-all-remote-scale)
 1. All remote and remote-first [job boards](/handbook/company/culture/all-remote/jobs/#all-remote-and-remote-first-job-boards)
 1. All remote [certification](/handbook/company/culture/all-remote/remote-certification/) to allow more companies to hire remote team members
 1. Reaching hundreds of thousands of remote transitioners via our [How to Manage a Remote Team](https://www.coursera.org/learn/remote-team-management) course on Coursera
-1. [REMOTE by GitLab](https://remotebygitlab.com/) Event
-1. Network effects around evangelizing the remote movement: 30+ organizations openly [inspired by GitLab](/handbook/inspired-by-gitlab/)
+1. REMOTE by GitLab Event
+1. Network effects around evangelizing the remote movement: 30+ organizations openly [inspired by GitLab](/handbook/company/inspired-by-gitlab/)
 1. [Asynchronous communication](/handbook/company/culture/all-remote/asynchronous/) gives flexibility which better allows child care providers to combine work with parental responsibilities
 1. [Non-linear workday](/handbook/company/culture/all-remote/non-linear-workday/)
 
@@ -78,8 +78,8 @@ We empower how people work by providing thought leadership on remote work which 
 1. Collaboration with [The Last Mile](https://about.gitlab.com/blog/2020/11/13/thelastmile-gitlab/)
 1. Guidance and coaching on [how to use open source contributions to build resumes and network](https://thenewstack.io/the-opportunity-of-open-source-to-create-opportunities-for-others/)
 1. Participation in internship programs such as [Outreachy](https://about.gitlab.com/blog/2021/04/15/outreachy-sponsorship-winter-2020/) and [Google of Summer Code](https://summerofcode.withgoogle.com/organizations/4961424868114432/)
-1. [Engineering Internships](https://about.gitlab.com/handbook/engineering/internships/) at GitLab
-1. [Engineering mentoring and coaching programs](https://about.gitlab.com/handbook/engineering/#mentorship-and-coaching-programs) for GitLab team members
+1. [Engineering Internships](/handbook/engineering/internships/) at GitLab
+1. [Engineering mentoring and coaching programs](/handbook/engineering/#mentorship-and-coaching-programs) for GitLab team members
 1. [GitLab Learn](https://gitlab.edcast.com/) courses which can create pathways for targeted groups (for example, career transitioning or new to Open Source)
 
 ### DevSecOps Platform
@@ -126,6 +126,7 @@ Access to a broader set of more valuable opportunities ultimately **increases pe
 ## Purpose Resources
 
 Additional Purposes resources:
+
 1. [Creating a Meaningful Corporate Purpose](https://docs.google.com/document/d/1mXYu-Wf5lzcRC7yknSKCKpdgXx3DEO-E/edit)
 1. [Find Your Why: A Practical Guide for Discovering Purpose for You and Your Team](https://www.amazon.com/Find-Your-Why-Practical-Discovering/dp/0143111728)
 

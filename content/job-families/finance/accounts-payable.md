@@ -7,6 +7,39 @@ The Accounts Payable team is responsible for timely and accurate processing and 
 
 ## Levels
 
+### Junior Accounts Payable Analyst
+
+The Junior Accounts Payable Analyst reports to the Manager, Accounts Payable.
+
+### Junior Accounts Payable Analyst Job Grade
+
+The Junior Accounts Payable Analyst is a grade 5. (/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades).
+
+### Junior Accounts Payable Analyst Responsibilities
+
+- Experience with Coupa and Netsuite preferred
+- Process full-cycle accounts payable including vendor and invoice management approval
+- Ensure proper GL coding for all AP activity recorded in accordance with the GitLab chart of accounts
+- Assist in obtaining documents for year-end 1099 filings
+- Assist with audit requests related to the accounts payable function
+- Assist with journal entries such as AP accruals/reclasses, along with reconciliations, and other assigned tasks related to accounts payable, in a timely manner to comply with the close calendar and checklists
+- Assist team with ad hoc projects, as needed
+- Assist with implementation of accounting tools to help automate and streamline processes
+
+#### Junior Accounts Payable Analyst Requirements
+
+- Experience with Netsuite preferred
+- Experience with Navan and Coupa is a plus
+- 1+ years of related accounts payable experience is required
+- Flexible to meet changing priorities and the ability to prioritize workload to achieve on time accurate results
+- Knowledge of SOX
+- Proficient with Excel and Google Sheets
+- International experience is a plus
+- Knowledge of basic accounting principles
+- Self-starter with the ability to work remotely and independently and interact with various teams when needed.
+- You share our values, and work in accordance with those values.
+- Ability to use GitLab
+
 ### Accounts Payable Analyst (Intermediate)
 
 The Accounts Payable Analyst (Intermediate) reports to [Senior Manager, Accounts Payable](/job-families/finance/accounts-payable/).
@@ -19,8 +52,8 @@ The Accounts Payable Analyst (Intermediate) is a [grade 6](/handbook/total-rewar
 
 - Process full-cycle accounts payable including vendor and invoice management, approval and weekly disbursement activities
 - Ensure proper GL coding for all AP activity recorded in accordance with the GitLab chart of accounts
-- Process expense reports as needed and serve as an administrator for Expensify
-- Administrator for Expensify expense reporting tool including the review of all corporate card transactions to ensure proper coding and processing in NetSuite
+- Process expense reports as needed and serve as an administrator for Navan
+- Administrator for Navan expense reporting tool including the review of all corporate card transactions to ensure proper coding and processing in NetSuite
 - Update cash flow report for disbursements on a daily basis
 - Credit card account reconciliation
 - Assist in year-end 1099 filings
@@ -34,7 +67,7 @@ The Accounts Payable Analyst (Intermediate) is a [grade 6](/handbook/total-rewar
 #### Accounts Payable Analyst (Intermediate) Requirements
 
 - Experience with Netsuite preferred
-- Experience with Expensify and Tipalti is a plus
+- Experience with Navan and Coupa is a plus
 - 3+ years of related accounts payable experience is required
 - Flexible to meet changing priorities and the ability to prioritize workload to achieve on time accurate results
 - Knowledge of SOX
@@ -71,15 +104,15 @@ The Senior Accounts Payable Analyst is a [grade 7](/handbook/total-rewards/compe
 - High degree of attention to detail
 - Strong analytical skills
 
-### Accounts Payable Manager
+### Manager, Accounts Payable
 
-Accounts Payable Manager reports to The [Senior Manager, Accounts Payable](/job-families/finance/accounts-payable/)
+The Manager, Accounts Payable reports to The [Senior Manager, Accounts Payable](/job-families/finance/accounts-payable/)
 
-#### Accounts Payable Manager Job Grade
+#### Manager, Accounts Payable Job Grade
 
-The Accounts Payable Manager is a [grade 8](/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades).
+The Manager, Accounts Payable is a [grade 8](/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades).
 
-#### Accounts Payable Manager Responsibilities
+#### Manager, Accounts Payable Responsibilities
 
 - Extends that of the Senior Accounts Payable Analyst responsibilities
 - Lead project implementation of AP accounting tools to help automate and streamline
@@ -87,8 +120,9 @@ The Accounts Payable Manager is a [grade 8](/handbook/total-rewards/compensation
 - Establish and enforce proper accounting policies and principles as it pertains to accounts payable
 - Train and support staff and new hires on procure to payment, plus expense life cycle
 - Ensure SOX compliance for AP and expense controls
+- Responsible to supervise activities of accounts payable staff to ensure consistent application of best practice, productivity, and adherence to internal controls for accounts payable compliance
 
-#### Accounts Payable Manager Requirements
+#### Manager, Accounts Payable Requirements
 
 - Extends that of the Senior Accounts Payable Analyst requirements
 - 8+ years of related accounts payable experience is required
@@ -100,7 +134,7 @@ The Accounts Payable Manager is a [grade 8](/handbook/total-rewards/compensation
 
 ### Senior Manager, Accounts Payable
 
-The Senior Manager, Accounts Payable reports to the [Senior Director, Corporate Controller](<https://about.gitlab.com/job-families/finance/corporate-controller/>.
+The Senior Manager, Accounts Payable reports to the [Senior Director, Corporate Controller](/job-families/finance/corporate-controller/).
 
 #### Job Grade
 
@@ -115,6 +149,7 @@ The Senior Manager, Accounts Payable is a [grade 9](/handbook/total-rewards/comp
 - Prepare, review and approve various AP and AP related balance sheet reconciliations
 - Maintain AP metrics, recommend and implement process improvements to improve efficiency and accuracy
 - Ensure SOX compliance for AP controls
+- Responsible to supervise activities of accounts payable staff to ensure consistent application of best practice, productivity, and adherence to internal controls for accounts payable compliance
 
 #### Senior Manager Requirements
 
@@ -164,8 +199,8 @@ The Director, Accounts Payable is a grade 10.
 ## Performance Indicators
 
 - [Average days to close](/handbook/finance/accounting/#average-days-to-close-kpi-definition)
-- [Number of material audit adjustments = 0](/handbook/internal-audit/#performance-measures-for-accounting-and-finance-function-related-to-audit)
-- [Percentage of ineffective Sox Controls = 0%](/handbook/internal-audit/#performance-measures-for-accounting-and-finance-function-related-to-audit)
+- [Number of material audit adjustments = 0](https://internal.gitlab.com/handbook/internal-audit/#performance-measures-for-accounting-and-finance-function-related-to-audit)
+- [Percentage of ineffective Sox Controls = 0%](https://internal.gitlab.com/handbook/internal-audit/#performance-measures-for-accounting-and-finance-function-related-to-audit)
 
 ## Career Ladder
 

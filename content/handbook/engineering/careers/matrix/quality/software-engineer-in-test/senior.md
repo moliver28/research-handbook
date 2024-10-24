@@ -5,7 +5,7 @@ description: "These are the expected competencies of a Senior Software Engineer 
 
 ## Quality Department Competencies: Senior
 
-{{% include "includes/engineering/quality-career-nav.md" %}}
+{{% include "includes/engineering-careers/quality-career-nav.md" %}}
 
 **Seniors at GitLab are expected to exhibit the following competencies:**
 
@@ -17,15 +17,15 @@ description: "These are the expected competencies of a Senior Software Engineer 
 
 ### Senior Leadership Competencies
 
-{{% include "includes/engineering/senior-leadership-competency.md" %}}
+{{% include "includes/engineering-careers/senior-leadership-competency.md" %}}
   
 ### Senior Technical Competencies
 
-{{% include "includes/engineering/quality-senior-technical-competency.md" %}}
+{{% include "includes/engineering-careers/quality-senior-technical-competency.md" %}}
 
 ### Senior Values Alignment
 
-{{% include "includes/engineering/values-competency.md" %}}
+{{% include "includes/engineering-careers/values-competency.md" %}}
 
 ### Senior Career Matrix Worksheet
 

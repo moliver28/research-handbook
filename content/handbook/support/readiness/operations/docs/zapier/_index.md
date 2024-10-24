@@ -4,6 +4,11 @@ description: Support Operations documentation page for Zapier
 canonical_path: "/handbook/support/readiness/operations/docs/zapier/"
 ---
 
+**NOTE**
+
+This page is largely informational. Support Readiness made the decision to no
+longer utilize Zapier anymore.
+
 ## What is Zapier
 
 According to [wikipedia](https://en.wikipedia.org/wiki/Zapier):

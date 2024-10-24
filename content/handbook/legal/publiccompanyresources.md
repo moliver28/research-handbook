@@ -12,7 +12,7 @@ Please note that all links are GitLab-internal only.
 ## Working with Corporate Legal
 
 - For questions related to corporate matters, please review the content and materials within [AnswerBase](https://app.vendorpedia.com/vendor-portal/libraries). The team will continue to update the Corporate Library.
-- If the question a team member has is not answered within [AnswerBase](https://app.vendorpedia.com/vendor-portal/libraries), please open an Issue pursuant to the [RFP Process](/handbook/security/security-assurance/field-security/Field-Security-RFP.html#request-for-proposal-rfp-process)
+- If the question a team member has is not answered within [AnswerBase](https://app.vendorpedia.com/vendor-portal/libraries), please open an Issue pursuant to the [RFP Process](/handbook/security/security-assurance/field-security/field-security-rfp/#request-for-proposal-rfp-process)
 
 ## Insider Trading Policy and Insider Trading Policy FAQ
 

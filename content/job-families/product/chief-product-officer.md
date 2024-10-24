@@ -2,7 +2,7 @@
 title: "Chief Product Officer"
 ---
 
-The Chief Product Officer reports to our CEO. The key focus of this role is to define and execute a vision and roadmap company’s products. Also to facilitate strong collaboration between product, engineering, the CEO, and other executives. The Chief Product Officer at GitLab will
+The Chief Product Officer reports to our CEO. The key focus of this role is to define and execute a vision and roadmap company's products. Also to facilitate strong collaboration between product, engineering, the CEO, and other executives. The Chief Product Officer at GitLab will
 need to make sure that the company is building, shipping and supporting the right products.
 
 ## Responsibilities
@@ -31,7 +31,7 @@ need to make sure that the company is building, shipping and supporting the righ
 - Be passionate about and use the product management features within GitLab like epics and portfolio management.
 - Ensure the flow through the product is great.
 - Manage the process by which ideas are transformed into detailed requirements on a prioritized backlog.
-- Craft minimum viable changes (MVC’s) to be made iteratively to our platform.
+- Craft minimal valuable changes (MVC's) to be made iteratively to our platform.
 
 ## Requirements
 
@@ -44,10 +44,10 @@ need to make sure that the company is building, shipping and supporting the righ
 - Experience with hyper-growth, more than 25% QoQ.
 - Experience with growth strategy and data strategy.
 - Ability to take decisions at high velocity.
-- Able to define minimum viable changes.
+- Able to define minimal valuable changes.
 - You are living wherever you want and are excited about the [all remote](/handbook/company/culture/all-remote/) lifestyle
 
-- [Leadership at GitLab](/handbook/company/team/structure/#e-group)
+- [Leadership at GitLab](/handbook/company/structure/#e-group)
 - Ability to use GitLab
 
 ## Performance Indicators
@@ -57,7 +57,7 @@ need to make sure that the company is building, shipping and supporting the righ
 ## Links
 
 - [Product Handbook](/handbook/product/)
-- [Engineering Workflow](https://about.gitlab.com/handbook/engineering/workflow/)
+- [Engineering Workflow](/handbook/engineering/workflow/)
 
 ## Hiring Process
 

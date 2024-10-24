@@ -1,12 +1,9 @@
 ---
-
 title: Working with Issues
 category: Handling tickets
 description: The support team uses the processes and escalation points described on this page when creating, updating and escalating GitLab issues.
 
 ---
-
-
 
 Creating, updating and escalating GitLab issues correctly is an important part of providing quick and accurate customer support. The support team uses the processes and escalation points described on this page when dealing with GitLab issues.
 
@@ -20,7 +17,7 @@ The Support Team plays a role in communicating the **impact to customers** of is
 
 Having the Product team comment in the issues directly follows our core value of being transparent and will help customers understand the context around why / when their issues are being resolved, and it provides direct feedback from customers to the Development and Product teams.
 
-Working this way, it is possible that a customer reported issue is not picked up for a while (scheduling first, then time to work on a fix, then schedule for release, etc.). However, the idea is that this is OK because most truly urgent issues will in fact be regressions that don’t have this scheduling problem. If a bug isn't a regression, that means it has existed for more than a month when the customer notes it, and thus we've gone at least a full month without someone reporting the issue as urgent.
+Working this way, it is possible that a customer reported issue is not picked up for a while (scheduling first, then time to work on a fix, then schedule for release, etc.). However, the idea is that this is OK because most truly urgent issues will in fact be regressions that don't have this scheduling problem. If a bug isn't a regression, that means it has existed for more than a month when the customer notes it, and thus we've gone at least a full month without someone reporting the issue as urgent.
 
 Issues are not scheduled for a particular release unless Product adds them to a release milestone *and* they are assigned to a developer. We aim to be realistic about scheduled deliverables and will avoid scheduling issues that cannot be delivered in a given release.
 
@@ -48,7 +45,7 @@ Here are some tips:
     - We create a milestone for each monthly GitLab release.
     - Consider also searching merge requests by milestone as well.  If you think something changed in a particular release, this will identify actual code changes in that release. The issue might be closed against a later milestone when the whole feature was finally delivered.
   - If you know which product area is responsible for a feature, filter on the `~group::` label.
-    - The [features by group page](../../product/categories/features) is good for finding out the correct group.
+    - The [features by group page](/handbook/product/categories/features) is good for finding out the correct group.
     - Alternatively, look at the labels used on related issues and MRs you may have found already.
 - Sort order: If you get a lot of results in the issue view, look at the options for sorting. For example: `Created date` might be more relevant if you suspect a recent regression in the product.
 - You are likely to spend some time searching for issues you've read before.
@@ -61,11 +58,11 @@ Here are some tips:
 
 Regardless of the type of issue, please include any relevant information *along* with a link. Also check that the [correct labels](#adding-labels) have been applied.
 
-Please see the product handbook to see [what information product wants us to provide for feature requests](/handbook/product/how-to-engage/#customer-feature-requests)
+Please see the product handbook to see [what information product wants us to provide for feature requests](/handbook/product/product-management/#customer-feature-requests)
 
 Optional:
 
-[Search for Zendesk tickets based on the `GitLab Issues` custom field]({{< ref "/handbook/support/readiness/operations/docs/zendesk/searching#searching-by-custom-ticket-field" >}}). Copy and add the link to the search query as a comment to the issue, specifying that it's an internal link to a ZenDesk search of related tickets. This will give the PM more insight into how many customers have encountered an open bug, or have requested a certain feature.
+[Search for Zendesk tickets based on the `GitLab Issues` custom field](/handbook/support/readiness/operations/docs/zendesk/searching#searching-by-custom-ticket-field). Copy and add the link to the search query as a comment to the issue, specifying that it's an internal link to a ZenDesk search of related tickets. This will give the PM more insight into how many customers have encountered an open bug, or have requested a certain feature.
 
 **Note:** To obtain the field ID for the `GitLab Issues` field, you can reference [this repository file](https://gitlab.com/gitlab-com/support/support-ops/zendesk-global/ticket-forms-and-fields/-/blob/master/ticket_fields/active/GitLab%20Issues.yaml).
 
@@ -76,13 +73,13 @@ Using the appropriate labels is *critical* to ensuring visibility of issues and 
 Required:
 
 - [Group](https://gitlab.com/gitlab-org/gitlab-ce/blob/master/doc/development/contributing/issue_workflow.md#group-labels): Unsure of which? Check out [documentation metadata](https://docs.gitlab.com/ee/development/documentation/#metadata), [label descriptions](https://gitlab.com/gitlab-org/gitlab/-/labels), [DevOps Stages](/handbook/product/categories/#devops-stages), [features list by stage](https://about.gitlab.com/features) or similar existing issue.
-- [Type Labels](https://about.gitlab.com/handbook/engineering/metrics/#work-type-classification) should be added by the template, but *add* them if any are missing.
+- [Type Labels](/handbook/product/groups/product-analysis/engineering/dashboards/#work-type-classification) should be added by the template, but *add* them if any are missing.
 - `~customer` (if a ZenDesk link is added, the bot will add this automatically if you forget)
 - `~regression ##.x` if applicable; for high-impact ones, add `~"Next Patch Release"` and ping the relevant lead and subject area experts
 
 For `~customer`+ any label that allows severity (most commonly `~"type::bug"`) labeled issues, a Severity estimate is required. If it is missing, please add them to attract PM attention to the issue:
 
-- [Severity](https://about.gitlab.com/handbook/engineering/quality/issue-triage/#severity): Follow the definitions to the best of your ability when assigning severity. If it's an `~severity::1`, mention the PM and consider posting in the appropriate Slack channel as well.  As Support often has a better idea of the impact on the customer(s), please explain the impact in a comment when you assign the Severity label. Feel free to have the customer add a comment as well, adding any other context they feel might be important.
+- [Severity](/handbook/engineering/infrastructure/engineering-productivity/issue-triage/#severity): Follow the definitions to the best of your ability when assigning severity. If it's an `~severity::1`, mention the PM and consider posting in the appropriate Slack channel as well.  As Support often has a better idea of the impact on the customer(s), please explain the impact in a comment when you assign the Severity label. Feel free to have the customer add a comment as well, adding any other context they feel might be important.
 
 Optional, but highly recommended:
 
@@ -129,7 +126,7 @@ and
 
 ## Creating Feature Proposals
 
-As per our [Statement of Support](https://about.gitlab.com/support/statement-of-support/), the Support Team will generally ask the customer to create feature requests. Feature requests with direct feedback from customers are valuable as customers are often best equipped to explain their use case, requirements, and needs. Ask customers to create the feature request issue and share the link with us. Once an issue link is available, [add labels](#adding-labels) and relevant details in the [comments](#adding-comments-on-existing-issues), and [link the source](/handbook/product/how-to-engage/#customer-feature-requests).
+As per our [Statement of Support](https://about.gitlab.com/support/statement-of-support/), the Support Team will generally ask the customer to create feature requests. Feature requests with direct feedback from customers are valuable as customers are often best equipped to explain their use case, requirements, and needs. Ask customers to create the feature request issue and share the link with us. Once an issue link is available, [add labels](#adding-labels) and relevant details in the [comments](#adding-comments-on-existing-issues), and [link the source](/handbook/product/product-management/#customer-feature-requests).
 
 If you create a feature proposal on behalf of a customer, please follow the same process as [Creating Issues](#creating-issues) by using the `Feature Proposal` template. After the issue is created, share the link in a reply encouraging the customer to follow and contribute to the issue.
 
@@ -138,11 +135,11 @@ If you create a feature proposal on behalf of a customer, please follow the same
 ## Functional escalation points
 
 | Service/Product  | Escalation Types                 | Escalation Point                                        | Assignment      |
-|------------------|--------------------------------|-----------------------------------------------------------|------------------
-| GitLab           | Bug reports or Feature proposals | [Bug](https://gitlab.com/gitlab-org/gitlab/-/issues/new?issuable_template=Bug) or [Feature proposal](https://gitlab.com/gitlab-org/gitlab/-/issues/new?issuable_template=Feature%20proposal%20-%20detailed)           |
-| Omnibus GitLab   | Bug reports, Feature proposals | <https://gitlab.com/gitlab-org/omnibus-gitlab/issues/new>   | Omnibus GitLab specialist
-| GitLab Runner    | Bug reports, Feature proposals | <https://gitlab.com/gitlab-org/gitlab-runner/issues/new>  | GitLab CI specialist
-| GitLab Workhorse | Bug reports, Feature proposals | <https://gitlab.com/gitlab-org/gitlab/-/issues/new?issue%5bdescription%5d=%2flabel%20%7eworkhorse> | Maintainer of gitlab-workhorse
+|------------------|--------------------------------|-----------------------------------------------------------|------------------|
+| GitLab           | Bug reports or Feature proposals | [Bug](https://gitlab.com/gitlab-org/gitlab/-/issues/new?issuable_template=Bug) or [Feature proposal](https://gitlab.com/gitlab-org/gitlab/-/issues/new?issuable_template=Feature%20proposal%20-%20detailed)           | |
+| Omnibus GitLab   | Bug reports, Feature proposals | <https://gitlab.com/gitlab-org/omnibus-gitlab/issues/new>   | Omnibus GitLab specialist |
+| GitLab Runner    | Bug reports, Feature proposals | <https://gitlab.com/gitlab-org/gitlab-runner/issues/new>  | GitLab CI specialist |
+| GitLab Workhorse | Bug reports, Feature proposals | <https://gitlab.com/gitlab-org/gitlab/-/issues/new?issue%5bdescription%5d=%2flabel%20%7eworkhorse> | Maintainer of gitlab-workhorse |
 
 **See the [GitLab team page](/handbook/company/team/) for assignments**
 
@@ -150,9 +147,9 @@ If you create a feature proposal on behalf of a customer, please follow the same
 
 | Service/Product       | Escalation Type                                                                                  | Escalation Point                                         |  Assignment      |
 |-----------------------|-------------------------------------------------------------------------------------------------|---------------------------------------------------------|----------------------- |
-| GitLab Infrastructure | Anything related to the **running of GitLab.com**, performance, something breaks                | <https://gitlab.com/gitlab-com/infrastructure/issues/new> | Production Lead/Senior Production Engineer
-| Support Engineers with Gitlab.com console access| Anything related to the **use of GitLab.com**, operations that can't be performed with admin access  | See [Console escalation requests]({{< ref "internal_requests.md#gitlabcom-console-escalation" >}}) | Use `~"GitLab.com Console Escalation"` label |
-| GitLab Support        | Any and all questions in relation to providing customer service for GitLab users and customers. | <https://gitlab.com/gitlab-com/support/support-team-meta/issues/new>        | Support Team Lead/Senior Support Engineer
+| GitLab Infrastructure | Anything related to the **running of GitLab.com**, performance, something breaks                | <https://gitlab.com/gitlab-com/infrastructure/issues/new> | Production Lead/Senior Production Engineer |
+| Support Engineers with GitLab.com console access| Anything related to the **use of GitLab.com**, operations that can't be performed with admin access  | See [Console escalation requests]({{< ref "internal_requests.md#gitlabcom-console-escalation" >}}) | Use `~"GitLab.com Console Escalation"` label |
+| GitLab Support        | Any and all questions in relation to providing customer service for GitLab users and customers. | <https://gitlab.com/gitlab-com/support/support-team-meta/issues/new>        | Support Team Lead/Senior Support Engineer |
 
 **See the [GitLab team page](/handbook/company/team/) for assignments**
 

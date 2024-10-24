@@ -121,17 +121,17 @@ The Director, Contributor Success role extends the [Senior Manager, Contributor 
 - Ability to work collaboratively and efficiently with stakeholders throughout the organization.
 - Experience presenting at conferences and meet-ups in the Open Source community.
 - Experience building a world-class open source contribution program.
-- Demonstrate longevity at at least one recent job.
+- Demonstrate longevity at, at least, one recent job.
 - Understanding of how to be successfully manage at a remote-only company.
 - Ability to use GitLab.
 - Humble, servant leader.
 
 ### Performance Indicators
 
-- [MRARR](https://about.gitlab.com/handbook/engineering/quality/performance-indicators/#mrarr)
-- [Open Community MR Age (OCMA)](https://about.gitlab.com/handbook/engineering/quality/performance-indicators/#open-community-mr-age-ocma)
-- [Community MR Coaches per Month](https://about.gitlab.com/handbook/engineering/quality/performance-indicators/#community-mr-coaches-per-month)
-- [Unique Wider Community Contributors per Month](https://about.gitlab.com/handbook/engineering/quality/performance-indicators/#unique-wider-community-contributors-per-month)
+- [MRARR](/handbook/engineering/infrastructure/performance-indicators/#mrarr)
+- [Open Community MR Age (OCMA)](/handbook/engineering/infrastructure/performance-indicators/#open-community-mr-age-ocma)
+- [Community MR Coaches per Month](/handbook/engineering/infrastructure/performance-indicators/#community-mr-coaches-per-month)
+- [Unique Wider Community Contributors per Month](/handbook/engineering/infrastructure/performance-indicators/#unique-wider-community-contributors-per-month)
 
 ## Hiring Process
 

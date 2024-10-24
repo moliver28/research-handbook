@@ -3,8 +3,8 @@ title: "Support Career Framework: Intermediate Support Engineer"
 ---
 
 ## Intermediate Support Engineer
- 
- {{% include "includes/engineering/support-career-nav.md" %}}
+
+ {{% include "includes/engineering-careers/support-career-nav.md" %}}
 
 **Intermediate Support Engineers at GitLab are expected to exhibit the following competencies:**
 
@@ -16,7 +16,8 @@ title: "Support Career Framework: Intermediate Support Engineer"
 
 ### Leadership Competencies
 
-{{% include "includes/engineering/intermediate-leadership-competency.md" %}}
+{{% include "includes/engineering-careers/intermediate-leadership-competency.md" %}}
+
 - Demonstrates a personal growth mindset by initiating pairings, completing
   learning modules, and building product and troubleshooting knowledge.
 - Understands support KPIs and optimizes personal workflow towards team
@@ -26,7 +27,8 @@ title: "Support Career Framework: Intermediate Support Engineer"
 
 ### Technical Competencies
 
-{{% include "includes/engineering/intermediate-technical-competency.md" %}}
+{{% include "includes/engineering-careers/intermediate-technical-competency.md" %}}
+
 - Is capable of creating and delivering clear technical replies to customer
   queries in spoken and written English.
 - Uses strong communication techniques to understand customer situations,
@@ -39,6 +41,6 @@ title: "Support Career Framework: Intermediate Support Engineer"
 - Is able to trace application behavior through GitLab codebase.
 - Self-assigns issues according to the [Working on Tickets Flowchart](/handbook/support/workflows/working-on-tickets.html#working-on-tickets-flowchart).
 
-###  Values Alignment
+### Values Alignment
 
-{{% include "includes/engineering/values-competency.md" %}}
+{{% include "includes/engineering-careers/values-competency.md" %}}

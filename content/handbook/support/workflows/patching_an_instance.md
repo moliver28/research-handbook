@@ -20,7 +20,7 @@ For Omnibus installs on a single server, this is fairly straightforward. Replace
 a raw snippet.
 
 ```shell
-#Ensure that the "patch" package is installed.
+#Ensure that the "patch" package is installed
 #Use the package manager specific to your Linux OS
 #For Ubuntu, for example, sudo apt install patch
 
@@ -32,6 +32,19 @@ gitlab-ctl restart
 
 To revert the patch, use the `.orig` files the `patch` program generates.
 
+A patch can include changes to multiple files. If you want to confirm that the file or files were patched,
+you can compare the file(s) to the checksums included with most package managers.
+
+For example, in Debian/Ubuntu running dpkg you can compare the checksum of each of the files in the patch to the list in `/var/lib/dpkg/info/gitlab-ee.md5sums`.
+View the patch file in a text editor to see which files are affected.
+
+```shell
+grep "opt/gitlab/embedded/service/gitlab-rails/<path_to_file>" /var/lib/dpkg/info/gitlab-ee.md5sums  # The path does not have a leading /
+md5sum /opt/gitlab/embedded/service/gitlab-rails/<path_to_file>
+```
+
+The checksums will differ if the patch was applied correctly.
+
 **Note**:
 
 - This process only applies to the Rails application ([the GitLab repository](https://gitlab.com/gitlab-org/gitlab)).
@@ -40,11 +53,12 @@ Other components may need additional steps.
 
 ## Patching a Docker install
 
-The GitLab Docker uses Omnibus inside the container to run GitLab. You can follow the same
-steps as **[Patching an Omnibus install](#patching-an-omnibus-install)**.
+The GitLab Docker image uses an Ubuntu-based image with Omnibus installed inside the container to run GitLab. You can follow the same
+steps as **[Patching an Omnibus install](#patching-an-omnibus-install)**. Make sure to install patch binary from Ubuntu repository:
 
 ```shell
 docker exec -it <gitlab-container> bash
+apt update && apt install patch -y
 curl -o /tmp/$mr_iid.patch https://gitlab.com/gitlab-org/gitlab/-/merge_requests/$mr_iid.patch
 cd /opt/gitlab/embedded/service/gitlab-rails
 patch -p1 -b -f < /tmp/$mr_iid.patch
@@ -111,9 +125,8 @@ To revert the patch, you can edit the deployment to use the original image.
 
 **Note**:
 
-- This process only applies to the Rails application ([the GitLab
-repository](https://gitlab.com/gitlab-org/gitlab)). You will need to patch a different image
-depending on the GitLab component, you want to patch.
+- This process only applies to the Rails application ([the GitLab repository](https://gitlab.com/gitlab-org/gitlab)).
+You will need to patch a different image depending on the GitLab component, you want to patch.
 - This is different with [Patching the Rails code in the `toolbox` pod](https://docs.gitlab.com/charts/troubleshooting/kubernetes_cheat_sheet.html#patching-the-rails-code-in-the-toolbox-pod). Patching rails code directly in the `toolbox`
 pod will not apply the patch to the rails code that is serving the requests to the users.
 - You will need to create a new image with the patch if you upgraded the helm chart to a newer version of GitLab.

@@ -27,7 +27,7 @@ Don't take our word for it - check out what mentors and mentees at GitLab have t
 
 **From the Mentors**
 
-> I’ve been a Mentor throughout my career, the GitLab program is hands down the best experience I’ve had. Both Mentor and Mentee are provided with resources and guidance to ensure a successful connection.
+> I've been a Mentor throughout my career, the GitLab program is hands down the best experience I've had. Both Mentor and Mentee are provided with resources and guidance to ensure a successful connection.
 >
 > One of the elements I really enjoyed about this program was the opportunity to meaningfully connect with someone outside of my team - we both learned from each other!
 
@@ -36,27 +36,26 @@ Don't take our word for it - check out what mentors and mentees at GitLab have t
 | Title | Description |
 | ----- | -------- |
 | **Start of Program Feedback Form** | A Culture Amp survey to measure results of the program. Participation is **required**. |
-| **Mentor/Mentee Training** | Completion of the self-paced [How to be a Good Mentor or Mentee](https://www.linkedin.com/learning/how-to-be-a-good-mentee-and-mentor/the-power-of-mentoring?u=2255073) course on LinkedIn Learning is **required** of all mentors and mentees. If you prefer to review text-based information, you can instead review [this slides]({{< ref "/handbook/people-group/learning-and-development/mentor#mentor-and-mentee-training" >}}), created using content from the LinkedIn course. |
+| **Mentor/Mentee Training** | Completion of the self-paced [How to be a Good Mentor or Mentee](https://www.linkedin.com/learning/how-to-be-a-good-mentee-and-mentor/the-power-of-mentoring?u=2255073) course on LinkedIn Learning is **required** of all mentors and mentees. If you prefer to review text-based information, you can instead review [this slides](/handbook/people-group/learning-and-development/mentor#mentor-and-mentee-training), created using content from the LinkedIn course. |
 | **Initial program kickoff** | A 25-minute discussion to meet other mentors and mentees in the program. Attendance is **encouraged**. |
 | **1:1 Mentor Sessions** | Mentors and mentees should meet every other week for 30-minutes for a total of 5 months (with the option to extend). Sessions are led by the mentee and should be focused on specific goals. Attendance is **required**. |
-| **Mentor/Mentee Resources** |[Async resources]({{< ref "/handbook/people-group/learning-and-development/mentor#mentoring-resources" >}}) are available as a training guide for all mentor/mentee pairs. These resources include suggested articles to read and discuss, strategies for goal setting, sample meeting agendas, and additional training material. Use of resources is encouraged but not required. |
+| **Mentor/Mentee Resources** |[Async resources](/handbook/people-group/learning-and-development/mentor#mentoring-resources) are available as a training guide for all mentor/mentee pairs. These resources include suggested articles to read and discuss, strategies for goal setting, sample meeting agendas, and additional training material. Use of resources is encouraged but not required. |
 | **End of Program Feedback Form** | A Culture Amp survey to measure results of the program. Participation is **required**. |
 
 ## Current Program Timeline
 
-Fill out [this Google form](https://docs.google.com/forms/d/e/1FAIpQLSf5yUA-H0RSeQSA8gj3_2mcdzZJkKLCsU-be-Ygdw5KfCSVLw/viewform?usp=sf_link) to be notified of mentorship programs happening in FY24!
+Fill out [this Google form](https://docs.google.com/forms/d/e/1FAIpQLSf5yUA-H0RSeQSA8gj3_2mcdzZJkKLCsU-be-Ygdw5KfCSVLw/viewform?usp=sf_link) to be notified of mentorship programs happening in FY25!
 
 | Date | Description | Related Resources |
 | ----- | ----- | ----- |
-| May 2023 | Discuss program details with Women's TMRG group meeting |  |
-| 2023-06-12  | Call for Mentors | Applications are currently closed. |
-| 2023-06-12 | Call for Mentees | Applications are currently closed. |
-| 2023-06-23  | Applications Close | |
-| 2023-06-30   | Pairing of mentor relationships complete and communicated to applicants | |
-| By 2023-07-14   | Pre-Program survey sent via Culture Amp | |
-| By 2023-07-14 | Mentor/Mentee pre-program coffee chats | |
-| 2023-07-12 and 2023-07-13  | Initial program Kickoff meeting |
-| Week of 2023-11-30 | End of program feedback due |  |
+| 2024-09-23  | Call for Mentors |  |
+| 2024-09-23 | Call for Mentees |  |
+| 2024-10-06  | Applications Close | |
+| 2024-10-30   | Pairing of mentor relationships complete and communicated to applicants | |
+| By 2024-11-04   | Pre-Program survey sent via Culture Amp | |
+| By 2024-11-14 | Mentor/Mentee pre-program coffee chats | |
+| TBA  | Initial program Kickoff meeting |  |
+| Week of 2025-02-01 | End of program feedback due |  |
 
 ## Being a Mentor
 
@@ -138,23 +137,50 @@ If you cannot commit to the 5 month program, please consider applying for a futu
 
 **I'm not eligible to be a mentor or a mentee in this program. What are my options for future participation?**
 
-Other mentorship resources at GitLab can be found [here in the handbook]({{< ref "/handbook/people-group/learning-and-development/mentor" >}}). Team members are always encouraged to build mentor/mentee relationships independently. You can find resources and a list of available mentors in the [Learning and Development handbook]({{< ref "/handbook/people-group/learning-and-development/mentor" >}})
+Other mentorship resources at GitLab can be found [here in the handbook](/handbook/people-group/learning-and-development/mentor). Team members are always encouraged to build mentor/mentee relationships independently. You can find resources and a list of available mentors in the [Learning and Development handbook](/handbook/people-group/learning-and-development/mentor)
 
 ## Results
 
 ### 2023
 
-1. Total Participants: 137 team members / 73 mentor/mentee pairs
+1. Total Participants: 136 team members / 73 mentor/mentee pairs
+
+In 2023, mentees and mentors were surveyed using Culture Amp before and after the program to meausre key impacts of their mentorship. The following data outlines the impact that mentorship had on these impacts for mentees and mentors.
+
+We used CultureAmp to collect feedback. CultureAmp sorts data as `favorable`, `neutral`, and `unfavorable` based on responses. The data below indicates the rating for each question, and the number by which the score changed from pre to post program, if at all.
+
+**Mentee Results**
+
+All mentee impacts trended upwards post program, with the greatest impact being on mentees sense of support network at GitLab. Survey participation went from 91% to 64% pre to post.
+
+| Question | Trend Pre to Post Program |
+| ---------- | ----- |
+| I know where to find GitLab resources to support my career growth. | Favorable, +14 |
+| I have a network of support to help me reach my goals at GitLab. | Favorable, +30 |
+| I have a vision of how I'd like to grow over the next 12 months at GitLab. | Favorable +7 |
+
+**Summary:** The experience of a mentee has an overall favorable rating, and positively impacts mentees knowledge of growth resources, support network, and personal vision.
+
+**Mentor Results**
+
+Both mentor impacts trended sligntly downward. Survey participation went from 91% to 67% pre to post.
+
+| Question | Trend Pre to Post Program |
+| ---------- | ----- |
+| I have relationships with team members outside of my own department. | Favorable, -2 |
+| I am confident in my ability to support others towards achieving their goals. | Favorable, -2 |
+
+**Summary:** The experience of a mentor has an overall favorable rating, with negligible impact on mentors relationships outside their department and confidence in supporting others towards their goals.
 
 ### 2022
 
-#### Participation
+**Participation**
 
 1. Total Participants: 120 team members / 63 mentor/mentee pairs
 1. Unique Departments Represented by Mentees: 21
 1. Unique Departments Represented by Mentors: 24
 
-#### Skills Developed
+**Skills Developed**
 
 Skill development was a key variable used to measure success of this program.
 
@@ -174,7 +200,7 @@ Skill development was a key variable used to measure success of this program.
 - Goal Setting (47.6%)
 - Self-Value (47.6)
 
-#### Feedback
+**Feedback**
 
 1. 84% of mentors agree the program strengthened their **leadership skills.**
 1. 91.7% of mentors agree the program strengthened their **coaching skills.**
@@ -192,7 +218,7 @@ Skill development was a key variable used to measure success of this program.
 
 ### 2021
 
-#### Participation
+**Participation**
 
 1. Total Participants: 66 team members / 33 mentor/mentee pairs
 1. Unique Departments Represented by Mentees: 19
@@ -206,7 +232,7 @@ Session 3:
 
 Watch [session 1](https://www.youtube.com/embed/cuRT7nUU10Q)and [session 2](https://www.youtube.com/embed/sY57W3xbLJU) on the GitLab Unfiltered YouTube channel.
 
-#### Skills Developed
+**Skills Developed**
 
 Skill development was a key variable used to measure success of this program.
 
@@ -226,7 +252,7 @@ Skill development was a key variable used to measure success of this program.
 - Self-promotion (36.8%)
 - Self-value (31.6%)
 
-#### Feedback
+**Feedback**
 
 - 84.3% of mentees plan to continue meeting with their mentor
 - 55% of mentees want to participate as mentors in future iterations of this program

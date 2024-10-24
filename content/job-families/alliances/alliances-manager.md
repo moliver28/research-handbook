@@ -20,7 +20,7 @@ The Associate Technology Partner Manager is a [grade 5](/handbook/total-rewards/
 1. Ensure successful execution of marketing and sales acceleration programs, with a drive for measurable outcomes and revenue yield
 1. Facilitate meaningful relationships between GitLab and our technology partners' teams. This includes partners executive leaders, product managers, engineering, sales and marketing.
 1. Identify new opportunities for quality, high ROI engagements with partners
-1. 1. Ability to travel if needed and comply with the company’s [travel policy](/handbook/travel/)
+1. 1. Ability to travel if needed and comply with the company's [travel policy](/handbook/finance/travel/)
 
 #### Associate Technology Partner Manager Requirements
 
@@ -31,8 +31,8 @@ The Associate Technology Partner Manager is a [grade 5](/handbook/total-rewards/
 1. Significant experience with executive presence and a proven ability to lead and facilitate executive meetings including architecture whiteboards
 1. Excellent time management and written/verbal communication skills
 1. Ability to quickly understand technical concepts and explain them to audiences of varying technical expertise
-1. [Leadership at GitLab](/handbook/company/team/structure/#management-group)
-1. Ability to travel if needed and comply with the company’s [travel policy](/handbook/travel/)
+1. [Leadership at GitLab](/handbook/company/structure/#management-group)
+1. Ability to travel if needed and comply with the company's [travel policy](/handbook/finance/travel/)
 1. Ability to use GitLab
 
 ### Technology Partner Manager (Intermediate)
@@ -102,7 +102,7 @@ The Manager, Technology Partner Managers is a [grade 8](/handbook/total-rewards/
 - Presentation skills with a high degree of comfort speaking with executives, IT Management, and developers
 - Significant experience with executive presence and a proven ability to lead and facilitate executive meetings including architecture whiteboards
 - Excellent time management and written/verbal communication skills
-- Works collaboratively between partners and Gitlab sales team to drive white space discussion and opportunity generation.
+- Works collaboratively between partners and GitLab sales team to drive white space discussion and opportunity generation.
 - Ability to quickly understand technical concepts and explain them to audiences of varying technical expertise
 - Leadership at GitLab
 - Ability to use GitLab
@@ -132,7 +132,7 @@ The Senior Manager, Technology Partner Managers is a [grade 9](/handbook/total-r
 
 - $ derived from GitLab + Technology partner joint customers
 - Size of Partner Practices - skilled, certified consultants and deliver resources
-- [SMAU](/handbook/product/performance-indicators/#stage-monthly-active-users-smau) deal acceleration by stage or # seats in named enterprise accounts with assistance of the partners.  This person has the wherewithall to drive revenue derived from the largest of Clouds to the smallest of ISVs
+- [SMAU](https://internal.gitlab.com/handbook/company/performance-indicators/product/#stage-monthly-active-users-smau) deal acceleration by stage or # seats in named enterprise accounts with assistance of the partners.  This person has the wherewithall to drive revenue derived from the largest of Clouds to the smallest of ISVs
 
 ## Career Ladder
 

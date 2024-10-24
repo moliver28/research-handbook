@@ -1,0 +1,20 @@
+---
+# Warning: handbook.Spelling
+#
+# Checks for possible spelling mistakes in content, not code. Results from links using angle brackets (<https://example.com>) should be corrected.
+#
+# If a word is flagged as a spelling mistake incorrectly, such as a product name,
+# you can submit an MR to update `spelling-exceptions.txt` with the missing word.
+# People's names should be added to `spelling-names.txt` instead.
+# Commands, like `git clone` must use backticks, and must not be added to the
+# exceptions.
+#
+# For a list of all options, see https://vale.sh/docs/topics/styles/
+extends: spelling
+message: "Check the spelling of '%s'. If the spelling is correct, make a MR to add this word to the spelling exceptions list."
+level: warning
+filters:
+  - \w*[\'s][\'s]
+ignore:
+  - handbook/spelling-exceptions.txt
+  - handbook/spelling-names.txt

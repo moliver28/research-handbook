@@ -17,9 +17,9 @@ Specific coaching plan templates are listed here to help start the conversation:
 - (Others to come)
 
 We want to build these documents around the career matrix for Engineering. Since this career
-matrix is still being developed, these documents are currently based on the [job family requirements](https://handbook.gitlab.com/job-families/engineering/).
+matrix is still being developed, these documents are currently based on the [job family requirements](/job-families/engineering/).
 
-The first career matrix being developed is for [Individual Contributors in Engineering](/handbook/engineering/career-development/matrix/engineering/).
+The first career matrix being developed is for [Individual Contributors in Engineering](/handbook/engineering/careers/matrix/).
 
 When a team member is deemed ready for promotion, their manager should follow
 the [promotion process outlined by People](/handbook/people-group/promotions-transfers/) Ops.
@@ -40,10 +40,26 @@ conversation at least once a quarter.
 
 ### Opportunity
 
-The GitLab Engineering career track offers a full path of opportunity for individuals to contribute. The availability of senior engineering roles starting at Staff Engineer will be governed by the IC Gearing Ratios (TBD).
+The GitLab Engineering career track offers a full path of opportunity for individuals to contribute.
 There are scenarios where a position must become available before a promotion can occur. On the engineering track, there must be a position of need to be promoted from a Senior Engineer to either a Staff Engineer or an Engineering Manager, depending on your chosen path. Progression beyond these types of roles (e.g. Senior Engineer) are not guaranteed by time in role. There must be a justifiable need for the role and the candidate must have some level of demonstrated ability to thrive in these roles to be considered for the new position.
 
 These next level opportunities are not guaranteed to be available and should not be viewed as career limiting. Again, using the Senior Engineering role as an example, is a critical role within GitLab. It is an accomplishment to thrive at the Senior level and should be celebrated as such.
+
+## Mobility Principles
+
+The Engineering Mobility Principle is an add-on to the company's mobility guidelines. For cases not covered in this section, please visit the [People Ops Internal Mobility guidelines](/handbook/people-group/promotions-transfers/#internal-mobility)
+
+Career mobility is a part of career development, we support and encourage development and opportunities of our team members while maintaining or making conscious choices of impact to business objectives, current business team capacity, and budget constraints. The following steps must be followed
+
+- Internal mobility should not be an easier path than a promotion for level change
+- All new roles will follow inclusive hiring guidelines for posting and making them available to all potential internal candidates (must be open for a minimum of 5 days before any offer is made)
+- All new roles have a recommended level that is determined by the expected return on investment for the given budget. Managers who wish to consider candidates above or below the given role may offer an interested internal candidate, the following two options:
+  - Re-level the role with a business justification for how this change will benefit the company.
+    - A [template (google document)](https://docs.google.com/document/d/1BAIty-x7otBpohe5w6Kl8DKD-C2nUS9MCm4JwognfVI/edit#heading=h.5onpwyv1o0vg) has been provided, please create a copy and fill in the business justification.
+  - After evaluating the potential readiness of the candidate to meet the expected criteria within a given time period, accept the candidate for an interim period, up to 6 months, and evaluate readiness and impact of level change at the end of the interim period.
+- Transfers between career paths (IC->EM, EM->IC) the person should be moved into an available role on an [interim/acting](/handbook/engineering/careers/#types-of-interim-roles) basis for 4-6 months before the change is made permanent with a promotion/evaluation rationale based on performance
+- All role changes will be reviewed by R&D leadership on a weekly basis. This review will include impact on roadmaps and mitigation of the budget impact if the change requires additional budget to accommodate the request.
+- All internal transfer candidates should have an aligned transition and communication plan to address impact on the previous team, including finalizing a plan for backfill and completing any milestones that are already underway.
 
 ## Individual Contribution vs. Management
 
@@ -59,7 +75,7 @@ In order to facilitate the transition, we recommend any person moving from an In
 
 ### Temporary Management Positions
 
-We create temporary management positions when there is organizational need, and we imprint these in our company org chart. These may be filled by someone who is transitioning into the role ([Interim Manager](https://about.gitlab.com/handbook/engineering/career-development/#interim-manager)), experimenting with the role as they work on determining their career path ([Interim Manager](https://about.gitlab.com/handbook/engineering/career-development/#interim-manager) or [Acting Manager](https://about.gitlab.com/handbook/engineering/career-development/#acting-manager)) or, someone who is just filling in while we hire and who is not interested in pursuing an Engineering Manager role long term ([Acting Manager](https://about.gitlab.com/handbook/engineering/career-development/#acting-manager)). This difference should be made explicit with the individual and team members before the temporary role is created. See the [types of temporary roles](#types-of-interim-roles) for more information on this distinction.
+We create temporary management positions when there is organizational need, and we imprint these in our company org chart. These may be filled by someone who is transitioning into the role ([Interim Manager](/handbook/engineering/careers/#interim-manager)), experimenting with the role as they work on determining their career path ([Interim Manager](/handbook/engineering/careers/#interim-manager) or [Acting Manager](/handbook/engineering/careers/#acting-manager)) or, someone who is just filling in while we hire and who is not interested in pursuing an Engineering Manager role long term ([Acting Manager](/handbook/engineering/careers/#acting-manager)). This difference should be made explicit with the individual and team members before the temporary role is created. See the [types of temporary roles](#types-of-interim-roles) for more information on this distinction.
 
 When someone fills a temporary role they are providing a service to the company, and perhaps getting a valuable career development opportunity for themself; so, poor performance against those duties would not result in termination. At worst, the person would return to their prior responsibilities. That does not mean, however, that an individual is immune to termination of their employment, for example if they commit a breach of their prior responsibilities or of the company's Code of Business Conduct & Ethics while in a temporary position.
 
@@ -72,7 +88,7 @@ Those interested in these roles must:
 - have been employed at GitLab for at least 6 months and thriving in our remote-only context
 - exemplify [GitLab Values](/handbook/values/)
 - For Acting Manager roles: be subject to a talent review depending on the length of appointment
-- For Interim Manager roles: Apply through [Greenhouse](https://about.gitlab.com/handbook/people-group/promotions-transfers/#greenhouse-process-requirements) and go through selection process
+- For Interim Manager roles: Apply through [Greenhouse](/handbook/people-group/promotions-transfers/#greenhouse-process-requirements) and go through selection process
 
 Process for selection:
 
@@ -139,9 +155,9 @@ For more details on logistics of ending an interim or acting period please refer
 
 ## Roles
 
-#### Development Department
+### Development Department
 
-<div class="x-scrollable">
+<div style="overflow-x: auto">
 <div style="width: 1800px;">
 
 ```mermaid
@@ -149,7 +165,7 @@ For more details on logistics of ending an interim or acting period please refer
   %% frontend roles
   eng:tfe(Intern Frontend Engineer);
   click eng:tfe "https://handbook.gitlab.com/job-families/engineering/development/frontend/#intern-frontend-engineer";
-  
+
   eng:afe(Associate Frontend Engineer);
   click eng:afe "https://handbook.gitlab.com/job-families/engineering/development/frontend/#associate-frontend-engineer";
 
@@ -181,7 +197,7 @@ For more details on logistics of ending an interim or acting period please refer
   %% fullstack roles
   eng:tfs(Intern Fullstack Engineer);
   click eng:tfs "https://handbook.gitlab.com/job-families/engineering/development/fullstack/#intern-fullstack-engineer";
-  
+
   eng:afs(Associate Fullstack Engineer);
   click eng:afs "https://handbook.gitlab.com/job-families/engineering/development/fullstack/#associate-fullstack-engineer";
 
@@ -221,7 +237,7 @@ For more details on logistics of ending an interim or acting period please refer
   click eng:fel "/job-families/engineering/engineering-management/#engineering-fellow";
 
   %% career progression
-  subgraph Based on Merit and Company Need
+  subgraph Based on Merit & Company Need
   eng:stfe & eng:em
   eng:stbe & eng:em
   eng:stfs & eng:em;
@@ -235,10 +251,14 @@ For more details on logistics of ending an interim or acting period please refer
   eng:tfs-->eng:afs-->eng:ifs-->eng:sfs-->eng:stfs & eng:em;
   end
 ```
+
 </div>
 </div>
 
-#### Quality Department
+### Quality Department
+
+<div style="overflow-x: auto">
+<div style="width: 1800px;">
 
 ```mermaid
   graph LR;
@@ -250,7 +270,7 @@ For more details on logistics of ending an interim or acting period please refer
     qual:ifsecs(Intermediate Fullstack Engineer, Contributor Success)-->qual:sfsecs(Senior Fullstack Engineer, Contributor Success);
   end
 
-  subgraph Based on Merit &amp; Company Need
+  subgraph Based on Merit & Company Need
     qual:sset(Senior Software Engineer in Test)-->qual:stset(Staff Software Engineer in Test);
     qual:sset(Senior Software Engineer in Test)-->qual:qem(Quality Engineering Manager);
 
@@ -277,7 +297,13 @@ For more details on logistics of ending an interim or acting period please refer
   click qual:vpq "/job-families/engineering/engineering-management-quality/#vp-of-quality";
 ```
 
-#### Support Department
+</div>
+</div>
+
+### Support Department
+
+<div style="overflow-x: auto">
+<div style="width: 1800px;">
 
 ```mermaid
   graph LR;
@@ -287,7 +313,7 @@ For more details on logistics of ending an interim or acting period please refer
     supe:se(Support Engineer)-->supe:sse(Senior Support Engineer);
   end
 
-  subgraph Based on Merit &amp; Company Need
+  subgraph Based on Merit & Company Need
     supe:sse(Senior Support Engineer)-->supe:stse(Staff Support Engineer);
     supe:sse(Senior Support Engineer)-->supe:sem(Support Engineering Manager);
 
@@ -303,7 +329,13 @@ For more details on logistics of ending an interim or acting period please refer
   click supe:ds "/job-families/engineering/support-management#director-of-support";
 ```
 
-#### Infrastructure Department
+</div>
+</div>
+
+### Infrastructure Department
+
+<div style="overflow-x: auto">
+<div style="width: 1800px;">
 
 ```mermaid
   graph LR;
@@ -322,7 +354,7 @@ For more details on logistics of ending an interim or acting period please refer
     eng:ia(Infrastructure Analyst)
   end
 
-subgraph Based on Merit &amp; Company Need
+subgraph Based on Merit & Company Need
   %% Backend Engineers
     eng:sbe(Senior Backend Engineer)-->eng:stbe(Staff Backend Engineer);
     eng:stbe(Staff Backend Engineer)-->eng:pei(Principal Engineer Infrastructure);
@@ -379,7 +411,13 @@ subgraph Based on Merit &amp; Company Need
   click eng:efi "/job-families/engineering/infrastructure/engineering-fellow/";
 ```
 
-#### Incubation Engineering Department
+</div>
+</div>
+
+### Incubation Engineering Department
+
+<div style="overflow-x: auto">
+<div style="width: 1800px;">
 
 ```mermaid
   graph LR;
@@ -388,7 +426,7 @@ subgraph Based on Merit &amp; Company Need
   inc:int(Intermediate Incubation Engineer) --> inc:snr(Senior Incubation Engineer);
   end
 
-  subgraph Based on Merit &amp; Company Need
+  subgraph Based on Merit & Company Need
   inc:snr(Senior Incubation Engineer)-->inc:stf(Staff Incubation Engineer);
   inc:stf(Staff Incubation Engineer)-->inc:pre(Principal Incubation Engineer);
   inc:dir(Director, Incubation Engineering)-->inc:vp(VP of Incubation Engineering);
@@ -399,12 +437,15 @@ subgraph Based on Merit &amp; Company Need
   click inc:stf "/job-families/engineering/development/incubation/engineer/#staff-incubation-engineer";
   click inc:pre "/job-families/engineering/development/incubation/engineer/#principal-incubation-engineer";
   click inc:dir "/job-families/engineering/development/incubation/management/#director-incubation-engineering";
-  click inc:vp  "/job-families/engineering/development/incubation/management/#vp-of-incubation-engineering";
+  click inc:vp "/job-families/engineering/development/incubation/management/#vp-of-incubation-engineering";
 ```
+
+</div>
+</div>
 
 ## Apprenticeship for Learning
 
-Typically, an apprenticeship provides an individual with an overview of a position or field over a short period of time. It’s surface-level learning geared towards team members who are still exploring their interests and deciding what options they’d like to pursue. If the field of interest, it's subject matter experts and the department they want to learn more about can support this effort, then this offers a good opportunity for an internship. For more information on the process please review this handbook section on [Internship for Learning](/handbook/people-group/learning-and-development/internship-for-learning/).
+Typically, an apprenticeship provides an individual with an overview of a position or field over a short period of time. It's surface-level learning geared towards team members who are still exploring their interests and deciding what options they'd like to pursue. If the field of interest, it's subject matter experts and the department they want to learn more about can support this effort, then this offers a good opportunity for an internship. For more information on the process please review this handbook section on [Internship for Learning](/handbook/people-group/learning-and-development/internship-for-learning/).
 
 Eligibility criteria:
 
@@ -430,21 +471,19 @@ If you wish to apprentice with an Engineering team, start by speaking with your 
 
 **Important**: The Apprenticeship for Learning program should differ from any situations where there is actual temporary or permanent [realignment/redeployment/secondment](/handbook/people-group/promotions-transfers/#realignment-of-resources-impacting-multiple-team-members) as a result of changing business needs. If you are unsure whether your situation is aligned with the Apprenticeship for learning program or falls into a resources realignment, please discuss with your aligned [People Business Partner](/handbook/people-group/#people-business-partner-alignment-to-division).
 
-## Internships in Engineering
+## Associates Engineers
 
-An internship is a position meant for someone who has decided on a career path and is looking to gain in-depth experience in a specific field. At GitLab this is the entry level of roles in Engineering.
+Learn more about the career and skill growth support we provide our Associate Engineers [here](/handbook/hiring/associate-engineer-development/).
 
-In May 2020 we launched an internship pilot program as part of a [Working Group](/company/team/structure/working-groups/internship-pilot/). [The pilot internship program](/handbook/engineering/internships/) has proven to be a great mechanism for hiring as well as offered great opportunities for our team members to gain mentoring experience. Due to the program's success currently we have decided to roll out internships on a continuous basis in Engineering.
-
-With the roll out of the intern level in Engineering we have decided to deprecate what previously has been called the junior level (former entry level). Going forward all teams within Engineering can open an intern requisition when there's an organizational need. All information on Internships in Engineering can be found on [this page](/handbook/engineering/internships/).
+As of 2024 this is currently being piloted with the Core Development and Expansion sub-departments.
 
 ## Senior Engineers
 
-Note that we have a specific section for [Senior Engineer](https://handbook.gitlab.com/job-families/engineering/backend-engineer/#senior-backend-engineer) because it's an important step in the technical development for every engineer. But "Senior" can optionally be applied to any role here indicating superior performance. However, it's not required to pass through "senior" for roles other than Engineer.
+Note that we have a specific section for [Senior Engineer](/job-families/engineering/backend-engineer/#senior-backend-engineer) because it's an important step in the technical development for every engineer. But "Senior" can optionally be applied to any role here indicating superior performance. However, it's not required to pass through "senior" for roles other than Engineer.
 
 The Senior Engineer role is a critical role where we need the most contributions. It should also be considered a destination role. It is not a given that you will naturally progress into the next role, whether it is Staff or Management. There are different needs and expectations for the next role. Individual growth and progression is supported and encouraged at GitLab, however progression beyond the Senior Engineering role is gated on availability and need. There may not be a need for another Staff or Management position.
 
-Senior engineers typically receive fewer trivial comments on their merge requests. Attention to detail is very important to us. They also receive fewer _major_ comments because they understand the application architecture and select from proven patterns. We also expect senior engineers to come up with simpler solutions to complex problems. Managing complexity is key to their work. [Staff](https://handbook.gitlab.com/job-families/engineering/backend-engineer/#staff-backend-engineer) and [Distinguished](https://handbook.gitlab.com/job-families/engineering/infrastructure/distinguished-engineer/) positions extend the Senior Engineer role.
+Senior engineers typically receive fewer trivial comments on their merge requests. Attention to detail is very important to us. They also receive fewer *major* comments because they understand the application architecture and select from proven patterns. We also expect senior engineers to come up with simpler solutions to complex problems. Managing complexity is key to their work. [Staff](/job-families/engineering/backend-engineer/#staff-backend-engineer) and [Distinguished](/job-families/engineering/infrastructure/distinguished-engineer/) positions extend the Senior Engineer role.
 
 ## Promotion
 
@@ -452,7 +491,7 @@ We strive to set the clearest possible expectations with regard to performance a
 
 ### Engineering Promotion Rate
 
-People Operations tracks the [Promotion Rate](/handbook/people-group/people-group-metrics/#promotion-rate) for the company overall and each division separately. The target is 12% annually. This metric is treated as an organizational health indicator for the quality of decisioning making our leaders are employing, and for the fairness in our process. In FY21 Engineering was exactly on its target of 12%. So we would not currently consider blocking any individual promotion based on the overall rate. If that were to change, and Engineering became an outlier, we would reevaluate. Here is the company-wide [process](/handbook/people-group/promotions-transfers/#bamboohr-promotion-approval-process).
+People Operations tracks the [Promotion Rate](/handbook/people-group/people-success-performance-indicators/#promotion-rate) for the company overall and each division separately. The target is 12% annually. This metric is treated as an organizational health indicator for the quality of decisioning making our leaders are employing, and for the fairness in our process. In FY21 Engineering was exactly on its target of 12%. So we would not currently consider blocking any individual promotion based on the overall rate. If that were to change, and Engineering became an outlier, we would reevaluate. Here is the company-wide [process](/handbook/people-group/promotions-transfers/#bamboohr-promotion-approval-process).
 
 #### Transfer Options
 

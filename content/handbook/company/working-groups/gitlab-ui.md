@@ -1,6 +1,6 @@
 ---
 title: "gitlab-ui (CSS and Reusable Components)"
-description: "Gitlab-ui drive forward the roadmap of our CSS Cleanup/Restructuring and the implementation of Reusable Components based on our design system."
+description: "gitlab-ui drive forward the roadmap of our CSS Cleanup/Restructuring and the implementation of Reusable Components based on our design system."
 ---
 
 ## Attributes
@@ -25,7 +25,7 @@ Especially the following items:
 
 - Shepherd restructuring for splitting generic CSS in GitLab UI and page
 specific in CE/EE by creating a utility-class library based on the design system
-- Ensure utility-class library is available and usable within GitLab, ensuring the entire set of classes can be imported into Gitlab without clashes and there is documentation to guide consumers on how to use them
+- Ensure utility-class library is available and usable within GitLab, ensuring the entire set of classes can be imported into GitLab without clashes and there is documentation to guide consumers on how to use them
 - Establish working group FE members as GitLab UI maintainers
 - Ensure there is clear documentation written for when and how new components
 should be introduced into the design system and the product, including responsible

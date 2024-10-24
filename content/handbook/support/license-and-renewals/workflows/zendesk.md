@@ -14,11 +14,11 @@ Support Engineers that work on Licensing and Renewal (L&R) tickets should apply 
 
 1. [Selecting tickets](/handbook/support/workflows/working-on-tickets#selecting-tickets)
 1. [Assigning tickets](/handbook/support/workflows/working-on-tickets#assigning-tickets)
-1. Responding to next-to-breach ticket, both your own and [responding to other SEs tickets](/handbook/support/support-global-groups/sgg-faq#1-should-ses-respond-to-other-ses-tickets)
+1. Responding to next-to-breach tickets
 
 ### The workflow
 
-1. Check the main L&R view and work on the next-to-breach ticket:
+1. Check the main L&R view and work on the top ticket in the view. The tickets are ordered by `Ticket Weight`, which takes into account several fields to determine priority order.
 1. Take assignment of the ticket if it is currently unassigned
 1. Write your public reply
 1. **If the ticket is an Internal Request**, review whether the [Priority](/handbook/support/internal-support/#internal-request-slo) is appropriate. If it is not, set the `Priority` field to the appropriate value and notify the requester of the change and of your reasoning. (A macro for this may soon be available)
@@ -49,7 +49,7 @@ Two ways of thinking about ticket data selection:
 
 Please also see the table below as a guideline on what `Transaction issue type` can be selected for scenarios:
 
-| Transaction issue type | Sub-type | Scenario
+| Transaction issue type | Sub-type | Scenario |
 | ---- | ----- | ----- |
 | Billing & Payment (refunds, cancellations, payment questions) |  | Requests for refunds or cancellations + questions about payment and billing |
 | EDU/OSS/Startups | EDU account inquiries | Requests/inquiries for the Education team. Follow [workflow](/handbook/support/workflows/special-programs) |
@@ -63,28 +63,46 @@ Please also see the table below as a guideline on what `Transaction issue type` 
 | Sales-assistance required | Other | Request requires Sales assistance for another reason |
 | Trial-related inquiries | Trial start | Ticket is about starting a trial |
 | Trial-related inquiries | Trial extension | Ticket is about extending a trial |
-| Trial-related inquiries | Trial cancellation | Ticket is about cancelling a trial or downgrading to Free plan |
+| Trial-related inquiries | Trial cancellation | Ticket is about canceling a trial or downgrading to Free plan |
 | Trial-related inquiries | Trial downgrade | Ticket is about downgrading a trial plan (from Ultimate to Premium) |
 | Product or Process question | Free form | Please describe the ticket type in the text field. Any questions about how our products or processes work (except for questions about billable members and seat usage) |
-| License troubleshooting (SM only) | Trueup | Self-managed license issue is caused by trueups |
-| License troubleshooting (SM only) | Prior user count | Self-managed license issue is caused by previous user count |
-| License troubleshooting (SM only) | Never generated | Self-managed license was never generated (and it should have been) |
-| License troubleshooting (SM only) | Active users | Self-managed license issue is caused by active users count |
-| License troubleshooting (SM only) | Multi-year license| Self-managed license is a multi-year license |
-| License troubleshooting (SM only) | Not received | Self-managed license was not received by the requestor |
-| License troubleshooting (SM only) | Other | Self-managed license issue is caused by another reason not listed |
-| Associate namespace (Gitlab.com only) | | Use when we have to help with [provisioning of gitlab.com subscription](/handbook/support/license-and-renewals/workflows/saas/associate_subscription_and_namespace) |
+| Legacy license troubleshooting (SM only) | Trueup | Self-managed license issue is caused by trueups |
+| Legacy license troubleshooting (SM only) | Prior user count | Self-managed license issue is caused by previous user count |
+| Legacy license troubleshooting (SM only) | Never generated | Self-managed license was never generated (and it should have been) |
+| Legacy license troubleshooting (SM only) | Active users | Self-managed license issue is caused by active users count |
+| Legacy license troubleshooting (SM only) | Multi-year license| Self-managed license is a multi-year license |
+| Legacy license troubleshooting (SM only) | Not received | Self-managed license was not received by the requestor |
+| Legacy license troubleshooting (SM only) | Other | Self-managed license issue is caused by another reason not listed |
+| Legacy license troubleshooting (SM only) | Customer issue | User error |
+| Legacy license troubleshooting (SM only) | Multiple unique subscriptions | Subscription is spread across multiple subscription IDs |
+| Legacy license troubleshooting (SM only) | New license activation bug | Error while applying a newly purchase license |
+| Legacy license troubleshooting (SM only) | Transition legacy to cloud | Any problems or errors encountered while changing from legacy license to cloud license |
+| Associate namespace (GitLab.com only) | | Use when we have to help with [provisioning of gitlab.com subscription](/handbook/support/license-and-renewals/workflows/saas/associate_subscription_and_namespace) |
 | Account management (reset password, update details) |  | Account-related requests or questions like how to get into an account or update the payment method |
 | Contact management |  | Requests or questions about changing the contact for an account or namespace |
 | End of Availability (EOA) | | Any questions or requests relating to the end of the Bronze/Starter tier and the offers for the [new subscription model](https://about.gitlab.com/pricing/faq-new-product-subscription-tiers/) |
 | System bugs & incidents | CustomersDot | Bug or error is caused by an issue in our CustomersDot application |
 | System bugs & incidents | GitLab.com | Bug or error is caused by an issue in our gitlab.com application |
 | System bugs & incidents | License app | Bug or error is caused by an issue in our License application |
-| System bugs & incidents | GitLab version | Bug or error is caused by an issue in the version of Gitlab running on the SM instance |
+| System bugs & incidents | GitLab version | Bug or error is caused by an issue in the version of GitLab running on the SM instance |
 | Plan Change (upgrade, downgrade, product transfer) | | Request to change a subscription by upgrade, downgrade or switching from self-managed to SaaS (or vice-versa) |
 | Consumption (Compute, Storage) | Compute | Any questions or requests about compute minutes in gitlab.com |
 | Consumption (Compute, Storage) | Storage | Any questions or requests about Storage in gitlab.com |
 | Billable members and seats related question | | Questions specifically related to billable members and seat usage |
+| Cloud licensing (SM only) | Trueup | Self-managed license issue is caused by trueups |
+| Cloud licensing (SM only) | Prior user count | Self-managed license issue is caused by previous user count |
+| Cloud licensing (SM only) | Never generated | Self-managed license was never generated (and it should have been) |
+| Cloud licensing (SM only) | Not received | Self-managed license was not received by the requestor |
+| Cloud licensing (SM only) | Multi-year license| Self-managed license is a multi-year license |
+| Cloud licensing (SM only) | Active/billable users | Self-managed license issue is caused by active users count |
+| Cloud licensing (SM only) | Other | Self-managed license issue is caused by another reason not listed |
+| Cloud licensing (SM only) | Customer issue | User error |
+| Cloud licensing (SM only) | Multiple unique subscriptions | Subscription is spread across multiple subscription IDs |
+| Cloud licensing (SM only) | New license activation bug | Error while applying a newly purchase license |
+| Cloud licensing (SM only) | Transition legacy to cloud | Any problems or errors encountered while changing from legacy license to cloud license |
+| Usage ping (SM only) |  | Inquires or concerns about [Usage Ping on SM servers](/handbook/legal/privacy/customer-product-usage-information/#service-ping-formerly-known-as-usage-ping) |
+| Quarterly Subscription Reconciliation |  | Any questions or disputes regarding [quarterly subscription reconciliation](/handbook/support/license-and-renewals/workflows/quarterly_subscription_reconciliations/) |
+| Auto-renewal |  | Any questions or problems regarding a subscription's automatic renewal |
 | Other | Free form | Please describe the ticket type in the text field |
 
 ### The `GitLab Issues` field

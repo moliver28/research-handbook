@@ -2,7 +2,6 @@
 title: "Engineering Manager, Monitoring"
 ---
 
-
 ## Responsibilities
 
 - Hire a world class team of engineers to work on their team
@@ -30,5 +29,5 @@ title: "Engineering Manager, Monitoring"
 - Excellent written and verbal communication skills
 - Experience with managing large amounts of product analytics
 - Experience working with time-series databases
-- [Leadership at GitLab](/handbook/company/team/structure/#management-group)
+- [Leadership at GitLab](/handbook/company/structure/#management-group)
 - Ability to use GitLab

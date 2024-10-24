@@ -1,14 +1,7 @@
 ---
-
 title: "DevOps tools"
 description: "DevOps tools commonly found in a build-your-own DevOps tool chain. Many of these can be replaced by GitLab's single platform for the entire DevOps lifecycle."
 ---
-
-
-
-
-
-
 
 The DevOps tools below are commonly found in a build-your-own DevOps tool chain. Many of these can be replaced by GitLab's single platform for the entire DevOps lifecycle.
 
@@ -16,9 +9,9 @@ The DevOps tools below are commonly found in a build-your-own DevOps tool chain.
 
 #### Issue Tracking
 
-- [Atlassian Jira](/competition/atlassian/)
+- [Atlassian Jira](https://about.gitlab.com/solutions/jira/)
 - [Asana](https://asana.com/)
-- [Microsoft TFS/VSTS/Asure DevOps](/competition/azure/)
+- [Microsoft TFS/VSTS/Asure DevOps](https://about.gitlab.com/blog/2020/07/09/integrating-azure-devops-scm-and-gitlab/)
 - [Pivotal Tracker](https://www.pivotaltracker.com/)
 - Bugzilla
 - JetBrains
@@ -27,7 +20,6 @@ The DevOps tools below are commonly found in a build-your-own DevOps tool chain.
 - Axosoft
 - Bugsnag
 - Countersoft
-- [Fog Creek Software](http://www.fogcreek.com/)
 - Inflectra Corporation
 - Redmine
 - [BMC Remedy](http://www.bmc.com/it-solutions/remedy-itsm.html)
@@ -36,10 +28,9 @@ The DevOps tools below are commonly found in a build-your-own DevOps tool chain.
 
 #### Issue Boards
 
-- [Atlassian Jira](/competition/atlassian/)
+- [Atlassian Jira](https://about.gitlab.com/solutions/jira/)
 - [Asana](https://asana.com/)
 - [Trello](https://trello.com/)
-- [CollabNet VersionOne](https://www.collab.net/)
 - Basecamp
 - Wrike
 - Podio
@@ -51,7 +42,6 @@ The DevOps tools below are commonly found in a build-your-own DevOps tool chain.
 
 ### Portfolio Management
 
-- [CollabNet VersionOne](https://www.collab.net/)
 - [Atlassian Jira Portfolio](https://www.atlassian.com/software/jira/portfolio)
 - [CA Technologies / Rally](https://www.ca.com/us.html)
 - Wrike
@@ -68,9 +58,9 @@ The DevOps tools below are commonly found in a build-your-own DevOps tool chain.
 
 ### Source code management
 
-- [GitHub](/competition/github/)
-- [Atlassian Bitbucket](/competition/bitbucket/)
-- [Microsoft TFS/VSTS/Azure DevOps](/competition/azure/)
+- [GitHub](https://about.gitlab.com/competition/github/)
+- [Atlassian Bitbucket](https://about.gitlab.com/blog/2016/01/27/comparing-terms-gitlab-github-bitbucket/)
+- [Microsoft TFS/VSTS/Azure DevOps](https://about.gitlab.com/blog/2020/07/09/integrating-azure-devops-scm-and-gitlab/)
 - [CA Technologies / Rally](https://www.ca.com/us.html)
 - IBM Rational Clear case
 - Perforce
@@ -112,9 +102,9 @@ The DevOps tools below are commonly found in a build-your-own DevOps tool chain.
 
 - [Travis CI](https://travis-ci.org/)
 - Atlassian Bamboo
-- [Atlassian Bitbucket](/competition/bitbucket/)
+- [Atlassian Bitbucket](https://about.gitlab.com/blog/2016/01/27/comparing-terms-gitlab-github-bitbucket/)
 - [CircleCI](https://circleci.com/)
-- [Microsoft TFS/VSTS/Azure DevOps](/competition/azure/)
+- [Microsoft TFS/VSTS/Azure DevOps](https://about.gitlab.com/blog/2020/07/09/integrating-azure-devops-scm-and-gitlab/)
 - CodeFresh
 - TeamCity
 - Codeship
@@ -142,20 +132,20 @@ The DevOps tools below are commonly found in a build-your-own DevOps tool chain.
 ### Binary Repository
 
 - [JFrog Artifactory](https://jfrog.com/artifactory/)
-- [Sonatype Nexus](https://www.sonatype.com/nexus-repository-sonatype)
+- [Sonatype Nexus](https://www.sonatype.com/products/sonatype-nexus-repository)
 
 ### Continuous Delivery/Deployment
 
 - [Spinnaker](https://www.spinnaker.io/)
-    - [Armory](https://www.armory.io/)
+  - [Armory](https://www.armory.io/)
 - [Go CD](https://www.gocd.org/index.html)
-- [Puppet Pipelines](https://puppet.com/products/puppet-pipelines)
+- [Puppet Pipelines](https://help.puppet.com/cdpe/current/Content/UserGuide/cd_user_guide.htm)
 - [Cloudbees Codeship](https://codeship.com/)
 - [Atlassian Bitbucket](https://bitbucket.org/product)
 - [Electric Cloud ElectricFlow](http://electric-cloud.com/products/electricflow/)
 - [CA Technologies](https://www.ca.com/us.html)
 - [XebiaLabs](https://xebialabs.com/)
-- [Microsoft TFS/VSTS/Azure DevOps](/competition/azure/)
+- [Microsoft TFS/VSTS/Azure DevOps](https://about.gitlab.com/blog/2020/07/09/integrating-azure-devops-scm-and-gitlab/)
 - CodeFresh
 - Red Hat Ansible
 - Clarive
@@ -187,7 +177,7 @@ The DevOps tools below are commonly found in a build-your-own DevOps tool chain.
 
 ### Application Performance Monitoring
 
-- [New Relic](https://newrelic.com/application-monitoring/features)
+- [New Relic](https://newrelic.com/platform/application-monitoring)
 - appdynamics
 - [Splunk](https://www.splunk.com/)
 - [Zabbix](https://www.zabbix.com/)
@@ -241,9 +231,9 @@ The DevOps tools below are commonly found in a build-your-own DevOps tool chain.
 
 ## Data Tools
 
-[Meltano](https://gitlab.com/meltano/meltano) is a separate product that isn't part of GitLab. Here's a list of BizOps tools. Other lists include [cloud native ETL tools](https://www.alooma.com/blog/etl-tools-modern-list), and the [Meltano README](https://gitlab.com/meltano/meltano#data-science-lifecycle).
+[Meltano](https://gitlab.com/meltano/meltano) is a separate product that isn't part of GitLab. Here's a list of BizOps tools. Other lists include cloud native ETL tools (link no longer available), and the [Meltano README](https://gitlab.com/meltano/meltano#data-science-lifecycle).
+
 - [AWS Glue](https://aws.amazon.com/glue/)
-- [Alooma](https://www.alooma.com/blog/etl-tools-modern-list)
 - [Looker](https://looker.com/)
 - Pentaho
 - Tableau

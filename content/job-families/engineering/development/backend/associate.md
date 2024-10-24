@@ -14,7 +14,7 @@ Backend Engineers at GitLab work on our product. This includes both the open sou
 - Advocate for improvements to product quality, security, and performance
 - Solve technical problems of moderate scope and complexity.
 - Craft code that meets our internal standards for style, maintainability, and best practices for a high-scale web environment. Maintain and advocate for these standards through code review.
-- Conduct [Code Review](https://about.gitlab.com/handbook/engineering/workflow/code-review/) within our [Code Review Guidelines](https://docs.gitlab.com/ee/development/code_review.html) and ensure community contributions receive a swift response.
+- Conduct [Code Review](/handbook/engineering/workflow/code-review/) within our [Code Review Guidelines](https://docs.gitlab.com/ee/development/code_review.html) and ensure community contributions receive a swift response.
 - Represent GitLab and its values in public communication around specific projects and community contributions.
 - Confidently ship small features and improvements with minimal guidance and support from other team members. Collaborate with the team on larger projects.
 
@@ -51,7 +51,7 @@ Backend Engineers at GitLab work on our product. This includes both the open sou
 - Computer science education or equivalent experience
 - Passionate about/experienced with open source and developer tools
 
-#### Professional Experience
+### Professional Experience
 
 At GitLab, due to the pace we're moving, people joining our team will be expected to have **significant** professional experience in the
 [primary programming language](#primary-programming-language) of the specialty that they'll be joining.
@@ -59,9 +59,9 @@ Because the majority of our codebase is written in Ruby, even in specialized rol
 
 For context, see this merge request with some [history on this policy](https://gitlab.com/gitlab-com/www-gitlab-com/merge_requests/2695).
 
-----
+---
 
-#### Primary programming language
+### Primary programming language
 
 Some specialties within GitLab are using primary programming languages other than Ruby.
 These programming languages are defined as being primary in terms of an engineer's experience and what they'll be writing day to day.

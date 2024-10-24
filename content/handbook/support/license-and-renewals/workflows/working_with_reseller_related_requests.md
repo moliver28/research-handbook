@@ -1,12 +1,8 @@
 ---
-
 title: Working with reseller related requests
 category: General
 description: This is a guide on how to handle requests involving Reseller.
 ---
-
-
-
 
 ## Overview
 
@@ -36,7 +32,7 @@ Check if a subscription was purchased through a reseller by locating the `Invoic
 1. Once you have identified the customer, click on the `Show` button (represented by an i) which will provide details on the customer
 1. Click on the `Zuora Subscriptions` tab and then the subscription name (i.e. A-S000860000)
 1. This will launch the associated subscription page in `Zuora`
-1. Look under `Basic Information` and the the reseller should be listed in the `Invoice Owner` field in the subscription page
+1. Look under `Basic Information` and the reseller should be listed in the `Invoice Owner` field in the subscription page
 1. You can also search the `Zuora Subscription` page for the text `SSPChannel` which will have the text value `Reseller`
 
 Note:  Sometimes you can also see Partners section in the end-user's SFDC account.
@@ -68,4 +64,4 @@ If a customer with a reseller purchase decides to make a new purchase on a diffe
 - [Associating purchases - ownership verification](/handbook/support/license-and-renewals/workflows/customersdot/associating_purchases#ownership-verification)
 - [Pass to Sales - reseller exemption request](/handbook/support/license-and-renewals/workflows/self-managed/cloud-licensing#2-are-reseller-purchases-considered-the-same-as-sales-assisted-if-a-customer-purchased-after-2022-07-07-and-needs-a-legacy-license-should-we-send-them-to-their-account-manager-to-go-through-the-exemption-process-or-do-we-treat-them-the-same-as-web-direct-and-give-them-a-legacy-license-file-no-questions-asked)
 - [Pass to Sales - reseller subscription change or question](/handbook/support/license-and-renewals/workflows/working_with_sales#a-reseller-or-reseller-customer-wants-to-change-their-subscription-or-ask-a-question)
-- [Not-for-Resale (NFR) program and policy](/handbook/resellers/channel-working-with-GitLab/#not-for-resale-nfr-program-and-policy)
+- [Not-for-Resale (NFR) program and policy](/handbook/resellers/channel-working-with-gitlab/#not-for-resale-nfr-program-and-policy)

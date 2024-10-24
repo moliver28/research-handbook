@@ -1,10 +1,7 @@
 ---
-title: "Observation Remediation Procedure"
+title: "Observation Remediation"
+description: "This details the remediation process for observations."
 ---
-
-{{% alert title="This is a Controlled Document" color="danger" %}}
-Inline with GitLab's regulatory obligations, changes to [controlled documents]({{< ref "controlled-document-procedure" >}}) must be approved or merged by a code owner. All contributions are welcome and encouraged.
-{{% /alert %}}
 
 ## Purpose
 
@@ -61,7 +58,7 @@ It is the responsibility of the Observation Manager to determine if an open obse
 - legacy GCF controls
 - process or application changes
 
-If an observation is confirmed Ignored or Invalid, the associated risk rating of that observation can be changed. See the [Observation Risk Rating Adjustment](https://gitlab.com/gitlab-com/gl-security/security-assurance/observation-management/-/blob/master/runbooks/2_Remediation%20and%20Closeout.md#moving-to-ignoreinvaild-in-zengrc) runbook for further details.
+If an observation is confirmed Ignored or Invalid, the associated risk rating of that observation can be changed. See the [Observation Risk Rating Adjustment](https://gitlab.com/gitlab-com/gl-security/security-assurance/security-compliance-commercial-and-dedicated/observation-management/-/blob/master/runbooks/2_Remediation%20and%20Closeout.md#updating-risk-rating) runbook for further details.
 
 ### Root Cause Observation Epics
 
@@ -98,14 +95,14 @@ OFI's do not have defined remediation SLA's as they are process improvements or 
 - Observations will **always** impact control effectiveness ratings
 - OFIs will **never** impact control effectiveness ratings
 
-## Criteria for Upgrading Observations (i.e. tier 3 information system level risks) to Security Operational Risks (tier 2)
+### Criteria for Upgrading Observations
 
 The observation program is a key input to the [StORM program]({{< ref "storm-program" >}}), which manages tier 2 security operational risks. When the following criteria is met, it is an indicator that a larger risk exists and is upgraded to a tier 2 operational risk and therefore included in the StORM program. This criteria is as follows:
 
 - An observation in an entity level control
 - When multiple observations share root cause and are grouped in an [observation epic]({{< ref "observation-remediation-procedure#root-cause-observation-epics" >}}). Observation epics are a group of observations spanning multiple systems that have shared root cause and remediation paths.
 
-### Security Compliance Workflow:
+### Security Compliance Workflow
 
 ```mermaid
 graph TD
@@ -119,7 +116,7 @@ graph TD
     E --> I[Work with risk on collaborative remediation<br>for both Tier 2 and Tier 3 issues]
 ```
 
-### Security Risk Workflow:
+### Security Risk Workflow
 
 ```mermaid
 flowchart TD
@@ -128,13 +125,13 @@ flowchart TD
     B --> C[ELC]
     B --> D(Observation Epic)
     C --> E{Does a Risk<br>already exist?}
-    E --> |Yes| F[Map related Risk in ZenGRC,<br>update into risk info if appropriate]
-    E --> |No| H[Follow ZenGRC Risk<br>Runbook for new risks]
+    E --> |Yes| F[Map related Risk,<br>update into risk info if appropriate]
+    E --> |No| H[Follow Risk<br>Runbook for new risks]
     H --> G(Risk is treated and<br>managed in StORM Program)
     F --> G
     D --> J{Does a Risk<br>already exist?}
-    J --> |Yes| K[Map related Risk in ZenGRC,<br>update into risk info if appropriate]
-    J --> |No| L[Follow ZenGRC Risk<br>Runbook for new risks]
+    J --> |Yes| K[Map related Risk,<br>update into risk info if appropriate]
+    J --> |No| L[Follow Risk<br>Runbook for new risks]
     L --> M(Work with SecComp<br>on Remediation)
     K --> M
 ```
@@ -149,24 +146,36 @@ Detailed write up:
 1. When the Security Risk team is tagged, someone on that team will determine if there is a risk represented for the observation meeting the criteria.
     1. If there is an existing risk, they will map the observation to the risk and leave a comment in the GitLab issues for transparency.
     1. If there is not an existing risk, they will open a new risk following the [StORM Risk Intake runbook](https://gitlab.com/gitlab-com/gl-security/security-assurance/security-risk-team/storm/-/blob/master/runbooks/storm-risk-intake-gl.md?ref_type=heads) (internal only).
-1. An entity level control, the observation will be entirely managed by the StORM program at the tier 2 risk level, represented by the `upgraded::storm-managed` label.
+1. An entity level control, the observation will be entirely managed by the StORM program at the tier 2 risk level, represented by the `Upgraded::StORM-Managed` label.
 1. If the Observation is not an entity level control, Security Compliance will work with Security Risk for collaborative remediation with the remediation owner(s).
 
-#### Collaborative remediation
+#### Collaborative Remediation
 
 Security Compliance and Security Risk should look for opportunities to remediate via aggregated/common controls. In the event that observations can be remediated via a common control or implementation, activities can be tracked by the Security Risk team. For example, if we have systems that are not meeting password requirements and remediation across multiple systems involves integrating with Okta, this roll-out can be tracked by Security Risk. If remediation is system-specific, remediation activities can be tracked by Security Compliance. Remediation testing will be completed by which ever team is tracking remediation activities using the [Security Compliance remediation runbook](https://gitlab.com/gitlab-com/gl-security/security-assurance/security-compliance-commercial-and-dedicated/observation-management/-/blob/master/runbooks/2_Remediation%20and%20Closeout.md).
+
+### Status Labels
+
+Defined below are status labels that will aide in the process of managing remediation of observations.
+
+| Label| Definition|
+|--|--|
+|`Blocked:: Awaiting Remediation Owner Input`| This flags indicates the observation manager is waiting for response from the remediation owner. |
+|`Blocked:: Awaiting Observation Manager Input`| This flags the issue for the observation manager on the SecAssurance team|
+|`Blocked:: New tool implementation in progress` |This flags the issue for pending completion of the new tool|
+|`Upgraded::StORM-Managed` | This label will be leverage when the observation has been upgraded to a tier 2 risk and will be managed in the StORM program|
+|`Upgraded::StORM-Shared` | This label will be leverage when the observation has been upgraded to a tier 2 risk and remediation is shared by the Security Risk and Security Compliance team|
 
 ## Exceptions
 
 Exceptions will be created for observations that breach a mutually agreed upon remediation date, breach in SLA or if the Remediation Owner confirms the observation will not be remediated.
 
-Exceptions to this procedure will be tracked as per the [Information Security Policy Exception Management Process]({{< ref "../_index.md#information-security-policy-exception-management-process" >}}).
+Exceptions to this procedure will be tracked as per the [Information Security Policy Exception Management Process](/handbook/security/controlled-document-procedure/#exceptions).
 
 ## References
 
 - Parent Policy: [Information Security Policy]({{< ref "../_index.md" >}})
 - [GCF Control Lifecycle]({{< ref "security-control-lifecycle" >}})
-- [Sarbanes-Oxley (SOX) Compliance](/handbook/internal-audit/sarbanes-oxley/)
+- [Sarbanes-Oxley (SOX) Compliance](https://internal.gitlab.com/handbook/internal-audit/sarbanes-oxley/)
 - [Observation Management Procedure]({{< ref "observation-management-procedure" >}})
 - [Observation Management Project](https://gitlab.com/gitlab-com/gl-security/security-assurance/observation-management)
 - [Insight Charts](https://gitlab.com/gitlab-com/gl-security/security-assurance/observation-management/insights/#/Observation_Issues_Chart)

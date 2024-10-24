@@ -5,9 +5,40 @@ summary: " "
 
 ## Levels
 
-### Marketing Campaign Manager (Intermediate)
+### Marketing Campaign Coordinator (Associate)
 
-The Marketing Campaign Manager (Intermediate) reports to Manager, Marketing Campaigns.
+The Marketing Campaign Coordinator (Associate) reports to Manager, Marketing Campaigns.
+
+#### Marketing Campaign Coordinator (Associate) Job Grade
+
+The Marketing Campaign Coordinator (Associate) is a [grade 5](/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades).
+
+#### Marketing Campaign Coordinator (Associate) Responsibilities
+
+- Create, upload, edit, and manage HTML emails and templates for marketing campaigns.
+- Develop and oversee email components such as headers, footers, personalized elements (e.g., mail merge), and confirmation pages, ensuring adherence to GitLab standards.
+- Collaborate with the marketing team to establish contact filters and segment the database for effective email communication.
+- Deploy batch emails and automate multi-touch campaigns to nurture leads, promote events, and manage offers, utilizing GitLab frameworks and tools.
+- Personalize email content based on activity-driven triggers, while conducting tests to verify accuracy, proper formatting, and functional tracking links.
+- Assist in the administration of the Marketo platform in line with GitLab-defined processes, including asset management, naming conventions, and access controls.
+- Design website forms and landing pages, ensuring seamless integration into Marketo programs.
+- Generate marketing automation reports from the Marketo platform, analyzing email marketing performance, website engagement, and contact activity, including open rates, click-through rates, bounce rates, and unsubscribe rates.
+- Develop Marketo programs and Salesforce campaigns to effectively track demand generation initiatives.
+- Set up and manage virtual events using On24.
+- Conduct quality assurance checks for lead flow in paid digital programs.
+
+#### Marketing Campaign Manager (Associate) Requirements
+
+- Proficient in email marketing and marketing automation tools, particularly Marketo.
+- Skilled in HTML for managing email templates effectively.
+- Exceptional communication skills for collaborating with marketing teams and delivering reports.
+- Strong organizational and project management abilities to juggle multiple projects and meet deadlines.
+- Detail-oriented to ensure the accuracy and integrity of email content and tracking.
+- Experienced with CRM software (preferably Salesforce) and webinar platforms (preferably On24), with a willingness to learn additional functionalities.
+- Background in a B2B software marketing team is advantageous.
+- Capable of working both with minimal direction and collaboratively within a team.
+- Familiarity with GitLab and Git, or a readiness to learn their usage.
+- You share our values, and work in accordance with those values.
 
 #### Marketing Campaign Manager (Intermediate) Job Grade
 
@@ -140,13 +171,13 @@ The Senior Manager, Marketing Campaigns is a [grade 9](/handbook/total-rewards/c
 - Coordinates cross functionally across multiple groups including marketing and sales
 - Ensures overall corporate goals are met in terms of the number of new inquiries, MQLs and SAOs, conversion rates and costs from demand generation campaigns
 - Works closely with Field Marketing, SDR, Alliances and Partner marketing to identify go to market synergies across teams that result in improved pipeline and achievement of revenue goals
-- Works with cross functional product marketing, technical marketing and content marketing to identify and leverage buyer journey assets, messaging and content and delivers them through demand generation campaigns to our ICP
+- Works with cross functional product marketing, developer advocacy and content marketing to identify and leverage buyer journey assets, messaging and content and delivers them through demand generation campaigns to our ICP
 - Leads the documentation of all campaigns team processes in the handbook, creates an environment that fosters CREDIT within and x-functionally, and optimizes our campaign motions to ensure optimum marketing efficiency.
 
 #### Senior Manager, Marketing Campaigns Requirements
 
 - Extends that of the Manager, Marketing Campaigns requirements
-- Ability to travel if needed and comply with the company’s travel policy.
+- Ability to travel if needed and comply with the company's travel policy.
 - If employed by GitLab Federal, LLC, team members need to also comply with the applicable vaccination policies.
 
 ## Specializations
@@ -177,7 +208,7 @@ The Marketing Campaign Manager, Public Sector is responsible for strategizing, e
 
 - Extends that of the Marketing Campaign Manager responsibilities
 - Strategize, execute, and optimize a data-driven demand generation campaign strategy to achieve sales goals for Channels and Alliances group
-- Develop and manage strategy across the sales channels and alliances sales teams and align to quarterly OKR’s and sales goals/objectives (i.e. channel partner)
+- Develop and manage strategy across the sales channels and alliances sales teams and align to quarterly OKR's and sales goals/objectives (i.e. channel partner)
 - Align with marketing leadership on results of top funnel campaigns, gain anecdotal feedback, and generate ideas for campaign optimization
 - Demonstrate impact of partners and channels on business, analyze and report progress against partner campaign goals, and report on ROI
 - Act as marketing adviser to regional partner sales and marketing teams, collaborating with them to deliver campaigns that resonate with our partners and their customers
@@ -204,7 +235,7 @@ The lifecycle marketing manager is responsible for strategizing, executing, and 
 - Use KPIs to lead to business decisions but avoid them becoming the singular focus of the team (for example: open rates)
 - Establish a strong working relationship with cross-functional stakeholders across the organization, such as customer communication, marketing operations, sales, product, and the rest of the marketing group.
 - Act as the data steward for customer data, monitoring accuracy and quality of customer, user, and prospect information on an ongoing basis
-- ‘Speak’ (live and breathe) email and help the team learn how to incorporate best practices into all planning, decisions and execution – from creative to segmentation to deliverability
+- 'Speak' (live and breathe) email and help the team learn how to incorporate best practices into all planning, decisions and execution – from creative to segmentation to deliverability
 - Act as email marketing SME (subject matter expert) owning email design templates and brand guidelines in collaboration with Brand team
 - Recommend marketing automation segmentation (Marketo), targeting, and personalization tactics for use across marketing campaigns in collaboration with marketing operations
 - Work with marketing operations to improve Marketo database efficiency, database hygiene, field values, field completeness, normalization processes, and overall database health to enable user lifecycle programs

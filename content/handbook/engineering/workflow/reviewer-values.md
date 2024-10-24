@@ -63,7 +63,7 @@ Given these questions, we documented on this page a set of specific values to he
 
 In general, if a merge request is a net profit, then we should be eager to approve and move forward. This attitude takes into account things like:
 
-- Quality must-haves (as known as [permission-to-play](https://about.gitlab.com/handbook/values/#permission-to-play)).
+- Quality must-haves (as known as [permission-to-play](/handbook/values/#permission-to-play)).
 - The value of change for users.
 - The value of future maintainability costs.
 - Opportunity costs.
@@ -81,7 +81,7 @@ and communicate acceptable trade-offs in the codebase.
 
 #### Quality must haves
 
-A merge request must have some thing to be considered “profitable.”
+A merge request must have some thing to be considered "profitable."
 Being a reviewer is a tough juggling act. You will find yourself often balancing iteration
 vs quality concerns, but a bias for quality serves you (and the rest of your
 teammates!) well. The following list includes a guide of some common (but not exhaustive) quality must-haves:
@@ -160,7 +160,7 @@ hard or blocking questions.
 
 This shouldn't happen, though. What we want to do here is always encourage a fearless sense
 of collaboration between the author and reviewer through reducing any perceived
-[authority bias](https://about.gitlab.com/company/culture/inclusion/unconscious-bias/#unconscious-biases-to-look-out-for-in-ourselves-and-in-others).
+[authority bias](/handbook/company/culture/inclusion/unconscious-bias/#unconscious-biases-to-look-out-for-in-ourselves-and-in-others).
 
 As a reviewer, you need to maintain a sense of honesty above all else in a review. If you do
 not understand something, ask either the author or another reviewer. The same rings true
@@ -207,7 +207,7 @@ But they come at a cost:
 
 - They create needless MR cycles (explicitly or implicitly).
 - They create cognitive load.
-- They can possibly damage the contributor’s morale.
+- They can possibly damage the contributor's morale.
 
 Nitpicks can create a lot of noise in a code review. They can, at best, bog down a review, or at worst, create a toxic experience for the author.
 

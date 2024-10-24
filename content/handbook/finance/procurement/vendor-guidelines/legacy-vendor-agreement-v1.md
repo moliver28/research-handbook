@@ -5,53 +5,53 @@ description: "Learn more about the Legacy Vendor Terms and Conditions v1"
 
 ### 1. DEFINITIONS
 
-1.1  “Accepted” means GitLab’s written confirmation of receipt of Deliverables having been provided in a manner deemed appropriate by GitLab. “Acceptance” shall be deemed to occur on the date when, in the reasonable opinion of GitLab, the Deliverable(s) conform to the requirements set forth in the Transaction Document and/or SOW.
+1.1  "Accepted" means GitLab's written confirmation of receipt of Deliverables having been provided in a manner deemed appropriate by GitLab. "Acceptance" shall be deemed to occur on the date when, in the reasonable opinion of GitLab, the Deliverable(s) conform to the requirements set forth in the Transaction Document and/or SOW.
 
-1.2  “Affiliates” means any entity(ies) controlling, controlled by, and/or under common control with a party hereto, where “control” means the ownership of more than 50% of the voting securities in such entity.
+1.2  "Affiliates" means any entity(ies) controlling, controlled by, and/or under common control with a party hereto, where "control" means the ownership of more than 50% of the voting securities in such entity.
 
-1.3  “Agreement” means these Vendor Terms and Conditions.
+1.3  "Agreement" means these Vendor Terms and Conditions.
 
-1.4  “Applicable Data Protection Laws” means any applicable laws, statutes or regulations as may be amended, extended or re-enacted from time to time which relate to personal data including without limitation: (i) from and after 25 May 2018, GDPR and any EU Member State laws implementing the GDPR; and (ii) the e-Privacy Directive 2002/58/EC, as amended and as transposed into EU Member State law and any legislation replacing the e-Privacy Directive.
+1.4  "Applicable Data Protection Laws" means any applicable laws, statutes or regulations as may be amended, extended or re-enacted from time to time which relate to personal data including without limitation: (i) from and after 25 May 2018, GDPR and any EU Member State laws implementing the GDPR; and (ii) the e-Privacy Directive 2002/58/EC, as amended and as transposed into EU Member State law and any legislation replacing the e-Privacy Directive.
 
-1.5  “Confidential Information” means any proprietary information that was previously, is currently, or is subsequently disclosed by the Disclosing Party (defined herein) to the Receiving Party (defined herein) and (i) is or was identified as confidential or proprietary at the time of disclosure, or, if disclosed orally, which is or was identified as confidential or proprietary at the time of disclosure and such designation is confirmed orally or in writing no later than thirty (30) days after such disclosure, or (ii) the nature of such proprietary information and the manner of disclosure are such that a reasonable person would understand it to be confidential.  Confidential Information includes, without limitation, all proprietary information which relates to GitLab’s business including, without limitation, business plans, financial data, customer information, marketing plans, technology, technical drawings, designs, schematics, algorithms, technical data, product plans, research plans, software, products, services, trade secrets, know-how, formulas, processes, ideas, and inventions (whether or not patentable).
+1.5  "Confidential Information" means any proprietary information that was previously, is currently, or is subsequently disclosed by the Disclosing Party (defined herein) to the Receiving Party (defined herein) and (i) is or was identified as confidential or proprietary at the time of disclosure, or, if disclosed orally, which is or was identified as confidential or proprietary at the time of disclosure and such designation is confirmed orally or in writing no later than thirty (30) days after such disclosure, or (ii) the nature of such proprietary information and the manner of disclosure are such that a reasonable person would understand it to be confidential.  Confidential Information includes, without limitation, all proprietary information which relates to GitLab's business including, without limitation, business plans, financial data, customer information, marketing plans, technology, technical drawings, designs, schematics, algorithms, technical data, product plans, research plans, software, products, services, trade secrets, know-how, formulas, processes, ideas, and inventions (whether or not patentable).
 
-1.6  "Deliverables” means the specific solution, end-product, or item to be created by Vendor, for GitLab, as documented in a SOW (defined herein) as part of a Transaction Document.
+1.6  "Deliverables" means the specific solution, end-product, or item to be created by Vendor, for GitLab, as documented in a SOW (defined herein) as part of a Transaction Document.
 
-1.7  “Disclosing Party” means a party which discloses Confidential Information.
+1.7  "Disclosing Party" means a party which discloses Confidential Information.
 
-1.8  “Fees” means the amount(s) stated in an executed Transactional Document between the parties.
+1.8  "Fees" means the amount(s) stated in an executed Transactional Document between the parties.
 
-1.9  “Force Majeure” means events beyond the reasonable control of either party, including, but not limited to, acts of God, labor disputes or disturbances, material shortages or rationing, pandemics, riots, acts of war, governmental regulations, communication or utility failures, or casualties.
+1.9  "Force Majeure" means events beyond the reasonable control of either party, including, but not limited to, acts of God, labor disputes or disturbances, material shortages or rationing, pandemics, riots, acts of war, governmental regulations, communication or utility failures, or casualties.
 
-1.10  “GDPR” means the Regulation (EU) 2016/679 of the European Parliament and of the Council of 27 April 2016 on the protection of natural persons with regard to the processing of personal data and on the free movement of such data (General Data Protection Regulation).
+1.10  "GDPR" means the Regulation (EU) 2016/679 of the European Parliament and of the Council of 27 April 2016 on the protection of natural persons with regard to the processing of personal data and on the free movement of such data (General Data Protection Regulation).
 
-1.11  “GitLab” means GitLab Inc. and any GitLab Affiliate identified in a Transaction Document.
+1.11  "GitLab" means GitLab Inc. and any GitLab Affiliate identified in a Transaction Document.
 
-1.12  “GitLab Code of Conduct” means the published document titled Code of Business Conduct and Ethics, updated from time to time, found at https://ir.gitlab.com/static-files/7d8c7eb3-cb17-4d68-a607-1b7a1fa1c95d.
+1.12  "GitLab Code of Conduct" means the published document titled Code of Business Conduct and Ethics, updated from time to time, found at https://ir.gitlab.com/static-files/7d8c7eb3-cb17-4d68-a607-1b7a1fa1c95d.
 
-1.13  “GitLab Data” means all GitLab information or data, including without limitation, personal data, used by Vendor in connection with the Agreement.
+1.13  "GitLab Data" means all GitLab information or data, including without limitation, personal data, used by Vendor in connection with the Agreement.
 
-1.14  “Invoice” means Vendor’s document which outlines the Fees owed by GitLab pursuant to an executed Transaction Document. Invoices must include: (i) Vendor’s legal entity name, (ii) GitLab’s legal entity name (as stated on the Transaction Document), (iii) GitLab’s PO Number for the applicable purchase, (iv) the start date and/or end date of the Products and/or Professional Services (as defined below), (v) quantity, unit price, total price, applicable taxes, and identification of the Products and/or Professional Services.
+1.14  "Invoice" means Vendor's document which outlines the Fees owed by GitLab pursuant to an executed Transaction Document. Invoices must include: (i) Vendor's legal entity name, (ii) GitLab's legal entity name (as stated on the Transaction Document), (iii) GitLab's PO Number for the applicable purchase, (iv) the start date and/or end date of the Products and/or Professional Services (as defined below), (v) quantity, unit price, total price, applicable taxes, and identification of the Products and/or Professional Services.
 
-1.15  “Vendor” means the entity, or an Affiliate of such entity, supplying Products and/or Professional Services to GitLab.
+1.15  "Vendor" means the entity, or an Affiliate of such entity, supplying Products and/or Professional Services to GitLab.
 
-1.16  “PO” means the purchase order, or similar document, provided by GitLab to Vendor. Each PO shall include a unique identification number (hereinafter referred to as “PO Number”).
+1.16  "PO" means the purchase order, or similar document, provided by GitLab to Vendor. Each PO shall include a unique identification number (hereinafter referred to as "PO Number").
 
-1.17  “Products” means Vendor’s solution(s) which are identified in the Transaction Document, this includes support, maintenance and other elements which create the Product.
+1.17  "Products" means Vendor's solution(s) which are identified in the Transaction Document, this includes support, maintenance and other elements which create the Product.
 
-1.18  “Receiving Party” means the party receiving Confidential Information.
+1.18  "Receiving Party" means the party receiving Confidential Information.
 
-1.19  “Professional Services” means services identified in a Transaction Document and accompanying SOW.
+1.19  "Professional Services" means services identified in a Transaction Document and accompanying SOW.
 
-1.20  “Security Breach” means Vendor becoming aware of or notified of a breach of the Applicable Data Protection Laws.
+1.20  "Security Breach" means Vendor becoming aware of or notified of a breach of the Applicable Data Protection Laws.
 
-1.21  “SOW” means the task list, Deliverables (if applicable) outlining the items to be delivered under the Professional Services.
+1.21  "SOW" means the task list, Deliverables (if applicable) outlining the items to be delivered under the Professional Services.
 
-1.22  “Transaction Document” means the ordering agreement which states the purchase of Products and/or Professional Services by GitLab from Vendor. Such Transactional Document shall not be enforceable unless executed by GitLab.
+1.22  "Transaction Document" means the ordering agreement which states the purchase of Products and/or Professional Services by GitLab from Vendor. Such Transactional Document shall not be enforceable unless executed by GitLab.
 
 ### 2. APPLICABILITY
 
-2.1  All sales of Products and/or Professional Services by Vendor to GitLab are subject to this Agreement and the applicable Transaction Document. Terms and conditions of the Vendor (whether contained in an invoice, confirmation or otherwise) which in any way conflict, are inconsistent with, different than or in addition to this Agreement shall not be binding on GitLab. Such terms and conditions are expressly rejected and shall not be considered applicable unless expressly agreed to in writing by GitLab. The supply of Products and/or Professional Services to GitLab pursuant to any PO shall be conclusive evidence of Vendor’s approval of and consent to the terms and conditions herein contained in this Agreement.
+2.1  All sales of Products and/or Professional Services by Vendor to GitLab are subject to this Agreement and the applicable Transaction Document. Terms and conditions of the Vendor (whether contained in an invoice, confirmation or otherwise) which in any way conflict, are inconsistent with, different than or in addition to this Agreement shall not be binding on GitLab. Such terms and conditions are expressly rejected and shall not be considered applicable unless expressly agreed to in writing by GitLab. The supply of Products and/or Professional Services to GitLab pursuant to any PO shall be conclusive evidence of Vendor's approval of and consent to the terms and conditions herein contained in this Agreement.
 
 ### 3. TERMS OF PAYMENT
 
@@ -69,7 +69,7 @@ description: "Learn more about the Legacy Vendor Terms and Conditions v1"
 
 ### 5. WARRANTIES
 
-5.1  Vendor represents, warrants and covenants that: (a) the Products and Deliverables are free from defects in material and workmanship, (b) Professional Services will be provided in a professional and workman-like manner, (c) Products and Deliverables shall conform to the specifications represented by Vendor, (d) the Products and Deliverables will not infringe a third party’s intellectual property rights, (e) it will comply with the GitLab Code of Conduct, and (f) its performance under this Agreement will comply with all applicable laws, rules and regulations.
+5.1  Vendor represents, warrants and covenants that: (a) the Products and Deliverables are free from defects in material and workmanship, (b) Professional Services will be provided in a professional and workman-like manner, (c) Products and Deliverables shall conform to the specifications represented by Vendor, (d) the Products and Deliverables will not infringe a third party's intellectual property rights, (e) it will comply with the GitLab Code of Conduct, and (f) its performance under this Agreement will comply with all applicable laws, rules and regulations.
 
 ### 6. TERMINATION
 
@@ -79,11 +79,11 @@ description: "Learn more about the Legacy Vendor Terms and Conditions v1"
 
 ### 7. FORCE MAJEURE
 
-7.1  Neither party shall be liable to the other for delays or failures in performance resulting from causes beyond the reasonable control of that party, including, but not limited to, acts of God, labor disputes or disturbances, material shortages or rationing, pandemics, riots, acts of war, governmental regulations, communication or utility failures, or casualties (“Force Majeure”).  In the event of a Force Majeure impact on the performance of either party, then the parties are immediately relieved of obligation to perform.  From notice to vendor, GitLab is relieved of the payment obligation.  As soon as is practical, but not more than sixty (60) days from GitLab’s notice to supplier, GitLab shall receive from supplier a pro-rata refund of, any fees previously paid, from the date of notice to vendor to the end of the term.
+7.1  Neither party shall be liable to the other for delays or failures in performance resulting from causes beyond the reasonable control of that party, including, but not limited to, acts of God, labor disputes or disturbances, material shortages or rationing, pandemics, riots, acts of war, governmental regulations, communication or utility failures, or casualties ("Force Majeure").  In the event of a Force Majeure impact on the performance of either party, then the parties are immediately relieved of obligation to perform.  From notice to vendor, GitLab is relieved of the payment obligation.  As soon as is practical, but not more than sixty (60) days from GitLab's notice to supplier, GitLab shall receive from supplier a pro-rata refund of, any fees previously paid, from the date of notice to vendor to the end of the term.
 
 ### 8. INTELLECTUAL PROPERTY
 
-8.1  Any inventions, products, designs, specification, drawings, technical information, data, tools, processes, techniques, computer programs, databases, user interfaces, know-how, notes, works of authorship software, or any other material furnished, or paid for, by GitLab shall: (i) remain or become GitLab’s property, (ii) be used by Vendor exclusively to provide the Products and/or Professional Services, (iii) be destroyed or returned, at GitLab’s sole option, to GitLab upon written request. Vendor hereby assigns and agrees to assign GitLab all right, title, and interest in and to the Deliverables. For the avoidance of doubt, the assignment of right, title and interest shall not apply to Vendor Product(s) which are “off-the-shelf” and do not include any GitLab Confidential Information.
+8.1  Any inventions, products, designs, specification, drawings, technical information, data, tools, processes, techniques, computer programs, databases, user interfaces, know-how, notes, works of authorship software, or any other material furnished, or paid for, by GitLab shall: (i) remain or become GitLab's property, (ii) be used by Vendor exclusively to provide the Products and/or Professional Services, (iii) be destroyed or returned, at GitLab's sole option, to GitLab upon written request. Vendor hereby assigns and agrees to assign GitLab all right, title, and interest in and to the Deliverables. For the avoidance of doubt, the assignment of right, title and interest shall not apply to Vendor Product(s) which are "off-the-shelf" and do not include any GitLab Confidential Information.
 
 ### 9. INSURANCE
 
@@ -91,11 +91,11 @@ description: "Learn more about the Legacy Vendor Terms and Conditions v1"
 
 ### 10. INDEMNIFICATION
 
-10.1  Vendor shall defend, indemnify, and hold GitLab harmless from claims demands, causes of action and liability for damages, losses, costs and expenses, including legal fees and disbursements and other amounts paid or payable to unaffiliated third parties resulting from: (i) the infringement or violation of any intellectual property rights by the Products and/or Deliverables, or (ii) the violation of applicable law or regulation by Vendor in performance of its obligations hereunder. GitLab shall notify Vendor of any such claim or demand and Vendor shall defend any suits based thereon. If an injunction is issued as a result of any such claim, Vendor agrees, at its expense, and at GitLab’s option, to: (a) procure for GitLab the right to continue using items purchased hereunder, (b) replace such Products and/or Deliverables with non-infringing items, (c) modify the Products and/or Deliverables so they are no longer infringing, or (d) refund to GitLab the amount paid for the Products and/or Deliverables.
+10.1  Vendor shall defend, indemnify, and hold GitLab harmless from claims demands, causes of action and liability for damages, losses, costs and expenses, including legal fees and disbursements and other amounts paid or payable to unaffiliated third parties resulting from: (i) the infringement or violation of any intellectual property rights by the Products and/or Deliverables, or (ii) the violation of applicable law or regulation by Vendor in performance of its obligations hereunder. GitLab shall notify Vendor of any such claim or demand and Vendor shall defend any suits based thereon. If an injunction is issued as a result of any such claim, Vendor agrees, at its expense, and at GitLab's option, to: (a) procure for GitLab the right to continue using items purchased hereunder, (b) replace such Products and/or Deliverables with non-infringing items, (c) modify the Products and/or Deliverables so they are no longer infringing, or (d) refund to GitLab the amount paid for the Products and/or Deliverables.
 
 ### 11. LIMITATION OF LIABILITY
 
-11.1  IN NO EVENT WILL GITLAB BE LIABLE FOR ANY SPECIAL, INCIDENTAL, PUNITIVE OR CONSEQUENTIAL DAMAGES OF ANY KIND IN CONNECTION WITH THIS AGREEMENT, OR EXECUTED TRANSACTION DOCUMENT, EVEN IF GITLAB HAS BEEN INFORMED IN ADVANCE OF THE POSSIBILITY OF SUCH DAMAGES. GITLAB’S AGGREGATE LIABILITY UNDER THIS AGREEMENT AND/OR ANY TRANSACTION DOCUMENT WILL NOT EXCEED THE FEES STATED ON THE APPLICABLE TRANSACTION DOCUMENT FOR THE PROVISION OF THE PRODUCTS AND /OR DELIVERABLES STATED THEREIN.
+11.1  IN NO EVENT WILL GITLAB BE LIABLE FOR ANY SPECIAL, INCIDENTAL, PUNITIVE OR CONSEQUENTIAL DAMAGES OF ANY KIND IN CONNECTION WITH THIS AGREEMENT, OR EXECUTED TRANSACTION DOCUMENT, EVEN IF GITLAB HAS BEEN INFORMED IN ADVANCE OF THE POSSIBILITY OF SUCH DAMAGES. GITLAB'S AGGREGATE LIABILITY UNDER THIS AGREEMENT AND/OR ANY TRANSACTION DOCUMENT WILL NOT EXCEED THE FEES STATED ON THE APPLICABLE TRANSACTION DOCUMENT FOR THE PROVISION OF THE PRODUCTS AND /OR DELIVERABLES STATED THEREIN.
 
 ### 12. INDEPENDENT CONTRACTOR
 
@@ -107,7 +107,7 @@ description: "Learn more about the Legacy Vendor Terms and Conditions v1"
 
 ### 14. PUBLICITY
 
-14.1  Vendor will not, without first obtaining GitLab’s prior written consent from the GitLab legal team, advertise or otherwise disclose that Vendor has furnished or agreed to furnish Products and/or Professional Services to GitLab under this Agreement.
+14.1  Vendor will not, without first obtaining GitLab's prior written consent from the GitLab legal team, advertise or otherwise disclose that Vendor has furnished or agreed to furnish Products and/or Professional Services to GitLab under this Agreement.
 
 ### 15. DATA PRIVACY
 
@@ -124,4 +124,3 @@ description: "Learn more about the Legacy Vendor Terms and Conditions v1"
 ### 18. ENTIRE AGREEMENT
 
 18.1  This Agreement contains the entire understanding of the parties hereto in respect of transactions contemplated hereby and supersedes any prior agreements and understandings between the parties with respect to such subject matter.  The parties agree that all such prior agreements and understandings shall have no further force and effect.
-

@@ -16,7 +16,7 @@ The 7CTOs Program is run with 4 Senior leaders in Engineering. The program exist
 
 The CTO is an [executive sponsor](/handbook/sales/field-operations/gtm-resources/#executive-account-sponsorship-program) for selected customers.
 
-A shadow program is available to everyone in engineering (especially senior leaders) in order to have an opportunity to observe and participate in one of the executive sponsor meetings. Doing so can be a great way to hear directly from customers about what they like about GitLab and about what we can improve. (This program is similar in some ways to the [CEO Shadow Program](https://about.gitlab.com/handbook/ceo/shadow/).
+A shadow program is available to everyone in engineering (especially senior leaders) in order to have an opportunity to observe and participate in one of the executive sponsor meetings. Doing so can be a great way to hear directly from customers about what they like about GitLab and about what we can improve. (This program is similar in some ways to the [CEO Shadow Program](/handbook/ceo/shadow/).
 
 If you choose to be a shadow, your responsibilities will be:
 
@@ -35,10 +35,6 @@ To request to be a shadow: Post a message in the #cto Slack channel, indicate yo
 ### How to find a mentor or become a mentor at GitLab
 
 There is a program to find a mentor or to become a mentor at GitLab described on [this handbook page](/handbook/people-group/learning-and-development/mentor/).
-
-### Engineering director shadow program
-
-You can find more information on this experimental program on the [Development Director Shadow Program](/handbook/engineering/development/shadow/director-shadow-program.html) handbook page.
 
 ### Learning the customer experience
 

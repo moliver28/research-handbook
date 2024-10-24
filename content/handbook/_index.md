@@ -19,7 +19,7 @@ improvements or add clarifications. Please use [issues](https://gitlab.com/gitla
 ask questions.
 
 For a very specific set of [internal](/handbook/communication/confidentiality-levels/#internal)
-information we also maintain an [Internal Handbook](https://internal-handbook.gitlab.io/)
+information we also maintain an [Internal Handbook](https://internal.gitlab.com/handbook/)
 
 ## Handbook Contents
 

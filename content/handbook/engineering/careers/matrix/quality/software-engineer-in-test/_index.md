@@ -5,7 +5,7 @@ description: "These are the expected competencies of the Software Engineer in Te
 
 ## Software Engineer in Test Career Framework
 
-{{% include "includes/engineering/quality-career-nav.md" %}}
+{{% include "includes/engineering-careers/quality-career-nav.md" %}}
 
 These are the expected competencies of the Software Engineer in Test team members at GitLab.
 

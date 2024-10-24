@@ -7,19 +7,19 @@ Onboarding is [incredibly important](/handbook/company/culture/all-remote/onboar
 
 We highly recommend taking at least two full weeks for onboarding and only in week three starting with team specific onboarding and training. Please feel free to participate in your team's work in your first two weeks, but don't feel like you have to contribute heavily.
 
-All onboarding steps are in the [onboarding issue template](https://gitlab.com/gitlab-com/people-group/people-operations/employment-templates/-/blob/main/.gitlab/issue_templates/onboarding.md) which is owned by the People Connect team. The onboarding process for the new team member is [self-driven and self-learning]({{< ref "values#self-service-and-self-learning" >}}), whilst also remaining as [asynchronous]({{< ref "values#bias-towards-asynchronous-communication" >}}) as possible settling into the remote life at GitLab.
+All onboarding steps are in the [onboarding issue template](https://gitlab.com/gitlab-com/people-group/people-operations/employment-templates/-/blob/main/.gitlab/issue_templates/onboarding.md) which is owned by the People Connect team. The onboarding process for the new team member is [self-driven and self-learning](/handbook/values/#self-service-and-self-learning), whilst also remaining as [asynchronous](/handbook/values/#bias-towards-asynchronous-communication) as possible settling into the remote life at GitLab.
 
-At GitLab we take great pride in [dogfooding]({{< ref "values#dogfooding" >}}) our own product, that is why all onboarding tasks are completed in a GitLab issue. First of all, what is an issue? You can learn more about what an issue is [here](https://docs.gitlab.com/ee/user/project/issues/).
+At GitLab we take great pride in [dogfooding](/handbook/values/#dogfooding) our own product, that is why all onboarding tasks are completed in a GitLab issue. First of all, what is an issue? You can learn more about what an issue is [here](https://docs.gitlab.com/ee/user/project/issues/).
 
 The People Connect Specialist assigned to the team members specific onboarding will [open](https://internal.gitlab.com/handbook/people-group/people-operations/people-connect/onboarding_process/#onboarding-issue-creation) the onboarding issue at least 4 days prior to the hire date.
 
-Each onboarding issue has a main section that contains tasks relevant to all GitLab team-members and a due date of 30 days. Below the main section are department and role-specific tasks. Some roles and departments have tasks that link to a supplemental issue template or an additional onboarding page.  Reach out to your [onboarding buddy]({{< ref "/handbook/people-group/general-onboarding/onboarding-buddies" >}}) or other GitLab team members if you need help understanding or completing any of your tasks.
+Each onboarding issue has a main section that contains tasks relevant to all GitLab team-members and a due date of 30 days. Below the main section are department and role-specific tasks. Some roles and departments have tasks that link to a supplemental issue template or an additional onboarding page.  Reach out to your [onboarding buddy](/handbook/people-group/general-onboarding/onboarding-buddies) or other GitLab team members if you need help understanding or completing any of your tasks.
 
-Through onboarding issues, you should gain access to our team member [baseline entitlements]({{< ref "/handbook/security#baseline-role-based-entitlements-access-runbooks--issue-templates" >}}). On Day 2 of onboarding an [Access Request]({{< ref "/handbook/people-group/engineering#access-request-issue-creation" >}}) will be generated, if a template has been created for the role. Access requests are owned by the IT team. If you have any access requests related questions, please reach out to `#it-help` in Slack.
+Through onboarding issues, you should gain access to our team member [baseline entitlements](/handbook/security#baseline-role-based-entitlements-access-runbooks--issue-templates). On Day 2 of onboarding an [Access Request](/handbook/people-group/engineering#access-request-issue-creation) will be generated, if a template has been created for the role. Access requests are owned by the IT team. If you have any access requests related questions, please reach out to `#it-help` in Slack.
 
 In certain instances, the People Connect team may not be able to assist with onboardings due to a national holiday or Family and Friends Day. These specific dates are documented in the People Connect team [availability](https://internal.gitlab.com/handbook/people-group/people-operations/people-connect/people_experience_team/#people-experience-team-availability).
 
-## <i class="fab fa-gitlab fa-fw" style="color:rgb(252,109,38); font-size:.85em" aria-hidden="true"></i> TaNewKi Welcome Call {#tanuki-orange}
+## TaNewKi Welcome Call
 
 The People Connect team hosts a pre-onboarding call known as the Ta-New-Ki call (a play on the abstract Tanuki i.e. Japanese raccoon dog you will find in our logo). The purpose of this call, which is hosted in Zoom, is to give soon to onboard team members the chance to meet / socialise and to provide an opportunity to ask any lingering questions ahead of their start date. Internally we refer to this as an AMA (Ask Me Anything) call. **This call is open to all current team members, hiring managers.**
 
@@ -57,24 +57,23 @@ General Topics Covered
 By default, all new team members are added to the below Slack channels from day 1 to ensure that they are able to ask any questions or for assistance in the correct channels upfront:
 
 - `#new_team_members` (go say hi and introduce yourself)
-- `#people-connect` (anything relating to People Operations such as onboarding, GitLab Unfiltered channel, etc)
 - `#diversity_inclusion_and_belonging` (connect with other team members to find out more about what we do in Diversity, Inclusion and Belonging)
 - `#it_help` (any IT related support needed, such as issues with laptop, 1Password, Okta, JAMF, etc)
 - `#expense-reporting-inquiries` (need some info on your expenses, what can be expensed, approving expenses, etc)
 - `#payroll` (have any questions on your salary payments, payslips, etc)
 - `#questions` (anything that the Handbook can't help with)
 - `#donut-be-strangers` (need some help setting up a coffee chat)
-- `#team-member-updates` (new team member, anniversaries, goodbyes, bonuses)
+- `#team-member-updates` (new team member, anniversaries, goodbyes)
 - `#thanks` (want to acknowledge and thank someone at GitLab, this is the channel)
 - `#whats-happening-at-gitlab` (all important updates/reminders/notifications related to GitLab)
 
 ## Managers of New Team Members
 
-An issue is created for new team members at least 4 business days prior to their start date. The Manager and a People Connect Team member will be assigned to this issue. **Managers, People Connect and IT Ops** all have tasks that need to be completed **prior to the start date** to ensure a smooth and successful onboarding process. For questions or help with any of these tasks feel free to reach out in the issue or by adding a question in the `#people-connect` Slack channel.
+An issue is created for new team members at least 4 business days prior to their start date. The Manager and a People Connect Team member will be assigned to this issue. **Managers, People Connect and IT Ops** all have tasks that need to be completed **prior to the start date** to ensure a smooth and successful onboarding process. For questions or help with any of these tasks feel free to reach out in the issue or by creating a request via HelpLab.
 
 ### <i class="fas fa-tasks fa-fw color-orange font-awesome"></i>Compliance
 
-The [Senior People Connect Specialist]({{< ref "/job-families/people-group/people-connect" >}}) completes a monthly audit of all open onboarding issues to ensure that the new team member, manager and People Connect team tasks are completed. More importantly, there are certain tasks which need to be completed  in line with our company compliance (security, payroll, etc).
+The [Senior People Connect Specialist](/job-families/people-group/people-connect) completes a monthly audit of all open onboarding issues to ensure that the new team member, manager and People Connect team tasks are completed. More importantly, there are certain tasks which need to be completed  in line with our company compliance (security, payroll, etc).
 
 If any tasks are still outstanding, the People Connect Specialist will ping the relevant members on the issue requesting action on the items or checking whether the issue can be closed.
 
@@ -113,18 +112,16 @@ All onboarding related employment templates (country and role based) can be foun
 
 ### Temporary Service Provider (Contractor/Consultant) Onboarding
 
-The People team is not involved in the process for hiring, onboarding, or offboarding temporary service providers. You can work with the Procurement team on these onboardings and review the [temporary service provider handbook page](/handbook/business-technology/end-user-services/onboarding-access-requests/temporary-service-providers/) for templates and other helpful information.
+The People team is not involved in the process for hiring, onboarding, or offboarding temporary service providers. You can work with the Procurement team on these onboardings and review the [temporary service provider internal handbook page](https://internal.gitlab.com/handbook/it/end-user-services/access-request/temporary-service-providers/?search=temporary+service) for templates and other helpful information.
 
 ### Additional onboarding pages
 
-- [Developer onboarding](https://about.gitlab.com/handbook/developer-onboarding/)
-- [GitLab onboarding buddies]({{< ref "/handbook/people-group/general-onboarding/onboarding-buddies" >}})
-- [GitLab Onboarding Feedback]({{< ref "/handbook/people-group/general-onboarding/onboarding-feedback" >}})
-- [Merge Request buddies]({{< ref "/handbook/people-group/general-onboarding/mr-buddies" >}})
+- [Developer onboarding](/handbook/engineering/developer-onboarding/)
+- [GitLab onboarding buddies](/handbook/people-group/general-onboarding/onboarding-buddies)
+- [Merge Request buddies](/handbook/people-group/general-onboarding/mr-buddies)
 - [Onboarding Processes](https://internal.gitlab.com/handbook/people-group/people-operations/people-connect/onboarding_process/)
-- [Quality team onboarding](https://about.gitlab.com/handbook/engineering/quality/onboarding/)
+- [Test Platform Onboarding](/handbook/engineering/infrastructure/test-platform/onboarding/)
 - [Sales team onboarding](/handbook/sales/onboarding/)
-- [Support team onboarding]({{< ref "/handbook/support/training" >}})
-- [SRE onboarding](https://about.gitlab.com/handbook/engineering/infrastructure/team/reliability/sre-onboarding/)
-- [Product Designer onboarding](/handbook/product/ux/product-designer-onboarding/)
+- [Support team onboarding](/handbook/support/training)
+- [SRE onboarding](/handbook/engineering/infrastructure/team/reliability/sre-onboarding/)
 - [UX Researcher onboarding](/handbook/product/ux/ux-research/)

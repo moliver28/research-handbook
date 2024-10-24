@@ -38,7 +38,7 @@ See the [marketing handbook](/handbook/marketing/) for details.
 ## Responsibilities
 
 - Develop a high performing team (network, hire, assess, mentor, grow, and offboard talent).
-- Contribute to all functions and make the rest of the [E-Group](/handbook/company/team/structure/#e-group) better.
+- Contribute to all functions and make the rest of the [E-Group](/handbook/company/structure/#e-group) better.
 - Set a great creative strategy, recruit, retain, inspire, and direct creatives.
 - Create a dynamic outbound channel mix allocation (double down and back off based on data).
 - Lead and encourage experimentation (try and deprecate or elevate quickly).
@@ -55,7 +55,7 @@ See the [marketing handbook](/handbook/marketing/) for details.
 - Proactively identify and develop longer-term marketing and communications strategies and initiatives that will result in increased visibility and profitable growth.
 - Articulate compelling value propositions and drive adoption for GitLab offerings in various market segments and geographical areas.
 - Drive strategy and execution for brand awareness campaigns across all digital and offline channels.
-- Design and implement high-impact programs that are optimized to deliver results across the marketing and sales funnel, while hitting target metrics, Objectives and Key Results (OKR’s) and marketing ROI.
+- Design and implement high-impact programs that are optimized to deliver results across the marketing and sales funnel, while hitting target metrics, Objectives and Key Results (OKR's) and marketing ROI.
 - Manage our marketing budget and forecast.
 - Manage content development and position GitLab as the single application for entire DevOps lifecycle through thought leadership, white papers, infographics, blog posts, social media, webinars and by being an evangelist for our software and company.
 - Contribute to the creation of a comprehensive global marketing plan, digital marketing (web, SEO/SEM), social media-focused marketing, analyst relations, demand generation, events, and branding.
@@ -76,5 +76,5 @@ See the [marketing handbook](/handbook/marketing/) for details.
 - Experience with wider community engagement.
 - BA or BS degree in Marketing, Business or related field.
 - Excellent strategic and analytical skills combined with the creativity to produce innovative breakthrough value propositions and businesses for the company.
-- Ability to excel in [leadership at GitLab](/handbook/company/team/structure/#e-group).
+- Ability to excel in [leadership at GitLab](/handbook/company/structure/#e-group).
 - Ability to use GitLab.

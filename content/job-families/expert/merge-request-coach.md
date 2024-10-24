@@ -8,12 +8,12 @@ get merged into GitLab.
 
 ## Responsibilities
 
-- Triage merge requests labeled [`~"Community contribution"`](https://gitlab.com/groups/gitlab-org/-/merge_requests?scope=all&state=opened&label_name[]=Community%20contribution) according to the [Wider Community Merge Request Triage policy](https://about.gitlab.com/handbook/engineering/quality/merge-request-triage).
+- Triage merge requests labeled [`~"Community contribution"`](https://gitlab.com/groups/gitlab-org/-/merge_requests?scope=all&state=opened&label_name[]=Community%20contribution) according to the [Wider Community Merge Request Triage policy](/handbook/engineering/infrastructure/engineering-productivity/merge-request-triage).
 - Close merge requests that we don't want, with a clear explanation on the
   reasons why, so that people don't feel discouraged but incentivized that they can make a difference next time.
 - Help contributors to get their merge requests to meet the
   [contribution acceptance criteria](https://docs.gitlab.com/ee/development/contributing/merge_request_workflow.html#contribution-acceptance-criteria).
-- Act on the merge requests assigned to you on the daily [newly created community contribution merge requests triage report](https://about.gitlab.com/handbook/engineering/quality/triage-operations/#newly-created-community-contribution-merge-requests-requiring-first-triage).
+- Act on the merge requests assigned to you on the daily [newly created community contribution merge requests triage report](/handbook/engineering/infrastructure/engineering-productivity/triage-operations/#newly-created-community-contribution-merge-requests-requiring-first-triage).
 - Help find and assign merge requests to available reviewers.
 - If the contributor is unresponsive or if they are unable to finish it, finish
   their merge requests. Also, see the [closing policy for merge requests](https://docs.gitlab.com/ee/development/contributing/merge_request_workflow.html#merge-request-ownership).
@@ -21,7 +21,7 @@ get merged into GitLab.
   JavaScript, Golang, etc. or programming entirely. For example, you can add any hints or possible fixes on issues that are open for community contribution.
 - Join and actively follow the internal [`#mr-coaching` Slack channel](https://app.slack.com/client/T02592416/C2T9APP9C) and the external [GitLab Community Discord](https://discord.gg/gitlab) to assist contributors and fellow MR Coaches when they need help or to discuss best practices for collaboration.
   - You can also use the [`#gitter-contributors-room` Slack channel](https://app.slack.com/client/T02592416/CV0SHHVNW) which tunnels all conversations between Gitter and Slack.
-- Ensure the content on the [MR Coaches handbook pages](/handbook/marketing/developer-relations/contributor-success/merge-request-coach-lifecycle.html) stays relevant, up-to-date and keeps evolving.
+- Ensure the content on the [MR Coaches handbook pages](/handbook/marketing/developer-relations/contributor-success/merge-request-coach-lifecycle/) stays relevant, up-to-date and keeps evolving.
 - Participate in the discussion and voting for the [release post MVP](/handbook/marketing/blog/release-posts/index.html#mvp).
 
 ### Specialties
@@ -77,11 +77,11 @@ Steps:
 
 ### Closing merge requests
 
-Sometimes community contributions become stale or obsolete and changes become no longer relevant or applicable. If the changes are no longer needed, it's fine to close the merge request whether the author is responsive or not. If there’s an open discussion or questions for the author, allow some time for them to get back to the discussion before closing the merge request.
+Sometimes community contributions become stale or obsolete and changes become no longer relevant or applicable. If the changes are no longer needed, it's fine to close the merge request whether the author is responsive or not. If there's an open discussion or questions for the author, allow some time for them to get back to the discussion before closing the merge request.
 
 In all cases, **always** provide some context on why the merge request is being closed as this can lead to fewer questions later on and create a point for future reference which would be useful for team members and community contributors.
 
-Last but not least, if there's an opportunity to provide any help or pointers for future contributions try to do that. This could be pointing to [code review guidelines](https://docs.gitlab.com/ee/development/code_review.html), documentation on [how to contribute](https://docs.gitlab.com/ee/development/contributing/#how-to-contribute), or [getting help](https://about.gitlab.com/community/contribute/#getting-help) while [contributing](https://about.gitlab.com/community/contribute/) to GitLab.
+Last but not least, if there's an opportunity to provide any help or pointers for future contributions try to do that. This could be pointing to [code review guidelines](https://docs.gitlab.com/ee/development/code_review.html), documentation on [how to contribute](https://docs.gitlab.com/ee/development/contributing/#how-to-contribute), or [getting help](https://docs.gitlab.com/ee/development/contributing/#get-help) while [contributing](https://about.gitlab.com/community/contribute/) to GitLab.
 
 #### Closing empty merge requests
 

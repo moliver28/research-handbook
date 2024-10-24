@@ -12,6 +12,12 @@ twitter_creator: "@gitlab"
 
 On this page, we're detailing considerations for optimizing comfort and efficiency when taking your office with you while traveling.
 
+## Connect to the Internet securely
+
+When possible, do not connect to public WiFi networks. If a public WiFi network is your only option, it's crucial to employ robust security measures such as using a [personal VPN](/handbook/tools-and-tips/personal-vpn/#what-is-a-personal-vpn).
+
+Additionally, GitLab team members should be wary of connecting to unsecured networks or accessing sensitive information over public connections, even when using a VPN. When Ethernet connections are available, they generally offer a more secure option than WiFi due to their physical nature, but it's still essential to verify the network's authenticity and utilize encryption protocols whenever possible.
+
 ## Internet redundancy
 
 {{% cardpane %}}
@@ -20,21 +26,23 @@ On this page, we're detailing considerations for optimizing comfort and efficien
 {{% /card %}}
 {{% /cardpane %}}
 
-For remote workers, a robust connection to the internet is [vital](https://about.gitlab.com/blog/2016/03/23/remote-communication). This is easier to control at [home](https://about.gitlab.com/blog/2019/09/12/not-everyone-has-a-home-office) or in a [coworking venue](https://about.gitlab.com/blog/2019/09/04/not-all-remote-is-created-equal), and it requires special consideration when on the road. [Avid travelers](https://about.gitlab.com/blog/2019/06/25/how-remote-work-at-gitlab-enables-location-independence) and dedicated [nomads]({{< ref "./people#nomads" >}}) should maintain at least two connectivity sources — ideally, two sources that connect to different mobile networks.
+For remote workers, a robust connection to the internet is [vital](https://about.gitlab.com/blog/2016/03/23/remote-communication). This is easier to control at [home](https://about.gitlab.com/blog/2019/09/12/not-everyone-has-a-home-office) or in a [coworking venue](https://about.gitlab.com/blog/2019/09/04/not-all-remote-is-created-equal), and it requires special consideration when on the road. [Avid travelers](https://about.gitlab.com/blog/2019/06/25/how-remote-work-at-gitlab-enables-location-independence) and dedicated [nomads](people/#nomads) should maintain at least two connectivity sources — ideally, two sources that connect to different mobile networks.
 
 A simple way to achieve this redundancy is to lean on one mobile network operator for your smartphone (and enable tethering if it is not on by default with your current plan), while procuring a mobile hotspot through a different operator.
 
-If you plan to travel through [various countries and continents](https://about.gitlab.com/blog/2017/06/30/there-and-back-again-in-one-release), plan ahead. Services such as [KnowRoaming](https://www.knowroaming.co/order) and [Skyroam](https://www.skyroam.com) enable connections across borders. While it's possible to acquire a local SIM card in most countries, you'll need an unlocked smartphone or hotspot. Plus, you may need a basic understanding of the local language, local currency, and to shop during regular business hours.
+Another way to improve your chances of a strong internet connection while traveling is to bring an Ethernet cord and adapter that allows you to connect an ethernet cord to your laptop. Not all hotels or coworking spaces will provide an ethernet connection option, but if it is available Ethernet is your best bet for a fast, secure internet connection.
+
+If you plan to travel through [various countries and continents](https://about.gitlab.com/blog/2017/06/30/there-and-back-again-in-one-release), plan ahead. Services such as [KnowRoaming](https://www.knowroaming.com/) and [Skyroam](https://www.skyroam.com) enable connections across borders. While it's possible to acquire a local SIM card in most countries, you'll need an unlocked smartphone or hotspot. Plus, you may need a basic understanding of the local language, local currency, and to shop during regular business hours.
 
 ### Buy local data with an eSIM, without changing your SIM card
 
 If your phone supports [eSIMs](https://www.digitaltrends.com/mobile/esim-explainer) you may also be able to use services like
-[GigSky](https://www.gigsky.com) or [Airalo](http://airalo.refr.cc/rebeccadodd) which allow you to purchase affordable local data plans
+[GigSky](https://www.gigsky.com) or [Airalo](https://www.airalo.com/) which allow you to purchase affordable local data plans
 on demand without needing to change SIM cards. Even if you don't purchase the plan
 you can use such a service as a redundant option if your local or roaming SIM
 is not getting reliable service.
 
-[Use this link to get $3 free credit for Airalo](http://airalo.refr.cc/rebeccadodd). Some tips for using Airalo:
+Some tips for using Airalo:
 
 - Purchase your eSIM before you travel and be sure to activate it while connected to WiFi.
 - Have another phone handy so that you can take a picture of the QR code needed to activate your eSIM. This way you can scan it with the phone you're using with the eSIM.
@@ -49,7 +57,7 @@ Working while traveling requires a delicate balance. It's wise to have a minimal
 
 However, long-term travelers should consider health, ergonomics, and comfort, and invest in the appropriate equipment. Examples include laptop risers, global power adapters, external peripherals (keyboard, mouse, etc.), a backup battery, comfortable headphones, and a rugged backpack with support straps. [Secondary displays](https://support.apple.com/en-us/HT210380) add weight but may be worthwhile for the productivity gains.
 
-Consider where you plan to work on the road, and what elements of your [home workspace]({{< ref "./workspace" >}}) you may miss. This will help you plan your purchases, should any be necessary.
+Consider where you plan to work on the road, and what elements of your [home workspace](workspace/) you may miss. This will help you plan your purchases, should any be necessary.
 
 Learn more about [traveling workspaces from the GitLab blog](https://about.gitlab.com/blog/2019/10/10/whats-in-your-backpack).
 
@@ -71,7 +79,7 @@ For those looking for a somewhat more stable version of the continual road trip,
 
 {{% cardpane %}}
 {{% card footer="Working at GitLab Commit London 2019" %}}
-![Working at GitLab Commit London 2019](/images/all-remote/gitlab-commit-london-coworking-2019.jpg){: .shadow.medium.center}
+![Working at GitLab Commit London 2019](/images/all-remote/gitlab-commit-london-coworking-2019.jpg)
 {{% /card %}}
 {{% /cardpane %}}
 
@@ -101,6 +109,6 @@ For those in other remote companies, consider asking if there are colleagues loc
 
 GitLab believes that all-remote is the [future of work]({{< ref "remote-vision" >}}), and remote companies have a shared responsibility to show the way for other organizations who are embracing it. If you or your company has an experience that would benefit the greater world, consider creating a [merge request](https://docs.gitlab.com/ee/user/project/merge_requests) and adding a contribution to this page.
 
-------
+---
 
 Return to the main [all-remote page]({{< ref "_index.md" >}}).

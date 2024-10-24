@@ -1,0 +1,44 @@
+{{/* 
+    Prints a list of design documents with metadata from a given folder.
+*/}}
+
+{{ $folder := .Get "folder" }}
+{{ $section := site.GetPage "section" $folder }}
+{{/*  We use the index pages of each subfolder in the given folder  */}}
+{{ $sortedSections := sort $section.Sections ".Params.creation-date" "desc" }}
+
+{{/*  Ensure the table is full width and make the font size slightly smaller so everything fits nicely.  */}}
+<table class="table" style="width: 100%; max-width: 100%; font-size: .875rem;">
+    <thead>
+        <tr>
+            <th>Status</th>
+            <th>Title</th>
+            <th>Authors</th>
+            <th>Coach</th>
+            <th>Owning Stage</th>
+            <th>Created</th>
+        </tr>
+    </thead>
+    <tbody>
+        {{ range $sortedSections }}
+        {{/*  Maintain the visual appearance of the former blueprints list without striped table rows.  */}}
+        <tr style="--bs-table-striped-bg: none;">
+            <td>
+                {{ partial "gitlab/label" (dict "name" .Params.Status) }}
+            </td>
+            <td><a href="{{ .Permalink }}">{{ .Title }}</a></td>
+            <td>
+        		{{ partial "gitlab/profile-links" (dict "handles" .Params.authors) }}
+            </td>
+            <td>
+                {{ partial "gitlab/profile-links" (dict "handles" .Params.Coach) }}
+        		{{ partial "gitlab/profile-links" (dict "handles" .Params.Coaches) }}
+            </td>
+            <td>
+                {{ partial "gitlab/label" (dict "name" (index .Params "owning-stage"))}}
+            </td>
+            <td>{{ index .Params "creation-date" }}</td>
+        </tr>
+        {{ end }}
+    </tbody>
+</table>

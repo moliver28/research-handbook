@@ -24,7 +24,7 @@ The Chief Accounting Officer (CAO) is a [grade 12](/handbook/total-rewards/compe
 
 ## Job Requirements
 
-1. You are an organizational fit for GitLab who shares our Values. You will have a point of view of how to balance the company’s values, particularly transparency with the realities of being a public company.
+1. You are an organizational fit for GitLab who shares our Values. You will have a point of view of how to balance the company's values, particularly transparency with the realities of being a public company.
 1. You have 20+ years of experience including leading a publicly traded company's accounting function.
 1. You have led a startup growth company through the IPO process.
 1. You have Big Four accounting experience and an active CPA.
@@ -46,10 +46,10 @@ The Chief Accounting Officer (CAO) is a [grade 12](/handbook/total-rewards/compe
 ## Performance Indicators
 
 1. [Average days to close](/handbook/finance/accounting/#average-days-to-close-kpi-definition)
-1. [Number of material audit adjustments = 0](/handbook/internal-audit/#performance-measures-for-accounting-related-to-audit)
+1. [Number of material audit adjustments = 0](https://internal.gitlab.com/handbook/internal-audit/#performance-measures-for-accounting-related-to-audit)
 1. [Average days of sales outstanding](/handbook/finance/accounting/#11-accounts-receivable)
 1. [New hire location factor](/#new-hire-location-factor)
-1. [Percentage of ineffective SOX Controls = 0%](/handbook/internal-audit/#performance-measures-for-accounting-related-to-audit)
+1. [Percentage of ineffective SOX Controls = 0%](https://internal.gitlab.com/handbook/internal-audit/#performance-measures-for-accounting-related-to-audit)
 
 ## Interview team and focus areas for each person
 

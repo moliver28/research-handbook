@@ -1,15 +1,44 @@
 ---
-aliases: /handbook/customer-success/csm/adoption-landing-zones/CI
 title: "CI Adoption Landing Zone"
 description: "A page containing links to helpful CI resources for the CSM team and our customers"
 ---
+![CI Adoption Journey Map](/csm/adoption-landing-zones/images/ci-adoption-journey-map.png)
 
-
-
-
-
-
-
+<table>
+<thead>
+  <tr>
+    <th>Journey Stage</th>
+    <th>Solutions</th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+    <td>No agreement</td>
+    <td><ul><li><a href="https://docs.google.com/presentation/d/1M5B4vFiNp967KI50UTCeg5FoYYTE4wNe8MGKZhG3WNw/edit#slide=id.g24901083280_0_7242">Next Generation DevOps Deck</a>(w/ <a href="https://drive.google.com/file/d/1WACCqn6YuACLLF4YdHqjTABs3ULzJE5s/view">talk track</a>)</li>
+    <li><a href="https://internal.gitlab.com/handbook/sales/command-of-the-message/trap-setting-questions/">Trap setting questions</a></li>
+    <li><a href="https://page.gitlab.com/2021_eBook_leadershipCICD.html">How to convince leadership to adopt CI/CD EBook</a></li></ul></td>
+  </tr>
+  <tr>
+    <td>Kickoff/Planning</td>
+    <td><ul><li><a href="https://docs.google.com/presentation/d/1s22clsML0CLFx9ex-7y4TaTbS1NFC11YygSsj6Uy9kU/edit#slide=id.g123a13deda8_0_405">CI Rollout Strategy</a></li>
+    <li><a href="https://docs.gitlab.com/ee/ci/migration/plan_a_migration.html">Planning a migration documentation</a></li></ul></td>
+  </tr>
+  <tr>
+    <td>Migration</td>
+    <td><ul><li><a href="https://about.gitlab.com/services/catalog/">PS Offerings</a></li>
+    <li><a href="https://about.gitlab.com/blog/2023/11/01/jenkins-gitlab-ultimate-guide-to-modernizing-cicd-environment/">Jenkins to GitLab: The ultimate guide to modernizing your CI/CD environment</a></li>
+    <li><a href="https://about.gitlab.com/services/catalog/">PS Offerings</a></li>
+    <li>Migration guidance from 4 different CI tools (<a href="https://docs.gitlab.com/ee/ci/migration/bamboo.html">Bamboo</a>, <a href="https://docs.gitlab.com/ee/ci/migration/github_actions.html">GitHub Actions</a>, <a href="https://docs.gitlab.com/ee/ci/migration/jenkins.html">Jenkins</a>, <a href="https://docs.gitlab.com/ee/ci/migration/circleci.html">CircleCI</a>)</li></ul></td>
+  </tr>
+  <tr>
+    <td>Enablement</td>
+    <td><ul><li><a href="https://docs.google.com/presentation/d/12nax3mmhh7Y9o1SMXKhWNxYH_n55G2Vj8--UQbX13yw/edit#slide=id.g2936d5da52a_0_0">Jenkins to GitLab CSM Enablement</a></li>
+    <li>CSM led <a href="https://handbook.gitlab.com/handbook/customer-success/csm/workshops/#currently-available-sessions">enablement sessions</a></li>
+    <li>Hands-On Technical <a href="https://handbook.gitlab.com/handbook/solutions-architects/tools-and-resources/workshop/">Workshops</a></li>
+    <li><a href="https://handbook.gitlab.com/handbook/customer-success/csm/segment/scale/webinar-calendar/#upcoming-webinars">Scale Webinars</a></li></ul></td>
+  </tr>
+</tbody>
+</table>
 
 ## Discovery Questions
 
@@ -60,14 +89,9 @@ Jenkins to GitLab
 1. Webinars (Informational & Hands-On):
      - [Monthly Webinar Calendar](/handbook/customer-success/csm/segment/scale/webinar-calendar/)
 
-
-## Product Features or Enhancements Coming Soon That Will Accelerate CI setup and adoption:
+## Product Features or Enhancements Coming Soon That Will Accelerate CI setup and adoption
 
  1. CI Component Catalog: https://docs.gitlab.com/ee/ci/components/
     - Quick demo on how the CI Component Catalog Works [VIDEO](https://youtu.be/nijvYhAPKsM)
     - Epic outlining the business need and cusotomer pain point this catalog will solve: https://gitlab.com/groups/gitlab-org/-/epics/7462
     - Epic housing future feature enhancements: https://gitlab.com/groups/gitlab-org/-/epics/9897
-
-
-
-

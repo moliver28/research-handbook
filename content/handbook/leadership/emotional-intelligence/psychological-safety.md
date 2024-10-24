@@ -8,7 +8,7 @@ On this page we are going to review psychological safety and its importance for 
 
 ## What is Psychological Safety
 
-Psychological safety is [defined by Amy Edmondson](https://www.jstor.org/stable/2666999?seq=1) as a “shared belief held by members of a team that the team is safe for interpersonal risk taking”.
+Psychological safety is [defined by Amy Edmondson](https://www.jstor.org/stable/2666999?seq=1) as a "shared belief held by members of a team that the team is safe for interpersonal risk taking".
 
 It's not about being warm and fuzzy and sharing your feelings. It's about being comfortable admitting when you are wrong or have made a mistake as well as challenging each other for the better.
 
@@ -31,7 +31,7 @@ Why is psychological safety important? When you have psychological safety in the
 - Collaboration
 - Innovation
 - Inclusion
-- Wellbeing
+- Well-being
 - Culture
 
 ![Psychological Safety How it Works](/images/handbook/leadership/psych-safety-how-it-works.png)
@@ -63,9 +63,9 @@ Psychological safety has impacts on diversity and inclusion in organizations. Ev
 1. Build a speak-up culture.
 1. Highlight competencies.
 
-The above list is from a [Grant Thornton article](https://www.grantthornton.com/library/articles/advisory/2020/psychological-safety-speak-up-culture.aspx).
+The above list is from a [Grant Thornton article](https://web.archive.org/web/20220528223316/https://www.grantthornton.com/library/articles/advisory/2020/psychological-safety-speak-up-culture.aspx).
 
-It is important to enable a human-to-human approach and realize the other party is more like you than different. The reflection activity called “Just Like Me”, [developed by Paul Santagata](https://hbr.org/2017/08/high-performing-teams-need-psychological-safety-heres-how-to-create-it), asks you to consider:
+It is important to enable a human-to-human approach and realize the other party is more like you than different. The reflection activity called "Just Like Me", [developed by Paul Santagata](https://hbr.org/2017/08/high-performing-teams-need-psychological-safety-heres-how-to-create-it), asks you to consider:
 
 - This person has beliefs, perspectives, and opinions, just like me.
 - This person has hopes, anxieties, and vulnerabilities, just like me.
@@ -140,7 +140,7 @@ Once survey results have been collected and reviewed by each manager, it's sugge
 - Read: [What Google Learned from it's Quest to Build the Perfect Team](https://www.nytimes.com/2016/02/28/magazine/what-google-learned-from-its-quest-to-build-the-perfect-team.html)
 - Read: [How To Build An Environment Of Psychological Safety](https://trainingindustry.com/articles/compliance/how-to-build-an-environment-of-psychological-safety/)
 - Read: [How Psychological Safety Actually Works](https://www.forbes.com/sites/shanesnow/2020/05/04/how-psychological-safety-actually-works/#c5be718f864c)
-- Read: [High-Performing Teams Need Psychological Safety. Here’s How to Create It](https://hbr.org/2017/08/high-performing-teams-need-psychological-safety-heres-how-to-create-it)
+- Read: [High-Performing Teams Need Psychological Safety. Here's How to Create It](https://hbr.org/2017/08/high-performing-teams-need-psychological-safety-heres-how-to-create-it)
 - Listen: [Creating Psychological Safety in the Workplace](https://hbr.org/podcast/2019/01/creating-psychological-safety-in-the-workplace) - HBR
 - Watch: [Why good leaders make you feel safe - Simon Sinek](https://www.youtube.com/watch?v=lmyZMtPVodo&list=PLhVoCCkYxQDcdcU7j7H_w0-0BdOqIIYxa) - TED
 - Watch: [The importance of psychological safety: Amy Edmondson](https://www.youtube.com/watch?v=eP6guvRt0U0)

@@ -1,5 +1,5 @@
 ---
-title: Calendly Documentation
+title: Calendly docs
 description: Support Operations documentation page for Calendly
 canonical_path: "/handbook/support/readiness/operations/docs/calendly/"
 ---
@@ -23,7 +23,7 @@ baseline entitlement for the rest of GitLab. As such, non-support users
 requesting access to this must submit an access request and it must be reviewed
 and approved by a Support Operations Manager.
 
-#### Adding a user
+### Adding a user
 
 To add a new user, you simply invite them to Calendly via the
 [Admin Management page](https://calendly.com/app/organization/users). On that
@@ -34,7 +34,7 @@ types to add to the user's profile. As we don't do this by default, simply click
 the blue `Finish` button. After doing so, the user(s) will be invited to join
 the Calendly under our paid subscription.
 
-#### Changing roles
+### Changing roles
 
 To change a role of a user, locate the user on the
 [Admin Management page](https://calendly.com/app/organization/users) and click
@@ -43,7 +43,7 @@ the `Change Role` button. Doing so will open a new box with a dropdown
 containing a list of all roles. Simply select the new role to use and then click
 the blue `Apply` button.
 
-#### Removing a user
+### Removing a user
 
 To remove a user, locate the user on the
 [Admin Management page](https://calendly.com/app/organization/users) and click
@@ -64,7 +64,7 @@ Ops, this is normally the
 On this page, you can do several things, such as creating managing event types
 and adding/removing members.
 
-#### Adding a member
+### Adding a member
 
 To add a member to a team, click the gear icon to the right of the
 `+ New Event Type`. Doing so will open a sub-menu with several options. The one
@@ -77,7 +77,7 @@ so will add them to the list of team members. Unless the user is going to manage
 Calendly, leave the `can manage team` box unchecked. Once you are done there,
 click the blue `Save` button at the bottom of the page.
 
-#### Removing a member
+### Removing a member
 
 To remove a member from a team, click the gear icon to the right of the
 `+ New Event Type`. Doing so will open a sub-menu with several options. The one
@@ -144,11 +144,11 @@ icon in the top-right of the box. After doing so, click the `Edit` option in the
 sub-menu. Doing so will open the event type editor. From here, there are a lot
 of options that can be edited.
 
-#### What event is this
+### What event is this
 
 Here you can edit the event's name, description, link, and color.
 
-#### When can people book this event
+### When can people book this event
 
 If you had to pick one section to deem the most complicated part of event types,
 this would be it. Here you determine:
@@ -168,7 +168,7 @@ Due to the complexity of this section, I highly recommend watching the above
 linked video. This section often needs to be tweaked and can be daunting if you
 are not familiar with doing so.
 
-#### Team members and locations
+### Team members and locations
 
 Here you will determine who is involved in the event type and the default
 location the will use. Any team member who could be selected for a meeting
@@ -177,7 +177,7 @@ always be Zoom.
 
 While you can set priority for event booking, we do not by default.
 
-#### Invitee Questions
+### Invitee Questions
 
 Here you can customize the questions asked when a user tries to create an
 event. What exactly goes here will vary based on use case, but some good
@@ -190,7 +190,7 @@ questions to have in there might be:
 As it will vary based on the event itself, your judgement will be the best guide
 on what to put here.
 
-#### Notifications and Cancellation Policy
+### Notifications and Cancellation Policy
 
 Here you can edit the notifications and cancellation policy. By default, we do
 not customize this option. It should default to
@@ -205,3 +205,154 @@ it should default to `Calednly confirmation page, no active links`.
 
 At this time we do not use this option. You should not have anything here and
 it should state `no payment method`.
+
+## Calendly Event to Google Calendar Event
+
+Both our Global and US Government support teams have a desire for events booked
+via their Calendly links to populate specific team-wide calendars instead of
+just their own. To accomplish this, we have setup a combination of Calendly
+webhooks and our own GitLab CI/CD.
+
+### CI/CD Project
+
+Creating the webhook is part of this, but ideally before you actually do so, you
+need something to *process* the payload Calendly would send. For this, we opt to
+use GitLab's CI/CD capabilities.
+
+The source of our project for this can be found at
+[this project](https://gitlab.com/gitlab-support-readiness/calendly-events-to-gcal-events).
+
+While the project's code has comments to explain what is going on, a very basic
+explaination of it would be:
+
+1. The .gitlab-ci.yml file is setup to only let the pipeline run when started
+   via a pipeline trigger
+1. The job run used the script
+   [bin/run](https://gitlab.com/gitlab-support-readiness/calendly-events-to-gcal-events/-/blob/master/bin/run)
+1. That script calls the function `EventProcessor::Process.run!`
+1. The script determines if this is a viable event to process
+1. The script converts the information in the payload to what is needed to
+   create a Google Calendar event
+1. The script creates the Google Calendar event
+
+### Calendly Webhooks
+
+The first step of this is making a Calendly webhook to send a payload to our
+chosen destination (our [CI/CD Project](#cicd-project) in this case). This can
+be done either at the Organization or User level. In the interest of
+scalability, we tend to make these at the Organization level.
+
+The very *first* thing you are going to need to do is determine our
+Organization's information, as it will be required for the webhook's creation.
+
+To do this, you are going to need to use the
+[Get current user](https://developer.calendly.com/api-docs/005832c83aeae-get-current-user)
+API endpoint, like so:
+
+```bash
+curl --request GET \
+  --url https://api.calendly.com/users/me \
+  --header 'Authorization: Bearer TOKEN_GOES_HERE' \
+  --header 'Content-Type: application/json'
+```
+
+This will produce output that contains our organization's information (as you
+are part of our organization). The exact entry you are wanting is the
+`current_organization` value. If using something like
+[jq](https://jqlang.github.io/jq/), you can run the entire command like so:
+
+```bash
+curl -ss --request GET --url https://api.calendly.com/users/me \
+  --header 'Authorization: Bearer TOKEN_GOES_HERE' \
+  --header 'Content-Type: application/json' \
+  | jq '.resource.current_organization'
+```
+
+You will also need your user reference URL, which you can get from the same
+endpoint. In this case, you'll need `uri` value from the output. Using something
+like [jq](https://jqlang.github.io/jq/), you can run the entire command like so:
+
+```bash
+curl -ss --request GET --url https://api.calendly.com/users/me \
+  --header 'Authorization: Bearer TOKEN_GOES_HERE' \
+  --header 'Content-Type: application/json' \
+  | jq '.resource.uri'
+```
+
+With that, you can now create the webhook itself. To do this, you will use the
+[Create Webhook Subscription](https://developer.calendly.com/api-docs/c1ddc06ce1f1b-create-webhook-subscription)
+API endpoint. This is going to require some very specific information to work
+correct, so let's break it down item by item:
+
+- `url`
+  - This is the URL the payload from Calendly is being sent to.
+- `events`
+  - An array of items the webhook will trigger for. The options currently are:
+    - `invitee.created`
+    - `invitee.canceled`
+    - `invitee_no_show.created`
+    - `routing_form_submission.created`
+- `organization`
+  - The URL for your organization. See above to get this value.
+  - **NOTE** The *full* URL should be used.
+- `user`
+  - Your user reference URL. See above to get this value
+  - **NOTE** The *full* URL should be used.
+- `scope`
+  - The scope this runs on. It can either be `user` or `organization`.
+
+Putting this all together, you will make a POST request, with the data being in
+JSON format. To accomplish this, we recommend making a JSON file containing the
+parameters to send, verifying it via [jq](https://jqlang.github.io/jq/), and
+then making your API call. An example of what this might look like is:
+
+```bash
+echo '{' >> temp.json
+echo '"url": "https://blah.foo/bar",' >> temp.json
+echo '  "events": [' >> temp.json
+echo '    "invitee.created",' >> temp.json
+echo '    "invitee.canceled",' >> temp.json
+echo '    "invitee_no_show.created"' >> temp.json
+echo '  ],' >> temp.json
+echo '  "organization": "https://api.calendly.com/organizations/AAAAAAAAAAAAAAAA",' >> temp.json
+echo '  "user": "https://api.calendly.com/users/BBBBBBBBBBBBBBBB",' >> temp.json
+echo '  "scope": "user"' >> temp.json
+echo '}' >> temp.json
+$ cat temp.json | jq
+{
+  "url": "https://blah.foo/bar",
+  "events": [
+    "invitee.created",
+    "invitee.canceled",
+    "invitee_no_show.created"
+  ],
+  "organization": "https://api.calendly.com/organizations/AAAAAAAAAAAAAAAA",
+  "user": "https://api.calendly.com/users/BBBBBBBBBBBBBBBB",
+  "scope": "user"
+}
+
+curl -ss --request POST \
+  --url https://api.calendly.com/webhook_subscriptions \
+  --header 'Authorization: Bearer TOKEN_GOES_HERE' \
+  --header 'Content-Type: application/json' \
+  --data @temp.json
+```
+
+The response you get back from this need to be verified, but it should mirror a
+lot of the information you just used in your parameters. Once you have verified
+it all looks correct, the webhook is live.
+
+### Need a list of all Calendly webhooks?
+
+No worries, it happens from time to time. To do this, you will want to use the
+[List Webhook Subscriptions](https://developer.calendly.com/api-docs/faac832d7c57d-list-webhook-subscriptions)
+to get that information. This requires you so specify a scope and the
+organization itself. This might look like (assuming you URL encode the values,
+which isn't "required" but helpful):
+
+```bash
+curl -ss --request GET \
+  --url 'https://api.calendly.com/webhook_subscriptions?organization=https%3A%2F%2Fapi.calendly.com%2Forganizations%2FAAAAAAAAAAAAAAAA&scope=organization' \
+  --header 'Authorization: Bearer TOKEN_GOES_HERE' \
+  --header 'Content-Type: application/json'
+```

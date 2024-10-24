@@ -1,5 +1,4 @@
 ---
-
 title: "Noah Ing's README"
 ---
 
@@ -24,11 +23,10 @@ title: "Noah Ing's README"
 -->
 
 - It has been a career-long goal for me to work at GitLab ever since using GitLab for the first time
-- Prior to working at Gitlab I worked as a DevOps engineer for 5 years mainly focusing on Cloud Infrastructure using AWS and GCP
+- Prior to working at GitLab I worked as a DevOps engineer for 5 years mainly focusing on Cloud Infrastructure using AWS and GCP
 - This is my first experience being officially part of a sales team, and I love it. I feel it compliments my deep interest in performance arts
 - I have a passionate interest in Hip Hop, Jazz and Funk music. Khruangbin is my favourite band
 - I am born and raised in Toronto, Canada.
-
 
 ## My working style
 
@@ -69,6 +67,7 @@ Again, expect a same-day response and don't hesitate to try a different medium i
 <!-- These may be covered in the above sections. If you prefer a section devoted to strengths and weaknesses, this will enable others to lean on your areas of published expertise and offer support in weak areas without passing judgment. -->
 
 **Strengths**:
+
 - Resilient
 - Team Player
 - Good Listener
@@ -76,7 +75,7 @@ Again, expect a same-day response and don't hesitate to try a different medium i
 - Adapt Quickly
 
 **Weaknesses**:
+
 - Lacking attention to detail
 - Bad at multi-tasking
 - Overly idealistic
-

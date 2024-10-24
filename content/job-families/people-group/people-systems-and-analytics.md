@@ -2,9 +2,9 @@
 title: "People Technology and Analytics"
 ---
 
-The People Technology & Analytics Job Family owns the technology and reporting solutions at GitLab. Working in partnership with the People Leadership team, they play both a strategic and tactical role setting the direction for the technology and analytics strategy at GitLab and operating with a “data-first” mindset.
+The People Technology & Analytics Job Family owns the technology and reporting solutions at GitLab. Working in partnership with the People Leadership team, they play both a strategic and tactical role setting the direction for the technology and analytics strategy at GitLab and operating with a "data-first" mindset.
 
-## People Technology  
+## People Technology
 
 ### HRIS Analyst, People Technology
 
@@ -20,7 +20,7 @@ The HRIS Analyst, People Technology is a [grade 6](/handbook/total-rewards/compe
 - Provide system and end user support internally within the People Group as well as external stakeholders throughout the organization
 - Ensure data integrity by performing system and security audits
 - Participate in the configuration of annual People programs, system releases, which includes end-to-end preparation of test plan and test scripts
-- Provide technical expertise, troubleshooting, and guidance, which includes HRIS training to support users and strengthen the organization’s ability to effectively and efficiently use the system
+- Provide technical expertise, troubleshooting, and guidance, which includes HRIS training to support users and strengthen the organization's ability to effectively and efficiently use the system
 - Load mass datasets, distribute policies and documents with confidence and thorough testing
 - Develop and maintain documentation of system configurations, business processes, and schedules of reporting and integrations
 
@@ -55,7 +55,7 @@ The Senior HRIS Analyst, People Technology is a [grade 7](/handbook/total-reward
 - Serve as a consultant to various business groups taking a systems thinking approach and recommending process improvements and/or innovative, alternative solutions while considering downstream impacts
 - Configure and test for annual People programs, system releases, which includes end-to-end scoping of configuration and integration
 - Serve as a functional resource on reporting, including dashboard creation, data analyses and creating calculated fields
-- Provide technical support, troubleshooting, and guidance, which includes HRIS training to support users and strengthen the organization’s ability to effectively and efficiently use the system
+- Provide technical support, troubleshooting, and guidance, which includes HRIS training to support users and strengthen the organization's ability to effectively and efficiently use the system
 - Load mass datasets, distribute policies and documents with confidence and thorough testing
 - Maintain knowledge of trends and developments in data management, security, and HR technology
 
@@ -89,7 +89,7 @@ The Staff HRIS Analyst, People Technology is a [grade 8](/handbook/total-rewards
 - Serve as a trusted advisor and consultant to various business groups taking a systems thinking approach and recommending process improvements and/or innovative, alternative solutions while considering downstream impacts
 - Lead the configuration and testing for annual People programs, system releases, which includes end-to-end scoping of configuration and integration
 - Serve as a functional expert on reporting, including dashboard creation, data analyses and assisting stakeholders with metrics. Comfortable with composite, matrix and trending reports, with the ability to create/modify calculated fields and business intelligence reports
-- Provide technical support, troubleshooting, and guidance for system issues and integration errors, which includes HRIS training to support users and strengthen the organization’s ability to effectively and efficiently use the system
+- Provide technical support, troubleshooting, and guidance for system issues and integration errors, which includes HRIS training to support users and strengthen the organization's ability to effectively and efficiently use the system
 - Load mass datasets, distribute policies and documents with confidence and thorough testing
 - Maintain knowledge of trends and developments in data management, security, and HR technology
 
@@ -127,7 +127,7 @@ The Principal HRIS Analyst, People Technology is a [grade 9](/handbook/total-rew
 - Serve as a trusted advisor with deep subject matter expertise to various business groups taking a systems thinking approach and recommending process improvements and/or innovative, alternative solutions while considering downstream impacts
 - Oversee configurations and testing for annual People programs, system releases, which includes end-to-end scoping of configuration and integration
 - Serve as a functional expert on reporting, including dashboard creation, data analyses and assisting stakeholders with metrics. Comfortable with composite, matrix and trending reports, with the ability to create/modify calculated fields and business intelligence reports
-- Provide technical support, troubleshooting, and guidance, which includes HRIS training to support users and strengthen the organization’s ability to effectively and efficiently use the system
+- Provide technical support, troubleshooting, and guidance, which includes HRIS training to support users and strengthen the organization's ability to effectively and efficiently use the system
 - Provide guidance and mentorship to other team members
 - Maintain knowledge of trends and developments in data management, security, and HR technology
 
@@ -238,6 +238,42 @@ The Senior Analyst, People Analytics is a [grade 7](/handbook/total-rewards/comp
 - Solid experience with regression analysis and other statistical modeling techniques
 - Experience with Workday and Greenhouse preferred
 
+#### Staff Analyst, People Analytics
+
+The Staff Analyst, People Analytics role extends the Senior Analyst role expectations and reports into the Senior Manager, People Analytics.
+
+##### Job Grade
+
+The Staff Analyst, People Analytics role is a [grade 8](/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades).
+
+**Market Justification:** When reviewing survey data there are about 200 organizations that typically have 1 to 2 Staff level People Analysts. The business need for GitLab to have an individual contributor grade 8 is to ensure we have a high level of skill when building out people data structure cross functionally and builds in business continuity. Not having this career path option can make it difficult to retain and attract talent.
+
+##### Responsibilities
+
+- Serve as a functional expert on reporting, dashboard creation, data analyses and assisting stakeholders with metrics
+- Serve as a trusted advisor and consultant to various business groups recommending process improvements and/or innovative, alternative solutions while considering downstream impacts
+- Mentor less experienced Analysts to enable them add more value sooner
+- Be a thought partner to other members of the team, including delivering feedback on
+analysis
+- Advocate for the team's work to meet internal standards for code style, quality,
+maintainability, and best practices
+- Proactively and independently identify areas of opportunity for analysis
+- Regularly contribute to the People Analytics handbook pages, elevating data literacy and enabling responsible use of people data across GitLab
+- Act as a trusted voice of people data and insights in meetings and presentations
+- Strategize and collaborate with the Data Team to ensure integrity and accuracy of people data
+- Maintain knowledge of trends and developments in data management, security, and People Analytics
+
+##### Requirements
+
+Staff Analysts are expected to meet the Senior Analyst, People Analytics requirements,
+with the experience requirements adjusted to:
+
+- 6+ years of data analysis experience, leveraging descriptive and predictive data techniques
+- 4+ years of experience supporting people teams
+- 2+ years of experience conducting independent exploratory analysis
+- 2+ years of mentoring other teammates or analysts
+- Experience leading large, strategic initiatives
+
 ### Manager, People Analytics
 
 The Manager, People Analytics reports into the Senior Manager, People Analytics.
@@ -273,7 +309,7 @@ The Manager, People Analytics is a [grade 8](/handbook/total-rewards/compensatio
 
 ### Senior Manager, People Analytics
 
-The Senior Manager, People Analytics reports to the VP, People Operations, Technology and Analytics.  
+The Senior Manager, People Analytics reports to the VP, People Operations, Technology and Analytics.
 
 #### Job Grade
 

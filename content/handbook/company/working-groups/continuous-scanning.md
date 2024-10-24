@@ -22,12 +22,12 @@ The goal for this working group is to complete the work described in [this Epic]
 Our exit criteria maps to the proposal found in [this Epic](https://gitlab.com/groups/gitlab-org/-/epics/7886):
 
  1. SBOM information is ingested and stored in the database
- 1. ~~Advisory DB information is ingested and stored the the database~~
+ 1. ~~Advisory DB information is ingested and stored the database~~
  1. ~~Scans are triggered automatically when any changes are detected for either the SBOM information or the Advisory DB information~~
 
 ## Outcome
 
-When the group was started, the target features were in categories spread across different stages and groups. With the creation of the [Govern Stage](https://about.gitlab.com/direction/govern/) the remaining two items are wholly within the responsibilities of the [Composition Analysis](https://about.gitlab.com/direction/secure/#groups) group in the Secure stage, and as such they’re best completed as business-as-usual features in the owner group.
+When the group was started, the target features were in categories spread across different stages and groups. With the creation of the [Govern Stage](https://about.gitlab.com/direction/govern/) the remaining two items are wholly within the responsibilities of the [Composition Analysis](https://about.gitlab.com/direction/secure/#groups) group in the Secure stage, and as such they're best completed as business-as-usual features in the owner group.
 
 ## Roles and Responsibilities
 

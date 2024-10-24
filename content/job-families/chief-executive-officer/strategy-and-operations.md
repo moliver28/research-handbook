@@ -53,7 +53,7 @@ The Staff Strategy and Operations is a [grade 8](/handbook/total-rewards/compens
 - Support the creation of prepared materials (documents, decks) for the Chief of Staff to the CEO and the CEO
 - Support special projects that are urgent and important
 - Execute on projects and ongoing assignments for the Chief of Staff to the CEO
-- Readiness to partner directly with the CEO, CoST to the CEO, or other Strategy and Operations Team members on high priority initiatives
+- Readiness to partner directly with the CEO, Office of the CEO, or other Strategy and Operations Team members on high priority initiatives
 - Determine long-term owners outside of the Strategy and Operations team for initiatives and asks that are best served through a functional home. Partner with future owners to ensure that ownership and responsibilities are understood and agreed upon
 - Demonstrate GitLab values in all work
 
@@ -176,18 +176,18 @@ dependencies to achieve project goals
 
 ### Specialties
 
-##### Strategy and Operations (Data)
+#### Strategy and Operations (Data)
 
 - Extends that of the Staff or Principal level Strategy and Operations
 - Hands on experience in a data analytics/engineering/science role
 - Experience working with senior leadership to define and measure KPIs and other operating metrics
-- Familiarity with proxy metrics where actual measurements aren’t available
+- Familiarity with proxy metrics where actual measurements aren't available
 - Deep understanding of SQL, relational databases (we use Snowflake)
 - Familiarity with system observability data (logs, metrics, traces) is preferred (we use Elastic Stack)
 - Familiarity with data management policies and regulations (GDPR, SOX, PCI) is preferred
 - Ability to take meetings with and work synchronously with folks in Pacific Time
 
-##### Strategy and Operations (Operations)
+#### Strategy and Operations (Operations)
 
 - Extends that of the Senior Manager, Staff, Principal, or Director level Strategy and Operations
 - Experience leading ongoing projects and initiatives
@@ -197,7 +197,7 @@ dependencies to achieve project goals
 - Ability to operate [iteratively](/handbook/values/#iteration)
 - Ability to take meetings with and work synchronously with folks in Pacific Time
 
-##### Strategy and Operations (Technical)
+#### Strategy and Operations (Technical)
 
 - Extends that of the Staff, Principal, or Director level Strategy and Operations
 - Deeply understands and is able to synthesize the market, competition, and upcoming solutions in the DevOps space
@@ -206,7 +206,7 @@ dependencies to achieve project goals
 - Ability to find opportunities where teams need to collaborate with each other and help them make those decisions that are optimal for the company even if they maybe sub-optimal in the short term for particular groups
 - Ability to take meetings with and work synchronously with folks in Pacific Time
 
-##### Strategy and Operations (Workplace)
+#### Strategy and Operations (Workplace)
 
 - Extends that of the Senior Manager, Staff, Principal, or Director level Strategy and Operations
 - Clearly articulate, communicate, and evangelize Workplace OS
@@ -215,7 +215,7 @@ dependencies to achieve project goals
 - Facilitate and drive certifications and learning opportunities globally for Workplace OS
 - Demonstrate expertise in GitLab values, operating principles, and ways of working
 
-##### Strategic Technical Partnership Manager for JiHu
+#### Strategic Technical Partnership Manager for JiHu
 
 - Extends that of the Staff, Principal, or Director level Strategy and Operations
 - Is GitLab's key point of contact with [JiHu](https://about.gitlab.com/blog/2021/03/18/gitlab-licensed-technology-to-new-independent-chinese-company/), an indepedent company in China that is licensed to sell GitLab software
@@ -227,7 +227,7 @@ dependencies to achieve project goals
 - Can speak Mandarin and read Simplified Chinese
 - Can work with some overlap with PST and CST timezones. This role would likely be based somewhere in APAC. Not based in China, Macau, or Hong Kong
 
-##### Strategy and Operations (Content)
+#### Strategy and Operations (Content)
 
 - Extends that of the Senior Manager, Staff, Principal, or Director level Strategy and Operations
 - Proven ability to write high-quality, long-form or short-form content on complex topics
@@ -241,9 +241,9 @@ dependencies to achieve project goals
 
 ## Performance Indicators
 
-- [Throughput - Issues or merge requests closed as measurement of projects iterated on](/handbook/ceo/chief-of-staff-team/performance-indicators/#throughput-for-the-cost)
+- [Throughput - Issues or merge requests closed as measurement of projects iterated on](/handbook/ceo/office-of-the-ceo/performance-indicators/#throughput-for-the-office-of-the-ceo)
 
-In addition, we are exploring [additional ways to measure performance](/handbook/ceo/chief-of-staff-team/#measuring-results).
+In addition, we are exploring [additional ways to measure performance](/handbook/ceo/office-of-the-ceo/#measuring-results).
 
 ## Career Ladder
 

@@ -1,14 +1,12 @@
 ---
-
 title: Cloud licensing and the support exemption process explained
 description: "How to generate a legacy license for a customer who cannot use Cloud Licensing"
 category: GitLab Self-Managed licenses
 ---
 
-
 ## Cloud Licensing Overview
 
-[Cloud Licensing](https://about.gitlab.com/pricing/licensing-faq/cloud-licensing/) allows GitLab customers to activate paid subscription features on self-managed instances using an activation code, rather than managing license files and manually uploading them into their instance. By activating through Cloud Licensing, a customer’s GitLab instance will periodically synchronize [Subscription Data](https://docs.gitlab.com/ee/subscriptions/self_managed/#subscription-data-that-gitlab-receives) with GitLab.
+[Cloud Licensing](https://about.gitlab.com/pricing/licensing-faq/cloud-licensing/) allows GitLab customers to activate paid subscription features on self-managed instances using an activation code, rather than managing license files and manually uploading them into their instance. By activating through Cloud Licensing, a customer's GitLab instance will periodically synchronize [Subscription Data](https://docs.gitlab.com/ee/subscriptions/self_managed/#subscription-data-that-gitlab-receives) with GitLab.
 
 In order to further encourage Cloud Licensing, the Strict Cloud Licensing project will include several iterations to encourage customers to use Cloud License activation codes rather than a Legacy License file to activate their self-managed instances. The following [GitLab internal licensing terms page](https://internal.gitlab.com/handbook/product/fulfillment/definitions/#licensing-terms) provides a technical definition of the current three types of licenses (Cloud Licensing, Offline and Legacy) associated with Cloud Licensing.
 
@@ -55,9 +53,9 @@ By default, the `TurnOnCloudLicensing__c` flag in SFDC will be set to `Yes` on e
 
 The Pre-Sale Exemption process is intended to be the **only means** of opt out, and should be used for all customers. However, there may be times where the account manager missed the opt-out during the sale, and the customer has now incorrectly received a Cloud License activation code they cannot use.
 
-If a customer requires a Legacy License or an Offline License **post-sale**, the sales account manager must obtain Sales VP approval for a Cloud Licensing exemption. When approval is obtained and documented in SFDC, the account manager must then [open an Internal Request with Support](https://gitlab-com.gitlab.io/support/internal-requests-form/) > `Self Managed License Related` > `Cloud Licensing Exemption`. Full instructions for the account manager [can be found in Highspot](https://gitlab.highspot.com/items/629a82af9092e7ac989947ca?lfrm=srp.0) (visible to Sales team only).
+If a customer requires a Legacy License or an Offline License **post-sale**, the sales account manager must obtain Sales VP approval for a Cloud Licensing exemption. When approval is obtained and documented in SFDC **for each opportunity**, the account manager must then open a [Support Internal Request](https://support-super-form-gitlab-com-support-support-op-651f22e90ce6d7.gitlab.io/) **for each opportunity**. On the form, select either `GitLab Support Internal Request for Global customers` or `GitLab Support Internal Request for US Federal customers` and then `Self-Managed License Related (for paid customers only)` > `Cloud Licensing exemption`. Full instructions for the account manager [can be found in Highspot](https://gitlab.highspot.com/items/629a82af9092e7ac989947ca?lfrm=srp.0) (visible to Sales team only).
 
-If the customer's subscription or trial/temp license has expired, and they require access during the approval process, the account manager must [open an Internal Request with Support](https://gitlab-com.gitlab.io/support/internal-requests-form/) > `Self Managed` > `Extend an (almost) expired subscription`. The support engineer should [provide the customer with a trial license](/handbook/support/license-and-renewals/workflows/self-managed/trials/) until post-sales opt-out approval is received and handled in the related Internal Request.
+If the customer's subscription or trial/temp license has expired, and they require access during the approval process, the account manager must [open an Internal Request with Support](https://support-super-form-gitlab-com-support-support-op-651f22e90ce6d7.gitlab.io/). Use either the **GitLab Support Internal Requests for Global customers** or **GitLab Support Internal Requests for Federal customers** request option and then select **Extend an (almost) expired subscription** in the **Self Managed** section. The support engineer should [provide the customer with a trial license](/handbook/support/license-and-renewals/workflows/self-managed/trials/) until post-sales opt-out approval is received and handled in the related Internal Request.
 
 #### How to process a Cloud Licensing exemption internal request
 
@@ -125,20 +123,24 @@ Refer to the alternative methods below for guidance on different cases.
     - Check the `Subscription Name` in the quote which is at the 4th row of the top section.
     - If it is empty, or does not show up in CustomersDot, find the subscription by locating the customer account using the Sold To contact's email and verifying the subscription seat count matches the quote you opened.
 
-## Support FAQ
+### Support FAQ
 
 #### 1. Which license type should I provide for an approved opt out?
 
 Knowing whether to provide an Offline or Legacy License will depend on the customer's specific scenario and what they request, but the following may be helpful:
 
 - Offline licenses are preferred by GitLab over Legacy Licenses as they allow the customer to more easily provide usage data. These work best for customers who cannot use a Cloud License because their instance is air-gapped or not connected to the internet. However, in order to use an Offline Cloud License, the customer must be on 15.0 or higher.
-- Legacy licenses can be sent when a customer is unwilling or unable to upgrade to Gitlab version 14.1 or higher, or is concerned about sharing Subscription Data.
+- Legacy licenses can be sent when a customer is unwilling or unable to upgrade to GitLab version 14.1 or higher, or is concerned about sharing Subscription Data.
 
-#### 2. Are reseller purchases considered the same as sales-assisted? If a customer purchased after 2022-07-07 and needs a Legacy License, should we send them to their Account Manager to go through the exemption process, or do we treat them the same as web-direct and give them a Legacy License file, no questions asked?
+#### 2. Which workflow applies for reseller purchases?
 
-Reseller customers should be directed to sales as well using the same process.
+For example: if a customer purchased after 2022-07-07 and needs a Legacy License, should we send them to their Account Manager to go through the exemption process, or do we treat them the same as web-direct and give them a Legacy License file, no questions asked?
 
-#### 3. A customer would like to use a Legacy License on a dev instance after activating their production instance with a Cloud License activation code
+Reseller customers should be directed to sales using the same exemption process as for sales-assisted purchases.
+
+#### 3. Can multiple license types be active for one subscription?
+
+For example: a customer would like to use a Legacy License on a dev instance after activating their production instance with a Cloud License activation code.
 
 We can generate a legacy license in this situation, but only after an exemption has been approved. **Do not apply the exemption to the currently CL-enabled subscription.** Instead, generate a legacy license duplicate of the existing license.
 

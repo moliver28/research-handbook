@@ -1,8 +1,0 @@
-{{- $data := . }}
-{{- $img := "https://about.gitlab.com/images/gitlab-logo-extra-whitespace.png" -}}
-{{- with path.BaseName $data.picture }}
-{{- if ne . "gitlab-logo-extra-whitespace" }}
-{{- $img = printf "https://about.gitlab.com/images/team/%s-crop.jpg" . -}}
-{{- end }}
-{{- end }}
-<a href="{{ ref page (printf "/handbook/company/team#%s" $data.gitlab) }}"><img class="avatar" src="{{ $img }}" width="90" height="90" alt="{{ $data.name }}">{{$data.name}}</a>

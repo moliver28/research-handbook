@@ -1,5 +1,4 @@
-{{- $entityMapper := partials.IncludeCached "data/entity-mapper" . }}
-  <table style="display: table;">
+<table style="display: table;">
     <thead>
         <tr>
             <th>Country</th>
@@ -9,15 +8,13 @@
         </tr>
     </thead>
     <tbody>
-        {{- range sort $entityMapper "country" }}
-          {{- if .probation_months }}
+        {{- range sort (where site.Data.public.entity_mapper "probation_months" "gt" 0) "country" }}
           <tr>
               <td>{{ .country }}</td>
               <td>{{ .probation_months }} months {{ with .probation_extra }}{{ . }}{{ end }}</td>
               <td>{{ .notice_during_probation }}</td>
               <td>{{ .notice_after_probation }}</td>
           </tr>
-          {{- end }}
         {{- end }}
     </tbody>
 </table>

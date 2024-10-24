@@ -61,8 +61,13 @@ To serve as Support Manager DRI for an Account Escalation, use the following ste
 
     **NOTE:** We are currently trialing an [Escalations-focused Support Engineer role](https://gitlab.com/gitlab-com/support/support-team-meta/-/issues/4545#designated-escalations-focused-engineers-for-this-trial) in AMER under [this issue](https://gitlab.com/gitlab-com/support/support-team-meta/-/issues/4545). Please reach out to the designated engineer(s) as a first point of contact either to step in as the technical lead or to provide technical guidance and support to the Lead Support Engineer.
 
-- [Open an issue with Support Ops](https://gitlab.com/gitlab-com/support/support-ops/zendesk-global/organizations/-/issues) to ask that they check the `Escalated State` field for the organization in ZenDesk.
-  - This will add the `org_in_escalated_state` tag to all future tickets opened by the customer.
+- Toggle the escalation state of the organization in Zendesk using the
+  [Support Super Form](https://support-super-form-gitlab-com-support-support-op-651f22e90ce6d7.gitlab.io/),
+  (the request will make you a tracking issue, but it is completely automated).
+  - The `What is this request concerning?` option should be
+    `Modifications to a Zendesk Global Organization` and the
+    `What kind of modification are you looking to make?` should be
+    `Toggle the escalation status of an organization`
   - This tag will [add a NOTE to the organization notes](https://gitlab.com/gitlab-com/support/support-ops/zendesk-global/triggers/uploads/c9a3e2843eff23572100b53cfca0da0c/Screen_Shot_2022-09-07_at_4.46.01_PM.png) signifying that the account is in an escalated state.
 
 - Open a [Support escalation issue](https://gitlab.com/gitlab-com/support/escalated-customers/-/issues/new?issuable_template=incident&issue%5Bissue_type%5D=incident) under the [Escalated Customers](https://gitlab.com/gitlab-com/support/escalated-customers) project to serve as our Support escalation portfolio. This portfolio will include important details of the escalation, such as Support's purpose (why we are involved), our goals (clear definition of the exit criteria), along with a list of tickets and issues that are tied to the escalation.
@@ -122,7 +127,7 @@ When daily updates are paused, continue to check every day for activity which wo
 
 ### Step 4: Evaluate Progress
 
-Determine if progress on the current tasks has slowed or stalled. If either of these is true, work with the Lead Support Engineer to [escalate further to a specialized development team](https://about.gitlab.com/handbook/engineering/development/processes/Infra-Dev-Escalation/) to ensure that work is progressing in the right direction.
+Determine if progress on the current tasks has slowed or stalled. If either of these is true, work with the Lead Support Engineer to [escalate further to a specialized development team](/handbook/engineering/development/processes/Infra-Dev-Escalation/) to ensure that work is progressing in the right direction.
 
 ### Step 5: Evaluate Stability and Monitor
 
@@ -132,8 +137,13 @@ Before closing the Account Escalation:
 
 - Review the steps listed in the [Customer Success Escalation Page](/handbook/customer-success/csm/escalations/#closing-the-escalation) and collaborate as needed to complete the closing steps.
 
-- [Open an issue with Support Ops](https://gitlab.com/gitlab-com/support/support-ops/zendesk-global/organizations/-/issues) to ask that they uncheck the `Escalated State` field for the organization in ZenDesk.
-
+- Toggle the escalation state of the organization in Zendesk using the
+  [Support Super Form](https://support-super-form-gitlab-com-support-support-op-651f22e90ce6d7.gitlab.io/),
+  (the request will make you a tracking issue, but it is completely automated).
+  - The `What is this request concerning?` option should be
+    `Modifications to a Zendesk Global Organization` and the
+    `What kind of modification are you looking to make?` should be
+    `Toggle the escalation status of an organization`
   - The `org_in_escalated_state` tag will no longer be applied to future tickets opened by the customer. The organization notes will no longer display the escalated heading 1 note.
 
 ### Step 6: Retrospective

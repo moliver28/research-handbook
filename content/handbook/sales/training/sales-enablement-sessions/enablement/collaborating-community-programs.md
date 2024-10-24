@@ -1,15 +1,6 @@
 ---
-
 title: Collaborating with Community Programs
 ---
-
-# On this page
-
-
-
-
-
-# Collaborating with Community Programs
 
 ## 🌎 Overview
 
@@ -19,7 +10,7 @@ This enablement material is for GitLab team members seeking to collaborate with 
 
 By the conclusion of this session, participants will be able to:
 
-- **Describe** Gitlab's community programs and their functions
+- **Describe** GitLab's community programs and their functions
 - **Identify** potential members of the GitLab for Education, GitLab for Open Source, and GitLab for Startups programs
 - **Connect** program members with the appropriate resources/processes for those programs
 - **Identify** opportunities for collaborating with the Community Programs team to assist GitLab customers
@@ -88,7 +79,7 @@ Important points:
 
 - For applications to the education program, the Community Programs team does not require proof of use case nor do we enforce it. The applying entity agrees to our legal terms—use case included—as described in the Education Program Agreement [Purpose section](/handbook/legal/education-agreement/#2-purpose).
 
-- For applications to the open source program, the Community Programs team requires proof of use case at the time of application (new and renewing) in the form of a screenshot. The applying entity agrees to our legal terms—use case included—as described in the Open Source Program Agreement [2.Purpose & Eligibility Section](/handbook/legal/opensource-agreement/#2-purpose--eligibility). If a SAE/AE has concerns regarding potential violation of the the use case, please contact our team in the #community-programs channel and provide the SFDC opportunity in question.
+- For applications to the open source program, the Community Programs team requires proof of use case at the time of application (new and renewing) in the form of a screenshot. The applying entity agrees to our legal terms—use case included—as described in the Open Source Program Agreement [2.Purpose & Eligibility Section](/handbook/legal/opensource-agreement/#2-purpose--eligibility). If a SAE/AE has concerns regarding potential violation of the use case, please contact our team in the #community-programs channel and provide the SFDC opportunity in question.
 
 - In the case that a community program member no longer meets the program requirements, the Community Programs team works with the sales team to identify a path forward to transition from free to paid.
 
@@ -122,11 +113,11 @@ Important points:
 
 ### Support
 
-Details on the Support workflow for Community Programs are in the [Support](/handbook/marketing/developer-relations/community-programs/automated-community-programs/) section of the Community Programs handbook page.  
+Details on the Support workflow for Community Programs are in the [Support](/handbook/marketing/developer-relations/community-programs/automated-community-programs/) section of the Community Programs handbook page.
 
 Important points:
 
-- Program members do not receive Ultimate support with subscriptions granted through community programs. They are able to open a support ticket via the [GitLab Support Portal](/support/#issues-with-billing-purchasing-subscriptions-or-licenses) with errors involving the Community Self-checkout Portal on CustomersDOT or any errors relating to their subscription.
+- Program members do not receive Ultimate support with subscriptions granted through community programs. They are able to open a support ticket via the [GitLab Support Portal](https://about.gitlab.com/support/#issues-with-billing-purchasing-subscriptions-or-licenses) with errors involving the Community Self-checkout Portal on CustomersDOT or any errors relating to their subscription.
 
 - If GitLab for Education applicants are having issues during the application or verification stages, they first contact SheerID as indicated in the [Support table](/handbook/marketing/developer-relations/community-programs/automated-community-programs/).
 

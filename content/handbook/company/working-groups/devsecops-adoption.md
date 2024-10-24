@@ -1,6 +1,6 @@
 ---
 title: "DevSecOps Adoption"
-description: "A Working Group focused on the Top 12 Cross-Functional initiative of ensuring ultimate customers successfully adopt devsecops within 3 months of purchase"
+description: "A Working Group focused on the Top 12 Cross-Functional initiative of ensuring ultimate customers successfully adopt DevSecOps within 3 months of purchase"
 ---
 
 ## Attributes
@@ -19,7 +19,7 @@ No customers in red on DevSecOps Adoption within 3 months of purchase.
 
 ## Exit Criteria
 
-One fiscal quarter (purchase date) with 90% of devsecops customers adopting within 3 months of purchase
+One fiscal quarter (purchase date) with 90% of DevSecOps customers adopting within 3 months of purchase
 
 -
 
@@ -31,11 +31,11 @@ One fiscal quarter (purchase date) with 90% of devsecops customers adopting with
 | DRI                   | Sherrod Patching      | VP, Customer Success Management        |
 | Member                | Francis Ofungwu       | Field CISO                        |
 | Member                | Jonathan Fullam       | Sr Director, Solution Architecture           |
-| Member                | Tanya Helin           | RVP, Enterprise East                   || Member                | Rich Phillips         | ASM, Enterprise East         |
+| Member                | Tanya Helin           | RVP, Enterprise East                   |
+| Member                | Rich Phillips         | ASM, Enterprise East         |
 | Member                | Nick Christou         | Director of Sales, SMB                         |
 | Member                | Hillary Benson        | Director, Product Management            |
 | Member                | Derek Ferguson        | Sr Product Manager - Secure and Govern |
 | Member                | Brian Mason           | Product Marketing Manager |
 | Member                | Jeff Beaumont         | Sr Director CS Operations |
 | Member.              | Klaudia Magda           | Sr Data Scientist |
-

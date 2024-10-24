@@ -9,7 +9,7 @@ no_list: true
 
 ## Code Inspections
 
-(***If you are here to ask "What are all the `noinspection` comments in the code?", please read the ["Why are there `noinspection` comments"](./why-are-there-noinspection-comments) page for a thorough explanation.**
+(***If you are here to ask "What are all the `noinspection` comments in the code?", please read the ["Why are there `noinspection` comments"](why-are-there-noinspection-comments/) page for a thorough explanation.**
 But if you just want to learn how to use Code Inspection effectively in JetBrains, this is the page you're looking for...*)
 
 One of the nice features of JetBrains IDEs is "Inspect Code" (`Code -> Inspect Code`).
@@ -79,16 +79,18 @@ These `noinspection` comments might confuse some non-JetBrains users.
 Therefore, each of these comments should be accompanied by a comment explaining why it
 was needed, with a reference to any supporting information.
 
-If it was needed due to a JetBrains bug or limitation, you can reference the specific entry on the
-[Tracked JetBrains Issues](../tracked-jetbrains-issues) page.
+*If it was needed due to a JetBrains bug or limitation, you can reference the specific entry on the
+[Tracked JetBrains Issues](../tracked-jetbrains-issues) page*. If one doesn't exist yet, you should:
 
-If one doesn't exist yet, you should open an issue against JetBrains and add it to that page.
+1. Open an issue against JetBrains and add it to that page (this is preferred).
+1. Or, if you don't have time to identify or open an issue against JetBrains, leave a `TODO:` link pointing to that page, and
+   indicating that a JetBrains issue should be identified or opened at a later time.
 
 ## Each `noinspection` and explanation should be a one-liner
 
 All `# noinspection - <some link or explanation>` comments should be on a single line.
 
-This is because we want to to avoid the possibility of deleting an obsolete/fixed `# noinspection` line
+This is because we want to avoid the possibility of deleting an obsolete/fixed `# noinspection` line
 but forgetting to delete the separate associated comment line.
 
 This should be done consistently, even if there needs to be an associated `# rubocop:disable Layout/LineLength`,
@@ -126,6 +128,6 @@ Here's a quick list of steps to set this up (TODO: add more details/links):
     1. Use the Include/Exclude/Recursively buttons to define what files should be included in the scope.
     1. Here's a current example of the `remote_dev` scope definition which could be shared with other team members: `file[gitlab]:ee/lib/remote_development//*||file[gitlab]:ee/spec/factories/remote_development//*||file[gitlab]:ee/spec/lib/remote_development//*||file[gitlab]:ee/app/services/remote_development//*||file[gitlab]:app/models/remote_development//*||file[gitlab]:ee/app/graphql/mutations/remote_development//*||file[gitlab]:ee/app/graphql/resolvers/remote_development//*||file[gitlab]:ee/app/graphql/types/remote_development//*||file[gitlab]:ee/app/models/remote_development//*||file[gitlab]:ee/spec/graphql/types/remote_development//*||file[gitlab]:ee/spec/models/remote_development//*||file[gitlab]:ee/spec/services/remote_development//*||file[gitlab]:ee/app/finders/remote_development//*||file[gitlab]:ee/spec/features/remote_development//*||file[gitlab]:ee/spec/support/shared_contexts/remote_development//*||file[gitlab]:ee/app/graphql/ee/types/user_interface.rb||file[gitlab]:ee/app/graphql/resolvers/concerns/remote_development//*||file[gitlab]:ee/app/graphql/resolvers/projects/workspaces_resolver.rb||file[gitlab]:ee/app/graphql/resolvers/users/workspaces_resolver.rb||file[gitlab]:ee/spec/requests/api/graphql/mutations/remote_development//*||file[gitlab]:ee/spec/requests/api/graphql/remote_development//*||file[gitlab]:ee/spec/finders/remote_development//*||file[gitlab]:ee/app/assets/javascripts/remote_development//*||file[gitlab]:ee/spec/frontend/remote_development//*||file[gitlab]:ee/spec/graphql/api/workspace_spec.rb`
     1. You can also share the XML file for the directly, it will be under `.idea/scopes/SCOPE_NAME.xml`.
-    1. Here's Chad's current examples of two scopes related to Remote Development:
+    1. Here's Chad's current examples of two scopes related to Workspaces:
        1. All remote dev files: <https://gitlab.com/jetbrains-ide-config/jetbrains-ide-config-gitlab/-/blob/master/dotidea/scopes/remote_dev.xml>
        1. Only remote dev services and lib files: <https://gitlab.com/jetbrains-ide-config/jetbrains-ide-config-gitlab/-/blob/master/dotidea/scopes/remote_dev_services___lib.xml>

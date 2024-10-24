@@ -68,12 +68,12 @@ Before starting to work L&R tickets, be sure you complete the
 
 As an L&R Engineer, you will want to understand some core concepts of terms, expressions and
 features we interact with every day. The next few paragraphs explain these concepts, which can also
-be referred to in the [terminology table](#common-terminology).
+be referred to in the [terminology table](/handbook/support/license-and-renewals/license-and-renewals-glossary).
 
 **Subscription** is a term used to explain the purchase of a specific tier of features for a set
 amount of time. There are two factors that comprise a subscription:
 
-- **SaaS** or **Self-Managed**, which defines where the subscription is ‘applied’.
+- **SaaS** or **Self-Managed**, which defines where the subscription is 'applied'.
 **GitLab Dedicated** is considered as Self-Managed for the purposes of how it is applied.
 - The **Tier**, providing access to different features. This includes **Premium** or **Ultimate**.
 
@@ -96,7 +96,7 @@ are rare and require an internal request and Sales VP approval.
 A **Namespace** is a top-level group where users can collaborate in subgroups and projects, and is
 considered a separate entity from other namespaces. SaaS customers purchase a subscription for a
 namespace, which means the namespace has access to their purchased tier of features, such as
-Premium or Ultimate. For example, company: `“Example Corporation”` has a namespace located
+Premium or Ultimate. For example, company: `"Example Corporation"` has a namespace located
 at: `gitlab.com/example-co`:
 
 - All subgroups (`gitlab.com/example-co/marketing`) and projects
@@ -142,9 +142,9 @@ as part of their subscription, which refresh every month:
 - Ultimate: `50,000`
 
 Units **are not a 1-to-1 translation of minutes** and are subject to
-[cost factors](https://docs.gitlab.com/ee/ci/pipelines/cicd_minutes.html#cost-factor),
-including [the type of Runner being used](https://docs.gitlab.com/ee/ci/pipelines/cicd_minutes.html#additional-costs-on-gitlab-saas)
-in a pipeline. A customer [can purchase additional units](https://docs.gitlab.com/ee/ci/pipelines/cicd_minutes.html#purchase-additional-cicd-minutes)
+[cost factors](https://docs.gitlab.com/ee/ci/pipelines/compute_minutes.html#cost-factor),
+including [the type of Runner being used](https://docs.gitlab.com/ee/ci/pipelines/compute_minutes.html#additional-costs-on-gitlab-saas)
+in a pipeline. A customer [can purchase additional units](https://docs.gitlab.com/ee/ci/pipelines/compute_minutes.html#purchase-additional-cicd-minutes)
 at any time.
 
 #### Storage and Transfer
@@ -226,9 +226,9 @@ channel in Slack. This ensures:
 > - Increased visibility in queries and shared knowledge
 > - Increased cohesion in the L&R team regardless of region
 
-At the commencement of the APAC region's Support Hours (23:00 UTC) there is a
-[Daily Stand-up Bot for Licensing and Renewals in APAC](/handbook/support/support-global-groups/#daily-stand-up-bot-for-licensing-and-renewals-in-apac)
-post which tags all Support Engineers who have some responsibility for L&R
+At the start of the APAC region's Support Hours (23:00 UTC) the
+[Support Daily Slackbot](https://gitlab.com/gitlab-com/support/toolbox/support-daily-slackbot)
+post that tags all APAC Support Engineers who have some responsibility for L&R
 tickets. This thread notifies the team of who is away for the current week, and
 allows team members to provide updates to each other about when they're working
 on the queue. This helps ensure coverage reliability of the L&R tickets across
@@ -236,8 +236,8 @@ the APAC region's support hours.
 
 #### Zuora
 
-Zuora is considered the [single source of truth](/handbook/handbook-usage/#single-source-of-truth)
-or [system of record](/handbook/handbook-usage/#system-of-record)
+Zuora is considered the [single source of truth](/handbook/about/handbook-usage/#single-source-of-truth)
+or [system of record](/handbook/about/handbook-usage/#system-of-record)
 for many subscription and renewal-related items, such as product SKUs,
 subscriptions and invoices. See the
 [Transition to Zuora as the SSOT issue](https://gitlab.com/groups/gitlab-org/-/epics/4664)
@@ -257,12 +257,10 @@ When creating an [individual/bulk access request](https://gitlab.com/gitlab-com/
 
 ### Workflows
 
-- [License & renewals workflows](/handbook/support/license-and-renewals/workflows/index.html)
+- [License & renewals workflows](/handbook/support/license-and-renewals/workflows/index/)
 
 ### Useful tools
 
-- [license decoder](https://gitlab.com/gitlab-com/support/toolbox/license-decoder)
-  -- Ruby script to decode `.gitlab-license` files.
 - [slic - Subscription and License Information Copier](https://gitlab.com/rverschoor/punk/-/tree/main/slic)
   -- browser userscript to copy and format CustomersDot information
   into internal notes.
@@ -292,10 +290,10 @@ stage, we can see that the team owns responsibilities that align with some of
 the types of requests we generally see in the queue, in particular the
 `Conversion` group.
 
-- Activation Group: [New Group Namespace Verify Stage Adoption Rate](/handbook/product/performance-indicators/#new-group-namespace-verify-stage-adoption-rate)
-- Adoption Group: [New Group Namespace Create Stage Adoption Rate](/handbook/product/performance-indicators/#new-group-namespace-create-stage-adoption-rate)
-- Expansion Group: [New Group Namespace with at least two users added](/handbook/product/performance-indicators/#new-group-namespace-with-at-least-two-users-added)
-- Conversion Group:[New Group Namespace Trial to Paid Conversion Rate](/handbook/product/performance-indicators/#new-group-namespace-trial-to-paid-conversion-rate)
+- Activation Group: [New Group Namespace Verify Stage Adoption Rate](https://internal.gitlab.com/handbook/company/performance-indicators/product/#new-group-namespace-verify-stage-adoption-rate)
+- Adoption Group: [New Group Namespace Create Stage Adoption Rate](https://internal.gitlab.com/handbook/company/performance-indicators/product/#new-group-namespace-create-stage-adoption-rate)
+- Expansion Group: [New Group Namespace with at least two users added](https://internal.gitlab.com/handbook/company/performance-indicators/product/#new-group-namespace-with-at-least-two-users-added)
+- Conversion Group:[New Group Namespace Trial to Paid Conversion Rate](https://internal.gitlab.com/handbook/company/performance-indicators/product/#new-group-namespace-trial-to-paid-conversion-rate)
 
 ## What is **not in the scope** of L&R work in Support?
 
@@ -338,24 +336,3 @@ The queue should not be used for the following:
 | ------------- |------------------------------------------------------------------------------------------------------------------------------------|
 | [GitLab Issue Tracker](https://gitlab.com/gitlab-org/gitlab/issues) | Issues related to self-managed or GitLab.com functionality or backend processing                                                   |
 | [CustomersDot](https://gitlab.com/gitlab-org/customers-gitlab-com/issues) | Issues caused specifically by something within CustomersDot or affecting self-managed license generation, generated licenses |
-
-## Common Terminology
-
-|Term|Description|
-|--|--|
-|Add-on|An optional extra that can be purchased to increase the limits of what is available in GitLab. Common examples of this are a `Seat add-on` where additional seats are purchased during the subscription term, or an additional `Storage` or `Compute Minutes` purchase (on SaaS only).|
-|[Cloud Licensing](https://about.gitlab.com/pricing/licensing-faq/cloud-licensing/) / Cloud Activation *(SM Only)* | The preferred method of activating a self managed subscription where [subscription data is synchronized daily](https://docs.gitlab.com/ee/subscriptions/self_managed/#subscription-data-synchronization) from the customer instance to Customers.gitlab.com.  Unlike a License File, a cloud activation code does not need to be re-applied when the subscription is modified or renewed.|
-|Customers Portal / CustomersDOT / customers.gitlab.com|Available at [customers.gitlab.com](https://customers.gitlab.com), the customers portal allows customers to view, manage and purchase subscriptions. L&R Engineers can generate, modify and send subscription information from here.|
-|[GitLab Dedicated](https://docs.gitlab.com/ee/subscriptions/gitlab_dedicated/)|Provides the benefits of SaaS (fully managed maintenance and operations) with infrastructure-level isolation while the customer has access to Administrator account on their instance.|
-|Legacy License File / License Key *(SM Only)*| License files are now a legacy option used to provide SM trials, or for customers subject to certain criteria. License files are necessary to activate a subscription prior to GitLab 14.1.  License files typically have a maximum validity of one year, and must be re-issued and uploaded again if a subscription is modified or renewed.|
-|[Namespace](https://docs.gitlab.com/ee/user/namespace/#namespaces) *(SaaS Only)*|A top-level group on gitlab.com where a subscription is applied. The subscription plan is available to all subgroups and projects under the namespace|
-|Offline Cloud Licensing *(SM Only)*| In situations where customers must maintain an instance without Internet access, an [Offline Cloud License](https://about.gitlab.com/pricing/licensing-faq/cloud-licensing/#offline-cloud-licensing)) provides the benefits of Cloud Licensing by generating a usage data file locally.  The customer is prompted to upload this file monthly.
-|[Quarterly Subscription Reconciliation (QSR)](https://docs.gitlab.com/ee/subscriptions/quarterly_reconciliation.html)|Introduced as a “Pay as you Go” alternative to True-Ups. A QSR is processed quarterly and will deliver cost savings versus the annual approach of True-Ups.|
-|Seat|A seat represents GitLab’s implementation of a ‘concurrent software license’, which means the maximum number of users who will use the GitLab application and access paid features at any one time. Customers can change the specific users working with a GitLab Seat, providing the total seats in use does not exceed the total number of seats purchased.
-|Self-Managed (**SM**)|Instances of the GitLab application managed by the customers themselves. The customers retain complete access and administrative control over their environment.|
-|Software-as-a-Service (**SaaS**)|GitLab.com is the Software as a Service (SaaS) offering for the GitLab product. GitLab team members handle the maintenance, operation and upgrading of GitLab.com.|
-|Subscription|Typically, a 12-month agreement to receive access to a tier of features in GitLab.|
-|Trial|A short trial (usually at most 30 days) of GitLab paid features with [some restrictions](https://about.gitlab.com/free-trial/#what-is-included-in-my-free-trial-what-is-excluded) when used on SaaS. Customers can initiate a trial directly for both SaaS and Self-Managed on gitlab.com.  Trials are often requested by GitLab Sales to extend subscriptions when a customer purchase has not been finalized.|
-|True-Ups|A method of reconciling `Users over Subscription` after the subscription term has expired. True-Ups require the full subscription fee for Users over Subscription to cover the previous subscription term.|
-|User|A user on the GitLab platform. Most users will occupy a seat, subject to [some exceptions](https://about.gitlab.com/pricing/licensing-faq/#GitLab.com). Users can include administrator accounts (on Self-Managed), as well as automated job or bot users.
-|[Users over Subscription](https://docs.gitlab.com/ee/subscriptions/self_managed/index.html#users-over-subscription) (**SM**) / [Seats owed](https://docs.gitlab.com/ee/subscriptions/gitlab_com/index.html#seats-owed) (**SaaS**) |GitLab permits additional usage over the purchased seat agreement, ensuring more users can be added during the subscription term without unnecessary obstacles. This overage can be processed at any time by adding more seats to the current subscription (seats add-on), processing the overage annually (`True-Ups`) or quarterly (`Quarterly Subscription Reconciliation`).|

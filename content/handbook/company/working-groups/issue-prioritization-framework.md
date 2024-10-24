@@ -14,7 +14,7 @@ status: active
 | Google Doc      | [Working Group Agenda](https://docs.google.com/document/d/1oBWNxBSOJKrh3ubHwN5pI8243vBjJ-Y_Cax17A5abII/edit) (only accessible from within the company) |
 | Docs            | [Handbook Page](/handbook/product/product-processes/customer-issues-prioritization-framework) |
 | Related Issue   | [Adding context to customer's requests](https://gitlab.com/gitlab-com/sales-team/field-operations/sales-operations/-/issues/907) |
-| Associated OKRs | [Increase TMAU and Paid TMAU](https://gitlab.com/gitlab-com/chief-of-staff-team/cos-team/-/issues/80) |
+| Associated OKRs | [Increase TMAU and Paid TMAU](https://gitlab.com/gitlab-com/office-of-the-ceo/cos-team/-/issues/80) |
 
 ## Problem To Solve
 
@@ -34,21 +34,27 @@ status: active
 
  (✅ Done, ✏️ In-progress)
 
-#### Step 1: [Determine a viable model](https://gitlab.com/gitlab-com/Product/-/issues/1457) `=> 90%`
+#### Step 1:Determine a viable model `=> 90%`
+
+[Issue](https://gitlab.com/gitlab-com/Product/-/issues/1457)
 
 - ✅  `Cost of Delay / Duration` will serve as the primary model to run a pilot against.
 - ✅  We've determined how to assign monetary value for issues with links to SFDC.
 - ✏️ [Determine model inputs for issues that do not have SFDC links](https://gitlab.com/gitlab-com/Product/-/issues/1639).
 - ✅ [Define CSM inputs](https://gitlab.com/gitlab-com/Product/-/issues/1635).
 
-#### Step 2: [Implement & validate model](https://gitlab.com/gitlab-com/Product/-/issues/1563) `=> 100%`
+#### Step 2: Implement & validate model `=> 100%`
+
+[Issue](https://gitlab.com/gitlab-com/Product/-/issues/1563)
 
 - ✅ Design initial pilot and break down into tasks and DRIs.
 - ✅ Identify a DRI that can complete the data related tasks.
 - ✅ [Implement pilot](https://gitlab.com/gitlab-com/Product/-/issues/1563).
 - ✅ Assess results and outcomes. If pass, move to Step 3. If fail, exit WG or cycle back to Step 1.
 
-#### Step 3: [Verify at scale and measure outcomes](https://gitlab.com/gitlab-com/Product/-/issues/3546) `=> 15%`
+#### Step 3: Verify at scale and measure outcomes `=> 15%`
+
+[Issue](https://gitlab.com/gitlab-com/Product/-/issues/3546)
 
 TL;DR: Once validated, we drive adoption across Product/CS/Sales and collect measurements to confirm that this model is producing the desired business outcomes. If not, decide to go back to Step 1 or Exit.
 

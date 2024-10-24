@@ -1,17 +1,8 @@
 ---
-
 title: "Partner FAQ - Selling with GitLab"
 ---
 
-
-
-
-
-
 <link rel="stylesheet" type="text/css" href="/stylesheets/biztech.css" />
-
-
-
 
 This page documents frequently asked questions from our partner community on how to collaborate with GitLab throughout the sales process. Please contact us at `partnersupport@gitlab.com` if you have any questions or would like to see another question/answer documented on this page.
 
@@ -22,7 +13,7 @@ This page documents frequently asked questions from our partner community on how
 When should I submit a Deal Registration? What opportunities am I able to register?
 </summary>
 
-GitLab has a [Partner Sourced Deal Registration](/handbook/sales/field-operations/channel-operations/#partner-sourced-deal-registration) (DR) program for (i) Resale, (ii) MSP, and (iii) Referral opportunities. You should submit a Partner Sourced DR for an opportunity where you are **sourcing net-new business for GitLab**, which can apply to opportunities for new logo, co-term add-on/upsell, or add-on/upsell as part of a renewal. Note, there can only be one Partner Sourced DR approved for an opportunity, as only one partner can source a deal. You should not submit a Partner Sourced DR if you did not source the opportunity, and you will generally receive Co-Sell discounts for these deals. Partner Sourced and Co-Sell opportunities are discussed further in the [Partner handbook](/handbook/resellers/channel-working-with-GitLab/#definitions-and-qualifications).
+GitLab has a [Partner Sourced Deal Registration](/handbook/sales/field-operations/channel-operations/#partner-sourced-deal-registration) (DR) program for (i) Resale, (ii) MSP, and (iii) Referral opportunities. You should submit a Partner Sourced DR for an opportunity where you are **sourcing net-new business for GitLab**, which can apply to opportunities for new logo, co-term add-on/upsell, or add-on/upsell as part of a renewal. Note, there can only be one Partner Sourced DR approved for an opportunity, as only one partner can source a deal. You should not submit a Partner Sourced DR if you did not source the opportunity, and you will generally receive Co-Sell discounts for these deals. Partner Sourced and Co-Sell opportunities are discussed further in the [Partner handbook](/handbook/resellers/channel-working-with-gitlab/#definitions-and-qualifications).
 
 GitLab also has a [Service Attach DR](/handbook/sales/field-operations/channel-operations/#service-attach-opportunities) program which applies to opportunities where partners are selling their own professional services into a customer environment at the time of a GitLab product sale.
 
@@ -33,21 +24,20 @@ GitLab also has a [Service Attach DR](/handbook/sales/field-operations/channel-o
 I am unable to log into the Partner Portal to submit a Deal Registration (DR). How can I get access and submit a DR?
 </summary>
 
-If you have a Partner Portal account but are unable to login, please [select “Forgot Password”](https://partners.gitlab.com/English/) to reset your password. If you do not have a Partner Portal account, please [select “Request Portal Access”](https://partners.gitlab.com/English/) to set up an account. Please contact `partnersupport@gitlab.com` for assistance ​​if you have followed the directions but are still having issues.
+If you have a Partner Portal account but are unable to login, please [select "Forgot Password"](https://partners.gitlab.com/English/) to reset your password. If you do not have a Partner Portal account, please [select "Request Portal Access"](https://partners.gitlab.com/English/) to set up an account. Please contact `partnersupport@gitlab.com` for assistance ​​if you have followed the directions but are still having issues.
 
-Note, to submit a Deal Registration, you must first be an authorized GitLab partner as well as have completed the [required training](/handbook/resellers/channel-working-with-GitLab/#training--certification-requirements-for-transactions-deal-registrations-nfrs-and-letters-of-authorization-loas) in order to be granted access to submit a DR.
+Note, to submit a Deal Registration, you must first be an authorized GitLab partner as well as have completed the [required training](/handbook/resellers/channel-working-with-gitlab/#training--certification-requirements-for-transactions-deal-registrations-nfrs-and-letters-of-authorization-loas) in order to be granted access to submit a DR.
 
 </details>
 
 <details>
 <summary markdown="span">
-What does it mean when the status of a Deal Registration is "Returned”?
+What does it mean when the status of a Deal Registration is "Returned"?
 </summary>
 
 The Channel Account Manager (CAM) assigned to the Deal Registration (DR) has reviewed and sent it back to the resale partner for additional information/context. Once the resale partner reviews and responds to the CAM's feedback, the CAM will be notified to review and action the updated DR.
 
 </details>
-
 
 ## Sales Process
 
@@ -55,10 +45,10 @@ The Channel Account Manager (CAM) assigned to the Deal Registration (DR) has rev
 
 <details>
 <summary markdown="span">
-Where can I find information on GitLab’s partner discounts, incentives, and rebate programs?
+Where can I find information on GitLab's partner discounts, incentives, and rebate programs?
 </summary>
 
-Please review the [GitLab Program Discounts and Incentive Guide](https://partners.gitlab.com/prm/English/s/assets?collectionId=49440) in the GitLab Partner Portal which contains information on our partner discounts, incentives, rebate programs and more. You can also refer to the [Partner handbook](/handbook/resellers/channel-working-with-GitLab/#definitions-and-qualifications) for an overview.
+Please review the [GitLab Program Discounts and Incentive Guide](https://partners.gitlab.com/prm/English/s/assets?collectionId=49440) in the GitLab Partner Portal which contains information on our partner discounts, incentives, rebate programs and more. You can also refer to the [Partner handbook](/handbook/resellers/channel-working-with-gitlab/#definitions-and-qualifications) for an overview.
 
 </details>
 
@@ -77,6 +67,7 @@ When do I receive Partner Sourced vs Co-Sell discounts?
 </summary>
 
 If the opportunity is for new or add-on/upsell business:
+
 - **sourced** by the partner (including adding licenses as part of a renewal opportunity), the partner should submit a Partner Sourced Deal Registration (DR) for the opportunity. If the DR is approved, GitLab will provide Partner Sourced discounts for the new or add-on/upsell portion of the deal.
 - **not sourced** by the partner, the partner will generally receive co-sell discounts.
 
@@ -86,7 +77,6 @@ Please refer to the [GitLab Program Discounts Incentive Guide](https://partners.
 
 </details>
 
-
 ### General Quoting Process
 
 <details>
@@ -95,6 +85,7 @@ Do I transact via distribution or directly with GitLab?
 </summary>
 
 Open Partners located in regions/countries:
+
 - **with** Authorized GitLab Distributors are required to purchase GitLab via those distributors.
 - **without** Authorized GitLab Distributors may purchase directly from GitLab
 
@@ -130,6 +121,8 @@ Can we include different product tiers (premium and ultimate), deployment types 
 
 No, we cannot mix product tiers, deployment types, and/or term lengths on the same quote. Please refer to the [Deal Desk handbook](/handbook/sales/field-operations/sales-operations/deal-desk/#quoting-different-product-tiers-deployment-types-and-term-lengths-on-the-same-quote) for more information.
 
+Please note that Education Services are required for certain deals in order to improve product adoption and minimize security risks.
+
 </details>
 
 <details>
@@ -141,17 +134,16 @@ Please let the GitLab Sales team know your customer has an offline/air-gapped en
 
 </details>
 
-
 ### Renewal Quotes
 
 <details>
 <summary markdown="span">
-My customer’s renewal quote includes true-up seats. What are true-ups and why is the customer charged for these seats at renewal?
+My customer's renewal quote includes true-up seats. What are true-ups and why is the customer charged for these seats at renewal?
 </summary>
 
 The customer purchased a specific number of seats in their original subscription. If the customer adds more users to their GitLab instance than the number they are licensed for during the subscription period, payment for the additional/overage users is required at time of renewal.
 
-Note, “Users over subscription ([Self-Managed](https://docs.gitlab.com/ee/subscriptions/self_managed/#users-over-subscription)) / “Seats owed” ([SaaS](https://docs.gitlab.com/ee/subscriptions/gitlab_com/#seats-owed)) in the customer’s admin dashboard represent the number of overage users the customer incurred during the subscription term. Please refer the customer to these guides for how to locate their admin dashboard for [Self-Managed](https://docs.gitlab.com/ee/subscriptions/self_managed/#view-your-subscription) and [SaaS](https://docs.gitlab.com/ee/subscriptions/gitlab_com/#view-your-gitlab-saas-subscription) subscriptions.
+Note, "Users over subscription ([Self-Managed](https://docs.gitlab.com/ee/subscriptions/self_managed/#users-over-subscription)) / "Seats owed" ([SaaS](https://docs.gitlab.com/ee/subscriptions/gitlab_com/#seats-owed)) in the customer's admin dashboard represent the number of overage users the customer incurred during the subscription term. Please refer the customer to these guides for how to locate their admin dashboard for [Self-Managed](https://docs.gitlab.com/ee/subscriptions/self_managed/#view-your-subscription) and [SaaS](https://docs.gitlab.com/ee/subscriptions/gitlab_com/#view-your-gitlab-saas-subscription) subscriptions.
 
 </details>
 
@@ -169,7 +161,7 @@ Please refer the customer to these guides on how to locate their admin dashboard
 Our customer has blocked/deactivated/removed users from their subscription. Will these users count towards billable users/seats currently in use at renewal? How will these users be reflected/charged?
 </summary>
 
-Deactivated, blocked, and removed users don’t count as “Billable Users (Self-Managed) / “Seats currently in use” (SaaS) in the current subscription. However, they may count toward overages in the subscribed seat count which will be charged as true-ups at renewal. Refer to [Self-Managed](https://docs.gitlab.com/ee/subscriptions/self_managed/#billable-users) and [SaaS]([https://docs.gitlab.com/ee/subscriptions/gitlab_com/#remove-users-from-your-subscription](url)) subscription documentation for more information.
+Deactivated, blocked, and removed users don't count as "Billable Users (Self-Managed) / "Seats currently in use" (SaaS) in the current subscription. However, they may count toward overages in the subscribed seat count which will be charged as true-ups at renewal. Refer to [Self-Managed](https://docs.gitlab.com/ee/subscriptions/self_managed/#billable-users) and [SaaS](https://docs.gitlab.com/ee/subscriptions/gitlab_com/#remove-users-from-your-subscription) subscription documentation for more information.
 
 </details>
 
@@ -184,7 +176,7 @@ The minimum quantity required to be renewed is the customers "Billable users" (S
 
 <details>
 <summary markdown="span">
-My customer worked with a different reseller for their previous order. Are you able to transfer incumbency (i.e., incumbent partner discounts) to my organization for the customer’s renewal?
+My customer worked with a different reseller for their previous order. Are you able to transfer incumbency (i.e., incumbent partner discounts) to my organization for the customer's renewal?
 </summary>
 
 Yes, if the customer provides formal communication through email to confirm they would like to work with you for this renewal (i.e., the new reseller), we are able to transfer incumbency discounts. Refer to the [Partner Operations handbook](/handbook/sales/field-operations/channel-operations/#incumbency-renewals) for further details.
@@ -196,7 +188,7 @@ Yes, if the customer provides formal communication through email to confirm they
 If my customer wants to add seats to their instance before their renewal, does the add-on need to be processed before I can request a renewal quote for the entire subscription?
 </summary>
 
-Yes, for the customer’s overall license count to be accurate during the renewal, add-on licenses need to be fully processed before GitLab can generate a renewal quote. Refer to the [Deal Desk handbook](/handbook/sales/field-operations/sales-operations/deal-desk/#transacting-a-separate-add-on-opportunity-prior-to-renewal) for further guidance.
+Yes, for the customer's overall license count to be accurate during the renewal, add-on licenses need to be fully processed before GitLab can generate a renewal quote. Refer to the [Deal Desk handbook](/handbook/sales/field-operations/sales-operations/deal-desk/#transacting-a-separate-add-on-opportunity-prior-to-renewal) for further guidance.
 
 </details>
 
@@ -208,7 +200,6 @@ My customer is concerned they won't be able to renew their instance before their
 On a case-by-case basis, your GitLab sales representative can request a temporary license extension in order to prevent loss of access to a subscription. Please contact your sales team for more information.
 
 </details>
-
 
 ### Puchase Orders (POs)
 
@@ -232,7 +223,7 @@ A signed GitLab quote/order form is acceptable in place of a PO as long as the d
 
 <details>
 <summary markdown="span">
-How do I ensure my PO submission will count toward GitLab’s current fiscal quarter?
+How do I ensure my PO submission will count toward GitLab's current fiscal quarter?
 </summary>
 
 Please refer to the guidelines listed in the [Sales Order Processing handbook](/handbook/sales/field-operations/order-processing/#end-of-quarter-bookings) regarding end-of-quarter bookings.
@@ -256,7 +247,6 @@ What is GitLab's ECCN?
 You can find our ECCN in our [Trade Compliance handbook](/handbook/legal/trade-compliance/#how-do-trade-control-laws-apply-to-gitlab-software).
 
 </details>
-
 
 ## Post-Sale
 
@@ -303,7 +293,7 @@ The partner contact that receives the GitLab invoice will also receive a copy of
 My customer is asking that the purchase confirmation email with license/activation code be resent to the same end user contact that was listed on the PO/Quote. How can we request that the purchase confirmation email be resent?
 </summary>
 
-The partner that received the Gitlab invoice (i.e., Distributor for two-tier deal, Reseller for one-tier deal) needs to [submit the support ticket](https://support.gitlab.com/hc/en-us/requests/new) with the GitLab invoice attached to request the purchase confirmation email be resent to the same end user contact.
+The partner that received the GitLab invoice (i.e., Distributor for two-tier deal, Reseller for one-tier deal) needs to [submit the support ticket](https://support.gitlab.com/hc/en-us/requests/new) with the GitLab invoice attached to request the purchase confirmation email be resent to the same end user contact.
 
 </details>
 
@@ -312,8 +302,22 @@ The partner that received the Gitlab invoice (i.e., Distributor for two-tier dea
 My customer did not receive the purchase confirmation email with license/activation code due to the PO/Quote listing the wrong end user contact. How can we request that the purchase confirmation email be sent to the new/updated end user contact?
 </summary>
 
-The partner that received the Gitlab invoice (i.e., Distributor for two-tier deal, Reseller for one-tier deal) needs to [submit the support ticket](https://support.gitlab.com/hc/en-us/requests/new) with the GitLab invoice attached to request the purchase confirmation email be sent to a new end user contact.
+The partner that received the GitLab invoice (i.e., Distributor for two-tier deal, Reseller for one-tier deal) needs to [submit the support ticket](https://support.gitlab.com/hc/en-us/requests/new) with the GitLab invoice attached to request the purchase confirmation email be sent to a new end user contact.
 
 **Important to note**, the GitLab Sales Rep cannot change the end user contact post-sale on behalf of the partner or customer. The request to change the end user contact must either be submitted by the (i) partner that received the GitLab invoice as outlined above or (ii) customer contact listed on the final GitLab quote (i.e., the person that received the license).
+
+</details>
+
+<details>
+<summary markdown="span">
+The customer received an error stating they are out of Compute Minutes so their instance has stopped working. How can I quickly resolve this?
+</summary>
+
+The customer must add Compute Minutes via the same procurement path as the original order (i.e., if they purchased the original subscription through a partner, they must purchase the additional minutes through the same partner). Please take the following steps:
+
+1. Work with your GitLab Sales Rep to obtain a quote for additional Compute Minutes.
+2. Request that the GitLab Sales Rep submit an internal support ticket to provide additional Compute Minutes so the customer can get back online while the quote and order process is being completed.
+
+For additional information, the Support team's process can be found [here](/handbook/support/license-and-renewals/workflows/saas/compute_minutes/#process-for-authorising-additional-compute-minutes-for-customers-as-an-act-of-goodwill).
 
 </details>

@@ -1,35 +1,54 @@
 ---
-title: "GitLab CI/CD Hands-On Guide: Lab 8"
-description: "This Hands-On Guide walks you through the lab exercises in the GitLab CI/CD course."
+title: "GitLab CI/CD - Hands-On Lab: Working with the GitLab Container Registry"
+description: "This Hands-On Guide walks you through building and storing a Docker container in GitLab."
 ---
 
-# GitLab CI/CD Hands-On Guide: Lab 8
+> Estimate time to complete: 15 - 20 minutes
 
+## Objectives
 
-## LAB 8: GITLAB DOCKER REGISTRY
+Docker is a platform commonly used by developers to build container applications. It is possible to generate Docker containers as a part of a CI/CD build process. In this lab, you will learn how to define a `Dockerfile` for your project, and integrate it into your `.gitlab-ci.yml` file.
 
-### Add a `Dockerfile`
+### Task A: Add a `Dockerfile`
 
-1. Verify that your **CICD Demo** project contains the `main.go` file from the [GitLab CICD Hands On Demo](https://ilt.gitlabtraining.cloud/professional-services-classes/gitlab-ci-cd/gitlab-cicd-hands-on-demo) project. If it does not, follow [these steps from Lab 7](/handbook/customer-success/professional-services-engineering/education-services/gitlabcicdhandsonlab7.html#add-a-maingo-file) to add the file.
-1. Go to the [GitLab CICD Hands On Demo](https://ilt.gitlabtraining.cloud/professional-services-classes/gitlab-ci-cd/gitlab-cicd-hands-on-demo) project.
-1. Open `Dockerfile`.
-1. In the upper right corner of the file, select the **Copy file contents** icon.
-1. In another tab, open your **CICD Demo** project from earlier labs.
+1. Open your **CICD Demo** project from earlier labs.
+
 1. Add a new file to the **CICD Demo** project by selecting **+ > This directory > New file**
-1. In the **File name** field, enter `Dockerfile`
-1. Paste the contents you copied into the body of the new file.
-1. In the **Commit message** field, type `Add Dockerfile`, ensure the **Target Branch** is set to `main`, and select **Commit changes**.
 
-### Define a `build image` job
+1. In the **Filename** field, enter `Dockerfile`
 
-1. In the browser tab with the **CICD Demo** project, open the `.gitlab-ci.yml` file and select **Edit**. Paste the following new job definition at the end of the file. Be sure to check your indendation after pasting.
+1. Paste the following into the body of the new file.
+
+    ```Dockerfile
+    FROM golang:1.11-alpine as builder
+    WORKDIR /usr/build
+    ADD main.go .
+    RUN go build -o app .
+
+    FROM alpine:latest
+
+    WORKDIR /usr/src
+
+    COPY --from=builder /usr/build/app .
+    EXPOSE 8080
+
+    CMD ["/usr/src/app"]
+    ```
+
+1. In the **Commit message** field, type `Add Dockerfile`, ensure the **Target Branch** is set to `main`, and click **Commit changes**.
+
+### Task B: Define a `build image` Job
+
+1. In the left navigation bar, click **Code > Repository**
+
+1. Open the `.gitlab-ci.yml` file and click **Edit > Edit single file**. Paste the following new job definition at the end of the file.
 
     ```yml
     build image:
       stage: build
-      image: docker:18
+      image: docker:27
       services:
-        - docker:18-dind
+        - docker:27-dind
       variables:
         IMAGE: $CI_REGISTRY_IMAGE/$CI_COMMIT_REF_SLUG:$CI_COMMIT_SHA
       script:
@@ -38,13 +57,34 @@ description: "This Hands-On Guide walks you through the lab exercises in the Git
         - docker push $IMAGE
     ```
 
-1. In the **Commit message** field, type `Add "build image" job definition`, ensure the **Target Branch** is set to `main`, and select **Commit changes**.
+    > There are alternative methods that can be used for building Docker based images. If you runners do not support Docker in Docker, you can consider using a tool like `kaniko`, as shown in the configuration below:
+    
+    ```yml
+    build image:
+      stage: build
+      image:
+        name: gcr.io/kaniko-project/executor:v1.14.0-debug
+        entrypoint: [""]
+      script:
+        - /kaniko/executor
+          --context "${CI_PROJECT_DIR}"
+          --dockerfile "${CI_PROJECT_DIR}/Dockerfile"
+          --destination "${CI_REGISTRY_IMAGE}:${CI_COMMIT_TAG}"
+    ```
 
-### Ensure the pipeline is running
+1. In the **Commit message** field, type `Add "build image" job definition`, ensure the **Target Branch** is set to `main`, and click **Commit changes**.
 
-1. Go to **CI/CD > Pipelines**. Select the most recent pipeline run.
-1. Select the widget for the **build image** job to see its progress. Wait for the job to complete.
-1. In the left navigation pane, select **Packages and Registries > Container Registry** and view the container that was just uploaded by the `build image` job.
+### Task C: Ensure the Pipeline is Running
+
+1. Go to **Build > Pipelines**. Click the most recent pipeline run.
+
+1. Click the widget for the **build image** job to see its progress. Wait for the job to complete.
+
+1. In the left navigation pane, click **Deploy > Container Registry** and view the container that was just uploaded by the `build image` job.
+
+## Lab Guide Complete
+
+You have completed this lab exercise. You can view the other [lab guides for this course](/handbook/customer-success/professional-services-engineering/education-services/gitlabcicdhandson).
 
 ## Suggestions?
 

@@ -54,7 +54,7 @@ The Senior Business Value Manager is a [grade #9](/handbook/total-rewards/compen
 - Develop in-depth ROI/TCO value models to quantify business value that can be achieved through GitLab solutions inclusive of product, services, and customer success
 - Collaborate with product marketing on messaging & content to ensure consistency with the Business Value Services team content and tooling
 - Develop models, processes, and materials to drive continuous improvement for GitLab's Business Value Services program
-- Help define and implement the team’s longer term vision
+- Help define and implement the team's longer term vision
 - Drive the use of value collaboration tooling as a self-service business case approach across the global sales team
 - Configure and maintain value management system with value drivers, workflow, and ROI models
 
@@ -92,10 +92,10 @@ The Manager, Business Value Services Team is a [grade #9](/handbook/total-reward
 
 ## Performance Indicators
 
-As with all roles in the Sales Department, the Business Value Services job family participates in a subset the [Sales KPIs](https://internal-handbook.gitlab.io/handbook/company/performance-indicators/sales/#kpi-summary).
+As with all roles in the Sales Department, the Business Value Services job family participates in a subset the [Sales KPIs](https://internal.gitlab.com/handbook/company/performance-indicators/sales/#kpi-summary).
 
-- [Net ARR versus Plan](https://internal-handbook.gitlab.io/handbook/company/performance-indicators/sales/#net-arr-vs-plan)
-- [New Logos](https://internal-handbook.gitlab.io/handbook/company/performance-indicators/sales/#new-logos)
+- [Net ARR versus Plan](https://internal.gitlab.com/handbook/company/performance-indicators/sales/#net-arr-vs-plan)
+- [New Logos](https://internal.gitlab.com/handbook/company/performance-indicators/sales/#new-logos)
 
 ## Career Ladder
 
@@ -104,7 +104,7 @@ As with all roles in the Sales Department, the Business Value Services job famil
   - A Manager role within another job family
   - Roles within Sales or Cusomter Success
 - The next steps for a Manager, Business Value Services Team would be to move into a Senior Manager within this Job Family
-- [Leadership at GitLab](/handbook/company/team/structure/#director-group)
+- [Leadership at GitLab](/handbook/company/structure/#director-group)
 
 ## Hiring Process
 

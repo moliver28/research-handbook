@@ -21,58 +21,41 @@ biggest ones for us are:
 
 ## How to perform an audit
 
-Performing an audit starts with creating an issue within the
-[Audits repo](https://gitlab.com/gitlab-com/support/support-ops/support-ops-tools/audits).
-There are templates for each of the systems we normally audit.
+On the 1st day of each quarter, issues will be generated via our
+[System Audits](https://gitlab.com/gitlab-support-readiness/system-audits)
+project. The schedule pipeline there will do many checks and verifications for
+us and generate issues with the reports of what it founds. The ones the issues
+are assigned to are responsible for reviewing the found results and acting on
+any items that need to be rectified.
 
-After creating the issue, you need to populate the details of the audit. To
-make this process easier, we have scripts available in the repo you can use to
-generate the data. If you decide to do this manually, you should review past
-audit issues to determine the exact formatting to use for the system you are
-performing an audit on.
+## What is checked for each audit
 
-Once you have generated the data and put it into the issue, you will then begin
-going through the data and looking for issues. This will vary from system to
-system, so see below for more specific information. Any issues you find should
-be communicated to the person in question and resolved.
-
-On average, audits take 1-2 weeks to complete, namely due to the nature of async
-communication.
-
-#### Zendesk
-
-The best resources for learning this are the above video and the following
-links:
-
-- [Zendesk Global audit workflow](/handbook/support/readiness/operations/docs/policies/zendesk_global_audit)
-- [Zendesk US Federal audit workflow](/handbook/support/readiness/operations/docs/policies/zendesk_us_federal_audit)
-
-While the above video covers doing it for Zendesk Global, the process works the exact same for both. The sole difference is the script used.
-
-#### Calendly
-
-The best resources for learning this are the above video and the following
-links:
-
-- [Calendly audit workflow](/handbook/support/readiness/operations/docs/policies/calendly_audit)
-
-#### Pagerduty
-
-The best resources for learning this are the above video and the following
-links:
-
-- [Pagerduty audit workflow](/handbook/support/readiness/operations/docs/policies/pagerduty_audit)
-
-#### Gitlab.com
-
-The best resources for learning this are the above video and the following
-links:
-
-- [Gitlab.com audit workflow](/handbook/support/readiness/operations/docs/policies/gitlab-com_audit)
-
-#### 1Password
-
-The best resources for learning this are the above video and the following
-links:
-
-- [1Password audit workflow](/handbook/support/readiness/operations/docs/policies/1password_audit)
+- Calendly
+  - Number of people with Owner role is 1
+  - All members of Support Readiness are admins
+  - No one outside of Support Readiness are admins
+  - All Support team members have accounts
+  - The calendly URL in the support-team.yaml is correct for each person
+  - No one outside of Support team members have accounts
+- GitLab
+  - Memberships for gitlab-com/support
+  - Memberships for gitlab-com/support/amer
+  - Memberships for gitlab-com/support/apac
+  - Memberships for gitlab-com/support/emea
+  - Memberships for gitlab-com/support/us-federal
+  - Memberships for gitlab-com/support/support-ops
+  - Memberships for gitlab-com/support/managers
+- Pagerduty
+  - All Support team members have accounts
+  - Pagerduty ID value in the support-team.yaml is correct for each person
+- Zendesk Global
+  - All Support team members have accounts
+  - Report all full agents outside of Support team members that have accounts
+  - The Zendesk data in the support-team.yaml is correct for each person
+  - Checks for any agents in the suspended state
+- Zendesk US Government
+  - All Support team members with US Government focus have accounts
+  - Report all full agents outside of Support team members with US Government
+    focus that have accounts
+  - The Zendesk data in the support-team.yaml is correct for each person
+  - Checks for any agents in the suspended state

@@ -1,20 +1,20 @@
 ---
-title: "GitLab System Administration Hands-on Guide"
+title: "GitLab System Administration Hands-on Lab Overview"
 description: "This hands-on guide is designed to walk you through the lab exercises used in the GitLab System Administration course."
 ---
 
-# GitLab System Administration Hands-on guide
-
-
 ## GitLab System Administration Labs
-- [Lab 1- Install GitLab](/handbook/customer-success/professional-services-engineering/education-services/sysadminhandsonlab1)
-- [Lab 2- Use GitLab administration commands](/handbook/customer-success/professional-services-engineering/education-services/sysadminhandsonlab2)
-- [Lab 3- Configure GitLab runners](/handbook/customer-success/professional-services-engineering/education-services/sysadminhandsonlab3)
-- [Lab 4- Backup and restore GitLab](/handbook/customer-success/professional-services-engineering/education-services/sysadminhandsonlab4)
-- [Lab 5- Implement sign-up restrictions](/handbook/customer-success/professional-services-engineering/education-services/sysadminhandsonlab5)
-- [Lab 6- Manage GitLab logs](/handbook/customer-success/professional-services-engineering/education-services/sysadminhandsonlab6)
-- [Lab 7- Configure instance monitoring](/handbook/customer-success/professional-services-engineering/education-services/sysadminhandsonlab7)
-- [Lab 8- Troubleshoot GitLab](/handbook/customer-success/professional-services-engineering/education-services/sysadminhandsonlab8)
+
+| Lab Name | Lab Link |
+|-----------|------------|
+| Install GitLab | [Lab Link](/handbook/customer-success/professional-services-engineering/education-services/sysadminhandsonlab1) |
+| Use GitLab Administration Commands | [Lab Link](/handbook/customer-success/professional-services-engineering/education-services/sysadminhandsonlab2) |
+| Configure GitLab Runners |  [Lab Link](/handbook/customer-success/professional-services-engineering/education-services/sysadminhandsonlab3) |
+| Backup and Restore GitLab |[Lab Link](/handbook/customer-success/professional-services-engineering/education-services/sysadminhandsonlab4) |
+| Implement Sign-Up Restrictions |  [Lab Link](/handbook/customer-success/professional-services-engineering/education-services/sysadminhandsonlab5) |
+| Manage GitLab Logs |  [Lab Link](/handbook/customer-success/professional-services-engineering/education-services/sysadminhandsonlab6) |
+| Configure Instance Monitoring | [Lab Link](/handbook/customer-success/professional-services-engineering/education-services/sysadminhandsonlab7) |
+| Troubleshoot GitLab |  [Lab Link](/handbook/customer-success/professional-services-engineering/education-services/sysadminhandsonlab8) |
 
 ## Quick links
 
@@ -24,6 +24,4 @@ Here are some quick links that may be useful when reviewing this hands-on guide.
 
 ## Suggestions?
 
-If you’d like to suggest changes to the *GitLab System Administration Hands-on Guide*, please submit them via merge request.
-
-
+If you'd like to suggest changes to the *GitLab System Administration Hands-on Guide*, please submit them via merge request.

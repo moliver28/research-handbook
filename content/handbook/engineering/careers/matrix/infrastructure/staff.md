@@ -3,7 +3,7 @@ title: "Staff - Infrastructure Department Career Framework"
 description: "The expected team member competencies in the Infrastructure department at GitLab for the Staff job level."
 ---
 
-{{% include "includes/engineering/career-matrix-nav.md" %}}
+{{% include "includes/engineering-careers/career-matrix-nav.md" %}}
 
 ## Staff
 
@@ -39,24 +39,24 @@ Staff-level engineers in infrastructure significantly drive the department's res
 ## Team building
 
 1. Creates and maintains team culture by exhibiting the [CREDIT](/handbook/values/#credit) values in their behavior and helping other teams to do the same. Proposes improvements to our values and company culture where possible.
-1. Proactively builds relationships and partners with EMs providing in-depth technical opinion where [necessary](/handbook/values/#disagree-commit-and-disagree).
+1. Proactively builds relationships and partners with EMs providing in-depth technical opinion where [necessary](/handbook/values/#disagree-and-commit).
 1. Works closely with the team's EM and PM (where available) to bring a technical lens to team and product discussions. Helps to bridge the gap between technical and less-technical people for a shared understanding of the team's work and goals.
 1. Helps others to grow through championing, mentoring, and providing timely feedback directly, and into promotion processes.
 1. Builds and maintains relationships with teams across the department and beyond to identify potential future opportunities and to keep current work unblocked.
 1. Proactively shares relevant information with their own team, EM, PM, and other engineers to help share context and build a shared understanding of how their team fits into GitLab as a whole.
 1. Owns the technical interview process and works closely with the hiring manager to make sure that current and known future technical needs are being met by hiring processes. Takes responsibility for documenting and training interviewers to make sure every candidate receives a standardized, positive interview experience.
-1. Champions the [GitLab misson](https://about.gitlab.com/company/mission/) by enabling and encouraging others to contribute to the Infrastructure code base.
+1. Champions the [GitLab misson](/handbook/company/mission/) by enabling and encouraging others to contribute to the Infrastructure code base.
 
 ## Engineering alignment
 
 ### Staff Leadership Competencies
 
-{{% include "includes/engineering/staff-leadership-competency.md" %}}
+{{% include "includes/engineering-careers/staff-leadership-competency.md" %}}
   
 ### Staff Technical Competencies
 
-{{% include "includes/engineering/staff-technical-competency.md" %}}
+{{% include "includes/engineering-careers/staff-technical-competency.md" %}}
 
 ### Staff Values Alignment
 
-{{% include "includes/engineering/values-competency.md" %}}
+{{% include "includes/engineering-careers/values-competency.md" %}}

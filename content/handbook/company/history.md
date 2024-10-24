@@ -6,6 +6,12 @@ canonical_path: "/company/history/"
 
 ## A brief history of GitLab
 
+### *2023: Leader in First DevOps Magic Quadrant*
+
+GitLab succeeded in its first 10 year vision of creating a DevOps Platform category. This became official when Gartner® introduced its first Gartner® Magic Quadrant™ for DevOps Platforms category. It recognized GitLab as [a Leader](https://about.gitlab.com/blog/2023/06/07/gitlab-leader-gartner-magic-quadrant-devops-platforms/) – positioned highest on the Ability to Execute axis. We believe Gartner naming GitLab a Leader in the Magic Quadrant for DevOps Platforms is recognition of our success in both creating a comprehensive software development and delivery platform, and our role in helping mature the DevOps Platform category.
+
+In the Third Quarter of Fiscal Year 2024, GitLab achieved non-GAAP operating profits for the first time. Brian Robins, GitLab chief financial officer, [stated](https://ir.gitlab.com/news-releases/news-release-details/gitlab-reports-third-quarter-fiscal-year-2024-financial-results) "I am pleased to share that we had our first quarter of non-GAAP operating profit while continuing to invest in key product areas including security, compliance, AI, and Enterprise Agile Planning."
+
 ### *2021: 10 Years of GitLab*
 
 This year we celebrated 10 years of GitLab, marking a decade since the [first commit](https://gitlab.com/gitlab-org/gitlab-foss/-/commit/9ba1224867665844b117fa037e1465bb706b3685) was made! Our focus on community contributions remained strong, averaging more than 650 code contributions a month from over 2500 wider community contributors. Thanks to our DevOps Platform, we grew to more than 1 million active license users and 30+ million estimated registered users as of August 2021. GitLab, the company, grew to over 1400 team members in 65 countries and regions around the world. We continued to support and educate businesses about the benefits of remote work by leading more than 60 collaborative remote work discussions with companies, VCs and universities since the beginning of the pandemic.
@@ -26,11 +32,11 @@ Haydn Mackay delivered a [wonderful keynote](https://www.youtube.com/watch?v=kDf
 
 ### *2017: GitLab Storytime*
 
-A team member at GitLab interviewed the first five team members from GitLab to hear stories from the first years. In [Storytime Part 1](https://www.youtube.com/watch?v=DSmqOQ6eLB4) the team talks about hiring its first team member, learning to iterate, thoughts of shutting down, Y Combinator, and how the values were created. In [Storytime Part 2](https://www.youtube.com/watch?v=4pe6_d9ZTC4), we hear some hilarious stories of a surprise bachelor party, a competitor’s offer to talk, a presentation that involved a lab coat and safety goggles, the first GitLab summit, and experiences at the Mountain View House.
+A team member at GitLab interviewed the first five team members from GitLab to hear stories from the first years. In [Storytime Part 1](https://www.youtube.com/watch?v=DSmqOQ6eLB4) the team talks about hiring its first team member, learning to iterate, thoughts of shutting down, Y Combinator, and how the values were created. In [Storytime Part 2](https://www.youtube.com/watch?v=4pe6_d9ZTC4), we hear some hilarious stories of a surprise bachelor party, a competitor's offer to talk, a presentation that involved a lab coat and safety goggles, the first GitLab summit, and experiences at the Mountain View House.
 
 ### *2016: Growth*
 
-In 2016 the number of [people that contributed to GitLab](http://contributors.gitlab.com/) grew to more than 1000.
+In 2016 the number of [people that contributed to GitLab](https://about.gitlab.com/community/contribute/) grew to more than 1000.
 More than 100,000 organizations and millions of users are using GitLab.
 Our team grew with 100 people to more than 140.
 In September we announce [our master plan](https://about.gitlab.com/blog/2016/09/13/gitlab-master-plan/) and raising $20m in our B round of financing.
@@ -57,7 +63,7 @@ In the end of that year we submitted [our application to Y Combinator](https://a
 
 Large organizations running GitLab asked Sid to add features that they needed.
 At the same time Dmitriy tweeted out to the world that he wanted to work on GitLab full time.
-Sid and Dmitriy teamed up and introduced [GitLab Enterprise Edition](/releases/2013/07/22/announcing-gitlab-enterprise-edition) with the features asked for by larger organizations. Sid authored the [initial commit](https://gitlab.com/gitlab-com/www-gitlab-com/-/commit/d69bc4c1acb61666e20ec62a2a0907d535176753) on GitLab's website repository.
+Sid and Dmitriy teamed up and introduced [GitLab Enterprise Edition](https://about.gitlab.com/releases/2013/07/22/announcing-gitlab-enterprise-edition) with the features asked for by larger organizations. Sid authored the [initial commit](https://gitlab.com/gitlab-com/www-gitlab-com/-/commit/d69bc4c1acb61666e20ec62a2a0907d535176753) on GitLab's website repository.
 
 ### *2012: GitLab.com*
 

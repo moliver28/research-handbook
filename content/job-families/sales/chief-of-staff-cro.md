@@ -2,7 +2,7 @@
 title: Chief of Staff to the CRO
 ---
 
-This is a key leadership position on the Chief Revenue Officer’s team. This highly visible role is a trusted partner to the Chief Revenue Officer (CRO) to drive operational excellence and deliver repeatable business results. This role serves as a partner to the CRO as a strategic advisor and executing cross-functional and cross-organization initiatives supporting the CRO's strategy and vision in alignment with our company values.
+This is a key leadership position on the Chief Revenue Officer's team. This highly visible role is a trusted partner to the Chief Revenue Officer (CRO) to drive operational excellence and deliver repeatable business results. This role serves as a partner to the CRO as a strategic advisor and executing cross-functional and cross-organization initiatives supporting the CRO's strategy and vision in alignment with our company values.
 
 ## Responsibilities
 
@@ -18,12 +18,12 @@ The responsibilities include both directed work initiated by the CRO as well as 
 - Work closely with internal teams on goal-setting and tracking, interfacing, and consulting with cross-functional groups
 - Develops and maintain strong relationships with executives, senior leaders, and stakeholders to achieve project objectives and deliverables
 - Serves as CRO Board Liaison, including creating and developing Board and Committee materials.
-- Partners with the CRO’s People Business Partner, Talent Acquisition lead, SS&A team, and Finance team to support planning, metrics, reporting, and decisions
+- Partners with the CRO's People Business Partner, Talent Acquisition lead, SS&A team, and Finance team to support planning, metrics, reporting, and decisions
 - Supports the creation of investor updates, pitch decks, speeches, conference submissions, and presentations on behalf of the CRO.
 - Effectively triages escalations. Our teams often rely heavily on quick root-cause analyses and fast information sharing. Time-sensitive escalations may include driving cross-functional conversations to get to the bottom of complex issues that have become business blockers or helping ensure a fast turnaround for specific prospects and customer needs
-- Maintains and fosters a close partnership with the CEO’s Chief of Staff on strategic initiatives
+- Maintains and fosters a close partnership with the CEO's Chief of Staff on strategic initiatives
 - Maintains and fosters a close partnership with the Sales Strategy & Analytics and the broader Field Operations Teams
-This role does not overlap with the responsibilities [Executive Business Administrators](/job-families/people-group/executive-business-administrator/) handle. This role could have EBA support, will work closely with the EBA to the CRO to ensure the CRO’s time is well managed and prioritized according to the top business objectives.
+This role does not overlap with the responsibilities [Executive Business Administrators](/job-families/people-group/executive-business-administrator/) handle. This role could have EBA support, will work closely with the EBA to the CRO to ensure the CRO's time is well managed and prioritized according to the top business objectives.
 - Manages weekly executive staff meetings, including, but not limited to, providing feedback on top priorities and insights to inform strategic conversations.
 - Assists in the preparation for external meetings including board meetings
 - Run and manage various partner and client meetings with clear agendas, follow-ups, and next steps
@@ -31,7 +31,6 @@ This role does not overlap with the responsibilities [Executive Business Adminis
 - Collaborate with the various communications teams and People Business Partners to prepare background, talking points, or presentations for all public and internal speaking moments aligned to the company's strategy and values.  This includes managing organizational announcements and confidential projects.
 - Help identify items that can be delegated to others to optimize the CROs time allocation to high-value activities
 - Support the CRO in organizing inspiring and informative WW Field meetings to share important business information as well as engage and boost team morale
-
 
 ## Requirements
 
@@ -53,14 +52,14 @@ This role does not overlap with the responsibilities [Executive Business Adminis
 - Bachelor's Degree in Business Administration, Finance, or a related discipline or prior work experience in one or more of these disciplines
 - Some travel will be required: Ability to travel to support the CRO, as needed
 
-#### Job Grade
+### Job Grade
 
 The Chief of Staff to the CRO is a [grade 10](/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades).
 
 ## Performance Indicators
 
 - [Sales KPIs](https://internal.gitlab.com/handbook/company/performance-indicators/sales/#kpi-summary)
-- CRO Quarterly OKR process is initiated and delivered on time per the [company process](/handbook/company/okrs/#okr-process-at-gitlab). CoS collaboratively includes all stakeholders and cascades information transparently to ensure alignment across the CRO Org. During the quarter, CoS partners with DRI’s to maintain the status of OKRs in preparation for the monthly key meeting and ensures that all OKRs are scored at the end of the quarter and results are communicated.
+- CRO Quarterly OKR process is initiated and delivered on time per the [company process](/handbook/company/okrs/#okr-process-at-gitlab). CoS collaboratively includes all stakeholders and cascades information transparently to ensure alignment across the CRO Org. During the quarter, CoS partners with DRI's to maintain the status of OKRs in preparation for the monthly key meeting and ensures that all OKRs are scored at the end of the quarter and results are communicated.
 
 ## Career Ladder
 
@@ -69,7 +68,5 @@ There is no set career path for a Chief of Staff. As such, the role is often vie
 ## Hiring Process
 
 The hiring process for this role is yet to be defined. It will include interviews with the CRO, and other key stakeholders on the Sales leadership team.
-
-
 
 Additional details about our process can be found on our [hiring page](/handbook/hiring/)

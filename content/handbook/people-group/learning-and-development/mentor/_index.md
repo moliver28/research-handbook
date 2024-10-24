@@ -25,7 +25,7 @@ Team members have multiple options to participate in mentorship at GitLab.
 
 ### Results
 
-In FY23 Q1, mentees in current organized mentorship programs reported the affect their mentorship had business and personal results. 17% of mentees completed the survey.
+In FY23 Q1, 17% of mentees in current organized mentorship programs completed a survey and reported the effects of the mentorship on business and personal results.
 
 <iframe src="https://docs.google.com/presentation/d/e/2PACX-1vSQo5yL0DOCgaAQWwXaIYHfb20pGIxlkzkxBB_xgU-rEsNkNa4U1NxevaCIQRZrgExrSQecEng50Kmy/embed?start=false&loop=false&delayms=3000" frameborder="0" width="960" height="569" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
 
@@ -35,7 +35,7 @@ In FY23 Q1, mentees in current organized mentorship programs reported the affect
 
 1. Be encouraged to prioritize, and be held accountable for, your [career development]({{< ref "career-development" >}})
 1. Learn new skills related to your current role, your future career goals, or an area that you're passionate about
-1. Set and reach clearly outlined [goals]({{< ref "okrs" >}}).
+1. Set and reach clearly outlined [goals](/handbook/company/okrs).
 
 ### Benefits for the mentor
 
@@ -51,25 +51,27 @@ In FY23 Q1, mentees in current organized mentorship programs reported the affect
 | **Mentees lead conversations** | Mentorship is led by the mentee, similar to how [1:1's at GitLab]({{< ref "1-1" >}}) are driven by direct reports. |
 | **Maintain Boundaries** | Maintain clear and appropriate boundaries. Be clear on your responsibilities and those of their manager. |
 | **Set Goals** | Mentees should create goals, put them in writing, and frequently revisit goals to measure progress. |
-| **Build Trust** | Colleague first, expert second. Spend time [getting to know one another]({{< ref "values#diversity-inclusion" >}}). [Be open, honest, and fully authentic]({{< ref "values#transparency" >}}). |
+| **Build Trust** | Colleague first, expert second. Spend time [getting to know one another](/handbook/values/#diversity-inclusion). [Be open, honest, and fully authentic](/handbook/values/#transparency). |
 | **Set Expectations** | Be realistic and uphold your commitment. Share access to resources and people, but make it clear you do not wield your influence over others.|
 | **Listen** | Establish [trust]({{< ref "building-trust" >}}) and openness in communication. Give your full, undivided attention. Hear concerns before offering advice and guidance.|
-| **Acknowledge Independence** | Recognize mentee goals and autonomy. Your role as a mentor is to guide; it’s up to the mentee to decide what to implement in their own career. |
+| **Acknowledge Independence** | Recognize mentee goals and autonomy. Your role as a mentor is to guide; it's up to the mentee to decide what to implement in their own career. |
 | **Respect Diverse Experiences** | Recognise that underrepresented groups might face additional barriers to advancement. Educate yourself and ask for advice and support via the [appropriate DIB channels](/handbook/company/culture/inclusion/erg-guide/#how-to-join-current-tmrgs-and-their-slack-channels). |
-| **Practice Self-Awareness** | Identify your strengths, weaknesses, and [biases]({{< ref "values#unconscious-bias" >}}). Be aware of and respect other's experiences, ideas, and goals. |
+| **Practice Self-Awareness** | Identify your strengths, weaknesses, and [biases](/handbook/values/#unconscious-bias). Be aware of and respect other's experiences, ideas, and goals. |
 | **Advocate** | Mentor others on being effective managers or colleagues to those who might have different experiences to them. Teach your mentee how to become a mentor themselves – by example and by encouragement.|
 | **Express Gratitude** | Share openly about your experience. Express gratitude for the skills or experiences developed over time. |
-| **Maintain a Growth Mindset** | Practice a [growth mindset]({{< ref "values#growth-mindset" >}}). Both parties can learn and grow from mentorship |
-| **Iterate** | [Iterate]({{< ref "values#iteration" >}}) on goals throughout the mentorship. Focus on quick wins that the mentee can reach, then keep growing. |
+| **Maintain a Growth Mindset** | Practice a [growth mindset](/handbook/values/#growth-mindset). Both parties can learn and grow from mentorship |
+| **Iterate** | [Iterate](/handbook/values/#iteration) on goals throughout the mentorship. Focus on quick wins that the mentee can reach, then keep growing. |
 | **Confidentiality** | Respect the trust built between mentor and mentee. Challenges and conversations shared in mentorship sessions should be kept confidential unless the mentor and mentee are okay with them being shared. |
 
-*Adapted from the [NCWIT Mentoring-in-a-Box Mentoring Basics - A Mentor's Guide to Success](https://www.ncwit.org/sites/default/files/legacy/pdf/IMentor_MentorGuide.pdf), section What Are the "Dos" of Mentoring and [People Grove resources](https://support.peoplegrove.com/hc/en-us/articles/360001265792-Structure-Goals-and-Agendas)*
+*Adapted from the [NCWIT Mentoring-in-a-Box Mentoring Basics - A Mentor's Guide to Success](https://ncwit.org/resource/imentor/), section What Are the "Dos" of Mentoring and [People Grove resources](https://support.peoplegrove.com/hc/en-us/articles/360001265792-Structure-Goals-and-Agendas)*
 
 ## Find a mentor
 
 The following team members are available as mentors. Schedule a [coffee chat](/handbook/company/culture/all-remote/informal-communication/#coffee-chats) to get the conversation started!
 
 The `Expertise` column comes from the team member .yaml entry and might not include all subjects they can help you with.
+
+{{< mentors >}}
 
 ## Become a mentor
 
@@ -82,7 +84,7 @@ Learn more about organized mentorship programs for team members:
 1. [Company-Wide](company-program)
 1. [Minorities in Tech](/handbook/company/culture/inclusion/erg-minorities-in-tech/mentoring/)
 1. [Women at GitLab](/handbook/company/culture/inclusion/tmrg-gitlab-women/mentorship-program/)
-1. [Aspiring Managers](https://about.gitlab.com/handbook/engineering/development/dev/training/ic-to-manager/#aspiring-manager-mentorship-pilot-program)
+1. [Aspiring Managers](/handbook/engineering/development/dev/training/ic-to-manager/#aspiring-manager-mentorship-pilot-program)
 1. [Finance Team](/handbook/finance/) is running a [mentorship program](/handbook/finance/growth-and-development/mentorship).
 
 ## Resources
@@ -91,7 +93,7 @@ Resources below are designed to guide mentor/mentee relationships in both synchr
 
 ### Mentor and Mentee training
 
-Take the LinkedIn Learning training called [How to be a Good Mentor and Mentee](https://levelup.gitlab.com/access/saml/login/internal-team-members?returnTo=https://levelup.gitlab.com/learn/course/how-to-be-a-good-mentee-and-mentor). It covers strategies for finding a mentor, setting clear expectations, and achieving goals through mentorship. Content from this training has been adapted in the following [Google Slides presentation](https://docs.google.com/presentation/d/1QPx9ZGa051Jhwwfb78cKW1LD0uVTUdKxRdElBk4Ku9I/edit?usp=sharing) for learners who prefer to read the material at their own pace.
+Enjoy the following [Google Slides presentation](https://docs.google.com/presentation/d/1QPx9ZGa051Jhwwfb78cKW1LD0uVTUdKxRdElBk4Ku9I/edit?usp=sharing) on finding a mentor, setting clear expectations, and achieving goals through mentorship.
 
 <iframe src="https://docs.google.com/presentation/d/e/2PACX-1vS3cZJcCIv_s44OfN9QLjje2wRqS7EwnrK3HCS_ZeT-ZGwk58hPq17L-c_DvCdvu0jxjR3r6yY8xY79/embed?start=false&loop=false&delayms=3000" frameborder="0" width="960" height="569" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
 
@@ -181,11 +183,7 @@ Mentorship agendas are important for resources documentation and future planning
 
 ### Sample async meeting formats
 
-Watch this short video of how you can use GitLab issues to collaborate async in a mentorship:
-
-<div style="position: relative; padding-bottom: 62.5%; height: 0;"><iframe src="https://www.loom.com/embed/eb29c7d889ce42a396775547f8c83df1" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
-
-You can explore the issue shown in this video in our [GitLab L&D project](https://gitlab.com/gitlab-com/people-group/learning-development/mentorship/-/issues/8). There is also a [issue template](https://gitlab.com/gitlab-com/people-group/learning-development/mentorship/-/blob/main/.gitlab/issue_templates/async-mentorship.md) you can copy and use in your own mentorship project.
+GitLab issues can be used to collaborate async in a mentorship. Use this [issue template](https://gitlab.com/gitlab-com/people-group/learning-development/mentorship/-/blob/main/.gitlab/issue_templates/async-mentorship.md) to get started.
 
 ### Other tools for async mentorship
 
@@ -216,8 +214,8 @@ These resources are meant to provide both mentors and mentees with additional pe
 
 {{< youtube "u4kTlK5mUHc" >}}
 
-1. The [Engineering department](https://about.gitlab.com/handbook/engineering/) outlines [strategies for mentors and mentees](https://about.gitlab.com/handbook/engineering/career-development/mentoring/) with suggestions on how to host meetings and set and evaluate goals.
-1. The [Support team]({{< ref "/handbook/support" >}}) has outlined expectations and examples on [Mentorship in Support Engineering]({{< ref "/handbook/support/engineering/mentorship" >}}).
+1. The [Engineering department](/handbook/engineering/) outlines [strategies for mentors and mentees](/handbook/engineering/careers/mentoring/) with suggestions on how to host meetings and set and evaluate goals.
+1. The [Support team](/handbook/support) has outlined expectations and examples on [Mentorship in Support Engineering](/handbook/support/engineering/mentorship).
 1. [Career growth resources at GitLab]({{< ref "career-development" >}})
 1. [Harvard Business Review: What efficient mentorship looks like](https://hbr.org/2020/08/what-efficient-mentorship-looks-like)
 1. [Harvard Business Review: What great mentorship looks like in a hybrid workplace](https://hbr.org/2021/05/what-great-mentorship-looks-like-in-a-hybrid-workplace)
@@ -238,7 +236,7 @@ Is this your first mentorship at GitLab? Maybe it's your first time as a mentor.
 
 ## How to organize an all-remote mentorship program
 
-Consider the following practices and lessons learned by the GitLab team when organizing your own all-remote mentorship program. [Open a Merge Request]({{< ref "/handbook/handbook-usage" >}}) to contribute your own learning to list!
+Consider the following practices and lessons learned by the GitLab team when organizing your own all-remote mentorship program. [Open a Merge Request](/handbook/handbook-usage) to contribute your own learning to list!
 
 1. Share call for applications across multiple channels and do direct outreach to great mentors for the best engagement. Lean on People Business Partners for suggestions of team members who would make great mentors and mentees.
 1. In applications, ask for role, location, and mentorship focus area, along with ideal goals. Use multiple choice questions to easily sort and pair responses.
@@ -251,6 +249,3 @@ Consider the following practices and lessons learned by the GitLab team when org
 1. Send 1-2 resources via Slack throughout the program to keep participants engaged and learning.
 1. Use Polly or another survey tool to do a 1 month check in with mentees. This helps identify pairs that have not yet met or foks that might have left the company.
 1. Give participants at least 3 weeks to complete the end of program survey.
-
-
-

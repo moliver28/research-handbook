@@ -2,7 +2,7 @@
 title: "External Consultant Orientation & Access Deprovisioning"
 ---
 
-GitLab will from time-to-time bring in the expertise of External Consultants to work on a specific task for a pre-defined period. Depending on the nature of this engagement and the tasks at hand, the aforementioned External Consultant(s) may require access to certain GitLab systems and information which may include Slack, Customer Data, and [Infrastructure Environments](https://about.gitlab.com/handbook/engineering/infrastructure/environments/).
+GitLab will from time-to-time bring in the expertise of External Consultants to work on a specific task for a pre-defined period. Depending on the nature of this engagement and the tasks at hand, the aforementioned External Consultant(s) may require access to certain GitLab systems and information which may include Slack, Customer Data, and [Infrastructure Environments](/handbook/engineering/infrastructure/environments/).
 
 ## Consultant Orientation
 
@@ -18,4 +18,3 @@ Once this process is complete the External Consultant will be added to ContractW
 ## Deprovisioning Access
 
 The Vendor Manager is responsible for initiating External Consultant offboarding functions once the External Consultant reaches the end of their engagement with GitLab.  This will predominantly center on the deprovisioning of access to any GitLab systems and information which were made available at the time of orientation with the support of IT Ops and the Tech Stack Provisioners.
-

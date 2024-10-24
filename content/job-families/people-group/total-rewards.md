@@ -11,18 +11,20 @@ The [Total Rewards](/handbook/total-rewards/) department strategically aligns th
 | Role                                                | Grade |
 |-----------------------------------------------------|-------|
 | [Benefits Coordinator](#benefits-coordinator) | 5 |
-| [Benefits Analyst](#benefits-analyst) | 6 |  
-| [Senior Benefits Analyst](#senior-benefits-analyst) <br> [Senior Benefits Program Manager](#senior-benefits-program-manager) | 7
-| [Manager, Benefits](#manager-benefits) | 8 |  
+| [Benefits Analyst](#benefits-analyst) | 6 |
+| [Senior Benefits Analyst](#senior-benefits-analyst) <br> [Senior Benefits Program Manager](#senior-benefits-program-manager) | 7 |
+| [Manager, Benefits](#manager-benefits) | 8 |
 
 **Compensation:**
 
+<!-- vale handbook.Repetition = NO -->
 | Role                                                | Grade |
 |-----------------------------------------------------|-------|
 | [Compensation Coordinator](#compensation-coordinator) | 5 |
-| [Compensation Analyst](#compensation-analyst) | 6 |  
-| [Senior Compensation Analyst](#senior-compensation-analyst) <br> [Senior Compensation Program Manager](#senior-compensation-program-manager) | 7
-| [Manager, Compensation](#manager-benefits) <br> [Compensation Partner](#compensation-partner) | 8 |  
+| [Compensation Analyst](#compensation-analyst) | 6 |
+| [Senior Compensation Analyst](#senior-compensation-analyst) <br> [Compensation Program Manager](#compensation-program-manager) | 7 |
+| [Manager, Compensation](#manager-benefits) <br> [Compensation Partner](#compensation-partner) | 8 |
+<!-- vale handbook.Repetition = YES -->
 
 **Leadership:**
 
@@ -30,6 +32,34 @@ The [Total Rewards](/handbook/total-rewards/) department strategically aligns th
 |-----------------------------------------------------|-------|
 | [Senior Manager, Total Rewards](#senior-manager-total-rewards) | 9 |
 | [Director, Total Rewards](#director-total-rewards) | 10 |
+
+## Total Rewards
+
+### Senior Total Rewards Program Manager
+
+#### Job Grade
+
+The Senior Total Rewards Program Manager is a [grade 8](/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades).
+
+#### Responsibilities
+
+- Lead all aspects of the planning, coordination and execution of new and revised Total Rewards programs
+- Orchestrate Total Rewards teams in coordination with stakeholders, partners and with the customer-experience always in mind 
+- Support Total Rewards leadership in preparing communication materials, building enablement and change management content, 
+- Ensure programs are delivered with compliance, quality and on time with a one People Team mindset and brand
+- Anticipate and prepare for unforeseen contingencies to avoid or mitigate program launch issues 
+
+#### Requirements
+
+- Demonstrated experience in Program Management with an emphasis in Global Total Rewards, ideally in fast-paced, dynamic environment 
+- Experience in executive compensation in a public company
+- Experience with Workday and Aon Hewitt/Radford 
+- Experience working with People Business Partners and senior leaders in a business facing role to solve compensation challenges
+- Experience leading presentations to senior leaders teams and company-wide audiences
+- Tested ability to drive programs to completion amidst ambiguity and dynamic environment factors
+- A shared interest in our values, and working in accordance with those values
+- Ability to use GitLab
+- Excellent verbal and written communication skills
 
 ## Benefits
 
@@ -51,40 +81,19 @@ The [Total Rewards](/handbook/total-rewards/) department strategically aligns th
 
 ### Benefits Coordinator
 
+The responsibilities for a Benefits Coordinator will be added at the time of a business need for this role.
+
 #### Job Grade
 
 The Benefits Coordinator is a [grade 5](/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades).
 
-#### Responsibilities
-
-- Process and submit payment for all entity benefits billing (US residency is a requirement to process US benefits) in collaboration with Accounts Payable.
-- Global Billing for PEOs ensuring timely payment of invoices and department breakdowns of cost to Accounts Payable.
-- Coordination with Benefits broker on new enrollments for team member benefits.
-- Audit all benefits invoices to ensure accuracy.
-- Onboarding and offboarding of team member benefits from relevant systems
-- Collaborate with the People group on Total Rewards policies, processes, and procedures following the GitLab workflow, with the goal always being to make things easier from the perspective of the team members.
-- Assist the People Connect group with all benefits related escalated inquires.
-- Update Total Rewards documentation as directed.
-- Keep it efficient and DRY.
-
 ### Benefits Analyst
+
+The responsibilities for a Benefits Analyst will be added at the time of a business need for this role.
 
 #### Job Grade
 
 The Benefits Analyst is a [grade 6](/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades).
-
-### Responsibilities
-
-- Participate in benefits surveys.
-- Parental Leave Administration. HRIS data entry and coordination with payroll on all parental leaves.
-- Growth & Development Benefit. Responsible for all administration of the growth and development benefit in collaboration with Finance, Payroll, and GitLab Management.
-- Collaborate with the Total Rewards team on policies, processes, and procedures following the GitLab workflow, with the goal always being to make things easier from the perspective of the team members.
-- Update Total Rewards documentation as appropriate.
-- Collect GitLab internal data to track trends in functional areas.
-- Collect external market data to support benefits roadmaps.
-- Total Rewards Statement Management to be able to report the three pillars of total rewards at the end of each compensation review cycle ensuring the ability to report benefits usage throughout the year.
-- Assist the Senior Benefits Program Manager with training employees on various topics.
-- Keep it efficient and DRY.
 
 ### Senior Benefits Analyst
 
@@ -138,7 +147,6 @@ The Manager, Benefits is a [grade 8](/handbook/total-rewards/compensation/compen
 - Willing to make Total Rewards as open and transparent as possible
 - You share our [values](/handbook/values/), and work in accordance with those values
 - The ability to work in a fast-paced environment with strong attention to detail is essential.
-
 - Ability to use GitLab
 
 ### Compensation Coordinator
@@ -151,7 +159,17 @@ The Compensation Coordinator is a [grade 5](/handbook/total-rewards/compensation
 
 ### Compensation Analyst
 
-The responsibilities for a Compensation Analyst will be added at the time of a business need for this role.
+- Support all aspects of job family creation and maintenance, partnering with the business to ensure alignment with the job architecture, conducting market benchmarking, reviewing FLSA classification, and updating related systems and tools.
+- Participate in external compensation surveys.
+- Assist with updating and refreshing the Compensation Calculator.
+- Maintain accuracy and integrity of compensation-related data in Workday through regular audits and data coordination.
+- Support the full lifecycle of all compensation programs, including Annual Compensation Review, promotion cycles, quarterly RSU grant approvals, and bonus programs
+- Act as the primary point of contact for compensation-related team member inquiries in collaboration with the People Connect team including creating documentation to support major program and policy implementations.
+- Participate in the development of communications and education materials, collaborating with the broader team to refresh the handbook to ensure user-friendly, concise, and informative pages.
+- Partner with Talent Acquisition to review offers in Greenhouse and respond to inquiries.
+- Coordinate the collection of materials required for audit controls.
+- Assist with ad hoc data requests and special projects.
+- Ensure compliance with all global rules and regulations
 
 #### Job Grade
 
@@ -183,16 +201,16 @@ The Senior Compensation Analyst is a [grade 7](/handbook/total-rewards/compensat
 - Effectively communicate any upcoming total rewards processes or policy changes.
 - Keep it efficient and DRY.
 
-### Senior Compensation Program Manager
+### Compensation Program Manager
 
 #### Job Grade
 
-The Senior Compensation Program Manager is a [grade 7](/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades).
+The Compensation Program Manager is a [grade 7](/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades).
 
 #### Responsibilities
 
 - Develop compensation strategies and principles.
-- Develop and implement Bonus Plan Design payout structure for Company Wide Bonus in coordination with Accounting.  
+- Develop and implement Bonus Plan Design payout structure for Company Wide Bonus in coordination with Accounting.
 - Develop compensation roadmaps for how GitLab's compensation practices will evolve over future fiscal years to remain competitive.
 - Manage Budget for Promotions and Compensation Review in collaboration with the People Business Partners and GitLab Management.
 - Development and Execution of Compensation Trainings to ensure team members understand GitLab's compensation philosophy.
@@ -279,7 +297,7 @@ The Director, Total Rewards is a [grade 10](/handbook/total-rewards/compensation
 
 ## Senior Director, Total Rewards
 
-The Senior Director, Total Rewards leads the development and administration of our total rewards strategy and practices to support our culture and growth.  This role will serve as a trusted organizational leader to lead strategy development, design, implementation, administration, and governance of all compensation and benefit programs globally.  In partnership with the People leadership team and senior business leaders, translate business strategy into scalable and meaningful Total Rewards strategies that are effective in attracting, rewarding and retaining key talent.  The Senior Director reports to the VP, Total Rewards and Operations.  
+The Senior Director, Total Rewards leads the development and administration of our total rewards strategy and practices to support our culture and growth.  This role will serve as a trusted organizational leader to lead strategy development, design, implementation, administration, and governance of all compensation and benefit programs globally.  In partnership with the People leadership team and senior business leaders, translate business strategy into scalable and meaningful Total Rewards strategies that are effective in attracting, rewarding and retaining key talent.  The Senior Director reports to the VP, Total Rewards and Operations.
 
 ### Job Grade
 
@@ -295,7 +313,7 @@ The Senior Director, Total Rewards is a [grade 11](/handbook/total-rewards/compe
 - Plan, develop, and oversee administration of benefit programs
 - Review current compensation and benefit programs; lead the proposal, development, and implementation of necessary changes to align with our global business
 - Create internal compensation branding messaging and trainings to ensure employees understand the components and rationale towards total compensation
-- Continually optimize our job architecture and career pathing framework for both scale and effectiveness in attracting and retaining talent.  
+- Continually optimize our job architecture and career pathing framework for both scale and effectiveness in attracting and retaining talent.
 - Provide thought leadership to business units on compensation issues including new hire packages, performance recognition, incentive plans, retention arrangements and compensation structure
 - Prepare annual Total Rewards budget, quarterly forecasts, and work with Compensation Committee on recommendations and allocations
 - In partnership with the People Leadership team and Finance, establish compensation budgets and guidelines for global locations
@@ -303,12 +321,12 @@ The Senior Director, Total Rewards is a [grade 11](/handbook/total-rewards/compe
 
 #### Career Ladder
 
-The next step in the Total Rewards job family is to move to the VP, Total Rewards and Operations or other People Group leadership positions.  
+The next step in the Total Rewards job family is to move to the VP, Total Rewards and Operations or other People Group leadership positions.
 
 ## Total Rewards Performance Indicators
 
-- [Percentage over compensation band](/handbook/people-group/people-group-metrics/#percent-over-compensation-band)
-- [Average location factor](/handbook/people-group/people-group-metrics/#average-location-factor)
+- [Percentage over compensation band](/handbook/people-group/people-success-performance-indicators/#percent-over-compensation-band)
+- [Average location factor](/handbook/people-group/people-success-performance-indicators/#average-location-factor)
 - [New hire location factor](/#new-hire-location-factor)
 - [Pay equality](/handbook/company/culture/inclusion/#performance-indicators)
 

@@ -5,7 +5,7 @@ description: "These are the expected competencies of the Backend Engineer, Engin
 
 ## Engineering Productivity Career Framework
 
-{{% include "includes/engineering/ep-career-nav.md" %}}
+{{% include "includes/engineering-careers/ep-career-nav.md" %}}
 
 These are the expected competencies of the Backend Engineer, Engineering Productivity team members at GitLab.
 

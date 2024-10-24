@@ -10,7 +10,7 @@ In some rare cases, you may need to reach out to Mailgun support to remove our I
 
 ### Check for Suppression in Mailgun
 
-If a customer is reporting that they are not receiving a confirmation email, you'll want to go through the [confirmation email](/handbook/support/workflows/confirmation_emails) workflow first. When in the Mailgun panel, [check for a suppression](/handbook/support/workflows/confirmation_emails.html#checking-mailgun).
+If a customer is reporting that they are not receiving a confirmation email, you'll want to go through the [confirmation email](/handbook/support/workflows/confirmation_emails) workflow first. When in the Mailgun panel, [check for a suppression](/handbook/support/workflows/confirmation_emails/#checking-mailgun).
 
 ### Verify the RBL listing
 
