@@ -59,7 +59,7 @@ The [CSE operating rhythm](/handbook/customer-success/csm/segment/cse/cse-operat
 
 The [DCI matrix](/handbook/people-group/directly-responsible-individuals/#dri-consulted-informed-dci) provided below is designed to serve as a guiding framework to improve collaboration across teams. Please note that this is applicable only to accounts interacting with a CSE. For accounts managed by a CSM or CSA, refer to the [CSMA's DCI](/handbook/customer-success/account-team/#customer-success-manager-csm/) on Rules of Engagement.
 
-_The DCI matrix is an outcome of the work of this [OKR](https://gitlab.com/gitlab-com/gitlab-OKRs/-/work_items/6329) and is still under review._
+### **DCI matrix - CSE**
 
 <table>
 <tr>
