@@ -209,11 +209,11 @@ Immediate rollout should only be used by SREs for mitigating incidents.
 Feature flags can be set on a GitLab instance through the [feature flag API](https://docs.gitlab.com/ee/api/features.html),
 or through the Rails console.
 
-| API                                                     | Instrumentor                                                                                          |
-|---------------------------------------------------------|-------------------------------------------------------------------------------------------------------|
-| Tissue can trigger API calls to each cell itelf.        | Tissue can trigger an Instrumentor pipeline to set feature flags.                                     |
-| Tissue will need access to admin tokens for every cell. | Instrumentor has access to the toolbox pod for each cell, and the feature flag can be set using that. |
-|                                                         | It will involve booting a rails console, which will slow down the process.                            |
+| API                                                                                            | Instrumentor                                                                                          |
+|------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------|
+| Tissue can trigger API calls to each cell itelf.                                               | Tissue can trigger an Instrumentor pipeline to set feature flags.                                     |
+| Tissue will need access to admin tokens for every cell.                                        | Instrumentor has access to the toolbox pod for each cell, and the feature flag can be set using that. |
+| An admin token can be added to Vault on cell creation, as part of the bootstrapping procedure. | It will involve booting a rails console, which will slow down the process.                            |
 
 ### Storing feature flag configuration
 
