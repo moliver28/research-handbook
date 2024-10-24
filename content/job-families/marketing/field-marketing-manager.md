@@ -80,6 +80,7 @@ Proficient in Salesforce, Marketo, Tableau, Asana, GitLab, and Google Workspace
 ### Cross-functional Collaboration
 
 Work with key internal teams such as:
+
 - Product Marketing
 - Corporate Events Marketing
 - Corporate Communications
