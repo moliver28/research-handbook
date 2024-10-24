@@ -105,4 +105,4 @@ You'll need to create an EndNote account from the [EndNote homepage](https://end
 1. Preview and Print the index
 1. Find the relevant citation
 1. Copy and paste the citation into the placeholder
-1. Update the `Notes` field in the citation record in EndNote with `added to website` so we are able to track which citations have been added.
+1. Update the `Notes` field in the citation record in EndNote with `added to website` so we are able to track which citations have been added. 
