@@ -30,7 +30,6 @@ The team is also building technical capabilities and vendor partnerships, to:
 - Scale the integration to support transcreation for top level website pages and blogs.
 - Integrate AI-powered translation capabilities and solutions, leveraging LLMs, into existing systems and pipelines, to enhance human translation workflows.
 
-
 ## Current State
 
 Our current localization capabilities are limited due to resources and bandwidth. Currently, we are focused on translating content that aligns to our Tier 1 and some Tier 2 countries. We are currently building a next generation technology platform for localization, with a bias for speed and automation. As we transition from our old platform, some steps for fulfilling localization requests are manual but will not remain as such. We are also working with several suppliers for translation.
@@ -59,7 +58,7 @@ We use Slack internally as a communication tool. The Localization channels are a
 
 ### Lables
 
-#### Localization request status labels:
+#### Localization request status labels
 
 | Label | Purpose |
 | ------ | ------------ |
@@ -72,7 +71,8 @@ We use Slack internally as a communication tool. The Localization channels are a
 | `L10n:: business owner review` | To indicate that the requesting team/person is reviewing the translations. Also used when an [Internal Reviews](#internal-reviews) is happening |
 | `L10n::backlog`| For tracking issues in our backlog | 
 
-#### Labels for our main localization pillars:
+#### Labels for our main localization pillars
+
 | Label | Purpose |
 | ------ | ------------ |
 | `L10n-mktg` | for work on marketing localization | 
@@ -80,9 +80,10 @@ We use Slack internally as a communication tool. The Localization channels are a
 | `L10n-training` | related to learning everything about localization at GitLab |
 | `L10n-partners` | for tracking work vendor related |
 | `L10n-docs`| for tracking work related to the localization of GitLab documentation | 
-| `L10n-product`| for tracking work related to the localization GitLab product UI
+| `L10n-product`| for tracking work related to the localization GitLab product UI |
 
 #### Locale labels
+
 | Label | Purpose |
 | ------ | ------------ |
 | `fr-FR` | tracking content and localization work in French |
@@ -92,7 +93,6 @@ We use Slack internally as a communication tool. The Localization channels are a
 | `pt-BR` | tracking content and localization work in Brazilian Portuguese|
 | `it-IT` | tracking content and localization work in Italian|
 
-
 ## Localization Processes 
 
 **Primary Method**
@@ -100,6 +100,7 @@ Submit an issue through our [Localization Issue Tracker](https://gitlab.com/gitl
 
 **Additional Support**
 For general localization questions: 
+
 - Join our `#localization` Slack channel
 - Add the L10n-attention label to issues, epics, or merge requests
 - Here you can view the status of current localization requests: [Issue Tracker Board](https://gitlab.com/gitlab-com/localization/issue-tracker/-/boards/7726880)
@@ -107,6 +108,7 @@ For general localization questions:
 Note: While you can contact the Translated or Argos Multilingual team directly via Slack, we prefer submission through the Issue Tracker.
 
 ### When to engage with us
+
 We recommend connecting with the Localization Team early in your project, especially for global initiatives affecting users across all regions that have a specific timeline. While we can't begin translations until content is finalized and approved, early collaboration during planning and ideation will ensure success.
 
 ### Internal Reviews
@@ -124,8 +126,7 @@ At the moment, our internal reviewers are volunteers. We completely appreciate t
 | German | https://about.gitlab.com/de-de/ | Live |
 | Italian | https://about.gitlab.com/it-it/ | Live |
 | Brazilian Portuguese | https://about.gitlab.com/pt-br/ | Live |
-| Spanish | https://about.gitlab.com/es-es/ | Live
-
+| Spanish | https://about.gitlab.com/es-es/ | Live |
 
 ## Marketing Localization
 
@@ -140,7 +141,7 @@ The translations of our website are stored between our CMS and the Buyer Experie
 - Italian [buyer-experience/-/tree/main/content/it-it](https://gitlab.com/gitlab-com/marketing/digital-experience/buyer-experience/-/tree/main/content/it-it)
 - Brazilian-Portuguese [buyer-experience/-/tree/main/content/pt-br](https://gitlab.com/gitlab-com/marketing/digital-experience/buyer-experience/-/tree/main/content/pt-br)
 
-You can go to the [Digital Experience's Localization Best Practices team Handbook page](https://handbook.gitlab.com/handbook/marketing/digital-experience/engineering/localization/) for further technical details on localizing content on the Buyer Experience project.
+You can go to the [Digital Experience's Localization Best Practices team Handbook page](/handbook/marketing/digital-experience/engineering/localization/) for further technical details on localizing content on the Buyer Experience project.
 
 ### Translating content for campaigns
 
@@ -192,10 +193,11 @@ GitLab's blog is available in Japanese, French and German, with a dedicated cont
 
 | Language | URL | Content Manager |
 | ------ | ------------ | ------ |
-| JA | https://about.gitlab.com/ja-jp/blog/ | [Megumi Uchikawa](https://gitlab.com/muchikawa)
-| FR | https://about.gitlab.com/fr-fr/blog/ | [Maud Leuenberger](https://gitlab.com/maudl-ext)  
-| DE | https://about.gitlab.com/de-de/blog/ | [Cecile Solkan](https://gitlab.com/csolkan-ext)
+| JA | https://about.gitlab.com/ja-jp/blog/ | [Megumi Uchikawa](https://gitlab.com/muchikawa) |
+| FR | https://about.gitlab.com/fr-fr/blog/ | [Maud Leuenberger](https://gitlab.com/maudl-ext) |
+| DE | https://about.gitlab.com/de-de/blog/ | [Cecile Solkan](https://gitlab.com/csolkan-ext) |
 
 ## docs.gitlab.com Localization
+
 We're working on localizing GitLab documentation. 
 To learn more, head to our [Docs Site Localization project](https://gitlab.com/gitlab-com/localization/docs-site-localization).
