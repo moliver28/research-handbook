@@ -207,8 +207,10 @@ If you are unable to attend the existing working group meeting due to time diffe
 1. [GitLab.com Disaster Recovery]({{< ref "disaster-recovery" >}})
 1. [HPT in Product Division](/handbook/company/working-groups/hpt-product-division/)
 1. [Product Accessibility]({{< ref "product-accessibility" >}})
+1. [Python Stewardship]({{< ref "python-stewardship" >}})
 1. [Secure Govern Database Decomposition]({{< ref "secure-govern-database-decomposition" >}})
 1. [Software Supply Chain Security]({{< ref "software-supply-chain-security" >}})
+1. [Upgrade Improvements]({{< ref "upgrade-improvements" >}})
 1. [Vue.js 3 Upgrade]({{< ref "vuejs-3-migration" >}})
 
 ## Past Working Groups (alphabetic order)

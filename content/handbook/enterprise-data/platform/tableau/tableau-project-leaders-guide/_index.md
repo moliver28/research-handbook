@@ -3,14 +3,16 @@ title: "Tableau Project Leaders Guide"
 description: "GitLab's Project Leader Guide"
 ---
 
-As a Project Lead, your role is central to ensuring the integrity, security, and effectiveness of your department’s data and reporting. Here is the contact list for [Tableau Department Project Leads](https://10az.online.tableau.com/#/site/gitlab/workbooks/2730535/views). 
+A GitLab Tableau Project Leader is responsible for managing Tableau content within their assigned department. Their primary role is to ensure the integrity, security, and effectiveness of the department’s data and reporting. They oversee dashboards, workbooks, and data sources within the project, ensuring they meet organizational standards and are properly maintained.
 
-Below we will cover:
+Project Leaders collaborate with developers to manage content in Production, whether by promoting new content or updating existing content. They play a key role in maintaining high-quality reporting and ensuring that the department's data assets are reliable and accessible. Here is the contact list for [Tableau Department Project Leads](https://10az.online.tableau.com/#/site/gitlab/workbooks/2730535/views). 
 
-* Project Lead Responsibilities
-* Project Lead Abilities
-* Promotion to Production Process
-* Publishing Over an Existing Production Workbook (Updating Content)
+This page is a resource and training for Project Leaders where the following is covered:
+
+* [Project Lead Responsibilities](.../tableau-project-leaders-guide/#project-lead-responsibilities)
+* [Project Lead Abilities](.../tableau-project-leaders-guide/#project-lead-abilities)
+* [Promotion to Production Process](.../tableau-project-leaders-guide/#publishing-a-workbook-to-production-for-the-first-time)
+* [Publishing Over an Existing Production Workbook (Updating Content)](.../tableau-project-leaders-guide/#publishing-over-an-existing-production-workbook-updating-content)
 
 ---
 
@@ -70,15 +72,4 @@ When updating content in production it is best to overwrite what is in Productio
       1. From the drop down select your name and select **Save**
 
    1. When updating a workbook to Production the original workbook in Development will remain. This is a duplicate workbook which can cause confusion for which content to use. This workbook can be removed by either archival or deletion. To Archive ask the BI Team to move to Archive. When deleting ensure you are removing the correct workbook and also know that deleted content cannot be restored.
-
----
-
-### **Review**
-
-By following this structured approach, you will:
-
-* Ensure accurate, high-quality content in Production.
-* Protect sensitive data.
-* Maintain a single source of truth for your users.
-
-For ongoing support or additional clarification, reach out to the BI Team.
+   

@@ -244,6 +244,26 @@ For any issues that were not discussed and given a weight, the engineering
 manager will work with the engineers to see if we need to get more information
 from PM or UX.
 
+### Milestone Doctors
+
+In FY2025, on average 4-5 `Request for Help` (RFH) issues per month have been opened for feature categories that are owned by our team. Most of these issues are high-priority requests that involve the Engineering team to help resolve blocking issues for our customers. This type of ad-hoc work causes a lot of interruption while working on milestone Deliverables. To ensure these RFH issues are processed as quickly as possible by the Engineering team and to reduce context-switching time within the team, two engineers take on the "Milestone Doctor" role at every milestone. Their capacity for Deliverable work is reduced to 70% to allow taking over additional responsibilities as "Milestone Doctors".
+
+#### Responsibilites
+
+- Engage with Support and PS on new [RFH issues](https://gitlab.com/gitlab-com/dev-sub-department/section-dev-request-for-help/-/issues/?label_name%5B%5D=Help%20group%3A%3Aimport%20and%20integrate)
+- Follow-up on long-lasting open issues
+- Assist the Support team on customer calls
+- Maintain team runbook documentation on how Milestone Doctors have successfully diagnosed problems
+- Respond to questions in our team Slack channel #g_manage_import_and_integrate
+
+#### Rotation schedule
+
+- Each milestone two Backend Engineers take the role of a Milestone Doctor.
+- Engineers claim shifts themselves on the [Milestone Doctor schedule spreadsheet](https://docs.google.com/spreadsheets/d/1N6ObBcCnliu4uZS-_IbpsjzgrF5f-etcLohYKAzR6KQ/edit?usp=sharing).
+- At the beginning of a new milestone, Milestone Doctors update assignee section of the [RFH template](https://gitlab.com/gitlab-com/dev-sub-department/section-dev-request-for-help/-/edit/main/.gitlab/issue_templates/SupportRequestTemplate-Import-Integrate.md?ref_type=heads#L99) with their usernames.
+- Given the current team size, every Backend Engineer is expected to sign up as Milestone Doctor once per quarter.
+- At the end of each quarter, the EM assigns unassigned shifts for the upcoming quarter to engineers.
+
 ### Working with Security
 
 The group has an existing [threat model](https://gitlab.com/gitlab-com/gl-security/product-security/appsec/threat-models/-/blob/master/gitlab-org/gitlab/GitLab%20Migration.md) to assist in identifying issues that may have security implications, but there are other considerations.

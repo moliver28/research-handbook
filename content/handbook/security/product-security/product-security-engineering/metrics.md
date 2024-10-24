@@ -10,10 +10,7 @@ The Product Security Engineering team currently tracks the following metrics:
 - [Team velocity, measured in total weight of issues closed per week](https://10az.online.tableau.com/#/site/gitlab/views/ProductSecurityEngineering/Sheet1?:iid=1)
 - [Number of Merge Requests into GitLab products directly related to implementing the functionality required by Product Security teams](https://10az.online.tableau.com/#/site/gitlab/views/ProductSecurityEngineering/ProdSecRequirementMRs?:iid=2)
 - [Number of Merge Requests for creating security enhancements, defense in depth measures, and paved roads](https://10az.online.tableau.com/#/site/gitlab/views/ProductSecurityEngineering/DefenseinDepthorPavedRoadsMRs?:iid=4)
-
-We are working to track the following metrics that indicate adherence to our team's charter:
-
-- The percentage of distinct value propositions in current in-house custom tools that have been contributed to the product
+- [The percentage of distinct value propositions in current in-house custom tools that have been contributed to the product](https://10az.online.tableau.com/#/site/gitlab/views/ProductSecurityEngineering/SunsettingStats?:iid=3)
 
 ### Metrics Labels
 

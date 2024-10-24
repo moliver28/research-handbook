@@ -424,7 +424,7 @@ GitLab places particular reliance on a subset of vendors that either have access
 Scoping for this activity is based on the below populations, and is finalized in coordination with various teams within GitLab to ensure accuracy in our scoping:
 
 1. [GitLab's Third Party Sub-Processors](https://about.gitlab.com/privacy/subprocessors/#third-party-sub-processors)
-1. [GitLab's Professional Services Sub-processors](https://about.gitlab.com/privacy/subprocessors/#professional-services-sub-processors)
+1. [Red Professional Services Sub-processors](https://about.gitlab.com/privacy/subprocessors/#professional-services-sub-processors)
 1. SOC 2-scoped Applications
 1. Red Applications
 

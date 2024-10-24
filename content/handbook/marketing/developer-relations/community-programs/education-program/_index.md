@@ -136,22 +136,20 @@ Students can access a free subscription for GitLab.com or a free download of our
 Students can also apply for a 30-day trial if they would like to test more advanced features of GitLab.
 Children under the age of 13 are not permitted to use GitLab.com (SaaS Software).
 
-## Education evangelism
+### Requests for support
 
-Education evangelism is [a specialty of Developer Relations](/job-families/marketing/gitlab-for-education/#education-evangelist) aimed at evangelizing DevSecOps and GitLab at educational institutions around the globe.
-Through this work, we hope to support, grow, and engage the GitLab Education community through collaboration, content, and conversation.
+When we are reviewing opportunities or requests for support, we must be able to answer yes to each of these questions to move forward with the work:
 
-### What Education Evangelists do
+1. Will this work support, grow, and/or engage the GitLab for Education community?
+1. Can it grow the skills and abilities of the education evangelist to ultimately make them a better resource to our community?
+1. Is there a measurable impact on the GitLab for Education community? This can include influence on a GitLab KPI, progress on an OKR, or completion of responsibilities that are defined in the GitLab handbook.
+1. Has an issue been created with the appropriate labels to define the work and assign a DRI?
 
-Our stakeholder community includes students, faculty, staff, administrators, and learners of any origin.
-GitLab's Education Evangelists seek to increase awareness, inform, and connect with community members through a variety of media.
-We also are visible power users of GitLab and DevOps applications.
-We strive to be a resource for all learners and, in accordance with GitLab's [Diversity, Inclusion, and Belonging Values](/handbook/company/culture/inclusion/), we seek to increase outreach to under-represented and under-estimated people in the education community.
+If the answer to any of the above questions is "no", our team will collaborate with each other and the requestor to do one of the following actions:
 
-The GitLab educational evangelists are technical evangelists with a background in or enthusiasm for education and students of all levels.
-Educational evangelists connect, engage, and create technical content for our education community.
-
-
+1. Make adjustments so we can take on the work.
+1. Find another team that is better suited to deliver the work.
+1. Come to an agreement that the work should not be done.
 
 ### Evangelism on social media
 

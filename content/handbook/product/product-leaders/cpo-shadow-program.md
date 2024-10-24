@@ -47,7 +47,7 @@ To ensure that the plan achieves maximum impact within GitLab, all members of th
 
 The CPO Shadow Program is scheduled on a rotating basis, with each eligible team member having the opportunity to participate. The schedule is managed by the CPO's EBA, who will work with you and your manager to coordinate the timing of your shadowing period.
 
-* Create an issue using this template and ensure the following are within the issue description:
+* Create an issue using [this template](https://gitlab.com/gitlab-com/product/-/issues/new?issuable_template=CPO-Shadow-Program) and ensure the following are within the issue description:
   * Provide a brief summary of your interest and eligibility for the program
   * Explain how participating in the CPO Shadow Program aligns with your professional development goals and how it will benefit you and the organization
   * Indicate your availability and flexibility to accommodate the 1-2 week shadowing period

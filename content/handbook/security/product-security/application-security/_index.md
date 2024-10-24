@@ -62,7 +62,7 @@ Please see the [Root Cause Analysis for Critical Vulnerabilities page](/handbook
 
 ## Application Security Engineer Runbooks
 
-Please see the [Application Security Engineer Runbooks page index](runbooks})
+Please see the [Application Security Engineer Runbooks page index](runbooks)
 
 ## Meeting Recordings
 

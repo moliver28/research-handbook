@@ -13,24 +13,15 @@ description: "The Fulfillment Sub-department is responsible for the infrastructu
 | [Fulfillment Development Sub-Department](/handbook/engineering/development/fulfillment/) | Team members, stable counterparts (PM, UX, Quality, Security, EntApps, Field Ops, Sales, Billing, Customer Success, Support Engineering), project management processes, and more. |
 | [Internal Handbook - Fulfillment](https://internal.gitlab.com/handbook/product/fulfillment/) | Documentation that can't be in the public handbook. Minimize this to only [Not Public](/handbook/communication/confidentiality-levels/#not-public) information. |
 | [Cloud Licesing Overview (External)](https://about.gitlab.com/pricing/licensing-faq/cloud-licensing/) | Why Cloud Licensing, data collected, customer pre-requisites |
-| [Cloud Licensing (Internal)](https://internal.gitlab.com/handbook/product/fulfillment/cloudlicensing/cloud-licensing/) | Internal handbook information about Cloud Licensing |
-| [Deal Desk Handbook](/handbook/sales/field-operations/sales-operations/deal-desk/) | Standard Quote Configuration (new subscription, amend subscription, add-on quote creation, upgrade or product switch during subscription term, renewal, channel deals, true-ups, co-terms, Starter/Bronze End of Availability, SuperSonics, Professional Services), Non-Standard Quotes (Contract Resets, Concurrent Subscriptions, Multi-year Deals, Ramp deals), Alliance Marketplace Private Offers, and more.  |
-| [Sales Order Processing](/handbook/sales/field-operations/order-processing/) | Account and opportunity creation, quote configuration, approvals process, opportunity booking requirements, closing an opportunity. |
-| [Internal Support](/handbook/support/internal-support/) | Submitting all requests around licensing, subscription, trials, and grace periods. |
 | [Licensing FAQ](https://about.gitlab.com/pricing/licensing-faq/) | Common questions around purchasing, licensing, billing, contacting sales, and more |
-| [Finance and Legal Authorization Matrix](/handbook/finance/authorization-matrix/) | |
-| [Trade Compliance](/handbook/legal/trade-compliance/) | |
-| [Billing, invoice and payment requests](/handbook/support/license-and-renewals/workflows/billing_contact_change_payments/) | Zuora contact change, Zuora entity change and effects on SM/SaaS subscriptions, cancellations, downgrades, refunds, invoices, payments, credit card removals, renewal reversals, split payment requests |
-| [Troubleshooting: True Ups, licenses + EULAs](/handbook/business-technology/enterprise-applications/quote-to-cash/troubleshooting/) | |
-| [Quote-to-Cash systems documentation (EntApps)](/handbook/business-technology/enterprise-applications/quote-to-cash/) | Overview of systems, EntApps Architecture, Process Flow Diagrams, Entity Relationship Diagrams |
-| [Quote-to-Cash process](/handbook/business-technology/enterprise-applications/quote-to-cash/#quote-to-cash-introduction) | EntApps documentation including systems and process diagrams. |
+| [Inventory of Fulfillment Emails](https://docs.google.com/spreadsheets/d/1SwEYmLD5Eoa5wM399frPoNGPQ3OUTGBKOOs9z6nB2tc/edit#gid=0) | List of all Fulfillment emails | 
+| [GitLab Company Quote-to-Cash documentation]](/handbook/company/quote-to-cash/) | Company-wide quote-to-cash documentation | 
 
 ## How to connect with us
 
 If your question is not answered by the key links above or this guide:
 
-- For help with a license error, resending a license or other support requests, [create an internal issue for the support team](/handbook/support/internal-support).
-- For general product questions, try the [#Questions](https://gitlab.slack.com/archives/C0AR2KW4B) Slack channel.
+- For help with a license error, resending a license or other customer-specific support requests, [create an internal issue for the support team](/handbook/support/internal-support).
 - Reach out to [#s_fulfillment](https://gitlab.slack.com/archives/CMJ8JR0RH) with non-customer specific purchasing or provisioning questions, or to escalate an outage in our purchasing workflow.
 
 ## Fulfillment Feature Availability
@@ -52,40 +43,13 @@ Not all Fulfillment features are available at the time for all types of customer
 | GitLab for Education, Open Source and Startups Customers | No | No | No | No |
 | Free Tier Users | No | No | No | No |
 
-## Initial Purchase Flows
-
-- [Screenshots](https://gitlab.com/gitlab-org/fulfillment-meta/-/issues/1430) of initial purchase flows
-
 ## Storage Enforcement
 
 > You can access the [internal handbook page](https://internal.gitlab.com/handbook/engineering/fulfillment/namespace-storage-enforcement/) for more details about the storage enforcement.
 
-## User cap for groups on SaaS
-
-On GitLab.com, this feature is now available for all groups. For more information, see [User cap for groups](https://docs.gitlab.com/ee/user/group/manage.html#user-cap-for-groups).
-
-## Experience for customers that purchased through a reseller
-
-As of 2023-06-28, customers who have purchased a GitLab subscription through an authorized reseller (including GCP and AWS marketplaces) have access to the Customers Portal.
-
-- [Customer documentation in GitLab Docs](https://docs.gitlab.com/ee/subscriptions/customers_portal.html#customers-that-purchased-through-a-reseller)
-- [Internal video demo](https://youtu.be/LVhG8JzD8oY)
-- [Related epic](https://gitlab.com/groups/gitlab-org/-/epics/8941)
-
-Please keep in mind:
-
-- Customers do not have access to the invoices, because those are owned by the reseller.
-- Resellers do not have access to the Customers Portal or to their customers' accounts.
-
 ## Temporary renewal extensions
 
-*Last updated on 2024-09-20*
-
-Temporary extensions for **Self-Managed** & **SaaS** renewals are now generally available for eligible renewal opportunities
-
-In the event that a renewal process takes longer then intended (e.g. customer takes longer than average to sign renewal deal), customers run into a problem when their license expires at the subscription term end and they lose complete access to their GitLab instance (Self-managed or SaaS).
-
-Temporary Renewal Extension is an internal feature built in SFDC, and is accessible from a Renewal Opportunity. It enables any Sales Rep to generate the extension on their own, without contacting Support. Extension can be generated 1-15 days before subscription end date or 1-13 days after subscription end date, with a default expiration date of 21 days after subscription end date (followed by the [grace period of 14 days for SaaS extensions only](https://docs.gitlab.com/ee/subscriptions/self_managed/#subscription-expiry)).
+Sales Rep can generate a temporary extension via SFDC for one of the approved reasons. Extension can be generated 1-15 days before subscription end date or 1-13 days after subscription end date, with a default expiration date of 21 days after subscription end date (followed by the [grace period of 14 days for SaaS extensions only](https://docs.gitlab.com/ee/subscriptions/self_managed/#subscription-expiry)).
 
 Please note for Self Managed extensions:
 
@@ -170,11 +134,9 @@ List of features managed by the [subscription management group](https://about.gi
 
 ### Subscription Renewal and Auto-Renewal
 
-Customers can renew their SaaS or Self-managed subscriptions using either auto-renewal or manual renewal. By default, subscriptions are set to auto-renew. Customers who are not eligible for auto-renew or do not want to auto-renew their subscription can manually renew their subscription through the `Renew` button on the subscription card in the [Customers Portal](https://customers.gitlab.com/).
+Customers can renew their gitlab.com or Self-managed subscriptions using either auto-renewal or manual renewal. By default, subscriptions are set to auto-renew. Customers who are not eligible for auto-renew or do not want to auto-renew their subscription can manually renew their subscription through the `Renew` button on the subscription card in the [Customers Portal](https://customers.gitlab.com/).
 
 #### Auto-Renewal eligibility
-
-As of 2023-01-21, almost all of the subscriptions enrolled in auto-renewal (identified in Zuora as `Subscription.TurnOnAutoRenew = Yes`) will be scheduled for auto-renewal and processed. Certain exceptions exist:
 
 We will not attempt to auto-renew if:
 
@@ -186,16 +148,13 @@ We will not attempt to auto-renew if:
 Auto-renewal will fail if:
 
 - Credit card payment failed
-- EoA subscription has more than 25 users
 - Another system error that wasn't accounted for previously
 
 Accounts and Subscriptions excluded from auto-renewal:
 
 1. Subscriptions purchased via a Reseller or another Channel partner (where the customer didn't transact with GitLab directly).
 1. Subscriptions for Education, OSS, or Startup (i.e. Community Programs).
-1. Subscriptions with non-standard term (not in 12 month term increments).
-1. Multi-year subscriptions (with term greater than 12 months).
-1. Subscriptions with multiple (same) rate plans. This is a temporary measure until [this epic](https://gitlab.com/groups/gitlab-org/-/epics/11916) is done.
+1. Subscriptions with non-standard term (not a 12-month term).
 1. Subscriptions with GitLab Duo Pro, GitLab Duo Enterprise, or Enterprise Agile Planning products. This is a temporary measure until [this epic](https://gitlab.com/groups/gitlab-org/-/epics/11869) is done.
 1. Accounts with the following settings in Zuora:
    1. `Account.PO Required = Yes` (customer notifies GitLab they have a "no PO, no Pay policy", booking requirement and pre-billing).
@@ -240,24 +199,16 @@ There's an automated process (Zuora Workflow) that sets `Subscription.TurnOnAuto
 
 #### Quarterly Subscription Reconciliation (QSR)
 
-With QSR, paying for the seat overages is easy to understand, saves precious time, and results in a fairer billing model for our customers. SaaS and Self-Managed customers have their seat usage reviewed on quarterly basis, and receive an invoice for any overages. Some customers may choose to opt out of QSR (via Contract amendment), in which case they will default to the existing Annual true-up process. Using operational data around seat utilization, we aim to automate as much as possible for the seat overage billing process. This allow us to:
-
-1. Drive sales efficiency at renewal: minimize the friction at renewal of dealing with seat overages. For smaller accounts, this is the foundation for fully automated renewals, which completely frees up sales capacity to focus on larger accounts.
-2. Improved customer satisfaction: quarterly reconciliation reduces customer billing surprises and also helps reduce customer costs for users added later into the annual term.
+See [public QSR documentation](https://docs.gitlab.com/ee/subscriptions/quarterly_reconciliation.html).
 
 ##### QSR eligibility
 
-Accounts and Subscriptions excluded from QSR:
+In addition to [documented elibiligy cases](https://docs.gitlab.com/ee/subscriptions/quarterly_reconciliation.html#quarterly-reconciliation-eligibility), we exclude from QSRs any subscription where the Account has any of the following settings in Zuora:
 
-1. Subscriptions purchased via a Reseller or another Channel partner (where the customer didn't transact with GitLab directly).
-2. Subscriptions for Education, OSS, or Startup (i.e. Community Programs).
-3. Subscriptions with non-standard term (not in 12 month term increments).
-4. Multi-year subscriptions (with term greater than 12 months). This is a temporary measure until [this epic](https://gitlab.com/groups/gitlab-org/-/epics/9591) is done.
-5. Accounts with the following settings in Zuora:
-   1. `Account.PO Required = Yes` (customer notifies GitLab they have a "no PO, no Pay policy", booking requirement and pre-billing).
-   2. `Account.Portal Required = Yes` (customer notifies GitLab that they require invoices to be manually uploaded to a billing portal, and includes non-PO, PO, contract, or SOW).
-   3. `Account.Support Hold = Yes` (customers are placed on support hold when accounts become >90 days past due without payment commitment).
-   4. `Account.Credit Hold = Yes` (customers are placed on credit hold when any balance is written off to bad debt)
+1. `Account.PO Required = Yes` (customer notifies GitLab they have a "no PO, no Pay policy", booking requirement and pre-billing).
+2. `Account.Portal Required = Yes` (customer notifies GitLab that they require invoices to be manually uploaded to a billing portal, and includes non-PO, PO, contract, or SOW).
+3. `Account.Support Hold = Yes` (customers are placed on support hold when accounts become >90 days past due without payment commitment).
+4. `Account.Credit Hold = Yes` (customers are placed on credit hold when any balance is written off to bad debt)
 
 There's an automated process (Zuora Workflow) that sets `Subscription.TurnOnSeatReconciliation__c` to No for the use cases listed above.
 
@@ -266,12 +217,9 @@ There's an automated process (Zuora Workflow) that sets `Subscription.TurnOnSeat
 1. When a new subscription is purchased or an existing subscription renewed, it is opted into Quarterly Reconciliation.
    1. `Subscription.TurnOnSeatReconciliation__c` variable is set to Yes.
    2. `Subscription.ContractSeatReconciliation__c` variable is set to Yes.
-2. Usage data is gathered daily
-   1. SaaS: Usage data is collected directly from GitLab.com using the namespace API.
-   2. Self-Managed: Data is gathered via Cloud Licensing.
-3. Seven days prior to reconciliation, an alert displayed to the customer informing them of the overage and a process to be taken place ([SaaS](https://gitlab.com/gitlab-org/gitlab/-/issues/215187/), [Self-Managed](https://gitlab.com/gitlab-org/gitlab/-/issues/332041)).
-4. 3 / 6 / 9 months after Subscription Start Date, an automated reconciliation occurs. Any overage incurred during Q4 is forgiven.
-5. 12 months after Subscription Start Date - [renewal occurs](#subscription-renewal-and-auto-renewal).
+2. Usage data is gathered daily via Cloud Licensing (SM/Dedicated) of the namespace API (gitlab.com)
+
+Other details available in [QSR invoicing and payment docs](https://docs.gitlab.com/ee/subscriptions/quarterly_reconciliation.html#quarterly-invoicing-and-payment).
 
 **How individual automated reconciliation works:**
 
@@ -882,43 +830,3 @@ Reviewing OKRs:
 Finalizing and closing OKRs:
 
 At the end of the quarter, stage leaders score the OKRs and leave a comment in the top level objective summarizing it. ([FY25 Q1 example](https://gitlab.com/gitlab-com/gitlab-OKRs/-/work_items/5573#note_1883160327)). This final step is critical since it helps us reflect and hold ourselves accountable, as well as celebrate what we accomplished which otherwise often goes unnoticed. We cross-post this last update to Slack for more visibility in our #s_fulfillment_fyi channel.
-
-### Common Provisioning Bugs
-
-This section outlines top provisioning bugs and when they were resolved or are expected to be fixed. You can also refer to the `group::provision` [bug board](https://gitlab.com/groups/gitlab-org/-/boards/5164901?label_name[]=group%3A%3Aprovision&label_name[]=type%3A%3Abug) for a quick view of planned bug work by milestone.
-
-#### Resolved Bugs
-
-| SM or GitLab.com? |  Category    | Description of Bug         | Related Issue Link(s) |  Version Resolved |
-|---------|--------------|----------|--------------------------------|--------------------|
-| GitLab.com | Add-on Provisioning | Sales assisted Compute Minute purchases not being provisioned. | [7737](https://gitlab.com/gitlab-org/customers-gitlab-com/-/issues/7737) `severity::4` | 16.8 |
-| GitLab.com | Deprovisioning | Paid features are not deprovisioned upon transfer to subgroup. | [351780](https://gitlab.com/gitlab-org/gitlab/-/issues/351780) `severity::4` | 16.7 |
-| GitLab.com | Add-on Provisioning | Purchased CI Minutes are not synced to instance. | [6340](https://gitlab.com/gitlab-org/customers-gitlab-com/-/issues/6340) `severity::2` | 16.5 |
-| GitLab.com | Subscription Cancellations | Scheduled subscription cancellation downgrades namespace directly. | [6153](https://gitlab.com/gitlab-org/customers-gitlab-com/-/issues/6153) | 16.2 |
-| GitLab.com | Deprovisioning | SaaS subscriptions can be deprovisioned if within grace period with add-on refunded. | [4777](https://gitlab.com/gitlab-org/customers-gitlab-com/-/issues/4777) | 16.0 |
-| Self Managed | Cloud Licensing | Multi year cloud license was generated with conflicting trueup_from/to and previous_user_count values. | [5520](https://gitlab.com/gitlab-org/customers-gitlab-com/-/issues/5520) |  16.0 |
-| Self Managed | Cloud Licensing | Self Managed instance generating new cloud license each sync. | [5041](https://gitlab.com/gitlab-org/customers-gitlab-com/-/issues/5041)  | 15.10 |
-| Self Managed | Cloud Licensing | Self Managed instance activations created even when the activation fails. | [5232](https://gitlab.com/gitlab-org/customers-gitlab-com/-/issues/5232) | 15.10 |
-| Self Managed | Legacy Licenses | Licenses generated during years 2 or 3 of a MY legacy subscription have expired dates. | [3421](https://gitlab.com/gitlab-org/customers-gitlab-com/-/issues/3421) |  15.10 |
-| Self Managed | Cloud Licensing | Cloud License activation failure when future dated renewal and past subscription trueups. | [4874](https://gitlab.com/gitlab-org/customers-gitlab-com/-/issues/4874) | 15.10 |
-| Both | True-Ups | True-up validation fails when no previous_users_count is present. | [361345](https://gitlab.com/gitlab-org/gitlab/-/issues/361345) |  15.9 |
-| Self Managed | Cloud Licensing | CustomersDot Admin Cloud Activations tab lists multiple activation codes when zuora_id is blank. | [4580](https://gitlab.com/gitlab-org/customers-gitlab-com/-/issues/4580) |  15.9 |
-| GitLab.com | Add-Ons Provisioning | GitLab group storage quota is overwritten by the last syncd Zuora subscription's storage. | [4687](https://gitlab.com/gitlab-org/customers-gitlab-com/-/issues/4687) | 15.8 |
-| GitLab.com | SaaS Provisioning | SaaS subscriptions with multiple product line items do not provision seats correctly. | [3956](https://gitlab.com/gitlab-org/customers-gitlab-com/-/issues/3956) | 15.8 |
-| Self Managed | Cloud Licensing | License sync does now work with IPv4. | [354839](https://gitlab.com/gitlab-org/gitlab/-/issues/354839) | 15.7 |
-| Self Managed | Cloud Licensing  |  Multi-year subscription licenses have incorrect term dates (already expired license, 1-year only term). | [4815](https://gitlab.com/gitlab-org/customers-gitlab-com/-/issues/4815), [3421](https://gitlab.com/gitlab-org/customers-gitlab-com/-/issues/3421), [4816](https://gitlab.com/gitlab-org/customers-gitlab-com/-/issues/4816) | 15.7 |
-| Self Managed | Offline Cloud Licensing | Some mime types are not supported when a customer emails their offline usage file. | [4812](https://gitlab.com/gitlab-org/customers-gitlab-com/-/issues/4812) | 15.6 |
-| Self Managed | Cloud Licensing | Cloud license valid from dates show prior year's term after applying new subscription. | [3651](https://gitlab.com/gitlab-org/customers-gitlab-com/-/issues/3651) | 15.5 |
-| Both | Banners | Subscription expiration alert is still shown after customer activates renewal subscription. | [372119](https://gitlab.com/gitlab-org/gitlab/-/issues/372119), [4507](https://gitlab.com/gitlab-org/customers-gitlab-com/-/issues/4507) | 15.5 |
-| Self Managed | License Creation | Using Optional "Customer" field causes licenses to generate using customer portal data instead of details entered. | [3566](https://gitlab.com/gitlab-org/customers-gitlab-com/-/issues/3566) | 15.5 |
-| Both | License Display | License overview shows 'Expired: Never' for expired licenses. | [372230](https://gitlab.com/gitlab-org/gitlab/-/issues/372230) | 15.5 |
-| Self Managed | Cloud Licensing | Activation error messages do not indicate the problem accurately. | [355794](https://gitlab.com/gitlab-org/gitlab/-/issues/355794) | 15.4 |
-| Self Managed | Cloud Licensing | Some customers are not receiving activation codes in welcome mailer. | [4741](https://gitlab.com/gitlab-org/customers-gitlab-com/-/issues/4741), [4599](https://gitlab.com/gitlab-org/customers-gitlab-com/-/issues/4599) | 15.4 |
-|  Both       | User Count | Previous user count is incorrect when changing products and seat count during renewal. | [3346](https://gitlab.com/gitlab-org/customers-gitlab-com/-/issues/3346) | 15.3 |
-|  Both       | Provisioning | After applying a license, a restart is required | [377489](https://gitlab.com/gitlab-org/gitlab/-/issues/377489),[388063](https://gitlab.com/gitlab-org/gitlab/-/issues/388063) | 15.4.3 |
-
-#### Open Bugs
-
-| SM or GitLab.com? | Category    | Description of Bug         | Related Issue Link(s) |  Priority | Expected Release |
-|---------------|------------|--------------------------------|--------------------|--------------|-------------|
-| GitLab.com | Compute minutes not provisioned when effective date is before created date. | [7565](https://gitlab.com/gitlab-org/customers-gitlab-com/-/issues/7565) | `severity::3` | 17.0 | |

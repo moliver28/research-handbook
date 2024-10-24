@@ -58,7 +58,7 @@ Our promotion philosophy comprises core pillars surrounding the approach and pro
 - Promotions are based on performance, not on growth potential. If being considered for an in-line promotion, Team members should already be executing at the next level [job frameworks level]({{< ref "structure#job-frameworks" >}}) prior to promotion. Team members would typically be eligible for promotion to the next level in the same job family after twelve months in their current position.
 - Career growth should be a partnership between team member and manager. As a manager, it is important to create space to regularly discuss your team members' development and career aspirations, and identify opportunities to support them in their advancement and growth.
 - When reviewing a proposed promotion, we consider: 1) readiness of the individual, and 2) business justification/opportunity.
-- All in-line promotions at GitLab require a [promotion document](https://docs.google.com/document/d/1nDkYGK2yhe8pD-lnMGmEF-Cf0IlGgVOznjXMq9FxGiQ/edit?usp=sharing). We believe in [transparency](/handbook/values/#transparency) within the promotion process.
+- All in-line promotions at GitLab require a [promotion document](#promotion-document). We believe in [transparency](/handbook/values/#transparency) within the promotion process.
 - We encourage team members to live our [efficiency value](/handbook/values/#efficiency), be a [manager of one](/handbook/values/#managers-of-one), and take ownership of their promotion document in partnership with their manager.
 - We calibrate planned promotions on a twice per year basis to ensure an equitable review, and through this process track metrics that help us understand if our promotions are occurring at a healthy and fair rate.
 
@@ -70,7 +70,7 @@ Our promotion philosophy is also aligned with our [values](/handbook/values/):
 - **Results**: Business justification, scope, and team member results are demonstrated and documented to support promotions
 - **Efficiency**: Consistency and scalability in our promotion processes by twice per year planning and calibration. The planning and calibration timing considers existing programs and cycles for the business and aims to embed promotions into cadences where they best align for efficiency.
 - **Diversity, Inclusion, and Belonging**: Fairness and equity reflected through a consistent approach and documentation to promotions at all levels in the organization and supported by our [job frameworks](/handbook/company/structure/) and Total Rewards [URG]({{< ref "review-cycle-inputs#underrepresented-group-audit" >}}) audit
-- **Iteration**: Process is improved each cycle. In FY24, we moved to a twice per year. We continue to look at wasy swe can iterate our process for efficiency and scalability.
+- **Iteration**: Process is improved each cycle. In FY24, we moved to a twice per year. We continue to look at ways we can iterate on our process for efficiency and scalability.
 - **Transparency**: Clarity and efficacy of promotion metrics, budget, and guidelines, in addition to transparency in promotion justification through internally public promotion documents.
 
 ### Processing a Promotion
@@ -115,7 +115,7 @@ Below is the timeline for FY26:
 - Effective date for promotions: 2025-02-01
 - After communicating 1:1 with individuals on or after 2025-02-01, updates can be posted publicly in #team-member-updates. **Managers should not communicate until Total Rewards communicates that the promotions are fully approved.**
 
-## FY26-Q4 (Nov 1)
+### FY26-Q4 (Nov 1)
 
 Status: Pending  
 
@@ -127,7 +127,7 @@ Status: Pending
 - Effective date for promotions: 2025-11-01
 - After communicating 1:1 with individuals **on or after 2025-11-01**, updates can be posted publicly in #team-member-updates. Managers should *not* communicate until Total Rewards communicates that the promotions are approved.
 
-## FY27-Q2 (May 1)
+### FY27-Q2 (May 1)
 
 Status: Pending  
 
@@ -139,7 +139,7 @@ Status: Pending
 - Effective date for promotions: 2026-05-01
 - After communicating 1:1 with individuals **on or after 2026-05-01**, updates can be posted publicly in #team-member-updates. Managers should *not* communicate until Total Rewards communicates that the promotions are approved.
 
-## FY27-Q4 (Nov 1)
+### FY27-Q4 (Nov 1)
 
 Status: Pending  
 
@@ -153,27 +153,21 @@ Status: Pending
 
 ## Planning
 
-FY26 Q1 Promotion **Planning** is generally done via spreadsheets to maintain confidentiality and enable collaboration across department leaders where appropriate. Prior to the Planning phase in the timeline above, People Business Partners will make sure the spreadsheets are up to date before going into the Calibration phase.
+FY26 Q1 Promotion **Planning** will be completed via spreadsheets to maintain confidentiality and enable collaboration across department leaders where appropriate. Prior to the Planning phase in the timeline above, People Business Partners will make sure the spreadsheets are up to date before going into the Calibration phase.
 
 Once the Calibration phase by Division is complete, Directors and above will have the ability to enter promotion compensation recommendations into the [Workday planning grid](https://docs.google.com/document/d/1KwpFnZC5MFpCwS9ElqkSh0f1bdZ3l0Gp-B4lDdJwIg0/edit?usp=sharing). For specific Division calibration meeting timelines, please reach out to your People Business Partner.
 
 ### Promotion Document
 
-The [promotion document](https://docs.google.com/document/d/1nDkYGK2yhe8pD-lnMGmEF-Cf0IlGgVOznjXMq9FxGiQ/edit?usp=sharing) is required for all in-line promotions. **Promotion documents should not exceed three pages total.**
+The [promotion document](https://docs.google.com/document/d/1oXH9HzdO8gjqdeosstQRC1Mqt_5lCaN1U2kaF9Av-Ec/edit?usp=sharing) is required for all in-line promotions. **Promotion documents should not exceed three pages total.**
 
-As the audience are other GitLab team members, the text should be written in third person using the team member's name and appropriate pronouns (he/she/they) to highlight the work and skills as evidence of the team member's suitability for the role.
+As the audience are other GitLab team members, the text should be written in third person using the team member's name and appropriate pronouns (he/she/they) to highlight the work and skills as evidence of the team member's suitability for the role. A [style guide](/handbook/people-group/promotion-document-style-guide/) is available to assist in crafting a compelling document.
 
-In-line promotion documents should demonstrate values alignment, business need for the role, and team member readiness through delivery of impactful business results. The core sections in our promotion document are: Promotion Summary, Values Alignment, Business Results, and Business Justification.
+In-line promotion documents should demonstrate values alignment, business need for the role, and team member readiness through delivery of impactful business results. The core sections in our promotion document are: Promotion Summary, Business Results/Impact, Values Alignment and Business Justification.
 
 #### Promotion Summary
 
 This section is a high-level summary (3-5 sentences) of achievements that demonstrate how the team member has the capability to perform at the next level.
-
-#### Values Alignment
-
-Values are at the core of everything we do at GitLab. It is essential to tie team member achievements and initiatives back to the values they support. Promotion documents should include 1-2 core points per value of evidence supporting values alignment.
-
-- Please review our guidance on [DIB behaviours](/handbook/values/#diversity-inclusion--belonging-competency) aligned to each job level which provides examples of how to demonstrate our [Diversity Inclusion & Belonging Value](/handbook/values/#diversity-inclusion)
 
 #### Business Results
 
@@ -181,20 +175,27 @@ As our most important [value](/handbook/values/#hierarchy), results are at the c
 
 Please list the 3 most impactful results (accomplishments, initiatives, or projects) that demonstrate the team member's performance at the next level aligned with our values and expectations in the [job framework](https://docs.google.com/spreadsheets/d/1FX4NBwF099uMBm7mGBtf1orIJZuHEjtiEa3jSbg9jJs/edit#gid=0).
 
-For each result, please use the following structure:
+**Project impact on GitLab / Business Result**
 
-- Project/accomplishment
-  - Example: Creation of the company-wide Org Design Playbook
-- Team member role
-  - Example: Lead the playbook creation from inception to publishing in the handbook in partnership with two other People Business Partners
-- Brief (2-3 sentence) description of project/accomplishment and business relevance/importance
-  - Example: One of our [FY25 Yearlies](https://internal.gitlab.com/handbook/company/yearlies/#fy25-yearlies) is related to driving a high performance culture. A key aspect of high performance culture is our ability to manage through change in an efficient and results-oriented way. Organizational design shifts and realignments can have an adverse impact on team member's velocity in delivering results if we are not aligned on an efficient, thorough, and team member oriented approach to execution.
-- Project/accomplishment impact
-  - Example: The creation of the Org Design Playbook outlines a repeatable process for any organizational change across the company. It creates a collaborative, team member oriented, communication centric, and results driven format that leaders and People Business Partners can leverage to execute and lead through change. This directly ties to building a high performance culture as a key resource for change management, execution, and stakeholder alignment.
-- Business result
-  - Example: Since the implementation of the Org Design Playbook we also implemented a scoring system that allows us to measure the success of the changes we execute. We have seen an increase in the overall average score since the playbook's creation.
+**Project/accomplishment impact**
 
-Business relevance refers to why the project/accomplishment is important to the company (I.E. related to an OKR? a key investment theme? etc.). Impact refer to how the project/accomplishment will help drive us in the direction we need to go as an organization. Business result refers to the direct result seen from the team members' contribution.
+- Example: The creation of the Org Design Playbook outlines a repeatable process for any organizational change across the company. It creates a collaborative, team member oriented, communication centric, and results driven format that leaders and People Business Partners can leverage to execute and lead through change. This directly ties to building a high performance culture as a key resource for change management, execution, and stakeholder alignment.
+
+**Business result**
+
+- Example: Since the implementation of the Org Design Playbook we also implemented a scoring system that allows us to measure the success of the changes we execute. We have seen an increase in the overall average score since the playbook’s creation.
+
+**Business relevance** refers to *why* the project/accomplishment is important to the company (I.E. related to an OKR? a key investment theme? etc.). 
+
+- Example: One of our FY25 Yearlies is related to driving a high performance culture. A key aspect of high performance culture is our ability to manage through change in an efficient and results-oriented way. Organizational design shifts and realignments can have an adverse impact on team member’s velocity in delivering results if we are not aligned on an efficient, thorough, and team member oriented approach to execution.
+
+**Team member’s direct contribution**
+
+- Example: Tanuki was the DRI for the global cross functional team, and established all change management communication for the project.
+
+How the team member exhibited CREDIT values in their work on this accomplishment. 
+
+- Example: Tanuki demonstrated the Iteration value while delivering this result. They drove a subset of feature teams to commit on delivery timelines to enable GTM motions for the product launch while giving other teams flexibility to deliver iteratively.
 
 We ask that the structure above be followed for business results consistently to ensure that we:
 
@@ -205,6 +206,12 @@ We ask that the structure above be followed for business results consistently to
 #### Business Justification
 
 GitLab considers both individual readiness and business need when we think about promotions. Managers are responsible for completing the business justification section of the promotion document to include what justifies the need for the team members skills and work to be completed at the higher level. Possible business justifications typically include: more complex projects, additional scope of work required as the team scales, and/or additional responsibility due to XYZ business reason.
+
+#### Values Alignment
+
+Values are at the core of everything we do at GitLab. It is essential to tie team member achievements and initiatives back to the values they support. Every Value should be referenced in the promotion document *at least once* with an example of how the promotion candidate contribution to the business result align to the Value. Please provide a 1-2 senteence example for Values that were not referenced in the Business Results section which highlight further how the team member has exhibited CREDIT. 
+
+- Please review our guidance on [DIB behaviours](/handbook/values/#diversity-inclusion--belonging-competency) aligned to each job level which provides examples of how to demonstrate our [Diversity Inclusion & Belonging Value](/handbook/values/#diversity-inclusion)
 
 #### Additional Tips
 

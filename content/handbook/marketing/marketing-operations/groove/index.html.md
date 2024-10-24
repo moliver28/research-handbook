@@ -71,7 +71,7 @@ In the transition period from Outreach to Groove, if you have identified a seque
 
 Approvers for net new flows are dependent on the team creating the flow.
 
-- Sales Development Org: `Panos Rodopoulos` or `Ed Bao`
+- Sales Development Org: `Panos Rodopoulos` or `Ed Bao` - Sales Dev please use [this Issue template](https://gitlab.com/gitlab-com/marketing/sales-development/-/blob/main/.gitlab/issue_templates/BDR_Flow_Creation_Request.md?ref_type=heads) 
 - Sales Org
   - Account Executives: `Kathleen Rintelman-Betances`
   - Renewals Managers: `Suzy Verdin`
@@ -123,6 +123,10 @@ Important Notes on Searching using Labels:
 
 - When you filter by choosing multiple labels it creates an “and” statement between all of the labels you choose. For example, if you choose the labels “SD OB HT AMER” and “Motion: Competitive Atlassian” it will show every flow that has EITHER of those labels.
 - Best practice is to only filter down by one label and then search for the key word in the flow you are looking for. For example, you can filter by “SD IB HT AMER” and then in the search bar you can search the word “trial” to narrow your search down to all of the HT AMER Trial flows.
+
+### Notable Flows 
+
+[SD Assist: Move High Priority Leads](https://groove.clari.com/flows/1097000)- This flow is only a single manual task and is to be used when you need to move a lead/contact out of high priority status. An example of this would be when an AE asks you not to reach out to a certain account because they are already in discussions with them. 
 
 ## Email Sending Limits
 

@@ -170,7 +170,7 @@ We're still normalising the details around distribution and deployment of ClickH
 
 ## Proposed Solution
 
-In light of the problems discussed earlier, it'd be in our better interests to allow the usage of an external, intermediate system subject to what one's needs might be especially around the volume & scale of data being writen from an application into ClickHouse.
+In light of the problems discussed earlier, it'd be in our better interests to allow the usage of an external, intermediate system subject to what one's needs might be especially around the volume & scale of data being written from an application into ClickHouse.
 
 Therefore, we intend to develop an abstraction that can enable an application to store data into ClickHouse regardless of the scale that they (currently) operate at. It also:
 

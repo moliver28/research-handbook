@@ -419,6 +419,8 @@ Additionally, some controls may be impossible to tie to event-based reconciliati
 
 For this reason, the decision was made to use a cron-based approach to perform recurring project compliance evaluations while triggering one-time executions when frameworks are first applied to projects.
 
+See [ADR 004](./decisions/004_time_based_triggers.md) for more on this decision.
+
 ## Implementation of new controls
 
 [Custom controls](decisions/003_custom_controls.md) are composed of two components which must both be implemented to add new controls:

@@ -90,6 +90,45 @@ The Staff Managing Editor is a [grade 8](/handbook/total-rewards/compensation/co
 - You share our values, and work in accordance with those values.
 - BONUS: A passion for and strong understanding of the industry and our mission.
 
+### Principal Managing Editor
+
+The Principal Managing Editor reports to the Manager, Blog Strategy (in absence, Director, Global Content)
+
+#### Job Grade
+
+The Principal Managing Editor is a [grade 9](/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades).
+
+#### Responsibilities
+
+- Extends that of the Staff Blog Editor responsibilities
+- Define strategy and direction, and drive execution of GitLab’s blog
+- Serve as GitLab’s go-to source for all things editorial
+- Set the publishing strategy, directives, and goals, together with Manager, Blog Strategy
+- Drive improvements to user experience on the GitLab blog, working with Digital Experience, Design, SEO, and other involved teams
+- Effectively and efficiently partner with peer groups within marketing to ensure editorial strategy aligns with and supports broader marketing strategy
+
+- Take a data-driven approach to editorial strategy:
+- Report on and socialize results
+- Make recommendations to teams/groups who contribute
+- Identify opportunities to consolidate, update, and rework successful content (do more with less)
+- Continually improve publishing operations
+- Improve and enforce GitLab’s editorial style guide, including brand style, tone, and voice alongside Manager, Blog Strategy
+- Lead special editorial projects and initiatives including, but not limited to, our annual DevSecOps Survey.
+- Create content as needed
+
+#### Requirements
+
+- Extends that of the Staff Blog Editor requirements
+- 8+ years experience in journalism, content marketing, or communications
+- Degree in English, journalism or media, or equivalent work experience.
+- Excellent communication, organizational, and leadership capabilities.
+- Proven experience as a managing editor or similar role, preferably within enterprise marketing.
+- Experience as a people manager.
+- Markdown proficiency.
+- Familiarity of the software development processes including Git, CI and CD
+- You share our values, and work in accordance with those values.
+- BONUS: A passion for and strong understanding of the industry and our mission.
+
 ### Manager, Blog Strategy
 
 The Manager, Blog Strategy reports to the Director, Global Content
@@ -102,6 +141,10 @@ The Manager, Blog Strategy is a [grade 8](/handbook/total-rewards/compensation/c
 
 - Define strategy and direction, and drive execution of GitLab's blog:
 - Serve as GitLab's go-to source for all things editorial
+  - Content quality standards and best practices
+  - Editorial processes and workflows
+  - Brand voice and tone consistency
+  - Digital publishing strategies and trends
 - Set the publishing strategy, directives, and goals, together with blog team
 - Drive improvements to user experience on the GitLab blog, working with Digital Experience, Design, SEO, and other involved teams
 - Effectively and efficiently partner with peer groups within marketing to ensure editorial strategy aligns with and supports broader marketing strategy
@@ -123,7 +166,7 @@ The Manager, Blog Strategy is a [grade 8](/handbook/total-rewards/compensation/c
 - Degree in English, journalism or media, or equivalent work experience.
 - Excellent communication, organizational, and leadership capabilities.
 - Proven experience as a managing editor or similar role, preferably within enterprise marketing.
-- Experience as a people manager.
+- Experience mentoring and leading others by sharing solutions and problem solving approaches.
 - Markdown proficiency.
 - Familiarity of the software development processes including Git, CI and CD
 - You share our values, and work in accordance with those values.

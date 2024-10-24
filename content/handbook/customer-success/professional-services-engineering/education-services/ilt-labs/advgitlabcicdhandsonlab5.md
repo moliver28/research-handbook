@@ -234,7 +234,7 @@ Now, let’s create two merge requests that conflict:
 
 1. Select your preferred option, then select **Commit** to source branch.
 
-After doing this, you will now be able to merge your merge request! 
+After doing this, you will now be able to merge your merge request.
 
 ## Lab Guide Complete
 
@@ -242,4 +242,4 @@ You have completed this lab exercise. You can view the other [lab guides for thi
 
 ## Suggestions?
 
-If you wish to make a change to the *Hands-On Guide for GitLab CI/CD*, please submit your changes via Merge Request!
+If you wish to make a change to the *Hands-On Guide for GitLab CI/CD*, please submit your changes via Merge Request.

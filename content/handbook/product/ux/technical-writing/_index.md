@@ -15,7 +15,7 @@ Anyone can contribute to the documentation. Follow our [GitLab documentation gui
 [The Technical Writing team](/handbook/company/team/?department=technical-writing) includes:
 
 - A group of [Technical Writers](/job-families/product/technical-writer/).
-- Two [Technical Writing Managers](/job-families/product/technical-writing-manager/).
+- Three [Technical Writing Managers](/job-families/product/technical-writing-manager/).
 - Two [Fullstack Engineers, Technical Writing](/job-families/product/ux-fullstack-engineer/).
 - A [Technical Writing Director](/job-families/product/technical-writing-manager/#director-technical-writing).
 
@@ -172,7 +172,7 @@ For collaboration in other projects and subjects:
 | [GitLab Design System ("Pajamas")](https://design.gitlab.com/) information under [`content`](https://gitlab.com/gitlab-org/gitlab-services/design.gitlab.com/-/tree/main/contents/content)                                               | {{< member-by-name "Fiona Neill" >}}                                                                                                                              |
 | [Style Guide](#style-guide)                                                                                     | {{< member-by-name "Fiona Neill" >}}                                                                                                                              |
 | [Left nav](https://docs.gitlab.com/ee/development/documentation/site_architecture/global_nav.html) (information architecture of docs)                                                                                     | {{< member-by-name "Fiona Neill" >}}                                                                                                                              |
-| [Testing/Vale/markdownlint](#testing)                                                                           | {{< member-by-name "Diana Logan" >}}                                                                                                                                  |
+| [Testing/Vale/markdownlint](#testing)                                                                           | {{< member-by-name "Fiona Neill" >}}                                                                                                                                  |
 | [Tutorials](https://docs.gitlab.com/ee/tutorials/)                                                              | {{< member-by-name "Kati Paizee" >}}                                                                                                                                  |
 | [GitLab Development Kit (GDK)](https://gitlab.com/gitlab-org/gitlab-development-kit)                            | {{< member-by-name "Ashraf Khamis" >}}, {{< member-by-name "Achilleas Pipinellis" >}}, {{< member-by-name "Evan Read" >}}, {{< member-by-name "Jon Glassman" >}}, {{< member-by-name "Lorena Ciutacu" >}}, {{< member-by-name "Marcel Amirault" >}}, {{< member-by-name "Phillip Wells" >}}, {{< member-by-name "Russell Dickenson" >}} |
 

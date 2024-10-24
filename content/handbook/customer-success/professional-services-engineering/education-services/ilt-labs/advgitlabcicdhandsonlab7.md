@@ -87,7 +87,7 @@ Follow these steps to set up and use a feature flag:
 
 1. Select the `test_flag` job.
 
-1. Observe that sometimes this job outputs true and sometimes it outputs false. This is because the feature flag is active 50% of the time!
+1. Observe that sometimes this job outputs true and sometimes it outputs false. This is because the feature flag is active 50% of the time.
 
 ## Lab Guide Complete
 
@@ -95,4 +95,4 @@ You have completed this lab exercise. You can view the other [lab guides for thi
 
 ## Suggestions?
 
-If you wish to make a change to the *Hands-On Guide for GitLab CI/CD*, please submit your changes via Merge Request!
+If you wish to make a change to the *Hands-On Guide for GitLab CI/CD*, please submit your changes via Merge Request.

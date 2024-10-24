@@ -14,11 +14,10 @@ CRM Systems exists to support the GitLab field organization by providing reliabl
 
 - **Leslie Mendonca - Director, CRM Systems** GitLab handle: [lmendonca2](https://gitlab.com/lmendonca2) Slack handle: Leslie Mendonca
 - **Sheela Viswanathan - Senior Manager, Business Systems Administrator** GitLab handle: [sheelaviswanathan] (https://gitlab.com/sheelaviswanathan) Slack handle: @sheela viswanathan
-- **Brian Wong - Senior Finance Systems Administrator** GitLab handle: [brianmwong](https://gitlab.com/brianmwong) Slack handle: @Brian Wong
 - **Kiran B - Senior IT Enterprise Applications Engineer** GitLab handle: [kiranbsalesforce] (https://gitlab.com/kiranbsalesforce) Slack handle: @Kiran
 - **Obbu Sekhar - Senior IT Enterprise Applications Engineer** GitLab handle: [sekharobbu](https://gitlab.com/sekharobbu) Slack handle: @osekhar
 - **Tai Schuller - Staff IT Enterprise Applications Engineer** GitLab handle: [tschuller](https://gitlab.com/tschuller) Slack handle: @Tai Schuller
-- **Analissa Moreno - IT Enterprise Applications Engineer** GitLab handle: [ana-moreno](https://gitlab.com/ana-moreno) Slack handle: Ana Moreno
+- **Analissa Moreno - IT Enterprise Applications Administrator** GitLab handle: [ana-moreno](https://gitlab.com/ana-moreno) Slack handle: Ana Moreno
 - **Brett Latham - Senior Business Systems Administrator** GitLab handle: [Dlatham](https://gitlab.com/Dlatham) Slack handle: @Brett Latham
 - **Mohamed Hussain - Business Systems Administrator** GitLab handle: [Moh.hussain](https://gitlab.com/Moh.hussain) Slack handle: @Mohamed Hussain
 - **Neha Sharma - IT Enterprise Applications Administrator** GitLab handle: [nksharma2](https://gitlab.com/nksharma2) Slack handle: @Neha Sharma
@@ -44,7 +43,9 @@ Description: This issue is completed. There was no setting, configuration or cod
 1. The most common use case are question or research issues.
 1. Data changes as part of a backfill for another operations team fall into this category.
 
-### Changes that cannot or are impractical to use a Change Sets (Field Level Security, Sharing Rules, Layout Changes, Picklist Value Changes, Approval Processes, Role Creation and Assignments)
+### Changes that cannot or are impractical to use a Change Sets
+
+For example: Field Level Security, Sharing Rules, Layout Changes, Picklist Value Changes, Approval Processes, Role Creation and Assignments
 
 Label: `SalesSystems::Deployed - 1 - Settings Change`
 Description: This issue is completed. There was a setting change. Sign-off is required, No Change Set Used.
@@ -249,9 +250,13 @@ Sandboxes which are managed as part of our team's SDLC process will follow a reg
 - [ ] 4. [Systems DRI] Add the correct `SalesSystems::Deployed - #` GitLab Label
 - [ ] 5. [Systems DRI] Screenshot of Completed Change Set Attached and MR Attached (if Code)
 
-### [Business DRI] Business User Acceptance Testing Complete with Evidence :- The Business DRI should sign off after validating the provided solution works as expected as `definition of done`. The Business DRI will add evidence in the issue or in few scenarios the systems team member will be providing the evidence for the business DRI to confirm in the issue
+### [Business DRI] Business User Acceptance Testing Complete with Evidence
 
-#### [Business Program Owner] Business Process Owner sign-off :- Business Process Owner pertaining to the team should provide signoff. The signoff matrix is below pertaining to the Team / Department
+The Business DRI should sign off after validating the provided solution works as expected as `definition of done`. The Business DRI will add evidence in the issue or in few scenarios the systems team member will be providing the evidence for the business DRI to confirm in the issue
+
+#### [Business Program Owner] Business Process Owner sign-off
+
+Business Process Owner pertaining to the team should provide signoff. The signoff matrix is below pertaining to the Team / Department
 
 | Team / Lane                 | Main Approver                                                | Backup Approver                                                 |
 |-----------------------------|--------------------------------------------------------------|-----------------------------------------------------------------|
@@ -269,7 +274,9 @@ Sandboxes which are managed as part of our team's SDLC process will follow a reg
 | Sales Systems               | Senior Manager, Sales Systems               | Senior Director, Enterprise Applications         |
 | Fulfillment                 | Director of Product, Fulfillment            | VP, Product Management                           |
 
-#### [Systems Owner] Systems Owner Sign-off :- Salesforce CRM System Owners should provide the signoff. The signoff matrix is an below
+#### [Systems Owner] Systems Owner Sign-off
+
+Salesforce CRM System Owners should provide the signoff. The signoff matrix is an below
 
 | Main Approver               |Backup Approver (if Sheela Viswanathan is unavailable)                                               | Backup Approver (if Sheela Viswanathan and Al Champagne are unavailable)                                                |
 |-----------------------------|--------------------------------------------------------------|-----------------------------------------------------------------|
@@ -284,7 +291,9 @@ Once the issue has been deployed, the issue should be tagged with one of the fol
 - SalesSystems::Deployed - 2 - Configuration Change
 - SalesSystems::Deployed - 3 - Code Change
 
-#### [Systems DRI] Screenshot of Completed Change Set Attached and MR Attached (if Code) :- If the issue ended up in label `SalesSystems::Deployed - 2 - Configuration Change` OR `SalesSystems::Deployed - 3 - Code Change` the systems member assigned to the issue should add the screenshot of the change set
+#### [Systems DRI] Screenshot of Completed Change Set Attached and MR Attached (if Code)
+
+If the issue ended up in label `SalesSystems::Deployed - 2 - Configuration Change` OR `SalesSystems::Deployed - 3 - Code Change` the systems member assigned to the issue should add the screenshot of the change set
 
 ## Milestone Review and QA
 

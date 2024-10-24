@@ -324,6 +324,6 @@ and poor user experience.
 
 ## Decision
 
-We decided to store the internal compliance requirement expressions as `jsonb` columns and remove the
+We decided to store the internal compliance requirement expressions as `text` columns and remove the
 `compliance_checks` table and only use `compliance_requirements` instead. This would help in reducing redundancy and
 we could easily display the rows present in `project_compliance_configuration_status` table on the adherence dashboard.

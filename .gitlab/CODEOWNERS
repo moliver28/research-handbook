@@ -114,7 +114,7 @@
 
 ^[Eng-Development-department]
 /content/handbook/engineering/core-development.md @timzallmann @sgoldstein @m_gill @dsatcher
-/content/handbook/engineering/development/ @timzallmann @jeromezng @sgoldstein @dsatcher @m_gill @jeromezng @pcalder
+/content/handbook/engineering/development/ @timzallmann @jeromezng @sgoldstein @dsatcher @m_gill @jeromezng
 /content/handbook/engineering/development/analytics/product-analytics.md @timzallmann @dennis @rob.hunt @mwoolf
 /content/handbook/engineering/development/analytics/analytics-instrumentation/ @bastirehm @timzallmann
 /content/handbook/engineering/development/data-science/ @timzallmann @jeromezng @dsatcher @m_gill
@@ -128,7 +128,7 @@
 /content/handbook/engineering/development/dev/ @timzallmann
 /content/handbook/engineering/development/dev/create/ @dsatcher
 /content/handbook/engineering/development/dev/create/code-creation/ @mnohr @jordanjanes
-/content/handbook/engineering/development/dev/create/editor-extensions.md @dashaadu @kisha.mavryck
+/content/handbook/engineering/development/dev/create/editor-extensions/ @dashaadu @kisha.mavryck
 /content/handbook/engineering/development/dev/create/remote-development/ @adebayo_a
 /content/handbook/engineering/development/dev/manage/ @wortschi @m_gill @mksionek
 /content/handbook/engineering/development/dev/foundations/ @m_gill @samdbeckham @wortschi
@@ -156,8 +156,8 @@
 /content/handbook/engineering/development/ops/verify/pipeline-execution/ @carolinesimpson
 /content/handbook/engineering/development/ops/verify/runner/ @nicolewilliams
 /content/handbook/engineering/development/processes/infra-dev-escalation/ @jameslopez
-/content/handbook/engineering/development/sec/ @twoodham @pcalder
-/content/handbook/engineering/development/sec/govern/ @adil.farrukh @alan @jayswain @nmccorrison @nrosandich @pcalder @ryaanwells @shampton
+/content/handbook/engineering/development/sec/ @twoodham @jeromezng
+/content/handbook/engineering/development/sec/govern/ @adil.farrukh @alan @jayswain @nmccorrison @nrosandich @jeromezng @ryaanwells @shampton
 /content/handbook/engineering/development/sec/govern/anti-abuse.md @jayswain
 /content/handbook/engineering/development/sec/govern/authentication.md @adil.farrukh
 /content/handbook/engineering/development/sec/govern/authorization.md @jayswain
@@ -169,9 +169,9 @@
 /content/handbook/engineering/development/sec/secure/composition-analysis/ @thiagocsf @gonzoyumo @fcatteau
 /content/handbook/engineering/development/sec/secure/vulnerability-research/ @idawson
 /content/handbook/engineering/development/sec/secure/static-analysis/ @tkopel @rvider
-/content/handbook/engineering/expansion-development.md @jeromezng @pcalder
+/content/handbook/engineering/expansion-development.md @jeromezng
 /content/handbook/engineering/frontend/ @timzallmann
-/content/handbook/engineering/workflow/ @timzallmann @jeromezng @sgoldstein @dsatcher @m_gill @pcalder
+/content/handbook/engineering/workflow/ @timzallmann @jeromezng @sgoldstein @dsatcher @m_gill
 
 # CODEOWNER approvals are required for Code Review to support dogfooding approvals
 [Eng-CodeReview]
@@ -257,7 +257,6 @@
 /content/handbook/engineering/readmes/lee-matos.md @lbot
 /content/handbook/engineering/readmes/lyle-kozloff.md @lyle
 /content/handbook/engineering/readmes/marin-jankovski.md @marin
-/content/handbook/engineering/readmes/mark-nuzzo.md @cheryl.li
 /content/handbook/engineering/readmes/matt-nohr.md @mnohr
 /content/handbook/engineering/readmes/max-woolf.md @mwoolf
 /content/handbook/engineering/readmes/mike-dunninger.md @mdunninger
@@ -565,6 +564,7 @@
 /content/handbook/security/identity/ @gitlab-com/gl-security/identity
 /content/handbook/security/product-security/ @juliedavila
 /content/handbook/security/product-security/infrastructure-security/ @jacobjernigan
+/content/handbook/security/product-security/data-security/ @jacobjernigan @boconnor @jcamgl
 /content/handbook/security/product-security/application-security/ @jritchey
 /content/handbook/security/product-security/architecture/ @plafoucriere
 /content/handbook/security/product-security/security-research/ @estrike
@@ -629,7 +629,7 @@
 /content/handbook/company/working-groups/disaster-recovery.md  @mjwood @andrashorvath
 /content/handbook/company/working-groups/frontend-observability.md @timzallmann @samdbeckham
 /content/handbook/company/working-groups/multi-large.md @marin @mbursi
-/content/handbook/company/working-groups/software-supply-chain-security.md @sam.white @pcalder
+/content/handbook/company/working-groups/software-supply-chain-security.md @sam.white @jeromezng
 
 [values]
 /content/handbook/values/ @sytses @streas @drogozinski @sheridam @rallen3 @gitlab-com/office-of-the-ceo @gitlab-com/egroup @gitlab-com/content-sites

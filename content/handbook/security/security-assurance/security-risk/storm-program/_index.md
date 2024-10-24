@@ -13,7 +13,7 @@ The purpose of the Security Operational Risk Management ("StORM") program at Git
 
 ## Scope
 
-The scope of the StORM program is limited to operational, technology-agnostic security risks. These risks can be identified in many ways including Risk Assessments, reports from team members, or as a result of compliance activities. There may be instances where an application's role is so significant to internal security controls that we may create risks specifically for that system. This will primarily be limited to GitLab.com as its use is pervasive in all that we do.
+The scope of the StORM program is limited to operational, technology-agnostic security risks. These risks can be identified in many ways including Risk Assessments, reports from team members, [industry trends](https://github.com/jacobdjwilson/awesome-annual-security-reports), or as a result of compliance activities. There may be instances where an application's role is so significant to internal security controls that we may create risks specifically for that system. This will primarily be limited to GitLab.com as its use is pervasive in all that we do.
 
 **Out of Scope** Unless they are related to a StORM risk (for example security compliance observations that span multiple systems), the following risk-types are not in scope for StORM:
 

@@ -15,7 +15,7 @@ ease of collaboration.
 
 Starting in FY23 Q4, the AMER L&R Team defines its success as:
 
-### Each SE is consistently able to devote appropriate attention to all aspects of the support engineer role
+### Each SE is consistently able to devote appropriate attention to all aspects of the SE role
 
 Key aspects of the success will be:
 

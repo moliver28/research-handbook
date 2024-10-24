@@ -364,10 +364,10 @@ Below is the high level timeline for the formal assessment beginning in Q4 FY25 
 - **2025-02-27:** Workday Calibration open and calibration discussions occur
 - **2025-02-28:** 5:00pm PST Workday Calibration will be locked
 - **2025-03-03**: Kick off Manager Evaluation cycle
-- **2025-03-07:** Annual Compesnation Review Kicks off for Managers
+- **2025-03-07:** Annual Compensation Review Kicks off for Managers
 - **2025-03-15:** Due date for all Manager evaluations. 5:00pm PST Talent Assessment in Workday is locked.
 - **2025-03-31 to 2025-04-02:** Total Rewards and final E-Group review and approval
-- **2025-4-027 to 2025-04-30:** Managers can communicate Performance/Growth Potential assessment and Annual Compensation Review to team members
+- **2025-04-27 to 2025-04-30:** Managers can communicate Performance/Growth Potential assessment and Annual Compensation Review to team members
 - **TBD:** Talent Assessments pending in Workday will be auto advanced to team members*
 - **2025-05-01:** Annual Compensation Review effective date
 
@@ -573,8 +573,8 @@ If you feel a conversation might be particularly challenging, you may reach out 
 **My team member is exceeding growth potential expectations, how should I be thinking about their ongoing development?**
 
 Great! At GitLab team members have the opportunity to own their own development, and deserve a great manager (you) to facilitate it. Ask your team member to articulate where they would like to see their skills and career develop. You may have insights that help them refine those goals based on where you see the business going, as they will be most successful in gaining the experience they're looking for if there are opportunities to align those goals with business goals.
-Using the [70-20-10 model for learning](/handbook/total-rewards/benefits/general-and-entity-benefits/growth-and-development#70-20-10-rule-for-development), help your team member identify experiential and formal learning opportunities, and consider connections you can facilitate that will support their growth.
-The [Career Development handbook page](/handbook/total-rewards/benefits/general-and-entity-benefits/growth-and-development) has more ideas to help your team member craft a growth plan, including information on GitLab's [Growth and Development benefit](/handbook/total-rewards/benefits/general-and-entity-benefits/growth-and-development).
+Using the [70-20-10 model for learning](/handbook/people-group/learning-and-development/growth-and-development/#70-20-10-rule-for-development), help your team member identify experiential and formal learning opportunities, and consider connections you can facilitate that will support their growth.
+The [Career Development handbook page](/handbook/people-group/learning-and-development/growth-and-development/) has more ideas to help your team member craft a growth plan, including information on GitLab's [Growth and Development benefit](/handbook/people-group/learning-and-development/growth-and-development/).
 
 **How should we be communicating Growth Potential to team members who we haven't communicated this to before?**
 

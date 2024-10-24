@@ -467,12 +467,12 @@ Creating a chart with two axes can help unlock the flexibility and customization
 
 *Two Axes*
 Have you ever wanted to show a bar chart and a line chart on screen together? Tableau is great at that - you can overlay one over the other using a dual axis chart. Don’t forget to consider if you want to “synchronize the axes”! That means, if you want both axes to start and end at the same place. 
-![two axes to create two bars](/static/images/handbook/enterprise-data/platform/tableau/dual_axis_two_axes.png)
+![two axes to create two bars](/images/handbook/enterprise-data/platform/tableau/dual_axis_two_axes.png)
 
 Many people have discovered a dual axis chart already for two measures, but did you know that they can be useful for creating labels? 
 
 For example, if you have a stacked bar chart on screen (just one measure), and you want to add a label, Tableau will label each segment of the bar. But let’s say you want to label the whole bar, not each segment! You can use a dual axis chart & remove the color from the back of the two bars to get your desired label!
-![dual axis with color on one bar and the label on the other](/static/images/handbook/enterprise-data/platform/tableau/dual_axis_label.png)
+![dual axis with color on one bar and the label on the other](/images/handbook/enterprise-data/platform/tableau/dual_axis_label.png)
 
 ## Developer Tips and Tricks
 

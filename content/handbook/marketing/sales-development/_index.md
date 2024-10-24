@@ -68,7 +68,7 @@ If you can't find what you're looking for please reach out to a member of the Sa
 | **SDR AMER and EMEA (Manager - Jonathan Rivat)**              | [`#sdr_amer_emea_inbound`](https://gitlab.enterprise.slack.com/archives/C077J5ANZ0T) |
 | **BDR COMM AMER MM (Manager - Christie Park)**       | [`#bdr_amer_comm`](https://gitlab.enterprise.slack.com/archives/C014PHFNE2U) |
 | **BDR ENTG AMER WEST & LATAM (Manager - Charlotte Platt)** | [`#bdr_entg_amer_west_latam`](https://gitlab.enterprise.slack.com/archives/C04R8DN5H8R) |
-| **BDR ENTG AMER EAST (Manager - Brian Tabbert)**       | [`#bdr_entg_amer_east`](https://gitlab.enterprise.slack.com/archives/C04QL1YSXGW) |
+| **BDR ENTG AMER EAST (Manager - Ashley Dunn)**       | [`#bdr_entg_amer_east`](https://gitlab.enterprise.slack.com/archives/C04QL1YSXGW) |
 | **BDR PUBSEC (Manager - Josh Downey)**          | [`#bdr_amer_pubsec`](https://gitlab.enterprise.slack.com/archives/C04R54N159P)|
 | **All - EMEA (Manager - Elsje Smart)**                                      | [`#sdr_emea`](https://gitlab.slack.com/messages/CCULKLB71) |
 | **BDR COMM EMEA MM - (Manager - Fintan Harrington)**     | [`#bdr_comm_emea_mm`](https://gitlab.slack.com/archives/C04NA4BQP54) |
@@ -142,7 +142,6 @@ Please find our SSoT in terms of reporting below, for the 1:1 Dashboards you can
 | [GitLab LevelUp Training channel](https://levelup.gitlab.com/learn/) | Access to GitLab LevelUp Training channel for additional learning resources. |
 | [Sales handbook page](/handbook/sales/) | Main handbook page for Sales, providing essential information and resources. |
 | [Go to Market page](/handbook/sales/field-operations/gtm-resources/) | Resources related to Go-to-Market strategy for Sales. |
-| [Sales Dev Tools and Manager Resources](/handbook/marketing/sales-development/sales-development-tools/) | Tools and resources specifically designed for Sales Development teams and managers. |
 | [Sales Development Org job family/levels](/job-families/marketing/sales-development-representative/) | Overview of job families and levels within the Sales Development Org. |
 | [Territory Alignment](/handbook/marketing/sales-development/#expand-and-territory-alignments) | Guidance on territory alignment for BDRs and SDRs. |
 | [Enterprise BDR Outbound Process Framework](https://drive.google.com/drive/search?q=%20Outbound%20Process%20Framework%22%40gitlab.com) | Framework for the outbound process followed by the Enterprise BDR team. |
@@ -428,6 +427,8 @@ You must change your email signature [in Terminus](/handbook/marketing/marketing
 BDR outbound lead generation is done by prospecting to companies and individuals who could be a great fit for our product. Prospecting is the process of finding and developing new business through searching for potential customers with the end goal of moving these people through the sales funnel until they eventually convert into customers.
 
 BDRs will work closely with their dedicated SAE or AE to choose which accounts move into "Actively Working". Together they will build a strategy for those companies. It is crucial that outreach is very intentional and strategic. When reaching out, we want BDRs to offer value and become a trusted advisor, ensuring a positive impression is left whether there is current demand or not.
+
+Before moving an account into “Actively Working Status”, make sure there have been no MQLs or opportunities created from that account within the past 30 days, and there are no leads from that account in Qualifying status with activity in the last 30 days or with a future task date set.
 
 The FO Outbound process is split in four phases, which should be followed on a weekly basis to ensure a steady outbound pipeline in alignment with our internal KPIs. To manage this process we use a set of datapoints on SFDC on the account-level that are marked under the section "BDR Comments". Please reference the guide below on an explanation on how they work.
 
@@ -1074,6 +1075,10 @@ description: This page walks you through all the tools we use in the Sales Dev o
 
 This page is to act as your guide to the many tools and best practices that the Sales Development Organization uitlizes.
 
+#### Groove
+
+Read more about [Groove here](handbook/marketing/marketing-operations/groove/) 
+
 #### ZoomInfo
 
 [Zoominfo](https://www.zoominfo.com/) provides our Sales Development Representatives and Account Executives with access to hundreds of thousands of prospects and their contact information, company information, tech stack, revenue, and other relevant data. Individual records or bulk exports can be imported into Salesforce using extensive search criteria such as job function, title, industry, location, tech stack, employee count, and company revenue. More information can be found on the Marketing Operations [Zoominfo handbook page.](/handbook/marketing/marketing-operations/zoominfo/)
@@ -1234,8 +1239,9 @@ To help structure your usage of the above, you can follow the steps below during
 The table below can help with structuring how you perceive and action the 1:1 Dashboards we have on SFDC and Tableau, the below connect to the [KPI page here.](/handbook/marketing/sales-development/#outbound-account-management) and the videos [here](https://drive.google.com/file/d/1mOUGPVqhogmT0-mmqyhtiVKs4wmdHEZ_/view?usp=sharing) and [here](https://drive.google.com/file/d/1L3a6-vpG562rY0u4Yve4d_y1148MIvNG/view?usp=sharing) are two quick compelementary resources to walk you through how we use the dashboards.
 
 Additionally this [5' video](https://drive.google.com/file/d/1dx57o5nu9xeHsvHUOC2XYryjxYmfdHvv/view?usp=sharing) explains the purpose of these dashboards, while this [3' video](https://drive.google.com/file/d/1Sf6vFSXb8iNaSGLGv-TtasuPS3xfz-Ni/view?usp=drive_link) walks you through a practical use case of how to use a report in these dashboards.
+
 | Dashboard | Component | Expectation/Action | Coaching Opportunity |
-| ------ | ------- | ------- | ------- |
+| --------- | --------- | ------------------ | -------------------- |
 | 1:1 Accounts Dashboard | 0. Queued and Automatically 6QA'd Accounts | **For accounts in AW (Actively Working):** <br> These accounts include both queued accounts from the Sales team and those automatically marked as 6QA by our system. Team members should review accounts queued by the Sales team weekly, moving them to AWA status or leaving a chatter note with data-driven feedback on why the account was not added to a prospecting pipeline for a conversation to take place. For automatically 6QA'd accounts, BDRs should verify if the auto-qualification is valid and action them accordingly (e.g., move to pipeline or recycle). Supporting evidence from intent tools or other SSoT sources should be included in any review that may take place afterwards. | Combining both queued and auto-qualified accounts into one report allows for better efficiency in reviewing accounts. By ensuring timely review and accountability to both the sales team and the system's auto-qualification process, team members can ensure high-quality leads are not overlooked. This also strengthens collaboration with AEs/SAEs by providing feedback and refining the auto-qualification process. |
 | 1:1 Accounts Dashboard | 1. Review Existing Pipeline | **For accounts in AW:** <br> These accounts are currently in the team member's name. The total volume should not be over 125 for Mid-Market BDRs and 75 for Enterprise BDRs. As a priority, these should be reviewed weekly and action should be taken accordingly to remove or update these accounts. | When clicking into the report, the team member can screen all the data points that can help them gauge the status of their accounts at a glance. Activity and Research fields can be combined with intent data points to quickly see which accounts should be reviewed further manually. |
 | 1:1 Accounts Dashboard | 2. Research Accounts to be Recycled | **For accounts in AW:** <br> These reports are nearing their automated recycle date, which by default is two months after their actively started work date. This report acts as a fallback to the previous report. A BDR should have already reviewed these accounts as part of their actively working account screen done in the previous step. This report will act as a second reminder. | In theory, an outbound account will have received at least 30 days worth of outreach since most sequences we use have at least a 30-day cadence. It's fine to leave an account in a team member's pipeline until it's removed automatically in hopes of getting some inbound MQLs assigned to the BDR. Regardless, there's a business decision to be made about whether expecting inbound MQLs is a sound strategy based on the team member's quota attainment and overall pipeline. |

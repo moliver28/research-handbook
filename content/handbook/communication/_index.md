@@ -278,14 +278,14 @@ Add Values emoji reactions to thank you messages in the [`#thanks` slack channel
 or feel free to use them in GitLab.com, other slack channels and
 social media, when you see alignment to our values: [GitLab's values](/handbook/values/).
 
-| Emoji                        | Custom tanuki emoji      | Meaning                           |
+| Emoji                        | Custom values emoji      | Meaning                           |
 | ---------------------------- | ------------------------ | --------------------------------- |
-| `:handshake:`                | `:collaboration-tanuki:` | Collaboration                     |
-| `:chart_with_upwards_trend:` | `:results-tanuki:`       | Results                           |
-| `:stopwatch:`                | `:efficiency-tanuki:`    | Efficiency                        |
-| `:globe_with_meridians:`     | `:diversity-tanuki:`     | Diversity Inclusion and Belonging |
-| `:footprints:`               | `:iteration-tanuki:`     | Iteration                         |
-| `:eye:`                     | `:transparency-tanuki:`  | Transparency                      |
+| `:handshake:`                | `:collaboration-value:`  | Collaboration                     |
+| `:chart_with_upwards_trend:` | `:results-value:`        | Results for Customers             |
+| `:stopwatch:`                | `:efficiency-value:`     | Efficiency                        |
+| `:globe_with_meridians:`     | `:diversity-value:`      | Diversity Inclusion and Belonging |
+| `:footprints:`               | `:iteration-value:`      | Iteration                         |
+| `:eye:`                      | `:transparency-value:`   | Transparency                      |
 
 ![Values emoji](/images/handbook/values-emoji.png)
 

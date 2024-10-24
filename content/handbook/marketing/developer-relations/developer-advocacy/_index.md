@@ -3,7 +3,7 @@ title: "Developer Advocacy"
 description: "Developer Advocates build GitLab's technical brand with deep, meaningful conversations on engineering topics relevant to our community."
 ---
 
-## <i class="fas fa-bullhorn fa-fw color-purple font-awesome"></i> Welcome to the Developer Advocacy Handbook
+## <i class="fas fa-bullhorn fa-fw -text-purple"></i> Welcome to the Developer Advocacy Handbook
 
 ---
 

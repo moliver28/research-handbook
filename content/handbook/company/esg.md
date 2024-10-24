@@ -141,7 +141,7 @@ To support our aim of facilitating accessible, remote-friendly development for a
 - [Level Up](/handbook/people-group/learning-and-development/level-up/), our learning management software, which is designed to facilitate and centralize the learning experience for GitLab team members.
 - [Self-paced external trainings](/handbook/people-group/learning-and-development/self-paced-learning/), for accessing role-specific training courses and learning materials from industry-leading providers.
 - [Career Development and Mobility](/handbook/people-group/learning-and-development/career-development/), providing resources and direction to help team members engage in lifelong growth to meet their unique goals.
-- A [Growth and Development Fund](/handbook/total-rewards/benefits/general-and-entity-benefits/growth-and-development/), enabling team members to access external resources to develop their skills and careers.
+- A [Growth and Development Fund](/handbook/people-group/learning-and-development/growth-and-development/), enabling team members to access external resources to develop their skills and careers.
 
 As a global, all-remote company with a team of diverse backgrounds, experiences, and perspectives, GitLab offers a dynamic environment and culture where everyone is encouraged to do their best work. Our talent brand empowers team members to share their thoughts on [what it’s like to work here](https://vimeo.com/778157354) because their voices and stories make GitLab unique and successful.
 

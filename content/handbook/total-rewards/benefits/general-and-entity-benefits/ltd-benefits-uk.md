@@ -64,6 +64,7 @@ Please see the Annual 2024 Rates effective 2024-03-01:
 | Family                   | £2,441  | £1918.42 | £522.58 |
 
 Please see the Monthly 2024 Rates effective 2024-03-01:
+
 | Tier                     | Total| GitLab's Cover <br> Benefit in Kind Value  | Team Member Cost <br> 34% of Dependent Cost  |
 |--------------------------|:---:|:----:|:----:|
 | Team Member Only         | £75.34  | £75.34   | £0   |

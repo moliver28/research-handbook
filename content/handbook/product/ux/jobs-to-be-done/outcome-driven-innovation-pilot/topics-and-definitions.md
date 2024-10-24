@@ -34,6 +34,7 @@ The Job Performer is a critical concept referring to the individual undertaking 
 | Keep it simple and generic | Reference technologies or solutions |
 
 **Examples:**
+
 | Good examples | Bad examples |
 | --- | --- |
 | Code Author | Software Engineer (Job title, not a Job Performer) |
