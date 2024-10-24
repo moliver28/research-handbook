@@ -235,7 +235,7 @@ Exceptions to this procedure will be tracked as per the [Information Security Po
 
 ### Overview
 
-Mock DR events are simulated almost every week for a service and/or combination of services to test our DR processes and improve on them in case of an actual incident.
+Mock DR events planned on a quarterly schedule simulated for a service and/or combination of services to test our DR processes and improve on them in case of an actual incident.
 
 ### Definitions
 
