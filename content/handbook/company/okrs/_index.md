@@ -95,24 +95,31 @@ The following formula can be used to write Key Results:
 Verb + what you're going to measure + from "x to y".
 **Key Result Example**: 100% of employees certified on OKR expectations and process.
 
-For information on getting started with OKRs]) and writing basic OKRs, consider reviewing the [OKRs 101 lessons on What Matters](https://www.whatmatters.com/get-started). The ["6 Principles of setting OKRs"](https://primalogik.com/blog/okr-examples-best-practices/#How-to-Set-OKRs) may also be helpful.
+For information on getting started with OKRs and writing basic OKRs, consider reviewing the [OKRs 101 lessons on What Matters](https://www.whatmatters.com/get-started). The ["6 Principles of setting OKRs"](https://primalogik.com/blog/okr-examples-best-practices/#How-to-Set-OKRs) may also be helpful.
+
+Teams should limit the number of OKRs they commit to so they have reasonable bandwidth to deliver. When planning OKRs:
+
+1. Consider non-OKR commitments. While OKRs are the big commitments that the team is making, they [do not supersede core team members responsibilities](#how-do-i-prioritize-okrs-in-light-of-other-priorities). This means retaining team capacity beyond OKRs for work that falls higher in a prioritization framework ([example from product](/handbook/product/product-processes/#prioritization-framework)), such as forced prioritization items with an SLA/SLO. Meeting SLOs is not an OKR, as [OKRs focus on what's different](#okrs-are-what-is-different).
+   1. Other than core team member responsibilities such as those outlined above, all other major commitments should be prioritized through OKRs and consider team bandwidth.
+   1. If a team gets a request for a major effort within the quarter, they can change the OKR by following the guidelines [how to change an OKR within the quarter](#making-changes-within-quarter)
+1. Plan for [OKRs to be ambitious, but achievable](#criteria-for-key-results) within the team capacity that you have for OKRs. While OKRs are meant to be ambitious, [you should aim to complete them](#how-do-i-prioritize-okrs-in-light-of-other-priorities) and strive to hit the ambitious plan. We recognize that with ambitious planning some OKRs will not be completed, but it is striving and reporting on OKRs with the goal of hitting 100% that helps us accomplish strong results. We score individual OKRs as "on track" when they are at least 80% complete. In aggregate, we expect that the average completion score across OKRs is 70%.
+1. [Review cascading OKRs](#cascading-okrs-and-how-to-align-division-okrs-to-the-company-okrs) first and allocate time for those. Cascading OKRs are those at the Company level that need your group's contributions to be achieved. You should prioritize these first.
+1. It is OK to push back on OKRs. If you can't prioritize a cascading or shared OKR due to more important work, contact the owner of the OKR and make adjustments so that it is achievable without your team's contribution, or remove it. It is OK to do this, with clear communication and collaboration. It is not acceptable to simply ignore the cascading OKR or shared OKR without clear upfront communication and prioritize other work instead.
+1. When writing OKRs, focus on outcomes, not tasks, and make key results measurable.
+1. For any OKR with a dependency, make sure to get [commitment on the dependency](#dependency-commitments) with [shared objectives](#shared-objectives). If you don't get commitment in the shared objective, make changes as needed to keep to feasible OKRs.
 
 #### Example OKRs
 
-Product OKR example:
+**Objective: Establish GitLab leadership in X area.**
 
-**Objective**: Drive a meaningful impact on Usability (Bugs, Infradev, Security) in order to avoid losing users due to usability issues.
-**KRs (Key Results):**
+- Avoid ❌ KR1: GitLab X becomes available in beta, including Y functionality in beta, with a path to general availability next quarter.
+- Instead ✅ KR1: GitLab X reaches 100k paid MAU by end of quarter.
+- Avoid ❌ KR2: Ship 10 components to support the use of X.
+- Instead ✅ KR2: 30% of GitLab users are able to use X with the components built.
 
-- group::threat insights: Meet SLAs for all P1 and P2 bugs affecting usability
-- group::code review: Reduce mean-time-to-close of S1 + S2 bugs by 50%
-- group::editor: Complete 10 usability issues related to our primary categories (Web IDE, Snippets, Wiki)
+This aligns with a focus on outcomes and business results instead of KRs tracking tasks or launches.
 
-Samples of well written KRs from GitLab team members:
-
-1. [Q2 product group KR experiment](https://gitlab.com/gitlab-com/Product/-/issues/2095). What makes these great is that they're succinct in scope and have clear metrics to measure success.
-
-External resources:
+##### External resources
 
 1. [Examples from whatmatters](https://www.whatmatters.com/get-examples).
 
