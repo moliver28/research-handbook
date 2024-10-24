@@ -3,13 +3,13 @@ title: Growth and Development Fund
 description: A description of programs and resources for team members to access when using the G&D Fund.
 ---
 
-The Growth and Development (G&D) Fund can be used by GitLab team members to receive reimbursement for approved growth experiences and opportunities at GitLab. Team members can expense up to a maximum of $10,000 per year, provided they meet all eligibility requirements.
+The Growth and Development (G&D) Fund can be used by GitLab team members to receive reimbursement for approved growth experiences and opportunities at GitLab. Team members can be reimbursed for up to $10,000 per calendar year for approved growth experiences, provided they meet all eligibility requirements.
 
 The Growth and Development (G&D) fund is managed by the [Talent Development team](/handbook/people-group/learning-and-development/#learning--development-team). For any questions, please contact a team member directly, or reach out in the #learninganddevelopment slack channel.
 
 ## Eligibility
 
-To use the Growth and Development fund, team members must be full time GitLab employees, meeting performance expectations in their role, and should not be on ‘leave’ status.
+To use the Growth and Development fund, applicants must be full time GitLab employees, meeting performance expectations in their role, and should not be on ‘leave’ status.
 
 ## Process
 
