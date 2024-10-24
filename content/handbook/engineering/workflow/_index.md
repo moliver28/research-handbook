@@ -75,8 +75,8 @@ timeline
         : labels incident #1 with escalation needed
         : pings attributed group channel after 10 minutes of inactivity
         : 2nd ping to group channel after 30 minutes of inactivity
-        : pings stage channel in after 40 minutes of inactivity
-        : escalates to dev-escalation after 1 hour of inactivity
+        : pings stage channel in after 3 hours 40 minutes of inactivity
+        : escalates to dev-escalation after 4 hours of inactivity
         : labels incident #1 is escalated
 ```
 
@@ -86,13 +86,17 @@ Additional details about the phases are listed below.
 
 ### Broken `master` escalation
 
-Recurring broken `master` incidents are automatically escalated to `#dev-escalation` unless it is triaged within 1 hour.
+Recurring broken `master` incidents are automatically escalated to `#dev-escalation` unless it is triaged within 4 hours.
 
 If a broken `master` is blocking your team before auto-escalation (such as creating a security release) then you should:
 
 1. See if there is a non-resolved [broken `master` incident](https://gitlab.com/gitlab-org/quality/engineering-productivity/master-broken-incidents/-/issues) with a DRI assigned and check discussions there.
 1. Check discussions on the failure notification in the triage DRI's group Slack channel to see if anyone is investigating the incident you are looking at. See [Triage broken master](#triage-broken-master) for information on who the triage DRI is.
 1. If there is not a clear DRI or action to resolve, use the [dev escalation](/handbook/engineering/development/processes/infra-dev-escalation/process/) process to solicit help in the broken `master` incident.
+
+#### Escalation on weekends and holidays
+
+Master broken incidents must be manually escalated to `#dev-escalation` on [weekends and holidays](/handbook/engineering/development/processes/infra-dev-escalation/process/#weekends-and-holidays-utc) if necessary. Without a manual escalation, the service level objective can extend to the next working day; that is, triage DRI is expected to triage the incident on the next working day. Regardless of when the label was applied, we always consider an incident to be in an `escalated` state as long as it has the ~"escalation::escalated" label, until the incident is resolved.
 
 ### Triage broken master
 
