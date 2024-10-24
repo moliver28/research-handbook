@@ -5,60 +5,67 @@ description: ""
 
 ## Quick Summary
 
-In order to 'right-size' a warehouse, the following steps are suggested:
+Guidelines to choose the correct warehouse for a particular dbt model:
 
 - The user should base the initial *estimated* warehouse size on the number of partitions scanned within the query
 - Benchmark by increasing the warehouse size and comparing the 'cost' vs 'reduction in query time'
+- In the context of the total credits consumed by the dbt DAG, right-sizing warehouses by model for the smallest models does not lead to much cost reduction
 
 ## Prospectus
 
-In our current dbt set-up, we are currently using a mix of `Large` and `X-Large` warehouses to run our production dbt jobs, based on the model tag.
+In our current dbt set-up, we use a mix of `Large` and `X-Large` warehouses to run our production dbt jobs, based on the model tag.
 
-There is room for improvement here because not every model that is tagged 'product' for example requires an XL warehouse.
+However, dbt offers the ability to specify the warehouse size on the *model* level.
 
-dbt has since introduced functionality to specify the size of the warehouse on the *model* level.
+Initially, we had looked at right-sizing the warehouse for every single model, and we ran benchmarks [in this issue](https://gitlab.com/gitlab-data/analytics/-/issues/21802#note_2143766668) to see what the potential cost savings would be. We found that right-sizing the warehouse for our smaller models doesn't make a key difference in the credits consumed when looking at overall credit consumption.
 
-The goal of this exploration is to provide some guidelines on 'right-sizing' warehouses in the context of the data team's needs so that we can take advantage of setting appropriate warehouse sizes for each dbt model.
+However, this does not make right-sizing the warehouse for models an unnecessary task. It just shows that we should be selective about which models we try to right-size. Since it takes time to right-size each model, time should be allocated to the models that are currently costing the most credits.
 
-Specifically, the following will be discussed:
+The rest of this page will document:
 
-- How warehouse sizing affects cost vs performance
-- Theoretically, what makes the most 'efficient' warehouse for our needs
-  - hypothetical examples
-- Guidelines for right-sizing
-  - Real world examples
+1. Key theoretical concepts for warehouse efficiency:
+    - How warehouse sizing affects cost vs performance
+    - What makes the most 'efficient' warehouse for our needs
+    - Hypothetical examples
+1. How to right-size a warehouse
+    - Steps needed
+    - Real-world examples
+1. When to spend time right-sizing models
+1. Future steps
 
-## Warehouse sizing - concepts
+## Section 1: Warehouse sizing - concepts
+
+<details><summary>Warehouse sizing - concepts</summary>
 
 ### Concept 1: Cost vs Performance
 
-Each time you increase the size of the warehouse by one level, you are doubling the CPU and RAM of your compute instance. Correspondingly, you are also doubling the price via the credits you are consuming.
+Each time you increase the size of the warehouse by one level, you are doubling the CPU and RAM of your compute instance. Correspondingly, you are also doubling the price via the credits you consume.
 
 While the *price is doubled*, in an ideal world on the proper workload/query, the *query time is reduced by half* due to the doubling of the compute instance's resources. Therefore, in this situation, you would pay the same price on either warehouse, but the bigger warehouse would halve the run-time of the query, making it the more efficient choice.
 
-Eventually, if you keep upsizing the warehouse, you'll reach a point of diminishing returns where the query run-time may be only reduced slightly, while the costs increase disproportionately faster.
+Eventually, if you keep upsizing the warehouse, you'll reach a point of diminishing returns, where the query run-time may be only slightly reduced while the costs increase disproportionately faster.
 Here's a select.dev [cost vs performance diagram](https://images.app.goo.gl/K3asyxSqhJqP2hM76) illustrating this point [1].
 
 ### Concept 2: defining 'efficiency'
 
-When thinking about efficiency, there are two dimensions to consider: cost and performance.
+Efficiency comes in two dimensions: cost and performance.
 
-Because there are 2 dimensions, 'efficiency' doesn't have a clear definition, it needs to be decided based on how much you value 'cost' versus 'performance'.
+Because there are two dimensions, 'efficiency' doesn't have a clear definition; it needs to be decided based on how much you value 'cost' versus 'performance.'
 
-In our case, we will say here that we value 'cost' more than 'performance'. This is because for many of our models, we don't have a strict SLA.
+In our case, we will say here that we value 'cost' more than 'performance'. This is because we don't have a strict SLA for many of our models.
 
-However, that is not to say we are willing to sacrifice all performance. In an ideal world, we stay pretty close to our existing dbt run-times. However, when possible, we would rather 'horizontally scale' rather than 'vertically scale'. That is, we would rather run more models concurrently on a cheaper warehouse, than run fewer models concurrently on a more expensive warehouse.
+However, that does not mean we are willing to sacrifice all performance. In an ideal world, we stay pretty close to our existing dbt run-times. However, when possible, we would rather 'horizontally scale' rather than 'vertically scale'. That is, we would rather run more models concurrently on a cheaper warehouse than run fewer models concurrently on a more expensive warehouse.
 
 Based on the requirements above, we will define efficiency clearly as follows:
 
-> **A warehouse is efficient when compared to the next-size smaller warehouse, the query run-time is reduced by 40% or more.**
+> **A warehouse is efficient when compared to the next-size smaller warehouse; the query run-time is reduced by 40% or more.**
 
-Explanation: As discussed in the previous section, for the next-size bigger warehouse, in order for it to break-even, it needs to run 2x as fast (query run-time is reduced by **50%**) to compensate for its 2x price increase.
+Explanation: As discussed in the previous section, for the next-size bigger warehouse to break even, it needs to run 2x as fast (query run-time is reduced by **50%**) to compensate for its 2x price increase.
 
-In our definition, we require run-time to be reduced by at least 40%, which translates to a maximum increase in cost of 20%. The reason why we don't require 50% reduction in run-time (and break-even in costs) is the following:
+In our definition, we require run-time to be reduced by at least 40%, which translates to a maximum increase in cost of 20%. The reason why we don't require a 50% reduction in run-time (and break-even in costs) is the following:
 
 - we need our performance to stay close to existing dbt run-times
-- we want to work iteratively, which means setting a more realistic goal that allows some wiggle room, and then adjusting the goalpost once we learn more.
+- we want to work iteratively, which means setting a more realistic goal that allows some wiggle-room and then adjusting the goalpost once we learn more.
 
 <details><summary>Aside: calculating percentage improvements for run-times</summary>
 
@@ -106,15 +113,15 @@ The run-time has decreased by 40% from 1 hour -> 36 minutes. Meanwhile, the cost
 | Small          | 2          | 0.6              | $2.40  |
 | % increase     |            | -40%              | 20%    |
 
-In this case, it's no longer a no-brainer to upsize the warehouse. It now depends on how much you value cost vs query run-time.
+In this case, upsizing the warehouse is no longer a no-brainer. It now depends on how much you value cost vs. query run-time.
 
-If you only cared about cost, you would stick with the X-small, and if you only cared about speed, you would go with the Small.
+If you only cared about cost, you would stick with the X-small; if you only cared about speed, you would go with the Small.
 
-In our case, we want to find a balance between both, so we use the previously established guideline:
+In our case, we want to find a balance between both, so we use the previously established guidelines:
 
 > **A warehouse is efficient when compared to the next-size smaller warehouse, the query run-time is 40% less.**
 
-In this case, since the query run-time has been reduced by 40% it's exactly on the threshold of being considered 'efficient' and we should choose the 'S' warehouse.
+In this case, since the query run-time has been reduced by 40%, it's exactly on the threshold of being considered 'efficient', and we should choose the 'S' warehouse.
 
 ##### Example 3
 
@@ -126,61 +133,58 @@ Example 3, run-time has decreased by 20% from 1 hour -> 48 minutes. Meanwhile, t
 | Small          | 2          | 0.8              | $3.20  |
 | % increase     |            | -20%              | 60%    |
 
-In this case, the query would be considered 'inefficient', because the run-time has only been reduced by 20%, and for it to be considered 'efficient', the run-time needs to be reduced by 40% or more. Therefore, the 'XS' warehouse should be chosen.
+In this case, the query would be considered 'inefficient' because the runtime has only been reduced by 20%. For it to be considered 'efficient', the runtime needs to be reduced by 40% or more. Therefore, the 'XS' warehouse should be chosen.
 
-## Steps to rightsizing warehouse
+</details>
 
-We have discussed the theory of what the 'optimal' warehouse is, how do we actually choose the correct warehouse for each model?
+## Section 2: Steps to right-sizing warehouse
+
+<details><summary>Steps to rightsizing warehouse</summary>
+
+We have discussed in theory what an 'optimal' warehouse is, but how do we actually choose the correct warehouse for each model?
 
 Here are the steps:
 
-1. run an `explain` plan to figure out how many partitions the table has
+1. run an [explain plan](https://docs.snowflake.com/en/sql-reference/sql/explain) to figure out how many partitions the table has
 1. Based on the number of partitions, use select.dev [# of partitions diagram](https://images.app.goo.gl/KtS6aXsKhRzN7e3f6) to **estimate** what warehouse to start with
-1. Run the query in `dbt` with the first estimated warehouse
-1. Check the below 'Benchmarking heuristics' section to see if you can immediately assign a warehouse, if not, continue
+1. Run the query in `dbt` with the estimated warehouse from the previous step
+1. Check the below 'Benchmarking heuristics' section to see if you can immediately assign a warehouse; if not, continue
 1. Using this [Google Sheet](https://docs.google.com/spreadsheets/d/1dh7cKTxeV3rUQ2J_k4nxPGbMe7IQFc-D1Rbahjsk5zc/edit?gid=1778011584#gid=1778011584) record the `query time`
 1. Upsizing warehouse(s)
-    - Now, run the query again with the next highest warehouse
-    - Record the results
-    - Continue these steps until one of the following occurs:
-        - you upsized to `XL` warehouse
-        - the *cost* is increasing faster than the *performance*
+    - Now, rerun the query with the next highest warehouse
+    - Record the results in the Google Sheet again
+    - Stop once the *cost* is increasing faster than the *performance*
 
-In the next sections, we'll look at the following:
+In the following sections, we'll look at the following:
 
 - Why the benchmarking needs to happen in dbt
-- We'll look at 2 examples of rightsizing warehouses by following these steps:
+- We'll look at two examples of right-sizing warehouses by following these steps:
   1. simple query: `gitlab_dotcom_deployment_todo_dedupe_source`
   1. more complicated query with more partitions: `prep_ci_stage`
 
-### Benchmarking Heuristics
-
-A heuristic is a mental shortcut. In extreme cases, benchmarking is not needed:
-
-- if the model runs slower than 3 minutes on a 'XS'
-- if the model runs longer than 10 minutes on a 'XL'
+<details><summary>Why benchmarking should be done in dbt environment</summary>
 
 ### Benchmarking needs to be done in dbt
 
-In the above list of steps, it states that the queries need to be run in dbt. This is because for almost all models, at least two SQL statements are being run. Firstly, a `SELECT` statement is being run, but additionally, one of these two statements is also being run under the hood:
+In the above list of steps, it states that the queries need to be run in dbt. This is because for almost all models, at least two sets of SQL statements are being run. Firstly, a `SELECT` statement is being run, but additionally, one of these two statements is also being run under the hood:
 
 - For incremental models, a [`MERGE`](https://docs.snowflake.com/en/sql-reference/sql/merge) statement is being run
 - For new and full_refresh models, a `CREATE TABLE` statement is being run
 
-Both of these additional SQL statements can be expensive computationally and need to be part of the benchmark.
+These additional SQL statements can be expensive computationally and need to be part of the benchmark.
 
 When using `dbt run`, these statements are automatically run for you. Therefore, it's best to run all warehouse benchmarking queries via dbt, either locally or via CI job.
 
 #### Benchmarking incremental runs
 
-When benchmarking `incremental` models specifically, the 'most efficient' warehouse will be very different based on whether it's an incremental or full_refresh run.
+When benchmarking `incremental` models specifically, the 'most efficient' warehouse will differ based on whether it's an incremental or full_refresh run.
 
 At the very least, the incremental runs should be benchmarked like so:
 
 1. The corresponding table should be fully loaded
-1. Delete the previous day of data, and run *incrementally* using the estimated warehouse based on the size of the partition.
+1. Delete the previous day of data and then run the model *incrementally* using the estimated warehouse based on the partition size.
 
-Optional: The model could also be benchmarked for running `full_refresh`. That way the model can be configured on a different warehouse based on whether it is an `incremental` or `full_refresh` run:
+Optional: The model could also be benchmarked by running it on `full_refresh` as well. That way, the model can be configured on a different warehouse based on whether it is an `incremental` or `full_refresh` run:
 
 ```sql
 {% if is_incremental() %}
@@ -197,7 +201,11 @@ SELECT *
 FROM my_table
 ```
 
-The below sections will look at 2 examples of how to follow the benchmarking steps.
+</details>
+
+<details><summary>Real world benchmarking examples</summary>
+
+The below sections will look at two examples of how to follow the benchmarking steps.
 
 ### example 1: gitlab_dotcom_deployment_todo_dedupe_source
 
@@ -214,7 +222,7 @@ QUALIFY ROW_NUMBER() OVER ( PARTITION BY id ORDER BY _uploaded_at DESC) = 1;
 
 The 2nd step is to choose a warehouse based on the number of partitions, per the above diagram. In this case, with 630 partitions, we can start with a size `XS` warehouse.
 
-With warehouse `XS` the query `01b5ff9d-080a-e214-0000-289d77d4f1e2` took 7m14s, so we'll add those stats to the google sheets template
+With warehouse `XS`, the query `01b5ff9d-080a-e214-0000-289d77d4f1e2` took 7m14s, so we'll add those stats to the Google Sheets template
 
 Next, we will try using `M` warehouse. First, let's remove caching by running:
 
@@ -222,7 +230,7 @@ Next, we will try using `M` warehouse. First, let's remove caching by running:
 ALTER SESSION SET USE_CACHED_RESULT = FALSE;
 ```
 
-With warehouse `M` query `01b5ffc3-080a-e214-0000-289d77d57b3e` took 1m45s, so we'll add those stats to the google sheets template:
+With warehouse `M` query `01b5ffc3-080a-e214-0000-289d77d57b3e` took 1m45s, so we'll add those stats to the Google Sheets template:
 
 | warehouse_size | Credits/hr | run-time minutes part | run-time seconds part | run-time in hours | cost   |
 |----------------|------------|----------------------|----------------------|------------------|--------|
@@ -230,9 +238,9 @@ With warehouse `M` query `01b5ffc3-080a-e214-0000-289d77d57b3e` took 1m45s, so w
 | Medium         | 4          | 1                    | 45                   | 0.03             | $0.23  |
 | % increase     |            |                      |                      | -76%             | -3%    |
 
-The above shows that with the `M` warehouse, run-time has decreased by 73%, AND cost has also decreased by 3%, meaning that a 'M' warehouse is superior than the XS warehouse in this situation.
+The above shows that with the `M` warehouse, run-time has decreased by 73%, AND cost has also decreased by 3%, meaning that a 'M' warehouse is superior to the XS warehouse in this situation.
 
-Since the performance has increased faster than the cost, we can upsize again to `L` warehouse to see if that continues to be the case.
+Since performance has increased faster than cost, we can upsize again to the `L` warehouse to see if that continues.
 
 Using the `L` warehouse, the query `01b5ffdc-080a-e214-0000-289d77d5c756` finished in 1m23s, pasting this into the spreadsheet:
 
@@ -243,9 +251,9 @@ Using the `L` warehouse, the query `01b5ffdc-080a-e214-0000-289d77d5c756` finish
 | Large          | 8          | 1                    | 23                   | 0.02             | $0.37  |
 | % increase     |            |                      |                      | -21%             | 58%    |
 
-The above spreadsheet shows that query run-time was reduced by 21% (good), but costs increased by 58% (bad). Therefore, the price is increasing much faster than the performance gains.
+The above spreadsheet shows that query run-time was reduced by 21% (good), but costs increased by 58% (bad). Therefore, the price is growing much faster than the performance gains.
 
-Conclusion: the `M` warehouse has the best run-time-to-cost ratio, and is the one that should be used for this model.
+Conclusion: The `M` warehouse has the best run-time-to-cost ratio and should be used for this model.
 
 ### example 2: prep_ci_stage
 
@@ -323,7 +331,7 @@ FROM
 
 </details>
 
-The EXPLAIN plan shows the total there are `9211` partitions that will need to be scanned. The estimation warehouse diagram has guidelines for 8,000 and 16,000 multi-partitions.
+The EXPLAIN plan shows that there are a total of `9211` partitions that will need to be scanned. The estimation warehouse diagram has guidelines for 8,000 and 16,000 multi-partitions.
 
 We'll start with the `L` warehouse.
 
@@ -348,20 +356,35 @@ Pasting the run-times in our spreadsheet:
 
 It's clear that the `XL` is more 'efficient' here because the run-time was reduced by 64%, and the cost was reduced by 29%.
 
-## Additional considerations
+</details>
 
-- By following these guidelines to 'rightsize' warehouses for each individual model, we may end up saving on costs, but have decreased performance. If this becomes the case, we can consider **scaling-out**. This would allow us to speed up query processing for our thousands of models, while at the same time, maintaining optimal warehouse sizing.
-- In order to find the most 'efficient' warehouse, it will necessitate having at least one size of each warehouse accessible to be run by any user. Currently, we're missing 'S', '2XL', '3XL'
-- Until the totality of models is run using a 'right-sized' warehouse, it will be hard to predict the effect on cost.
+</details>
 
-## Future steps
+## Section 3: When to right-size models
 
-1. Use/enforce these guidelines for new dbt models
-1. All these benchmarking steps can and should be implemented programmatically. Furthermore, a CI job could be one end product of this that tells the user what size warehouse they *should* be using
-1. Convert old dbt models, ideally in some rule-based or programmatic way
-  1. Triage: Find queries with the least partition scanned using the biggest warehouses
+<details><summary>When to right-size models</summary>
 
-## Sources
+As mentioned in the Prospectus section, a benchmark was done right-sizing all the models in the `non-product` dbt task, and per [this benchmarking issue](https://gitlab.com/gitlab-data/analytics/-/issues/21802#note_2174248992). It shows that right-sizing the smallest models does NOT lead to significant cost-savings (if at all), even though these type of models make up more than 90% of the models within the run.
+
+Therefore, in the context of the `dbt.py` DAG, benchmarking would be most valuable for the most expensive models. We can use the [query_attribution](https://docs.snowflake.com/sql-reference/account-usage/query_attribution_history) Snowflake table to find these models.
+
+A small caveat to the above is that we also run dbt models in other environments outside of the production `dbt.py` DAG, such as:
+
+- locally
+- CI jobs
+
+In these latter environments, it may make sense to right-size the warehouse for every model, even if the models are small. In these cases, the method to right-size doesn't need to be as precise, i.e., having to compare against multiple warehouse sizes. Instead, one could immediately assign an estimated warehouse per model based on the number of partitions scanned by the model.
+
+To summarize, the priority for right-sizing warehouses should be the largest models that take the longest to run and consume the most credits since these models make up a disproportionate amount of the total credits consumed.
+
+</details>
+
+### Future steps
+
+1. When working on query optimization of the most expensive models, one should also consider benchmarking the warehouse to make sure the most 'efficient' warehouse is being used
+1. Consider implementing these benchmarking steps programmatically. For example, a CI job could be one end product of this that tells the user what size warehouse they *should* be using.
+
+### Sources
 
 - [1] [select.dev: warehouse sizing](https://select.dev/posts/snowflake-warehouse-sizing)
 - [2] calculating percentage improvements for run-times, [StackOverflow](https://stackoverflow.com/a/28404036)
