@@ -8,7 +8,7 @@ title: "Data Infrastructure"
 
 ## <i class="fas fa-map-marked-alt fa-fw -text-purple"></i> Quick Links
 
-- [Airflow](https://airflow.gitlabdata.com)
+- [Airflow](https://gitlab.com/gitlab-data/airflow-infrastructure)
 - [Data Image Project](https://gitlab.com/gitlab-data/data-image)
 - [Monte Carlo](/handbook/enterprise-data/platform/monte-carlo)
 - [Python Guide](/handbook/enterprise-data/platform/python-guide)
