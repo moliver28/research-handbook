@@ -64,6 +64,10 @@ If at any point during the refinement process it is determined that something is
 - Make a best-effort to `@-mention` the appropriate Engineering Manager, Product Manager, or teams and apply the relevant group labels
 - Consider applying the `~Seeking community contributions` label, if the issue is public and a potential fit for a community contribution
 
+# Completing work
+
+When work has been completed, be sure to update the relevant issues to be `workflow::complete` (or other appropriate `workflow::` label).
+
 ### Refinement, Design, and Build
 
 Like [Single Engineer groups](/handbook/engineering/development/incubation/), each Product Security Engineer will *"encompass all of product development (product management, engineering, design, and quality) at the smallest scale. They are free to learn from, and collaborate with, those larger departments at GitLab but not at the expense of slowing down unnecessarily".*
