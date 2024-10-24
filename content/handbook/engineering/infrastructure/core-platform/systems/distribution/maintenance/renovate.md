@@ -68,7 +68,7 @@ A snippet that describes how to test locally can be found [here](https://gitlab.
 ## Adding new dependencies
 
 1. Add a fork of the canonical project [here](https://gitlab.com/gitlab-org/frontend/renovate-gitlab-bot/-/blob/main/forks/config.tfvars).
-   - This automatically creates a fork of the canonical project, which is used by Renovate to create MRs for the canonical project. 
+   * This automatically creates a fork of the canonical project, which is used by Renovate to create MRs for the canonical project. 
 1. Add configuration file under suitable project [here](https://gitlab.com/gitlab-org/frontend/renovate-gitlab-bot/-/tree/main/renovate/projects).
 
 ## Additional Information
