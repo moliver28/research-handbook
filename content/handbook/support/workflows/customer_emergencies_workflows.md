@@ -76,7 +76,7 @@ NOTE: 💡Solving emergency tickets will count towards your AQC
 
 ### Communicate
 
-When you get an alert, you should immediately use the PagerDuty message in Slack to start a thread and take notes therein. Tag the Customer Success Manager (CSM) - "cc @user" is good enough - if the customer has one (steps [here](/handbook/support/workflows/support-sales-escalations#role-customer-success-manager-csm) for how to identify CSMs). This creates visibility around the situation and opens the door to let the team join in.
+When you get an alert, you should immediately use the PagerDuty message in Slack to start a thread and take notes therein. Tag the Customer Success Manager (CSM)—`cc @user` is good enough—if the customer has one (see [this workflow for how to identify CSMs](/handbook/support/workflows/support-sales-escalations#role-customer-success-manager-csm)). This creates visibility around the situation and opens the door to let the team join in.
 
 Good notes in Slack help others follow along, and help you with your follow-ups after the call.
 
