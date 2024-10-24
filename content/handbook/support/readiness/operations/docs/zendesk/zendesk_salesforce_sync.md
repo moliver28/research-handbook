@@ -142,14 +142,17 @@ SELECT
   )
 FROM Account
 WHERE
+  Type IN ('Customer', 'Former Customer') AND
   (
-    Account_Demographics_Territory__c LIKE 'PUBSEC%' AND
-    Account_Demographics_Territory__c != 'PUBSEC_' AND
     (
-      NOT Account_Demographics_Territory__c LIKE '%SLED%'
-    )
-  ) OR
-  Support_Instance__c = 'federal-support'
+      Account_Demographics_Territory__c LIKE 'PUBSEC%' AND
+      Account_Demographics_Territory__c != 'PUBSEC_' AND
+      (
+        NOT Account_Demographics_Territory__c LIKE '%SLED%'
+      )
+    ) OR
+    Support_Instance__c = 'federal-support'
+  )
 ```
 
 </details>
@@ -184,6 +187,7 @@ SELECT
   Name,
   Email,
   Account.Account_ID_18__c,
+  Account.Type,
   Account.Name,
   Role__c
 FROM Contact
@@ -191,10 +195,11 @@ WHERE
   Inactive_Contact__c = false AND
   Name != '' AND
   Email != '' AND
-  Role__c = 'Gitlab Admin' AND
+  Role__c INCLUDES ('Gitlab Admin') AND
   (
     NOT Email LIKE '%gitlab.com'
   ) AND
+  Account.Type IN ('Customer', 'Former Customer') AND
   (
     (
       Account.Account_Demographics_Territory__c LIKE 'PUBSEC%' AND
