@@ -82,7 +82,7 @@ You should decide your scoring methodology ahead of time. You might score an OKR
 
 ### How do I prioritize OKRs in light of other priorities?
 
-OKRs do not replace or supersede core team member responsibilities or performance indicators. OKRs are additive and are essentially a high signal request from your leadership team to prioritize the work. They typically are used to help galvanize the entire company or a set of teams to rapidly move in one direction together. You should aim to complete them unless you have higher priority work that is surfaced and agreed to by leadership.  When surfacing tradeoffs, team members should not factor in how an unmet OKR may impact your executive leadership bonus in their prioritization. They should instead focus on GitLab priorities. If your executive leader still feels that the OKR is more important, they will ask you to *disagree and commit*.
+OKRs do not replace or supersede core team member responsibilities or performance indicators. OKRs are additive and are essentially a high signal request from your leadership team to prioritize the work. They typically are used to help galvanize the entire company or a set of teams to rapidly move in one direction together. You should aim to complete them unless you have higher priority work that is surfaced and agreed to by leadership.  When surfacing tradeoffs, team members should not factor in how an unmet OKR may impact your executive leadership bonus in their prioritization. They should instead focus on GitLab priorities. If your executive leader still feels that the OKR is more important, they will ask you to _disagree and commit_.
 
 ## OKR Process at GitLab
 
@@ -107,7 +107,7 @@ The exact timeline for the upcoming quarter will be [available in the handbook](
 
 When ready for review or when changes to objectives or KRs are made, relevant objectives and KR links from GitLab should be shared in the `#okrs` channel in Slack and at-mention the CoS to the CEO, and CEO. The CEO is responsible for OKR approvals, but may delegate this responsibility to the CoS to the CEO.
 
-See [How to Use GitLab for OKRs](#how-to-use-gitlab-for-okrs) for how to create and align OKRs to company OKRs using GitLab.
+See [How to Use GitLab for OKRs](okrs-in-gitlab.md) for how to create and align OKRs to company OKRs using GitLab.
 
 ### Cascade
 
