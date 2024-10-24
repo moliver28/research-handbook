@@ -45,7 +45,7 @@ For GitLab Team members only:
 
 Once you have AI set up locally, you will need to enable Duo features. Follow the steps below to ensure you have everything correctly configured.
 
-![Enable Duo in GDK](/handbook/engineering/development/sec/govern/threat-insights/enable_duo_gdk.png)
+Follow this [instructions here](https://docs.gitlab.com/ee/development/ai_features/#set-up-and-run-gdk) to setup and run GDK.
 
 ### Usage
 
