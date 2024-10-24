@@ -262,16 +262,16 @@ introduce a stage of transforming information: `transform`.
       {
         "type": "base64-line-delimited",
         "key": "decoded",
-        "value": "{payload}"
+        "value": "${payload}"
       }
     ],
     "action": "classify",
     "classify": {
       "type": "ROUTABLE_TOKEN",
       "routable_token": {
-        "cell_id": "{decoded.c}",
-        "organization_id": "{decoded.o}",
-        "user_id": "{decoded.u}"
+        "cell_id": "${decoded.c}",
+        "organization_id": "${decoded.o}",
+        "user_id": "${decoded.u}"
       }
     }
   }
@@ -299,23 +299,23 @@ queried by `ROUTABLE_TOKEN`.
       {
         "type": "header",
         "key": "CI_JOB_JWT",
-        "value": "^(?<headers>\w+)\.(?<payload>\w+)\.(?<signature>\w+)$"
+        "value": "^(?<headers>\\w+)\\.(?<payload>\\w+)\\.(?<signature>\\w+)$"
       }
     ],
     "transform": [
       {
         "type": "base64-json",
         "key": "decoded",
-        "value": "{payload}"
+        "value": "${payload}"
       }
     ],
     "action": "classify",
     "classify": {
       "type": "ROUTABLE_TOKEN",
       "routable_token": {
-        "cell_id": "{decoded.cell_id}",
-        "organization_id": "{decoded.organization_id}",
-        "user_id": "{decoded.user_id}"
+        "cell_id": "${decoded.cell_id}",
+        "organization_id": "${decoded.organization_id}",
+        "user_id": "${decoded.user_id}"
       }
     }
   }
@@ -336,28 +336,28 @@ on CPU compute cost:
       {
         "type": "header",
         "key": "CI_JOB_JWT",
-        "value": "^(?<headers>\w+)\.(?<payload>\w+)\.(?<signature>\w+)$"
+        "value": "^(?<headers>\\w+)\\.(?<payload>\\w+)\\.(?<signature>\\w+)$"
       }
     ],
     "transform": [
       {
         "type": "jwt-signature",
         "key": "env.GITLAB_CI_JWT_PUBLIC_KEY",
-        "value": "{headers}.{payload}"
+        "value": "${headers}.${payload}"
       },
       {
         "type": "base64-json",
         "key": "decoded",
-        "value": "{payload}"
+        "value": "${payload}"
       },
     ],
     "action": "classify",
     "classify": {
       "type": "ROUTABLE_TOKEN",
       "routable_token": {
-        "cell_id": "{decoded.cell_id}",
-        "organization_id": "{decoded.organization_id}",
-        "user_id": "{decoded.user_id}"
+        "cell_id": "${decoded.cell_id}",
+        "organization_id": "${decoded.organization_id}",
+        "user_id": "${decoded.user_id}"
       }
     }
   }
