@@ -56,9 +56,9 @@ Ensure the issues being referenced are correctly tagged and updated.
 All GitLab engineers can, and are encouraged to, perform a code review on merge requests of colleagues and community contributors. If you want to review merge requests, you can wait until someone assigns you one, but you are also more than welcome to browse the list of open merge requests and leave any feedback or questions you may have.
 
 You can find someone to review your merge requests by: 
-1. Looking on the list of [GitLab Digital Experience Team Members](/handbook/marketing/digital-experience/#team-members).
-2. Utilizing Reviewer Roulette which will drop suggestions for both a maintainer an reviewer currently available on our team. The suggestion will be listed 
-
+1. Looking on the list of [GitLab Digital Experience Team Members](/handbook/marketing/digital-experience/#team-members). 
+2. Utilizing Reviewer Roulette which will drop suggestion(s) for both a maintainer an reviewer currently available on our team. The suggestion will be listed as on comment on the change associated with your MR *Reviewer Roulette is only availble for the Buyer Experience project*
+3. Utilizing the [Gitlab Review Workload Dashboard](https://gitlab-org.gitlab.io/gitlab-roulette/?currentProject=buyer-experience) this will randomly select a maintainer and reviewer for you *Gitlab Review Workload Dashboard is only availble for the Buyer Experience project*
 Note that while all engineers can review all merge requests, the ability to *accept* merge requests is restricted to maintainers.
 
 ## Review turnaround time
