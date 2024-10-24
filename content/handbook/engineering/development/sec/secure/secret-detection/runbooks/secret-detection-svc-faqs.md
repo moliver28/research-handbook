@@ -60,7 +60,7 @@ This page contains answers to the general questions about the Secret Detection S
 
 14. **Is there any rate limiting added to the APIS?**
 
-    Application-level rate limiting is not added, however, Cloud Run defines [rate limiting](https://cloud.google.com/run/quotas#networking_limits) for the instances under which the service is covered. Read this [Slack thread](https://gitlab.slack.com/archives/C05G970PHSA/p1721804085968539) for more information.
+    Application-level rate limiting is not added, however, Cloud Run defines [rate limiting](https://cloud.google.com/run/quotas#networking_limits) for the instances under which the service is covered.
 
 15. **What are the Service Level Indicators(SLIs) for the service to determine the availability?**
 

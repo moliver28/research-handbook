@@ -4,7 +4,7 @@ title: "Secret Detection Service: Monitoring"
 
 ### When to use this runbook?
 
-This runbook is intended to be used when monitoring the [Secret Detection Service](../../../../../../engineering/architecture/design-documents/secret_detection/#phase-2---standalone-secret-detection-service) to identify and mitigate any reliability issues or performance regressions that may occur when it is enabled on Gitlab SaaS.
+This runbook is intended to be used when monitoring the [Secret Detection Service](../../../../../../engineering/architecture/design-documents/secret_detection/#phase-2---standalone-secret-detection-service) to identify and mitigate any reliability issues or performance regressions that may occur when it is enabled on Gitlab.com and/or Dedicated.
 
 ### What to monitor?
 
