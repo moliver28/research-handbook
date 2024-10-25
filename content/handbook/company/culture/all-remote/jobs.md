@@ -59,7 +59,7 @@ However, an increasing amount of startups and small-to-medium sized businesses a
 1. [Podia](https://www.podia.com), a remote-only company, see [their founder's Tweetstorm](https://twitter.com/spencerfry/)
 1. [Knack](https://www.knack.com), a remote-only company, see [why they work remotely](https://www.knack.com/blog/why-we-chose-remote).
 1. [Honeybadger](https://www.honeybadger.io), see [how they work](https://www.honeybadger.io/careers/).
-1. [Doist](https://doist.com), makers of [Todist](https://todoist.com) and [Twist](https://twistapp.com). Here's how they [make remote work happen](https://blog.doist.com/https-blog-doist-com-managing-remote-teams-622521189e80), as well as [a blog post on not sacrificing one's career ambitions in an all-remote setting](https://doist.com/blog/remote-career-advice/).
+1. [Doist](https://doist.com), makers of [Todoist](https://todoist.com) and [Twist](https://twistapp.com). Here's how they [make remote work happen](https://blog.doist.com/https-blog-doist-com-managing-remote-teams-622521189e80), as well as [a blog post on not sacrificing one's career ambitions in an all-remote setting](https://doist.com/blog/remote-career-advice/).
 1. [Discourse](https://www.discourse.org/), see Coding Horror's ["We hire the best, just like everyone else"](https://blog.codinghorror.com/we-hire-the-best-just-like-everyone-else/)
 1. [Aha!](https://www.aha.io/), see their blog about [remote work](https://blog.aha.io/category/remote-work/).
 1. [Articulate](https://articulate.com), see their [company page](https://www.articulate.com/about/) for how they work.
