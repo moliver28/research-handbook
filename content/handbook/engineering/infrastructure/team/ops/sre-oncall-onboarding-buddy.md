@@ -4,8 +4,8 @@ title: "SRE Onboarding Buddies"
 
 ## Introduction
 
-SRE oncall onboarding buddies play a crucial role in ensuring a positive and effective onboarding experience for new engineers joining the oncall rotation. Being on call can be very stressful, particularly for engineers who are new to the role or unfamiliar with our systems and processes. 
-That's why it's essential that all new engineers joining the oncall rotation be assigned a buddy who is ready and willing to assist with the onboarding process. These buddies are experienced oncall engineers who can provide guidance, support, and share their invaluable knowledge.
+SRE on-call onboarding buddies play a crucial role in ensuring a positive and effective onboarding experience for new engineers joining the on-call rotation. Being on call can be very stressful, particularly for engineers who are new to the role or unfamiliar with our systems and processes. 
+That's why it's essential that all new engineers joining the on-call rotation be assigned a buddy who is ready and willing to assist with the onboarding process. These buddies are experienced on-call engineers who can provide guidance and support and share their invaluable knowledge.
 
 The SRE oncall buddy system is designed to:
 
@@ -58,7 +58,7 @@ Review and discuss incidents from the past week
 ### Being an SRE-Buddy
 
 1. Join the `sre-buddies` Slack group
-1. When a buddy is requested via the Slack group, review if the timezone is suitable and if you have capacity to be assigned to the EOC-Shadow
+1. When a buddy is requested via the Slack group, review if the timezone is suitable and if you have the capacity to be assigned to the EOC-Shadow
 1. Organize initial coffee chat with your EOC-Shadow
 1. Discuss the time for periodic call after each of your weekly shifts. Review the process for the Shadow to be a primary respondent for S3/S4 incidents. Be available as a secondary respondent for each incident
 1. Regularly check onboarding progress and provide additional support when needed
