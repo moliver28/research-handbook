@@ -71,7 +71,6 @@ gitlab-ctl restart
 - Deleting and recreating the container will revert the patch.
 - The value for the patch option `-p` needs to be set to the correct a strip size.
 
-
 ## Patching a Kubernetes install
 
 Patching a Kubernetes install involves doing the following steps:
