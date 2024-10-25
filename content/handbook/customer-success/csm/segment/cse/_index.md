@@ -326,7 +326,7 @@ The [DCI matrix](/handbook/people-group/directly-responsible-individuals/#dri-co
 <td>I</td>
 <td>DRI</td>
 <td></td>
-<td>DRI</td>
+<td></td>
 <td>(I)</td>
 <td></td>
 <td>(C),(I): It will depend on the situation.</td>
