@@ -1,5 +1,5 @@
 ---
-title: Staff Internal Audit & SOX Compliance Analyst
+title: Staff IT Auditor
 description: responsible for preparing and implementing a risk-based audit plan to assess, report on, and make suggestions for improving the company's key operational, finance, and internal controls with a specialty in IT risk and security
 ---
 
