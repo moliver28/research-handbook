@@ -13,7 +13,7 @@ The objective of this lab is to demonstrate how to upgrade a GitLab instance.
 
 1. Navigate to your GitLab instance and sign in as the root user.
 
-1. In the left sidebar, select **Help > Help**
+1. In the left sidebar, select **Help > Help**.
 
 1. At the top of the page, you will see your full GitLab version. For this lab, you will see `17.4.1-ee`. 
 
@@ -59,9 +59,9 @@ At this point, you have been redirected to the login page of your instance. To v
 
 1. Authenticate to your GitLab instance as the root user. 
 
-1. In the left sidebar, select **Admin**
+1. In the left sidebar, select **Admin**.
 
-1. In the left sidebar, select **Monitoring > Background migrations**
+1. In the left sidebar, select **Monitoring > Background migrations**.
 
 1. Review the table for any migrations in the **Queued** section. These migrations need to complete before you complete any additional upgrades. Once they complete, they will show in the **Finished** tab.
 

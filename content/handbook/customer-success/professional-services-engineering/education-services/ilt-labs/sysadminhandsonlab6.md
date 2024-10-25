@@ -48,7 +48,7 @@ The objective of this lab is to demonstrate how to use Prometheus and Grafana fo
    sudo gitlab-ctl restart nginx
    ```
 
-1. View the logs and verify that Nginx is now receiving and processing requests
+1. View the logs and verify that Nginx is now receiving and processing requests.
 
    ```bash
    sudo gitlab-ctl tail nginx/gitlab_access.log
@@ -64,11 +64,11 @@ The objective of this lab is to demonstrate how to use Prometheus and Grafana fo
 
 For this example, let's suppose that an issue occurred in GitLab Rails. To simulate this:
 
-1. Stop the `puma` service by running `sudo gitlab-ctl stop puma`
+1. Stop the `puma` service by running `sudo gitlab-ctl stop puma`.
 
 1. Navigate to your GitLab instance. Note that you get a `502 Waiting for GitLab to boot` error.
 
-1. The first location that requests reach for this component is Nginx. Let's take a look at the logs by running
+1. The first location that requests reach for this component is Nginx. Let's take a look at the logs by running:
 
     ```bash
     cat /var/log/gitlab/nginx/gitlab_access.log
@@ -124,7 +124,7 @@ For this example, let's suppose that an issue occurred in GitLab Rails. To simul
 
 With GitLab Rails back up, we can now try tracing a valid request to see how it looks in the logs. This will help you get comfortable with correlating a correlation ID to a request.
 
-1. Make a request to your GitLab instance
+1. Make a request to your GitLab instance.
 
 1. Locate the request correlation ID by running:
 
@@ -159,7 +159,7 @@ In some cases, troubleshooting will require the assistance of GitLab Support. To
     sudo /opt/gitlab/embedded/bin/ruby ./gitlabsos.rb
     ```
 
-1. After the run completes, you will see the location of your support bundle, in the form of `/root/gitlabsos/gitlabsos.your-instance-name_gitaly-nginx-psql-puma-redis-sidekiq.tar.gz`
+1. After the run completes, you will see the location of your support bundle, in the form of `/root/gitlabsos/gitlabsos.your-instance-name_gitaly-nginx-psql-puma-redis-sidekiq.tar.gz`.
 
     > When you file support requests, you can attach this bundle to provide all of your instance logs.
 

@@ -55,7 +55,7 @@ The objective of this lab is to demonstrate how to back up a GitLab instance on 
     sudo gitlab-backup create
     ```
 
-    > In a production environment, you would also need to take a copy of the `/etc/gitlab/gitlab.rb` and `/etc/gitlab/gitlab-secrets.json`
+    > In a production environment, you would also need to take a copy of the `/etc/gitlab/gitlab.rb` and `/etc/gitlab/gitlab-secrets.json`.
 
 1. After the backup completes, go to the backup location and inspect the backup file.
 

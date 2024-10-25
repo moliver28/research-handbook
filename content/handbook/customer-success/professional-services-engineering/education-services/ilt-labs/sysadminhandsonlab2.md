@@ -33,7 +33,7 @@ You will access your GitLab installation using SSH. As a part of this class, you
     ssh -i <keyfile_name> root@<vm_ip_address>
     ```
 
-    > If you encounter an error like: WARNING: REMOTE HOST IDENTIFICATION HAS CHANGED!, you may need to reset your SSH known hosts. To do this, run the command ssh-keygen -R <vm_ip_address>
+    > If you encounter an error like: WARNING: REMOTE HOST IDENTIFICATION HAS CHANGED!, you may need to reset your SSH known hosts. To do this, run the command `ssh-keygen -R <vm_ip_address>`.
 
 1. Press Enter. 
 
@@ -69,7 +69,7 @@ The `gitlab-ctl` command line utility provides you with tools for managing and t
 
 1. Next, try stopping a GitLab component, using the command `sudo gitlab-ctl stop nginx`.
 
-    > As an output, you will see `ok: down: nginx: 0s, normally up`
+    > As an output, you will see `ok: down: nginx: 0s, normally up`.
 
 1. To verify that the `Nginx` is no longer running, run the command `sudo gitlab-ctl status`. You will see that `Nginx` is not running in the output.
 
@@ -79,7 +79,7 @@ The `gitlab-ctl` command line utility provides you with tools for managing and t
 
 1. To restart `Nginx`, run the command `sudo gitlab-ctl restart nginx`.
 
-    > As an output, you will see `ok: run: nginx: (pid 1869) 0s`
+    > As an output, you will see `ok: run: nginx: (pid 1869) 0s`.
 
 1. Run `sudo gitlab-ctl status` to verify that `Nginx` is up and running again.
 
