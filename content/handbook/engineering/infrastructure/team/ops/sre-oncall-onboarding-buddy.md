@@ -38,7 +38,7 @@ The role of a SRE-Buddy is important in helping new engineers become confident a
 
 ## How Can I Become An Oncall Onboarding Buddy?
 
-The SRE Oncall ıuddy program operates on a volunteer basis, allowing experienced engineers to contribute to the team's growth based on their willingness and capacity. Please make sure to check the [Buddy Responsibilities](#buddy-responsibilities) secton.
+The SRE Oncall buddy program operates on a volunteer basis, allowing experienced engineers to contribute to the team's growth based on their willingness and capacity. Please make sure to check the [Buddy Responsibilities](#buddy-responsibilities) section.
 
 If you are willing to become a SRE-Buddy, assign yourself to `@sre-buddies` Slack group. This group receives notifications when EOC-Shadows are looking for buddies. When you find a suitable match, respond to the request and notify both your manager and the EOC-Shadow.
 
