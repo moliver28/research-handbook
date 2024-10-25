@@ -189,7 +189,6 @@ Grafana provides you with useful tools for log collection and analysis. Let's se
 
 1. Select **Run query** to see your results. Take some time here to review the logs and options for filtering logs in Grafana.
 
-
 ## Lab Guide Complete
 
 You have completed this lab exercise. You can view the other [lab guides for this course](/handbook/customer-success/professional-services-engineering/education-services/sysadminhandson).
@@ -197,4 +196,3 @@ You have completed this lab exercise. You can view the other [lab guides for thi
 ### Suggestions?
 
 If you'd like to suggest changes to the GitLab System Admin Basics Hands-on Guide, please submit them via merge request.
-
