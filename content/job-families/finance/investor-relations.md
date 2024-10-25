@@ -33,6 +33,37 @@ The Investor Relations Analyst is a [grade 6](/handbook/total-rewards/compensati
 - Ability to source databases and the public internet for competitive intelligence.
 - Communication skills to interact with cross-functional partners
 
+## Senior Investor Relations Analyst
+
+The Senior Investor Relations Analyst will support core activities of the IR team and collaborate with cross-functional team members including FP&A, Accounting, Product Marketing, Communications, Strategy, Legal, and beyond.
+
+### Job Grade
+The Investor Relations Analyst is a [grade 7](/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades).
+
+### Responsibilities
+- Support quarterly earnings process including preparation of prepared remarks, Q&A prep materials, various financial analyses, and accompanying investor and board presentations
+- Review and analyze sell-side analyst research and models, consensus estimates, analyst and investor perceptions/opinions and market-related trends impacting valuation and market perception
+- Support the collection and analysis of investor ownership, shareholder movements, and investor targeting along with content management of the investor relations website
+- Analyze the outcome of investor facing engagement to track outcomes and optimize c-level time investment
+- Perform financial, strategic, and competitive analyses, including industry and peer benchmarking, and ad-hoc projects to support strategic and financial initiatives
+- Assist in the creation and maintenance of investor relations materials, including corporate overview slides
+- Assist in the planning and execution of investor relations events, such as non-deal roadshows, conferences, and investor days
+- Respond to and manage day-to-day activities including inbound investor inquiries, website updates, and database management
+- This is an individual contributor role reporting to the Vice President of Investor Relations
+
+
+### Requirements
+
+- Bachelor’s Degree in Finance, Accounting, or other relevant field
+- 5+ years of experience, preferably in investor relations role at a public software/technology company
+- Mature financial and analytical skills with ability to interpret information and financial concepts 
+- Strong business acumen with understanding of technology and software business models, with desire and capacity to learn about our industry, products, competitors and other key audiences
+- Excellent proficiency in Excel, PowerPoint, Google Sheets, and Google Slides; experience with financial research tools such as FactSet is a plus
+- Strong intellectual curiosity and high attention to detail with the ability to keep the big picture in mind
+- Proactive, energetic, and resourceful team member who is results-oriented and able to multitask and thrive in an all remote company and high growth environment
+- Excellent verbal and written communication and interpersonal skills
+
+
 ## Vice President, Investor Relations
 
 The Vice President of Investor Relations drives the strategy and long-term market positioning of GitLab in the public financial markets. This position reports to the CFO and works closely with senior leadership across the company including interaction with the executive team. This position will be responsible for developing and executing an effective investor communications strategy, performing financial analysis, and maintaining strong relationships with investors, investment banks and analysts. The VP of IR is expected to be deeply immersed in GitLab's values of transparency and efficiency and has a passionate point of view of how to incorporate those values into GitLab's investor relations strategy and process.
