@@ -2,6 +2,7 @@
 MREPORT=markdownlint-cli2-codequality.json
 VREPORT=vale-codequality.json
 HREPORT=handbook-codequality.json
+LREPORT=linkcheck.json
 ERRORS=()
 MSG=""
 REPO_URL="https://gitlab.com/gitlab-com/content-sites/handbook"
@@ -69,48 +70,45 @@ generate_addition_messages() {
     eval ERRORS=($(printf "%q\n" "${ERRORS[@]}" | sort -u))
     for e in ${ERRORS[@]}; do
         case $e in
-            MD009)          MSG+="> 🛑 You have a Trailing spaces error.  The [practical handbook edits handbook](https://handbook.gitlab.com/handbook/practical-handbook-edits/) provides more tips, for example [removing trailing whitespaces](https://handbook.gitlab.com/handbook/practical-handbook-edits/#remove-trailing-whitespaces-in-a-merge-request).\n\n"
+            MD009)          MSG+="> 🛑 You have a trailing spaces error.  The [practical handbook edits handbook](https://handbook.gitlab.com/handbook/practical-handbook-edits/) provides more tips, for example [removing trailing whitespaces](https://handbook.gitlab.com/handbook/practical-handbook-edits/#remove-trailing-whitespaces-in-a-merge-request).\n\n"
             ;;
             CODEOWNER)      MSG+="> 🛑 You have marked a handbook page as a controlled document without adding an entry to the controlled-documents section of CODEOWNERS.\n\n"
         esac
     done
+    if [ -f "$LREPORT" ] && [ "$(jq 'length > 0' "$LREPORT")" = "true" ]; then
+        MSG+="> ⚠️ If you are **renaming, moving, or deleting pages**, please check the Code Quality report, or the hugolint job's artifact files, to see if there are any related broken links.\n\n"
+    fi
+
 }
 
-# Define reports and check if they exists
-reports=("handbook-codequality.json" "markdownlint-cli2-codequality.json" "vale-codequality.json")
-existing_reports=()
+# Create an array of the report variables
+reports=("$MREPORT" "$VREPORT" "$HREPORT" "$LREPORT")
+# Initialize an array to store non-empty files
+non_empty_files=()
+
+# Check each report file exists and is not empty
 for report in "${reports[@]}"; do
-    if [ -f "$report" ]; then
-        existing_reports+=("$report")
+    if [ -f "$report" ] && [ "$(jq 'length > 0' "$report")" = "true" ]; then
+        non_empty_files+=("$report")
     fi
 done
 
-# Handle different combinations of existing report files
-case "${#existing_reports[@]}" in
-    3)
-        echo "Using combined codequality.json"
-        jq -s '.[0] + .[1] + .[2]' "${existing_reports[@]}" > codequality.json
-        REPORT=codequality.json
-        ;;
-    2)
-        echo "Using ${existing_reports[0]} and ${existing_reports[1]} in combined codequality.json"
-        jq -s '.[0] + .[1]' "${existing_reports[@]}" > codequality.json
-        REPORT=codequality.json
-        ;;
-    1)
-        echo "using ${existing_reports[0]} only"
-        REPORT="${existing_reports[0]}"
-        ;;
-    0)
-        echo "Error: unable to find report file ($REPORT). Exiting..."
-        exit 1
-        ;;
-esac
+# Print the list of non-empty files
+if [ ${#non_empty_files[@]} -gt 0 ]; then
+    echo "Using combined codequality.json: "
+    for file in "${non_empty_files[@]}"; do
+        echo "$file "
+    done
+    jq -s '.[0] + .[1] + .[2]' "${existing_reports[@]}" > codequality.json
+    REPORT=codequality.json
+else
+    echo "All report files are empty."
+fi
 
 # TODO Improve error handling https://gitlab.com/gitlab-com/content-sites/docsy-gitlab/-/issues/10
-if ! yq > /dev/null; then
-    echo "Error: You need to have yq install.  Exiting..."
-    exit 1
+if ! yq $REPORT -o yaml > /dev/null; then
+    echo "Error: YQ is unable to read report file. Please post in the [#handbook Slack channel](https://gitlab.enterprise.slack.com/archives/C81PT2ALD) for assistance. Exiting..."
+    exit $?
 fi
 
 generate_message
