@@ -187,7 +187,7 @@
 /content/handbook/engineering/infrastructure-quality.md @marin @meks @vincywilson
 
 ^[Eng-Infrastructure-department]
-/content/handbook/engineering/careers/matrix/infrastructure @marin @kwanyangu @meks @dawsmith @amyphillips @rnienaber @mbursi
+/content/handbook/engineering/careers/matrix/infrastructure @marin @meks @dawsmith @amyphillips @rnienaber @mbursi
 /content/handbook/engineering/deployments-and-releases/ @marin @mbursi @dawsmith @gitlab-org/delivery
 /content/handbook/engineering/error-budgets/ @marin @rnienaber
 /content/handbook/engineering/infrastructure/ @marin @meks @vincywilson
@@ -203,7 +203,7 @@
 /content/handbook/engineering/infrastructure/core-platform/systems/geo/ @luciezhao
 /content/handbook/engineering/infrastructure/core-platform/systems/gitaly/ @andrashorvath @jcaigitlab
 /content/handbook/engineering/infrastructure/emergency-change-processes.md @marin @meks
-/content/handbook/engineering/infrastructure/incident-management/ @dawsmith @kwanyangu @marin
+/content/handbook/engineering/infrastructure/incident-management/ @dawsmith @rnienaber @marin
 /content/handbook/engineering/infrastructure/performance-indicators.md @marin @meks @vincywilson @rymai
 /content/handbook/engineering/infrastructure/platforms/ @marin @rnienaber @amyphillips
 /content/handbook/engineering/infrastructure/service-maturity-model.md @rnienaber @marin @meks
@@ -214,7 +214,7 @@
 /content/handbook/engineering/infrastructure/team/gitlab-dedicated/environment-automation.md @o-lluch @denhams @marin @amyphillips
 /content/handbook/engineering/infrastructure/team/gitlab-dedicated/switchboard.md @ashiel @marin @amyphillips
 /content/handbook/engineering/infrastructure/team/gitlab-dedicated/us-public-sector-services.md @marin @amyphillips
-/content/handbook/engineering/infrastructure/team/scalability/ @rnienaber @kwanyangu @lmcandrew @marin
+/content/handbook/engineering/infrastructure/team/scalability/ @rnienaber @lmcandrew @marin
 /content/handbook/engineering/monitoring/ @marin @meks
 /content/handbook/engineering/releases/ @marin @mbursi @dawsmith @gitlab-org/delivery
 /content/handbook/engineering/gitlab-com/ @marin @meks
