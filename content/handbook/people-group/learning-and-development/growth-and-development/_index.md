@@ -147,7 +147,7 @@ Apply for a coach via Coaching Right Now by opening an issue using the [coaching
 
 **Eligibility for Reimbursement:** Managers or Individual Contributors job grade 8+. Coaching Right Now will invoice GitLab directly. If a team member is involved in a different, approved coaching engagement outside of CRN, then the standard G&D reimbursement workflow applies.
 
-Coaching Right Now is our preferred and vetted coaching partner. If for some reason the coaches offered via Coaching Right Now do not fit your needs, please open an issue using the [Other G&D Types (Under $300 USD) template](https://gitlab.com/gitlab-com/people-group/total-rewards/-/issues/new?issuable_template=other-GD-under). After approvals, team members will provide a paid invoice to GitLab as proof for reimbursement.
+Coaching Right Now is our preferred and vetted coaching partner. If for some reason the coaches offered via Coaching Right Now do not fit your needs, please open an issue using the [Other G&D Types template](https://gitlab.com/gitlab-com/people-group/learning-development/growth-and-development-requests/-/issues/new?issuable_template=g-and-d-other). After approvals, team members will provide a paid invoice to GitLab as proof for reimbursement.
 
 ### English Language Courses
 
