@@ -85,11 +85,19 @@ See the section on [status updates on project epics](#status-updates-on-project-
 
 ## Goals
 
-## Dependencies and Stakeholders
+## Dependencies
 
-These teams should be consulted for this project:
+## Stakeholders
 
-These teams should be informed about this project:
+### Teams that should be consulted
+
+- team1
+- team2
+
+### Teams that should be informed
+
+- team1
+- team2
  
 ### Links / references :books:
 
