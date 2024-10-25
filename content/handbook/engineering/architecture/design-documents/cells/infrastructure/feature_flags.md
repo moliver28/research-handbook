@@ -139,14 +139,15 @@ actor (https://gitlab.com/gitlab-org/gitlab/-/issues/498238).
 
 #### Iteration 1
 
-ChatOps will provide an interface for engineers to select a ring that the feature flag
-change should be rolled out to.
+ChatOps will provide an interface for engineers to change a feature flag on cells.
 
-ChatOps communicates with Tissue, and Tissue sets the feature flag on every cell,
-one ring at a time.
+ChatOps communicates with Tissue, and Tissue sets the feature flag on every cell.
 
-If Tissue fails to set the feature flag on any cell of the ring, after a few retries,
+If Tissue fails to set the feature flag on any cell, after a few retries,
 an error is displayed to the initiator of the ChatOps command on Slack.
+
+If a feature flag needs to be turned off due to an incident, it will have to be
+turned off for all cells.
 
 When a feature flag change is rolled out to a ring, create an issue on the
 [feature flag log project](https://gitlab.com/gitlab-com/gl-infra/feature-flag-log)
@@ -211,7 +212,7 @@ or through the Rails console.
 
 | API                                                                                            | Instrumentor                                                                                          |
 |------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------|
-| Tissue can trigger API calls to each cell itelf.                                               | Tissue can trigger an Instrumentor pipeline to set feature flags.                                     |
+| Tissue can trigger API calls to each cell itself.                                              | Tissue can trigger an Instrumentor pipeline to set feature flags.                                     |
 | Tissue will need access to admin tokens for every cell.                                        | Instrumentor has access to the toolbox pod for each cell, and the feature flag can be set using that. |
 | An admin token can be added to Vault on cell creation, as part of the bootstrapping procedure. | It will involve booting a rails console, which will slow down the process.                            |
 
@@ -259,6 +260,10 @@ that can be achieved in the short or medium term. Adding in another unknown in t
 form of a third party service for feature flags during the cells migration that already contains a
 lot of unknowns doesn't seem to be the best path forward. We could revisit this
 conversation at a later stage.
+
+We can also consider using GitLab's own Feature Flag product, which is based on Unleash.
+However, this will require extensive development to make the feature set useful
+for us. This might make the product too specific to cells and gitlab.com.
 
 ### Pull model instead of push model
 
