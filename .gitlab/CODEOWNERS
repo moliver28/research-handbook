@@ -63,7 +63,7 @@
 /content/handbook/company/history.md @sytses
 /content/handbook/company/okrs/ @streas
 /content/handbook/company/only-healthy-constraints.md @sytses
-/content/handbook/company/quote-to-cash.md @justinfarris @ofernandez2 @tgolubeva @courtmeddaugh @alex_martin @vincywilson @jackib @chloeliu @jeromezng @jameslopez @csouthard @rhardarson @shreyasagarwal @jrabbits @NabithaRao @sbaranidharan @iweeks @s_mccauley @annapiaseczna @simon-mundy @msubramanian
+/content/handbook/company/quote-to-cash.md @justinfarris @ofernandez2 @tgolubeva @courtmeddaugh @alex_martin @vincywilson @jackib @chloeliu @jeromezng @jameslopez @rhardarson @shreyasagarwal @jrabbits @NabithaRao @sbaranidharan @iweeks @s_mccauley @annapiaseczna @simon-mundy @msubramanian
 /content/handbook/company/stewardship.md @sytses
 /content/handbook/company/strategy.md @sytses
 /content/handbook/company/group-conversations.md @streas
@@ -141,10 +141,10 @@
 /content/handbook/engineering/development/dev/plan/product-planning.md @kushalpandya
 /content/handbook/engineering/development/dev/plan/project-management.md @donaldcook
 /content/handbook/engineering/development/dev/training/ic-to-manager.md @dsatcher
-/content/handbook/engineering/development/fulfillment/ @jeromezng @jameslopez @csouthard @rhardarson @shreyasagarwal @tgolubeva @courtmeddaugh @ofernandez2 @alex_martin @ppalanikumar
+/content/handbook/engineering/development/fulfillment/ @jeromezng @jameslopez @rhardarson @shreyasagarwal @tgolubeva @courtmeddaugh @ofernandez2 @alex_martin @ppalanikumar
 /content/handbook/engineering/development/fulfillment/fulfillment-platform.md @jameslopez @ofernandez2
 /content/handbook/engineering/development/fulfillment/provision.md @courtmeddaugh
-/content/handbook/engineering/development/fulfillment/utilization/ @csouthard @alex_martin
+/content/handbook/engineering/development/fulfillment/utilization/ @jeromezng @alex_martin
 /content/handbook/engineering/development/growth/ @kniechajewicz
 /content/handbook/engineering/development/ops/ @sgoldstein @cheryl.li @nicolewilliams @crystalpoole
 /content/handbook/engineering/development/ops/deploy/ @nmezzopera
