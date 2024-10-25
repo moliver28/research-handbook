@@ -25,9 +25,7 @@ All dependencies for a repository are defined [here](https://gitlab.com/gitlab-o
 
 ## Handling Merge Requests
 
-When a merge request for the project is opened, it should automatically assign to
-all the project's maintainers. The pipelines are configured to automatically build
-and test (where appropriate) a project using the new software.
+When a merge request for the project is opened, Renovate will assign a reviewer using reviewer roulette.
 
 It is the responsibility of the entire Distribution team to ensure the merge requests
 are handled in a timely fashion. Team members should assign available merge requests
@@ -69,6 +67,8 @@ A snippet that describes how to test locally can be found [here](https://gitlab.
 
 1. Add a fork of the canonical project [here](https://gitlab.com/gitlab-org/frontend/renovate-gitlab-bot/-/blob/main/forks/config.tfvars).
    * This automatically creates a fork of the canonical project, which is used by Renovate to create MRs for the canonical project. 
+  * Creating the fork needs a maintainer to run the `apply` job. It's a good practice 
+    to create the fork in a separate merge request.
 1. Add configuration file under suitable project [here](https://gitlab.com/gitlab-org/frontend/renovate-gitlab-bot/-/tree/main/renovate/projects).
 
 ## Additional Information
