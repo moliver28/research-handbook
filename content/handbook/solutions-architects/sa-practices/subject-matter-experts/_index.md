@@ -131,15 +131,15 @@ SMEs will be regularly evaluated based on their contributions and impact on the 
  
 | SME Areas | AI | App Security | Agile Planning | Dedicated | CICD/ Runners | Metrics/ Observability |
 |-----------|----|--------------|--------------------|-----------|----------------|------------------------|
-| SME Area Leads | SA: Edmone Chan<br><br>CS: Jess Perry | SA: Julia Gaetjens<br><br>CS: Eduardo Guillen , Jess Perry | SA:David Astor<br><br>CS: Brianne Parton | SA: Alessia Del Vecchio<br><br>CS: Zane Chua | SA:Bradley Lee, Ken McKnight<br><br>CS: @Rachel Fuerst, Rodney Bowles | SA: Zach Henderson<br>SA: Breno Gomes<br><br>CS: @Jordan Monyhan |
-| Product Manager Rep/<br>Engineering Manager Rep | Depending on time zone:<br><br>AMER: Taylor McCaslin and Michelle Gill<br><br>APAC/EU: Pini Wietchner and David O'Regan | Alana Bellucci<br><br>Sara Meadzinger<br><br>Joe Randazzo | PM - Melissa Ushakov<br><br>EM -<br><br>John Hope | PM - Chris Balane<br><br>EM - Oriol Lluch | | |
-| APJ | Ben Ridley Arun Kumar G Arjun Krishna | Tomasz Skora | | | | |
-| EMEA NEUR | Ryan Appleby | Dominique Top | Gabriela Dobrescu , James Moverley | Martin McVay | | |
-| EMEA SEUR | Madou Coulibaly | Paul Dumaitre, Olivier Dupre | | | | |
-| EMEA DACH/META | Alex Dess | Mirko Brandner , Julia Gaetjens | Ted Gieschen , Hossam Hamdy | Falko Sieverding | Lars Blockken | |
-| US East | Sam Morris, Manjeet Singh | Bernard Park , James Nyika, Manjeet Singh | Dan Rabinovitz | Adam Zwickey | Jaso Morgan, Bradley Lee | Rob Jackson |
-| US West | Karen Kwentus | YuChen Hsueh, Anthony Baer, Taylor Carr, John Bush | Steve Grossman | Ryan Taylor | Ken McKnight | Siddharth Mathur |
+| SME Area Leads | SA: Edmond Chan<br>CS: Jess Perry | SA: Julia Gaetjens<br>CS: Eduardo Guillen, Jess Perry | SA:David Astor<br>CS: Brianne Parton | SA: Alessia Del Vecchio<br>CS: Zane Chua | SA:Bradley Lee,<br>Ken McKnight<br>CS: Rachel Fuerst,<br>Rodney Bowles | SA: Zach Henderson,<br>Breno Gomes<br>CS: Jordan Monyhan |
+| Product Manager Rep/<br>Engineering Manager Rep | AMER: Taylor McCaslin,<br>Michelle Gill<br>APAC/EU: Pini Wietchner,<br>David O'Regan | Alana Bellucci,<br>Sara Meadzinger,<br>Joe Randazzo | PM: Melissa Ushakov<br>EM: John Hope | PM: Chris Balane<br>EM: Oriol Lluch | | |
+| APJ | Ben Ridley,<br>Arun Kumar G,<br>Arjun Krishna | Tomasz Skora | | | | |
+| EMEA NEUR | Ryan Appleby | Dominique Top | Gabriela Dobrescu,<br>James Moverley | Martin McVay | | |
+| EMEA SEUR | Madou Coulibaly | Paul Dumaitre,<br>Olivier Dupre | | | | |
+| EMEA DACH/META | Alex Dess | Mirko Brandner,<br>Julia Gaetjens | Ted Gieschen,<br>Hossam Hamdy | Falko Sieverding | Lars Blockken | |
+| US East | Sam Morris,<br>Manjeet Singh | Bernard Park,<br>James Nyika,<br>Manjeet Singh | Dan Rabinovitz | Adam Zwickey | Jason Morgan,<br>Bradley Lee | Rob Jackson |
+| US West | Karen Kwentus | Yu-Chen Hsueh,<br>Anthony Baer,<br>Taylor Carr,<br>John Bush | Steve Grossman | Ryan Taylor | Ken McKnight | Siddharth Mathur |
 | High Velocity - AMER | | | Sophia Manicor | | Noah Ing | |
-| High Velocity - EMEA | | Claire Marie Champernowne, Nupur Sharma | Jan Kunzmann | Corina Patachia | Sarah Matthies | |
-| Pub Sec | kevin Chasse , Josh Swann | Sameer Kamani , Zachary Yates | Joseph Valeriano , Linc Williams | Daniel Marquard , Michael Bradley | Rachel Fuerst | |
+| High Velocity - EMEA | | Claire Marie Champernowne<br>Nupur Sharma | Jan Kunzmann | Corina Patachia | Sarah Matthies | |
+| Pub Sec | Kevin Chasse,<br>Josh Swann | Sameer Kamani,<br>Zachary Yates | Joseph Valeriano,<br>Linc Williams | Daniel Marquard,<br>Michael Bradley | Rachel Fuerst | |
 | Partner | | | | | | |
