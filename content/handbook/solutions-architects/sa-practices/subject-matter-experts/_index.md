@@ -128,19 +128,18 @@ SMEs will be regularly evaluated based on their contributions and impact on the 
 - There will be multiple SME per region (EMEA, APAC, US East, US West) but they will be a cross-regional group of SMEs
 
 ## SMEs {#sme-list}
-
-| SME Areas | AI | App Security | Agile Planning | GitLab Dedicated |
-| :---- | :---- | :---- | :---- | :---- |
-| SME Area Lead | Edmond Chan | Andrea Obermeier | David Astor | Alessia Del Vecchio |
-| Product Manager Rep/ | AMER: Taylor McCaslin <br>APAC/EMEA: Pini Wietchner |  | Melissa Ushakov | Chris Balane |
-| Engineering Manager Rep | AMER: Michelle Gill <br>APAC/EMEA: David O’Regan |  | John Hope | Oriol Lluch |
-| APJ |  | Tomasz Skora |  |  |
-| EMEA NEUR | Kristoff Goossens | Dominique Top | Gabriela Dobrescu, James Moverley | Martin McVay |
-| EMEA SEUR |  | Paul Dumaitre, Olivier Dupre |  |  |
-| EMEA DACH/META | Alexander Dess | Mirko Brandner, Julia Gåtjens |  | Falko Sieverding |
-| US East | Sam Morris | Bernard Park, James Nyika | Dan Rabinovitz | Adam Zwickey |
-| US West | Karen Kwentus | Yu-Chen Hsueh | Steve Grossman | Ryan Taylor |
-| High Velocity AMER |  | Jefferson Jones | Sophia Manicor |  |
-| High Velocity EMEA |  | Claire Marie Champernowne, Nupur Sharma | Jan Kunzmann | |
-| Pub Sector AMER |  |  |  | Daniel Marquard, Michael Bradley |
  
+| SME Areas | AI | App Security | Agile Planning | Dedicated | CICD/ Runners | Metrics/ Observability |
+|-----------|----|--------------|--------------------|-----------|----------------|------------------------|
+| SME Area Leads | SA: Edmone Chan<br><br>CS: Jess Perry | SA: Julia Gaetjens<br><br>CS: Eduardo Guillen , Jess Perry | SA:David Astor<br><br>CS: Brianne Parton | SA: Alessia Del Vecchio<br><br>CS: Zane Chua | SA:Bradley Lee, Ken McKnight<br><br>CS: @Rachel Fuerst, Rodney Bowles | SA: Zach Henderson<br>SA: Breno Gomes<br><br>CS: @Jordan Monyhan |
+| Product Manager Rep/<br>Engineering Manager Rep | Depending on time zone:<br><br>AMER: Taylor McCaslin and Michelle Gill<br><br>APAC/EU: Pini Wietchner and David O'Regan | Alana Bellucci<br><br>Sara Meadzinger<br><br>Joe Randazzo | PM - Melissa Ushakov<br><br>EM -<br><br>John Hope | PM - Chris Balane<br><br>EM - Oriol Lluch | | |
+| APJ | Ben Ridley Arun Kumar G Arjun Krishna | Tomasz Skora | | | | |
+| EMEA NEUR | Ryan Appleby | Dominique Top | Gabriela Dobrescu , James Moverley | Martin McVay | | |
+| EMEA SEUR | Madou Coulibaly | Paul Dumaitre, Olivier Dupre | | | | |
+| EMEA DACH/META | Alex Dess | Mirko Brandner , Julia Gaetjens | Ted Gieschen , Hossam Hamdy | Falko Sieverding | Lars Blockken | |
+| US East | Sam Morris, Manjeet Singh | Bernard Park , James Nyika, Manjeet Singh | Dan Rabinovitz | Adam Zwickey | Jaso Morgan, Bradley Lee | Rob Jackson |
+| US West | Karen Kwentus | YuChen Hsueh, Anthony Baer, Taylor Carr, John Bush | Steve Grossman | Ryan Taylor | Ken McKnight | Siddharth Mathur |
+| High Velocity - AMER | | | Sophia Manicor | | Noah Ing | |
+| High Velocity - EMEA | | Claire Marie Champernowne, Nupur Sharma | Jan Kunzmann | Corina Patachia | Sarah Matthies | |
+| Pub Sec | kevin Chasse , Josh Swann | Sameer Kamani , Zachary Yates | Joseph Valeriano , Linc Williams | Daniel Marquard , Michael Bradley | Rachel Fuerst | |
+| Partner | | | | | | |
