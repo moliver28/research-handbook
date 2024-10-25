@@ -165,7 +165,7 @@ Proccess Steps with Sales Systems
 Systems Related Labels
 </summary>
 
-- `EntAppsCustomer: MOPS`: Used on issues that require Sales Systems support
+- `entapps-customer::MOPS`: Used on issues that require Sales Systems support
 - `MktgSystems-PMO`: Used for issues on committed PMO projects to help with prioritization and to determine work streams
 
 Business Impact Labels: What business impact or subject area is driving these changes
@@ -284,7 +284,7 @@ If a field needs to be created in Marketo AND SFDC, it must be created in SFDC f
 
 If you need assistance with Sales Systems follow the next steps:
 
-1. Open an [Sales System issue](https://gitlab.com/gitlab-com/sales-team/field-operations/systems/-/issues/new) in their project and assign the label `EntAppsCustomer::MOPS`.
+1. Open an [Sales System issue](https://gitlab.com/gitlab-com/sales-team/field-operations/systems/-/issues/new) in their project and assign the label `entapps-customer::MOPS`.
     - If the issue is a part of a committed PMO project, please add the label `MktgSystems-PMO`
 2. If Mops member can create a changeset, please do so shortly after creating the issue to decrease time to deploy,
 3. Add [prioritization label](/handbook/marketing/marketing-operations/#labeling) of `MktgOpsPrio::00: Requested`
