@@ -102,14 +102,14 @@ dateFormat YYYY-MM-DD
 title 50% confidence timeline
 
 section Work
-Decompose tables :active , decompose, 2024-07-01, 2024-11-30
-Slice 1 :active, slice1, 2024-07-23, 2024-11-30
+Decompose tables :active , decompose, 2024-07-01, 2024-12-09
+Slice 1 :active, slice1, 2024-07-23, 2024-12-09
 Slice 2 :active, slice2, 2024-08-06, 2024-10-04
-Slice 3 :active, slice3, 2024-07-15, 2024-11-30
+Slice 3 :active, slice3, 2024-07-15, 2024-12-09
 Table decomposition complete :milestone, allslices, after slice1 slice2 slice3, 0d
-Phase 1 & 2 : phase12, 2024-09-11, 4w
+Phase 1 & 2 : phase12, 2024-09-11, 7w
 Phase 3 : phase3, after phase12, 3w
-Phase 4 : phase4, after allslices phase3, 3w
+Phase 4 : phase4, after allslices phase3 decompose, 3w
 Phase 5 : phase5, after phase4, 3w
 Phase 6 : phase6, after phase4, 3w
 Phase 7 : phase7, after phase6, 4w
@@ -123,9 +123,9 @@ axisFormat  %Y-%m
 
 | Slice              | % Done | Estimated completion |
 | ---                | ---    | ---                  |
-| [Slice 1](https://gitlab.com/groups/gitlab-org/-/epics/14116?force_legacy_view=true) | 67%    | 2024-11              |
-| [Slice 2](https://gitlab.com/groups/gitlab-org/-/epics/14196?force_legacy_view=true) | 76%    | 2024-10              |
-| [Slice 3](https://gitlab.com/groups/gitlab-org/-/epics/14197?force_legacy_view=true) | 25%    | 2024-11              |
+| [Slice 1](https://gitlab.com/groups/gitlab-org/-/epics/14116?force_legacy_view=true) | 87%  | 2024-12 |
+| [Slice 2](https://gitlab.com/groups/gitlab-org/-/epics/14196?force_legacy_view=true) | 100% | 2024-10 |
+| [Slice 3](https://gitlab.com/groups/gitlab-org/-/epics/14197?force_legacy_view=true) | 65%  | 2024-12 |
 
 Last update: [2024-09-18](https://gitlab.com/groups/gitlab-org/-/epics/14165?force_legacy_view=true#note_2112587408).
 
