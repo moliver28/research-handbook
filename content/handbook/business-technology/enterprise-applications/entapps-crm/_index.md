@@ -18,7 +18,7 @@ CRM Systems exists to support the GitLab field organization by providing reliabl
 
 ### Salesforce.com Change Management Processes and SDLC (Software Development Life Cycle)
 
-Changes to Salesforce.com come in a variety of formats but all of them will feature the following change managment controls:
+Changes to Salesforce.com come in a variety of formats but all of them will feature the following change Management controls:
 
 1. All changes will start with an GitLab Issue defining the ask or problem, and capturing additional decisions and business requirements.
 1. All changes will be developed and tested in a Salesforce Sandbox environment before being deployed or replicated in production.
@@ -216,17 +216,17 @@ Sandboxes which are managed as part of our team's SDLC process will follow a reg
 2. In order to align our working style with the Labels, the Systems team prioritizes working on issues in the order as they get added & the issues get labeled accordingly
 3. The Systems Label Workflow and Label Description are as follows
 
-      ![The CRM Systems Label Workflow](/static/images/handbook/enterprise-applications/crm-labels.png)
+      ![The CRM Systems Label Workflow](/images/handbook/enterprise-applications/crm-labels.png)
 
-      - ![entapps CRM systems](/static/images/handbook/enterprise-applications/entapps-crm-systems.png) New Issues that are created in the EntApps CRM board are automatically tagged and any existing issues related to sales systems are tagged with this label
-      - ![entapps waiting](/static/images/handbook/enterprise-applications/entapps-waiting.png) Issues awaiting for information from the requester, needs more clarity in requirements may or may not be assigned to milestone and assigned to the DRI and/or systems team member
-      - ![entapps out of scope](/static/images/handbook/enterprise-applications/entapps-out-of-scope.png) Issues that are outside the parameters of an initiative, cannot be combined with current functionality and this issue will be closed
-      - ![entapps inbox](/static/images/handbook/enterprise-applications/entapps-inbox.png) Issues that are new and have not been evaluated yet
-      - ![entapps assigned](/static/images/handbook/enterprise-applications/entapps-assigned.png) Issues that are ready to moveforward to be worked on, slotted to a milestone & assigned to systems team member's queue
-      - ![entapps build](/static/images/handbook/enterprise-applications/entapps-build.png) Issues that are in the current milestone, assigned to systems team member that are actively worked on
-      - ![Rentapps customer review](/static/images/handbook/enterprise-applications/entapps-customer-review.png) Issues in current milestone that are near the finish line, needs to be reviewed and demoed to the business owner(s) to sign-off
-      - ![entapps ready to deploy](/static/images/handbook/enterprise-applications/entapps-deploy.png) Issues in current milestones, sign-offs given by the business owner that are ready to be deployed by systems team member
-      - ![entapps blocked](/static/images/handbook/enterprise-applications/entapps-blocked-png.png) Issues in the current milestone which are assigned to systems team member which are stalled due to technical difficulties and/or assigned to business owner pending to provide information to the systems member to move forward
+      - ![entapps CRM systems](/images/handbook/enterprise-applications/entapps-crm-systems.png) New Issues that are created in the EntApps CRM board are automatically tagged and any existing issues related to sales systems are tagged with this label
+      - ![entapps waiting](/images/handbook/enterprise-applications/entapps-waiting.png) Issues awaiting for information from the requester, needs more clarity in requirements may or may not be assigned to milestone and assigned to the DRI and/or systems team member
+      - ![entapps out of scope](/images/handbook/enterprise-applications/entapps-out-of-scope.png) Issues that are outside the parameters of an initiative, cannot be combined with current functionality and this issue will be closed
+      - ![entapps inbox](/images/handbook/enterprise-applications/entapps-inbox.png) Issues that are new and have not been evaluated yet
+      - ![entapps assigned](/images/handbook/enterprise-applications/entapps-assigned.png) Issues that are ready to moveforward to be worked on, slotted to a milestone & assigned to systems team member's queue
+      - ![entapps build](/images/handbook/enterprise-applications/entapps-build.png) Issues that are in the current milestone, assigned to systems team member that are actively worked on
+      - ![Rentapps customer review](/images/handbook/enterprise-applications/entapps-customer-review.png) Issues in current milestone that are near the finish line, needs to be reviewed and demoed to the business owner(s) to sign-off
+      - ![entapps ready to deploy](/images/handbook/enterprise-applications/entapps-deploy.png) Issues in current milestones, sign-offs given by the business owner that are ready to be deployed by systems team member
+      - ![entapps blocked](/images/handbook/enterprise-applications/entapps-blocked-png.png) Issues in the current milestone which are assigned to systems team member which are stalled due to technical difficulties and/or assigned to business owner pending to provide information to the systems member to move forward
 
 4. Please review the status of any issue on our agile [board.](https://gitlab.com/groups/gitlab-com/-/boards/1117318?label_name[]=SalesSystems)
 5. If there is a severity impacting the flow of business (i.e. No one can make a quote, No accounts are being created, Opportunities cannot be closed Won) follow the process as described above as well as share the issues in the `Sales-Support` Slack Channel
@@ -299,7 +299,7 @@ Before a milestone can be closed, the following checks are performed by Sales Sy
 5. You are working from a GitLab issue with clear technical specifications that deliver on the agreed business requirements.
 6. You have identified the priority of the request based on our [priority matrix](/handbook/sales/field-operations/sales-systems/), and added the appropriate label: `entapps-priority::p3`, `entapps-priority::p2`, `entapps-priority::p1`
 
-**Change Managment Steps:**
+**Change Management Steps:**
 
 1. Make sure you start on branch master and `git pull`.
 2. Create a new branch, giving it a name that ties back to the issue: `git checkout -b "SalesSystems-158"`.
