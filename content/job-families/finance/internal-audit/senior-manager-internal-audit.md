@@ -45,3 +45,24 @@ The Senior Manager, Internal Audit is a [grade 9](/handbook/total-rewards/compen
 - Strong working knowledge of US GAAP principles and financial statements
 - Ability to balance quality of work with speed of execution
 - Ability to use GitLab
+
+### Performance Indicators
+
+-
+
+
+### Career Ladder
+
+The next step in the Senior Manager, Internal Audit job family is to move to the Director, Internal Audit job family.
+
+### Hiring Process
+
+Candidates for this position can expect the hiring process to follow the order below. Please keep in mind that candidates can be declined from the position at any stage of the process. To learn more about someone who may be conducting the interview, find their job title on our [team page](/handbook/company/team/).
+
+- Qualified candidates will be invited to schedule a 30 minute [screening call](/handbook/hiring/interviewing/) with one of our Global Recruiters.
+- Next, candidates will be invited to schedule a 45 minute interview with our Controller.
+- Candidates will then be invited to schedule a 45 minute interview with our CFO.
+- Finally, candidates will interview with Chairman of the Audit Committee.
+- Successful candidates will subsequently be made an offer via email.
+
+Additional details about our process can be found on our [hiring page](/handbook/hiring/interviewing/).
