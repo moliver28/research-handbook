@@ -21,7 +21,7 @@ The projects currently using this are
 * [charts/gitlab](https://gitlab.com/gitlab-org/charts/gitlab)
   * [Open Merge Requests](https://gitlab.com/gitlab-org/charts/gitlab/merge_requests?scope=all&utf8=%E2%9C%93&state=opened&label_name[]=dependencies.io&label_name[]=maintenance)
 
-All dependencies for a repository are defined [here](https://gitlab.com/gitlab-org/frontend/renovate-gitlab-bot/renovate/distribution).
+All dependencies for a repository are defined [here](https://gitlab.com/gitlab-org/frontend/renovate-gitlab-bot/-/tree/main/renovate/distribution).
 
 ## Handling Merge Requests
 
