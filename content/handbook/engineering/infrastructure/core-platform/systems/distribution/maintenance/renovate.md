@@ -73,4 +73,4 @@ A snippet that describes how to test locally can be found [here](https://gitlab.
 
 ## Additional Information
 
-Additional information can be found in the Distribution: Renovate Gitlab Bot 101, found [here](https://gitlab.com/gitlab-org/distribution/distributions-101/-/tree/main/GitLab%20Renovate%20Bot?ref_type=heads).
+Additional information can be found in [Distribution: Renovate Gitlab Bot 101](https://gitlab.com/gitlab-org/distribution/distributions-101/-/tree/main/GitLab%20Renovate%20Bot?ref_type=heads).
