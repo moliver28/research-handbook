@@ -1,6 +1,6 @@
 ---
-title: "OKRs at GitLab"
-description: "OKRs stands for Objective-Key Results and are our quarterly objectives. OKRs are how to achieve the goal of the Key Performance Indicators KPIs."
+title: "Approach to OKRs at GitLab"
+description: "An overview of how OKRs are done at GitLab."
 ---
 
 This page generally covers OKRs _at_ GitLab, including:
@@ -11,9 +11,9 @@ This page generally covers OKRs _at_ GitLab, including:
 1. [Maintaining the health status of OKRs](#maintaining-the-status-of-okrs)
 1. [Scoring OKRs](#scoring-okrs)
 
-For information on:
+There is additional information on:
 
-1. What OKRs are, and general guidance on how to forumlate them, please see [the gemeral OKRs page](okrs-basics.md).
+1. What OKRs are, and general guidance on how to forumlate them, please see [the general OKRs page](okrs-basics.md).
 1. How to enter and organize OKRs in GitLab, please see [the OKRs in GitLab page](okrs-in-gitlab.md).
 
 ## Overview
