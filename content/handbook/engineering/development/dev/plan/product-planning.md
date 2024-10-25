@@ -203,17 +203,17 @@ During the planning and breakdown process we usually need to make issues and tas
 
 A Definition of Ready is an agreed set of guidelines for ensuring an issue or task is ready to be picked up and worked on. Its job is to provide a reference that we can use when deciding whether we can add the 'ready for development' workflow label and expect somebody to be able to complete the work.
 
-To determine whether an issue or task is suitable to be deemed 'ready for development', consider the following Definition of Ready.
+To determine whether an issue or task is suitable to be deemed `ready for development`, consider the following Definition of Ready.
 
 1. The work is described in sufficient detail. A reader without previous context or assumed knowledge is able to understand what work is to be undertaken. What we're doing and why we're doing it is described.
 2. Acceptance Criteria or Requirements are clearly defined. This should help the assignee understand the scope of the work and verify the intended happy/sad paths are functional and tested.
-    - Including the relevant license level and feature flags in the Acceptance Criteria or Requirements is also advised.
+   - Including the relevant license level and feature flags in the Acceptance Criteria or Requirements is also advised.
 3. Other work that blocks or is blocked by the work is linked with the correct relationship.
 4. Relevant resources such as designs, documents, and external links are attached.
 5. Cross-functional dependencies are described; such as needing to ask for Technical Writing assistance.
 6. Documentation that needs to be updated or added is linked.
 7. In case of feature development, a weight has been added and confirmed with at least one other engineer (preferably a domain expert).
-    - In case an item is weighed as `4` or above, domain expert can provide guidance on breaking down this issue into separate issues (or tasks).
+   - In case an item is weighed as `4` or above, domain expert can provide guidance on breaking down this issue into separate issues (or tasks).
 
 > During the process of populating an Issue or Task for engineering work, we will probably need to ask questions for extra clarity or to help prevent us from making assumptions. We may also feel we don't have enough information to be able to properly break down work into suitably sized chunks. Consider [a spike](#consider-a-spike-andor-a-design-document) where the path forward is not clear.
 
@@ -222,13 +222,13 @@ To determine whether an issue or task is suitable to be deemed 'ready for develo
 During the planning/breakdown process, it's important that we keep in mind a couple of things:
 
 1. The author of the issue/task may not be the person to work on it
-2. We may not work on the issue/task right away
+2. We might not start working on the issue/task right away
 
 Our Definition of Ready should help ensure that our work is defined well enough that the two points above are not problems.
 
 Due to our async nature and distributed team, treating a Definition of Ready as a hard quality gate could have a negative effect on productivity. Because of this, the Definition of Ready should be used as a guide rather than as rules and we shouldn't prevent work from being picked up if an issue/task doesn't adhere to the Definition of Ready perfectly.
 
-Issues and Tasks are mutable — we can always go back and change plans, add missing context, catalogue decisions made during development, etc.
+Issues and tasks are mutable — we can always go back and change plans, add missing context, document decisions made during development, etc.
 
 #### Health Status
 
