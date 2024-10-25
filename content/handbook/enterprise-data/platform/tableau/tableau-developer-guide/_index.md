@@ -85,7 +85,7 @@ The first place that you get the option to embed your rolename is when you first
 
 If you want other people to be able to access your data source, you need to leave it blank. There is no reason to enter your rolename at this step, you will do it at a later step, so the proper workflow is to leave it blank at this step.
 
-From here, set up your datasource and develop as you would like. Then, when you are ready, publish your workbook/datasource. This is where you will follow the steps from the [start of this section](.../tableau-developer-guide/#connection-types-in-workbooks) for embedding your rolename as you publish the workbook.
+From here, set up your datasource and develop as you would like. Then, when you are ready, publish your workbook/datasource. This is where you will follow the steps from the [start of this section](/tableau-developer-guide/#connection-types-in-workbooks) for embedding your rolename as you publish the workbook.
 
 If you forget to embed your rolename at this step, then your users will be asked to sign into Snowflake or otherwise send an error instead of letting them access the dashboard.
 
