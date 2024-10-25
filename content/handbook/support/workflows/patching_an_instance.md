@@ -50,6 +50,7 @@ The checksums will differ if the patch was applied correctly.
 - This process only applies to the Rails application ([the GitLab repository](https://gitlab.com/gitlab-org/gitlab)).
 Other components may need additional steps.
 - The patch will need to be reapplied if GitLab is upgraded.
+- The value of the patch option `-p` needs to be set to the correct a strip size.
 
 ## Patching a Docker install
 
@@ -68,6 +69,8 @@ gitlab-ctl restart
 **Note**:
 
 - Deleting and recreating the container will revert the patch.
+- The value for the patch option `-p` needs to be set to the correct a strip size.
+
 
 ## Patching a Kubernetes install
 
