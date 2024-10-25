@@ -119,6 +119,24 @@ This is useful to check if emails have been delivered successfully from our end,
     - If email is bouncing due to a suppression (evidenced by the message `Not delivering to previously bounced address` in the log) proceed to [Removing a Suppression in Zendesk](#manually-remove-a-suppression-in-zendesk) or [Removing a Suppression in Mailgun](#manually-remove-a-suppression-in-mailgun).
     - If email is marked as `Delivered` and the response code under `delivery-status` is `"code": 250`, this indicates that the user's mail server acknowledged the receipt, and the email delivery was successful.
 
+#### Using Mailgun's new log search
+
+Mailgun has introduced a new search page, which they've announced [here](https://www.mailgun.com/blog/product/mailgun-announces-improvements-to-logs-feature-to-increase-visibility-into-deliverability-problems/). One can choose to use this new search if they click the link in the info box labeled "Check out our new reporting logs experience with updated functionality here" at the top of the old search page, or one can find it here: https://app.mailgun.com/mg/reporting/logs. Note: this new search functionality may become the default search in the future.
+
+This new search allows a support engineer to use filters to narrow down the search results. Usage of this new search functionality will change the steps above slightly. Support engineers can also use this new search to perform more in-depth searches if needed - including searching for all messages sent to a specific domain. Here are the steps to use the new search:
+
+1. Utilize the Mailgun SSO app on your Okta dashboard to log in to [Mailgun](https://app.mailgun.com/app/dashboard).
+1. Click on `Reporting` on the left-hand side navigation bar.
+1. Click on `Logs`.
+1. Choose a date range using the date range picker at the top of the `Controls` box.
+1. Click the `Filters` button to the right of the date range picker.
+1. Choose the filters you wish to use. To search for suppressions, use **To** and **Contains** as the source, then input the user's email address in the `Enter text` field and click the `Add` button. Then, click `Apply` at the bottom right.
+    - If email is delayed, respond to the user and ask them to wait.
+    - If email is bouncing due to a suppression (evidenced by the message `Not delivering to previously bounced address` in the log) proceed to [Removing a Suppression in Zendesk](#manually-remove-a-suppression-in-zendesk) or [Removing a Suppression in Mailgun](#manually-remove-a-suppression-in-mailgun).
+    - If email is marked as `Delivered` and the response code under `delivery-status` is `"code": 250`, this indicates that the user's mail server acknowledged the receipt, and the email delivery was successful.
+
+Support engineers can also choose to filter on **Status message**, **Status code**, and more. For example, a support engineer can choose to filter on **Status code** **Equals** "550" and **To** **Contains** "gmail.com" to find all undelivered messages to `@gmail.com` addresses that were rejected because the user's inbox doesn't exist.
+
 ### How to see or resend emails in Mailgun
 
 This is to check the content of an email sent:
