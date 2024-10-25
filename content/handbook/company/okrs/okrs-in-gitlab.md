@@ -1,7 +1,7 @@
 ---
 title: "OKRs in GitLab"
 description: "How to enter and organize OKRs in the GitLab platform."
-weight: 1
+weight: 2
 ---
 
 Watch this video for a demo on how to use GitLab for OKR management:

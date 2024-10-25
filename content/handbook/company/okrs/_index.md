@@ -1,7 +1,6 @@
 ---
 title: "Approach to OKRs at GitLab"
 description: "An overview of how OKRs are done at GitLab."
-weight: 1
 ---
 
 This page generally covers OKRs _at_ GitLab, including:
