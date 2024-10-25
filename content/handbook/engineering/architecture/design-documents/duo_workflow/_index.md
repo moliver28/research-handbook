@@ -494,9 +494,19 @@ that will require [adding dynamic scopes to Doorkeeper](https://github.com/doork
 the library we use for OAuth.
 
 The composite OAuth token will belong to a [service account](https://docs.gitlab.com/ee/user/profile/service_accounts.html)
-but will be tied to a human user. As a result, the output of Duo Workflow will be
-attributed to a machine user but that machine user's access will match the
-access of the human user who initiated the Workflow.
+but will be tied to a human user. As a result, the output of Duo Workflow will
+be attributed to a machine user but the access of the token will be the
+intersection of what the machine user's permissions and what the human user's
+permissions allow.
+
+```mermaid
+graph TB
+    A[Action Request] --> B{Human User<br/>Has Permission?}
+    B -->|No| C[["Permission Denied"]]
+    B -->|Yes| D{Machine User<br/>Has Permission?}
+    D -->|No| E[["Permission Denied"]]
+    D -->|Yes| F[["Action Permitted"]]
+```
 
 To accomplish this, we will:
 
