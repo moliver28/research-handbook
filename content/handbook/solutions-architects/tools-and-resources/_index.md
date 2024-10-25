@@ -28,7 +28,7 @@ Paid customers must set up a new namespace on SaaS when trialing Ultimate.  Ther
 
 Both situations put customer production GitLab usage at risk if a trial is applied to the SaaS namespace.
 
-Instead, a customer should create a new namespace and trial there.  We have put together some [rial guidelines](/handbook/solutions-architects/tools-and-resources/trial-guidelines/) in order to make the process as seamless as possible for customers.
+Instead, a customer should create a new namespace and trial there.  We have put together some [trial guidelines](/handbook/solutions-architects/tools-and-resources/trial-guidelines/) in order to make the process as seamless as possible for customers.
 
 ### Hands-on Workshops
 
