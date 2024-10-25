@@ -34,6 +34,35 @@ GitLab does not plan to offer pension benefits at this time as Austria has their
 
 There is no plan to offer life insurance at this time as team members can access the benefits via the social security system which covers illness, injury & disability.
 
+### Bike Leasing Benefit
+
+Global Expansion, through partnership with the local provider, is able to offer a bike leasing option to team members via [BikeLeasing.AT](https://bikeleasing.at/arbeitnehmer#c2991).
+
+#### Benefits of Bike Leasing
+
+- Team members can lease bikes at a lower cost than purchasing, thanks to tax advantages and bulk pricing offered by leasing companies.
+- Encourages team members to stay fit and healthy by cycling regularly, which can lead to better overall well-being and potentially reduce sick days.
+- Promotes eco-friendly commuting, helping reduce a company's carbon footprint.
+- The cost is deducted from the team member's salary, spread over a fixed period, making the bike more affordable.
+
+#### Salary Deduction
+
+The exact salary deduction depends on the terms of the lease agreement, but typically, a portion of the gross salary is deducted monthly. This could be calculated based on the bike's value over the leasing period (usually 36 months).
+
+#### Tax Efficiency
+
+Bike leasing is considered a tax-efficient measure in Austria. Since the salary deduction occurs pre-tax, it reduces the employee’s taxable income, thus lowering their income tax liability.
+
+#### Process if resignation is submitted
+
+If you resign before the end of the leasing period, you will generally have a few options:
+
+- Pay the Remaining Balance: You may be required to settle the outstanding lease payments (remaining balance) in a lump sum or through continued payments after resignation.
+- Purchase the Bike: Buy the bike at the end of the lease or upon resignation by paying a predefined residual value.
+- Transfer to a New Employer/Leasing Company: It may be possible to transfer the leasing contract to a new employer, but this depends on the policies of both the current leasing provider and the new company. So this would need to be clarified with bikeleasing.at directly.
+
+If you would like to sign up for this benefit or have any questions regarding this, please reach out to the Global Expansion team via `gx_employeeexperience@globalexpansion.com`.
+
 ### GX Leave policy
 
 ### Annual leave (statutory)
@@ -78,7 +107,7 @@ Review the [AXA Medical guide](https://drive.google.com/file/d/1PqIC6xjfthcX5PCk
 
 - Team members will be able to avail of GX’s global health insurance plan through AXA. GitLab will cover 100% of the team members' cost and 66%  of eligible dependent premiums.
 - The AXA plan will be administered directly through GX.
-- During the onboarding of a new hire, GX will collect the team member and eligible dependent’s census for enrollment via the GX1 platform.
+- During the onboarding of a new hire, GX will collect the team member and eligible dependent’s census for enrollment via the GX1 platform. If dependants are added GX will need to ask team members to sign an authorisation form detailing the amount that will be deducted through Payroll.
 - Once the plan is implemented, the team member will receive the documentation along with a digital pass  via a secure link directly from AXA
 - For any addition or modification a team member can reach out to the GX team at: gx_employeeexperience@globalexpansion.com.
 
@@ -137,7 +166,7 @@ Review the [AXA Medical guide](https://drive.google.com/file/d/1PqIC6xjfthcX5PCk
 
 - Team members will be able to avail of GX’s global health insurance plan through AXA. GitLab will cover 100% of the team members' cost and 66%  of eligible dependent premiums.
 - The AXA plan will be administered directly through GX.
-- During the onboarding of a new hire, GX will collect the team member and eligible dependent’s census for enrollment via the GX1 platform. 
+- During the onboarding of a new hire, GX will collect the team member and eligible dependent’s census for enrollment via the GX1 platform. If dependants are added GX will need to ask team members to sign an authorisation form detailing the amount that will be deducted through Payroll.
 - Once the plan is implemented, the team member will receive the documentation along with a digital pass  via a secure link directly from AXA.
 - For any addition or modification a team member can reach out to the GX team at: gx_employeeexperience@globalexpansion.com.
 
@@ -189,12 +218,13 @@ All benefits listed below are administered and managed by [Global Expansion](htt
 (Health Care Allowance)
 
 - Healthcare Monthly Allowance will be paid by GX as an allowance to the team members for their own Medical Coverage.
-- This amount will be paid on a monthly basis with the regular payroll as a reimbursement.
-- Proof of coverage must be shared or forwarded to total-rewards@gitlab.com in order to receive the correct allowance amount.
-- New Proof of coverage must be shared anytime your plan renews.
 - The allowance will be up to 300 USD per month for team members and up to 500 USD per month for team members plus Dependents. (USD amount can be converted to the local currency using the latest Currency Conversion Factor)
-- The Total Rewards team will send a confirmation email to Global Expansion to have the reimbursement processed.
-- The Total Rewards team will email the non-us payroll team of the allowance and include the amount in the current month’s payroll changes report.
+- This amount will be paid on a monthly basis with the regular payroll as a reimbursement.
+- Team Members are required to share proof of registration to the GX1 (Global Expansion) portal. 
+- If a team member has a change in cost and coverage / renewal, please ensure to upload the new proof of cost and cover to the GX1 (Global Expansion) portal and send an email to `gx_employeeexperience@globalexpansion.com` cc'ing `total-rewards@gitlab.com` to advise the new proof has been uploaded so that this can be adjusted on the next available payroll.
+- If a team members policy is already in KES, GX will convert from the USD allowance amount to local currency (KES) around the 21st of each month, and include the converted amount in that specific months salary payment.
+
+Once a year, Global Expansion may reach out to team members to complete an audit and request that team members upload proof of coverage and cost.
 
 ### Pension
 
@@ -458,7 +488,9 @@ All benefits listed below are administered and managed by [Global Expansion](htt
 
 ### Medical Allowance
 
-Up to ZAR 5,000 /month for a single employee or up to ZAR 8,500/month for the employee and legal dependents (not a flat amount). Team Members are required  to share proof of registration to the GitLab Total Rewards team (total-rewards@gitlab.com). If a team member has a change in cost, please ensure to email the new proof of cost and cover to the Total Rewards team and upload a copy to the GX1 platform.
+Team members receive up to ZAR 5,000 /month for a single employee or up to ZAR 8,500/month for the employee and legal dependents (not a flat amount). Team Members are required to share proof of registration to the GX1 (Global Expansion) portal. If a team member has a change in cost, please ensure to upload the new proof of cost and cover to the GX1 (Global Expansion) portal and send an email to `gx_employeeexperience@globalexpansion.com` cc'ing `total-rewards@gitlab.com` to advise the new proof has been uploaded so that this can be adjusted on the next available payroll.
+
+Once a year, Global Expansion may reach out to team members to complete an audit and request that team members upload proof of coverage and cost.
 
 ### Provident fund
 
