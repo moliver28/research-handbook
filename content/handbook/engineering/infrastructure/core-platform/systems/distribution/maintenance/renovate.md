@@ -15,11 +15,11 @@ We use Renovate to monitor external repositories, and open a merge request to th
 The projects currently using this are
 
 * [omnibus-gitlab](https://gitlab.com/gitlab-org/omnibus-gitlab)
-  * [Open Merge Requests](https://gitlab.com/gitlab-org/omnibus-gitlab/merge_requests?scope=all&utf8=%E2%9C%93&state=opened&label_name%5B%5D=dependencies.io&label_name%5B%5D=maintenance)
+  * [Open Merge Requests](https://gitlab.com/gitlab-org/omnibus-gitlab/merge_requests?scope=all&state=opened&label_name[]=automation%3Abot-authored)
 * [CNG images](https://gitlab.com/gitlab-org/build/CNG)
-  * [Open Merge Requests](https://gitlab.com/gitlab-org/build/CNG/merge_requests?scope=all&utf8=%E2%9C%93&state=opened&label_name[]=dependencies.io&label_name[]=maintenance)
+  * [Open Merge Requests](https://gitlab.com/gitlab-org/build/CNG/-/merge_requests?scope=all&state=opened&label_name[]=automation%3Abot-authored)
 * [charts/gitlab](https://gitlab.com/gitlab-org/charts/gitlab)
-  * [Open Merge Requests](https://gitlab.com/gitlab-org/charts/gitlab/merge_requests?scope=all&utf8=%E2%9C%93&state=opened&label_name[]=dependencies.io&label_name[]=maintenance)
+  * [Open Merge Requests](https://gitlab.com/gitlab-org/charts/gitlab/merge_requests?scope=all&state=opened&label_name[]=automation%3Abot-authored)
 
 All dependencies for a repository are defined [here](https://gitlab.com/gitlab-org/frontend/renovate-gitlab-bot/-/tree/main/renovate/distribution).
 
