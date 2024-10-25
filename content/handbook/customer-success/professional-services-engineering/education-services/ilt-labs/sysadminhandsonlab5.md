@@ -83,7 +83,6 @@ There are a variety of different metrics administrators can use to monitor the p
 
     > For these metrics and many others, you may want to consider alerting for specific conditions. For example, you could alert for cases where the CPU usage exceeds 50% consistently, as it might indicate an issue.
 
-
 ## Task B. Install Grafana
 
 Grafana provides you with a method of visualizing logs and metrics for your GitLab instance. Let's start by installing Grafana
