@@ -1,6 +1,7 @@
 ---
 title: "Overview of Objectives and Key Results (OKRs)"
 description: "General information on OKRs, criteria, and guidance on how to write them."
+weight: 1
 ---
 
 ## What are OKRs?

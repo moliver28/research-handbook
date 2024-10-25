@@ -1,6 +1,7 @@
 ---
 title: "Approach to OKRs at GitLab"
 description: "An overview of how OKRs are done at GitLab."
+weight: 1
 ---
 
 This page generally covers OKRs _at_ GitLab, including:
@@ -13,8 +14,8 @@ This page generally covers OKRs _at_ GitLab, including:
 
 There is additional information on:
 
-1. What OKRs are, and general guidance on how to forumlate them, please see [the general OKRs page](okrs-basics.md).
-1. How to enter and organize OKRs in GitLab, please see [the OKRs in GitLab page](okrs-in-gitlab.md).
+1. What OKRs are, and general guidance on how to forumlate them, on [the general OKRs page](okrs-basics.md).
+1. How to enter and organize OKRs in GitLab, on [the OKRs in GitLab page](okrs-in-gitlab.md).
 
 ## Overview
 
