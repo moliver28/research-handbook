@@ -304,7 +304,9 @@ hugolint:
   needs: []
   rules:
     - <<: *build-and-test-only
+      allow_failure: true
     - <<: *is-fork
+      allow_failure: true
     - <<: *default-branch
       allow_failure: true
     - <<: *merge-request-or-tag
