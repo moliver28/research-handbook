@@ -73,17 +73,19 @@ To get into a technicality here, percentage improvement in query run-time can be
 
 We will calculate the percentage improvement in run-time using the traditional formula [2]:
 
-```py
-(new - old)/old*100%
-```
+$$
+\frac{new - old}{old} \times 100\%
+$$
 
-So if the old run-time was 10 seconds, and the new run-time is 5 seconds then:
+For example, if we have the values `new = 5` and `old = 10`, the calculation would be:
 
-```py
-(new - old)/old*100%
-=(5-10)/10*100%
-=-50%
-```
+$$
+\begin{align*}
+\frac{new - old}{old} \times 100\% &= \frac{5 - 10}{10} \times 100\% \\
+&= \frac{-5}{10} \times 100\% \\
+&= -50\%
+\end{align*}
+$$
 
 That means the new value is 50% smaller (faster, since we're talking about response time) than the old value.
 
