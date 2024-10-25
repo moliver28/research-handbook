@@ -91,7 +91,6 @@ The GitLab documentation site contains a large and growing amount of content. Fi
 CI has become a regular practice for companies around the world since it allows them to develop software easier, faster, and with less risk. Automating builds and tests allows developers to commit smaller changes with higher confidence and get feedback on their code sooner. GitLab's CI features were designed years ago, and given the siloed nature of how GitLab team members work internally, there hasn't been a moment to step back and evaluate the experience of CI and merging code as a whole. In this project, you'll evaluate the current experience, including documentation, and speak with real developers who use GitLab to understand their pains when developing/merging code with CI enabled. You'll use the insights you find to make improvements using the Pajamas design system in Figma and test them with real users.
 {{% /details %}}
 
-
 ## Project lead
 
 The project lead for the Tufts University Capstone Course project is a rotating volunteer position. Ideally, the same individual should not run the project more than 1-2 years concurrently in order to share the professional development benefits and workload that the role entails.
@@ -106,7 +105,6 @@ The project lead for the Tufts University Capstone Course project is a rotating 
 | 2026 | TBD |
 
 {{% /details %}}
-
 
 ### Responsibilities and timeline
 
