@@ -36,6 +36,7 @@ description: "Developer Advocates build GitLab's technical brand with deep, mean
 - [<i class="far fa-edit"></i> Action Template for Announcement Responses](https://docs.google.com/document/d/1Dhe2hFFZCDRK6eLhrfFqa-iz0bFX8gTZ4keoHo5KrtM/edit)
 - [<i class="fas fa-chalkboard-teacher"></i> CFPs](/handbook/marketing/developer-relations/developer-advocacy/cfps)
 - [<i class="far fa-edit"></i> Content creation](/handbook/marketing/developer-relations/developer-advocacy/#content-creation)
+- [<i class="far fa-edit"></i> Working with agencies](/handbook/marketing/developer-relations/developer-advocacy/#working-with-agencies)
 - [<i class="far fa-folder-open"></i> Team Shared Drive](https://drive.google.com/drive/u/0/folders/0AEUOlCStMBC9Uk9PVA)
 
 ### Want to work with the team?
@@ -125,6 +126,101 @@ We build our thought leadership on social media. See [Developer Advocacy on Soci
 We build out content to help educate developers around best practices related to DevOps, GitLab, remote work, and other topics where we have expertise. Content includes presentations, demos, workshops, blog posts, and media engagements. Content creation also includes assets co-created with other GitLab teams, inside and outside of Marketing.
 
 Please read the [Content](/handbook/marketing/developer-relations/developer-advocacy/content) handbook to learn more about the content workflow, library and distribution with UTM tracking.
+
+### Working with agencies
+
+Sometimes, the Developer Advocate team works with external agencies, e.g. video production, translations, white paper production, competitive analyses, etc. In these cases, there will typically be some budget already allocated for this type of work. One of the agencies that we use for video production is [PieHole.tv](https://piehole.tv/). Once, you have a technical video in mind that you'd like to them produce, follow these steps:
+
+#### Develop the video script
+
+Make a copy of the following [document](https://docs.google.com/document/d/1J82jCFhk1k0kW35nPkcbzWH6zyxLktwvPgrvmXcmugo/edit?usp=sharing) to start developing the script for the video and place the copy in your Google drive.
+
+#### Create an issue for the video
+
+Head to this [project](https://gitlab.com/gitlab-com/marketing/developer-relations/developer-advocacy/partners/piehole.tv/-/issues/?sort=created_date&state=opened&first_page_size=100), and create a new issue.
+
+
+For the issue title, enter a string that follows this syntax: "PieHole demo - [ENTER THE NATURE OF YOUR VIDEO]", e.g. "PieHole demo - GitLab Duo Chat".
+
+In the description of the issue, include a link to the script document that you created in the previous section in the form of "Original script: [Link to Google doc]".
+
+Assign yourself to the issue and in a comment of the issue tag the following people:
+
+- PieHole.tv members: @yvette4, @dinette
+- Our Brand video team: @joanna_c, @dharper-ext
+- Any stakeholders from other GitLab teams, whose involvement you deem necessary
+
+#### Develop the script
+
+Start developing the script in the Google doc you created above. Technical videos should ideally be less than 2 minutes in duration. However, for longer videos, they should be no longer than ten minutes. Videos that are 10-min long or less can be published in our [official YouTube channel](https://www.youtube.com/channel/UCnMGQ8QHMAnVIsI3xJrihhg). Videos that are longer than 10 minutes are published to our [Unfiltered YouTube channel](https://www.youtube.com/channel/UCMtZ0sc1HHNtGGWZFDRTh5A).
+
+As you develop the script, we recommend that you follow this sequence:
+
+- State the problem/pain that the capability(ies) presented in the video will solve
+- Introduce the capability(ies) that you will show in the video
+- Show the product demo portion that demonstrates how the capability(ies) solve the problem/pain. As you present the capabilities, mention the benefits of each.
+- State the overall benefits of the capability(ies) presented in the video
+
+#### Record the raw product demo
+
+Perform a screen recording that shows the product capabilities that solve the problem/pain that the script talks about. You can use screen recording software, such as, QuickTime, Adobe Premiere, or Camtasia to record the raw product demo on your Mac.
+
+Save the recording as a 4K or 1080p MP4 or a MOV file and upload it to your Google drive.
+
+As you develop the script scenes, indicate the timestamp in the raw recording for the specific scene in the SKETCH column of the scene rows.
+
+Update the issue you created earlier, by adding to it the link to your uploaded raw product demo video in the form of "Raw MP4: [Link to the MP4 in your Google drive]".
+
+#### Have the script reviewed
+
+Once you have your first draft of the script finished, have it reviewed by the appropriate stakeholders. For our team, a good person to have it reviewed is @johncoghlan. Others can include members of our Brand video team and appropriate Product Marketing Managers (PMMs).
+
+#### Attend our weekly calls with PieHole.tv
+
+Start attending our weekly calls with PieHole.tv. They take place on Thursdays at 12 noon EDT/EST US. Please reach out to @yvette4 from PieHole.tv to be added to the calls. These weekly calls serve as a sync point for all work presently being done asynchronously.
+
+#### Add link to PieHole.tv-managed script to the issue
+
+Once the script has been reviewed by all appropriate GitLab team members that you deemed necessary, you need to let PieHole.tv know so that they can take ownership of the file contents. At this point, they will make a copy of the script file and will own it from this point until the completion of the video production.
+
+At this point, PieHole will update the issue by adding in the first line of the issue Description the following: "Script managed by PieHole.tv: [Link to the script file managed by PieHole.tv]". If you don't see this happening, remind PieHole.tv about this or request the link from them and add this line at the top of the issue description.
+
+The whole production process for a video should take about 5 weeks if there are no delays on our part.
+
+#### Publish tech video at the following locations
+
+Once the video is finished and finalized by PieHole.tv, they will provide the link to the HD MP4 file to it. Download the file to your Mac and then upload it to the following locations:
+
+- Our [official YouTube channel](https://www.youtube.com/channel/UCnMGQ8QHMAnVIsI3xJrihhg) if the video is 1-min long or less. If there is a specific playlist that the video needs to be added to, this is when you would do that too.
+- Our [Unfiltered YouTube channel](https://www.youtube.com/channel/UCMtZ0sc1HHNtGGWZFDRTh5A) if the video is longer than 10 minutes.
+- Our [Vimeo directory](https://vimeo.com/user/115027220/folder/17153021?isPrivate=false) for Developer Relations videos. Upload it so that it's "hidden but can be embedded".
+- Our [Team Highspot spot](https://gitlab.highspot.com/spots/66e34f47b2ec5ee197c6ad90).
+
+#### Announce on our slack channels
+
+Post a brief slack message on the following slack channels announcing the availability of the new video:
+
+- dev-advocacy-team
+- developer-relations
+- marketing
+- product-marketing
+- whats-happening-at-gitlab
+
+#### Post on your social media channels
+
+Announce the availability of the video in your own social channels and make sure to tag GitLab in the announcement. We typically announce on LinkedIn, Facebook, Instagram and Twitter.
+
+#### Move or copy files to Developer Advocacy drive
+
+In the [PieHole.tv directory](https://drive.google.com/drive/u/0/folders/1vlDSx4JdtXl4e2lLYC8sgbeHZ2MSZpdU), create a sub-directory with a name that describes the final video, e.g. "GitLab Duo Chat". In this newly created sub-directory, copy or move the following files related to the specific video:
+
+- A copy of the final script managed by PieHole.tv
+- The raw product demo you recorded you recorded in MP4 or MOV format
+- The final HD MP4 delivered by PieHole.tv
+
+Also ensure that our Brand team gets a copy of the project files for specific video from PieHole.tv
+
+That's it!
 
 ### Corporate event support
 
