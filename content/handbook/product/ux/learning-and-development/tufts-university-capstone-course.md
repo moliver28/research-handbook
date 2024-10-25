@@ -40,15 +40,10 @@ If you're interested in volunteering for the Spring 2025 semester, you should co
 1. Add yourself to the [list of volunteers](https://gitlab.com/gitlab-com/Product/-/issues/13669#raised_back_of_hand-volunteers)
 
 1. [Brainstorm projects](#project-proposals) that would be a good fit for the students. You'll need a project description for each idea, these are the descriptions that students read and select from once the course begins.
-1. Post a message in the `#ux` channel or add an item in the UX Weekly meeting to see if other members of the UX Department are interested in joining.
-1. Email the professors, Linda Borghesani (`Linda.Borghesani@tufts.edu`) & Nick Katis (`Nick.Katis@tufts.edu`) about your interest in sponsoring and the project proposals you have in mind.
-1. The professors may set up a meeting to help you select which project to move forward with. Read [Sponsor requirements](#sponsor-requirements) and [Best practices as a sponsor](#best-practices-as-a-sponsor) for more information on how to prepare before the course begins.
-
-Reach out to `@gdoyle` on Slack if you have questions or want help brainstorming projects. More information including FAQs can be found [here](https://docs.google.com/document/d/1jA93GJCnmLdleKZjSunEqlHv3wSXTjLLvMNq9alXgf0/edit?usp=sharing).
 
 ## Volunteer team composition
 
-For best results, we are looking for 3-5 volunteers from GitLab's Ux team, **at least** 1 of whom is a Product Designer and 1 of whom is a UX Researcher. 
+For best results, we are looking for 3-5 volunteers from GitLab's UX team, **at least** 1 of whom is a Product Designer and 1 of whom is a UX Researcher. 
 
 ## Project proposals
 
@@ -101,25 +96,59 @@ CI has become a regular practice for companies around the world since it allows 
 
 The project lead for the Tufts University Capstone Course project is a rotating volunteer position. Ideally, the same individual should not run the project more than 1-2 years concurrently in order to share the professional development benefits and workload that the role entails.
 
+{{% details summary="Project lead history" %}}
+
+| Year | Name |
+| ---- | ---- |
+| 2023 | Gina Doyle |
+| 2024 | Gina Doyle |
+| 2025 | Chad Lavimoniere |
+| 2026 | TBD |
+
+{{% /details %}}
+
+
 ### Responsibilities and timeline
 
-The project lead is responsible for...
+The project lead has various reponsibilties before, during and after the student project.
 
-- Soliciting at least 3 [project proposals](#project-proposals) from GitLab team members for students to vote on.
+#### Before the project starts
+
+In the lead up to the project start, the project lead should:
+
+- Recruit GitLab Team Member [volunteers](#how-to-volunteer), keeping in mind the ideal [volunteer team composition](#volunteer-team-composition).
+- Solicit at least 3 [project proposals](#project-proposals) from GitLab team members for students to vote on.
 - Communicate with the Product team DRIs (Product Manager, Product Designer, UX Researcher) that own the feature area for each project proposal.
-- Be dedicated to working with the student team to make sure they have access to the necessary resources (for example, Dovetail) and people (for example, experts or participants to interview). Work with your manager to give students the appropriate access to GitLab tools and projects.
-- Hold stakeholder review sessions for larger deliverables, such as the discovery research proposal. These meetings should _at least_ include the Product Manager, Product Designer, and UX Researcher of the product area the project focuses on. These can take place in favor of a weekly sync or at a separate time depending on the team's preference.
+- Coordinate with the professors, Linda Borghesani (`Linda.Borghesani@tufts.edu`) & Nick Katis (`Nick.Katis@tufts.edu`). They will arrange for the students to choose which proposal.
+
+#### During the project
+
+At the start of the project, the project lead should:
+
 - Collaborate with Legal to have the students sign an [NDA to follow the guidelines of our SAFE framework](https://drive.google.com/file/d/1nvSBG_rA1_bEN0z8kTyQ30uIks_HhNL9/view?usp=drive_link) (:lock: internal only). Once the students select a project in January, it would be best to connect with `@ktesh` with the project start and end date, a short description of the project topic, and all of the students' emails in order for the NDA to be officially issued.
 - Create a designated subgroup and public project in the [Tufts University Group](https://gitlab.com/tufts-university) to track the Capstone project progress. Encourage students to create GitLab accounts with their school emails and invite them as `owners` to the project. This can help them get familiar with how GitLab works and the problem they'll be solving. This can also be the place where they access resources or materials they need to complete the project. Check out [this project](https://gitlab.com/tufts-university/tufts-university-capstone) for inspiration.
-- Use issues in the project to track sponsor-assigned tasks, such as project prep and reviewing student deliverables.
-- Write up a summary of the problem and link any resources that would be helpful for the students to look at to gain a better understanding of the concepts they'll be learning. Check out [this markdown file](https://gitlab.com/tufts-university/tufts-university-capstone/-/blob/main/resources.mde) for inspiration.
 - Create a Slack channel for daily communication with the students. Follow the [Slack access request guidelines](/handbook/it/end-user-services/onboarding-access-requests/access-requests/#slack-google-groups-1password-vaults-or-groups-access-requests) to include external users in a Slack channel. You can also use [this access request issue](https://gitlab.com/gitlab-com/team-member-epics/access-requests/-/issues/20173) as a reference.
+- Write up a summary of the selected project proposal and link any resources that would be helpful for the students to look at to gain a better understanding of the concepts they'll be learning. Check out [this markdown file](https://gitlab.com/tufts-university/tufts-university-capstone/-/blob/main/resources.mde) for inspiration.
+- Schedule a weekly check-in meeting time for volunteers and students
 - Create an agenda document for weekly check-ins so that the students know what to expect. Check out [this agenda](https://docs.google.com/document/d/1vz6VfQZm6awRlu9p5GCZHxGbU_rbK1vMx1C_eFZJKyc/edit?usp=sharing) for inspiration.
-- Record weekly check-ins and add them to the [Tufts Capstone Project playlist](https://www.youtube.com/watch?v=ykRgoFRjNkE&list=PL05JrBw4t0KoZr3rjOL2xv5c66_C526nE) on Unfiltered. This playlist is private as some recordings will contain confidential information, such as reviews of confidential research or competitors.
 - During the first meetings with the students, ask them what skills they are hoping to get out of the project. There are opportunities during the weekly check-ins to focus on those skills and teach the students how they are used in real-world scenarios. An example of this is explaining how to use design systems in Figma, including how to get the library in Figma, adding and editing components, and even making contributions to the Figma kit itself. Previous topics that students have asked about are listed in threads on [this issue](https://gitlab.com/tufts-university/2024/tufts-university-capstone-2023-2024/-/issues/1) along with supporting materials.
-- Hold stakeholder review sessions for larger deliverables with the DRIs of the product area that the project focuses on. These should help the stakeholders provide feedback to students with the context they need.
-- If the students and professors are interested, they can present their final presentation in a GitLab-held Zoom meeting. Be sure to:
+
+While the project is in progress, the project lead should:
+
+- Work with the student team to make sure they have access to the necessary resources (for example, Dovetail) and people (for example, experts or participants to interview). Work with your manager to give students the appropriate access to GitLab tools and projects.
+- Hold stakeholder review sessions for larger deliverables, such as the discovery research proposal. These meetings should _at least_ include the Product Manager, Product Designer, and UX Researcher of the product area the project focuses on. These can take place instead of a weekly sync or at a separate time depending on the team's preference.
+- Use issues in the project to track sponsor-assigned tasks, such as project prep and reviewing student deliverables.
+- Record weekly check-ins and add them to the [Tufts Capstone Project playlist](https://www.youtube.com/watch?v=ykRgoFRjNkE&list=PL05JrBw4t0KoZr3rjOL2xv5c66_C526nE) on Unfiltered. This playlist is private, as some recordings will contain confidential information, such as reviews of confidential research or competitors.
+- If the students and professors are interested, organize a final presentation for them in a GitLab-held Zoom meeting. Be sure to:
   - include the Product Department as attendees.
   - Add the event to the GitLab team meetings calendar by following [these steps](/handbook/tools-and-tips/#adding-an-event-to-the-gitlab-team-meetings-calendar).
   - Post in `#whats-happening-at-gitlab` for extra transparency.
+
+#### After the project is completed
+
+After the project has been completed, the project lead should:
+
 - Share a write-up of the students' results in the [GitLab UX Research project](https://gitlab.com/gitlab-org/ux-research) and the [gitLab-org/gitlab project](https://gitlab.com/gitlab-org/gitlab/). Check out [this research summary](https://gitlab.com/gitlab-org/ux-research/-/issues/2909) and [feature proposal](https://gitlab.com/gitlab-org/gitlab/-/issues/465571) for inspiration.
+- Coordinate with current and past volunteers to establish who the project lead will be for the following year.
+
+Reach out to `@gdoyle` or `@clavimoniere` on Slack if you have questions. More information including FAQs can be found [here](https://docs.google.com/document/d/1jA93GJCnmLdleKZjSunEqlHv3wSXTjLLvMNq9alXgf0/edit?usp=sharing).
