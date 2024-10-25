@@ -501,6 +501,10 @@ Email: ESG@GitLab.com.
 
 A:  Yes, GitLab  measures and discloses its greenhouse gas (GHG) emissions in the annual [ESG report](/handbook/company/esg/). Please view the results of our FY24 GHG inventory [here](/handbook/company/esg/#climate-action-and-greenhouse-ghg-emissions) and our third-party assurance letter [here](https://about.gitlab.com/documents/GitLab_FY2024_General_Verification_Opinion.pdf).
 
+**Q: Does GitLab participate in CDP?**
+
+A: GitLab does not currently respond to the CDP questionnaire. However, we publicly disclose information that closely aligns with the information requested in the questionnaire. We disclose our GHG inventory results, third party assurance letter and our TCFD disclosures in our annual ESG report. We are actively working on setting a GHG reduction target. Please see our [FY24 ESG Report,](/handbook.gitlab.com/handbook/company/esg/) [FY24 Performance Data Tables,](https://about.gitlab.com/documents/FY24_Performance_Data_Tables.pdf) and [TCFD Index](https://about.gitlab.com/documents/GitLab_FY24_TCFD_Index.pdf) for details.
+
 **Q: Has GitLab set a Science Based Target (SBT)?**
 
 A: Not yet. GitLab is currently working on setting a reduction target.
