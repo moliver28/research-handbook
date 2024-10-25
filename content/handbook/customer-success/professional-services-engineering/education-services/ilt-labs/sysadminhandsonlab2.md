@@ -112,3 +112,11 @@ GitLab uses PostgreSQL for all application related data. Sometimes it is helpful
 1. To see all the tables in the PostgreSQL database, run `\dt`.
 
 1. Try querying some tables! For example: `SELECT * FROM projects;`, `SELECT * FROM users;`.
+
+## Lab Guide Complete
+
+You have completed this lab exercise. You can view the other [lab guides for this course](/handbook/customer-success/professional-services-engineering/education-services/ilt-labs/sysadminhandson).
+
+### Suggestions?
+
+If you'd like to suggest changes to the GitLab System Admin Basics Hands-on Guide, please submit them via merge request.

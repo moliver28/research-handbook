@@ -44,3 +44,11 @@ To help secure your GitLab instance, you can customize the way users sign up and
 1. To re-enter Admin Mode, select your profile image in the left sidebar. In the resulting menu, select **Enter Admin Mode**.
 
 1. Input your Admin password in the prompt, then select **Enter admin mode**.
+
+## Lab Guide Complete
+
+You have completed this lab exercise. You can view the other [lab guides for this course](/handbook/customer-success/professional-services-engineering/education-services/ilt-labs/sysadminhandson).
+
+### Suggestions?
+
+If you'd like to suggest changes to the GitLab System Admin Basics Hands-on Guide, please submit them via merge request.

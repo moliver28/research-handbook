@@ -84,9 +84,9 @@ For this example, let's suppose that an issue occurred in GitLab Rails. To simul
 
 1. This output tells us our request reaches Nginx. From here, we can trace to the next location in the architecture, `Workhorse`. To view the logs for `Workhorse`, run:
 
-```bash
-cat /var/log/gitlab/gitlab-workhorse/current
-```
+    ```bash
+    cat /var/log/gitlab/gitlab-workhorse/current
+    ```
 
 1. In this output, look for the request that matches the URL of your `Nginx` request. It will look like this:
 
@@ -165,7 +165,7 @@ In some cases, troubleshooting will require the assistance of GitLab Support. To
 
 ## Lab Guide Complete
 
-You have completed this lab exercise. You can view the other [lab guides for this course](/handbook/customer-success/professional-services-engineering/education-services/sysadminhandson).
+You have completed this lab exercise. You can view the other [lab guides for this course](/handbook/customer-success/professional-services-engineering/education-services/ilt-labs/sysadminhandson).
 
 ### Suggestions?
 

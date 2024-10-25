@@ -190,7 +190,7 @@ Grafana provides you with useful tools for log collection and analysis. Let's se
 
 ## Lab Guide Complete
 
-You have completed this lab exercise. You can view the other [lab guides for this course](/handbook/customer-success/professional-services-engineering/education-services/sysadminhandson).
+You have completed this lab exercise. You can view the other [lab guides for this course](/handbook/customer-success/professional-services-engineering/education-services/ilt-labs/sysadminhandson).
 
 ### Suggestions?
 
