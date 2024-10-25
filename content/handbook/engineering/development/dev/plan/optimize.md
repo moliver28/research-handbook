@@ -4,7 +4,7 @@ title: "Optimize Group"
 
 ## Plan:Optimize
 
-### [Optimize FY24 direction and goals](https://gitlab.com/groups/gitlab-org/-/epics/9882#fy24-goals)
+**[Optimize FY25 direction and goals](https://gitlab.com/gitlab-org/gitlab/-/issues/440653)**
 
 ### How we work
 
@@ -13,8 +13,8 @@ title: "Optimize Group"
 - We get a chance to work on the things we want to work on.
 - Everyone can contribute; no silos.
   - The goal is to have product give engineering and design the opportunity to be involved with direction and issue definition from the very beginning.
-- We do an optional, asynchronous daily stand-up in our stage stand-up channel:
-  - Plan:Optimize [#s_plan_standup](https://gitlab.slack.com/archives/CF6QWHRUJ)
+- We do an asynchronous daily stand-up in our group stand-up channel:
+  - [#g-optimize-engineers-standup](https://gitlab.enterprise.slack.com/archives/C07QLHAS02Z)
 
 #### Prioritization
 
@@ -71,7 +71,7 @@ Generally speaking, issues are in one of two states:
 - Discovery/refinement: we're still answering questions that prevent us from starting development,
 - Implementation: an issue is waiting for an engineer to work on it, or is actively being built.
 
-Basecamp thinks about these stages in relation to the [climb and descent of a hill](https://www.feltpresence.com/hills.html).
+Basecamp thinks about these stages in relation to the [climb and descent of a hill](https://basecamp.com/features/hill-charts).
 
 While individual groups are free to use as many stages in the [Product Development Flow](/handbook/product-development-flow/#workflow-summary) workflow as they find useful, we should be somewhat prescriptive on how issues transition from discovery/refinement to implementation.
 
@@ -85,7 +85,7 @@ Backlog management is very challenging, but we try to do so with the use of labe
 
 ###### Refinement
 
-**The end goal is defined,** where all direct stakeholders says “yes, this is ready for development”. Some issues get there quickly, some require a few passes back and forth to figure out.
+**The end goal is defined,** where all direct stakeholders says "yes, this is ready for development". Some issues get there quickly, some require a few passes back and forth to figure out.
 
 The goal is for engineers to have buy-in and feel connected to the roadmap. By having engineering included earlier on, the process can be much more natural and smooth.
 
@@ -200,15 +200,15 @@ We plan in monthly cycles in accordance with our [Product Development Timeline](
 
 ##### Deliverable and Stretch issues
 
-Issues labelled `Deliverable` are scheduled for the current milestone. They are considered top priority and are expected to be done in time for the release.
+Issues labeled `Deliverable` are scheduled for the current milestone. They are considered top priority and are expected to be done in time for the release.
 
-Issues labelled `Stretch` are stretch goals for delivering in the current milestone. If these issues are not done in the current release, they will strongly be considered for the next release.
+Issues labeled `Stretch` are stretch goals for delivering in the current milestone. If these issues are not done in the current release, they will strongly be considered for the next release.
 
 ##### Community contributions
 
-Issues that have previously been agreed upon and labelled as `Community contribution` should be [triaged](/handbook/engineering/infrastructure/engineering-productivity/issue-triage/) to ensure they have:
+Issues that have previously been agreed upon and labeled as `Community contribution` should be [triaged](/handbook/engineering/infrastructure/engineering-productivity/issue-triage/) to ensure they have:
 
-- A clear [implementation plan](/handbook/engineering/development/dev/create/ide/community-contributions/#treat-wider-community-as-primary-audience).
+- A clear [implementation plan](/handbook/engineering/development/dev/create/remote-development/community-contributions/#treat-wider-community-as-primary-audience).
 - A relevant weight estimate.
 - The `Seeking community contributors` label assigned.
 
@@ -340,7 +340,7 @@ The following people are permanent members of the group:
 - [Milestone retrospectives](https://gitlab.com/gl-retrospectives/manage-stage/optimize/-/issues)
 - Our Slack channels
   - Plan:Optimize [#g_plan_optimize](https://gitlab.slack.com/messages/CJZR6KPB4)
-  - Daily standups [#s_plan_standup](https://gitlab.slack.com/archives/CF6QWHRUJ)
+  - Daily standups [#g-optimize-engineers-standup](https://gitlab.enterprise.slack.com/archives/C07QLHAS02Z)
 - Issue boards
   - Optimize [build board](https://gitlab.com/groups/gitlab-org/-/boards/1401511) and [refinement board](https://gitlab.com/groups/gitlab-org/-/boards/1874426)ֿ
 - For more information about the optimize group's plans and vision visit the [Groups page](/handbook/product/categories/#optimize-group)

@@ -1,14 +1,7 @@
 ---
-
 title: "Field Team Meetings"
 description: "Overview of the primary meetings for the worldwide GitLab Field team"
 ---
-
-
-
-
-
-
 
 The below page overviews the primary all-hands meetings for the WW Field Team.
 
@@ -95,7 +88,7 @@ For a full overview of the QBR planning and execution process, QBR request track
 - **What:** The CRO Leaders will rotate and provide the company with an update on their business, overall team performance, notable wins, accomplishments, and relevant strategies planned.
 You can view previous updates in the "Group Conversation Sales" (previously "Functional Group Update Sales") folder on the Google Drive.
 
-### Sales Monthly [Key Review](/handbook/company/key-review/)
+### Sales Monthly Key Review
 
 - **When:** Happens once every month
 - **Where:** Zoom link varies - please check the calendar invitation

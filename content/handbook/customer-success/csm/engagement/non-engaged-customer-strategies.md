@@ -1,5 +1,4 @@
 ---
-aliases: /handbook/customer-success/csm/engagement/Non-engaged-customer-strategies
 title: "Strategies for Non-Engaged Customers"
 ---
 
@@ -18,7 +17,7 @@ The playbook contains the following steps:
    - CSM to day to day contacts
    - SAE to buyers /influencers/ anyone else they have relationships with
    - SDR to any contacts outside of our relationship
-1. Create a compelling message (s) : Review objectives of the customer and fashion messaging for ‘why’ the customer should engage with us.  Consider the following:
+1. Create a compelling message (s) : Review objectives of the customer and fashion messaging for 'why' the customer should engage with us.  Consider the following:
    1. We know they are migrating from another platform, so offer training & enablement
    1. We know they are interested in xxx so reach out offering to discuss new feature yyy
    1. Review support tickets and build on any conversation that is happening to offer value

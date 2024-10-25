@@ -9,10 +9,9 @@ twitter_creator: "gitlab"
 
 ## Open Social Media Strategies
 
-GitLab-based social media strategies to aid in developing your own social media department.
-<p xmlns:dct="http://purl.org/dc/terms/" xmlns:cc="http://creativecommons.org/ns#" class="license-text"><a rel="cc:attributionURL" href="/handbook/marketing/integrated-marketing/digital-strategy/social-marketing/open-source/open-source-social.html"><span rel="dct:title">Open Social Media Strategies</span></a> by <a rel="cc:attributionURL" href="/handbook/marketing/integrated-marketing/digital-strategy/social-marketing/"><span rel="cc:attributionName">the GitLab Social Team</span></a> CC BY-SA 4.0 <a href="https://creativecommons.org/licenses/by-sa/4.0"><img style="height:22px!important;margin-left: 3px;vertical-align:text-bottom;" src="https://search.creativecommons.org/static/img/cc_icon.svg" alt="" /><img  style="height:22px!important;margin-left: 3px;vertical-align:text-bottom;" src="https://search.creativecommons.org/static/img/cc-by_icon.svg" alt="" /><img  style="height:22px!important;margin-left: 3px;vertical-align:text-bottom;" src="https://search.creativecommons.org/static/img/cc-sa_icon.svg" alt="" /></a></p>
+GitLab-based social media strategies to aid in developing your own social media department. 
 
-*Please use the table of contents to the right to find something helpful.*
+*Updates coming soon!*
 
 ## High Impact World Events; Going "dark", pausing posts
 
@@ -61,14 +60,14 @@ In the future, many high impact events will cause a 1-3 week pause; there may be
 
 A longer than 48 hour pause does come with an adverse reaction. Campaigns could (and likely will) be impacted negatively because of this recommendation. We may need to consider what it means to continue pausing paid social, blog publishing, etc., or reevaluating the channels and methods of communications (moving from broadcast to 1:1).
 
-### How do we “turn back on”?
+### How do we "turn back on"?
 
-- Keep tabs on and consider what other companies in your space and top brands (Starbucks, Apple, Coca-Cola, McDonald’, etc) are doing and not doing. -- Understanding the landscape helps us to see what others’ are making mistakes on and whether or not it’s “acceptable”
+- Keep tabs on and consider what other companies in your space and top brands (Starbucks, Apple, Coca-Cola, McDonald', etc) are doing and not doing. -- Understanding the landscape helps us to see what others' are making mistakes on and whether or not it's "acceptable"
 - Keep a pulse on the movement -- what are we seeing in real life on social media; our feelings on this are as important as our observations
 - Include diverse perspectives and a diverse set of people in the conversation - invite people from other teams to provide their feedback, especially if your team lacks diversity; this is non-negotiable
 - Input and consideration from leaders that handle external communications
 - (Not so heavy but still important) consider goals and initiatives - it will be easier to pause some campaigns more than others
-- Consider soft-launching - hobble together light posts at a reduced volume to “ramp back up”
+- Consider soft-launching - hobble together light posts at a reduced volume to "ramp back up"
 
 ### Adopt the DRI concept
 

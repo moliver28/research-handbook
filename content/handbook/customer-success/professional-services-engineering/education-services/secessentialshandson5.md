@@ -136,7 +136,7 @@ flowchart TD
 
 3. Click on the `fuzz-test-is-third-byte-zero` job.
 
-4. On this screen, you will a summary of the fuzz job. On this screen, you can see the fuzz test that was run against the `is_third_byte_zero` function. Notice that the output includes a `bytearray index out of range error`.
+4. On this screen, you will see a summary of the fuzz job. On this screen, you can see the fuzz test that was run against the `is_third_byte_zero` function. Notice that the output includes a `bytearray index out of range error`.
 
 ## Course Labs Completed
 

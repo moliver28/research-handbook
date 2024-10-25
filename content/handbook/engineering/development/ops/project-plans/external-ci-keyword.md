@@ -1,15 +1,8 @@
 ---
-
 title: External CI Keyword
 description: >-
   Project plan to add the 'external' keyword to our CI
 ---
-
-
-
-
-
-
 
 ## Weekly Project Plan
 

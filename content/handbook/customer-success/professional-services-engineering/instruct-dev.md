@@ -1,5 +1,4 @@
 ---
-
 title: "Professional Services Instructional Design and Development"
 description: "Discover how the GitLab Instructional Design and Development team works together."
 ---

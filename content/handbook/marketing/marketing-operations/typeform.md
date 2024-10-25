@@ -1,14 +1,7 @@
 ---
-
 title: "Typeform"
 description: "People-friendly forms and surveys"
 ---
-
-
-
-
-
-
 
 ### About Typeform
 
@@ -36,4 +29,4 @@ When you're creating your embed code, make sure to choose the ["standard" size](
 
 ### Data Deletion Process
 
-In order to maintain compliance and reduce risk, survey data will be stored in Typeform for 12 months. After 12 months, survey data will be moved to [this Google Drive folder](https://drive.google.com/drive/folders/12L0ru1xkVay8iq862mXtXgTanFT_EZ7e?usp=sharing). Survey data will be audited and moved to the Google drive folder quarterly.  
+In order to maintain compliance and reduce risk, survey data will be stored in Typeform for 12 months. After 12 months, survey data will be moved to [this Google Drive folder](https://drive.google.com/drive/folders/12L0ru1xkVay8iq862mXtXgTanFT_EZ7e?usp=sharing). Survey data will be audited and moved to the Google drive folder quarterly.

@@ -1,10 +1,8 @@
 ---
-
 title: Solutions Architecture Collaboration Project
 description: >-
   Collaboration project with the customer and product as a forum to discuss
 ---
-
 
 ## When should a Collaboration Project be considered during an engagement with a customer?
 

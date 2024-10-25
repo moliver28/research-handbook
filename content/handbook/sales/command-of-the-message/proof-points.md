@@ -1,15 +1,8 @@
 ---
-
 title: "Proof Points"
 description: "GitLab proof points including customer references, case studies, industry awards, analyst reports and studies, GitLab reports and studies, and peer reviews"
 twitter_image: '/images/tweets/research-panel.png'
 ---
-
-
-
-
-
-
 
 ## Overview
 
@@ -140,7 +133,7 @@ Articulating value is a critical sales skill in achieving [Command of the Messag
 
 ---
 
-<big>[Ask Media Group](https://www.askmediagroup.com/microservices-in-practice/)</big><br>
+<big>[Ask Media Group](https://web.archive.org/web/20230129170441/https://www.askmediagroup.com/microservices-in-practice/)</big><br>
 **Problem:** Managing the process of building and deploying microservices<br>
 **Solution:** GitLab Premium (CI)<br>
 **Result:** Developers can immediately begin to contribute a new service, that can be deployed to AWS as soon as they start<br>
@@ -207,7 +200,7 @@ Articulating value is a critical sales skill in achieving [Command of the Messag
 
 ---
 
-<big>[EAB](https://about.gitlab.com/customers/EAB/)</big><br>
+<big>[EAB](https://web.archive.org/web/20231207203708/https://about.gitlab.com/customers/EAB/)</big><br>
 **Problem:** Slow builds, expensive both in cost and maintenance due to multiple tools<br>
 **Solution:** GitLab Premium (VC&C, CI)<br>
 **Result:** Build time reduced from 6 hours to 20 minutes, reduced toolchain complexity, and lightweight maintenance<br>
@@ -288,7 +281,7 @@ Articulating value is a critical sales skill in achieving [Command of the Messag
 ---
 
 <big>[Jasper Solutions](https://about.gitlab.com/customers/jasper-solutions/)</big><br>
-**Problem:** Jasper Solutions needed a platform that offers security, code management, and consistent pipelines in order to create its dynamic tactical edge “DevSecOps in a box<br>
+**Problem:** Jasper Solutions needed a platform that offers security, code management, and consistent pipelines in order to create its dynamic tactical edge "DevSecOps in a box<br>
 **Solution:** GitLab Ultimate (SCM, CI, CD)<br>
 **Result:** 30% reduction in cycle time, 25% increase in deployment frequency and 90-95% of projects are on time and on budget<br>
 **Value Drivers:** Efficiency, Speed, Security<br>
@@ -328,7 +321,7 @@ Articulating value is a critical sales skill in achieving [Command of the Messag
 
 ---
 
-<big>[OW2](https://about.gitlab.com/customers/ow2/)</big><br>
+<big>[OW2](https://web.archive.org/web/20240224202105/https://about.gitlab.com/customers/ow2/)</big><br>
 **Problem:** Enabling global open source collaboration<br>
 **Solution:** GitLab<br>
 **Result:** Easier to use platform that improves productivity<br>
@@ -363,7 +356,7 @@ _[The original and internal-to-GitLab proof points Google Doc is online, here](h
 
 #### 2020
 
-<big>[GitLab Recognized by 451 Research as a ‘451 Firestarter'](https://www.globenewswire.com/news-release/2020/01/14/1970490/0/en/GitLab-Recognized-by-451-Research-as-a-451-Firestarter.html)</big><br>
+<big>[GitLab Recognized by 451 Research as a '451 Firestarter'](https://www.globenewswire.com/news-release/2020/01/14/1970490/0/en/GitLab-Recognized-by-451-Research-as-a-451-Firestarter.html)</big><br>
 *The complete DevOps platform delivered as a single application recognized by leading analyst firm for innovation and vision in the technology industry*<br>
 **Value Drivers:** Efficiency, Speed, Risk<br>
 **Differentiators:** Rapid Dev, Simply Dev Ops
@@ -377,7 +370,7 @@ _[The original and internal-to-GitLab proof points Google Doc is online, here](h
 
 #### 2019
 
-<big>[IDC Innovators: Tools Supporting Open (Unopinionated) Developer Platforms](https://www.idc.com/getdoc.jsp?containerId=US45074219)</big><br>
+<big>[IDC Innovators: Tools Supporting Open (Unopinionated) Developer Platforms](https://web.archive.org/web/20230608224223/https://www.idc.com/getdoc.jsp?containerId=US45074219)</big><br>
 *demonstrated either a groundbreaking business model or an innovative new technology or both*<br>
 **Value Drivers:** Efficiency, Speed, Risk<br>
 **Differentiators:** Rapid Dev
@@ -387,22 +380,22 @@ _[The original and internal-to-GitLab proof points Google Doc is online, here](h
 <big>[Axo Soft - Top 20 Dev Tools for 2019](https://blog.axosoft.com/top-developer-tools-2019/)</big><br>
 *GitLab is one of the most popular developer tools.*<br>
 **Differentiators:** Open Source<br>
-**Usecase** VC&C, Agile
+**Use case** VC&C, Agile
 
 ---
 
 #### 2018
 
-<big>[IDC Innovators: Agile Code Development Technologies](https://www.idc.com/getdoc.jsp?containerId=US43675318)</big><br>
+<big>[IDC Innovators: Agile Code Development Technologies](https://web.archive.org/web/20201026113046/https://www.idc.com/getdoc.jsp?containerId=US43675318)</big><br>
 *demonstrated either a groundbreaking business model or an innovative new technology or both*<br>
-**Usecase** Agile
+**Use case** Agile
 
 ---
 
 <big>[Google Cloud Partner Awards](https://about.gitlab.com/blog/2018/07/27/google-next-2018-recap/)</big><br>
 *Innovative Solution in Developer Ecosystem for the tight integration with GKE*<br>
 **Value Drivers:** Efficiency, Speed, Risk<br>
-**Usecase** Cloud Native
+**Use case** Cloud Native
 
 ---
 
@@ -410,7 +403,7 @@ _[The original and internal-to-GitLab proof points Google Doc is online, here](h
 *Over 170 public reviews with a 4.4 rating, including: "[Powerful team collaboration tool for managing software development projects](https://www.g2.com/products/gitlab/reviews/gitlab-review-1976773)," "[Great self-managed, open source, source control system](https://www.g2.com/products/gitlab/reviews/gitlab-review-436746)," "[Efficient, can trace back, easy to collaborate](https://www.g2.com/products/gitlab/reviews/gitlab-review-701837)," and "[Perfect solution for cloud and on-premise DevOps tool](https://www.g2.com/products/gitlab/reviews/gitlab-review-2388492)"*<br>
 **Value Drivers:** Efficiency, Speed, Risk<br>
 **Differentiators:** Rapid Dev, Visibility<br>
-**Usecase** VC&C, CI, CD
+**Use case** VC&C, CI, CD
 
 ---
 
@@ -419,7 +412,7 @@ _[The original and internal-to-GitLab proof points Google Doc is online, here](h
 <big>[CNCF - The 30 Highest Velocity Open Source Projects](https://about.gitlab.com/blog/2017/07/06/gitlab-top-30-highest-velocity-open-source/)</big><br>
 *developer velocity can help illuminate promising areas in which to get involved, and what is likely to be the successful platforms over the next several years*<br>
 **Differentiators:** Open Source, Rapid Dev<br>
-**Usecase** GitOps, Cloud Native
+**Use case** GitOps, Cloud Native
 
 ---
 
@@ -433,14 +426,14 @@ _[The original and internal-to-GitLab proof points Google Doc is online here,](h
 *GitLab commissioned Forrester Consulting to conduct a Total Economic Impact (TEI) study examining the potential return on investment (ROI) enterprises may realize by using GitLab.*<br>
 GitLab customers were interviewed and related data was collected independently by Forrester Consulting in this process. The data collected, resulting model, and study itself was reviewed independently by Forrester Research analysts. GitLab stakeholders were also interviewed as part of the data gathering and review process. This study looked at the cost savings and business benefits of enterprises using GitLab for Version Control & Collaboration (VC&C)/SCM, Continuous Integration (CI), and Continuous Delivery (CD).
 **Value Drivers:** Efficiency, Speed, Risk<br>
-**Usecase** SCM, CI, CD, Simplify DevOps
+**Use case** SCM, CI, CD, Simplify DevOps
 
 ---
 
 <big>[The Forrester Wave™: Continuous Delivery And Release Automation, Q2 2020, June 2020](https://about.gitlab.com/analysts/forrester-cdra20/)</big><br>
 *Forrester cite GitLab as a Strong Performer in Wave for CDRA*<br>
 **Value Drivers:** Efficiency, Speed<br>
-**Usecase** SCM, CI, CD, Simplify DevOps
+**Use case** SCM, CI, CD, Simplify DevOps
 
 ---
 
@@ -448,7 +441,7 @@ GitLab customers were interviewed and related data was collected independently b
 *GitLab is named a Customers' Choice in the March 2020 Gartner Peer Insights "Voice of the Customer" - Application Release Orchestration*<br>
 **Value Drivers:** Efficiency, Speed<br>
 **Differentiators:** Visibility<br>
-**Usecase** SCM, CI, CD, Simplify DevOps
+**Use case** SCM, CI, CD, Simplify DevOps
 
 ---
 
@@ -456,44 +449,44 @@ GitLab customers were interviewed and related data was collected independently b
 *Gartner Cites GitLab as a Visionary in MQ for EAPT*<br>
 **Value Drivers:** Efficiency, Speed<br>
 **Differentiators:** Visibility<br>
-**Usecase** SCM, CI, CD, Simplify DevOps, Agile
+**Use case** SCM, CI, CD, Simplify DevOps, Agile
 
 ---
 
 <big>[Gartner Magic Quadrant for Application Security Testing, April 2020](https://page.gitlab.com/resources-report-gartner-magic-quadrant-ast.html)</big><br>
 *Gartner Cites GitLab as a Niche Player in MQ for AST*<br>
 **Value Drivers:** Risk<br>
-**Usecase** DevSecOps
+**Use case** DevSecOps
 
 ---
 
 <big>[Gartner Market Guide for Software Composition Analysis, August 2020](https://www.gartner.com/document/3989235?ref=solrAll&refval=260338930)</big><br>
 *Gartner mentions GitLab in the context of the broader shift in the market toward developers as buyers of tools*<br>
 **Value Drivers:** Risk<br>
-**Usecase** DevSecOps
+**Use case** DevSecOps
 
 #### 2019
 
 <big>[Forrester: Manage Your Toolchain Before it Manages You](https://about.gitlab.com/resources/whitepaper-forrester-manage-your-toolchain/)</big><br>
-*Multiple tools and toolchains create visibility, security, and productivity challenges for development and operations teams. “Out-of-the-box” toolchain solutions are seen as a solution, increasing security, revenue, and quality.*<br>
+*Multiple tools and toolchains create visibility, security, and productivity challenges for development and operations teams. "Out-of-the-box" toolchain solutions are seen as a solution, increasing security, revenue, and quality.*<br>
 **Value Drivers:** Efficiency, Speed, Risk<br>
 **Differentiators:** Visibility<br>
-**Usecase** VC&C, CI, CD, Simplify DevOps
+**Use case** VC&C, CI, CD, Simplify DevOps
 
 ---
 
 <big>[Forrester: Software Composition Analysis - Challenger](/analysts/forrester-sca/)</big><br>
 *Software composition analysis tools evaluate applications to uncover vulnerabilities in 3rd party and open source components.*<br>
-**Usecase** DevSecOps
+**Use case** DevSecOps
 
 ---
 
 #### 2018
 
 <big>[Forrester: Continuous Delivery and Release Automation - Contender](/analysts/forrester-cdra20/)</big><br>
-*Release automation tools enable faster, higher-quality, more automated software delivery through modeling applications, infrastructure, middleware, and their supporting installation processes and dependencies. “GitLab’s release automation is ideal for cloud-native, Kubernetes-centric organizations.”*<br>
+*Release automation tools enable faster, higher-quality, more automated software delivery through modeling applications, infrastructure, middleware, and their supporting installation processes and dependencies. "GitLab's release automation is ideal for cloud-native, Kubernetes-centric organizations."*<br>
 **Value Drivers:** Efficiency, Speed<br>
-**Usecase** CD
+**Use case** CD
 
 ---
 
@@ -501,7 +494,7 @@ GitLab customers were interviewed and related data was collected independently b
 *Value stream management provides visibility into project planning, health indicators, and analytics to remove waste and focus on customer value.*<br>
 **Value Drivers:** Efficiency, Speed, Risk<br>
 **Differentiators:** Visibility<br>
-**Usecase** Simplify DevOps
+**Use case** Simplify DevOps
 
 ---
 
@@ -510,7 +503,7 @@ GitLab customers were interviewed and related data was collected independently b
 <big>[Forrester: Continuous Integration Wave - Leader](https://about.gitlab.com/blog/2017/09/27/gitlab-leader-continuous-integration-forrester-wave/)</big><br>
 *Continuous Integration streamlines and accelerates building and testing developer code, shortening delivery to minutes rather than weeks and months. Continuous Integration also automates compliance tasks and improves auditability.*<br>
 **Value Drivers:** Efficiency, Speed, Risk<br>
-**Usecase** CI
+**Use case** CI
 
 ---
 
@@ -548,25 +541,25 @@ DevSecOps = changing roles: Security can be found on cross-functional teams and 
 <br>
 **Customer Value:** Building security into the DevOps pipeline improves overall security.<br>
 **Value Drivers:** Risk<br>
-**Usecase** DevSecOps
+**Use case** DevSecOps
 
 ---
 
 <big>[2020 Global Developer Report: DevSecOps](/developer-survey/)</big><br>
-**Findings Included:** DevOps = faster releases: If you’re a developer, DevOps just works. Nearly 83% of them report they’re releasing code more quickly.
-About 35% report code is released twice as rapidly, while nearly 25% said it’s now being released 10 times faster.
+**Findings Included:** DevOps = faster releases: If you're a developer, DevOps just works. Nearly 83% of them report they're releasing code more quickly.
+About 35% report code is released twice as rapidly, while nearly 25% said it's now being released 10 times faster.
 <br>
 **Customer Value:** Automated testing in the CI pipeline accelerates delivery, finding defects earlier.<br>
 **Value Drivers:** Speed<br>
-**Usecase** DevSecOps
+**Use case** DevSecOps
 
 ---
 
 <big>[2020 Global Developer Report: DevSecOps](/developer-survey/)</big><br>
-**Findings Included:** CD is real: Nearly 60% deploy multiple times a day, once a day, or once every few days. That’s up from 45% last year.  And 74% of organizations report they have shifted testing left, meaning they’ve moved it earlier into the development process.<br>
+**Findings Included:** CD is real: Nearly 60% deploy multiple times a day, once a day, or once every few days. That's up from 45% last year.  And 74% of organizations report they have shifted testing left, meaning they've moved it earlier into the development process.<br>
 **Customer Value:** Visibility and transparency into future work leads to more efficient planning and execution.<br>
 **Value Drivers:** Efficiency<br>
-**Usecase** Continuous Integration, Continuous Delivery**
+**Use case** Continuous Integration, Continuous Delivery**
 
 #### Older GitLab Reports and Studies (2019 and beyond)
 
@@ -574,7 +567,7 @@ About 35% report code is released twice as rapidly, while nearly 25% said it’s
 **Findings Included:** 50% of developers agree that security vulnerabilities are mostly discovered by the security team after code is merged and in a test environment.<br>
 **Customer Value:** Building security into the DevOps pipeline improves overall security.<br>
 **Value Drivers:** Risk<br>
-**Usecase** DevSecOps
+**Use case** DevSecOps
 
 ---
 
@@ -582,7 +575,7 @@ About 35% report code is released twice as rapidly, while nearly 25% said it’s
 **Findings Included:** 49% of respondents encounter the most delays during the testing stage of the development lifecycle.<br>
 **Customer Value:** Automated testing in the CI pipeline accelerates delivery, finding defects earlier.<br>
 **Value Drivers:** Speed<br>
-**Usecase** CI, CD, SCM, Simplify DevOps
+**Use case** CI, CD, SCM, Simplify DevOps
 
 ---
 
@@ -633,7 +626,7 @@ _[The original and internal-to-GitLab proof points Google Doc is online, here](h
 ---
 
 "[For me, the most impressive part of their toolchain would have to be the CI/CD Platform, the ease of use and it's flexibility is wonderful. Building CI/CD pipelines never felt easier.](https://www.g2.com/products/gitlab/reviews/gitlab-review-4215029) - Software Engineer, Mid-Market from [G2 Crowd Leader]<br>
-**Value Driver:** Eficiency <br>
+**Value Driver:** Efficiency <br>
 **Use Case:** CI, CD <br>
 **Differentiator:** Single Application, SCM&CI <br>
 **Vertical:** Digital Marketing <br>

@@ -2,9 +2,9 @@
 title: "DevOps Solution Resource: DevOps Platform"
 ---
 
-## Looking for a customer-facing overview of GitLab's DevOps Platform? See the [DevOps Platform Solution](https://about.gitlab.com/solutions/devops-platform/)
+**Looking for a customer-facing overview of GitLab's DevOps Platform? See the [DevOps Platform Solution](https://about.gitlab.com/solutions/devops-platform/)**
 
-## GitLab field teams refer to this [DevSecOps Platform highspot page](https://gitlab.highspot.com/items/61f3f3d9fdce42ebbdf04f17) for latest information
+**GitLab field teams refer to this [DevSecOps Platform highspot page](https://gitlab.highspot.com/items/61f3f3d9fdce42ebbdf04f17) for latest information**
 
 The page below is intended to align GitLab's sales and marketing efforts with a single source of truth for our go-to-market efforts around the benefits of a single DevOps Platform.
 
@@ -69,9 +69,9 @@ Both buyer personas are also secondary user personas. While their day-to-day tas
 
 The suggested discovery questions below are meant to help you uncover opportunities when speaking with prospects or customers who are not currently using GitLab or are only using GitLab as a point solution, and not experiencing the full value of an end-to-end platform.
 
-Don’t try to use them all—just those most relevant to your customer that will help you identify the value they need to see. Please contribute additional questions!
+Don't try to use them all—just those most relevant to your customer that will help you identify the value they need to see. Please contribute additional questions!
 
-### Current state: Where’s the pain?
+### Current state: Where's the pain?
 
 1. **How far along are you in your DevOps journey?** This will scope their maturity and help you understand what success looks like. If the organization is new to DevOps, The DevOps Platform can be a guide toward DevOps best practices that helps them avoid common pitfalls as they mature. If the company is well along their journey already, they have likely encountered very specific challenges that the benefits of a single, end-to-end platform can help them overcome.
 2. **What / how many DevOps tools are you using today?** Similarly, this will help scope the situation. A large number of tools will almost always equal integration complexity and sub-optimal communication among tools and teams. A very small number of tools could indicate a lack of automation or an acceptance that there are just some things they cannot do (see below).
@@ -105,7 +105,7 @@ GitLab fully supports coexistence with other tools. Since the DevOps Platform pr
 
 **You can't be best at everything / I don't want to compromise**
 
-By GitLab's own admission, [some aspects of the DevOps Platform are more mature than others](https://about.gitlab.com/direction/maturity/). Customers naturally want the best of everything, so the possibility of "missing out" is very much on their minds when considering solutions. In these cases, work with the customer to lay out their business needs and the tradeoffs they're making to integrate a given point solutions.
+By GitLab's own admission, [some aspects of the DevOps Platform are more mature than others](https://about.gitlab.com/direction/#maturity). Customers naturally want the best of everything, so the possibility of "missing out" is very much on their minds when considering solutions. In these cases, work with the customer to lay out their business needs and the tradeoffs they're making to integrate a given point solutions.
 
 For example, if the customer is focused on a specific project planning solution, find out whether there are any specific must-have features that GitLab simply lacks. If that is truly the case, integrating that specific tool with the remainder of GitLab may be the best course of action as our functionality matures. On the other hand, if a solution is considered more mature for reasons that are irrelevant to the user or there is a different approach within GitLab that can meet the same business needs, the network effect of a DevOps Platform and the simplicity of maintaining it are more than enough reason to switch. In either case, the GitLab DevOps Platform can streamline and simplify the remainder of the customer's lifecycle.
 
@@ -144,7 +144,7 @@ The greater cost of operational inefficiencies is business agility.
 |-----------------|-------------|---------------|
 | **A Complete DevOps Platform delivered as a single Application** | A single application eliminates complex integrations, data chokepoints, and toolchain maintenance, resulting in greater productivity. | [DevOps Platform with GitLab](https://www.youtube.com/watch?v=2aJnWkzAwks) |
 | **End-to-End Visibility** | GitLab's common data model enables end-to-end visibility and traceability throughout the DevOps lifecycle, correlating and aggregating data automatically. | [Deliver More Value and Fewer Headaches with an End-to-End DevOps Platform](https://youtu.be/wChaqniv3HI) |
-| **Your software, deployed your way** | GitLab is infrastructure agnostic (supporting GCP, AWS, Azure, OpenShift, VMware, On Prem, Bare Metal, and more), offering a consistent workflow experience - irrespective of the environment. | [Install GitLab: Supported Platforms](https://about.gitlab.com/install/) |
+| **Your software, deployed your way** | GitLab is infrastructure agnostic (supporting GCP, AWS, Azure, OpenShift, VMWare, On Prem, Bare Metal, and more), offering a consistent workflow experience - irrespective of the environment. | [Install GitLab: Supported Platforms](https://about.gitlab.com/install/) |
 
 ## Required capabilities
 
@@ -186,7 +186,7 @@ Ultimate supports the broadest possible range of personas, extending to Portfoli
 
 In their [Market Guide for DevOps Value Stream Delivery Platforms](https://page.gitlab.com/resources-report-gartner-market-guide-vsdp.html), Gartner's Strategic Planning Assumption was:
 
-**“By 2024, 60% of organizations will have switched from multiple point solutions to value stream delivery platforms to streamline application delivery, up from 20% in 2021.”**
+**"By 2024, 60% of organizations will have switched from multiple point solutions to value stream delivery platforms to streamline application delivery, up from 20% in 2021."**
 
 <sub>[Market Guide for Value Stream Delivery Platforms](https://page.gitlab.com/resources-report-gartner-market-guide-vsdp.html), Manjunath Bhat, Thomas Murphy, Daniel Betts, Chris Saunderson, Hassan Ennaciri, Joachim Herschmann, 18 October 2021</sub>
 
@@ -204,13 +204,13 @@ GitLab believes this indicates that the market for a DevOps platform delivered a
 
 - [Glympse](https://about.gitlab.com/customers/glympse/) consolidated ~20 tools consolidated into GitLab and remediated security issues faster than any other company in their Security Auditor's experience
 
->Development can move much faster when engineers can stay on one page and click buttons to release auditable changes to production and have easy rollbacks; everything is much more streamlined. Within one sprint, just 2 weeks, Glympse was able to implement security jobs across all of their repositories using GitLab’s CI templates and their pre-existing Docker-based deployment scripts.
+>Development can move much faster when engineers can stay on one page and click buttons to release auditable changes to production and have easy rollbacks; everything is much more streamlined. Within one sprint, just 2 weeks, Glympse was able to implement security jobs across all of their repositories using GitLab's CI templates and their pre-existing Docker-based deployment scripts.
 >
 >Zaq Wiedmann, Lead Software Engineer, Glympse
 
 - [Goldman Sachs](https://about.gitlab.com/customers/goldman-sachs/) improves from bi-monthly builds to over a thousand per day
 
-> GitLab has allowed us to dramatically increase the velocity of development in our Engineering Division. We believe GitLab’s dedication to helping enterprises rapidly and effectively bring software to market will help other companies achieve the same sort of efficiencies we have seen inside Goldman Sachs. We now see some teams running and merging 1000+ CI feature branch builds a day!
+> GitLab has allowed us to dramatically increase the velocity of development in our Engineering Division. We believe GitLab's dedication to helping enterprises rapidly and effectively bring software to market will help other companies achieve the same sort of efficiencies we have seen inside Goldman Sachs. We now see some teams running and merging 1000+ CI feature branch builds a day!
 >
 > Andrew Knight, Managing Director, Goldman Sachs
 
@@ -231,7 +231,7 @@ For a list of analysts with a current understanding of GitLab's capabilities for
 
 GitLab offers a [variety of pre-packaged and custom services](https://about.gitlab.com/services/) for our customers and partners. The following are service offers specific to this solution. For additional services, see the [full service catalog](https://about.gitlab.com/services/catalog/).
 
-- [DevOps Fundamentals Training](https://about.gitlab.com/services/education/devops-fundamentals/) (all stages of the DevOps lifecycle)
+- [DevOps Fundamentals Training](https://university.gitlab.com/courses/gitlab-devops-fundamentals) (all stages of the DevOps lifecycle)
 - [GitLab CI/CD Training](https://about.gitlab.com/services/education/gitlab-ci/)
 - [Integration Services](https://about.gitlab.com/services/implementation/integration/ )
 
@@ -253,9 +253,9 @@ GitLab offers a [variety of pre-packaged and custom services](https://about.gitl
 - [All Marketing Click Through Demos](/handbook/marketing/brand-and-product-marketing/product-and-solution-marketing/demo/#click-throughs)
 - [All Marketing Live Demos](/handbook/marketing/brand-and-product-marketing/product-and-solution-marketing/demo/#live-instructions)
 
-### [Message House](./message-house/)
+### Message House
 
-*The message house provides a structure to describe and discuss value and differentiators for the value play.*
+*The [message house](message-house/) provides a structure to describe and discuss value and differentiators for the value play.*
 
 ## Technical Resources for Solution Architects
 

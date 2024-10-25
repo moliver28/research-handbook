@@ -7,7 +7,7 @@ The Developer Relations Program Management team supports communities that align 
 
 The Developer Relations Programs Management team is the DRI for establishing program requirements and benefits. As each of these programs provides free, unlimited seats of GitLab Ultimate to qualifying applicants (in addition to other benefits), the Developer Relations Programs team also oversees the entitlement process. As part of this work, the team leads community outreach efforts, marketing activities, and other strategic engagements (which may include serving on foundation boards, building partnerships, creating enablement and marketing content, delivering public presentations and learning sessions, and sponsoring events). We continually strive to be thought leaders in each respective community.
 
-Members of the Developer Relations Programs Management team serve as liaisons to their respective communities, tracking the ways those communities prefer using GitLab and translating that knowledge into insights that help GitLab create a better product. We do this by collaborating across organizational functions whenever possible. We work with Product and Engineering teams to ensure each communities’ needs are represented on the GitLab roadmap. We also work with Marketing to regularly showcase our members' success through case studies, blog posts, GitLab Commit presentations, videos, meetups, and live streams. In all that we do, we aim to create and sustain mutually beneficial relationships between members of our programs and GitLab.
+Members of the Developer Relations Programs Management team serve as liaisons to their respective communities, tracking the ways those communities prefer using GitLab and translating that knowledge into insights that help GitLab create a better product. We do this by collaborating across organizational functions whenever possible. We work with Product and Engineering teams to ensure each communities' needs are represented on the GitLab roadmap. We also work with Marketing to regularly showcase our members' success through case studies, blog posts, GitLab Commit presentations, videos, meetups, and live streams. In all that we do, we aim to create and sustain mutually beneficial relationships between members of our programs and GitLab.
 
 ## Associate Developer Relations Program Manager
 
@@ -19,10 +19,10 @@ Associate Developer Relations Program Manager is a [grade 5](/handbook/total-rew
 
 ### Responsibilities
 
-- Support the [GitLab for Education](https://about.gitlab.com/solutions/education/), [GitLab for Open Source](https://about.gitlab.com/solutions/open-source/), [GitLab for Startups](https://about.gitlab.com/solutions/startups/), and [GitLab for Non-Profits](https://about.gitlab.com/handbook/marketing/developer-relations/community-programs/education-program/#--gitlab-for-non-profits) programs (as well as any new programs that are created), as well as associated workflows. This includes responding to all in-bound requests from program members.
+- Support the [GitLab for Education](https://about.gitlab.com/solutions/education/), [GitLab for Open Source](https://about.gitlab.com/solutions/open-source/), [GitLab for Startups](https://about.gitlab.com/solutions/startups/), and [GitLab for Non-Profits](/handbook/marketing/developer-relations/community-programs/education-program/#--gitlab-for-non-profits) programs (as well as any new programs that are created), as well as associated workflows. This includes responding to all in-bound requests from program members.
 - Actively participate in the implementation of, and then lead the maintenance of the Automated Developer Relations Programs workflows. This includes improving and troubleshooting related processes and working cross-functionally with associated teams in Product, Fulfillment, Legal, Sales Operations, and Customer Support.
-- Standardize communications for Developer Relations Programs. As we evolve our Developer Relations Programs, we’ll need to make sure that we update all of our outreach and support materials. You will lead this effort and suggest ways we can make our messaging more customer-friendly and effective.
-- Improve efficiency of tools. Make sure we are using all of our current tools in the best way possible. Become the team’s expert in using each tool and suggest improved ways to use them to help with program goals.
+- Standardize communications for Developer Relations Programs. As we evolve our Developer Relations Programs, we'll need to make sure that we update all of our outreach and support materials. You will lead this effort and suggest ways we can make our messaging more customer-friendly and effective.
+- Improve efficiency of tools. Make sure we are using all of our current tools in the best way possible. Become the team's expert in using each tool and suggest improved ways to use them to help with program goals.
 - Maintain and update the Developer Relations Programs handbook and GitLab Documentation on a regular basis regarding the application workflows.
 - Measure effectiveness of Developer Relations Programs. Partner with all Program Managers on the Developer Relations team to measure and report the success and effectiveness of their programs. In doing so, you will also be working closely with the Marketing Operations, and Data and Analytics teams.
 - Implement creative and effective ideas and campaigns for increasing program membership and retention including email campaigns and outreach. Work across teams in marketing to implement campaigns.
@@ -61,11 +61,11 @@ Nice-to-haves:
 
 ## Developer Relations Program Manager
 
-The Developer Relations Program Manager supports and grows GitLab’s community by engaging and enabling GitLab community members through technical content and continuous engagement.
+The Developer Relations Program Manager supports and grows GitLab's community by engaging and enabling GitLab community members through technical content and continuous engagement.
 
 ### Job Grade
 
-The Developer Relations Program Manager is a [grade 6](https://about.gitlab.com/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades).
+The Developer Relations Program Manager is a [grade 6](/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades).
 
 ### Responsibilities
 
@@ -75,7 +75,7 @@ The Developer Relations Program Manager is a [grade 6](https://about.gitlab.com/
 - Serve as a spokesperson for the relevant Developer Relations Program.
 - Update and document processes in the Developer Relations Programs handbook.
 - Activate the GitLab team in sharing content with their networks, increasing our reach to media, academia, analysts, etc.
-- Collaborate with GitLab’s PR agency partners to facilitate and secure media coverage for GitLab’s campaigns.
+- Collaborate with GitLab's PR agency partners to facilitate and secure media coverage for GitLab's campaigns.
 - Compile quarterly metrics reports to measure our successes in relation to awareness and impact.
 - Recognize people in the community, for example, with badges, swag, spotlights, and awards.
 - Monitor and participate in community channels such as Discord, GitLab Forum, Reddit, and CrowdIn.
@@ -102,13 +102,13 @@ The Senior Developer Relation Program Manager is a [grade 7](/handbook/total-rew
 
 - Develop and lead the successful execution of Developer Relations Program(s).
 - Oversee the routine and operations and decisions that encompass the Developer Relations Program(s).
-- Ensure alignment of the Developer Relations Program(s) within the Developer Relations team’s and wider Marketing goals.
+- Ensure alignment of the Developer Relations Program(s) within the Developer Relations team's and wider Marketing goals.
 - Increase operational efficiencies and streamline processes.
 - Leverage marketing resources to grow the number of program members in each respective program and increase the renewal rate quarter over quarter.
 - Identify opportunities and build the resources to equip the GitLab team and the wider community to become advocates for each program.
 - Create, report, and iterate on the relevant key performance indicators to effectively measure the impact of the Developer Relations Program(s). initiatives.
 - Gather feedback on the program structure as well as GitLab the product from developer relations program members via surveys, working groups, and events. Summarize and direct feedback to improve the program as well as to related teams such as Product and Engineering.
-- Establish relationships with program members to produce inspirational case studies of their use of GitLab. Showcase Program Member’s success through case studies, webinars, blog posts, spotlights, and media campaigns.
+- Establish relationships with program members to produce inspirational case studies of their use of GitLab. Showcase Program Member's success through case studies, webinars, blog posts, spotlights, and media campaigns.
 
 ### Requirements
 

@@ -113,7 +113,7 @@ It's important to add captions to videos whenever possible. The steps below outl
     1. Scroll through the video to a time marker where you want to put a caption
     1. Click the caption button at lower right of the video
     1. Paste in a short amount of text.
-    1. Watch it back. You can easily edit the captions (they are listed all together below the video window) so it’s not hard to adjust and make them fit.
+    1. Watch it back. You can easily edit the captions (they are listed all together below the video window) so it's not hard to adjust and make them fit.
 
 #### Custom Content Fields
 
@@ -131,7 +131,7 @@ Please review the **best practices** below:
 
 1. All custom content fields and sub fields are case sensitive - avoid mistakes like `Communication`, `Communications`, `Communicating`
 1. Wherever possible, use existing custom content fields and sub fields as opposed to creating new ones
-1. Review [TI support docs](https://support.thoughtindustries.com/hc/en-us/articles/360046307213-Using-Custom-Fields-vs-Curated-Categories) when questions arise
+1. Review [TI support docs](https://support.thoughtindustries.com/hc/en-us/articles/360045730954-Creating-and-Using-Custom-Content-Typeses) when questions arise
 
 ## Publishing a course for internal team members
 

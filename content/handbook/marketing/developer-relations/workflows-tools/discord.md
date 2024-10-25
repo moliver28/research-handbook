@@ -45,7 +45,7 @@ and remember to use public channels instead of direct messages, thanks!
 > 5. All questions should be asked in public so that anyone can answer and everyone can learn from the discussion.
 > This is a community server with volunteers helping one another.
 > Please do not ping specific people to answer your question or send unsolicited friend requests or direct messages without consent.
-> See GitLab’s communication values to Use Public Channels (/handbook/communication/#use-public-channels)
+> See GitLab's communication values to Use Public Channels (/handbook/communication/#use-public-channels)
 > and Be Respectful of Others Time (/handbook/communication/#be-respectful-of-others-time).
 ```
 
@@ -92,8 +92,8 @@ To review and add notes to member profile, moderators can use the following shor
 ```markdown
 - Add note: /notes add (it prompts you for a user and a note)
 - List all notes: /notes view
-- List all notes for a user: /notes view user<enter> (it’ll prompt you for the user)
-- View a specific note: /notes view note_id<enter> (it’ll prompt you for the note id, which can be found by listing all notes for a user)
+- List all notes for a user: /notes view user<enter> (it'll prompt you for the user)
+- View a specific note: /notes view note_id<enter> (it'll prompt you for the note id, which can be found by listing all notes for a user)
 ```
 
 #### Tier 2 - Temporary Timeout

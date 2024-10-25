@@ -15,7 +15,7 @@ You can learn about the promotion process to the Staff level in [Support Enginee
 Staff Support Engineers at GitLab will generally focus on the following things:
 
 - Improve and collaborate within Support and with other teams to improve our technologies and how we work.
-- [Mentor]({{< ref mentorship >}}) and [coach](https://about.gitlab.com/leadership/coaching/) others on our technologies and how we work.
+- [Mentor]({{< ref mentorship >}}) and [coach](/handbook/leadership/coaching/) others on our technologies and how we work.
 - Enable others to action on ideas and issues.
 - Assist the team to meet [Support KPIs](/handbook/support/performance-indicators.md).
 
@@ -48,8 +48,8 @@ To work more efficiently, the Staff Support Engineer should assign merge request
 
 There are various ways to keep track of what's happening at a higher level in Support, including, but not limited to:
 
-- Attend the Support [Key Review]({{< ref key-review >}}). (Highly recommended)
-- Attend the Support [Group Conversation]({{< ref group-conversations >}}).
+- Attend the Support [Key Review](/handbook/company/key-review/). (Highly recommended)
+- Attend the Support [Group Conversation](/handbook/company/group-conversations/).
 - See what [Support Managers are working on](/handbook/support/managers/_index.md#how-to-see-what-the-support-managers-are-working-on).
 - Look over [Support (senior) leadership meeting notes](/handbook/support/managers/_index.md#support-leadership-meetings).
 - Review [OKRs](../#okrs) and [KPIs](/handbook/support/performance-indicators.md)
@@ -57,7 +57,7 @@ There are various ways to keep track of what's happening at a higher level in Su
 
 ## OKRs
 
-Similar to [OKRs for Support Engineering Managers](/handbook/support/managers/_index.md#okrs), Staff Support Engineers can optionally work on [OKRs](https://about.gitlab.com/engineering/#engineering-okr-process).
+Similar to [OKRs for Support Engineering Managers](/handbook/support/managers/_index.md#okrs), Staff Support Engineers can optionally work on [OKRs](/handbook/engineering/#engineering-okr-process).
 
 Staff Support Engineers should discuss with their manager if and when to take on OKRs with the following considerations:
 

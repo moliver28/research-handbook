@@ -1,12 +1,6 @@
 ---
-aliases: /handbook/engineering/infrastructure/core-platform/data_stores/database/doc/issue-group-search-partitioning.html
 title: Partitioning - Issue group search
 ---
-
-
-
-
-
 
 ## Database Partitioning: Issue group search
 

@@ -30,7 +30,7 @@ This support can be a tremendous productivity boost for JetBrains IDE users, bec
 There are multiple JetBrains IDE users who are GitLab team members, and there is an
 active [internal `#jetbrains-ide-users` Slack channel](https://gitlab.slack.com/archives/CR08PTQ6T).
 
-Therefore, on some teams with several JetBrains users, such as the Remote Development team, we invest
+Therefore, on some teams with several JetBrains users, such as the Workspaces team, we invest
 ongoing effort in keeping the [`Code Inspection`](..) for the feature clean and without any warnings/errors,
 which means the "green check" at the top right of each file is useful, and if it's not there, we know
 immediately that we have introduced some problem.
@@ -84,7 +84,7 @@ actively maintained/curated.
 
 In reality, these comments are currently restricted in scope in the `gitlab` codebase. Currently, as of
 [this MR in July 2023](https://gitlab.com/gitlab-org/gitlab/-/merge_requests/125831), all `noinspection`
-comments have been removed from the code except for within the `Remote Development` domain, which is
+comments have been removed from the code except for within the `Workspaces` domain, which is
 the only group actively using it.
 
 But now that we have standardized this process and added

@@ -1,11 +1,8 @@
 ---
-
 title: Sending Notices
 category: GitLab.com
 description: How to send notices out to GitLab.com users and customers to inform them of various actions on namespaces under their control
 ---
-
-
 
 ## Overview of the process
 
@@ -22,6 +19,26 @@ This workflow describes how to fulfill different types of contact requests and t
 
 - Support team can be asked to contact users **during an incident**. Such requests are filed by infra team [using `confidential_incident_data` issue template](https://gitlab.com/gitlab-com/gl-infra/production/-/issues/new?issuable_template=confidential_incident_data) in [production](https://gitlab.com/gitlab-com/gl-infra/production/-/issues/) issue tracker. These must be fulfilled by CMOC during the shift.
 - As a [Stable Counterpart](../support-stable-counterparts.md) you may choose to manually create tickets for a higher number of users at your discretion. This should be done solely for technical matters ("your usage is causing issues, may we suggest a different approach"), never for marketing reasons ("we have a new way to do xyz and would like you to adopt it").
+
+## Avoid sending RED data
+
+In all outbound contact requests explicitly avoid sending RED data. (see: [Data Classifaction Standard](/handbook/security/data-classification-standard/)). This avoids:
+
+- data transposition errors (accidentally sending another customers data to a customer)
+- customer-internal data leaks (person `x` who received the email was not authorized to know about project `y`)
+- putting customer RED data into systems where it is not allowed (system `z` is only classified for YELLOW data, but is used to send RED)
+
+If there is any doubt about whether a particular piece of data is appropriate to send, start with asking in `#support_leadership` and escalate to `#privacy-team_help` / `#security` as required.
+
+Some examples:
+
+- **Don't** send the full path (for example, `/big-co/sub-proj/super-secret-project`), instead send the project/namespace ID and instructions for translating it.
+
+### Tips for avoiding RED data in notices
+
+- Make use of the built-in [Project](https://docs.gitlab.com/ee/user/project/working_with_projects.html#access-a-project-by-using-the-project-id) and [Group](https://docs.gitlab.com/ee/user/group/#access-a-group-by-using-the-group-id) redirects when sharing a link to the resource. They will be redirected if the user has appropriate permissions to view the resource.
+  - Project example: `https://gitlab.com/-/p/278964` will redirect to `https://gitlab.com/gitlab-org/gitlab`.
+  - Group example: `https://gitlab.com/-/g/9970` will redirect to `https://gitlab.com/gitlab-org`.
 
 ## How to send notices
 
@@ -44,7 +61,7 @@ for more information.
 
 Outside of Zendesk we may be asked to be involved in the process of sending mass notices to users. For larger email campaigns, involve the marketing team:
 
-1. [Open an issue](https://gitlab.com/gitlab-com/marketing/demand-generation/campaigns/-/issues/new?issuable_template=request-email) in the [marketing/demand-generation/campaigns](https://gitlab.com/gitlab-com/marketing/demand-generation/campaigns) issue tracker using the `request-email` template. You may also need to create a supplementary issue using [request-confirm-target-list template](https://gitlab.com/gitlab-com/marketing/demand-generation/campaigns/-/issues/new?issuable_template=request-confirm-target-list).
+1. [Open an issue](https://gitlab.com/gitlab-com/marketing/marketing-operations/-/issues/new?issuable_template=request-operational-email) in the [marketing/marketing-operations](https://gitlab.com/gitlab-com/marketing/marketing-operations) issue tracker using the `request-operational-email` template. You may also need to create a supplementary issue using [request-target-list template](https://gitlab.com/gitlab-com/marketing/marketing-operations/-/issues/new?issuable_template=request-target-list).
 1. Fill the template out in its entirety.
 1. Submit the issue and be ready to adjust the subject and/or body of the notice based on feedback.
 

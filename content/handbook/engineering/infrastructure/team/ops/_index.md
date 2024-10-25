@@ -1,26 +1,29 @@
 ---
-aliases: /handbook/engineering/infrastructure/team/reliability/general.html
 title: "Production Engineering Ops Team"
 ---
 
 ## Mission
 
-The Ops team is an infrastructure team under SaaS Platforms that focuses on improving processes that are vital to the succesful operations of Gitlab.
+The Ops team is an infrastructure team under SaaS Platforms that focuses on improving processes that are vital to the succesfull operations of GitLab.
 
 ## Vision
 
-The Ops teams vision is to enable service onwers to operate their own services using standardized processes, frameworks, architectures and tools. Some of those proceses and tools will be built by the Ops team, but many will be from other [Infrastructure teams](/handbook/engineering/infrastructure/team).
+The Ops teams vision is to enable service onwers to operate their own services using standardized processes, frameworks, architectures and tools. Some of those processes and tools will be built by the Ops team, but many will be from other [Infrastructure teams](/handbook/engineering/infrastructure/team).
 
 ## Ownership and Responsibilities
 
 There are two areas that are the Ops team primary focus:
 
-1. Incident Management - Ops is responsible for improving the processes Gitlab uses for incident management
+1. Incident Management - Ops is responsible for improving the processes GitLab uses for incident management
 2. Disaster Recovery - Ops is responsible for managing our disaster recovery processes with a particular focus on reducing our RTO
+3. Patching Processes - Ops is responsible for defining and maintaining the GitLab.com patching process
 
-### Services
+## Getting Assistance
 
-The Ops team has inherited assignment of services with `owner: reliability_general` in the [Service Catalog](https://gitlab.com/gitlab-com/runbooks/blob/master/services/service-catalog.yml). Our goal is to help find appropriate owners for those services.
+Should you require assistance from the Ops team, please open an issue in the [Production engineering tracker](https://gitlab.com/gitlab-com/gl-infra/production-engineering/-/issues/new) and add make sure to add the label ~"team::Ops"
+
+- We also have team handles that ping the full team
+  - GitLab: `@gitlab-org/production-engineering/ops`
 
 ## How We Work - Prioritization
 

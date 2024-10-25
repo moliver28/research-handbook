@@ -32,11 +32,11 @@ Haydn Mackay delivered a [wonderful keynote](https://www.youtube.com/watch?v=kDf
 
 ### *2017: GitLab Storytime*
 
-A team member at GitLab interviewed the first five team members from GitLab to hear stories from the first years. In [Storytime Part 1](https://www.youtube.com/watch?v=DSmqOQ6eLB4) the team talks about hiring its first team member, learning to iterate, thoughts of shutting down, Y Combinator, and how the values were created. In [Storytime Part 2](https://www.youtube.com/watch?v=4pe6_d9ZTC4), we hear some hilarious stories of a surprise bachelor party, a competitor’s offer to talk, a presentation that involved a lab coat and safety goggles, the first GitLab summit, and experiences at the Mountain View House.
+A team member at GitLab interviewed the first five team members from GitLab to hear stories from the first years. In [Storytime Part 1](https://www.youtube.com/watch?v=DSmqOQ6eLB4) the team talks about hiring its first team member, learning to iterate, thoughts of shutting down, Y Combinator, and how the values were created. In [Storytime Part 2](https://www.youtube.com/watch?v=4pe6_d9ZTC4), we hear some hilarious stories of a surprise bachelor party, a competitor's offer to talk, a presentation that involved a lab coat and safety goggles, the first GitLab summit, and experiences at the Mountain View House.
 
 ### *2016: Growth*
 
-In 2016 the number of [people that contributed to GitLab](http://contributors.gitlab.com/) grew to more than 1000.
+In 2016 the number of [people that contributed to GitLab](https://about.gitlab.com/community/contribute/) grew to more than 1000.
 More than 100,000 organizations and millions of users are using GitLab.
 Our team grew with 100 people to more than 140.
 In September we announce [our master plan](https://about.gitlab.com/blog/2016/09/13/gitlab-master-plan/) and raising $20m in our B round of financing.

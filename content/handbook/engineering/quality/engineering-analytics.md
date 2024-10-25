@@ -15,7 +15,7 @@ Areas of focus and core competencies for Engineering Analytics include:
 
 - Own creation, implementation, optimization, and standardization of the KPIs and metrics for the Engineering Division and its departments.
 - Collaborate across Engineering departments to find common themes in KPIs and other metrics, and determine the best ways to represent metrics with these shared or common themes.
-- Create new metrics, data analyses, and data visualizations to provide additional clarity for existing operational metrics for Engineering, built on top of the data infrastructure provided by GitLab’s Data Team's.
+- Create new metrics, data analyses, and data visualizations to provide additional clarity for existing operational metrics for Engineering, built on top of the data infrastructure provided by GitLab's Data Team's.
 - Propose strategic improvements to Engineering leadership by analyzing trends and behavior in Engineering's KPIs and metrics.
 
 ## Internal Team Responsibilities
@@ -72,7 +72,7 @@ Please open a new issue in [our team project](https://gitlab.com/gitlab-com/qual
 
 Key Reviews are meetings a department has with other GitLab team members to discuss any progress or updates related to KPIs & OKRs with the rest of the organization. More information can be found on the [Key Review Handbook Page](/handbook/company/key-review/)
 
-In Engineering our key reviews are handbook driven. Each department's KPIs are defined in www-gitlab-com repo under data/performance-indicators, & metrics are in handbook with URL structure like engineering/department/performance-indicators. For example, Infrastructure's [full URL](/handbook/engineering/infrastructure/performance-indicators) is https://about.gitlab.com/handbook/engineering/infrastructure/performance-indicators.
+In Engineering our key reviews are handbook driven. Each department's KPIs are defined in www-gitlab-com repo under data/performance-indicators, & metrics are in handbook with URL structure like engineering/department/performance-indicators. For example, Infrastructure's [full URL](/handbook/engineering/infrastructure/performance-indicators) is https://handbook.gitlab.com/handbook/engineering/infrastructure/performance-indicators.
 
 ### Performance Indicator DRI
 
@@ -107,7 +107,7 @@ While this team operates as a single team reporting to one manager, we emphasize
 
 The team structure will leverage [stable counterpart](/handbook/leadership/#stable-counterparts) assignees to ensure proper allocation and attention needed to service all Engineering Departments and Leaders and still promote cross-functional collaboration and ownership of an area.
 
-We assign the stable counterpart by Engineering Division’s sub-departments. This is identified by the Engineering Department name assigned to an Engineering Analyst.
+We assign the stable counterpart by Engineering Division's sub-departments. This is identified by the Engineering Department name assigned to an Engineering Analyst.
 
 | Eng Department | Analyst                                                             | PI Page                                                                                              |
 |----------------|---------------------------------------------------------------------|------------------------------------------------------------------------------------------------------|
@@ -142,7 +142,7 @@ Engineering Analysts will hold recurring 1-1 with their assigned VP of an Engine
 - Capture strategic asks
 - Ensure completion of follow up for Key Reviews
 
-#### Bi-Weekly review with GitLab’s Data Team
+#### Bi-Weekly review with GitLab's Data Team
 
 This team will have standing bi-weekly sync with the Data team to:
 
@@ -159,7 +159,7 @@ This team will have standing bi-weekly sync with the Data team to:
 These weights are used to estimate analyst time needed to fulfill a request by 1 engineering analyst. This is used when estimating total capacity of work that can be done by the team. If more than 2 weeks needed (>8 weight), then issue needs to be broken down into multiple issues.
 
 | Label Weight | 1 Analyst Time Estimate | Work Example |
-| ----------- | ----------- |
+| ----------- | ----------- |----------- |
 | 1 | 1 full day | basic handbook updates, changing basic parameters in Sisense charts|
 | 3 | 1/2 week | Creating new Performance Indicator from Data that already exists in data warehouse|
 | 5 | 1 week | Creating new dashboard with granular details around existing metric|

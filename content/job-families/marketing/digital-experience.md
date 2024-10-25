@@ -16,7 +16,7 @@ The Digital Experience Analyst  (Intermediate) is a [grade 6](/handbook/total-re
 #### Digital Experience Analyst Responsibilities
 
 - Ensure that GitLab is correctly instrumented to be able to deliver meaningful insights about traffic, conversion, and growth opportunities on our digital properties
-- Own the successful tagging and analytics measurement strategy for GitLab’s digital properties
+- Own the successful tagging and analytics measurement strategy for GitLab's digital properties
 - Maintain and improve analytics tag implementations and data layer for all relevant technologies (Google Analytics, Google Tag Manager)
 - Knowledge of FE web technologies - HTML, CSS and JS to enable confident debugging and use of custom JS in Google Tag Manager
 - Deliver data-driven recommendations around how to increase traffic, conversion, and user experience on `about.gitlab.com`
@@ -42,7 +42,7 @@ The Digital Experience Analyst  (Intermediate) is a [grade 6](/handbook/total-re
 - Fluent in SQL within analytical data warehouses (we use Snowflake SQL) and in business intelligence tools (we use Periscope)
 - Able to write complex SQL including multi-table joins, grouping and aggregation, common table expressions, and conditional filters
 - Passionate about data, analytics and automation. Experience cleaning and modeling large quantities of raw, disorganized data (we use dbt)
-- Experience working with a variety of complex data sources. Our data includes Salesforce, Zuora, Zendesk, Marketo, NetSuite, Snowplow and many others (see the [data team page](/handbook/business-technology/data-team/))
+- Experience working with a variety of complex data sources. Our data includes Salesforce, Zuora, Zendesk, Marketo, NetSuite, Snowplow and many others (see the [data team page](/handbook/enterprise-data/))
 - Effective communication and [collaboration](/handbook/values/#collaboration) skills, including clear status updates
 - Comfort working in a highly agile, [intensely iterative](/handbook/values/#iteration) environment
 - [Self-motivated and self-managing](/handbook/values/#efficiency), with strong organizational skills

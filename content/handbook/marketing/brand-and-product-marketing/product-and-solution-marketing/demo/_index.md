@@ -1,17 +1,12 @@
 ---
-
 title: "DEPRECATED-Demos"
 ---
 
-
-
-
-
-
-
 ## About Demos
 
-## THIS PAGE HAS BEEN DEPRECATED. IT IS STILL HERE DURING A TRANSITION PERIOD WHILE WE MAKE SURE ALL THE CONTENT IS AVAILABLE ELSEWHERE
+{{% alert title="Note" color="danger" %}}
+THIS PAGE HAS BEEN DEPRECATED. IT IS STILL HERE DURING A TRANSITION PERIOD WHILE WE MAKE SURE ALL THE CONTENT IS AVAILABLE ELSEWHERE
+{{% /alert %}}
 
 ## The new version of this page is at https://about.gitlab.com/learn
 
@@ -24,7 +19,7 @@ There are 3 basic demos types:
 These demos come in different formats:
 
 - Videos - good for everyone to self-demo by passively watching
-- [Sim demos](./sim-demos/) - good for disconnected situations (like conferences) and for interactive self demos
+- [Sim demos](sim-demos/) - good for disconnected situations (like conferences) and for interactive self demos
 - Live (instructions for how to set up and run demos live) - enables everyone (especially GitLab sales) to set up and run through the demo live on their own system resources. Allows for spontaneous deep diving - not always a good thing).
 
 ## Videos
@@ -131,7 +126,7 @@ These demos come in different formats:
  <iframe width="560" height="315" src="https://www.youtube.com/embed/nMAgP4WIcno" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 </figure>
 
-## How to set up GitLab groups and projects to run multiple Agile teams with microservices (11.7) (Jan 2019)
+## Set up groups and projects to run multiple Agile teams with microservices (11.7) (Jan 2019)
 
 <figure class="video_container">
  <iframe width="560" height="315" src="https://www.youtube.com/embed/VR2r1TJCDew" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
@@ -250,15 +245,21 @@ Click-through demos can be run in multiple ways:
 
 ## Live (instructions)
 
-## [Planning to Monitoring (formerly i2p)](i2p/)
+## Planning to Monitoring (formerly i2p)
 
-Highlights GitLab’s single platform for the complete DevOps lifecycle, from idea to production, through issues, planning, merge request, CI/CD, and monitoring.
+[Planning to Monitoring (formerly i2p)](i2p/)
 
-## [CI/CD Deep Dive](cicd-deep/)
+Highlights GitLab's single platform for the complete DevOps lifecycle, from idea to production, through issues, planning, merge request, CI/CD, and monitoring.
+
+## CI/CD Deep Dive
+
+[CI/CD Deep Dive](cicd-deep/)
 
 Provides a more in-depth look at GitLab CI/CD pipelines.
 
-## [Integration Demos](integrations/)
+## Integration Demos
+
+[Integration Demos](integrations/)
 
 Demonstrations which highlight integrations between GitLab and common tools such as Jira issues and Jenkins pipelines.
 

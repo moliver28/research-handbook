@@ -12,7 +12,7 @@ When [working on tickets](/handbook/support/workflows/working-on-tickets), colla
 
 If you are stuck on a ticket, the following workflow seeks to help Support Engineers realize and utilize all of the resources available to progress a ticket to resolution. This workflow lists some common resources, you can lean on to get the help you need.
 
-**If you’re stuck on a ticket…..**
+**If you're stuck on a ticket…..**
 
 Identify what's causing you to get stuck. Some examples are:
 
@@ -23,17 +23,6 @@ Identify what's causing you to get stuck. Some examples are:
 Then consider these options to help unblock you. And remember that
 [escalating to unblock](/handbook/values/#escalate-to-unblock)
 is an operating principle of Results.
-
-#### Ask in your SGG
-
-Ask in [your group's Slack channel](/handbook/support/support-global-groups/#slack) for help. You might get all the help you
-   need in responses right there, or you might open up the group's Zoom room
-   for an impromptu pairing session to work on the ticket. And remember:
-
-   1. Be sure to provide a link to the ticket
-   1. Be specific about the help you need
-      - For example: "Kubernetes Runner help needed: user is running into X
-        error, logs are saying Y, and we've tried Z. What else could it be?"
 
 #### Bring the ticket before a group of peers
 
@@ -46,16 +35,13 @@ Other Support Engineers are a great resource to help out with tickets. To get he
     - Senior Support Office Hours (varying times)
 1. Ask for help in one of the broader
    [Support Slack channels](/handbook/support/#slack).
-1. Initiate a [Branch Out session](/handbook/support/support-global-groups/branch-out-sessions)
-   - This is like a crush session, with the specific intention of helping 1 or 2
-     groups with FRTs
 
 #### Expand to Support Pods and other subject matter experts
 
 You can also do one or more of the following:
 
 1. See if there is a [Support Pod]({{< ref "working-with-pods" >}}) that covers the area your ticket is in and ask one of the Pod members for help.
-1. Ask an expert within Support. You can check the [Skills by Subject](https://gitlab-com.gitlab.io/support/team/skills-by-subject)
+1. Ask an expert within Support. You can check the [Skills by Subject](https://gitlab-support-readiness.gitlab.io/support-team/skills-by-subject.html)
    Support page to see who might have the skills to assist, or reach out
    to the [Support Stable Counterpart]({{< ref "support-stable-counterparts" >}})
    for the appropriate product area. Mention those
@@ -95,7 +81,7 @@ NO! To drive this point home, here's what our Devs have to say about this:
 
   -- **Lesley Razzaghian**
 
-> _Most are happy to help anytime. My only suggestion is to search docs first. That’s really helpful for devs because we might link you to docs anyway. But then it’s also helpful to know “the docs didn’t address my question”. Or they did but not clearly enough. These conversations give all involved a basis for improving docs once the question is answered._
+> _Most are happy to help anytime. My only suggestion is to search docs first. That's really helpful for devs because we might link you to docs anyway. But then it's also helpful to know "the docs didn't address my question". Or they did but not clearly enough. These conversations give all involved a basis for improving docs once the question is answered._
 
   -- **Drew Blessing**
 
@@ -110,7 +96,7 @@ _Devs love a puzzle, so I'm always keen.[...]_
 
   -- **Charlie Ablett**
 
-> _If both Support and the Customer are confused about what the next steps are, at a minimum it’s an indicator that something is lacking, either in our docs or support processes, and this is an opportunity to improve those areas._
+> _If both Support and the Customer are confused about what the next steps are, at a minimum it's an indicator that something is lacking, either in our docs or support processes, and this is an opportunity to improve those areas._
 
   -- **Chad Woolley**
 
@@ -119,7 +105,7 @@ _Devs love a puzzle, so I'm always keen.[...]_
 The easiest way to determine the correct place for a Support Request for Help issue is to use the docs pages. One possible workflow is as follows:
 
 1. Locate a documentation page for the feature or topic on which you need help.
-1. Scroll down to the bottom of the page and click on either the "Edit this page" link.
+1. Scroll down to the bottom of the page and click on either the "View page source" link.
 1. This will open up the `.md` source file of that docs page, which contains both the `stage` and `group` responsible for it noted on the top.
 1. Now go to the [Product Categories handbook page](/handbook/product/categories/) and search for the Development Section to which the group identified on the previous step belongs to.
 1. Use the table and workflow below to create a Request for Help issue in the project identified above.
@@ -134,14 +120,15 @@ Note: Some sections are not yet available.
 If a section is not listed, consider a confidential issue in the GitLab project tracker and post in the relevant Slack channel.
 Please follow [support epic #222](https://gitlab.com/groups/gitlab-com/support/-/epics/222) for more information.
 
-| Development Section | Section Product and Group Breakdown | Link to the GitLab Project for requesting help |
-| ----------- | -------------- | -------- |
-| Ops (CI, CD) Section | [Ops Section Breakdown](/handbook/product/categories/#ops-section)| [Section Ops Request for Help](https://gitlab.com/gitlab-com/ops-sub-department/section-ops-request-for-help/) |
-| Dev Section | [Dev Section Breakdown](/handbook/product/categories/#dev-section) | [Section Dev Request for Help](https://gitlab.com/gitlab-com/dev-sub-department/section-dev-request-for-help/) |
-| Sec Section | [Sec Section Breakdown](/handbook/product/categories/#sec-section) | [Section Sec Request for Help](https://gitlab.com/gitlab-com/sec-sub-department/section-sec-request-for-help) |
-| Enablement Section | [Enablement Section Breakdown](/handbook/product/categories/#enablement-section) | [Section Enablement Request for Help](https://gitlab.com/gitlab-com/enablement-sub-department/section-enable-request-for-help) |
-| Fulfilment Section | [Fulfilment Section Breakdown](/handbook/product/categories/#fulfillment-section) | [Section Fulfilment Request for Help](https://gitlab.com/gitlab-com/fulfilment-sub-department/section-fulfilment-request-for-help) |
-| SaaS Section (GitLab Dedicated) | [GitLab Dedicated Breakdown](/handbook/engineering/infrastructure/team/gitlab-dedicated/) | [GitLab Dedicated Request for Help Template](https://gitlab.com/gitlab-com/gl-infra/gitlab-dedicated/team/-/issues/new?issuable_template=support_request) |
+| Development Section | Section Product Breakdown | Link to the GitLab RFH Project  | Corresponding Issue Board
+| ----------- | -------------- | -------- | -------- 
+| Ops (CI, CD) Section | [Ops Section Breakdown](/handbook/product/categories/#ops-section)| [Section Ops Request for Help](https://gitlab.com/gitlab-com/ops-sub-department/section-ops-request-for-help/) | [Section Ops Issue Board](https://gitlab.com/gitlab-com/ops-sub-department/section-ops-request-for-help/-/boards) 
+| Dev Section | [Dev Section Breakdown](/handbook/product/categories/#dev-section) | [Section Dev Request for Help](https://gitlab.com/gitlab-com/dev-sub-department/section-dev-request-for-help/) | [Section Dev Issue Board](https://gitlab.com/gitlab-com/dev-sub-department/section-dev-request-for-help/-/boards) 
+| Sec Section | [Sec Section Breakdown](/handbook/product/categories/#sec-section) | [Section Sec Request for Help](https://gitlab.com/gitlab-com/sec-sub-department/section-sec-request-for-help) | [Section Sec Issue Board](https://gitlab.com/gitlab-com/sec-sub-department/section-sec-request-for-help/-/boards) 
+| Core Section | [Core Section Breakdown](/handbook/product/categories/#core-platform-section) | [Section Core Request for Help](https://gitlab.com/gitlab-com/core-sub-department/section-core-request-for-help/) | [Section Core Issue Board](https://gitlab.com/gitlab-com/core-sub-department/section-core-request-for-help/-/boards) 
+| Fulfilment Section | [Fulfilment Section Breakdown](/handbook/product/categories/#fulfillment-section) | [Section Fulfilment Request for Help](https://gitlab.com/gitlab-com/fulfilment-sub-department/section-fulfilment-request-for-help) | [Section Fulfilment Issue Board](https://gitlab.com/gitlab-com/fulfilment-sub-department/section-fulfilment-request-for-help/-/boards) 
+| SaaS Platforms Section | [SaaS Platforms Section Breakdown](/handbook/product/categories/#saas-platforms-section) | [SaaS Platforms Request for Help](https://gitlab.com/gitlab-com/saas-platforms/saas-platforms-request-for-help) | [Section SaaS Platforms Issue Board](https://gitlab.com/gitlab-com/saas-platforms/saas-platforms-request-for-help/-/boards) 
+| GitLab Dedicated | [GitLab Dedicated Breakdown](/handbook/engineering/infrastructure/team/gitlab-dedicated/) | [GitLab Dedicated Request for Help](https://gitlab.com/gitlab-com/gl-infra/gitlab-dedicated/team/-/issues/new?issuable_template=support_request) | [GitLab Dedicated Issue Board](https://gitlab.com/gitlab-com/gl-infra/gitlab-dedicated/team/-/boards/7814856?label_name[]=support%3A%3Arequest-for-help) 
 
 **Please note:** GitLab Dedicated is the first iteration for implementing a Request For Help Section for the SaaS section of GitLab development, therefore at the moment the GitLab project structure and workflows may not be consistent with the other development sections in the above table. You can find out more information on GitLab Dedicated internal processes by visiting the [Dedicated Team's ReadMe](https://gitlab.com/gitlab-com/gl-infra/gitlab-dedicated/team/-/blob/main/README.md).
 
@@ -174,6 +161,7 @@ Use the following repositories and resources for identifying similar issues or r
 1. Mention the engineer who is helping or assigned with _every_ comment where you need them to review or respond.
 1. If an issue is moved to another group (through a label change or moving to another project), check the corresponding template for the new group to see who to assign or mention in a comment.
 1. When linking to Kibana, also upload a copy of relevant entries, a screenshot of the graph, etc. as logs rotate out after 7 days. If possible, also link to the relevant Sentry entry.
+1. Many teams do not have access to customer information. So make sure if you are accessing information using elevated access (Such as GitLab.com Admin) that you provide information in the issue directly that may be required to understand the problem.
 
 #### Escalate to unblock a request
 
@@ -197,7 +185,7 @@ If you encounter any problems, such as obtaining a timely response from Developm
 - Create a Support [pairing session issue](https://gitlab.com/gitlab-com/support/support-pairing).
 - [Support Workflows](/handbook/support/workflows/) to follow relevant troubleshooting workflow.
 - [Support Documentation links](/handbook/support/#documentation) for quick references to helpful GitLab documentation.
-- [Skills by Subject](https://gitlab-com.gitlab.io/support/team/skills-by-subject) to find a Support Engineer scoped to the skill set needed for help.
+- [Skills by Subject](https://gitlab-support-readiness.gitlab.io/support-team/skills-by-subject.html) to find a Support Engineer scoped to the skill set needed for help.
 - [DevOps Stages](/handbook/product/categories/#devops-stages) to find the right development or product team to reach out to.
 - [Emergency runbooks](https://gitlab.com/gitlab-com/support/emergency-runbook/-/tree/master/.gitlab/issue_templates) with troubleshooting tips, even if not an emergency.
 - See which [manager is on-call](https://gitlab.pagerduty.com/escalation_policies#PGNLUZ1) if guidance is needed on something urgent.

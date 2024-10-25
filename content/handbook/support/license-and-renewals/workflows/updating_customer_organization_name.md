@@ -1,11 +1,8 @@
 ---
-
 title: Updating customer organization name
 category: General
 description: This page is about steps to updating customer's organization name.
 ---
-
-
 
 ## General workflow
 

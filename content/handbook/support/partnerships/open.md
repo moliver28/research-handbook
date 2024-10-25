@@ -1,5 +1,4 @@
 ---
-
 title: Open Partners
 description: "Support specific information for open partners"
 ---

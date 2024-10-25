@@ -1,5 +1,4 @@
 ---
-aliases: /handbook/engineering/infrastructure/core-platform/data_stores/database/postgresql-upgrade-cadence.html
 title: PostgreSQL Upgrade Cadence
 ---
 
@@ -29,7 +28,7 @@ At a glance:
 
 | GitLab Version | Minimum Supported Version | Optionally Supported Version | Omnibus Default (Fresh installs) | Release notes | GitLab.com |
 |----------------|---------------------------|------------------------------|----------------------------------|---------------|------------|
-|     16.6       |         PG13              |           PG14               |    **PG14**                      |  | Gitlab.com will upgrade to PG16 in FY25-Q2 |
+|     16.6       |         PG13              |           PG14               |    **PG14**                      |  | GitLab.com will upgrade to PG16 in FY25-Q2 |
 |   **17.0**     |       **PG14**            |         **PG16**             |      PG14                        | Support for PG16 will be added to omnibus and charts between 17.0 and 17.4<br />Support for PG14 will be removed in 18.0 | |
 |     17.6       |         PG14              |           PG16               |    **PG16**                      |  | |
-|   **18.0**     |       **PG16**            |         **PG17**             |      PG16                        |  | Gitlab.com will upgrade to PG17 in FY26-Q2 |
+|   **18.0**     |       **PG16**            |         **PG17**             |      PG16                        |  | GitLab.com will upgrade to PG17 in FY26-Q2 |

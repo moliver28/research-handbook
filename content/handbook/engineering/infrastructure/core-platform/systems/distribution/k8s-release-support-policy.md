@@ -1,5 +1,4 @@
 ---
-aliases: /handbook/engineering/infrastructure/core-platform/systems/distribution/workflow/k8s-release-support-policy.html
 title: "Distribution Team Kubernetes and OpenShift release support policy"
 ---
 
@@ -250,7 +249,7 @@ support.
 
 #### In qualification
 
-The Gitlab distribution team has started qualification of a new release.
+The GitLab distribution team has started qualification of a new release.
 Qualification includes:
 
 - Conforming to API changes where needed

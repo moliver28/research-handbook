@@ -40,14 +40,14 @@ The assigned UX Researchers are the go-to person for their assigned [stage group
 
 | Section: Stage Groups | Assigned UX Researchers |
 |---------|-------------------------------|
-| **Core Platform**: Distribution, Geo, Cloud Connector, Global Search, Tenant Scale <br>**SaaS Platforms**: GitLab Dedicated <br>**CD**: Environments  <br>**Analytics**: Observability | [Will Leidheiser](https://gitlab.com/wleidheiser) |
-| **Fulfillment**: Purchase, Utilization, Fulfillment Platform, Billing & Subscription Management, Provision | [Nicholas Hertz](https://gitlab.com/NickHertz) <br> [Anne Lasch](https://gitlab.com/alasch) |
-| **Analytics**: Product Intelligence, Product Analytics <br>**ModelOps**: AI Assisted, AI Framework| [Nicholas Hertz](https://gitlab.com/NickHertz) <br> [Anne Lasch](https://gitlab.com/alasch) |
-| **Manage**: Import, Foundations | [Karen Li](https://gitlab.com/karenyli) (interim cover)|
+| **Systems**: Distribution, Geo, Cloud Connector <br> **Data Stores**: Global Search, Tenant Scale, Database <br> **SaaS Platforms**: GitLab Dedicated, US Public Sector Services, Delivery <br> **Deploy**: Environments <br> **Monitor**: Observability | [Will Leidheiser](https://gitlab.com/wleidheiser) |
+| **Fulfillment**: Purchase, Utilization, Fulfillment Platform, Billing & Subscription Management, Provision <br>**AI-Powered**: AI Framework, Duo Chat, AI Model Validation | [Nicholas Hertz](https://gitlab.com/NickHertz) <br> [Anne Lasch](https://gitlab.com/alasch) |
+| **Monitor**: Product Intelligence, Product Analytics | [Nicholas Hertz](https://gitlab.com/NickHertz) |
+| **Manage**: Import and Integrate, Design System, Personal Productivity, UX Paper Cuts | [Thaina Tavares](https://gitlab.com/thaina.t) |
 | **Plan**: Project Management, Product Planning, Optimize, Knowledge | [Danika Teverovsky](https://gitlab.com/dteverovsky) |
-| **Secure**: Static Analysis, Dynamic Analysis, Composition Analysis, Vulnerability Research <br> **Govern**: Security Policies, Threat Insights, Compliance, Authentication | [Michael Oliver](https://gitlab.com/moliver28) |
-| **Create**: Source Code, Editor, Code Review, Code Creation, Editor Extensions | [Ben Leduc-Mills](https://gitlab.com/leducmills) |
-| **CI**: Pipeline Execution, Pipeline Authoring, Runner, Pipeline Security, Package | [Erika Feldman](https://gitlab.com/enf) |
+| **Secure**: Static Analysis, Secret Detection, Dynamic Analysis, Composition Analysis, Vulnerability Research <br> **Govern**: Security Policies, Threat Insights, Compliance, Authentication, Anti-Abuse, Authorization | [Karen Li](https://gitlab.com/karenyli) (interim cover) |
+| **Create**: Source Code, Code Review, IDE, Editor Extensions, Code Creation | [Ben Leduc-Mills](https://gitlab.com/leducmills) |
+| **Verify**: Pipeline Execution, Pipeline Authoring, Runner, Hosted Runners <br> **Package**: Package <br> **Govern**: Pipeline Security | [Erika Feldman](https://gitlab.com/enf) |
 
 ## How UX Researchers work
 
@@ -153,7 +153,7 @@ Below is an example of the formatting:
 
 Since the UX Research team works so closely with their stage groups and participants, it's important to have a plan in place when we're on PTO to keep research projects moving along - even when we're taking time off. Such an approach allows us to support each other, as a team.  The following steps outline the process the UX Research team follows, regarding PTO:
 
-1. Enter the PTO dates in *Time Off by Deel* **and** within the [UXR team availability calendar](https://docs.google.com/spreadsheets/d/1lU8DeJmXNkUZm-zQVFrirthZyZz2lBIVQ8Z_RVVRj9g/edit#gid=0) (internal link). When documenting your time in Deel, assign auto-replies to the `#ux_research_lounge` Slack channel or to your manager.
+1. Enter the PTO dates in *Workday* **and** within the [UXR team availability calendar](https://docs.google.com/spreadsheets/d/1lU8DeJmXNkUZm-zQVFrirthZyZz2lBIVQ8Z_RVVRj9g/edit#gid=0) (internal link). Time off by Deel will ask you to ssign auto-replies to the `#ux_research_lounge` Slack channel or to your manager.
 2. Note any overlapping PTO dates with other team members. This is ok - as long as there isn't a business impact.
 3. Create a [coverage issue](https://gitlab.com/gitlab-org/ux-research/-/issues/new#) to address ongoing projects with timely business impact.
 4. Ensure your backups: 1) are not on PTO, and 2) agree to be a backup for you.

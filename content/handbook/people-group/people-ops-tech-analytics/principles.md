@@ -21,12 +21,12 @@ classDef classB fill:#f7dcf1, stroke:#521144
 
 ### One Team, One Goal
 
-- [CREDIT]({{< ref "values#credit" >}})
-- We listen to each other’s ideas and are open & honest with each other
+- [CREDIT](/handbook/values/#credit)
+- We listen to each other's ideas and are open & honest with each other
 - We treat everyone with dignity and respect
 - We assume positive intent towards GitLab's success
 - We can agree to disagree, but we move forward as one team committed to our common goal
-- We don’t hide from difficult conversations
+- We don't hide from difficult conversations
 - We critique our process, tackle mistakes as a team, and seek to get better
 - We are invested in our team members development
 - We honor our commitments

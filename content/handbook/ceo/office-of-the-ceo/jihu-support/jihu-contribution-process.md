@@ -1,8 +1,5 @@
 ---
 title: JiHu contribution process
-aliases:
-- /handbook/ceo/office-of-the-ceo/jihu-support/jihu-contribution-process/
-- /handbook/ceo/chief-of-staff-team/jihu-support/jihu-contribution-process/
 ---
 
 Contributions from the JiHu team will follow two methods depending on whether they have JiHu proprietary changes or not.
@@ -45,7 +42,7 @@ Bigger product feature contributions should follow GitLab
 [Iteration training](/handbook/engineering/development/onboarding/manager/#iteration-training) is available to coach on GitLab's value of iteration. This can be helpful to understand the expectations of GitLab product teams for feature iteration.
 
 Not every features can follow the same strategy, but the first strategy we
-try should be [crafting the minimal viable change](/handbook/product/product-processes/#crafting-an-mvc), and for creating
+try should be [crafting the minimal valuable change](/handbook/product/product-processes/#crafting-an-mvc), and for creating
 merge requests, always try to [keep merge requests small](/handbook/engineering/workflow/iteration/#how-to-keep-a-merge-request-small).
 
 In the above guidelines to keep merge requests small, we mentioned:
@@ -64,7 +61,7 @@ both horizontally and vertically:
 
 | Feature | Merge requests (not an exhaustive list) | Slicing |
 | --- | --- | --- |
-| [GitLab Insights](https://gitlab.com/groups/gitlab-org/-/epics/725) | <ul><li>[Introduce the Gitlab::Insights framework](https://gitlab.com/gitlab-org/gitlab/-/merge_requests/9912)</li><li>[Introduce the Insights controllers](https://gitlab.com/gitlab-org/gitlab/-/merge_requests/9776)</li><li>[Insights frontend](https://gitlab.com/gitlab-org/gitlab/-/merge_requests/9856)</li><li>[Move to supporting multiple charts per page for Insights](https://gitlab.com/gitlab-org/gitlab/-/merge_requests/10516)</li></ul> | Mixture with both. Horizontally for the base and vertically on top of it |
+| [GitLab Insights](https://gitlab.com/groups/gitlab-org/-/epics/725) | <ul><li>[Introduce the GitLab::Insights framework](https://gitlab.com/gitlab-org/gitlab/-/merge_requests/9912)</li><li>[Introduce the Insights controllers](https://gitlab.com/gitlab-org/gitlab/-/merge_requests/9776)</li><li>[Insights frontend](https://gitlab.com/gitlab-org/gitlab/-/merge_requests/9856)</li><li>[Move to supporting multiple charts per page for Insights](https://gitlab.com/gitlab-org/gitlab/-/merge_requests/10516)</li></ul> | Mixture with both. Horizontally for the base and vertically on top of it |
 | [Filter search results by state](https://gitlab.com/groups/gitlab-org/-/epics/4293) | <ul><li>[Search UI add issue scope results filtering by state](https://gitlab.com/gitlab-org/gitlab/-/merge_requests/39881)</li><li>[Add issues/merge_requests filtering by state for search API](https://gitlab.com/gitlab-org/gitlab/-/merge_requests/41989)</li></ul> | Vertically that each merge request shipped a standalone feature |
 
 ### Guidelines for proprietary and upstream contributions
@@ -80,7 +77,7 @@ Contributions in projects that have proprietary and upstream contributions will 
 1. The JiHu Engineering team will review and merge the JiHu MR in the JiHu project.
 1. A scheduled pipeline every 2 hours will run in [compliance-verification](https://gitlab.com/gitlab-org/gitlab-jh-mirrors/compliance-verification) against the [JiHu project pulling mirror](https://gitlab.com/gitlab-org/gitlab-jh-mirrors/gitlab) to verify that there are no code difference outside of `jh/` directory beside [agreed difference for `package.json` and `yarn.lock`](https://gitlab.com/gitlab-jh/gitlab-jh-enablement/-/issues/170#note_892043256).
 
-![Diagrem of the GitLab JiHu MR Process](/handbook/ceo/office-of-the-ceo/jihu-support/images/gitlab-jh-mr-process.png)
+![Diagrem of the GitLab JiHu MR Process](/handbook/ceo/office-of-the-ceo/jihu-support/images/gitlab-jh-mr-process.jpg)
 
 ### JiHu contribution identification
 

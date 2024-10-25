@@ -1,13 +1,6 @@
 ---
-
 title: "Using Salesforce within Customer Success"
 ---
-
-
-
-
-
-
 
 - Using Salesforce within Customer Success *(Current)*
 - [Account Onboarding](/handbook/customer-success/csm/onboarding/)
@@ -28,7 +21,7 @@ CSM Sentiment - A field to list the CSM's sense of the [customer's health](/hand
 
 Salesforce operates using a series of objects. Standard objects are objects that are included with Salesforce. Common business objects like Account, Contact, Lead, and Opportunity are all standard objects.
 
-Custom objects are objects that you create to store information that’s specific to your company or industry. For GitLab, we have created four custom objects that are specific to Customer Success. These are POV's and PS Engagements (PSE's). We can link these custom objects to accounts and opportunities, and create automations such as allowing us to auto-populate specific fields and notify users when a task needs to be completed.
+Custom objects are objects that you create to store information that's specific to your company or industry. For GitLab, we have created four custom objects that are specific to Customer Success. These are POV's and PS Engagements (PSE's). We can link these custom objects to accounts and opportunities, and create automations such as allowing us to auto-populate specific fields and notify users when a task needs to be completed.
 
 ### Professional Services Engagements (PSE) objects
 
@@ -164,11 +157,10 @@ To log an email in Salesforce:
 
 Any time you email a customer, bcc your "email to Salesforce address" on the email so that it is tracked within Salesforce.
 
-Three alternatives exist:
+These alternatives exist:
 
 1. If you have an [Outreach](/handbook/business-technology/tech-stack/#outreachio) account which is linked to your GitLab email address and your Salesforce account, your emails will automatically sync with Salesforce
 1. If you do not have outreach, then consider the [Salesforce Chrome plugin](/handbook/sales/prospect-engagement-best-practices) to easily log customer-related emails
-1. If you do want to log the email to the customer's timeline in Gainsight, follow the instructions in [this help article](https://support.gainsight.com/SFDC_Edition/Timeline/Admin_Guides/Configure_Email_to_Timeline). This email will be synced back to Salesforce with the daily Gainsight-Salesforce sync.
 
 ### Building Reports in Salesforce
 

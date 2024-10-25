@@ -87,4 +87,4 @@ Also, open an MR to add or remove team members in the [team.yml](https://gitlab.
 
 ### Growth & Development
 
-When working with your team members on any Growth & Development requests, please refer to the [Growth and Development Benefit guidelines](/handbook/total-rewards/benefits/general-and-entity-benefits/growth-and-development/). After you have approved the request, please also remember to add the expense to the [UX Growth and Development Expenses spreadsheet](https://docs.google.com/spreadsheets/d/1hLm_XEX3Vux1Co_dMY5A74io8oqXArDAX6MonlBOYNg).
+When working with your team members on any Growth & Development requests, please refer to the [Growth and Development Benefit guidelines](/handbook/people-group/learning-and-development/growth-and-development/). After you have approved the request, please also remember to add the expense to the [UX Growth and Development Expenses spreadsheet](https://docs.google.com/spreadsheets/d/1hLm_XEX3Vux1Co_dMY5A74io8oqXArDAX6MonlBOYNg).

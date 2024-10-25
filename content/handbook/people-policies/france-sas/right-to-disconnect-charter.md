@@ -1,14 +1,26 @@
 ---
 title: "GitLab France S.A.S. Right to Disconnect Charter"
 description: GitLab France S.A.S. Right to Disconnect Charter - French and English language versions.
-controlled_document: true
 ---
+
+{{% panel header="**This is a Secure Document**" header-bg="orange" %}}
+Per the stated [Roles & Responsibilities](/handbook/people-policies/france-sas/#roles--responsibilities), changes to this page must be approved or merged by a code owner. All contributions are welcome and encouraged.
+{{% /panel %}}
+
+## Roles and Responsibilities
+
+| Role | Responsibility |
+|-----------|-----------|
+| GitLab France S.A.S. Team Members | Responsible for following the requirements in these policies |
+| People Ops | Responsible for implementing and executing these policies |
+| Legal & People Ops Management (Code Owners) | Responsible for approving significant changes and exceptions to these policies |
+
 <!-- vale handbook.Spelling = NO -->
 ## Français: GITLAB FRANCE S.A.S. CHARTE SUR LE DROIT À LA DÉCONNEXION
 
 ### 1. Objet
 
-Chez GitLab (ci-après la «Société»), nous veillons à la sécurité, à la santé et au bien-être de tous les collaborateurs et mettons l'accent non pas sur le nombre d’heures travaillées mais plutôt sur la communication asynchrone ainsi que sur les résultats. Nous pensons que [la famille et les amis sont prioritaires et que le travail est secondaire](/handbook/values/#collaboration). Dans la droite ligne des valeurs de la Société, nous comprenons qu'il est essentiel de se « déconnecter » du travail pour favoriser une vie saine et équilibrée. Les progrès technologiques, les événements internationaux et les exigences professionnelles peuvent parfois nous faire oublier que nous avons besoin d'une pause pour nous ressourcer.
+Chez GitLab (ci-après la «Société»), nous veillons à la sécurité, à la santé et au bien-être de tous les collaborateurs et mettons l'accent non pas sur le nombre d'heures travaillées mais plutôt sur la communication asynchrone ainsi que sur les résultats. Nous pensons que [la famille et les amis sont prioritaires et que le travail est secondaire](/handbook/values/#collaboration). Dans la droite ligne des valeurs de la Société, nous comprenons qu'il est essentiel de se « déconnecter » du travail pour favoriser une vie saine et équilibrée. Les progrès technologiques, les événements internationaux et les exigences professionnelles peuvent parfois nous faire oublier que nous avons besoin d'une pause pour nous ressourcer.
 
 Le présent document (ci-après la « Charte ») a été établi afin de rappeler et de renforcer le droit à la déconnexion des salariés vis-à-vis des outils informatiques disponibles au sein de l'entreprise.
 
@@ -137,7 +149,7 @@ Nous sommes conscients que de nombreux salariés sont actifs sur les réseaux so
 
 ### 8. Réunions
 
-La Société vous demande de [respecter le temps des autres]({{< ref "values#be-respectful-of-others-time" >}}) et de tenir compte de l'investissement en temps demandé aux autres lorsqu'ils assistent à des réunions. Essayez d'éviter les réunions et, si une réunion est nécessaire, essayez de rendre la participation facultative pour le plus grand nombre possible de personnes. Toutes les réunions doivent avoir un ordre du jour lié à l'invitation, et vous devez en documenter les conclusions. Au lieu de faire en sorte que les gens demandent la permission, faites leur confiance et soyez disponibles s'ils ont des questions.
+La Société vous demande de [respecter le temps des autres](/handbook/values/#be-respectful-of-others-time) et de tenir compte de l'investissement en temps demandé aux autres lorsqu'ils assistent à des réunions. Essayez d'éviter les réunions et, si une réunion est nécessaire, essayez de rendre la participation facultative pour le plus grand nombre possible de personnes. Toutes les réunions doivent avoir un ordre du jour lié à l'invitation, et vous devez en documenter les conclusions. Au lieu de faire en sorte que les gens demandent la permission, faites leur confiance et soyez disponibles s'ils ont des questions.
 
 ### 9. Conseils
 
@@ -153,7 +165,7 @@ En plus des conseils donnés à l'échelle globale dans la section Communicating
 
 ### 10. Engagements de la société en matière de sensibilisation et de formation au droit à la déconnexion
 
-La Société affirme que les technologies de l'information et de la communication (TIC) font partie intégrante de l'environnement de travail et sont nécessaires au bon fonctionnement de l'entreprise. Porteuses de lien social, facilitant les échanges et l'accès à l'information, elles doivent toutefois être utilisées à bon escient, dans le respect des personnes et de leur vie privée, afin de garantir l’effectivité du respect des durées minimales de repos.
+La Société affirme que les technologies de l'information et de la communication (TIC) font partie intégrante de l'environnement de travail et sont nécessaires au bon fonctionnement de l'entreprise. Porteuses de lien social, facilitant les échanges et l'accès à l'information, elles doivent toutefois être utilisées à bon escient, dans le respect des personnes et de leur vie privée, afin de garantir l'effectivité du respect des durées minimales de repos.
 
 Dans ce cadre, et en plus des conseils et recommandations susmentionnés, la Société s'engage notamment à:
 
@@ -189,7 +201,7 @@ La présente Charte est conclue pour une durée indéterminée.
 
 ### 1. Purpose
 
-At GitLab (hereinafter the “Company”), we support the safety, health and wellbeing of all team members and we operate with an emphasis on asynchronous communication and a focus on results, not hours worked. We believe that family and friends should come first and work should come second. In line with company values, we understand that “disconnecting” from work is critical in order to foster a healthy and well-rounded life. Technological advancements, world events, and work demands, can, at times, cause us to forget that we need a break from work to recharge.
+At GitLab (hereinafter the "Company"), we support the safety, health and well-being of all team members and we operate with an emphasis on asynchronous communication and a focus on results, not hours worked. We believe that family and friends should come first and work should come second. In line with company values, we understand that "disconnecting" from work is critical in order to foster a healthy and well-rounded life. Technological advancements, world events, and work demands, can, at times, cause us to forget that we need a break from work to recharge.
 
 The present document (hereinafter the "Charter") has been drawn up in order to reiterate and reinforce team members' right to disconnect from IT tools available within the Company.
 
@@ -207,7 +219,7 @@ All team members should familiarise themselves with this Policy.
 
 Disconnecting from work means:
 
-- The Company’s undertaking not to solicit team members during rest periods;
+- The Company's undertaking not to solicit team members during rest periods;
 
 - The absence of obligation for team members to respond to work-related solicitations during rest periods;
 
@@ -233,7 +245,7 @@ In addition, any derogation must be justified by the seriousness, urgency and/or
 
 As a global remote company that uses asynchronous communication as a starting point, not every team member will be disconnected at the same time, and team members may not be disconnected during the same hours every day. We will strive for consistency, and in return ask for flexibility when necessary.
 
-Therefore, although team members have the right to be disconnected outside the usual working periods, there may be exceptions in case of emergencies or exceptional situations related to the requirements of the proper functioning of the Company’s activity.
+Therefore, although team members have the right to be disconnected outside the usual working periods, there may be exceptions in case of emergencies or exceptional situations related to the requirements of the proper functioning of the Company's activity.
 
 On a strictly exceptional and duly justified basis, team members may be contacted outside of their regular working hours in very limited circumstances such as, for instance:
 
@@ -245,7 +257,7 @@ On a strictly exceptional and duly justified basis, team members may be contacte
 
 - Anticipated high volume periods where you may be asked to work additional hours;
 
-- Scheduled “on-call” periods; and
+- Scheduled "on-call" periods; and
 
 - System or emergency communication testing.
 
@@ -261,7 +273,7 @@ It is the responsibility of all managers to:
 
 (ii) Set clear and reasonable expectations with respect to workload and  deliverables;
 
-(iii) Set clear and reasonable expectations with respect to when work, and engaging in work-related communications, outside of regular working hours may be required as a normal part of the team member’s job;
+(iii) Set clear and reasonable expectations with respect to when work, and engaging in work-related communications, outside of regular working hours may be required as a normal part of the team member's job;
 
 (iv) Check that team members are taking statutory breaks, vacation, and other daily/weekly rest periods as may be required by French law;
 
@@ -275,11 +287,11 @@ It is the responsibility of all managers to:
 
 It is the responsibility of all team members to:
 
-(i) Manage their time and work efficiently in order to ensure that their deliverables are met within their regular working hours unless an exceptional circumstance arises in which case this should be communicated immediately to the team member’s manager;
+(i) Manage their time and work efficiently in order to ensure that their deliverables are met within their regular working hours unless an exceptional circumstance arises in which case this should be communicated immediately to the team member's manager;
 
 (ii) Cooperate fully with any appropriate mechanism utilized by the Company  to record working time, and accurately record their hours;
 
-(iii) Be mindful of colleagues’ and customers’ or clients’ working hours (do not routinely slack, email or call outside regular working hours or during rest periods);
+(iii) Be mindful of colleagues' and customers' or clients' working hours (do not routinely slack, email or call outside regular working hours or during rest periods);
 
 (iv) Be knowledgeable of methods to delay emails and slack messages to the next working day and use those techniques wherever feasible; and
 
@@ -287,9 +299,9 @@ It is the responsibility of all team members to:
 
 ### 6. Recommended behaviours favouring the exercise of the right to disconnect
 
-It is not the Company’s intention to strictly dictate when and how team members should communicate with or respond to one another because that is simply not practical.
+It is not the Company's intention to strictly dictate when and how team members should communicate with or respond to one another because that is simply not practical.
 
-However, we do expect that everyone will comply with this Charter and be mindful of their communications (including the tone and timing) when it is outside of their, or the recipient’s regular working hours.
+However, we do expect that everyone will comply with this Charter and be mindful of their communications (including the tone and timing) when it is outside of their, or the recipient's regular working hours.
 
 Here are some suggested considerations for team members to promote the right to disconnect, prevent information workload and stress related to the use of professional digital tools:
 
@@ -305,21 +317,21 @@ Here are some suggested considerations for team members to promote the right to 
 
 (f) Does the subject line appropriately identify the content of the message and whether it must be dealt with immediately or whether it can wait?
 
-(g) Is the “cc” and “cci” functions used sparingly?
+(g) Is the "cc" and "cci" functions used sparingly?
 
 (h) Is each attachment relevant?
 
-(i) If you are regularly communicating or collaborating with team members working in a different time zone than you, or who otherwise has different working hours than you, do your communications include a note that the recipient may respond during their regular working hours and not during their daily or weekly rest periods?  (for example  “I am currently working flexibly so while it suits me to send this email now, I do not expect a response or action outside your own working hours”)
+(i) If you are regularly communicating or collaborating with team members working in a different time zone than you, or who otherwise has different working hours than you, do your communications include a note that the recipient may respond during their regular working hours and not during their daily or weekly rest periods?  (for example  "I am currently working flexibly so while it suits me to send this email now, I do not expect a response or action outside your own working hours")
 
 (j) Have you updated your electronic out of office notifications to ensure that those who have sent a message are aware when you will be responding to them or to whom they may direct their inquiry in your absence?
 
 ### 7. Communications
 
-We communicate respectfully and professionally at all times, in line with the Company’s values, with a bias towards asynchronous communication and documentation-first and we assume positive intent in our dealings with others (including in relation to the tone and timing of communications). Take initiative to operate asynchronously whenever possible. This shows care and consideration for those who, among other things, are outside of working hours and have disconnected from work. This is demonstrated by communicating recordings of meetings, using GitLab Issues and Merge Requests rather than texts, calls, or Slack messages, and being sensitive to local holidays and vacation statuses. Encourage others to default to documentation rather than pressuring others to be online outside of their working hours.
+We communicate respectfully and professionally at all times, in line with the Company's values, with a bias towards asynchronous communication and documentation-first and we assume positive intent in our dealings with others (including in relation to the tone and timing of communications). Take initiative to operate asynchronously whenever possible. This shows care and consideration for those who, among other things, are outside of working hours and have disconnected from work. This is demonstrated by communicating recordings of meetings, using GitLab Issues and Merge Requests rather than texts, calls, or Slack messages, and being sensitive to local holidays and vacation statuses. Encourage others to default to documentation rather than pressuring others to be online outside of their working hours.
 
 When sending a communication, the sender should give due consideration to the timing and potential for disturbance, and the recipient should understand that they will not be expected to respond until their working time recommences. Team members should be mindful of, and manage, how much virtual communication they have each day.
 
-We recognize that many team members engage in social media activity and note that if you choose to connect with fellow team members of GitLab on social media, you have to keep it professional and consider GitLab’s Communication Guidelines at all times, to the extent permitted by French law. Team members should not feel that they must respond to social communications from colleagues outside of their working hours, see the Team Member Social Media Policy for more details.
+We recognize that many team members engage in social media activity and note that if you choose to connect with fellow team members of GitLab on social media, you have to keep it professional and consider GitLab's Communication Guidelines at all times, to the extent permitted by French law. Team members should not feel that they must respond to social communications from colleagues outside of their working hours, see the Team Member Social Media Policy for more details.
 
 ### 8. Meetings
 
@@ -339,7 +351,7 @@ Disconnect yourself from Slack and Gmail in any of these ways: NOTE: Time Off by
 - pause the Slack and Gmail apps on your phone, or;
 - manually configure Slack and Gmail to send no notifications on your phone.
 
-### 10. Company’s undertakings regarding awareness and training on the right to disconnect
+### 10. Company's undertakings regarding awareness and training on the right to disconnect
 
 The Company affirms that information and communication technologies are an important part of the work environment and are necessary for the efficient running of the Company. They are a source of social interaction, facilitating exchanges and access to information, but they must be used wisely, with respect for individuals and their privacy, to ensure that minimum rest periods are respected.
 

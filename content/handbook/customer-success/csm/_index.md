@@ -1,15 +1,14 @@
 ---
-
 title: "Customer Success Management Handbook"
 description: "The Customer Success Management team at GitLab is a part of the Customer Success department, acting as trusted advisors to our customers and helping them realize value faster."
 ---
 
-[<button class="btn btn-primary" type="button" style="padding: 15px 30px; font-size: 24px;">Digital</button>](/handbook/sales/field-operations/customer-success-operations/cs-ops-programs/)
-[<button class="btn btn-primary" type="button"  style="padding: 15px 30px; font-size: 24px;">CSE</button>](/handbook/customer-success/csm/segment/scale/)
+## Customer Success Segments
+
 [<button class="btn btn-primary" type="button"  style="padding: 15px 30px; font-size: 24px;">CSM AMER</button>](/handbook/customer-success/csm/segment/amer/)
 [<button class="btn btn-primary" type="button"  style="padding: 15px 30px; font-size: 24px;">CSM EMEA</button>](/handbook/customer-success/csm/segment/emea/)
 [<button class="btn btn-primary" type="button"  style="padding: 15px 30px; font-size: 24px;">CSM APJ</button>](/handbook/customer-success/csm/segment/apj/)
-[<button class="btn btn-primary" type="button"  style="padding: 15px 30px; font-size: 24px;">CSA</button>](/handbook/customer-success/csm/segment/csa/)
+[<button class="btn btn-primary" type="button"  style="padding: 15px 30px; font-size: 24px;">CSE</button>](/handbook/customer-success/csm/segment/cse/)
 
 ## Mission Statement
 
@@ -163,8 +162,9 @@ Please reference this page for an overview of the areas your CSM will engage wit
 - [CSM Onboarding](/handbook/customer-success/csm/csm-onboarding/)
 - [CSM Rhythm of Business](/handbook/customer-success/csm/rhythm/)
 - [Using Gainsight](/handbook/customer-success/csm/gainsight/)
+- [CSM Quaterly Business Reviews](/handbook/customer-success/csm/qbr/)
 - [CSM Responsibilities and Services](/handbook/customer-success/csm/services/)
-- [CSM and Product Interaction](/handbook/customer-success/csm/product/)
+- [CSM and Product Interaction](/handbook/product/product-management/#how-to-engage-product-managers)
 - [CSM and Professional Services Interaction](/handbook/customer-success/csm/engaging-with-ps/)
 - [CSM and Support Interaction](/handbook/customer-success/csm/support/)
 - [CSM and Partner Interaction](/handbook/customer-success/csm/engaging-with-partners/)
@@ -246,9 +246,9 @@ To ensure that opportunities are listed with the correct Order Type, [this Sales
 
 Next steps for you:
 
-1. Customize [this SFDC report](https://gitlab.my.salesforce.com/00O4M000004agfP) where “Account Owner = your SAEs”; “CSM = You”
+1. Customize [this SFDC report](https://gitlab.my.salesforce.com/00O4M000004agfP) where "Account Owner = your SAEs"; "CSM = You"
 1. Save report
-1. Subscribe to report when “Record Count Greater Than 0” and Frequency = Weekly (You’ll get a weekly email as a reminder to look at the report)
+1. Subscribe to report when "Record Count Greater Than 0" and Frequency = Weekly (You'll get a weekly email as a reminder to look at the report)
 1. If you find an opp that is tagged incorrectly, chatter (@Sales-Support) in the opportunity and let them know there is a mistake ([example](/handbook/customer-success/csm/#csm-tools))
 
 ## Related pages
@@ -258,10 +258,10 @@ Next steps for you:
 - [Responsibility Matrix and Transitions](/handbook/customer-success/#responsibility-matrix-and-transitions)
 - [Customer Success' FAQ](/handbook/customer-success/faq/)
 - [Using Salesforce within Customer Success](/handbook/customer-success/using-salesforce-within-customer-success/)
-- [Customer Success Vision](/handbook/customer-success/vision/)
+- [Customer Success Vision](/handbook/customer-success/customer-success-vision/)
 - [GitLab Positioning](/handbook/marketing/positioning-faq/)
 - [Product Stages and the POCs for each](/handbook/product/categories/#devops-stages)
-- [How to Provide Feedback to Product](/handbook/product/how-to-engage/#feedback-template)
+- [How to Provide Feedback to Product](/handbook/product/product-management/#feedback-template)
 - [Sales handbook](/handbook/sales/)
 - [Support handbook](/handbook/support/)
 - [Workshops and Lunch-and-Learn slides](https://drive.google.com/drive/folders/1qAymFTiXFEk-lRSNreIhaZ6Z62fdo_y2)

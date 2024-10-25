@@ -1,5 +1,4 @@
 ---
-
 title: "Nick Veenhof's README"
 description: "README for Nick Veenhof"
 job: "Director of Contributor Success"

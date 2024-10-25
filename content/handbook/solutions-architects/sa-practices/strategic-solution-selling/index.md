@@ -2,7 +2,6 @@
 title: Strategic Solution Selling
 ---
 
-
 This is a practice guide for a Solutions Architect (SA) to engage enterprises for driving a **strategic solution** during discovery and scoping stage, which can lead into the technical evaluation.
 
 A strategic solution is aimed to provide a customer the DevOps capabilities for delivering software better and faster with an organizational wide impact and aligned with the enterprise transformational intiatitives. The SA will assess and provide the solutioning as the right fit for the enterprise from the business and technical perspectives. The solution should aligne with the business outcomes that can be realized based on the DevOps roadmap vision. Further the solution can accelerate the customer's DevOps transformation at scale.
@@ -32,7 +31,7 @@ From the Solution Architecture point of view, it is important to identify the te
 
 ### Activities for SA to Consider
 
-Research and analysis of the opportunity are critical to identify the strategic direction of the “scoping” and “technical evaluation” stages which may require SA lead technical discovery. Technical discovery activity should provide advantageous knowledge to help navigate the conversations with the customer. This can be even more crucial for a new logo, where the relationship with the prospect has not been well established yet.
+Research and analysis of the opportunity are critical to identify the strategic direction of the "scoping" and "technical evaluation" stages which may require SA lead technical discovery. Technical discovery activity should provide advantageous knowledge to help navigate the conversations with the customer. This can be even more crucial for a new logo, where the relationship with the prospect has not been well established yet.
 
 Since these activities require extensive work, there needs to be pre quallification of the opportunity for the consideration based on the personas engaged and the size of the opportunity.
 
@@ -57,7 +56,7 @@ The following mind map provides an example of building the information about the
 
 The complete [example](https://drive.google.com/file/d/1Qy9bsMmBDqr5ZaMguGGVDwJ5-rkPyxb9/view?usp=sharing), was created based on the GitLab's customer and can be found with the above link for reference (accessible only internally).
 
-This [template](https://docs.google.com/presentation/d/1xilP8z7nYHJVa05qiBNFq2cEoq4HtKj-c-bbR0Y29JY/edit?usp=sharing) can be used by the account team to brainstorm. The brainstorming session between the SA and SAE helps with the alignments of the future stages of the sales process, specifically focusing on “discovery”, "scoping" and “technical evaluation”.
+This [template](https://docs.google.com/presentation/d/1xilP8z7nYHJVa05qiBNFq2cEoq4HtKj-c-bbR0Y29JY/edit?usp=sharing) can be used by the account team to brainstorm. The brainstorming session between the SA and SAE helps with the alignments of the future stages of the sales process, specifically focusing on "discovery", "scoping" and "technical evaluation".
 
 ### Example Discussion Areas
 

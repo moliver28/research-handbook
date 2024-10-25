@@ -1,14 +1,7 @@
 ---
-
 title: Auto DevOps
 description: "Auto DevOps is a technology that allows automated application of DevOps best practices."
 ---
-
-
-
-
-
-
 
 ## Current end-to-end tests
 
@@ -54,7 +47,7 @@ or
 `gitlab-qa Test::Instance::Image EE -- qa/specs/features/browser_ui/7_configure/auto_devops/create_project_with_auto_devops_spec.rb --tag orchestrated --tag kubernetes` to run [orchestrated](https://gitlab.com/gitlab-org/gitlab-qa/-/blob/master/docs/what_tests_can_be_run.md#orchestrated-tests).
 
 To run the `auto_devops_templates_spec.rb` tests, it is easiest to execute the tests against the [staging](https://staging.gitlab.com/) environment by following [these instructions](https://gitlab.com/gitlab-org/gitlab-qa/-/blob/master/docs/what_tests_can_be_run.md#testinstancestaging) for setting up your environment variables.
-NOTE: You will need access to the "QA Vault" in 1password. If you require access, you can fill out an individual access request from [here](/handbook/business-technology/end-user-services/onboarding-access-requests/access-requests/#individual-or-bulk-access-request)
+NOTE: You will need access to the "QA Vault" in 1password. If you require access, you can fill out an individual access request from [here](/handbook/it/end-user-services/onboarding-access-requests/access-requests/#individual-or-bulk-access-request)
 
 Example: `gitlab-qa Test::Instance::Staging -- qa/specs/features/browser_ui/7_configure/auto_devops/auto_devops_templates_spec.rb` to run [orchestrated](https://gitlab.com/gitlab-org/gitlab-qa/-/blob/master/docs/what_tests_can_be_run.md#orchestrated-tests) (append `--tag quarantine` to run quarantined tests)
 
@@ -63,7 +56,7 @@ Example: `gitlab-qa Test::Instance::Staging -- qa/specs/features/browser_ui/7_co
 - [Tips and Troubleshooting](https://gitlab.com/gitlab-org/gitlab-development-kit/-/blob/master/doc/howto/kubernetes/tips_and_troubleshooting.md)
 - [Useful Commands](https://gitlab.com/gitlab-org/gitlab-development-kit/-/blob/master/doc/howto/kubernetes/useful_commands.md)
 - [How to work with slow connections](https://gitlab.com/gitlab-org/gitlab-development-kit/blob/master/doc/howto/auto_devops/tips_and_troubleshooting.md#qa)
-- [Enabling premium features for development purposes](https://license.gitlab.com/users/sign_in)
+- [Enabling premium features for development purposes](/handbook/engineering/developer-onboarding/#working-on-gitlab-ee-developer-licenses)
 - [Thanos query for complete Auto DevOps pipelines](https://thanos-query.ops.gitlab.net/graph?g0.range_input=2d&g0.max_source_resolution=0s&g0.expr=sum(increase(auto_devops_pipelines_completed_total%7Benv%3D%22gprd%22%7D%5B6h%5D))%20by%20(status)&g0.tab=0)
 
 <sup>*</sup> For information as to why we're running master pipelines on `qa-mirror` see the following issues:

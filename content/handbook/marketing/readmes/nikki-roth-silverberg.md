@@ -1,18 +1,11 @@
 ---
-aliases: /handbook/marketing/readmes/nikki-roth-silverberg.html
 title: "Nikki Roth Silverberg README (Staff Marketing Operations Manager)"
 description: "Learn more about working with Nikki Roth Silverberg"
 ---
 
-
-
-
-
-
-
 ## README: Nikki Roth Silverberg
 
-👋 I’m Nikki! I created this README to help people get to know me better and to help others understand what it might be like to work with me, especially people who haven’t worked with me before.
+👋 I'm Nikki! I created this README to help people get to know me better and to help others understand what it might be like to work with me, especially people who haven't worked with me before.
 
 Please feel free to contribute to this page by opening a merge request.
 
@@ -24,7 +17,7 @@ Please feel free to contribute to this page by opening a merge request.
 - Outside of work, I love adventuring outdoors including hiking and camping in the summers and snowboarding in the winter. I am an avid rock climber, although mostly in the gym. I also love cooking and baking (and eating), music (live and on vinyl), and have recently become a bit of a bookworm. My guilty pleasures are 90 Day Fiance and true crime.
 - I'm a massive sports fan. I love the Philadelphia Eagles, Phillies, and Sixers (not an avid hockey watcher). I'm also a fan of and nerd for all things NBA and basketball in general 🤓.
 - I currently work on the [Marketing Operations team](/handbook/marketing/marketing-operations/) as a [Staff Marketing Operations Manager](/job-families/marketing/marketing-operations-manager/#staff-marketing-operations-manager) at GitLab.
-- I'm currently working on earning my Master of Business Administration (MBA) degree thanks to GitLab's [Growth and Development Benefit](/handbook/total-rewards/benefits/general-and-entity-benefits/growth-and-development/)
+- I'm currently working on earning my Master of Business Administration (MBA) degree thanks to GitLab's [Growth and Development Benefit](/handbook/people-group/learning-and-development/growth-and-development/)
 - In early 2023, I was diagnosed with ADHD. It's been an interesting journey to unpack this diagnosis as an adult but ultimately has been a powerful opportunity for self-discovery and development.
 
 ## My Values at Work
@@ -75,7 +68,7 @@ Please feel free to contribute to this page by opening a merge request.
   - I typically work from 8:30am/9:00am to 5:00/6:00pm Mountain Time. I am protective of my non-working time and keep Slack/email on `Do Not Disturb` outside of my working hours.
 - **Communication and Meeting Preferences:**
   - I prefer Slack and I try to respond as quickly as possible. I am not as responsive over email as I use it mostly for external communication. If something is truly urgent and I am not available on Slack, please text me.
-  - I manage my daily working with GitLab issues and To-Do’s. If something is time-sensitive or if I am blocking something, I appreciate it if you ping me about it in Slack.
+  - I manage my daily working with GitLab issues and To-Do's. If something is time-sensitive or if I am blocking something, I appreciate it if you ping me about it in Slack.
   - I keep my Google calendar up-to-date.
   - Especially as someone with ADHD, I really appreciate having a meeting agenda with adequate time to prepare. I check my next day's agendas at the end of every working day and it really helps me if I can prepare in advance.
 - **Focus Time:**

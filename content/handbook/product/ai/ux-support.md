@@ -1,9 +1,7 @@
 ---
-
 title: "UX support for AI-assisted features"
 description: "UX support for AI-assisted features"
 ---
-
 
 ## Getting UX Support for AI Related Issues
 

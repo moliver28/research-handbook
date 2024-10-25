@@ -18,12 +18,19 @@ Timing of team member touchpoints:
 
 ## Team Member Meeting Recordings
 
-Recordings listed in reverse chronological order.
+Recordings and agendas (internal only) listed in reverse chronological order.
 
-| Date | Recording | AMA Agenda |
-| ------ | ------ | ------ |
+| Date       | Recording | AMA Agenda |
+| ---------- | --------- | ---------- |
+| 2024-10-03 | FY25-Q3 GitLab Assembly | [AMA](https://docs.google.com/document/d/1-daxf18rmxrcYmwRMN91wWUNz-dHr9gBUekAgiti9C4/edit) |
+| 2024-09-05 | FY25-Q2 Post-earnings internal recap | [AMA](https://docs.google.com/document/d/1sHElZ7MNlqPEFLkZyElS3Dxyp5b-Ek6coIZtuIFbl1Q/preview) |
+| 2024-08-12 | [FY25-Q3 Quarterly Kickoff](https://university.gitlab.com/access/saml/login/internal-team-members?returnTo=https://university.gitlab.com/learn/video/fy25-q3-quarterly-kickoff) | [AMA](https://docs.google.com/document/d/1Q9n_lkGLvaCsEw0QWo1Miu5qO5eSk4di_HLLu6y2Pn8/edit) |
+| 2024-06-18 | [FY25-Q2 GitLab Assembly](https://university.gitlab.com/access/saml/login/internal-team-members?returnTo=https://university.gitlab.com/learn/video/fy25-q2-assembly) | [AMA](https://docs.google.com/document/d/1id5kUkn4nTluTPT0QugdkUqf8aVanKooOYQnoLyst68/edit) |
+| 2024-06-05 | FY25-Q1 Post-earnings internal recap | [AMA](https://docs.google.com/document/d/1HysQuLIKWhiLkgPQsTkzHLNh-YlayqlJTS5rUokcA1s/edit) |
 | 2024-05-13 | [FY25-Q2 Quarterly Kickoff](https://levelup.gitlab.com/access/saml/login/internal-team-members?returnTo=https://university.gitlab.com/learn/video/fy25-q2-quarterly-kickoff) | [AMA](https://docs.google.com/document/d/1nkCd9aPjgEzNkJfk-JPOOfrUwoWqtgDTQTLi-uX5hDU/edit#heading=h.3p4twch2ko0a) |
+| 2024-03-07 | FY24-Q4 Post-earnings internal recap | [AMA](https://docs.google.com/document/d/1V7DgfiTvLfaYhJcORXxy174S-8gYKLgMI7PkhpNvR_4/edit) |
 | 2024-02-14 | [FY25-Q1 Quarterly Kickoff](https://levelup.gitlab.com/access/saml/login/internal-team-members?returnTo=https://university.gitlab.com/learn/video/fy25-q1-quarterly-kickoff) | [AMA](https://docs.google.com/document/d/1uY11Swsb7a6re4XM8uJo59n7xRJQ9Q-6nGtlq5MD3Ec/edit#heading=h.8wb0d7km9xiq) |
+| 2023-12-07 | FY24-Q3 Post-earnings internal recap | [AMA](https://docs.google.com/document/d/14q5vuaJJwGAHafsq08NuTAZyRcKdkXVGeq3FjewzWow/edit) |
 | 2023-11-16 | [FY24-Q4 Quarterly Kickoff](https://levelup.gitlab.com/access/saml/login/internal-team-members?returnTo=https://university.gitlab.com/learn/video/fy24-q4-quarterly-kickoff) | [AMA](https://docs.google.com/document/d/1rlUr-KjjnuF5PgKUYcPcoANYVDpaj0ma_BCMJrC-l3M/edit#heading=h.291m2nxz7c2v) |
 | 2023-10-04 | [FY24-Q3 GitLab Assembly](https://levelup.gitlab.com/access/saml/login/internal-team-members?returnTo=https://levelup.gitlab.com/learn/video/fy24-q3-gitlab-assembly) | [AMA](https://docs.google.com/document/d/1gU-kOiEqSPt7mXdWWhYrjtAXr-RQNLYn7mH9BT0wSVU/edit#heading=h.73bvjze4oj3a) |
 | 2023-09-07 | FY24-Q2 Post-earnings internal recap | [AMA](https://docs.google.com/document/d/1Fb5yMM_AblPy2kzxxpMY0JBekfZGnaC-APcFDTulgR8/edit#heading=h.73bvjze4oj3a) |
@@ -47,72 +54,47 @@ The Quarterly Kickoff is followed by an AMA hosted by the CEO.
 
 The CEO's Quarterly Kickoff Slides usually cover:
 
-- Recap of GitLab’s [Mission](/handbook/company/mission/)/[Vision](/handbook/company/vision/)/[Strategy](/handbook/company/strategy/) noting any updates made
-- Review the previous quarters OKRs, scores, and important details
+- Recap of GitLab's [Mission](/handbook/company/mission/)/[Vision](/handbook/company/vision/)/[Strategy](/handbook/company/strategy/) noting any updates made
+- Review the previous quarter's OKRs, scores, and important details
 - Progress for [Yearlies](/handbook/company/yearlies/)
-- Sharing of this new quarters OKRs
+- Sharing of this new quarter's OKRs
 - Marathon Slide (as needed)
-- Reiterate how all elements of [cadence fit together](/handbook/company/yearlies/#cadence) including any new or changed elements of hierarchy such as new OKRs.
+- Reiterate how all elements of [cadence fit together](/handbook/company/yearlies/#cadence), including any new or changed elements of hierarchy such as new OKRs.
 
 The Quarterly Kickoff is an [Office of the CEO](/handbook/ceo/office-of-the-ceo/) initiative.
 
+A member of the Office of the CEO is the DRI, but we coordinate with Internal Comms, Legal, and the EBA team to get the slides prepared, recorded, shared, and AMA scheduled; following the [Quarterly Kickoff Planning template](https://drive.google.com/drive/search?q=Template:%20Quarterly%20Kickoff%20Planning) (internal). Please make a copy of this template for the respective Quarterly Kickoff.
+
 ### Timeline for the Quarterly Kickoff
 
-1. First week of the last month of the current quarter - pick the date in the first month of the next quarter for the kickoff. The preferred date to share the video is on the Monday of the second full week of the month. Work with internal comms to validate this date and schedule an AMA the Wednesday which follows with the appropriate invite list
-1. Second week of the last month of the current quarter - begin [preparing the slides](#how-to-prepare-the-slides) and internal comms announcement
-    1. [FY23-Q4 Quarterly Kickoff](https://docs.google.com/presentation/d/1ItrJIJWIwnDQ13KNtuBDFRTdSa6nLpAeBXa4vi4i4ws)
-    1. Once done with an initial iteration, solicit feedback from the Chief of Staff to the CEO as well as any other colleagues who can help
-    1. Include the timeline, logistics, and draft message for the internal comms announcement
-        - [Example from the FY23-Q4 Quarterly Kickoff](https://docs.google.com/document/d/1a2C3h24wvYn4qYpNKNnweW-Wx1BQ4ZRX50StO7XmbkU)
-1. Third week of the last month of the current quarter - schedule three review/recording sessions with the CEO. The first session is a review only and in the last week of the quarter. The two review/recording sessions should follow quarter close to ensure any needed information is included in the deck.
-    1. Once the recording dates are more certain, file a [video editing request](https://gitlab.com/gitlab-com/marketing/inbound-marketing/global-content/digital-production/-/issues/new?issuable_template=video-editing-request) with the Digital Production team so they can prepare to merge the slides and the video together.
-        - [Example issue from FY23-Q4 Quarterly Kickoff](https://gitlab.com/gitlab-com/marketing/inbound-marketing/global-content/digital-production/-/issues/339)
-    1. Reach out to the Learning and Development team, specifically [Jamie Allen](https://gitlab.com/jallen16), to let them know this is coming to be posted on `Level Up`
-    1. After the first review session and the majority of the feedback is addressed, use the [Single material legal review process](/handbook/legal/materials-legal-review-process/#track-1-single-material-legal-review-process) to get Legals review of the content and announcement
-        - [Example issue from FY23-Q4 Quarterly Kickoff](https://gitlab.com/gitlab-com/legal-and-compliance/-/issues/1237)
-    1. Use the following settings in Zoom to record. It is best for the recorder to own the Zoom link in the invite otherwise the recorder needs to be granted permission.
-        1. Pin the CEO
-        1. Change `View` to `Speaker`
-        1. Enable `Hide Self View`
-        1. Enable `Hide Non-video participants`
-        1. Ask everyone except the CEO to mute their audio/video
-        1. Click `Record` -> `Record on this Computer`
-    1. After the recording has been made share the raw recording with Legal for quick feedback
-    1. Review the recording and in the speaker notes of the slides add the appropriate timestamps for the Digital Production team to use to show the correct slide in the video
-    1. Update the issue with the Digital Production team to link to the video and slides. Makes sure permissions are correct so they are only shared with the needed DRIs.
-    1. Once the video is returned, review it for correctness. Once reviewed, ask for Legal's final sign off.
-    1. Reach out to the Learning and Development team, specifically [Jamie Allen](https://gitlab.com/jallen16), to share the video with them so they can post it to `Level Up`. They will share a special URL which will authenticate folks via Okta if they are not already authenticated. Make sure to use this URL when sharing. For example, FY23-Q4's Quarterly Kickoff URL was:
-    [`https://levelup.gitlab.com/access/saml/login/internal-team-members?returnTo=https://levelup.gitlab.com/learn/video/fy23-q4-quarterly-kickoff`](https://levelup.gitlab.com/access/saml/login/internal-team-members?returnTo=https://levelup.gitlab.com/learn/video/fy23-q4-quarterly-kickoff)
-    1. Update the comms with the correct links
-1. Fourth week of the last month of the current quarter - ensure time is scheduled for the chosen date for the CEO to send the comms
-1. Second full week of the new quarter - ping the CEO to send the comms on the correct day. Attend the AMA which follows.
+| Week relative to quarter | Task |
+| ------------------------ | ---- |
+| -4.5                     | Pick the date for the next kickoff. See [schedule](#schedule) for tentative dates.<br>The preferred date to share the video is on the Monday of the second full week of the quarter. Work with internal comms to validate this date and schedule an AMA the following Wednesday with the appropriate invite list. The goal is to have as many E-Group members as possible participate. |
+| -4                       | Begin preparations, including slides and internal comms announcement. |
+| -3                       | Schedule three review/recording sessions with the CEO. The first session is a review only and in the last week of the quarter. The two review/recording sessions should follow quarter close to ensure any needed information is included in the deck. |
+| -2                       | Ensure time is scheduled on the chosen date for the CEO to send the comms. |
+| +2                       | Ensure comms has gone out. Attend the AMA which follows. |
 
 #### Schedule for remaining FY25 and FY26 Quarterly Kickoffs {#schedule}
 
 **Note:** This schedule is subject to change based on the CEO's availability
 
-1. FY25-Q2: Review/Record weeks of 2024-04-29 (non-OKR content) and 2025-05-06 (OKR content). Share the video on 2025-05-09. AMA week of 2025-05-13.
-1. FY25-Q3: Review/Record 2024-08-05 and 2024-08-07. Share the video on 2024-08-12. AMA on 2024-08-14.
 1. FY25-Q4: Review/Record 2024-11-04 and 2024-11-06. Share the video on 2024-11-11. AMA on 2024-11-13.
 1. FY26-Q1: Review/Record 2025-02-03 and 2025-02-05. Share the video on 2025-02-10. AMA on 2025-02-12.
 1. FY26-Q2: Review/Record 2025-05-03 and 2025-05-05. Share the video on 2025-05-12. AMA on 2025-05-14.
 1. FY26-Q3: Review/Record 2025-08-04 and 2025-08-06. Share the video on 2025-08-11. AMA on 2025-08-13.
 1. FY26-Q4: Review/Record 2025-11-03 and 2025-11-05. Share the video on 2025-11-10. AMA on 2025-11-12.
 
-### How to prepare the Slides
+### Zoom recording settings
 
-**Note:** A member of the Office of the CEO is the DRI for this but we coordinate with Internal Comms, Legal, and the EBA team to get the slides prepared, recorded, shared, and AMA scheduled.
-{: .note}
+Use the following settings in Zoom to record. It is best for the recorder to own the Zoom link in the invite otherwise the recorder needs to be granted permission.
 
-- Start by copying the last slide deck. This will form the skeleton
-- Mission/Vision/Strategy may need to be updated to note the differences
-- Top Cross-Functional Initiatives may need to be updated and notes made on one's retired and added
-- OKRs may need to be updated for the quarter and scores/notes added
-- Work with Internal Comms schedule the recordings and prepare the announcement to `#company-fyi-private` as well as an addition to the `While You Were Iterating` newsletter
-- Work with Legal to ensure the deck and recordings are SAFE
-- Work with `#eba-team` to get the AMA Scheduled and populate the AMA agenda
-
-Be sure that slides are prepared with enough notice for the CEO to record a video and for it to be shared at least 24 hours in advance of the AMA.
+1. Pin the CEO
+1. Change `View` to `Speaker`
+1. Enable `Hide Self View`
+1. Enable `Hide Non-video participants`
+1. Ask everyone except the CEO to mute their audio/video
+1. Click `Record` -> `Record on this Computer`
 
 ## Post-Earnings Recap & AMA
 

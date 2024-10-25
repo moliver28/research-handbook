@@ -18,9 +18,9 @@ Here are how the team members divide their work to ensure the best results:
 - The **[People Analytics Team](/handbook/people-group/people-ops-tech-analytics/people-analytics)** is responsible for working with stakeholders to develop and report various People Metrics and KPIs for the business. Additional insight is also providing using statistical analysis or experimental design to help understand effects of different People related initiatives.
 - The **People Engineering Team**
 
-### <i class="fas fa-bullhorn fa-fw" style="color:rgb(107,79,187); font-size:.85em" aria-hidden="true"></i>Connect With Us
+### Connect With Us
 
-<a href="https://app.slack.com/client/T02592416/C02360SQQFR" class="btn btn-primary btn-lg"><i class="fa-brands fa-slack"></i> #people-connect Slack Channel</a>
+<a href="https://helplab.gitlab.systems/esc?id=ec_pro_dashboard" class="btn btn-primary btn-lg"><i class="fa-brands fa-slack"></i> HelpLab</a>
 <a href="https://gitlab.com/people/general/-/issues" class="btn btn-primary btn-lg"><i class="fa-brands fa-gitlab"></i> Issue tracker</a>
 
 ## How We Work
@@ -29,11 +29,9 @@ Here are how the team members divide their work to ensure the best results:
 
 People Operations is a Department under the [People](/handbook/people-group) Division.
 
-### Slack
+### HelpLab
 
-The People Operations Department primarily uses the follwing channel on Slack:
-
-- [#people-connect](https://app.slack.com/client/T02592416/C02360SQQFR) is the primary channel for all of GitLab's People Operations-related queries. This is where folks from other teams can ask for help, direction, and receive answers or direction to the correct team from the People Connect team.
+The People Operations Department primarily uses HelpLab as the primary tool for all GitLab's People Operations-related queries. This is where folks from other teams can ask for help, direction, and receive answers or direction to the correct team from the People Connect team. 
 
 You can also tag subsets of the People Operations Team in other slack channels using:
 
@@ -48,7 +46,6 @@ The People Operations, Technology & Analytics Team primarily uses these sub-grou
   - [Employment Templates](https://gitlab.com/gitlab-com/people-group/people-operations/employment-templates) is the public Project which manages templates for the entire team member life cycle (onboarding, career mobility, offboarding, etc). Issues cannot be created in this project, only MRs to the templates and files.
   - [People Ops Team Training Issues](https://gitlab.com/gitlab-com/people-group/people-operations/people-operations-and-experience-team-training) is a private Project which houses training issues for new People Operations hires.
 - [People Operations](https://gitlab.com/gl-people-operations) is the private Group for the People Operations team. This group contains two private Projects.
-  - [People Connect](https://gitlab.com/gl-people-operations/people-connect) is the private Project which contains all People Connect issues that are automated from Slack or emails.
   - [Internal handbook](https://gitlab.com/gl-people-operations/internal-handbook) is the private Project which contains the content for the internal People Ops internal handbook.
 - [People Analytics](https://gitlab.com/gitlab-com/people-group/people-analytics) is the private Group for the People Analytics team. It contains 3 private projects.
 - [People Analytics](https://gitlab.com/gl-people-analytics) is also a private, confidential Group for a small set of GitLab Team Members. This group is used to collaborate on sensitive projects and issues. There are 2 private projects in this Group.

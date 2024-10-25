@@ -1,5 +1,5 @@
 ---
-title: "GitLab with Git Essentials - Hands-On Lab: Create a project and issue"
+title: "GitLab with Git Fundamentals - Hands-On Lab: Create a project and issue"
 description: "This Hands-On Guide walks you through creating projects, issues, labels, as well as using quick actions."
 ---
 
@@ -19,11 +19,7 @@ GitLab provides various tools for tracking and managing projects. In this lab, y
 
 1. Select **Provision Training Environment**.
 
-   > The login details for accessing the environment are slightly different between self-paced training and instructor-led training. Please follow the instructions that suit your needs.
-
-### Self-Paced Training
-
-1. For self-paced courses, you will need your **GitLab.com** username. To find your username, navigate to [Gitlab](https://gitlab.com).
+1. You will need your **GitLab.com** username. To find your username, navigate to [Gitlab](https://gitlab.com).
 
 1. In the left sidebar, select your profile image.
 
@@ -45,24 +41,6 @@ GitLab provides various tools for tracking and managing projects. In this lab, y
 
 1. From your **My Test Group** training subgroup, click the **New project** button.
 
-1. Continue to Task B.
-
-### Instructor-led Training
-
-1. On the confirmation page, locate the `Your GitLab Credentials` section. Read this section carefully, noting the credential information provided and the expiration date. Your access to this group and all of the projects that you create is ephemeral and will be deleted after the expiration date.
-
-1. Click the **Download Credentials** button to download your temporary GitLab credentials.
-
-1. Click on **My Group**.
-
-1. Login with your temporary GitLab Credentials.
-
-   > This group your temporary account has been created in has a GitLab Ultimate license to see all of the features available.
-
-1. Click on the '**Create a project tile**.
-
-   > From this point forward, both the self-paced training and the instructor-led training can follow the same instructions.
-
 ## Task B. Create a project
 
 1. Select the **Create blank project** tile.
@@ -71,7 +49,7 @@ GitLab provides various tools for tracking and managing projects. In this lab, y
 
    > The project slug will automatically populate. You can change this to a shorter string if desired for your own project. Leave it at the default for this lab.
 
-1. In the **Project URL** field, click the dropdown for the second half of the URL to make sure it’s pointing to a **group name** (starts with `gitlab-learn-labs/*` for Self-paced training, and `training-users/*` for Instructor-Lead Training) and not a **username**. You should create this project inside a group, not directly in your user’s namespace.
+1. In the **Project URL** field, click the dropdown for the second half of the URL to make sure it's pointing to a **group name** and not a **username**. You should create this project inside a group, not directly in your user's namespace.
 
 1. Under **Visibility Level**, ensure **Private** is selected.
 
@@ -171,4 +149,4 @@ You have completed this lab exercise. You can view the other [lab guides for thi
 
 ## Suggestions?
 
-If you’d like to suggest changes to the lab, please submit them via merge request.
+If you'd like to suggest changes to the lab, please submit them via merge request.

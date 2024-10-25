@@ -59,7 +59,7 @@ Below is a list of Frequently Asked Questions.
 ### Security Research
 
 {{% details summary="Can I host Security Research tools?" %}}
-Making use of GitLab.com services to deliver malicious executables or as attack infrastructure is prohibited under the [GitLab Website Terms of Use](https://about.gitlab.com/terms/) (**Section 3, “Responsibility of Website Visitors”**).
+Making use of GitLab.com services to deliver malicious executables or as attack infrastructure is prohibited under the [GitLab Website Terms of Use](https://about.gitlab.com/terms/) (**Section 3, "Responsibility of Website Visitors"**).
 
 We do however understand that making such technical details available for research purposes can benefit the wider community, and as such it will be allowed if the content meets the criteria set out on our dedicated`Abuse on gitlab.com` page.
 {{% /details %}}
@@ -67,7 +67,7 @@ We do however understand that making such technical details available for resear
 ### Security Testing
 
 {{% details summary="Can I perform Security Testing on GitLab.com?" %}}
-When researching security issues, especially those which may compromise the privacy of others, you must use only test accounts in order to respect our users’ privacy. Any attempt at accessing private information of other users, performing actions that may negatively affect GitLab’s users or disrupt GitLab operations will result in the account being blocked.
+When researching security issues, especially those which may compromise the privacy of others, you must use only test accounts in order to respect our users' privacy. Any attempt at accessing private information of other users, performing actions that may negatively affect GitLab's users or disrupt GitLab operations will result in the account being blocked.
 
 Security, or any, testing that could cause disruption on GitLab.com or be in violation of our Website Terms of use can be researched freely on your own installation of GitLab. GitLab is an open-core company, with the source code powering gitlab.com available at `https://gitlab.com/gitlab-org/gitlab-foss` and `https://gitlab.com/gitlab-org/gitlab`. You are encouraged to install your own standalone instance for researching vulnerabilities. Screen captures, logs, and videos showing vulnerabilities against your own GitLab installation are encouraged.
 

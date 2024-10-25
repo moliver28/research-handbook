@@ -1,14 +1,7 @@
 ---
-
 title: Package Stage - Container Registry
 description: "The goal of this page is to document specific processes and tools for the GitLab Container Registry project."
 ---
-
-
-
-
-
-
 
 ## Overview
 

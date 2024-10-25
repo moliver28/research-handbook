@@ -1,12 +1,10 @@
 ---
-
 title: Create Stage
 description: >-
   The Create Stage is a group of teams including
   Code Creation, Code Review, Editor Extensions,
-  IDE, and Source Code.
+  Remote Development, and Source Code.
 ---
-
 
 ## Hello
 
@@ -18,7 +16,7 @@ description: >-
 | [Create:Code Creation](/handbook/engineering/development/dev/create/code-creation/) | [Matt Nohr](/handbook/company/team/#mnohr) (Fullstack) |
 | [Create:Code Review](/handbook/engineering/development/dev/create/code-review/) | [François Rosé](/handbook/company/team/#francoisrose) (Backend) [André Luís](/handbook/company/team/#andr3) (Frontend) |
 | [Create:Editor Extensions](/handbook/engineering/development/dev/create/editor-extensions/) | [Kisha Mavryck Richardson](/handbook/company/team/#kishamavryck) (Fullstack) |
-| [Create:IDE](/handbook/engineering/development/dev/create/ide/) | [Adebayo Adesanya](/handbook/company/team/#adebayo_a) (Fullstack) |
+| [Create:Remote Development](/handbook/engineering/development/dev/create/remote-development/) | [Adebayo Adesanya](/handbook/company/team/#adebayo_a) (Fullstack) |
 | [Create:Source Code](/handbook/engineering/development/dev/create/source-code-be/) |  [André Luís](/handbook/company/team/#andr3)  |
 
 ## Mission
@@ -81,7 +79,7 @@ The Learning & Development group has also compiled a list of LinkedIn training f
 Each team work in the manner that best meets the needs of their product and their team.
 
 - [Create Engineering Managers](/handbook/engineering/development/dev/create/engineering-managers/)
-- [IDE Team](/handbook/engineering/development/dev/create/ide/#-how-we-work)
+- [Remote Development Team](/handbook/engineering/development/dev/create/remote-development/#-how-we-work)
 - [Code Review Team](/handbook/engineering/development/dev/create/code-review/#work)
 - Source Code Team [Backend](/handbook/engineering/development/dev/create/source-code-be/#work), [Frontend](/handbook/engineering/development/dev/create/code-review/frontend/#work)
 

@@ -6,7 +6,7 @@ title: Field Marketing and Events
 
 - If you are looking to work with a new service provider, review the policy for selecting new suppliers on the [Vendor Selection Process](/handbook/finance/procurement/vendor-selection-process/) page.
 - Do NOT agree to ANY business, legal, and or pricing prior to engaging the Procurement Team.
-  - This ensures alignment across the multiple functions to make good-faith commitments to vendors and don’t put our company in to possible risk.
+  - This ensures alignment across the multiple functions to make good-faith commitments to vendors and don't put our company in to possible risk.
 
 ## How Do I Submit a Request for a Contract and PO?
 
@@ -20,14 +20,14 @@ title: Field Marketing and Events
         - Whether or not the vendor will have access to [red and/or orange data]({{< ref "data-classification-standard#data-classification-levels" >}})
         - All data and systems the vendor will have access to
             - Failure to complete this field will significantly delay the review and approval of your request.
-        - Vendor’s Security Contact Email (oftentimes this is different from the main contact. Providing the head of security contact info from the vendor’s company will expedite the security review and avoid delays)
+        - Vendor's Security Contact Email (oftentimes this is different from the main contact. Providing the head of security contact info from the vendor's company will expedite the security review and avoid delays)
         - Upload any contracts you've received.
         - Click "Submit for Approval"
 
 ## What Happens after I submit my Request?
 
 - The Coupa Req will appear as "Pending Buyer Action", this means it is under review from the procurement team.
-  - If the contract requires negotiation, the req will stay in “Pending Buyer Action” status and a "Negotiation" Label will be added to the Coupa Req.
+  - If the contract requires negotiation, the req will stay in "Pending Buyer Action" status and a "Negotiation" Label will be added to the Coupa Req.
     - Within 1-2 business days a member of the procurement team will either reach out a-sync, and/or schedule a meeting to review depending on the complexity.
   - If your contract does not require negotiation, the Procurement team will review for accuracy and if questions will ping you directly in the Coupa request.
 - Once neotiation is completed and/or it is determined that negotiation is not needed, your purchase request will be approved by procurement and will advance to the next approver, which is typically fp&a.

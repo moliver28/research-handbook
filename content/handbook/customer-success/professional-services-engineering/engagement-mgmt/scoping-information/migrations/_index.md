@@ -19,15 +19,15 @@ Using the [services calculator](https://services-calculator.gitlab.io/), an SA o
 | - | - | - | - |
 | Source SCM System(s) | to-do | Bitbucket Server, GitLab Self-Managed | GitLab PS has automation to facilitate migration for the most popular source systems. Need to know what systems the data is coming from to accurately scope the time to migrate. |
 | Destination GitLab deployment  (SaaS, Self-Managed(HA), Self-Managed(single node)) | to-do | SaaS | We ask this to ensure the destination system deployment is strong enough to handle the throughput of data that will be required during migration. |
-| Source gitlab version (must be 2 behind latest) | to-do | 13.4 | Migration services leverage many GitLab APIs including our project import/export API. There are specific compatability guidelines [documented here](https://docs.gitlab.com/ee/user/project/settings/import_export.html#version-history) |
-| Destination gitlab version (must be within 2 minor versions of source) | to-do | 14.1 |  Migration services leverage many GitLab APIs including our project import/export API. There are specific compatability guidelines [documented here](https://docs.gitlab.com/ee/user/project/settings/import_export.html#version-history) |
+| Source GitLab version (must be 2 behind latest) | to-do | 13.4 | Migration services leverage many GitLab APIs including our project import/export API. There are specific compatability guidelines [documented here](https://docs.gitlab.com/ee/user/project/settings/import_export.html#version-history) |
+| Destination GitLab version (must be within 2 minor versions of source) | to-do | 14.1 |  Migration services leverage many GitLab APIs including our project import/export API. There are specific compatability guidelines [documented here](https://docs.gitlab.com/ee/user/project/settings/import_export.html#version-history) |
 | Total number of Users** | to-do | BB = 225, GLSM = 775 | Migrating users is a pre-requisite step to migrating the data to ensure data elements are associated properly. This is a discrete task in migration engagements and must be scoped with number of users as an input. |
 | Total portfolios (w/ stakeholder rep) | to-do | 6 | We use total portfolios as a proxy metric to identify how much coordination will be required during migration. Each portfolio leader needs to understand and buy into the migration process for things to go smoothly. This coordination time is built into the migration engagement. |
 | Total number of git repositories  | to-do | BB = 1,234; GL = 4321 | We need to know the total number of repositories to be migrated in order to estimate the number of days of effort.  Note: A bitbucket project can contain multiple git repositories.  We need the total number of repos. |
 | Total >5GB GitLab repositories | to-do | BB N/A, GL = 3 | Only applicable for GitLab self-managed migrations to GitLab.com; repos >5GB must be manually migrated due to a 5 GB Cloudflare limitation.  Note that we only care about repo size, not the total project size. |
 | CI/CD System(s) | to-do | Jenkins | We need to know what CI/CD systems are being used to estimate how much it will take to repoint those pipeline jobs to the new SCM system to help the customer resume IT operations. |
 | Total ci/cd jobs? (CI/CD jobs will need cut-over even if not migrated) | to-do | 4567 | The engagement could include repointing CI/CD jobs back to a source repository. If this is the case, we will need to know how many jobs need to be reconfigured. |
-| Typical registry size | to-do | 159MB | If registry sizes are unusually big, it could affect the speed of migration. *Note: this question only applies to migrations where gitlab is a source system.* |
+| Typical registry size | to-do | 159MB | If registry sizes are unusually big, it could affect the speed of migration. *Note: this question only applies to migrations where GitLab is a source system.* |
 | SSO Identity Provider | to-do | Auth0 | We want to make sure this is already in place prior to migration as it is a foundational to the success of a migration engagement. See here for a [full list of supported Identity Providers](https://docs.gitlab.com/ee/administration/auth/) |
 | Source system OS and Version | to-do | Ubuntu v21.10 | If an upgrade of the source system is needed/included prior to the migration, we want to be sure the OS does not need to be upgraded by the customer to support the new version of GitLab. See [installation requirements](https://docs.gitlab.com/ee/install/requirements.html) for more details. |
 | Source system DB version | to-do | PostgreSQL 13.0 | If an upgrade of the source system is needed/included prior to the migration, we want to be sure the DB does not need to be upgraded by the customer to support the new version of GitLab.  See [installation requirements](https://docs.gitlab.com/ee/install/requirements.html) for more details. |
@@ -58,7 +58,7 @@ Using the [services calculator](https://services-calculator.gitlab.io/), an SA o
 
 - You can use Congregate but you also have other options at your disposal:
   - **Backup and restore** using rake-tasks. This enables you to restore all of the data from one instance of GitLab to another. This can be used to shorten the migration period, but will cause complete downtime as the source instance will need to be locked during the time it takes to backup. Also, this could take many hours to days depedening on the size of the data.
-  - **Geo Replication**. This method allows you to setup the new gitlab instance as a Geo secondary. The data will sync over the course of time. Then you can perform a failover to make the new instance primary. This tends to be more complex and requires a more specialized skillset than the backup/restore approach.
+  - **Geo Replication**. This method allows you to setup the new GitLab instance as a Geo secondary. The data will sync over the course of time. Then you can perform a failover to make the new instance primary. This tends to be more complex and requires a more specialized skillset than the backup/restore approach.
 
 ## GitLab Self-Managed to GitLab Dedicated Instance
 
@@ -149,7 +149,7 @@ Azure DevOps (formerly named Team Foundation Server) contains more than a source
 | **Azure Pipelines** ||||
 | Are you using ADO to build your software? | | Yes | This will add CI/CD consulting/transformation activities to the engagement if the answer is yes |
 | How many builds/build templates are used per code repository? | | 1 | This is a gauge of complexity. Sometimes a code repository can contain several different build definitions |
-| Are multiple solution (.sln) or project (.csproj) files building the same packages? | | Yes | If yes, this can require advisory services to refactor to those solution/project files to work with gitlab pipelines |
+| Are multiple solution (.sln) or project (.csproj) files building the same packages? | | Yes | If yes, this can require advisory services to refactor to those solution/project files to work with GitLab pipelines |
 | How many build servers do you use? |  | 1 | We usually convert a build server to something more ephemeral so the more build servers in use, the more development is required to transition them to something more ephemeral |
 | Are there any specific flags used in your build process? If so, what? |  | Yes  | This shows the customer is measuring this data to be used during the transition process. |
 | Do you use classic releases? || No | If the answer is yes then additional effort might be required to educate on YAML (pipeline as code) concept |
@@ -178,7 +178,7 @@ Azure DevOps (formerly named Team Foundation Server) contains more than a source
 ## Non-git based SCMs
 
 - For sources like CSV, ClearCase, SVN, TFVC we can support non automated migration but there is risk that should be factored into these engagements as we dont have deep experience with these source systems. Consider working with a channel partner to find expertise in these source systems.
-- Ensure the customer has researched and thought about how their projects will be organized on the destination gitlab system. Often times during the initial transformation from non-git SCM to git scm, there will be splitting of a single trunk of source code to multiple git repositories.
+- Ensure the customer has researched and thought about how their projects will be organized on the destination GitLab system. Often times during the initial transformation from non-git SCM to git scm, there will be splitting of a single trunk of source code to multiple git repositories.
 
 ## Common customer requests
 

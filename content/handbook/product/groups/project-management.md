@@ -1,17 +1,8 @@
 ---
-
 title: "Plan:Project Management"
 ---
 
-
-
-
-
-
-
-### Plan: Project Management
-
-{: #welcome}
+### Plan: Project Management {#welcome}
 
 [View all team members and stable counterparts](/handbook/product/categories/#project-management-group)
 
@@ -31,7 +22,7 @@ In GitLab issues, questions should start by mentioning the Product Manager (`@gw
 
 - [Paid Monthly Active Users (Paid GMAU)](https://10az.online.tableau.com/#/site/gitlab/views/DRAFTCentralizedGMAUDashboard/MetricReporting/3315ab7c-ed1d-4053-bba8-cb8fc870af2b/AllGMAU?:iid=1)
 - [Monthly Active Users](https://10az.online.tableau.com/#/site/gitlab/views/DRAFTCentralizedGMAUDashboard/MetricReporting/97aea9ea-11af-4f4e-8e6b-21db9738de2b/PaidGMAU?:iid=1)
-- [Team Planning and Planning Analytics Category Maturity](https://about.gitlab.com/direction/maturity/#plan)
+- [Team Planning and Planning Analytics Category Maturity](https://about.gitlab.com/direction/#maturity)
 - System Usability Score (SuS) - Decrease the count of detractors attributable to the Project Management product surface area on a rolling quarterly basis
 
 #### Product Quality

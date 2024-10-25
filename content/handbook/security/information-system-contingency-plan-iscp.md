@@ -9,7 +9,7 @@ An ISCP provides established procedures for the assessment and recovery of a sys
 
 ## Difference between ISCP and DRP
 
-The ISCP differs from a DRP primarily in that the information system contingency plan procedures are developed for recovery of the system regardless of site or location. An ISCP can be activated at the system’s current location or at an alternate site. In contrast, a DRP is primarily a site-specific plan developed with procedures to move operations of one or more information systems from a damaged or uninhabitable location to a temporary alternate location. Once the DRP has successfully transferred an information system site to an alternate site, each affected system would then use its respective ISCP to restore, recover, and test systems, and put them into operation. (ref: NIST 800-34)
+The ISCP differs from a DRP primarily in that the information system contingency plan procedures are developed for recovery of the system regardless of site or location. An ISCP can be activated at the system's current location or at an alternate site. In contrast, a DRP is primarily a site-specific plan developed with procedures to move operations of one or more information systems from a damaged or uninhabitable location to a temporary alternate location. Once the DRP has successfully transferred an information system site to an alternate site, each affected system would then use its respective ISCP to restore, recover, and test systems, and put them into operation. (ref: NIST 800-34)
 
 ## Information System Contingency Policy Statement
 
@@ -31,6 +31,6 @@ There are no exceptions to the ISCP.
 ## References
 
 - [NIST 800-34](https://csrc.nist.gov/glossary/term/information_system_contingency_plan)
-- [BCP]( https://about.gitlab.com/handbook/business-technology/gitlab-business-continuity-plan/)
+- [BCP]( https://handbook.gitlab.com/handbook/business-technology/gitlab-business-continuity-plan/)
 - [Disaster Recovery Plan (DRP)](https://gitlab.com/gitlab-com/gl-infra/readiness/-/blob/master/library/disaster-recovery/index.md)
 - [Database DR](/handbook/engineering/infrastructure/database/disaster-recovery/)

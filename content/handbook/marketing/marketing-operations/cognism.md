@@ -1,14 +1,7 @@
 ---
-aliases: /handbook/marketing/marketing-operations/Cognism
 title: "Cognism"
 description: "Cognism is sales intelligence software that provides contact or account data helping sales and marketing teams drive predictable pipeline"
 ---
-
-
-
-
-
-
 
 ## About Cognism
 
@@ -22,7 +15,7 @@ Once you receive your login and enter the Cognism platform you will need to down
 
 Once you are logged in into your Cognism Web-App, start by connecting your tools (Salesforce & Outreach). This will allow you to export leads to both tools.
 
-Even though this process is very straight forward, feel free to reference the [How to Integrate Cognism to Salesforce](https://help.cognism.com/hc/en-gb/articles/4407455139602-How-to-Integrate-Cognism-to-Salesforce-) and [How to Integrate Cognism to Outreach](https://help.cognism.com/hc/en-gb/articles/4403394602130-How-to-integrate-Cognism-to-Outreach) documentations if need be.
+Even though this process is very straight forward, feel free to reference the [How to Integrate Cognism to Salesforce](https://help.cognism.com/hc/en-gb/articles/4407455139602-How-to-Integrate-Cognism-to-Salesforce-) and [How to Integrate Cognism to Outreach](https://help.cognism.com/hc/en-gb/articles/12127689794834-How-to-integrate-Cognism-to-Outreach) documentations if need be.
 
 ## Ways to access Cognism
 
@@ -95,7 +88,7 @@ Cognism management is exclusively done by the Marketing Operations team. We curr
 
 ### Access & Help
 
-BDRs receive acces to Cognism as part of the onboarding process. If the team member did not receive access or if access has been removed and you would like it back, you will need to open an [individual access request](/handbook/business-technology/end-user-services/onboarding-access-requests/access-requests/).
+BDRs receive acces to Cognism as part of the onboarding process. If the team member did not receive access or if access has been removed and you would like it back, you will need to open an [individual access request](/handbook/it/end-user-services/onboarding-access-requests/access-requests/).
 
 If you are experiencing issues with Cognism, feel free to chime in #mktgops slack channel and ask for help. You can also reach out to Cognism directly at help@cognism.com
 
@@ -120,4 +113,4 @@ If a temporary license is assigned to a non-BDR role it can be revoked at any ti
 
 ### Pending Invites
 
-Pending Cognim Invites have to be accepted in the time-span of a week because they block licenses from being assigned. If, after a week, the invite is still not accepted, it will be cancelled. Another invite can be sent out if requested through an [individual access request](/handbook/business-technology/end-user-services/onboarding-access-requests/access-requests/)
+Pending Cognim Invites have to be accepted in the time-span of a week because they block licenses from being assigned. If, after a week, the invite is still not accepted, it will be cancelled. Another invite can be sent out if requested through an [individual access request](/handbook/it/end-user-services/onboarding-access-requests/access-requests/)

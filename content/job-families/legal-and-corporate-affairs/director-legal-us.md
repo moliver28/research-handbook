@@ -1,6 +1,6 @@
 ---
 title: Director of Legal
-description: Directors of Legal advise clients across GitLab on legal matters related to their functional area of expertise, as well as lead teams comprised of attorneys and paralegals. 
+description: Directors of Legal advise clients across GitLab on legal matters related to their functional area of expertise, as well as lead teams comprised of attorneys and paralegals.
 ---
 
 ## Director, Legal
@@ -22,7 +22,7 @@ The Director, Legal is a [grade 10](/handbook/total-rewards/compensation/compens
 - 8+ years combined law firm and in-house legal department experience, preferably in a multinational company
 - Juris Doctorate/United States law degree and bar admission in at least one US state
 - Proven success working effectively across business units and internal functions to efficiently resolve complex business issues
-- Practical yet creative problem-solving approach that emphasizes addressing business needs while protecting GitLab’s interests
+- Practical yet creative problem-solving approach that emphasizes addressing business needs while protecting GitLab's interests
 - Proactive, dynamic, and result driven self starter with strong attention to detail
 - Familiarity working across the globe, to support multiple time zones and cultures
 - Outstanding interpersonal skills, the ability to interface effectively with all business functions throughout the organization with a highly responsive and service-oriented attitude

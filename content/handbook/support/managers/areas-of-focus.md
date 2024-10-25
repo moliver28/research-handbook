@@ -1,10 +1,7 @@
 ---
-
 title: Areas of Focus Workgroup
 description: "Customer Support Areas of Focus workgroup description and overview"
 ---
-
-
 
 ## Attributes
 

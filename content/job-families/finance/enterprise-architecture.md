@@ -12,11 +12,11 @@ The Junior Architect is a [grade 5](/handbook/total-rewards/compensation/compens
 
 - Design & architect business systems solutions using an array of different platforms, technologies, APIs, databases, protocols and data formats.
 - Collaborate and review design of business systems with other architects in IT architecture & engineering to ensure a consistent level of technical standards as set by the team.
-- Work directly with Business Systems Analysts Or PM’s to ensure that the data and the business processes that intersect in the Enterprise Applications ecosystem are as efficient and high fidelity as possible.
+- Work directly with Business Systems Analysts Or PM's to ensure that the data and the business processes that intersect in the Enterprise Applications ecosystem are as efficient and high fidelity as possible.
 
 ### Requirements
 
-- Bachelor’s degree, preferably in Computer Science, Information Technology, Computer Engineering, or related IT discipline; or equivalent experience.
+- Bachelor's degree, preferably in Computer Science, Information Technology, Computer Engineering, or related IT discipline; or equivalent experience.
 - 0-2 years application architecture experience.
 - Understand basics of SQL and relational databases.
 - Proactive doer and communicator.
@@ -44,7 +44,7 @@ The IT Architect is a [grade 6](/handbook/total-rewards/compensation/compensatio
 
 ### Requirements
 
-- Ability to use GitLabBachelor’s degree, preferably in Computer Science, Information Technology, Computer Engineering, or related IT discipline; or equivalent experience.
+- Ability to use GitLabBachelor's degree, preferably in Computer Science, Information Technology, Computer Engineering, or related IT discipline; or equivalent experience.
 - 2+ years of enterprise architecture experience.
 - Working with Visio, Lucid Charts preferred.
 - Enterprise architecture ecosystem experience across enterprise systems: SalesForce, Workato, DocuSign CLM, Netsuite, Zuora Billing, Zuora Revenue, Coupa, Zip, Navan, Workday, ADP, eTrade etc.
@@ -97,7 +97,7 @@ Extends the IT Architect responsibilities:
 
 ### Requirements
 
-- Bachelor’s degree, preferably in Computer Science, Information Technology, Computer Engineering, or related IT discipline; or equivalent experience.
+- Bachelor's degree, preferably in Computer Science, Information Technology, Computer Engineering, or related IT discipline; or equivalent experience.
 - 5+ years of enterprise architecture experience.
 - Working with Visio, Lucid Charts or EA tools preferred .
 - Enterprise architecture ecosystem experience across enterprise systems: SalesForce, Workato, DocuSign CLM, Netsuite, Zuora Billing, Zuora Revenue, Coupa, Zip, Navan, Workday, ADP,Snowflake, Tableau,Big Query, RedShift, Zendesk, eTrade etc..

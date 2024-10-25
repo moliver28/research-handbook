@@ -3,7 +3,6 @@ title: "Sales Development Organization Roles"
 summary: " "
 ---
 
-
 <br>
 
 ## Sales Development Job Levels
@@ -35,7 +34,7 @@ The SDR is a [grade 5](/handbook/total-rewards/compensation/compensation-calcula
 - You share our values, and work in accordance with those values
 - Knowledge of business process, roles, and organizational structure
 - Determined personality with a desire to grow and win
-- Passionate about being a part of GitLab’s journey
+- Passionate about being a part of GitLab's journey
 - Proficient in using Salesforce
 - Previous tech industry experience or experience in sales development, marketing and/or sales is a plus
 - Globally we require excellent written and spoken English which is our company language
@@ -92,7 +91,7 @@ The BDR is a [grade 5](/handbook/total-rewards/compensation/compensation-calcula
 - You share our values, and work in accordance with those values
 - Knowledge of business process, roles, and organizational structure
 - Determined personality with a desire to grow and win
-- Passionate about being a part of GitLab’s journey
+- Passionate about being a part of GitLab's journey
 - Proficient in using Salesforce and LinkedIn Sales Navigator
 - Previous tech industry experience or experience in sales development, marketing and/or sales is a plus
 - Globally we require excellent written and spoken English which is our company language

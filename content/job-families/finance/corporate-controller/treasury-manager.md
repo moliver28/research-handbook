@@ -27,7 +27,7 @@ The Treasury Analyst is a [grade #6](/handbook/total-rewards/compensation/compen
 
 #### Treasury Analyst Requirements
 
-- Bachelor’s Degree in Finance, Business Administration, or Accounting preferred
+- Bachelor's Degree in Finance, Business Administration, or Accounting preferred
 - 1-2 years' progressive experience in corporate treasury or international commercial bank
 - Basic understanding of cash management, corporate finance and accounting
 - Experience with Netsuite or similar ERP software
@@ -54,7 +54,7 @@ The Senior Treasury Analyst is a [grade #7](/handbook/total-rewards/compensation
 
 #### Senior Treasury Analyst Requirements
 
-- Bachelor’s Degree in Finance, Business Administration, or Accounting preferred
+- Bachelor's Degree in Finance, Business Administration, or Accounting preferred
 - 3-5 years' progressive experience in corporate treasury or international commercial bank
 - Deep understanding of cash management, corporate finance and accounting
 - Experience with Netsuite or similar ERP software
@@ -78,7 +78,7 @@ The Director - Treasury is a [grade #10](/handbook/total-rewards/compensation/co
 
 #### Director - Treasury Responsibilities
 
-- Is responsible for financial risk exposures including foreign exchange, recommend, drive and execute the Company‘s financial risk management strategies and potentially hedging programs
+- Is responsible for financial risk exposures including foreign exchange, recommend, drive and execute the Company's financial risk management strategies and potentially hedging programs
 - Responsible for bank strategy and work to open bank accounts in new foreign entities
 - Responsible for debt covenant compliance
 - Will drive and be responsible to develop and manage relationships with banking institutions and investment groups and direct our adherence to our investment policy

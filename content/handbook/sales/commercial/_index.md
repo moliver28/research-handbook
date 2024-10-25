@@ -1,16 +1,9 @@
 ---
-
 title: Commercial Sales
 department: >-
   The Commercial Sales department at GitLab focuses on delivering maximum value
   to SMB and Mid-Market customers throughout their entire journey with GitLab
 ---
-
-
-
-
-
-
 
 ## Welcome to the Commercial Sales Handbook
 
@@ -42,8 +35,8 @@ Please ensure you read the [Commercial Sales onboarding page](/handbook/sales/co
 [#smb_training_support](https://gitlab.slack.com/archives/CKYLWKGJU)
 [#competition](https://gitlab.slack.com/archives/C1BBL1V3K)
 1. Use [BuiltWith.com](https://builtwith.com/) to get an idea of what technologies a customer is using currently (though be sure to verify this with them)
-1. You might find it useful to create a Google doc to document all your learnings in your first 30 days, as you will get a lot of information to remember and it will also get you in the habit of taking notes, a [key part of GitLab’s culture](/handbook/communication/#external-communication).
-1. You can never have too many [coffee chats](/handbook/company/culture/all-remote/informal-communication/#coffee-chats) with colleagues. You don’t need to ask permission from people, just put some time in their diary.
+1. You might find it useful to create a Google doc to document all your learnings in your first 30 days, as you will get a lot of information to remember and it will also get you in the habit of taking notes, a [key part of GitLab's culture](/handbook/communication/#external-communication).
+1. You can never have too many [coffee chats](/handbook/company/culture/all-remote/informal-communication/#coffee-chats) with colleagues. You don't need to ask permission from people, just put some time in their diary.
 1. Make sure your calendar is always up to date so that you can get meetings from SDRs without having to moving them around.
 1. Listen to as many [Chorus](https://www.zoominfo.com/products/chorus?ch_source=chorus) calls as possible. They are an excellent way to onboard.
 1. Add your own tips to this page as you onboard to pay it forward for the next new rep!
@@ -53,7 +46,7 @@ Please ensure you read the [Commercial Sales onboarding page](/handbook/sales/co
 
 Below is a list of resources considered highly valuable for continuous learning and development by Commercial Sales team members at GitLab. Note, that some of these resources are not publicly available, so consult a fellow teammate for access where necessary.
 
-- [GitLab Direction](https://about.gitlab.com/direction/#vision-1) Includes GitLab’s Vision, [Maturity](https://about.gitlab.com/direction/#maturity) framework and planned features and their release dates within each of GitLab’s [Paid Tiers](https://about.gitlab.com/direction/#paid-tiers).
+- [GitLab Direction](https://about.gitlab.com/direction/#vision-1) Includes GitLab's Vision, [Maturity](https://about.gitlab.com/direction/#maturity) framework and planned features and their release dates within each of GitLab's [Paid Tiers](https://about.gitlab.com/direction/#paid-tiers).
 - [GitLab Blog](https://about.gitlab.com/blog/) Monthly articles on Releases, Engineering, Open Source, Culture and other popular topics of interest.
 - [GitLab Unfiltered YouTube](https://www.youtube.com/channel/UCMtZ0sc1HHNtGGWZFDRTh5A) A YouTube channel private to GitLab employees with video recordings and playlists on company meetings, enablement sessions and other topics. Access GitLab's [Sales Enablement playlist](https://www.youtube.com/playlist?list=PL05JrBw4t0KrirMKe3CyWl4ZBCKna5rJX).
 - [Chorus Recordings](/handbook/business-technology/tech-stack/#chorus) Our team's history of call and demo recordings is a valuable training resource for new and existing sales team members.
@@ -75,7 +68,7 @@ If you are going to an event you think first:
 - How many total personal life hours will you be away from your personal life?
 
 Given the rough calculation above, you've to be committed driving/booking enough Net ARR at the event prior to you going to the event
-Note: this doesn’t mean you can’t get travel approval without booking meetings. It means once you get travel approval it is on you to go get people to the event/meetings to create pipeline.
+Note: this doesn't mean you can't get travel approval without booking meetings. It means once you get travel approval it is on you to go get people to the event/meetings to create pipeline.
 
 #### Trip Notes
 
@@ -94,7 +87,7 @@ Please follow the best practice process and use the [trip note template](https:/
 1. Commercial attendee will write up their notes in a google doc.
 1. Please save your notes as GitLab internal read only for Commercial Team review in the [Commercial Sales Drive Trip Notes Folder](https://drive.google.com/drive/folders/1e71aL5OP_QlaAHTmMNwAAqIUfc2aD6Dt).
 1. Once saved, please slack and share a link to your notes in the commercial_global_all channel to alert the team of your recent trip.
-1. Finally, please share your [Post Trip feedback](/handbook/marketing/events/#post-event) for the entire company and the Field Marketing team directly in the specific Event Issue on the ‘Post Event Recap & Feedback’ spreadsheet.
+1. Finally, please share your [Post Trip feedback](/handbook/marketing/events/#post-event) for the entire company and the Field Marketing team directly in the specific Event Issue on the 'Post Event Recap & Feedback' spreadsheet.
 
 ### Give Back Project
 
@@ -106,7 +99,7 @@ Please follow the best practice process and use the [trip note template](https:/
 #### Why is there a Give Back Project?
 
 - The goal of the Give Back Project is to allow new team members to be able to instantly contribute to the Commercial Sales team
-- Fosters GitLab’s values of collaboration and results
+- Fosters GitLab's values of collaboration and results
 - The Give Back Project gives team members the opportunity to be exposed to problems on the team today and will allow the team to look back and see how we addressed shortcomings in the past
 
 #### How to properly document a Give Back Project
@@ -127,7 +120,7 @@ Please follow the best practice process and use the [trip note template](https:/
 
 **How to Handle New Customers After They Purchase:** Best practices for handling new GitLab customers based on the scope of their purchase
 
-**Technical Evaluation of Customers:** How to properly evaluate a customer’s current technical environment in order to create organizational alignment and prescribe how GitLab can best solve their problems
+**Technical Evaluation of Customers:** How to properly evaluate a customer's current technical environment in order to create organizational alignment and prescribe how GitLab can best solve their problems
 
 For a complete list of our Give Back Projects and other Onboarding assignments our team is working on, please click the private link [here](https://docs.google.com/spreadsheets/d/1_G06Zj8ZWXrfrH75t3BEa8NX3wi6vjQCohFchnPpNUI/edit#gid=0).
 
@@ -141,9 +134,9 @@ We have found following steps beneficial to make the process of time off easy fo
   - It may be helpful to create a shared doc of action items, and follow reference from the handbook
   - There may be cases where double coverage or support from your manager is needed if no one else is available
   - Note: For [Family & Friends Day](/handbook/company/family-and-friends-day/), there is no need for backup coverage as it is a publicly visible shutdown for GitLab. Please message in your below OOO auto-reply as such including the handbook page, and contact details for technical support
-- [ ] Submit time-off in Time Off by Deel in Slack, and add your chosen team member who is covering for you as the assignee role for all tasks, you can label it something like “immediate and general”
+- [ ] Submit time-off in Time Off by Deel in Slack, and add your chosen team member who is covering for you as the assignee role for all tasks, you can label it something like "immediate and general"
 - [ ] Create calendar invite with title:
-  - Ex: “First and Last Name OOO - (First and Last Name) is Covering”. Optional invite to your manager and person covering.
+  - Ex: "First and Last Name OOO - (First and Last Name) is Covering". Optional invite to your manager and person covering.
 - [ ] Block the morning of your return date on your calendar so you can return to work with catch-up time for things like:
   - Re-submitting forecast in Clari
   - Ranking new accounts that came through
@@ -152,8 +145,8 @@ We have found following steps beneficial to make the process of time off easy fo
 
 #### Role responsibilities to prepare being out of office
 
-- [ ] Any quotes that are currently out to clients, resend via docusign with the person covering for you cc’d on them. Intro AE covering to client in case either have questions via email
-- [ ] Run [this report](https://gitlab.my.salesforce.com/00O4M000004odxl), edit the `dates` field in the top right corner to be the dates you are OOO, then select ‘run report’. Make sure ZERO next steps are falling on the dates you are out and cover anything not urgent before PTO. This will ensure you leave you without a huge workload for your backup or you in return.
+- [ ] Any quotes that are currently out to clients, resend via docusign with the person covering for you cc'd on them. Intro AE covering to client in case either have questions via email
+- [ ] Run [this report](https://gitlab.my.salesforce.com/00O4M000004odxl), edit the `dates` field in the top right corner to be the dates you are OOO, then select 'run report'. Make sure ZERO next steps are falling on the dates you are out and cover anything not urgent before PTO. This will ensure you leave you without a huge workload for your backup or you in return.
   - If you have an urgent next step scheduled, reach out before vacation, inform the client you will be OOO and get either the person covering for you or your manager included by `cc:` on the email w/ intro
   - If you have less urgent next steps approaching, assess if they should be handled before or after vacation and then edit the next steps date based on your assessment
 - [ ] Set your email OOO auto-reply including the email of the person covering for you. If your manager is available the days you are out you can add them as well in the email message and any other urgent correspondence
@@ -177,15 +170,15 @@ Area Sales Managers have additional steps to consider before leaving for time of
 
 #### Role responsibilities of covering for a team member as backup
 
-- Respond within 24 hours to the absent AE’s customers if they contact you.
-- Address new Required 7 items that appear on your team’s Required 7 dashboard for the absent AE.
+- Respond within 24 hours to the absent AE's customers if they contact you.
+- Address new Required 7 items that appear on your team's Required 7 dashboard for the absent AE.
 - Take any urgent customer calls or BDR/SDR calls that have been set up. If you are not able to attend for any reason, you are expected to tell your manager so that appropriate backup can be found. Customer or prospect calls on the calendar should not be delayed or rescheduled.
-- Work on and close deals in the absent AE’s territory while they are out.
+- Work on and close deals in the absent AE's territory while they are out.
 
 Backup AEs are not required to:
 
 - Cover tasks unrelated to the specific AE role. For example, if the absent AE is a member of a Team Member Resource Group (TMRG), you are not expected to attend TMRG meetings.
-- Outbound campaigns to the absent AE’s customers (you can if you want to, of course).
+- Outbound campaigns to the absent AE's customers (you can if you want to, of course).
 - Agree to be a backup if you do not have time to do so, or cover multiple team members. There are other AEs who can help.
 - Forecast on behalf of the absent AE. Only update their opportunities as needed.
 
@@ -194,12 +187,12 @@ Backup AEs are not required to:
 New team members should familiarize themselves with [The Required 7](/handbook/sales/commercial/enablement/required7/). These are the 7 tactical skills required to be an excellent Commercial Sales Account Executive:
 
 1. [Ranking your accounts](/handbook/sales/commercial/#account-ranking) - [video here](https://youtu.be/M-5OhlYxmFI)
-    - Rank all accounts and explain why; log your sources for future efficiency; this needs to be your (recent) ranking, not the previous owners, nor the ranking from the prior fiscal. If it’s unchanged, make the note that it is unchanged and why
+    - Rank all accounts and explain why; log your sources for future efficiency; this needs to be your (recent) ranking, not the previous owners, nor the ranking from the prior fiscal. If it's unchanged, make the note that it is unchanged and why
 1. Building your (consider changing the deck) [custom deck](https://docs.google.com/presentation/d/1duy8kjEvNiRx8fnCvc6ZnxWwXTM_71phbG3k9rgmU4Q/edit?usp=sharing) for any opp amount over $5k SMB $10k MM **Amount** (n.b. amount, not Net ARR) that:
     - Calculates the ROI of using GitLab vs. next best option (this might be vs. do nothing)
     - Provides the 2 options for the customer going forward - normally both with GitLab (example: Ult or Prem)
-    - Demonstrates a customised vision for the customer: “what if you used all of GitLab to do DevOps in a single app?”
-    - Capture the full response, in the customers’ words to that vision and the reasons why they think it is possible, or not possible. This capture can be done in the speaker notes so your customer can validate and then copied into an activity after the call.
+    - Demonstrates a customised vision for the customer: "what if you used all of GitLab to do DevOps in a single app?"
+    - Capture the full response, in the customers' words to that vision and the reasons why they think it is possible, or not possible. This capture can be done in the speaker notes so your customer can validate and then copied into an activity after the call.
     - [video here](https://youtu.be/9Yq23PijO3c), and be sure to check out [this video](https://youtu.be/QDoXhDvkDYY) on creating an effective ROI slide deck and [this supporting deck](https://docs.google.com/presentation/d/1otCJF4kaaozhp0qWD3VgGQ73WgX1ZNP_IKnu3Qt_slI/edit?usp=sharing)
 1. Capturing key information:
     - How did the customer/prospect hear about GitLab and what is their understanding of what we do?
@@ -209,7 +202,7 @@ New team members should familiarize themselves with [The Required 7](/handbook/s
 1. [Command plans](/handbook/sales/command-of-the-message/command-plan/), what needs to be filled in:
     - $5k SMB, $10k MM **Amount** - All fields in opportunity overview (the whys) and close-plan over this Amount threshold
     - $10k SMB, $20k MM **Net ARR** - Full Command Plan over this Net ARR threshold
-    - If you don’t yet know the answers or have the data, you will populate the Command Plan fields with your script and next steps to get that information
+    - If you don't yet know the answers or have the data, you will populate the Command Plan fields with your script and next steps to get that information
     - Exception to command plan: for channel managed opportunities we may not have access - put `Channel-Managed` in the opportunity title
     - ([training session here](https://youtu.be/zN_0J6syxmM) and [training deck here](https://bit.ly/2WNlzbZ))
 1. Keeping your opportunities [up to date at all times](/handbook/sales/commercial/#salesforce-pipeline-activity) [video](https://youtu.be/o5gm7_5321w)
@@ -249,7 +242,7 @@ It is a requirement for the Commercial Sales Team to tier their accounts using t
 <span class="colour" style="color: rgb(0, 0, 0);">The three close dates:</span>
 
 1. <span class="colour" style="color:rgb(0, 0, 0)">Last day of the month it will close in **only if you have a compelling event defined**</span>
-1. <span class="colour" style="color:rgb(0, 0, 0)">The actual day the opportunity will close when the quote goes out for signature. It will appear past due if we don’t get the signature back and pushes to the Friday of the week it should close.  Renewals default to this convention</span>
+1. <span class="colour" style="color:rgb(0, 0, 0)">The actual day the opportunity will close when the quote goes out for signature. It will appear past due if we don't get the signature back and pushes to the Friday of the week it should close.  Renewals default to this convention</span>
 1. <span class="colour" style="color:rgb(0, 0, 0)">First day of the following month, no compelling event defined </span>
     1. <span class="colour" style="color:rgb(0, 0, 0)">Placing the close date on the first day of the month is a temporary status of **up to 48 hours** during which time the AE would work directly with their Champion / Economic Buyer to confirm the compelling event and client timeline.  Once determined, the AE would move the close date to the last day of the month of actual closing.    </span>
     1. <span class="colour" style="color:rgb(0, 0, 0)">This close date carries a window of roughly 60 days of when you think it will come in</span>
@@ -275,7 +268,7 @@ Follow instructions for using [Chorus Scheduler](/handbook/sales/field-operation
 
 ### Project 35
 
-As we continue to grow as an organization, developing our sales skills to deliver an impeccable sales experience is a critical component of the customer experience, either leading them to enjoy working with GitLab or not, depending on the quality of that experience. We’ve created a program called “Project 35” to help you improve your selling skills. We are utilizing our largest opportunities for the quarter to hone in our selling skills with the goal of these skills being valuable on all other sales opportunities.
+As we continue to grow as an organization, developing our sales skills to deliver an impeccable sales experience is a critical component of the customer experience, either leading them to enjoy working with GitLab or not, depending on the quality of that experience. We've created a program called "Project 35" to help you improve your selling skills. We are utilizing our largest opportunities for the quarter to hone in our selling skills with the goal of these skills being valuable on all other sales opportunities.
 
 As part of Project 35 we will be focusing on the following core selling skills:
 
@@ -352,7 +345,7 @@ Effective ASM coaching of the why now, why do anything, why GitLab and specific 
 
 ### Red / Green Definition
 
-Designating each opportunity that has a shot to close at the end of each fiscal period as either Red (not going to close before the end of the month), or Green (going to close before the end of the month), and updating manager notes with a defense of the color and a specific next step the AE will complete by the next check in (usually the next day). For context, a green account will have a “why now” that corresponds with a close before the end of the period.
+Designating each opportunity that has a shot to close at the end of each fiscal period as either Red (not going to close before the end of the month), or Green (going to close before the end of the month), and updating manager notes with a defense of the color and a specific next step the AE will complete by the next check in (usually the next day). For context, a green account will have a "why now" that corresponds with a close before the end of the period.
     - The threshold (unless otherwise stated) for accounts that will be reviewed during Red/Green is:
         - SMB: $2,000 NetARR or greater
         - Mid-Market: $7,000 NetARR or greater
@@ -370,10 +363,10 @@ Designating each opportunity that has a shot to close at the end of each fiscal 
     - How can they help you:
         - Get accurate information on the ideal time for the customer to buy GitLab?
         - Get you access to someone else in the organization who has access to the above information?
-    - What is the AEs immediate next step based on the answer to the items above? If anything less than “wait for account to move from closing to closed-won”, then see “Why Now” question.
-        - An example of a specific next step would be to ask your closest contact: “Is this at all easier for you if we close this next month?”
+    - What is the AEs immediate next step based on the answer to the items above? If anything less than "wait for account to move from closing to closed-won", then see "Why Now" question.
+        - An example of a specific next step would be to ask your closest contact: "Is this at all easier for you if we close this next month?"
 
-1. Once Red/Green discussion is complete on the account, the ASM will enter notes in the “manager notes” section of the opportunity to reflect the discussion and the immediate next step the account executive will take.
+1. Once Red/Green discussion is complete on the account, the ASM will enter notes in the "manager notes" section of the opportunity to reflect the discussion and the immediate next step the account executive will take.
 
 1. Repeat the same process the following date for all accounts above the threshold.
 
@@ -404,7 +397,7 @@ SMB Account Executives are designated into one of the following pod positions:
 
 SMB Account Executives in First Order will assist prospects in their evaluation through the first buying process. Depending on the account, the other three roles will be the customer's primary point of contact for any renewal and expansion discussions.  Collectively the team is responsible for working new business in their [territory](/handbook/sales/territories/) as well as handling the customer journey for new and existing customers.
 
-AMER SMB Pooled Account Executives are responsible for managing a subset of SMB customers who range from companies on day 1 of using GitLab, all the way to companies who’ve used GitLab since their day 1. The Pooled AEs work collectively in a “pooled” account ownership model meaning customers are aligned at the team level and all AEs are equipped to help. Pooled AEs work with customers to evaluate product and plan expansion, making recommendations to ensure a successful renewal with GitLab based on their needs.
+AMER SMB Pooled Account Executives are responsible for managing a subset of SMB customers who range from companies on day 1 of using GitLab, all the way to companies who've used GitLab since their day 1. The Pooled AEs work collectively in a "pooled" account ownership model meaning customers are aligned at the team level and all AEs are equipped to help. Pooled AEs work with customers to evaluate product and plan expansion, making recommendations to ensure a successful renewal with GitLab based on their needs.
 
 Please read below and through the [SMB handbook page for more information](/handbook/sales/commercial/smb/).
 
@@ -483,11 +476,7 @@ Support will take the lead on all incoming requests in the queue and only forwar
 
 > Note: if you need access to a system, [open an Access Request](https://gitlab.com/gitlab-com/team-member-epics/access-requests/-/issues/new?issuable_template=Individual_Bulk_Access_Request)
 
-License Key Management for On-Premise Trials & Subscriptions
-
-- Access [the LicenseApp](https://license.gitlab.com/) to resend or provide changes to a license key or trial evaluation
-
-GitLab.com Trials & Subscription Management
+GitLab Trials & Subscription Management
 
 - Access [the CustomersDot](https://customers.gitlab.com/admin/customer) to provide changes to a user, group, or subscription.
 
@@ -609,7 +598,7 @@ For all accounts that are in SalesForce.com as of February 24, 2022 the Mid-Mark
 1. Segmented to Mid-Market NORAM or EMEA
 1. Marked as "First Order Available" in SalesForce
 AND
-1. Have a full time employee count of 500 employees or greater as marked in the “Account Demographic Max Family Employees” field under Account Demographics in SFDC.
+1. Have a full time employee count of 500 employees or greater as marked in the "Account Demographic Max Family Employees" field under Account Demographics in SFDC.
 OR
 1. Have a potential user count of 100 users or more as measured by the LAM Dev Count Field.
 
@@ -630,7 +619,7 @@ Note: If an AE suspects that the employee count or potential user count is not a
 #### Account Moves Throughout Fiscal Year 2023
 
 1. If an MMKAFO AE finds out through discovery that a sub 500 employee account segmented to First Order in reality has less than 100 potential users, they should immediately ask for the account to be moved to Territory.
-1. If a “First Order Available” account is segmented to Territory, and the Territory AE finds out through discovery that the account actually has more than 500 employees, they should immediately ask for the account to be moved to First Order.
+1. If a "First Order Available" account is segmented to Territory, and the Territory AE finds out through discovery that the account actually has more than 500 employees, they should immediately ask for the account to be moved to First Order.
 1. The automation for new accounts in the system means accounts with under 500 employees but over 100 potential users will be routed to territory and left there unless they have no activity at the quarter change over.
 1. If it is found out that an AE intentionally ignores rules number 1 or 2 more than twice in a fiscal year disciplinary action is likely to be taken.
 
@@ -647,14 +636,14 @@ For additional information please visit this [reinforcement module](https://rise
 
 ### Working with Channel Partners
 
-The GitLab partner network is ready to work with GitLab Account Executive's in order to extend the customer selling and services capacity offered by Commercial Sales. Channel's approach to this is called Partner Co-selling and working with Partners involves building a simple, clear, mutual customer opportunity plan establishing “who will do what, when?”.
+The GitLab partner network is ready to work with GitLab Account Executive's in order to extend the customer selling and services capacity offered by Commercial Sales. Channel's approach to this is called Partner Co-selling and working with Partners involves building a simple, clear, mutual customer opportunity plan establishing "who will do what, when?".
 
 #### What are the key benefits from working with partners?
 
 - AEs Working with Partners for Increased Customer Value & Net ARR
-- Extended reach and capabilities via Partner sales and services capacity and reach via GitLab-trained Partner AE’s, SA’s, Engineers, and often a GitLab channel manager to coordinate/assist.
-- Accelerated reach to new customer logos “<b>*Land*</b>”: Partners are beginning to bring GitLab new logo opportunities via mining their customer base. In many cases, Partners already have a “trusted Partner status” with their customers, which also serves to accelerate new logo engagements.
-- Increased customer “<b>*Expand*</b>” success: In many cases, Partners will sell and deliver the key services called for to ensure customers get the maximum value from their GitLab technology investment and drive stage advance along with user growth.
+- Extended reach and capabilities via Partner sales and services capacity and reach via GitLab-trained Partner AE's, SA's, Engineers, and often a GitLab channel manager to coordinate/assist.
+- Accelerated reach to new customer logos "<b>*Land*</b>": Partners are beginning to bring GitLab new logo opportunities via mining their customer base. In many cases, Partners already have a "trusted Partner status" with their customers, which also serves to accelerate new logo engagements.
+- Increased customer "<b>*Expand*</b>" success: In many cases, Partners will sell and deliver the key services called for to ensure customers get the maximum value from their GitLab technology investment and drive stage advance along with user growth.
 - Deployment and related services: For faster delivery and increased capacity, AEs are turning to Partners to sell and deliver these services, also CSM-like customer success services.
 - In the case of OPEN partners via distributors, dramatic reduction in the admin steps associated with quote-to-order process.
 
@@ -663,10 +652,10 @@ The GitLab partner network is ready to work with GitLab Account Executive's in o
 GitLab has a mature Partner network with good coverage of GitLab-trained Sales and Technical resources. There are a few ways in which AEs will work with a customer including a Partner.
 
 - [Approved Partner GitLab Deal Registrations](/handbook/resellers/#the-deal-registration-program-overview) As these are received in your territory, in most cases* you will be contacted by a GitLab channel team member to arrange a co-selling kickoff call to develop a simple Partner co-selling plan to share with the Partner. GitLab Channel Managers do not proactively manage all OPEN Partners. AEs can always request Channel Manager support for a Deal Registration by slacking channel-sales or available contacts.
-- If you find themselves thinking 1. “a Partner SA could execute on this customer-requested SA task”, or 2. AEs have customers that could benefit from a “Partner services attach engagement”, reach out on slack [#channel-sales](https://gitlab.slack.com/archives/CT9KKE5RR) with a Partner engagement request, if possible with a link to the related account or opportunity. A member of the channel team will promptly reach out to learn more about the request, and connect you with a Partner that is pre-qualified to promptly and properly execute on the task at hand, and keep you updated along the way.
+- If you find themselves thinking 1. "a Partner SA could execute on this customer-requested SA task", or 2. AEs have customers that could benefit from a "Partner services attach engagement", reach out on slack [#channel-sales](https://gitlab.slack.com/archives/CT9KKE5RR) with a Partner engagement request, if possible with a link to the related account or opportunity. A member of the channel team will promptly reach out to learn more about the request, and connect you with a Partner that is pre-qualified to promptly and properly execute on the task at hand, and keep you updated along the way.
 - AEs should lead planning and execution of the joint opportunity/customer pursuit with alignment and support of the partner and GitLab Channel Manager. The plan should be [tracked in SFDC with tasks and action items](/handbook/sales/channel/#partner-co-selling-best-practices-and-how-partners-can-help-with-r7-and-command-plans). Partners should always get an email confirmation of any tasks assigned to them (via AE or Channel Mgr).
-- Channel Managers will engage with AE’s in the following ways:
-  - When a new deal registration arrives in the AE’s pipeline
+- Channel Managers will engage with AE's in the following ways:
+  - When a new deal registration arrives in the AE's pipeline
   - To review 2-3 Partners for the AE to work with for AE-selected joint customer success motions:
     - The Channel Manager will bring the possibilities forward during this call
     - 2 examples of working with Partners are featured in **[this LevelUp](https://www.youtube.com/watch?v=ndrNX8fIIqs&list=PL05JrBw4t0KrirMKe3CyWl4ZBCKna5rJX&index=2)**
@@ -676,9 +665,9 @@ GitLab has a mature Partner network with good coverage of GitLab-trained Sales a
 #### Resources to learn more about teaming with Channel Partners?
 
 - If this is a first time for an AE, we recommend watching the available training delivered. This Levelup video starts with a basic understanding of the [Channel Partner landscape](https://youtu.be/OeykHQetd7U).
-- LevelUp video on [Maximizing Value of Partners in a Deal](https://www.youtube.com/watch?v=ndrNX8fIIqs&list=PL05JrBw4t0KrirMKe3CyWl4ZBCKna5rJX&index=2) specifically for AE’s to learn more about co-selling success.
-- [Learn more about Partner co-selling best practices, how Partners can help build out key elements of an AE’s R7 & Command Plans](/handbook/sales/channel/#partner-co-selling-best-practices-and-how-partners-can-help-with-r7-and-command-plans) and much more in the [Channel Sales Handbook](/handbook/sales/channel/).
-- Slack [#channel-sales](https://gitlab.slack.com/archives/CT9KKE5RR) or reach out to your Channel Account Manager with any questions or requests for assistance. The channel is closely monitored by several members of the channel team who are here to help AE’s succeed in co-selling in any way we can.
+- LevelUp video on [Maximizing Value of Partners in a Deal](https://www.youtube.com/watch?v=ndrNX8fIIqs&list=PL05JrBw4t0KrirMKe3CyWl4ZBCKna5rJX&index=2) specifically for AE's to learn more about co-selling success.
+- [Learn more about Partner co-selling best practices, how Partners can help build out key elements of an AE's R7 & Command Plans](/handbook/sales/channel/#partner-co-selling-best-practices-and-how-partners-can-help-with-r7-and-command-plans) and much more in the [Channel Sales Handbook](/handbook/sales/channel/).
+- Slack [#channel-sales](https://gitlab.slack.com/archives/CT9KKE5RR) or reach out to your Channel Account Manager with any questions or requests for assistance. The channel is closely monitored by several members of the channel team who are here to help AE's succeed in co-selling in any way we can.
 - List of [GitLab-trained OPEN and SELECT channel partners](https://help.salesforce.com/articleView?id=reports_schedule.htm&type=5)
 - Channel Partner Finder **[Here](https://partners.gitlab.com/English/directory/)
 
@@ -693,7 +682,7 @@ Mid-Market First Order AEs will own an account until the customer has a working 
 
 **First Order AE Responsibilities**
 
-1. Ensure the opportunity is marked as ‘Closed-Won’.
+1. Ensure the opportunity is marked as 'Closed-Won'.
 1. Ensure the customer has a working license.
 1. Log an activity (naming convention: [FO AE NAME] FO Account Summary for Handoff)  on the account level detailing the following:
     - Why the account chose GitLab (use case)
@@ -720,7 +709,7 @@ Mid-Market First Order AEs will own an account until the customer has a working 
 
 ### Process to Move Accounts From First Order to Named/Territory
 
-1. Once the “First Order Available” box has been unchecked because a first order has taken place, the account will be batched to transfer to the appropriate Named or Territory AE with the nightly SalesForce update. This process should happen automatically.
+1. Once the "First Order Available" box has been unchecked because a first order has taken place, the account will be batched to transfer to the appropriate Named or Territory AE with the nightly SalesForce update. This process should happen automatically.
     - Europe Employee Threshold
         - All accounts between 101-500 employees will be assigned to Territory AEs
         - All accounts between 501-2000 employees will be assigned to Named AEs
@@ -764,20 +753,20 @@ The program will run for a total of **8** weeks;  each week focusing on a new to
 | 2 | Running Effective 1 on 1s | Core components for every meeting, how to capture and provide feedback from activities during the week, building consistency in performance through consistent accountability in one on one. |
 | 3 | A Leaders Responsibility on Sales Calls| Structure of an effective pre-call meeting, what roles a leader should focus on during the sales call, expected follow up for coaching and delivering results |
 | 4 | Running Effective Team Meetings | Key components to a great team meeting - recognition, training, results, pipeline creation and current events. How to structure a meeting to bring energy and ensure AEs leave with clear expectations for the week ahead |
-| 5 | Coaching and Providing Feedback | Utilizing different coaching frameworks based on situational need - GROW, SBI, Skill/Will Coaching Model. An HR partner’s perspective on key professional items that may arise and how to handle them |
+| 5 | Coaching and Providing Feedback | Utilizing different coaching frameworks based on situational need - GROW, SBI, Skill/Will Coaching Model. An HR partner's perspective on key professional items that may arise and how to handle them |
 | 6 | Forecasting & Managing Metrics |Understanding what leading and lagging indicators to measure. Implementing programs based on the trends identified in metrics to ensure consistent, positive results. Learning how to forecast effectively and the role Red/Green plays in being a great coach and manager |
-| 7 | Recruiting and Interviewing | How Diversity, Inclusion and Belonging is essential to building a world class team. A recruiter’s point of view on how to attract top talent. Review and discuss our Commercial interview methodology. Discuss what questions and activities ensure our interview process is inclusive and legal |
+| 7 | Recruiting and Interviewing | How Diversity, Inclusion and Belonging is essential to building a world class team. A recruiter's point of view on how to attract top talent. Review and discuss our Commercial interview methodology. Discuss what questions and activities ensure our interview process is inclusive and legal |
 | 8 |Components of an Effective Pipe Generation Campaign| Review the primary reasons consistent pipe gen campaigns are needed for sustainable growth. Key components of an effective pipeline campaign. How to launch, reinforce, measure and recognize for effective results. |
 
 ### Expectations of Participants
 
 - Time Committment: A total of ~40 hours of dedicated time during the quarter between synchronous meetings and asynchronous work.
 
-The GitLab Commercial department expects all Team members to uphold the highest standards of moral and ethical behavior in harmony with GitLab’s CREDIT values. Engaging or promoting activities that are inconsistent with GitLab’s values is not acceptable. It is expected that Team members who are enrolled will uphold both stated and inferred values of working at GitLab. Items include but are not limited to:
+The GitLab Commercial department expects all Team members to uphold the highest standards of moral and ethical behavior in harmony with GitLab's CREDIT values. Engaging or promoting activities that are inconsistent with GitLab's values is not acceptable. It is expected that Team members who are enrolled will uphold both stated and inferred values of working at GitLab. Items include but are not limited to:
 
 - Good collaboration with other team members
 - Assuming positive intent
-- Continuing to deliver results in the team member’s current position
+- Continuing to deliver results in the team member's current position
 - Being inclusive during class discussions, accepting alternate views as alternate, not right or wrong, to foster belonging for other team members
 
 Additionally, it is our expectation that if participating in the program, team members will make their best effort to attend meetings and learning activities. If they are unable to attend, participants should give the facilitator as much advance notice as possible. If participants are not present in the course, they will be removed from the program.

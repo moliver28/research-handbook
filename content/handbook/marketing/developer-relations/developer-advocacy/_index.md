@@ -1,11 +1,9 @@
 ---
 title: "Developer Advocacy"
 description: "Developer Advocates build GitLab's technical brand with deep, meaningful conversations on engineering topics relevant to our community."
-aliases:
-- /handbook/marketing/developer-relations/developer-evangelism/index.html
 ---
 
-## <i class="fas fa-bullhorn fa-fw color-purple font-awesome"></i> Welcome to the Developer Advocacy Handbook
+## <i class="fas fa-bullhorn fa-fw -text-purple"></i> Welcome to the Developer Advocacy Handbook
 
 ---
 
@@ -13,16 +11,25 @@ aliases:
 
 ### Team Workflow
 
-- [<i class="far fa-clipboard"></i> Team Workflow](/handbook/marketing/developer-relations/developer-advocacy/workflow/)
+#### Issue Templates
+
+- [<i class="far fa-edit"></i> New Content Issue](https://go.gitlab.com/new-content-issue)
+- [<i class="far fa-edit"></i> New Event Issue](https://go.gitlab.com/new-event-issue)
+- [<i class="far fa-edit"></i> New Activity Issue](https://go.gitlab.com/new-activity-ssue)
 - [<i class="far fa-edit"></i> CFP Issue Template](https://gitlab.com/gitlab-com/marketing/developer-relations/developer-advocacy/developer-advocacy-meta/-/issues/new?issuable_template=cfp)
-- [<i class="far fa-clipboard"></i> Team General Issue Board](https://gitlab.com/groups/gitlab-com/-/boards/1565342?&label_name[]=developer-advocacy)
-- [<i class="far fa-clipboard"></i> Team Activity Type Issue Board](https://gitlab.com/groups/gitlab-com/-/boards/3811304?label_name[]=developer-advocacy)
-- [<i class="far fa-clipboard"></i> CFP Issue Board](https://gitlab.com/groups/gitlab-com/-/boards/1616902?label_name[]=CFP)
-- [<i class="far fa-calendar-alt"></i> Team Calendar](/handbook/marketing/developer-relations/developer-advocacy/calendar)
-- [<i class="far fa-chart-line"></i> Content Effectiveness](/handbook/marketing/developer-relations/content-effectiveness/)
+
+#### Issue Boards
+
+- [<i class="far fa-clipboard"></i> Team Workflow](/handbook/marketing/developer-relations/developer-advocacy/workflow/)
+- [<i class="far fa-clipboard"></i> Content by Assignee](https://gitlab.com/groups/gitlab-com/-/boards/7577841?label_name[]=DA-Type%3A%3AContent&label_name[]=developer-advocacy)
+- [<i class="far fa-clipboard"></i> Content by Quarter](https://gitlab.com/groups/gitlab-com/-/boards/7577857?label_name[]=DA-Type%3A%3AContent&label_name[]=developer-advocacy)
+- [<i class="far fa-clipboard"></i> Content by Types](https://gitlab.com/groups/gitlab-com/-/boards/7577822?label_name[]=DA-Type%3A%3AContent&label_name[]=developer-advocacy)
+- [<i class="far fa-clipboard"></i> Events](https://gitlab.com/groups/gitlab-com/-/boards/7577874?label_name[]=developer-advocacy&label_name[]=DA-Type%3A%3AEvents)
 
 ### Team Resources
 
+- [<i class="far fa-calendar-alt"></i> Team Calendar](/handbook/marketing/developer-relations/developer-advocacy/calendar)
+- [<i class="far fa-chart-line"></i> Content Effectiveness](/handbook/marketing/developer-relations/content-effectiveness/)
 - [<i class="fas fa-project-diagram"></i> Team Projects](/handbook/marketing/developer-relations/developer-advocacy/projects)
 - [<i class="fas fa-toolbox"></i> Team Tools](/handbook/marketing/developer-relations/developer-advocacy/tools/)
 - [<i class="far fa-object-group"></i> OSS Contributions](/handbook/marketing/developer-relations/developer-advocacy/#oss-contributions)
@@ -52,7 +59,7 @@ Developer relations and developer advocacy is an evolving, complex field.
 Our team focuses on areas aligning with the company's areas of interest including:
 
 - DevSecOps: We want our work to speak to not only developers but all team members involved in the DevSecOps lifecycle to deliver working code to production: Product Managers, software engineers, system and DB administrators, designers, test engineers, security engineers, operations engineers, platform engineers, SREs, development managers and executives, etc.
-- Enterprise: Developers and DevSecOps professionals in the enterprise have special constraints and needs.  Often these are glossed over with easy “throw out your architecture and use this new shiny thing” - we won’t do that, we’ll acknowledge real-world challenges, legacy code, and enterprise constraints and help people solve those problems as well. When applicable, we switch roles into consulting and support.
+- Enterprise: Developers and DevSecOps professionals in the enterprise have special constraints and needs.  Often these are glossed over with easy "throw out your architecture and use this new shiny thing" - we won't do that, we'll acknowledge real-world challenges, legacy code, and enterprise constraints and help people solve those problems as well. When applicable, we switch roles into consulting and support.
 
 ### KPIs
 
@@ -89,16 +96,17 @@ If the answer to any of the above questions is "no", we ask the requestor to tak
 
 We are members of the [Developer Relations team](/handbook/marketing/developer-relations/).
 
-| Team member |  Focus areas | Language skills | Projects | Technologies | Speaker Portfolio |
-|-------------|-------------|--------------|-------------|--------------|-------------------|
-| [Abubakar Siddiq Ango](/handbook/company/team/#abuango) <br/> Developer Advocate |  Program management, team content creation and repurpose. DevSecOps with a focus on the Cloud Native Ecosystem | English, Yoruba, Hausa | [DevRel Bot](/handbook/marketing/developer-relations/developer-advocacy/projects/#developer-relations-bot), [Campaign Manager](/handbook/marketing/developer-relations/community-apps/campaign-manager/) |  Kubernetes, CI/CD, PHP, Ruby, JavaScript, Rust | [Website](https://abuango.me/) |
-| [Cesar Saavedra](/handbook/company/team/#csaavedra1) <br/> Senior Developer Advocate | DevSecOps with a focus on CD, GitOps, Kubernetes | English, Spanish |  |  Kubernetes, GitOps, CI/CD, Java |  |
-| [Fatima Sarah Khalid](/handbook/company/team/#sugaroverflow) <br/> Developer Advocate | Community Engagement, DevSecOps | English | [Beyond Code Series](/handbook/marketing/developer-relations/evangelist-program/#beyond-code-series) | CI/CD, C++, PHP, JavaScript | |
-| [Fernando Diaz](/handbook/company/team/#fjdiaz) <br/> Senior Developer Advocate | DevSecOps with a focus on Security and Compliance | English, Spanish | [Security and Governance tutorials](https://gitlab.com/gitlab-da/tutorials/security-and-governance) | Security, Kubernetes, CI/CD, Python |  |
-| [Itzik Gan-Baruch](/handbook/company/team/#iganbaruch) <br/> Senior Developer Advocate | DevSecOps with a focus on CI/CD, Remote Development/IDEs and Value Stream Management | English, Hebrew |  |  Remote Development, CI/CD, Value Stream Management |  |
+| Team member |  Focus areas | Languages | Projects | Technologies | Resources |
+|-------------|--------------|-----------|----------|--------------|-----------|
+| [Abubakar Siddiq Ango](/handbook/company/team/#abuango) <br/> Developer Advocate |  Program management, team content creation and repurpose. DevSecOps with a focus on the Cloud Native Ecosystem | English, Yoruba, Hausa | [DevRel Bot](/handbook/marketing/developer-relations/developer-advocacy/projects/#developer-relations-bot), [Campaign Manager](/handbook/marketing/developer-relations/community-apps/campaign-manager/), [event support](/handbook/marketing/developer-relations/developer-advocacy/#corporate-event-support) |  Kubernetes, CI/CD, PHP, Ruby, JavaScript, Rust | [Website](https://abuango.me/) |
+| [Cesar Saavedra](/handbook/company/team/#csaavedra1) <br/> Staff Developer Advocate | DevSecOps with a focus on CD, GitOps, Kubernetes, GitLab Flow, Feature flags, GitLab Duo | English, Spanish | [GitLab demos on YouTube](/handbook/marketing/developer-relations/developer-advocacy/content/#youtube-playlists), Analyst relations demos, Competitive Research, CD Overview, Feature Flags, GitLab Flow |  Kubernetes, GitOps, CI/CD, Java, AI |  |
+| [Daniel Helfand](/handbook/company/team/#dhelfand) <br/> Developer Advocate | DevSecOps | English |  | CI/CD, Kubernetes, Go |  |
+| [Fatima Sarah Khalid](/handbook/company/team/#sugaroverflow) <br/> Developer Advocate | Community Engagement, DevSecOps | English | [LinkedIn Live](/handbook/marketing/developer-relations/developer-advocacy/projects/#linkedin-lives-in-collaboration-with-the-social-team), [Community Engagement](/handbook/marketing/developer-relations/developer-advocacy/#community-engagement) | CI/CD, C++, PHP, JavaScript | |
+| [Fernando Diaz](/handbook/company/team/#fjdiaz) <br/> Staff Developer Advocate | DevSecOps with a focus on Security and Compliance | English, Spanish | [GitLab demos on YouTube](/handbook/marketing/developer-relations/developer-advocacy/content/#youtube-playlists), Analyst relations demos, [event support](/handbook/marketing/developer-relations/developer-advocacy/#corporate-event-support), [Security and Governance tutorials](https://gitlab.com/gitlab-da/tutorials/security-and-governance) | Security, Kubernetes, CI/CD, Python |  |
+| [Itzik Gan-Baruch](/handbook/company/team/#iganbaruch) <br/> Staff Developer Advocate | DevSecOps with a focus on CI/CD, Remote Development/IDEs and Value Stream Management | English, Hebrew | [Product tours](/handbook/marketing/developer-relations/developer-advocacy/content/#product-tours), [Click-through demos](/handbook/marketing/developer-relations/developer-advocacy/content/#click-through-demos), [CI/CD components](/handbook/marketing/developer-relations/developer-advocacy/projects/#cicd-components-catalog) |  Remote Development, CI/CD, Value Stream Management |  |
 | [John Coghlan](/handbook/company/team/#john-coghlan) <br/> Director, Developer Advocacy | Strategy and Planning in Developer Advocacy | English | | | [Website](https://coghlan.me/) |
-| [Michael Friedrich](/handbook/company/team/#dnsmichi) <br/> Senior Developer Advocate | DevSecOps with a focus on AI and CI/CD efficiency | English, German, Austrian | [CI/CD components maintainer](https://gitlab.com/components) | DevSecOps, AI, CI/CD, Observability, Python, Go, C/C++, Rust, Ruby | [Talks](https://dnsmichi.at/talks/), [Portfolio](https://dnsmichi.at/talks/) |
-| [William Arias](/handbook/company/team/#warias) <br/> Senior Developer Advocate | DevSecOps with a focus on AI/ML, Sec and Data | English, Spanish |  | CI/CD, AI/ML, Kubernetes, Security, Python, C |  |
+| [Michael Friedrich](/handbook/company/team/#dnsmichi) <br/> Staff Developer Advocate | DevSecOps with a focus on  efficiency with AI | English, German, Austrian | [GitLab Duo Adoption](/handbook/marketing/developer-relations/developer-advocacy/projects/#gitlab-duo-adoption), [CI/CD components](/handbook/marketing/developer-relations/developer-advocacy/projects/#cicd-components-catalog) | DevSecOps, AI, CI/CD, Python, Go, C/C++, Rust | [README](/handbook/marketing/readmes/michael-friedrich/), [Talks](https://dnsmichi.at/talks/), [Portfolio](https://dnsmichi.at/portfolio/) |
+| [William Arias](/handbook/company/team/#warias) <br/> Staff Developer Advocate | DevSecOps with a focus on AI/ML, Sec and Data | English, Spanish | Support Ticket Sentiment Analysis, Competitive Research, Analyst relations demos, [End-to-end DevSecOps Platform](/handbook/marketing/developer-relations/developer-advocacy/projects/#organisation-structure) | CI/CD, AI/ML, Kubernetes, Security, Python, C |  |
 
 ## <i class="fa fa-tasks" aria-hidden="true"></i> What we do
 
@@ -122,6 +130,12 @@ Please read the [Content](/handbook/marketing/developer-relations/developer-advo
 
 The Developer Advocate team plays a key role in supporting events. We work closely alongside [Corporate Event Marketing](/handbook/marketing/integrated-marketing/corporate-events/) to provide strategic content and assistance for both corporate and third-party sponsored events. This collaboration ensures the success and seamless execution of various gatherings. To learn more please refer to the [Events page](/handbook/marketing/developer-relations/events/).
 
+### Consultancy
+
+Developer Advocates serve as consultants and subject matter experts (SMEs), leveraging their expertise and experience to support teams and customers with product features, new SKUs, and other topics.
+
+Please read the [Consultancy](/handbook/marketing/developer-relations/developer-advocacy/consultancy/) handbook to learn more about consultancy requests, decision matrix, and examples with GitLab Duo / AI adoption.
+
 ### Spokespersons
 
 Developer Advocates are subject matter experts (SMEs) in their focus areas, and collaborate with the [Corporate Communications team](/handbook/marketing/corporate-communications/) to provide media coverage in the form of interviews, podcasts, content by-lines, etc. Developer Advocates are [GitLab spokespersons](/handbook/marketing/corporate-communications/#spokesperson-criteria) and are required to take relevant training as determined by the [Corporate Communications team](/handbook/marketing/corporate-communications/).
@@ -132,7 +146,7 @@ Our team regularly engages with the wider GitLab community. We do this organical
 
 The Developer Advocate team is the DRI for questions and strategy on the platforms below:
 
-<!-- This partially duplicates https://about.gitlab.com/handbook/marketing/developer-relations/workflows-tools/#tool-stack-overview - when making updates, ensure to keep it in sync. -->
+<!-- This partially duplicates https://handbook.gitlab.com/handbook/marketing/developer-relations/workflows-tools/#tool-stack-overview - when making updates, ensure to keep it in sync. -->
 
 | Platform | Description | Workflows |
 |-------------|-------------|-----------|
@@ -186,6 +200,18 @@ Measuring what we do is very important to understand our impact, re-assess conte
 GitLab team members can also reach us at any time on the [#dev-advocacy-team](https://app.slack.com/client/T02592416/CMELFQS4B) Slack channel where we share updates, ideas, and thoughts with each other and the wider team.
 
 We use [developer-advocacy-updates](https://gitlab.slack.com/archives/C04R2RME4F7) for content shares and other updates that don't warrant generating noise in the larger channel. Many updates are automated using [Zapier workflows](/handbook/marketing/developer-relations/workflows-tools/zapier/)
+
+### Team meetings
+
+1. Dev Advocacy team meeting (bi-weekly) - Agenda: search for `Developer Advocacy Bi-Weekly` in GDrive.
+1. Developer Relations all-hands (monthly) - Agenda: search for `Developer Relations & Strategy | All Hands Agenda` in GDrive.
+1. Dev Advocacy Showcase (monthly) - Agenda: search for `Developer Advocacy Showcase [monthly]` in GDrive.
+
+### Reporting
+
+We organize our work through documented [team workflows](/handbook/marketing/developer-relations/developer-advocacy/workflow/), ensuring transparency and efficiency. Most of our results reporting is automated through triage bots and metrics collection.
+
+Additional reporting is provided in the weekly Developer Relations report, search for `Developer Relations - End of Week updates` in GDrive.
 
 ## <i class="fa fa-calendar" aria-hidden="true"></i> Calendar
 

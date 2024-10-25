@@ -1,13 +1,6 @@
 ---
-aliases: /handbook/engineering/infrastructure/core-platform/data_stores/database/doc/root-namespace-sharding.html
 title: Sharding GitLab by top-level namespace
 ---
-
-
-
-
-
-
 
 ## Sharding GitLab by top-level namespace
 

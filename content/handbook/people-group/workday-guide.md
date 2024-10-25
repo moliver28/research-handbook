@@ -14,7 +14,7 @@ title: Workday Guide
 
 ## Accessing Workday
 
-Workday will be accessible to all GitLab team members through Okta SSO. Go to [gitlab.okta.com](https://gitlab.okta.com/app/UserHome) and click on the **‘Workday SSO’** tile to login. You can search your apps for quick access.
+Workday will be accessible to all GitLab team members through Okta SSO. Go to [gitlab.okta.com](https://gitlab.okta.com/app/UserHome) and click on the **'Workday SSO'** tile to login. You can search your apps for quick access.
 
 ![Accesing Workday through Okta](../okta-wd.png)
 
@@ -45,6 +45,10 @@ Use these helpful resources for completing team member self-service tasks in Wor
 |Team Members|upload a signed document|[Link](https://docs.google.com/document/d/1FDUdF9AxiRGHh8v9k1zkVL_5-kWUR9JGgv4AfdyvGeU/edit)|-|
 |Team Members|view compensation changes|&bull;Click your profile photo, then View Profile<br />&bull;Click "Actions"<br />&bull;Click `Compensation > View Compensation Statement History`|-|
 |Team Members|set Team Page export preferences|[Link](https://docs.google.com/document/d/16_G0jQEjV3f08rGZ65g6RHTCSX5IfFalo9ZUdLEqH1s/edit)|-|
+|Team Members|request time off & view balances|[Link](https://docs.google.com/document/d/1CZvTbPfvCOHDqA9riifMNNN0wsZyaxIql14cj_M5TK8/edit)|-|
+|Team Members|correct time off|[Link](https://docs.google.com/document/d/1c0Qp738HXEeIb_SxUeKZYlG3su086CO5Dxa618Rvffk/edit)|-|
+|Team Members|request time off through Slack|[Link](https://docs.google.com/document/d/1co0-_8YEV2iS7YIFsDdsSqw7ohCd1nNd3HCQU7jTQMo/edit)|-|
+|Team Members|request a leave of absence|[Link](https://docs.google.com/document/d/1ZatJdGp485lOS2QVrxYJByQK8dD_CMGiLVOykgd338w/edit)|-|
 |Managers|request a one-time payment|[Link](https://docs.google.com/document/d/15_cqMAIoqkxNhoCTL42X3XUpr0E9fNZXFmY3Yitk2LQ/edit)|-|
 |Managers|terminate team members (voluntary)|[Link](https://docs.google.com/document/d/1Fr1G1i1kssfADgDf3D6LbZHR8RZmWKZYDNV8AfduZ1c/edit)|-|
 |Managers|view team information|[Link](https://docs.google.com/document/d/1HlvaxIvmUPL6GLB3z6TqHWMf95RrDD7aOaeZPE0Hm7Q/edit)|-|
@@ -56,7 +60,7 @@ Use these helpful resources for completing team member self-service tasks in Wor
 
 ## Job Title Speciality Creation/Update
 
-If you require any changes to a job title speciality or need a new job title speciality created, please open an [issue](https://gitlab.com/gitlab-com/people-group/people-tools-technology/general/-/issues/new) for the People Tech team to review. Select the `Workday: Job Title Speciality Request` template option. Once the job title speciality has been created, and you need changes to team members profiles in Workday, please send an email to `people-connect@gitlab.com` for assistance.
+If you require any changes to a job title speciality or need a new job title speciality created, please open an [issue](https://gitlab.com/gitlab-com/people-group/people-tools-technology/general/-/issues/new) for the People Tech team to review. Select the `Workday: Job Title Speciality Request` template option. Once the job title speciality has been created, and you need changes to team members profiles in Workday, please submit a Job Title Specialty request in HelpLab for assistance.
 
 ## How is Workday being implemented?
 
@@ -132,7 +136,7 @@ Modules/functionality being implemented:
 
 ## Workday support
 
-For general navigation and functionality questions, please contact [#people-connect](https://gitlab.slack.com/archives/C02360SQQFR).
+For general navigation and functionality questions, please contact the People Connect team via HelpLab.
 For report requests, or to request an enhancement or report a bug, please create an issue in the [People Technology Intake project](https://gitlab.com/gitlab-com/people-group/people-tools-technology/general/issues/new?issuable_template=intake)
 
 ## Frequently asked questions

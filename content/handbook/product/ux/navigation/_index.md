@@ -21,7 +21,7 @@ In the past, teams added items to highlight new features. However, this created 
 
 ## What kind of navigation changes require approval?
 
-While Gitlab's UX allows users to navigate across the product in different ways, the focus of the approval process is on the left-side navigation. This area serves both as navigation and as a feature discovery point for users. As the navigation evolves, it's crucial that we maintain a balance between a focus on core workflows and feature visibility.
+While GitLab's UX allows users to navigate across the product in different ways, the focus of the approval process is on the left-side navigation. This area serves both as navigation and as a feature discovery point for users. As the navigation evolves, it's crucial that we maintain a balance between a focus on core workflows and feature visibility.
 
 To help maintain this balance, we ask for everyone to use this process when proposing changes to the left-side navigation:
 
@@ -117,7 +117,7 @@ The Foundations PM is the DRI for determining if your proposal can follow the li
 
 ## Reconciliation process
 
-The navigation proposal process attempts to balance a focus on core workflows and feature visibility, which means sometimes proposal authors may disagree with the Foundations team decision. If you feel like we’ve struck the wrong balance, let’s follow the [manager mention thread process](/handbook/communication/#scaling-merge-requests-through-manager-mention-mrs-formerly-consolidated-mrs). Add a comment to the proposal and:
+The navigation proposal process attempts to balance a focus on core workflows and feature visibility, which means sometimes proposal authors may disagree with the Foundations team decision. If you feel like we've struck the wrong balance, let's follow the [manager mention thread process](/handbook/communication/#scaling-merge-requests-through-manager-mention-mrs-formerly-consolidated-mrs). Add a comment to the proposal and:
 
 1. Summarize why the proposal was rejected and your perspective on why this decision is incorrect
 1. Mention your manager and the Foundations PM manager

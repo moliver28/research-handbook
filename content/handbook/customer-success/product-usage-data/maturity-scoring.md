@@ -1,16 +1,7 @@
 ---
-
 title: "Use Case Adoption Scoring"
 description: "An overview of Adoption Scoring, how it is calculated, and how CSMs can use the information with customers in their conversations."
 ---
-
-
-
-
-
-
-
-
 
 *For an overview of Gainsight, and information about how to login, please refer to the [Gainsight Overview Page](/handbook/sales/gainsight/).*
 
@@ -28,7 +19,7 @@ By looking at the Adoption scores, the CSM will gain an understanding of the cus
 
 **Timeframe: 2-3 Months**
 
-The first step in the process of building a Use Case adoption score starts with identifying Lighthouse metrics that can gauge a customer’s level of performance and adoption for a given use case. To capture the breadth of use case adoption, we rely on Leading Indicators that capture weekly/monthly usage of key features within a use case to accurately measure the maturity of a customer's adoption.
+The first step in the process of building a Use Case adoption score starts with identifying Lighthouse metrics that can gauge a customer's level of performance and adoption for a given use case. To capture the breadth of use case adoption, we rely on Leading Indicators that capture weekly/monthly usage of key features within a use case to accurately measure the maturity of a customer's adoption.
 
 Product Management, Data, and Customer Success teams play a big role in identifying use case adoption specific metrics. Product Marketing works with Product Managers to identify Adoption Recommendations for each use case which can be viewed on the respective Use Case Resource Pages. After identifying key metrics, the respective Product team taken on the responsibility of instrumenting said metrics (if they do not exist already), after which we move on to identifying a denominator to normalize the metric (i.e. `Git Operations - User L28D` / by `Billable Users` = `Git Operation Utilization %`).
 
@@ -199,21 +190,18 @@ The following metrics are used to determine a customer's SCM Adoption Score:
 <br>
 [Adoption Guide Reference Link](/handbook/marketing/brand-and-product-marketing/product-and-solution-marketing/usecase-gtm/version-control-collaboration/#adoption-recommendation)
 
-#### Resources
+### Usage Rollup Methodology
 
-- [Template Deck for Customer Conversations](https://docs.google.com/presentation/d/13IVtUCA8-S3Tjtcnk3y6eY-zEG6R5hmD3bSoKn3C-N8/edit?usp=sharing) (Internal Only)
-- Use the [Use Case Adoption Scorecard](https://gitlab.gainsightcloud.com/v1/ui/dashboard#/f18df482-a70f-4a8b-8c82-1f99538d777e) dashboard in Gainsight to view your customer's SCM Metrics to export and calculate the Adoption score
-- [Use Case Adoption Scoring - Defined Metrics](https://docs.google.com/spreadsheets/d/1dJLQIwoQxSK6pJL-ZmbMK_VUBmY0INZPgVsWqsypHzI/edit?usp=sharing) (Internal Only)
-- [Customer 360](https://10az.online.tableau.com/#/site/gitlab/views/DRAFTCustomer360/Customer360LandingPage?:iid=1) - A dashboard that provides a comprehensive, detailed view of individual customers, consolidating their health score, use case adoption and account information.
-- [Account Landscape](https://10az.online.tableau.com/#/site/gitlab/views/DRAFTAccountLandscapeUseCaseAdoption/AccountLandscapeDashboard?:iid=1) - A dashboard that provides macro level overview of all customers to identify and target specific segments of customers with change in use case adoption
-<br>
+Usage data is typically calculated at the GitLab intance level. When we roll this data up to the customer account level we first identify a single instance to represent the subscription. At its basics, this is done by identifying the production instance with the most billable users (it is imperitive that CSM/Es make sure production instances are labeled as such). After tying a single instance to each subscription, we apply the following methodology that weights each subscription's associated usage using the ARR for the subscription as a % of the customer's total ARR.
+
+![Usage Rollup Methodology](https://lucid.app/publicSegments/view/e8045d2a-3135-4e66-b52d-21e42b566d10/image.png)
 
 ### Lack of Adoption Reason Tracking
 
 **Overview:**
 <br>
 
-With each of our CSM/A managed customers we track the primary reasons for lack of adoption of CI and Security Use Cases as these are critical for unlocking broader platform value. With the reasons tracked systematically we are then able to make a more concerted effort in building content and programs around each reason. As a CSM/A at Gitlab, it is expected that for every customer managed we have this reason populated and updated as needed (Security reasons are only needed for Ultimate customers). It should then be kept in mind when developing and executing against the customer’s Success Plan.
+With each of our CSM/A managed customers we track the primary reasons for lack of adoption of CI and Security Use Cases as these are critical for unlocking broader platform value. With the reasons tracked systematically we are then able to make a more concerted effort in building content and programs around each reason. As a CSM/A at GitLab, it is expected that for every customer managed we have this reason populated and updated as needed (Security reasons are only needed for Ultimate customers). It should then be kept in mind when developing and executing against the customer's Success Plan.
 <br>
 
 **How to Track:**
@@ -244,7 +232,7 @@ With each of our CSM/A managed customers we track the primary reasons for lack o
 3. Challenges Related to Learning About Functionality and How to Use It
 4. Organizational Challenges Within Your Company Related to Adopting
 5. GitLab Continuous Integration (CI) Workflow(s) Challenges
-6. Deployment Workflow(s) Challenges within Gitlab
+6. Deployment Workflow(s) Challenges within GitLab
 7. Challenges with Planning and Tracking Work
 8. Repository and Code Review Workflow Challenges
 9. Migrating to GitLab
@@ -269,4 +257,13 @@ With each of our CSM/A managed customers we track the primary reasons for lack o
 10. Organizational Challenges Within Your Company Related to Adopting
 11. Security and Compliance Workflow Challenges
 12. N/A (Green DSO Adoption)
+<br>
+
+#### Resources
+
+- [Template Deck for Customer Conversations](https://docs.google.com/presentation/d/13IVtUCA8-S3Tjtcnk3y6eY-zEG6R5hmD3bSoKn3C-N8/edit?usp=sharing) (Internal Only)
+- Use the [Use Case Adoption Scorecard](https://gitlab.gainsightcloud.com/v1/ui/dashboard#/f18df482-a70f-4a8b-8c82-1f99538d777e) dashboard in Gainsight to view your customer's SCM Metrics to export and calculate the Adoption score
+- [Use Case Adoption Scoring - Defined Metrics](https://docs.google.com/spreadsheets/d/1dJLQIwoQxSK6pJL-ZmbMK_VUBmY0INZPgVsWqsypHzI/edit?usp=sharing) (Internal Only)
+- [Customer 360](https://10az.online.tableau.com/#/site/gitlab/views/DRAFTCustomer360/Customer360LandingPage?:iid=1) - A dashboard that provides a comprehensive, detailed view of individual customers, consolidating their health score, use case adoption and account information.
+- [Account Landscape](https://10az.online.tableau.com/#/site/gitlab/views/DRAFTAccountLandscapeUseCaseAdoption/AccountLandscapeDashboard?:iid=1) - A dashboard that provides macro level overview of all customers to identify and target specific segments of customers with change in use case adoption
 <br>

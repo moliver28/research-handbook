@@ -1,7 +1,5 @@
 ---
 title: "Red Team Rules of Engagement"
-aliases:
-  - /handbook/security/threat-management/red-team/red-team-roe/
 ---
 
 This page outlines the general rules that apply to all work conducted by the Red Team. Individual operations may include additional rules defined during planning stages.
@@ -18,7 +16,7 @@ Third-party systems that are used by GitLab for official business purposes are a
 
 All other systems managed by GitLab are in scope for all types of Red Team operations.
 
-Team members can request that a system be excluded from our scope by [opening an issue here](https://gitlab.com/gitlab-com/gl-security/threatmanagement/redteam/redteam-internal/red-team-operations/-/issues/new).
+Team members can request that a system be excluded from our scope by [opening an issue here](https://gitlab.com/gitlab-com/gl-security/security-operations/redteam/redteam-internal/red-team-operations/-/issues/new).
 
 ### Company-Issued Laptops
 
@@ -40,12 +38,7 @@ Please check with your manager to ensure they have no concerns with your partici
 
 ## Stealth Operations
 
-[Stealth Operations]({{< ref "_index.md#stealth-operations" >}}) require careful planning. During the logistics phase, we propose objectives and outline the threats we'll emulate, seeking approvals.
-
-Stealth operations fall into two categories, which use the following planning templates:
-
-- [Campaign-based operations](https://gitlab.com/gitlab-com/gl-security/threatmanagement/redteam/redteam-public/red-team-issue-templates/-/blob/main/.gitlab/issue_templates/02-logistics.md)
-- Continuous operations (link coming soon)
+[Stealth Operations]({{< ref "_index.md#stealth-operations" >}}) require careful planning. During the logistics phase, we propose objectives and outline the threats we'll emulate, seeking approvals in [this template](https://gitlab.com/gitlab-com/gl-security/security-operations/redteam/redteam-public/resources/red-team-issue-templates/-/blob/main/.gitlab/issue_templates/stealth-02-logistics.md).
 
 The sections below contain general rules that apply to all stealth operations.
 
@@ -60,7 +53,7 @@ The sections below contain general rules that apply to all stealth operations.
 
 - Active stealth operations will have a dedicated Slack channel where all trusted participants are invited.
 - The private `#is-this-the-redteam` channel is always available for Security Directors and above to inquire about Red Team activities.
-- Managers and above can [submit an issue using this template](https://gitlab.com/gitlab-com/gl-security/threatmanagement/redteam/redteam-internal/red-team-operations/-/issues/new?issuable_template=request-for-disclosure) to request disclosure of Red Team activities. This template contains details on how these issues are handled.
+- Managers and above can [submit an issue using this template](https://gitlab.com/gitlab-com/gl-security/security-operations/redteam/redteam-internal/red-team-operations/-/issues/new?issuable_template=request-for-disclosure) to request disclosure of Red Team activities. This template contains details on how these issues are handled.
 - If team members ask whether a specific activity or IoC belongs to the Red Team outside of these designated channels, we will follow the process documented in ["Is This The Red Team?"]({{< ref "_index.md#is-this-the-red-team" >}}).
 - If asked in one of the designated Slack channels, the following will happen:
   - Any ongoing stealth activities will be paused until a definitive answer can be provided.
@@ -70,7 +63,7 @@ The sections below contain general rules that apply to all stealth operations.
     - The operation is disclosed internally and continues in the open to further validate security controls and detection mechanisms. Incident response is discontinued for known Red Team activities.
     - The entire operation is not disclosed internally, but the trusted participant informs the team that a specific activity or IoC belongs to the Red Team. The systems involved are considered "virtually contained" and the Red Team relinquishes any access to those systems.
     - The operation ceases completely.
-- We should always prioritize the security of the organization and the wellbeing of our team members. There may be times when we need to make a judgement call and answer these questions quickly, outside of the official channels.
+- We should always prioritize the security of the organization and the well-being of our team members. There may be times when we need to make a judgement call and answer these questions quickly, outside of the official channels.
 
 ### Engaging with SIRT
 

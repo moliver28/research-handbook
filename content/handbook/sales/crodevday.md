@@ -1,16 +1,7 @@
 ---
-
 title: "CRO Career Development Day"
 description: "CRO Career Development Day is a direct result of the feedback we received from you in our FY22 Engagement Survey on Career Development. It will include time to think big about your career, hear from team members across GitLab, and guidance to help you get your plan into writing and talk about it with your manager."
 ---
-
-
-
-
-
-
-
-
 
 ## CRO Career Development Day
 
@@ -22,7 +13,7 @@ The CRO team will dedicate an entire day to particpate in workshops and round ta
 
 The opening session will feature an interactive conversation with our CRO covering the following:
 
-- What’s in store for the day
+- What's in store for the day
 - Why it matters
 - How to use the day to your advantage
 - What resources are available to help
@@ -40,7 +31,7 @@ Team members will have the opportunity to complete self-guided skill building an
 
 ### Leadership corner and closing session
 
-During this session we will feature leaders at GitLab. That includes individual contributors and/or managers discussing what makes a “leader” and sharing tips and advice for career success.
+During this session we will feature leaders at GitLab. That includes individual contributors and/or managers discussing what makes a "leader" and sharing tips and advice for career success.
 
 ### Resources
 

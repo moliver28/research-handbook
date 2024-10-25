@@ -1,16 +1,7 @@
 ---
-
 title: "Opportunity Consults"
 description: "Opportunity consults are deal reviews that focus on helping a sales team member maximize the likelihood of winning and securing the customer's business"
 ---
-
-
-
-
-
-
-
-
 
 ## Overview
 
@@ -30,7 +21,7 @@ Below is a general recommendation of the format and flow of an opportunity consu
 | ------ | ------ |
 | Manager Set-Up (5 minutes) | - Set expectations of the call by stating the purpose, process and payoff of the session |
 | Seller-Led Opportunity Overview (10 minutes uninterrupted) | - Job aid: [Opportunity Qualifier](https://docs.google.com/document/d/1Tz6bQKD4Ff2-XqpSXRQslD8yvrphwXaL6oEl74DAjeQ/edit?usp=sharing) <br> - Provides brief opportunity background (e.g., relevant account history, recent changes on opportunity) <br> - Describes current deal state (e.g., sales process stage, forecast stage, key business issues, compelling event) <br> - Identifies gaps in Mantra, [MEDDPPICC](/handbook/sales/meddppicc/), and additional challenges for discussion |
-| Manager Consult (30 minutes) | - Job aid: [Opportunity Coaching Guide](https://docs.google.com/document/d/1IZA9Fo2SvZOrtUVpXOjwwqs76lKdXFs4hTezbxRq5v8/edit?usp=sharing) <br> - Ask open-ended, two-sided questions around focus areas to inspect (in a good, helpful way) the opportunity <br> - Provide relevant feedback and coaching based on the identified gaps and challenges <br> - Assist the seller in defining an action plan and exactly “how” to execute on the next steps |
+| Manager Consult (30 minutes) | - Job aid: [Opportunity Coaching Guide](https://docs.google.com/document/d/1IZA9Fo2SvZOrtUVpXOjwwqs76lKdXFs4hTezbxRq5v8/edit?usp=sharing) <br> - Ask open-ended, two-sided questions around focus areas to inspect (in a good, helpful way) the opportunity <br> - Provide relevant feedback and coaching based on the identified gaps and challenges <br> - Assist the seller in defining an action plan and exactly "how" to execute on the next steps |
 | Manager + Seller Agree to Action Plan (5 minutes) | - Seller recaps opportunity-specific sales strategy <br> - Seller documents next steps/critical actions in CRM or via email to manager |
 
 ## Opportunity Consult Coverage
@@ -54,7 +45,7 @@ The higher the Opportunity Consult Coverage, the greater confidence sales leader
 - Focus on continually driving higher fidelity Command Plans through each customer communication/interaction
 - Coaches/managers should first seek to understand the current level of understanding of those they are coaching before explaining key or misunderstood concepts
 - Coaches/managers should encourage reps to
-    1. **Commit to specific, concrete, actionable next steps** (e.g., “I am going to do X, Y, and Z to test my Champion” instead of “I am going to test my Champion”) and
+    1. **Commit to specific, concrete, actionable next steps** (e.g., "I am going to do X, Y, and Z to test my Champion" instead of "I am going to test my Champion") and
     1. **Document action items in a shared way** (e.g. document in Salesforce or send a summary wrap-up communication after the meeting)
 - Consider including key account team members (e.g. SAs and CSMs) in Opportunity Consults from time to time to facilitate improved transparency and collaboration
 - Coach sales team members on the best practices related to the Close Plan within a [Command Plan](/handbook/sales/command-of-the-message/command-plan/)

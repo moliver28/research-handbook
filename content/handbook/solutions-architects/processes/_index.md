@@ -1,8 +1,6 @@
 ---
-
 title: Solutions Architects Processes
 ---
-
 
 ## SA Process Maps
 
@@ -99,7 +97,7 @@ handbook page.
 - You can start with [Security - GitLab Trust Center](https://about.gitlab.com/security/) in some cases.
 - Encourage customers to use and review [Self-service Information Gathering](/handbook/security/security-assurance/field-security/customer-security-assessment-process.html).
 - SAs can attempt a first-pass for all security questionnaires if time permits
-  - Do it, it’s fun and educational!
+  - Do it, it's fun and educational!
   - You can also make use of the [GitLab's Trust Center](https://trust.gitlab.com/)
 - Additional requests can be made in [#sec-fieldsecurity](https://gitlab.slack.com/archives/CV5A53V70) Slack Channel.
 - When spending time on a security questionnaire ensure you capture the initial time dedicated via our SA Activity Capture system (troops).
@@ -214,24 +212,24 @@ Solution Architects should participate in [technical discovery](#technical-disco
 - Prospect Q&A sessions
 - RFI/RFP completion
 - PoV planning, documentation and execution strategy
-- [Security Audits](https://about.gitlab.comhandbook/security/security-assurance/field-security/customer-security-assessment-process.html)
+- [Security Audits](/handbook/security/security-assurance/field-security/customer-security-assessment-process.html)
 - [SOW Scoping with Professional Services](/handbook/customer-success/professional-services-engineering/selling/)
 
 SA's may also work in tandem with a CSM to support existing customers, especially when expand opportunities exist within the account. And SA's may also have regular touch points smaller customers who do not have a CSM assigned.
 
-#### [SA/CSM Engagement Overlap]
+#### SA/CSM Engagement Overlap
 
 - On a high level note, SAs are the pre-sales advisors for our prospective as well as existing customers and CSMs manage the post-sales relationship of existing customers and are responsible for the GitLab adoption.
 
-Further details can be found here: (/handbook/customer-success/#overlap-between-solution-architects-and-customer-success-managers)
+Further details can be found here: [Overlap Between Solution Architects and Customer Success Managers](/handbook/customer-success/#overlap-between-solution-architects-and-customer-success-managers)
 
 #### Technical Discovery and Demo Preparation
 
-The Solutions Architect, in order to tailor conversations and demos to demonstrate value as well as address current problem areas, will want to understand the following information, and may request further technical discovery() prior to any demo:
+The Solutions Architect, in order to tailor conversations and demos to demonstrate value as well as address current problem areas, will want to understand the following information, and may request further technical discovery[^footnote-01] prior to any demo:
 
 1. **Outcome:**
 
-- What’s in it for the client?
+- What's in it for the client?
 - Why look at a new strategy for software development?
 - What triggered the sudden client interest in GitLab?
 
@@ -251,13 +249,13 @@ The Solutions Architect, in order to tailor conversations and demos to demonstra
 - What collaboration or governance opportunities exist?
 - What security or compliance inefficiencies exist?
 
-_Qualification criteria typically involves both Business requirements and Technical Functional/Non-Functional requirements *(i.e, Functional requirements explain how the system must work, while non functional requirements explain how the system should perform._
+[^footnote-01]: _Qualification criteria typically involve both Business requirements and Technical Functional/Non-Functional requirements (i.e, Functional requirements explain how the system must work, while non functional requirements explain how the system should perform.)_
 
 Once a technical discovery has been completed, SA will work within the account team to solidify a path forward (will the customer proceed with a purchase, trial, proof of value?) and idenitfy the corresponding metrics that will be used to determine the success of the evaluation.
 
 ## Solution Architect Engagement Models
 
-## U.S. Enterprise Account and Opportunity Engagement Model
+### U.S. Enterprise Account and Opportunity Engagement Model
 
 The Enterprise Strategic SA Engagement Model intends to foster collaboration and influence an even greater iteration amongst ourselves and customers.
 
@@ -307,23 +305,39 @@ SA engagement for customer interactions, RFP's, audits and more ([how to engage 
 
 APAC SAs are aligned regionally into regions such as ANZ, SEA (South-East Asia), India, South Korea and Japan in close alignment to the Strategic Account Leaders, Commercial AEs and Channels Managers territories. Teams collaborate to the standards [Working Agreements](#working-agreements).
 
-### Alliances SA Engagement Model
+### Ecosystem SA Engagement Model
 
-The Alliance SA team is global. The Alliance SA's are aligned with Alliance Partner Managers/Directors and the Alliance Business Development Managers. In customer accounts where an Alliance partner technology is involved, an Alliance SA engagement for customer interactions can be requested by an Account Executive / SA / CSM using the appropriate issue board. For more details, click on [how to engage an Alliance SA](/handbook/solutions-architects/processes/alliance/). Here's the [Alliance Triage Board](https://gitlab.com/gitlab-com/alliances/gitlab-alliances-team/alliance-sa-work/-/boards/2245192) and the [issue template](https://gitlab.com/gitlab-com/alliances/gitlab-alliances-team/alliance-sa-work/-/issues/new?issuable_template=GitLab%20Internal%20Assistance)
+The Ecosystem SA (ESA) team is global. The Ecosystem SA's are aligned variously with global and regional partners of all types based on the team member's experience and needs of the region.  Working alongside Ecosystem Sales Managers (ESM) in each region, Ecosystem SAs focus on developing Partner relationships as opposed to direct Customer relationships.  Ecosystems SAs do participate in direct customer engagments when the Partner needs support in the sales cycle and their account team is not ready to involve GitLab sales teams.  Ecosystem SAs will seek to document all customer interactions and as quickly as possible hand off to Field SAs to drive the opportunity with the partner and customer.  Ecosystem SAs can provide backup to the Field SA community in support of a Partner aligned opportunities.
 
-### Channel SA Engagement Model
+Most Opportunity based enagement should start with the ESM and they should identify the appropriate Ecosystem SA to engage.  The ESM for every account is listed in the SFDC customer account record.  The ESA for a partner account is listed in the SFDC partner account record.  If no ESA is listed reach out to the Ecosystem Sales Manager for assistance.
 
-The Channel SA's are aligned globally with the Channel program team as well as regionally with Channel Sales Directors and Channel Account Managers. Channel SA's are primarily focused on developing Partner relationships as opposed to direct Customer relationships.  Our primary community served are the regional Channel Sales Directors and their Channel Account Managers (CAMs), Partner teams, and our own managment.  Generally for direct customer opportunity support, engage the appropriate GitLab SA community for your customer.  Channel SA's can provide backup to the Customer SA community in support of a Partner aligned opportunity.
-
-Most Opportunity based enagement should start with the CAM and they should identify the appropriate Channel SA to engage.  If you do not know the CAM for your account / partner reach out via the `#channel-sales` slack channel for general sales questions about working with partners or finding help with a specific channel opportunity.
-
-In customer accounts where a Channel partner is involved, engagement with the Partner from a Channel SA can be requested by an Account Executive / SA / CSM.  For more details, click on [how to engage a Channel SA](/handbook/solutions-architects/processes/channel/).  The details on Channel SA engagement model can be found in this [RACI spreadsheet](https://docs.google.com/spreadsheets/d/1AxDrQp2HeIXfomw8QRrb0gemQCHktt_BR3ufpLTtxNc/).
+See the details of how to engage an Ecosystem SA in the [Ecosystem Solutions Architect Engagement Model](/handbook/solutions-architects/processes/ecosystem#Engaging-an-Ecosystem-SolutionsArchitect) handbook page.
 
 ### Subject Matter Expert Engagement Model
 
 Before you invite or request an [Subject Matter Expert](/handbook/solutions-architects/sa-practices/subject-matter-experts) for your opportunity, ensure your opportunity is fully qualified. The SME should be requested by the primary Solutions Architect. This will help make sure we're using our resources efficiently and effectively.
 
 Create an issue in the [SME Triage Project](https://gitlab.com/gitlab-com/customer-success/sa-triage-boards/sme-triage) using the template. You can have a look on the [board](https://gitlab.com/gitlab-com/customer-success/sa-triage-boards/sme-triage/-/boards/5983907) for current engagements.
+
+### Secondary SA
+
+A given opportunity may be found to be too complex, valuable, or risky for a single SA to adequately secure a technical win on their own.
+
+#### Ad Hoc Support
+
+As part of GitLab's CREDIT values, SAs are encouraged to collaborate with one-another on customer activities to deliver better results. As such, SAs often reach out on their own seeking assistance. Examples include asking questions in Slack channels or Stackoverflow, scheduling brainstorming or enablement meetings, and supporting each other's demonstrations or workshops. 
+
+#### Long-Term
+
+To better support the business and create an opportunity for SAs to collaborate and learn from one another, SA Leaders may assign a secondary SA to pair long-term on an opportunity. 
+
+When only ad hoc support is needed without a long-term secondary SA, SAs should continue relying on and collaborating with one another. 
+
+#### Tracking Secondary SA Engagement on Opportunities
+
+Ad hoc and long-term secondary SAs should log activities as if they were the primary SA supporting the account, capturing their impression of the customer interaction. The `Primary Solutions Architect` field in Salesforce would be used to designate the primary SA, and any other SAs involved in the opportunity would be derived from the logged activities.
+
+If a secondary SA is also involved as a Subject Matter Expert, the `SA Assistance - Subject Matter` SA Activity Type should be used when logging the activity. 
 
 ### Issue Creation Details
 
@@ -385,7 +399,7 @@ There is a 5 day SLA in place to secure SA participation.
 
 ## Request Solutions Support from Product
 
-When a prospect or customer have required capabilities that do not map directly to our product offering, Solutions Architect’s first step is to explore solutions or work-arounds that would satisfy their requirements with our current toolset.
+When a prospect or customer have required capabilities that do not map directly to our product offering, Solutions Architect's first step is to explore solutions or work-arounds that would satisfy their requirements with our current toolset.
 If the SA is unable to determine an approach that works for the prospect, the next best action is to reach out to the Product Manager. To determine what Product Manager is appropriate, review the [Product Categories handbook page](/handbook/product/categories/).
 
 To be efficient as possible, this is the recommended approach:

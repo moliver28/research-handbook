@@ -1,6 +1,5 @@
 ---
 title: "Change Management"
-controlled_document: true
 ---
 
 ## Purpose
@@ -60,7 +59,7 @@ Examples:
 
 ## When you are not sure
 
-- Ask for opinions in [#infrastructure-lounge](https://gitlab.slack.com/archives/CB3LSMEJV) or [#reliability-lounge](https://gitlab.slack.com/archives/C03QC5KNW5N)
+- Ask for opinions in [#infrastructure-lounge](https://gitlab.slack.com/archives/CB3LSMEJV) or [#g_production_engineering](https://gitlab.slack.com/archives/C03QC5KNW5N)
 - Open a change management issue, err on the side of caution.
 
 ## Change Request Workflows
@@ -127,6 +126,7 @@ These are changes that are not expected to cause downtime in Production, but whi
 1. Most IaC changes to pets - Postgres, Redis, and other Single Points of Failure.
 1. Load Balancer Configuration - major changes to backends or front ends, fundamental to traffic flow.
 1. IaC changes to production Virtual Machines outside of Kubernetes when there is a decrease.
+1. Major changes to Teleport, which is essential for troubleshooting production issues.
 1. Major changes to alerting routing or integrations.
 1. Any procedural invocation such as a SQL script, a ruby script module, a rake task which is performed on a production console server, either using `gitlab-rails` or `gitlab-rake` should be considered as a Criticality 2 change.
 
@@ -190,6 +190,7 @@ When scheduling your change, keep the impact of the change in mind and consider 
 1. Does the change being conducted contain a planned failover or other high-risk component, where the risk to customers can be reduced by executing the change in a low-traffic period?
 1. As the DRI for the change, are you able to supervise the change, and communicate its status to the EOC, for an agreed upon period of time after the change?
 1. Is the change being conducted at a time conducive to recovering (i.e. rollback of the change) from any issues arising from the change? It is a general best practice to schedule the change early enough in the change technicians' workday to allow for several hours afterwards for any unforeseen impacts to become visible. That way the change technician is still around to mitigate and address those impacts.
+1. Are there Engineer on Call or Release Manager shift changes at or during the proposed time?
 
 ## Change Execution
 
@@ -212,6 +213,8 @@ bastion-01-gstg  $ ./script/migrate
 
 Maintenance changes require change reviews. The reviews are intended to bring to bear the **collective** experience of the team while providing a forum for pointing out potential risks for any given change. Consider using multiple reviewers for ~C1 or ~C2 Change requests.
 
+If you are not sure who to request a review from, ask for an SRE to review the change request in [#g_production_engineering](https://gitlab.enterprise.slack.com/archives/C03QC5KNW5N).
+
 Fill each of the items under the `Change Reviewer checklist` based on the change criticality label assigned to the issue.
 
 ## Communication Channels
@@ -226,7 +229,7 @@ This flow is determined by:
 
 For instance, a large end-user may choose to avoid doing a software release during a maintenance window to avoid any chance that issues may affect their release.
 
-Furthermore, avoiding information overload is necessary to keep every stakeholder’s focus.
+Furthermore, avoiding information overload is necessary to keep every stakeholder's focus.
 
 To improve communication the following are recommendations for high criticality Changes:
 
@@ -277,7 +280,8 @@ The following dates are currently scheduled PCLs. Times for the dates below begi
 
 | Dates                       | Type       | Reason                        |
 |-----------------------------|------------|-------------------------------|
-| 2024-03-08 23:00 UTC -> 2024-03-18 09:00 UTC | Hard | GitLab Summit |
+| 2024-10-25 23:00 UTC -> 2024-10-29 11:00 UTC | Hard | Upgrade CI database cluster to PostgreSQL v16 |
+| 2024-11-01 23:00 UTC -> 2024-11-05 11:00 UTC | Hard | Upgrade MAIN database cluster to PostgreSQL v16 |
 | Recurring: [Monthly release date](https://about.gitlab.com/releases/)      | Soft       | Release day                   |
 | Recurring: [Scheduled Family and Friends Days](/handbook/company/family-and-friends-day/#upcoming-family-and-friends-days)         | Soft       | Family and Friends Days                   |
 | Recurring: Saturday 01:00 UTC -> Sunday 21:00 UTC | Soft       | Weekend                   |

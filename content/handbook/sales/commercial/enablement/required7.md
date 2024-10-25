@@ -1,36 +1,29 @@
 ---
-
 title: Guide to the Required 7
 description: >-
   The Required 7 are the 7 tactical skills required to be an excellent
   Commercial Sales Account Executive at GitLab
 ---
 
-
-
-
-
-
-
 ## Guide to the Required 7
 
 ### Why do we need the Required 7?
 
-It’s Monday morning. You have just opened up your laptop. You’ve got 4 customer calls for Ultimate upgrades, 1 IQM to prepare for and 2 quotes to do. You know this because your next steps are clear and up to date.
+It's Monday morning. You have just opened up your laptop. You've got 4 customer calls for Ultimate upgrades, 1 IQM to prepare for and 2 quotes to do. You know this because your next steps are clear and up to date.
 
-Your first call is for an Ultimate upgrade. You have already put a deck together, and you double check your call notes to make sure you haven’t missed anything. Turns out they mentioned that they needed disaster recovery when you spoke to them a couple of weeks ago and you were reminded of this because it was in your call notes. You add a slide or two to cover DR.
+Your first call is for an Ultimate upgrade. You have already put a deck together, and you double check your call notes to make sure you haven't missed anything. Turns out they mentioned that they needed disaster recovery when you spoke to them a couple of weeks ago and you were reminded of this because it was in your call notes. You add a slide or two to cover DR.
 
-You get on the call. The customer is still impressed that your deck is in their colors. You recap the last conversation and take the customer through the reasons why Ultimate is ideal for them. You know security is important because they’ve mentioned it to you a few times on calls now as per your call notes. They like what they see, but the price seems a bit high. But you’ve already thought about that and go through the ROI of using Ultimate. You end the call agreeing to send over a quote and confirm that you will have a check-in in a week’s time. You update your next steps in line with the check-in call date, change the opp stage, update the close dates and paste your raw notes from the deck into a call log.
+You get on the call. The customer is still impressed that your deck is in their colors. You recap the last conversation and take the customer through the reasons why Ultimate is ideal for them. You know security is important because they've mentioned it to you a few times on calls now as per your call notes. They like what they see, but the price seems a bit high. But you've already thought about that and go through the ROI of using Ultimate. You end the call agreeing to send over a quote and confirm that you will have a check-in in a week's time. You update your next steps in line with the check-in call date, change the opp stage, update the close dates and paste your raw notes from the deck into a call log.
 
-Next up, you need to send out those two quotes. You create the quotes, send them via Sertifi and update your next steps to remind you to follow-up with the customer in 2 days’ time.
+Next up, you need to send out those two quotes. You create the quotes, send them via Sertifi and update your next steps to remind you to follow-up with the customer in 2 days' time.
 
-You get an alert - a Zendesk ticket has been created. It’s a tier 2 customer, so you have a quick look and see the customer’s got a problem with their pipelines. You know Support is on it, so you leave it and set a next step to check if they’re happy with the resolution in a couple of days.
+You get an alert - a Zendesk ticket has been created. It's a tier 2 customer, so you have a quick look and see the customer's got a problem with their pipelines. You know Support is on it, so you leave it and set a next step to check if they're happy with the resolution in a couple of days.
 
-You have an IQM tomorrow morning, so you spend 15 minutes preparing. You create the deck in the customer’s branding. You add in info from the SDR’s notes and add the link to the deck in the opp. It’s 25 Premium, so you add in the questions you’ll ask in your command plan. You update the next step to remind yourself to update the opp once the IQM has finished.
+You have an IQM tomorrow morning, so you spend 15 minutes preparing. You create the deck in the customer's branding. You add in info from the SDR's notes and add the link to the deck in the opp. It's 25 Premium, so you add in the questions you'll ask in your command plan. You update the next step to remind yourself to update the opp once the IQM has finished.
 
-It’s time to update your forecast. It takes 10 minutes in Clari because most of the information is already there, as your opportunities in Salesforce are all up to date.
+It's time to update your forecast. It takes 10 minutes in Clari because most of the information is already there, as your opportunities in Salesforce are all up to date.
 
-You’ve now got some time to do some investigation on some of your accounts. You go through your tier 2s and find some that you haven’t spoken to in a couple of months. You email them asking if they are available for a call next week - you’d love to get them a 2 week trial of Premium. Finally, you have some time to clear your inbox and catch up on Slack messages…!
+You've now got some time to do some investigation on some of your accounts. You go through your tier 2s and find some that you haven't spoken to in a couple of months. You email them asking if they are available for a call next week - you'd love to get them a 2 week trial of Premium. Finally, you have some time to clear your inbox and catch up on Slack messages…!
 
 ### What are the Required 7?
 
@@ -67,12 +60,12 @@ You’ve now got some time to do some investigation on some of your accounts. Yo
   </tr>
   <tr>
    <td><strong>Custom pitch deck built for all opps over $5k amount (SMB) or $10k amount (Mid-Market)</strong></td>
-   <td><a href="https://about.gitlab.com/handbook/sales/commercial/#custom-deck-requirements">Requirements</a></td>
+   <td><a href="https://handbook.gitlab.com/handbook/sales/commercial/#custom-deck-requirements">Requirements</a></td>
    <td>It helps you sell on value rather than just features and it arms your champion with the info they need to get sign-off internally to buy GitLab. Lastly, it makes you stand out as a sales rep.</td>
   </tr>
   <tr>
    <td><strong>Capture key information</strong></td>
-   <td>What is the customer’s understanding of what GitLab does should be captured in call notes. We also record why we won / lost a deal</td>
+   <td>What is the customer's understanding of what GitLab does should be captured in call notes. We also record why we won / lost a deal</td>
    <td>It helps us develop our market. Recording win and loss reasons means we can accelerate what is helping us win deals and fix what is making us lose deals.</td>
   </tr>
 </table>
@@ -92,7 +85,7 @@ You should log your call notes immediately after the call. Even better: during t
 Good call notes include:
 
 - Raw notes (the notes as you wrote them during the meeting)
-- Questions you didn’t ask - for example, what did you need to find out that you weren’t able to get on the call?
+- Questions you didn't ask - for example, what did you need to find out that you weren't able to get on the call?
 - A summary, a few bullet points on the key things mentioned in the meeting
 - Next steps, a summary of what needs to happen next that YOU will action and these should be pasted into your next steps on the opportunity too
 
@@ -103,7 +96,7 @@ Call notes must be logged against the opportunity record, *NOT* the account. Thi
 - Good call notes overall: [https://gitlab.my.salesforce.com/00T4M00002bJ1e5](https://gitlab.my.salesforce.com/00T4M00002bJ1e5)
 - Bad call notes: [https://gitlab.my.salesforce.com/0064M00000VMA7C](https://gitlab.my.salesforce.com/0064M00000VMA7C)
 - Video: [how to take notes during a meeting](https://youtu.be/CMMQ5R0pq8I)
-- Video: [Lisa van de Kooij’s tips on taking good notes](https://youtu.be/CKRvxM2F5zc)
+- Video: [Lisa van de Kooij's tips on taking good notes](https://youtu.be/CKRvxM2F5zc)
 
 ### Pro tips
 
@@ -124,7 +117,7 @@ You should rank your accounts within 24 hours of getting them assigned to you. A
 
 ### How to do it
 
-Do some brief research on the customer’s employee count, LinkedIn Insights, latest news, current subscription (or license tier of interest if it’s a prospect) and make a judgement on its potential. You must verify that the account is correctly aligned to you during this exercise and if it's incorrect,[request that it is moved](/handbook/sales/field-operations/gtm-resources/rules-of-engagement/#exception-process-to-request-account-ownership-change). Once you have decided which rank it should be in, mark the account as such in Salesforce and enter notes that outline why you chose that rank. You can also check out the [account ranking section on the handbook](/handbook/sales/commercial/#account-ranking) for more detailed information.
+Do some brief research on the customer's employee count, LinkedIn Insights, latest news, current subscription (or license tier of interest if it's a prospect) and make a judgement on its potential. You must verify that the account is correctly aligned to you during this exercise and if it's incorrect,[request that it is moved](/handbook/sales/field-operations/gtm-resources/rules-of-engagement/#exception-process-to-request-account-ownership-change). Once you have decided which rank it should be in, mark the account as such in Salesforce and enter notes that outline why you chose that rank. You can also check out the [account ranking section on the handbook](/handbook/sales/commercial/#account-ranking) for more detailed information.
 
 Here are some things to consider when ranking an account:
 
@@ -135,13 +128,13 @@ Here are some things to consider when ranking an account:
 
 ### Examples & further resources
 
-Video: [Ryan O’Nell going through how to efficiently rank your accounts](https://youtu.be/M-5OhlYxmFI)
+Video: [Ryan O'Nell going through how to efficiently rank your accounts](https://youtu.be/M-5OhlYxmFI)
 
 ### Pro tips
 
-- Get into the habit of double-checking an account’s rank whenever you engage with it.
+- Get into the habit of double-checking an account's rank whenever you engage with it.
 - Include your sources that you have checked, so you can check them again when you re-rank the account in the future.
-- Re-rank the account when you get it. Your rank 3 may be the previous AE’s rank 2.
+- Re-rank the account when you get it. Your rank 3 may be the previous AE's rank 2.
 - Use [inline editing](https://youtu.be/M-5OhlYxmFI) to quickly update multiple accounts at once.
 
 ## 3/ Keeping next steps up to date
@@ -150,16 +143,16 @@ Think of your next steps as your daily to-do list. They should be the priority f
 
 ### When to do it
 
-Immediately after the last action you took with the customer. Today’s next steps should be the first thing you look at in the morning.
+Immediately after the last action you took with the customer. Today's next steps should be the first thing you look at in the morning.
 
 ### How to do it
 
-In the next steps field in an opportunity, put in the next actions **you** will take. It should be written in such a way that someone else would easily be able to pick it up if you were on PTO or otherwise unavailable. Please do not use it as a log of what you have already done (that should be in your call notes) and please avoid ambiguous steps such as “follow up” or “email”.
+In the next steps field in an opportunity, put in the next actions **you** will take. It should be written in such a way that someone else would easily be able to pick it up if you were on PTO or otherwise unavailable. Please do not use it as a log of what you have already done (that should be in your call notes) and please avoid ambiguous steps such as "follow up" or "email".
 
 ### Pro tips
 
 - Use an opportunity view in Salesforce to work through your next steps.
-- Remember, you have to set next steps on *all* opportunities. Not doing so is essentially saying, “I’m not doing anything with this opportunity”
+- Remember, you have to set next steps on *all* opportunities. Not doing so is essentially saying, "I'm not doing anything with this opportunity"
 - If prospect or customer 'goes dark', next step should reflect what you would do IF they reply back. Then if the prospect reaches back out, reopen the opportunity.
 
 ## 4/ Keeping your opportunities up to date
@@ -244,11 +237,11 @@ Please review the [how to update the commercial slide deck document](https://doc
 
 ## 7/ Recording key information
 
-To ensure GitLab is pitched at the right level to the right customers, it’s important that the company knows what the perception is of GitLab in the marketplace. As a direct sales team, we are best placed to get and record the information.
+To ensure GitLab is pitched at the right level to the right customers, it's important that the company knows what the perception is of GitLab in the marketplace. As a direct sales team, we are best placed to get and record the information.
 
 ### When to do it
 
-After your first interaction with an account. If you’ve already interacted with them before but not asked them, it should be done after your next interaction with them.
+After your first interaction with an account. If you've already interacted with them before but not asked them, it should be done after your next interaction with them.
 
 ### How to do it
 

@@ -1,5 +1,4 @@
 ---
-
 title: Handling compute minutes
 description: Adjusting compute minutes
 category: GitLab.com subscriptions & purchases

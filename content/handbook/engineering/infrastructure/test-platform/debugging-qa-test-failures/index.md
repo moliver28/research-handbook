@@ -1,5 +1,4 @@
 ---
-
 title: Debugging Failing Tests and Test Pipelines
 description: Guidelines for investigating end-to-end test pipeline failures
 ---
@@ -55,23 +54,23 @@ flowchart TB
             dri_handoff(handoff to next DRI anything that is still in flight)
 
         %% external links
-        click failed_pipeline "https://about.gitlab.com/handbook/engineering/infrastructure/test-platform/debugging-qa-test-failures/#review-the-failure-logs"
-        click new_issue "https://about.gitlab.com/handbook/engineering/infrastructure/test-platform/debugging-qa-test-failures/#create-an-issue"
-        click existing_issue "https://about.gitlab.com/handbook/engineering/infrastructure/test-platform/debugging-qa-test-failures/#known-failures"
-        click investigate "https://about.gitlab.com/handbook/engineering/infrastructure/test-platform/debugging-qa-test-failures/#investigate-the-root-cause"
-        click incident "https://about.gitlab.com/handbook/engineering/infrastructure/incident-management/#report-an-incident-via-slack"
-        click notify_groups "https://about.gitlab.com/handbook/engineering/infrastructure/test-platform/debugging-qa-test-failures/#notify-group-in-all-cases"
-        click fix_tests "https://about.gitlab.com/handbook/engineering/infrastructure/test-platform/debugging-qa-test-failures/#fixing-the-test"
-        click quarantine_tests "https://about.gitlab.com/handbook/engineering/infrastructure/test-platform/debugging-qa-test-failures/#quarantining-tests"
-        click open_incident "https://about.gitlab.com/handbook/engineering/infrastructure/incident-management/#failure-needs-escalation"
-        click tag_pipeline "https://about.gitlab.com/handbook/engineering/infrastructure/test-platform/debugging-qa-test-failures/#linking-issue"
-        click eyes "https://about.gitlab.com/handbook/engineering/infrastructure/test-platform/debugging-qa-test-failures/#emoji-used"
-        click fire_engine "https://about.gitlab.com/handbook/engineering/infrastructure/test-platform/debugging-qa-test-failures/#emoji-used"
-        click boom "https://about.gitlab.com/handbook/engineering/infrastructure/test-platform/debugging-qa-test-failures/#emoji-used"
+        click failed_pipeline "https://handbook.gitlab.com/handbook/engineering/infrastructure/test-platform/debugging-qa-test-failures/#review-the-failure-logs"
+        click new_issue "https://handbook.gitlab.com/handbook/engineering/infrastructure/test-platform/debugging-qa-test-failures/#create-an-issue"
+        click existing_issue "https://handbook.gitlab.com/handbook/engineering/infrastructure/test-platform/debugging-qa-test-failures/#known-failures"
+        click investigate "https://handbook.gitlab.com/handbook/engineering/infrastructure/test-platform/debugging-qa-test-failures/#investigate-the-root-cause"
+        click incident "https://handbook.gitlab.com/handbook/engineering/infrastructure/incident-management/#report-an-incident-via-slack"
+        click notify_groups "https://handbook.gitlab.com/handbook/engineering/infrastructure/test-platform/debugging-qa-test-failures/#notify-group-in-all-cases"
+        click fix_tests "https://handbook.gitlab.com/handbook/engineering/infrastructure/test-platform/debugging-qa-test-failures/#fixing-the-test"
+        click quarantine_tests "https://handbook.gitlab.com/handbook/engineering/infrastructure/test-platform/debugging-qa-test-failures/#quarantining-tests"
+        click open_incident "https://handbook.gitlab.com/handbook/engineering/infrastructure/incident-management/#failure-needs-escalation"
+        click tag_pipeline "https://handbook.gitlab.com/handbook/engineering/infrastructure/test-platform/debugging-qa-test-failures/#linking-issue"
+        click eyes "https://handbook.gitlab.com/handbook/engineering/infrastructure/test-platform/debugging-qa-test-failures/#emoji-used"
+        click fire_engine "https://handbook.gitlab.com/handbook/engineering/infrastructure/test-platform/debugging-qa-test-failures/#emoji-used"
+        click boom "https://handbook.gitlab.com/handbook/engineering/infrastructure/test-platform/debugging-qa-test-failures/#emoji-used"
           click tag_issue_for_report "https://gitlab.com/gitlab-org/ruby/gems/dri#configuration"
               click publish_results "https://gitlab.com/gitlab-org/ruby/gems/dri#4-publish"
-        click notify_incident "https://about.gitlab.com/handbook/engineering/infrastructure/test-platform/debugging-qa-test-failures/#failure-needs-escalation"
-        click update_incident "https://about.gitlab.com/handbook/engineering/infrastructure/test-platform/debugging-qa-test-failures/#notify-group-in-all-cases"
+        click notify_incident "https://handbook.gitlab.com/handbook/engineering/infrastructure/test-platform/debugging-qa-test-failures/#failure-needs-escalation"
+        click update_incident "https://handbook.gitlab.com/handbook/engineering/infrastructure/test-platform/debugging-qa-test-failures/#notify-group-in-all-cases"
 
         %% diagram
         slack_channels -->|failed pipeline run| eyes
@@ -116,28 +115,6 @@ flowchart TB
                 end
 ```
 
-### QA test pipelines
-
-The test pipelines run on a scheduled basis, and their results are posted to Slack. The following are the QA test pipelines that are monitored every day.
-
-| Environment                               | Links                                                                                                                                                                                                                                                   | Tests type      | Frequency                                                                                                                                                                                                                                                      | Slack channel                                                                                                                       | Latest test report                                                                                           |
-|-------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------|
-| Production                                | [Pipelines](https://ops.gitlab.net/gitlab-org/quality/production/pipelines) \| [Chatops](https://gitlab.com/gitlab-com/chatops/-/blob/eb65043eda62102b0ca38dd0cd5afc36a9dcedb4/lib/chatops/gitlab/tests_pipeline.rb#L40)                                | Smoke           | [after each deployment to Canary](https://ops.gitlab.net/gitlab-com/gl-infra/deployer/pipelines) and [after a feature flag in production has been updated to *true* or *100%*](https://docs.gitlab.com/ee/development/feature_flags/)                          | [`#qa-production`](https://gitlab.slack.com/messages/CCNNKFP8B)                                                                                                                  | [Production Sanity](https://gitlab-qa-allure-reports.s3.amazonaws.com/production-sanity/master/index.html)   |
-| Canary                                    | [Pipelines](https://ops.gitlab.net/gitlab-org/quality/canary/pipelines) \| [Definition](https://gitlab.com/gitlab-org/release-tools/-/blob/72b34fb21ecea70aec3ac2ce4e2387189c24bd3b/.gitlab/ci/coordinated-pipeline.gitlab-ci.yml#L695-713)             | Smoke           | [after each deployment to Canary](https://ops.gitlab.net/gitlab-com/gl-infra/deployer/pipelines)                                                                                                                                                               | [`#qa-production`](https://gitlab.slack.com/messages/CCNNKFP8B)                                                                                                                  | [Canary Sanity](https://gitlab-qa-allure-reports.s3.amazonaws.com/canary-sanity/master/index.html)           |
-| -                                         | [Pipelines](https://ops.gitlab.net/gitlab-org/quality/canary/pipelines) \| [Definition](https://gitlab.com/gitlab-org/release-tools/-/blob/954ef48375acddcbf7dc68c541b1437ba8c5bc7c/.gitlab/ci/post-deploy-migrations-pipeline.gitlab-ci.yml#L182-194)  | Full            | [after each deployment to Canary](https://ops.gitlab.net/gitlab-com/gl-infra/deployer/pipelines)                                                                                                                                                               | [`#qa-production`](https://gitlab.slack.com/messages/CCNNKFP8B)                                                                                                                  | [Canary Full](https://gitlab-qa-allure-reports.s3.amazonaws.com/canary-full/master/index.html)               |
-| Staging                                   | [Pipelines](https://ops.gitlab.net/gitlab-org/quality/staging/pipelines) \| [Definition](https://gitlab.com/gitlab-org/release-tools/-/blob/954ef48375acddcbf7dc68c541b1437ba8c5bc7c/.gitlab/ci/post-deploy-migrations-pipeline.gitlab-ci.yml#L197-209) | Smoke           | [after each deployment to Staging-Canary](https://ops.gitlab.net/gitlab-com/gl-infra/deployer/pipelines)                                                                                                                                                       | [`#qa-staging`](https://gitlab.slack.com/messages/CBS3YKMGD)                                                                                                                     | [Staging Sanity](https://gitlab-qa-allure-reports.s3.amazonaws.com/staging-sanity/master/index.html)         |
-| -                                         | [Pipelines](https://ops.gitlab.net/gitlab-org/quality/staging/pipelines) \| [Definition](https://gitlab.com/gitlab-com/gl-infra/deployer/-/blob/29cab58a873dff1e49e9192bd6420d78e8e84bc8/ci/environments/gstg.yml#L238-248)                             | Smoke           | [after the execution of post-deploy migrations in Staging](https://ops.gitlab.net/gitlab-com/gl-infra/deployer/pipelines)                                                                                                                                      | [`#qa-staging`](https://gitlab.slack.com/messages/CBS3YKMGD)                                                                                                                     | [Staging Sanity](https://gitlab-qa-allure-reports.s3.amazonaws.com/staging-sanity/master/index.html)         |
-| Staging Canary                            | [Pipelines](https://ops.gitlab.net/gitlab-org/quality/staging-canary/pipelines) \| [Definition](https://gitlab.com/gitlab-org/release-tools/-/blob/72b34fb21ecea70aec3ac2ce4e2387189c24bd3b/.gitlab/ci/coordinated-pipeline.gitlab-ci.yml#L385-403)     | Smoke           | [after each deployment to Staging](https://ops.gitlab.net/gitlab-com/gl-infra/deployer/pipelines)                                                                                                                                                              | [`#qa-staging`](https://gitlab.slack.com/messages/CBS3YKMGD)                                                                                                                     | [Staging-Canary](https://gitlab-qa-allure-reports.s3.amazonaws.com/staging-canary-sanity/master/index.html)  |
-| CustomersDot Staging                      | [Pipelines](https://gitlab.com/gitlab-org/customers-gitlab-com/-/pipelines) \| [Definition](https://gitlab.com/gitlab-org/customers-gitlab-com/-/blob/e8d058a9f54aeae1218491ad34cdfd67d27d084f/.gitlab/ci/e2e.gitlab-ci.yml#L199-255)                   | Full            | [after each deployment to CustomersDot Staging](https://gitlab.com/gitlab-org/customers-gitlab-com/-/pipelines)                                                                                                                                                | [`#qa-staging`](https://gitlab.slack.com/messages/CBS3YKMGD) [`#s_fulfillment_status`](https://gitlab.slack.com/messages/CL7SX4N86)                                              | [CustomersDot Staging](https://gitlab-qa-allure-reports.s3.amazonaws.com/cdot-e2e-staging/main/index.html)   |
-| Staging Ref                               | [Pipelines](https://ops.gitlab.net/gitlab-org/quality/staging-ref/pipelines) \| [Definition](https://gitlab.com/gitlab-com/gl-infra/deployer/-/blob/10cc4811f5aae0a38b77cd5c9def954a0e2afac1/ci/environments/gstg-ref.yml#L177-191)                     | Smoke           | [after each deployment to Staging Ref](https://ops.gitlab.net/gitlab-com/gl-infra/deployer/pipelines).                                                                                                                                                         | [`#qa-staging-ref`](https://gitlab.slack.com/archives/C02JGFF2EAZ)                                                                  | [Staging Ref Sanity](https://gitlab-qa-allure-reports.s3.amazonaws.com/staging-ref-sanity/master/index.html) |
-| Preprod                                   | [Pipelines](https://ops.gitlab.net/gitlab-org/quality/preprod/pipelines) \| [Definition](https://gitlab.com/gitlab-com/gl-infra/deployer/-/blob/2279042064c45fdb10ce696d1c4ef12b72affbfd/ci/environments/pre.yml#L171-181)                              | Smoke           | [Every month for a few days before release, at 03:00 UTC](https://ops.gitlab.net/gitlab-org/quality/preprod/-/pipeline_schedules) and after [deployment to preprod](/handbook/engineering/infrastructure/environments/#pre) during Security and Patch releases | [`#qa-preprod`](https://gitlab.slack.com/archives/CR7QH0RV1)                                                                        | [Preprod](https://gitlab-qa-allure-reports.s3.amazonaws.com/preprod-sanity/master/index.html)                |
-| Release                                   | [Pipelines](https://ops.gitlab.net/gitlab-org/quality/release) \| [Definition](https://gitlab.com/gitlab-com/gl-infra/deployer/-/blob/10cc4811f5aae0a38b77cd5c9def954a0e2afac1/ci/environments/release.yml#L82-93)                                      | Smoke           | [Every month after the final release](https://ops.gitlab.net/gitlab-org/quality/release/-/pipeline_schedules) and after [deployment to Release](/handbook/engineering/infrastructure/environments/#release) during Security and Patch releases                 | [`#qa-release`](https://gitlab.slack.com/archives/C0154HCFLRE)                                                                      | [Release](https://gitlab-qa-allure-reports.s3.amazonaws.com/release-sanity/master/index.html)                |
-| Gitlab `master` `e2e:package-and-test-ee` | [Pipelines](https://gitlab.com/gitlab-org/gitlab/pipelines) \| [Definition](https://gitlab.com/gitlab-org/gitlab/-/blob/77a5b0b3f8f910d4fe89a3fed46c4da53b1e587e/.gitlab/ci/qa.gitlab-ci.yml#L77-88)                                                    | Full            | [scheduled pipeline every 2 hours](https://gitlab.com/gitlab-org/gitlab/pipeline_schedules)                                                                                                                                                                    | [`#qa-master`](https://gitlab.slack.com/archives/CNV2N29DM)                                                                                                                      | [Master EE](https://gitlab-qa-allure-reports.s3.amazonaws.com/e2e-package-and-test/master/index.html)        |
-| GitLab `master` `e2e:package-and-test-ce` | [Pipelines](https://gitlab.com/gitlab-org/gitlab/-/pipeline_schedules) \| [Definition](https://gitlab.com/gitlab-org/gitlab/-/blob/77a5b0b3f8f910d4fe89a3fed46c4da53b1e587e/.gitlab/ci/qa.gitlab-ci.yml#L121-135)                                       | Full            | [Daily at 4:00am UTC](https://gitlab.com/gitlab-org/gitlab/-/pipeline_schedules)                                                                                                                                                                               | [`#qa-master`](https://gitlab.slack.com/archives/CNV2N29DM)                                                                                                                      | [Master CE](https://gitlab-qa-allure-reports.s3.amazonaws.com/e2e-package-and-test-ce/master/index.html)     |
-| GitLab `master` `e2e:test-on-gdk`         | [Pipelines](https://gitlab.com/gitlab-org/gitlab/-/pipelines?ref=master&amp;source=schedule) \| [Definition](https://gitlab.com/gitlab-org/gitlab/-/blob/77a5b0b3f8f910d4fe89a3fed46c4da53b1e587e/.gitlab/ci/qa.gitlab-ci.yml#L151-164)                 | Full            | [scheduled pipeline every 2 hours](https://gitlab.com/gitlab-org/gitlab/pipeline_schedules)                                                                                                                                                                    | [`#qa-master`](https://gitlab.slack.com/archives/CNV2N29DM)                                                                                                                      | [Master GDK](https://gitlab-qa-allure-reports.s3.amazonaws.com/e2e-test-on-gdk/master/index.html)            |
-| GitLab `master` `e2e:test-on-cng`         | [Pipelines](https://gitlab.com/gitlab-org/gitlab/-/pipeline_schedules) \| [Definition](https://gitlab.com/gitlab-org/gitlab/-/blob/77a5b0b3f8f910d4fe89a3fed46c4da53b1e587e/.gitlab/ci/qa.gitlab-ci.yml#L166-178)                                       | Smoke, Blocking | [scheduled pipeline every 2 hours](https://gitlab.com/gitlab-org/gitlab/pipeline_schedules)                                                                                                                                                                    | [`#qa-master`](https://gitlab.slack.com/archives/CNV2N29DM)                                                                                                                      | [Master CNG](https://gitlab-qa-allure-reports.s3.amazonaws.com/e2e-test-on-cng/master/index.html)            |
-| GitLab `master` Nightly                   | [Pipelines](https://gitlab.com/gitlab-org/gitlab/-/pipeline_schedules) \| [Definition](https://gitlab.com/gitlab-org/gitlab/-/blob/77a5b0b3f8f910d4fe89a3fed46c4da53b1e587e/.gitlab/ci/qa.gitlab-ci.yml#L137-149)                                       | Full            | [Daily at 4:00am UTC](https://gitlab.com/gitlab-org/gitlab/-/pipeline_schedules)                                                                                                                                                                               | [`#qa-master`](https://gitlab.slack.com/archives/CNV2N29DM)                                                                                                                      | [Master Nightly](https://gitlab-qa-allure-reports.s3.amazonaws.com/nightly/master/index.html)                |
-
 #### Emoji used
 
 For each pipeline there is a notification of success or failure (except for `master` pipelines, which only report failures).
@@ -171,7 +148,6 @@ After triaging failed tests, possible follow up actions are:
 Your priority is to make sure we have an issue for each failure, and to communicate the status of its investigation and resolution. When there are multiple failures to report, consider their impact when deciding which to report first. See the [pipeline triage responsibilities](/handbook/engineering/infrastructure/test-platform/oncall-rotation/#responsibility) for further guidance.
 
 If there are multiple failures we recommend that you identify whether each one is new or old (and therefore already has an issue open for it). For each new failure, open an issue that includes only the required information. Once you have opened an issue for each new failure you can investigate each more thoroughly and act on them appropriately, as described in later sections.
-{: name="known-failures"}
 
 The reason for reporting all new failures first is to allow faster discovery by engineers who might find the test failing in their own merge request test pipeline. If there is no open issue about that failure, the engineer will have to spend time trying to figure out if their changes caused it.
 
@@ -188,7 +164,6 @@ Known failures should be linked to the current [pipeline triage report](https://
 1. If the issue has already been reported please use the existing issue to track the latest status.
 1. If there is no existing issue for the failure, please create an issue using one of [classification labels](#classify-and-triage-the-test-failure) via the steps below.
 
-{: name="linking-issue"}
 In the relevant Slack channel:
 
 1. Apply the :eyes: emoji to indicate that you're investigating the failure(s).
@@ -201,7 +176,7 @@ In the relevant Slack channel:
 Please use this step if there are no issues created to capture the failure. If there is already an issue please skip this step.
 
 1. Create an issue for the test or system failure (if retrying the job does not resolve the latter) in [https://gitlab.com/gitlab-org/gitlab/issues](https://gitlab.com/gitlab-org/gitlab/issues) using the [QA failure](https://gitlab.com/gitlab-org/gitlab/issues/new?issuable_template=QA%20Failure) template. For failures in CustomersDot tests, open an issue in [CustomersDot](https://gitlab.com/gitlab-org/customers-gitlab-com/-/issues) project.
-    - Apply the `~"type::ignore"` label to the issue until the investigation is complete and an [issue type](/handbook/engineering/metrics/#work-type-classification) is determined.
+    - Apply the `~"type::ignore"` label to the issue until the investigation is complete and an [issue type](/handbook/product/groups/product-analysis/engineering/dashboards/#work-type-classification) is determined.
     - Inform the [counterpart SET](/handbook/engineering/quality/#individual-contributors) about the failure.
     - For system failures, it may make sense to open an issue in a different project such as [Omnibus GitLab](https://gitlab.com/gitlab-org/omnibus-gitlab/issues), [GitLab QA](https://gitlab.com/gitlab-org/gitlab-qa/issues), or [GitLab Runner](https://gitlab.com/gitlab-org/gitlab-runner/issues).
     - For staging environment-related failures, you can post a question in [`#infrastructure-lounge`](https://gitlab.slack.com/archives/CB3LSMEJV), or open an issue in the [infrastructure project](https://gitlab.com/gitlab-com/gl-infra/infrastructure)
@@ -260,10 +235,10 @@ If you have any questions on the status, you can also reach out to the `@release
 
 GitLab `master` has three QA pipelines generated from scheduled pipeline against the default branch:
 
-- [`package-and-test`](https://docs.gitlab.com/ee/development/testing_guide/end_to_end/#using-the-package-and-test-job) runs the `full` suite of end-to-end tests against an omnibus Docker image built from `master`
+- [`test-on-omnibus`](https://docs.gitlab.com/ee/development/testing_guide/end_to_end/#using-the-test-on-omnibus-job) runs the `full` suite of end-to-end tests against an omnibus Docker image built from `master`
 - [`test-on-gdk`](https://docs.gitlab.com/ee/development/testing_guide/end_to_end/#using-the-test-on-gdk-job) runs both `blocking` and `smoke` suites of end-to-end tests as part of the `blocking` job against a GDK instance from a Docker image built from `master`
 
-If jobs in `package-and-test` failed due to a GitLab Docker image issue, reach out to the [Distribution team](/handbook/engineering/infrastructure/core-platform/systems/distribution/) to see if it's a known problem with the build.
+If jobs in `test-on-omnibus` failed due to a GitLab Docker image issue, reach out to the [Distribution team](/handbook/engineering/infrastructure/core-platform/systems/distribution/) to see if it's a known problem with the build.
 
 If failures occur only in `test-on-gdk` jobs, it's possible to stop those jobs from being added to new pipelines while the cause is being fixed. See the [runbook](https://gitlab.com/gitlab-org/quality/runbooks/-/tree/main/test-on-gdk#disable-the-e2etest-on-gdk-pipeline) for details.
 
@@ -291,8 +266,8 @@ The following can help with your investigation:
 | Log or artifact                                                                                                                                                                                                                                                | Notes                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             |
 |----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [Stack trace](https://docs.gitlab.com/ee/ci/quick_start/#viewing-the-status-of-your-pipeline-and-jobs)                                                                                                                                                         | Shown in the job's log; the starting point for investigating the test failure                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     |
-| [Screenshots and HTML captures](https://docs.gitlab.com/ee/ci/pipelines/job_artifacts.html#browsing-artifacts)                                                                                                                                                 | Available for download in the job's artifact for up to 1 week after the job run                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   |
-| [QA Logs](https://docs.gitlab.com/ee/ci/pipelines/job_artifacts.html#browsing-artifacts)                                                                                                                                                                       | Included in the job's artifacts; valuable for determining the steps taken by the tests before failing                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             |
+| [Screenshots and HTML captures](https://docs.gitlab.com/ee/ci/jobs/job_artifacts.html#browsing-artifacts)                                                                                                                                                 | Available for download in the job's artifact for up to 1 week after the job run                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   |
+| [QA Logs](https://docs.gitlab.com/ee/ci/jobs/job_artifacts.html#browsing-artifacts)                                                                                                                                                                       | Included in the job's artifacts; valuable for determining the steps taken by the tests before failing                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             |
 | [System Logs](https://docs.gitlab.com/ee/administration/logs/) (gitlab-rails, sidekiq, etc.)                                                                                                                                                                   | Included in the job's artifacts for containerized test runs, such as master and nightly. These are useful for investigating errors originating from the GitLab application itself. <br/><br />  A summary of the system logs related to a test failure can also be found in the description of QA failure issues generated from master and nightly runs containing a correlation ID.                                                                                                                                                                                                                                              |
 | Sentry logs ([Staging](https://sentry.gitlab.net/gitlab/staginggitlabcom), [Staging Ref](https://new-sentry.gitlab.net/organizations/gitlab/projects/staging-ref/), [Preprod](https://sentry.gitlab.net/gitlab/pregitlabcom/), [Production](https://sentry.gitlab.net/gitlab/gitlabcom/)) | If staging, preprod or production tests fail due to a server error, there should be a record in [Sentry](/handbook/support/workflows/sentry/). For example, you can search for all unresolved staging errors linked to the `gitlab-qa` user with the query [`is:unresolved user:"username:gitlab-qa"`](https://sentry.gitlab.net/gitlab/staginggitlabcom/?query=is%3Aunresolved+user%3A%22username%3Agitlab-qa%22). However, note that some actions aren't linked to the `gitlab-qa` user, so they might only appear in the [full unresolved list](https://sentry.gitlab.net/gitlab/staginggitlabcom/?query=is%3Aunresolved). |
 | Kibana logs ([Staging and Preprod](https://nonprod-log.gitlab.net/app/kibana#/discover), [Production](https://log.gprd.gitlab.net/app/kibana#/discover))                                                                                                       | Various system logs from live environments are sent to [Kibana](/handbook/support/workflows/kibana/), including Rails, Postgres, Sidekiq, and Gitaly logs. <br><br>**Note:** Staging and Preprod logs both use the same URL, but the search index pattern will be different. Staging indices contain `gstg` while Preprod contains `pre`. For example, to search within the Staging Rails index, you would change the index pattern dropdown value to `pubsub-rails-inf-gstg*`. More information on how to do this can be found [here](/handbook/support/workflows/kibana/#parameters).                                   |
@@ -342,6 +317,70 @@ Below is the list of the common root causes in descending order of likelihood:
 5. New GitLab QA version: Check if a new [GitLab QA version](https://gitlab.com/gitlab-org/gitlab-qa/-/tags?sort=updated_desc) was released.
 
 Failure examples can be seen in [Training Videos](#training-videos).
+
+#### Determine the version, revision, branch and package deployed in GitLab environments
+
+To find out the version, revision, branch and package deployed in gitlab.com, staging and canary environments,
+run this in the #chat-ops-test Slack channel:
+
+```bash
+/chatops run auto_deploy status
+```
+
+![ChatopsAutoDeployStatus.png](ChatopsAutoDeployStatus.png)
+
+You will [need access to the https://ops.gitlab.net/gitlab-com/chatops](https://docs.gitlab.com/ee/development/chatops_on_gitlabcom.html#requesting-access) project to run `/chatops` commands.
+Ask to be added to this project in the #development Slack channel.
+
+#### Determine if a change has been deployed to an environment using revision SHA
+
+If you have a revision SHA that is deployed on an environment, you can find out if a change has made it to that environment.
+For example, if the revision SHA deployed on an environment is `c46489109e4` and you want to find out if a change in
+`restrict_by_ip_address_spec.rb` has made it there, you can use:
+
+```bash
+git show c46489109e4:qa/qa/specs/features/ee/browser_ui/1_manage/group/restrict_by_ip_address_spec.rb
+```
+
+You can determine the revision SHA deployed on a GitLab instance by either navigating to www.example.com/help,
+by calling the `http://www.example.com/api/v4/version` API or by running `/chatops run auto_deploy status` in a Slack
+channel such as #chat-ops-test.
+
+You can also determine if your commit has been deployed on a GitLab environment using [ChatOps](https://docs.gitlab.com/ee/ci/chatops).
+For example, if your commit ref is `347e530c5b3dec60c0ce2870bc79ca4c8273604d` you can run this command in a Slack
+channel such as #chat-ops-test:
+
+```bash
+/chatops run auto_deploy status 347e530c5b3dec60c0ce2870bc79ca4c8273604d
+```
+
+#### Determine the commit SHA of a nightly image
+
+The commit SHA for a nightly pipeline can be determined in the following ways:
+
+##### By visiting the /help page or calling the `/api/v4/version` API
+
+Run the nightly docker image
+
+```bash
+docker run \
+    --hostname localhost \
+    --publish 443:443 --publish 80:80 --publish 22:22 \
+gitlab/gitlab-ee:nightly
+```
+
+The commit SHA can be determined by visiting the http://localhost/help page after sign-in
+or by calling the [`/api/v4/version` API](https://docs.gitlab.com/ee/api/version.html#version-api) where it is displayed as a value of the `revision` attribute.
+
+##### By inspecting the pipeline that created the nightly image
+
+Nightly images are created by scheduled pipelines here: https://dev.gitlab.org/gitlab/omnibus-gitlab/pipeline_schedules
+
+You can look at the last pipeline by clicking the pipeline number for CE nightly or EE nightly under
+the "Last pipeline" column.
+
+In the pipeline view click a job under the "Gitlab_com:package" column. The SHAs for GitLab Components
+are listed towards the end of the logs. The GitLab commit SHA is displayed as a value of `gitlab-rails`.
 
 #### Run the test against your GDK
 
@@ -512,7 +551,7 @@ The failure was caused by a bug in the application code.
 - When the reason for quarantining a test is because of a low severity bug in the code which will not be fixed in the upcoming couple of releases, add the `~"quarantine"` , quarantine with type and `~"failure::bug"` labels to the test failure issue(s).
 - When the bug is fixed, the related quarantined tests should be unquarantined and verified as well. The bug issue and all related test failure issues should be closed out together.
 
-**Note**: GitLab maintains a [daily deployment cadence](https://gitlab.com/gitlab-com/gl-infra/delivery/-/issues/880) so a breaking change in `master` reaches Canary and Production fast. Please communicate broadly to ensure that the corresponding [Product Group](/handbook/product/categories/#devops-stages) is aware of the regression and action is required. If the bug is [qualified for dev escalation](/handbook/engineering/development/processes/Infra-Dev-Escalation/process.html#scope-of-process) (example: `priority::1/severity::1` issue that blocks the deployment process), consider involving [On-call Engineers](/handbook/engineering/development/processes/Infra-Dev-Escalation/process.html) in the [`#dev-escalation`](https://gitlab.slack.com/archives/CLKLMSUR4) channel. To find out who’s on-call follow the links in the channel subject line.
+**Note**: GitLab maintains a [daily deployment cadence](https://gitlab.com/gitlab-com/gl-infra/delivery/-/issues/880) so a breaking change in `master` reaches Canary and Production fast. Please communicate broadly to ensure that the corresponding [Product Group](/handbook/product/categories/#devops-stages) is aware of the regression and action is required. If the bug is [qualified for dev escalation](/handbook/engineering/development/processes/infra-dev-escalation/process/#scope-of-process) (example: `priority::1/severity::1` issue that blocks the deployment process), consider involving [On-call Engineers](/handbook/engineering/development/processes/infra-dev-escalation/process/) in the [`#dev-escalation`](https://gitlab.slack.com/archives/CLKLMSUR4) channel. To find out who's on-call follow the links in the channel subject line.
 
 To find the appropriate team member to cc, please refer to the [Organizational Chart](https://comp-calculator.gitlab.net/org_chart). The [Quality Engineering team list](/handbook/engineering/quality/#department-members) and [DevOps stage group list](/handbook/product/categories/#devops-stages) might also be helpful.
 
@@ -554,6 +593,7 @@ A job may fail due to infrastructure or orchestration issues that are not relate
 - Failed to complete orchestration of a Geo cluster
 - CI runner timeouts
 - 500 error while uploading job artifacts
+- Expired tokens (For more information, check out how to [Rotate Credentials](https://internal.gitlab.com/handbook/engineering/infrastructure/engineering-productivity/rotating-credentials/))
 
 #### Failure due to external dependency
 
@@ -657,7 +697,8 @@ Here is an [example quarantine merge request](https://gitlab.com/gitlab-org/gitl
 If a test is placed under quarantine, it is important to specify *why*. By specifying a quarantine type we can see
 quickly the reason for the quarantine.
 
-The report accepts the quarantine types below:
+Below is a list of quarantine types you may use, and their purpose. If the reason for quarantine is not listed
+below, please consider contributing to this list:
 
 | Quarantine Type | Description |
 | --------------- | ----------- |
@@ -668,6 +709,7 @@ The report accepts the quarantine types below:
 | `:waiting_on` | This test is quarantined temporarily due to an issue or MR that is a prerequisite for this test to pass |
 | `:investigating` | This test is a `:flaky` test but it might be blocking other MRs and so should be quarantined while it's under investigation |
 | `:test_environment` | This test is failing due to problems with the test environment and will not be fixed within 24 hours |
+| `:dependency` | This test is failing due to an external dependency the test is reliant on, but is outside of GitLab's control |
 
 > **Note**: Be sure to attach an `issue` to the quarantine metadata. We use this issue for tracking the average age of the quarantined tests.
 

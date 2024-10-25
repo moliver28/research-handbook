@@ -1,5 +1,4 @@
 ---
-
 title: "CI/CD GTM Sales Plays"
 description: "description to add"
 twitter_image: '/images/tweets/handbook-marketing.png'

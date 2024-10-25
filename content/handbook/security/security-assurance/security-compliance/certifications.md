@@ -1,77 +1,49 @@
 ---
-title: "GitLab.com Security Certifications and Attestations"
+title: "External Audits, Certifications, and Attestations"
 ---
 
-## Purpose
+The Security Compliance team is instrumental in supporting external audits, certifications, and attestations, with benefits that extend across the organization. Our responsibilities include:
 
-In support of our ongoing commitment to information security and transparent operations, the GitLab Security Compliance teams are dedicated to obtaining and maintaining industry recognized security and privacy third party certifications and attestations. The benefits from these activities include:
+- **Preparation and Coordination**: The team prepares for external audits by gathering necessary evidence, documentation, and ensuring the organization is ready to demonstrate compliance with standards such as SOC 2, ISO 27001, or other industry-specific regulations. We coordinate with internal stakeholders to ensure that the right processes and controls are in place and maintained.
+- **Liaison with Auditors**: The Security Compliance team acts as the primary point of contact between auditors and the company. We facilitate audit activities, such as walkthroughs and interviews, thereby minimizing disruption to operational teams and helping ensure that the audit is conducted smoothly.
+- **Continuous Monitoring**: We implement mechanisms for ongoing monitoring of controls to ensure compliance is maintained between audit cycles, enabling the organization to stay audit-ready at all times.
+- **Remediation and Follow-up**: When findings or deficiencies are identified during audits, the team works to develop remediation plans, tracks the progress of these plans, and ensures that actions are taken to close gaps before the next audit.
 
-For customers:
+### Benefits to Customers
 
-- increases visibility and confidence in our information security program
-- increases ease in onboarding and managing GitLab as a vendor
+- **Trust and Assurance**: External certifications and attestations serve as independent verification that the organization meets established security standards. This builds trust with customers, reassuring them that their data is handled securely and that the company has taken appropriate measures to protect it.
+- **Risk Mitigation**: Customers can feel confident that risks associated with data breaches or security incidents are mitigated through well-documented, tested, and externally verified controls. This reduces concerns around vendor risk when choosing to work with the company.
+- **Compliance with Industry Standards**: For customers operating in highly regulated industries, it’s crucial to work with partners who comply with relevant regulations. The Security Compliance team's work in obtaining certifications helps customers meet their own compliance requirements by demonstrating that their partners follow the necessary standards.
 
-For GitLab:
+### Benefits to GitLab
 
-- ensures we are meeting all requirements of a strong and comprehensive information security program aligned with industry best practices
-- enables our field teams to quickly share the state of our security program with potential and existing customers
-- reduces the need for GitLab's security team to fill out individual customer security questionnaires or assessments
+- **Enabling Sales and Market Expansion**: External certifications and attestations act as competitive differentiators in the marketplace. We enable the sales team to address customer concerns related to security and compliance more effectively, leading to increased sales opportunities. Additionally, some certifications are prerequisites for entering certain markets or working with specific clients, enabling market expansion.
+- **Supporting the First Line of Defense**: The Security Compliance team limits the need for the first line of defense (such as engineering, product, or IT teams) to interact directly with auditors. This allows these teams to focus on their core responsibilities, such as building and delivering products, without the added burden of preparing evidence or explaining controls to auditors. The Compliance team takes on this responsibility, facilitating the audit process and ensuring subject matter experts are only involved when absolutely necessary.
 
-### Scope
+### Current certifications and attestations
 
-Generally, the scope of the items listed on this page include GitLab.com, the GitLab.com production environment, and global policies and procedures relied upon for control implementation.
+Refer to the [GitLab Trust Center](https://trust.gitlab.com/) for the latest information on all all of the certifications and attestations we maintain, including 3rd party reports, commonly request security documentation, and answers to commonly asked questions about our security and compliance posture. There is a dropdown menu to view content for GitLab.com and GitLab Dedicated SaaS offerings. Some of the content is applicable to both SaaS platforms and/or GitLab Inc.
 
-Are you looking for security certifications/attestations for GitLab Dedicated? Please look [here]({{< ref "../dedicated-compliance/certifications" >}}).
+### Tenantive roadmap
 
-### Current
+We plan to maintain our existing certifications and attestations. We will continue to add new certifications and attestations, or expand the scope of existing ones, based on customer demand and changes in the regulatory landscape. The following security certifications and attestations are currently on our roadmap for consideration but are not formal commitments and are subject to change at any time.
 
-- [SOC 2 Type 2 Report](https://www.aicpa.org/interestareas/frc/assuranceadvisoryservices/aicpasoc2report.html): Security, Confidentiality and Availability Criteria
-  - The SOC 2 Type 2 report is available for customers and potential customers upon request. The report is scoped to GitLab.com. There are elements of the report that cover organizational-level security considerations (e.g., Business Continuity Planning, Risk Assessments, etc.) which go beyond the scope of GitLab.com as a SaaS product and speak to the mature state of GitLab's information security program.
-- [SOC 3 Report](https://www.aicpa.org/interestareas/frc/assuranceadvisoryservices/aicpasoc3report.html): Security, Confidentiality and Availability Criteria
-  - The SOC 3 report is available for general use by both customers and potential customers upon request. Please see SOC 2 Type 2 Report above for scope.
-- [ISO/IEC 27001:2013](https://www.iso.org/isoiec-27001-information-security.html) Certification
-  - This standard specifies the requirements for establishing, implementing, maintaining and continually improving an information security management system (ISMS). The certificate is scoped to GitLab SaaS services (GitLab.com and GitLab Dedicated). There are many elements of the certification that cover organizational-level security considerations (e.g., Business Continuity Planning, Risk Assessments, etc.) which go beyond the scope of GitLab SaaS services and speak to the mature state of GitLab's information security management program.
-- [ISO/IEC 27017:2015](https://www.iso.org/standard/43757.html) Certification
-  - This standard establishes guidelines for information security controls applicable to the provision and use of cloud services.
-- [ISO/IEC 27018:2019](https://www.iso.org/standard/76559.html) Certification
-  - This standard establishes commonly accepted control objectives, controls and guidelines for implementing measures to protect Personally Identifiable Information (PII).
-- [Trusted Information Security Assessment Exchange (TISAX)](https://enx.com/en-us/tisax/) AL2 certification for Information with High Protection and High Availability requirements.
-- [ISO/IEC 20243-1:2018](https://www.iso.org/standard/74399.html) Self Assessment
-  - This is a set of guidelines, requirements, and recommendations that address specific threats to the integrity of hardware and software COTS ICT products throughout the product life cycle. Scoped to GitLab.com and GitLab self managed.
-- [CSA Consensus Assessments Initiative Questionnaire v3.1](https://cloudsecurityalliance.org/star/registry/gitlab/) Security Self-Assessment
-  - Based off the Cloud Controls Matrix and the CSA Code of Conduct for GDPR Compliance.
-- [CSA Trusted Cloud Provider](https://cloudsecurityalliance.org/artifacts/trusted-cloud-provider-faq/)
-- [Standardized Information Gathering Questionnaire](https://sharedassessments.org/sig/) Self-Assessment
-- [Annual Third Party Penetration Test](/handbook/security/penetration-testing-policy)
+**2025 (FY26)**
 
-### Planned (Roadmap)
+- FedRAMP Moderate Authorization for GitLab Dedicated for Government
+- StateRAMP
 
-The following security certifications and attestations are currently on our roadmap for consideration and have not yet been formally committed or contracted:
+**Under consideration / guaging customer demand:**
 
-Year(s): FY25
+- PCI DSS SAQ D (Service Provider) and SAQ A (Merchant)
+- IRAP Protected
+- ISO/IEC 42001:2023 - AI management systems 
+- Cyber Essentials Plus
+- FedRAMP High Authorization
+- DoD IL4
 
-- [SOC 2 Type 2 Report](https://www.aicpa.org/interestareas/frc/assuranceadvisoryservices/aicpasoc2report.html)
-- [ISO/IEC 27001:2022](https://www.iso.org/isoiec-27001-information-security.html) Certification
-- [Trusted Information Security Assessment Exchange (TISAX)](https://enx.com/en-us/tisax/) AL2 certification for Information with High Protection and High Availability requirements (roll forward)
+**Legislation and standards we're monitoring:**
 
-Year(s): FY26
-
-- [SOC 2 Type 2 Report](https://www.aicpa.org/interestareas/frc/assuranceadvisoryservices/aicpasoc2report.html)
-- [ISO/IEC 27001:2022](https://www.iso.org/isoiec-27001-information-security.html) Certification: Recertification
-- [Trusted Information Security Assessment Exchange (TISAX)](https://enx.com/en-us/tisax/) AL2 certification for Information with High Protection and High Availability requirements (roll forward)
-
-Under Consideration:
-
-- [Software Bill of Materials (SBOM)](https://www.whitehouse.gov/briefing-room/presidential-actions/2021/05/12/executive-order-on-improving-the-nations-cybersecurity/)
-- [Cloud Security Alliance (CSA) Star Level 2](https://cloudsecurityalliance.org/star/)
-- [SOC 2 Type 2 Report](https://www.aicpa.org/interestareas/frc/assuranceadvisoryservices/aicpasoc2report.html) + Privacy Criteria
-
-## Requesting Evidence of Certifications or Attestations
-
-GitLab's SOC3 report is publicly available and can be found within the `Community Package` on our [Customer Assurance Package webpage](https://about.gitlab.com/security/cap/). The nature of some of our other external testing is such that not all reports can be made publicly available. Not only do these reports contain very detailed information about how our systems operate (which could make a potential attack against GitLab easier) but these reports also contain proprietary information about how these audit firms conduct their testing. For these reasons we can only share certain documentation with prospective customers that are under an NDA with GitLab or with current customers bound by the confidentiality of our customer agreements. The reports should not be shared with anyone other than the individual requestor(s).
-
-Current or Prospective customers may request these through their Account Manager, or by using the `Request by Email` option on the [Customer Assurance Package webpage](https://about.gitlab.com/security/cap/).
-
-GitLab Team Members should follow the [Customer Assurance Activities]({{< ref "customer-security-assessment-process" >}}) workflow and use the option for "CAP Request".
-
-<a href="{{< ref "security-assurance" >}}" class="btn bg-primary text-white btn-lg">Return to the Field Security Homepage</a>
+- EU Cyber Resilience Act and NIS2 Directive
+- Digital Operational Resilience Act (DORA)
+- EU Cloud Certification Scheme (EUCS)

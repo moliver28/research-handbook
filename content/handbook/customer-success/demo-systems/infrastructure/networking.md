@@ -1,6 +1,6 @@
 ---
 title: "Demo Systems Infrastructure - Networking"
-description: “Discover GitLab’s networking solutions for Demo Systems Infrastructure”
+description: "Discover GitLab's networking solutions for Demo Systems Infrastructure"
 ---
 
 ## Global CIDR Ranges

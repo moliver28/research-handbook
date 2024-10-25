@@ -1,14 +1,7 @@
 ---
-
 title: "CSM Manager Handbook"
 description: "Field guide for CSM Managers on standard and recurring practices."
 ---
-
-
-
-
-
-
 
 View the [CSM Handbook homepage](/handbook/customer-success/csm/) for additional CSM-related handbook pages.
 
@@ -18,25 +11,23 @@ View the [CSM Handbook homepage](/handbook/customer-success/csm/) for additional
 
 This page provides an overview on relevant CSM leadership processes.
 
-## CSM Leadership
+## CS Leadership
 
 | Name | Region | Level | Team |
 |---|---|---|---|
-| [Sherrod Patching](/handbook/company/team/#spatching) | Global | VP | CSM & CSE |
+| [Sherrod Patching](/handbook/company/team/#spatching) | Global | VP | CS |
 | [Ally Frusciano](/handbook/company/team/#afrusciano) | Global | Director | CSE |
-| [Taylor Lund](/handbook/company/team/#taylorlund) | Global | Senior Manager | CSE |
-| [Erica Sivak](/handbook/company/team/#esivak) | AMER | Manager | CSE |
+| [Erica Sivak](/handbook/company/team/#esivak) | AMER | Senior Manager | CSE |
 | [Oliver Falk](/handbook/company/team/#ofalk) | EMEA | Manager | CSE |
-| [Christiaan Conover](/handbook/company/team/#christiaanconover) | AMER | Director | CSM |
+| [Catherine Ballantyne](/handbook/company/team/#cballantyne) | APJ | Director | CSM/E |
+| [Kent Georgeson](/handbook/company/team/#kgeorgeson) | Global | Director | Success Services |
 | [Sophie Pouliquen](/handbook/company/team/#spouliquen1) | AMER East | Senior Manager | CSM |
 | [Chloe Whitestone](/handbook/company/team/#chloe) | AMER East | Manager | CSM |
-| [Tiffany McAtee](/handbook/company/team/#tiffanymcatee.gitlab) | AMER East | Manager | CSM |
+| [Tiffany McAtee](/handbook/company/team/#tiffanymcatee.gitlab) | AMER East | Senior Manager | CSM |
 | [Jamie Reid](/handbook/company/team/#jrreid) | AMER West | Manager | CSM |
 | [Cedric Stapleton](/company/team/#c.stapleton) | AMER West | Manager | CSM |
-| [Dave Thompson](/handbook/company/team/#dthompson3) | APAC | Manager | CSM |
 | [Michael Leutz](/handbook/company/team/#mrleutz) | EMEA | Director | CSM |
-| [Chenje Katanda](/handbook/company/team/#ckatanda) | EMEA | Manager | CSM |
-| [Christina Souleles](/handbook/company/team/#csouleles) | EMEA | Manager | CSM |
+| [Christina Souleles](/handbook/company/team/#csouleles) | DACH | Senior Manager | CSM |
 | [Robert Clark](/handbook/company/team/#robclark14) | PubSec | Manager | CSM & CSE |
 | [Steven Terhar](/handbook/company/team/#steveterhar) | PubSec | Manager | CSM & CSE |
 
@@ -68,7 +59,7 @@ This page provides an overview on relevant CSM leadership processes.
   </tr>
   <tr>
     <td>Team development (quarterly)</td>
-    <td><ul><li>The manager schedules an additional 1-hour sync to discuss their IDP and progress/obstacles</li><li>The CSM is responsible for building and maintaining this document in partnership with their manager</li><li>When a CSM is working towards a promotion, the promotion doc is built and collaborated on in partnership between the CSM and CSM manager. It is the manager’s role to ensure the areas the CSM needs to develop to move towards the promotion are clear and articulated</li></ul></td>
+    <td><ul><li>The manager schedules an additional 1-hour sync to discuss their IDP and progress/obstacles</li><li>The CSM is responsible for building and maintaining this document in partnership with their manager</li><li>When a CSM is working towards a promotion, the promotion doc is built and collaborated on in partnership between the CSM and CSM manager. It is the manager's role to ensure the areas the CSM needs to develop to move towards the promotion are clear and articulated</li></ul></td>
     <td>An active IDP in place for every team member, reviewed on a quarterly basis</td>
   </tr>
   <tr>
@@ -112,7 +103,7 @@ While the SAE owns the transition-to-CSM aspect, the CSM Manager will then ensur
 
 ### Customer Onboarding Review
 
-On a regular basis, the CSM Manager should review their team's active Onboarding plays. The Onboarding plays can be reviewed with each individual in one-on-one meetings. Onboarding is measured by the [time to value metrics](/handbook/customer-success/vision/#time-to-value-kpis). Consider:
+On a regular basis, the CSM Manager should review their team's active Onboarding plays. The Onboarding plays can be reviewed with each individual in one-on-one meetings. Onboarding is measured by the [time to value metrics](/handbook/customer-success/customer-success-vision/#time-to-value-kpis). Consider:
 
 1. How many and which accounts are in onboarding?
 2. What do Time to Value metrics look like?

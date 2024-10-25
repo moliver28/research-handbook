@@ -1,14 +1,13 @@
 ---
-
 title: "Field Accreditation: Strategic Account Leaders"
-description: "To support and scale GitLab’s continued growth and success, the Field Enablement Team is developing an accreditation program for Strategic Account Leaders that includes functional, soft skills, and technical training for field team members"
+description: "To support and scale GitLab's continued growth and success, the Field Enablement Team is developing an accreditation program for Strategic Account Leaders that includes functional, soft skills, and technical training for field team members"
 ---
 
 ## Field Accreditation Program for Strategic Account Leaders
 
 ## Overview
 
-To support and scale GitLab’s continued growth and success, the Field Enablement Team is developing an accreditation program for Strategic Account Leaders that includes functional, soft skills, and technical training for field team members.  
+To support and scale GitLab's continued growth and success, the Field Enablement Team is developing an accreditation program for Strategic Account Leaders that includes functional, soft skills, and technical training for field team members.
 
 Accreditation badges will align to the critical customer engagements as well as the [field functional competencies](/handbook/sales/training/field-functional-competencies/) that address the critical knowledge, skills, role-based behaviors, processes, content, and tools to successfully execute each customer interaction.
 
@@ -29,7 +28,7 @@ This is the first learning path in development for SAEs which will consist of 5 
 - The different types of partners GitLab works with
 - Key elements of both the Channel and Alliances programs
 - How to effectively co-sell with partners in the field
-- How to engage with key stakeholders within GitLab  
+- How to engage with key stakeholders within GitLab
 
 **Course 2: Account Planning**
 

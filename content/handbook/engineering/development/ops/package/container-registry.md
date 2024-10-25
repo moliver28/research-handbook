@@ -54,6 +54,8 @@ The DRI for a given project can be identified by looking at the corresponding ep
 
 Additionally, we maintain a list of active projects and the assigned DRI on this page, in [What Are We Working On](#what-are-we-working-on).
 
+Authors of merge requests related to a specific project should request a review from the assigned DRI or backup DRI to ensure they are aware of the changes and can provide the necessary oversight.
+
 ## 📈 Measuring results
 
 ### OKRs
@@ -64,7 +66,7 @@ Here is the [standard, company-wide process for OKRs](/handbook/company/okrs/)
 
 ### Performance indicators
 
-We measure the value we contribute by using [performance indicator metrics](/handbook/product/performance-indicators/). The primary metric used for the Package Registry group is the number of monthly active users or GMAU.
+We measure the value we contribute by using [performance indicator metrics](https://internal.gitlab.com/handbook/company/performance-indicators/product/). The primary metric used for the Package Registry group is the number of monthly active users or GMAU.
 
 {{< tableau height="600px" toolbar="hidden" src="https://us-west-2b.online.tableau.com/t/gitlabpublic/views/TopEngineeringMetrics/TopEngineeringMetricsDashboard" >}}
   {{< tableau/filters "GROUP_LABEL"="container registry" >}}
@@ -86,14 +88,16 @@ We measure the value we contribute by using [performance indicator metrics](/han
 
 Here is a list of active projects and initiatives that we are currently working on, along with the corresponding [DRI](/handbook/people-group/directly-responsible-individuals/):
 
-| Project                                                                                                                                        | DRI                                  | Backup DRI                            |
-| ---------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------ | ------------------------------------- |
-| [Release container registry with metadata database and online GC for self-managed installs](https://gitlab.com/groups/gitlab-org/-/epics/5521) | {{< member-by-gitlab hswimelar >}}   |                                       |
-| [Storage and limits management for the Container Registry](https://gitlab.com/groups/gitlab-org/-/epics/7225)                                  | {{< member-by-gitlab jdrpereira >}}  | {{< member-by-gitlab suleimiahmed >}} |
-| [Container Registry AMAU: Track usage](https://gitlab.com/groups/gitlab-org/-/epics/8213)                                                      | {{< member-by-gitlab jaime >}}       |                                       |
-| [Allow renaming/moving groups and projects with container repositories](https://gitlab.com/groups/gitlab-org/-/epics/9459)                     | {{< member-by-gitlab suleimiahmed >}}|                                       |
-| [Data transfer visibility for the Container Registry](https://gitlab.com/groups/gitlab-org/-/epics/8732)                                       | {{< member-by-gitlab jdrpereira >}}  |                                       |
-| [Implement auto deployments for the Container Registry](https://gitlab.com/groups/gitlab-org/-/epics/7998)                                     | {{< member-by-gitlab suleimiahmed >}}|                                       |
+| Project                                                                                                                | DRI                                   | Backup DRI                          |
+| ---------------------------------------------------------------------------------------------------------------------- | ------------------------------------- | ----------------------------------- |
+| [Release metadata database and online GC for self-managed installs](https://gitlab.com/groups/gitlab-org/-/epics/5521) | {{< member-by-gitlab hswimelar >}}    | {{< member-by-gitlab jaime >}}      |
+| [AMAU usage tracking](https://gitlab.com/groups/gitlab-org/-/epics/8213)                                               | {{< member-by-gitlab jaime >}}        | {{< member-by-gitlab adie.po >}}    |
+| [Allow renaming/moving groups and projects with repositories](https://gitlab.com/groups/gitlab-org/-/epics/9459)       | {{< member-by-gitlab suleimiahmed >}} | {{< member-by-gitlab adie.po >}}    |
+| [Database load balancing](https://gitlab.com/groups/gitlab-org/-/epics/8591)                                           | {{< member-by-gitlab jdrpereira >}}   | {{< member-by-gitlab suleimiahmed >}} |
+| [Confidential](https://gitlab.com/groups/gitlab-org/-/epics/13237)                                                     | {{< member-by-gitlab jaime >}}        | {{< member-by-gitlab jdrpereira >}} |
+| [Database background migrations](https://gitlab.com/groups/gitlab-org/-/epics/13609)                                   | {{< member-by-gitlab suleimiahmed >}} | {{< member-by-gitlab jdrpereira >}} |
+| [Release database dependent features for self-managed installs](https://gitlab.com/groups/gitlab-org/-/epics/12218)    | {{< member-by-gitlab adie.po >}} |  {{< member-by-gitlab hswimelar >}} |
+| [Update user interface](https://gitlab.com/groups/gitlab-org/-/epics/12218)                                            | {{< member-by-gitlab rchanila >}} | {{< member-by-gitlab adie.po >}} |
 
 ## Documentation
 

@@ -1,13 +1,6 @@
 ---
-
 title: Fast Boot
 ---
-
-
-
-
-
-
 
 A Fast Boot is an event that gathers the members of a team or group in one
 physical location to work together and bond in order to accelerate the
@@ -25,7 +18,7 @@ gathered in Utrecht to bond but also work on finalising auto-deployment process.
 the proposal for Fast boot, and
 [the Delivery Fast boot epic](https://gitlab.com/groups/gitlab-org/release/-/epics/17)
 contains issues and links to recordings created during the Fast Boot.
-* The third Fast Boot took place in Vancouver in September 2019. It included 18 people from Product, Engineering, UX and Data from the Acquisition, Conversion, Expansion and Retention teams.  [The planning issue](https://gitlab.com/gitlab-org/growth/product/issues/1) contains the proposal for Fast Boot, and outcomes are available in the [Growth Fast Boot Page](/handbook/marketing/growth/engineering/fast-boot/).
+* The third Fast Boot took place in Vancouver in September 2019. It included 18 people from Product, Engineering, UX and Data from the Acquisition, Conversion, Expansion and Retention teams.  [The planning issue](https://gitlab.com/gitlab-org/growth/product/issues/1) contains the proposal for Fast Boot, and outcomes are available in the [Growth Fast Boot Page](/handbook/engineering/development/growth/fast-boot/).
 
 ## Why should you have a Fast Boot?
 
@@ -36,7 +29,7 @@ time and establish and strengthen relationships between team members.
 
 ## How should you get approval?
 
-First raise the idea with your manager to determine if there’s a good case
+First raise the idea with your manager to determine if there's a good case
 for a Fast Boot. Ultimately, the executive team will approve these on a case
 by case basis.
 

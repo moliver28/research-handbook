@@ -11,13 +11,17 @@ A GitLab contributor room is available on [Discord](https://discord.gg/gitlab) f
 
 ## Issues
 
+### Labeling issues for community contributors
+
+See guidance on [seeking wider community contributions](/handbook/marketing/developer-relations/contributor-success/community-contributors-workflows/#seeking-wider-community-contributions) and the [criteria for `quick win` issues](/handbook/marketing/developer-relations/contributor-success/community-contributors-workflows/#criteria-for-quick-win-issues).
+
 ### Community issues workflow manual process
 
 See the [partial issue triage checklist](/handbook/engineering/infrastructure/engineering-productivity/issue-triage/#partial-triage-checklist).
 
 ## Merge Requests
 
-Wider community merge requests are MRs opened by a person that's not present on https://about.gitlab.com/company/team/ (excluding any bot, service account users or individual contractors).
+Wider community merge requests are MRs opened by a person that's not present on <https://about.gitlab.com/company/team/> (excluding any bot, service account users or individual contractors).
 
 ### Labels
 
@@ -273,10 +277,6 @@ To encourage contribution to priority issues on an on-going basis (and not just 
 
 We run a [Community Newsletter](/handbook/marketing/developer-relations/developer-advocacy/#community-newsletter) to share developer-focused content, alert community members about upcoming events, and keep contributors engaged. The focus of the newsletter is on driving contributions and engagement. It will not be used to generate or nurture leads and allow us to connect with and share our community's contributions.
 
-#### Issues for new contributors
-
-To highlight issues that would be good for new contributors, you can add a [label `quick win`](https://gitlab.com/groups/gitlab-org/-/issues/?sort=created_date&state=opened&label_name%5B%5D=quick%20win&first_page_size=50). It is strongly recommended that these issues have mentor(s) listed so that the new contributor knows who they can get help from while they work on the issue.
-
 ## Supporting the Wider Community Contributors
 
 ### Unblocking wider community contributions
@@ -292,23 +292,34 @@ These 10 GitLab values support efforts to unblock the wider community and push f
 1. [Disagree, commit, and disagree](/handbook/values/#disagree-and-commit)
 1. [Escalate to unblock](/handbook/values/#escalate-to-unblock)
 1. [Cleanup over sign-up](/handbook/values/#cleanup-over-sign-off)
-1. [Minimal viable change](/handbook/values/#minimal-viable-change-mvc)
+1. [Minimal valuable change](/handbook/values/#minimal-valuable-change-mvc)
 1. [Everything is in draft](/handbook/values/#everything-is-in-draft)
 1. [Make two-way door decisions](/handbook/values/#make-two-way-door-decisions)
 
 ### Seeking wider community contributions
 
-GitLab team members seeking help can reach out to the wider community for contributions. It is suggested to start with smaller issues that have a clear implementation plan before moving on to bigger project requests.
+GitLab team members seeking help can reach out to the wider community for contributions. It is suggested to start with smaller `quick win` issues that have a clear implementation plan before moving on to bigger project requests.
 
-- Add a `quick win` label to the issue.
-- Add a clear implementation plan to the issue description.
+- Add a `quick win` label to the issue by following the [criteria for `quick win` issues](#criteria-for-quick-win-issues).
 - Share the issue on the GitLab Community Discord in the [#contribute channel](https://discord.com/channels/778180511088640070/997442331202564176).
 - If a community contributor expresses interest, assign them to the issue.
 - Follow up with the community contributor to see if they need help.
 
-### First-time contributors
+### Criteria for `quick win` issues
 
-The first-time contributors can be identified after each release in the [First time contributors MRs dashboard](https://gitlab.biterg.io/app/kibana#/dashboard/df97f810-f397-11e8-8fe1-b354a33b38be).
+GitLab guides the wider community to search for issues with the `quick win` label when looking to contribute. These issues are intended to be straightforward for community contributors and quick enough to complete while still learning the contribution process. This follows [GitLab's mission](/handbook/company/mission/#mission) to enable everyone to contribute and to support our first-time contributors onboarding with the community. The [GitLab Bot](https://gitlab.com/gitlab-bot) helps to maintain this criteria and will remove the `quick win` label when an issue does not meet the requirements.
+
+- The issue description must include an implementation plan as a second-level heading with guidance
+to help contributors get started.
+For example `## Implementation`, `## Implementation plan` or `## Implementation guide` are all acceptable.
+This section can be very brief or offer possible actions to resolve the issue.
+- The issue must be assigned a weight between 0-3.
+Issue weights should approximate the complexity and effort required.
+Do not relate weight to time estimates.
+- Consider including a GitLab team member or experienced community contributor as a contact person
+for contributors to ask questions or get mentorship.
+
+### First-time contributors
 
 Every time a contributor is opening a merge request to a GitLab namespace for the first time, the label "~1st contribution" is automatically applied to the merge request.
 
@@ -319,6 +330,14 @@ Contributor Success team members can use the [outreach email/message template](/
 ### Working with the Core Team
 
 More information on the [Core Team](https://about.gitlab.com/community/core-team/) is available in the [Core Team handbook page](/handbook/marketing/developer-relations/core-team/).
+
+### Granting GitLab Duo licenses
+
+To support our mission to enable everyone to contribute, we offer GitLab Duo Enterprise licenses to the contributors in our wider community.
+[GitLab Duo](https://about.gitlab.com/gitlab-duo/) features Code Suggestions, Chat, Root Cause Analysis and more AI-powered features to help boost efficiency
+and effectiveness by reducing the time required to write and understand code.
+Community contributors can [visit the GitLab Community Duo Access project](https://gitlab.com/gitlab-community/community-members/duo-access) to request a GitLab Duo Enterprise license and learn more
+about the benefits of GitLab Duo.
 
 ### For contributors who don't own a credit card
 
@@ -493,7 +512,7 @@ Note: this is currently a working list of all locations where we can currently g
 
 ### Tableau dashboards
 
-Internally, GitLab uses [Tableau](/handbook/business-technology/data-team/platform/tableau/) for tracking down the performance of various KPIs. Below you can find a list of community-related dashboards.
+Internally, GitLab uses [Tableau](/handbook/enterprise-data/platform/tableau/) for tracking down the performance of various KPIs. Below you can find a list of community-related dashboards.
 
 | Dashboard | Description |
 | --- | --- |

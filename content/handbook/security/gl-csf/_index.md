@@ -45,14 +45,14 @@ and more precisely for changes in:
 
 The framework is organized in different stages, each of them having their own set of activities:
 
-![activities](./img/activities.svg)
+![activities](img/activities.svg)
 
 *(Source: https://docs.google.com/drawings/d/1eQZppzngBJ9Xssvt514GHbs7rKHuRiLRk8cYbQtD5bI/edit)*
 
 Activities have a "deliverable", which the expected artifacts of the activity. They can be of
 various forms, from markdown pages to the state of a dashboard.
 
-![deliverables](./img/deliverables.svg)
+![deliverables](img/deliverables.svg)
 
 *(Source: https://docs.google.com/drawings/d/1kj3KoU7UePUzoEdWCQFoppDEQgltUedmj6R-I0BqSZ8/edit)*
 

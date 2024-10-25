@@ -12,7 +12,7 @@ Most of the resources here are free but any content requiring payment [can be re
 
 ## Growth and Development
 
-GitLab provides team members with the [growth and development benefit](/handbook/total-rewards/benefits/general-and-entity-benefits/growth-and-development/) to access external resources to develop their career. To take advantage of this benefit, review the company handbook page and follow the process.
+GitLab provides team members with the [growth and development benefit](/handbook/people-group/learning-and-development/growth-and-development/) to access external resources to develop their career. To take advantage of this benefit, review the company handbook page and follow the process.
 
 Managers should add approved growth and development programs to the [department spreadsheet tracker](https://docs.google.com/spreadsheets/d/1hLm_XEX3Vux1Co_dMY5A74io8oqXArDAX6MonlBOYNg/edit#gid=1233213154) in order to track departmental budget.
 
@@ -99,8 +99,8 @@ Managers should add approved growth and development programs to the [department 
 
 ### Handbook
 
-- [Minimum Viable Experiment](/handbook/marketing/growth/engineering/experimentation/#minimum-viable-experiment-mve)
-- [How Growth launches experiments](/handbook/product/growth/#how-growth-launches-experiments)
+- [Minimum Viable Experiment](/handbook/engineering/development/growth/experimentation/#minimum-viable-experiment-mve)
+- [How Growth launches experiments](/handbook/product/groups/growth/#how-growth-launches-experiments)
 - [Growth Experiments Knowledge Base](/handbook/marketing/growth/)
 
 ### Videos
@@ -191,7 +191,7 @@ Managers should add approved growth and development programs to the [department 
 
 ### Handbook Links
 
-- [Product Management Learning and Development](/handbook/product/product-manager-role/learning-and-development/) - a comprehensive list of internal and external resources that Product Managers at GitLab can use to build their skills.
+- [Product Management Learning and Development](/handbook/product/product-management/learning-and-development/) - a comprehensive list of internal and external resources that Product Managers at GitLab can use to build their skills.
 
 ### Book Clubs
 

@@ -1,13 +1,6 @@
 ---
-aliases: /handbook/engineering/infrastructure/core-platform/data_stores/search/es-rollout-timeline.html
 title: Advanced Global Search Rollout on GitLab.com
 ---
-
-
-
-
-
-
 
 ## Steps and Enhancements
 
@@ -23,7 +16,7 @@ title: Advanced Global Search Rollout on GitLab.com
 
 - 2019-12-16:
   - __[Advanced Global Search was re-enabled for gitlab-org group on GitLab.com.](https://gitlab.com/gitlab-com/gl-infra/production/-/issues/1461)__.
-    - Only GitLab’s own gitlab-org was enabled, restoring to the state before the security rapid action.
+    - Only GitLab's own gitlab-org was enabled, restoring to the state before the security rapid action.
   - Margin analysis requested by CFO, [cost estimation issue created.](https://gitlab.com/gitlab-org/gitlab/-/issues/118571)
 
 - 2020-01-15: [Cost analysis completed](https://gitlab.com/gitlab-org/gitlab/-/issues/118571#note_272165771).
@@ -45,14 +38,14 @@ title: Advanced Global Search Rollout on GitLab.com
   - Started the work of scaling indexing jobs by [utilizing Elasticsearch Bulk Import API and Redis sorted set](https://gitlab.com/gitlab-org/gitlab/-/issues/34086).
 
 - 2020-02-04:
-  - [Re-enabled the GitLab’s own gitlab-org and gitlab-com groups.](https://gitlab.com/gitlab-com/gl-infra/production/-/issues/1608)
+  - [Re-enabled the GitLab's own gitlab-org and gitlab-com groups.](https://gitlab.com/gitlab-com/gl-infra/production/-/issues/1608)
   - [Enabled the first customer.](https://gitlab.com/gitlab-com/gl-infra/production/-/issues/1626)
 
 - 2020-02-09 ~ 2020-03-05:
   - Iterative learning of enabling new customers and monitoring production environment via indexing 7 new groups one-by-one, meanwhile developing tools and playbook for batch indexing.
 
 - 2020-02-29: Merged [Add a bulk processor for elasticsearch incremental updates](https://gitlab.com/gitlab-org/gitlab/-/merge_requests/24298).
-  - It processes incremental database updates in batch. It’s more efficient and can lower the load on Elasticsearch when it’s busy.
+  - It processes incremental database updates in batch. It's more efficient and can lower the load on Elasticsearch when it's busy.
   - It uses Redis sorted set, which can deduplicate the indexing jobs. It can also help lower the load on Elasticsearch cluster.
 
 - 2020-03-06:

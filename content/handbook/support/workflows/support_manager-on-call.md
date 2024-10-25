@@ -70,7 +70,7 @@ Your responsibilities are as follows:
 1. Triage and investigate customer tickets and Internal Requests that are announced in the `#support_ticket-attention-requests` Slack channel.
 1. Establish ownership and assignment for starred tickets.
 
-You can use [Support Team Skills by Subject](https://gitlab-com.gitlab.io/support/team/skills-by-subject) to find appropriate engineers to assign.
+You can use [Support Team Skills by Subject](https://gitlab-support-readiness.gitlab.io/support-team/skills-by-subject.html) to find appropriate engineers to assign.
 
 A very high percentage of starred tickets involve licenses and renewals. For guidance in handling these, please see the [Workflow for handling Plan/License Ticket Attention Requests](/handbook/support/license-and-renewals/workflows/managers_working_with_extensions).
 
@@ -94,7 +94,7 @@ Some steps of STAR treatment are handled by bots and auto-responders. The text `
 1. Assess the ticket, and the business case justifying the request (triage).
    - Questions to the initiator can be put in Slack (synchronous) or in the STAR Issue (asynchronous).
    - Final dispensation should be documented in the STAR Issue, because Slack history disappears.
-1. If you need input or help from engineers, initiate a new thread in either the [Slack channel of the SGG](/handbook/support/support-global-groups/#slack) the ticket belongs to, `#support_gitlab-com`, `#support_self-managed` or `#support_licensing-subscription`.
+1. If you need input or help from engineers, initiate a new thread in `#support_gitlab-com`, `#support_self-managed` or `#support_licensing-subscription`.
    - @ mention the assigned engineer and any engineer who previously replied in the ticket, if they are working this day
    - Then return to the thread in `#support_ticket-attention-requests` and comment that all **technical** discussion is happening in the ticket (or in the new thread). This helps ensure all technical discussion stays in one channel/thread.
    - When seeking an engineer to act as the DRI or otherwise move the ticket forward, it is best to identify a Support Engineer who is not on-call or already working on a starred ticket. This helps to ensure that the engineer who assists with the new starred ticket has enough bandwidth to prioritize it.

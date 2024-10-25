@@ -1,5 +1,4 @@
 ---
-
 title: "Education Program"
 description: "Learn about the GitLab for Education Program and other education-related programs from GitLab's Developer Relations team"
 ---
@@ -16,7 +15,7 @@ Additionally, the Education Program seeks to evangelize the benefits of an all-r
 
 ## How to reach us
 
-* DRI: [@esalvadorp](https://gitlab.com/esalvadorp)
+* DRI: [@Akarsten1](https://gitlab.com/Akarsten1)
 * Email: `education@gitlab.com`
 
 Additionally, see the following Slack channels.
@@ -136,26 +135,6 @@ Students are welcome to encourage their educational institution to apply to the 
 Students can access a free subscription for GitLab.com or a free download of our core self-managed offering.
 Students can also apply for a 30-day trial if they would like to test more advanced features of GitLab.
 Children under the age of 13 are not permitted to use GitLab.com (SaaS Software).
-
-## Education evangelism
-
-Education evangelism is [a specialty of Developer Relations](/job-families/marketing/gitlab-for-education/#education-evangelist) aimed at evangelizing DevSecOps and GitLab at educational institutions around the globe.
-Through this work, we hope to support, grow, and engage the GitLab Education community through collaboration, content, and conversation.
-
-### What Education Evangelists do
-
-Our stakeholder community includes students, faculty, staff, administrators, and learners of any origin.
-GitLab's Education Evangelists seek to increase awareness, inform, and connect with community members through a variety of media.
-We also are visible power users of GitLab and DevOps applications.
-We strive to be a resource for all learners and, in accordance with GitLab's [Diversity, Inclusion, and Belonging Values](/handbook/company/culture/inclusion/), we seek to increase outreach to under-represented and under-estimated people in the education community.
-
-The GitLab educational evangelists are technical evangelists with a background in or enthusiasm for education and students of all levels.
-Educational evangelists connect, engage, and create technical content for our education community.
-
-The team has specific goals:
-
-1. **Create and curate content:** Enable faculty, students, and staff to successfully adopt and use GitLab. This includes blog posts, webinars, videos, workshops, eLearning courses, and best practices.
-1. **Connect and engage:** Evangelize the GitLab for Education Program. Connect and engage with program members and the wider community through our forum, social media posts, twitch streams, student spotlights, coffee chats, and at events.
 
 ### Requests for support
 

@@ -19,7 +19,7 @@ A 360 can be a very helpful development tool, but it should not be a replacement
 
 Below are a few key points to think through when determining in which situations the 360 tool may or may not be useful:
 
-- **Development Oriented:** The 360 process is meant to support the team member’s development and to provide feedback supporting individual growth and development. 360s *should not be used as performance management tools*.
+- **Development Oriented:** The 360 process is meant to support the team member's development and to provide feedback supporting individual growth and development. 360s *should not be used as performance management tools*.
 - **Ongoing Feedback:** Managers and team members should seek cross functional feedback throughout the year to inform performance discussions. A 360 should not serve as a replacement for asking stakeholders and peers how things are going.
 - **Focused Goals:** 360 feedback is most useful when a team member is committed to working towards certain development goals, as the 360 can provide more specific feedback and focus towards those development goals, and also reveal some blind spots or hidden strengths.
 - **Individual Growth Plan:** In order for the 360 to lead to action, it is important to document and commit to a development plan that outlines the key findings and development actions. As [noted above](#360-feedback), before launching a 360, ensure an [Individual Growth Plan (IGP)]({{< ref "career-development#individual-growth-plan" >}}) is in place. This ensures the 360 is aligned with development areas.
@@ -41,7 +41,11 @@ Team members who opt-in for the 360 feedback review cycle will be asked to:
 - **(optional)** We have a [Feedback Training enablement issue](https://gitlab.com/gitlab-com/people-group/Training/-/blob/master/.gitlab/issue_templates/feedback_training.md) available for all team members interested in learning more about giving and providing feedback, in addition to our 360 feedback process. We recommend team members that are requesting feedback or providing feedback complete this training.
 - **(optional)** Following the 360, share the themes you heard and resulting actions you plan to take with stakeholders who can support your growth throughout the year.  Update your [Individual Growth Plan]({{< ref "career-development#individual-growth-plan" >}}) with your new development items and actions that you will take as a result of the feedback received in the 360 process.
 
-## Timeline FY'24
+## Timeline FY25 (Pending)
+
+We are currently reviewing the process for 360 and peer-to-peer feedback and will pause our program for mid-year FY25.
+
+## Timeline FY24 (Completed)
 
 The 360 feedback process will be ongoing from July 31, 2023 - September 22, 2023.
 
@@ -65,12 +69,12 @@ The 360 feedback process will be ongoing from July 31, 2023 - September 22, 2023
 
 The FY'24 360 Feedback Cycle will be optional company-wide. To sign up, **all team members must complete [this Google Form](https://docs.google.com/forms/d/e/1FAIpQLSfxIji54UF-u4cRXF80obTJ6VoaylrrbLqjDuxzStzNmjoCCA/viewform?usp=sf_link) to participate**. There are a few important things to keep in mind before signing up:
 
-- **You must sign up before the [Sign Up Window due date](#timeline-fy24) or you will not be able to participate in the cycle.** This is to ensure we are able to launch the review cycle on time
-- Ensure you meet the [tenure eligibility](#eligibility) requirement
+- You must sign up before the or you will not be able to participate in the cycle.
+- This is to ensure we are able to launch the review cycle on time**
+- Ensure you meet the [tenure el**igibility](#eligibility) requirement
 - Make sure that you [fulfill the requirements](#360-feedback-requirements) for participation and that you have an [Individual Growth Plan]({{< ref "career-development#individual-growth-plan" >}}) (or equivalent) in place prior to the 360 Feedback launch
 - Review [the guidelines](#is-the-360-process-right-for-me) to determine whether the 360 Feedback process is right for you
-
-Team members that sign up and meet the eligibility requirements will receive an invtation from CultureAmp at the start of the [Nomination Phase](#timeline-fy24).  Team members that sign up and **do not** meet the eligibility requirements will be notified by their People Business Partner.
+Team members that sign up and meet the eligibility requirements will receive an invtation from CultureAmp at the start of the Nomination Phase. Team members that sign up and **do not** meet the eligibility requirements will be notified by their People Business Partner.
 
 ## 360 Structure
 
@@ -105,7 +109,7 @@ The options shown align with [GitLab Competencies](/handbook/people-group/compet
 - Efficiency: Prioritizing work and managing time well.
 - Diversity: Recognizes and avoids unconscious biases.
 - Inclusion: Recognizing the difference among teams and inviting people to contribute to remove barriers.
-- Belonging: Is an ally, willing ot take action in support of another person in order to remove barriers.
+- Belonging: Is an ally, willing to take action in support of another person in order to remove barriers.
 - Iteration: Experimenting with innovative ideas and approaches / being open to new ways of doing things.
 - Transparency: Actively keeping people informed about what is happening. Being open to contribution and collaboration.
 - Feedback: Actively giving, seeking and responding positively to thoughtful feedback.
@@ -123,7 +127,7 @@ Direct reports of managers that participate in the 360 feedback process will be 
 
 ### Culture Amp Resources For Coaches
 
-1. [360 feedback overview for coaches](https://support.cultureamp.com/hc/en-us/articles/115005117369-Individual-Effectiveness-Coach-s-guide-to-360s)
+1. [360 feedback overview for coaches](https://support.cultureamp.com/en/articles/7048473-guide-to-managing-the-360-review-process-as-a-coach)
 1. [Coach's guide to taking action on Effectiveness 360 feedback](https://support.cultureamp.com/hc/en-us/articles/208687485-Coach-s-guide-to-taking-action-on-Effectiveness-360-surveys)
 
 #### Checklist For Coaches
@@ -145,7 +149,7 @@ In Culture Amp, a reviewer is anyone who is requested to provide feedback for a 
 
 Reviewers can be managers, direct reports or co-workers(no participants outside of GitLab). Here are some best practices for selecting reviewers:
 
-- Nominate your manager, all of your direct reports (if applicable) and a selection of around three peers. Three peers is not a hard limit but we want to make sure the process remains managable for all.
+- Nominate your manager, all of your direct reports (if applicable) and a selection of around three peers. Three peers is not a hard limit but we want to make sure the process remains manageable for all.
 - If you are in heavily cross-functional or in leadership roles, ensure you have cross-functional representation in line with your level of collaboration.
 - Ensure to nominate team members who are operating at the same level as you to not overburden your skip-level leaders.
 - Search for team members using their email or last name, as CultureAmp does not support listing Preferred Name, only Legal Name and Email.
@@ -224,7 +228,7 @@ If you would like to learn more, we held a [Receiving Feedback Live Learning cou
 
 ### Guidance for Managers
 
-The feedback that your team member receives may reinforce excellent or under performance you have already observed, but shouldn't be the only data point you use in evaluating performance. In cases where you’ve identified your top performer, we should learn from what makes that person successful to share with others. In cases where unsatisfactory performance is identified, you should also address that timely and honestly. The feedback included through the 360 process may help in talking through examples of strengths or improvement areas, but you should not wait for the 360 Feedback process to address performance matters.
+The feedback that your team member receives may reinforce excellent or under performance you have already observed, but shouldn't be the only data point you use in evaluating performance. In cases where you've identified your top performer, we should learn from what makes that person successful to share with others. In cases where unsatisfactory performance is identified, you should also address that timely and honestly. The feedback included through the 360 process may help in talking through examples of strengths or improvement areas, but you should not wait for the 360 Feedback process to address performance matters.
 
 ### Reviewing the Report as a Manager
 
@@ -240,7 +244,7 @@ The high level recommended process is as follows:
 1. *In the meeting:*
     - When discussing the feedback, ask open ended questions such as: What do you think of the feedback? Were there any surprises?
     - Give feedback using the S-B-I- model: situation - behavior - impact
-    - Identify 1-2 development opportunities based on the feedback to focus on and identify concrete development actions. Ask open ended questions like “what would success look like?” which also engage the team member to take accountability for their own growth and development
+    - Identify 1-2 development opportunities based on the feedback to focus on and identify concrete development actions. Ask open ended questions like "what would success look like?" which also engage the team member to take accountability for their own growth and development
     - Update the IGP based on the 360 findings and development actions.
 1. *After the meeting:* periodically (quarterly) in 1:1s, review progress against the development goals and offer support as needed
 

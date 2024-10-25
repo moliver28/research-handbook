@@ -1,15 +1,7 @@
 ---
-
 title: "CSM Aspiring Leaders Program"
 description: "A guide to help CSMs level up their skills to be ready for leadership"
 ---
-
-
-
-
-
-
-
 
 ## CSM Aspiring Leaders Program Overview
 
@@ -39,7 +31,7 @@ To kick off this guide, it's important to understand what being a manager entail
    - What do you anticipate being the best part of being a manager and why? What about the worst part and why?
    - What team do you want to lead / what team is best suited for your skills and experience? Why?
 1. Have coffee chats with multiple CSM Managers about their experiences in management (and, if applicable, their experience being promoted into the role from being an IC).
-1. Review GitLab's [Growth & Development budget](/handbook/total-rewards/benefits/general-and-entity-benefits/growth-and-development/) and identify opportunities to use this benefit for growing your leadership skills.
+1. Review GitLab's [Growth & Development budget](/handbook/people-group/learning-and-development/growth-and-development/) and identify opportunities to use this benefit for growing your leadership skills.
 
 ## Module 2: Learn
 
@@ -55,7 +47,7 @@ Once you feel confident you're interested in exploring management, it's time to 
    - What to discuss in mentorship calls:
       - During your first call, suggest a meeting cadence going forward.
       - Be prepared and succinct; consider sharing an agenda ahead of time that includes your leadership goals and what questions you have for your mentor.
-      - Ask for feedback on your existing work; consider sharing a success plan or success story that you’re proud of, or a story where you feel like you could have handled a situation better.
+      - Ask for feedback on your existing work; consider sharing a success plan or success story that you're proud of, or a story where you feel like you could have handled a situation better.
       - Explore leadership styles; ask your mentor about theirs and share your vision of your own leadership style.
       - Leave each meeting with agreed-upon action items for both parties.
 1. Read through the [leadership page](/handbook/leadership/) of the handbook.
@@ -97,7 +89,7 @@ It's important to take the learnings you've gained and put them into action, so 
       - Approach people directly that you feel may benefit or be interested in a mentor.
       - Seek recommendations from managers and above on anyone they think could be a good match for you.
    - What to discuss in mentorship calls:
-      - Be present, be honest, and be vulnerable. Don’t share just your successes - often the best learnings come from failures. Foster a safe environment for these conversations, where the mentee feels safe sharing both their failures and successes too.
+      - Be present, be honest, and be vulnerable. Don't share just your successes - often the best learnings come from failures. Foster a safe environment for these conversations, where the mentee feels safe sharing both their failures and successes too.
       - Be prepared, and review any agenda they have provided in advance, taking time to think of examples to share or questions to ask.
       - Ensure you are giving your mentee your full attention during the call.
       - Utilize [coaching methods](/handbook/leadership/coaching/#how-coaches-coach) to help your mentee figure things out on their own.

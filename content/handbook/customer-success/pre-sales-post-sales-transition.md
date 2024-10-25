@@ -1,15 +1,8 @@
 ---
-
 title: Transitioning Accounts from Pre-Sales to Post-Sales
 description: >-
   How to effectively transition a customer from the pre-sales engagement to post-sales to ensure the customer is successful.
 ---
-
-
-
-
-
-
 
 As a member of the pre-sales team, closing another successful deal for GitLab, it is important to pave the way for the CSM. A successful CSM introduction is a critical step in the customer lifecycle. An effective CSM introduction will lead to customer excitement about the product and increase the CSM's credibility as they assist the customer through onboarding, implementation, and adoption.
 
@@ -18,9 +11,9 @@ Please review this course on [Introducing the Customer Success Manager](https://
 
 ## Engaging a CSM/CSE
 
-Not all accounts qualify for a CSM or CSE. Please view this [internal wiki page](https://gitlab.com/gitlab-com/customer-success/csm/-/wikis/CSM-Segments) with ARR thresholds by sales segment to determine if your account qualifies for either a CSM or Scale CSE.
+Not all accounts qualify for a CSM or CSE. Please view this [internal wiki page](https://gitlab.com/gitlab-com/customer-success/csm/-/wikis/CSM-Segments) with ARR thresholds by sales segment to determine if your account qualifies for either a CSM or CSE.
 
-To determine if an account already has a CSM assigned, go to the Salesforce account page, scroll to the `Customer Success` section, and see if there is an entry for `Customer Success Manager` (this should be right below the Solutions Architect). If a person is listed there, they are the CSM and you can reach out to them about the account. If `TAM Scale` is listed instead of a person, that means that the account is supported by a Scale CSE. To get a Scale CSE engaged with the account, please reference this [handbook page](/handbook/customer-success/csm/segment/scale/scale-operating-rhythm/#scale-engagement-request-process) on how to request engagement.
+To determine if an account already has a CSM assigned, go to the Salesforce account page, scroll to the `Customer Success` section, and see if there is an entry for `Customer Success Manager` (this should be right below the Solutions Architect). If a person is listed there, they are the CSM and you can reach out to them about the account. If `TAM Scale` is listed instead of a person, that means that the account is supported by a CSE. To get a CSE engaged with the account, please reference this [handbook page](/handbook/customer-success/csm/segment/cse/cse-operating-rhythm/#cse-engagement-request-process) on how to request engagement.
 
 If you have questions about CSM alignment (either for existing or newly-qualifying customers), please reach out to the CSM Manager supporting that region (see this [handbook page](/handbook/customer-success/csm/csm-manager/#csm-leadership) for details).
 
@@ -70,7 +63,7 @@ After a CSM is assigned by the manager, the SA should arrange an internal [accou
 
 In preparation for transitioning the account to post-sales, the CSM should schedule a meeting with the entire [account team](/handbook/customer-success/account-team/) to review details about the customer and the success plan. The account team should use the following questions to review details, and define the next steps near-, medium-, and long-term for the customer adoption journey:
 
-- What are the customer’s objectives & measurable success criteria for the next 6-12 months? For each objective discussed, ensure we have answers to the following:
+- What are the customer's objectives & measurable success criteria for the next 6-12 months? For each objective discussed, ensure we have answers to the following:
   - Initiative - What activity are we completing?
   - Business Outcome - What customer-defined result do we need to achieve?
   - Success Criteria - How do we measure success?

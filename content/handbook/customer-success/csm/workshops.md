@@ -1,12 +1,6 @@
 ---
-
 title: Workshops and Enablement Sessions
 ---
-
-
-
-
-
 
 View the [CSM Handbook homepage](/handbook/customer-success/csm/) for additional CSM-related handbook pages.
 
@@ -75,7 +69,7 @@ If you are interested in a session that doesn't exist yet, but you're not able o
 
 CSMs should offer sessions early during onboarding, and whenever working on a stage enablement. If the customer wants a session on a topic we do not already have slides for, request more time to prepare, and then work with the Customer Success team to help pull together some slides for the session. Then the newly created session can be added to the list of existing sessions available to other CSMs.
 
-It is recommended to invite another GitLab team member to the session to help with notes, audience management, and Q&A. This helper could be the Solutions Architect or Account Executive for the account, or it could be a fellow CSM.
+It is recommended to invite another GitLab team member to the session to help with notes, audience management (including obtaining screenshots of audience participants), and Q&A. This helper could be the Solutions Architect or Account Executive for the account, or it could be a fellow CSM. 
 
 Consider the typical length of the session when scheduling. It is recommended to coordinate with your champion on the following information:
 
@@ -109,7 +103,7 @@ When you do pause for questions, try to answer them but it is OK to say you don'
 
 ### After the session
 
-Send a copy of the slides used, and a link to the recording to your champion so they can share it with the participants and with those that could not attend the live session. Follow up on any question that could not be answered. Add a follow-up item to your next cadence call agenda to see what they thought went well and what could be improved for future sessions. Work to schedule other sessions based on demand.
+Send a copy of the slides used, and a link to the recording to your champion so they can share it with the participants and with those that could not attend the live session. Follow up on any question that could not be answered. Add a follow-up item to your next cadence call agenda to see what they thought went well and what could be improved for future sessions. Work to schedule other sessions based on demand. **IF there are participants you are not familiar with who attended the webinar, please follow up with your day to day contact to better understand if/how additional teams are using GitLab and what/if any trainings are needed.
 
 ## Session Notes
 
@@ -120,9 +114,9 @@ Similar to taking notes in a cadence call, it is useful to add to your running n
 - Write down your *agenda* (including questions you want to ask). This way you can quickly add your notes for the specific context.
 - If you're comfortable writing in [Markdown format](/handbook/markdown-guide/), use it to quickly structure your notes in real time.
 - Allow yourself time directly after the call to clean up your notes. Avoid scheduling back-to-back meetings.
-- Practice slowing down call conversations. Stopping the dialog for a few seconds to say “let me write that down” tells the customer what they said is important to you.
+- Practice slowing down call conversations. Stopping the dialog for a few seconds to say "let me write that down" tells the customer what they said is important to you.
 - Ask your SAE/AE/SA to take notes with you. After the meeting combine and add detail.
-- Use [Chorus](/handbook/business-technology/tech-stack/#chorus) to record your calls so there's less pressure for you to take note of everything.
+- Use [Gong](https://us-81995.app.gong.io/home) to record your calls so there's less pressure for you to take note of everything.
 - Sometimes it makes sense for somebody on the [account team](/handbook/customer-success/account-team/) to go back through the call in Chorus to transcribe it.
-- Write notes in whatever is easiest and always copy them to your best source of truth. If you can write them in the source of truth in the first place, you’ll be more efficient and consistent
+- Write notes in whatever is easiest and always copy them to your best source of truth. If you can write them in the source of truth in the first place, you'll be more efficient and consistent
 - Leverage the [Workshop Planning Checklist](https://docs.google.com/document/d/1MQuIq8_QWvZJi_zKMzwkIf9Ewps4nezmcvQ6YuzomSA/edit) for planning calls with the customer

@@ -1,5 +1,4 @@
 ---
-
 title: Account Based Marketing
 description: Account Based Marketing Handbook
 twitter_image: /images/tweets/handbook-marketing.png
@@ -24,7 +23,7 @@ ABM is a marketing strategy that concentrates resources on a set of target accou
 
 <!-- DO NOT CHANGE THIS ANCHOR -->
 
-We are the owners of the ABM platform, [6sense](/handbook.gitlab.com/handbook/marketing/marketing-operations/6sense/) at GitLab. 6sense is an Account Based Marketing platform that uses a predictive model to identify the right customers at the ideal time. We use 6sense to build our target account lists, launch display advertising, and measure account progression through the sales funnel over time. 6sense also provides account intelligence on things like intent, engagement, and keyword search. There is a 6sense data section on the account in Salesforce that is available for our XDR org and coming soon to the Sales org. If you have any questions about the tool or access to it, please drop a slack in #6sense_help.
+We are the owners of the ABM platform, [6sense](/handbook/marketing/marketing-operations/6sense/) at GitLab. 6sense is an Account Based Marketing platform that uses a predictive model to identify the right customers at the ideal time. We use 6sense to build our target account lists, launch display advertising, and measure account progression through the sales funnel over time. 6sense also provides account intelligence on things like intent, engagement, and keyword search. There is a 6sense data section on the account in Salesforce that is available for our XDR org and coming soon to the Sales org. If you have any questions about the tool or access to it, please drop a slack in #6sense_help.
 
 ## FY25 Strategy
 
@@ -47,7 +46,7 @@ Our key account list consists of Mid-Market and Enterprise accounts that the sal
 - [Terminus Email Signature Banners](/handbook/marketing/marketing-operations/terminus-email-experiences/): Ads within an email signature that are targeted based on email address domain.
 - [Pathfactory](/handbook/marketing/marketing-operations/pathfactory/):
   - Content tracks: Allow us to bundle assets together (around 5-7) in a "content track" and shared as one link. Instead of sharing multiple links to individual assets, one link provides a curated content experience.
-  - Microsites: PathFactory’s Microsite Builder enables us to display multiple types of Content Tracks within a custom-designed landing page that aligns to our Tier 1 accounts or a Tier 2 cohort of accounts.
+  - Microsites: PathFactory's Microsite Builder enables us to display multiple types of Content Tracks within a custom-designed landing page that aligns to our Tier 1 accounts or a Tier 2 cohort of accounts.
 - [Outreach](/handbook/marketing/marketing-operations/outreach/): The core tool for BDR outbound efforts, ABM will write custom sequences for 1:1 and cohort plays as needed.
 
 ## Communication

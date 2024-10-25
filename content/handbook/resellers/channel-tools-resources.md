@@ -1,5 +1,4 @@
 ---
-
 title: "Channel Partner Tools and Resources"
 description: "Channel Partner tools and resources to help grow your GitLab business."
 ---
@@ -30,7 +29,7 @@ GitLab Channel Partners need a landing page with information about GitLab as par
 
 - Your organization's GitLab webpage should use the Authorized Reseller logo (available on the Partner Portal) and link back to us at [about.gitlab.com](https://about.gitlab.com/).
 
-- Your webpage should include a “What Is GitLab?” paragraph which can be found in our [press kit](https://about.gitlab.com/press/press-kit/) along with our logo. You can find additional information in our [reseller marketing kit](/handbook/marketing/brand-and-product-marketing/product-and-solution-marketing/reseller-kit/).
+- Your webpage should include a "What Is GitLab?" paragraph which can be found in our [press kit](https://about.gitlab.com/press/press-kit/) along with our logo. You can find additional information in our [reseller marketing kit](/handbook/marketing/brand-and-product-marketing/product-and-solution-marketing/reseller-kit/).
 
 - To ensure you are consistently representing our product on your website, we ask that wherever you mention the GitLab product or features, there should be a link back to the corresponding item on [about.gitlab.com](https://about.gitlab.com/).
 
@@ -69,7 +68,7 @@ Learn more by going to the [Marketing Demand Generation section](https://partner
 
 ### **Customer Case Studies**
 
-Testimonials from happy customers are a great tool, but gathering this information can be difficult and time-consuming. GitLab is offering our Partners access to UserEvidence software which can quickly and easily collect customer feedback and turn it into compelling quotes, graphics, and other publishable materials. To participate in this program, Partners should contact [Partner Marketing](mailto:Partner-Marketing@gitlab.com) or learn more by going to the [Marketing Demand Generation section](https://partners.gitlab.com/prm/English/c/marketing-demand-gen) of the Partner Portal.
+Testimonials from happy customers are a great tool, but gathering this information can be difficult and time-consuming. To participate in this program, Partners should contact [Partner Marketing](mailto:Partner-Marketing@gitlab.com) or learn more by going to the [Marketing Demand Generation section](https://partners.gitlab.com/prm/English/c/marketing-demand-gen) of the Partner Portal.
 
 ### **Concierge Marketing Program**
 
@@ -101,7 +100,7 @@ GitLab uses the Partner Portal, and our News on Demand Platform to communicate w
 
 - **Not receiving communications?** Typically a person has opted out. Contact the Partner Help Desk, and we can add you back in. Partners can access archived articles by accessing the News tab at the top of the portal.
 
-- **The GitLab Handbook -** The GitLab Handbook is the central repository for how we run the company. As part of our value of being transparent, our Handbook is open to the world, and we welcome feedback. Although the Partner Portal is your first source of Partner information, we often link to the Handbook for detailed information. If you are unable to find information you need on the Partner Portal, you are encouraged to search pages of the [GitLab Handbook](https://about.gitlab.com/handbook/).
+- **The GitLab Handbook -** The GitLab Handbook is the central repository for how we run the company. As part of our value of being transparent, our Handbook is open to the world, and we welcome feedback. Although the Partner Portal is your first source of Partner information, we often link to the Handbook for detailed information. If you are unable to find information you need on the Partner Portal, you are encouraged to search pages of the [GitLab Handbook](/handbook/).
 
 ## **More Channel Partner Program Information**
 
@@ -112,7 +111,7 @@ If you are looking for additional information on the GitLab Partner program see 
 - [Channel Services Program](/handbook/resellers/services/)
 - [Channel Services Catalog](/handbook/resellers/services/services-catalog/)
 - [Channel Partner Training and Certifications](/handbook/resellers/training/)
-- [Channel Partners: Working with GitLab](/handbook/resellers/channel-working-with-GitLab/)
+- [Channel Partners: Working with GitLab](/handbook/resellers/channel-working-with-gitlab/)
 - [Channel Tools and Resources](/handbook/resellers/channel-tools-resources/)
 - [Alliance Program](https://about.gitlab.com/partners/technology-partners/)
 

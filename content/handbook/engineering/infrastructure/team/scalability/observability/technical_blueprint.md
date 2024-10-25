@@ -1,5 +1,4 @@
 ---
-aliases: /handbook/engineering/infrastructure/team/scalability/observability/technical_blueprint.html
 title: "Technical Blueprint"
 ---
 
@@ -23,7 +22,7 @@ Internal users can improve the observability of our platform and access observab
 
 Not all of what we do belongs in the product, but some of it might!
 
-In line with our [Dogfooding philosophy](/handbook/product/product-processes/dogfooding-for-product-mgt/), we go beyond the SaaS context and consider what we can offer upstream to other GitLab customers.
+In line with our [Dogfooding philosophy](/handbook/product/product-processes/dogfooding-for-r-d/), we go beyond the SaaS context and consider what we can offer upstream to other GitLab customers.
 Similarly, we prefer using GitLab's own features and tools when they fit our requirements.
 
 ### Tool Portability

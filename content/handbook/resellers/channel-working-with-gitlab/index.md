@@ -1,5 +1,4 @@
 ---
-aliases: /handbook/resellers/channel-working-with-GitLab
 title: "Channel Partners: Working with GitLab"
 description: "How channel Partners can work with GitLab."
 ---
@@ -72,15 +71,15 @@ NOTE: Discounts are off list price. If GitLab is deeply discounting a large annu
 
 #### Deal Registration Program Overview
 
-To promote the growth and success of GitLab channels, manage channel conflict, and provide a systematic approach to pursuing sales opportunities, GitLab has formalized the rules of engagement and deal registration procedures. Since the first qualified deal registration requires approval, Partners are encouraged to submit their deal registrations as early as possible to lock in the biggest discount. Partners in the GitLab Partner Program need to register individual sales opportunities; Partners may not register an account or combine opportunities. Review the [Definitions and Qualifications section of this page](/handbook/resellers/channel-working-with-GitLab/#definitions-and-qualifications) for more detail on what GitLab defines as Partner Sourced and Co-sell deal registrations.
+To promote the growth and success of GitLab channels, manage channel conflict, and provide a systematic approach to pursuing sales opportunities, GitLab has formalized the rules of engagement and deal registration procedures. Since the first qualified deal registration requires approval, Partners are encouraged to submit their deal registrations as early as possible to lock in the biggest discount. Partners in the GitLab Partner Program need to register individual sales opportunities; Partners may not register an account or combine opportunities. Review the [Definitions and Qualifications section of this page](/handbook/resellers/channel-working-with-gitlab/#definitions-and-qualifications) for more detail on what GitLab defines as Partner Sourced and Co-sell deal registrations.
 
-- Deal registration approval is based upon order of receipt of the registration, qualification of the opportunity, Partner ability to deliver in-country/region support, and Partner relationship with the customer. Deal registration approval is required and will be made by GitLab’s Sales team.
+- Deal registration approval is based upon order of receipt of the registration, qualification of the opportunity, Partner ability to deliver in-country/region support, and Partner relationship with the customer. Deal registration approval is required and will be made by GitLab's Sales team.
 - Only one Partner can earn a deal registration discount per opportunity. Partners, other than the Partner granted the deal registration discount that requests a quote, will receive the co-sell discount rate.
 - New or existing customer opportunities or new opportunities with existing customers can qualify for deal registration discounts. Add-on sales to renewals can also qualify.
 - Approved deal registrations have a standard 90-day expiration from the date of original approval. (Deal Registration extensions beyond the initial 90 days approval are at the sole discretion of GitLab.) GitLab collaborates with Partners holding the approved deal registration and is available to support Partners throughout the entire sales process.
-- In the event the engagement is dissolved, the GitLab Sales Rep will generally notify you by phone or email. GitLab will reconsider other deal registrations submitted for this deal, in chronological order of submission. If there are no other registration requests submitted, the GitLab Sales Rep will typically initiate engagement with a reseller of the GitLab Sales Rep’s choosing.
+- In the event the engagement is dissolved, the GitLab Sales Rep will generally notify you by phone or email. GitLab will reconsider other deal registrations submitted for this deal, in chronological order of submission. If there are no other registration requests submitted, the GitLab Sales Rep will typically initiate engagement with a reseller of the GitLab Sales Rep's choosing.
 
-Only authorized Partners that have signed the GitLab Partner Program Agreement are able to register deals, earn program discounts, and transact with GitLab. Unauthorized Partners do not qualify. Additionally, at least one of the Partner’s employees must complete the GitLab Foundations for Partners training for the Partner to qualify for deal registration and program discounts.
+Only authorized Partners that have signed the GitLab Partner Program Agreement are able to register deals, earn program discounts, and transact with GitLab. Unauthorized Partners do not qualify. Additionally, at least one of the Partner's employees must complete the GitLab Foundations for Partners training for the Partner to qualify for deal registration and program discounts.
 
 ##### Deal Registration Instructions
 
@@ -88,12 +87,12 @@ Our Deal Registration process allows us to incentivize our Partners to source an
 
 ##### Submitting a Deal Registration
 
-1. Go to the [GitLab Partner Portal](https://partners.gitlab.com/) at Partners.GitLab.com and select “Register a Deal.”
+1. Go to the [GitLab Partner Portal](https://partners.gitlab.com/) at Partners.GitLab.com and select "Register a Deal."
 2. Choose to "Add a Registration."
 3. Choose "GitLab" under the list of vendors.
-4. When asked to select a program, choose either "Deal Registration" for a standard licensing sale (“Referral,” “Resale,” or “MSP”) or "Service Attached Registration" if you're submitting a registration to participate in our rebate program for services that you're providing to the customer.
+4. When asked to select a program, choose either "Deal Registration" for a standard licensing sale ("Referral," "Resale," or "MSP") or "Service Attached Registration" if you're submitting a registration to participate in our rebate program for services that you're providing to the customer.
 5. Complete and ensure all information has been filled out. GitLab will not engage based on a speculative or poorly defined opportunity or with a reseller that is not eligible to win a sales opportunity.
-6. Choose “Submit the deal.”
+6. Choose "Submit the deal."
 7. Go through the review and approval process.
 
 Once deal registrations are received, a GitLab Sales Rep will:
@@ -104,7 +103,7 @@ Once deal registrations are received, a GitLab Sales Rep will:
 
 ##### How Licensing Registrations Work
 
-- Only a properly completed deal registration submission can initiate an engagement and, as mentioned, engagements are not exclusive. Thus, it is in all parties’ best interest to complete a deal registration form as soon as a qualified sales opportunity is identified.
+- Only a properly completed deal registration submission can initiate an engagement and, as mentioned, engagements are not exclusive. Thus, it is in all parties' best interest to complete a deal registration form as soon as a qualified sales opportunity is identified.
 - The GitLab Sales Rep checks to see if GitLab is already engaged with another reseller on this opportunity. If so, the Sales Rep rejects the deal registration and notifies you that GitLab cannot engage with you.
 - If GitLab is not already engaged with another reseller, the Sales Rep or Account Executive contacts you to schedule a meeting or conference call with the customer to confirm that the following requirements are met:
   - The information submitted on the deal registration form is complete and correct.
@@ -113,7 +112,7 @@ Once deal registrations are received, a GitLab Sales Rep will:
   - The customer has not selected an alternate GitLab reseller for this deal.
   - The customer agrees that you are eligible to win this business.
 
-Note: “Eligible” means that you meet all contractual or regulatory requirements to bid on the deal and that the customer is willing to buy you. This is particularly relevant with government contracts or bids, but could also apply to commercial work.
+Note: "Eligible" means that you meet all contractual or regulatory requirements to bid on the deal and that the customer is willing to buy you. This is particularly relevant with government contracts or bids, but could also apply to commercial work.
 
 If any of the above requirements are not met—or you fail to promptly schedule a meeting or conference call with the customer—the GitLab Sales Rep may advise you that GitLab cannot engage with you for this opportunity. GitLab will then reconsider other deal registration applications submitted for this deal in order of submission. You may subsequently attempt to remedy this situation and submit another deal registration form for this deal, but this will be considered a new submission.
 
@@ -142,7 +141,7 @@ GitLab will not generate a quote, or fulfill an order, without an end user conta
 
 ###### Receive a GitLab Reseller Quote
 
-Select Partners and partners in areas where there is no active distributor must purchase directly through GitLab. To receive a quote, partners can either [register a deal](/handbook/resellers/channel-working-with-GitLab/#submitting-a-deal-registration) or reach out to their channel manager and request a quote. The channel manager will connect the partner with the appropriate sales team who will work with the partner throughout the life of the opportunity.
+Select Partners and partners in areas where there is no active distributor must purchase directly through GitLab. To receive a quote, partners can either [register a deal](/handbook/resellers/channel-working-with-gitlab/#submitting-a-deal-registration) or reach out to their channel manager and request a quote. The channel manager will connect the partner with the appropriate sales team who will work with the partner throughout the life of the opportunity.
 
 To submit a purchase order for a resell-direct opportunity, please submit your PO to the sales team you have been working with for the opportunity.
 
@@ -151,9 +150,9 @@ To submit a purchase order for a resell-direct opportunity, please submit your P
 Open Partners are required to purchase through a distribution partner in every territory with an active distributor. All quote requests and purchase orders can be sent directly to the distributor.
 
 - In EMEA: Partners transact with Amazic via gitlab@amazic.com.
-- In APAC (several countries): Partners transact with [Tech Data/TD Synnex](https://www.techdata.com/apac/en/partner-with-us/become-a-partner.html)
+- In Japan: Partners transact with [Networld](https://www.networld.co.jp/product/gitlab/)
+- In APAC (several countries but excluding Japan): Partners transact with [Tech Data/TD Synnex](https://www.techdata.com/apac/en/partner-with-us/become-a-partner.html)
   - In India: Partners may also choose to transact with Redington via gitlab@redington.co.in.
-  - In Japan: Partners may also choose to transact with [Networld](https://www.networld.co.jp/product/gitlab/)
 - US PubSec: Partners transact with Carahsoft via gitlab@carahsoft.com
 
 ###### License Key Delivery
@@ -215,26 +214,26 @@ Most customers grow their GitLab deployment over time. As such, renewals create 
 
 Channel Partners are equipped with a partner lead sharing and deal registration system designed to maximize the value of [GitLab partner program](/handbook/resellers/). With the partner lead sharing module, GitLab Prospects, channel partners can access and manage their leads, generated by a GitLab co-marketing campaign in the [GitLab Partner Portal](https://partners.gitlab.com/). You can also easily convert these leads to deal registrations and submit them to GitLab for approval.
 
-Partner SLAs: In the final phase of the [partner recall process](/handbook/resellers/channel-working-with-GitLab/#channel-partner-lead-recall), GitLab Channel Partners will have 5 days to accept the lead and 10 days to action the lead.
+Partner SLAs: In the final phase of the [partner recall process](/handbook/resellers/channel-working-with-gitlab/#channel-partner-lead-recall), GitLab Channel Partners will have 5 days to accept the lead and 10 days to action the lead.
 
 ##### How to Accessing Your Prospects
 
 You will receive an email notification when a lead is generated. Best practice is to respond within 24 hours.
 
-When leads have been shared with you, you will see an additional tab, “Prospects”, in the GitLab Registration portal. Note, the “Prospects” tab will not appear in the partner portal until you receive your first lead.
+When leads have been shared with you, you will see an additional tab, "Prospects", in the GitLab Registration portal. Note, the "Prospects" tab will not appear in the partner portal until you receive your first lead.
 
-1. Once you click on the “Prospects” tab, you will be able to see and manage all your GitLab Prospects. In the “Pending" status, click the three dots on the left side of the prospect itself to:
+1. Once you click on the "Prospects" tab, you will be able to see and manage all your GitLab Prospects. In the "Pending" status, click the three dots on the left side of the prospect itself to:
     - Accept
     - Reject
     - Assign to another salesperson
     - View prospect details
-2. View the standard “Default Reports” for the statuses of your prospects. [See definitions](/handbook/resellers/channel-working-with-GitLab/#definitions):
+2. View the standard "Default Reports" for the statuses of your prospects. [See definitions](/handbook/resellers/channel-working-with-gitlab/#definitions):
     - Pending
     - Accepted
     - Qualifying
     - Qualified
     - Disqualified
-3. Use the [Custom Reports](/handbook/resellers/channel-working-with-GitLab/#custom-reports) to configure the specific data parameters you require.
+3. Use the [Custom Reports](/handbook/resellers/channel-working-with-gitlab/#custom-reports) to configure the specific data parameters you require.
 
 ##### Managing an Accepted Prospect
 
@@ -245,7 +244,7 @@ Click on the accepted prospect to:
 1. View the prospect details
 2. Update the status of your prospect
 3. Convert a qualified prospect to a deal registration
-4. Updating a prospect to “Qualified” will unlock the “Convert to Registration” button and allow you to submit a linked registration using the standard process
+4. Updating a prospect to "Qualified" will unlock the "Convert to Registration" button and allow you to submit a linked registration using the standard process
 
 ##### Custom Reports
 
@@ -260,12 +259,12 @@ The [GitLab Deal Registration System User Guide](https://partners.gitlab.com/prm
 
 For additional support, click on:
 
-- “Contact Support” and the top right-hand corner to submit a ticket
-- "Help” at the bottom right-hand corner for self-guide tutorials
+- "Contact Support" and the top right-hand corner to submit a ticket
+- "Help" at the bottom right-hand corner for self-guide tutorials
 
 ##### Designate More than One Person to View Prospect Leads in Prospects Module
 
-Your organization’s GitLab prospect admin for the partner portal has the ability to designate multiple people to view prospects within the partner portal. To do so use the [free trial adding prospect user guide](https://partners.gitlab.com/prm/English/s/assets?id=391211) to learn how to access the settings in Prospects module and set any user to a prospect admin.
+Your organization's GitLab prospect admin for the partner portal has the ability to designate multiple people to view prospects within the partner portal. To do so use the [free trial adding prospect user guide](https://partners.gitlab.com/prm/English/s/assets?id=391211) to learn how to access the settings in Prospects module and set any user to a prospect admin.
 
 ##### Channel Partner Lead Recall
 
@@ -275,7 +274,7 @@ In the event the GitLab Channel Partner is unable to action or move a lead to cl
 
 Phase 1 - Unactioned Leads Over 30 Days Old
 
-These are GitLab owned leads that are stuck in “Prospect Share Status" = "Pending” for over 30 days. Their status have not been updated to either “Accepted” or “Rejected.” Additionally, these leads are not “Qualified” or have not been converted to a deal.
+These are GitLab owned leads that are stuck in "Prospect Share Status" = "Pending" for over 30 days. Their status have not been updated to either "Accepted" or "Rejected." Additionally, these leads are not "Qualified" or have not been converted to a deal.
 
 Recall Process Overview
 
@@ -330,13 +329,13 @@ Authorized GitLab Partner fills out the NFR License Request Form which can be fo
 
 ##### NFR Renewals
 
-GitLab NFR licenses expire after a 12-month subscription period, unless they are add-on licenses, in which case they expire with the Partner’s oldest NFR licenses. Partners must be compliant with the GitLab Partner Program to renew their licenses and they can request a renewed license through the NFR form per the [standard process above](/handbook/resellers/channel-working-with-GitLab/#requesting-a-gitlab-nfr-not-for-resale-license).
+GitLab NFR licenses expire after a 12-month subscription period, unless they are add-on licenses, in which case they expire with the Partner's oldest NFR licenses. Partners must be compliant with the GitLab Partner Program to renew their licenses and they can request a renewed license through the NFR form per the [standard process above](/handbook/resellers/channel-working-with-gitlab/#requesting-a-gitlab-nfr-not-for-resale-license).
 
 ##### Not-for-Resale (NFR) Program and Policy
 
 The GitLab Not-for-Resale (NFR) Program offers qualified GitLab Partners access to our solutions at no cost. The NFR Program provides Partners with an opportunity to develop greater expertise on the GitLab platform. We encourage all GitLab Partners to participate in the program and set up GitLab solutions. Consider using your environment to create integrations with GitLab Alliance Solution Partners. This way your staff can fully understand the benefits and features of GitLab products and be better prepared to demonstrate products to customers.
 
-Request your license by logging in to the [Partner Portal](https://www.partners.gitlab.com/); click the "Services" tab and the NFR Request form will be the first Quick Link. Please allow two (2) business days for processing your request.
+Request your license by logging in to the [Partner Portal](https://partners.gitlab.com/); click the "Services" tab and the NFR Request form will be the first Quick Link. Please allow two (2) business days for processing your request.
 
 - Partners can receive one Self-Managed and one Software-as-a-Service (SaaS) NFR license at the Ultimate level for a 12-month period.
   - Select Partners can request a license for up to 25 users. Additional licenses may be available with business justification.
@@ -388,7 +387,9 @@ as well as our [Channel Partner Technical Presales Enablement](/handbook/reselle
 
 ### Working with GitLab - Distributors
 
-#### [**Transacting Through Distribution**](/handbook/sales/field-operations/channel-operations/#transacting-through-distribution)
+#### Transacting Through Distribution
+
+[**Transacting Through Distribution**](/handbook/sales/field-operations/channel-operations/#transacting-through-distribution)
 
 ##### **Why Does GitLab Leverage Distribution?**
 
@@ -409,7 +410,7 @@ GitLab is building out a global Authorized Distributor network similar to many o
   - Offer an array of financing options including the ability for our partners/customers to transact in local currency, which reduces their risk
 - Extend GitLab technical services, training capacity, and coverage, both pre and post-sale
 
-https://about.gitlab.com/handbook/sales/field-operations/channel-operations/#transacting-through-distribution
+https://handbook.gitlab.com/handbook/sales/field-operations/channel-operations/#transacting-through-distribution
 
 ## Contact Us
 

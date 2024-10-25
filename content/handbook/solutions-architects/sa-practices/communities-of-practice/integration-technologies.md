@@ -1,8 +1,6 @@
 ---
-
 title: "Integration Technologies"
 ---
-
 
 This is a collection of best practices collected from working with customers on each stage of the SDLC. This list is not supposed to be exhaustive but provide the SA with a few good pointers when going into a meeting on a specific stage or feature.
 
@@ -26,7 +24,7 @@ As the cluster grows, more nodes can be added to the cluster to improve concurre
 
 ### Installation & Integration
 
-The [global search team](https://gitlab.slack.com/archives/C3TMLK465) maintains a [page](https://docs.gitlab.com/ee/integration/elasticsearch.html) on the basic "know-hows" of setting up Elasticsearch and integrating with GitLab.
+The [global search team](https://gitlab.slack.com/archives/C3TMLK465) maintains a [page](https://docs.gitlab.com/ee/integration/advanced_search/elasticsearch.html) on the basic "know-hows" of setting up Elasticsearch and integrating with GitLab.
 
 #### Installation Options
 

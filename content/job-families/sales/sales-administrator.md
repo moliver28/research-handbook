@@ -5,11 +5,11 @@ RoleName: "Sales Administrator"
 
 As the Sales Administrator, you will play a critical role in support of our sales team.
 
-You will report to the Director of Sales Operations and will support our sales team in a number of essential sales-related tasks such as generating quotes, sending legal documents, and working with Finance to complete vendor forms. You will also serve in a customer-facing capacity where you will answer questions related to a customer’s account, including questions related to renewing or upgrading their GitLab service. Finally, you will play an important role in the data quality of our systems, using third-party tools to enrich and keep our business systems up-to-date.
+You will report to the Director of Sales Operations and will support our sales team in a number of essential sales-related tasks such as generating quotes, sending legal documents, and working with Finance to complete vendor forms. You will also serve in a customer-facing capacity where you will answer questions related to a customer's account, including questions related to renewing or upgrading their GitLab service. Finally, you will play an important role in the data quality of our systems, using third-party tools to enrich and keep our business systems up-to-date.
 
 About you: You are comfortable multi-tasking while simultaneously paying very close attention to detail. You will also be highly organized and an excellent communicator. You like to follow process, almost to a fault.
 
-If you are these things, and are passionate about sales support and can demonstrate how you’ve made the sales teams you’ve supported successful, we’d love to hear from you.
+If you are these things, and are passionate about sales support and can demonstrate how you've made the sales teams you've supported successful, we'd love to hear from you.
 
 ## Responsibilities
 
@@ -36,11 +36,11 @@ If you are these things, and are passionate about sales support and can demonstr
 - Interest in GitLab and open source software.
 - Motivated, driven, and results oriented.
 - Highly organized, with the ability to handle multiple tasks/deliverables at once.
-- You’re familiar enough with a spreadsheet application (Googlesheets preferably) enough to create a pivot table and nice looking charts. If you love VLOOKUPS, even better.
-- Experience with Salesforce.com. You know how to create workflows and use Process Builder. Maybe you’ve done some APEX coding, but it’s not required for this role.
-- You’ve supported at least 50 Salesforce users at some point in your sales operations career. Bonus points if you’ve scaled to 200+ users.
-- You’ve used (or at least are aware of) Marketo, Zuora, InsightSquared, DiscoverOrg, Zendesk, and LeanData.
-- You share our [values](https://about.gitlab.com/handbook/#values), and work in accordance with those values.
+- You're familiar enough with a spreadsheet application (Googlesheets preferably) enough to create a pivot table and nice looking charts. If you love VLOOKUPS, even better.
+- Experience with Salesforce.com. You know how to create workflows and use Process Builder. Maybe you've done some APEX coding, but it's not required for this role.
+- You've supported at least 50 Salesforce users at some point in your sales operations career. Bonus points if you've scaled to 200+ users.
+- You've used (or at least are aware of) Marketo, Zuora, InsightSquared, DiscoverOrg, Zendesk, and LeanData.
+- You share our [values](/handbook/#values), and work in accordance with those values.
 - Ability to use GitLab
 
 {{% job-families/sales/performance %}}

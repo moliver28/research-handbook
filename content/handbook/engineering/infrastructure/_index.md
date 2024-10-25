@@ -15,9 +15,9 @@ However, it is the responsibility of the Infrastructure Department to drive the 
 
 ## Getting Assistance
 
-If you’re a GitLab team member and are looking to alert the Infrastructure teams about an availability issue with GitLab.com, please find quick instructions to report an incident here: [Reporting an Incident](/handbook/engineering/infrastructure/incident-management/#reporting-an-incident).
+If you're a GitLab team member and are looking to alert the Infrastructure teams about an availability issue with GitLab.com, please find quick instructions to report an incident here: [Reporting an Incident](/handbook/engineering/infrastructure/incident-management/#reporting-an-incident).
 
-Queries to Infrastructure team can be directed to a dedicated Slack channel [#infrastructure_lounge](https://gitlab.slack.com/archives/CB3LSMEJV). The Infrastructure department actively engages with these queries or Slack messages here, which are then converted into issues in a separate [GitLab project tracker](https://gitlab.com/gitlab-com/gl-infra/infrastructure-lounge-slack-issue-tracker) for efficient tracking and resolution.
+For all other queries, please see the [getting assistance](/getting-assistance) page.
 
 ## Vision
 
@@ -74,17 +74,17 @@ flowchart LR
     click DB "/handbook/engineering/infrastructure/core-platform/systems/distribution/"
     SS --> DD[Distribution::Deploy]
     click DD "/handbook/engineering/infrastructure/core-platform/systems/distribution/"
-    SS --> CC[Cloud Connector]
-    click CC "/handbook/engineering/infrastructure/core-platform/systems/cloud-connector/"
 
     C --> DS[Data Stores Stage]
     click DS "/handbook/engineering/infrastructure/core-platform/data_stores/"
     DS --> TS[Tenant Scale]
-    click TS "/handbook/engineering/infrastructure/core-platform/data_stores/tenant-scale/"
+    click TS "/handbook/engineering/infrastructure/core-platform/tenant-scale/"
     DS --> Database
     click Database "/handbook/engineering/infrastructure/core-platform/data_stores/database/"
     DS --> GS[Global Search]
     click GS "/handbook/engineering/infrastructure/core-platform/data_stores/search/"
+    DS --> CC[Cloud Connector]
+    click CC "/handbook/engineering/infrastructure/core-platform/data_stores/cloud-connector/"
 
     SP --> DE[Delivery]
     click DE "/handbook/engineering/infrastructure/team/delivery/"
@@ -126,7 +126,7 @@ The Infrastructure department uses GitLab and GitLab features extensively as the
 
 We follow the same [dogfooding process](/handbook/engineering/development/principles/#dogfooding) as part of the Engineering function, while keeping the [department mission statement](#mission) as the primary prioritization driver. The prioritization process is aligned to [the Engineering function level prioritization process](/handbook/engineering/#prioritizing-technical-decisions) which defines where the priority of dogfooding lies with regards to other technical decisions the Infrastructure department makes.
 
-When we consider building tools to help us operate GitLab.com, we follow the [`5x rule`](/handbook/product/product-processes/dogfooding-for-product-mgt/#dogfooding-process) to determine whether to build the tool as a feature in GitLab or outside of GitLab. To track Infrastructure's contributions back into the GitLab product, we tag those issues with the appropriate [Dogfooding](https://gitlab.com/groups/gitlab-com/-/labels?utf8=%E2%9C%93&subscribed=&search=dogfooding) label.
+When we consider building tools to help us operate GitLab.com, we follow the [`5x rule`](/handbook/product/product-processes/dogfooding-for-r-d/#dogfooding-process) to determine whether to build the tool as a feature in GitLab or outside of GitLab. To track Infrastructure's contributions back into the GitLab product, we tag those issues with the appropriate [Dogfooding](https://gitlab.com/groups/gitlab-org/-/labels?utf8=%E2%9C%93&subscribed=&search=dogfooding) label.
 
 ## Handbook use at the Infrastructure department
 
@@ -153,13 +153,13 @@ We have a model that we use to help us support product features. [This model](/h
 
 ## Ownership
 
-The Infrastructure team maintains responsibility for the underlying infrastructure on which customer-facing services run.  Specific ownership details are in the [GitLab Service Ownership Policy](./service-ownership/index.html)
+The Infrastructure team maintains responsibility for the underlying infrastructure on which customer-facing services run.  Specific ownership details are in the [GitLab Service Ownership Policy](service-ownership/index.html)
 
 ## Stable Counterparts
 
 Infrastructure SREs may be aligned with [stage groups](/handbook/product/categories/#categories-a-z) as [stable counterparts](https://about.gitlab.com/blog/2018/10/16/an-ode-to-stable-counterparts/).
 
-[Stable Counterparts](./team/stable-counterpart.html) are used as a framework for managing reliable services at GitLab.  The framework provides guidelines for collaboration between [Stage Groups](/handbook/product/categories/#categories-a-z) and [Infrastructure Teams](/handbook/engineering/infrastructure-quality/#engaging-with-the-infrastructure-teams).
+[Stable Counterparts](team/stable-counterpart.html) are used as a framework for managing reliable services at GitLab.  The framework provides guidelines for collaboration between [Stage Groups](/handbook/product/categories/#categories-a-z) and [Infrastructure Teams](/handbook/engineering/infrastructure-quality/#engaging-with-the-infrastructure-teams).
 
 ## Interviewing
 

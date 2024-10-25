@@ -1,13 +1,7 @@
 ---
-
 title: "CSM Strategies for Mitigating Risk In Customer Accounts"
 description: "CSM Strategies for Mitigating Risk In Customer Accounts"
 ---
-
-
-
-
-
 
 ## **Types of Risk**
 
@@ -78,16 +72,16 @@ We should generally begin by presenting our DevSecOps Maturity Score demonstrati
 
    1. `What kind of security tests are mandated or recommended within your organization?`
       - If they give any answer related to 3rd party products, just to question 2.
-      - If they say “nothing is mandated/recommended”, ask “why”.
+      - If they say "nothing is mandated/recommended", ask "why".
       - Adoption is shown to increase dramatically when leadership has bought into the solution and mandates usage.
    1. `What tools are you using to meet those mandates?`
       - Third-party or custom-built in-house solutions?
       - Are those specific tools mandated or do teams have the freedom to choose what they use?
    1. `Does your organization have a concrete shift-left or DevSecOps initiative in play?`
-      - If “Yes”... “Tell me about that in terms of tooling and timelines.”
+      - If "Yes"... "Tell me about that in terms of tooling and timelines."
    1. `Are you aware that you can enforce compliance and security testing at the group level using our compliance frameworks?`
-      - If they say “No”, arrange for enablement around compliance frameworks.
-      - If they say “Yes”, follow up with “Are you using them to ensure security compliance?”
+      - If they say "No", arrange for enablement around compliance frameworks.
+      - If they say "Yes", follow up with "Are you using them to ensure security compliance?"
 
 #### Customer not using CI
 
@@ -134,7 +128,7 @@ Once we know the risk and done some discovery into that risk, we have some optio
 
 - Based on the discovery questions, identify the gaps.
 - If it's a maturity problem, each product Stage has a roadmap page in the handbook. Product Managers are also generally very happy to get on a call with a customer to discuss the roadmap and to listen to the customer's needs and wants.
-- If its a functionality gap, make sure that you've identified all the gaps and added the customer to the relevant issues using the [Product Feedback Template](/handbook/product/how-to-engage/#feedback-template). Its also a good opportunity to get a PM on a call with the customer to help advocate for these issues and get them on the roadmap.
+- If its a functionality gap, make sure that you've identified all the gaps and added the customer to the relevant issues using the [Product Feedback Template](/handbook/product/product-management/#feedback-template). Its also a good opportunity to get a PM on a call with the customer to help advocate for these issues and get them on the roadmap.
 
 ### Product Usage (not using features & functionality in their license tier)
 

@@ -1,13 +1,6 @@
 ---
-
 title: "Career Development in the Infrastructure Department"
 ---
-
-
-
-
-
-
 
 ## Career Development Discovery & Planning
 
@@ -64,11 +57,11 @@ The rest of the tools are for active engagement by the Team Member along with th
 
 There is no rule that guides the amount of progress that should be made in a given time-period in a strict fashion. We should however strive to set targets to progress to the [next level](/handbook/total-rewards/compensation/compensation-calculator/#introduction) on at least a quarterly basis.
 
-### [360 Feedback](/handbook/people-group/360-feedback/)
+### 360 Feedback
 
 * Actions to make changes to a GitLab team-member's level can be taken during the [360 Feedback](/handbook/people-group/360-feedback/), and the data collected throughout this workflow should be useful at that time.
 
-### [Talent Assessment](/handbook/people-group/talent-assessment/)
+### Talent Assessment
 
 * The annual company [Talent Assessment](/handbook/people-group/talent-assessment/) event provides another opportunity to gain insight on progress towards both near-term and longer, lighthouse goals.
 

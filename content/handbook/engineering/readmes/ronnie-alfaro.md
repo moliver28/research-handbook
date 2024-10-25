@@ -1,5 +1,4 @@
 ---
-
 title: "Ronnie Alfaro's Readme"
 description: "Personal readme page for Ronnie Alfaro, Support Engineering Manager, GitLab"
 job: "Support Engineering Manager"
@@ -8,21 +7,17 @@ job: "Support Engineering Manager"
 
 Hi, I am Ronnie, I am proud to be one of the GitLab Support Engineering Managers.
 
-This page is intended to help others understand what it might be like to work with me, especially people who haven’t worked with me before.
+This page is intended to help others understand what it might be like to work with me, especially people who haven't worked with me before.
 
-It’s also a well-intentioned effort at building some trust by being intentionally vulnerable, and to share my ideas of a good working relationship to reduce the anxiety of people who might be on my team.
+It's also a well-intentioned effort at building some trust by being intentionally vulnerable, and to share my ideas of a good working relationship to reduce the anxiety of people who might be on my team.
 
 Please feel free to contribute to this page by opening a merge request.
 
 ## Related pages
 
 * [My LinkedIn profile](https://www.linkedin.com/in/ronnie-a-4a4a6b31/)
-
 * [GitLab Team page](/handbook/company/team/#ronniealfaro)
-
 * [GitLab Profile](https://gitlab.com/ronniealfaro)
-
-* [Personal Website](https://www.ronniealfaro.com/)
 
 ## About me
 
@@ -35,7 +30,7 @@ Please feel free to contribute to this page by opening a merge request.
   * My wife's most requested meals are Bánh mì and the russian borscht.
 * One time I was asked what was my secret to have a team doing so good, I said there is no secret, it is easy actually: ***Happy people work better***
 * I love spicy food, even completed the [Phaal Challenge](https://newyork.seriouseats.com/2008/06/brick-lane-curry-house-east-village-nyc-phaal-spiciest-indian-curry.html)
-* Most of the time you'll see me carrying my camera, and you can see some of my photos on my personal [website](https://www.ronniealfaro.com).
+* Most of the time you'll see me carrying my camera, and you can see some of my photos on my personal website.
 * I have 2 beautiful daughters, a lovely wife and we have a pet rabbit
 
 I believe in our values, and how by following them GitLab has been able to create this unique culture.

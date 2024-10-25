@@ -113,7 +113,7 @@ The Manager, Engineering is a [grade 8](/handbook/total-rewards/compensation/com
 
 #### Manager, Engineering Responsibilities
 
-- Lead a high-performing team of engineers to implement and bring GitLab’s web strategy to life through quality, on-time coding and development
+- Lead a high-performing team of engineers to implement and bring GitLab's web strategy to life through quality, on-time coding and development
 - Code and implement high quality technical and engineering work for complex web projects, including troubleshooting and problem solving, communicating with stakeholders and team members, reporting on outcomes.
 - Lead and scope major cross-functional projects; including defining business needs, navigating sometimes conflicting priorities to deliver the best business outcomes and making recommendations on the best course of action.
 - Initiate longer-term initiatives that will impact the efficiency of the team, the quality of output and reducing technical debt, - including introducing new processes and solutions.

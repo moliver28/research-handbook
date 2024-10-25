@@ -1,7 +1,5 @@
 ---
 title: "Security Research"
-aliases:
-- /handbook/security/threat-management/security-research/
 ---
 
 ## Team Focus
@@ -170,7 +168,7 @@ Exit criteria:
 
 - Project plan completed
 
-Once an idea has been validated, the research project can be extended to achieve GitLab-internal adoption and/or integration into GitLab’s products. If the project is extended, a new research proposal should be created and buy-in from stakeholders should be obtained. The expected deliverables should be documented. For example, internal adoption can be achieved by documenting research insights in the handbook or by implementing a software service.
+Once an idea has been validated, the research project can be extended to achieve GitLab-internal adoption and/or integration into GitLab's products. If the project is extended, a new research proposal should be created and buy-in from stakeholders should be obtained. The expected deliverables should be documented. For example, internal adoption can be achieved by documenting research insights in the handbook or by implementing a software service.
 
 Factors to consider when scoping a project for internal adoption or product integration are:
 
@@ -288,7 +286,7 @@ When a project from this list gets assessed the spot on the list will be filled 
 
 Every project and relevant artifacts will be documented internally in the  [sec-research](https://gitlab.com/gitlab-com/gl-security/security-research/sec-research/) repository while the project is ongoing. This repository should be the SSOT for any results and will contain the raw artifacts, write-ups and any PoCs if applicable.
 
-Once the project is concluded and any security issues identified are closed, public facing documentation will be published in the [Threat Management tech notes](https://gitlab.com/gitlab-com/gl-security/threatmanagement/redteam/redteam-public/red-team-tech-notes) repository. Where applicable, blog posts containing in-depth technical background on the research will be created in collaboration with the External Security Communications team.
+Once the project is concluded and any security issues identified are closed, public facing documentation will be published in the [Threat Management tech notes](https://gitlab.com/gitlab-com/gl-security/security-operations/redteam/redteam-public/red-team-tech-notes) repository. Where applicable, blog posts containing in-depth technical background on the research will be created in collaboration with the External Security Communications team.
 
 #### Metrics
 

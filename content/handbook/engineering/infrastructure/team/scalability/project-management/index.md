@@ -1,5 +1,4 @@
 ---
-
 title: "Scalability Group Project Management"
 ---
 

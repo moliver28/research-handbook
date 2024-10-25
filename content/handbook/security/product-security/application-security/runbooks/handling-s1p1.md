@@ -1,5 +1,4 @@
 ---
-
 title: "Application Security Engineer Handling priority::1/severity::1 Issues"
 ---
 
@@ -11,6 +10,7 @@ Once a potential severity::1/priority::1 issue is made known. The appsec enginee
 
 1. Triage and verify the issue as you normally would [triage a report]({{< ref "hackerone-process" >}}).
 1. Finalize the CVSS score of the security issue with team member votes on Bug Bounty Council (BBC) thread before engaging the SIRT team. Consider using a sync call or Slack for the discussion due to time sensitivity. Capture the outcome of the discussion in the BBC thread. If a sync call or a Slack discussion was not possible due to AppSec team members in the region being on PTO or timezone issues, trigger the SIRT workflow if 4 hours have passed since the issue was triaged.
+1. Within the BBC thread, create a GitLab Dedicated specific CVSS score.
 1. To help SecOps quickly determine impact and log analysis, comment in the security issue with the summarized reproduction steps (HTTP Requests, generated log messages, images, etc).
 1. After escalating, do an investigation to try to determine if there are other immediately vulnerable components or other impacts.
 
@@ -20,6 +20,8 @@ Once a potential severity::1/priority::1 issue is made known. The appsec enginee
 1. Engage the appropriate [engineering manager and product manager of the affected component](/handbook/product/categories/) in both the issue **and** in the appropriate Slack channels.
 1. If help from the GitLab Dedicated team is needed, [follow the runbook to escalate to their engineer on call](https://gitlab-com.gitlab.io/gl-infra/gitlab-dedicated/team/runbooks/on-call.html#escalating-to-an-on-call-person).
 1. Ping `@appsec-leadership` in the `#sec-appsec` Slack channel with a link to the issue. This will help team leadership and other engineers get up to speed, in case they need to step in.
+1. Create a link to the Bug Bounty Council CVSS discussion in the SIRT incident GitLab issue.
+1. Create a bookmark to the CVSS discussion in the incident specific Slack channel.
 
 ## Evaluate Impact in Different Environments
 
@@ -90,6 +92,10 @@ Some scenarios where we would be very likely to opt for an ad-hoc critical secur
 - Unpatched critical severity vuln (CVSS 9+) with PoC/exploitation code publicly available
 - CVSS 10.0 vulns (e.g. unauth RCE or admin account takeover)
 
+## Initiate RCA
+
+If it's a product vulnerability, the AppSec DRI must [initiate a root cause analysis (RCA) investigation issue](/handbook/security/root-cause-analysis/#initiating-an-rca) as soon as possible. It is incredibly important that the underlying root cause of the vulnerability is well-understood and documented in order to prevent bypasses or similar incidents. Followup preventative and mitigative control issues will be created and prioritized as a result of this step.
+
 ## Handoff
 
 Appsec engineers are not on-call. That means when the assigned appsec engineer's end of day arrives, they are responsible for handing it off to an appsec engineer in a subsequent timezone.
@@ -102,4 +108,6 @@ Share that a handover has happened in the incident's Slack channel, and cross-po
 
 ### Family and Friends Day Coverage
 
-[Family and Friends Days]({{< ref "family-and-friends-day" >}}) are days where GitLab publicly shuts down. The AppSec [rotation spreadsheet](https://docs.google.com/spreadsheets/d/18vz84dgTfetTaBjbOCXaLKNfzLYMiy_tBW6RfEUYYHk/edit#gid=1486863602) indicates who is available from the AppSec team on those days. There will be one AppSec engineer covering for each timezone region (AMER, EMEA, APAC) during each F&F Day. Team members assigned to this rotation are expected to move their F&F Day to another day as they see fit.
+[Family and Friends Days]({{< ref "family-and-friends-day" >}}) are days where GitLab publicly shuts down. 
+There will be one AppSec engineer covering for each timezone region (AMER, EMEA, APAC) during each F&F Day. 
+See [Holiday Coverage](/handbook/security/product-security/application-security/runbooks/holiday-coverage.html) for more information.

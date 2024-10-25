@@ -1,10 +1,7 @@
 ---
-
 title: Support Hiring
 description: "Hiring new Customer Support team members is a multi-department process. An outline of the responsibilities of Customer Support in that process."
 ---
-
-
 
 Hiring new Customer Support team members is a multi-department process involving talent acquisition and customer support.
 
@@ -75,7 +72,7 @@ The technical interview process is documented in the [Support Team project](http
 
 ## Pre-Hiring
 
-Before you can do any of the above you'll need to have an open requisition and a vacancy in that requisition. You can learn more about these terms and the process at [Requisitions and Vacancies](https://about.gitlab.con/handbook/hiring/vacancies/) in the [Hiring Section of the Handbook](/handbook/hiring/).
+Before you can do any of the above you'll need to have an open requisition and a vacancy in that requisition. You can learn more about these terms and the process at [Requisitions and Vacancies](/handbook/hiring/vacancies/) in the [Hiring Section of the Handbook](/handbook/hiring/).
 
 ### How a candidate gets routed to a manager
 

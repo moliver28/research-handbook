@@ -95,15 +95,6 @@
 
 {{- if not (eq .public false) -}}
   {{- $open := .is_key -}}
-  {{- with .sisense_data -}}
-    {{- partial "performance-indicators/chart" (dict "data" . "open" $open) -}}
-  {{- end -}}
-  {{- with .sisense_data_secondary -}}
-    {{- partial "performance-indicators/chart" (dict "data" . "open" $open) -}}
-  {{- end -}}
-  {{- with .sisense_data_tertiary -}}
-    {{- partial "performance-indicators/chart" (dict "data" . "open" $open) -}}
-  {{- end -}}
   {{- with .tableau_data -}}
    {{- partial "performance-indicators/tableau-chart" (dict "data" . "open" $open) -}}
   {{ end }}

@@ -23,26 +23,26 @@ To launch features into our existing product set and tiers, use [this process](/
 
 1. It constitutes a new product or service (i.e. it is not just functionality that cleanly slots into existing product tiers or existing SKUs)
 1. It is as operationally complex as a new product, service, or SKU; even if not new. (e.g. new packaging, business model, or SKU that requires custom systems configuration or revenue treatment)
-1. It represents a significant enough financial or strategic opportunity to warrant investment of dozens of teams’ effort
+1. It represents a significant enough financial or strategic opportunity to warrant investment of dozens of teams' effort
 1. The process may also be applicable if a product, service, or SKU is associated with a significant external announcement or event and we want to ensure operational excellence
 
-**How do we determine whether it’s ready to start the NPI process?**
+**How do we determine whether it's ready to start the NPI process?**
 
 In order to launch the NPI process, the DRI must communicate:
 
-1. **What** we’re launching: product features & functionality, service entitlements, or something else
-1. **Why** we’re launching: value proposition, strategic value, and scale of financial opportunity (understand that finance will not have built detailed models, but some financial justification must exist)
-1. **Who** we’re targeting: Ideal Customer Profile (ICP) and target market
+1. **What** we're launching: product features & functionality, service entitlements, or something else
+1. **Why** we're launching: value proposition, strategic value, and scale of financial opportunity (understand that finance will not have built detailed models, but some financial justification must exist)
+1. **Who** we're targeting: Ideal Customer Profile (ICP) and target market
 1. **When** we need to launch: any internal (e.g. [Field blackout periods](/handbook/sales/field-communications/), month/quarter/year end financial close, quiet periods, etc.) or external factors that create timing requirements
-1. **That we’re able to launch:** product development is sufficiently far along that it makes sense to start the process, and GTM teams have sufficient bandwidth to do the work in the required timeframe
+1. **That we're able to launch:** product development is sufficiently far along that it makes sense to start the process, and GTM teams have sufficient bandwidth to do the work in the required timeframe
 
-**What happens if a product or service doesn’t meet the criteria?**
+**What happens if a product or service doesn't meet the criteria?**
 
 Possible routes:
 
 1. The SteerCo needs more information → sends the proposal back to the DRI
 1. The SteerCo agrees the product/service is suitable, but teams do not have capacity → problem-solve with DRI & E-Group (prioritize & sequence launches, reallocate resources and/or adjust launch scope)
-1. The SteerCo doesn’t think the product/service is suitable for the NPI process → discuss with DRI & E-Group
+1. The SteerCo doesn't think the product/service is suitable for the NPI process → discuss with DRI & E-Group
 
 ### A Note on NPI Process Updates
 
@@ -54,7 +54,7 @@ This phase happens before the NPI process officially launches with cross-functio
 
 ### Step 1: Write up the details of the product or service
 
-The DRI should create a business plan based on an NPI Planning Info Sheet (template not finalized, to be linked once done) to communicate how you’ve defined the specific product or service that is being launched. At this point in the project you may not have all the details - use this resource as a starting point to help you and your stakeholders understand what still needs to be resolved cross-functionally over the course of the project.
+The DRI should create a business plan based on an NPI Planning Info Sheet (template not finalized, to be linked once done) to communicate how you've defined the specific product or service that is being launched. At this point in the project you may not have all the details - use this resource as a starting point to help you and your stakeholders understand what still needs to be resolved cross-functionally over the course of the project.
 
 Ideally at this point you will already know the pricing structure, but if not, a conversation with the Pricing Committee is needed:
 
@@ -79,14 +79,14 @@ Once approved by the NPI SteerCO, the project should have both a DRI and a Progr
 
 ### Step 4: Communicate the plan to stakeholders
 
-Once the NPI SteerCo has given your project the go-ahead, it’s time to get the rest of the stakeholders aligned. Reminder: there are many steps required to deliver a net new SKU; this isn't a process for processes-sake. We’ve learned through multiple NPI projects that this kind of work can’t be completed efficiently without clear communication and transparency in the process (NPI's might be [limited access](/handbook/communication/confidentiality-levels/#limited-access) in which case, details would not be open to all team members only those that need-to-know).
+Once the NPI SteerCo has given your project the go-ahead, it's time to get the rest of the stakeholders aligned. Reminder: there are many steps required to deliver a net new SKU; this isn't a process for processes-sake. We've learned through multiple NPI projects that this kind of work can't be completed efficiently without clear communication and transparency in the process (NPI's might be [limited access](/handbook/communication/confidentiality-levels/#limited-access) in which case, details would not be open to all team members only those that need-to-know).
 
 The Program Manager should begin coordinating efforts and identifying the relevant stakeholders across the organization. We recommend hosting the following meetings as soon as possible in order to kickoff the project:
 
 1. Stakeholder kickoff (process-focused): Meeting with all NPI stakeholders to launch the process: share overview of timeline, milestones, what success looks like, expected challenges.
 2. Product review (product-focused): Product Manager to present overview to all stakeholder teams. This is a deeper dive than stakeholder kickoff, and more focused on the product. GTM teams use this information for additional due diligence & clarity, and as an input to start developing their own strategies and roadmaps. (e.g. Deal Desk may have questions around usage boundaries, approval processes for non-standard steps, etc.)
 
-These meetings are a chance for the various stakeholders and Subject Matter Experts (SMEs) in the organization to raise risks/issues sooner rather than later. The SME may ask questions that you can’t answer yet; that’s an opportunity for further discussion later in the project. For stakeholders this is a chance to understand what will be expected of them in the coming weeks/months.
+These meetings are a chance for the various stakeholders and Subject Matter Experts (SMEs) in the organization to raise risks/issues sooner rather than later. The SME may ask questions that you can't answer yet; that's an opportunity for further discussion later in the project. For stakeholders this is a chance to understand what will be expected of them in the coming weeks/months.
 
 We acknowledge that synchronous meetings aren't GitLab's ideal way of working, however in cases of complex cross-functional projects it can be challenging to make decisions and keep teams aligned without synchronous check-points. Our suggestion is to approach these meetings as "advised, but optional." The project leads can use their own judgement to decide if a given meeting is necessary for their project and whether it can be optional for some members of the larger team.
 

@@ -1,14 +1,6 @@
 ---
-
 title: Development Department Learning and Development - Reliability
 ---
-
-
-
-
-
-
-
 
 ## Goal of this training
 
@@ -128,7 +120,7 @@ This material is available as a [learning pathway on GitLab's Level Up](https://
 </figure>
 <!-- blank line -->
 
-[Stage group dashboard documentation](https://docs.gitlab.com/ee/development/stage_group_dashboards.html)
+[Stage group dashboard documentation](https://docs.gitlab.com/ee/development/stage_group_observability/dashboards/)
 
 ## Error budgets
 <!-- blank line -->
@@ -167,7 +159,7 @@ This material is available as a [learning pathway on GitLab's Level Up](https://
 </figure>
 <!-- blank line -->
 
-[Engineering metric dashboards](/handbook/engineering/metrics/#engineering-metrics-dashboards)
+[Engineering metric dashboards](/handbook/product/groups/product-analysis/engineering/dashboards/#engineering-metrics-dashboards)
 
 ## Feedback on the training
 

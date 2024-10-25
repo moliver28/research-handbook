@@ -17,7 +17,7 @@ The Manager, Sales Development is a [grade 8](/handbook/total-rewards/compensati
 - Work closely with the Events and Digital teams on Field events and targeted ad and nurture campaigns.
 - Work closely with Sales and other members of the SDR Leadership team to improve opportunity management and qualification processes
 - Work closely with Sales, Senior SDR Manager, as well as the Commercial Sales Director to identify key company accounts to develop.
-- Work in collaboration with Content, Marketing Program Managers, and Product Marketing to develop effective messaging for outbound communications to your team’s assigned accounts.
+- Work in collaboration with Content, Marketing Program Managers, and Product Marketing to develop effective messaging for outbound communications to your team's assigned accounts.
 
 ## Requirements
 
@@ -26,7 +26,7 @@ The Manager, Sales Development is a [grade 8](/handbook/total-rewards/compensati
 - Experience with CRM software (Salesforce preferred)
 - Experience in sales operations and/or marketing automation software preferred
 - Understanding of B2B software, Open Source software, and the developer product space is preferred
-- Is your college degree in French foreign politics with a minor in interpretive dance but you’ve been selling and marketing products since you were 12? Perfect. We understand that your college degree isn’t the only thing that prepares you as a potential job candidate.
+- Is your college degree in French foreign politics with a minor in interpretive dance but you've been selling and marketing products since you were 12? Perfect. We understand that your college degree isn't the only thing that prepares you as a potential job candidate.
 - You are obsessed with making customers happy. You know that the slightest trouble in getting started with a product can ruin customer happiness.
 - Passionate about technology and learning more about GitLab
 - Be ready to learn how to use GitLab and Git

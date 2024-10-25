@@ -1,8 +1,6 @@
 ---
 title: "Leaders at Summit"
 description: "Company leaders who attend GitLab Summit should take the opportunity to engage with GitLab team-members across the organization."
-aliases:
-- /handbook/company/culture/summit/contribute-leadership/
 ---
 
 {{< youtube "39chczWRKws?start=1756" >}}
@@ -49,7 +47,7 @@ Leaders should consider themselves "hosts" of the event, which means that, in ad
 
 ### Extroverts and Introverts
 
-Remember that you and your co-workers may have different personality types in terms of how you interact with others in large social situations. Consider the differences between extraverts and introverts:
+Remember that you and your co-workers may have different personality types in terms of how you interact with others in large social situations. Consider the differences between extroverts and introverts:
 
 **Extroverts**
 
@@ -81,11 +79,11 @@ References:
 
 - Look after your self during Summit and avoid event burnout. It can be an exciting time with lots of new people to meet and things going on you want to take part in. Remember to take down-time if you need it to recuperate during the week rather than trying to [burn the candle at both ends](https://dictionary.cambridge.org/dictionary/english/burn-the-candle-at-both-ends) and risking exhaustion.
 - Every year about a third of us have some kind of flu after the event, so please take infection prevention seriously.
-- Use hand sanitizer after getting your food and before eating. [Shared buffet utensils spread disease.](http://www.cruisereport.com/crBlogDetail.aspx?id=3683) We will do our best to provide hand sanitizer to everyone whenever we can.
-- If you are sick please wear a [surgical mask](https://www.amazon.com/Maryger-Disposable-Procedure-Surgical-Counts/dp/B06XVMT3ZH/ref=sr_1_1_sspa?s=hpc&ie=UTF8&qid=1509481716&sr=1-1-spons&keywords=surgical+mask&psc=1) which [reduces the spreading by up to 80%](https://www.healthline.com/health/cold-flu/mask). We'll try to provide them.
+- Use hand sanitizer after getting your food and before eating. [Shared buffet utensils spread disease.](https://cruisereport.com/articles/keep-from-getting-sick) We will do our best to provide hand sanitizer to everyone whenever we can.
+- If you are sick please wear a surgical mask which [reduces the spreading by up to 80%](https://www.healthline.com/health/cold-flu/mask). We'll try to provide them.
 - Remember our [values](/handbook/values/) and specifically the [permission to play](/handbook/values/#permission-to-play) behavior
 - Be respectful of other hotel guests (e.g. don't talk on your floor when returning to your room at night & keep your volume down at restaurants/bars).
-- Utilize the resources available to understand the safety and crime considerations in the location we are visiting. Examples are the [UK's Foreign Travel Site](https://www.gov.uk/foreign-travel-advice) and the [U.S. State Department](https://travel.state.gov/content/passports/en/country.html). If you are alarmed by what you are reading, please feel free to reach out to People Ops Team with your concerns. We also advise reviewing the data for countries you feel are safe. You may find that even the safest countries have warnings on crime and safety. Staying with a group and away from known dangerous areas is the most basic way of avoiding problems.
+- Utilize the resources available to understand the safety and crime considerations in the location we are visiting. Examples are the [UK's Foreign Travel Site](https://www.gov.uk/foreign-travel-advice) and the [U.S. State Department](https://travel.state.gov/content/travel/en/international-travel.html). If you are alarmed by what you are reading, please feel free to reach out to People Ops Team with your concerns. We also advise reviewing the data for countries you feel are safe. You may find that even the safest countries have warnings on crime and safety. Staying with a group and away from known dangerous areas is the most basic way of avoiding problems.
 
 ## Inclusion
 
@@ -99,9 +97,9 @@ It is important to recognize that people from different cultures have different 
 Summit attendees should also remember:
 
 - We have various generations and 50+ countries/cultures coming together for several straight days, versus our normal routine of interacting remotely.
-- We are guests of this country, of the hotel, and of the sites we will visit - it is our privilege to be there, and we need to be ambassadors of GitLab and lead by example the whole time according to [our values]({{< ref "values" >}}).
+- We are guests of this country, of the hotel, and of the sites we will visit - it is our privilege to be there, and we need to be ambassadors of GitLab and lead by example the whole time according to [our values](/handbook/values/).
 - Be sensitive to political, religious and other potentially divisive conversations
 
 ### Lost in Translation
 
-Translation tends to sound easier than it is. People often think that it is just a matter of replacing each source word with a corresponding translated word, and then you are done. Assume best intent from your fellow team members and use it as an opportunity start a new dialogue. For more information you can review the following articles on [LTC Language Solutions](https://ltclanguagesolutions.com/blog/lost-in-translation-translating-cultural-context/)
+Translation tends to sound easier than it is. People often think that it is just a matter of replacing each source word with a corresponding translated word, and then you are done. Assume best intent from your fellow team members and use it as an opportunity start a new dialogue. For more information you can review the following articles on [LTC Language Solutions](https://ltclanguagesolutions.com/resources/blog/lost-in-translation-translating-cultural-context/)

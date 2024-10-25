@@ -1,11 +1,8 @@
 ---
-
 title: Communicating Licensing & Renewals Workflow Changes
 description: "The Support process to communicate workflow changes to team members"
 category: General
 ---
-
-
 
 When modifications are being made to any Licensing and Renewals workflows, consider the following:
 

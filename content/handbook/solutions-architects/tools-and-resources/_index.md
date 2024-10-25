@@ -1,13 +1,11 @@
 ---
-
 title: Tools and Resources
-description: “Discover GitLab Solutions Architects’ tools and resources”
+description: "Discover GitLab Solutions Architects' tools and resources"
 ---
-
 
 ## Tools and Resources
 
-Tools and resources provide infomation to help Solution Architects to conduct POV or workshops, respond to RFx, manage customer facing activities, support on-going product learning.
+Tools and resources provide infomation to help Solutions Architects to conduct POV or workshops, respond to RFx, manage customer facing activities, support on-going product learning.
 
 ### Education and Enablement
 
@@ -19,7 +17,7 @@ Proof of Value (POV), formerly known as Proof of Concept, is conducted during th
 
 ### Asking help from Support Engineering
 
-In case Support required during the pre-sales cycle (for example in case of a POV excercise or in case of potential new deal with an existing customer) Solution Achitects should use the [Support Super Form](https://support-super-form-gitlab-com-support-support-op-651f22e90ce6d7.gitlab.io/) to open an internal request with Support. In any other cases with existing customers, SAs are advised to ask the customers to open a support ticket themselves.
+In case Support required during the pre-sales cycle (for example in case of a POV excercise or in case of potential new deal with an existing customer) Solutions Achitects should use the [Support Super Form](https://support-super-form-gitlab-com-support-support-op-651f22e90ce6d7.gitlab.io/) to open an internal request with Support. In any other cases with existing customers, SAs are advised to ask the customers to open a support ticket themselves.
 
 ### SaaS Trials for Existing Customers
 
@@ -30,7 +28,7 @@ Paid customers must set up a new namespace on SaaS when trialing Ultimate.  Ther
 
 Both situations put customer production GitLab usage at risk if a trial is applied to the SaaS namespace.
 
-Instead, a customer should create a new namespace and trial there.  We have put together some [rial guidelines](/handbook/solutions-architects/tools-and-resources/trial-guidelines/) in order to make the process as seamless as possible for customers.
+Instead, a customer should create a new namespace and trial there.  We have put together some [trial guidelines](/handbook/solutions-architects/tools-and-resources/trial-guidelines/) in order to make the process as seamless as possible for customers.
 
 ### Hands-on Workshops
 
@@ -38,7 +36,7 @@ GitLab Solutions Architects conduct hands-on workshops as interactive events for
 
 ### RFI/RFP Responses
 
-RFx's such as RFI and RFP are common steps in the public sector yet it may be required by enterprise customers to assess, evaluate and procure the software. Solution architects often participate in the RFP process responding to the technical asks and solutions requirements. Information on responding to the RFx can be found on the [RFI/RFP](/handbook/security/security-assurance/field-security/Field-Security-RFP.html) page.
+RFx's such as RFI and RFP are common steps in the public sector yet it may be required by enterprise customers to assess, evaluate and procure the software. Solutions architects often participate in the RFP process responding to the technical asks and solutions requirements. Information on responding to the RFx can be found on the [RFI/RFP](/handbook/security/security-assurance/field-security/Field-Security-RFP.html) page.
 
 ### Stack Overflow for Teams
 
@@ -56,9 +54,9 @@ Stack Overflow for teams replaces older [Customer Success Knowledge Base](https:
 
 ### Product Releases
 
-Solution Architects have to keep up the pace of the GitLab monthly product releases to position feature sets and capabilities for the prospect and customer needs while demonstrating the market leading position.
+Solutions Architects have to keep up the pace of the GitLab monthly product releases to position feature sets and capabilities for the prospect and customer needs while demonstrating the market leading position.
 
-Following links provide product release information to assist in tehnical discussions and technical evaluation.
+Following links provide product release information to assist in technical discussions and technical evaluation.
 
 - [Upcoming Releases](https://about.gitlab.com/upcoming-releases/)
 - [Previous Releases](https://gitlab.com/gitlab-org/gitlab/-/releases)
@@ -96,13 +94,13 @@ No two presentations are the same and we often find ourselves mixing and matchin
 
 ### O'Reilly Learning Platform
 
-In order to facilitate an environment of learning and development, the Solutions Architect team has access to the [O’Reilly Learning Platform](https://learning.oreilly.com/home/). This education platform contains thousands of books, videos and live learning courses to assist SA’s with gaining the knowledge they need to stay competitive.
+In order to facilitate an environment of learning and development, the Solutions Architect team has access to the [O'Reilly Learning Platform](https://learning.oreilly.com/home/). This education platform contains thousands of books, videos and live learning courses to assist SA's with gaining the knowledge they need to stay competitive.
 
 More information can be found on the [Customer Success Education & Enablement page](/handbook/customer-success/education-enablement/).
 
-### Linkedin Learning Platform
+### LinkedIn Learning Platform
 
-Linkedin Learning is another platform with various resources to help SA's during their onboarding journeys.
+LinkedIn Learning is another platform with various resources to help SA's during their onboarding journeys.
 
 ### Getting started as an associate SA
 
@@ -118,18 +116,18 @@ Here are courses that will facilitate the onboarding process of associate SAs an
 - [Docker for the Absolute Beginner - Hands-On](https://learning.oreilly.com/videos/docker-for-the/9781788991315/)
 
 **Paid**
-Paid courses can be expensed as part of the [Growth and Development benefits](/handbook/total-rewards/benefits/general-and-entity-benefits/growth-and-development/)
+Paid courses can be expensed as part of the [Growth and Development benefits](/handbook/people-group/learning-and-development/growth-and-development/)
 
 - IBM course on Coursera: [Information Technology (IT) and Cloud Fundamentals Specialization](https://www.coursera.org/specializations/it-cloud-fundamentals)
 Especially the module [Introduction to Cloud Computing](https://www.coursera.org/learn/introduction-to-cloud?specialization=it-cloud-fundamentals)
 
 ### Data Seeding (Demo Data)
 
-The [GitLab Data Seeder](https://docs.gitlab.com/ee/topics/data_seeder.html) is a tool that Solution Architects can use to showcase to customers "what good data looks like" in GitLab.
+The [GitLab Data Seeder](https://docs.gitlab.com/ee/topics/data_seeder.html) is a tool that Solutions Architects can use to showcase to customers "what good data looks like" in GitLab.
 The data that is generated is customizable, time-relative, and can be used on-demand to generate data to demonstrate.
 
 The Demo Data can be showcased on any self-managed instance including Docker, GDK, and customer environments.
 
 ### Diagramming Tools
 
-Being able to diagram as-is and to-be workflows and architectures is a key tactic for Solution Architects to communicate key benefits of a GitLab DevSecOps transformation.  GitLab has made FigJam available for SAs to use and we have [Solutions Architecture Workspace](https://www.figma.com/files/972612628770206748/workspace/1338898741676176280/directory/teams?fuid=1339310988336517144) available for storing our diagrams.
+Being able to diagram as-is and to-be workflows and architectures is a key tactic for Solutions Architects to communicate key benefits of a GitLab DevSecOps transformation.  GitLab has made FigJam available for SAs to use and we have [Solutions Architecture Workspace](https://www.figma.com/files/972612628770206748/workspace/1338898741676176280/directory/teams?fuid=1339310988336517144) available for storing our diagrams.

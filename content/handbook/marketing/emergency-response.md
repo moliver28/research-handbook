@@ -25,9 +25,9 @@ Please review the coverage owner closest available per their timezone when decid
 |---------------------------------------------|-------------------------------|---------------------------|----------------------|-------------------|
 | UTC (EMEA Working)                          | 11pm - 3am PT / 2am - 6am ET  | Mihai Conteanu            | Gillian Murphy       | 9am - 1pm EET     |
 | UTC (EMEA Working)                          | 3am - 7am PT / 6am - 10am ET  | Gillian Murphy            | Mihai Conteanu       | 11am - 3pm UK     |
-| UTC (AMER-Morning)                          | 7am - 11am PT / 10am - 2pm ET | Bryce Weatherford           | Jameson Burton    | 10am - 2pm ET     |
+| UTC (AMER-Morning)                          | 7am - 11am PT / 10am - 2pm ET | Bryce Weatherford         | Jameson Burton       | 10am - 2pm ET     |
 | UTC (AMER-Afternoon)                        | 11am - 3pm PT / 2pm - 6pm ET  | Bryce Weatherford         | Jenny Tiemann        | 11am - 3pm PT     |
-| UTC (AMER-Evening)                          | 3pm - 6pm PT / 6pm - 9pm ET   | Bryce Weatherford          | Amy Waller          | 3pm - 6pm PT      |
+| UTC (AMER-Evening)                          | 3pm - 6pm PT / 6pm - 9pm ET   | Bryce Weatherford         | Amy Waller           | 3pm - 6pm PT      |
 
 **Typical Team Timezones:**
 
@@ -96,6 +96,7 @@ This is the process to follow when there is an announcement that is an emergency
    * Fill in as many blanks as you can with as much information as you have available - the issue template will walk you through what is needed. Feel free to add any additional context that may be helpful. If you do not have all the information, that is OK, as we know it is an ongoing development.
    * Add Due Date (or best guess)
    * Include googledoc of copy document, even if it is blank. Use [this template](https://docs.google.com/document/d/1J_prQ8rXRqEcPWxKd1YH4ANGP5UjMPoAfnjpY8ty0XE/edit)
+        * Please make sure to review the copy for any [RED Data](/handbook/support/workflows/sending_notices). 
    * Include approx size of the list - this will determine what email platform we will use and helps immensely in our planning. Over estimate when you are unsure.
    * If you are requesting a list, create an [issue](https://gitlab.com/gitlab-com/marketing/marketing-strategy-performance/-/issues/new?issuable_template=list-request) with the Marketing Strategy team and relate it to the issue you just created.
    * Include any custom fields you need created for `mail-merge` in the email. Include field max lengths needed, or best guess. Mktops will determine if they can use an existing field or not.
@@ -143,6 +144,7 @@ This is the process to follow when there is an announcement that is an emergency
 * List loads greater than 20k take time. 100k+ may take hours/days.
 * Each platform has their own limits as to size of CSV that can be uploaded.
 * Lists greater than 100k may be subject to verification, so that we do not risk our sending reputation.
+* Avoid listing any [RED Data](/handbook/support/workflows/sending_notices) in `mail-merge` fields
 
 ## Other considerations and questions for requestors
 

@@ -3,7 +3,7 @@ title: Advanced Software Engineering Course - Morehouse College
 description: "Diversity, Inclusion and Belongingare fundamental to the success of GitLab and the collaboration with Morehouse College, an HBCU, is an example of GitLab living our values."
 ---
 
-Diversity, Inclusion and Belonging ([DIB]({{< ref "inclusion" >}})) are fundamental to the success of GitLab and the collaboration with [Morehouse College](https://www.morehouse.edu), an [HBCU](https://en.wikipedia.org/wiki/Historically_black_colleges_and_universities), is an example of GitLab living our values. The Engineering organization has developed a curriculum that provides a holistic education for Computer Science students. This course will teach students about:
+Diversity, Inclusion and Belonging ([DIB](/handbook/company/culture/inclusion/)) are fundamental to the success of GitLab and the collaboration with [Morehouse College](https://www.morehouse.edu), an [HBCU](https://en.wikipedia.org/wiki/Historically_black_colleges_and_universities), is an example of GitLab living our values. The Engineering organization has developed a curriculum that provides a holistic education for Computer Science students. This course will teach students about:
 
 - Software Development Tools
 - Real-world Software Development Roles & Responsibilities
@@ -12,7 +12,7 @@ Diversity, Inclusion and Belonging ([DIB]({{< ref "inclusion" >}})) are fundamen
 
 ## GitLab Benefits
 
-- Partnering with HBCUs will provide an opportunity for GitLab to diversify it’s talent acquisition pipeline, and enhance its commitment to diversity.
+- Partnering with HBCUs will provide an opportunity for GitLab to diversify it's talent acquisition pipeline, and enhance its commitment to diversity.
 - Opportunity to diversify and to our Community of Contributors
 - Evangelizing GitLab software to future Engineers
 - Opportunity to diversify our talent acquisition pipeline
@@ -35,7 +35,7 @@ Diversity, Inclusion and Belonging ([DIB]({{< ref "inclusion" >}})) are fundamen
 
 The GitLab instructors below have volunteered their time to create the course content that made this course possible. A special thanks goes out to each person listed below:
 
-- [Brendan O’Leary](/handbook/company/team/#brendan), Senior Developer Evangelist
+- [Brendan O'Leary](/handbook/company/team/#brendan), Senior Developer Evangelist
 - [Michael Friedrich](/handbook/company/team/#dnsmichi), Developer Advocate
 - Darren Murph, Head of Remote
 - [Paul Slaughter](/handbook/company/team/#pslaughter), Senior Frontend Engineer

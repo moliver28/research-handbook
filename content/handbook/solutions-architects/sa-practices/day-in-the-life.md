@@ -1,8 +1,6 @@
 ---
-
 title: Day In The Life of a Developer
 ---
-
 
 Every company is developing software. Whether it is external facing applications, or internal applications, or both.  Every company wants to be more efficient at developing software, as it has a direct correlation with the company's success.  GitLab is positioned to help every company create better applications by providing capabilities throughout the application delivery process including development, operations and security.  In the past, there was not one solution to help companies develop software from idea to deployment.  Companies relied on purchasing specific products for specific capabilities, and/or used manual methods such as email, spreadsheets, and documents to keep track of their development.
 
@@ -73,20 +71,28 @@ Focusing on the goals and benefits listed above, the time required to complete a
 
 ### Prepare
 
-Usually, through discovery, there is some level of knowledge of the current development process from a development perspective.  The idea of the Day In The Life is to understand the entire development process from idea to deployment to production, to look for areas of improvement throughout.
+Usually, through discovery, there is some level of knowledge of customer goals and the current development process from a development perspective.  The goal of the Day In The Life is to understand the entire development process from idea to deployment to production, and to look for areas of improvement throughout.
 
-Prepare for the Day In The Life of a Developer, by having notes on what is known to be able to reference, to insuring they are addressed.
+Prepare for the Day In The Life of a Developer, by organizing the information we already have about the customer and identifying areas we want to learn more about. This should include GitLab's goals for the meeting which should already exist in the Technical Close Plan. The Technical Close Plan should have input from the SA, AE, and CSM, with the SA as the DRI.
+
+Prepare questions in advance for the list of things we want to learn. Questions can be drawn from the [GitLab Value Framework](https://gitlab.highspot.com/items/64da83a5f9fbeee46d8ad909#21).
+
+Choose an internal communications medium (ex. Google Doc or Slack) for real-time communication during the workshop. This will help the team with coordinating questions.
 
 ### Pitch
 
-The initial customer pitch allows us to identify key stakeholders & get their buy in. The customer pitch should include:
+The initial customer pitch, delivered by the SA, allows us to identify key stakeholders & get their buy in. The customer pitch should include:
 
 - What is a Day In The Life of a Developer?
 - What does a Day In The Life of a Developer entail?
-- Who are the key participants involved in the Day In The Life of a Developer?
+- Who are the key participants involved in the Day In The Life of a Developer? 
 - What are some of the expected outcomes of a Day In The Life of a Developer for them?
 
-It is important to identify a project as next step for the planning meeting with customer.  The project should reflect a typical development process spanning idea to deployment, for the company.
+During the pitch, the account team should strive to:
+
+- Identify executive sponsor, stakeholders and participants
+- Identify business objectives
+- Identify an application/project for the Day In The Life demo. This is an important step as it focuses the discovery on a single flow where there is a clear beginning and end that has the potential to be measured for delays. The project should reflect a critical or typical development process, spanning idea to deployment, that the business is looking to improve. This must be completed prior to the start of the Day In The Life meeting
 
 Here are some resources that can be used as starting point for the pitch:
 Customer pitch deck
@@ -127,9 +133,10 @@ The process which we will go through, at a high level, is as follows:
 1. Re-iterate expectations set in the planning meeting
     1. Start and end points for the Day In The Life of a Developer
 1. Current state
-    1. Initial process "walk-through" for the prospect or customer to demonstrate
+    1. Initial process "walk-through" for the prospect or customer to demonstrate - A best practice is to share a current state diagram based on our (possibly limited) understanding of the customer's environment to facilitate the Day in the Life discussion
         1. Capture people, processes and technology
-    1. Analyze and identify bottlenecks and improvement areas
+    1. Analyze and identify bottlenecks and improvement areas. 
+        1. Time is limited - Use the list of discovery questions selected during prep and focus/"double click" on the areas where GitLab can help - avoid delving deep into areas that GitLab cannot affect
 1. Design future state
     1. Review the expectations, to align the team on the target they are aiming to create
     1. Determine "right work" (which processes and steps are required for the future state to be optimal)
@@ -139,7 +146,9 @@ The process which we will go through, at a high level, is as follows:
         1. Aim to reduce the lead time (LT), process time (PT) and achieve a higher percent complete and accurate (%C&A) for every process block where prossible
         1. Utilize and leverage GitLab capabilities to improve the development process where applicable
         1. Use Lean countermeasures and improvement tools
+    1. Ask the customer to prioritize what we've learned and ask if there's anything we've missed
 1. Develop transformation plan (likely completed async)
+    1. At the end of the Day In The Life session, be ready to provide a date for the review of the draft output but avoid committing to a date for the final readout. Honoring timelines is important to maintain momentum in the opportunity and for the credibility of our champion. In some cases, feedback received from the customer has led to a complete rethink of the readout which can take longer than originally planned.
     1. Create a day In The Life Readout to present to the customer.  The readout will include a review of their current development process and suggestions for how their process can be improved.
     1. For each process block transformation, capture the measurable target, proposed countermeasures, execution method, owner and timeline (later, status as well)
 
@@ -147,9 +156,11 @@ The process which we will go through, at a high level, is as follows:
 
 - Remote:
   - Zoom, MS Teams, or Google Meet
-  - LucidChart for Current State and Future State visualization
+  - Diagramming tools
+  - [FigJam](handbook/solutions-architects/tools-and-resources/#diagramming-tools) or LucidChart for Current State and Future State visualization
+    - FigJam is not yet connected to Okta. Login using your Google account. Make sure you have a `Full` FigJam license with read-write access. (if you're in read-only mode, you need to request a full license)
     - LucidChart is an IT-managed application. If you are unsure if you have LucidChart access, go to the Okta interface in your browser, then select "Search Your Apps" and see if `LucidChart SSO` is available. If yes, LucidChart has been assigned to you and you can launch it from Okta and collaborate on any LucidChart Documents your team has shared with you. If no, then `LucidChart SSO` has not been assigned to you yet.
-    - If you do not have `LucidChart SSO` assigned to you in Okta, please navigate to the ["access-requests" Project](https://gitlab.com/gitlab-com/team-member-epics/access-requests/-/issues/) and submit an Issue requesting "Lucid Chart". Assign the Issue to your Manager and add the `IT::to do` label. An example Access Request Issue may be found [here](https://gitlab.com/gitlab-com/team-member-epics/access-requests/-/issues/19341).
+    - If you do not have `LucidChart SSO` assigned to you in Okta, please navigate to the ["access-requests" Project](https://gitlab.com/gitlab-com/team-member-epics/access-requests/-/issues/) and submit an Issue requesting "Lucid Chart". Assign the Issue to your Manager and add the `IT::to do` label. See [example](https://gitlab.com/gitlab-com/team-member-epics/access-requests/-/issues/19341) Access Request Issue.
     - If your Access Request is urgent, paste the link to your Access Request Issue into the #it_help Slack channel and @ mention `it-help` with a note on why it is urgent.
 - Onsite:
   - Stickies
