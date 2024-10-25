@@ -146,15 +146,20 @@ flowchart LR
 Simplify rate limiting across the GitLab ecosystem.
 
 - Support the ability to configure rate limits in version control.
-- Consolidate rate limit configuration in one centralized place.
 - Introduce a process for defining new rate limits.
 - Introduce a set of "default" rate limits for new services, and enforce limits on deployment of new services in an automated way.
 - Simplify tweaking of limits for production engineers (for instance during an incident).
 - Create transparency for team members and our customers to understand where requests are being limited and why.
 
+#### Goals for each phase
+
+- **Phase 1:** Consolidate the infrastructure rate limit configuration for limits and allow-listing in one centralized place.
+- **Phase 2:** Consolidate the application rate limit configuration in one centralized place.
+- **Phase 3:** Provide a rate limiting interface to make managing configuration and publishing limits easier.
+
 ### Non-Goals
 
-- NOT to reimplement Cloudflare or Rack Attack or a throttling service - this is meant to be an interface for consolidating and defining limits, as an abstraction not a throttler.
+- To re-implement Cloudflare or Rack Attack or a throttling service - this is meant to be an interface for consolidating and defining limits, as an abstraction not a throttler.
 
 ## Proposal
 
@@ -169,16 +174,23 @@ Modify GitLab's existing rate limiting architecture to support passing in rate l
   - Cloudflare custom rules support [transform-rule](https://developers.cloudflare.com/rules/transform/) actions which should make this possible.
 - **Support passing in a configuration file for Cloudflare rules**
   - Migrate [Cloudflare rules](https://ops.gitlab.net/gitlab-com/gl-infra/config-mgmt/-/blob/main/environments/gprd/cloudflare-rate-limits-waf-and-rules.tf) to use the [cloudflare-waf-rules](https://ops.gitlab.net/gitlab-com/gl-infra/terraform-modules/cloudflare/cloudflare-waf-rules/-/tree/main?ref_type=heads) Terraform module.
-  - Use [tfvars](https://registry.terraform.io/providers/terraform-redhat/rhcs/latest/docs/guides/terraform-vars) to manage configuration of these rules.
+  - Use [terraform-vars](https://registry.terraform.io/providers/terraform-redhat/rhcs/latest/docs/guides/terraform-vars) to manage configuration of these rules.
 
 ### Phase 2: Simplify application level configuration
 
-At this point, this proposal refers to the framework mentioned in the [Next Rate Limiting Architecture](../rate_limiting/#framework-to-define-and-enforce-limits) by introducing a mechanism to define limits in a structured way.
+At this point, this proposal refers to the framework mentioned in the [Next Rate Limiting Architecture](../rate_limiting/#framework-to-define-and-enforce-limits) by introducing a mechanism to define limits in a structured way, making sure that our existing code-paths utilise that framework to enforce limits.
 
 - **Support passing in a configuration file for RackAttack throttles**
   - Some are configurable, some are hard coded [[source](https://gitlab.com/gitlab-org/gitlab/blob/master/lib/gitlab/rack_attack.rb#L85)].
 - **Support passing in a configuration file for ApplicationRateLimiter throttles**
   - Some are configurable through Application Settings UI, some through the API, some are hard coded [[source](https://gitlab.com/gitlab-org/gitlab/-/blob/master/lib/gitlab/application_rate_limiter.rb#L17)].
+- **Support the ability to pass in configuration file for all application limits**
+  - There are seven different types of application limits (if you count RackAttack and ApplicationRateLimiter separately), we eventually want to be able to configure these through the same configuration mechanism.
+  - See [this note](https://gitlab.com/gitlab-com/gl-infra/scalability/-/issues/3775#note_2121412201) (confidential) for the full list of limiting implementations.
+- **Support configuring limits across services outside the GitLab-rails application**
+  - Some services are deployed with [Runway](https://docs.runway.gitlab.com/), and should support a standardized rate limiting configuration mechanism.
+    - See the issue around rate limiting Runway services [here](https://gitlab.com/gitlab-com/gl-infra/platform/runway/team/-/issues/28).
+  - Further research will need to be done to account for services deployed outside of Runway.
 
 ```mermaid
 flowchart LR
@@ -253,13 +265,13 @@ flowchart LR
 
 ### Phase 3: Implement a Rate Limit Interface
 
-Create a Rate Limiting interface for configuration of rate limits across all parts of GitLab.com and Cells. While this interface will not be responsible for enforcing limits (throttling will still take place in Cloudflare, or the application itself, for example), it will provide a consolidated catalogue of limits, as well as providing a mechanism to override any limits per Namespace.
+Create a Rate Limiting interface for configuration of rate limits across all parts of GitLab.com and Cells. While this interface will not be responsible for enforcing limits (throttling will still take place in Cloudflare, or the application itself, for example), it will provide a consolidated catalogue of limits, as well as providing a mechanism to override any limits per Namespace. To provide this single source of truth, any new throttles that get added need to be reflected in the catalogue with their default values. If these default-limits are implemented in the application, this means that the value in the catalogue is what packages for self-managed will ship with.
 
 In practice, what this might look like:
 
 1. A new rule is merged into to the Rate Limit Interface repository, producing a new version.
 1. An automation raises a corresponding MR to update the rate limiting configuration in either an application repository or config-mgmt.
-1. Upon merge the new limits are applied, either via Terraform for Cloudflare, or loaded into the GitLab application.
+1. Upon merge the new limits are applied, either using Terraform for Cloudflare, or loaded into the GitLab application.
 1. Pipeline run that will parse and update the rate limit thresholds in the documentation.
 
 **Note:** the specifics about this implementation are subject to change, as we progress through the first two phases and learn more.
@@ -328,7 +340,7 @@ flowchart LR
 
 ### Cons
 
-- Not all application rate limiting configuration is currently exposed via an API. We will need to work with product / backend engineers to implement the Application level changes.
+- Not all application rate limiting configuration is currently exposed through an API. We will need to work with product / backend engineers to implement the Application level changes.
 
 ## Considerations
 
@@ -344,11 +356,11 @@ GitLab.com, Cells, and Dedicated all utilise Cloudflare at the edge of our netwo
 
 ### Setting Application Rate Limits
 
-Rate Limit configuration within the application will be slightly more difficult. At present these limits are configured within the Rails app, some of which have an API but not all of them. We need support from product / backend engineers to make modifications to the GitLab application to support passing in rate limiting configuration.
+Rate Limit configuration within the application will be slightly more difficult. At present these limits are configured within the Rails app, some of which have an API but not all of them. Going forward, we should enforce that all limits are configured and managed in the same way, whether that be through an API, or configuration files. Implementing [the framework](../rate_limiting/#framework-to-define-and-enforce-limits) outlined in the Next Rate Limiting Architecture design document will help us set this direction.
 
 ### Publishing Rate Limits
 
-One advantage of having all rate limits declared in YAML is a centralised source of truth for limits that are imposed on requests to GitLab.com. This YAML can be parsed then then published to our documentation or handbook, allowing for greater transparency for our users. An added bonus is that any changes to the service would automatically update our documentation, and save manual updates needing to be published.
+One advantage of having all rate limits declared in YAML is a centralised source of truth for limits that are imposed on requests to GitLab.com. This YAML can be parsed then published to our documentation or handbook, allowing for greater transparency for our users. An added bonus is that any changes to the service would automatically update our documentation, and save manual updates needing to be published.
 
 ### Confidential Rate Limits
 
@@ -394,7 +406,7 @@ The [HTTP Router configuration for Cells](https://gitlab.com/groups/gitlab-org/-
 
 #### Cell Reference Architecture
 
-The reference architecture/ size of a Cell will likely be smalled than the existing GitLab.com platform, therefore we should probably consider introducing different maximum rate limits based on this reduced capacity.
+The reference architecture/ size of a Cell will likely be smaller than the existing GitLab.com platform, therefore we should probably consider introducing different maximum rate limits based on this reduced capacity.
 
 ### Organization IDs in URLs
 
@@ -402,4 +414,4 @@ A potential future improvement that is out of scope of this initial proposal wou
 
 ### Breaking Authentication and Authorization out of the Application
 
-One future forward thought was to break AuthN and AuthZ out of the GitLab application and into their own service. If we were to do this, we could implement a quota or rate-limit sevice as a bundled feature or supplementary service. If we were to do this, we could utilise a combination of our API Gateway (whether that is HAProxy or a more modern cloud-native gateway) and utilise the authentication service to enforce the most specific rate limits at the gateway level before they reach the rest of the GitLab application.
+One future forward thought was to break AuthN and AuthZ out of the GitLab application and into their own service. If we were to do this, we could implement a quota or rate-limit service as a bundled feature or supplementary service. If we were to do this, we could utilise a combination of our API Gateway (whether that is HAProxy or a more modern cloud-native gateway) and utilise the authentication service to enforce the most specific rate limits at the gateway level before they reach the rest of the GitLab application.
