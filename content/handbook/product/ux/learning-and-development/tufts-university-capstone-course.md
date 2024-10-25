@@ -39,7 +39,7 @@ If you're interested in volunteering for the Spring 2025 semester, you should co
 1. Reach out to your manager for awareness and to discuss how participation might impact your capacity.
 1. Add yourself to the [list of volunteers](https://gitlab.com/gitlab-com/Product/-/issues/13669#raised_back_of_hand-volunteers)
 
-1. [Brainstorm projects](#project-proposals) that would be a good fit for the students. You'll need a project description for each idea, these are the descriptions that students read and select from once the course begins.
+1. (Optional but highly encouraged!) [Brainstorm projects](#project-proposals) that would be a good fit for the students.
 
 ## Volunteer team composition
 
