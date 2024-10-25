@@ -91,11 +91,11 @@ Below is a list of projects and initiatives that we are currently working on, al
 | Project                                                                                                                | DRI                                   | Backup DRI                          |
 | ---------------------------------------------------------------------------------------------------------------------- | ------------------------------------- | ----------------------------------- |
 | [Release metadata database and online GC for self-managed installs](https://gitlab.com/groups/gitlab-org/-/epics/5521) | {{< member-by-gitlab hswimelar >}}    | {{< member-by-gitlab jaime >}}      |
-| [Container Registry: Add support for tag immutability](https://gitlab.com/groups/gitlab-org/-/epics/15139)             | {{< member-by-gitlab jdrpereira >}}   |                                     |
+| [Container Registry: Add support for tag immutability](https://gitlab.com/groups/gitlab-org/-/epics/15139)             | {{< member-by-gitlab jdrpereira >}}   | {{< member-by-gitlab rchanila >}}   |
 | [Database load balancing](https://gitlab.com/groups/gitlab-org/-/epics/8591)                                           | {{< member-by-gitlab jdrpereira >}}   | {{< member-by-gitlab suleimiahmed >}} |
 | [Confidential](https://gitlab.com/groups/gitlab-org/-/epics/13237)                                                     | {{< member-by-gitlab jaime >}}        | {{< member-by-gitlab jdrpereira >}} |
 | [Database background migrations](https://gitlab.com/groups/gitlab-org/-/epics/13609)                                   | {{< member-by-gitlab suleimiahmed >}} | {{< member-by-gitlab jdrpereira >}} |
-| [Improve the fragility and speed of tests](https://gitlab.com/groups/gitlab-org/-/epics/9194)                          | {{< member-by-gitlab vespian_gl >}}   |  |
+| [Improve the fragility and speed of tests](https://gitlab.com/groups/gitlab-org/-/epics/9194)                          | {{< member-by-gitlab vespian_gl >}}   | {{< member-by-gitlab jaime >}} |
 
 ### What We've Recently Completed
 
