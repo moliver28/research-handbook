@@ -17,7 +17,7 @@ description: "GitLab Data Team Workflow"
 
 ## Practical guide to contributing to the Data Team Projects
 
-Looking to get hands-on with data at GitLab? Check out our [Practical Guide](/handbook/enterprise-data/practical-guide/web-ide/) designed for all team members.
+Looking to get hands-on with data at GitLab? Check out our [Practical Guide](/handbook/enterprise-data/how-we-work/practical-guide/) designed for all team members.
 
 This guide complements our existing resources, but with a more practical focus on the step-by-step process of contributing to the Data Team’s projects.
 
