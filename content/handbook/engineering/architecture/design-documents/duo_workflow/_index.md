@@ -533,8 +533,10 @@ To accomplish this, we will:
   (`user:123` using the user id).
 - Implement composite identity through `Gitlab::Auth::Identity`.
 - Implement support for composite identity in our [declarative policies](https://docs.gitlab.com/ee/development/policies.html).
-- Add `can?(ai_agent, :do_something) && can?(human_user, :do_something)`
-  permission checks everywhere.
+- Update the definition of `Ability.allowed?` so that, when a composite identity
+  token is passed, we always do permissions checks for both the token
+  owner and the user specified in the token's dynamic scopes
+  (`can?(ai_agent, :do_something) && can?(human_user, :do_something)`).
 
 The authentication sequence for OAuth v2 identical to OAuth v1, the only difference is that the
 generated OAuth token is a composite token rather than a regular user OAuth
