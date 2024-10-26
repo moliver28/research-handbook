@@ -449,7 +449,7 @@ The table below is a comparison between the existing GitLab.com features, and no
       or when we migrate the organization to another Cell.
     - For the following reason this is why we don't want to force particular paths, or use of subdomains.
     - If we choose the path to force to use `relative_path` it would break all cell-wide endpoints
-      This seems to be longer and more complex that approaching this by making existing to be sharded.
+      This seems to be longer and more complex than simply making the existing configurations to be shared.
     - If we choose to fix existing not sharded [can be made](https://gitlab.com/gitlab-org/gitlab/-/issues/430330)
       at later point we will achieve much better API consistency, and likely much less amount of the work.
 
