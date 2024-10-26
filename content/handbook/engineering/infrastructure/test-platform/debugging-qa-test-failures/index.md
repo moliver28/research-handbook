@@ -216,27 +216,14 @@ on Staging Ref but not on Staging Canary, it may indicate that the failure is en
 
 Tests pipelines are also triggered by the [Kubernetes Workload configuration project](https://gitlab.com/gitlab-com/gl-infra/k8s-workloads/gitlab-com) to ensure that any configuration changes are valid.
 
-#### Special considerations for Nightly
-
-[Omnibus nightly builds](https://dev.gitlab.org/gitlab/omnibus-gitlab/-/pipeline_schedules) are paused at the start of a security release and enabled again once the release is complete.
-This can cause the nightly tests to either run against an outdated package or fail during the `ce:sanity-version` and `ee:sanity-version` jobs when mirroring is down.
-
-The `#quality` Slack channel should receive two notifications:
-
-1. An announcement from the release team when the security release has started.
-2. A notification from GitLab ChatOps when the security release has been published.
-
-For other ways to check if there is an ongoing security release, you can visit the `#releases` Slack channel's `Next Security Release` bookmark, or [search the GitLab project's issues by the `~"upcoming security release"` label](https://gitlab.com/gitlab-org/gitlab/-/issues/?sort=created_date&state=opened&label_name%5B%5D=upcoming%20security%20release&first_page_size=20).
-
-Please note that a security release issue can sometimes be created before a release is in progress.
-If you have any questions on the status, you can also reach out to the `@release-managers` in Slack.
-
 #### Special considerations for `master` pipelines
 
-GitLab `master` has three QA pipelines generated from scheduled pipeline against the default branch:
+GitLab `master` has four QA pipelines generated from scheduled pipeline against the default branch:
 
 - [`test-on-omnibus`](https://docs.gitlab.com/ee/development/testing_guide/end_to_end/#using-the-test-on-omnibus-job) runs the `full` suite of end-to-end tests against an omnibus Docker image built from `master`
 - [`test-on-gdk`](https://docs.gitlab.com/ee/development/testing_guide/end_to_end/#using-the-test-on-gdk-job) runs both `blocking` and `smoke` suites of end-to-end tests as part of the `blocking` job against a GDK instance from a Docker image built from `master`
+- [`test-on-cng`](https://gitlab.com/gitlab-org/build/CNG) runs both `blocking` and `smoke` suites of end-to-end tests against a CNG instance built from Cloud Native GitLab container images
+- [`nightly`](https://dev.gitlab.org/gitlab/omnibus-gitlab/-/pipeline_schedules) run the `full` suite of end-to-end tests including specific scenarios such as airgapped. These are paused at the start of a security release and enabled again once the release is complete
 
 If jobs in `test-on-omnibus` failed due to a GitLab Docker image issue, reach out to the [Distribution team](/handbook/engineering/infrastructure/core-platform/systems/distribution/) to see if it's a known problem with the build.
 
