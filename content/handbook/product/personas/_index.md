@@ -10,17 +10,75 @@ Roles are distinct job titles. These are the real people you will encounter whil
 
 ## Personas
 
-Personas are a generalized way of talking about the ideal target we are aiming to communicate with and design for. They help us not only define our messaging and marketing delivery, but also our product. Keeping personas in mind allows us to use the correct language and make the best decisions to address their specific problems and pain points. GitLab has both [buyer](#buyer-personas) and [user](#user-personas) persona types.
+Personas are a generalized way of talking about the ideal target we are aiming to communicate with and design for. They help us not only define our messaging and marketing delivery, but also our product. Keeping personas in mind allows us to use the correct language and make the best decisions to address their specific problems and pain points. GitLab has [Buyer](#buyer-personas), [User](#user-personas), and [Technical Business](#technical-business-personas) persona types.
 
-### Buyer personas
+### Buyer Personas
 
 We are iterating on updates to buyer personas on this [Buyer Persona](/handbook/marketing/brand-and-product-marketing/product-and-solution-marketing/roles-personas/buyer-persona/) page.
 
-### User personas
+### User Personas
 
 User personas are people who actually use GitLab. They may or may not be the person in
 the organization who has the authority and budget to purchase GitLab, but they
 are heavy influencers in the buying process. Users personas are created from data gathered from UX research studies. If a new user persona is needed, or an existing persona has to be updated, see our handbook guide on [How to Create a User Persona](/handbook/product/ux/persona-creation/index.html).
+
+### Technical Business Personas
+
+Technical Business Personas represents key stakeholders within the organization who focus on leveraging software tools to achieve specific business outcomes, enhancing productivity, collaboration, and innovation. Their primary goal is to ensure that the software solution aligns with the organization's strategic objectives, thereby improving processes, efficiency, and competitiveness. Typically includes GitLab Admins, Development Leads, and Champions who play a pivotal role in driving adoption and integration of GitLab.
+
+<details>
+  <summary markdown="span"> Business Problem & Use Cases </summary>
+
+#### 1. Misalignment Between Product and Market Needs
+
+**Problem:** Without a clear understanding of who the customers are and what they need, there is a risk that the product development and marketing strategies may not align with market demands.
+
+**Solution:** By defining and leveraging personas, GitLab ensures that product features, marketing messages, and customer support are all tailored to meet the specific needs of different user groups. This alignment helps in building a product that is more relevant and valuable to the target market.
+
+#### 2. Inefficient Marketing and Sales Efforts
+
+**Problem:** Generic marketing and sales strategies often lead to lower engagement, higher acquisition costs, and poor conversion rates because they fail to address the specific concerns and interests of potential customers.
+
+**Solution:** Persona-based marketing and sales enable more targeted and personalized approaches, which increase the effectiveness of campaigns, improve lead generation quality, and ultimately drive higher conversion rates. This specificity reduces wasted resources and enhances ROI on marketing spend.
+
+#### 3. Poor Customer Retention and Satisfaction
+
+**Problem:** Customers who feel that their unique needs are not understood or met are more likely to be dissatisfied and churn, leading to higher customer acquisition costs and lower lifetime value.
+
+**Solution:** By understanding the distinct needs of buyers, business stakeholders, and end users, GitLab can offer more personalized support, relevant product features, and proactive engagement strategies. This tailored approach increases customer satisfaction and loyalty, reducing churn and enhancing customer lifetime value.
+
+#### 4. Inadequate Product Adoption and Usage
+
+**Problem:** If the product does not meet the specific needs of different user groups, adoption rates will suffer, and users may not fully leverage the product's capabilities, impacting overall satisfaction and retention.
+
+**Solution:** Understanding user personas helps GitLab to design and prioritize features that directly address the day-to-day challenges and workflows of different user groups. This ensures higher adoption rates and deeper usage of the product, maximizing the value customers derive from GitLab.
+
+#### 5. Ineffective Customer Support and Service
+
+**Problem:** Generic support and service offerings can lead to frustration and inefficiencies, as they may not adequately address the varied concerns and technical levels of different users.
+
+**Solution:** Tailoring support services based on persona insights allows GitLab to provide more relevant and effective assistance. For example, providing detailed technical documentation and training for end users, and offering strategic ROI discussions and flexible contract options for buyers. This improves the overall customer experience and enhances support efficiency.
+
+#### 6. Missed Opportunities for Upselling and Cross-selling
+
+**Problem:** Without a clear understanding of the evolving needs and priorities of different personas, there is a risk of missing opportunities to introduce customers to additional features or services that could add value.
+
+**Solution:** A deep understanding of personas allows GitLab to identify and communicate the right upselling and cross-selling opportunities at the right time, thereby increasing revenue per customer. For instance, business personas might be interested in advanced analytics, while end users might benefit from new development tools.
+
+#### In Summary
+
+By solving these business problems through a detailed understanding of Buyer, Business, and User personas, GitLab can:
+
+- Better align its products and services with market needs
+- Increase marketing and sales efficiency and effectiveness
+- Improve customer retention and satisfaction
+- Enhance product adoption and usage
+- Provide more effective customer support
+- Capitalize on upselling and cross-selling opportunities
+
+This persona-driven approach ultimately leads to sustainable growth, higher customer lifetime value, and a stronger competitive position in the market.
+
+  </details>
 
 #### How do user personas interact?
 
@@ -66,23 +124,34 @@ We describe the following personas in terms of the jobs they do, their motivatio
   1. [Daphne, Data Scientist](/handbook/product/personas/#daphne-data-scientist)
   1. [Mia, ML Engineer](/handbook/product/personas/#mia-ml-engineer)
 
-#### User Personas across stages
+### User Personas across stages
 
 Our personas span across stages (see table below for a depiction of how our user personas map across stages). Understanding how our personas map across stages helps us understand how to collaborate cross-functionally to support their needs.
 
 <figure class="video_container">
-<iframe src="https://docs.google.com/presentation/d/e/2PACX-1vRpBZ2Ainza6lfvNKSQW7YpOPxYnzBSgdqsWXqFUM_DgTWuFCn1FJd5w0PGTn695HRfFCMEatocMG-X/embed?start=false&loop=false&delayms=3000" frameborder="0" width="1220" height="620" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+<iframe src="https://docs.google.com/presentation/d/e/2PACX-1vRpBZ2Ainza6lfvNKSQW7YpOPxYnzBSgdqsWXqFUM_DgTWuFCn1FJd5w0PGTn695HRfFCMEatocMG-X/embed?start=false&loop=false&delayms=60000" frameborder="0" width="1220" height="620" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
 </figure>
 
 *Note: To change the table above, team members can edit the [Google Slide deck](https://docs.google.com/presentation/d/1IVDu5RIlywcRCqpkXzdSG7lW8dNiE_XHq54GdI7lkfk/edit?usp=sharing).*
 
-#### User Personas across Use Cases
+### User Personas across Use Cases
 
 <figure class="video_container">
-<iframe src="https://docs.google.com/presentation/d/e/2PACX-1vQU1Lm4fyZvEk4TrkQ-kNDZWA5MVb9fNuqaDPzXaZjCE3PYL8BQ0nSD5Hfw34fSNq_of3E-U3G6fyRL/embed?start=false&loop=false&delayms=15000" frameborder="0" width="1220" height="620" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+<iframe src="https://docs.google.com/presentation/d/e/2PACX-1vQU1Lm4fyZvEk4TrkQ-kNDZWA5MVb9fNuqaDPzXaZjCE3PYL8BQ0nSD5Hfw34fSNq_of3E-U3G6fyRL/embed?start=false&loop=false&delayms=60000" frameborder="0" width="1220" height="620" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
 </figure>
 
 *Note: To change the tables above, team members can edit the [Google Slide deck](https://docs.google.com/presentation/d/1iit_S9U81iVdLuIc9hgrG68ewlr5U0bSGQLsbQNGMOc/edit?usp=sharing).*
+
+### Technical Business Personas Across Use Cases
+
+| Personas | Persona Titles | Summary | Use Case(s) |
+|:---:|:---:|:---:|:---:|
+| Engineering / Dev Leads | Software Development Lead/Director, Director of Engineering, App Dev Manager, Head of Software Dev, Director of Product Engineering | - **Needs and Goals:** Seeks tools and platforms that streamline development workflows, facilitate collaboration, enhance visibility into team activities, and support continuous integration and deployment (CI/CD) practices.<br>- **Primary Responsibilities:** Involved in writing, testing, and deploying code to build and maintain software applications.<br>- Typically assigned as **Gitlab Admins** and **Dev Leads** | CI, CD, SCM, Security, Agile, Compliance, Code Suggestions, Package |
+| Infra / Platform/ IT Leads | Director/Manager of Infrastructure &amp; Platform, IT Manager/Director, Systems Manager/Director, DevOps Engineer, Engineering Manager, Site Reliability Engineer (SRE) | - **Needs and Goals:** Seeks tools that enable automation, scalability, and reliability of infrastructure, as well as integration with development workflows for seamless deployment and monitoring.<br>- **Primary Responsibilities:** Manages and maintains the infrastructure and platforms supporting software development and deployment.<br>- Typically assigned as **Gitlab Admins** and **Dev Leads** | CI, CD, Security, Agile, Platform Engineering, Code Suggestions, Analytics &amp; Insights |
+| Security Group | Security Operations Manager/Director, Senior Security Analyst, Chief Information Security Officer (CISO), Chief Security Officer (CSO) | - **Needs and Goals:** Requires robust security features, including vulnerability scanning, access controls, and security incident response capabilities to protect against threats and vulnerabilities.<br>- **Primary Responsibilities:** Ensures secure software development and infrastructure, offering oversight and compliance guidance. | Security, Compliance, Code Suggestions |
+| *Product Strategy Group | Director of Product Management, Principal/Sr. Product Manager, Sr. Project Manager, Manager/Director of Product Delivery | - **Needs and Goals:** Requires a platform that enables efficient project management, collaboration, and feedback collection, allowing them to align product development with business objectives and customer needs.<br>- **Primary Responsibilities:** Defines product requirements, continuous improvements, prioritizes features, and coordinates with development teams to deliver value to customers. | Agile, Analytics &amp;amp; Insights, SCM |
+
+<sub>*Product Strategy Group - Not as prevalent today, but expected to become more relevant with Gitlab Plan-Only (Agile) Add-On.</sub>
 
 #### Parker (Product Manager)
 
