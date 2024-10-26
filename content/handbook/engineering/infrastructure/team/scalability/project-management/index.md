@@ -92,7 +92,7 @@ This section contains projects that are either ready for development or still pr
 
 During review, the Engineering Manager or Product Manager will indicate if more information is required to accept a proposal.
 
-A Roadmap epic can have sub-epics that are also roadmaps. For example, the Practices team will have a sub-epic for Redis and the Observability team will have a sub-epic for Capacity Planning. These help to keep the narrative for each category in a single place. We will also implement automation for the flow of information between levels.
+Each team has a single roadmap.
 
 ### Proposal
 
