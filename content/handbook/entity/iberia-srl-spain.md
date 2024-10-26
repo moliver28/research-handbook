@@ -124,9 +124,9 @@ Please note that Group Medical plan premiums are tax exempt up to €500 per yea
 </details>
 
 <details markdown="1">
-<summary>Medical Plan Enrollment</summary>
+<summary>Medical Plan Enrollment and Opting out</summary>
 
-Team Members must enroll in to the plan upon hire.
+Team Members will be automatically enrolled upon hire. 
 The Total Rewards team will share your enrollment details with our brokers at WTW within the first week of their start date. Team Members can expect their AXA welcome package via email within 3 weeks of their start date.
 
 New Hires can add Family members by filling out the Survey Link included in their onboarding document.
@@ -149,6 +149,8 @@ No waiting periods except for the following procedures:
 - Bariatric surgery
 
 No medical questionnaire required (pre existing illness will be accepted, except serious illness).
+
+ If you would like to opt out of the plan, please carefully review the [Spain Medical Opt From](https://docs.google.com/document/d/1Fz8kTyyu0SScMatTFI9r6vtIyWpuzdYW/edit?usp=sharing&ouid=115600862362829120699&rtpof=true&sd=true). Download a copy, complete, sign, and return the document to total-rewards@gitlab.com.  
 
 </details>
 
@@ -194,12 +196,19 @@ The Free cover Limit is 500,000 EUR. If your cover is over the Free Cover Limit,
 In case of Disability: The beneficiary is the insured herself/himself.
 In case of Death of the insured, the beneficiaries will be those expressly appointed as beneficiaries by the insured or, in case there is no express appointment, as determined in the beneficiary's general clause settled in the policy:
 
-Spouse not legally separated or divorce under final judgment or legal partner
-Children of the insured in equal shares or their descendants in case of death
-Parents of the insured in equal shares
-Legal heirs of the Insured
+1. Spouse not legally separated or divorce under final judgment or legal partner
+1. Children of the insured in equal shares or their descendants in case of death
+1. Parents of the insured in equal shares
+1. Legal heirs of the Insured
 
-To Update your Beneficiary please fill out the [beneficiary designation form](https://drive.google.com/drive/folders/14KdAmwiUK9hwqRQsRA6RvG5D0I815ZhS) and send to Fernanda.dallagnese@wtwco.com and total-rewards@gitlab.com along with a copy of the National Identity Card of the employee.
+To Update your Beneficiary please fill out the [beneficiary designation form](https://drive.google.com/file/d/1g15Kj36z4y0iGxoeSPw8X-ihVnq-kI9w/view?usp=sharing) and send to Fernanda.dallagnese@wtwco.com and total-rewards@gitlab.com along with a copy of the National Identity Card of the employee.
+
+</details>
+
+<details markdown="1">
+<summary>Enrollment and Opting Out</summary>
+
+Team Members will be automatically enrolled in to the Life and Disability plan, as GitLab covers 100% of team member premiums. Team members are responsible for taxes associated with the plan. If you would like to opt out of the plan, please carefully review the [Spain Life Opt From](https://docs.google.com/document/d/1uShnipck7CwJmP-d8Inpcupj-ILPn81U/edit?usp=sharing&ouid=115600862362829120699&rtpof=true&sd=true). Download a copy, complete, sign, and return the document to total-rewards@gitlab.com.  Please submit the opt out form within a week of your start date.
 
 </details>
 
