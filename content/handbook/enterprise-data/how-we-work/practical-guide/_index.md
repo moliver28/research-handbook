@@ -15,3 +15,7 @@ Remember, every contribution, no matter how small, helps to enrich our collectiv
 To make this guide more manageable and easier to navigate, we've broken it down into several focused pages, which you can find linked below:
 
 - [Working with the GitLab Web IDE](/handbook/enterprise-data/how-we-work/practical-guide/web-ide/)
+- [Understanding the MR template](/handbook/enterprise-data/how-we-work/practical-guide/understanding-the-mr-template)
+- [CI Jobs You Should Know About](/handbook/enterprise-data/how-we-work/practical-guide/top-ci-jobs)
+- [Preparing Your MR for Merging](/handbook/enterprise-data/how-we-work/practical-guide/preparing-your-mr)
+
