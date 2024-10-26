@@ -11,7 +11,7 @@ description: "How to complete an NDA Request"
 ## Team Members with DocuSign Access
 
 - All Sales Team Members have DocuSign access.
-- Team Members with DocuSign access can use the pre-signed GitLab NDA Template to send an NDA to a recipient for signature. A [video](https://youtu.be/DaOggzBcb0U) highlighting the process has been created, and you can also find step-by-step directions below.
+- Team Members with DocuSign access can use the pre-signed GitLab NDA Template to send an NDA to a recipient for signature. A [video](https://youtu.be/ah46hDXYdVs) highlighting the process has been created, and you can also find step-by-step directions below.
 
 ### How to Send NDA in DocuSign
 
