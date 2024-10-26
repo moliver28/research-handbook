@@ -658,9 +658,53 @@ Once the report is downloaded (or the event/tactic has ended and all swag has be
 
 ## Field Marketing Swag
 
+Swag (Stuff We All Get) are promotional merchandise or items branded with GitLab's logo or message that are distributed for marketing purposes. The goal is to provide useful items that recipients will enjoy using while also promoting GitLab's brand.
+
 ## Brand Details for Swag and Event Assets
 
 For information regarding Brand support, please visit the [Brand Creative Handbook Page](/handbook/marketing/brand-and-product-marketing/design/). Templates for requesting design/brand support are located [here](/handbook/marketing/brand-and-product-marketing/design/#brand--marketing-design-issue-templates). You can also watch [this video](https://www.youtube.com/watch?v=bBzasucNkh0) (must be logged into GitLab Unfiltered) regarding Brand templates and repos for previous and current brand designs.
+
+## Swag Distribution Guidelines
+
+- Identify the Event Type: The selection of swag will be based on the [event tactic](/handbook/marketing/field-marketing/#field-marketing-campaign-issue-templates-epic-codes-and-progression-status). Some examples - for a conference low value item such as pens, stickers or stess balls. For an executive dinner/roundtable a GitLab branded speaker or laptop bag.
+- Analyze Audience Demographics: Understand the attendees' demographics, interests, and preferences. Consider factors like profession, seniority and location.
+- Budget Allocation: Set a budget for swag and shipping (contact your regional FMC for latest regional shipping charges).
+- Choose Swag Items: Select swag items that are practical, unique, and relevant to your audience. - Ensure the items align with the [brand identity and value](/handbook/marketing/brand-and-product-marketing/design/).
+- Promotional Games or giveaways - please refer to [Legal](/handbook/legal/marketing-collaboration/#promotional-games) if planning such an event.
+
+## Recommended quantities for swag items based on different event types
+
+| Event Type |Swag Item | Recommended Quantity |
+| ------ | ------ | -------------- |
+|Conferences |Low-value items ($2-6 per item). Always have stickers and some other examples of giveaways are pens, stress balls and mints.  |The quantity depends on the expected number of attendees—an estimate based on previous similar events or registration numbers. Approx. recommended 30% of total attendance, if 1000 people are expected send 300 pieces of swag|
+| Owned Events  | Examples such as Tshirts, stickers | The quantity depends on the confirmed number of attendees|
+| Executive roundtables/Dinners | High-quality items some examples include branded journals, laptop sleeves, and luxury tech accessories| The quantity depends on the confirmed number of executives attending. Aim for a smaller quantity of higher-quality items, ensuring each attendee receives a memorable and meaningful gift|
+
+### Swag distribution strategy for large conferences
+
+- To manage the availability of swag during large conferences, it may be useful to implement a swag distribution strategy. Implementing a swag distribution strategy that requires attendees to qualify to receive swag may enhance attendee engagement, incentivize participation, and maximize the impact of swag investment at large conferences.
+
+**An Example of a Swag Distribution Strategy at a large 2 day Conference**
+
+1. Everyone (badge) that is scanned > receive stickers
+1. People participating at demos > receive a pen or notebook or lego set
+1. High Value customers/prospects/specific titles > T-Shirts
+1. A special SWAG "bucket high value item" for Sales people on-site, meeting clients directly (pre-booked meetings) during the conference but not necessarily at our booth (sometimes it's directly at the client booth) > laptop sleeve
+
+#### Pre-Event Planning (FMM)
+
+- Identify the qualifying criteria for attendees to receive swag. This could include factors such as registering for the conference, attending specific demo sessions or presentations, engaging with sponsors or exhibitors, or completing surveys or challenges.
+- Determine the types of swag items to be distributed and establish the quantity based on the anticipated attendance and budget constraints.
+- Ensure the delivery of swag reaches venues on time and in good condition, the following are some best practices.
+- Ensure all boxes are labeled correctly to include GitLab and the booth number.
+- Check with the event organizer of best address, contact person and any special delivery instructions.
+- Rather than sendind to a venue, SWAG can be delivered to hotels where team members are staying for an event but always check with the hotel that this is permitted.
+- Having a SWAG Back-up plan is essential to ensure that you can still capture valuable leads and maintain a positive impression even if you run out of physical items. For example, design and create an On-Booth Survey with [QR Code](/handbook/marketing/events/#steps-to-generating-a-qr-code), incase you are running out of SWAG you can still collect the email address of the people who asked for it and send them a voucher or a low value item after the event.
+
+#### Post-Event Follow-Up
+
+- Analyze data collected during the event to evaluate the effectiveness of the swag strategy and identify opportunities for refinement in future conferences.
+- Request team's who attended the event for their feedback and to add to the recap spreadsheet located in the main event issue.
 
 ## AMER Field Marketing Swag
 
