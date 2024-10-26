@@ -11,9 +11,9 @@ Renewals Managers --> visit the internal handbook [page](https://internal.gitlab
 
 ---
 
-## FY24 Renewals Opportunity Management
+## FY25 Renewals Opportunity Management
 
-In FY24, the Global Renewals team will manage more customer-facing transactions than any other team at GitLab. As such, the Renewals team manages Renewal Opportunities with the utmost level of rigor and data quality to ensure a high degree of organization, effective collaboration with account teams, and successful Renewal outcomes.
+In FY25, the Global Renewals team will manage more customer-facing transactions than any other team at GitLab. As such, the Renewals team manages Renewal Opportunities with the utmost level of rigor and data quality to ensure a high degree of organization, effective collaboration with account teams, and successful Renewal outcomes.
 
 The Renewals team primarily uses these key fields on Renewal Opportunities:
 
@@ -29,8 +29,7 @@ The Renewals team primarily uses these key fields on Renewal Opportunities:
 ## Deal Management
 
 - `Stage` [link](/handbook/sales/field-operations/gtm-resources/#opportunity-stages)- indicates where in the Renewal/Sales cycle the deal is
-- `Next Steps` - field to record critical information and actions that have occurred during the deal lifecycle and what and when the next step is to progress the deal forward
-- `Next Steps History` - the record of previous Next Steps
+- `Renewal Manager Next Steps` - field to record critical information and actions that have occurred during the deal lifecycle and what and when the next step is to progress the deal forward
 
 ## Forecasting
 
@@ -43,7 +42,7 @@ The Renewals team primarily uses these key fields on Renewal Opportunities:
 - `ATR` - Used for calculating Renewal Rate. This is the revenue that is Available to Renew (ATR)
 - `Won ATR` - Used for calculating Renewal Rate. This is the forecasted renewal revenue for the deal. This field caps out at 100% of the ATR field to reflect no more than a 100% renewal.
 - `Active Mitigation` - Used to describe the primary mitigation if the opportunity is at risk
-- `(Best Case / Most Likely / Commit) Forecasted Churn` - Describe the best case, most likely and worst case (committ) scenarios. Best Case and Commit are calculated fields that are dependent on other risk forecasting fields. ML is a manually entered field that should describe what the renewal manager believes is the most likey amount of churn or contraction.
+- `(Best Case / Most Likely / Commit) Forecasted Churn` - Describe the best case, most likely and worst case (committ) scenarios. Best Case and Commit are calculated fields that are dependent on other risk forecasting fields. Most Likely is a manually entered field that should describe what the renewal manager believes is the most likey amount of churn or contraction.
 - `Renewal Manager Notes` - A field often populated with a template that describes risk reason, customer brief, intervnetion in process notes, and intervention required observations.
 
 ## Ownership
@@ -55,15 +54,15 @@ The Renewals team primarily uses these key fields on Renewal Opportunities:
 ## Analytics
 
 - `Closed Won Reason` - the reason the deal was Closed Won
-- `Closed Lost Reason` - the reason the deal was Closed Lost
+- `Risk/Loss Reason Category` - the reason the deal was Closed Lost or there was contraction
 - `Downgrade Reason` - the reason why the Customer renewed but reduced ARR
 - `Closed Won Details` - free-form field for additional information and insight as to why we won the deal
-- `Closed Lost Details` - free-form field for additional information and insight as to why we lost the deal
+- `Risk/Loss Reason Sub Category` - additional details into why we lost the deal or there was contraction
 - `Downgrade Details` - free-form field for additional information and insight as to why the customer reduced.
 
 ## Renewals Forecast Methodology
 
-In FY24 The Global Renewals team is responsible for providing the business with a renewal rate and churn forecast on a regular basis for the Enterprise-Growth (ENTG) Segment.
+In FY25 The Global Renewals team is responsible for providing the business with a renewal rate and churn forecast on a regular basis for the Enterprise-Growth (ENTG) Segment.
 
 Providing an accurate, data driven forecast is essential for GitLab's continued growth as it enables the business to:
 
@@ -99,7 +98,7 @@ The key risk fields for capturing risk on the renewal are:
 
     1. Fill in the `Amount` field with the annual value that is expected to renew (i.e. how much we predict will actually book). The Renewal Forecast Health field will automatically update to Red if the Amount is less than the ATR.
     2. Fill in the `Renewal ARR Swing` amount with how much of the churn/contraction may be saved with intervention. (Note the Renewal Swing ARR must be a positive number and not greater in magnitude than the Forecasted Churn. Ex. if Forecasted Churn is -$100k the Renewal Swing ARR cannot be greater than +$100k)
-    3. Record your `Next Steps`
+    3. Record your `Renewal Manager Next Steps`
     4. Record the risk intervention idea/ask/motion in the `Renewal Manager Notes` section (you can use the risk intervention table for ideas)
 
         For the other two categories - `Will Churn` and `Will Contract` - use same steps, but no Renewal ARR Swing field is needed
