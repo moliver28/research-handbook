@@ -487,7 +487,7 @@ To use OAuth, we will:
 
 As of October 18, 2024, the OAuth v1 flow has been implemented for Duo Workflow.
 
-The next iteration of Duo Workflow auth (v2) will also use an OAuth token to
+The next iteration of Duo Workflow OAuth (v2) will also use an OAuth token to
 authenticate requests to the GitLab API. But, instead of using a regular OAuth
 token, we will use a composite OAuth token. Composite tokens is a new concept
 that will require [adding dynamic scopes to Doorkeeper](https://github.com/doorkeeper-gem/doorkeeper/pull/1739),
