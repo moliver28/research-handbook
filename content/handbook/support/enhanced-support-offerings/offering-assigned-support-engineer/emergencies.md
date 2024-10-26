@@ -4,47 +4,38 @@ category: Assigned Support Engineer
 description: Workflow for an ASE when their account submits an emergency
 ---
 
+## Emergencies from ASE accounts
+
 An account with an Assigned Support Engineer (ASE) can submit an emergency
 either [while you're available](#when-available)
-or [when you're not](#when-unavailable).
+or [while you're not](#when-unavailable).
 
 In either case, it is important to note that you are not permanently on-call
 and, thus, are **not required** to take the emergency unless you're the on-call
 engineer. However, at times like these it is important to remember
-that you are the Support Engineer with the most context of the
-customer's situation, problems, & objectives, and might be able to save several hours of
-troubleshooting during this emergency scenario.
+that you are the Support Engineer with the most knowledge of the
+customer's situation, problems and objectives, and therefore you might be able
+to save GitLab Support and the customer many hours of troubleshooting by
+working with the on-call team on such an emergency.
 
-## Process for the on-call engineer
+## Processes for the ASE
 
-Regardless of when it comes in, the [DRI](/handbook/people-group/directly-responsible-individuals.html)
-for the emergency continues to be the on-call Support Engineer.
-Their only process change is that they should **notify the ASE when
-their account submits an emergency**.
-This can be done by pinging the ASE's Slack handle in the Slack thread where the
-emergency is being discussed.
-
-Once an emergency comes in, the on-call engineer creates its Slack thread,
-and notifies the ASE of what's going on, then the on-call engineer can continue
-working with the customer as they would any other.
-
-## Process for the ASE
-
-### When available
+### When you're available
 
 If the on-call engineer notifies you of an emergency and you are either
 available or can be available, then work alongside the on-call engineer to
-resolve the ticket. This may involve *any* of the following:
+stabilize the customer's situation. This may involve *any* of the following:
 
 - Taking over as
   [DRI](/handbook/people-group/directly-responsible-individuals.html) for the emergency
-- Shadowing the emergency for any amount of time
+- Shadowing the emergency for some amount of time
 - Troubleshooting the emergency in Slack, asynchronously
-- Updating the on-call engineer with any required context
+- Providing the on-call engineer with important information that will help them
+  to work with the customer or to understand the customer's environment
 
 Any help you can provide will be appreciated.
 
-### When unavailable
+### When you're not available
 
 If you come back to work and see that an emergency took place while you
 weren't available, then catch up on what happened and reach out to the

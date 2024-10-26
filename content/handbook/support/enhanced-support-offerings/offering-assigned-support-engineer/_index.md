@@ -93,7 +93,7 @@ partners, about working with us.
 #### Global Support working with ASEs
 
 If you're in Global Support, please familiarize yourself with our
-[Global Support working with ASEs](working-with-ases/global-support-and-ases.md)
+[Global Support working with ASEs](working-with-ases/global-support-and-ases.html)
 page. It should tell you everything you want to know about how these two parts
 of Support can help each other to be more successful.
 
@@ -102,7 +102,7 @@ of Support can help each other to be more successful.
 If you're part of a Sales, Customer Success or Professional Services team that
 works with an account that has contracted for or is considering contracting for
 one or more Assigned Support Engineers, please read our
-[Account Teams working with ASEs](working-with-ases/account-teams-working-with-ases.md)
+[Account Teams working with ASEs](working-with-ases/account-teams-working-with-ases.html)
 page.
 
 ### ASE Workflows and Standards
@@ -112,15 +112,15 @@ page.
 Link to a page that includes:
 - QBRs
 - Reports
-- Customer Onboarding (onboarding.md and introductory_meeting.md)
-- OOO Management (planning-pto-as-ASE.md)
+- Customer Onboarding (customer-onboarding.html and introductory-meeting.html)
+- OOO Management (planning-pto-as-ASE.html)
 - Issues v. Tickets
 - Time Tracking
-- Handling ticket tsunamis (ticket_tsunami.md)
+- Handling ticket tsunamis (ticket-tsunami.html)
 
 ### Becoming and Being an ASE
 
-Please see our [Becoming and Being an ASE page](#becoming-and-being-an-ase) if:
+Please see our [Becoming and Being an ASE page](#becoming-and-being-an-ase.html) if:
 - you are considering whether to become an ASE
 - you are about to become and ASE
 - you are a new ASE

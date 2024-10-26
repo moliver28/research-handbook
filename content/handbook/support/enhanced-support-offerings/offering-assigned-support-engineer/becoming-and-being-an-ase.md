@@ -44,10 +44,12 @@ You might also find it helpful to review the
       1. where `[org_a percentage]` is the percentage of your ASE time that
          will be spent on org_a, `[org_b percentage]` is the same thing for your
          second account, and the sum of the org percentages is 100
+1. Change your job title in Zoom
+1. Update your signature in Zendesk to indicate that you are an ASE
 
+### 
 **<<<< COMING SOON >>>>**
 
-- Changes needed in Zendesk, Zoom
 - Balancing between ASE and Global
   - on-call rotation
   - ticket queue
@@ -57,9 +59,9 @@ You might also find it helpful to review the
   - stepping out of the SE box - change your way of thinking about what you should
     or shouldn't do
   - prioritize and re-prioritize all the time
-  - only attend meetings in which you will learn or contribute
+  - only attend account meetings in which you will learn or contribute
   - get to know the people as people
     - do lots of Zooms with them and chat as you work a ticket
   - get to know what they're doing with GitLab and why
-- Link to the customer onboarding page (onboarding.md)
+- Link to the customer onboarding page (customer-onboarding.html)
 - Tips from ASEs
