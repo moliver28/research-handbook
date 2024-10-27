@@ -487,7 +487,7 @@ Dental does not come with individualized insurance cards from Cigna, although yo
 
 The following costs are monthly rates which would be deducted from your paycheck.
 
-#### *2024 Rates*: The following costs are monthly rates which would be deducted from your paycheck
+*2024 Rates*: The following costs are monthly rates which would be deducted from your paycheck
 
 | Tier                     | DPPO Base | DPPO Buy Up |
 |--------------------------|----|-----|
