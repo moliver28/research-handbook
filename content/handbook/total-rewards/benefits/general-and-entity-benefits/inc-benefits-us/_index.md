@@ -330,8 +330,6 @@ Benefits for services and supplies received outside the Service Area are covered
 
 ### Kaiser Medical Plans
 
-#### Kaiser 2024 and 2025 Calendar Year Plans
-
 The following Kaiser options are available for Hawaii residents.
 Residents in California and Colorado have the Kaiser options below, in addition to the Cigna plan options.
 
