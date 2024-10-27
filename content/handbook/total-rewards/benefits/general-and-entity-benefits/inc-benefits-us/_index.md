@@ -496,7 +496,7 @@ The following costs are monthly rates which would be deducted from your paycheck
 | Team Member + Child(ren) | $18  | $ 48 |
 | Family                   | $32  | $78 |
 
-#### *2025 Rates*: The following costs are monthly rates which would be deducted from your paycheck
+### *2025 Rates*: The following costs are monthly rates which would be deducted from your paycheck
 
 | Tier                     | DPPO Base | DPPO Buy Up |
 |--------------------------|----|-----|
