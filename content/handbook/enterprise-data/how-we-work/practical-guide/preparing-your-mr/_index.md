@@ -6,9 +6,10 @@ description: "This handbook page helps you understand what steps you should take
 To expedite the review process from an analytics engineer and eventual merging of your work, here are the steps you can take before tagging an analytics engineer for review. If you need help before completing these steps feel free to reach out sooner! It may take additional time to for them to review your MR if additional support is needed from them.
 
 ### Make sure the template is filled out completely
-A top reason for slower reviews of an MR is an incomplete template. This page is designed to help you feel comfortable completing as much of the MR template as possible so that it can expedite the review process. You can read the section below, in [Understanding the MR Template](/content/handbook/enterprise-data/how-we-work/practical-guide/preparing-your-mr/)
+A top reason for slower reviews of an MR is an incomplete template. This page is designed to help you feel comfortable completing as much of the MR template as possible so that it can expedite the review process. You can read the section below, in [Understanding the MR Template]() for more details about the MR template.
 
-### Build your changes (make sure it succeeds)
+### Build your changes
+"Build Changes" is one of the CI jobs in the Pipeline. You can find more details about CI jobs to know about here](). Before your MR gets merged, you will need to "Build Changes" and ensure it succeeds.
 
 ### Grant yourself clones so you can test the data
 
