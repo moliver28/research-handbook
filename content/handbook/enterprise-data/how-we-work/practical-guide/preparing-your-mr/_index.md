@@ -3,12 +3,18 @@ title: "Preparing Your MR for Merging"
 description: "This handbook page helps you understand what steps you should take to get your MR ready to assign to an analytics engineer and to get it ready to merge."
 ---
 ## Steps to Getting Your MR Ready
+To expedite the review process from an analytics engineer and eventual merging of your work, here are the steps you can take before tagging an analytics engineer for review. If you need help before completing these steps feel free to reach out sooner! It may take additional time to for them to review your MR if additional support is needed from them.
 
-1. Make sure the template is filled out completely.
-2. Build your changes (make sure it succeeds).
-3. Grant yourself clones so you can test the data.
-4. Test the MR - either in SQL or in Tableau. Make sure it's doing what you think it is.
-5. Add a row count if you are updating an existing table.
+### Make sure the template is filled out completely
+A top reason for slower reviews of an MR is an incomplete template. This page is designed to help you feel comfortable completing as much of the MR template as possible so that it can expedite the review process. You can read the section below, in [Understanding the MR Template](/content/handbook/enterprise-data/how-we-work/practical-guide/preparing-your-mr/)
+
+### Build your changes (make sure it succeeds)
+
+### Grant yourself clones so you can test the data
+
+### Test the MR - either in SQL or in Tableau. Make sure it's doing what you think it is
+
+### Add a row count if you are updating an existing table.
 
 ## Understanding the MR Template
 
