@@ -895,7 +895,6 @@ GitLab offers [commuter benefits](https://drive.google.com/file/d/0B4eFM43gu7VPe
 
 In 2025 the contribution limits are $325/month for parking and $325 per month of transit. These contributions rollover month to month.
 
-
 </details>
 
 <details markdown="1">
