@@ -215,7 +215,6 @@ In Network:
 | Fertility Services | $15,000 Lifetime Benefit | No Cover | $15,000 Lifetime Benefit |
 | Summary Plan Descriptions  | [2024 HDHP](https://drive.google.com/file/d/1N80QyfcQuJhBpSmEXEVXlK0af_4qziGE/view?usp=sharing) <br> 2025 HDHP available soon | [2024 EPO](https://drive.google.com/file/d/12VZeqYPUlh2m8UWanEOGT3WroQsotuXh/view?usp=sharing) <br> 2025 EPO available soon  |   [2024 PPO](https://drive.google.com/file/d/18GAbC5h1Rr2iC1RjNG_8Y-tWbh2IwH7q/view?usp=sharing) <br> 2025 PPO available soon <BR> [2024 PPO UTAH](https://drive.google.com/file/d/1b-fmCiwDungC9qgDoWeQAqm8gqEr2BX1/view?usp=sharing) <br> 2025 PPO Utah available soon |
 
-
 \*\* In order for the EPO plan to be compliant in all states, it has been set up as a PPO plan with bad out-of-networks benefits including a deductible of $10k/$20k, an Out of Pocket Max of $20k/$40k, and a coinsurance of 50%. **Please do not enroll in this plan if you are intending to use the out-of-networks benefits and instead review the Cigna PPO 500 or Cigna HSA plans.** Note that there is no infertility covered under the EPO plan.
 
 \*\*\* Cigna will provide an extended network PPO Plan for Utah team members which will include the Intermountain Healthcare System.
