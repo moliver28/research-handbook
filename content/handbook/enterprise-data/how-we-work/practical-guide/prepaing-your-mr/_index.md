@@ -21,6 +21,8 @@ Here is a breakdown of the MR template, one section at a time. The numbers on th
 
     You may have some use cases that expand outside of this - for example you may create an issue for a change that needs to happen in Tableau, so when the MR gets merged the issue may not be ready to close, because you still have changes to make in Tableau. This is ok, just know that if you list the issue that the MR closes in this section of the template, it will automatically close when the MR gets merged.
 
+    Creating an issue to accompany your MR if it does not yet have one could be helpful to the analytics engineer who you are partnering with. They can use the issue to discuss work, plan review meetings, and they can put weights on the issue and assign it to their schedule for the week so they can appropriately budget time for it.
+
 2. In the scope section of the template, you need to describe the changes you are making in DBT and why you are making them. It does not need to be lengthy, but you want to use this section to help people who may not be familiar with the work you are doing to be able to quickly understand the "what" and the "why" so that it can be reviewed and merged.
     
     As a tip, you can use GitLab Duo's "Explain Changes" button if it is available to you on the MR. If not, you can copy and paste the changes tab of the MR and ask it to summarize the changes are being made. This may need some editing, but may help you get started.
