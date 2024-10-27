@@ -61,6 +61,7 @@ Here is a breakdown of the MR template, one section at a time. The numbers on th
     ```
     </details>
 
+
 8. You may need to take action on some of the items in the "Review" list. You can work with an analytics engineer on this section if you are not sure of the answers.
 
     The items that are most likely to need your action include:
