@@ -3,7 +3,7 @@ title: "Managing Risk, Project Wins, and Business Development"
 description: "Learn about managing reports around project wins, Business Development Items, and Customer Stories."
 ---
 
-## Mitigating Risk via RAID Issue
+## Mitigating Risk via RAID Board
 
 * The RAID, Risks, Actions, Issues, and Decisions is our way to ensure a single source of truth for project risk & resolution
 * It is where our internal project stakeholders and leadership can reference the latest project information when the project is trending or sitting in a Y/R health status
