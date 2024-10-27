@@ -37,11 +37,12 @@ Here is a breakdown of the MR template, one section at a time. The numbers on th
 
     Before assigning this MR to a maintainer to merge, you should include a "Row Count Test". This is not one of the DBT tests listed in a previous step, instead it is a SQL query that you run yourself. This just counts the number of rows in the production version of the table, and the MR version. _This only applies to MR's where you are editing an existing table and does not apply to newly created tables_.
 
-    This row count catches things like when you accidentally type a join wrong, and it either dramatically increases or dramatically decreses the number of rows in the table. 
+    This row count catches things like when you accidentally type a join wrong, and it either dramatically increases or dramatically decreses the number of rows in the table. It is standard practice for almost every MR for a DBT model change. You can paste the resulting table right into this section of the template.
 
     <details>
     <summary>Sample SQL Code</summary>
-    ```
+
+    ```SQL
     SELECT
         COUNT(*) as row_count,
         'prod' as source
