@@ -63,7 +63,7 @@ Support will be provided based on the following business hours in the respective
 |     Region    | Standard Support Hours |
 |:-------------:|------------------------|
 | APAC          | 8:00AM to 5:00PM (IST)   |
-| EMEA          | 8:00AM to 5:00PM (GMT)   |
+| EMEA          | 8:00AM to 5:00PM (CET)   |
 | AMER / LATAM  | 7:00AM to 5:00PM (PT)    |
 
 ##### Support Model - Public Holidays, Friends & Family Days
@@ -90,11 +90,15 @@ As of 2022-02-01, the Deal Desk team is structured as follows:
 
 **EMEA/APAC TEAM:**
 
-- Manager, Deal Desk (EMEA/APAC)
-  - Deal Desk Analyst (APAC)
+- Manager, Deal Desk (EMEA) TBD
   - Deal Desk Analyst (EMEA)
   - Deal Desk Specialist (EMEA)
-  - Deal Desk Analyst (Alliances) (Open Req)
+  - Deal Desk Analyst (TBD)
+
+  - Manager, Deal Desk (APAC)
+  - Deal Desk Strategist (APAC)
+  - Deal Desk Analyst (APAC)
+  
 
 ### Communicating with the Deal Desk Team
 
