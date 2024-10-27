@@ -997,7 +997,6 @@ Enroll anytime at [ScholarShare529](https://www.ScholarShare529.com) or call 800
 Want more information?
 - Register for [webinars](https://www.scholarshare529.com/events) that fits your schedule, hosted monthly, [Schedule a consultation](https://www.scholarshare529.com/appointments) with a 529 specialist.
 
-
 ### Student Loan Guidance & Tools
 
 GitLab has partnered with Sofi to offer student loan guidance services, discounts & perks, and financial well-being products with SoFi.
