@@ -995,7 +995,7 @@ Enroll anytime at [ScholarShare529](https://www.ScholarShare529.com) or call 800
 [ScholarShare Flyer Guide](https://drive.google.com/file/d/1D3k31fDxkeks7XigTa_Cn0_itIYoQW1A/view?usp=sharing) & [529 Overview](https://drive.google.com/file/d/1GXAdVLVJLsruj-2s9twpQ3p1c6CzOAFn/view?usp=sharing).
 
 Want more information?
-- Register for [webinars](https://www.scholarshare529.com/events) that fits your schedule, hosted monthly, [Schedule a consultation](https://www.scholarshare529.com/appointments) with a 529 specialist. 
+- Register for [webinars](https://www.scholarshare529.com/events) that fits your schedule, hosted monthly, [Schedule a consultation](https://www.scholarshare529.com/appointments) with a 529 specialist.
 
 
 ### Student Loan Guidance & Tools
