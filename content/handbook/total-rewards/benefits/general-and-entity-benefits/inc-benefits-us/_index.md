@@ -546,7 +546,7 @@ Cigna has partnered with EyeMed for their vision plan offerings, you can check c
 
 The following costs are monthly rates which would be deducted from your paycheck.
 
-#### *2024 Rates* and *2025 Rates*: The following costs are monthly rates which would be deducted from your paycheck
+*2024 Rates* and *2025 Rates*: The following costs are monthly rates which would be deducted from your paycheck
 
 | Tier                     | Vision Base | Vision Buy Up |
 |--------------------------|------|------|
