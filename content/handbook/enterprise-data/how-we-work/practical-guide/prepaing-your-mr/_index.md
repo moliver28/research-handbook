@@ -35,7 +35,9 @@ Here is a breakdown of the MR template, one section at a time. The numbers on th
 
 ![MR 2](/static/images/handbook/enterprise-data/platform/tableau/mr-template-2.png)
 
-6. In the "Verify" section is where you can include the results of your remote testing. This could be a confirmation that you have tested these changes in Tableau. It could include a link to a spreadsheet with exported results of your testing - such as a pivot table comparing the results of the SQL code before and after the changes are made.
+6. In the "Verify" section you will verify that the changes you make are having the impact you expect. You will include the results below.
+
+7. "Remot Testing" is where you can include the results of your remote testing. This could be a confirmation that you have tested these changes in Tableau. It could include a link to a spreadsheet with exported results of your testing - such as a pivot table comparing the results of the SQL code before and after the changes are made.
 
     Before assigning this MR to a maintainer to merge, you should include a "Row Count Test". This is not one of the DBT tests listed in a previous step, instead it is a SQL query that you run yourself. This just counts the number of rows in the production version of the table, and the MR version. _This only applies to MR's where you are editing an existing table and does not apply to newly created tables_.
 
@@ -59,9 +61,28 @@ Here is a breakdown of the MR template, one section at a time. The numbers on th
     ```
     </details>
 
+8. You may need to take action on some of the items in the "Review" list. You can work with an analytics engineer on this section if you are not sure of the answers.
+
+    The items that are most likely to need your action include:
+    1. Verifying that you have adequately tested the changes to ensure they do what you intended them to do.
+    2. You will need to run the required CI jobs in order to test the changes - make sure the changes all build successfully before requesting to merge the MR.
+    3. You should do your best to follow the team's [style guide](/handbook/enterprise-data/platform/dbt-guide/#style-and-usage-guide). This section [General](/handbook/enterprise-data/platform/dbt-guide/#general) is particularly helpful. Once you tag an analytics engineer to review your MR, they can also help you with formatting the code according to the style guide. 
+        If you are using VS Code, you can look into [linting the code](https://handbook.gitlab.com/handbook/enterprise-data/platform/dbt-guide/#sqlfluff-linter) yourself which will provide some automatic formatting.
+    4. Before you merge an MR, you need to consider the downstream changes. For example, if you rename a column that is being used downstream, it make break those downstream tables in our data warehouse. If you rename a column that is being used in Tableau, any dashboards using that column will break (and it can be challenging to fix this error without reverting the changes).
 
 ![MR 3](/static/images/handbook/enterprise-data/platform/tableau/mr-template-3.png)
+
+Work with an analytics engineer on checking off the items in this section of the template.
+
 ![MR 4](/static/images/handbook/enterprise-data/platform/tableau/mr-template-4.png)
+
+9. When you create an MR, you will likely start by assigning it to yourself. This helps you keep track of the MR's that you have open and in progress.
+
+10. Once you have finished testing your changes and are ready for your MR to be reviewed, you need to assign the MR to an analytics engineer to review. When they have finished with their review and feel it is ready to merge, they will assign it to a codeowner to merge.
+
+11. Labels can help you and your team keep track of your MR. If your team uses labels for your GitLab work, you can apply those same labels to your MR.
+
+--
 
 here are the roles of people who review: https://handbook.gitlab.com/handbook/enterprise-data/how-we-work/mr-review/ 
 review workflow: https://handbook.gitlab.com/handbook/enterprise-data/how-we-work/#merge-request-workflow 
