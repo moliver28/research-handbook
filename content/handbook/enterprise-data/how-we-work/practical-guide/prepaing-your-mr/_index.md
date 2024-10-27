@@ -33,6 +33,8 @@ Here is a breakdown of the MR template, one section at a time. The numbers on th
 
 5. Before an MR can be merged, you will need to "Build Changes", "Grant Clones" to yourself, and perform remote testing - either in Snowflake or Tableau. 
 
+![MR 2](/static/images/handbook/enterprise-data/platform/tableau/mr-template-2.png)
+
 6. In the "Verify" section is where you can include the results of your remote testing. This could be a confirmation that you have tested these changes in Tableau. It could include a link to a spreadsheet with exported results of your testing - such as a pivot table comparing the results of the SQL code before and after the changes are made.
 
     Before assigning this MR to a maintainer to merge, you should include a "Row Count Test". This is not one of the DBT tests listed in a previous step, instead it is a SQL query that you run yourself. This just counts the number of rows in the production version of the table, and the MR version. _This only applies to MR's where you are editing an existing table and does not apply to newly created tables_.
@@ -57,7 +59,7 @@ Here is a breakdown of the MR template, one section at a time. The numbers on th
     ```
     </details>
 
-![MR 2](/static/images/handbook/enterprise-data/platform/tableau/mr-template-2.png)
+
 ![MR 3](/static/images/handbook/enterprise-data/platform/tableau/mr-template-3.png)
 ![MR 4](/static/images/handbook/enterprise-data/platform/tableau/mr-template-4.png)
 
