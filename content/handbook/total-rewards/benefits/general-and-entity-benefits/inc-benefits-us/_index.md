@@ -1065,3 +1065,4 @@ Information regarding GitLab's Parental Leave policy and how to apply, can be fo
 ## State-Specific Allowed Leaves
 
 To learn more about State-specific leave laws, please visit the [Leave of Absence - US](/handbook/people-policies/leave-of-absence/us) handbook page.
+ 
