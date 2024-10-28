@@ -167,4 +167,3 @@ For more technical details, please check [Language selector initial implementati
 ### No-index pages
 
 In the common/no-index URLs file, we have a list of our no-index URLs to prevent hreflang from appearing on these pages. Please do not remove any pages from this file unless you're changing them to indexable URLs.
-
