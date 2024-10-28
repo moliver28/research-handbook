@@ -19,18 +19,16 @@ We take a customer-centric approach to educating prospects on how GitLab enables
 |--|--|
 | Senior Product Designer | [Tina Lise Ng](https://gitlab.com/Tinaliseng) |
 | Senior Product Designer |[Trevor Storey](https://gitlab.comtrevor-storey) |
-| Product Design | [Carrie Tsang](https://gitlab.com/ctsang-ext) |
-| Senior Frontend Engineer| [Megan Filo](https://gitlab.com/meganfilo) |
 | Frontend Engineer | [Javi Garcia](https://gitlab.com/jgarc)|
+| Senior Frontend Engineer| [Megan Filo](https://gitlab.com/meganfilo) |
 | Senior Frontend Engineer | [Laura Duggan](https://gitlab.com/lduggan) |
 | Senior Frontend Engineer | [Marg Mañunga](https://gitlab.com/mmanunga-ext) |
-| Frontend Engineer | [Miguel Duque](https://gitlab.com/mduque-ext) |
-| Senior Frontend Engineer | [Nathan Dubord](https://gitlab.com/ndubord) |
+| Staff Frontend Engineer | [Nathan Dubord](https://gitlab.com/ndubord) |
 | Fullstack Engineer | [Miracle Banks](https://gitlab.com/miraclebanks) |
 | Senior Fullstack Engineer | [John Arias](https://gitlab.com/jariasc-ext) |
 | Senior Fullstack Engineer | [Mateo Penagos](https://gitlab.com/mpenagos-ext) |
-| Senior Product Manager | [Filza Qureshi](https://gitlab.com/fqureshi)|
 | Engineering Manager | [Lauren Barker](https://gitlab.com/laurenbarker) |
+| Director | [Filza Qureshi](https://gitlab.com/fqureshi)|
 
 ## Scope
 
