@@ -140,7 +140,7 @@ SMEs will be regularly evaluated based on their contributions and impact on the 
 | EMEA DACH/META | Alexander Dess | Mirko Brandner, Julia Gåtjens |  | Falko Sieverding |
 | US East | Sam Morris, Manjeet Singh | Bernard Park, James Nyika | Dan Rabinovitz | Adam Zwickey |
 | US West | Karen Kwentus | Yu-Chen Hsueh | Steve Grossman | Ryan Taylor |
-| High Velocity AMER |  | Jefferson Jones | Sophia Manicor |  |
+| High Velocity AMER | Michael Balzer | Jefferson Jones | Sophia Manicor |  |
 | High Velocity EMEA |  | Claire Marie Champernowne, Nupur Sharma | Jan Kunzmann | |
 | Pub Sector AMER | Kevin Chasse, Josh Swan  |  |  | Daniel Marquard, Michael Bradley |
  
