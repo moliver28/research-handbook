@@ -205,12 +205,12 @@ NOTE: All issues in this process _must_ be assigned the `~Category:Workspace` or
 
 ```mermaid
 graph TD;
-  S[issue created] -->|"New issue is added to an epic, and '(workspaces|webide)-workflow::unprioritized' label is applied"| V[High Level Validation and Planning]
-  V -->|"'Next 1-3 Releases' milestone is applied to higher-priority issues"| R[Pre-IPM - Async Refinement]
-  R -->|"Unprioritized issues with 'Next 1-3 Releases' milestone are assigned for refinement"| P[Pre-IPM - Sync prioritization]
-  P -->|"Refined issues are prioritized into '(workspaces|webide)-workflow::prioritized'"| I[IPM]
-  I -->|"'(workspaces|webide)-workflow::prioritized' issues are discussed and estimated by the entire team"| N[Next]
-  N -->|"Issue is assigned to a specific release based on its calculated iteration"| E[Development proceeds for issue]
+  S[Feature Inception] -->|"New epic is created, and '(workspaces|webide)-workflow::unprioritized' label is applied"| V[High Level Validation and Planning]
+  V -->|"Epic is prioritized into the roadmap and on the epic board by PM"| R[Async Refinement]
+  R -->|"Epic is broken down into issues and 'refined' label applied. Change epic color to 'Apricot'."| P[IPM - Sync/Async]
+  P -->|"Epics marked refined have all of it's issue weighed. Once all weighed, change epic color to 'Mint'."| I[Ready for Development]
+  I -->|"When work starts on the epic, all of it's child issues are labelled '(workspaces|webide)-workflow::prioritized' and 'Next 1-3 Releases'"| N[Milestone Planning]
+  N -->|"EM/PM will plan for the next milestone and assign %XX.X labels to issues that are likely to make the next release cycle."| E[Development proceeds for issue]
 ```
 
 #### 1. High Level Validation and Planning
