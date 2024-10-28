@@ -189,32 +189,30 @@ Applies to recovery of the GitLab PostgreSQL production database in a disaster s
 
 ### Summary
 
-For the [PostgreSQL database disaster recovery process](#database-recovery), we use [Point-in-Time Recovery (PITR)](https://www.postgresql.org/docs/9.6/continuous-archiving.html), which stores daily snapshots and transaction logs (WAL) in AWS S3. In case of a disaster, this allows us to replay WAL logs to a specific point in time. We utilize [delayed replicas](#delayed-replica) to quickly perform PITR from the WAL archive in case disaster strikes additionally we have [archived replicas](#archive-replica) inplace to continuously validate the WAL archive, ensuring that the Point-in-Time Recovery (PITR) process is intact and can be applied without interruption in case of a recovery alongwith [Disaster Recovery Replicas](#disaster-recovery-replicas) as an interim measure
+For the [PostgreSQL database disaster recovery process](#database-recovery) we utilize
+Postgresql backups with WAL-G , where we constantly stream completed [WAL files](https://www.postgresql.org/docs/current/wal-intro.html) and push "full" backup periodically( on a daily basis ) to GCS to enable PITR [https://www.postgresql.org/docs/9.6/continuous-archiving.html].
+
+In case of a disaster, this allows us to replay WAL logs to a specific point in time. We utilize [delayed replicas](#delayed-replica) to quickly perform PITR from the WAL archive in case disaster strikes additionally we have [archived replicas](#archive-replica) inplace to continuously validate the WAL archive, ensuring that the Point-in-Time Recovery (PITR) process is intact and can be applied without interruption.
 
 ### Procedure in depth
 
 #### Restore Testing
 
-A backup is only worth something if it can be successfully restored in a certain amount of time. In order to monitor the state of backups and measure the expected recovery time (DB-DR-TTR), we employ a daily process to test the backups.
+A backup is only worth something if it can be successfully restored in a certain amount of time. In order to monitor the state of backups and measure the expected recovery time to maintain our RPO/RTO, we employ a daily process to test the backups.
 
 This process is implemented as a CI pipeline (see [README.md](https://gitlab.com/gitlab-com/gl-infra/gitlab-restore/postgres-gprd/-/blob/master/README.md) for details). On a daily schedule, a fresh database GCE instance is created that restores from the latest backup, gets configured as an archive replica that recovers from the WAL archive (essentially performing PITR). After this is complete, the restored database is verified.
 
 There is monitoring in place to detect problems with the restore pipeline (currently using [deadmanssnitch.com](https://deadmanssnitch.com/)). We plan to monitor the time it takes to recover and other metrics soon.
 
-#### Disaster recovery replicas
-
-The backup strategy above is a cold backup. In order to restore from a cold backup, we need to retrieve the full backup from a cold storage (via network) and perform PITR from it. This can take quite some time considering the amount of data needed to be put on the network.
-
-The current speed of restoring a cold backup from AWS S3 is at about 380 GB per hour (net size) for retrieving the base backup. With a database size of currently 2.1 TB, just retrieving the base backup alone takes more than 5 hours already. The PITR phase is generally deemed slower.
-
-We currently aim at a DB-DR-TTR of 8 hours to recover from a backup. We’re not there yet and as an interim measure, we introduce disaster recovery replicas.
 
 #### Delayed replica
 
-Another option is to have a replica in place that always lags a few hours behind the production cluster. We call this a delayed replica: It is a normal streaming replica but delayed by a few hours. In case disaster strikes, it can be used to quickly perform PITR from the WAL archive. This is much faster than a full restore, because we don’t have to fully retrieve a full backup from S3. Additionally, with daily snapshots the latest snapshot is 24 hours (plus the time it took to capture the snapshot) old worst-case. A delayed replica is constantly kept at a certain offset with respect to the production cluster and hence does not need to replay too many hours worth of data.
+Another option is to have a replica in place that always lags a few hours behind the production cluster. We call this a [delayed replica](https://gitlab.com/gitlab-com/runbooks/-/blob/master/docs/postgres-dr-delayed/postgres-dr-replicas.md#overview): It is a normal streaming replica but delayed by a few hours. In case disaster strikes, it can be used to quickly perform PITR from the WAL archive. This is much faster than a full restore, because we don’t have to fully retrieve a full backup from GCS. Additionally, with daily snapshots the latest snapshot is 24 hours (plus the time it took to capture the snapshot) old worst-case. A delayed replica is constantly kept at a certain offset with respect to the production cluster and hence does not need to replay too many hours worth of data.
 
-Production host: postgres-dr-delayed-01-db-gprd.c.gitlab-production.internal
-Chef role: gprd-base-db-postgres-delayed
+Currently our delayed replica though is replaying data with an 8 hour delay, so we are
+able to retrieve deleted objects from there within 8h after deletion if needed.
+
+We have delayed replicas for both our "main" and "ci" databases.
 
 #### Archive Replica
 
@@ -224,8 +222,7 @@ The restore testing pipeline also performs PITR from the WAL archive and thus al
 
 In that sense, there is overlap between functionality of archive and delayed replicas and the restore testing. Together it gives us high confidence in our cold backup and PITR recovery strategy.
 
-Production host: postgres-dr-archive-01-db-gprd.c.gitlab-production.internal
-Chef role: gprd-base-db-postgres-archive
+Currently we have archive replicas for our "main" and "ci" databases.
 
 ### Exceptions
 
