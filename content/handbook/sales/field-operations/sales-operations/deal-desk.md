@@ -333,7 +333,20 @@ The below guide is meant to help users determine if they should populate the Non
 
 ##### Multiple Production Instances
 
+![Secondary Subscription](/handbook/sales/images/secondarysubscription.png)
 
+- Criteria: In the scenario where a customer is requesting a secondary production instance free of charge (i.e. $0 subscription), approval is required per the [Deal Approval Matrix](https://docs.google.com/document/d/1-CH-uH_zr0qaVaV1QbmVZ1rF669DsaUeq9w-q1QiKPE/edit?tab=t.0#bookmark=kix.ku5uwebuwk1h) and will not be granted in all circumstances. The most common example of this scenario is a migration, where the customer requests a $0 subscription to maintain their existing instance for a period of time while they transition to the new instance (which is paid).
+- Process: When creating a quote for a secondary $0 subscription, users should check the box next to **Secondary Production Instance ($0 Sub).**
+- Example: My customer is migrating from Self-Managed to SaaS. They need both environments for 3 months to support the migration. As such, I need to create a $0 subscription for 3 months to maintain the Self-Managed instance. On my quote, I check the box next to “Secondary Production Instance ($0 Sub).”  When I’m ready to seek this and all other applicable approvals, I click “Submit for Approval” on the quote. After I receive approvals, I make sure to work with Legal to obtain applicable language for the Order Form.
+
+##### Non-Standard Ramp Deal
+
+![Non-Standard Ramp](/handbook/sales/images/nonstandardramp.png)
+
+- Criteria: A Non-Standard Ramp is defined as a ramp deal where the ramp intervals are not annual - i.e. the ramp periods are not equal to 12 months. This requires approval per the [Deal Approval Matrix](https://docs.google.com/document/d/1-CH-uH_zr0qaVaV1QbmVZ1rF669DsaUeq9w-q1QiKPE/edit?tab=t.0#bookmark=kix.n3wzwlv9dv7v).
+- Process: The user creating the ramp deal should check the box next to the **Non-Standard Ramp** field and populate details regarding the request in the **Non-Standard Ramp Details** field.
+  - Note: If the ramp deal requires multiple unique quotes, this approval is only required on the initial year's quote.
+- Example: My customer would like a 24 month subscription with non-standard ramps - they’d like to increase users every 6 months. When I create the quote, I check the box next to “Non-Standard Ramp” and I populate “Non-Standard Ramp Details” with the following: _I’d like a 24 month deal where users increase by X every 6 months._ When I’m ready to seek this and all other applicable approvals, I click “Submit for Approval” on the quote. After I receive approvals, I make sure to work with Deal Desk to build the ramp deal.
 
 #### Billing/Payment Schedule
 
