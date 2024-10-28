@@ -42,7 +42,7 @@ further information about AIGW's Code Suggestions API.
 
 - Make sure that you have specified **stop tokens** in the request to the model. (See [example MR](https://gitlab.com/gitlab-org/modelops/applied-ml/code-suggestions/ai-assist/-/merge_requests/1298).)
 - Depending on the model and use case, you may need to **include additional context** to the request. This can involve adding the content of open files, such as project libraries.
-- Most models will require **post-processing**, such as trimming whitespaces or removing comments. (See [example MR](https://gitlab.com/gitlab-org/modelops/applied-ml/code-suggestions/ai-assist/-/merge_requests/1351).)
+- Most models will require **post-processing**, such as trimming whitespaces or removing comments. You can use existing post-processors ([example MR](https://gitlab.com/gitlab-org/modelops/applied-ml/code-suggestions/ai-assist/-/merge_requests/1351/)) or add a new one ([example MR](https://gitlab.com/gitlab-org/modelops/applied-ml/code-suggestions/ai-assist/-/merge_requests/1470)) as needed.
 
 ## GitLab Rails
 
