@@ -91,6 +91,7 @@ Development experience:
 | Member | Mohamed Hamda | Senior Backend Engineer, Custom models |
 | Member | Dylan Bernardi | Backend Engineer, Editor Extensions |
 | Member | Shola Quadri | Associate Backend Engineer, Code Creation |
+| Member | Lesley Razzaghian | Backend Engineer - Duo Chat |
 
 ### Non-goals
 
