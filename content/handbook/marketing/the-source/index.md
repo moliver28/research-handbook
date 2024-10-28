@@ -1,6 +1,7 @@
 ---
 title: "The Source Handbook"
-description: "Everything you need to know about The Source, GitLab’s thought leadership portal." 
+description: "Everything you need to know about The Source, GitLab’s thought leadership portal."
+---
 
 [The Source](about.gitlab.com/the-source/) is managed by the [Brand](https://handbook.gitlab.com/handbook/marketing/brand-and-product-marketing/brand/) and [Content Strategy & Ops](https://handbook.gitlab.com/handbook/marketing/brand-and-product-marketing/content/) teams, with support from [Corporate Communications](https://handbook.gitlab.com/handbook/marketing/corporate-communications/). 
 
