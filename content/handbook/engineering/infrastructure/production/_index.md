@@ -204,7 +204,6 @@ This process is implemented as a CI pipeline (see [README.md](https://gitlab.com
 
 There is monitoring in place to detect problems with the restore pipeline (currently using [deadmanssnitch.com](https://deadmanssnitch.com/)). We plan to monitor the time it takes to recover and other metrics soon.
 
-
 #### Delayed replica
 
 Another option is to have a replica in place that always lags a few hours behind the production cluster. We call this a [delayed replica](https://gitlab.com/gitlab-com/runbooks/-/blob/master/docs/postgres-dr-delayed/postgres-dr-replicas.md#overview): It is a normal streaming replica but delayed by a few hours. In case disaster strikes, it can be used to quickly perform PITR from the WAL archive. This is much faster than a full restore, because we don’t have to fully retrieve a full backup from GCS. Additionally, with daily snapshots the latest snapshot is 24 hours (plus the time it took to capture the snapshot) old worst-case. A delayed replica is constantly kept at a certain offset with respect to the production cluster and hence does not need to replay too many hours worth of data.
