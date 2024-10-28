@@ -55,7 +55,7 @@ If you are requesting funding from the ESG team to support a Registered Nonprofi
 If you have a department or TMRG  budget that you would like to utilize to support a Registered Nonprofit Organization, please go to the [Philanthropic Requests epic](https://gitlab.com/groups/gitlab-com/-/epics/2145) and open a new issue using the [Monetary_Support Template](https://gitlab.com/gitlab-com/www-gitlab-com/-/issues/new?issuable_template=monetary_support). Please tag your manager to approve the request if you are submitting on behalf of your department. If you are submitting a request on behalf of a TMRG or DIB, please add Sherida McMullan as a reviewer.
 Please allow a minimum of 10 working days for review.
 
-Once all necessary approvals have been documented for the charitable contribution request, if the donation is >$5,000, the requester will need to set the recipient up in Coupa and follow the PO process in order to issue payment. Please [create a purchase request](/handbook/finance/procurement/#-how-do-i-create-a-purchase-request-in-zip) in Zip to get the organization registered and to process payment. If the donation is equal to $5,000 or <$5,000, please contact AP@gitlab.com to process payment as an exception to the PO process. Please note that if it is a new recipient that we have not paid before, an invitation to register in Coupa will be sent to the main contact on file to get their payment & tax information set up in the system.Please note that the requester is responsible for contacting the AP team to make the donation. Once the donation is made, the requester should close the issue. If the requester needs assistance with the payment, contact the ESG team.
+Once all necessary approvals have been documented for the charitable contribution request, if the donation is >$5,000, the requester will need to set the recipient up in Coupa and follow the PO process in order to issue payment. Please [create a purchase request](/handbook/finance/procurement/#how-to-start-the-procurement-process) in Zip to get the organization registered and to process payment. If the donation is equal to $5,000 or <$5,000, please contact AP@gitlab.com to process payment as an exception to the PO process. Please note that if it is a new recipient that we have not paid before, an invitation to register in Coupa will be sent to the main contact on file to get their payment & tax information set up in the system.Please note that the requester is responsible for contacting the AP team to make the donation. Once the donation is made, the requester should close the issue. If the requester needs assistance with the payment, contact the ESG team.
 
 #### GiveLab
 
@@ -132,66 +132,80 @@ Virtual GitLab-sponsored volunteer events are open for all team members to join,
 
 ### Virtual GitLab Sponsored Events
 
-- SuitUp, Global - SuitUp programs empower students to discover their passions through experiential learning opportunities and mentorship alongside corporate volunteers. There are two types of opportunities available with Suit Up: 
+#### SuitUp, Global
+
+SuitUp programs empower students to discover their passions through experiential learning opportunities and mentorship alongside corporate volunteers. There are two types of opportunities available with Suit Up: 
 
 1. Career panels: volunteers can participate in a one-hour panel discussion with students on the topics of Technology & AI for Good or Business & Technology. 
 2. Business competition: volunteers will help coach students as they compete in a business competition focused on addressing a real-world social issue by creating an innovative solution using AI. There are four events to choose from.
 
-Necessary volunteer skills: No technical skills are required to volunteer. Volunteers should feel comfortable in sharing their career journey guidance and/ or providing feedback and coaching to students.  
+**Necessary volunteer skills:** No technical skills are required to volunteer. Volunteers should feel comfortable in sharing their career journey guidance and/ or providing feedback and coaching to students.  
 
-Dates: 2024-11-13, 2024-11-21, 2021-12-3, and 2024-12-10. Sign up [here](https://docs.google.com/forms/d/e/1FAIpQLSecDzez2BjeTUdABzd6aiiAvwOcfIU2B2fyzENVbgsu2ivBqQ/viewform).
+**Dates:** 2024-11-13, 2024-11-21, 2021-12-3, and 2024-12-10. Sign up [here](https://docs.google.com/forms/d/e/1FAIpQLSecDzez2BjeTUdABzd6aiiAvwOcfIU2B2fyzENVbgsu2ivBqQ/viewform).
 
-Time commitment: 1-2.5 hours
+**Time commitment:** 1-2.5 hours
 
-Regions supported through volunteerism: US & EMEA
+**Regions supported through volunteerism:** US & EMEA
 
-- The Red Cross & Missing Maps, Global - Each year, disasters around the world kill nearly 100,000 and affect or displace 200 million people. Many of the places where these disasters occur are literally 'missing' from open and accessible maps and first responders lack the information to make valuable decisions regarding relief efforts. Missing Maps is an open source, collaborative project in which volunteers help map areas where humanitarian organizations are working to meet the needs of people who live at risk of disasters and crises. During this volunteer event, The Red Cross will guide volunteers through mapping an area of need within a live group virtual setting. No special skills are necessary and a brief training will be provided during the volunteer session.
+#### The Red Cross & Missing Maps, Global
 
-Necessary volunteer skills: No technical skills are required to volunteer. Volunteers will be required to create a [Missing Maps account](https://www.missingmaps.org/) to participate, and user experience is best when completed through the app/ phone.
+Each year, disasters around the world kill nearly 100,000 and affect or displace 200 million people. Many of the places where these disasters occur are literally 'missing' from open and accessible maps and first responders lack the information to make valuable decisions regarding relief efforts. Missing Maps is an open source, collaborative project in which volunteers help map areas where humanitarian organizations are working to meet the needs of people who live at risk of disasters and crises. During this volunteer event, The Red Cross will guide volunteers through mapping an area of need within a live group virtual setting. No special skills are necessary and a brief training will be provided during the volunteer session.
 
-Date: 2024-12-5. Sign up [here](https://docs.google.com/forms/d/e/1FAIpQLSd3xA6Zxgok9DDeJss-2hdhWPfl9X0-EXnn4zqTilZ729H6iA/viewform).
-Time commitment: 1 hour
-Regions supported through volunteerism: TBD by Missing Maps based upon the open source projects currently open.
+**Necessary volunteer skills:** No technical skills are required to volunteer. Volunteers will be required to create a [Missing Maps account](https://www.missingmaps.org/) to participate, and user experience is best when completed through the app/ phone.
 
-- Goodera & Incorporated Foundation, Japan - Hospital visits and medical treatment lead to significant mental and physical stress in children. Studies have shown that listening to an audiobook could be effective in alleviating fear and anxiety for children during treatment or while at the pediatric care center. For this event, volunteers will audio-record short stories and poems for children undergoing treatment. The audiobooks will be available at the nonprofit's center as a source of comfort and engagement over the course of their treatment.
+**Date:** 2024-12-5. Sign up [here](https://docs.google.com/forms/d/e/1FAIpQLSd3xA6Zxgok9DDeJss-2hdhWPfl9X0-EXnn4zqTilZ729H6iA/viewform).
 
-Necessary volunteer skills: No technical skills are required to volunteer. Volunteers should feel comfortable reading aloud in a private setting. This event will currently be held in English, however if there are enough volunteers who prefer to record the books in Japanese, we will offer that as an alternative opportunity.
+**Time commitment:** 1 hour
 
-Date: 2024-12-5. Sign up [here](https://docs.google.com/forms/d/e/1FAIpQLSeyx5hjQFGnfIBJDjKe9vcfOLCodhwHME_C16BQAbXvivrV6w/viewform).
+**Regions supported through volunteerism:** TBD by Missing Maps based upon the open source projects currently open.
 
-Time commitment: 1 hour
+#### Goodera & Incorporated Foundation, Japan
 
-Regions supported through volunteerism: APAC
+Hospital visits and medical treatment lead to significant mental and physical stress in children. Studies have shown that listening to an audiobook could be effective in alleviating fear and anxiety for children during treatment or while at the pediatric care center. For this event, volunteers will audio-record short stories and poems for children undergoing treatment. The audiobooks will be available at the nonprofit's center as a source of comfort and engagement over the course of their treatment.
 
-- Goodera & YouthBuild, Mexico - Resumes reviewed by skilled professionals empower youth by helping them showcase and communicate their skills to potential employers more effectively. They offer a valuable resource typically unavailable to those from underserved backgrounds and foster equal opportunities in the job market. Volunteers will review the resumes of youth to provide tips on industry-standard best practices and help enhance their resumes.
+**Necessary volunteer skills:** No technical skills are required to volunteer. Volunteers should feel comfortable reading aloud in a private setting. This event will currently be held in English, however if there are enough volunteers who prefer to record the books in Japanese, we will offer that as an alternative opportunity.
 
-Necessary volunteer skills: Spanish speaking and writing is required for participation in this activity.
+**Date:** 2024-12-5. Sign up [here](https://docs.google.com/forms/d/e/1FAIpQLSeyx5hjQFGnfIBJDjKe9vcfOLCodhwHME_C16BQAbXvivrV6w/viewform).
 
-Date: 2024-12-10. Sign up [here](https://docs.google.com/forms/d/e/1FAIpQLSc8cVs01tWr9OYhctP1yGpUT-NLM9RdtsKrnpiI4Ek-c2W9Ug/viewform).
+**Time commitment:** 1 hour
 
-Time commitment: 1 hour
+**Regions supported through volunteerism:** APAC
 
-Regions supported through volunteerism: LATAM
+#### Goodera & YouthBuild, Mexico
+
+Resumes reviewed by skilled professionals empower youth by helping them showcase and communicate their skills to potential employers more effectively. They offer a valuable resource typically unavailable to those from underserved backgrounds and foster equal opportunities in the job market. Volunteers will review the resumes of youth to provide tips on industry-standard best practices and help enhance their resumes.
+
+**Necessary volunteer skills:** Spanish speaking and writing is required for participation in this activity.
+
+**Date:** 2024-12-10. Sign up [here](https://docs.google.com/forms/d/e/1FAIpQLSc8cVs01tWr9OYhctP1yGpUT-NLM9RdtsKrnpiI4Ek-c2W9Ug/viewform).
+
+**Time commitment:** 1 hour
+
+**Regions supported through volunteerism:** LATAM
  
-- Goodera and Backpacks for VIC Kids, Australia - This exercise is designed to help students build confidence and develop essential problem-solving skills, while the user-friendly and inclusive nature of Scratch makes coding approachable for everyone. Volunteers will create a repository of ten engaging scratch coding exercises to inspire middle school students to explore computer science concepts. These problem statements will then help ignite curiosity and empower students to explore fundamental concepts in a fun and accessible way.
+#### Goodera and Backpacks for VIC Kids, Australia 
 
-Necessary volunteer skills: No technical skills are required to volunteer. Goodera will guide volunteers during this session and will provide templates, samples and resources for volunteers to create the scratch cards.
+This exercise is designed to help students build confidence and develop essential problem-solving skills, while the user-friendly and inclusive nature of Scratch makes coding approachable for everyone. Volunteers will create a repository of ten engaging scratch coding exercises to inspire middle school students to explore computer science concepts. These problem statements will then help ignite curiosity and empower students to explore fundamental concepts in a fun and accessible way.
 
-Date: 2024-11-20. Sign up [here](https://docs.google.com/forms/d/e/1FAIpQLSeYtDM843DJpmEElWVxJvVA2XczKmMYwQs-Xuws1LkWJ4NLmg/viewform).
+**Necessary volunteer skills:** No technical skills are required to volunteer. Goodera will guide volunteers during this session and will provide templates, samples and resources for volunteers to create the scratch cards.
 
-Time commitment: 1 hour
+**Date:** 2024-11-20. Sign up [here](https://docs.google.com/forms/d/e/1FAIpQLSeYtDM843DJpmEElWVxJvVA2XczKmMYwQs-Xuws1LkWJ4NLmg/viewform).
 
-Regions supported through volunteerism: APAC
+**Time commitment:** 1 hour
 
-- Goodera and the Maya Care Foundation, India - Engage with Senior Citizens who are presently in a nursing home or institutional care setting, often a place where residents can suffer from social isolation. In this volunteer opportunity, volunteers will foster connections and engage in meaningful conversations and activities with a group of Senior Citizens, guided by Goodera.
+**Regions supported through volunteerism:** APAC
 
-Necessary volunteer skills: No technical skills are required to volunteer.
+#### Goodera and the Maya Care Foundation, India 
 
-Date: 2024-12-4. Sign up [here](https://docs.google.com/forms/d/e/1FAIpQLSd03HZBcriGtI6guIsbylKxGtUM1nu36ymdm55YNlnd6T1C2w/viewform).
+Engage with Senior Citizens who are presently in a nursing home or institutional care setting, often a place where residents can suffer from social isolation. In this volunteer opportunity, volunteers will foster connections and engage in meaningful conversations and activities with a group of Senior Citizens, guided by Goodera.
 
-Time commitment: 1 hour
+**Necessary volunteer skills:** No technical skills are required to volunteer.
 
-Regions supported through volunteerism: APAC
+**Date:** 2024-12-4. Sign up [here](https://docs.google.com/forms/d/e/1FAIpQLSd03HZBcriGtI6guIsbylKxGtUM1nu36ymdm55YNlnd6T1C2w/viewform).
+
+**Time commitment:** 1 hour
+
+**Regions supported through volunteerism:** APAC
 
 ### Local In-Person Volunteer Events
 
