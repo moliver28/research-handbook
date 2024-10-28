@@ -53,7 +53,7 @@ When considering new software to address business needs and objectives, see belo
 - Does the vendor incorporate Secure by Design principles throughout the software development lifecycle?
   - Security requires that software vendors perform predeployment threat modeling, vulnerability scanning, and secure coding practices during design and development phases of the software. 
 - Does the vendor require an independent third party penetration test of their systems to identify and remediate vulnerabilities and weaknesses?
-  - Security requires that vendors conduct annual independent penetration testing on all systems supporting their SaaS solution and attest to the remediation or mitigation of any High or Critical findings.
+  - Security requires that vendors conduct annual independent penetration testing on all systems supporting their SaaS solution and attest to the remediation or mitigation of any medium or higher severity findings.
 
 *Note: Proof of concept (Poc) and pilot software engagements may require the exchange of sensitive GitLab data and must adhere to the same evaluation of the vendor's security practices for new software requests. Security Risk recommends anonymizing sensitive GitLab data and ensuring contract language defines expectations and requirements around data security, [privacy considerations](/handbook/legal/privacy/), and [deletion of data](/handbook/finance/procurement/vendor-guidelines/vendor-agreement/#7-termination) after the PoC or pilot is complete.*
 
@@ -220,6 +220,7 @@ Deficiencies commonly identified during our TPRM procedures are listed below:
    - If the Okta integration is not in place or not possible, native multi-factor authentication (MFA) capabilities can be a mitigating control.
 1. Systems lacking evidence of a recent penetration test
 1. Unresolved deficiencies documented within the penetration test with no apparent remediation plan or expected remediation date
+   - Penetration testing findings are reviewed by the engineer to understand the nature of the deficiency and their impact to GitLab. Deficiencies found to present a negligible impact to GitLab or that are sufficiently mitigated by existing GitLab controls may not result in an adverse conclusion. 
 
 *While Okta SSO integration is GitLab's preferred method of authentication, IT Engineering can review and approve alternative SSO methods (such as Google Oauth) on a case by case basis.
 
