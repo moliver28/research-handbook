@@ -208,11 +208,16 @@ graph TD;
   S[Feature Inception] -->|"New epic is created, and '(workspaces|webide)-workflow::unprioritized' label is applied"| V[High Level Validation and Planning]
   V -->|"Epic is prioritized into the roadmap and on the epic board by PM"| R[Async Refinement]
   R -->|"Epic is broken down into issues and 'refined' label applied. Change epic color to 'Apricot'."| P[IPM - Sync/Async]
-  P -->|"Epics marked refined have all of it's issue weighed. Once all weighed, change epic color to 'Mint'."| I[Ready for Development]
+  P -->|"Epics marked refined have all of its issues weighed. Once all weighed, change epic color to 'Mint'."| I[Ready for Development]
+  
   I -->|""| N[Milestone Planning]
-  N -->|"EM/PM will plan for the next milestone and assign %XX.X labels to issues that are likely to make the next release cycle."| E[Feature Release]
   I -->|""| D[Development]
-  D -->|"When work starts on the epic, all of it's child issues are labelled '(workspaces|webide)-workflow::prioritized' and 'Next 1-3 Releases'"| E
+
+  N -->|"EM/PM will plan for the next milestone and assign %XX.X labels to issues that are likely to make the next release cycle."| E1[Planning Issue Published]
+  D -->|"When work starts on the epic, all of its child issues are labelled '(workspaces|webide)-workflow::prioritized' and 'Next 1-3 Releases'"| E2[Development Release]
+
+  E1 -->|""| Final[Milestone Release]
+  E2 -->|""| Final
   
 ```
 
