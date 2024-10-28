@@ -9,14 +9,14 @@ We support the Security division's [mission and operating principles](content/ha
 
 1. Maintaining GitLab's position as the most trusted DevSecOps offering on the market
 1. Maintaining and achieving [security certifications and attestations]({{< ref "../security-compliance/certifications" >}}) that meet the needs of our customers
-1. Identifing and mitigating information security risk through [continuous control monitoring]({{< ref "sec-controls" >}}) of systems, applications, and repositories
+1. Identifying and mitigating information security risk through [continuous control monitoring]({{< ref "sec-controls" >}}) of systems, applications, and repositories
 1. Applying compliance automation and [compliance-as-code](/handbook/security/security-compliance/policy-as-code/) guardrails to minimize [toil](https://sre.google/sre-book/eliminating-toil/) and enable product, development, and infrastructure teams
 1. Using our own product ([dogfooding](/handbook/values/#dogfooding)) to meet key security controls, improve our offering, and demonstrate to customers how they can do the same
 
 ## Core Competencies
 
 1. [Security certifications and attestations]({{< ref "../security-compliance/certifications" >}})
-   - Gap Analysis Program: feasibility analysis for certifiction expansion
+   - Gap Analysis Program: feasibility analysis for certification expansion
    - External Audit coordination and execution
 1. [Continuous Monitoring of GitLab's Security Controls]({{< ref "sec-controls" >}}) which are mapped to applicable regulatory requirements and security certifications/frameworks we have committed to.
    - [Policy-as-code]({{< ref "../../security-assurance/security-compliance/policy-as-code" >}})
@@ -31,7 +31,7 @@ We support the Security division's [mission and operating principles](content/ha
 1. Industry and Regulatory Monitoring and Insights
    - Monitoring drafts and changes to relevant laws, executive orders, directives, regulations, policies, standards, and guidelines.
    - Collaborating on responses to relevant RFIs, RFQs, RFPs, and requests for public comment.
-   - Monitoring changes government contractual language that could impact public sector security and compliance posture.
+   - Monitoring changes to government contractual language that could impact public sector security and compliance posture.
 
 ## Where we work
 
@@ -47,9 +47,9 @@ We use agile program management and project management best practices to organiz
 
 ### Scheduled meetings
 
-We try to avoid meetings when possible and prefer to work async. However if we don't make progress async we should not hesitate to schedule a meeting. Our only recurring, mandatory meetings are the monthly department meeting, weekly team meeting, and 1:1s. However don't wait for our team meeting or 1:1s to start a discussion; instead start a Slack thread and/or an issue and let's use these meetings to finish the discussion and make final decisions. 
+We try to avoid meetings when possible and prefer to work async. However, if we don't make progress async we should not hesitate to schedule a meeting. Our only recurring, mandatory meetings are the monthly department meeting, weekly team meeting, and 1:1s. However, don't wait for our team meeting or 1:1s to start a discussion; instead start a Slack thread and/or an issue and let's use these meetings to finish the discussion and make final decisions. 
 
-We have a weekly call with all of Security Compliance, which includes time for a breakout discussion specific for Dedicated Markets. In addition to that, we also have recurring calls necessary for our FedRAMP program which are necessary for contributing the working group, and logging meeting minutes (external audit artifacts) associated with the configuration control board and compliance sync.
+We have a weekly call with all of Security Compliance, which includes time for a breakout discussion specific for Dedicated Markets. In addition to that, we also have recurring calls necessary for our FedRAMP program which are necessary for contributing to the working group, and logging meeting minutes (external audit artifacts) associated with the configuration control board and compliance sync.
 
 Our weekly team meeting follows this agenda:
 
@@ -78,13 +78,13 @@ Our weekly team meeting follows this agenda:
 
 #### Epic hierarchy
 
-The our team top-level epic is simply a SSOT for status updates for epic assignees / directly responsible indviduals (DRIs). The immediate child epics get a `seccomp-roadmap` label to appear in our epic board and effectively consitute our roadmap.
+The our team top-level epic is simply a SSOT for status updates for epic assignees / directly responsible individuals (DRIs). The immediate child epics get a `seccomp-roadmap` label to appear in our epic board and effectively constitute our roadmap.
 
 1. Sub-epics group tasks required to deliver an item mentioned
 1. Sub-epics represent an item from the roadmap and are delivered in a specific phase
 1. Sub-epics can span multiple months, but their end date should match the 'anticipated completion date' of the roadmap phase they are added to.
 
-The diagram below shows an example of traversing the complete hierachy:
+The diagram below shows an example of traversing the complete hierarchy:
 
 ```mermaid
 graph TD
@@ -106,7 +106,7 @@ Each epic has a single DRI who is ultimately responsible for delivering the proj
 
 The DRI needs to:
 
-1. Work with others to move issues through the boards (e.g. from traige to in progress to complete)
+1. Work with others to move issues through the boards (e.g. from triage to in progress to complete)
 1. Ensure epic and any nested child epics and issues are using the appropriate labels
 1. Ensure the epic meets criteria outlined in epic structure (next section)
 1. Provide status updates on the epic each week including accomplishments, what's next, overall health status, and any blockers
@@ -150,11 +150,11 @@ Labels are described in the [Labels section](#labels).
 
 #### Roadmap
 
-All epics and are set with due dates according to the official [roadmap](https://docs.google.com/presentation/d/1TEJzAkdoi_U-ubg7qhj1ZUpi2_VQYNF5DTOT5Mj1Mqo/edit?usp=sharing).
+All epics and issues are set with due dates according to the official [roadmap](https://docs.google.com/presentation/d/1TEJzAkdoi_U-ubg7qhj1ZUpi2_VQYNF5DTOT5Mj1Mqo/edit?usp=sharing).
 
 Process to update epic due dates / roadmap items:
 
-1. After the end of each month Security Compliance management reviews the epic (expeted) due dates and works with epic assignees / DRIs to determine any roadmap changes if an epic extends beyond the epic's planned phase.
+1. After the end of each month Security Compliance management reviews the epic (expected) due dates and works with epic assignees / DRIs to determine any roadmap changes if an epic extends beyond the epic's planned phase.
 1. Management then determines roadmap adjustments so that planned work in future phases remains realistic after shifting open work.
 1. Roadmap changes are shared in the next weekly sync.
 
@@ -209,7 +209,7 @@ The easiest way to ensure all labels are applied to issues is to use issue templ
 
 #### Workflow Labels
 
-Workflow steps can be skipped. For example an if an issue is well-defined when it is created, feel free to add the ready or in progress label. The proposal step may not be used frequently and that is ok.
+Workflow steps can be skipped. For example, if an issue is well-defined when it is created, feel free to add the ready or in progress label. The proposal step may not be used frequently and that is ok.
 
 | Label                      | Description                                  |
 |----------------------------|----------------------------------------------|
@@ -220,7 +220,7 @@ Workflow steps can be skipped. For example an if an issue is well-defined when i
 | seccomp workflow::blocked  | Task is halted due to dependencies. |
 | seccomp workflow::stalled  | Work has paused but can be resumed later.    |
 | seccomp workflow::complete | Task has been successfully finished and the issue closed.  |
-| seccomp workflow::cancelled| Task is no longer relevant and has been stopped and the issue closed. |
+| seccomp workflow::canceled| Task is no longer relevant and has been stopped and the issue closed. |
 
 #### Function Labels
 
@@ -241,7 +241,7 @@ Workflow steps can be skipped. For example an if an issue is well-defined when i
 
 Metrics are absolutely critical in order for us to tell a story about the impact we have as a team and make data-informed decisions. Our metrics can be classified as strategic (informs business strategy / direction), risk indicators, or operational / performance indicators (health and performance of our team). They can also be either leading or lagging.
 
-The SSOT for our metrics is Tableau. Our metrics are legely collected from issues be leveraged labels. For that reason, it is critical to ensure all epics/issues have appropriate labels and new labelling schemes are designed in a way that allows us to capture meaningful metrics.
+The SSOT for our metrics is Tableau. Our metrics are largely collected from issues labels. For that reason, it is critical to ensure all epics/issues have appropriate labels and new labeling schemes are designed in a way that allows us to capture meaningful metrics.
 
 ## Contact the Team
 
