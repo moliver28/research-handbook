@@ -8,7 +8,6 @@ View the Renewals Manager handbook pages:
 - [How We Do It](/handbook/customer-success/renewals-managers/how) - Information about how renewals managers execute on the mission.
 
 Renewals Managers --> visit the internal handbook [page](https://internal.gitlab.com/handbook/sales/go-to-market/renewals/) for more information.
-
 ---
 
 ## FY24 Renewals Opportunity Management
@@ -28,13 +27,13 @@ The Renewals team primarily uses these key fields on Renewal Opportunities:
 
 ## Deal Management
 
-- `Stage` [link](/handbook/sales/field-operations/gtm-resources/#opportunity-stages)- indicates where in the Renewal/Sales cycle the deal is
+- `Stage` - indicates where in the Renewal/Sales cycle the deal is
 - `Next Steps` - field to record critical information and actions that have occurred during the deal lifecycle and what and when the next step is to progress the deal forward
 - `Next Steps History` - the record of previous Next Steps
 
 ## Forecasting
 
-- `Renewal Forecast Health` [link](https://internal.gitlab.com/handbook/sales/sales-forecasting/#forecast-category-and-renewal-forecast-health-fields) - Red, Yellow, Green health rating based on the Net ARR field
+- `Renewal Forecast Health` - Red, Yellow, Green health rating based on the Net ARR field, and can be manually updated
 - `Renewal Risk Category` - used to categorize the magnitude of risk on a Renewal and if the risk is Actionable
 - `ATR` - the revenue that is Available to Renew (ATR)
 - `Amount` - the forecasted revenue for the deal
@@ -43,7 +42,7 @@ The Renewals team primarily uses these key fields on Renewal Opportunities:
 - `ATR` - Used for calculating Renewal Rate. This is the revenue that is Available to Renew (ATR)
 - `Won ATR` - Used for calculating Renewal Rate. This is the forecasted renewal revenue for the deal. This field caps out at 100% of the ATR field to reflect no more than a 100% renewal.
 - `Active Mitigation` - Used to describe the primary mitigation if the opportunity is at risk
-- `(Best Case / Most Likely / Commit) Forecasted Churn` - Describe the best case, most likely and worst case (committ) scenarios. Best Case and Commit are calculated fields that are dependent on other risk forecasting fields. ML is a manually entered field that should describe what the renewal manager believes is the most likey amount of churn or contraction.
+- `(Best Case / Most Likely / Commit) Forecasted Churn` - Describe the best case, most likely and worst case (committ) scenarios. Best Case and Commit are calculated fields that are dependent on other risk forecasting fields. ML is a manually entered field that should describe what the renewal manager believes is the most likey amount of churn or contraction. When evaluating the level of confidence for of each of these range values, one can use a 100% certainty = commit, 80% = most likely, 50% = best case philosophy. So in the case of churn or contraction, one should say, I'm 100% confident that the churn/contraction will be no greater than the commit value, or 80% confident that the churn/contraction will be no greater than the most likely value, or 50% confident that the churn/contraction will be no greater than the best case value.
 - `Renewal Manager Notes` - A field often populated with a template that describes risk reason, customer brief, intervnetion in process notes, and intervention required observations.
 
 ## Ownership
@@ -63,17 +62,17 @@ The Renewals team primarily uses these key fields on Renewal Opportunities:
 
 ## Renewals Forecast Methodology
 
-In FY24 The Global Renewals team is responsible for providing the business with a renewal rate and churn forecast on a regular basis for the Enterprise-Growth (ENTG) Segment.
+The Global Renewals team is responsible for providing the business with a renewal rate and churn forecast on a weekly basis. 
 
 Providing an accurate, data driven forecast is essential for GitLab's continued growth as it enables the business to:
 
-- Identify and manage Churn and Contraction risk effectively
+- Identify and manage churn and contraction risk effectively
 - Drive revenue predictability in support of strategic decision making
 - Analyze and take strategic action on trends within GitLab's book of business to mitigate risk
 
 ## Approach
 
-In partnership with AEs, the Renewals team will generate a "bottom-up" renewal rate and churn forecast whereby every ENTG Renewal Opportunity will contain a forecasted revenue range to predict the outcome or potential outcomes of the Renewal. With every Renewal Opportunity forecasting a "worst case" and a "best case" scenario Renewals Managers will be able to provide a forecast range for their worst case renewal rate and their best case renewal rate for a given time period, territory etc. As risk is identified, categorized, and forecasted, Renewals Managers will alert relevant parties (CSM, AE) using appropriate channels.
+In partnership with AEs, the Renewals team will generate a "bottom-up" renewal rate and churn forecast whereby every managed renewal opportunity will contain a forecasted revenue range to predict the outcome or potential outcomes of the renewal. With every renewal opportunity forecasting a "worst case" and a "best case" scenario, Renewals Managers will be able to provide a forecast range for their worst case renewal rate and their best case renewal rate for a given time period, territory etc. As risk is identified, categorized, and forecasted, Renewals Managers will alert relevant parties (CSM, AE) using appropriate channels, and continually update the most likely scenario (indicated by a "most likely" churn/contraction figure) to reflect the most likley outcome.
 
 ## Key Renewal Forecasting Fields
 
@@ -99,22 +98,29 @@ The key risk fields for capturing risk on the renewal are:
 
     1. Fill in the `Amount` field with the annual value that is expected to renew (i.e. how much we predict will actually book). The Renewal Forecast Health field will automatically update to Red if the Amount is less than the ATR.
     2. Fill in the `Renewal ARR Swing` amount with how much of the churn/contraction may be saved with intervention. (Note the Renewal Swing ARR must be a positive number and not greater in magnitude than the Forecasted Churn. Ex. if Forecasted Churn is -$100k the Renewal Swing ARR cannot be greater than +$100k)
-    3. Record your `Next Steps`
-    4. Record the risk intervention idea/ask/motion in the `Renewal Manager Notes` section (you can use the risk intervention table for ideas)
+    3. Record your `(Most Likely) Forecasted Churn`, indicating the most likely amount of churn or contraction. This should indicated your 80% confidence level in expected outcome. 
+    4. Record your `Next Steps`, which may be the tactical steps to take to mitigate the risk (i.e. a meeting time, customer name, follow up cadence, etc)
+    5. Record the details of the risk intervention in the `Renewal Manager Notes` section (you can use the risk intervention table for ideas) and categorize the main intervention motion in the `Active Mitigation` field.
 
-        For the other two categories - `Will Churn` and `Will Contract` - use same steps, but no Renewal ARR Swing field is needed
+        For the other two categories - `Will Churn` and `Will Contract` - use same steps, but no Renewal ARR Swing field is needed, as there will be no difference between worst and best case. 
 
-- **Post-quote**
+- **Post-quote** (differences only)
 
-  - For `Will Churn (actionable)`
+If assigning risk with a quote, the quote will have a value that is less than the original ATR on the opportunity, and therefore will automatically update the `Amount` field to indicate the expected contraction/churn. 
+
+For `Will Churn (actionable)`
     1. Turn the `Renewal Forecast Health` field `Red` and check the `Renewal Forecast Health Override` box. (Note that checking this box with Red will automatically set Won ATR to $0)
     2. Fill in the `Renewal ARR Swing` field
+    3. Record your `(Most Likely) Forecasted Churn`, indicating the most likely amount of churn or contraction. This should indicated your 80% confidence level in expected outcome. 
+    4. Record your `Next Steps`, which may be the tactical steps to take to mitigate the risk (i.e. a meeting time, customer name, follow up cadence, etc)
+    5. Record the details of the risk intervention in the `Renewal Manager Notes` section (you can use the risk intervention table for ideas) and categorize the main intervention motion in the `Active Mitigation` field.
 
-  - For `Will Contract (actionable)`
+For `Will Contract (actionable)`
     1. Ensure the primary quote is showing the most conservative (or Commit) renewal outcome. A placeholder or "dummy" quote may be required to forecast the most conservative outcome. If the primary quote reflects Contraction the `Renewal Forecast Health` will automatically indicate Red.
     2. Update the `Renewal Swing ARR`field
-
-    In instances where Sales has a primary quote that reflects Net ARR Growth but Renewals is aware of persisting Contraction risk update the `Renewal Forecast Health` to `Red` and check the `Renewal Forecast Health Override` box. Note that this will set the Won ATR field to $0.
+    3. Record your `(Most Likely) Forecasted Churn`, indicating the most likely amount of churn or contraction. This should indicated your 80% confidence level in expected outcome. 
+    4. Record your `Next Steps`, which may be the tactical steps to take to mitigate the risk (i.e. a meeting time, customer name, follow up cadence, etc)
+    5. Record the details of the risk intervention in the `Renewal Manager Notes` section (you can use the risk intervention table for ideas) and categorize the main intervention motion in the `Active Mitigation` field.
 
 Both the `Will Churn` and `Will Contract` selections should only occur very close to the `Subscription Renewal Date` - as situations at a customer may change rapidly. These selections indicate that the risk on the opportunity will no longer be actively mitigated.
 
