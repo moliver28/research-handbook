@@ -319,8 +319,21 @@ The below guide is meant to help users determine if they should populate the Non
 
 - Criteria: If a price lock or any optional future pricing language is to be included on an Order Form, approval is required per the [Deal Approval Matrix](https://docs.google.com/document/d/1-CH-uH_zr0qaVaV1QbmVZ1rF669DsaUeq9w-q1QiKPE/edit?tab=t.0#bookmark=kix.gn5oe9x9lsfk).
 - Process: When creating a quote that will require a price lock or optional future pricing language, users should check the box next to **Price Lock/Optional Future Pricing** and populate the request details in the **Price Lock Details** field.
-  - Note: Request details should be entered in this field, but final language must be sought from Legal via Legal Request case after approvals have been obtained for the price lock request. 
+  - Note: Request details should be entered in this field, but final language must be sought from Legal via Legal Request case after approvals have been obtained for the price lock request.
 - Example: I am selling a deal where I would like to lock in the price of any add-ons during the subscription term at a certain rate. The customer would like this stated on the Order Form. When I create the quote, I check the box next to “Price Lock/Optional Future Pricing.” I populate “Price Lock Details” with the following: _I would like a price lock that states that any users added during the subscription term will be priced at $XXX.XX per user per year._ When I’m ready to seek this and all other applicable approvals, I click “Submit for Approval” on the quote. After I receive approvals, I make sure to work with Legal to obtain applicable language for the Order Form.
+
+##### Deal Contingent on Future Product/Feature Release
+
+![Deal Contingency](/handbook/sales/images/dealcontingency.png)
+
+- Criteria: In the _rare_ scenario that we are selling a deal that is contingent on a future product or feature release, approval is required from a number of stakeholders, including executives, per the [Deal Approval Matrix](https://docs.google.com/document/d/1-CH-uH_zr0qaVaV1QbmVZ1rF669DsaUeq9w-q1QiKPE/edit?tab=t.0#bookmark=kix.lp6f9bgfr9bd).
+- Process: When creating a quote for a deal that is contingent on a future product or feature release, users should check the box next to **Deal Contingent on Product Release** and populate details in the **Deal Contingency Details** field.
+  - Note: Details should be entered in this field, but final language regarding the deal contingency must be sought from Legal via Legal Request case after approvals have been obtained for the deal contingency.
+- Example: I am selling a deal that is contingent on a new feature release. Specifically, the customer says they are only going to sign this Order Form is we confirm that a specific feature will be available. When I create the quote, I check the box next to “Deal Contingent on Product Release.” I populate “Deal Contingency Details” with the following: _I would like language that states that X feature will be available as of Y date._ When I’m ready to seek this and all other applicable approvals, I click “Submit for Approval” on the quote. After I receive approvals, I make sure to work with Legal to obtain applicable language for the Order Form.
+
+##### Multiple Production Instances
+
+
 
 #### Billing/Payment Schedule
 
