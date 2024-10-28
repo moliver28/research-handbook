@@ -6,7 +6,8 @@ This document serves as a guide for rolling out Code Suggestions models.
 
 ## Create a rollout plan
 
-Create an issue using the rollout plan template. This must be done before or during the implementation of the new model.
+Create an issue using the [Rollout Plan Template](content/handbook/engineering/development/dev/create/code-creation/code-suggestions-guide/model_rollout_guide.md).
+This must be done before or during the implementation of the new model.
 Specific rollout plans may need to be created for different [rollout phases](#rollout-phases).
 
 ## Rollout method
@@ -33,7 +34,7 @@ Rollout of a new model is usually done in 3 phases:
 
 This is an optional but recommended step before rolling out to all GitLab team members. Code Creation team members and interested stakeholders will have more knowledge of the currently used models, and they can give valuable feedback around latency and correctness in comparison to current models.
 
-Before rollout, make sure that an internal feedback issue has been created. Make sure to direct all feedback to the internal feedback issue.
+Before rollout, make sure that an [internal feedback issue](https://gitlab.com/gitlab-org/code-creation/code-suggestions-model-evaluation-hub/-/blob/main/.gitlab/issue_templates/internal_feedback_template.md) has been created. Make sure to direct all feedback to the internal feedback issue.
 
 ### Rollout to all GitLab team members
 
@@ -46,7 +47,8 @@ This is a required step before rolling out to all users. With dogfooding from Gi
 
 Before rollout, make sure that the
 [internal rollout](https://gitlab.com/gitlab-org/code-creation/code-suggestions-model-evaluation-hub/-/blob/main/.gitlab/issue_templates/internal_rollout.md)
-and internal feedback issues have been created. Make sure to direct all feedback to the internal feedback issue.
+and [internal feedback](https://gitlab.com/gitlab-org/code-creation/code-suggestions-model-evaluation-hub/-/blob/main/.gitlab/issue_templates/internal_feedback_template.md)
+issues have been created. Make sure to direct all feedback to the internal feedback issue.
 
 ### Rollout to all users
 

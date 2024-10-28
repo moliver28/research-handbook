@@ -3,21 +3,21 @@ title: "Code Suggestions Implementation Guidelines"
 ---
 
 These are guidelines for supporting a model for Code Suggestions in the **[AI Gateway (AIGW)](#ai-gateway)**
-and/or the **[GitLab monolith](#gitlab-monolith)**.
+and/or **[GitLab Rails](#gitlab-rails)**.
 
 ## Overview
 
-Code Suggestion requests can be routed **direct to the AI Gateway** or **indirect through the GitLab monolith**.
+Code Suggestion requests can be routed **direct to the AI Gateway** or **indirect through GitLab Rails**.
 
-- For **direct-to-AIGW** requests, the IDE gets the model details from the GitLab monolith through the
+- For **direct-to-AIGW** requests, the IDE gets the model details from GitLab Rails through the
 [Direct Connections API endpoint](https://docs.gitlab.com/ee/api/code_suggestions.html#fetch-direct-connection-information).
-The IDE then sends a request to AIGW with the model details fetched from the GitLab monolith.
-- For **indirect-through-GitLab-monolith** requests, the IDE sends a request to GitLab monolith's
+The IDE then sends a request to AIGW with the model details fetched from the GitLab Rails.
+- For **indirect-through-GitLab-Rails** requests, the IDE sends a request to GitLab Rails'
 [Code Completions API endpoint](https://docs.gitlab.com/ee/api/code_suggestions.html#generate-code-completions).
-The GitLab monolith then sends a request to the AIGW.
+GitLab Rails then sends a request to the AIGW.
 
 For a more in-depth overview of Code Completions vs Code Generations, and
-direct-to-AIGW vs indirect-through-GitLab-monolith requests, please refer to the
+direct-to-AIGW vs indirect-through-GitLab-Rails requests, please refer to the
 [Code Suggestions Technical Overview](../engineering_overview.md#code-suggestions-technical-overview)
 and the [Code Completion](../engineering_overview.md#code-completion) guides.
 
@@ -30,7 +30,7 @@ The AIGW serves as the hub between AI models and the rest of GitLab's systems.
 
 You can introduce a new model in the AIGW without making it generally available to all GitLab users.
 For example, you can introduce a new model for latency testing purposes. A new model only becomes
-available to GitLab users when it is enabled through the [GitLab monolith](#gitlab-monolith).
+available to GitLab users when it is enabled through [GitLab Rails](#gitlab-rails).
 
 ### AIGW API endpoints
 
@@ -40,30 +40,28 @@ further information about AIGW's Code Suggestions API.
 
 ### Considerations when adding a new model
 
-- Make sure that you have specified **stop tokens** in the request to the model.
+- Make sure that you have specified **stop tokens** in the request to the model. (See [example MR](https://gitlab.com/gitlab-org/modelops/applied-ml/code-suggestions/ai-assist/-/merge_requests/1298).)
 - Depending on the model and use case, you may need to **include additional context** to the request. This can involve adding the content of open files, such as project libraries.
-- Most models will require **post-processing**, such as trimming whitespaces or removing comments.
+- Most models will require **post-processing**, such as trimming whitespaces or removing comments. (See [example MR](https://gitlab.com/gitlab-org/modelops/applied-ml/code-suggestions/ai-assist/-/merge_requests/1351).)
 
-## GitLab Monolith
+## GitLab Rails
 
-[GitLab monolith repository](https://gitlab.com/gitlab-org/gitlab/).
+[GitLab Rails repository](https://gitlab.com/gitlab-org/gitlab/).
 
-The GitLab monolith _does not_ send requests directly to an AI Model.
-The monolith sends requests to the AIGW, which in turn sends requests to AI models.
+GitLab Rails _does not_ send requests directly to an AI Model. It sends requests to the AIGW, which in turn sends requests to AI models.
 
-The monolith is the source of truth for which model to use for Code Completions or Code Generations.
-The monolith toggles the current model through [feature flags](#introduce-behind-a-feature-flag).
+GitLab Rails is the source of truth for which model to use for Code Completions or Code Generations. It toggles the current model through [Feature Flags](#introduce-behind-a-feature-flag).
 
-For direct-to-AIGW requests, the monolith specifies the model details through the Direct Access endpoint.
-For indirect-through-GitLab-monolith requests, the monolith includes the model details in the payload for its request
+For direct-to-AIGW requests, GitLab Rails specifies the model details through the Direct Access endpoint.
+For indirect-through-GitLab-Rails requests, GitLab Rails includes the model details in the payload for its request
 to the AIGW.
 
-### GitLab Monolith API Endpoints
+### GitLab Rails API Endpoints
 
 - [Direct Access endpoint](https://docs.gitlab.com/ee/api/code_suggestions.html#fetch-direct-connection-information) -
 for direct-to-AIGW requests, this endpoint provides the information necessary to send a request to AIGW
 - [Code Suggestions endpoint](https://docs.gitlab.com/ee/api/code_suggestions.html#generate-code-completions) -
-this is the endpoint used for indirect-through-GitLab-Monolith requests
+this is the endpoint used for indirect-through-GitLab-Rails requests
 
 ## Generic guidelines for supporting a model
 
@@ -81,7 +79,7 @@ Refer to the [Rollout Guide](model_rollout_guide.md#create-a-rollout-plan) for m
 
 ### Introduce behind a Feature Flag
 
-For both the direct-to-AIGW and indirect-through-GitLab-Monolith requests, the decision on what model to use
-ultimately comes from the GitLab monolith. When introducing a new model, you must
-[create a feature flag in the GitLab monolith](https://docs.gitlab.com/ee/development/feature_flags/)
+For both the direct-to-AIGW and indirect-through-GitLab-Rails requests, the decision on what model to use
+ultimately comes from GitLab Rails. When introducing a new model, you must
+[create a feature flag in GitLab Rails](https://docs.gitlab.com/ee/development/feature_flags/)
 to toggle the enablement of the new model.
