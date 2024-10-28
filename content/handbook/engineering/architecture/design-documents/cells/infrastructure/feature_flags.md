@@ -1,5 +1,5 @@
 ---
-title: "Setting feature flags in cells"
+title: "Setting feature flags in Cells"
 status: proposed
 creation-date: "2024-10-14"
 authors: [ "@rpereira2" ]
@@ -41,23 +41,23 @@ are considered risky, or features that are not considered production ready.
 In addition, feature flags are regularly used to mitigate incidents.
 
 Feature flags will need
-to be available for use on cells before the first cell has a customer.
+to be available for use on Cells before the first cell has a customer.
 
 ### Goals
 
 This document describes at a high-level how feature flags will be set and rolled
-out to cells.
+out to Cells.
 
 Implementation details are left out of this document. In some cases, options for
 implementing the design are mentioned.
 
-- Describe the interface for engineers and SREs to set feature flags in cells.
-- Define rollout strategies for feature flags in cells.
+- Describe the interface for engineers and SREs to set feature flags in Cells.
+- Define rollout strategies for feature flags in Cells.
 
 ### Non-Goals
 
 Other aspects of feature flags, though they might need to be revisited in preparation
-for cells, will not be discussed here.
+for Cells, will not be discussed here.
 
 - Visualizing current feature flag state.
 - Feature flag lifecycle changes; Limiting number of feature flags, reducing long lived feature flags.
@@ -69,7 +69,7 @@ for cells, will not be discussed here.
 - ChatOps - [ChatOps commands](https://docs.gitlab.com/ee/development/feature_flags/controls.html)
   are used to control feature flags on environments.
 - Tissue - The [Tissue](https://ops.gitlab.net/gitlab-com/gl-infra/cells/tissue/) project
-  is used for [coordinating changes in cells](managing_changes.md).
+  is used for [coordinating changes in Cells](managing_changes.md).
 
 ### Overview
 
@@ -83,7 +83,7 @@ to be set by this mechanism.
 The set of feature flags enabled on the legacy cell and on other cells is expected
 to be different.
 
-#### Rollout of feature flags to cells
+#### Rollout of feature flags to Cells
 
 One of the main uses of feature flags is to de-risk the release of a new feature.
 A feature flag is usually enabled for a small group of customers (including internal
@@ -116,17 +116,17 @@ can be rolled out to a ring at a time, starting with the innermost ring.
 Rollout of feature flag changes to a ring should not be allowed if there is an
 active incident affecting that ring or if metrics indicate that the ring is unhealthy.
 
-#### Interface for controlling feature flags in cells
+#### Interface for controlling feature flags in Cells
 
-ChatOps can be used to rollout feature flags to cells in the short term.
+ChatOps can be used to rollout feature flags to Cells in the short term.
 
-ChatOps can communicate with Tissue to set feature flags on cells. ringctl can
+ChatOps can communicate with Tissue to set feature flags on Cells. ringctl can
 be used to create a patch for modifying feature flag gate values. Tissue's change
 management system will then rollout the feature flag change to the rings.
 
 #### Support for feature flag actors
 
-Feature flags on cells will support the same actors (project, group, user, current_request,
+Feature flags on Cells will support the same actors (project, group, user, current_request,
 :instance) that are supported on production today.
 If a feature flag needs to be set for a particular actor, it
 should be set for that actor on every ring. This ensures that no matter which cell
@@ -139,7 +139,7 @@ actor (https://gitlab.com/gitlab-org/gitlab/-/issues/498238).
 
 #### Iteration 1
 
-ChatOps will provide an interface for engineers to change a feature flag on cells.
+ChatOps will provide an interface for engineers to change a feature flag on Cells.
 
 ChatOps communicates with Tissue, and Tissue sets the feature flag on every cell.
 
@@ -159,8 +159,9 @@ Epic: https://gitlab.com/groups/gitlab-com/gl-infra/-/epics/1423
 
 #### Iteration 2
 
-ChatOps commands will provide an interface for targeting cells. Targeting
-cells will only be allowed if the cell is in the quarantine ring.
+ChatOps commands will provide an interface for targeting individual cells. Targeting
+a cell will only be allowed if the cell is in the quarantine ring. In all other
+cases, the feature flag change should be propogated to all cells.
 
 The current state of feature flags in each cell should be cached. When queried
 for the current state of a feature flag, Tissue can respond from the cache
@@ -220,7 +221,7 @@ or through the Rails console.
 
 Feature flag configuration currently lives in the database of each GitLab instance.
 We should treat feature flag configuration as infrastructure-as-code, so that changes
-can be easily tracked and managed. With cells, we will need feature flag configuration
+can be easily tracked and managed. With Cells, we will need feature flag configuration
 to live in a file somewhere.
 
 - Feature flag configuration can be stored in tenant models, or in a separate file
@@ -257,13 +258,13 @@ service for incident mitigation.
 
 Switching to a third party service is potentially a large undertaking and not something
 that can be achieved in the short or medium term. Adding in another unknown in the
-form of a third party service for feature flags during the cells migration that already contains a
+form of a third party service for feature flags during the Cells migration that already contains a
 lot of unknowns doesn't seem to be the best path forward. We could revisit this
 conversation at a later stage.
 
 We can also consider using GitLab's own Feature Flag product, which is based on Unleash.
 However, this will require extensive development to make the feature set useful
-for us. This might make the product too specific to cells and gitlab.com.
+for us. This might make the product too specific to Cells and gitlab.com.
 
 ### Pull model instead of push model
 
