@@ -300,7 +300,7 @@ The below guide is meant to help users determine if they should populate the Non
 ![Payment Schedule](/handbook/sales/images/paymentschedule.png)
 
 - Criteria: If a customer’s payment schedule is not prepaid or paid annually, approval is required. The default value is Prepaid.
-- Process: When creating a quote that will not be prepaid, users should follow the instructions [here](https://handbook.gitlab.com/handbook/sales/field-operations/sales-operations/deal-desk/#billingpayment-schedule) to build the quote. On the quote, users should leverage the **Payment Schedule** field to select the appropriate value. 
+- Process: When creating a quote that will not be prepaid, users should follow the instructions [here](https://handbook.gitlab.com/handbook/sales/field-operations/sales-operations/deal-desk/#billingpayment-schedule) to build the quote. On the quote, users should leverage the **Payment Schedule** field to select the appropriate value.
   - The options are as follows:
     - Prepaid (default)
     - Annual Payments
@@ -311,6 +311,16 @@ The below guide is meant to help users determine if they should populate the Non
   - If a payment schedule other than Prepaid or Annual Payments is requested, users should select **Custom Payment Schedule** and populate the request details in the **Custom Payment Schedule Details** field (required). This requires approval per the [Deal Approval Matrix](https://docs.google.com/document/d/1-CH-uH_zr0qaVaV1QbmVZ1rF669DsaUeq9w-q1QiKPE/edit?tab=t.0#bookmark=kix.tmxlca7fg47o).
   - Opportunity Mapping: The “Payment Schedule” field on the quote maps to the “Billing Schedule” field on the opportunity - i.e. if you select “Annual Payments” on the quote, the opportunity will be updated automatically to reflect “Annual Payments.”
   - Order Form Language: If “Annual Payments” is selected, “[Language] Add Annual Payments” will flip to TRUE automatically.
+- Example: I am creating a 18 month deal, where I’d like 6 months billed up front, and then the final 12 months billed at the 6 month mark. When I create the quote, I select “Custom Payment Schedule” in the “Payment Schedule” field. I then populate “Custom Payment Schedule Details” with the following: _I would like a payment schedule for this deal where the first 6 months are billed up front, and the final 12 months are billed at the 6 month mark_. When I’m ready to seek this and all other applicable approvals, I click “Submit for Approval” on the quote. After I receive approvals, I make sure to work with Legal to obtain applicable language for the Order Form.
+
+##### Price Lock / Optional Future Pricing
+
+![Price Lock](/handbook/sales/images/pricelock.png)
+
+- Criteria: If a price lock or any optional future pricing language is to be included on an Order Form, approval is required per the [Deal Approval Matrix](https://docs.google.com/document/d/1-CH-uH_zr0qaVaV1QbmVZ1rF669DsaUeq9w-q1QiKPE/edit?tab=t.0#bookmark=kix.gn5oe9x9lsfk).
+- Process: When creating a quote that will require a price lock or optional future pricing language, users should check the box next to **Price Lock/Optional Future Pricing** and populate the request details in the **Price Lock Details** field.
+  - Note: Request details should be entered in this field, but final language must be sought from Legal via Legal Request case after approvals have been obtained for the price lock request. 
+- Example: I am selling a deal where I would like to lock in the price of any add-ons during the subscription term at a certain rate. The customer would like this stated on the Order Form. When I create the quote, I check the box next to “Price Lock/Optional Future Pricing.” I populate “Price Lock Details” with the following: _I would like a price lock that states that any users added during the subscription term will be priced at $XXX.XX per user per year._ When I’m ready to seek this and all other applicable approvals, I click “Submit for Approval” on the quote. After I receive approvals, I make sure to work with Legal to obtain applicable language for the Order Form.
 
 #### Billing/Payment Schedule
 
