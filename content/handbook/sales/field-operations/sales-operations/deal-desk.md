@@ -289,22 +289,39 @@ In addition to the step-by-step quoting guides that follow this paragraph, check
 
 #### Non-Standard Deal Elements
 
-As of 2024-11-20, we have created a new quote section called “Non-Standard Deal Elements.” The fields in this section should be populated when certain non-standard deal elements are requested. If populated, these fields will trigger an approval requirement. By populating the applicable fields and clicking [“Submit for Approval,”](/handbook/sales/field-operations/order-processing/#standard-quote-approval) users can seek approvals via automated quote approval workflow.
+As of 2024-11-20, we have created a new quote section called **Non-Standard Deal Elements.** The fields in this section should be populated when certain non-standard deal elements are requested. If populated, these fields will trigger an approval requirement. By populating the applicable fields and clicking [“Submit for Approval,”](/handbook/sales/field-operations/order-processing/#standard-quote-approval) users can seek approvals via automated quote approval workflow.
 
 ![Non-Standard Deal Elements](/handbook/sales/images/nonstandarddealelements.png)
 
+The below guide is meant to help users determine if they should populate the Non-Standard Deal Elements fields on a quote, and what should be populated in each field.
 
+##### Deferred Payments
+
+![Payment Schedule](/handbook/sales/images/paymentschedule.png)
+
+- Criteria: If a customer’s payment schedule is not prepaid or paid annually, approval is required. The default value is Prepaid.
+- Process: When creating a quote that will not be prepaid, users should follow the instructions [here](https://handbook.gitlab.com/handbook/sales/field-operations/sales-operations/deal-desk/#billingpayment-schedule) to build the quote. On the quote, users should leverage the **Payment Schedule** field to select the appropriate value. 
+  - The options are as follows:
+    - Prepaid (default)
+    - Annual Payments
+    - Custom Payment Schedule
+    - GCP Prepay
+    - GCP Postpay
+    - AWS Prepay
+  - If a payment schedule other than Prepaid or Annual Payments is requested, users should select **Custom Payment Schedule** and populate the request details in the **Custom Payment Schedule Details** field (required). This requires approval per the [Deal Approval Matrix](https://docs.google.com/document/d/1-CH-uH_zr0qaVaV1QbmVZ1rF669DsaUeq9w-q1QiKPE/edit?tab=t.0#bookmark=kix.tmxlca7fg47o).
+  - Opportunity Mapping: The “Payment Schedule” field on the quote maps to the “Billing Schedule” field on the opportunity - i.e. if you select “Annual Payments” on the quote, the opportunity will be updated automatically to reflect “Annual Payments.”
+  - Order Form Language: If “Annual Payments” is selected, “[Language] Add Annual Payments” will flip to TRUE automatically.
 
 #### Billing/Payment Schedule
 
-At GitLab, the default billing/payment schedule is full prepayment. In the case of multi-year deals, you may opt to choose Annual Payments. As noted above, you may use the Annual Payments toggle field on the quote to populate language on the order form that commits the order in question to an annual billing/payment schedule.
+At GitLab, the default billing/payment schedule is full prepayment. In the case of multi-year deals, you may opt to choose Annual Payments. As noted above, you must select" Annual Payments" in the **Payment Schedule** field, which will automatically update the Annual Payments toggle field on the quote to populate language on the order form that commits the order in question to an annual billing/payment schedule.
 
 If you choose to add Annual Payments to a quote, please keep in mind the following:
 
 1. On a New Business quote, Initial Term must equal 24, 36, 48, or 60. On a Renewal quote, Renewal Term must equal 24, 36, 48, or 60.
 2. All quotes with Annual Payments must use the "1 Year" Product SKU. You will see an error message if you select Annual Payments and anything other than the 1 Year SKU.
-3. All opportunities with Annual Payments should have "Annual Payments" selected in the "Billing Schedule" field.
-4. You may not convert a prepaid deal to Annual Payments via Add-On/Amendment quote, or vice versa. Add-Ons will always follow the original billing.payment schedule. 
+3. All opportunities with Annual Payments should have "Annual Payments" selected in the "Payment Schedule" field.
+4. You may not convert a prepaid deal to Annual Payments via Add-On/Amendment quote, or vice versa. Add-Ons will always follow the original billing/payment schedule. 
 
 #### Contact Requirements
 
