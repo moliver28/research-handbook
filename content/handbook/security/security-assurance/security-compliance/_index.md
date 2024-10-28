@@ -5,12 +5,12 @@ description: "Security Compliance Team"
 
 ## Our objectives
 
-We support the Security division's [mission and operating principles](content/handbook/security/_index.md) by:
+We support the Security division's [mission and operating principles] ({{< ref "../../index" >}})  by:
 
 1. Maintaining GitLab's position as the most trusted DevSecOps offering on the market
 1. Maintaining and achieving [security certifications and attestations]({{< ref "../security-compliance/certifications" >}}) that meet the needs of our customers
 1. Identifying and mitigating information security risk through [continuous control monitoring]({{< ref "sec-controls" >}}) of systems, applications, and repositories
-1. Applying compliance automation and [compliance-as-code](/handbook/security/security-compliance/policy-as-code/) guardrails to minimize [toil](https://sre.google/sre-book/eliminating-toil/) and enable product, development, and infrastructure teams
+1. Applying compliance automation and [policy-as-code]({{< ref "../../security-assurance/security-compliance/policy-as-code" >}})  guardrails to minimize [toil](https://sre.google/sre-book/eliminating-toil/) and enable product, development, and infrastructure teams
 1. Using our own product ([dogfooding](/handbook/values/#dogfooding)) to meet key security controls, improve our offering, and demonstrate to customers how they can do the same
 
 ## Core Competencies
@@ -26,7 +26,7 @@ We support the Security division's [mission and operating principles](content/ha
 1. [Observation and Remediation Management]({{< ref "observation-management-procedure" >}})
    - Specific to Tier 3 (system-level) risks
    - Identify control weaknesses and gaps (observations)
-   - Provide [remediation recommendations and guidance](content/handbook/security/security-assurance/observation-remediation-procedure.md)
+   - Provide [remediation recommendations and guidance]({{< ref "observation-remediation-procedure" >}})
    - Track remediation to completion
 1. Industry and Regulatory Monitoring and Insights
    - Monitoring drafts and changes to relevant laws, executive orders, directives, regulations, policies, standards, and guidelines.
@@ -37,7 +37,7 @@ We support the Security division's [mission and operating principles](content/ha
 
 The single source of truth for all of in-progress work is the Security Compliance [team top-level epic](https://gitlab.com/groups/gitlab-com/gl-security/security-assurance/-/epics/289), which has detailed status updates, along with the [team epic board](https://gitlab.com/groups/gitlab-com/-/epic_boards/1063538?label_name[]=seccomp-roadmap) which we use to visualize workflow status and compare to our [roadmap](https://docs.google.com/presentation/d/1TEJzAkdoi_U-ubg7qhj1ZUpi2_VQYNF5DTOT5Mj1Mqo/edit?usp=sharing). All work that is directly associated with our roadmap should take place via these and issues should be opened in the [Security Compliance Team Issue Tracker project](https://gitlab.com/gitlab-com/gl-security/security-assurance/security-compliance/team). This is important for two reasons: It allows us to work efficiently by centralizing and organizing our work in a single place using a robust labeling scheme and it allows us to report on various operational metrics (performance indicators).
 
-Much of our work related to the [FedRAMP Authorization Program](content/handbook/security/security-assurance/security-compliance/fedramp-compliance.md) is unfortunately not visible to the rest of GitLab due to regulatory mandates outside of our control. In order to bring as much transparency and visibility into our work, and to continue to track basic metrics, it is critical that we continue to use our epic board and issue tracker as much as possible, even if used to track high-level tasks with links to detailed issues within the authorization boundary.
+Much of our work related to the [FedRAMP Authorization Program]({{< ref "../../security-assurance/security-compliance/fedramp-compliance" >}}) is unfortunately not visible to the rest of GitLab due to regulatory mandates outside of our control. In order to bring as much transparency and visibility into our work, and to continue to track basic metrics, it is critical that we continue to use our epic board and issue tracker as much as possible, even if used to track high-level tasks with links to detailed issues within the authorization boundary.
 
 All team members are encouraged to regularly start Slack discussions in `# sec-assurance` instead of the private `sec-assurance-team` channel which was the default before October 2024. Most of the work we do is actually not limited access and therefore can be discussed openly. 
 
