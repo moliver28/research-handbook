@@ -62,3 +62,13 @@ Review and discuss incidents from the past week
 1. Organize initial coffee chat with your EOC-Shadow
 1. Discuss the time for periodic call after each of your weekly shifts. Review the process for the Shadow to be a primary respondent for S3/S4 incidents. Be available as a secondary respondent for each incident
 1. Regularly check onboarding progress and provide additional support when needed
+
+### FAQs
+
+#### What if I cannot find a buddy?
+
+Please talk to your manager and ask for help. Your manager will look into available engineers in your timezone and find a suitable buddy.
+
+#### Can I shadow other engineers and not just my oncall buddy?
+
+Absolutely! It is encouraged that you shadow any EOCs and incidents whenever you feel is right for you. Meeting with other engineers will help you to get a wider knowledge and diverce approach to troubleshooting and incident management.
