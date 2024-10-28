@@ -56,7 +56,7 @@ Payments, gifts, favors, or entertainment for officials, employees, or represent
 - Navan Description box: Expense items must have a description filled out. This box is showing as optional but we require this to be filled in. This helps to correctly record the transaction and assist any reporting purposes downstream.
   - When filling in the description box , we ask for you to enter details of the expense so anyone looking at the line on a report can tell immediately (without the need of looking at the receipt) what the expense relates to and why it is claimed.
   - Please fill in the description box with details like : Items Purchased/Claimed, Period service relates to, Trip Details this claim relates to, Reason for trip, Clients Name, etc. If left blank, the expense will be bounced back to the team member to complete this portion.
-- The maximum monthly limit to be reimbursed is $10K USD (or local currency equivalent). Once this limit has been reached, all expense items will need to be approved by the A/P team in Navan.  This limit may be increased for Team Members whose positions require more spend (eg. Field Marketing), but the increase request needs to be submitted via an issue for approval by the VP, Corporate Controller and CAO. Due to the nature of their roles, E-Group members have a maximum monthly limit to be reimbursed of $20K USD before additional approvals are required.
+- The maximum monthly limit to be reimbursed is $10K USD (or local currency equivalent). Once this limit has been reached, all expense items will need to be approved by the A/P team in Navan.  This limit may be increased for Team Members whose positions require more spend (eg. Field Marketing), but the increase request needs to be submitted via an issue for approval by the VP or higher in the Accounting Organization. Due to the nature of their roles, E-Group members have a maximum monthly limit to be reimbursed of $20K USD before additional approvals are required.
 - Expenditures related to client entertainment or marketing must be necessary, prudent, and job-related.
 - Expenses that span longer than a month must be submitted on a monthly basis (eg. Although you paid for a year upfront for the internet, you must divide the total by 12 months and submit the cost monthly), with the exception of VPN.
 - Gift cards are not accepted as a form of payment for business expenses.
@@ -73,7 +73,7 @@ Payments, gifts, favors, or entertainment for officials, employees, or represent
 - The AP team will reach out to the Team Member's manager if additional approval is needed.
 - If the claim is over the advised guidance, the claim will be rejected with a note for the Team Member. The Team Member should be able to rectify the claim and resubmit.
 - Where the Team Member has already received approval from the manager, that approval should be attached as a receipt on the claim transaction.
-- Any claim made which does not fall into the policy is not reimbursable.  If an item is out of policy and approved by your manager, then please obtain and attach your manager's approval email prior to submitting the expense. This will then be reviewed by the Expense team Admin and could need further approval from VP, Corporate Controller or CAO.
+- Any claim made which does not fall into the policy is not reimbursable.  If an item is out of policy and approved by your manager, then please obtain and attach your manager's approval email prior to submitting the expense. This will then be reviewed by the Expense team Admin and could need further approval from VP or higher in the Accounting Organization.
 - There will be occasions where if you have claimed an item and it needs to be reimbursed back to GitLab, you will need to follow the repayment process in Navan for submission of the funds.
 
 ### 3.2 Trip Purpose Guidance
@@ -87,7 +87,7 @@ Payments, gifts, favors, or entertainment for officials, employees, or represent
 
 ### 3.3 Other
 
-- Out of Policy Transactions for all E-Group Members (excluding the CFO) needs to be approved by the CFO.
+- Out of Policy Transactions for all E-Group Members needs to be approved by VP or higher in the Accounting Organization.
 - Any exceptions to the policy must be documented via an issue or an email with proper approvals from their manager and Finance team.
 
 ## 4. PROCEDURES
