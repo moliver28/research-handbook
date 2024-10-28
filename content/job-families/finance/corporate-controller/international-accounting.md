@@ -1,6 +1,38 @@
 ---
 title: "International Accounting"
 ---
+### International Statutory Accountant 
+
+This role reports to the Manager, Accounting, Global Consolidation & Reporting
+
+#### International Statutory Accountant Job Grade
+
+International Statutory Accountant is a grade [6](https://handbook.gitlab.com/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades).
+
+#### International Statutory Accountant Responsibilities
+- Support all aspects of statutory accounting operations together with some US GAAP responsibilities
+- Work with an external professional service provider to ensure maintenance of accounting records and preparation of high quality statutory financial statements. 
+- Engage with auditor, ensuring statutory audit is executed on time and within budget while also helping to navigating any audit complexities as they arise
+- Support the US GAAP to GAAP reconciliation process
+- Manage location specific accounting operations as well as all compliance-related activities such as statutory financial reporting and audit
+- Ensure changes to local accounting requirements are captured, understood and operationalised
+- Preparation of  intercompany reconciliations and manage resolution of reconciling items
+- Preparation of monthly intercompany settlement file
+- Collaborating with internal legal, tax and treasury teams for intercompany and other activities while always keeping a lens on statutory implications
+- Critically evaluate current systems and processes and act as a driver for identifying and implementing new initiatives
+- Other accounting and operational projects as assigned
+- Ability to prioritize work and excel in a fast-paced environment to ultimately meet deadlines
+
+### International Statutory Accountant Requirements
+- Minimum 1 - 2 years of relevant experience in multinational environment
+- CPA/ACA/CIMA  and/or big 4 accounting experience, a plus
+- Bachelor’s degree in Accounting or similar
+- Strong knowledge of US GAAP, while also being familiar with navigating statutory requirements for International jurisdictions
+- A self starter with a creative approach to problem solving 
+- Experience with ERP systems; Netsuite with multibook enabled a plus
+- Strong Microsoft Excel skills and experience using GSuite & Slack is a plus
+- Ability to learn and use GitLab
+
 
 ### Manager, Accounting, Global Consolidation & Reporting
 
@@ -42,15 +74,15 @@ Manager, Accounting, Global Consolidation & Reporting is a grade [8].
 - Efficiencies in the process with automation
 - Clean intercompany balances
 
-### Global Consolidation & Reporting Manager
+### Manager, International Accounting
 
 This role report to Director or Senior Director, International Accounting
 
-#### Global Consolidation & Reporting Manager
+#### Manager, International Accounting
 
-Global Consolidation & Reporting Manager is a grade [8].
+Global Consolidation & Reporting Manager is a grade [8](https://handbook.gitlab.com/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades).
 
-#### Global Consolidation & Reporting Manager Responsibilities
+#### Manager, International Accounting Responsibilities
 
 - Will be directly responsible for all aspects of accounting for our international subsidiaries, intercompany transactions and consolidations
 - Will Lead process improvement initiatives in Financial Close, Consolidation and Reporting areas and provide recommendations based on Financial Close & Consolidations leading practices
@@ -66,7 +98,7 @@ Global Consolidation & Reporting Manager is a grade [8].
 - Prepares and/or reviews reports supporting internal and external audits
 - Works with internal and external audit as needed
 
-#### Global Consolidation & Reporting Manager Responsibilities Accounting Requirements
+#### Manager, International Accounting Requirements
 
 - 7+ years of progressive growth in financial management roles in high growth companies, Software/SaaS industry experience is preferred
 - 2+ years in a finance international role, leading various finance operations functions
@@ -75,7 +107,7 @@ Global Consolidation & Reporting Manager is a grade [8].
 - Leadership at GitLab
 - Ability to use GitLab
 
-#### Global Consolidation & Reporting Manager Performance Indicators
+#### Manager, International Accounting Performance Indicators
 
 - Stat audit status
 - Efficiencies in the process with automation
