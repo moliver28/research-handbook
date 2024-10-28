@@ -209,8 +209,11 @@ graph TD;
   V -->|"Epic is prioritized into the roadmap and on the epic board by PM"| R[Async Refinement]
   R -->|"Epic is broken down into issues and 'refined' label applied. Change epic color to 'Apricot'."| P[IPM - Sync/Async]
   P -->|"Epics marked refined have all of it's issue weighed. Once all weighed, change epic color to 'Mint'."| I[Ready for Development]
-  I -->|"When work starts on the epic, all of it's child issues are labelled '(workspaces|webide)-workflow::prioritized' and 'Next 1-3 Releases'"| N[Milestone Planning]
-  N -->|"EM/PM will plan for the next milestone and assign %XX.X labels to issues that are likely to make the next release cycle."| E[Development proceeds for issue]
+  I -->|""| N[Milestone Planning]
+  N -->|"EM/PM will plan for the next milestone and assign %XX.X labels to issues that are likely to make the next release cycle."| E[Feature Release]
+  I -->|""| D[Development]
+  D -->|"When work starts on the epic, all of it's child issues are labelled '(workspaces|webide)-workflow::prioritized' and 'Next 1-3 Releases"| E[Feature Release]
+  
 ```
 
 #### 1. High Level Validation and Planning
