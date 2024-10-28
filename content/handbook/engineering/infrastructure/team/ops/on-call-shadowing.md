@@ -2,7 +2,7 @@
 title: "EOC Shadow and Shadowee Expectations"
 ---
 
-The engineer on call (EOC) shadowing process is designed to provide new engineers with practical, hands-on experience in managing live incidents, responding to alerts, and ensuring system stability. Shadowing allows new team members (Shadows) to observe and gradually take on the responsibilities of an EOC under the guidance of an experienced engineer (Shadowee).
+The engineer on-call (EOC) shadowing process is designed to provide new engineers with practical, hands-on experience in managing live incidents, responding to alerts, and ensuring system stability. Shadowing allows new team members (Shadows) to observe and gradually take on the responsibilities of an EOC under the guidance of an experienced engineer (Shadowee).
 
 This document outlines the key expectations for both the EOC Shadow and Shadowee, ensuring a structured approach to learning and support throughout the shadowing process. By clearly defining the roles and responsibilities, we aim to ensure the Shadow gains the necessary skills, knowledge, and confidence to handle real-time incidents effectively, and that the Shadowee can provide the appropriate guidance and mentorship.
 
@@ -26,7 +26,7 @@ The following outlines the expectations for the EOC Shadow during their shadowin
 
 1. **Engage in post-incident discussions and analysis:** The Shadow should actively engage in post-incident reviews, where the team reflects on how alerts were handled and what actions were taken. These reviews provide key learning opportunities and help the Shadow gain insights into how incident responses can be improved or handled more efficiently in the future.
 
-1. **Participate in a "gameday" exercise as graduation:** Before officially joining the EOC rotation, the Shadow should participate in a "gameday" exercise. This is a simulated incident scenario that allows the Shadow to apply their knowledge and skills in a controlled environment. Successfully completing this exercise serves as a form of graduation, signaling that the Shadow is ready to handle real incidents independently.
+1. **Participate in a "gameday" exercise as graduation:** Before officially joining the EOC rotation, the Shadow should participate in a "gameday" exercise. This is a simulated incident scenario that allows the Shadow to apply their knowledge and skills in a controlled environment. Successfully completing this exercise serves as a form of graduation, signaling that the Shadow is ready to handle real incidents independently. Check for the gamedays calender and if one is planned, with the help of the SRE buddy setup one. Check the Gameday calendar, and if one is already scheduled, you can join it. If none is planned, coordinate with the SRE buddy to organize one.
 
 These expectations ensure that the Shadow has the necessary hands-on experience, support, and training to handle the responsibilities of an EOC effectively.
 
