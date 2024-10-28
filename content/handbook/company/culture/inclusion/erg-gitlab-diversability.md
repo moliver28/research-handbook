@@ -17,7 +17,6 @@ Also, we act as a support group. Whether it's async in Slack or live during a me
 
 ## Leads
 
-- [Kaitlyn Chappell](/handbook/company/team/#kchappell)
 - [Dominique Top](/handbook/company/team/#gitlab_dlectronique)
 - James Hebden
 - James Moverly
