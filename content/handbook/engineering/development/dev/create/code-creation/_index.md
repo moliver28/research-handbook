@@ -109,11 +109,48 @@ Here are other groups within GitLab that we work closely with:
 To help get started as a developer with the Create:Code Creation team, we have created an
 [onboarding issue template](https://gitlab.com/gitlab-com/create-stage/code-creation/team-tasks/-/issues/new?issuable_template=developer_onboarding).
 
-## Meetings
+## Group Processes
+
+### Meetings
 
 **Sync: Code Creation** - a meeting held once a week on Tuesday at 15:00 UTC to align on group priorities. If there are no points on the meeting agenda one hour before the meeting starts, that meeting is considered as canceled.
 
 All of our meetings and videos are uploaded to the [Code Creation YouTube Playlist](https://www.youtube.com/playlist?list=PL05JrBw4t0KoZOUC-DfaJOzFb6w6hG198). Some meetings are marked as private, so internal team members will need to swtich to use the [Unfiltered YouTube account](/handbook/marketing/marketing-operations/youtube/#unable-to-view-a-video-on-youtube).
+
+### Weekly Status Updates
+
+We maintain a practice of weekly async status updates to ensure clear communication, track progress effectively, and maintain transparency across our team. This process aligns with our core values by fostering collaboration, driving results, and promoting efficiency through structured communication.
+
+#### Timing and Frequency
+
+- Team members post updates every Wednesday
+- Updates are required for all assigned issues
+- Multiple updates may be needed if working on multiple issues
+
+#### Template 
+
+This is the template to use for the updates
+
+```markdown
+## Async Status Update yyyy-mm-dd
+
+- Current Status: _What is the current status of this issue?_
+- Next Steps: _What are the next steps for you?_
+- Blockers: _List any blockers you have_
+- Shipping this milestone? _Do you expect this to ship this milestone? If not, why?_
+
+/cc @mnohr @jordanjanes
+```
+
+Be sure to tag the engineering manager, product manager, and any team members you are collaborating with.
+
+#### Best practices
+
+- Be specific and concise in updates
+- Always include next steps, even if they're tentative
+- Flag blockers early - don't wait until they become critical
+- Use the template consistently for easier scanning
+- Link to relevant issues or documentation when appropriate
 
 ## Other Related Pages
 
