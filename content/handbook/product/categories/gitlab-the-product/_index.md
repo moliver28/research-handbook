@@ -83,6 +83,8 @@ For special definitions of what constitutes a breaking change for our APIs, see:
 - [REST API breaking changes](https://docs.gitlab.com/ee/development/api_styleguide.html#what-is-a-breaking-change).
 - [GraphQL API breaking changes](https://docs.gitlab.com/ee/development/api_graphql_styleguide.html#breaking-changes).
 
+For `Experiment` or `Beta` features, please see [Support for experiment, beta, and generally available features](https://docs.gitlab.com/ee/policy/experiment-beta-support.html).
+
 #### Exceptions for breaking changes
 
 Introducing a **breaking change in a minor release is against policy** because it can disrupt our customers, however there are some rare exceptions:
