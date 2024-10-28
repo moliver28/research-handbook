@@ -248,13 +248,13 @@ We appreciate the internal stakeholders who have provided initial input to inclu
 
 Join the #givelab slack channel
 
-#### GiveLab Nonprofits
+## GiveLab Nonprofits
 
 We have created an internal [GiveLab Volunteer Directory](https://docs.google.com/spreadsheets/d/1koFKQbKqm4jpKtZlteLDTPM3HYv20nffXaqRJ2C8YBA/edit?usp=sharing) that features a list of vetted nonprofit organizations with available volunteer opportunities. Team members can search the document for virtual volunteer opportunities, opportunities to volunteer with [GitLab Foundation](https://www.gitlabfoundation.org/) grantees and search for local opportunities.
 
 We encourage all team members to contribute to our GiveLab Volunteer Directory. To recommend a nonprofit organization to add to the Directory, please open a [Volunteer Recommendation Issue](https://gitlab.com/gitlab-com/legal-and-compliance/-/blob/master/.gitlab/issue_templates/volunteer_recommendation.md).
 
-#### GiveLab Champions
+## GiveLab Champions
 
 **GiveLab Champions overview**
 
@@ -338,7 +338,7 @@ Product
 
 - Michaela Seferian-Jenkins
 
-#### In Kind Support
+## In Kind Support
 
 **GitLab for Nonprofits**
 
@@ -404,11 +404,11 @@ While GitLab for Nonprofits Program benefits do not include product [support](ht
 - If the Nonprofit has questions on the eligibility or status of an application, please advise them to reach out to nonprofits@gitlab.com. Or team members can inquire about the status of an application in #esg.
 - If you have a question or concern about the customer churn, please raise this in #esg and an ESG team member will contact you.
 
-#### Matching Gifts Program
+## Matching Gifts Program
 
  At this time, GitLab does not offer a matching gifts program.
 
-### Membership Requests (non-monetary)
+## Membership Requests (non-monetary)
 
 For requests related to GitLab Membership of Association, Program or Organization, and includes terms, conditions and/or obligations on GitLab that must be executed, please follow the below process.
 Open an [issue using the Membership Request Issue Template](https://gitlab.com/gitlab-com/www-gitlab-com/-/issues/new?issuable_template=membership-request). Complete and attach the necessary information. Note: If you are submitting a request on behalf of a TMRG or DIB, please add Sherida McMullan as a reviewer
