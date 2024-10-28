@@ -134,13 +134,13 @@ SMEs will be regularly evaluated based on their contributions and impact on the 
 | SME Area Lead | Edmond Chan | Andrea Obermeier | David Astor | Alessia Del Vecchio |
 | Product Manager Rep/ | AMER: Taylor McCaslin <br>APAC/EMEA: Pini Wietchner |  | Melissa Ushakov | Chris Balane |
 | Engineering Manager Rep | AMER: Michelle Gill <br>APAC/EMEA: David O’Regan |  | John Hope | Oriol Lluch |
-| APJ |  | Tomasz Skora |  |  |
-| EMEA NEUR | Kristoff Goossens | Dominique Top | Gabriela Dobrescu, James Moverley | Martin McVay |
-| EMEA SEUR |  | Paul Dumaitre, Olivier Dupre |  |  |
+| APJ | Arjun Krishna, Arun Kumar, Ben Ridley  | Tomasz Skora |  |  |
+| EMEA NEUR | Ryan Appleby | Dominique Top | Gabriela Dobrescu, James Moverley | Martin McVay |
+| EMEA SEUR | Madou Coulibaly | Paul Dumaitre, Olivier Dupre |  |  |
 | EMEA DACH/META | Alexander Dess | Mirko Brandner, Julia Gåtjens |  | Falko Sieverding |
-| US East | Sam Morris | Bernard Park, James Nyika | Dan Rabinovitz | Adam Zwickey |
+| US East | Sam Morris, Manjeet Singh | Bernard Park, James Nyika | Dan Rabinovitz | Adam Zwickey |
 | US West | Karen Kwentus | Yu-Chen Hsueh | Steve Grossman | Ryan Taylor |
 | High Velocity AMER |  | Jefferson Jones | Sophia Manicor |  |
 | High Velocity EMEA |  | Claire Marie Champernowne, Nupur Sharma | Jan Kunzmann | |
-| Pub Sector AMER |  |  |  | Daniel Marquard, Michael Bradley |
+| Pub Sector AMER | Kevin Chasse, Josh Swan  |  |  | Daniel Marquard, Michael Bradley |
  
