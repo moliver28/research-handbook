@@ -342,11 +342,11 @@ Setting the topic of the meeting is important, otherwise all meetings will be re
 Once recording is complete, your videos will not appear in the "Recordings" section of your Zoom account.
 
 If the meeting topic in Zoom (editable by logging into <https://zoom.us/>) contains the text `[REC]`, these recordings will
-automatically be saved to a folder on Google Drive under `GitLab Videos Recorded` (accessible from [Google shared drives](https://drive.google.com/drive/shared-drives)).
+automatically be saved to a folder on Google Drive under `GitLab Videos Recorded` (accessible from [Google Hidden shared drives](https://drive.google.com/drive/shared-drives-hidden)).
 The name of the folder will be prefixed by the host's e-mail
 address. For example, if the host is `someuser@gitlab.com` and the
 meeting title is `Company Training [REC]`, the folder will appear as
-`someuser@gitlab.com-Company Training`.
+`someuser@gitlab.com-Company Training`. The script will sync the recordings every hour.
 
 To make it easier for meetings to be uploaded automatically without
 changing the title, the sync script also uses an [allow list](https://gitlab.com/gitlab-com/zoom-sync#allow-list).
