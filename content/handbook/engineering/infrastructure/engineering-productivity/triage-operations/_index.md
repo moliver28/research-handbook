@@ -541,6 +541,17 @@ Current type labels with subtype labels are:
 * Example: <https://gitlab.com/gitlab-org/quality/engineering-productivity/master-broken-incidents/-/issues/3187#note_1496076800>
 * Processor: <https://gitlab.com/gitlab-org/quality/triage-ops/-/blob/master/triage/processor/gitlab_internal_commands/command_retry_pipeline_or_job.rb>
 
+#### Reactive `delete_bot_comment` command
+
+* Automation conditions:
+  * A new issue or merge request note with `@gitlab-bot delete_bot_comment` posted by a GitLab team member as a reply to a bot comment thread.
+  * This command will not have any effect if the targeted comment is not posted by `@gitlab-bot`.
+* Automation actions:
+  * `@gitlab-bot` will delete the bot comment along with any reply comments it has.
+  * A page refresh may be needed for the thread to be removed from page.
+* Example: not available, as the comment gets deleted as a result of running the command
+* Processor: <https://gitlab.com/gitlab-org/quality/triage-ops/-/blob/master/triage/processor/gitlab_internal_commands/command_delete_bot_comment.rb>
+
 ### Database-related reactive workflow automation
 
 #### Database Review Experience Feedback
