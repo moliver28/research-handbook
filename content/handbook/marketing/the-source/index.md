@@ -2,7 +2,7 @@
 title: "The Source Handbook"
 description: "Everything you need to know about The Source, GitLab’s thought leadership portal." 
 
-The Source is managed by the [Brand](https://handbook.gitlab.com/handbook/marketing/brand-and-product-marketing/brand/) and [Content Strategy & Ops](https://handbook.gitlab.com/handbook/marketing/brand-and-product-marketing/content/) teams, with support from [Corporate Communications](https://handbook.gitlab.com/handbook/marketing/corporate-communications/). 
+[The Source](about.gitlab.com/the-source/) is managed by the [Brand](https://handbook.gitlab.com/handbook/marketing/brand-and-product-marketing/brand/) and [Content Strategy & Ops](https://handbook.gitlab.com/handbook/marketing/brand-and-product-marketing/content/) teams, with support from [Corporate Communications](https://handbook.gitlab.com/handbook/marketing/corporate-communications/). 
 
 ## What is The Source?  
 AI-powered DevSecOps is transforming software development. To succeed in this new frontier and drive business success, leaders need actionable insights, best practices, and fresh perspectives.
@@ -16,7 +16,7 @@ Content that belongs on The Source is:
 - Aimed at helping C-suite executives and engineering and infrastructure leaders with their decision-making
 - Written in alignment with the GitLab Style Guide
 
-## Content that belongs on the GitLab Blog: 
+Content that belongs on the GitLab Blog: 
 - Product-focused articles
 - Highly tactical and technical content (tutorials)
 - Open source community content
@@ -24,4 +24,4 @@ Content that belongs on The Source is:
 
 If you’d like to learn more about contributing to the GitLab Blog, visit the [Blog Handbook](https://handbook.gitlab.com/handbook/marketing/blog/). 
 
-You can contribute to the success of The Source by spreading the word and sharing new posts with your network.  
+You can contribute to the success of [The Source](about.gitlab.com/the-source/) by spreading the word and sharing new posts with your network.  
