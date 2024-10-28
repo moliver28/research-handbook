@@ -300,7 +300,7 @@ The below guide is meant to help users determine if they should populate the Non
 ![Payment Schedule](/handbook/sales/images/paymentschedule.png)
 
 - Criteria: If a customer’s payment schedule is not prepaid or paid annually, approval is required. The default value is Prepaid.
-- Process: When creating a quote that will not be prepaid, users should follow the instructions [here](https://handbook.gitlab.com/handbook/sales/field-operations/sales-operations/deal-desk/#billingpayment-schedule) to build the quote. On the quote, users should leverage the **Payment Schedule** field to select the appropriate value.
+- Process: When creating a quote that will not be prepaid, users should follow the instructions [here](/handbook/sales/field-operations/sales-operations/deal-desk/#billingpayment-schedule) to build the quote. On the quote, users should leverage the **Payment Schedule** field to select the appropriate value.
   - The options are as follows:
     - Prepaid (default)
     - Annual Payments
@@ -815,7 +815,7 @@ Salesforce Guided Selling filters have been updated. Legacy SKUs have been remov
 
 - **New Business:** New Subscription quotes can only be created using the new SKUs listed above.
 - **Add-Ons:** For existing subscriptions that contain legacy SKUs, all Amend Subscription quotes will use the existing legacy SKU, i.e.; If you upsell an existing Gold subscription, your amendment quote and Order Form will still use the legacy Gold SKU.
-- **Renewals:** For existing subscriptions that contain legacy SKUs, **all Renew Subscription quotes will require that the legacy SKU be removed from the quote, and that the new SKU be added to the quote in its place for the renewal.** When quoting a renewal, *please follow the steps below to change the SKU:*
+- **Renewals:** For existing subscriptions that contain legacy SKUs, **all Renew Subscription quotes will require that the legacy SKU be removed from the quote, and that the new SKU be added to the quote in its place for the renewal.** When quoting a renewal, _please follow the steps below to change the SKU:_
   - First, click **Select Products**
   - On the **Edit Products and Charges** page, select "Add Products"
   - Click "Select" and then click "Add Base Products"
@@ -927,7 +927,7 @@ For GitLab.com subscriptions, Deal Desk will follow the below steps to ensure th
 
 - From the Account, click on the relevant Subscription record for the existing subscription under "Subscription Products and Charges".
 - Copy the `GitLab Namespace Id` and `GitLab Namespace Name` data into these same fields on the New subscription quote.
-- Once ready, ensure the New subscription quote is submitted to Zuora *prior* to the Cancellation quote.
+- Once ready, ensure the New subscription quote is submitted to Zuora _prior_ to the Cancellation quote.
 
 If any issues with this process occur, the customer may [change the linked namespace](https://docs.gitlab.com/ee/subscriptions/gitlab_com/#change-the-linked-namespace) or contact support. For a demo see, [Linking GitLab Subscription to the Namespace](https://gitlab.com/gitlab-com/support/support-team-meta/-/issues/4770#note_1194437643)
 
@@ -1085,7 +1085,7 @@ For more information on ARR calculation for Ramp Deals, see [ARR in Practice](/h
 
 #### How to Process a Professional Services SOW Amendment (Change Order)
 
-Occasionally, changes will be made to a Custom SOW after an opportunity has been booked. These changes could include delivery (invoice) schedules or types of services delivered. The total value of the opportunity **should not change.** If the total value of an opportunity is negatively impacted, this will require an internal refund and rebooking of the order. Should there be additional revenue generated as a result of this Change Order, a new Professional Services Only opportunity is required to account for the *delta value*.
+Occasionally, changes will be made to a Custom SOW after an opportunity has been booked. These changes could include delivery (invoice) schedules or types of services delivered. The total value of the opportunity **should not change.** If the total value of an opportunity is negatively impacted, this will require an internal refund and rebooking of the order. Should there be additional revenue generated as a result of this Change Order, a new Professional Services Only opportunity is required to account for the _delta value_.
 
 #### Creating Decomission Opportunties
 
