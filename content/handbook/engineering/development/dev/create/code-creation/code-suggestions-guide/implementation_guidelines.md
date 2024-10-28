@@ -34,14 +34,14 @@ available to GitLab users when it is enabled through the [GitLab monolith](#gitl
 
 ### AIGW API endpoints
 
-Code Completions and Code Generations requests to the AI Gateway are sent through the different Code Suggestions API endpoints. Refer to
-[this guide](https://gitlab.com/gitlab-org/modelops/applied-ml/code-suggestions/ai-assist/-/blob/main/docs/api.md#code-suggestions) for
+Code Completions and Code Generations requests to the AI Gateway are sent through the different Code Suggestions API endpoints. See the
+[Code Suggestions API documentation](https://gitlab.com/gitlab-org/modelops/applied-ml/code-suggestions/ai-assist/-/blob/main/docs/api.md#code-suggestions) for
 further information about AIGW's Code Suggestions API.
 
 ### Considerations when adding a new model
 
 - Make sure that you have specified **stop tokens** in the request to the model.
-- Depending on the model and use case, you may need to **include additional context** to the request. This can involve adding the content of open files, including project libraries, etc.
+- Depending on the model and use case, you may need to **include additional context** to the request. This can involve adding the content of open files, such as project libraries.
 - Most models will require **post-processing**, such as trimming whitespaces or removing comments.
 
 ## GitLab Monolith
@@ -52,7 +52,7 @@ The GitLab monolith _does not_ send requests directly to an AI Model.
 The monolith sends requests to the AIGW, which in turn sends requests to AI models.
 
 The monolith is the source of truth for which model to use for Code Completions or Code Generations.
-The monolith toggles the current model through [Feature Flags](#introduce-behind-a-feature-flag).
+The monolith toggles the current model through [feature flags](#introduce-behind-a-feature-flag).
 
 For direct-to-AIGW requests, the monolith specifies the model details through the Direct Access endpoint.
 For indirect-through-GitLab-monolith requests, the monolith includes the model details in the payload for its request
@@ -83,5 +83,5 @@ Refer to the [Rollout Guide](model_rollout_guide.md#create-a-rollout-plan) for m
 
 For both the direct-to-AIGW and indirect-through-GitLab-Monolith requests, the decision on what model to use
 ultimately comes from the GitLab monolith. When introducing a new model, you must
-[create a Feature Flag in the GitLab monolith](https://docs.gitlab.com/ee/development/feature_flags/)
+[create a feature flag in the GitLab monolith](https://docs.gitlab.com/ee/development/feature_flags/)
 to toggle the enablement of the new model.
