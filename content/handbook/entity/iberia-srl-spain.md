@@ -199,7 +199,7 @@ Children of the insured in equal shares or their descendants in case of death
 Parents of the insured in equal shares
 Legal heirs of the Insured
 
-To Update your Beneficiary please fill out the [beneficiary designation form](https://drive.google.com/drive/folders/14KdAmwiUK9hwqRQsRA6RvG5D0I815ZhS) and send to Fernanda.dallagnese@wtwco.com and total-rewards@gitlab.com along with a copy of the National Identity Card of the employee.
+To Update your Beneficiary please fill out the [beneficiary designation form](https://drive.google.com/file/d/1g15Kj36z4y0iGxoeSPw8X-ihVnq-kI9w/view?usp=sharing) and send to Fernanda.dallagnese@wtwco.com and total-rewards@gitlab.com along with a copy of the National Identity Card of the employee.
 
 </details>
 
