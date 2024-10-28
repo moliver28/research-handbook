@@ -16,7 +16,7 @@ Content that belongs on The Source is:
 - Aimed at helping C-suite executives and engineering and infrastructure leaders with their decision-making
 - Written in alignment with the GitLab Style Guide
 
-Content that belongs on the GitLab Blog: 
+Content that belongs on the [GitLab Blog](about.gitlab.com/blog/): 
 - Product-focused articles
 - Highly tactical and technical content (tutorials)
 - Open source community content
