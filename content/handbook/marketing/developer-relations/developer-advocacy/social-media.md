@@ -311,12 +311,20 @@ The [August 2022 issue of Michael's opsindev.news newsletter](https://opsindev.n
 
 ### Release Evangelism
 
-[GitLab releases](https://about.gitlab.com/releases/) add lots of value every month. As a developer, you know about use cases and workflow enhancements they may solve specifically. Use this knowledge to describe **why** this new feature helps you.
+[GitLab releases](https://about.gitlab.com/releases/) add lots of value every month. With so many new features and enhancements added in each release, it is important to notify developers of the upcoming release and the value it can provide. As a developer advocate, you understand use-cases and workflow enhancements these releases may solve specifically. Use this knowledge to describe **why** this new feature helps you.
 
-The [product kick-off](https://about.gitlab.com/direction/kickoff/) provides insights into planned features. As we plan ambitiously, there is no guarantee that everything gets released as planned. Therefore release evangelism campaigns need to happen short notice around the [release date](/handbook/engineering/releases/).
+Devloper advocates can leverage the [product kick-off](https://about.gitlab.com/direction/kickoff/) to obtain insights into planned features. As we plan ambitiously, there is no guarantee that everything gets released as planned.
 
 > **Tip**: GitLab team members can access the [#release-post](https://gitlab.slack.com/archives/C3TRESYPJ) Slack channel to check for updates on the monthly release blog post.
 > Wider community members can check the `gitlab-com/www-gitlab-com repository` for the [release post MR](https://gitlab.com/gitlab-com/www-gitlab-com/-/merge_requests?label_name%5B%5D=release+post), or follow the Developer Advocate issues with the [DE-Release-Evangelism](https://gitlab.com/gitlab-com/marketing/corporate_marketing/corporate-marketing/-/issues?sort=updated_desc&state=opened&label_name[]=DE-Type::Evangelist) label.
+
+GitLab releases can be promoted in a variety of different ways:
+
+- Social Posts (Twitter, LinkedIn): TODO
+- Videos (Polished or Unfiltered): Keep our YouTube audience engaged and provide new content.
+- Blogs: TODO
+
+This content should be published before the next release day, to ensure viewers are provided with current release data.
 
 Workflow:
 
@@ -329,23 +337,27 @@ Workflow:
   - Use the short URLs from the campaign manager to track release evangelism impressions.
   - Use the existing media (images, videos) from the release blog post, or create new screenshots/videos.
   - Link to the documentation, or the release post anchor if already released. **Never link to the review app.**
+- Developer advocates should create content around features from the release they are excited about.
+  - Content should be shared before the next release.
+- GitLab heroes should be encourged to share their favourite upcoming feature on social.
 
 Tips:
 
-- 1-2 shares stretched over 1 week around the release
+- 1-2 shares stretched over 3 weeks around the release
   - If you are on PTO, engage later. Do not schedule shares into your spare time.
 - Message format: `Problem? -> Solution`
 - Add emoji and a CTA URL.
 - Animated Gifs or videos can help with people stopping "doom scrolling".
 - Target a time window for PT and CEST (9-11am PT)
+- Use the [social card validator](/handbook/marketing/developer-relations/developer-advocacy/social-media/#social-card-validators) to verify the social preview of the release blog post. There might be a situation where the preview does not render correctly, or otherwise needs more attention from readers. As a boring solution, resize your browser and [take a screenshot](/handbook/tools-and-tips/mac/#taking-screenshots-and-videos) from the header, including the sub title listing the features, and attach the image to the social shares.
 
 KPIs:
 
 - Impressions and engagement
 
-#### Release Post share
+Content Examples:
 
-Use the [social card validator](/handbook/marketing/developer-relations/developer-advocacy/social-media/#social-card-validators) to verify the social preview of the release blog post. There might be a situation where the preview does not render correctly, or otherwise needs more attention from readers. As a boring solution, resize your browser and [take a screenshot](/handbook/tools-and-tips/mac/#taking-screenshots-and-videos) from the header, including the sub title listing the features, and attach the image to the social shares. Examples for 15.1: [Twitter](https://twitter.com/dnsmichi/status/1539646159500853248), [LinkeDIn](https://www.linkedin.com/posts/dnsmichi_it-is-the-22nd-of-the-month-gitlab-activity-6945411563717574656-ZZdr?utm_source=linkedin_share&utm_medium=member_desktop_web)
+- TODO
 
 #### Release Evangelism MVP
 
@@ -368,55 +380,15 @@ Workflow:
   - For efficient copy/paste of suggested texts, add a comment in the Slack thread containing only the comment text.
   - Check the shares for comments, and engagement metrics
 
-#### Release Evangelism Examples
-
-High performing share examples for GitLab 14:
+#### Notable Release Evangelism Examples
 
 - 14.9: MVP on [LinkedIn](https://www.linkedin.com/posts/dnsmichi_terraform-everyonecancontribute-activity-6912476005810999296-ig8Q) (3,000+ views, 60+ reactions)
-- 14.8: MVP on [Twitter](https://twitter.com/dnsmichi/status/1496140144067465227) (8,000 impressions, 150 engagements) [LinkedIn](https://www.linkedin.com/posts/dnsmichi_everyonecancontribute-devops-activity-6901905241671835648-X4Vk) (2,500 views, 32 reactions)
 - 14.7: MVP on [Twitter](https://twitter.com/dnsmichi/status/1484898545849315333) (18,000 impressions, 600 engagements) [LinkedIn](https://www.linkedin.com/posts/dnsmichi_everyonecancontribute-community-devops-activity-6890664006277754880-OCJ5) (7,500 views, 150 reactions)
-- 14.6: Render markdown titles of issues on [LinkedIn](https://www.linkedin.com/posts/dnsmichi_yesssss-gitlab-146-allows-to-render-markdown-activity-6879493371191156736-RHCu) (3,000 views, 62 reactions)
 - 14.6: MVP on [LinkedIn](https://www.linkedin.com/posts/dnsmichi_everyonecancontribute-activity-6879464875018465280-skt5) (1,500 views, 30 reactions)
 - 14.5: IaC Security scanning on [LinkedIn](https://www.linkedin.com/posts/dnsmichi_security-infrastructureascode-kics-activity-6870082879037173761-kyaQ) (2,300 views, 28 reactions)
-- 14.5: Conditional includes with exists in CI/CD on [Twitter](https://twitter.com/dnsmichi/status/1464279272214958095) (12,000 impressions, 600 engagements)
 - 14.3: Conditional includes in CI/CD on [Twitter](https://twitter.com/dnsmichi/status/1440690461673340933) (21,000 impressions, 1,800 engagements)
 - 14.2: Stageless CI/CD Pipelines on [Twitter](https://twitter.com/dnsmichi/status/1429475480030351364) (55,000 impressions, 1,900 engagements) and [LinkedIn](https://www.linkedin.com/posts/dnsmichi_async-cicd-pipelines-with-needs-as-job-activity-6835241415748939776-I6kI) (9,000 views, 127 reactions)
 - 14.2: Open MR in Gitpod MVP on [Twitter](https://twitter.com/dnsmichi/status/1429469773058936841) (43,000 impressions, 300 engagements) [RT-quoted tweet](https://twitter.com/ludmann/status/1429735681513951235)
-- 14.2: Live Markdown Preview on [Twitter](https://twitter.com/dnsmichi/status/1429463680182276100) (7,000 impressions, 300 engagements) [LinkedIn](https://www.linkedin.com/posts/dnsmichi_wohooooooo-live-markdown-preview-while-typing-activity-6835229767072014336-sDCg) (5,000 views, 62 reactions)
-- 14.2: Parametrize CI/CD include statements on [Twitter](https://twitter.com/dnsmichi/status/1429473222098100233) (8,000 impressions, 400 engagements) [LinkedIn](https://www.linkedin.com/posts/dnsmichi_you-can-parametrize-cicd-include-statements-activity-6835239058843688960-Xc6v) (800 views, 13 reactions)
-- 14.2 Creating branches directly in @gitlab from a @Jira issue?!  Yes please on [Twitter](https://twitter.com/olearycrew/status/1429899257700618249) (15,000 impressions, 900 engagements)
-- 14.2 Oh hey check it out. Pronouns AND name pronunciation is now in GitLab profiles on [Twitter](https://twitter.com/olearycrew/status/1429459101294157829) (5,000 impressions, 150 engagements)
-- 14.1: External API for status checks in MRs on [Twitter](https://twitter.com/dnsmichi/status/1418271636722274307) (8,000 impressions, 500 engagements)
-- 14.1: Helm Charts repository on [LinkedIn](https://www.linkedin.com/posts/dnsmichi_cloudnative-helm-activity-6823949221377388544-9spE) (1,100 views, 17 reactions)
-- 14.1: Kubernetes cluster image scanning on [LinkedIn](https://www.linkedin.com/posts/dnsmichi_kubernetes-activity-6823916460750974976-FJEc) (2,500 views, 27 reactions)
-- 14.0: Pipeline Editor on [Twitter](https://twitter.com/dnsmichi/status/1407359717282828298) (38,000 impressions, 1,400 engagements)
-- 14.0: Container Scanning in GitLab to use Trivy from @AquaSecTeam on [Twitter](https://twitter.com/olearycrew/status/1407358974601707520) (7,000 impressions, 100 engagements)
-- 14.0: Introduction of Terraform Module Registry on [Twitter](https://twitter.com/sarki247/status/1407995667121901568) (4,200 impressions, 55 engagements)
-- 14.0: Cluster management project template using Helm 3 on [Twitter](https://twitter.com/sarki247/status/1408056830551601159) (2,000 impressions, 64 engagements)
-
-Past examples:
-
-- [13.12: Dynamic CI/CD variables based on conditions on Twitter](https://twitter.com/dnsmichi/status/1396129739622998022) (23,000 impressions, 2,300 engagements)
-- [13.11: Tweetstorm to highlight 13.11 and tease 13.12](https://twitter.com/dnsmichi/status/1395686623132758017) (32,000 impressions)
-- [13.10: Nested CI/CD variables on Twitter](https://twitter.com/dnsmichi/status/1383014333500813322) (18,000 impressions, 1,100 engagements) [LinkedIn](https://www.linkedin.com/posts/dnsmichi_gitlab-1310-allows-to-nest-cicd-variables-activity-6787693633425424384-WelD) (2,300 views, 35 reactions)
-- [13.10: Parallel CI/CD job execution in child pipeline triggers on Twitter](https://twitter.com/dnsmichi/status/1382351735960797184) (13,000 impressions, 700 engagements) [LinkedIn](https://www.linkedin.com/posts/dnsmichi_parallel-cicd-job-execution-in-gitlab-improves-activity-6788117887266652160-hNIV) (1,100 views, 25 reactions)
-- [13.9: Expanded CI/CD configuration on Twitter](https://twitter.com/dnsmichi/status/1363879804785803268) (5,000 impressions, 400 engagements)
-- [13.9: SAST with .NET 5.0](https://www.linkedin.com/posts/dnsmichi_gitlab-dotnet-activity-6772576735876714496-noR_) (1,600 views, 43 reactions)
-- [13.8: CI pipeline editor on LinkedIn](https://www.linkedin.com/posts/dnsmichi_best-release-ever-gitlab-inc138-is-here-activity-6758427487870451712-TttR) (5,000 views, 10 comments, 316 reactions, 15 reshares)
-- [13.8: Download CI/CD job artifacts in the MR widget on LinkedIn](https://www.linkedin.com/posts/dnsmichi_gitlab-activity-6758714643964805120-9Yyd) (800 views, 14 reactions)
-- [13.7: Merge Request Reviewers on LinkedIn](https://www.linkedin.com/posts/dnsmichi_gitlab-devops-productivity-activity-6756907989321433088-TRW9) (500 views, 16 reactions)
-- [13.7: Rendered URLs in CI/CD job logs on LinkedIn](https://www.linkedin.com/posts/dnsmichi_everyonecancontribute-activity-6723982784492273664-cwg0) (4,800 views, 350 reactions, 12 comments)
-- [13.6: VS Code GitLab workflow on Twitter](https://twitter.com/dnsmichi/status/1336362663107063808) (16,000 impressions, 700 engagements)
-- [13.5: Group wikis on Twitter](https://twitter.com/dnsmichi/status/1319656105249820672) (18,000 impressions, 600 engagements)
-- [13.4: Pipeline Efficiency docs on LinkedIn](https://www.linkedin.com/posts/dnsmichi_on-a-personal-note-my-first-larger-contribution-activity-6714235003447853056-Kkv4) (2,100 views, 49 reactions)
-- [13.3: KubeCon Kubernetes teaser](https://twitter.com/dnsmichi/status/1296051268448915456) (18,000 impressions, 500 engagements)
-- [13.3: Matrix builds of parallel CI/CD job execution on LinkedIn](https://www.linkedin.com/posts/dnsmichi_gitlab-development-cicd-activity-6702933595721351168-c-nV) (2,400 views, 49 reactions)
-- [13.1: Individual CI/CD job artifcat reports on LinkedIn](https://www.linkedin.com/posts/dnsmichi_gitlab-cicd-development-activity-6683033972479451136-VNVL) (700 views, 16 reactions)
-
-#### Wider community involvement is encouraged
-
-- Ask GitLab heroes in [Discord](https://discord.gg/gitlab) to share their favourite upcoming feature on social.
-- Share the release MR with the review app, including this handbook URL for tips and best practices.
 
 ### Review Features for Release Posts
 
