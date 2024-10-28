@@ -1,6 +1,7 @@
 ---
 title: "Snowflake warehouse optimization"
 description: ""
+math: true
 ---
 
 ## Quick Summary
@@ -46,17 +47,18 @@ While the *price is doubled*, in an ideal world on the proper workload/query, th
 Eventually, if you keep upsizing the warehouse, you'll reach a point of diminishing returns, where the query run-time may be only slightly reduced while the costs increase disproportionately faster.
 Here's a select.dev [cost vs performance diagram](https://images.app.goo.gl/K3asyxSqhJqP2hM76) illustrating this point [1].
 
-### Concept 2: defining 'efficiency'
+### Concept 2: Defining Warehouse efficiency
 
-Efficiency comes in two dimensions: cost and performance.
+Warehouse Efficiency comes in two dimensions: cost and performance. Note that 'warehouse efficiency' is a different concept than [model efficiency](dbt-guide/#model-efficiency).
 
-Because there are two dimensions, 'efficiency' doesn't have a clear definition; it needs to be decided based on how much you value 'cost' versus 'performance.'
+Because there are two dimensions, 'warehouse efficiency' doesn't have a clear definition; it needs to be decided based on how much you value 'cost' versus 'performance.'
 
-In our case, we will say here that we value 'cost' more than 'performance'. This is because we don't have a strict SLA for many of our models.
+In our case, we want one of these two outcomes when using a different warehouse:
 
-However, that does not mean we are willing to sacrifice all performance. In an ideal world, we stay pretty close to our existing dbt run-times. However, when possible, we would rather 'horizontally scale' rather than 'vertically scale'. That is, we would rather run more models concurrently on a cheaper warehouse than run fewer models concurrently on a more expensive warehouse.
+- *maintain* existing runtimes while reducing costs
+- *reduce* runtimes, without increasing cost drastically
 
-Based on the requirements above, we will define efficiency clearly as follows:
+Based on the requirements above, we will define warehouse efficiency clearly as follows:
 
 > **A warehouse is efficient when compared to the next-size smaller warehouse; the query run-time is reduced by 40% or more.**
 
@@ -390,3 +392,4 @@ To summarize, the priority for right-sizing warehouses should be the largest mod
 
 - [1] [select.dev: warehouse sizing](https://select.dev/posts/snowflake-warehouse-sizing)
 - [2] calculating percentage improvements for run-times, [StackOverflow](https://stackoverflow.com/a/28404036)
+``
