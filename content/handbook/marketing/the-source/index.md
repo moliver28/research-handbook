@@ -25,4 +25,4 @@ Content that belongs on the [GitLab Blog](about.gitlab.com/blog/):
 
 If you’d like to learn more about contributing to the GitLab Blog, visit the [Blog Handbook](https://handbook.gitlab.com/handbook/marketing/blog/). 
 
-You can contribute to the success of [The Source](about.gitlab.com/the-source/) by spreading the word and sharing new posts with your network.  
+You can contribute to the success of [The Source](about.gitlab.com/the-source/) by spreading the word and sharing new posts with your network.
