@@ -237,7 +237,7 @@ Contributors to GitLab — the platform and the company — make up the GitLab c
 
 ### Acceptable Volunteer Activities
 
-All GitLab volunteer activities must support registered nonprofit organizations that align with our values and our GitLab [Philanthropy Policy](/handbook.gitlab.com/handbook/legal/philanthropy-policy/). A “Registered Nonprofit Organization” is one that has been registered with the local government or authorized agency within its applicable local, state, provincial, federal, or national government.
+All GitLab volunteer activities must support registered nonprofit organizations that align with our values and our GitLab [Philanthropy Policy](/handbook/legal/philanthropy-policy/). A “Registered Nonprofit Organization” is one that has been registered with the local government or authorized agency within its applicable local, state, provincial, federal, or national government.
 
 ### Utilizing GitLab’s PTO Policy to Volunteer
 
