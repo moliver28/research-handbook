@@ -20,6 +20,8 @@ The projects currently using this are
   * [Open Merge Requests](https://gitlab.com/gitlab-org/build/CNG/-/merge_requests?scope=all&state=opened&label_name[]=automation%3Abot-authored)
 * [charts/gitlab](https://gitlab.com/gitlab-org/charts/gitlab)
   * [Open Merge Requests](https://gitlab.com/gitlab-org/charts/gitlab/merge_requests?scope=all&state=opened&label_name[]=automation%3Abot-authored)
+* [cloud-native/gitlab-operator](https://gitlab.com/gitlab-org/cloud-native/gitlab-operator)
+  * [Open Merge Requests](https://gitlab.com/gitlab-org/cloud-native/gitlab-operator/-/merge_requests?scope=all&state=opened&label_name[]=automation%3Abot-authored)
 
 All dependencies for a repository are defined [here](https://gitlab.com/gitlab-org/frontend/renovate-gitlab-bot/-/tree/main/renovate/distribution).
 
