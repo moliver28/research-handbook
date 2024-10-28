@@ -11,13 +11,47 @@ A GitLab contributor room is available on [Discord](https://discord.gg/gitlab) f
 
 ## Issues
 
-### Labeling issues for community contributors
+### Labelling issues for community contributors
 
 See guidance on [seeking wider community contributions](/handbook/marketing/developer-relations/contributor-success/community-contributors-workflows/#seeking-wider-community-contributions) and the [criteria for `quick win` issues](/handbook/marketing/developer-relations/contributor-success/community-contributors-workflows/#criteria-for-quick-win-issues).
 
 ### Community issues workflow manual process
 
 See the [partial issue triage checklist](/handbook/engineering/infrastructure/engineering-productivity/issue-triage/#partial-triage-checklist).
+
+### Bounties
+
+Issue bounties allow users to offer rewards for issues.
+Bounty terms are between the benefactor(s) and the bounty hunter(s) and outside the remit of GitLab.
+GitLab does not take responsibility for redemption or disagreements involving bounties.
+
+#### Adding bounties to issues
+
+To offer a bounty to a issue, mention the product manager for the
+[relevant product group](/handbook/product/categories/).
+Provide details about the bounty reward, for example:
+
+`Hey @gweaver I am prepared to offer a financial incentive for anyone who can delivery this feature. If you're happy it aligns with the product direction, could you please add the ~bounty label.`
+
+If the issue aligns with the product direction, the product manager assigns the `~bounty` label.
+They also update the issue description to add/update section `Bounty Benefactors` listing the benefactor(s).
+Meaning it is easier for the bounty hunters to know the benefactors to mention when discussing terms.
+
+#### Displaying issue with bounties
+
+To display all [issues that have bounties](https://gitlab.com/gitlab-org/gitlab/-/issues/?sort=popularity&state=opened&label_name%5B%5D=bounty&first_page_size=20) assigned, use the filter in the issue search and look for the label "bounty".
+
+#### Accepting a bounty
+
+To accept a bounty, mention the benefactor(s) offering the bounty/bounties and discuss the terms.
+
+Already accepted bounties do not preclude anyone else working on it too.
+But `@mention` the bounty hunter(s) about possibility of collaboration beforehand.
+
+#### Claiming a bounty
+
+When you have completed the bounty as per the discussed terms, mention the benefactor(s) offering the bounty and provide an update.
+Payment, product, or services are processed outside of GitLab.
 
 ## Merge Requests
 
