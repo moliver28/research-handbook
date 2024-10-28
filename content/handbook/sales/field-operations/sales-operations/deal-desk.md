@@ -287,6 +287,14 @@ In addition to the step-by-step quoting guides that follow this paragraph, check
 | Add Quarterly True Up Language | Standard Quarterly True Up language will populate in the Notes section of the Order Form |
 | Remove Signature Block         | Signature Block will be removed. Use for customers with Existing Agreements (MSA)        |
 
+#### Non-Standard Deal Elements
+
+As of 2024-11-20, we have created a new quote section called “Non-Standard Deal Elements.” The fields in this section should be populated when certain non-standard deal elements are requested. If populated, these fields will trigger an approval requirement. By populating the applicable fields and clicking [“Submit for Approval,”](/handbook/sales/field-operations/order-processing/#standard-quote-approval) users can seek approvals via automated quote approval workflow.
+
+![Non-Standard Deal Elements](/handbook/sales/images/nonstandarddealelements.png)
+
+
+
 #### Billing/Payment Schedule
 
 At GitLab, the default billing/payment schedule is full prepayment. In the case of multi-year deals, you may opt to choose Annual Payments. As noted above, you may use the Annual Payments toggle field on the quote to populate language on the order form that commits the order in question to an annual billing/payment schedule.
