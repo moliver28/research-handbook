@@ -212,7 +212,7 @@ graph TD;
   I -->|""| N[Milestone Planning]
   N -->|"EM/PM will plan for the next milestone and assign %XX.X labels to issues that are likely to make the next release cycle."| E[Feature Release]
   I -->|""| D[Development]
-  D -->|"When work starts on the epic, all of it's child issues are labelled '(workspaces|webide)-workflow::prioritized' and 'Next 1-3 Releases'"| E[Feature Release]
+  D -->|"When work starts on the epic, all of it's child issues are labelled '(workspaces|webide)-workflow::prioritized' and 'Next 1-3 Releases'"| E
   
 ```
 
