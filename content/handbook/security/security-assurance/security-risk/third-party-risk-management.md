@@ -220,6 +220,7 @@ Deficiencies commonly identified during our TPRM procedures are listed below:
    - If the Okta integration is not in place or not possible, native multi-factor authentication (MFA) capabilities can be a mitigating control.
 1. Systems lacking evidence of a recent penetration test
 1. Unresolved deficiencies documented within the penetration test with no apparent remediation plan or expected remediation date
+   - Penetration testing findings are reviewed by the engineer to understand the nature of the deficiency and their impact to GitLab. Deficiencies found to present a negligible impact to GitLab or that are sufficiently mitigated by existing GitLab controls may not result in an adverse conclusion. 
 
 *While Okta SSO integration is GitLab's preferred method of authentication, IT Engineering can review and approve alternative SSO methods (such as Google Oauth) on a case by case basis.
 
