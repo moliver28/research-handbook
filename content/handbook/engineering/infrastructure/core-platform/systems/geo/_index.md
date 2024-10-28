@@ -65,7 +65,7 @@ We ask requestors to create an issue in the [Geo Customers Project](https://gitl
 
 Please make sure to use and fill the [Geo support request issue template](https://gitlab.com/gitlab-com/geo-customers/-/blob/master/.gitlab/issue_templates/Support%20Request%20-%20Geo.md) for Geo related questions and [Backup and Restore support request issue template](https://gitlab.com/gitlab-com/geo-customers/-/blob/master/.gitlab/issue_templates/Support%20Request%20-%20Backup%20and%20Restore.md). As the requestor you **only** need to fill the Customer Info and Support Question sections. 
 
-Other than the [Collaboration template](https://gitlab.com/gitlab-com/geo-customers/-/issues/new?issuable_template=Support%20Request%20-%20Collaboration), RFHs should come from Support Engineers once a support ticket has been opened.
+Other than the [Collaboration template](https://gitlab.com/gitlab-com/geo-customers/-/issues/new?issuable_template=Support%20Request%20-%20Collaboration), RFHs must be opened by Support Engineers once a support ticket has been opened.
 
 **At minimum Zendesk links and logs are especially important. The issue will not enter our normal triage process if they are missing. If no update has been made on an issue for 2 weeks, they will be auto closed by the EM/PM/Assignee.**
 
