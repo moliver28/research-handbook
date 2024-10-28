@@ -15,13 +15,13 @@ We use Renovate to monitor external repositories, and open a merge request to th
 The projects currently using this are
 
 * [omnibus-gitlab](https://gitlab.com/gitlab-org/omnibus-gitlab)
-  * [Open Merge Requests](https://gitlab.com/gitlab-org/omnibus-gitlab/merge_requests?scope=all&state=opened&label_name[]=automation%3Abot-authored)
+  * [Open Merge Requests](https://gitlab.com/gitlab-org/omnibus-gitlab/-/issues/8557)
 * [CNG images](https://gitlab.com/gitlab-org/build/CNG)
-  * [Open Merge Requests](https://gitlab.com/gitlab-org/build/CNG/-/merge_requests?scope=all&state=opened&label_name[]=automation%3Abot-authored)
+  * [Open Merge Requests](https://gitlab.com/gitlab-org/build/CNG/-/issues/1927)
 * [charts/gitlab](https://gitlab.com/gitlab-org/charts/gitlab)
-  * [Open Merge Requests](https://gitlab.com/gitlab-org/charts/gitlab/merge_requests?scope=all&state=opened&label_name[]=automation%3Abot-authored)
+  * [Open Merge Requests](https://gitlab.com/gitlab-org/charts/gitlab/-/issues/5629)
 * [cloud-native/gitlab-operator](https://gitlab.com/gitlab-org/cloud-native/gitlab-operator)
-  * [Open Merge Requests](https://gitlab.com/gitlab-org/cloud-native/gitlab-operator/-/merge_requests?scope=all&state=opened&label_name[]=automation%3Abot-authored)
+  * [Open Merge Requests](https://gitlab.com/gitlab-org/cloud-native/gitlab-operator/-/issues/1688)
 
 All dependencies for a repository are defined [here](https://gitlab.com/gitlab-org/frontend/renovate-gitlab-bot/-/tree/main/renovate/distribution).
 
