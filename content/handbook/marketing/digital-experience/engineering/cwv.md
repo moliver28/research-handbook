@@ -40,3 +40,36 @@ DebugBear is a performance monitoring tool tailored to track page speed and Core
    * Use Cases: Monitor Core Web Vitals, analyze page speed, simulate different network conditions, set performance alerts.
    * Core Web Vitals: Directly tracks LCP, CLS, and INP.
    * Cons: Lacks SEO and user traffic insights, limited integration with other tools.
+
+## CWV Testing Procedure
+
+When you makes changes that might affect CWV, it is crucial to perform before and after tests to measure the impact of those changes. Here’s the process:
+
+1. **Contact Point:**
+
+    - If you implement changes that could influence CWV metrics, contact [Miracle](https://gitlab.com/mirbanks) or [Hanif](https://gitlab.com/hsmith-watson) within the merge request (MR).
+    - Clearly describe the nature of the change and why it might affect CWV.
+
+2. **Before and After Testing:**
+
+    - [Miracle](https://gitlab.com/mirbanks) or [Hanif](https://gitlab.com/hsmith-watson) will create a set of before and after tests to evaluate the impact of the changes on CWV.
+    - Testing will be conducted on **3 URLs** that are representative of the site’s overall content and structure.
+    - The tests will be carried out using **DebugBear**, a reliable tool for monitoring CWV. **Lighthouse in DevTools should not be used** as it is known for discrepancies and may not provide consistent or accurate results.
+    - The goal is to compare the CWV metrics of these URLs before and after the change.
+
+3. **Monitoring in Google Search Console:**
+    - For significant changes, it may take approximately **one week** after the change is merged for Google Search Console to reflect the impact on CWV based on real user data.
+    - Monitoring these metrics in Google Search Console helps to confirm whether the changes have had the desired effect on actual site users.
+
+### Reporting and Follow-Up
+
+- After the testing is completed, results will be documented and shared with the team.
+- Any necessary adjustments or further optimizations based on the test results will be discussed and implemented accordingly.
+
+### Best Practices
+
+- Always initiate CWV testing for any changes that could impact loading performance, interactivity, or visual stability.
+- Utilize DebugBear for reliable monitoring, avoiding the use of Lighthouse in DevTools due to its inconsistencies.
+- Regularly monitor Google Search Console for any unexpected changes in CWV metrics.
+
+By following these guidelines, we ensure that any changes made to the website are thoroughly tested for their impact on user experience, maintaining a high standard for CWV across all pages.
