@@ -198,7 +198,7 @@ In case of a disaster, this allows us to replay WAL logs to a specific point in 
 
 #### Restore Testing
 
-A backup is only worth something if it can be successfully restored in a certain amount of time. In order to monitor the state of backups and measure the expected recovery time to maintain our RPO/RTO, we employ a daily process to test the backups.
+A backup is only worth something if it can be successfully restored in a certain amount of time. In order to monitor the state of backups and measure the expected recovery time to maintain our [RPO/RTO](https://handbook.gitlab.com/handbook/engineering/architecture/design-documents/disaster_recovery/), we employ a daily process to test the backups.
 
 This process is implemented as a CI pipeline (see [README.md](https://gitlab.com/gitlab-com/gl-infra/gitlab-restore/postgres-gprd/-/blob/master/README.md) for details). On a daily schedule, a fresh database GCE instance is created that restores from the latest backup, gets configured as an archive replica that recovers from the WAL archive (essentially performing PITR). After this is complete, the restored database is verified.
 
