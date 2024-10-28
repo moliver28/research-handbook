@@ -143,8 +143,8 @@ ChatOps will provide an interface for engineers to change a feature flag on Cell
 
 ChatOps communicates with Tissue, and Tissue sets the feature flag on every cell.
 
-If Tissue fails to set the feature flag on any cell, after a few retries,
-an error is displayed to the initiator of the ChatOps command on Slack.
+Success or failure of the operation will be communicated via comments on the rollout
+issue as well as issues in the feature flag log project.
 
 If a feature flag needs to be turned off due to an incident, it will have to be
 turned off for all cells.
