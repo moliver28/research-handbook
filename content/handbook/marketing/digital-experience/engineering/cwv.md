@@ -1,5 +1,5 @@
 ---
-title: DEX Code Review Guidelines
+title: DEX Core Web Vitals 
 description: "This page provides an overview of Core Web Vitals, key metrics for optimizing website performance and user experience, and introduces various tools for monitoring and improving these metrics, including Google Analytics, Google Search Console, ContentKing, and DebugBear."
 ---
 
