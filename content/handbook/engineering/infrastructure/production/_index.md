@@ -174,7 +174,7 @@ Exceptions to this backup policy will be tracked in the [compliance issue tracke
 
 ### Purpose
 
-This is a overview of the disaster recovery strategy we have in place for the PostgreSQL database. In this context, a disaster means losing the main database cluster or parts of it (a DROP DATABASE-type incident).
+This is a overview of the disaster recovery strategy we have in place for the PostgreSQL database. In this context, a disaster means losing the any one of the database clusters or parts of them (a DROP DATABASE-type incident).
 
 ### Scope
 
@@ -190,7 +190,7 @@ Applies to recovery of the GitLab PostgreSQL production database in a disaster s
 ### Summary
 
 For the [PostgreSQL database disaster recovery process](#database-recovery) we utilize
-Postgresql backups with WAL-G , where we constantly stream completed [WAL files](https://www.postgresql.org/docs/current/wal-intro.html) and push "full" backup periodically( on a daily basis ) to GCS to enable PITR [https://www.postgresql.org/docs/9.6/continuous-archiving.html].
+Postgresql backups with WAL-G , where we constantly stream completed [WAL files](https://www.postgresql.org/docs/current/wal-intro.html) and push "full" backup periodically( on a daily basis ) to GCS to enable [PITR](https://www.postgresql.org/docs/9.6/continuous-archiving.html).
 
 In case of a disaster, this allows us to replay WAL logs to a specific point in time. We utilize [delayed replicas](#delayed-replica) to quickly perform PITR from the WAL archive in case disaster strikes additionally we have [archived replicas](#archive-replica) inplace to continuously validate the WAL archive, ensuring that the Point-in-Time Recovery (PITR) process is intact and can be applied without interruption.
 
