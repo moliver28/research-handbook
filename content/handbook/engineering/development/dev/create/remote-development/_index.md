@@ -213,11 +213,11 @@ graph TD;
   I --> N[Milestone Planning]
   I --> D[Development]
 
-  N -->|"EM/PM will plan for the next milestone and assign %XX.X labels to issues that are likely to make the next release cycle."| E1[Planning Issue Published]
-  D -->|"When work starts on the epic, all of its child issues are labelled '(workspaces|webide)-workflow::prioritized' and 'Next 1-3 Releases'"| E2[Development Release]
+  N -->|"EM/PM will plan for the next milestone and\nassign %XX.X labels to issues that are likely to make the next release cycle."| E1[Planning Issue Published]
+  D -->|"When work starts on the epic, all of its child issues\nare labelled '(workspaces|webide)-workflow::prioritized' and 'Next 1-3 Releases'"| E2[Development Release]
 
-  E1 -->|"Finalize planning."| Final[Milestone Release]
-  E2 -->|"Finalize development."| Final
+  E1 -->|""| Final[Milestone Release]
+  E2 -->|""| Final
 ```
 
 #### 1. High Level Validation and Planning
