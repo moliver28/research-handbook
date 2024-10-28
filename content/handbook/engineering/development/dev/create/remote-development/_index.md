@@ -217,8 +217,7 @@ graph TD;
   D -->|"When work starts on the epic, all of its child issues are labelled '(workspaces|webide)-workflow::prioritized' and 'Next 1-3 Releases'"| E2[Development Release]
 
   E1 -->|""| Final[Milestone Release]
-  E2 -->|""| Final
-  
+  E2 -->|""| Final[Milestone Release]
 ```
 
 #### 1. High Level Validation and Planning
