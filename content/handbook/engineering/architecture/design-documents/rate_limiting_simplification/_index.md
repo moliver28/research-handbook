@@ -141,6 +141,10 @@ flowchart LR
     app-settings --> cell-app
 ```
 
+### Technical Roadmap
+
+This initiative focuses on enabling us to improve the performance, stability, and scalability of GitLab through making rate limiting configuration easier to manage, and reducing the cognitive overhead of needing to investigate what rates limits are configured, and where (as illustrated above). This has been seen as a common pain point across Engineering and Support, therefore focusing on iterative improvements we can make to this configuration will put us in a more secure position.
+
 ### Goals
 
 Simplify rate limiting across the GitLab ecosystem.
@@ -267,12 +271,14 @@ flowchart LR
 
 Create a Rate Limiting interface for configuration of rate limits across all parts of GitLab.com and Cells. While this interface will not be responsible for enforcing limits (throttling will still take place in Cloudflare, or the application itself, for example), it will provide a consolidated catalogue of limits, as well as providing a mechanism to override any limits per Namespace. To provide this single source of truth, any new throttles that get added need to be reflected in the catalogue with their default values. If these default-limits are implemented in the application, this means that the value in the catalogue is what packages for self-managed will ship with.
 
+The Rate Limiting Single Source of Truth (SSOT) should focus on configuring rate limiting rules and thresholds in an abstracted manner regardless of the mechanism that is used to apply these rules to the underlying systems. For example, this might look like a well-defined YAML file and schema, defining Rate Limiting from GitLab’s domain-specific-view (customers, organizations, cells, features, etc), rather than directly as transport semantics (eg, endpoints and HTTPS). This definition can then be transformed into Cloudflare, GitLab Application (or even as-yet-undetermined future technologies) as configuration through the use of CI workflows and supporting scripts.
+
 In practice, what this might look like:
 
-1. A new rule is merged into to the Rate Limit Interface repository, producing a new version.
-1. An automation raises a corresponding MR to update the rate limiting configuration in either an application repository or config-mgmt.
-1. Upon merge the new limits are applied, either using Terraform for Cloudflare, or loaded into the GitLab application.
-1. Pipeline run that will parse and update the rate limit thresholds in the documentation.
+1. A new rule is merged into to the Rate Limit Source of Truth, producing a new version.
+1. An automation raises a corresponding MR to update the rate limiting configuration in the respective repositories.
+1. Upon merge the new limits are applied using configuration that will apply to Cloudflare or loaded into the GitLab Application.
+1. A CI workflow run will parse and update the rate limit thresholds in our documentation.
 
 **Note:** the specifics about this implementation are subject to change, as we progress through the first two phases and learn more.
 
@@ -360,7 +366,7 @@ Rate Limit configuration within the application will be slightly more difficult.
 
 ### Publishing Rate Limits
 
-One advantage of having all rate limits declared in YAML is a centralised source of truth for limits that are imposed on requests to GitLab.com. This YAML can be parsed then published to our documentation or handbook, allowing for greater transparency for our users. An added bonus is that any changes to the service would automatically update our documentation, and save manual updates needing to be published.
+One advantage of having all rate limits declared in YAML in a centralized source of truth for limits that are imposed on requests to GitLab.com. This YAML can be parsed then published to our documentation or handbook, allowing for greater transparency for our users. An added bonus is that any changes to the service would automatically update our documentation, and save manual updates needing to be published.
 
 ### Confidential Rate Limits
 
