@@ -9,7 +9,7 @@ Business Continuity Plan is the process involved in creating a system of prevent
 
 ## Scope
 
-GitLab, by its remote-only nature, is not easily affected by typical causes of business disruption, such as local failures of equipment, power supplies, telecommunications, social unrest, terrorist attacks, fire, or natural disasters. System data from the [Business Impact Analysis](/handbook/security/security-assurance/security-risk/storm-program/business-impact-analysis.html) may be leveraged as part of business continuity planning and testing. Additionally, the BCP works in conjunction with the [Disaster Recovery Plan (DRP)](https://gitlab.com/gitlab-com/gl-infra/readiness/-/blob/master/library/disaster-recovery/index.md).
+GitLab, by its remote-only nature, is not easily affected by typical causes of business disruption, such as local failures of equipment, power supplies, telecommunications, social unrest, terrorist attacks, fire, or natural disasters. System data from the [Business Impact Analysis](/handbook/security/security-assurance/security-risk/storm-program/business-impact-analysis/) may be leveraged as part of business continuity planning and testing. Additionally, the BCP works in conjunction with the [Disaster Recovery Plan (DRP)](https://gitlab.com/gitlab-com/gl-infra/readiness/-/blob/master/library/disaster-recovery/index.md).
 
 ## Roles & Responsibilities
 
@@ -45,8 +45,8 @@ The Recovery Time Objective (RTO) is the duration of time a service level or bus
 For a business continuity plan to be effective, it needs to be triggered as soon as possible; too early or late can reduce its efficacy. Key decision points to consider when a BCP has to be triggered or invoked are given below:
 
 - When an incident turns into an event like a disaster, breach, or something which classifies as a [Severity 1](/handbook/security/engaging-with-security/#severity-and-priority-labels-on-security-issues)
-- When the estimated time of resolution for a potential breach is greater than the normal estimated time for regular [security incidents](/handbook/security/security-operations/sirt/sec-incident-response.html)
-- When the recovery of an incident is uncertain, a decision must be made to invoke the business continuity plan if the disruption cannot be resolved within the specified [incident recovery timelines](/handbook/security/security-operations/sirt/sec-incident-response.html)
+- When the estimated time of resolution for a potential breach is greater than the normal estimated time for regular [security incidents](/handbook/security/security-operations/sirt/sec-incident-response/)
+- When the recovery of an incident is uncertain, a decision must be made to invoke the business continuity plan if the disruption cannot be resolved within the specified [incident recovery timelines](/handbook/security/security-operations/sirt/sec-incident-response/)
 - When resolution of an incident with critical customers, depending on their service-level agreements is delayed, then the BC plan must be triggered
 
 ### Data Continuity System
@@ -179,5 +179,5 @@ Exceptions to this procedure will be tracked as per the [Information Security Po
 ## References
 
 - Parent Policy: [Information Security Policy](/handbook/security/)
-- [Business Impact Analysis](/handbook/security/security-assurance/security-risk/storm-program/business-impact-analysis.html)
+- [Business Impact Analysis](/handbook/security/security-assurance/security-risk/storm-program/business-impact-analysis/)
 - [Disaster Recovery Plan (DRP)](https://gitlab.com/gitlab-com/gl-infra/readiness/-/blob/master/library/disaster-recovery/index.md)

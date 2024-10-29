@@ -36,10 +36,10 @@ The following gives an overview of our scope and ownership.
 1. [Monitoring fundamentals](https://gitlab.com/gitlab-com/runbooks/blob/e00eeb59937a9043c5db04314a35acb05c4e9288/docs/monitoring/README.md#L1)
    1. Metrics stack
    1. Logging stack
-1. [Error budgets](/handbook/engineering/infrastructure/team/scalability/observability/error_budgets.html)
+1. [Error budgets](/handbook/engineering/infrastructure/team/scalability/observability/error_budgets/)
    1. Ownership of concept and implementation
    1. Delivery of monthly error budget report
-1. [Capacity planning](/handbook/engineering/infrastructure/team/scalability/observability/capacity_planning.html)
+1. [Capacity planning](/handbook/engineering/infrastructure/team/scalability/observability/capacity_planning/)
    1. [Triage rotation for .com](/handbook/engineering/infrastructure/capacity-planning/#gitlabcom-capacity-planning)
    1. [Operational aspects for GitLab Dedicated capacity planning](https://docs.gitlab.com/ee/architecture/blueprints/capacity_planning/)
    1. Developing [Tamland](https://gitlab.com/gitlab-com/gl-infra/tamland), the forecasting tool
@@ -52,7 +52,7 @@ The following gives an overview of our scope and ownership.
 The group is an owner of several performance indicators that roll up to the Infrastructure department indicators:
 
 1. [Service Maturity model](/handbook/engineering/infrastructure/service-maturity-model/) which covers GitLab.com's production services.
-1. The forecasting [project named Tamland](/handbook/engineering/infrastructure/team/scalability/observability/tamland.html) which generates capacity warnings to prevent incidents.
+1. The forecasting [project named Tamland](/handbook/engineering/infrastructure/team/scalability/observability/tamland/) which generates capacity warnings to prevent incidents.
 
 These are combined to enable us to better prioritize team projects.
 

@@ -25,7 +25,7 @@ Please refer to the [communication section of the StORM Program & Procedures]({{
 
 GitLab maintains an industry-leading [Third Party Risk Management (TPRM) Program](/handbook/security/security-assurance/security-risk/third-party-risk-management) through the use of automation, continuous monitoring, and deep integration across business functions to validate the security of GitLab data shared with external parties.
 
-The integration of GitLab's TPRM program within the vendor Procurement flow enables cross-functional [collaboration](/handbook/values/#collaboration) between Privacy, Legal, IT, and People Operations to facilitate [transparent](/handbook/values/#transparency), risk-based decision making, Business and Stakeholder-focused [Results](/handbook/values/#results), and adherence to GitLab's Regulatory and [Compliance Obligations](/handbook/security/security-assurance/security-compliance/certifications.html). The vendor relationships maintained through this program are leveraged to create efficiencies across the organization.
+The integration of GitLab's TPRM program within the vendor Procurement flow enables cross-functional [collaboration](/handbook/values/#collaboration) between Privacy, Legal, IT, and People Operations to facilitate [transparent](/handbook/values/#transparency), risk-based decision making, Business and Stakeholder-focused [Results](/handbook/values/#results), and adherence to GitLab's Regulatory and [Compliance Obligations](/handbook/security/security-assurance/security-compliance/certifications/). The vendor relationships maintained through this program are leveraged to create efficiencies across the organization.
 
 ### Business Impact Analysis (BIA) and Critical System Tiering (CST){#bia}
 

@@ -6,7 +6,7 @@ title: Engineering Mentorship
 
 ### Line Managers and Senior Individual Contributors
 
-The [PlatoHQ Program](/handbook/engineering/plato/index.html) has a total of 10 Engineering Managers/Senior IC's participating. The program exists of both self-learning via an online portal and 1-1 sessions with a mentor.
+The [PlatoHQ Program](/handbook/engineering/plato/) has a total of 10 Engineering Managers/Senior IC's participating. The program exists of both self-learning via an online portal and 1-1 sessions with a mentor.
 
 ### Senior Leaders in Engineering
 

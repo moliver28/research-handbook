@@ -201,7 +201,7 @@ Error budget events are attributed to stage groups via feature categorization. T
 
 Updates to feature categories only change how future events are mapped to stage groups. Previously reported events will not be retroactively updated.
 
-The [Scalability:Projections team](/handbook/engineering/infrastructure/team/scalability/projections.html) owns keeping the mappings up to date when feature categories are changed in the website repository. When the categories are changed in `stages.yml`, a scheduled pipeline creates an issue ([example issue](https://gitlab.com/gitlab-com/gl-infra/scalability/-/issues/2084)) on the [build board](https://gitlab.com/gitlab-com/gl-infra/scalability/-/boards/1697160). The issue contains the pipeline link and instructions to follow in the description. The categories need to be synced to two places:
+The [Scalability:Projections team](/handbook/engineering/infrastructure/team/scalability/projections/) owns keeping the mappings up to date when feature categories are changed in the website repository. When the categories are changed in `stages.yml`, a scheduled pipeline creates an issue ([example issue](https://gitlab.com/gitlab-com/gl-infra/scalability/-/issues/2084)) on the [build board](https://gitlab.com/gitlab-com/gl-infra/scalability/-/boards/1697160). The issue contains the pipeline link and instructions to follow in the description. The categories need to be synced to two places:
 
 1. The [Rails application](https://docs.gitlab.com/ee/development/feature_categorization/#updating-configfeature_categoriesyml).
 1. The [Runbooks repository](https://gitlab.com/gitlab-com/runbooks/-/blob/master/services/stage-group-mapping.jsonnet).
@@ -244,7 +244,7 @@ Our current contract is 99.95% availability and a 20 minute monthly error budget
 
 **Exceptions**
 
-Temporary exceptions are granted as a means to allow different stakeholders to fulfill higher priority business needs, if it is estimated that the granted exception is not creating additional risk to GitLab.com reliability. Note that *exceptions* are different from [Custom Targets](/handbook/engineering/error-budgets/custom-targets/index.html), which set properties on endpoints defining acceptable performance.
+Temporary exceptions are granted as a means to allow different stakeholders to fulfill higher priority business needs, if it is estimated that the granted exception is not creating additional risk to GitLab.com reliability. Note that *exceptions* are different from [Custom Targets](/handbook/engineering/error-budgets/custom-targets/), which set properties on endpoints defining acceptable performance.
 
 Valid reasons for an exception are:
 

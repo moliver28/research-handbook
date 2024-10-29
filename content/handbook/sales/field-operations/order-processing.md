@@ -282,7 +282,7 @@ During the Sales process, there may be a need for Sales to "pause" an upcoming A
 
    - To provide the customer with a legacy or offline license file, Sales should first collect the necessary approvals as noted in the [Deal Approval Matrix](https://docs.google.com/document/d/1-CH-uH_zr0qaVaV1QbmVZ1rF669DsaUeq9w-q1QiKPE/edit#bookmark=id.6ae1zz9525h7). Sales should then work with Support Engineering to request that a legacy or offline license be sent to the customer.
    - To open a Support ticket, click [here](/handbook/support/internal-support/#internal-requests).
-   - To review the Support process, click [here](/handbook/support/license-and-renewals/workflows/self-managed/cloud-licensing.html#post-sale-exemptions-support).
+   - To review the Support process, click [here](/handbook/support/license-and-renewals/workflows/self-managed/cloud-licensing/#post-sale-exemptions-support).
 
 #### Resources
 
@@ -1363,7 +1363,7 @@ Per the [Deal Approval Matrix](https://docs.google.com/document/d/1-CH-uH_zr0qaV
 
 graph LR;
     A[Executed Agreement<br>attached to Opportunity] --> |Submit for Approval|B[Sr. Dir., Deal Desk<br> Reviews Non-Standard<br> Executed Agreement];
-    B --> |Sr. Dir. Deal Desk<br>Approved|C[Revenue Team<br> Reviews Non-Standard<br>Executed Agreement]; 
+    B --> |Sr. Dir. Deal Desk<br>Approved|C[Revenue Team<br> Reviews Non-Standard<br>Executed Agreement];
     C --> |Revenue Team<br>Approved|D[Sr. Dir., Legal<br> Reviews Non-Standard<br>Executed Agreement];
     D --> |Sr. Dir., Legal<br>Approved|E[Order Management Reviews<br>Opportunity for Approval];
     E --> |Order Mgmt<br>Approved|F[Finance Review];

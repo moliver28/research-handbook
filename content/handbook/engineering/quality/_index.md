@@ -276,7 +276,7 @@ Moved to [release documentation](https://gitlab.com/gitlab-org/release/docs/).
 
 The Quality department collaborates with the [Security department's compliance team](/handbook/security/#security-compliance) to handle requests from customers and prospects.
 
-The Risk and Field Security team maintains the current state of answers to these questions, please follow the process to [request completion of assessment questionnaire](/handbook/security/security-assurance/field-security/customer-security-assessment-process.html).
+The Risk and Field Security team maintains the current state of answers to these questions, please follow the process to [request completion of assessment questionnaire](/handbook/security/security-assurance/field-security/customer-security-assessment-process/).
 
 If additional input is needed from the Quality team, the DRI for this is the Director of Quality. Tracking of supplemental requests will be via a confidential issue in the [compliance issue tracker](https://gitlab.com/gitlab-com/gl-security/security-assurance/sec-compliance/compliance). Once the additional inputs have been supplied, this is stored in the Compliance team's domain for efficiency.
 

@@ -60,7 +60,7 @@ done, the schedule is classified as "unused".
 ## Modifying a schedule
 
 **Note** These should never be scheduled for the same day, as they often impact
-others. Review [our workflows](/handbook/support/readiness/operations/docs/pagerduty/change_management.html) on managing
+others. Review [our workflows](/handbook/support/readiness/operations/docs/pagerduty/change_management/) on managing
 pagerduty for more information.
 
 1. Login to [pagerduty](https://gitlab.pagerduty.com/)

@@ -63,7 +63,7 @@ MRs added after the Thursday, 1 week before release should target the `release-x
 - **Release Post Manager and Technical Writer** perform final reviews
   - Changes after <time datetime="16:00">4 pm UTC (11 am ET / 8 am PT)</time> on the Monday of release week will be done via the `release-X-Y` branch and are subject to approval by the Release Post Manager.
   - The TW Lead verifies the deprecations and removals links in the release post
-  - RPM create a [What's New](/handbook/product/categories/gitlab-the-product/index.html#using-whats-new-to-communicate-updates-to-users) MR
+  - RPM create a [What's New](/handbook/product/categories/gitlab-the-product/#using-whats-new-to-communicate-updates-to-users) MR
 
 {{% note %}}
 The Monday through Tuesday of release week can fall on vacations or holidays. PMs should designate who to respond to time-sensitive inquiries should they be unreachable. Release Post Managers are empowered to make decisions and [display bias for action](/handbook/values/#bias-for-action) if they haven't received a response by EOD on the Tuesday of release week.
@@ -166,7 +166,7 @@ The responsibilities of a technical advisor can be seen in more detail in [Techn
 - Completing all the tasks assigned to the Release Post Manager in the Release Post MR template
   - Reminder: If you cannot perform any of the Release Post Manager tasks between Thursday, 1 week before release, and the [release date](/handbook/engineering/releases/) of the month as defined in the [monthly MR template](https://gitlab.com/gitlab-com/www-gitlab-com/-/blob/master/.gitlab/merge_request_templates/Release-Post.md.erb), it is recommended you sign up for another release post. In the case that schedule/circumstances changes after you'd already signed up for the release post, please start a thread in #product in slack and tag `@[name of PLT member who is reviewing this month]`. The name of the PLT member who is reviewing this month can be found on the [release post scheduling page](/handbook/marketing/blog/release-posts/managers/)
 - Identify the top feature to highlight on the release post page and collecting feedback from the VP of Product
-- Creating the What's New MR and working with the VP of Product to identify what to include in [What's New](/handbook/product/categories/gitlab-the-product/index.html#using-whats-new-to-communicate-updates-to-users)
+- Creating the What's New MR and working with the VP of Product to identify what to include in [What's New](/handbook/product/categories/gitlab-the-product/#using-whats-new-to-communicate-updates-to-users)
 - Sending out reminders about upcoming due dates
 - Merging the release post MR on the [release date](/handbook/engineering/releases/) and ensuring the release post page goes live
 - Collecting feedback in the release post retrospective issue during the release post not just for your own challenges, but other team members challenges as they pop on Slack and other places
@@ -1275,7 +1275,7 @@ If an End of Support milestone is announced, it will be displayed under the titl
 
 If you decide to declare an End of Support period:
 
-- Check for any [Support Stable Counterpart](/handbook/support/support-stable-counterparts.html) (also listed on the [product categories page](/handbook/product/categories/)) for your development group and tag them in the MR that adds a value to the `end_of_support_milestone`.
+- Check for any [Support Stable Counterpart](/handbook/support/support-stable-counterparts/) (also listed on the [product categories page](/handbook/product/categories/)) for your development group and tag them in the MR that adds a value to the `end_of_support_milestone`.
 - If your group does not have a Support Stable Counterpart, look for a stage or section Support Counterpart. If none, please post in the `#support_leadership` Slack channel with a link to the readiness issue (next line).
 - Please also open a Support Readiness issue [following the Support communications guidance](/handbook/support/internal-support/#contacting-users-about-gitlab-incidents-or-changes).
 

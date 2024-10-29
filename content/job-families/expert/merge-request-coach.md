@@ -22,7 +22,7 @@ get merged into GitLab.
 - Join and actively follow the internal [`#mr-coaching` Slack channel](https://app.slack.com/client/T02592416/C2T9APP9C) and the external [GitLab Community Discord](https://discord.gg/gitlab) to assist contributors and fellow MR Coaches when they need help or to discuss best practices for collaboration.
   - You can also use the [`#gitter-contributors-room` Slack channel](https://app.slack.com/client/T02592416/CV0SHHVNW) which tunnels all conversations between Gitter and Slack.
 - Ensure the content on the [MR Coaches handbook pages](/handbook/marketing/developer-relations/contributor-success/merge-request-coach-lifecycle/) stays relevant, up-to-date and keeps evolving.
-- Participate in the discussion and voting for the [release post MVP](/handbook/marketing/blog/release-posts/index.html#mvp).
+- Participate in the discussion and voting for the [release post MVP](/handbook/marketing/blog/release-posts/#mvp).
 
 ### Specialties
 
@@ -97,4 +97,4 @@ Because of that I will close this MR but please feel free to reopen if you are s
 If you have any other questions please don't hesitate and ping me 🙂
 ```
 
-More information on the Merge Request Coach role is available in the [handbook](/handbook/marketing/developer-relations/contributor-success/merge-request-coach-lifecycle.html).
+More information on the Merge Request Coach role is available in the [handbook](/handbook/marketing/developer-relations/contributor-success/merge-request-coach-lifecycle/).

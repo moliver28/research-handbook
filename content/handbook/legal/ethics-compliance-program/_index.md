@@ -36,7 +36,7 @@ Listed below are GitLab's policies and procedures, as well as guidance and other
 - [Partner Code of Ethics](/handbook/legal/partner-code-of-ethics/)
 - [Privacy Statement](https://about.gitlab.com/privacy/)
 - [Record Retention Policy](/handbook/legal/record-retention-policy/)
-- [Record Retention and Disposal Standards](/handbook/security/records-retention-deletion.html)
+- [Record Retention and Disposal Standards](/handbook/security/records-retention-deletion/)
 - [Related Party Transactions](/handbook/legal/gitlab-related-party-transactions-policy/)
 - [SAFE Framework](/handbook/legal/safe-framework/)
 - [Social Media Policy](/handbook/marketing/team-member-social-media-policy/)
@@ -51,7 +51,7 @@ Certain policies are now available [here](/handbook/people-policies/#translation
 ### Guidelines and Other Resources
 
 - [AI Ethics Principles for Product Development](/handbook/legal/ethics-compliance-program/ai-ethics-principles/)
-- [Data Classification Standards](/handbook/security/data-classification-standard.html)
+- [Data Classification Standards](/handbook/security/data-classification-standard/)
 - [Designated Insider Pre-Clearance Process and FAQs](https://docs.google.com/document/d/1mcBtnfGbv4jSsJUklMQYyj2052MBHe4Lf9RkE-B9yvA/edit#heading=h.b3pm8ljoip1y)
 - [External Materials Compliance Checklist](/handbook/legal/external-materials-compliance-checklist/)
 - [Insider Trading Policy FAQs](https://docs.google.com/document/d/1vKFiYuieDQtKmrak-aAB2dTT3B3Q-aU4DtbcRm27X4U/edit)
@@ -69,7 +69,7 @@ We anticipate the need for policy amendments and new policies and procedures, as
 
 Compliance training is critical to GitLab's success and the success of its team members. Effective training helps team members achieve a more meaningful understanding of what our Compliance Standards require and puts them in a better position to recognize and escalate (as required) unethical and unlawful behavior when they see it.
 
-All team members are required, as part of their onboarding, to complete compliance training within 30 days of starting at GitLab. This training addresses key compliance topics such as anti-harassment, security, data privacy, and insider training, and must read and acknowledge GitLab's Code of Business Conduct and Ethics. Laws and regulations are constantly evolving, which is why GitLab also provides annual and refresher training as appropriate. Currently, training is provided through either [NavexEngage](https://lms.navexglobal.com/topclass5/) and [WILL Interactive](https://learning.willinteractive.com/). GitLab's [General Security Awareness Training](/handbook/security/security-assurance/governance/sec-training.html) is provided through [Proof Point](https://gitlab.ws01-securityeducation.com/my-training).
+All team members are required, as part of their onboarding, to complete compliance training within 30 days of starting at GitLab. This training addresses key compliance topics such as anti-harassment, security, data privacy, and insider training, and must read and acknowledge GitLab's Code of Business Conduct and Ethics. Laws and regulations are constantly evolving, which is why GitLab also provides annual and refresher training as appropriate. Currently, training is provided through either [NavexEngage](https://lms.navexglobal.com/topclass5/) and [WILL Interactive](https://learning.willinteractive.com/). GitLab's [General Security Awareness Training](/handbook/security/security-assurance/governance/sec-training/) is provided through [Proof Point](https://gitlab.ws01-securityeducation.com/my-training).
 
 We recognize that some team members are subject to additional or heightened compliance requirements as a result of their roles and responsibilities or the geographies in which they operate. Depending on these factors, those team members may receive additional training. As an example, team members employed by or working closely with GitLab Federal, our United States public sector entity, must complete a training course titled Government Contracting: Gifts, Gratuities, and Bribery.
 

@@ -178,7 +178,7 @@ There are five departments within the Engineering Division:
 
 ### GitLab in Production
 
-- [Workflow Diagram](/handbook/engineering/workflow/related-workflows.html)
+- [Workflow Diagram](/handbook/engineering/workflow/related-workflows/)
 - [Error Budgets](/handbook/engineering/error-budgets/)
 - [Performance of GitLab](/handbook/engineering/performance/)
 - [Monitoring of GitLab.com](/handbook/engineering/monitoring/)

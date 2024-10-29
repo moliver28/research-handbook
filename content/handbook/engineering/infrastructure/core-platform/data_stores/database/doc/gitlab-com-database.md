@@ -132,4 +132,4 @@ Common issues seen in the application codebase are N+1 queries, inappropriate us
 #### Tools
 
 1. [Postgres.ai](https://docs.gitlab.com/ee/development/database/database_lab.html) for testing with production like data.
-1. [Query plans and optimization](/handbook/engineering/infrastructure/core-platform/data_stores/database/doc/gitlab-com-database.html#query-plans-and-optimization).
+1. [Query plans and optimization](/handbook/engineering/infrastructure/core-platform/data_stores/database/doc/gitlab-com-database/#query-plans-and-optimization).

@@ -107,7 +107,7 @@ Team members are encouraged to use these videos to transparently showcase the cu
 
 #### Hackathons
 
-Hackathons provide a great opportunity for team members to experiment with working on ideas as possible features that can be integrated into GitLab in the future. The intent is to inspire creativity and encourage collaboration amongst those you may not have the opportunity to work with on a regular basis, set aside regular milestone deliverables, and have some fun with tackling different challenges. 
+Hackathons provide a great opportunity for team members to experiment with working on ideas as possible features that can be integrated into GitLab in the future. The intent is to inspire creativity and encourage collaboration amongst those you may not have the opportunity to work with on a regular basis, set aside regular milestone deliverables, and have some fun with tackling different challenges.
 
 With the IT landscape rapidly changing with explorations in emerging technologies, having Hackathons take place twice a year offers everyone a chance to contribute to different areas of interest.
 
@@ -115,7 +115,7 @@ With the IT landscape rapidly changing with explorations in emerging technologie
 
 Planning processes followed by teams in the Sub-department:
 
-- [General Ops Sub-department Planning Process](/handbook/engineering/development/ops/general-planning.html)
+- [General Ops Sub-department Planning Process](/handbook/engineering/development/ops/general-planning/)
 
 ### Forced Priority planning/scheduling
 
@@ -222,7 +222,7 @@ We have limited capacity in the recruiting team so hiring managers are experimen
 
 ### Tracking and completing OKRs
 
-- Tracking [quarterly OKRs for Ops Engineering](/handbook/engineering/development/ops/quarterly-okrs.html) groups.
+- Tracking [quarterly OKRs for Ops Engineering](/handbook/engineering/development/ops/quarterly-okrs/) groups.
 - DRIs are expected to score OKRs on a regular basis, at least monthly, if possible.
 - At the end of the quarter, DRIs can add a retrospective as a comment to reflect on the progress of their KR, in the following format:
 
@@ -391,7 +391,7 @@ The content of these updates varies by individual and role:
 
 We are piloting a process to make coordinating with the Support team on customer escalations more efficient.
 
-See [How to Use GitLab.com to Formally Request Help from the GitLab Ops Development Team](/handbook/support/workflows/how-to-get-help.html#how-to-use-gitlabcom-to-formally-request-help-from-the-gitlab-ops-development-team) for process details.
+See [How to Use GitLab.com to Formally Request Help from the GitLab Ops Development Team](/handbook/support/workflows/how-to-get-help/#how-to-use-gitlabcom-to-formally-request-help-from-the-gitlab-ops-development-team) for process details.
 
 If you encounter an Ops-related customer escalation, that seems to have a high
 [customer priority](/handbook/product/product-processes/customer-issues-prioritization-framework/#priority-points),

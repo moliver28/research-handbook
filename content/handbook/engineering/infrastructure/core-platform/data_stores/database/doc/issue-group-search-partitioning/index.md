@@ -115,7 +115,7 @@ For example, finding issues assigned to a user doesn't come with a notion of a n
 
 ### Working page for PostgreSQL table partitioning
 
-Also see the [working page for Introducing PostgreSQL table partitioning to GitLab's database](/handbook/engineering/infrastructure/core-platform/data_stores/database/doc/partitioning.html)
+Also see the [working page for Introducing PostgreSQL table partitioning to GitLab's database](/handbook/engineering/infrastructure/core-platform/data_stores/database/doc/partitioning/)
 
 ---
 

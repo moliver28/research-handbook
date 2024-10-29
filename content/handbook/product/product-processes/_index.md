@@ -23,7 +23,7 @@ Documenting a Section, Stage, Group and Category direction is critical to commun
 
 ### Understanding Milestones and Releases
 
-- [Interpreting release dates](/handbook/product/interpreting-release-dates.html) clarifies how product teams use milestones and labels to indicate the likelihood of feature delivery within certain time frames.
+- [Interpreting release dates](/handbook/product/interpreting-release-dates/) clarifies how product teams use milestones and labels to indicate the likelihood of feature delivery within certain time frames.
 - The [release definitions](/handbook/engineering/releases/) are maintained by the Engineering Team and we run the end of each Milestone on the [release date](/handbook/engineering/releases/).
 
 ### Relevant links

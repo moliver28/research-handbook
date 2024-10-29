@@ -259,7 +259,7 @@ Why will GitLab not sign a BAA?
 1. The GitLab Data Processing Addendum, usually referred to as the "DPA", can be accessed from the GitLab [Terms of Use page](https://about.gitlab.com/terms/). As stated in the GitLab Subscription Agreement, the terms of the DPA automatically apply to corporate customers.
 1. When asking questions about data privacy, customers may also raise questions about security. Generally, such questions are best directed to the [Field Security Team](/handbook/security/security-assurance/field-security/#contact-the-field-security-team). However, the following resources may be useful prior to contacting the Field Security team:
     -The [Security Practices handbook page](/handbook/security/) gives details about GitLab's organizational security.
-    -GitLab's [Customer Assurance Package](/handbook/security/security-assurance/field-security/customer-assurance-package.html) provides details of GitLab's current security and compliance policies.
+    -GitLab's [Customer Assurance Package](/handbook/security/security-assurance/field-security/customer-assurance-package/) provides details of GitLab's current security and compliance policies.
     -GitLab documentation explaining how to [Secure your application](https://docs.gitlab.com/ee/user/application_security/), [Secure your installation](https://docs.gitlab.com/ee/security/) and the GitLab [permissions guide](https://docs.gitlab.com/ee/development/permissions.html) are useful for helping customers understand steps they can take to secure the personal data processed by GitLab.
 
 ### Contract Lifecycle Management (CLM) Process

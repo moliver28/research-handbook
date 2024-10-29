@@ -13,7 +13,7 @@ Secondment is the assignment of a member of one organisation to another organisa
 
 In 2022, GitLab started a pilot program to have engineers from outside GitLab join us on a temporary basis to work alongside team members on various projects.
 
-This program complements our values of transparency and [supports our goal of increasing our](/handbook/engineering/open-source/growth-strategy.html) community contributors.
+This program complements our values of transparency and [supports our goal of increasing our](/handbook/engineering/open-source/growth-strategy/) community contributors.
 
 **The Benefits:**
 

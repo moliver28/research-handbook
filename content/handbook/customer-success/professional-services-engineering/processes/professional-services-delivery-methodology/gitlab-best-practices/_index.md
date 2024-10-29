@@ -124,7 +124,7 @@ Scenarios in which the final approver might not merge an MR:
 
 If any of these scenarios occurs, an MR author may merge their own MR if it has all required approvals and they have merge rights to the repository. This is also in line with the GitLab [bias for action](../../../../../values/_index.md#operate-with-a-bias-for-action) value.
 
-This policy is in place to satisfy the CHG-04 control of the GitLab [Change Management Controls](/handbook/security/change-management-policy.html).
+This policy is in place to satisfy the CHG-04 control of the GitLab [Change Management Controls](/handbook/security/change-management-policy/).
 
 To implement this policy in gitlab-org/gitlab, we have enabled the following settings to ensure MRs get an approval from a top-level CODEOWNERS maintainer:
 

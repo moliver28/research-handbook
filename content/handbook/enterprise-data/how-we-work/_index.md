@@ -131,7 +131,7 @@ Incidents are times when a problem is discovered and some immediate action is re
 - Open an [Incident issue](https://gitlab.com/gitlab-data/analytics/-/issues/new?issuable_template=incident&issue[issue_type]=incident) using the "Incident Report" template
 - Detail the relevant information with appropriate timestamps
 - Tag and assign people on the Data Team and any other teams that need to be informed
-- Review the Security Team's documentation on [Incident Response](/handbook/security/security-operations/sirt/sec-incident-response.html) and take any necessary action
+- Review the Security Team's documentation on [Incident Response](/handbook/security/security-operations/sirt/sec-incident-response/) and take any necessary action
 
 Data Team Incidents can be reviewed in [Incident Overview page](https://gitlab.com/gitlab-data/analytics/-/incidents) within the main project.
 

@@ -6,7 +6,7 @@ title: Development Department Learning and Development
 
 ### Secure coding best practices
 
-It is important that all developers are aware of [secure coding best practices](/handbook/security/secure-coding-training.html) and refresh this knowledge periodically. This is tracked via Secure Coding Training Guidelines.
+It is important that all developers are aware of [secure coding best practices](/handbook/security/secure-coding-training/) and refresh this knowledge periodically. This is tracked via Secure Coding Training Guidelines.
 
 ### Ruby on Rails Performance Training
 
@@ -61,12 +61,12 @@ These meetings are currently run on a **weekly** cadence, alternating between ti
 
 One of the paths for engineers to progress in their career is a Management path. To explain more about the role
 of Engineering Managers in GitLab, there is a series of conversations with team members explaining details of their work and their experience transitioning to management
-[here](/handbook/engineering/development/training/em-role/index.html).
+[here](/handbook/engineering/development/training/em-role/).
 
 ### IC Leadership
 
 Staff+ engineers and ICs aspiring to become Staff can benefit from resources and recommendations described
-[here](/handbook/engineering/development/training/staff-plus-role.html).
+[here](/handbook/engineering/development/training/staff-plus-role/).
 
 ## Edcast / GitLab Learn
 

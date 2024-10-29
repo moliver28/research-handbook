@@ -144,7 +144,7 @@ Once we know the risk and done some discovery into that risk, we have some optio
 
 #### Customer not using CI
 
-- Offer an [Advanced CI/CD workshop](/handbook/customer-success/workshops/ci-workshop.html) if they have difficulty in building pipelines.
+- Offer an [Advanced CI/CD workshop](/handbook/customer-success/workshops/ci-workshop/) if they have difficulty in building pipelines.
 - Work with the GitLab team to build CI/CD templates for certain jobs and pipelines to make it easier for users to adopt CI.
 - If it is a migration problem, work with the customer on tutorials to do a migration
   - Try to identify teams who are willing to work with you on their pipeline

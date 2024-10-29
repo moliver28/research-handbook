@@ -11,7 +11,7 @@ Data Management covers practices and policies around managing, securing, and gov
 
 ### Data Security Practices
 
-The Enterprise Data Platform captures, processes, and stores [data collected from many systems](/handbook/enterprise-data/platform/#extract-and-load). Not all of this data is of the same importance and we use the [Critical System Tier](/handbook/security/security-assurance/security-risk/storm-program/critical-systems.html) framework and [Data Classification Standard](/handbook/security/data-classification-standard.html#security-and-privacy-controls) to help us determine what data is most important and how to best secure it.
+The Enterprise Data Platform captures, processes, and stores [data collected from many systems](/handbook/enterprise-data/platform/#extract-and-load). Not all of this data is of the same importance and we use the [Critical System Tier](/handbook/security/security-assurance/security-risk/storm-program/critical-systems/) framework and [Data Classification Standard](/handbook/security/data-classification-standard/#security-and-privacy-controls) to help us determine what data is most important and how to best secure it.
 
 ## Roles & Responsibilities
 
@@ -49,8 +49,8 @@ In the Data Platform at GitLab we have multiple categories. Its good to highligh
 
 ### General Data Security Controls
 
-- For the purpose of defining Data Controls, the Enterprise Data Platform is a [Tier 1 system](/handbook/security/security-assurance/security-risk/storm-program/critical-systems.html).
-- `IMPORTANT`: [Customer Private RED data](/handbook/security/data-classification-standard.html#red) is prohibited from permanent storage in the Enterprise Data Platform.
+- For the purpose of defining Data Controls, the Enterprise Data Platform is a [Tier 1 system](/handbook/security/security-assurance/security-risk/storm-program/critical-systems/).
+- `IMPORTANT`: [Customer Private RED data](/handbook/security/data-classification-standard/#red) is prohibited from permanent storage in the Enterprise Data Platform.
 
 | Control | RED | ORANGE | YELLOW |
 | :-- | :-- | :-- | :-- |

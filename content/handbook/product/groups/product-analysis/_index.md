@@ -5,9 +5,9 @@ title: Product Data Insights
 
 ## Product Data Insights Handbook
 
-The Product Data Insights group consists of a team of product analysts. This group reports to 
-the VP, Product Management and serves as a functional analytics team to support the GitLab R&D 
-Organization (Product and Engineering divisions), in addition to product data-related analysis 
+The Product Data Insights group consists of a team of product analysts. This group reports to
+the VP, Product Management and serves as a functional analytics team to support the GitLab R&D
+Organization (Product and Engineering divisions), in addition to product data-related analysis
 across GitLab.
 
 In addition to supporting the Product and Engineering divisions, the Product Data Insights team is an active
@@ -20,7 +20,7 @@ Read more about what we do at GitLab on our [Direction](https://about.gitlab.com
 
 ### Team members
 
-Product Data Insights is a small (but mighty) team. In order to support the Product and 
+Product Data Insights is a small (but mighty) team. In order to support the Product and
 Engineering divisions, each analyst is assigned to one or more sections or teams to support.
 
 | Name | Title | Product Section or Team |
@@ -122,7 +122,7 @@ request.
 #### PDI priority
 
 PDI priority is owned by the individual analyst. The Senior Manager, Product Data Insights will
-help refine priority based on importance and capacity. The team will work with the VP, Product 
+help refine priority based on importance and capacity. The team will work with the VP, Product
 Management and/or Product leadership on trade-offs (if needed).
 
 Section priority and PM priority are both inputs in determining PDI priority. However, the
@@ -434,7 +434,7 @@ Recordings from office hours, analysis/read-outs, etc
 1. [Data Guide Series](/handbook/enterprise-data/data-catalog/#product-release-to-adoption-catalog)
 1. [Data Team Handbook](/handbook/enterprise-data/)
 1. [Data Catalog](/handbook/enterprise-data/data-catalog/)
-1. [Product Manager Toolkit](/handbook/enterprise-data/data-catalog/xmau-analysis/product-manager-toolkit.html)
+1. [Product Manager Toolkit](/handbook/enterprise-data/data-catalog/xmau-analysis/product-manager-toolkit/)
 1. [Data for Product Managers](/handbook/enterprise-data/programs/data-for-product-managers/)
 1. [Experimentation Best Practices](/handbook/enterprise-data/experimentation-best-practices/)
 1. [Functional Analytics Center of Excellence (FACE) Source of Truth Fields for Reporting](/handbook/enterprise-data/functional-analytics-center-of-excellence/source-of-truth-fields-for-reporting/)

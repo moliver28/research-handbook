@@ -9,7 +9,7 @@ This section outlines our approach to handling issues. It's crucial to communica
 
 ### Triaging UX issues
 
-Every Product Designer is empowered to triage issues labeled with "~UX", ["~Deferred UX"](/handbook/engineering/workflow/#deferred-ux) and ["~UI polish"](/handbook/engineering/workflow/#ui-polish). If you are not the one triaging, you should be included for feedback by the responsible PM and EM. Use [Priority labels](/handbook/engineering/infrastructure/engineering-productivity/issue-triage/index.html#priority) to suggest when the issue should be resolved and [Severity labels](/handbook/engineering/infrastructure/engineering-productivity/issue-triage/index.html#severity) to indicate its user impact. Always coordinate with your PM and EMs on the assigned labels.
+Every Product Designer is empowered to triage issues labeled with "~UX", ["~Deferred UX"](/handbook/engineering/workflow/#deferred-ux) and ["~UI polish"](/handbook/engineering/workflow/#ui-polish). If you are not the one triaging, you should be included for feedback by the responsible PM and EM. Use [Priority labels](/handbook/engineering/infrastructure/engineering-productivity/issue-triage/#priority) to suggest when the issue should be resolved and [Severity labels](/handbook/engineering/infrastructure/engineering-productivity/issue-triage/#severity) to indicate its user impact. Always coordinate with your PM and EMs on the assigned labels.
 
 ### Scheduling issues in a milestone
 

@@ -68,7 +68,7 @@ Make a copy of the [Planning Spreadsheet](https://docs.google.com/spreadsheets/d
 Please read through the [Event Handbook page](/handbook/marketing/events/#employee-booth-guidelines) for best practices at events. Once you commit to an event, please make sure to plan to attend.
    * [ ] CAM:
    * [ ] Channel SA: If you need an SA to attend, [please follow their triage process](/handbook/marketing/events/#requesting-technical-staffing).
-   * [ ] Speaker: If you need a customer speaker, [please follow the Customer Reference Process](/handbook/marketing/brand-and-product-marketing/product-and-solution-marketing/customer-advocacy/customer-events.html#requesting-a-reference-customer).
+   * [ ] Speaker: If you need a customer speaker, [please follow the Customer Reference Process](/handbook/marketing/brand-and-product-marketing/product-and-solution-marketing/customer-advocacy/customer-events/#requesting-a-reference-customer).
    * [ ] other:
 
 ### Lead follow-up with Channel Partner

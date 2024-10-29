@@ -482,7 +482,7 @@ The Package team will add review weight labels to community contributions to try
 Other points to consider for the Package group member:
 
 * The coaching can range from commenting/reviewing the merge request to pair programming through Zoom.
-* Contributing to features managed by the Package group can mean having to use the Enterprise Edition (EE) version of GitLab. This [guideline](/handbook/marketing/developer-relations/contributor-success/community-contributors-workflows.html#contributing-to-the-gitlab-enterprise-edition-ee) will help with this aspect.
+* Contributing to features managed by the Package group can mean having to use the Enterprise Edition (EE) version of GitLab. This [guideline](/handbook/marketing/developer-relations/contributor-success/community-contributors-workflows/#contributing-to-the-gitlab-enterprise-edition-ee) will help with this aspect.
 * Make sure that the merge request size and complexity stay at a reasonable level to ensure a [smooth review process](https://docs.gitlab.com/ee/development/contributing/merge_request_workflow.html#contribution-acceptance-criteria).
 * If the merge request grows to an unexpected size or tries to solve too many issues at once, consider suggesting to the community contributor to split it into smaller ones and use a [feature flag](https://docs.gitlab.com/ee/development/feature_flags/) if necessary.
 * If a merge request gets stalled for a long time, consider suggesting that you will finish the merge request. Check the proper section in [Merge Request Coach responsibilities](/job-families/expert/merge-request-coach/#finishing-merge-requests).

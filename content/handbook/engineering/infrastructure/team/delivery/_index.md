@@ -12,7 +12,7 @@ description: "The Delivery Group enables GitLab Engineering to deliver features 
 | **Issue Tracker** | [**Delivery**](https://gitlab.com/gitlab-com/gl-infra/delivery) |
 | **Slack Channels** | [#g_delivery](https://gitlab.slack.com/archives/g_delivery) / `@delivery-team` |
 | **Delivery Handbook** | [Team training](/handbook/engineering/infrastructure/team/delivery/training/) |
-| **Delivery Metrics** | [Metrics](/handbook/engineering/infrastructure/team/delivery/metrics.html) |
+| **Delivery Metrics** | [Metrics](/handbook/engineering/infrastructure/team/delivery/metrics/) |
 | Deployment and Release process | [Deployments and Releases](/handbook/engineering/deployments-and-releases/) |
 | Release Tools Project | [Release tools](/handbook/engineering/infrastructure/release-tools) |
 | Release Manager Runbooks | [release/docs/runbooks](https://gitlab.com/gitlab-org/release/docs/-/blob/master/runbooks/README.md) |

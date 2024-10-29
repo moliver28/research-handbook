@@ -156,7 +156,7 @@ Upon approval, the maintainer who merges the MR will:
 
 - Understand our [Secure Team standards and style guidelines](https://docs.gitlab.com/ee/development/go_guide/#secure-team-standards-and-style-guidelines).
 - Understand our [Secure Release Process](https://docs.gitlab.com/ee/development/sec/analyzer_development_guide.html#versioning-and-release-process).
-- Understand our [Secure QA Process](/handbook/engineering/development/sec/secure/qa_process.html).
+- Understand our [Secure QA Process](/handbook/engineering/development/sec/secure/qa_process/).
 
 #### Project maintainer process for `gitlab-elasticsearch-indexer`
 
@@ -194,7 +194,7 @@ Upon approval, the maintainer who merges the MR will:
 
 [`gitlab-chart`](https://gitlab.com/gitlab-org/charts/gitlab)
 
-- Familiarize yourself with [Distribution's merge request workflow](/handbook/engineering/infrastructure/core-platform/systems/distribution/merge_requests.html#workflow)
+- Familiarize yourself with [Distribution's merge request workflow](/handbook/engineering/infrastructure/core-platform/systems/distribution/merge_requests/#workflow)
 - Familiarize yourself with the [architecture](https://docs.gitlab.com/charts/architecture/index.html) and [style guide](https://docs.gitlab.com/charts/development/style_guide.html) of the GitLab Helm chart.
 - Understand the relation between the [GitLab Operator and the GitLab Helm chart](https://docs.gitlab.com/operator/developer/charts_dependency.html).
 - Contribute to issues and review merge requests.
@@ -204,7 +204,7 @@ Upon approval, the maintainer who merges the MR will:
 
 [`gitlab-operator`](https://gitlab.com/gitlab-org/cloud-native/gitlab-operator)
 
-- Familiarize yourself with [Distribution's merge request workflow](/handbook/engineering/infrastructure/core-platform/systems/distribution/merge_requests.html#workflow)
+- Familiarize yourself with [Distribution's merge request workflow](/handbook/engineering/infrastructure/core-platform/systems/distribution/merge_requests/#workflow)
 - Familiarize youself with [GitLab Go standards and style guidelines](https://docs.gitlab.com/ee/development/go_guide).
 - Understand how [custom resources and controllers](https://kubernetes.io/docs/concepts/extend-kubernetes/api-extension/custom-resources/) work.
 - Familiarize yourself with the following libraries and tools:

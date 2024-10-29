@@ -37,7 +37,7 @@ The Security Policies group's mission is to provide security and compliance team
 We use our [Security Policies Priorities](https://about.gitlab.com/direction/govern/security_policies/security_policy_management/#priorities) list in our direction page to track what we are doing, and what order to do it in.  Each initiative includes these fields:
 
 1. Name - Description and link to the epic
-1. BE DRI / FE DRI - indicates the backend and frontend [DRIs](/handbook/engineering/development/sec/govern/sp-ti-planning.html#epic-engineering-dri) who will be actively involved.
+1. BE DRI / FE DRI - indicates the backend and frontend [DRIs](/handbook/engineering/development/sec/govern/sp-ti-planning/#epic-engineering-dri) who will be actively involved.
 1. Size
 1. Target Release
 
@@ -63,11 +63,11 @@ Complete items are removed from the table once the code is in production without
 
 The Security Policies group largely follows GitLab's [Product Development Flow](/handbook/product-development-flow/).
 
-Additional information about how we operate can be found on the [Planning page](/handbook/engineering/development/sec/govern/sp-ti-planning.html).
+Additional information about how we operate can be found on the [Planning page](/handbook/engineering/development/sec/govern/sp-ti-planning/).
 
-Our current workflow is visualized as flowchart on the [Workflow page](/handbook/engineering/development/sec/govern/security-policies/workflow.html).
+Our current workflow is visualized as flowchart on the [Workflow page](/handbook/engineering/development/sec/govern/security-policies/workflow/).
 
-Our current process on how we work on features is on the [Feature process page](/handbook/engineering/development/sec/govern/security-policies/feature_process.html)
+Our current process on how we work on features is on the [Feature process page](/handbook/engineering/development/sec/govern/security-policies/feature_process/)
 
 #### MR Reviews
 

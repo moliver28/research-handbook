@@ -449,7 +449,7 @@ We have begun the journey of further leveraging our own GitLab tool by creating 
 
 Our own pipeline is based on the great work done by @mayanktahil and @francispotter: [the SFDC CI/CD templates](https://gitlab.com/sfdx/sfdx-project-template).  If you are interested in more information about this project and want to see it in action, check out [Salesforce Development with GitLab](https://www.youtube.com/watch?v=Z1JSIFLdIB4) and [Accelerate DevOps with GitLab and Salesforce](https://www.youtube.com/watch?v=tylPp9QlLu4)
 
-With this comes some change, as we are now more stricly enforcing [compliance controls](/handbook/security/security-assurance/security-compliance/guidance/compliance.html) by limiting manual changes into the STAGING org.
+With this comes some change, as we are now more stricly enforcing [compliance controls](/handbook/security/security-assurance/security-compliance/guidance/compliance/) by limiting manual changes into the STAGING org.
 
 Effective 2/16/2022, the following methods are the only approved way to deploy to STAGING.
 

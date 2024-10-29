@@ -21,7 +21,7 @@ title: Account Planning for Solutions Architects
 
 ## How does an SA contribute to the Account Planning?
 
-A rationale describing how an SA can contribute to the Account Planning is documented here in the [Handbook](/handbook/sales/field-operations/customer-success-operations/gainsight/gainsight-gtm.html)
+A rationale describing how an SA can contribute to the Account Planning is documented here in the [Handbook](/handbook/sales/field-operations/customer-success-operations/gainsight/gainsight-gtm/)
 
 ## Collaborating with Other Team Members
 
@@ -66,6 +66,6 @@ It is important to note that Gainsight brings the entire account team onto a sin
 
 ## Additional Reading
 
-- Documentation about Gainsight Go-To-Market Technical Documentation is located [here](/handbook/sales/field-operations/customer-success-operations/gainsight/gainsight-gtm.html)
+- Documentation about Gainsight Go-To-Market Technical Documentation is located [here](/handbook/sales/field-operations/customer-success-operations/gainsight/gainsight-gtm/)
 - More information about how Sales uses Gainsight can be found on the Using [Gainsight within Sales page](/handbook/sales/gainsight/account-planning/)
 - Information about how Customer Success uses Gainsight is located on the [Using Gainsight within Customer Success page](/handbook/customer-success/csm/gainsight/)

@@ -12,7 +12,7 @@ The user-facing end of GitLab's data stack is comprised of our BI Tool, Tableau 
 
 Here are some useful links that we recommend for you to bookmark:
 
-- [Product Manager Toolkit](/handbook/enterprise-data/data-catalog/xmau-analysis/product-manager-toolkit.html)
+- [Product Manager Toolkit](/handbook/enterprise-data/data-catalog/xmau-analysis/product-manager-toolkit/)
 - [Data Catalog](/handbook/enterprise-data/data-catalog)
 - [DBT documentation](https://gitlab-data.gitlab.io/analytics/#!/overview) (where most of our models are documented)
 - [Service Ping Metrics Dictionary](https://metrics.gitlab.com/)
@@ -88,7 +88,7 @@ LIMIT 100
 Published data Tableau sources are great ways to allow Tableau users to build charts without writing any SQL or modeling. The data team has created several Published data Tableau sources that have the official badge. Any published data sources that are trusted data will have the [TD] prefix.
 
 We created several snippets that allow you to get quickly without any SQL writing some feature usage from the Service Pings data source.
-You can find details about those snippets on the [Product Manager Toolkit](/handbook/enterprise-data/data-catalog/xmau-analysis/product-manager-toolkit.html) handbook page.
+You can find details about those snippets on the [Product Manager Toolkit](/handbook/enterprise-data/data-catalog/xmau-analysis/product-manager-toolkit/) handbook page.
 
 ### GitLab.com Postgres Database
 

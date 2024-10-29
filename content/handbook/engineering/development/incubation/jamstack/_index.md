@@ -28,7 +28,7 @@ GitLab is not an infrastructure provider. This is an advantage for established c
 
 ## User survey
 
-In January 2023 we conducted a [User survey](/handbook/engineering/development/incubation/jamstack/js-runtimes-survey.html) to provide data on the general direction around the Javascript runtime feature.
+In January 2023 we conducted a [User survey](/handbook/engineering/development/incubation/jamstack/js-runtimes-survey/) to provide data on the general direction around the Javascript runtime feature.
 
 ### Jobs to be done
 

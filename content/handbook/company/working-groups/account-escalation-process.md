@@ -19,7 +19,7 @@ The Account Escalation Process Working Group aims to improve the cross-functiona
 
 ### Overview
 
-The [account escalation process](/handbook/support/workflows/emergency-to-escalation-process.html) can involve stakeholders from CS, Support, Engineering as well as
+The [account escalation process](/handbook/support/workflows/emergency-to-escalation-process/) can involve stakeholders from CS, Support, Engineering as well as
 Sales or other areas of the company. This is a keystone process that requires cross-functional attention to improve.
 
 ### Goals

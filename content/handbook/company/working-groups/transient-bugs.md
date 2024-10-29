@@ -18,7 +18,7 @@ description: "Build tooling for transient issues and outline process for sustain
 
 Build tooling for transient issues and outline process to sustainable prevent transient issues early on.
 
-[Transient bugs](/handbook/engineering/infrastructure/engineering-productivity/issue-triage/index.html#transient-bugs) have become our focus in FY21Q4 OKRs. We have multiple cross-functional efforts and KRs in both Development and Quality and want to shore-up the momentum on addressing these issues earlier with the appropriate tooling and process in place.
+[Transient bugs](/handbook/engineering/infrastructure/engineering-productivity/issue-triage/#transient-bugs) have become our focus in FY21Q4 OKRs. We have multiple cross-functional efforts and KRs in both Development and Quality and want to shore-up the momentum on addressing these issues earlier with the appropriate tooling and process in place.
 
 ### Exit Criteria (100% progress)
 

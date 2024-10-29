@@ -36,7 +36,7 @@ description: "The GitLab Field team includes multiple functions: Enterprise Sale
 | [Customer Success Operations](/handbook/customer-success/) |  | [Prospect Engagement Best Practices](/handbook/sales/prospect-engagement-best-practices/)  |  |
 | [Account Ownership Rules of Engagement](/handbook/sales/field-operations/gtm-resources/rules-of-engagement/#account-ownership-rules-of-engagement) |  |  |  |
 | [Parent and Child Accounts](/handbook/sales/sales-term-glossary/#parent-and-child-accounts) |  |  |  |
-| [Opportunity Stages](/handbook/sales/field-operations/gtm-resources/#opportunity-stages) |  | [Growth Resources (Finding Seat Count)](/handbook/sales/field-operations/finding-seat-counts.html) |  |
+| [Opportunity Stages](/handbook/sales/field-operations/gtm-resources/#opportunity-stages) |  | [Growth Resources (Finding Seat Count)](/handbook/sales/field-operations/finding-seat-counts/) |  |
 | [Record Ownership](/handbook/sales/field-operations/gtm-resources/#record-ownership) |  |  |  |
 | [Routing Rules](/handbook/sales/field-operations/gtm-resources/#routing) |  |  |  |
 | [Forecasting Definitions and Processes](/handbook/sales/forecasting/) |  |  |  |
