@@ -27,7 +27,7 @@
 /content/handbook/about/ @gitlab-com/content-sites
 
 # The higher level job-families directory needs to be outside of a section and near the top of this CODEOWNERS file as job-families require additional approvals beyond what's listed in other sections below
-/content/job-families/ @cbednarz @anjali_kaufmann @glucchesi @carlierussell @bmcdonald5 @kbullock1 @JennyBurns @jessdurbin @ltepper @mwilkins @gitlab-com/content-sites @gitlab-com/egroup
+/content/job-families/ @cbednarz @anjali_kaufmann @glucchesi @carlierussell @bmcdonald5 @kbullock1 @JennyBurns @jessdurbin @ltepper @mwilkins @cylee928 @stalat19 @ariweir @mkitlas @gitlab-com/content-sites @gitlab-com/egroup
 
 ##
 ## Add handbook sections below in alphabetical order, except Controlled Documents
@@ -87,7 +87,7 @@
 /content/handbook/company/culture/inclusion/tmag-gitlab-generational-understanding.md @wendybarnes @mdrussell @terrichu
 /content/handbook/company/culture/inclusion/tmrg-gitlab-gente.md @pmejia @romerg
 /content/handbook/company/culture/inclusion/tmrg-global-voices.md @eliran.mesika @twoodham @marin
-/content/handbook/company/culture/internal-feedback.md @wendybarnes @mwilkins
+/content/handbook/company/culture/internal-feedback.md @wendybarnes
 
 ^[customer-success]
 /content/handbook/customer-success/ @spatching @mrleutz @kgeorgeson
@@ -106,8 +106,8 @@
 /content/handbook/engineering/open-source/ @rymai @meks @nick_vh
 /content/handbook/engineering/on-call.md @jfuentes2 @meks @jscarborough
 /content/handbook/engineering/performance.md @timzallmann
-/content/job-families/engineering/ @sabrinafarmer @cbednarz @anjali_kaufmann @dparsonage @glucchesi @carlierussell @mwilkins
-/content/job-families/engineering/incubation/ @jeromezng @cbednarz @anjali_kaufmann @dparsonage @glucchesi @carlierussell @mwilkins
+/content/job-families/engineering/ @sabrinafarmer @cbednarz @anjali_kaufmann @dparsonage @glucchesi @carlierussell @mwilkins @cylee928 @stalat19 @ariweir @mkitlas
+/content/job-families/engineering/incubation/ @jeromezng @cbednarz @anjali_kaufmann @dparsonage @glucchesi @carlierussell @mwilkins @cylee928 @stalat19 @ariweir @mkitlas
 
 ^[Eng-Architecture]
 /content/handbook/engineering/architecture/ @ayufan @grzesiek @glopezfernandez @andrewn @mappelman @DylanGriffith @theoretick @shekharpatnaik @stanhu @fabiopitino @tkuah @ntepluhina @jessieay @vitallium
@@ -289,7 +289,7 @@
 /content/handbook/finance/timekeeping/ @cgudgenov @simon-mundy
 /content/handbook/finance/internal-audit/ @bjoshi2 @atoomer
 /content/handbook/finance/tax/ @jgladen
-/content/job-families/finance/ @brobins @cbednarz @anjali_kaufmann @dparsonage @glucchesi @carlierussell @mwilkins
+/content/job-families/finance/ @brobins @cbednarz @anjali_kaufmann @dparsonage @glucchesi @carlierussell @mwilkins @cylee928 @stalat19 @ariweir @mkitlas
 
 [Finance required approvals]
 /content/handbook/finance/expenses.md @brobins @gitlab-com/egroup @gitlab-com/content-sites
@@ -388,7 +388,7 @@
 /content/handbook/marketing/strategy-performance/allocadia/ @rcallam @emathis
 /content/handbook/marketing/team-member-social-media-policy.md @rchachra @robin @award4
 /content/handbook/marketing/utm-strategy.md @ikryzeviciene @rkohnke @aoetama
-/content/job-families/marketing/ @akramer @cbednarz @anjali_kaufmann @dparsonage @glucchesi @carlierussell @mwilkins
+/content/job-families/marketing/ @akramer @cbednarz @anjali_kaufmann @dparsonage @glucchesi @carlierussell @mwilkins @cylee928 @stalat19 @ariweir @mkitlas
 
 ^[Marketing-Brand-and-Product-Marketing]
 /content/handbook/marketing/brand-and-product-marketing/ @akramer @dsteer @rclayman
@@ -452,8 +452,8 @@
 /content/handbook/people-policies/ @emilyplotkin @pegan @wendybarnes
 /content/handbook/people-policies/leave-of-absence/ @lyndemeiers @pegan @cgudgenov
 /content/handbook/people-policies/leave-of-absence/us.md @lyndemeiers @pegan @cgudgenov
-/content/handbook/total-rewards/incentives.md @wendybarnes @michellenelson @mwilkins @azurmuhle @Rkole
-/content/handbook/total-rewards/stock-options.md @wendybarnes @michellenelson @mwilkins
+/content/handbook/total-rewards/incentives.md @wendybarnes @cylee @mwilkins @azurmuhle @Rkole @cylee928 @stalat19 @ariweir @mkitlas
+/content/handbook/total-rewards/stock-options.md @wendybarnes @cylee928 @stalat19 @ariweir @mkitlas @mwilkins
 /content/handbook/finance/travel/ @wendybarnes @pegan
 /content/handbook/people-group/learning-and-development/team-workshops @tely2 @slee24
 
@@ -473,19 +473,19 @@
 /content/handbook/product/groups/fulfillment-guide.md @ofernandez2
 /content/handbook/product/groups/product-analysis/ @cbraza @justinfarris
 /content/handbook/product/groups/product-analysis/engineering/ @ddeng1 @lmai1 @cbraza
-/content/job-families/product/ @david @vkarnes @mflouton @justinfarris @hbenson @cbednarz @anjali_kaufmann @dparsonage @glucchesi @carlierussell @mwilkins
-/content/job-families/product/pricing.md @justinfarris @cbednarz @anjali_kaufmann @glucchesi @carlierussell @mwilkins @bmcdonald5 @kbullock1 @JennyBurns @jessdurbin @ltepper
-/content/job-families/product/product-analyst.md @justinfarris @cbraza @cbednarz @anjali_kaufmann @glucchesi @carlierussell @mwilkins @bmcdonald5 @kbullock1 @JennyBurns @jessdurbin @ltepper
-/content/job-families/product/product-design-management.md @vkarnes @cbednarz @anjali_kaufmann @glucchesi @carlierussell @mwilkins @bmcdonald5 @kbullock1 @JennyBurns @jessdurbin @ltepper
-/content/job-families/product/product-designer.md @vkarnes @cbednarz @anjali_kaufmann @glucchesi @carlierussell @mwilkins @bmcdonald5 @kbullock1 @JennyBurns @jessdurbin @ltepper
-/content/job-families/product/product-management-leadership.md @david @hbenson @mflouton @justinfarris @cbednarz @anjali_kaufmann @glucchesi @carlierussell @mwilkins @bmcdonald5 @kbullock1 @JennyBurns @jessdurbin @ltepper
-/content/job-families/product/product-manager.md @david @justinfarris @hbenson @mflouton @fzimmer @jreporter @ofernandez2 @cbednarz @anjali_kaufmann @glucchesi @carlierussell @mwilkins @bmcdonald5 @kbullock1 @JennyBurns @jessdurbin @ltepper
-/content/job-families/product/technical-writer.md @susantacker @dianalogan @kpaizee @cbednarz @anjali_kaufmann @glucchesi @carlierussell @mwilkins @bmcdonald5 @kbullock1 @JennyBurns @jessdurbin @ltepper
-/content/job-families/product/technical-writing-manager.md @susantacker @dianalogan @kpaizee @cbednarz @anjali_kaufmann @glucchesi @carlierussell @mwilkins @bmcdonald5 @kbullock1 @JennyBurns @jessdurbin @ltepper
-/content/job-families/product/ux-fullstack-engineer.md @susantacker @cbednarz @anjali_kaufmann @glucchesi @carlierussell @mwilkins @bmcdonald5 @kbullock1 @JennyBurns @jessdurbin @ltepper
-/content/job-families/product/ux-research-manager.md @cbednarz @anjali_kaufmann @glucchesi @carlierussell @mwilkins @bmcdonald5 @kbullock1 @JennyBurns @jessdurbin @ltepper
-/content/job-families/product/ux-research-operations-coordinator.md @cbednarz @anjali_kaufmann @glucchesi @carlierussell @mwilkins @bmcdonald5 @kbullock1 @JennyBurns @jessdurbin @ltepper
-/content/job-families/product/ux-researcher.md @cbednarz @anjali_kaufmann @glucchesi @carlierussell @mwilkins @bmcdonald5 @kbullock1 @JennyBurns @jessdurbin @ltepper
+/content/job-families/product/ @david @vkarnes @mflouton @justinfarris @hbenson @cbednarz @anjali_kaufmann @dparsonage @glucchesi @carlierussell @mwilkins @cylee928 @stalat19 @ariweir @mkitlas
+/content/job-families/product/pricing.md @justinfarris @cbednarz @anjali_kaufmann @glucchesi @carlierussell @mwilkins @cylee928 @stalat19 @ariweir @mkitlas @bmcdonald5 @kbullock1 @JennyBurns @jessdurbin @ltepper
+/content/job-families/product/product-analyst.md @justinfarris @cbraza @cbednarz @anjali_kaufmann @glucchesi @carlierussell @mwilkins @cylee928 @stalat19 @ariweir @mkitlas @bmcdonald5 @kbullock1 @JennyBurns @jessdurbin @ltepper
+/content/job-families/product/product-design-management.md @vkarnes @cbednarz @anjali_kaufmann @glucchesi @carlierussell @mwilkins @cylee928 @stalat19 @ariweir @mkitlas @bmcdonald5 @kbullock1 @JennyBurns @jessdurbin @ltepper
+/content/job-families/product/product-designer.md @vkarnes @cbednarz @anjali_kaufmann @glucchesi @carlierussell @mwilkins @cylee928 @stalat19 @ariweir @mkitlas @bmcdonald5 @kbullock1 @JennyBurns @jessdurbin @ltepper
+/content/job-families/product/product-management-leadership.md @david @hbenson @mflouton @justinfarris @cbednarz @anjali_kaufmann @glucchesi @carlierussell @mwilkins @cylee928 @stalat19 @ariweir @mkitlas @bmcdonald5 @kbullock1 @JennyBurns @jessdurbin @ltepper
+/content/job-families/product/product-manager.md @david @justinfarris @hbenson @mflouton @fzimmer @jreporter @ofernandez2 @cbednarz @anjali_kaufmann @glucchesi @carlierussell @mwilkins @cylee928 @stalat19 @ariweir @mkitlas @bmcdonald5 @kbullock1 @JennyBurns @jessdurbin @ltepper
+/content/job-families/product/technical-writer.md @susantacker @dianalogan @kpaizee @cbednarz @anjali_kaufmann @glucchesi @carlierussell @mwilkins @cylee928 @stalat19 @ariweir @mkitlas @bmcdonald5 @kbullock1 @JennyBurns @jessdurbin @ltepper
+/content/job-families/product/technical-writing-manager.md @susantacker @dianalogan @kpaizee @cbednarz @anjali_kaufmann @glucchesi @carlierussell @mwilkins @cylee928 @stalat19 @ariweir @mkitlas @bmcdonald5 @kbullock1 @JennyBurns @jessdurbin @ltepper
+/content/job-families/product/ux-fullstack-engineer.md @susantacker @cbednarz @anjali_kaufmann @glucchesi @carlierussell @mwilkins @cylee928 @stalat19 @ariweir @mkitlas @bmcdonald5 @kbullock1 @JennyBurns @jessdurbin @ltepper
+/content/job-families/product/ux-research-manager.md @cbednarz @anjali_kaufmann @glucchesi @carlierussell @mwilkins @cylee928 @stalat19 @ariweir @mkitlas @bmcdonald5 @kbullock1 @JennyBurns @jessdurbin @ltepper
+/content/job-families/product/ux-research-operations-coordinator.md @cbednarz @anjali_kaufmann @glucchesi @carlierussell @mwilkins @cylee928 @stalat19 @ariweir @mkitlas @bmcdonald5 @kbullock1 @JennyBurns @jessdurbin @ltepper
+/content/job-families/product/ux-researcher.md @cbednarz @anjali_kaufmann @glucchesi @carlierussell @mwilkins @cylee928 @stalat19 @ariweir @mkitlas @bmcdonald5 @kbullock1 @JennyBurns @jessdurbin @ltepper
 
 [product-ai]
 /content/handbook/product/ai/continuity-plan.md @robin @ktesh @m_taylor @hbenson @dfrhodes @tichen @tmccaslin @gitlab-com/egroup @gitlab-com/content-sites
@@ -556,7 +556,7 @@
 /content/handbook/sales/training/sales-enablement-sessions/ @ashahrazad1 @jblevins608
 /content/handbook/sales/training/sko/ @kdemarest @kagarrett
 /content/handbook/sales/understand-customer-gitlab-use.md @jakebielecki
-/content/job-families/sales/ @jakebielecki @james_harrison @cbednarz @anjali_kaufmann @dparsonage @glucchesi @carlierussell @mwilkins
+/content/job-families/sales/ @jakebielecki @james_harrison @cbednarz @anjali_kaufmann @dparsonage @glucchesi @carlierussell @mwilkins @cylee928 @stalat19 @ariweir @mkitlas
 
 ^[security]
 /content/handbook/security/ @joshlemos @jlongo_gitlab @plafoucriere @juliedavila
@@ -575,8 +575,8 @@
 /content/handbook/security/threat-management/identity/ @gitlab-com/gl-security/identity
 /content/handbook/security/security-operations/red-team/ @cmoberly
 /content/handbook/security/security-operations/threat-intelligence/ @cmoberly
-/content/job-families/security/ @joshlemos @jlongo_gitlab @juliedavila @cbednarz @anjali_kaufmann @glucchesi @carlierussell @mwilkins @bmcdonald5 @kbullock1 @JennyBurns @jessdurbin @ltepper
-/content/job-families/chief-information-security-officer.md @joshlemos @robin @brianwald @cbednarz @anjali_kaufmann @glucchesi @carlierussell @mwilkins @bmcdonald5 @kbullock1 @JennyBurns @jessdurbin @ltepper
+/content/job-families/security/ @joshlemos @jlongo_gitlab @juliedavila @cbednarz @anjali_kaufmann @glucchesi @carlierussell @mwilkins @cylee928 @stalat19 @ariweir @mkitlas @bmcdonald5 @kbullock1 @JennyBurns @jessdurbin @ltepper
+/content/job-families/chief-information-security-officer.md @joshlemos @robin @brianwald @cbednarz @anjali_kaufmann @glucchesi @carlierussell @mwilkins @cylee928 @stalat19 @ariweir @mkitlas @bmcdonald5 @kbullock1 @JennyBurns @jessdurbin @ltepper
 
 ## Approval required pages. See also "Controlled Documents" for more from this section.
 [Security Operations]
@@ -615,9 +615,9 @@
 /content/handbook/product/ux/technical-writing/ @susantacker @dianalogan @kpaizee @david
 
 ^[total-rewards]
-/content/handbook/total-rewards/ @michellenelson @mwilkins @azurmuhle @Rkole
-/content/handbook/total-rewards/benefits/ @michellenelson @azurmuhle @Rkole
-/content/handbook/total-rewards/compensation/ @michellenelson @mwilkins
+/content/handbook/total-rewards/ @cylee928 @stalat19 @ariweir @mkitlas @mwilkins @azurmuhle @Rkole
+/content/handbook/total-rewards/benefits/ @azurmuhle @Rkole
+/content/handbook/total-rewards/compensation/ @cylee928 @stalat19 @ariweir @mkitlas @mwilkins
 
 ^[working-groups]
 /content/handbook/company/working-groups/ @gitlab-com/egroup
@@ -665,9 +665,9 @@
 
 ## Job Families that require an approval, near the end to override any optional listing
 [Job Families]
-/content/job-families/legal-and-corporate-affairs/ @robin @cbednarz @anjali_kaufmann @glucchesi @carlierussell @mwilkins @bmcdonald5 @kbullock1 @JennyBurns @jessdurbin @ltepper @gitlab-com/egroup @gitlab-com/content-sites
-/content/job-families/people-group/ @wendybarnes @pegan @cbednarz @anjali_kaufmann @glucchesi @carlierussell @mwilkins @bmcdonald5 @kbullock1 @JennyBurns @jessdurbin @ltepper @gitlab-com/content-sites @gitlab-com/egroup
-/content/job-families/people-group/candidate-experience.md @sytses @streas @wendybarnes @rallen3 @cbednarz @anjali_kaufmann @glucchesi @carlierussell @mwilkins @bmcdonald5 @kbullock1 @JennyBurns @jessdurbin @ltepper @gitlab-com/content-sites @gitlab-com/egroup
+/content/job-families/legal-and-corporate-affairs/ @robin @cbednarz @anjali_kaufmann @glucchesi @carlierussell @mwilkins @cylee928 @stalat19 @ariweir @mkitlas @bmcdonald5 @kbullock1 @JennyBurns @jessdurbin @ltepper @gitlab-com/egroup @gitlab-com/content-sites
+/content/job-families/people-group/ @wendybarnes @pegan @cbednarz @anjali_kaufmann @glucchesi @carlierussell @mwilkins @cylee928 @stalat19 @ariweir @mkitlas @bmcdonald5 @kbullock1 @JennyBurns @jessdurbin @ltepper @gitlab-com/content-sites @gitlab-com/egroup
+/content/job-families/people-group/candidate-experience.md @sytses @streas @wendybarnes @rallen3 @cbednarz @anjali_kaufmann @glucchesi @carlierussell @mwilkins @cylee928 @stalat19 @ariweir @mkitlas @bmcdonald5 @kbullock1 @JennyBurns @jessdurbin @ltepper @gitlab-com/content-sites @gitlab-com/egroup
 
 ## This section is for policies that Security Governance manages and aren't Controlled Documents. This should remain near the Controlled Documents section.
 [Security and Technology Policies]
