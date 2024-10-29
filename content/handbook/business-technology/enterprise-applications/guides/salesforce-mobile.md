@@ -16,7 +16,7 @@ Below you can find instructions on how to login to the Salesforce mobile app via
   * Okta Verify
     * [Google Play](https://play.google.com/store/apps/details?id=com.okta.android.auth)
     * [Apple App Store](https://play.google.com/store/apps/details?id=com.okta.android.auth)
-  * Salesforce Profile enabled for Android and/or iOS access
+  * Salesforce permission enabling access for Android and/or iOS access
     * If unsure and/or would like to request access, open an [Access Request](https://www.google.com/addlinkhere) and ask for SFDC Mobile Access.
 
 
