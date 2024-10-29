@@ -254,15 +254,15 @@ introduce a stage of transforming information: `transform`.
     "match": [
       {
         "type": "header",
-        "key": "private-token",
-        "value": "^glpat-(?<payload>.*)$"
+        "name": "private-token",
+        "regex_value": "^glpat-(?<payload>.*)$"
       }
     ],
     "transform": [
       {
         "type": "base64-line-delimited",
-        "key": "decoded",
-        "value": "${payload}"
+        "input": "${payload}",
+        "output": "decoded",
       }
     ],
     "action": "classify",
@@ -298,15 +298,15 @@ queried by `ROUTABLE_TOKEN`.
     "match": [
       {
         "type": "header",
-        "key": "CI_JOB_JWT",
-        "value": "^(?<headers>\\w+)\\.(?<payload>\\w+)\\.(?<signature>\\w+)$"
+        "name": "CI_JOB_JWT",
+        "regex_value": "^(?<headers>\\w+)\\.(?<payload>\\w+)\\.(?<signature>\\w+)$"
       }
     ],
     "transform": [
       {
         "type": "base64-json",
-        "key": "decoded",
-        "value": "${payload}"
+        "input": "${payload}",
+        "output": "decoded"
       }
     ],
     "action": "classify",
@@ -335,20 +335,20 @@ on CPU compute cost:
     "match": [
       {
         "type": "header",
-        "key": "CI_JOB_JWT",
-        "value": "^(?<headers>\\w+)\\.(?<payload>\\w+)\\.(?<signature>\\w+)$"
+        "name": "CI_JOB_JWT",
+        "regex_value": "^(?<headers>\\w+)\\.(?<payload>\\w+)\\.(?<signature>\\w+)$"
       }
     ],
     "transform": [
       {
         "type": "jwt-signature",
-        "key": "env.GITLAB_CI_JWT_PUBLIC_KEY",
-        "value": "${headers}.${payload}"
+        "input": "${headers}.${payload}",
+        "output": "env.GITLAB_CI_JWT_PUBLIC_KEY"
       },
       {
         "type": "base64-json",
-        "key": "decoded",
-        "value": "${payload}"
+        "input": "${payload}",
+        "output": "decoded"
       },
     ],
     "action": "classify",
