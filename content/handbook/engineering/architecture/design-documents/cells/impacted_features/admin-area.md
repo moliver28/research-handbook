@@ -148,7 +148,7 @@ All `ApplicationSetting` attributes have a definition file under https://gitlab.
 where the `clusterwide` key defines if the attribute is cluster-level or not. The definition files are consolidated and exposed in
 [a dedicated documentation page](https://docs.gitlab.com/ee/development/cells/application_settings_analysis.html).
 
-A solution will be implemented to synchronize cluster-level attributes from the leader cell to other cells upon update of such cluster-level attributes.
+A solution will be implemented to synchronize cluster-level attributes from the leader cell to follower cells upon update of such cluster-level attributes.
 See the [Implementation](#implementation) section below for the details.
 
 #### Admin UI
@@ -169,75 +169,125 @@ Note: It means that an admin who wants to edit a cluster-level setting would nee
 [modifying the session prefix manually](https://gitlab.com/gitlab-org/cells/http-router/-/issues/20#note_2139392832) today.
 In the future, we might add a way to navigate to a given cell through the UI.
 
-**On other cells:**
+**On follower cells:**
 
 - Hide cluster-level settings and prevent update of any cluster-level settings on the backend. Show a note explaining that cluster-level settings can only be edited on the leader cell.
+- Ideally, updates would also be prevented at the database level. This isn't mandatory, given that sync would happen regularly, ensuring eventual consistency.
 - Upon update, no synchronisation is needed since only cell-level settings can be changed in this case
+- In the future, cell-level settings could have an additional button to revert back to the leader cell setting value for this particular setting.
 
 #### Synchronisation of cluster-level attributes
 
 Investigation issue: https://gitlab.com/gitlab-org/gitlab/-/issues/451136
 
-##### At cell boot time
+##### Process
 
-When a non-leader cell boots:
-
-1. It sends a request to the [Topology Service](../../topology_service.md) to get all cluster-level attributes from the leader cell
-1. The Topology Service sends a request to the leader cell to get all the cluster-level attributes
-1. The leader cell responds to the request by sending the Topology Service all the cluster-level attributes ([see below for the handling of encrypted attributes](#special-case-of-encrypted-attributes))
-1. The Topology Service forwards the attributes to the non-leader cells
-1. Each non-leader cell update its local database with them
+1. [In requester cell] Process is aborted if the last sync timestamp (stored in Redis) is present and it's fresh enough (e.g. < 1 hour)
+1. [In requester cell] Sends a `GetCanonicalAppSettings({ "attributes": ["attr1", "attr2"] })` request to the [Topology Service](../../topology_service.md) to get canonical cluster-level attributes values
+   - The request includes the list of attributes known by the cell. This allows each cell to be have different attributes, and removes any coupling between the leader cell database schema and the follower cells' one.
+     This could happen if a follower cell is deployed with a schema change before the leader cell (or vice-versa). See [Schema change / cluster-level change use-cases](#schema-change---cluster-level-change-use-cases) below for more details.
+1. [In Topology Service] If the requester cell is the leader cell, the process ends here since the leader cell already has the canonical cluster-level attributes values
+1. [In Topology Service] Sends a `GET /api/v4/application/cluster_level_settings?attributes=attr1,attr2` request to the leader cell to get the requested cluster-level attributes
+1. [In leader cell] Sends the requested cluster-level attributes to the Topology Service
+   - Encrypted attributes are sent encrypted ([see below for the handling of encrypted attributes](#special-case-of-encrypted-attributes))
+   - The response includes a `checksum` of the JSON data (i.e. `Zlib.crc32(attributes.to_json)`). For encrypted attributes, the decrypted value is used in the checksum.
+1. [In Topology Service] Forwards the API response from the leader cell to the requester cell
+1. [In requester cell] Update its attributes based on the received data
+   - The transaction is committed only after the checksum of the updated attributes is the same as the one received from the Topology Service.
+1. [In requester cell] The last sync timestamp is updated
 
 ```mermaid
 sequenceDiagram
-    Non-leader cell->>+Topology Service: GetMetadata
-    Topology Service->>+Leader cell: GET /api/v4/application/settings?clusterwide=true
+    Requester cell->>+Topology Service: GetCanonicalAppSettings({ "attributes": ["attr1", "attr2"] })
+    Topology Service->>+Leader cell: GET /api/v4/application/cluster_level_settings?attributes=attr1,attr2
     Leader cell-->Leader cell: Encrypted attributes are decrypted with the<br>cell's key, and re-enrypted with a transit key
-    Leader cell->>-Topology Service: { attr1: "foo", attr2: "<encrypted>" }
+    Leader cell->>-Topology Service: { attributes: { attr1: "foo", attr2: "<encrypted>" }, checksum: 1234 }
     Note left of Topology Service: Topology service is unable to<br>decrypt any encrypted attributes
-    Topology Service->>-Non-leader cell: { attr1: "foo", attr2: "<encrypted>" }
-    Non-leader cell-->Non-leader cell: Encrypted attributes are decrypted with the<br>transit key, and re-encrypted with the cell's key
+    Topology Service->>-Requester cell: { attributes: { attr1: "foo", attr2: "<encrypted>" }, checksum: 1234 }
+    Requester cell-->Requester cell: Encrypted attributes are decrypted with the<br>transit key, and re-encrypted with the cell's key
+    Requester cell-->Requester cell: Updated attributes are committed if the computed checksum equals the one received from the Topology Service
 ```
+
+##### At cell boot time
 
 This logic would be implemented in a new Rails initializer at `config/initializers/2_application_settings.rb`.
 
 ##### Periodically
 
-On non-leader cells, a CRON-based background job would perform the same request as the one described above for boot time synchronisation to ensure no settings have drifted.
+On all cells, a CRON-based background job would perform the same actions as the one described above for boot time synchronisation to ensure no settings have drifted.
+The synchronization could happen every hour.
 
-##### Upon attribute update on the leader cell
+##### Upon cluster-level attribute update
 
-When a leader cell updates one ore many attributes at once, a background job is started that:
+When a cell updates one ore many cluster-level attributes at once, a background job is started that:
 
-1. Sends the updated cluster-level attributes to the Topology Service ([see below for the handling of encrypted attributes](#special-case-of-encrypted-attributes))
-1. The Topology Service forwards the attributes to each non-leader cell
-1. Each non-leader cell update its local database with them
+1. [In leader cell] Sends a `PingCellsForAppSettingsUpdate(["attr1", "attr2"])` request to the Topology Service
+   - The request includes the list of the updated attributes.
+1. [In Topology Service] Sends a `POST /api/v4/internal/need_application_settings_sync` request with body `{ "attributes": ["attr1", "attr2"] }` to each follower cell
+1. [In follower cell] If any of the updated attributes are know to the cell, a background job is started to perform the same actions as the one described above for boot time synchronisation
 
 ```mermaid
 sequenceDiagram
-    Leader cell-->Leader cell: Encrypted attributes are decrypted with the<br>cell's key, and re-enrypted with a transit key
-    Leader cell->>+Topology Service: SetMetadata({ attr1: "foo", attr2: "<encrypted>" })
-    Note right of Topology Service: Topology service is unable to<br>decrypt any encrypted attributes
-    loop For all non-leader cells
-        Topology Service->>+Non-leader cells: PUT /api/v4/application/settings
+    Leader cell->>+Topology Service: PingCellsForAppSettingsUpdate(["attr1", "attr2"])
+    loop For each follower cell
+        Topology Service->>+Follower cell: POST /api/v4/internal/need_application_settings_sync (body: `{ "attributes": ["attr1", "attr2"] }`)
+        Note right of Follower cell: Imagine the cell doesn't know about "attr2",<br>it would only ask for the value of "attr1"
+        Follower cell->>+Topology Service: GetCanonicalAppSettings({ "attributes": ["attr1"] })
+        Topology Service->>+Leader cell: GET /api/v4/application/cluster_level_settings?attributes=attr1
+        Leader cell->>-Topology Service: { attributes: { attr1: "foo" }, checksum: 1234 }
+        Topology Service->>-Follower cell: { attributes: { attr1: "foo" }, checksum: 1234 }
+        Follower cell-->Follower cell: Updated attributes are committed if the computed checksum equals the one received from the Topology Service
     end
 ```
 
 ##### Special case of encrypted attributes
 
-Encrypted attributes will need to be encrypted with a transit key that's shared by the leader cell, and the non-leader cells.
+Encrypted attributes will need to be encrypted with a transit key that's shared by all cells (leader and followers).
 
-Leader cell:
+Process on the leader cell:
 
-1. Before sending attributes to the Topology Service, each encrypted attribute is decrypted and re-encrypted with the `db_key_transit` transit key
+1. Upon `GET /api/v4/application/cluster_level_settings?attributes=attr1,attr2` requests, each encrypted attribute is decrypted and re-encrypted with the `db_key_transit` transit key
+   - Encrypted attributes are sent encrypted, so that the Topology Service is unable to see the decrypted value of encrypted attributes (since it doesn't have access to the `db_key_transit` transit key)
+   - The decrypted value is used to compute the `checksum` key of the response
 1. Then the leader cell sends the relevant cluster-level attributes to the Topology Service
 
-Non-leader cell:
+Process on follower cells:
 
-1. When receiving attributes, each encrypted attribute is decrypted with the `db_key_transit`, and re-encrypted with the current cell
-   `db_key_base` (`config.active_record.encryption.primary_key` / `config.active_record.encryption.deterministic_key` depending on
-   [the encrypted attributes implementation](https://gitlab.com/groups/gitlab-org/-/epics/15226))
-1. Attributes are then updated in the current cell's local database
+1. When receiving attributes from the Topology Service, each encrypted attribute is decrypted with the `db_key_transit`, and automatically encrypted with the current cell encryption key
+   when the attribute is assigned, thanks to [the encrypted attributes implementation](https://gitlab.com/groups/gitlab-org/-/epics/15226).
+1. Attributes are then committed in the current cell's local database, after the `checksum` has been verified against decrypted (if applicable) values of attributes
+
+##### Schema change / cluster-level change use-cases
+
+By passing the list of cluster-level attributes a cell knows about to the `GetCanonicalAppSettings({ "attributes": ["attr1", "attr2"] })` request,
+we handle all the following cases:
+
+1. Added / removed cluster-level attribute:
+   1. A cluster-level attribute is added to the leader cell, but not yet to the follower cells:
+      - Follower cells wouldn't ask for the attribute so the leader cell wouldn't send it in the sync response.
+      - Follower cells would ask for it as soon as the change is deployed to them.
+   1. A cluster-level attribute is added to a follower cell, but not yet to the leader cell:
+      - Follower cells would ask for the attribute in the sync request, but the leader would ignore it.
+      - Leader cell would send it as soon as the change is deployed to it.
+   1. A cluster-level attribute is removed from the leader cell, but not yet from the follower cells:
+      - Follower cells would ask for the attribute in the sync request, but the leader would ignore it.
+      - Follower cells would stop asking for it as soon as the change is deployed to them.
+   1. A cluster-level attribute is removed from a follower cell, but not yet from the leader cell:
+      - Follower cells wouldn't ask for the attribute so the leader cell wouldn't send it in the sync response.
+      - No change when the change is deployed to the leader cell since the leader cell only sends requested attributes.
+1. Change in cluster-level / cell-level status of an attribute:
+   1. A cell-level attribute is changed to be cluster-level in the leader cell, but not yet in the follower cells (**same as 1.1**):
+      - Follower cells wouldn't ask for the attribute so the leader cell wouldn't send it in the sync response.
+      - Follower cells would ask for it as soon as the change is deployed to them.
+   1. A cell-level attribute is changed to be cluster-level in the follower cells, but not yet in the leader cell (**same as 1.2**):
+      - Follower cells would ask for the attribute in the sync request, but the leader would ignore it.
+      - Leader cell would send it as soon as the change is deployed to it.
+   1. A cluster-level attribute is changed to be cell-level in the leader cell, but not yet in the follower cells (**same as 1.3**):
+      - Follower cells would ask for the attribute in the sync request, but the leader would ignore it.
+      - Follower cells would stop asking for it as soon as the change is deployed to them.
+   1. A cluster-level attribute is changed to be cell-level in the follower cells, but not yet in the leader cell (**same as 1.4**):
+      - Follower cells wouldn't ask for the attribute so the leader cell wouldn't send it in the sync response.
+      - No change when the change is deployed to the leader cell since the leader cell only sends requested attributes.
 
 ##### Implementation
 
@@ -247,45 +297,42 @@ The interface would be as follows:
 
 ```proto
 syntax = "proto3";
-
 package gitlab.cells.topology_service;
 
-import "google/protobuf/any.proto";
 import "proto/cell_info.proto";
+import "google/api/annotations.proto";
 
 option go_package = "../proto";
 
-message AppSetting {
-  string key = 1;
-  google.protobuf.Any value = 2;
-}
-
-/* Used for "At cell boot time" & "Periodically" */
-message GetLeaderCellAppSettingsRequest {
+message GetCanonicalAppSettingsRequest {
   int64 from_cell_id = 1;
+  repeated string attributes = 2;
 }
 
-/* Used for "At cell boot time" & "Periodically" */
-message GetLeaderCellAppSettingsResponse {
-  repeated AppSetting app_settings = 1;
+message GetCanonicalAppSettingsResponse {
+  // repeated AppSetting app_settings = 1;
+  string attributes = 1;
+  int64 checksum = 2;
 }
 
-/* Used for "Upon attribute update on the leader cell" */
 message PingCellsForAppSettingsUpdateRequest {
 }
 
-/* Used for "Upon attribute update on the leader cell" */
 message PingCellsForAppSettingsUpdateResponse {
 }
 
-service MetadataService {
-  // Called from non-leader cells.
-  // -> Asks for cluster-wide application_settings from the leader cell
-  // <- Returns cluster-wide application_settings from the leader cell
-  rpc GetLeaderCellAppSettings(GetLeaderCellAppSettingsRequest) returns (GetLeaderCellAppSettingsResponse) {}
+service SyncService {
+  // Called from any cell.
+  // -> Asks for canonical cluster-level application_settings from the leader cell
+  // <- Returns canonical cluster-level application_settings from the leader cell
+  rpc GetCanonicalAppSettings(GetCanonicalAppSettingsRequest) returns (GetCanonicalAppSettingsResponse) {
+    option (google.api.http) = {
+      get: "/v1/app_settings"
+    };
+  }
 
   // Called from the leader cell.
-  // -> Tell non-leader cells to refresh their application_settings
+  // -> Tell follower cells to call GetCanonicalAppSettings for the given attributes
   // <- Returns success of pings
   rpc PingCellsForAppSettingsUpdate(PingCellsForAppSettingsUpdateRequest) returns (PingCellsForAppSettingsUpdateResponse) {}
 }
@@ -296,7 +343,7 @@ service MetadataService {
 ## 4.1. Pros
 
 - No changes required in a non-cell setup
-- Synchronization is both pull (from non leader-cell) and push (from leader cell)
+- Synchronization is both pull (from follower cells) and push (from leader cell)
 - Clear protocol with `protobuf`
 - Minimal changes to the Admin UI: hide cluster-level attributes on non-leader cells, and show cluster-level/cell-level badges on leader cell
 
