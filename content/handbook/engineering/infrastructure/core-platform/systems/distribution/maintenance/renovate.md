@@ -1,6 +1,6 @@
 ---
 title: "Distribution Team usage of Renovate"
-description: "Describes the external GitLab Projects used by the Distribution Team, how to handle MRs from these, and how to maintain Renovate for new dependencies."
+description: "Describes the external GitLab Projects used by the Distribution Team, how to handle MRs from these, and resources for Renovate maintenance and new dependency addition."
 ---
 
 ## Common links
@@ -66,14 +66,7 @@ It can be useful to debug Renovate locally for faster feedback, as the pipeline 
 
 Here is a [snippet](https://gitlab.com/-/snippets/3761950) that describes how to test locally.
 
-## Adding new dependencies
-
-1. Add a fork of the canonical project.
-   * This is used by Renovate to create MRs for the canonical project.
-1. Add configuration file under suitable project.
-
 ## Additional Information
 
-Additional information can be found in [Distribution: Renovate Gitlab Bot 101](https://gitlab.com/gitlab-org/distribution/distributions-101/-/tree/main/GitLab%20Renovate%20Bot?ref_type=heads).
-
-Specific instructions for adding new dependencies are located in the [Renovate Gitlab docs](https://gitlab.com/gitlab-org/frontend/renovate-gitlab-bot/-/blob/main/docs/setting-up-a-new-project.md).
+- Additional information can be found in [Distribution: Renovate Gitlab Bot 101](https://gitlab.com/gitlab-org/distribution/distributions-101/-/tree/main/GitLab%20Renovate%20Bot?ref_type=heads).
+- Specific instructions for adding new dependencies are located in the [Renovate Gitlab docs](https://gitlab.com/gitlab-org/frontend/renovate-gitlab-bot/-/blob/main/docs/setting-up-a-new-project.md).
