@@ -329,8 +329,16 @@ There are two groups for Switchboard, [Reviewers and Maintainers](https://gitlab
 
 ### Open Questions :question:
 | Question | Added by | Discussion thread | Resolved |
-|----------|----------|-------------------| ------ |
+|----------|----------|-------------------| -------- |
 |  |  |  |  |
+
+### Feature flags
+
+<!-- This table should document any feature flags that were added or removed by the epic -->
+
+| Feature flag | Details | 
+| ------------ | ------- |
+| | |
 
 ### Further details :mag:
 
