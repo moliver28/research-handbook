@@ -1,5 +1,5 @@
 ---
-title: Signals Engineering Team
+title: Signals Engineering Team (SIT)
 ---
 
 ## Engaging Signals Engineering
@@ -7,6 +7,10 @@ title: Signals Engineering Team
 Teams can engage Signals Engineering by heading over to the #signals-engineering slack channel. SIRT can also engage signals engineering for detection and alert tuning needs by selecting the "report a bug" feature in GUARD. 
 
 ## Our Vision
+
+Improve the effectiveness and overall coverage of GitLab's detection engineering program internally and for customers, identifying opportunities to reduce the mean time to detection creation for incidents, and partnering with the product team to drive security observability improvements in the GitLab product, corporate, cloud and identity infrastructure.
+
+## Our Mission Statement
 
 Improve Detection Engineering
 - Improving coverage & effectiveness of detections
@@ -23,71 +27,58 @@ Providing Customer Value
 - Improving customer facing detection capabilities and offerings
 - Identifying & partnering stakeholders to implement customer observability needs
 
-## Our Mission Statement
+## The Team & Priorities
 
-Our focus is to improve the effectiveness and overall coverage of our detection engineering program internally and for customers, identifying opportunities to reduce the mean time to detection creation for incidents, and partnering with the product team to drive security observability improvements in the GitLab product, corporate, cloud and identity infrastructure.
+### Team Members
 
+| Team Member | Role |
+|---|---|
+| Matt Coons | [Security Manager](https://handbook.gitlab.com/job-families/security/security-leadership/) | 
+| Harjeet Sharma | [Staff Security Engineer, Signals Engineering](https://handbook.gitlab.com/job-families/security/security-engineer/#signals-engineering) | 
+| Evan Baltman | [Security Engineer, Signals Engineering](https://handbook.gitlab.com/job-families/security/security-engineer/#signals-engineering) | 
 
-## The Team
+### Our Stakeholders
 
-### Current Structure
+While Signals Engineering has dedicated engineers focussed on advancing projects and handling operational duties, there are a number of stakeholders both within the Security Division and beyond that Signals Engineering collaborate with to drive results. 
 
-The Threat Intelligence initiative is driven by cross-functional participants from SIRT and the Red Team, who dedicate 10-20% of their time to the program while still prioritizing their primary roles. They focus on building capabilities, delivering actionable intelligence, and demonstrating early results.
+| Stakeholder | Shared Responsiblities/Dependencies | 
+|---|---|
+| SIRT | Detection tuning, new detections, GUARD DaC framework |
+| T&S | Omamori integration |
+| Security Logging | Security logging capabilities & collaboration |
+| Threat Intel | Threat driven detections, Top threat actor detections |
+| GitLab Customers | Consumer of customer facing detections |
+| Product team | Collaboration to improve security signal capabilities |
+| GitLab product team | Collaboration to improve security signal capabilities |
 
 ### Current Priorities
 
-The initiative's current priorities are:
+In the first 6 months (FY25Q4 - FY26Q1), we are focusing on on "Low hanging fruit" and establishing the Signals Engineering program. 
 
-1. **Delivering actionable intelligence**: Preparing and presenting concise, actionable reports that inform GitLab of relevant threats, their potential impact, and recommended actions.
-1. **Building meaningful connections**: Establishing relationships with industry peers, government entities, and other experts who specialize in the top threats most impactful to GitLab.
+Some highlights include: 
 
-As the program matures, we will also include automation and AI as top priorities.
+1. Reducing alert false positives & improving FP alerting/handling workflow
+2. Initial metrics creation & label standarization
+3. Improving customer facing detection creation & sharing process
+4. Writing new detections to close identified detection gaps
 
-## <i class="fas fa-stream" id="biz-tech-icons"></i> Services We Provide
+As the program matures, we will expand our focus to improve our automation and maturity as well as bolstering our customer detection capabilities. 
 
-### Threat Intelligence Reports
+## What we've Built & Services we Offer
 
-Reports are the foundation of our Threat Intelligence program and are always actionable. We use GitLab.com to write the reports, enabling collaboration and allowing direct linking to recommendations and results.
+### GUARD
 
-All reports, regardless of type, consistently:
+GUARD (GitLab Universal Automated Response and Detection) is the Security Team's Detections as Code (DaC) pipeline and alerting automation framework. GUARD hands off an alert to the SIRT incident handling process stops when an alert is converted into a SIRT incident. 
 
-- Include linked issues with clearly defined next steps to address each topic covered
-- Answer the following questions for each threat addressed:
-  - How is this relevant to GitLab?
-  - How well is GitLab prepared to deal with this threat today?
-  - What steps is GitLab taking to better handle this threat?
+GUARD is a shared responsibility model between Signals Engineering and SIRT - Both SIRT and Signals Engineering build threat detections and have the ability to commit new and maintain existing detections in GUARD. 
 
-The specific reports types we offer are described below.
+#### Threat Detection Tuning
 
-#### Flash Reports
+When SIRT identifies a threat detection that needs to be tuned, tuning requests are submitted to the Signals Engineering team for improvements. 
 
-Flash Reports are delivered on an ad-hoc basis in response to rapidly emerging threats. They focus on a single topic, generally a specific threat actor, campaign, or vulnerability.
+#### Threat Detection Creation
 
-These reports help GitLab make quick decisions to protect our customers and our organization.
-
-Recommendations linked to Flash Reports are often time-sensitive and critical. They are leveraged for activities like:
-
-- Rapid iterations to security controls and detection capabilities
-- Threat hunting
-- Security communications
-- Purple Team Flash Operations
-
-Flash Reports use [this template](https://gitlab.com/gitlab-com/gl-security/security-operations/threat-intelligence-public/resources/threat-intelligence-templates/-/blob/main/.gitlab/issue_templates/flash_report.md?ref_type=heads).
-
-#### Threat Insights
-
-Threat Insights offer regular, high-level updates on the evolving threat landscape. They highlight the most relevant trends, actors, and campaigns that could affect GitLab in the coming weeks or months.
-
-These reports help team members stay informed, vigilant, and prepared.
-
-Recommendations linked to Threat Insights are not as time-sensitive as those from a Flash Report. They are leveraged for activities like:
-
-- Product roadmap and prioritization
-- Standard iterations to security controls and detection capabilities
-- Training on security awareness and job-specific skills
-- Purchasing decisions and vendor evaluations
-
-Threat Insights are produced monthly using [this template](https://gitlab.com/gitlab-com/gl-security/security-operations/threat-intelligence-public/resources/threat-intelligence-templates/-/blob/main/.gitlab/issue_templates/threat_insights.md?ref_type=heads) and include a live presentation with a Q&A session.
+The Signals Engineering team tracks detection coverage and builds new threat detections based on several needs: 
 
 ### Threat Actor Tracking
 
