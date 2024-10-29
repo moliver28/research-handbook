@@ -23,7 +23,6 @@ The Customer Success Strategy Analyst is a grade 6 (/handbook/total-rewards/comp
 - Leverage Gainsight for customer success management, focusing on quality controls and proactive customer engagement.
 - Continuously grow knowledge of business concepts and functional subject matters to identify and implement effective solutions.
 
-
 ### Requirements
 
 - Experience in an analytical role, preferably within Customer Success, Sales Strategy, or a similar function.
@@ -33,7 +32,6 @@ The Customer Success Strategy Analyst is a grade 6 (/handbook/total-rewards/comp
 - Excellent written and verbal communication skills, with the ability to present complex information clearly and concisely to stakeholders at all levels.
 - Proven ability to manage multiple projects simultaneously and deliver high-quality results in a fast-paced environment.
 - Understanding of customer success principles and a customer-centric approach to strategy development.
-
 
 ## Senior Customer Success Strategy Analyst
 
@@ -51,7 +49,6 @@ The Senior Customer Success Strategy Analyst is a grade 7 (/handbook/total-rewar
 - Adopt a flexible approach to driving insights and analyzing business questions and challenges, utilizing multi-faceted delivery capabilities related to data systems and visualization.
 - Leverage strong business acumen related to go-to-market (GTM) teams and strategies to inform data-driven decision-making.
 - Understand and work on complex problems requiring deep understanding of multiple data sources to make informed recommendations.
-
 
 ### Requirements
 
@@ -97,6 +94,7 @@ The Customer Success Strategy Manager is a grade 8 (/handbook/total-rewards/comp
 The Manager, Customer Success Strategy is a grade 8 (/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades).
 
 ### Responsibilities
+
 - Guide and manage the day to day responsibilities of all members of team.
 - Set direction and vision for the team while being accountable for overall team resulsts. 
 - Develop and design business models that align with the company's strategic objectives and customer success goals.
@@ -145,5 +143,3 @@ The Senior Manager, Customer Success Strategy is a grade 9 (/handbook/total-rewa
 - Excellent collaboration skills with proven ability to effectively communicate and partner with cross-functional stakeholders.
 - Proven ability to manage multiple projects simultaneously and deliver high-quality results in a fast-paced environment.
 - Deep understanding of customer success principles and a customer-centric approach to strategy development.
-
-
