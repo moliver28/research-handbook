@@ -1,11 +1,10 @@
 ---
 title: "Open Source Program"
-description: "Learn about the GitLab for Open Source Program and other open source programs from GitLab's Developer Relations team"
+description: "Learn about the GitLab for Open Source Programs from GitLab's Developer Relations team"
 ---
-
 GitLab's open source program is part of the [Developer Relations team](/handbook/marketing/developer-relations/). It consists of three sub-programs:
 
-* [**GitLab for Open Source Program**](/handbook/marketing/developer-relations/community-programs/open-source-program/#gitlab-for-open-source-program), through which qualifying open source projects receive benefits like features of GitLab Ultimate with 50,000 compute minutes for free.
+* [**GitLab for Open Source Program**](/handbook/marketing/developer-relations/community-programs/open-source-program/#gitlab-for-open-source-program), through which qualifying open source projects receive benefits such as features of GitLab Ultimate with 50,000 compute minutes for free.
 * [**GitLab Open Source Partners**](/handbook/marketing/developer-relations/community-programs/open-source-program/#gitlab-open-source-partners), a partnership program designed for large or prominent open source projects and organizations.
 * [**Consortium Memberships**](/handbook/marketing/developer-relations/community-programs/open-source-program/#consortium-memberships-and-sponsorships), which allow us to extend GitLab's leadership in key open source initiatives, enhance GitLab's brand, and/or improve engineering alignment
 
@@ -97,7 +96,7 @@ When verified, applicants receive a verification email containing specific instr
 Some users may need to input a VAT number when completing their program applications.
 GitLab for Open Source Program members can simply input `N/A` into the VAT field during registration.
 
-#### Must members of the GitLab for Open Source Program renew their memberships?
+#### Do members of the GitLab for Open Source Program need to renew their memberships?
 
 Yes.
 Program members must renew their memberships annually.
