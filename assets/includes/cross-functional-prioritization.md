@@ -8,7 +8,12 @@ The Cross-Functional Prioritization contains three key tenets:
 * Cross-functional DRIs are responsible for prioritization in each section, anyone is still able to advocate for prioritization changes
 * DRI decisions informed by qualitative and quantitative data, up to and including automatic scheduling of work items based on SLA policies
 
-As a general guideline we want R&D as a whole to achieve a 60%/40% split with 60% focused on features and usability, and 40% focused on optimization, general maintenance, and bugs. We recognize that based on the maturity of a given area this ratio may need to be different per team. For example, a team with relatively immature features may require more feature work, while a team with much more mature features carries a heavier maintenance burden - we see this represented in data today across the portfolio. This means that each group should define the correct ratio across all categories based on Category maturity as well as maintenance needed to continue to meet our security, scalability, reliability, and availability requirements. Each quad will align with their leaders to ensure that R&D achieves its 60%/40% target. 
+An aspirational goal for the R&D organization is achieving an end state where our aggregate R&D development capacity is allocated along a 60%/40% split as follows:
+
+* 60%: focused on features and usability
+* 40%: focused on optimization, general maintenance, security items, and bugs
+
+We recognize that making progress towards our desired end state requires significant effort and cannot be achieved immediately. Success will require cross-functional discipline, diligence, and alignment in both planning and execution, with tangible progress towards our desired end state 60%/40% split being measurable release over release. We recognize that based upon the maturity of a given area, this ratio may need to be different per team.  We see this represented in data today across the portfolio, where for example a team with relatively immature features may require more feature work allocated, while teams with more mature features carry a heavier maintenance burden. Each group has the ownership and accountability to define the correct ratio across all categories based on Category maturity as well as maintenance needed to continue meeting our security, scalability, reliability, availability, and quality requirements. Teams will align with R&D leadership across Product & Engineering to ensure R&D demonstrate continuous improvemetn towards our desired 60%/40% end state.
 
 The table below summarizes the 60%/40% split by component:
 
