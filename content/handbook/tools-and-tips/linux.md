@@ -157,7 +157,7 @@ Some GitLab team members have experienced issues with the Nvidia drivers on Dell
 
 - Edit the line to look like this:
 
- `GRUB_CMDLINE_LINUX_DEFAULT="quiet splash mem_sleep_default=deep`
+ `GRUB_CMDLINE_LINUX_DEFAULT="quiet splash mem_sleep_default=deep"`
 
 - Then update grub:
 
