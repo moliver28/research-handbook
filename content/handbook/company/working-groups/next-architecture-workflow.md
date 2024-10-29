@@ -15,7 +15,7 @@ status: active
 
 ### Problem Statements
 
-1. [Cross-functional prioritization](/handbook/product/cross-functional-prioritization/) framework allocates
+1. [Cross-functional prioritization](/handbook/product/product-processes/cross-functional-prioritization/) framework allocates
    some amount of time towards maintenance activities. It is not prescriptive
    regarding how Engineering Managers and Engineers might coordinate across
    multiple teams to execute on large-scale cross-functional projects like those
@@ -48,7 +48,7 @@ great results by using it.
   [AppSec reviews](/handbook/security/product-security/application-security/runbooks/review-process),
   and [creation of release posts](/handbook/marketing/blog/release-posts/).
 - Develop strategy for incorporating this process and the Engineering roadmap into Product planning
-  and prioritization via the [Cross-functional Prioritization](/handbook/product/cross-functional-prioritization/) framework.
+  and prioritization via the [Cross-functional Prioritization](/handbook/product/product-processes/cross-functional-prioritization/) framework.
 
 ### Context
 
@@ -62,7 +62,7 @@ great results by using it.
   initiatives have a low rate of success. Many *choose* to produce blueprints
   as part of their exit criteria, but blueprints are not standard and do very
   little to ensure the work gets done.
-- [Cross-functional Prioritization](/handbook/product/cross-functional-prioritization/) aims to replace
+- [Cross-functional Prioritization](/handbook/product/product-processes/cross-functional-prioritization/) aims to replace
   [Engineering Allocations](/handbook/engineering/#engineering-allocation) but is not prescriptive
   regarding how efforts involving engineers across multiple Product stages will
   be coordinated.

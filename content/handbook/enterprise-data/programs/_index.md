@@ -36,7 +36,7 @@ The Data Team performs Proof of Value Evaluations (PoVs) for all new technologie
 ### Phase 2: Scoping & Policy Awareness
 
 1. Review the [Procurement New Software Guide](/handbook/finance/procurement/new-software/) to ensure you understand the latest procurement process to follow.
-1. Execute an [NDA](/handbook/legal/NDA/) with each Vendor included in the Evaluation.
+1. Execute an [NDA](/handbook/legal/nda/) with each Vendor included in the Evaluation.
 1. Obtain preliminary pricing to help validate established budget. If no existing budget is established, work with the Department lead to determine if the project is feasible. Let's not waste time or energy for projects we can't fund.
 
 ### Phase 3: Evaluation Design
@@ -44,7 +44,7 @@ The Data Team performs Proof of Value Evaluations (PoVs) for all new technologie
 Evaluation Design is the most complex part of the PoV.
 
 1. Decide how to test the technology versus defined requirements. Often, successfully testing data technologies requires simulating production workloads and constructing a 'Production Level SAFE Workload' is a key challenge in a Data PoV Project.
-     - No [Red Data](/handbook/security/data-classification-standard.html#red) or [Orange Data](/handbook/security/data-classification-standard.html#orange) is ever suitable for inclusion in a PoV.
+     - No [Red Data](/handbook/security/data-classification-standard/#red) or [Orange Data](/handbook/security/data-classification-standard/#orange) is ever suitable for inclusion in a PoV.
 
 ### Phase 4: Procurement
 

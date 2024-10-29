@@ -14,8 +14,8 @@ description: "The Fulfillment Sub-department is responsible for the infrastructu
 | [Internal Handbook - Fulfillment](https://internal.gitlab.com/handbook/product/fulfillment/) | Documentation that can't be in the public handbook. Minimize this to only [Not Public](/handbook/communication/confidentiality-levels/#not-public) information. |
 | [Cloud Licesing Overview (External)](https://about.gitlab.com/pricing/licensing-faq/cloud-licensing/) | Why Cloud Licensing, data collected, customer pre-requisites |
 | [Licensing FAQ](https://about.gitlab.com/pricing/licensing-faq/) | Common questions around purchasing, licensing, billing, contacting sales, and more |
-| [Inventory of Fulfillment Emails](https://docs.google.com/spreadsheets/d/1SwEYmLD5Eoa5wM399frPoNGPQ3OUTGBKOOs9z6nB2tc/edit#gid=0) | List of all Fulfillment emails | 
-| [GitLab Company Quote-to-Cash documentation]](/handbook/company/quote-to-cash/) | Company-wide quote-to-cash documentation | 
+| [Inventory of Fulfillment Emails](https://docs.google.com/spreadsheets/d/1SwEYmLD5Eoa5wM399frPoNGPQ3OUTGBKOOs9z6nB2tc/edit#gid=0) | List of all Fulfillment emails |
+| [GitLab Company Quote-to-Cash documentation](/handbook/company/quote-to-cash/) | Company-wide quote-to-cash documentation |
 
 ## How to connect with us
 
@@ -179,7 +179,7 @@ There's an automated process (Zuora Workflow) that sets `Subscription.TurnOnAuto
 #### Other public docs
 
 - [Auto-renewals FAQ](https://about.gitlab.com/pricing/faq-improved-billing-and-subscription-management/#auto-renewals)
-- [Community programs renewal workflow](/handbook/marketing/developer-relations/community-programs/automated-community-programs/#renewal)
+- [Community programs renewal workflow](/handbook/marketing/developer-relations/community-programs/community-programs-workflows/#renewal)
 
 #### Developer docs
 

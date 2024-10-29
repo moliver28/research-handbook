@@ -102,7 +102,7 @@ This section lists relevant experience areas for individual contributors interes
 
 #### Trainings offered by GitLab for EMs
 
-* [Elevate Manager Training](/handbook/people-group/learning-and-development/elevate/)
+* [Elevate Manager Training](/handbook/people-group/learning-and-development/elevate-programs/)
 * [Crucial Conversations](/handbook/people-group/learning-and-development/learning-initiatives/crucial-conversations/)
 
 #### Other resources

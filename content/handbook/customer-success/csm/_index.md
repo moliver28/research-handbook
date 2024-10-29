@@ -213,7 +213,7 @@ Landing Zones
 #### Digital Customer Programs
 
 - [Digital Customer Programs Handbook Page](/handbook/sales/field-operations/customer-success-operations/cs-ops-programs/)
-  - [CSM Assigned Customer Programs](/handbook/sales/field-operations/customer-success-operations/cs-ops-programs/available-programs/index.html#csm-assigned-account-programs)
+  - [CSM Assigned Customer Programs](/handbook/sales/field-operations/customer-success-operations/cs-ops-programs/available-programs/#csm-assigned-account-programs)
 
 ### CSM Managers
 

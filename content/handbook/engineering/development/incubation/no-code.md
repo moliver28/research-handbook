@@ -82,7 +82,7 @@ Epic link: TBA
 
 Ideally, we can adopt FOSS solutions with an active community. Engaging these communities from day-one means that we can receive feedback from early problem validation, iterative delivery all the way to the final product launch.
 
-In addition, the project may also benefit from the [internal dogfooding process](/handbook/engineering/development/ops/release/dogfooding.html). Teams and individuals who have the need to build internal apps are the candidates for dogfooding the low-code solution.
+In addition, the project may also benefit from the [internal dogfooding process](/handbook/engineering/development/ops/release/dogfooding/). Teams and individuals who have the need to build internal apps are the candidates for dogfooding the low-code solution.
 
 #### References
 

@@ -116,7 +116,7 @@ When going out of office, please be sure to [clearly communicate](/handbook/peop
 
 3. Update your GitLab.com status with your out of office dates by clicking on your profile picture and selecting "Edit Status." For Example: `OOO Back on yyyy-mm-dd` Adding `OOO` to your status message will keep you from appearing in the [reviewer roulette](https://docs.gitlab.com/ee/development/code_review.html#reviewer-roulette).
 
-4. If the planned PTO is more than 3 days, [create a coverage issue](https://gitlab.com/gitlab-org/fulfillment/meta/-/issues/new?issuable_template=em_coverage) to indicate who's helping where and how we all can support each other. If you're unsure if a coverage issue is needed for your planned PTO, please discuss with your engineering manager. 
+4. If the planned PTO is more than 3 days, [create a coverage issue](https://gitlab.com/gitlab-org/fulfillment/meta/-/issues/new?issuable_template=em_coverage) to indicate who's helping where and how we all can support each other. If you're unsure if a coverage issue is needed for your planned PTO, please discuss with your engineering manager.
 
 ## Milestone Planning
 
@@ -133,7 +133,7 @@ When going out of office, please be sure to [clearly communicate](/handbook/peop
 
 ### How We Prioritize Issues
 
-We have [cross-functional prioritization](/handbook/product/cross-functional-prioritization/) process that is aligned with our prioritization framework.
+We have [cross-functional prioritization](/handbook/product/product-processes/cross-functional-prioritization/) process that is aligned with our prioritization framework.
 
 #### Responsibilities
 

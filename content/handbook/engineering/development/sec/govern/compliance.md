@@ -126,7 +126,7 @@ We plan in monthly cycles in accordance with our [Product Development Timeline](
 
 - By the 4th, Product should have created a planning issue for their group in the [Compliance project](https://gitlab.com/gitlab-org/govern/compliance/general/-/issues) for the coming release using the [template](https://gitlab.com/gitlab-org/govern/compliance/general/-/blob/main/.gitlab/issue_templates/planning_issue.md).
 - The Complaince [quad](/handbook/engineering/infrastructure/test-platform/quad-planning/) will add a tentative plan for the release, outlining the highest priority issues within each of their respective areas.
-- We prioritize using the [cross-functional prioritization](/handbook/product/cross-functional-prioritization/). The Product Manager will prioritize `type::feature` issues, the Engineering Manager will prioritize `type::maintenance` issues, and the Quality Manager will prioritize `type::bug` issues.
+- We prioritize using the [cross-functional prioritization](/handbook/product/product-processes/cross-functional-prioritization/). The Product Manager will prioritize `type::feature` issues, the Engineering Manager will prioritize `type::maintenance` issues, and the Quality Manager will prioritize `type::bug` issues.
 - Pre-planning is completed asynchronously by Product, Engineering, Quality and Design on the issue, this is to identify any unknowns or questions that need to be answered and resolved prior to final planning.
 - Issues can be either in Refinement phase (`workflow::planning breakdown` and `workflow::solution validation`) or Implementation phase (`workflow::scheduling` and `workflow::ready for development`).
 - Engineering Manager will update issue with the estimated group capacity for the Milestone

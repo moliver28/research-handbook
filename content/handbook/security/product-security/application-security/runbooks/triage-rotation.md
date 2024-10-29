@@ -8,11 +8,11 @@ Security team, typically for a weekly or fortnighly period.
 
 ### Who is on rotation?
 
-Automation manages the scheduling and assignment of rotations: 
+Automation manages the scheduling and assignment of rotations:
 
 - ["Who is on rotation now?"](https://gitlab.com/gitlab-com/gl-security/product-security/appsec/tooling/rotation-management/-/wikis/who-is-on-now)
 - [Rotation Management FAQ & README](https://gitlab.com/gitlab-com/gl-security/product-security/appsec/tooling/rotation-management)
-- [Holiday Coverage](/handbook/security/product-security/application-security/runbooks/holiday-coverage.html)
+- [Holiday Coverage](/handbook/security/product-security/application-security/runbooks/holiday-coverage/)
 
 ### What are the rotations?
 

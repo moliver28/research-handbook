@@ -21,7 +21,7 @@ To view the dashboard your browser must allow third-party cookies.
 - [MRARR Diagnostics](https://10az.online.tableau.com/t/gitlab/views/MRARRDiagnostics/MRARRDiagnostics)
   - Identifies MRs from customers that are not being tracked yet
   - Identifies projects with contributions that are not being tracked yet
-  - See [Contributing Orgs tracker](/handbook/marketing/developer-relations/contributor-success/contributing-org-tracker.html) for details
+  - See [Contributing Orgs tracker](/handbook/marketing/developer-relations/contributor-success/contributing-org-tracker/) for details
 
 ## Tableau dashboard
 

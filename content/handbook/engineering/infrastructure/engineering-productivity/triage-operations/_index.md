@@ -192,7 +192,7 @@ This section contains issues with the `~"type::bug"` label without priority and 
 
 ##### severity::1 & severity::2 bugs past SLO
 
-This section contains bugs which has past our targeted SLO based on the severity label set. This is based on our [missed SLO detection](/handbook/engineering/infrastructure/engineering-productivity/triage-operations/index.html#missed-slo) triage policy.
+This section contains bugs which has past our targeted SLO based on the severity label set. This is based on our [missed SLO detection](/handbook/engineering/infrastructure/engineering-productivity/triage-operations/#missed-slo) triage policy.
 
 ##### Heatmap for ~customer bugs
 

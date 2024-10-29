@@ -13,6 +13,6 @@ Engineering partners closely with our [Diversity, Inclusion & Belonging](/handbo
 - [FY21-Q3 KR: 75% of Managers in the Engineering Division complete DIB training] - 75% of Managers in the Engineering Division complete DIB training => 72.45%
 - [Team Member Resource Groups]({{< ref "erg-guide#how-to-join-current-tmrgs-and-their-slack-channels" >}})
 - [Diversity, Inclusion and Belonging GitLab initiatives]({{< ref "inclusion#diversity-inclusion--belonging-mission-at-gitlab" >}})
-- [Engineering Internship Pilot Program](/handbook/engineering/internships/)
+- [Engineering Internship Pilot Program](/handbook/hiring/emerging-talent/)
 - [In House Diversity, Inclusion and Belonging Training Certification](https://gitlab.edcast.com/journey/dib-training-certification)
 - [Advanced Software Engineering Course (partnership with Morehouse College)]({{< ref "advanced-software-engineering-course" >}})

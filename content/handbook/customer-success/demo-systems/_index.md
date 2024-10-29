@@ -143,7 +143,7 @@ Historically, there has not been a consistent set of demo data. Each of our Solu
 
 See the handbook page for [Demo Readiness](/handbook/solutions-architects/demonstrations/#demo-readiness) and [Existing Demonstrations](/handbook/solutions-architects/demonstrations/#existing-demonstrations) to get started.
 
-Please see the <a href="https://gitlab.com/gitlab-com/customer-success/solutions-architecture-leaders/sa-initiatives/-/issues">Solutions Architecture Initiatives issue tracker</a> for more information on the crowd sourced OKRs that are in progress and the development of our [Communities of Practice](/handbook/customer-success/initiatives/communities-of-practice.html).
+Please see the <a href="https://gitlab.com/gitlab-com/customer-success/solutions-architecture-leaders/sa-initiatives/-/issues">Solutions Architecture Initiatives issue tracker</a> for more information on the crowd sourced OKRs that are in progress and the development of our [Communities of Practice](/handbook/customer-success/initiatives/communities-of-practice/).
 
 ## Projects and Code Repositories
 
@@ -197,7 +197,7 @@ The Demo Systems v1 repositories can be found in [gitlab.com/gitlab-com/customer
 ### Handbook Links for Related Infrastructure
 
 - [GitLab Sandbox Cloud](/handbook/company/infrastructure-standards/realms/sandbox/)
-- [GitLab Infrastructure Standards](/handbook/infrastructure-standards/)
+- [GitLab Infrastructure Standards](/handbook/company/infrastructure-standards/)
 - [GitLab Infrastructure Standards - Labels and Tags](/handbook/company/infrastructure-standards/labels-tags/)
 - [Demo Systems Kubernetes Architecture Docs](/handbook/customer-success/demo-systems/infrastructure/kubernetes/)
 - [Demo Systems Network Architecture and Subnet Docs](/handbook/customer-success/demo-systems/infrastructure/networking/)

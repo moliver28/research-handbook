@@ -36,7 +36,7 @@ GitLab Solutions Architects conduct hands-on workshops as interactive events for
 
 ### RFI/RFP Responses
 
-RFx's such as RFI and RFP are common steps in the public sector yet it may be required by enterprise customers to assess, evaluate and procure the software. Solutions architects often participate in the RFP process responding to the technical asks and solutions requirements. Information on responding to the RFx can be found on the [RFI/RFP](/handbook/security/security-assurance/field-security/Field-Security-RFP.html) page.
+RFx's such as RFI and RFP are common steps in the public sector yet it may be required by enterprise customers to assess, evaluate and procure the software. Solutions architects often participate in the RFP process responding to the technical asks and solutions requirements. Information on responding to the RFx can be found on the [RFI/RFP](/handbook/security/security-assurance/field-security/Field-Security-RFP/) page.
 
 ### Stack Overflow for Teams
 

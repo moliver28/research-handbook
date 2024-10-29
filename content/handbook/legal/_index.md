@@ -85,9 +85,9 @@ The [Authorization Matrix](/handbook/finance/authorization-matrix/#authorization
 
 ## Non-Disclosure Agreements
 
-Follow the [Non-Disclosure Agreement Process](/handbook/legal/NDA/) to learn how to send an NDA in DocuSign or request an NDA if you do not have DocuSign access.
+Follow the [Non-Disclosure Agreement Process](/handbook/legal/nda/) to learn how to send an NDA in DocuSign or request an NDA if you do not have DocuSign access.
 
-Note that this process is only for standard GitLab NDAs. In the event a non-standard NDA is needed, follow the steps [here](/handbook/legal/NDA/#non-standard-nda-requests).
+Note that this process is only for standard GitLab NDAs. In the event a non-standard NDA is needed, follow the steps [here](/handbook/legal/nda/#non-standard-nda-requests).
 
 ## General Legal FAQs
 

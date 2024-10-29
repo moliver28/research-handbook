@@ -17,7 +17,7 @@ GitLab Open and Select partners have access to the proposal-based GitLab Marketi
 
 #### To be considered for funding support you must
 
-- Be a Marketing Ready Select or Open GitLab Partner. Marketing ready means: partner has an approved business plan with GitLab; has a list of focus accounts mapped with GitLab; has a dedicated person who manages leads sent to the partner by GitLab (Partner Prospect Admin); ackowledges [the lead passing and recall process](/handbook/marketing/marketing-operations/vartopia/#partner-recall); has a dedicated marketing resposible person to work on the join activties with GitLab; has regular calls with the GitLab CHannel Marketing Manager; acknowledges [the MDF Policy](/handbook/resellers/Channel-Program-Guide/MDF/) and requirements for MDF process (Reqests and Claims)
+- Be a Marketing Ready Select or Open GitLab Partner. Marketing ready means: partner has an approved business plan with GitLab; has a list of focus accounts mapped with GitLab; has a dedicated person who manages leads sent to the partner by GitLab (Partner Prospect Admin); ackowledges [the lead passing and recall process](/handbook/marketing/marketing-operations/vartopia/#partner-recall); has a dedicated marketing resposible person to work on the join activties with GitLab; has regular calls with the GitLab CHannel Marketing Manager; acknowledges [the MDF Policy](/handbook/resellers/channel-program-guide/MDF/) and requirements for MDF process (Reqests and Claims)
 - Comply with GitLab Proof of Performance (POP) requirements for the activity
 - Meet minimum required MDF request amount of **$1,000 USD**
 - GitLab will cover up to **50%** of the total cost of the activity
@@ -74,7 +74,7 @@ Instructions on how to accept/reject/reassign a lead or register a deal and subm
 ### Funds reimbursement Requirements
 
 - Submission of a payment claim (invoice) within 30 calendar days of completion of the activity via the MDF Reimbursement Request form on the GitLab Partner Portal.
-- Supporting documentation based on the activity, [documented here](/handbook/resellers/Channel-Program-Guide/MDF/#eligible-activities-and-required-proof-of-performance-mdf-activities) <br/>
+- Supporting documentation based on the activity, [documented here](/handbook/resellers/channel-program-guide/MDF/#eligible-activities-and-required-proof-of-performance-mdf-activities) <br/>
 **AND**<br/>
 - Invoice
       *Invoice will be accepted from the Partner only

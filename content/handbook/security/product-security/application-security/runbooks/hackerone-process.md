@@ -128,7 +128,7 @@ the responsible engineering team:
     - [ ] [Revoke the token](https://docs.gitlab.com/ee/api/personal_access_tokens.html#using-a-request-header-1) and reach out to the owner of the token through Slack DM and in the SIRT issue that you will create in the steps below.
   - [ ] Post a comment in `#security-revocation-self-service` using [this message template](https://gitlab.com/gitlab-com/gl-security/security-operations/sirt/runbooks/-/blob/main/misc/exposed_secrets.md#general-revocation-template-for-secrets)
   - [ ] If the information was leaked in an issue, make the Issue confidential and leave an internal note explaining why it's been made confidential.
-- [ ] Use the `/security` slack command to [initiate](/handbook/security/security-operations/sirt/engaging-security-on-call.html#engage-the-security-engineer-on-call) an incident
+- [ ] Use the `/security` slack command to [initiate](/handbook/security/security-operations/sirt/engaging-security-on-call/#engage-the-security-engineer-on-call) an incident
   - [ ] In the description section, include a link to the HackerOne report and any other useful information
     - [ ] Share the reporter's IP address(es) and time(s) the reporter accessed the sensitive data to assist with incident response.
   - [ ] In the remediation section, document what time and from what IP used to revoke the token or validate the leak.
@@ -213,7 +213,7 @@ Sometimes researchers will report a vulnerability in features behind a [feature 
 
 Pay attention to the full report to determine the `Attack Complexity`. The word `complex` in the bullet points below is as defined in the section **2.1.2 Attack Complexity** in [CVSS 3.1 Specification](https://www.first.org/cvss/v3.1/specification-document). Keep in mind, the aforementioned section says the following under the **2.1.2 Attack Complexity** section - ***"If a specific reasonable configuration is required for an attack to succeed, the Base metrics should be scored assuming the vulnerable component is in that configuration."***.
 
-- A vulnerability in a feature behind a feature flag that is not complex will be paid out at `AC:L` (this is after assuming the feature flag is enabled on a vulnerable instance). However we will handle the report as if it's `AC:H` for triage and SLOs. 
+- A vulnerability in a feature behind a feature flag that is not complex will be paid out at `AC:L` (this is after assuming the feature flag is enabled on a vulnerable instance). However we will handle the report as if it's `AC:H` for triage and SLOs.
 - A vulnerability in a feature behind a feature flag that is quite complex will still be `AC:H` (this is after assuming the feature flag is enabled on a vulnerable instance)
 
 Vulnerabilities behind disabled-by-default feature flags do not need a CVE (use `~no-cve` when importing) as they are [patched in regular releases](https://docs.gitlab.com/ee/administration/feature_flags.html#risks-when-enabling-features-still-in-development), not security releases.

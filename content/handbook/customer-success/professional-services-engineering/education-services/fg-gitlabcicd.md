@@ -11,7 +11,7 @@ description: "This Facilitator Guide is intended to walk you through all importa
 
 1. Instructor Slides: Follow the link in your instructor kit provided by your organization from within the EdCast Marketplace.
 2. Hands On Lab Environment: Use these [GitLab Template Projects VM Builds](https://gitlab.com/gitlab-com/customer-success/professional-services-group/partner-training-template-projects/gitlab-cicd-hands-on-demo)
-3. [Hands On Guide](/handbook/customer-success/professional-services-engineering/education-services/gitlabcicdhandson.html)
+3. [Hands On Guide](/handbook/customer-success/professional-services-engineering/education-services/gitlabcicdhandson/)
 4. [Remote Sessions Tips and Tricks](/handbook/customer-success/professional-services-engineering/remote-training-tips/)
 
 ### For GitLab Team Members and Contractors
@@ -23,7 +23,7 @@ description: "This Facilitator Guide is intended to walk you through all importa
    - Save  your copy in the applicable [client folder](https://drive.google.com/drive/u/0/folders/1ozPKiAlUzbKwpkscaYVTp9PVoi9hWm4U)
 
 2. Hands On Lab Environment: Use the sample projects located in the GitLab Demo Cloud
-3. [Hands On Guide](/handbook/customer-success/professional-services-engineering/education-services/gitlabcicdhandson.html)
+3. [Hands On Guide](/handbook/customer-success/professional-services-engineering/education-services/gitlabcicdhandson/)
 4. [Remote Sessions Tips and Tricks](/handbook/customer-success/professional-services-engineering/remote-training-tips/)
 
 ## Things to do Ahead
@@ -37,7 +37,7 @@ description: "This Facilitator Guide is intended to walk you through all importa
    2. Test each hands-on activity in the lab environment
 3. Websites to have up prior to class:
     1. [Related GitLab Docs pages](https://docs.gitlab.com/ee/ci/)
-    2. [Hands on Guide](/handbook/customer-success/professional-services-engineering/education-services/gitlabcicdhandson.html)
+    2. [Hands on Guide](/handbook/customer-success/professional-services-engineering/education-services/gitlabcicdhandson/)
     3. Lab environments
 4. Slide Check
     1. Make sure you can access the slides with presenter notes

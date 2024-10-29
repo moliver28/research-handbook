@@ -89,7 +89,7 @@ The Marketing Operations team has created the '@mktgops-support' Chatter in Sale
 
 **Emergency Comms**
 
-If an emergency communication needs to be send out, Marketing Ops will need to assist. Follow directions on this [page](/handbook/marketing/emergency-response/) to initiate the emergency response and view the [coverage matrix](/handbook/marketing/emergency-response#coverage-matrix). You can also follow the [security incident communication plan](/handbook/security/security-operations/sirt/security-incident-communication-plan.html) for security related issues.
+If an emergency communication needs to be send out, Marketing Ops will need to assist. Follow directions on this [page](/handbook/marketing/emergency-response/) to initiate the emergency response and view the [coverage matrix](/handbook/marketing/emergency-response#coverage-matrix). You can also follow the [security incident communication plan](/handbook/security/security-operations/sirt/security-incident-communication-plan/) for security related issues.
 
 ## <i class="fas fa-tasks" id="biz-tech-icons"></i> How We Work
 

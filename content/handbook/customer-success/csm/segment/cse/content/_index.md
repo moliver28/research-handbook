@@ -107,7 +107,7 @@ The following sections provide an overview of all content assets, and links to f
 
 ### Environments/Infrastructure to support Demonstrating Content
 
-- **Build Your Own -** Self service public cloud infrastructure/tooling/environments. Individual AWS account or GCP project access documented in the [Sandbox Cloud Realm](/handbook/infrastructure-standards/realms/sandbox) handbook pages and accessed through [gitlabsandbox.cloud](https://gitlabsandbox.cloud).
+- **Build Your Own -** Self service public cloud infrastructure/tooling/environments. Individual AWS account or GCP project access documented in the [Sandbox Cloud Realm](/handbook/company/infrastructure-standards/realms/sandbox) handbook pages and accessed through [gitlabsandbox.cloud](https://gitlabsandbox.cloud).
   - *Use Cases:*
     - *Competitor analysis/demonstration/exploration*
     - *Personal runner/fleet demonstration/exploration*
@@ -131,7 +131,7 @@ The following sections provide an overview of all content assets, and links to f
 | Title                                                        | Group         | Last updated | YouTube |
 | ------------------------------------------------------------ | ------------- | ------------ | ------- |
 | [Holistic Approach to Securing the Development Lifecycle](https://drive.google.com/file/d/11-mPw0aNXcazOMVVVvxEo97meQz1TYMW/view?usp=drive_link) | Secure        | 2023-10-13   | https://youtu.be/WWA7z2WtFvM  |
-| [Git Basics](https://drive.google.com/file/d/17BvOGiXmWNLYm3MXmIqZ6kAkC0b4cow7/view?usp=drive_link) | Create        | 2023-10-13   | https://youtu.be/WMWoi6for1M | 
+| [Git Basics](https://drive.google.com/file/d/17BvOGiXmWNLYm3MXmIqZ6kAkC0b4cow7/view?usp=drive_link) | Create        | 2023-10-13   | https://youtu.be/WMWoi6for1M |
 | [Intro to GitLab](https://drive.google.com/file/d/14vWu6oCIcWwrkNtcZw_pioC8K3c2hNEt/view?usp=drive_link) | All           | 2023-12-07   | https://youtu.be/E1tKfOPKMA8 |
 | [Intro to CI/CD](https://drive.google.com/file/d/1V3sH4rTQSMzFfwZpzZgmi9wZJq8vSoMm/view?usp=drive_link) | Verify        | 2023-10-13   | https://youtu.be/bE2YXhAVBeE |
 | [Advanced CI/CD](https://drive.google.com/file/d/1GlGg0Q7p7gsAGGWgZ1vj82NZmap7PX3w/view?usp=drive_link) | Verify        | 2023-10-23   | https://youtu.be/9VTGW1pCTC8 |

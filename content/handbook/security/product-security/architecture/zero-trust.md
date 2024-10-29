@@ -21,7 +21,7 @@ You can also check out our [Zero Trust Networking (ZTN) blog series](https://abo
 
 Head over to the /r/netsec subreddit to see our [October 29, 2019 Reddit AMA](https://www.reddit.com/r/netsec/comments/d71p1d/were_a_100_remote_cloudnative_company_and_were/) on Zero Trust where we fielded questions around our ZTN implementation, roadmap, strategy and more.
 
-Identity is a critical element of the implementation of a ZTN framework. GitLab is moving forward with an implementation of Okta to allow us to standardize authentication for Cloud Application access and implement user-friendly SSO. See our [Okta](/handbook/business-technology/okta/) page for more details.
+Identity is a critical element of the implementation of a ZTN framework. GitLab is moving forward with an implementation of Okta to allow us to standardize authentication for Cloud Application access and implement user-friendly SSO. See our [Okta](/handbook/it/okta/) page for more details.
 
 ### Why We Don't Have a Corporate VPN
 

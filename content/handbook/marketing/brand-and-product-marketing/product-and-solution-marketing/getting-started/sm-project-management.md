@@ -6,11 +6,11 @@ title: "Product and Solution Marketing Project Management Overview"
 
 In Product and Solution Marketing, we have several processes to manage the work the team does
 
-1. [Commitment management](/handbook/marketing/brand-and-product-marketing/product-and-solution-marketing/getting-started/sm-project-management/index.html#commitment-management) - how do we know what we're committed to
-1. [Epics (larger projects)](/handbook/marketing/brand-and-product-marketing/product-and-solution-marketing/getting-started/sm-project-management/index.html#epics-and-milestones---planning-and-tracking-our-work) - how do we plan big projects
-1. [Monitoring and reporting progress](/handbook/marketing/brand-and-product-marketing/product-and-solution-marketing/getting-started/sm-project-management/index.html#metrics-and-kpis-gitlab-insights) - how do we track progress
-1. [Using Labels and keeping them clean](/handbook/marketing/brand-and-product-marketing/product-and-solution-marketing/getting-started/sm-project-management/index.html#labels-and-label-hygiene) - how do we keep our labels
-1. [Priority](/handbook/marketing/brand-and-product-marketing/product-and-solution-marketing/getting-started/sm-project-management/index.html#priority-and-prioritization) - how do we indicate what's most important
+1. [Commitment management](/handbook/marketing/brand-and-product-marketing/product-and-solution-marketing/getting-started/sm-project-management/#commitment-management) - how do we know what we're committed to
+1. [Epics (larger projects)](/handbook/marketing/brand-and-product-marketing/product-and-solution-marketing/getting-started/sm-project-management/#epics-and-milestones---planning-and-tracking-our-work) - how do we plan big projects
+1. [Monitoring and reporting progress](/handbook/marketing/brand-and-product-marketing/product-and-solution-marketing/getting-started/sm-project-management/#metrics-and-kpis-gitlab-insights) - how do we track progress
+1. [Using Labels and keeping them clean](/handbook/marketing/brand-and-product-marketing/product-and-solution-marketing/getting-started/sm-project-management/#labels-and-label-hygiene) - how do we keep our labels
+1. [Priority](/handbook/marketing/brand-and-product-marketing/product-and-solution-marketing/getting-started/sm-project-management/#priority-and-prioritization) - how do we indicate what's most important
 1. [Managing Workflow](#example-of-managing-our-workflow) - how do we manage our workflow
 
 ### Commitment management

@@ -177,7 +177,7 @@ Forrester reprint info (views, d/l, dwell)
 
 ## Examples to consider
 
-- [ChangeLog](/handbook/CHANGELOG.html)
+- [ChangeLog](/handbook/CHANGELOG/)
 - Surveys (Sales team)
 - Analytics on issues managed - open/closed, internal vs. external
 - Pathfactory

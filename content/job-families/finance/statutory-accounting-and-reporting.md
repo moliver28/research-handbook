@@ -41,7 +41,7 @@ The Statutory Accounting and Compliance Senior Manager is a [grade 9](/handbook/
 
 ### Performance Indicators
 
-- [Audit Adjustments](/handbook/tax/performance-indicators/#audit-adjustments)
+- [Audit Adjustments](https://internal.gitlab.com/handbook/tax/performance-indicators/#audit-adjustments)
 
 ### Career Ladder
 

@@ -5,10 +5,10 @@ description: "Realm for the engineering infrastructure team to deploy shared and
 
 ### Quick links
 
-- [Global infrastructure standards](/handbook/infrastructure-standards/)
+- [Global infrastructure standards](/handbook/company/infrastructure-standards/)
 - [Global labels and tags](/handbook/company/infrastructure-standards/labels-tags/)
-- [Infrastructure policies](/handbook/infrastructure-standards/policies/)
-- [Infrastructure helpdesk](/handbook/infrastructure-standards/helpdesk/)
+- [Infrastructure policies](/handbook/company/infrastructure-standards/policies/)
+- [Infrastructure helpdesk](/handbook/company/infrastructure-standards/helpdesk/)
 
 ## Overview
 
@@ -20,7 +20,7 @@ The [Engineering Infrastructure Environments handbook page](/handbook/engineerin
 
 ### Access requests
 
-To request access to a group, please see [group access request tutorial](/handbook/infrastructure-standards/tutorials/groups/access-request/).
+To request access to a group, please see [group access request tutorial](/handbook/company/infrastructure-standards/tutorials/groups/access-request/).
 
 > For email authenticity security reasons, only GitLab issues or Slack messages to owners or counterparts are allowed for infrastructure requests.
 
@@ -33,7 +33,7 @@ To request access to a group, please see [group access request tutorial](/handbo
 
 ## Realm labels and tags
 
-The [global labels/tags](/handbook/infrastructure-standards/labels-tags) and [realm labels/tags](/handbook/infrastructure-standards/realms/eng-infra/labels-tags) should be applied to each resource.
+The [global labels/tags](/handbook/company/infrastructure-standards/labels-tags) and [realm labels/tags](/handbook/company/infrastructure-standards/realms/eng-infra/labels-tags) should be applied to each resource.
 
 ## Realm Groups
 
@@ -43,12 +43,12 @@ If a group has not been implemented yet, please contact the realm owner for assi
 
 | Group Name (AWS Account/GCP Project Name) | Usage Documentation (Empty cells are not implemented yet)                                                                |
 |-------------------------------------------|--------------------------------------------------------------------------------------------------------------------------|
-| `eng-infra-shared-infra`                  | <!--[Group Docs](/handbook/infrastructure-standards/realms/eng-infra/groups/eng-infra-shared-infra)-->                   |
-| `eng-infra-shared-services`               | <!--[Group Docs](/handbook/infrastructure-standards/realms/eng-infra/groups/eng-infra-shared-services)-->                |
-| `eng-infra-analytics`                     | <!--[Group Docs](/handbook/infrastructure-standards/realms/eng-infra/groups/eng-infra-analytics)-->                      |
-| `eng-infra-scalability`                   | <!--[Group Docs](/handbook/infrastructure-standards/realms/eng-infra/groups/eng-infra-scalability)-->                    |
-| `eng-infra-deliverability`                | <!--[Group Docs](/handbook/infrastructure-standards/realms/eng-infra/groups/eng-infra-deliverability)-->                 |
-| `eng-infra-reliability`                   | <!--[Group Docs](/handbook/infrastructure-standards/realms/eng-infra/groups/eng-infra-reliability)-->                    |
+| `eng-infra-shared-infra`                  | <!--[Group Docs](/handbook/company/infrastructure-standards/realms/eng-infra/groups/eng-infra-shared-infra)-->                   |
+| `eng-infra-shared-services`               | <!--[Group Docs](/handbook/company/infrastructure-standards/realms/eng-infra/groups/eng-infra-shared-services)-->                |
+| `eng-infra-analytics`                     | <!--[Group Docs](/handbook/company/infrastructure-standards/realms/eng-infra/groups/eng-infra-analytics)-->                      |
+| `eng-infra-scalability`                   | <!--[Group Docs](/handbook/company/infrastructure-standards/realms/eng-infra/groups/eng-infra-scalability)-->                    |
+| `eng-infra-deliverability`                | <!--[Group Docs](/handbook/company/infrastructure-standards/realms/eng-infra/groups/eng-infra-deliverability)-->                 |
+| `eng-infra-reliability`                   | <!--[Group Docs](/handbook/company/infrastructure-standards/realms/eng-infra/groups/eng-infra-reliability)-->                    |
 
 ## Usage guidelines
 

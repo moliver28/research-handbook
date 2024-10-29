@@ -18,7 +18,7 @@ Below are some common areas for goal setting:
 
 Contributing to the achievement of our
 [first reply time target](/handbook/support/performance-indicators/#service-level-agreement-sla)
-and [taking assignment of tickets](/handbook/support/workflows/working-on-tickets.html#selecting-new-tickets)
+and [taking assignment of tickets](/handbook/support/workflows/working-on-tickets/#selecting-new-tickets)
 are [Support Engineer Core Responsibilities](/handbook/support/support-engineer-responsibilities/#core-responsibility-of-a-support-engineer).
 
 ##### Public and internal comments

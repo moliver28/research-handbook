@@ -151,7 +151,7 @@ One of the deliverables of the program beyond a working technical solve is docum
 
 ### Clear documentation for compliance
 
-Additionally, we need clear documentation to meet change management controls and new product introduction controls. These are fully documented [here](/handbook/business-technology/it-compliance/ITGC.html).
+Additionally, we need clear documentation to meet change management controls and new product introduction controls. These are fully documented [here](/handbook/business-technology/it-compliance/ITGC/).
 
 The relevant controls that need to be documented in these programs are these three:
 
@@ -177,7 +177,7 @@ As a result the DRI needs to:
 - Confirm that full scope is documented prior to go-live and reconciled with implemented functionality.
 - Ensure there is documentation that UAT was complete and sign-off on the UAT by business stakeholders established in the core team. This UAT sign-off should be reviewed by the steering committee and signed off as well prior to go-live.
 - Testing over key processes, reports, and ensuring business needs will be met by the system (and how).
-- When known issues are identified during UAT or prior to go-live, they need to be documented and issue resolution/remediation needs to be tracked. All critical and high risk issues that impact security and functionality of the system need to be resolved before go-live. However, if there are exceptional situations, a workaround plan needs to be identified, documented, and approved by the Business, IT leads, and the steering committee before go-live. All open issues before go-live need to be documented, tracked, and resolved post go-live, and resolution documentation needs to be retained. 
+- When known issues are identified during UAT or prior to go-live, they need to be documented and issue resolution/remediation needs to be tracked. All critical and high risk issues that impact security and functionality of the system need to be resolved before go-live. However, if there are exceptional situations, a workaround plan needs to be identified, documented, and approved by the Business, IT leads, and the steering committee before go-live. All open issues before go-live need to be documented, tracked, and resolved post go-live, and resolution documentation needs to be retained.
 - Final approval for business go-live is captured. Approvals from technical owners and business owners at appropriate levels (e.g. does this warrant CFO sign-off vs. Manager sign-off).
 
 ##### SDLC Approvals

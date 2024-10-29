@@ -5,10 +5,10 @@ description: "This infrastructure realm is for resources managed by the IT Infra
 
 ### Quick links
 
-- [Global infrastructure standards](/handbook/infrastructure-standards/)
+- [Global infrastructure standards](/handbook/company/infrastructure-standards/)
 - [Global labels and tags](/handbook/company/infrastructure-standards/labels-tags/)
-- [Infrastructure policies](/handbook/infrastructure-standards/policies/)
-- [Infrastructure helpdesk](/handbook/infrastructure-standards/helpdesk/)
+- [Infrastructure policies](/handbook/company/infrastructure-standards/policies/)
+- [Infrastructure helpdesk](/handbook/company/infrastructure-standards/helpdesk/)
 
 ## Overview
 
@@ -16,7 +16,7 @@ This infrastructure realm is for resources managed by the IT Infrastructure team
 
 ### Access requests
 
-To request access to a group, please see [group access request tutorial](/handbook/infrastructure-standards/tutorials/groups/access-request).
+To request access to a group, please see [group access request tutorial](/handbook/company/infrastructure-standards/tutorials/groups/access-request).
 
 > For email authenticity security reasons, only GitLab issues or Slack messages to owners or counterparts are allowed for infrastructure requests.
 
@@ -31,7 +31,7 @@ To request access to a group, please see [group access request tutorial](/handbo
 
 ## Realm labels and tags
 
-The [global labels/tags](/handbook/infrastructure-standards/labels-tags) and [realm labels/tags](/handbook/infrastructure-standards/realms/it/labels-tags) should be applied to each resource.
+The [global labels/tags](/handbook/company/infrastructure-standards/labels-tags) and [realm labels/tags](/handbook/company/infrastructure-standards/realms/it/labels-tags) should be applied to each resource.
 
 ## Usage guidelines
 

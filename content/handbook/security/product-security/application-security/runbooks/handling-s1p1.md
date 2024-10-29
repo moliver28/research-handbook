@@ -108,6 +108,6 @@ Share that a handover has happened in the incident's Slack channel, and cross-po
 
 ### Family and Friends Day Coverage
 
-[Family and Friends Days]({{< ref "family-and-friends-day" >}}) are days where GitLab publicly shuts down. 
-There will be one AppSec engineer covering for each timezone region (AMER, EMEA, APAC) during each F&F Day. 
-See [Holiday Coverage](/handbook/security/product-security/application-security/runbooks/holiday-coverage.html) for more information.
+[Family and Friends Days]({{< ref "family-and-friends-day" >}}) are days where GitLab publicly shuts down.
+There will be one AppSec engineer covering for each timezone region (AMER, EMEA, APAC) during each F&F Day.
+See [Holiday Coverage](/handbook/security/product-security/application-security/runbooks/holiday-coverage/) for more information.

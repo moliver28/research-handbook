@@ -20,7 +20,7 @@ We are iterating on updates to buyer personas on this [Buyer Persona](/handbook/
 
 User personas are people who actually use GitLab. They may or may not be the person in
 the organization who has the authority and budget to purchase GitLab, but they
-are heavy influencers in the buying process. Users personas are created from data gathered from UX research studies. If a new user persona is needed, or an existing persona has to be updated, see our handbook guide on [How to Create a User Persona](/handbook/product/ux/persona-creation/index.html).
+are heavy influencers in the buying process. Users personas are created from data gathered from UX research studies. If a new user persona is needed, or an existing persona has to be updated, see our handbook guide on [How to Create a User Persona](/handbook/product/ux/persona-creation/).
 
 #### How do user personas interact?
 

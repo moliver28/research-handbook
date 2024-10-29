@@ -228,7 +228,7 @@ It's more of a place to show off what's already happened with the team.
 ### Evangelism on Twitch
 
 The Education team uses Twitch as part of its broader community outreach strategy to create a catalogue of presentations, shows, and resources for people looking to learn GitLab or increase their knowledge of the program.
-See the [education program's dedicated workflow page](/handbook/marketing/developer-relations/community-programs/community-programs-workflows/edu-program-workflows.html#producing-content-on-twitch) for complete instructions on hosting Twitch sessions.
+See the [education program's dedicated workflow page](/handbook/marketing/developer-relations/community-programs/community-programs-workflows/edu-program-workflows/#producing-content-on-twitch) for complete instructions on hosting Twitch sessions.
 
 ### Evangeism with blog posts
 

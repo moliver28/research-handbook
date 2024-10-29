@@ -103,9 +103,9 @@ The goal of the refinement process is to ensure an issue is ready to be worked o
    * Consider creating a [feature flag clean up](https://gitlab.com/gitlab-org/gitlab/-/issues/new?issuable_template=Feature%20Flag%20Cleanup) issue if the removal of the feature flag will occur in a subsequent milestone.
 1. Encourage Community Contributions.
    * If the scope of the issue is well defined and there are no dependencies, consider adding
-     [contribution Labels](/handbook/marketing/developer-relations/contributor-success/community-contributors-workflows.html#labels).
+     [contribution Labels](/handbook/marketing/developer-relations/contributor-success/community-contributors-workflows/#labels).
    * The `~"quick win"` label is particularly helpful but note that you would
-     be [volunteering to mentor new contributors](/handbook/marketing/developer-relations/contributor-success/community-contributors-workflows.html#issues-for-new-contributors).
+     be [volunteering to mentor new contributors](/handbook/marketing/developer-relations/contributor-success/community-contributors-workflows/#issues-for-new-contributors).
 1. Refinement Review.
    * If the weight you've assigned to the issue is 3 or less, move the issue directly to `~"workflow::ready for development"`.
    * If the weight of the issue is greater than 3, unassign the issue from yourself and request a review from another engineer.

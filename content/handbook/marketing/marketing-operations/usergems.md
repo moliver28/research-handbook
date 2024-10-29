@@ -114,4 +114,4 @@ A training for SDRs/BDRs took place on 09/19/2024 and the recording can be viewe
 
 ### Sales Dev Plays
 
-To get more information regarding the different plays for the UserGems created leads, please visit the [Sales Development Handbook UserGems entry] (https://handbook.gitlab.com/handbook/marketing/sales-development/#usergems).
+To get more information regarding the different plays for the UserGems created leads, please visit the [Sales Development Handbook UserGems entry](/handbook/marketing/sales-development/#usergems).

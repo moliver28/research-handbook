@@ -47,7 +47,7 @@ A typical workflow to edit the handbook:
     ![Web IDE overview, handbook page highlighted in the file tree](/images/handbook/about/editing-handbook/practical_handbook_edits_web_ide_vs_code_file_tree_edit_handbook_page.png)
 
 1. Edit the selected file, and try the Markdown preview. `Cmd+Shift+P` on macOS opens the Web IDE command palette to search for commands. For example, type `Markdown`, select `Markdown: Open Preview to the Side` and try the preview.
-    - Note that the [handbook markdown engine](/docs/markdown-guide/) supports more rendering features than the [Web IDE preview based on VS Code](https://code.visualstudio.com/docs/languages/markdown), and some items won't be rendered properly. Commit and create a [draft merge request](https://docs.gitlab.com/ee/user/project/merge_requests/drafts.html) to view the handbook [review apps](https://docs.gitlab.com/ee/ci/review_apps/) to preview the page, such as to verify embedded images.
+    - Note that the [handbook markdown engine](https://handbook.gitlab.com/docs/markdown-guide/) supports more rendering features than the [Web IDE preview based on VS Code](https://code.visualstudio.com/docs/languages/markdown), and some items won't be rendered properly. Commit and create a [draft merge request](https://docs.gitlab.com/ee/user/project/merge_requests/drafts.html) to view the handbook [review apps](https://docs.gitlab.com/ee/ci/review_apps/) to preview the page, such as to verify embedded images.
 
     ![Web IDE editor, Markdown preview](/images/handbook/about/editing-handbook/practical_handbook_edits_web_ide_vs_code_console_markdown.png)
 

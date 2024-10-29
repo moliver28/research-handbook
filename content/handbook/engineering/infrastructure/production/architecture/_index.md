@@ -9,7 +9,7 @@ This document does not cover servers that are not integral to the public facing 
 
 ## Purpose
 
-This page is our [document](/handbook/security/controlled-document-procedure.html#creation) that captures an overview of the production architecture for GitLab.com.
+This page is our [document](/handbook/security/controlled-document-procedure/#creation) that captures an overview of the production architecture for GitLab.com.
 
 ## Scope
 

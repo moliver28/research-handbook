@@ -3,7 +3,7 @@ title: "Security Governance Program"
 description: "Security Governance Program"
 ---
 
-[Governance and Field Security team charter](/handbook/security/security-assurance/governance_and_field_security_team_charter.html)
+[Governance and Field Security team charter](/handbook/security/security-assurance/governance_and_field_security_team_charter/)
 {.h2}
 
 ## <i class="fas fa-bullseye" style="color:rgb(110,73,203)" aria-hidden="true"></i> Mission

@@ -15,7 +15,7 @@ This team is responsible for the development of channel marketing campaigns that
 
 The Global Channel marketing team provides support to partners by creating different campaign assets into leverageable go-to-market programs called Instant Campaigns that partners can easily pick up and run with their customer or prospect lists.  GitLab channel marketing is also responsible for the development, rollout and management of trial enablement programs by which partners can generate trials of GitLab directly from their website, and passing or providing trial leads generated from GitLab's own website to be worked and converted by partners.
 
-Our Channel Marketing Managers support the channel go-to-market efforts through our [MDF funding and management program](/handbook/resellers/Channel-Program-Guide/MDF/) and are responsible for ensuring they are building a strategic marketing plan with our [marketing-ready partners](https://gitlab.com/gitlab-com/marketing/channel-marketing/-/issues/new?issuable_template=Channel_Mktg_Ready) ([up-to-date SF report of marketing-ready partners - internal](https://gitlab.my.salesforce.com/00OPL0000003UhV)).
+Our Channel Marketing Managers support the channel go-to-market efforts through our [MDF funding and management program](/handbook/resellers/channel-program-guide/MDF/) and are responsible for ensuring they are building a strategic marketing plan with our [marketing-ready partners](https://gitlab.com/gitlab-com/marketing/channel-marketing/-/issues/new?issuable_template=Channel_Mktg_Ready) ([up-to-date SF report of marketing-ready partners - internal](https://gitlab.my.salesforce.com/00OPL0000003UhV)).
 
 ### Marketing-Ready
 
@@ -200,7 +200,7 @@ Following the steps to update your Delegated Approver:
 
 ### Demand Generation activities eligible for MD
 
-Details are listed out in the [MDF handbook](/handbook/resellers/Channel-Program-Guide/MDF/#eligible-activities-and-required-proof-of-performance-mdf-activities).
+Details are listed out in the [MDF handbook](/handbook/resellers/channel-program-guide/MDF/#eligible-activities-and-required-proof-of-performance-mdf-activities).
 
 These activities are captured as `Campaign Type Details` on the campaign level in Salesforce.com for `Partner - MDF` [Campaign Type](/handbook/marketing/marketing-operations/campaigns-and-programs/#campaign-type--progression-status) only.
 
@@ -355,7 +355,7 @@ In an attempt to extend our GitLab [CREDIT](/handbook/values/#credit) values to 
 
 ### MDF Campaigns
 
-[MDF campaigns](/handbook/resellers/Channel-Program-Guide/MDF/) involve financial support or funds provided by GitLab to the Channel Partners to manage a lead generation campaign. These campaigns follow their own processes not found on the campaigns-and-programs page.
+[MDF campaigns](/handbook/resellers/channel-program-guide/MDF/) involve financial support or funds provided by GitLab to the Channel Partners to manage a lead generation campaign. These campaigns follow their own processes not found on the campaigns-and-programs page.
 
 🖇️ Quick Links: [Lead Routing](/handbook/marketing/marketing-operations/traction-lead-complete/#mdf-campaign)
 

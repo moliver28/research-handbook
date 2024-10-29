@@ -34,7 +34,7 @@ In backup and recovery, there are two SLOs:
 The backup strategy is to take a daily snapshot of the full database
 (basebackup) and store this in Google Cloud Storage. Additionally, we capture the
 write-ahead log data in GCS to be able to perform point-in-time recovery
-(PITR) using one of the basebackups. [Read more on Disaster Recovery](/handbook/engineering/infrastructure/database/disaster_recovery.html)
+(PITR) using one of the basebackups. [Read more on Disaster Recovery](/handbook/engineering/infrastructure/database/disaster_recovery/)
 
 For `DB-DR-TTR` we need to consider worst-case scenarios with the
 latest backup being 24 hours old. Hence recovery time includes the time

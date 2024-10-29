@@ -14,7 +14,7 @@ In our day-to-day work, Support Engineers are naturally reactive: ticket is crea
 
 ## When to start an Account Escalation
 
-Follow the guidelines in the [Customer Success Escalations Process](/handbook/customer-success/csm/escalations/). You should consult with the [Support Manager On-call](/handbook/support/workflows/support_manager-on-call.html) to make the decision together.
+Follow the guidelines in the [Customer Success Escalations Process](/handbook/customer-success/csm/escalations/). You should consult with the [Support Manager On-call](/handbook/support/workflows/support_manager-on-call/) to make the decision together.
 
 Here are some questions to guide the decision:
 

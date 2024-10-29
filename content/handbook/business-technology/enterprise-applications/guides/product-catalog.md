@@ -7,7 +7,7 @@ description: "How to request the creation or modification of a SKU."
 
 ## Change Management and SDLC Process
 
-For SOX/audit purposes, all changes to the Zuora Billing product catalog must be properly tested, adhering to [Business Technology Change Management](/handbook/business-technology/change-management/) policies and the [Software Development Lifecycle Process for Finance Systems](https://gitlab.com/groups/gitlab-com/business-technology/enterprise-apps/financeops/-/wikis/SDLC-for-Finance-Systems).
+For SOX/audit purposes, all changes to the Zuora Billing product catalog must be properly tested, adhering to [Business Technology Change Management](https://internal.gitlab.com/handbook/IT/it-change-management/) policies and the [Software Development Lifecycle Process for Finance Systems](https://gitlab.com/groups/gitlab-com/business-technology/enterprise-apps/financeops/-/wikis/SDLC-for-Finance-Systems).
 
 ## How to request the creation or modification of a SKU
 
@@ -169,7 +169,7 @@ The required approvals will differ depending on whether it is a Professional Ser
 
 {{% panel header="**Next Steps**" header-bg="success" %}}
 
-- After all above steps are complete and required approval have been obtained, remove the ~"SKU - Gathering Requirements" label and tag `@gitlab-com/business-technology/enterprise-apps/financeops` for intake and prioritization of the SKU request so that it can be configured in the Zuora Billing product catalog and made quotable in Salesforce. Please note that all changes must follow the [Business Technology Change Management](/handbook/business-technology/change-management/) for SOX/Audit purposes.
+- After all above steps are complete and required approval have been obtained, remove the ~"SKU - Gathering Requirements" label and tag `@gitlab-com/business-technology/enterprise-apps/financeops` for intake and prioritization of the SKU request so that it can be configured in the Zuora Billing product catalog and made quotable in Salesforce. Please note that all changes must follow the [Business Technology Change Management](https://internal.gitlab.com/handbook/IT/it-change-management/) for SOX/Audit purposes.
 - If the SKU will be sold through the channel, assign the issue to the `Sales Operations Analyst` listed in Step 6 to add the SKU to the quarterly update issue, the upcoming Pricebook and any other necessary information
 - If the SKU requires a service description, it is the Business Sponsor's responsibility to complete step 7
 {{% /panel %}}
@@ -238,7 +238,7 @@ The required approvals will differ depending on whether it is a Professional Ser
 Once all of the above steps are complete and required approval are obtained, please remove the ~"SKU - Gathering Requirements" label and tag `@gitlab-com/business-technology/enterprise-apps/financeops` for intake and prioritization of the SKU retirement request so that it can be deprecated in the Zuora Billing product catalog and no longer quotable in Salesforce.
 
 {{% alert color="warning" %}}
-Please note that all changes must follow the [Business Technology Change Management](/handbook/business-technology/change-management/) for SOX/Audit purposes.
+Please note that all changes must follow the [Business Technology Change Management](https://internal.gitlab.com/handbook/IT/it-change-management/) for SOX/Audit purposes.
 {{% /alert %}}
 
 ## FAQ
@@ -256,6 +256,6 @@ Please note that all changes must follow the [Business Technology Change Managem
 5. **What information can be changed after the SKU goes live?**
     - Please refer to [Post Go Live SKU Modifications](#post-go-live-sku-modifications) section of this handbook page
 6. **Can we just configure the SKU in production and skip the sandbox?**
-    - Unfortunately, no. For SOX/audit purposes, all changes to the Zuora Billing product catalog must be properly tested, adhering to [Business Technology Change Management](/handbook/business-technology/change-management/) policies and the [Software Development Lifecycle Process for Finance Systems](https://gitlab.com/groups/gitlab-com/business-technology/enterprise-apps/financeops/-/wikis/SDLC-for-Finance-Systems).
+    - Unfortunately, no. For SOX/audit purposes, all changes to the Zuora Billing product catalog must be properly tested, adhering to [Business Technology Change Management](https://internal.gitlab.com/handbook/IT/it-change-management/) policies and the [Software Development Lifecycle Process for Finance Systems](https://gitlab.com/groups/gitlab-com/business-technology/enterprise-apps/financeops/-/wikis/SDLC-for-Finance-Systems).
 7. **I only want to update the name/description of an existing SKU, do I need to go through this entire process?**
     - If you are not changing the charge type, unit of measure, charge model, charge timing or list price then you can simply submit an issue in [this directory](https://gitlab.com/gitlab-com/business-technology/enterprise-apps/financeops/finance-systems/-/issues/new#) using the template `CM: Configuration Change [Generic]` and fill out the `Requestor` section.

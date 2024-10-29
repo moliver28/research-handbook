@@ -181,7 +181,7 @@ After a heading, leave one blank line; this is [not required in the standard](ht
 
 #### Use contributable diagrams
 
-Preference contributable diagrams over uploading images or other less contributable diagrams. This makes it easier for other people to suggest changes and contribute. Diagram options in Markdown include [Mermaid](/docs/markdown-guide/#mermaid) and [PlantUML](/docs/markdown-guide/#plantuml).
+Preference contributable diagrams over uploading images or other less contributable diagrams. This makes it easier for other people to suggest changes and contribute. Diagram options in Markdown include [Mermaid](https://handbook.gitlab.com/docs/markdown-guide/#mermaid) and [PlantUML](https://handbook.gitlab.com/docs/markdown-guide/#plantuml).
 
 ## Handbook First Competency
 

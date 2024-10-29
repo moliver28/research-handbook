@@ -27,7 +27,7 @@ description: "These are the expected competencies of a Senior Backend Engineer, 
 
 #### Engineering Productivity
 
-This table refers to the responsibility terms that are defined on the [team page](/handbook/engineering/infrastructure/engineering-productivity/index.html#areas-of-responsibility).
+This table refers to the responsibility terms that are defined on the [team page](/handbook/engineering/infrastructure/engineering-productivity/#areas-of-responsibility).
 
 | Responsibility | Description |
 | --- | --- |

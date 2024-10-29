@@ -28,7 +28,7 @@ The following categories can be used to decorate the projects we want to monitor
 | `deploy` | Used to deploy GitLab.com |
 | `website` | Deployed to a website (URL will be required) |
 | `api/service` | |
-| `green/yellow/orange/red_data` | [Data classification standard](/handbook/security/data-classification-standard.html) |
+| `green/yellow/orange/red_data` | [Data classification standard](/handbook/security/data-classification-standard/) |
 | `3rdparty` | Interaction with 3rd parties |
 | `demo/test/poc` | |
 | `temporary` | Temporary projects (should be removed at some point) |

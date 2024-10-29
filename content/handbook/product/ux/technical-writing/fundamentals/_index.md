@@ -31,13 +31,13 @@ Use the slide deck to follow along with the recorded training sessions.
 Provides an introduction, the audience for the documentation, a brief recap of pre-class work, and the first grammar and style requirements.
 
 {{< youtube "Bp_ltao_xbA" >}}
-  
+
 ### Session 2 (8 minutes)
 
 Reviews additional grammar and style requirements.
 
 {{< youtube "ulFMEOURVR0" >}}
-  
+
 ### Session 3 (5 minutes)
 
 Reviews even more grammar and style requirements and linting.
@@ -53,7 +53,7 @@ Reviews topic types: concepts, tasks, references, troubleshooting (CTRT).
 ### For more information
 
 - Review the [GitLab Documentation Style Guide](https://docs.gitlab.com/ee/development/documentation/styleguide/).
-- Review some [examples for editing for topic types](/handbook/product/ux/technical-writing/fundamentals/examples.html).
+- Review some [examples for editing for topic types](/handbook/product/ux/technical-writing/fundamentals/examples/).
 - Watch a [related video for more examples](https://youtu.be/HehnjPgPWb0).
 - Provide [suggestions or other feedback](https://gitlab.com/gitlab-org/technical-writing/-/issues/445)!
 

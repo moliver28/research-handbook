@@ -44,7 +44,7 @@ The Search Marketing team made a series of videos showing why fixing these error
   <iframe src="https://www.youtube.com/embed/W40ciCKtzpk" frameborder="0" allowfullscreen="true"> </iframe>
 </figure>
 
-While you're fixing those broken links, consider [making the link text meaningful](/handbook/markdown-guide/#links) if it isn't already. This helps to improve our site's accessibility for people who use screen readers.
+While you're fixing those broken links, consider [making the link text meaningful](https://handbook.gitlab.com/docs/markdown-guide/#links) if it isn't already. This helps to improve our site's accessibility for people who use screen readers.
 
 <figure class="video_container">
   <iframe src="https://www.youtube.com/embed/1K8irzpGExY" frameborder="0" allowfullscreen="true"> </iframe>

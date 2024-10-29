@@ -273,7 +273,7 @@ This role includes all of the performance indicators of the previous level plus:
 - [10X spend contribution to sales pipeline](/handbook/marketing/strategy-performance/marketing-metrics/#marketing-attribution) for geo (AMER, EMEA,APAC) responsible for.
 - Contribution to the outlined Regional Marketing OKRs, in alignment with the [Marketing OKRs](/handbook/company/okrs/#most-recent-okrs).
 - Spending of the regional [Field Marketing budget](/handbook/marketing/field-marketing/#the-field-marketing-budget) within 5% variance, for geo (AMER, EMEA,APAC) responsible for.
-- Spending of the regional [Channel Marketing MDF budget](/handbook/resellers/Channel-Program-Guide/MDF/) within 5% variance for geo (AMER, EMEA, APAC) responsible for.
+- Spending of the regional [Channel Marketing MDF budget](/handbook/resellers/channel-program-guide/MDF/) within 5% variance for geo (AMER, EMEA, APAC) responsible for.
 
 ### Hiring Process
 
