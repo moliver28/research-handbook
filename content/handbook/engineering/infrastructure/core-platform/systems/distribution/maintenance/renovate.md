@@ -68,5 +68,5 @@ Here is a [snippet](https://gitlab.com/-/snippets/3761950) that describes how to
 
 ## Additional Information
 
-- Additional information can be found in [Distribution: Renovate Gitlab Bot 101](https://gitlab.com/gitlab-org/distribution/distributions-101/-/tree/main/GitLab%20Renovate%20Bot?ref_type=heads).
-- Specific instructions for adding new dependencies are located in the [Renovate Gitlab docs](https://gitlab.com/gitlab-org/frontend/renovate-gitlab-bot/-/blob/main/docs/setting-up-a-new-project.md).
+* Additional information can be found in [Distribution: Renovate Gitlab Bot 101](https://gitlab.com/gitlab-org/distribution/distributions-101/-/tree/main/GitLab%20Renovate%20Bot?ref_type=heads).
+* Specific instructions for adding new dependencies are located in the [Renovate Gitlab docs](https://gitlab.com/gitlab-org/frontend/renovate-gitlab-bot/-/blob/main/docs/setting-up-a-new-project.md).
