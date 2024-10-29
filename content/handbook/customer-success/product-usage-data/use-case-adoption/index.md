@@ -92,11 +92,11 @@ Adoption timeline: 1 months after license purchase.
 
 | Metric | Calculation | **Red** | **Yellow** | **Green** |
 |---|---|---|---|---|
-| CI Pipeline Utilization % | [CI Pipelines - User L28D](https://gitlab.com/gitlab-org/gitlab/-/blob/master/config/metrics/counts_28d/20210216175554_ci_pipelines.yml) ÷ [Billable Users](https://gitlab.com/gitlab-org/gitlab/-/blob/master/ee/config/metrics/license/20210531204603_license_billable_users.yml) | <25% | ≥25% - <50% | ≥50% |
+| CI Pipeline Utilization % | [CI Pipelines - User L28D](https://gitlab.com/gitlab-org/gitlab/-/blob/master/config/metrics/counts_28d/20210216175554_ci_pipelines.yml) ÷ [Billable Users](https://gitlab.com/gitlab-org/gitlab/-/blob/master/ee/config/metrics/license/20210531204603_license_billable_users.yml) | <25% | ≥25% - <33% | ≥33% |
 
 #### **Green Adoption Criteria:**
 
-When 50% or more of unique `Billable Users` have triggered a distinct `CI Pipeline` in the last 28 days, then CI is considered adopted.
+When 33% or more of unique `Billable Users` have triggered a distinct `CI Pipeline` in the last 28 days, then CI is considered adopted.
 
 ### Security (DevSecOps)
 
