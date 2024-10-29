@@ -29,7 +29,6 @@ Start by having a [growth conversation](/handbook/people-group/learning-and-deve
 |[Conference](https://gitlab.com/gitlab-com/people-group/learning-development/growth-and-development-requests/-/issues/new?issuable_template=g-and-d-conference)|
 |[Other G&D Types](https://gitlab.com/gitlab-com/people-group/learning-development/growth-and-development-requests/-/issues/new?issuable_template=g-and-d-other)|
 |[Coaching Right Now (GitLab's coaching vendor of choice)](https://gitlab.com/gitlab-com/people-group/learning-development/growth-and-development-requests/-/issues/new?issuable_template=g-and-d-coaching) Learn more about Coaching Right Now below.|
-| Your 4th Trimester |
 
 ### Step 3 - Gain Approval
 
