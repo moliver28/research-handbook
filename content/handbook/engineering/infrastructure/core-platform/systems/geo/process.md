@@ -351,7 +351,7 @@ Process summary:
 
 ##### Schedules
 
-Schedules are linked in the respective discussion issues as well as in [#geo-lounge](https://gitlab.enterprise.slack.com/archives/C7U95P909) channel
+[Schedules] (https://docs.google.com/spreadsheets/d/1-kvptYZfhCSV9WTVEs4epfUSVvxIMSf5wHxnT6BmjSw/edit?gid=1214041762#gid=1214041762) can be found here.
 
 ## Retrospectives
 
