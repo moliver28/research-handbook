@@ -79,9 +79,10 @@ Our workflow process involves a weekly board walk where we review issues with th
 #### How do people know what to work on?
 
 An issue is ready to be taken by an assignee when it has all of the following:
-  * **Deliverable** label
-  * The current Milestone
-  * Either **workflow::ready for development** or **workflow::refinement** label
+
+* **Deliverable** label
+* The current Milestone
+* Either **workflow::ready for development** or **workflow::refinement** label
 
 #### Board Lists
 
