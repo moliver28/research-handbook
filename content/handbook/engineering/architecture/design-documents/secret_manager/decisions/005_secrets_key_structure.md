@@ -5,7 +5,7 @@ toc_hide: true
 
 ## Context
 
-In GitLab, we have a hierarchical structure for projects and their parent namespaces wherein names can be identical in certain parts of the paths. We want to ensure that there are no conflicts with secrets paths across the hierarchy and across all customers when we store then in OpenBao.
+In GitLab, we have a hierarchical structure for projects and their parent namespaces wherein names can be identical in certain parts of the paths. We want to ensure that there are no conflicts with secrets paths across the hierarchy and across all customers when we store them in OpenBao.
 
 ## Decision
 
