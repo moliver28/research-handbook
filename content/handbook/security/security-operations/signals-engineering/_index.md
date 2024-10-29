@@ -4,7 +4,7 @@ title: Signals Engineering Team (SIT)
 
 ## Engaging Signals Engineering
 
-Teams can engage Signals Engineering by heading over to the #signals-engineering slack channel. SIRT can also engage signals engineering for detection and alert tuning needs by selecting the "report a bug" feature in GUARD. 
+Teams can engage Signals Engineering by heading over to the #signals-engineering slack channel. SIRT can also engage signals engineering for detection and alert tuning needs by selecting the "report a bug" feature in GUARD.
 
 ## Our Vision
 
@@ -37,15 +37,15 @@ Providing Customer Value
 
 | Team Member | Role |
 |---|---|
-| Matt Coons | [Security Manager](https://handbook.gitlab.com/job-families/security/security-leadership/) | 
-| Harjeet Sharma | [Staff Security Engineer, Signals Engineering](https://handbook.gitlab.com/job-families/security/security-engineer/#signals-engineering) | 
-| Evan Baltman | [Security Engineer, Signals Engineering](https://handbook.gitlab.com/job-families/security/security-engineer/#signals-engineering) | 
+| Matt Coons | [Security Manager](https://handbook.gitlab.com/job-families/security/security-leadership/) |
+| Harjeet Sharma | [Staff Security Engineer, Signals Engineering](https://handbook.gitlab.com/job-families/security/security-engineer/#signals-engineering) |
+| Evan Baltman | [Security Engineer, Signals Engineering](https://handbook.gitlab.com/job-families/security/security-engineer/#signals-engineering) |
 
 ### Our Stakeholders
 
-While Signals Engineering has dedicated engineers focussed on advancing projects and handling operational duties, there are a number of stakeholders both within the Security Division and beyond that Signals Engineering collaborate with to drive results. 
+While Signals Engineering has dedicated engineers focussed on advancing projects and handling operational duties, there are a number of stakeholders both within the Security Division and beyond that Signals Engineering collaborate with to drive results.
 
-| Stakeholder | Shared Responsiblities/Dependencies | 
+| Stakeholder | Shared Responsiblities/Dependencies |
 |---|---|
 | SIRT | Detection tuning, new detections, GUARD DaC framework |
 | T&S | Omamori integration |
@@ -61,28 +61,28 @@ While Signals Engineering has dedicated engineers focussed on advancing projects
 
 ### Current Priorities
 
-In the first 6 months (FY25Q4 - FY26Q1), we are focusing on "Low hanging fruit" and establishing the Signals Engineering program. 
+In the first 6 months (FY25Q4 - FY26Q1), we are focusing on "Low hanging fruit" and establishing the Signals Engineering program.
 
-Some highlights include: 
+Some highlights include:
 
 1. Reducing alert false positives & improving FP alerting/handling workflow
 2. Initial metrics creation & label standardization
 3. Improving customer facing detection creation & sharing process
 4. Writing new detections to close identified detection gaps
 
-As the program matures, we will expand our focus to improve our automation and maturity as well as bolstering our customer detection capabilities. 
+As the program matures, we will expand our focus to improve our automation and maturity as well as bolstering our customer detection capabilities.
 
 ## What we've Built & Services we Offer
 
 ### GUARD
 
-GUARD (GitLab Universal Automated Response and Detection) is the Security Team's Detections as Code (DaC) pipeline and alerting automation framework. GUARD hands off an alert to the SIRT incident handling process stops when an alert is converted into a SIRT incident. 
+GUARD (GitLab Universal Automated Response and Detection) is the Security Team's Detections as Code (DaC) pipeline and alerting automation framework. GUARD hands off an alert to the SIRT incident handling process stops when an alert is converted into a SIRT incident.
 
-GUARD is a shared responsibility model between Signals Engineering and SIRT - Both SIRT and Signals Engineering build threat detections and have the ability to commit new and maintain existing detections in GUARD. 
+GUARD is a shared responsibility model between Signals Engineering and SIRT - Both SIRT and Signals Engineering build threat detections and have the ability to commit new and maintain existing detections in GUARD.
 
 #### Threat Detection Tuning
 
-When SIRT identifies a threat detection that needs to be tuned, tuning requests are submitted to the Signals Engineering team for improvements. 
+When SIRT identifies a threat detection that needs to be tuned, tuning requests are submitted to the Signals Engineering team for improvements.
 
 #### Threat Detection Creation
 
