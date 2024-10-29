@@ -264,3 +264,45 @@ If an error is made on a quote, for example, a missing zipcode or incorrect bill
 4. Update the Sold To/Bill To information by searching and selecting the correct contacts.
 5. After making the edits, click 'Save'
 6. Click 'Generate PDF Doc' and proceed with standard process for sending a quote through DocuSign.
+
+### Duo Adminstration
+
+This section will describe how we administer Duo license's to Community Program Members. 
+
+We are currently only giving out Duo to select Education organizations
+
+   1. Review our Education Interest Form for any new leads. These need to be reviewed on a daily basis to capture leads as quickly as possible.
+   - [Education Interest Form](https://docs.google.com/forms/d/1uv2wQAvrS8vCNPaP0dl_uyPj6mmDz356_L1wkuNW8jk/edit#responses)
+   2. Locate the account of this customer in SFDC
+   - If a customer has not activated their license yet they will not populate in SFDC. If this is the case flag this and return in 24 hours.
+   3. Ask Sales support to move the opportunity into your name. 
+   4. Find their current license opportunity and create a new add-on Opportunity. 
+   - There is a current bug in lighting when creating a new add-on opportunity. Make sure all add-on opportunity's are created in SFDC Legacy.
+   5. Create the qoute
+   - SKU's 
+      - Education $0 Ultimate - Make sure you select correct product Saas or Self Managed)
+      - Duo Pro SKU - Make sure you discount 100% 
+      - Match the seats to the same as the current subscription.
+   6. Submit quote for approval in SFDC
+      - If blocked here tag sales support for approval 
+
+   7. Once quote is approved 
+      - Generate PDF version of the quote 
+      - Navigate to Docusign in SFDC
+   8. Docusign Notifcation
+      - Once you receive the Docusign notifcation submit the quote for final approval. 
+   9. When the opportunity has closed won send the customer a welcome email as such.
+   > " We are so exicted for you start taking advantage of the new Duo Pro features! 
+
+   >A few things to remember: 
+>1. You will need to make sure you have cloud licensing enabled. 
+ https://about.gitlab.com/pricing/licensing-faq/cloud-licensing/
+>2. You will need to be on the most updated version of Gitlab to unlock these features.
+https://docs.gitlab.com/ee/update
+>-  For more Use Cases and FAQ: 
+Check out the [Duo use cases docs](https://docs.gitlab.com/ee/update) to learn about practical ways of using Duo
+Read the Code Suggestions and Chat tutorials to get the most out of Duo
+>- [Top tips for efficient AI-powered Code Suggestions with GitLab Duo](https://about.gitlab.com/blog/2024/06/11/top-tips-for-efficient-ai-powered-code-suggestions-with-gitlab-duo/)
+>- [10 best practices for using AI-powered GitLab Duo Chat](https://about.gitlab.com/blog/2024/04/02/10-best-practices-for-using-ai-powered-gitlab-duo-chat/)
+>- Watch a [GitLab Duo Coffee Chat](https://www.youtube.com/watch?v=TauP7soXj-E) to learn about contributing to GitLab while using Code Suggestions and Chat
+>- Learn more about all of the Duo features and how to use them in the [GitLab Duo docs](https://docs.gitlab.com/ee/user/gitlab_duo/)
