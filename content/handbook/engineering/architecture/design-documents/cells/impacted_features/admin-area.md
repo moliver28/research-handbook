@@ -299,8 +299,8 @@ The interface would be as follows:
 syntax = "proto3";
 package gitlab.cells.topology_service;
 
-import "proto/cell_info.proto";
 import "google/api/annotations.proto";
+import "proto/cell_info.proto";
 
 option go_package = "../proto";
 
@@ -310,7 +310,6 @@ message GetCanonicalAppSettingsRequest {
 }
 
 message GetCanonicalAppSettingsResponse {
-  // repeated AppSetting app_settings = 1;
   string attributes = 1;
   int64 checksum = 2;
 }
