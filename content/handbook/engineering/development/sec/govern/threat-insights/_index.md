@@ -74,9 +74,9 @@ Navy engineers report to {{< member-by-gitlab "nmccorrison" >}} and Tangerine en
   * Main channel: [`#g_govern_threat_insights`](https://gitlab.slack.com/archives/CV09DAXEW/p1663788936706469)
   * Stand-up updates: [`#g_govern_threat-insights_standup`](https://gitlab.slack.com/archives/C01U7T6DPNY)
   * Engineering - All: [`#g_govern_threat_insights_eng`](https://gitlab.slack.com/archives/C05N5BLDYUT)
-  * Engineering - Team AI: [`#g_govern_threat_insights_eng_ai`](https://gitlab.enterprise.slack.com/archives/C07KSUHD09E)
-  * Engineering - Team Navy: [`#g_govern_threat_insights_performance`](https://gitlab.enterprise.slack.com/archives/C07CA38UG3E)
-  * Engineering - Team Tangerine: [`#g_govern_threat_insights_projects`](https://gitlab.enterprise.slack.com/archives/C07CLAV0X33)
+  * Engineering - AI Swimlane: [`#g_govern_threat_insights_eng_ai`](https://gitlab.enterprise.slack.com/archives/C07KSUHD09E)
+  * Engineering - Performance Swimlane: [`#g_govern_threat_insights_performance`](https://gitlab.enterprise.slack.com/archives/C07CA38UG3E)
+  * Engineering - Projects Swimlane: [`#g_govern_threat_insights_projects`](https://gitlab.enterprise.slack.com/archives/C07CLAV0X33)
 * Slack aliases: `@govern_threat_insights_be`, `@govern_threat_insights_fe`
 * Google groups: eng-dev-secure-threat-insights-members@gitlab.com
 * [Threat Insights calendar](https://calendar.google.com/calendar/u/0?cid=Y19iNGQxYmYzYzY4ZTBjODZkYTE0ZDc4N2M0MjZhMDUxYWEzYzljYWRlZjIwZTcwMmNmOWRjZmEwNzQzMmRmMDNkQGdyb3VwLmNhbGVuZGFyLmdvb2dsZS5jb20) (internal link)
@@ -103,11 +103,201 @@ We use our Threat Insights Priorities page for [17.x](https://about.gitlab.com/d
   {{< tableau/filters "GROUP_LABEL"="threat insights" >}}
 {{< /tableau >}}
 
-### Workflow
+## Workflow
 
-The Threat Insights group largely follows GitLab's [Product Development Flow](/handbook/product-development-flow/).
+The Threat Insights group largely follows GitLab's [Product Development Flow](/handbook/product-development-flow/).  In the sections below, we provide details about our teams specific Software Development Lifecycle.
 
-Additional information can be found on the [Planning page](/handbook/engineering/development/sec/govern/sp-ti-planning.html).
+### Design Review
+During the design phase, engineers may be asked to review designs well before they are ready for refinement and/or development.  The goal is to validate technical possibilities of achieving the desired UX experience.  The sooner this happens, the better, as it reduces the time spent needlessly on designing and, later, developing solutions that are not scalable.  When asked to review designs please consider the following:
+
+TODO
+
+### Refinement
+
+Issues in the `workflow::refinement` state are either assigned by EMs to individuals engineers for refinement, or are assigned randomly by the triage bot based on the [assign-refinement policy](https://gitlab.com/gitlab-org/quality/triage-ops/-/blob/master/policies/groups/gitlab-org/threat-insights/assign-refinement.yml). Note that [Epics are slightly different](#epic-engineering-dri).
+
+Engineers assigned to refine issues are encouraged to ask questions and collaborate with the Product Manager and Product Designer if issues lack the information and/or designs required for successful refinement and execution.
+
+We assign issues for refinement to ensure we have focus on the highest-priority items, as determined by Product Management.  This is **not** an assignment to work on the issue.
+
+* Engineering output: Move issue into the `workflow::ready for dev` state and unassign themselves if they have completed refinement. Leave issue in `workflow::refinement` and assign the issue to their EM if for any reason refinement could not be completed. Confirm the issue has the appropriate [work type classification](/handbook/product/groups/product-analysis/engineering/dashboards/#work-type-classification).
+
+#### Refinement Guidelines
+
+Backlog refinement is the most important step to ensure an issue is ready to move into development and that the issue will match everyone's expectations when the work is delivered.
+
+The goal of the refinement process is to ensure an issue is ready to be worked on by:
+
+* Identify and resolve outstanding questions or discussions.
+* Identify missing dependencies (e.g. `backend` API).
+* Raise any questions, concerns or alternative approaches.
+* Outline an implementation plan.
+* Assign a weight to the issue.
+
+#### Refinement steps for Engineers
+
+1. Issues you need to refine will be assigned to you by your EM. Note the
+   differences for [bugs](#bug-diagnosis) and [spikes](#refinement-for-spikes).
+1. Backend/Frontend labels:
+   * If a backend engineer is required for the issue, ensure a `backend` label. Otherwise, remove
+     any backend label, assign any relevant labels and you are done.
+   * If a frontend engineer is required for the issue, ensure a `frontend` label. Otherwise,
+     remove any frontend label, assign any relevant labels and you are done.
+1. Check the issue for completeness.
+   * Does it have the necessary designs?
+   * Is the functionality clearly articulated and is there a consensus or decision on how it
+     should function?
+   * Are the technical details outlined?
+   * Has a consensus been reached or decision been made in areas of discussion?
+   * Are there dependencies? Call those out.
+1. If the issue is not complete:
+   * Tag the relevant people that can help complete the issue and outline what is needed. Tag the
+     appropriate EM and PM, so they know that the item can not be fully refined.
+   * If you are unable to resolve blockers to your refinement within a reasonable amount of time
+     (2-3 days depending on size of initiative) see [Failing Refinement](#failing-refinement).
+1. Ensure the issue is fully understood.
+   * Update the issue description with the final description of what will be implemented.
+   * Update the issue description with an [implementation plan](#implementation-plan).
+   * Update the issue description with [verification steps](#verification-steps).
+   * Ensure the issue title is accurate for the work being done.
+   * Open up new issues for 'follow-up' work, or work that was forced out of scope.
+1. Assign a [weight](#weights).
+   * If the issue requires both frontend and backend work, it should be split and weighed independently.
+1. Determine if [a feature flag is needed](/handbook/product-development-flow/feature-flag-lifecycle/#when-to-use-feature-flags).
+   * If you think that we should use the feature flag for a given issue, add ~"feature flag" label
+     and add in the description a section called **Feature Flag** with the proposed name.
+   * Create a [feature flag rollout](https://gitlab.com/gitlab-org/gitlab/-/issues/new?issuable_template=Feature%20Flag%20Roll%20Out) issue to track the multiple stages of releasing with a feature flag.
+   * Consider creating a [feature flag clean up](https://gitlab.com/gitlab-org/gitlab/-/issues/new?issuable_template=Feature%20Flag%20Cleanup) issue if the removal of the feature flag will occur in a subsequent milestone.
+1. Encourage Community Contributions.
+   * If the scope of the issue is well defined and there are no dependencies, consider adding
+     [contribution Labels](/handbook/marketing/developer-relations/contributor-success/community-contributors-workflows.html#labels).
+   * The `~"quick win"` label is particularly helpful but note that you would
+     be [volunteering to mentor new contributors](/handbook/marketing/developer-relations/contributor-success/community-contributors-workflows.html#issues-for-new-contributors).
+1. Refinement Review.
+   * If the weight you've assigned to the issue is 3 or less, move the issue directly to `~"workflow::ready for development"`.
+   * If the weight of the issue is greater than 3, unassign the issue from yourself and request a review from another engineer.
+   * When the reviewer agrees with the implementation plan and weight, they will unassign themself and move the issue to `~"workflow::ready for development"`.
+
+Anyone should be able to read a refined issue's description and understand what is being solved, how it is solving the problem, and the technical plan for implementing the issue.
+
+In order for someone to understand the issue and its implementation, they should **not** have to read through all the comments. The important bits should be captured in the description as the [single source of truth](/handbook/communication/#issues).
+
+##### Bug Diagnosis
+
+Note the following differences when refining bugs:
+
+1. As a guideline, spend no more than 1 hour per issue. Bugs that take too long to refine are
+   indicative of a more complex issue.
+1. Do not add weight. Our velocity represents the capacity to deliver new, bug-free features.
+1. When you hit the time limit for refinement, it's ok to have uncertainty in the [Implementation Plan](#implementation-plan). It's sufficient just to direct where you expect the code change to be (high or low level).
+
+##### Refinement for Spikes
+
+1. Do not add weights[^3].
+1. Time-box how much time to spend on the issue.
+1. The deliverable is typically an answer or solution to be used in upcoming issues.
+
+[^3]: a spike doesn't directly add value to users so it shouldn't contribute to our velocity. The
+      information delivered by a spike is what will be useful to deliver direct value to users.
+
+##### Refinement for Security Issues
+
+The [Security Developer process](https://gitlab.com/gitlab-org/release/docs/-/blob/master/general/security/engineer.md)
+can be daunting for first-timers. As part of refinement, ask for a volunteer to act as a "Security
+Issue Release Buddy".
+
+#### Failing Refinement
+
+An issue should fail refinement if it can not be worked on without additional information or
+decisions to be made. To fail an issue:
+
+1. Leave a comment on the issue that it can not be worked on, and highlights what still needs to
+    be done.
+2. Unassign yourself if you can not contribute further to issue at the current time.
+3. Assign the `workflow::blocked` label.
+
+#### Weights
+
+Weights are used as a *rough* order of magnitude to help signal to the rest of the team how much
+work is involved.  Weights should be considered an artifact of the refinement process, not the
+purpose of the refinement process.
+
+It is perfectly acceptable if items take longer than the initial weight. We do not want to inflate
+weights, as [velocity is more important than predictability](/handbook/engineering/development/principles/#velocity-over-predictability)
+and weight inflation over-emphasizes predictability.
+
+We do not add weights to bugs as this would be double-counting points. When our delivery contains
+bugs, the velocity *should* go down so we have time to address any systemic quality problems.
+
+##### Possible Values
+
+We are using the Fibonacci sequence for issue weights. Definitions of each numeric value are associated with the [frontend-weight & backend-weight labels](https://gitlab.com/groups/gitlab-org/-/labels?utf8=%E2%9C%93&subscribed=&search=-weight%3A%3A). Anything larger than 5 should be broken down whenever possible.
+
+Setting a `frontend-weight` or `backend-weight` label on an issue is optional, but ensure you set the **Weight** property on the issue during refinement.
+
+Examples of when it may be appropriate to set a weight label instead of / as well as setting the issue weight include:
+
+* On newly drafted issues, where we haven't yet fully determined the scope or if both frontend and backend are needed.
+* On bugs, where we don't directly assign a weight. The label can help provide guidance on complexity.
+
+### Implementation Plan
+
+A list of the steps and the parts of the code that will need to get updated to implement this
+feature. The implementation plan should also call out any responsibilities for other team members
+or teams. [Example](https://gitlab.com/gitlab-org/gitlab/-/issues/326975#implementation-plan).
+
+The goal of the implementation plan is to spur critical analysis of the issue and have the engineer refining the issue
+think through what parts of the application will get touched. The implementation plan will also
+permit other engineers to review the issue and call out any areas of the application that might
+have dependencies or been overlooked.
+
+## Development Guidelines
+In the spirit of iteration we want to identify and minimize risks as soon as possible.  It is recommended that engineers work towards a proof-of-concept quickly.  This could be something as simple as an SQL query to test performance.
+
+TODO
+
+## Verification Steps
+
+A list of the steps that will need to be followed to verify this feature. The verification steps should also include additional test cases that should be covered. [Example](https://gitlab.com/gitlab-org/gitlab/-/issues/379110#verification-steps).
+
+The purpose of the issue verification procedures is to aid in better understanding the expected change in the application after implementing the issue. Other engineers will be able to evaluate the issue and identify any application components that may have dependencies or have been ignored and that require further testing thanks to the verification steps.
+
+When writing verification steps for a feature or bug fix, it's important to include both positive and negative scenarios. This helps ensure that the feature or fix only works when specific criteria are met and not in every situation. For example, when verifying MR Approval Policies, you should provide a scenario where approval is required when the policy is violated, and another scenario where approval is not needed when the policy is not violated. This approach allows for a more thorough and accurate testing process.
+
+## Verification
+
+The issue verification should be done by someone else other than the MR author[^4].
+
+1. All implementation issues should have verification steps in the description. Our [implementation issue template](https://gitlab.com/gitlab-org/gitlab/-/issues/new?issuable_template=Implementation) conveniently provides this section.
+1. When an engineer has merged their work, they should move their issue into the verification status, indicated by the `~workflow:verification` label and wait until they receive notification that their work has been deployed on staging via the release issue email.
+1. If possible, after the engineer has received the notification and verified their work in staging, they leave a comment summarizing the testing that was complete.
+1. After the change is available on .com/production (make sure the MR has the `~workflow:verification` label, so it's available with GitLab Next turned off), the engineer should verify again, leave a comment summarizing the testing that was completed, and unassign themselves from the issue. Also provide a link to a project or page, if applicable.
+1. Unassigned issues in the `~workflow:verification` state are assigned randomly by the triage bot based on the [verification policy](https://gitlab.com/gitlab-org/quality/triage-ops/-/blob/master/triage/processor/assign_dev_for_verification.rb) to an applicable team engineer. This engineer should then additionally verify the issue.
+1. Once the issue has been verified in production by both engineers, add the `workflow::complete` label and close the issue.
+
+[^4]: To minimize cycle time between engineers, it's preferable that the writing engineer verify their work, as they will be able to start working on the issue again immediately if it turns out that the issue has not been sufficiently resolved. Waiting for another engineer to find obvious failures will increase turn around time.
+
+## Planning for PTO
+
+We follow the [Govern stage PTO process](/handbook/engineering/sec/govern/#pto) and [GitLab team members Guide to Time Off](/handbook/people-group/paid-time-off/#a-gitlab-team-members-guide-to-time-off).
+
+## Epic Engineering DRI
+
+As an Epic is ready to move to the refinement stage, the EMs assigns someone as the DRI for each required tech stack. This may happen sooner, during planning breakdown.
+
+As the DRI for an Epic, the engineer is **not** responsible for executing all the work but they are responsible for:
+
+1. Suggesting the implementation issue breakdown and requesting feedback.
+1. Writing the agreed implementation issues.
+1. Identifying when further research is required and writing the spike issue(s).
+1. Making technical decisions.
+1. Providing status updates when requested.
+1. Identifying and communicating blockers.
+1. Identifying potential security implications and involve a security engineer if necessary
+1. Take measurements to [reduce the impact of far-reaching work](/handbook/engineering/expansion-development/#reducing-the-impact-of-far-reaching-work)
+
+The DRI may choose to refine and work on the issues they created but they're not expected to
+deliver the whole Epic on their own.
 
 ### Milestone Planning
 
@@ -116,7 +306,7 @@ Additional information can be found on the [Planning page](/handbook/engineering
   * All epics scheduled for this milestone should have the `~auto-report` label and **one** of these labels:
     * `~Threat Insights::Performance`
     * `~Threat Insights::Projects`
-  * All issues scheduled for the milestone should have the `~Deliverable` label as well as `Health Status: On Track` at the beginning of the milestone. The milestone field should also be set correctly.
+  * All issues scheduled for the milestone should have the `~Deliverable`, `workflow::ready for dev` labels as well as `Health Status: On Track` at the beginning of the milestone. The milestone field should also be set correctly.
 * The planning issue is created in this [epic](https://gitlab.com/groups/gitlab-org/-/epics/12683) for 17.0-17.11.
 
 ### Tracking Deliverables
@@ -269,6 +459,8 @@ To emulate this locally, follow these steps:
 
 See the [related handbook entry](https://docs.gitlab.com/ee/development/ee_features.html#act-as-saas) for more details.
 
+[^1]: There are many ways to pass an environment variable to your local GitLab instance. For example, you can create a `env.runit` file in the root of your GDK with the above snippet.
+
 ### Cross-stack collaboration
 
 We encourage frontend engineers to contribute to the backend and vice versa. In such cases we should work closely with a domain expert from within our group
@@ -285,7 +477,3 @@ If a team member creates an issue or finds an issue where we would be open to a 
 ### Group discussion
 
 We hold weekly group discussions alternating on APAC/AMER, and EMEA/AMER time zones. Everyone is invited to attend, and it's a great forum to ask questions about Vulnerability Management, customer queries, our road map, and what the Threat Insights team might be thinking about. You can find the meetings on the [Threat Insights calendar](#common-links); take a look at [the agenda](https://docs.google.com/document/d/1mbXHw6EYT-IqlEFguYRyLrm35f_DGA7EzGPGBCOc9ao/edit#heading=h.pt5d0o3avmun) (internal link). We hope to see you there!
-
-## Footnotes
-
-[^1]: There are many ways to pass an environment variable to your local GitLab instance. For example, you can create a `env.runit` file in the root of your GDK with the above snippet.

@@ -1,5 +1,5 @@
 ---
-title: Security Policies and Threat Insights planning
+title: Security Policies planning
 ---
 
 ## How we do planning
