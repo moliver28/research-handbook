@@ -193,7 +193,7 @@ Please list the 3 most impactful results (accomplishments, initiatives, or proje
 
 - Example: Tanuki was the DRI for the global cross functional team, and established all change management communication for the project.
 
-How the team member exhibited CREDIT values in their work on this accomplishment. 
+**How the team member exhibited CREDIT values in their work on this accomplishment.**
 
 - Example: Tanuki demonstrated the Iteration value while delivering this result. They drove a subset of feature teams to commit on delivery timelines to enable GTM motions for the product launch while giving other teams flexibility to deliver iteratively.
 
