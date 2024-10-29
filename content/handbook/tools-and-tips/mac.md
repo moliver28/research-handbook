@@ -100,6 +100,7 @@ Please consider using the following alternatives:
 1. [Docker engine with multipass](https://gitlab.com/-/snippets/2176238)
 1. [Lima + nerdctl](https://gitlab.com/-/snippets/2203856)
 1. [Colima](https://gitlab.com/-/snippets/2259133)
+1. [Podman](https://podman-desktop.io/)
 
 Be advised that some of these alternatives could require more resources, more setup time, or might be more complex to setup depending on your skillset.
 
