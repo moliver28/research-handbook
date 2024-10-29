@@ -385,7 +385,9 @@ Details:
 
 Exit Criteria:
 
-- TBD
+- Framework to sync clusterwide tables to all cells.
+- Following clusterwide tables are synced: `application_settings`, `plans`, `plan_limits`.
+- All clusterwide tables that needs to be synced to all cells identified.
 
 Before/After:
 
