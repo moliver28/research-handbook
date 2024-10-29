@@ -212,3 +212,7 @@ For example:
 ```bash
 curl -k -vvv -A"GitLabSupport012345" "https://tenant.gitlab-dedicated.com/users/sign_in"
 ```
+
+#### Downtime observed on the readiness and liveness probes 
+
+Customers may be using the `/-/readiness` and `/-/liveness` probes to track the uptime of their Dedicated instance, and report on downtime or 503 errors observed. These probes are not an accurate indicator of the availability of the instance as described in [Health check](https://docs.gitlab.com/ee/administration/monitoring/health_check.html). 
