@@ -504,8 +504,9 @@ A collection of tips and tricks to make the Tableau development experience faste
     <details>
     <summary>Example Code</summary>
 
-    ```
+    ```text
     // Aliased Name
     [Field Name]
     ```
+
     </details>
