@@ -18,7 +18,7 @@ For a complete list of production services see the [service catalog](https://git
 
 ## How to Get Help
 
-See [how to get assistance](/handbook/engineering/infrastructure/team/reliability/#getting-assistance).
+See [how to get assistance](/handbook/engineering/infrastructure/team/).
 
 ## Why `infrastructure` and `production` queues?
 

@@ -48,4 +48,4 @@ This is a non-comprehensive list of topics to be discussed.
 | Member                  | @christiaanconover | Christiaan Conover | Director of Customer Success Management (AMER) |
 | Member                  | @manuel.kraft | Manuel Kraft | Customer Success Manager (EMEA) |
 | Member                  | @ricardoamarilla  | Ricardo Amarilla | Customer Success Manager (LATAM) |
-| Member                  | @afappiano  | Anthony Fappiano | Engineering Manager, [Reliability](/handbook/engineering/infrastructure/team/reliability/) |
+| Member                  | @afappiano  | Anthony Fappiano | Engineering Manager, [Reliability](/handbook/engineering/infrastructure/team/) |

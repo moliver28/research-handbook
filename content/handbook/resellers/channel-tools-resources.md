@@ -76,11 +76,11 @@ Select Partners are elibible to participate in this program. Get the help you ne
 
 ### **Marketing Development Funds**
 
-Select Partners may be eligible for [Marketing Development Funds, or MDF,](/handbook/resellers/Channel-Program-Guide/MDF/) to acquire new GitLab customers, drive demand within an existing mutual customer base, or help educate GitLab teams. GitLab MDF can support multiple marketing efforts, including participation in trade shows, sales incentives, direct mailing costs, training, and more.
+Select Partners may be eligible for [Marketing Development Funds, or MDF,](/handbook/resellers/channel-program-guide/MDF/) to acquire new GitLab customers, drive demand within an existing mutual customer base, or help educate GitLab teams. GitLab MDF can support multiple marketing efforts, including participation in trade shows, sales incentives, direct mailing costs, training, and more.
 
 #### Requesting Marketing Development Funds
 
-Our Select Partners are eligible to submit requests for consideration for marketing development funds (MDF). To learn more, check out our [MDF handbook page](/handbook/resellers/Channel-Program-Guide/MDF/) or login to the [Partner Portal](https://partners.gitlab.com/prm/English/c/marketing) marketing development funds page.
+Our Select Partners are eligible to submit requests for consideration for marketing development funds (MDF). To learn more, check out our [MDF handbook page](/handbook/resellers/channel-program-guide/MDF/) or login to the [Partner Portal](https://partners.gitlab.com/prm/English/c/marketing) marketing development funds page.
 
 ### **GitLab Branded Item Requests**
 
@@ -107,7 +107,7 @@ GitLab uses the Partner Portal, and our News on Demand Platform to communicate w
 If you are looking for additional information on the GitLab Partner program see the following handbook pages.
 
 - [Channel Partner Program Overview](/handbook/resellers/)
-- [Channel Program Guide](/handbook/resellers/Channel-Program-Guide/)
+- [Channel Program Guide](/handbook/resellers/channel-program-guide/)
 - [Channel Services Program](/handbook/resellers/services/)
 - [Channel Services Catalog](/handbook/resellers/services/services-catalog/)
 - [Channel Partner Training and Certifications](/handbook/resellers/training/)

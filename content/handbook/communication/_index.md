@@ -905,8 +905,8 @@ As you're creating external or business content for GitLab, please refer to the 
 
 This list offers additional guidance for written communication at GitLab:
 
-1. Do not use rich text, it makes it hard to copy/paste. Use [Markdown](/docs/markdown-guide/) to format text that is stored in a Git repository. In Google Docs, use "Normal text" using the style/heading/formatting dropdown and paste without formatting.
-1. Read our [Markdown Style Guide](/docs/markdown-guide/) for more information when using Markdown.
+1. Do not use rich text, it makes it hard to copy/paste. Use [Markdown](https://handbook.gitlab.com/docs/markdown-guide/) to format text that is stored in a Git repository. In Google Docs, use "Normal text" using the style/heading/formatting dropdown and paste without formatting.
+1. Read our [Markdown Style Guide](https://handbook.gitlab.com/docs/markdown-guide/) for more information when using Markdown.
 1. Do not use ALL CAPS because it [feels like shouting](https://en.wikipedia.org/wiki/All_caps#Association_with_shouting). However, there is the [`#all-caps` Slack channel](https://gitlab.slack.com/archives/C01BC085AVB) for your good-natured shouting needs.
 1. We use Unix style (lf) line endings, not Windows style (crlf), please ensure `*.md text eol=lf` is set in the repository's `.gitattributes` and run `git config --global core.autocrlf input` on your client.
 1. When specifying measurements, please include both Metric and Imperial equivalents.

@@ -470,7 +470,7 @@ At any point, if an issue becomes blocked, it would be in the `workflow::blocked
 
 `workflow::ready for development` means that an issue has been sufficiently [refined and weighted by Engineering](#how-engineering-refines-issues). Issues in this state that are labeled `cicd::active` are ones that should be worked on in a milestone. When a developer starts working on an issue they should [set the milestone](#setting-the-milestone) to that of the one where the issue will most likely be completed, rather than the one where it is started.
 
-`workflow::awaiting security release` is applied by an engineer after the security issue has passed verification and this label signals that it is ready for production but awaiting the next [monthly security release](/handbook/engineering/releases/security-releases/). When this label is applied, the issue's milestone should also be updated to the next milestone to align with when the next security release will happen.
+`workflow::awaiting security release` is applied by an engineer after the security issue has passed verification and this label signals that it is ready for production but awaiting the next [monthly security release](/handbook/engineering/infrastructure/library/security-releases-development/). When this label is applied, the issue's milestone should also be updated to the next milestone to align with when the next security release will happen.
 
 `workflow::feature-flagged` is applied to an issue that is being enabled through a separate feature flag rollout issue. Once the feature is validated the status is moved to `workflow::complete` and the issue is closed.
 

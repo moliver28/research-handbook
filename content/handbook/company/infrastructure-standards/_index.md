@@ -29,11 +29,11 @@ The following standards are covered:
   - Terraform
   - Ansible
 - [Labels and Tags](/handbook/company/infrastructure-standards/labels-tags/)
-- [Policies](/handbook/infrastructure-standards/policies/)
+- [Policies](/handbook/company/infrastructure-standards/policies/)
 - Security Standards
   - Application Security
   - Infrastructure Security
-- [Tutorials](/handbook/infrastructure-standards/tutorials/)
+- [Tutorials](/handbook/company/infrastructure-standards/tutorials/)
 
 ### Background Context
 
@@ -51,17 +51,17 @@ For cloud infrastructure, we have created top-level AWS organizational units and
 
 | Realm      | Data Classification | Resources Managed By | Usage Documentation | Slack Channel |
 |------------|---------------------|----------------------|---------------------|---------------|
-| `infra-shared-services`  | Red/Orange/Yellow/Green | `infra-realm-owners` | [Realm Docs](/handbook/infrastructure-standards/realms/infra-shared-services) | `#infra-realm-owners` |
-| `it`       | Orange/Yellow/Green | [IT Engineering](/handbook/business-technology/engineering/#infrastructure-engineering) | [Realm Docs](/handbook/infrastructure-standards/realms/it) | `#it_help` (tag `@it-eng`) |
-| `saas`     | Red/Orange/Yellow/Green | [Reliability Engineering](/handbook/engineering/infrastructure/team/reliability/) | [Realm Docs](/handbook/infrastructure-standards/realms/saas) | `#infrastructure-lounge` |
-| `sandbox`  | Green | Self Service (Team Member) | [Sandbox Cloud](/handbook/infrastructure-standards/realms/sandbox) | `#sandbox-cloud-questions` |
-| `security` | Orange/Yellow/Green | [Infrastructure Security](/handbook/security/product-security/infrastructure-security/) | [Realm Docs](/handbook/infrastructure-standards/realms/security) | `#security-infrasec` |
+| `infra-shared-services`  | Red/Orange/Yellow/Green | `infra-realm-owners` | [Realm Docs](/handbook/company/infrastructure-standards/realms/infra-shared-services) | `#infra-realm-owners` |
+| `it`       | Orange/Yellow/Green | [IT Engineering](/handbook/business-technology/engineering/#infrastructure-engineering) | [Realm Docs](/handbook/company/infrastructure-standards/realms/it) | `#it_help` (tag `@it-eng`) |
+| `saas`     | Red/Orange/Yellow/Green | [Reliability Engineering](/handbook/engineering/infrastructure/team/) | [Realm Docs](/handbook/company/infrastructure-standards/realms/saas) | `#infrastructure-lounge` |
+| `sandbox`  | Green | Self Service (Team Member) | [Sandbox Cloud](/handbook/company/infrastructure-standards/realms/sandbox) | `#sandbox-cloud-questions` |
+| `security` | Orange/Yellow/Green | [Infrastructure Security](/handbook/security/product-security/infrastructure-security/) | [Realm Docs](/handbook/company/infrastructure-standards/realms/security) | `#security-infrasec` |
 
 ### Managed by Infrastructure Teams
 
 **Are you looking to deploy a production or production-like service?** All engineering or product related production infrastructure should be deployed and managed in the `saas` realm that is managed by the Engineering Infrastructure team with SRE on-call coverage. All business (non-engineering) production infrastructure should be deployed in the `it` realm in the GCP project or AWS account specified by the security team. All standardized security and logging resources that are not managed in the `saas` or `it` realm should be deployed in the `security` realm.
 
-**Want to add a realm?** Any departments without their own realm should have resources for their groups (teams) created in the `sandbox` or `it` realms. If there are enough cloud resources and a dedicated infrastructure engineer team member to justify creating a new realm, please see the [instructions for creating a new infrastructure realm](/handbook/infrastructure-standards/tutorials/realms/create-realm).
+**Want to add a realm?** Any departments without their own realm should have resources for their groups (teams) created in the `sandbox` or `it` realms. If there are enough cloud resources and a dedicated infrastructure engineer team member to justify creating a new realm, please see the [instructions for creating a new infrastructure realm](/handbook/company/infrastructure-standards/tutorials/realms/create-realm).
 
 ### Self Service Infrastructure
 
@@ -77,7 +77,7 @@ The Sandbox Cloud is a custom-built web application that automates the provision
 
 The goal is to create a frictionless approach for technical team members that includes the tagging needed for cost allocation, best practice security configurations, and provide you the ability to create any resources that you need using the AWS or GCP web console or use our shared library of Terraform modules that include documentation and usage examples that can be copied into the Terraform configuration file for each user account. When you sign in with OKTA, we use the OKTA meta data that is integrated with Workday to determine your department and entity for cost reporting, and use this for the auto-creation of a tagging policy for resources that you create.
 
-Learn more on the [sandbox realm handbook page](/handbook/infrastructure-standards/realms/sandbox).
+Learn more on the [sandbox realm handbook page](/handbook/company/infrastructure-standards/realms/sandbox).
 
 #### Individual Environment
 

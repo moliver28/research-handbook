@@ -7,7 +7,7 @@ description: "This page describes the bug prioritization process performed by th
 
 This page describes the bug prioritization process performed by the quality engineering sub-department as part of the cross-functional prioritization process.
 
-An overview of the full process can be found on the [cross-functional prioritization](/handbook/product/cross-functional-prioritization/) handbook page.
+An overview of the full process can be found on the [cross-functional prioritization](/handbook/product/product-processes/cross-functional-prioritization/) handbook page.
 
 ## Timeline
 

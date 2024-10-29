@@ -268,7 +268,7 @@ During this phase, it's important to keep Application Security Engineers informe
 |<i class="fab fa-gitlab fa-fw" style="color:rgb(252,109,38); font-size:1.25em" aria-hidden="true"></i> `workflow::in review` | Applied by an engineer indicating that all MRs required to close an issue are in review. |
 |<i class="fab fa-gitlab fa-fw" style="color:rgb(252,109,38); font-size:1.25em" aria-hidden="true"></i> `workflow::blocked` | Applied if at any time during development the issue is blocked. For example: technical issue, open question to PM or PD, cross-group dependency. |
 |<i class="fab fa-gitlab fa-fw" style="color:rgb(252,109,38); font-size:1.25em" aria-hidden="true"></i> `workflow::verification` | After the MRs in the issue have been merged, this label is applied signaling the issue needs to be verified in staging or production. |
-|<i class="fab fa-gitlab fa-fw" style="color:rgb(252,109,38); font-size:1.25em" aria-hidden="true"></i> `workflow::awaiting security release` | Applied by an engineer after the security issue has passed verification, this label signals that it is ready but awaiting the next [monthly security release](/handbook/engineering/releases/security-releases/).|
+|<i class="fab fa-gitlab fa-fw" style="color:rgb(252,109,38); font-size:1.25em" aria-hidden="true"></i> `workflow::awaiting security release` | Applied by an engineer after the security issue has passed verification, this label signals that it is ready but awaiting the next [monthly security release](/handbook/engineering/infrastructure/library/security-releases-development/).|
 
 #### Key Participants
 

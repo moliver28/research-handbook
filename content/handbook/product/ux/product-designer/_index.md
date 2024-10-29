@@ -233,7 +233,7 @@ For inspiration, watch our Product Designers discuss [iteration at GitLab](https
   - Once you've validated your solution with users, propose a single solution. Suggesting multiple alternatives can undermine your expertise as a UX professional and lead to design-by-committee. If you must propose multiple solutions, clearly explain your reasoning.
 - **Share context and goals asynchronously**:
   - Provide all necessary context in your issue to ensure your audience understands your proposal and knows how to assist. Clarify who the solution is for, what it will enable them to do, and whether you need feedback, assistance, or approval. Highlight changes since the last review to facilitate understanding.
-  - Use [collapsed content sections](/handbook/markdown-guide/#collapse) to include supportive information without distracting from the main point. Refer to [this issue comment for an example](/handbook/markdown-guide/#collapse).
+  - Use [collapsed content sections](https://handbook.gitlab.com/docs/markdown-guide/#collapse) to include supportive information without distracting from the main point. Refer to [this issue comment for an example](https://handbook.gitlab.com/docs/markdown-guide/#collapse).
   - **Reguest feedback from your Product Design Manager**:
   - `@mention` your Product Design Manager for feedback. They can provide strategic alignment, ensure quality, and maintain functional consistency across the product.
 - **Focus on the customer and problem**:

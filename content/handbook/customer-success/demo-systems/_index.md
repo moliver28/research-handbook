@@ -197,7 +197,7 @@ The Demo Systems v1 repositories can be found in [gitlab.com/gitlab-com/customer
 ### Handbook Links for Related Infrastructure
 
 - [GitLab Sandbox Cloud](/handbook/company/infrastructure-standards/realms/sandbox/)
-- [GitLab Infrastructure Standards](/handbook/infrastructure-standards/)
+- [GitLab Infrastructure Standards](/handbook/company/infrastructure-standards/)
 - [GitLab Infrastructure Standards - Labels and Tags](/handbook/company/infrastructure-standards/labels-tags/)
 - [Demo Systems Kubernetes Architecture Docs](/handbook/customer-success/demo-systems/infrastructure/kubernetes/)
 - [Demo Systems Network Architecture and Subnet Docs](/handbook/customer-success/demo-systems/infrastructure/networking/)

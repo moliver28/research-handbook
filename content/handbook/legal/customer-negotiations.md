@@ -60,7 +60,7 @@ The information contained on this page is organized into two distinct categories
 1. Once the Agreement has been stamped by Legal, follow the [DocuSign Process](/handbook/sales/field-operations/order-processing/#how-to-send-an-order-form-to-the-customer-for-signature-via-docusign) to send the agreement for signature within SFDC.
 1. All Sales Team Members have DocuSign access, please work with Sales Ops for any questions on how to use it. **Please be sure to copy the applicable Legal team member for all fully executed agreements**
 
-Need an NDA signed? Follow the process for [Team Members with DocuSign access](/handbook/legal/NDA/).
+Need an NDA signed? Follow the process for [Team Members with DocuSign access](/handbook/legal/nda/).
 {.h3}
 
 ### How to Get a Data Processing Addendum (DPA) Signed

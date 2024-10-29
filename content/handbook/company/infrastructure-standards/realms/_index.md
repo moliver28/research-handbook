@@ -9,8 +9,8 @@ This is a list of realms that have customized infrastructure standards based on 
 
 ### Realms
 
-- [infra-shared-services](/handbook/infrastructure-standards/realms/infra-shared-services)
-- [it](/handbook/infrastructure-standards/realms/it)
-- [saas](/handbook/infrastructure-standards/realms/saas)
-- [security](/handbook/infrastructure-standards/realms/security)
-- [sandbox](/handbook/infrastructure-standards/realms/sandbox)
+- [infra-shared-services](/handbook/company/infrastructure-standards/realms/infra-shared-services)
+- [it](/handbook/company/infrastructure-standards/realms/it)
+- [saas](/handbook/company/infrastructure-standards/realms/saas)
+- [security](/handbook/company/infrastructure-standards/realms/security)
+- [sandbox](/handbook/company/infrastructure-standards/realms/sandbox)

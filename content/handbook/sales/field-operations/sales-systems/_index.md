@@ -328,7 +328,7 @@ Before a milestone can be closed, the following checks are performed by Sales Sy
 8. Commit your changes with a relevant message: `git commit -m "Fixing Apex CPU Errors"`.
 9. Using the link provided by GitLab, open a merge request, [make it a `Draft:`](/handbook/about/editing-handbook/#marking-a-merge-request-as-draft), and assign it to the Architect on the project.
 10. Comment on the related issue with an @ to the project's Architect for review, providing a link to the merge request. (this automatically links the merge request to the issue)
-11. The Architect (or assigned delegate) will assign the story a Change Management level, based on the scope of the change as defined [here](/handbook/business-technology/change-management/#change-request-types).
+11. The Architect (or assigned delegate) will assign the story a Change Management level, based on the scope of the change as defined [here](https://internal.gitlab.com/handbook/IT/it-change-management/#change-request-types).
 12. You will then need to document that the appropriate approvals (as defined in the [Approval Matrix](/handbook/sales/field-operations/sales-systems/#approval-matrix) section below) have been completed in the issue.
 13. If the Architect calls for a live demo, schedule the meeting and prep your sandbox to do a run through with the end customer.
 14. If the Architect calls for user acceptance testing, make sure the assigned testers have access to the sandbox where the work was done, and schedule testing.

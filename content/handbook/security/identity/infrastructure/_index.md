@@ -15,7 +15,7 @@ We provision AWS accounts and GCP projects for each service/workload that more t
 
 We believe in "one account/project per workload" for security blast radius and cost attribution reasons. Do **not** deploy different functional applications in the same AWS account or GCP project that has your team's name on it. You simply need to use the issue template to request a new AWS account or GCP project.
 
-- [Sandbox Cloud Documentation](/handbook/infrastructure-standards/realms/sandbox)
+- [Sandbox Cloud Documentation](/handbook/company/infrastructure-standards/realms/sandbox)
 - Self Service: [Create an Individual AWS Account or GCP Project](/handbook/company/infrastructure-standards/realms/sandbox/#individual-aws-account-or-gcp-project)
 - Issue Template: [Create a Service/Team/Workload AWS Account](https://gitlab.com/gitlab-com/business-technology/engineering/infrastructure/issue-tracker/-/issues/new?issuable_template=aws_group_account_create_request)
 - Issue Template: [Create a Service/Team/Workload GCP Project](https://gitlab.com/gitlab-com/business-technology/engineering/infrastructure/issue-tracker/-/issues/new?issuable_template=gcp_group_account_create_request)
@@ -252,4 +252,4 @@ In other words, the Security team provides the scaffolding for your castle and p
 
 Each user is responsible for creating and destroying your own workloads.
 
-See the [Sandbox Cloud handbook page](/handbook/infrastructure-standards/realms/sandbox) to learn more.
+See the [Sandbox Cloud handbook page](/handbook/company/infrastructure-standards/realms/sandbox) to learn more.

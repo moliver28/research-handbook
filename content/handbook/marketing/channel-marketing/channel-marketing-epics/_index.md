@@ -33,7 +33,7 @@ Create epic here: https://gitlab.com/groups/gitlab-com/marketing/-/epics/new
 
 * **Channel Marketing Manager:**
 * **Channel Account Manager:**
-* **Tactic/Event Type:** [Select from here](/handbook/resellers/Channel-Program-Guide/MDF/#eligible-activities-and-required-proof-of-performance-mdf-activities) - If your campaign type is not listed, please list other.
+* **Tactic/Event Type:** [Select from here](/handbook/resellers/channel-program-guide/MDF/#eligible-activities-and-required-proof-of-performance-mdf-activities) - If your campaign type is not listed, please list other.
 * **Official Campaign Name:**
 * **Location:** if applicable
 * **Event website:**  if applicable

@@ -56,7 +56,7 @@ Performance Indicators:
 
 ### Target
 
-Performance of GitLab and GitLab.com is ultimately about the user experience. As also described in the [product management handbook](/handbook/product/gitlab-the-product/#performance), "faster applications are better applications".
+Performance of GitLab and GitLab.com is ultimately about the user experience. As also described in the [product management handbook](/handbook/product/categories/gitlab-the-product/#performance), "faster applications are better applications".
 
 Our current focus at the moment are two indicators:
 

@@ -654,7 +654,7 @@ When naming a GitLab extension, plugin, app, or integration for a third-party pr
 
 Provided we use the tool's full name in marketing materials and technical documentation, as exceptions to this general principle we can: (1) refer to the tool solely by the third-party service name in places where we list GitLab's tools in product; and (2) refer to the tool solely as "GitLab" in the third-party product's app directory. For example, we refer to the GitLab for Slack app as "Slack" in our lists of GitLab integrations, and as "GitLab" in the [Slack App Directory](https://gitlab.slack.com/apps/A676ADMV5-gitlab?tab=more_info).
 
-For more guidance on the feature naming process, see [naming features](/handbook/product/gitlab-the-product/#naming-features).
+For more guidance on the feature naming process, see [naming features](/handbook/product/categories/gitlab-the-product/#naming-features).
 
 ### Next Generation
 

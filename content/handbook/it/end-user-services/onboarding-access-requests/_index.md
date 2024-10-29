@@ -308,7 +308,7 @@ The key goals are:
 - We can better manage the Provisioning and De-provisioning process for our users to access these application, by use of automation and integration into our HRIS system.
 - We can make Trust and Risk based decisions on authentication requirements to key assets, and adapt these to ensure a consistent user experience.
 
-To read more about Okta, please visit the [Okta](/handbook/business-technology/okta/) page of the handbook.
+To read more about Okta, please visit the [Okta](/handbook/it/okta/) page of the handbook.
 
 ### Full Disk Encryption
 

@@ -49,13 +49,13 @@ Work in the 40% time budget should be coordinated and prioritized by the Enginee
 Some of the above examples for the 40% time budget can help in forming a long-term technical roadmap for your group, and determine how best to prioritize your technical work to support overall business goals. In addition to the examples above:
 
 - Ask yourself these questions
-  - What are your most frequent sources of delays? (Could be long-standing tech debt you have to work past while developing, could be lack of reviewers for your domain, could be external to your team like with pipeline duration) 
+  - What are your most frequent sources of delays? (Could be long-standing tech debt you have to work past while developing, could be lack of reviewers for your domain, could be external to your team like with pipeline duration)
   - Do you have any consistently similar bugs or security issues that come in due to a certain area?
   - Has your team been talking about potentially refactoring any areas?
   - Is your team struggling with certain processes?
   - Have you had recent incidents that allude to a larger problem?
   - Are you getting frequent requests for help in some area?
-  - Is your team frequently missing their deliverable commitments? What would help? 
+  - Is your team frequently missing their deliverable commitments? What would help?
   - Does your area have performance (slow endpoints, inconsistent responses, intermittent errors) or scalability (the feature or area as-is will not scale) concerns?
   - Where do you see the biggest instability? Have you talked to operations and support about feedback for  your area?
   - Do you have application or rate limits in the right places?
@@ -67,13 +67,13 @@ Some of the above examples for the 40% time budget can help in forming a long-te
   - Do you have adequate telemetry , logging, monitoring of your features?
   - Do you have adequate error handling and error codes that allows fast and easy diagnostics?
 - Gather data like this
-  - Master:Broken issues 
+  - Master:Broken issues
   - ~"severity::1" and ~"severity::2"  bugs
   - Missed-Slo issues
   - Flaky test issues
   - ~"type::maintenance" issues
 - Think about the future state of your product
-  - Where do you want your product to be this time next year? 
+  - Where do you want your product to be this time next year?
   - What are the technical requirements to achieve that?
   - What are technical topics that would benefit from research/POCs?
   - What would make it easier for you to achieve that if it was no longer a factor?
@@ -211,7 +211,7 @@ To maintain high availability, Engineering runs a weekly SaaS Availability stand
 
 Each week the Infrastructure team reports on incidents and key metrics. Updating these items at the top of the
 [Engineering Allocation Meeting Agenda](https://docs.google.com/document/d/1Zk3qgbn8iDyJRq0i5C5LPBgEopY6o1tpYEKfdNfA9Bg/edit#heading=h.5t67v3au7sd4)
-is the responsibility of the Engineering Manager for the [General Squad](/handbook/engineering/infrastructure/team/reliability/#general-squad) in Reliability.
+is the responsibility of the Engineering Manager for the [General Squad](/handbook/engineering/infrastructure/team/) in Reliability.
 
 1. Incident Review
    - Include any [S1 incidents](https://gitlab.com/gitlab-com/gl-infra/production/-/issues/?sort=created_date&state=all&label_name%5B%5D=incident&label_name%5B%5D=severity%3A%3A1&first_page_size=100) that have occurred since the previous meeting.

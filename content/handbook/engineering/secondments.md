@@ -34,7 +34,7 @@ Currently, this program is still in a pilot phase but the general steps are as f
 
 ### How is this different from an internship?
 
-An internship is typically for [early career professionals](/handbook/engineering/internships/#duration-and-timing) where GitLab is the employer of record with an objective that the professional can move into a full-time role. On the other hand, secondments are for slightly more experienced professionals that are already employed at a company but seeking an external learning opportunity.
+An internship is typically for [early career professionals](/handbook/hiring/emerging-talent/#duration-and-timing) where GitLab is the employer of record with an objective that the professional can move into a full-time role. On the other hand, secondments are for slightly more experienced professionals that are already employed at a company but seeking an external learning opportunity.
 
 ### How long is a secondment?
 

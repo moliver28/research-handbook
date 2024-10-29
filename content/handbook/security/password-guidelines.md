@@ -17,7 +17,7 @@ The password standard sets the requirements for constructing secure passwords an
 Ideally you memorize one strong password - hence the name - and let 1Password generate and manage strong, unique passwords
 for every site for which you have a login.
 
-GitLab requires all team members to use [Okta](/handbook/business-technology/okta/) as a primary entry and access point for SaaS and other company applications while utilizing 1Password for password management. GitLab utilizes Okta for SAML/SSO and passwordless authentication for many applications, so the need to store passwords in a password manager will diminish over time.
+GitLab requires all team members to use [Okta](/handbook/it/okta/) as a primary entry and access point for SaaS and other company applications while utilizing 1Password for password management. GitLab utilizes Okta for SAML/SSO and passwordless authentication for many applications, so the need to store passwords in a password manager will diminish over time.
 
 If you want to use 1Password for your private passwords not related to your work at GitLab, [there are a few options](#1password-for-your-private-passwords).
 

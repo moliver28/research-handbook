@@ -69,7 +69,7 @@ If you are interested in a session that doesn't exist yet, but you're not able o
 
 CSMs should offer sessions early during onboarding, and whenever working on a stage enablement. If the customer wants a session on a topic we do not already have slides for, request more time to prepare, and then work with the Customer Success team to help pull together some slides for the session. Then the newly created session can be added to the list of existing sessions available to other CSMs.
 
-It is recommended to invite another GitLab team member to the session to help with notes, audience management (including obtaining screenshots of audience participants), and Q&A. This helper could be the Solutions Architect or Account Executive for the account, or it could be a fellow CSM. 
+It is recommended to invite another GitLab team member to the session to help with notes, audience management (including obtaining screenshots of audience participants), and Q&A. This helper could be the Solutions Architect or Account Executive for the account, or it could be a fellow CSM.
 
 Consider the typical length of the session when scheduling. It is recommended to coordinate with your champion on the following information:
 
@@ -112,7 +112,7 @@ Similar to taking notes in a cadence call, it is useful to add to your running n
 ### Best Practices for Note-Taking & Planning
 
 - Write down your *agenda* (including questions you want to ask). This way you can quickly add your notes for the specific context.
-- If you're comfortable writing in [Markdown format](/handbook/markdown-guide/), use it to quickly structure your notes in real time.
+- If you're comfortable writing in [Markdown format](https://handbook.gitlab.com/docs/markdown-guide/), use it to quickly structure your notes in real time.
 - Allow yourself time directly after the call to clean up your notes. Avoid scheduling back-to-back meetings.
 - Practice slowing down call conversations. Stopping the dialog for a few seconds to say "let me write that down" tells the customer what they said is important to you.
 - Ask your SAE/AE/SA to take notes with you. After the meeting combine and add detail.

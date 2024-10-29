@@ -391,7 +391,7 @@ The Package team uses [GitLab QA](https://gitlab.com/gitlab-org/gitlab-qa) for E
 
 [HackyStack](https://gitlab.com/gitlab-com/business-technology/engineering/tools/hackystack) is an open source cloud infrastructure management and orchestration platform for ephemeral demo, sandbox, testing, and training environments.
 
-The [GitLab Sandbox Cloud](/handbook/infrastructure-standards/realms/sandbox) is GitLab's deployment of HackyStack that is used by GitLab team members. See the handbook page for more details.
+The [GitLab Sandbox Cloud](/handbook/company/infrastructure-standards/realms/sandbox) is GitLab's deployment of HackyStack that is used by GitLab team members. See the handbook page for more details.
 
 The Package team uses this platform to set up its epehemeral demo sandbox environment that launches an Omnibus instance with an active Container Registry and a project that can trigger multiple images/tags leveraging our CI capabilities.
 Instructions on how to use it can be found [here](/handbook/engineering/development/ops/package/quality).

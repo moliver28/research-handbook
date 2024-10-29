@@ -108,7 +108,7 @@ We strictly adhere to this Intake Request process to ensure we capture the full 
 
 ### Prioritization
 
-We follow our [prioritization framework](/handbook/product/product-processes/#prioritization) including [cross-functional prioritization guidelines](/handbook/product/cross-functional-prioritization/) to prioritize our backlog on a monthly basis. R&D teams use a variety of inputs and sensing mechanisms, including SLAs, OKRs, [L&R Support Priority Issues list for Fulfillment](/handbook/support/license-and-renewals/workflows/managing_product_issues/#supports-issue-list-for-fulfillment), technical debt, and more to set priorities.
+We follow our [prioritization framework](/handbook/product/product-processes/#prioritization) including [cross-functional prioritization guidelines](/handbook/product/product-processes/cross-functional-prioritization/) to prioritize our backlog on a monthly basis. R&D teams use a variety of inputs and sensing mechanisms, including SLAs, OKRs, [L&R Support Priority Issues list for Fulfillment](/handbook/support/license-and-renewals/workflows/managing_product_issues/#supports-issue-list-for-fulfillment), technical debt, and more to set priorities.
 
 We aim to maximize business value by balancing short-term, mid-term, and long-term investments across new initiatives and technical debt. At GitLab, we target an overall company allocation of 60% for new product development and 40% for technical debt and maintenance. However, this 60/40 split is flexible and may vary across different groups and sections over time.
 

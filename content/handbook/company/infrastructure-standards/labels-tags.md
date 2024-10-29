@@ -35,11 +35,11 @@ In labels and tags for specific realms should be prefixed with the realm prefix.
 
 Please see the realm label and tag handbook pages for labels and tags specific to the realm.
 
-- [infra-shared-services](/handbook/infrastructure-standards/realms/infra-shared-services/labels-tags)
-- [it](/handbook/infrastructure-standards/realms/it/labels-tags)
-- [saas](/handbook/infrastructure-standards/realms/saas/labels-tags)
+- [infra-shared-services](/handbook/company/infrastructure-standards/realms/infra-shared-services/labels-tags)
+- [it](/handbook/company/infrastructure-standards/realms/it/labels-tags)
+- [saas](/handbook/company/infrastructure-standards/realms/saas/labels-tags)
 - [sandbox](/handbook/company/infrastructure-standards/realms/sandbox/labels-tags)
-- [security](/handbook/infrastructure-standards/realms/security/labels-tags)
+- [security](/handbook/company/infrastructure-standards/realms/security/labels-tags)
 
 ### Design Decisions and Change Log
 
@@ -466,7 +466,7 @@ You can get an editable version of this table in the [spreadsheet](https://docs.
 If a group listed below does not have a group documentation link, it is safe to assume that a AWS account or GCP project has not been created for that group yet. Please follow the instructions for provisioning the group (TODO).
 {{% /alert %}}
 
-<!-- To add group documentation, please add a link to a new page [Group Documentation](/handbook/infrastructure-standards/realms/{realm_name}/groups/{gl_dept_group}) -->
+<!-- To add group documentation, please add a link to a new page [Group Documentation](/handbook/company/infrastructure-standards/realms/{realm_name}/groups/{gl_dept_group}) -->
 
 The full list of groups was last audited and updated on 2021-07-22.
 

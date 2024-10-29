@@ -11,7 +11,7 @@ Read more about what the goals of Switchboard are on the [Category Direction pag
 
 ## Accessing Switchboard
 
-GitLab Support Engineers can access the [Switchboard](https://about.gitlab.com/direction/saas-platforms/switchboard/) application via [Okta](/handbook/business-technology/okta/index.html).
+GitLab Support Engineers can access the [Switchboard](https://about.gitlab.com/direction/saas-platforms/switchboard/) application via [Okta](/handbook/it/okta/index.html).
 
 1. Log in to Okta at `https://gitlab.okta.com`
 1. Search for and click on the **Switchboard (production)** app

@@ -63,7 +63,7 @@ MRs added after the Thursday, 1 week before release should target the `release-x
 - **Release Post Manager and Technical Writer** perform final reviews
   - Changes after <time datetime="16:00">4 pm UTC (11 am ET / 8 am PT)</time> on the Monday of release week will be done via the `release-X-Y` branch and are subject to approval by the Release Post Manager.
   - The TW Lead verifies the deprecations and removals links in the release post
-  - RPM create a [What's New](/handbook/product/gitlab-the-product/index.html#using-whats-new-to-communicate-updates-to-users) MR
+  - RPM create a [What's New](/handbook/product/categories/gitlab-the-product/index.html#using-whats-new-to-communicate-updates-to-users) MR
 
 {{% note %}}
 The Monday through Tuesday of release week can fall on vacations or holidays. PMs should designate who to respond to time-sensitive inquiries should they be unreachable. Release Post Managers are empowered to make decisions and [display bias for action](/handbook/values/#bias-for-action) if they haven't received a response by EOD on the Tuesday of release week.
@@ -166,7 +166,7 @@ The responsibilities of a technical advisor can be seen in more detail in [Techn
 - Completing all the tasks assigned to the Release Post Manager in the Release Post MR template
   - Reminder: If you cannot perform any of the Release Post Manager tasks between Thursday, 1 week before release, and the [release date](/handbook/engineering/releases/) of the month as defined in the [monthly MR template](https://gitlab.com/gitlab-com/www-gitlab-com/-/blob/master/.gitlab/merge_request_templates/Release-Post.md.erb), it is recommended you sign up for another release post. In the case that schedule/circumstances changes after you'd already signed up for the release post, please start a thread in #product in slack and tag `@[name of PLT member who is reviewing this month]`. The name of the PLT member who is reviewing this month can be found on the [release post scheduling page](/handbook/marketing/blog/release-posts/managers/)
 - Identify the top feature to highlight on the release post page and collecting feedback from the VP of Product
-- Creating the What's New MR and working with the VP of Product to identify what to include in [What's New](/handbook/product/gitlab-the-product/index.html#using-whats-new-to-communicate-updates-to-users)
+- Creating the What's New MR and working with the VP of Product to identify what to include in [What's New](/handbook/product/categories/gitlab-the-product/index.html#using-whats-new-to-communicate-updates-to-users)
 - Sending out reminders about upcoming due dates
 - Merging the release post MR on the [release date](/handbook/engineering/releases/) and ensuring the release post page goes live
 - Collecting feedback in the release post retrospective issue during the release post not just for your own challenges, but other team members challenges as they pop on Slack and other places
@@ -1199,11 +1199,11 @@ When the MR is approved, add the `Ready` label before merging.
 
 Deprecation, removal, and breaking change announcements appear [in GitLab Docs](https://docs.gitlab.com/ee/update/deprecations.html) and in the release post of the announcement's corresponding milestone.
 
-Before making an announcement, review the [breaking changes, deprecations and removals guidance](/handbook/product/gitlab-the-product/#deprecations-removals-and-breaking-changes) to ensure you:
+Before making an announcement, review the [breaking changes, deprecations and removals guidance](/handbook/product/categories/gitlab-the-product/#deprecations-removals-and-breaking-changes) to ensure you:
 
 - Are minimizing disruption for our customers.
 - Are providing the required advance notice for workflow changes.
-- Have [determined if the change is a breaking change](/handbook/product/gitlab-the-product/#breaking-changes).
+- Have [determined if the change is a breaking change](/handbook/product/categories/gitlab-the-product/#breaking-changes).
 
 #### Milestone due dates
 
@@ -1707,8 +1707,8 @@ The What's New MR will be initiated by the Release Post Manager on the Tuesday o
 
 ### Pages
 
-- [GitLab the product](/handbook/product/gitlab-the-product/#gitlab-the-product)
-- [General guidance on deprecations, remvoals and breaking changes](/handbook/product/gitlab-the-product/#breaking-changes-deprecations-and-removing-features)
+- [GitLab the product](/handbook/product/categories/gitlab-the-product/#gitlab-the-product)
+- [General guidance on deprecations, remvoals and breaking changes](/handbook/product/categories/gitlab-the-product/#breaking-changes-deprecations-and-removing-features)
 - [Release Post volunteer schedule](managers/)
 - [Security and monthly releases](https://about.gitlab.com/releases/categories/releases/)
 - [Features per release](https://about.gitlab.com/releases/)
