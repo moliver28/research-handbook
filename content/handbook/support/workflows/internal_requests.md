@@ -118,7 +118,7 @@ Rarely, console escalations will also be used to workaround lack of a feature wh
 
 Console escalation requests can also serve a purpose when further information (unavailable through the UI or API) is needed to understand the root cause of a problem. For example, searching for unverified secondary email until [gitlab#367823](https://gitlab.com/gitlab-org/gitlab/-/issues/367823) is resolved. This may be because we are not sufficiently logging in Kibana/Sentry, we're unable to replicate an issue, or the creation of an issue may not be the appropriate action needed to resolve a customer problem. Collaborate with console enabled engineers and product teams to solve these types of problems.
 
-Any request requiring assistance from infrastructure teams, please see the [SaaS Platforms Request for Help](https://gitlab.com/gitlab-com/saas-platforms/saas-platforms-request-for-help) issue tracker and [SaaS Platforms Getting Assistance](infrastructure/getting-assistance/_index.md) page.
+Any request requiring assistance from infrastructure teams, please see the [SaaS Platforms Request for Help](https://gitlab.com/gitlab-com/saas-platforms/saas-platforms-request-for-help) issue tracker and [SaaS Platforms Getting Assistance](../../engineering/infrastructure/getting-assistance/) page.
 
 ### Response time and escalating the request
 
