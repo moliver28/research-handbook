@@ -119,7 +119,7 @@ With regards to completing RFPs, sometimes referred to as RFIs, RFQs or RFXs, pl
 
 ### Escalation Process
 
-If a customer or partner has requested material non-standard terms, and the transaction merits additional consideration by GitLab's leadership, please follow the [GitLab Escalation Process](https://internal.gitlab.com/handbook/legal-and-corporate-affairs/legal-commercial/index.html/) (the "Process"). The Process sets forth factors to consider before escalating material non-standard requestings to leadership, including initial threshold considerations, ensuring the matter receives the appropriate level of review, instructions on properly documenting the escalation, etc.
+If a customer or partner has requested material non-standard terms, and the transaction merits additional consideration by GitLab's leadership, please follow the [GitLab Escalation Process](https://internal.gitlab.com/handbook/legal-and-corporate-affairs/legal-commercial/index.html/) (the "Process"). The Process sets forth factors to consider before escalating material non-standard requests to leadership, including initial threshold considerations, ensuring the matter receives the appropriate level of review, instructions on properly documenting the escalation, etc.
 **Note This document is only available for GitLab Team Members.**
 
 ### How to get a Data Processing Addendum (DPA) signed
