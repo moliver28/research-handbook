@@ -133,7 +133,7 @@ For some incidents, we may figure out that the usage patterns that led to the is
 
 ### Purpose
 
-This section is part of [controlled document](/handbook/security/controlled-document-procedure.html) covering our controls for backups.  It covers BCD-11 in [the controls](/handbook/security/security-assurance/security-compliance/guidance/business-continuity-and-disaster-recovery.html).
+This section is part of [controlled document](/handbook/security/controlled-document-procedure.html) covering our controls for backups.
 
 ### Scope
 
@@ -167,6 +167,130 @@ Exceptions to this backup policy will be tracked in the [compliance issue tracke
 ### References
 
 - Parent Policy: [Information Security Policy](/handbook/security/)
+
+## DR process
+
+## Database recovery
+
+### Purpose
+
+This is a overview of the disaster recovery strategy we have in place for the PostgreSQL database. In this context, a disaster means losing the any one of the database clusters or parts of them (a DROP DATABASE-type incident).
+
+### Scope
+
+Applies to recovery of the GitLab PostgreSQL production database in a disaster scenario.
+
+## Roles & Responsibilities
+
+| Role | Responsibility|
+| ---- | ------ |
+| Infrastructure Team | Responsible for executing recovery of the production gitlab.com database in the event of a disaster |
+| Infrastructure Management (Code Owners) | Responsible for approving significant changes and exceptions to this procedure |
+
+### Summary
+
+For the [PostgreSQL database disaster recovery process](#database-recovery) we utilize
+Postgresql backups with WAL-G , where we constantly stream completed [WAL files](https://www.postgresql.org/docs/current/wal-intro.html) and push "full" backup periodically( on a daily basis ) to GCS to enable [PITR](https://www.postgresql.org/docs/9.6/continuous-archiving.html).
+
+In case of a disaster, this allows us to replay WAL logs to a specific point in time. We utilize [delayed replicas](#delayed-replica) to quickly perform PITR from the WAL archive in case disaster strikes additionally we have [archived replicas](#archive-replica) inplace to continuously validate the WAL archive, ensuring that the Point-in-Time Recovery (PITR) process is intact and can be applied without interruption.
+
+### Procedure in depth
+
+#### Restore Testing
+
+A backup is only worth something if it can be successfully restored in a certain amount of time. In order to monitor the state of backups and measure the expected recovery time to maintain our [RPO/RTO](/handbook/engineering/architecture/design-documents/disaster_recovery/), we employ a daily process to test the backups.
+
+This process is implemented as a CI pipeline (see [README.md](https://gitlab.com/gitlab-com/gl-infra/gitlab-restore/postgres-gprd/-/blob/master/README.md) for details). On a daily schedule, a fresh database GCE instance is created that restores from the latest backup, gets configured as an archive replica that recovers from the WAL archive (essentially performing PITR). After this is complete, the restored database is verified.
+
+There is monitoring in place to detect problems with the restore pipeline (currently using [deadmanssnitch.com](https://deadmanssnitch.com/)). We plan to monitor the time it takes to recover and other metrics soon.
+
+#### Delayed replica
+
+Another option is to have a replica in place that always lags a few hours behind the production cluster. We call this a [delayed replica](https://gitlab.com/gitlab-com/runbooks/-/blob/master/docs/postgres-dr-delayed/postgres-dr-replicas.md#overview): It is a normal streaming replica but delayed by a few hours. In case disaster strikes, it can be used to quickly perform PITR from the WAL archive. This is much faster than a full restore, because we don’t have to fully retrieve a full backup from GCS. Additionally, with daily snapshots the latest snapshot is 24 hours (plus the time it took to capture the snapshot) old worst-case. A delayed replica is constantly kept at a certain offset with respect to the production cluster and hence does not need to replay too many hours worth of data.
+
+Currently our delayed replica though is replaying data with an 8 hour delay, so we are
+able to retrieve deleted objects from there within 8h after deletion if needed.
+
+We have delayed replicas for both our "main" and "ci" databases.
+
+#### Archive Replica
+
+Another type of replica is an archive replica. It’s sole purpose is to continuously recover from the WAL archive and hence test the WAL archive. This is necessary because PITR relies on a continuous sequence of WAL that can be applied to a snapshot of the database (basebackup). If that sequence is broken for whatever reason, PITR can only recover until this point and no further. We monitor the replication lag of the archive replica. If it falls back too far, there’s likely a problem with the WAL archive.
+
+The restore testing pipeline also performs PITR from the WAL archive and thus also would be able to detect (some) problems with the archive. However, employing an archive replica that is close to the production cluster helps to detect problems with the archive much faster than with a daily test of a backup. Also, the archive replica has to consume all WAL from the archive - a backup restore is likely to only read a portion of the archive to recover to a certain point in time.
+
+In that sense, there is overlap between functionality of archive and delayed replicas and the restore testing. Together it gives us high confidence in our cold backup and PITR recovery strategy.
+
+Currently we have archive replicas for our "main" and "ci" databases.
+
+### Exceptions
+
+Exceptions to this procedure will be tracked as per the [Information Security Policy Exception Management Process](/handbook/security/controlled-document-procedure/#exceptions)
+
+## Disaster Recovery Gamedays
+
+### Overview
+
+Mock DR events planned on a quarterly schedule simulated for a service and/or combination of services to test our DR processes and improve on them in case of an actual incident.
+
+### Definitions
+
+#### Confidence Levels
+
+We have clear confidence levels setup for each of the services that helps represent how efficient our current DR process is.
+
+#### Zonal Confidence Level
+
+- <b>No confidence</b>
+    1. We have not tested recovery
+    2. We do not have a good understanding of the impact of the component going down
+    3. We do not have an emergency plan for when the component goes down
+
+- <b>Low confidence</b>
+    1. We have not tested recovery
+    2. We have a good understanding of the impact of the component going down
+    3. We may or may not have an emergency plan when the component goes down, but it has not been validated
+
+- <b>Medium confidence</b>
+    1. We have tested recovery in a production like environment but not tested in production
+    2. We have a good understanding of the impact of the component going down
+    3. We have an emergency plan for when the component goes down, and it has been validated in some environment
+
+- <b>High confidence</b>
+    1. We have tested recovery in production
+    2. We have a good understanding of the impact of the component going down
+    3. We have an emergency plan when the component goes down, and it has been validated
+
+**Note** : This is still a WIP object, currently we have services like Gitaly , Patroni , PG Bouncer , HAProxy in Medium confidence
+
+### Time Measurements
+
+During the process of testing our recovery processes for Zonal and Regional outages, we want to record timing information.
+There are three different timing categories right now:
+
+1. Fleet specific VM recreation time
+2. Component specific DR restore process time
+3. Total DR restore process time
+
+#### Common measurements
+
+<b>VM Provision Time</b>
+This is the time from when an apply is performed from an MR to create new VMs until we record a successful bootstrap script completion.
+In the bootstrap logs (or console output), look for Bootstrap finished in X minutes and Y seconds.
+When many VMs are provisioned, we should find the last VM to complete as our measurement.
+
+<b>Bootstrap Time</b>
+During the provisioning process, when a new VM is created, it executes a bootstrap script that may restart the VM.
+This measurement might take place over multiple boots.
+This script can help measure the bootstrap time.
+This can be collected for all VMs during a gameday, or a random VM if we are creating many VMs.
+
+<b>Gameday DR Process Time</b>
+The time it takes to execute a DR process. This should include creating MRs, communications, execution, and verification.
+This measurement is a rough measurement right now since current process has MRs created in advance of the gameday.
+Ideally, this measurement is designed to inform the overall flow and duration of recovery work for planning purposes.
+
+**Note** : View time measurements [here](https://gitlab.com/gitlab-com/runbooks/-/blob/master/docs/disaster-recovery/recovery-measurements.md)
 
 ## Patching
 
