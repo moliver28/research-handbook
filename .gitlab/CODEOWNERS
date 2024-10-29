@@ -452,8 +452,8 @@
 /content/handbook/people-policies/ @emilyplotkin @pegan @wendybarnes
 /content/handbook/people-policies/leave-of-absence/ @lyndemeiers @pegan @cgudgenov
 /content/handbook/people-policies/leave-of-absence/us.md @lyndemeiers @pegan @cgudgenov
-/content/handbook/total-rewards/incentives.md @wendybarnes @michellenelson @mwilkins @azurmuhle @Rkole
-/content/handbook/total-rewards/stock-options.md @wendybarnes @michellenelson @mwilkins
+/content/handbook/total-rewards/incentives.md @wendybarnes @mwilkins @azurmuhle @Rkole
+/content/handbook/total-rewards/stock-options.md @wendybarnes @mwilkins
 /content/handbook/finance/travel/ @wendybarnes @pegan
 /content/handbook/people-group/learning-and-development/team-workshops @tely2 @slee24
 
@@ -615,9 +615,9 @@
 /content/handbook/product/ux/technical-writing/ @susantacker @dianalogan @kpaizee @david
 
 ^[total-rewards]
-/content/handbook/total-rewards/ @michellenelson @mwilkins @azurmuhle @Rkole
-/content/handbook/total-rewards/benefits/ @michellenelson @azurmuhle @Rkole
-/content/handbook/total-rewards/compensation/ @michellenelson @mwilkins
+/content/handbook/total-rewards/ @wendybarnes @mwilkins @azurmuhle @Rkole
+/content/handbook/total-rewards/benefits/ @wendybarnes @azurmuhle @Rkole
+/content/handbook/total-rewards/compensation/ @wendybarnes @mwilkins
 
 ^[working-groups]
 /content/handbook/company/working-groups/ @gitlab-com/egroup
