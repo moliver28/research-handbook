@@ -11,7 +11,7 @@ For quick questions that ***do not*** require legal advice, deliverables, or any
 
 To open a general Legal Issue for questions related to deliverables and non-sensitive information, use [this template](https://gitlab.com/gitlab-com/legal-and-compliance/-/issues/new?issuable_template=general-legal-template). See the [Legal Issue Tracker Workflow](/handbook/legal/issue-tracker-workflows/) for more information.
 
-For sensitive, private, or confidential requests, email [legal_internal@gitlab.com](mailto:legal_internal@gitlab.com).
+For sensitive, private, or confidential requests, email [legal_internal@gitlab.com](mailto:legal_internal@gitlab.com). 
 
 **Anonymous Internal Ethics and Compliance Reporting**
 
