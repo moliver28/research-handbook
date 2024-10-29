@@ -494,7 +494,7 @@ A collection of tips and tricks to make the Tableau development experience faste
 
 7. Aliasing a measure is a little more tricky than aliasing a dimension, as you can't right click on the header and rename it that way. Instead, you can follow the process outlined in Tip 1 of [this article](https://www.flerlagetwins.com/2024/03/random-tableau-tips.html). 
 
-    1. Double click on the "pill" of the field - so the name of the field on the Row shelf, Columns shelf, or Marks Card. This will change it from a green colored "pill", to the text editing version with the field name surrounded by brackets [Field Name].
+    1. Double click on the "pill" of the field - so the name of the field on the Row shelf, Columns shelf, or Marks Card. This will change it from a green colored "pill", to the text editing version with the field name surrounded by brackets "[Field Name]".
     2. Put your cursor at the start of the field to start typing before the name of the field.
     3. Type // (like making a comment in a calculated field)
     4. Put a space after the // and then type your desired alias.
