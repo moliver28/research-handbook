@@ -158,11 +158,11 @@ Job Policy patterns allow the pipeline to control when and if jobs run using the
 
 1. Click on **Build > Pipelines**.
 
-1. Click on the **Run Pipeline** button.
+1. Click on the **New pipeline** button.
 
 1. Under **Run for branch name or tag**, make sure **Dev** is selected.
 
-1. Click on the **Run Pipeline** button.
+1. Click on the **Run pipeline** button.
 
 Your `deploy review` job should be the only job that should be running.
 
@@ -182,11 +182,11 @@ Your `deploy review` job should be the only job that should be running.
 
 1. Click on **Build > Pipelines**.
 
-1. Click on the **Run Pipeline** button.
+1. Click on the **New pipeline** button.
 
 1. Under Run for branch name or tag, make sure **v1.0** is selected.
 
-1. Click on the **Run Pipeline** button.
+1. Click on the **Run pipeline** button.
 
 1. Your deploy release job should be the only job available. Since the job has been set to manual, it will not run until you explicitly start it. Click on the arrow next to the job to start the job.
 
@@ -198,11 +198,11 @@ Your `deploy review` job should be the only job that should be running.
 
 1. Click on **Build > Pipelines**.
 
-1. Click on the **Run Pipeline** button.
+1. Click on the **New pipeline** button.
 
 1. Under **Run for branch name or tag**, make sure **main** is selected.
 
-1. Click on the **Run Pipeline** button.
+1. Click on the **Run pipeline** button.
 
 Your `deploy staging` job should be the only job that is running.
 
