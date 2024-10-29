@@ -61,7 +61,11 @@ All expenses should be claimed via [Navan](/handbook/finance/expenses/#-introduc
 1. Include a screenshot of your approved G&D issue, and add the link to your issue in the description.
 1. Add a screenshot showing proof of completion for your application. (Read more about the eligibilty for reimbursement for your application type [below](/handbook/people-group/learning-and-development/growth-and-development/#types-of-growth-and-development-reimbursements)).
 
-Remember: Travel, Lodging, and Meals should be expensed in separate claims, following GitLab’s [Travel and Expense policy](/handbook/finance/expenses/). Please still add a link to your G&D issue in the description.
+#### Travel Expenses
+
+As is detailed in the issue template, details of travel related expenses for conference applications including the cost of travel, lodging, and meals, should still be included in your G&D issue for approval. 
+
+However, they must be expensed separately to your G&D claim, following GitLab’s [Travel and Expense policy](/handbook/finance/expenses/#41-travel-related-expenses). Add a link to your G&D issue in the claim description. Please select `Growth and Development` as the Classification for these expenses, but not as the 'Expense Type'.
 
 ### Step 6 - Close & Feedback
 
