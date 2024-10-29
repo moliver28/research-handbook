@@ -180,10 +180,6 @@ Once a report has been run, it can be exported in either a `.PDF` or `.CSV` form
 
 Our Executive Recruitment team performs research before the start of every Dir+ role which leverages our LI Talent Insights tool. The use throughout the rest of the team is discretionary based on need and sourcing strategy.
 
-#### SeekOut
-
-Each quarter, we allocate SeekOut seats strategically through our recruitment team based on need (volume of roles and alignment to goals), usage and opportunity to drive impact to priority pipelines. Allocations are established during the first two weeks of the quarter. If you are interested in having a seat allocated for the following quarter, be sure to raise the request with your manager for consideration.
-
 #### LinkedIn Sourcing
 
 [View LinkedIn Training slide](https://docs.google.com/presentation/d/1W9PvVp2uGFsWHFTQrAd5ZjgzfAMmS_dQI6R7Lg7XDJc/edit#slide=id.g7ba34d75e8_0_16) to understand the Boolean logic.
