@@ -13,17 +13,21 @@ Improve the effectiveness and overall coverage of GitLab's detection engineering
 ## Our Mission Statement
 
 Improve Detection Engineering
+
 - Improving coverage & effectiveness of detections
 
 Reducing Time to Detection Creation
+
 - Improving depth and quality of incident detections
 - Reducing how long it takes to create quality detections
 
 Improving Security Observability
+
 - Partnering with product to improve GitLab security signals
 - Improving security signals in corporate, cloud, identity infrastructure
 
 Providing Customer Value
+
 - Improving customer facing detection capabilities and offerings
 - Identifying & partnering stakeholders to implement customer observability needs
 
@@ -96,27 +100,26 @@ Signals engineers conduct deep dive research into potential observability gaps a
 
 ## How We Measure Success
 
-We measure the success of Signals Engineering by collecting and reporting on key performance indicators, through metrics collected from MRs, issues and alerting metrics. 
+We measure the success of Signals Engineering by collecting and reporting on key performance indicators, through metrics collected from MRs, issues and alerting metrics.
 
-Initial metrics we report on are listed below: 
+Initial metrics we report on are listed below:
 
-### Alerting & Tuning:
+### Alerting & Tuning
 
 1. TP/FP ratio + trending
 2. Alert Bug report volume
 
-### Incidents:
+### Incidents
 1. Number of S1 incidents with signal gaps
 
-### Value for Customers: 
+### Value for Customers
 1. Number of public detections
 
-### Detection coverage:
+### Detection coverage
 1. MITRE coverage
 2. Coverage by log sources
 3. MTTDC (Mean time to detection creation)
 4. overage by threat actor
-
 
 ### Metric Labels
 
