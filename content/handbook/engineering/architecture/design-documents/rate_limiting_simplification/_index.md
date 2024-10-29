@@ -145,6 +145,8 @@ flowchart LR
 
 This initiative focuses on enabling us to improve the performance, stability, and scalability of GitLab through making rate limiting configuration easier to manage, and reducing the cognitive overhead of needing to investigate what rates limits are configured, and where (as illustrated above). This has been seen as a common pain point across Engineering and Support, therefore focusing on iterative improvements we can make to this configuration will put us in a more secure position.
 
+Additionally, the proposed architecture encourages the development of a single, strategic cross-application method for consistent rate-limiting, over multiple siloed and piecemeal implementations, which only add to complexity and cognitive overhead for GitLab team members and customers.
+
 ### Goals
 
 Simplify rate limiting across the GitLab ecosystem.
