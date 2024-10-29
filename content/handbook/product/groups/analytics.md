@@ -24,7 +24,7 @@ The section is covered by groups from teams across two primary departments, Engi
 
 - Engineering
   - [Development](/handbook/engineering/development/)
-    - [Analytics Instrumentation](/handbook/engineering/development/analytics/analytics-instrumentation/)
+    - [Analytics Instrumentation](/handbook/engineering/development/ops/monitor/analytics-instrumentation/)
     - Product Analytics
   - [UX](/handbook/product/ux/#team-structure)
   - [Quality](/handbook/engineering/quality/#quality-engineering-structure)

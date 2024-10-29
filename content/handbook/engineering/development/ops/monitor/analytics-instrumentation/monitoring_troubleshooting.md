@@ -3,7 +3,7 @@ title: Analytics Instrumentation - Monitoring and troubleshooting
 description: "The Analytics Instrumentation group work on feature enhancements and implementing privacy focused product analytics across GitLab projects"
 ---
 
-This page aims to contain information and links helpful in monitoring and troubleshooting the internal analytics infrastructure provided by the [Analytics Instrumentation group](/handbook/engineering/development/analytics/analytics-instrumentation).
+This page aims to contain information and links helpful in monitoring and troubleshooting the internal analytics infrastructure provided by the [Analytics Instrumentation group](/handbook/engineering/development/ops/monitor/analytics-instrumentation).
 
 ## Snowplow
 
