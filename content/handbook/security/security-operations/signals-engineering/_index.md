@@ -110,12 +110,15 @@ Initial metrics we report on are listed below:
 2. Alert Bug report volume
 
 ### Incidents
+
 1. Number of S1 incidents with signal gaps
 
 ### Value for Customers
+
 1. Number of public detections
 
 ### Detection coverage
+
 1. MITRE coverage
 2. Coverage by log sources
 3. MTTDC (Mean time to detection creation)
