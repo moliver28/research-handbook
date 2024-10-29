@@ -121,8 +121,7 @@ Please contact [Payroll](mailto:payroll@gitlab.com) for any tax-related question
 
 The course must be from a credentialed college or university and must be relevant to your career development goals and development. If the education provider does not allow for tuition/payment deferment and this would cause financial strain, you can request to receive 50% of the reimbursement up front and the other 50% upon successful completion of the course/program. The relevance of the classes taken for each semester will be subject to the approval of the manager. The grade must be equivalent to a "B".
 
-**Eligibility for Reimbursement:** A final grade report or transcript is required to receive reimbursement. If the opportunity costs more than $1,000, you can expense 50% of the cost up front, and 50% upon completion.
-
+**Eligibility for Reimbursement:** A final grade report or transcript is required to receive reimbursement. If you are paying per module, you can reimburse after completion of each module using evidence of completion in your Navan claim.
 ### Your 4th Trimester Coaching
 
 Description: Your 4th Trimester is a 90-day coaching program with Broad Perspective Consulting. The purpose of the program is to help parents (regardless of gender) be as prepared as possible to be a working parent through coaching and development. The cost of this program is $2,300 USD.
@@ -147,7 +146,7 @@ Apply for a coach via Coaching Right Now by opening an issue using the [coaching
 
 **Eligibility for Reimbursement:** Managers or Individual Contributors job grade 8+. Coaching Right Now will invoice GitLab directly. If a team member is involved in a different, approved coaching engagement outside of CRN, then the standard G&D reimbursement workflow applies.
 
-Coaching Right Now is our preferred and vetted coaching partner. If for some reason the coaches offered via Coaching Right Now do not fit your needs, please open an issue using the [Other G&D Types (Under $300 USD) template](https://gitlab.com/gitlab-com/people-group/total-rewards/-/issues/new?issuable_template=other-GD-under). After approvals, team members will provide a paid invoice to GitLab as proof for reimbursement.
+Coaching Right Now is our preferred and vetted coaching partner. If for some reason the coaches offered via Coaching Right Now do not fit your needs, please open an issue using the [Other G&D Types template](https://gitlab.com/gitlab-com/people-group/learning-development/growth-and-development-requests/-/issues/new?issuable_template=g-and-d-other). After approvals, team members will provide a paid invoice to GitLab as proof for reimbursement.
 
 ### English Language Courses
 
@@ -163,7 +162,7 @@ Examples of English Language Courses:
 
 **Description:** Any certifications/licenses that you and your manager think will be relevant to your development.
 
-**Eligibility for Reimbursement:** Certifications and licenses related to your career development goals. For reimbursements above $1,000 USD, a final grade report or satisfactory certificate of completion will be required to receive reimbursement.
+**Eligibility for Reimbursement:** Certifications and licenses related to your career development goals. A final grade report or satisfactory certificate of completion will be required to receive reimbursement.
 
 ### Professional Dues/Membership
 
@@ -193,13 +192,4 @@ For any meals, lodging, or travel - these should not be categorised using the `G
 
 **Description:** The company will pay for courses related to learning how to code (for example Learning Rails on Codecademy), and you may also allocate work time to take courses that interest you. If you are new to development, we encourage you to learn Git through GitLab, and feel free to ask any questions in the #git-help Slack channel.
 
-**Eligibility for Reimbursement:** The course must be related code based learning. A final grade report or satisfactory certificate of completion are required to receive reimbursements over $1,000 USD.
-
-### Mentorship
-
-In some instances, [mentorship resources provided by GitLab](/handbook/people-group/learning-and-development/mentor/) might not fit team member's needs. For example, a team member might be unable to find a mentor at GitLab with the specific experience, identity, or role they are looking for. In these cases, the Growth and Development fund can be used to cover the cost of meeting with a **paid, external mentor.**
-
-Examples of where to connect with mentors:
-
-1. [MentorCruise](https://mentorcruise.com/)
-1. [Locelle](https://locelle.com/)
+**Eligibility for Reimbursement:** The course must be related to code based learning. A final grade report or satisfactory certificate of completion are required to receive reimbursements.
