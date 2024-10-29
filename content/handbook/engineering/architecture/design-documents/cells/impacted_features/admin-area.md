@@ -163,7 +163,7 @@ In other words, the single-cell is the leader cell so it's possible to edit appl
 **On the leader cell:**
 
 - Show a `cluster-level` / `cell-level` badge next to each setting with a note explaining that sync will happen in the case of a cluster-level setting
-- Upon update, if any cluster-level settings were changed, schedule a job that would send a request to the Topology service (see ["Upon attribute update on the leader cell"](#upon-attribute-update-on-the-leader-cell) for details)
+- Upon update, if any cluster-level settings were changed, schedule a job that would send a request to the Topology service (see ["Upon attribute update on the leader cell"](#upon-cluster-level-attribute-update) for details)
 
 Note: It means that an admin who wants to edit a cluster-level setting would need to navigate to the leader cell, which is something that is only possible through
 [modifying the session prefix manually](https://gitlab.com/gitlab-org/cells/http-router/-/issues/20#note_2139392832) today.
@@ -185,7 +185,7 @@ Investigation issue: https://gitlab.com/gitlab-org/gitlab/-/issues/451136
 1. [In requester cell] Process is aborted if the last sync timestamp (stored in Redis) is present and it's fresh enough (e.g. < 1 hour)
 1. [In requester cell] Sends a `GetCanonicalAppSettings({ "attributes": ["attr1", "attr2"] })` request to the [Topology Service](../../topology_service.md) to get canonical cluster-level attributes values
    - The request includes the list of attributes known by the cell. This allows each cell to be have different attributes, and removes any coupling between the leader cell database schema and the follower cells' one.
-     This could happen if a follower cell is deployed with a schema change before the leader cell (or vice-versa). See [Schema change / cluster-level change use-cases](#schema-change---cluster-level-change-use-cases) below for more details.
+     This could happen if a follower cell is deployed with a schema change before the leader cell (or vice-versa). See [Schema change / cluster-level change use-cases](#schema-change-cluster-level-change-use-cases) below for more details.
 1. [In Topology Service] If the requester cell is the leader cell, the process ends here since the leader cell already has the canonical cluster-level attributes values
 1. [In Topology Service] Sends a `GET /api/v4/application/cluster_level_settings?attributes=attr1,attr2` request to the leader cell to get the requested cluster-level attributes
 1. [In leader cell] Sends the requested cluster-level attributes to the Topology Service
