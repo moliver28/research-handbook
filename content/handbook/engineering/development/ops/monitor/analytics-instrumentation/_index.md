@@ -21,7 +21,7 @@ You can learn more about what we're building next on the [Analytics Instrumentat
 
 ## How to reach us
 
-If you have any questions start by @ mentioning the product manager for the [Analytics Instrumentation Group](/handbook/product/categories/#analytics-instrumentation-group) or by creating an issue in our [issue board](/handbook/engineering/development/analytics/analytics-instrumentation/#issue-boards).
+If you have any questions start by @ mentioning the product manager for the [Analytics Instrumentation Group](/handbook/product/categories/#analytics-instrumentation-group) or by creating an issue in our [issue board](/handbook/engineering/development/ops/monitor/analytics-instrumentation/#issue-boards).
 
 ## Responsibilities
 
@@ -31,7 +31,7 @@ We provide the tooling to allow for instrumentation of product usage events acro
 A list of all instrumented events can be found in our [metrics dictionary](https://metrics.gitlab.com/snowplow).
 It is the responsibility of each engineering group to create and maintain their own events as those are domain specific, but Analytics Instrumentation is always willing to help on those issues be it via pair programming or our [office hours](https://docs.google.com/document/d/13GHTIfaPTHKh_eYXAhhCyYHHisZQvKlVNqhlo6EyqbE).
 
-We are actively monitoring the overall health of internal events via [Monte Carlo alerts and Tableau dashboards](/handbook/engineering/development/analytics/analytics-instrumentation/monitoring_troubleshooting/#snowplow).
+We are actively monitoring the overall health of internal events via [Monte Carlo alerts and Tableau dashboards](/handbook/engineering/development/ops/monitor/analytics-instrumentation/monitoring_troubleshooting/#snowplow).
 
 ### Service Ping Metrics
 
@@ -40,7 +40,7 @@ It is the responsibility of each engineering group to create and maintain their 
 A list of all metrics can be found on [metrics.gitlab.com](https://metrics.gitlab.com/).
 
 For questions related to a specific metric, its definition and/or implementation, please contact the Product Manager of the group which owns the metric. You can find information about the metric including its [data category](/handbook/legal/privacy/customer-product-usage-information/#categories-of-data-collected), whether it is considered an [xMAU metric](https://internal.gitlab.com/handbook/enterprise-data/data-catalog/xmau-analysis/), its group designation and more in the [metric dictionary](/handbook/product/analytics-instrumentation-guide/#metrics-dictionary).
-We are actively monitoring the overall health of Service Ping via [Monte Carlo alerts and Tableau dashboards](/handbook/engineering/development/analytics/analytics-instrumentation/monitoring_troubleshooting/#monitoring-1).
+We are actively monitoring the overall health of Service Ping via [Monte Carlo alerts and Tableau dashboards](/handbook/engineering/development/ops/monitor/analytics-instrumentation/monitoring_troubleshooting/#monitoring-1).
 
 ### Projects
 
@@ -398,7 +398,7 @@ Note that the budget spend is calculated proportionally by requests failing apde
 
 Within Analytics Instrumentation we have an incident process that's separate to [GitLab's main incident management process](https://docs.gitlab.com/ee/operations/incident_management/slack.html#declare-an-incident), because most incidents that Analytics Instrumentation faces are not customer facing and can be resolved more effectively within the team.
 The process below outlines the different stages of the Analytics Instrumentation incident detection and resolution process and the steps to be taken by the corresponding Directly Responsible Individuals (DRIs).
-Please reach out to the [Analytics Instrumentation Group EM/PM](/handbook/engineering/development/analytics/analytics-instrumentation/#team-members) for any recommendations to changes in the process.
+Please reach out to the [Analytics Instrumentation Group EM/PM](/handbook/engineering/development/ops/monitor/analytics-instrumentation/#team-members) for any recommendations to changes in the process.
 
 ### Incident Definition
 
@@ -429,8 +429,8 @@ alert)_
     - `~"Analytics Instrumentation::Incident-Medium Severity"` for data delay.
     - Add an appropriate bug severity as per the [definition](/handbook/engineering/infrastructure/engineering-productivity/issue-triage/#severity)
     - For cases when there is minimal impact on data and manual steps or correction is needed, please raise a bug rather than an incident.
-1. Assign the issue to [Analytics Instrumentation Group PM and EM](/handbook/engineering/development/analytics/analytics-instrumentation/#team-members).
-1. Post in the [#g_analyze_analytics_instrumentation](https://gitlab.slack.com/archives/CL3A7GFPF) slack channel and tag [Analytics Instrumentation Group PM and EM](/handbook/engineering/development/analytics/analytics-instrumentation/#team-members).
+1. Assign the issue to [Analytics Instrumentation Group PM and EM](/handbook/engineering/development/ops/monitor/analytics-instrumentation/#team-members).
+1. Post in the [#g_analyze_analytics_instrumentation](https://gitlab.slack.com/archives/CL3A7GFPF) slack channel and tag [Analytics Instrumentation Group PM and EM](/handbook/engineering/development/ops/monitor/analytics-instrumentation/#team-members).
 1. Notify these slack channels [#analytics-section](https://gitlab.slack.com/archives/C03GRURTGM9), [#data-rd-analytics](https://gitlab.slack.com/archives/C02C82WDP0U), [#data](https://gitlab.slack.com/archives/C8D1LGC23) with link to the issue.
 1. Depending on your own experience either take on the role of resolution DRI, or actively tag EM and engineers in slack to find DRI for incident.
 
