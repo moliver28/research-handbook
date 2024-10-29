@@ -122,6 +122,7 @@ Please contact [Payroll](mailto:payroll@gitlab.com) for any tax-related question
 The course must be from a credentialed college or university and must be relevant to your career development goals and development. If the education provider does not allow for tuition/payment deferment and this would cause financial strain, you can request to receive 50% of the reimbursement up front and the other 50% upon successful completion of the course/program. The relevance of the classes taken for each semester will be subject to the approval of the manager. The grade must be equivalent to a "B".
 
 **Eligibility for Reimbursement:** A final grade report or transcript is required to receive reimbursement. If you are paying per module, you can reimburse after completion of each module using evidence of completion in your Navan claim.
+
 ### Your 4th Trimester Coaching
 
 Description: Your 4th Trimester is a 90-day coaching program with Broad Perspective Consulting. The purpose of the program is to help parents (regardless of gender) be as prepared as possible to be a working parent through coaching and development. The cost of this program is $2,300 USD.
