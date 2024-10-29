@@ -351,7 +351,7 @@ Process summary:
 
 ##### Schedules
 
-[Schedules](https://docs.google.com/spreadsheets/d/1-kvptYZfhCSV9WTVEs4epfUSVvxIMSf5wHxnT6BmjSw/edit?gid=1214041762#gid=1214041762) can be found here.
+Schedules are tracked in a [Google Sheet(internal link)](https://docs.google.com/spreadsheets/d/1-kvptYZfhCSV9WTVEs4epfUSVvxIMSf5wHxnT6BmjSw/edit?gid=1214041762#gid=1214041762).
 
 ## Retrospectives
 
