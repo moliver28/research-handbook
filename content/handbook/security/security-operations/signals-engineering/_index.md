@@ -61,12 +61,12 @@ While Signals Engineering has dedicated engineers focussed on advancing projects
 
 ### Current Priorities
 
-In the first 6 months (FY25Q4 - FY26Q1), we are focusing on on "Low hanging fruit" and establishing the Signals Engineering program. 
+In the first 6 months (FY25Q4 - FY26Q1), we are focusing on "Low hanging fruit" and establishing the Signals Engineering program. 
 
 Some highlights include: 
 
 1. Reducing alert false positives & improving FP alerting/handling workflow
-2. Initial metrics creation & label standarization
+2. Initial metrics creation & label standardization
 3. Improving customer facing detection creation & sharing process
 4. Writing new detections to close identified detection gaps
 
@@ -91,12 +91,12 @@ The Signals Engineering team tracks detection coverage and builds new threat det
 1. Gaps in detection capabilities as identified by SIRT or Signals Engineering
 2. Collaboration with T&S to improve the ability to identify potential abuse on the GitLab platform
 3. New detections for new log sources that can be queried in GitLab's SIEM
-4. New attacker TTPs 
+4. New attacker TTPs
 5. Collaboration with the Red Team as part of purple team or stealth engagements
 
 ### Signals & Detection Research
 
-Signals engineers conduct deep dive research into potential observability gaps and signals enhancement opportunities, identified in the GitLab product and 3rd party tools GitLab uses. Such research assignments have a target deliverable of new detections as well as improved observability capabilities. 
+Signals engineers conduct deep dive research into potential observability gaps and signals enhancement opportunities, identified in the GitLab product and 3rd party tools GitLab uses. Such research assignments have a target deliverable of new detections as well as improved observability capabilities.
 
 ## How We Measure Success
 
