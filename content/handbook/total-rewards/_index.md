@@ -32,10 +32,13 @@ title: GitLab's Guide to Total Rewards
 
 | Who  | Job Title |
 |------|-----------|
-| Michelle Nelson | VP, Total Rewards |
 | Amanda Zurmuhle| Director, Benefits |
 | Raisha Kole | Senior Benefits Program Manager |
+| Cathy Lee | Director, Compensation |
 | Morgan Wilkins | Manager, Compensation |
+| Shahrukh Talat | Compensation Analyst |
+| Ari Weir | Compensation Partner, GTM |
+| Mike Kitlas | Compensation Partner, R&D |
 
 ## Contact The Team
 
