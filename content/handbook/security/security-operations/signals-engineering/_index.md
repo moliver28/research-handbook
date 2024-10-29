@@ -50,6 +50,10 @@ While Signals Engineering has dedicated engineers focussed on advancing projects
 | GitLab Customers | Consumer of customer facing detections |
 | Product team | Collaboration to improve security signal capabilities |
 | GitLab product team | Collaboration to improve security signal capabilities |
+| CorpSec | Collaboration to collect signals from purchased tooling |
+| Security Identity Team | Collaboration to collect signals from purchased tooling |
+| Red Team | Collaboration to collect signals from purchased tooling |
+| Product Security | Collaboration to collect signals from purchased tooling |
 
 ### Current Priorities
 
@@ -78,74 +82,47 @@ When SIRT identifies a threat detection that needs to be tuned, tuning requests 
 
 #### Threat Detection Creation
 
-The Signals Engineering team tracks detection coverage and builds new threat detections based on several needs: 
+The Signals Engineering team tracks detection coverage and builds new threat detections based on several needs:
 
-### Threat Actor Tracking
+1. Gaps in detection capabilities as identified by SIRT or Signals Engineering
+2. Collaboration with T&S to improve the ability to identify potential abuse on the GitLab platform
+3. New detections for new log sources that can be queried in GitLab's SIEM
+4. New attacker TTPs 
+5. Collaboration with the Red Team as part of purple team or stealth engagements
 
-Threat Actor Tracking is an ongoing effort where we closely monitor the threat actors that pose the greatest risk to GitLab. By continuously monitoring their activities, tactics, and techniques, we develop a better understanding of their motivations and capabilities.
+### Signals & Detection Research
 
-This intelligence helps us anticipate their next moves and proactively strengthen our defenses. It also helps us attribute early indicators to these groups, giving us a heads-up when they are actively targeting us.
+Signals engineers conduct deep dive research into potential observability gaps and signals enhancement opportunities, identified in the GitLab product and 3rd party tools GitLab uses. Such research assignments have a target deliverable of new detections as well as improved observability capabilities. 
 
-Threat Actor Tracking is done inside our Threat Intelligence Platform (TIP).
+## How We Measure Success
 
-### Requests For Information (RFI)
+We measure the success of Signals Engineering by collecting and reporting on key performance indicators, through metrics collected from MRs, issues and alerting metrics. 
 
-RFIs allow GitLab team members to request our help in analyzing threats and making intelligence-informed decisions. Team Members can [open an issue in our tracker using the RFI template](https://gitlab.com/gitlab-com/gl-security/security-operations/threat-intelligence/threat-intelligence-issue-tracker/-/issues/new).
+Initial metrics we report on are listed below: 
 
-Some examples where an RFI can provide value:
+### Alerting & Tuning:
 
-- Investigating active security incidents
-- Decisions on product security features and functionality
-- Third-party vendor and product evaluations
+1. TP/FP ratio + trending
+2. Alert Bug report volume
 
-Supporting S1 incidents will always take priority over all other work.
+### Incidents:
+1. Number of S1 incidents with signal gaps
 
-Requests for Information use [this template](https://gitlab.com/gitlab-com/gl-security/security-operations/threat-intelligence-public/resources/threat-intelligence-templates/-/blob/main/.gitlab/issue_templates/rfi.md?ref_type=heads).
+### Value for Customers: 
+1. Number of public detections
 
-## <i class="fas fa-chart-simple" id="biz-tech-icons"></i> How We Measure Success
+### Detection coverage:
+1. MITRE coverage
+2. Coverage by log sources
+3. MTTDC (Mean time to detection creation)
+4. overage by threat actor
 
-We measure the success of our threat intelligence program using three key metrics: Impact, Adoption Rate, and Attribution. We track these metrics using GitLab.com issues and custom labels.
-
-1. Impact: Measures how often our intelligence helps prevent incidents, detect attacks, and improve response times, and drive significant product improvements that keep our customers secure.
-1. Adoption Rate: Measures the extent to which our intelligence-driven recommendations are accepted and implemented.
-1. Attribution: Measures the accuracy, relevance, and source of our intelligence by tracking how often it is validated by real-life events.
-
-Monitoring these metrics helps us continually refine our services, prioritize high-impact activities, and demonstrate the value of our program.
 
 ### Metric Labels
 
-**Recommendation Classification Labels:**
-
-- Detections & Alerts (`TIRec::Detection`)
-- Security Controls (`TIRec::Control`)
-- Processes and Procedures (`TIRec::Process`)
-- Threat Hunting (`TIRec::Hunting`)
-- Communications (`TIRec::Comms`)
-- Training (`TIRec::Training`)
-
-**Recommendation Outcome Labels:**
-
-- Under review (`RecOutcome::UnderReview`)
-- Accepted and actively being worked on (`RecOutcome::InProgress`)
-- Accepted but backlogged (`RecOutcome::Backlogged`)
-- Accepted but blocked (`RecOutcome::Blocked`)
-- Fully adopted and closed (`RecOutcome::Adopted`)
-- Partially adopted and closed (`RecOutcome::PartiallyAdopted`)
-- Not adopted and closed (`RecOutcome::NotAdopted`)
-
-**Attribution Labels (source of validated intelligence):**
-
-- Threat Insights (`TIAttribution::ThreatInsights`)
-- Flash Reports (`TIAttribution::FlashReport`)
-- Threat Actor Tracking (`TIAttribution:ThreatActorTracking`)
-- Request for Information (`TIAttribution::RFI`)
-
-**Impact Labels:**
-
-- Intelligence prevented an incident (`TIImpact::Prevention`)
-- Intelligence allowed us to identify an attempted attack (`TIImpact::Detection`)
-- Intelligence allowed us to respond to an incident (`TIImpact::Response`)
-
-## <i class="fas fa-link" id="biz-tech-icons"></i> Additional Resources
-
-- [Threat Intelligence Templates](https://gitlab.com/gitlab-com/gl-security/security-operations/threat-intelligence-public/resources/threat-intelligence-templates): Public template repository for reports, RFIs, etc.
+- `SET::Detection-New`
+- `SET::Detection-Maintenance`
+- `SET::Research`
+- `SET::Signals-Improvement`
+- `SET::Cross-Functional`
+- `SET::Signal-Gap`
