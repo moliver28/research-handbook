@@ -17,7 +17,8 @@ Below you can find instructions on how to login to the Salesforce mobile app via
     * [Google Play](https://play.google.com/store/apps/details?id=com.okta.android.auth)
     * [Apple App Store](https://play.google.com/store/apps/details?id=com.okta.android.auth)
   * Salesforce permission enabling access for Android and/or iOS access
-    * If unsure and/or would like to request access, open an [Access Request](https://www.google.com/addlinkhere) and ask for SFDC Mobile Access.
+    * Only users in the Sales organization are allowed to access Salesforce on mobile.
+    * If you are not part of the Sales organization and would like to request access, open an [Access Request](https://www.google.com/addlinkhere) and provide business justification and the team will help process the request.
 
 ## Instructions
 
