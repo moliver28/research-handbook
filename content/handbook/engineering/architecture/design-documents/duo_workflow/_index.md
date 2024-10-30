@@ -527,8 +527,9 @@ To accomplish this, we will:
     would authorize the 3rd-party app to use the service account.
 - The OAuth access token will have the `ai_workflows` scope to narrow down the
   access permissions of the AI agent.
-- Implement dynamic scopes in Doorkeeper (like `project:/my/project`,
-  `user:123`, `resource:*`).
+- Implement dynamic scopes in Doorkeeper (e.g. `project:/my/project`,
+  `user:123`, `resource:*`). For `v2` we only implement the human user scope.
+  The rest is part of `v3`.
 - The ID token we will create for the AI Agent will have a human user scope
   (`user:123` using the user id).
 - Implement composite identity through `Gitlab::Auth::Identity`.
