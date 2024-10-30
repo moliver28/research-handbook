@@ -189,10 +189,11 @@ section-dir/
 
 ### Moving, deleting, or renaming a page
 
-If you delete, rename, or move a page, you can:
+If you delete, rename, or move a page, you should:
 
-1. [update all existing links](practical-handbook-edits.md#find-and-replace-a-string-in-all-matching-files)
-1. [add a redirect](/docs/frontmatter.md#aliases)
+1. [update all existing links](practical-handbook-edits.md#find-and-replace-a-string-in-all-matching-files) in the handbook and internal handbook.
+   - Note: When searching for links, use the page name. Sometimes links use references or relative links, meaning it doesn't use the full path.
+1. [add a redirect](/docs/frontmatter.md#aliases).
 
 ## Editing content from shortcodes
 
