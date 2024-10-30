@@ -14,7 +14,7 @@ This documentation will be kept even if we decide not to implement this so that
 we can document the reasons for not choosing this approach.
 {{% /alert %}}
 
-When we introduce multiple Cells, we intend to isolate all services related to those Cells. These main areas will need support for cells:
+When we introduce multiple [Cells](../goals.md#cell), we intend to isolate all services related to those Cells. These main areas will need support for cells:
 
 1. Infrastructure maintenance
 2. Index maintenance 
