@@ -400,7 +400,9 @@ Details:
 
 Exit Criteria:
 
-- TBD
+- Admin user can create a new organization on Pre-QA cell.
+- New users can register to a organization via invite flow.
+- Users belonging to new organization can log into the Pre-QA cell.
 
 Before/After:
 
