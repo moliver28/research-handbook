@@ -837,7 +837,7 @@ When we iterate at GitLab, we break up the work we that know we need to do into 
 1. Ensure global optimization (use standardized systems)
 1. Plan beyond the iteration
 
-Iteration does not require us to ship features that are open to all users from Day 1. Feedback may come from internal users or a limited number of external users (early access program program). It also is not a replacement for having a plan. We expect you to know where you are going, but you can iterate to get there.
+Iteration does not require us to ship features that are open to all users from day one. Feedback could come from internal users or a limited number of external users (early access program program). It also is not a replacement for having a plan. We expect you to know where you are going, but you can iterate to get there.
 
 An iteration may be additive (adding something) or subtractive (removing something). If you make suggestions that can be excluded from the first iteration, turn them into a separate issue that you link.
 
