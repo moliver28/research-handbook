@@ -889,7 +889,7 @@ But we set a due date because having something out there builds trust and gives 
 
 ##### Cleanup over sign-off
 
-As discussed in [Sid's interview on iteration](https://youtu.be/tPTweQlBS54?t=1030), waiting for approval can slow things down. We can prevent this with automation (such as tests of database migration performance) or clean-up after the fact (refactor a Pajamas if something was added that isn't coherent), but we try to ensure that people don't need to wait for sign-off. As iteration does not require us to ship to all users on Day 1, we can clean up after an internal or beta release to mitigate the negative impact to all customers.
+As discussed in [Sid's interview on iteration](https://youtu.be/tPTweQlBS54?t=1030), waiting for approval can slow things down. We can prevent this with automation (such as tests of database migration performance) or clean-up after the fact (refactor a Pajamas if something was added that isn't coherent), but we try to ensure that people don't need to wait for sign-off. As iteration does not require us to ship to all users on day one, we can clean up after an internal or beta release to mitigate the negative impact to all customers.
 
 ##### Start off by impacting the fewest users possible
 
