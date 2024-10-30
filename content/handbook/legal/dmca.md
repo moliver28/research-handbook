@@ -13,11 +13,10 @@ You must include:
 1. **Identify the copyrighted work.** A description of the copyrighted work that you claim is being infringed;
 1. **Identify the alleged infringing material.** A description of the material you claim is infringing and that you want removed or access to which you want disabled and the URL or other location of that material;
    - Be as specific as possible. If you believe less than the whole project infringes, identify the specific project, file, or line numbers within a file a User would need to delete in order to remedy the infringement.
-
    - Note that GitLab will not automatically disable forks of a project unless they are explicitly identified within the notice. It is your responsibility to determine that the material identified, including any fork(s) included in a notice, independently meet the notice requirements.
 1. **Provide contact information.** Your name, title (if acting as an agent), address, telephone number, and email address;
-1. **Include the following statement:** “I have a good faith belief that the use of the copyrighted material I am complaining of is not authorized by the copyright owner, its agent, or the law (e.g., as a fair use)”;
-1. **Include the following statement:** “The information in this notice is accurate and, under penalty of perjury, I am the owner, or authorized to act on behalf of the owner, of the copyright or of an exclusive right that is allegedly infringed”; and
+1. **Include the following statement:** "I have a good faith belief that the use of the copyrighted material I am complaining of is not authorized by the copyright owner, its agent, or the law (e.g., as a fair use)";
+1. **Include the following statement:** "The information in this notice is accurate and, under penalty of perjury, I am the owner, or authorized to act on behalf of the owner, of the copyright or of an exclusive right that is allegedly infringed"; and
 1. **Signature.** An electronic or physical signature of the owner of the copyright or a person authorized to act on the owner’s behalf.
 
 Submissions under this DMCA Policy should be sent to dmca@gitlab.com
@@ -60,7 +59,7 @@ If you're sure you want to report content on GitLab that you believe infringes y
 1. A list of the countries in which the trademark is registered.
 1. The registration number(s) of the trademark.
 1. A scanned copy of the trademark registration certificate(s) or screenshot of the registration on the website or database of the applicable national intellectual property office(s).
-1. A declaration of the following statement: "By submitting this notice, I state that I have a good-faith belief that the reported use, in the manner that I have complained of, is not authorised by the intellectual property rights owner, its agent or the law; that the information contained in this notice is accurate; and, under penalty of perjury, that I am authorised to act on behalf of the owner of the intellectual property rights at issue".
+1. A declaration of the following statement: "By submitting this notice, I state that I have a good-faith belief that the reported use, in the manner that I have complained of, is not authorized by the intellectual property rights owner, its agent or the law; that the information contained in this notice is accurate; and, under penalty of perjury, that I am authorized to act on behalf of the owner of the intellectual property rights at issue".
 
 You can send this information to dmca@gitlab.com, you should receive an automated confirmation of receipt.
 
