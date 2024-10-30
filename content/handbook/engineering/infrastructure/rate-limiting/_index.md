@@ -32,12 +32,14 @@ flowchart TD
     A -->|registry.gitlab.com| N
     D --> G
     E --> G
+    E --> L
     F --> H
     subgraph ide2 [GitLab]
         subgraph ide1 [HAProxy]
             C[pages_http]
             N[registry_https]
-            G[http + ssh]
+            G[https + ssh]
+            L[Runway services]
         end
         C --> K
         H[nginx]
@@ -66,7 +68,9 @@ Cloudflare
 - GitLab.com:
   - [Cloudflare Dashboard](https://dash.cloudflare.com/852e9d53d0f8adbd9205389356f2303d/gitlab.com/security/waf/rate-limiting-rules)
   - [Cloudflare Rules Terraform](https://ops.gitlab.net/gitlab-com/gl-infra/config-mgmt/-/blob/main/environments/gprd/cloudflare-rate-limits-waf-and-rules.tf)
-
+- Cloud Connector:
+  - [Cloudflare Dashboard](https://dash.cloudflare.com/852e9d53d0f8adbd9205389356f2303d/cloud.gitlab.com/security/waf/rate-limiting-rules)
+  - [Runbook + TF links](https://gitlab.com/gitlab-com/runbooks/-/blob/master/docs/cloud_connector/README.md#rate-limiting)
 </td>
 </tr>
 
@@ -102,7 +106,7 @@ How rate limits are applied in Cloudflare:
 <table>
 <tr>
 <th>
-Page Rules
+Gitlab.com Page Rules
 </th>
 <td>
 
@@ -116,7 +120,7 @@ Page Rules
 <tr>
 
 <th>
-Rate Limiting
+Gitlab.com Rate Limiting
 </th>
 <td>
 
@@ -129,6 +133,28 @@ Rate Limiting
 
 </td>
 </tr>
+
+<th>
+Cloud Connector Rate Limiting
+</th>
+<td>
+
+- Configured by Terraform (see [runbook links](https://gitlab.com/gitlab-com/runbooks/-/blob/master/docs/cloud_connector/README.md#cloudflare)).
+- Not based on IPs but application-specific HTTP header fields.
+- Throttles both end-user clients such as IDEs as well as GitLab Rails instances (GL.com, SM and Dedicated.)
+- Primarily used to throttle consumption of non-horizontally scalable resources such as AI vendor limits.
+- Can be configured for each Cloud Connector backend individually.
+- Backends can segment requests using custom selectors and map them to buckets. Each bucket:
+  - Might represent a certain user or customer cohort.
+  - Can define a per-user and per-instance rate limit.
+  - For example, we segment AI requests into `Small`, `Medium` and `Large` customers based on the number of Duo seats
+    they purchased from us. The more seats they have, the more requests they get.
+  - It is possible and allowed to define a single catch-all bucket that matches all requests,
+    in which case each request observes the same static rate limit.
+
+</td>
+</tr>
+
 </table>
 
 **Note:** Cloudflare is _not_ application aware and does not know how to map to our users and groups.
@@ -256,6 +282,13 @@ For more information, see the [Pages Rate Limit documentation](https://docs.gitl
 ### Registry
 
 Registry is not fronted by Cloudflare (see this [confidential issue](https://gitlab.com/gitlab-com/gl-infra/production-engineering/-/issues/16468) for full details around why). There is no application-level setting for it either (though there is an [open feature request](https://gitlab.com/gitlab-org/gitlab/-/issues/438690) to add that), so the only place where there is rate limiting in place for Registry is [in HAProxy](https://gitlab.com/gitlab-cookbooks/gitlab-haproxy/-/blob/master/templates/default/frontends/registry_https.erb).
+
+## AI vendor limits
+
+Some of our backends talk to AI models operated by cloud vendors such as Google or Anthropic.
+These vendors impose limits on us too, which can trickle down to end-users that use our AI products.
+
+The current limit for AI model requests is 160 requests / 8h / authenticated user.
 
 ## Headers
 
