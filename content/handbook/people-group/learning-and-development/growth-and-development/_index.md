@@ -19,6 +19,20 @@ Here is a step by step guide on how to apply for G&D applications:
 
 Start by having a [growth conversation](/handbook/people-group/learning-and-development/career-development/#what-is-career-development) with your manager to discuss the learning opportunity. It’s important to discuss timing, capacity, and application timeline for both the program and fund processing. This conversation should allow time for you to apply for the program and your manager to ensure team capacity.
 
+<details>
+<summary>Manager Guidance: Growth Conversations & Recommending Opportunities </summary>
+
+- All Growth and Development applications need manager approval, so applications from team members should not come as a surprise to you when they are created, but should come about as a result of ongoing Career Development conversations with your team. If you don’t already have regular career development conversations planned in with your team members, we recommend scheduling these in so that you can better understand your team members’ career goals. 
+
+- Take a look at the [Support your team with Career Conversations](https://levelup.gitlab.com/access/saml/login/internal-team-members?returnTo=https://levelup.gitlab.com/learn/course/support-your-team-with-career-conversations) course in Level Up for best practice on how to handle these conversations effectively.
+
+- As a result of these career conversations, you may identify an opportunity that could be suitable for a Growth and Development Fund application that aligns with the team member’s career goals. As a manager, you should try to look out for such opportunities to encourage this usage, it can make team members feel that they are valued and that you show an understanding and appreciation of their career goals, and want to play an active role in helping them achieve them.
+
+- Individual OKRs and business goals should not be tied to GD opportunities, unless the individual team member thinks it’s appropriate.
+
+
+</details>
+
 ### Step 2 - Open an Issue
 
  Create a new Growth & Development issue using one of the issue templates below. Please create your issue 30 days in advance of the beginning of your experience.
