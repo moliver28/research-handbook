@@ -829,16 +829,17 @@ If you would like to improve your skills or expand your knowledge on topics rela
 
 [Merriam-Webster](https://www.merriam-webster.com/dictionary/iteration#:~:text=%3A%20the%20action%20or%20a%20process,closer%20to%20a%20desired%20result) defines iteration as the "the action or a process of iterating or repeating: such as a procedure in which repetition of a sequence of operations yields results successively closer to a desired result." At GitLab, we iterate to do the [smallest valuable thing to get fast feedback and efficiently reach a desired end goal](https://lowrysolutions.com/blog/how-to-be-iterative-in-your-thinking/#_edn1). Feedback can be from internal users (dogfooding), a limited number of external uses (through our early access program), or through feedback from our broader user community. We validate each iteration and adjust, but not at the expense of the user experience that we deliver to our customers.
 
-When we iterate at GitLab, we break up the work we that know we need to do into smaller chunks to iterate toward a targeted end state: 
-1.  Merge in codebase
-1.  Dogfood
-1.  Have some external users (early access program)
-1.  Ensure global optimization (use standardized systems)
-1.  Plan beyond the iteration
+When we iterate at GitLab, we break up the work we that know we need to do into smaller chunks to iterate toward a targeted end state:
+
+1. Merge in codebase
+1. Dogfood
+1. Have some external users (early access program)
+1. Ensure global optimization (use standardized systems)
+1. Plan beyond the iteration
 
 Iteration does not require us to ship features that are open to all users from Day 1. Feedback may come from internal users or a limited number of external users (early access program program). It also is not a replacement for having a plan. We expect you to know where you are going, but you can iterate to get there.
 
-An iteration may be additive (adding something) or subtractive (removing something). If you make suggestions that can be excluded from the first iteration, turn them into a separate issue that you link. 
+An iteration may be additive (adding something) or subtractive (removing something). If you make suggestions that can be excluded from the first iteration, turn them into a separate issue that you link.
 
 While you should have a clear vision of the desired outcome and how it addresses a customer pain point or improves the user experience, be efficient in your planning. Unless you identify important cross-functional interdependencies, focus detailed planning on the first step. It might feel you are moving too slow, however planning is critical to ensure you can move fast when implementing. You're doing it right if you feel that you have shipped the minimal feature set in the first iteration. This value is the one people most underestimate when they join GitLab. The impact both on your work process and on how much you achieve is greater than anticipated. Frequently, the simplest version that provides value turns out to be the best one.
 
@@ -861,14 +862,15 @@ Iteration involves driving results in pursuit of a long-term vision. While the i
 ##### Iteration is no substitute for planning
 
 Iteration without a plan can lead to inefficiencies and a subpar customer experience. Before iterating we need to plan. A plan should include:
-1.  Time bound objective: where we want to be in a year
-1.  UX: user experience we are working toward
-1.  Quality: what quality is sufficient quality
-1.  Success metric: usage we want at a specific time
-1.  Data schema: the data schema we need
-1.  GTM plan: how we want to go to market
-1.  Enablement: when we’d plan to train and enable support and the field
-1.  Marketing: when we’d launch marketing (doesn't have to be at release)
+
+1. Time bound objective: where we want to be in a year
+1. UX: user experience we are working toward
+1. Quality: what quality is sufficient quality
+1. Success metric: usage we want at a specific time
+1. Data schema: the data schema we need
+1. GTM plan: how we want to go to market
+1. Enablement: when we'd plan to train and enable support and the field
+1. Marketing: when we'd launch marketing (doesn't have to be at release)
 
 ##### Iterate toward global maximum
 
@@ -876,7 +878,7 @@ If we are not aware of interdependencies beyond our team and collaborating with 
 
 ##### Don't wait
 
-Don't wait on the small things. When you have something of value like a potential blog post or a small fix, implement it straight away. Right now, everything is fresh in your head and you have the motivation. Inspiration is perishable. Don't wait until you have a better version. Don't wait until you record a better video. Don't wait for an event (like Contribute). Inventory that isn't released is a liability since it has to be managed, becomes outdated, and you miss out on the feedback you would have received had you implemented it straight away. When we don't wait we signal intent to others that we have a purpose to resolve something.  **Note**: “don’t wait” should not be used as a justification for not iterating toward the global maximum. If there are interdependencies to be considered or the iteration is customer facing, slow down and ensure that we are considering what is best for GitLab and our customers. 
+Don't wait on the small things. When you have something of value like a potential blog post or a small fix, implement it straight away. Right now, everything is fresh in your head and you have the motivation. Inspiration is perishable. Don't wait until you have a better version. Don't wait until you record a better video. Don't wait for an event (like Contribute). Inventory that isn't released is a liability since it has to be managed, becomes outdated, and you miss out on the feedback you would have received had you implemented it straight away. When we don't wait we signal intent to others that we have a purpose to resolve something.  **Note**: “Don't wait” should not be used as a justification for not iterating toward the global maximum. If there are interdependencies to be considered or the iteration is customer facing, slow down and ensure that we are considering what is best for GitLab and our customers.
 
 ##### Set a due date
 
@@ -887,7 +889,7 @@ But we set a due date because having something out there builds trust and gives 
 
 ##### Cleanup over sign-off
 
-As discussed in [Sid's interview on iteration](https://youtu.be/tPTweQlBS54?t=1030), waiting for approval can slow things down. We can prevent this with automation (e.g. tests of database migration performance) or clean-up after the fact (refactor a Pajamas if something was added that isn't coherent), but we try to ensure that people don't need to wait for sign-off. As iteration does not require us to ship to all users on Day 1, we can clean up after an internal or beta release to mitigate the negative impact to all customers.
+As discussed in [Sid's interview on iteration](https://youtu.be/tPTweQlBS54?t=1030), waiting for approval can slow things down. We can prevent this with automation (such as tests of database migration performance) or clean-up after the fact (refactor a Pajamas if something was added that isn't coherent), but we try to ensure that people don't need to wait for sign-off. As iteration does not require us to ship to all users on Day 1, we can clean up after an internal or beta release to mitigate the negative impact to all customers.
 
 ##### Start off by impacting the fewest users possible
 
@@ -931,7 +933,7 @@ Educating users on the longer-term plan helps create a shared understanding of h
 
 In many organizations, you take a risk when you put forth any work that's not perfect — where you haven't spent endless cycles planning for contingencies or counterpoints. Because of this, you're incentivized to invest a lot of time and effort into preparing for 'What if?' scenarios before any work is presented–even if the release is not customer facing and there is a low level of risk in imperfection.
 
-The downside to that is clear when we are dogfooding. If you do eventually put forth the work, but it needed to be course corrected a long time ago, you've squandered time that you could have spent improving it via iteration.
+The downside to that is clear when we are dogfooding. If you do eventually put forth the work, but it needed to be course corrected a long time ago, you've squandered time that you could have spent improving it through iteration.
 
 Having a low level of shame when dogfooding or working internally requires you to combat a natural inclination to conceal work until it's perfect, and instead celebrate the small changes.
 
@@ -944,9 +946,9 @@ Cultural differences can bring unique challenges and expectations to iteration. 
 We believe great companies sound negative because they focus on what they can improve, not only on what is working well.
 In every conversation, inside and outside the company, we should ask a question: What do you think we can improve?
 This doesn't mean we don't recognize our successes; for example, see our [Say Thanks](#say-thanks) value.
-
+<!-- vale handbook.Spelling = NO -->
 We are positive about the future of the company. We are **S**hort **Te**rm **C**ritical **A**nd **L**ong **T**erm **O**ptimistic (`STeCALTO`, for short).
-
+<!-- vale handbook.Spelling = YES -->
 ##### Be deliberate about scale
 
 First, optimize for speed and results (and be deliberate about how your change affects other processes/functionality); when it is a success, figure out how to scale it. Great examples are in [this article by Paul Graham](http://paulgraham.com/ds.html).
