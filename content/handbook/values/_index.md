@@ -829,7 +829,7 @@ If you would like to improve your skills or expand your knowledge on topics rela
 
 [Merriam-Webster](https://www.merriam-webster.com/dictionary/iteration#:~:text=%3A%20the%20action%20or%20a%20process,closer%20to%20a%20desired%20result) defines iteration as the "the action or a process of iterating or repeating: such as a procedure in which repetition of a sequence of operations yields results successively closer to a desired result." At GitLab, we iterate to do the [smallest valuable thing to get fast feedback and efficiently reach a desired end goal](https://lowrysolutions.com/blog/how-to-be-iterative-in-your-thinking/#_edn1). Feedback can be from internal users (dogfooding), a limited number of external uses (through our early access program), or through feedback from our broader user community. We validate each iteration and adjust, but not at the expense of the user experience that we deliver to our customers.
 
-When we iterate at GitLab, we break up the work we that know we need to do into smaller chunks to iterate toward a targeted end state:
+When we iterate at GitLab, we break up the work that we know we need to do into smaller chunks to iterate toward a targeted end state:
 
 1. Merge in codebase
 1. Dogfood
