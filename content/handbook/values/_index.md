@@ -933,7 +933,7 @@ Educating users on the longer-term plan helps create a shared understanding of h
 
 In many organizations, you take a risk when you put forth any work that's not perfect, work where you haven't spent endless cycles planning for contingencies or counterpoints. Because of this, you're incentivized to invest a lot of time and effort into preparing for 'What if?' scenarios before any work is presented–even if the release is not customer facing and there is a low level of risk in imperfection.
 
-The downside to that is clear when we are dogfooding. If you do eventually put forth the work, but it needed to be course corrected a long time ago, you've squandered time that you could have spent improving it through iteration.
+The downside to that is clear when we are dogfooding: If you do eventually put forth the work, but it needed to be course corrected a long time ago, you've squandered time that you could have spent improving it through iteration.
 
 Having a low level of shame when dogfooding or working internally requires you to combat a natural inclination to conceal work until it's perfect, and instead celebrate the small changes.
 
