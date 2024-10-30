@@ -38,9 +38,11 @@ The Investor Relations Analyst is a [grade 6](/handbook/total-rewards/compensati
 The Senior Investor Relations Analyst will support core activities of the IR team and collaborate with cross-functional team members including FP&A, Accounting, Product Marketing, Communications, Strategy, Legal, and beyond.
 
 ### Job Grade
+
 The Investor Relations Analyst is a [grade 7](/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades).
 
 ### Responsibilities
+
 - Support quarterly earnings process including preparation of prepared remarks, Q&A prep materials, various financial analyses, and accompanying investor and board presentations
 - Review and analyze sell-side analyst research and models, consensus estimates, analyst and investor perceptions/opinions and market-related trends impacting valuation and market perception
 - Support the collection and analysis of investor ownership, shareholder movements, and investor targeting along with content management of the investor relations website
