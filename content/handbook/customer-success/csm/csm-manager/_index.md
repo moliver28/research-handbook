@@ -167,6 +167,8 @@ At-risk customer meetings are conducted on a regular basis across regions and at
 | AMER ENT East | Biweekly | CSM: Director, Managers; Sales: AVP, ASMs; Renewals: RM Manager |
 | AMER COM  | Weekly | CSM: Director, Managers; Sales: AVP, ASMs |
 | EMEA COM  | Weekly | CSM: Director, Managers; Sales: AVP, ASMs |
+| EMEA ENT FCST call  | Weekly | CSM: Director; RM: Manager; Sales: AVP, ASMs |
+| EMEA CS  | Monthly | CSM: Director, Managers; RM: Managers |
 | APAC  | Bi-Weekly | CSM: Manager; Sales: AVP, ENT & COM ASMs |
 | Public Sector | Biweekly | VP of Customer Success, VP of Public Sector, Director of Customer Success, ASMs, CSM and Renewals Team Managers |
 
@@ -204,6 +206,17 @@ The regional at-risk meetings use a specified format, to ensure consistent actio
 Update the date range for `Close Date` at the top of the report to view the relevant fiscal quarter. Doing it this way allows us to work from a single report across all relevant customer cohorts. The priority in this meeting is current FQ and next FQ, but as time permits other at-risk customers should be reviewed.
 
 The CSM Manager(s) within the region should drive the meeting, in collaboration with the Renewal Manager leadership and ASMs as appropriate for each customer. Discussion and action should be driven by the Salesforce report for the region, working from `At-Risk Update` details and Renewal Manager notes.
+
+#### Regional Review Agenda EMEA
+
+The weekly EMEA ENT FCST calls are conducted per region on a weekly basis. The Clari Forecast Dashboard is used to review churn & contraction for the current FQ and next FQ. The meeting is focused on reviewing changes and tracking against Actionable Risk commitments.
+**Customer Cohorts**
+
+1. Sum of At-risk renewals in current FQ + Actionable At-risk renewals in current FQ
+1. Sum of At-risk renewals in next FQ + Actionable At-risk renewals in next FQ
+1. Next steps & follow up actions in Health Review Sessions
+
+The monthly EMEA CS Health Review is setup to align on reviewing Actionable Risk and CSM / CSE Assignments.
 
 ### Renewal Review
 
