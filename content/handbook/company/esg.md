@@ -143,7 +143,7 @@ To support our aim of facilitating accessible, remote-friendly development for a
 - [Career Development and Mobility](/handbook/people-group/learning-and-development/career-development/), providing resources and direction to help team members engage in lifelong growth to meet their unique goals.
 - A [Growth and Development Fund](/handbook/people-group/learning-and-development/growth-and-development/), enabling team members to access external resources to develop their skills and careers.
 
-As a global, all-remote company with a team of diverse backgrounds, experiences, and perspectives, GitLab offers a dynamic environment and culture where everyone is encouraged to do their best work. Our talent brand empowers team members to share their thoughts on [what it’s like to work here](https://vimeo.com/778157354) because their voices and stories make GitLab unique and successful.
+As a global, all-remote company with a team of diverse backgrounds, experiences, and perspectives, GitLab offers a dynamic environment and culture where everyone is encouraged to do their best work. Our talent brand empowers team members to share their thoughts on [what it’s like to work here](https://vimeo.com/947155019) because their voices and stories make GitLab unique and successful.
 
 “By fully embracing the values, GitLab has changed the way I work. I have become more productive and satisfied with the work I do, while also having a better work-life balance. It’s motivating to work somewhere so amazing with such great people.” – Cynthia, Strategy and Operations, Office of the CEO
 
