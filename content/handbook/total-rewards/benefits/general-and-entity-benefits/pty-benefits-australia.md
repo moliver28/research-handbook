@@ -58,6 +58,12 @@ Starting on 2023-07-27, Australian team members will be able to review their pla
 - Once you "select and proceed" your preferred coverage, click "join now"
 - You'll then need to complete BUPA's application process to complete your enrollment: Contact & Medicare details, Rebate application, Payment details, Current health cover information.
 
+#### Leavers
+
+For Team Members leaving GitLab, their last day on the GitLab BUPA group will be their termination date, however team member's health insurance reamins in place, with the full cost of cover being their responsiblity. BUPA's customer care team will reach out to the team member to discuss their options for remaining on cover and to check if they would like to make any changes to the level of cover they're enrolled on.
+
+The Total Rewards team will inform BUPA of leaves on a monthly basis. 
+
 #### Contact & Support for Enrollment, Plan Questions
 
 If you have any questions on the plan, help enrolling on BUPA's portal, have any other questions comparing your current plan with BUPA's offerings - you can reach out to BUPA for direct plan support at *1300-662-074* or utilize their virtual chat support on the portal for basic questions.
