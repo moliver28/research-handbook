@@ -55,7 +55,7 @@ Further details can be found in the [job family description](/job-families/secur
 <td>Uday Govindia</td>
 <td><a href="/job-families/security/infrastructure-security#senior-infrastructure-security-engineer">Senior Security Engineer, Infrastructure Security</a></td>
 </tr>
-tr>
+<tr>
 <td>Lizzie Moratti</td>
 <td><a href="job-families/security/infrastructure-security/#infrastructure-security-engineer-intermediate">Intermediate Security Engineer, Infrastructure Security</a></td>
 </tr>
