@@ -211,7 +211,6 @@ If you are unable to attend the existing working group meeting due to time diffe
 1. [Secure Govern Database Decomposition]({{< ref "secure-govern-database-decomposition" >}})
 1. [Software Supply Chain Security]({{< ref "software-supply-chain-security" >}})
 1. [Upgrade Improvements]({{< ref "upgrade-improvements" >}})
-1. [Vue.js 3 Upgrade]({{< ref "vuejs-3-migration" >}})
 
 ## Past Working Groups (alphabetic order)
 
@@ -310,6 +309,7 @@ If you are unable to attend the existing working group meeting due to time diffe
 1. [Upstream Diversity]({{< ref "upstream-diversity" >}})
 1. [Usage Reporting](https://gitlab.com/groups/gitlab-com-top-initiatives/-/epics/1)
 1. [User Engagement](https://gitlab.com/groups/gitlab-com/-/epics/1794)
+1. [Vue.js 3 Upgrade]({{< ref "vuejs-3-migration" >}})
 1. [Webpack (Frontend build tooling)]({{< ref "webpack" >}})
 
 ## What were Top Cross-Functional Initiatives?
