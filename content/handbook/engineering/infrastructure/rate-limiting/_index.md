@@ -41,10 +41,10 @@ flowchart TD
             G[https + ssh]
         end
         C --> K
+        L[Runway services]
         H[nginx]
         K[pages kubernetes limits]
         K-->M[pages application limits]
-        L[Runway services]
         I[Rack::Attack]
         J[Gitlab::ApplicationRateLimiter]
     end
