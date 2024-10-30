@@ -244,6 +244,11 @@ In this lab, you will learn how to scan for vulnerabilities in your containers.
     #  SAST_EXCLUDED_PATHS: venv/
     #  DAST_WEBSITE: https://example.com
 
+    test-job1:
+      stage: test
+      script:
+        - echo "This job tests something"
+
     #secret_detection:
     #  variables:
     #    SECRET_DETECTION_EXCLUDED_PATHS: tests/
