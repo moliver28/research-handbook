@@ -98,23 +98,23 @@ This table reflects the countries in which we have utilized PEO's but are curren
 There are no current plans to open these countries for future hiring.  If we do open for hiring, it will be based on business needs.
 More detail can be found in our internal [compensation calculator](https://comp-calculator.gitlab.net/users/sign_in) under Country Hiring Status.
 
-| Country        | Agreement Type(s)    | Hiring Partner   | Entity to invoice (for AP only) | Pay Frequency | Paid By | Currency Paid in | Workday Profile (Y/N) | Employer of Record | Open for hiring (Y/N) |
-|----------------|----------------------|------------------|---------------------------------|---------------|---------|------------------|-----------------------|--------------------|-----------------------|
-| Armenia        | Contracted via a PEO | CXC              | GitLab IT BV                    | 12            | PEO     | USD              | Y                     | N                  | N                     |
-| Czech Republic | Contracted via a PEO | CXC              | GitLab IT BV                    | 12            | PEO     | CZK              | Y                     | N                  | N                     |
-| Greece         | Contracted via a PEO | CXC              | GitLab IT BV                    | 12            | PEO     | EUR              | Y                     | N                  | N                     |
-| Poland         | Contracted via a PEO | CXC              | GitLab IT BV                    | 12            | PEO     | PLN, EUR, USD    | Y                     | N                  | N                     |
-| Portugal       | Contracted via a PEO | CXC              | GitLab IT BV                    | 12            | PEO     | EUR              | Y                     | N                  | N                     |
-| Romania        | Contracted via a PEO | CXC              | GitLab IT BV                    | 12            | PEO     | EUR, USD         | Y                     | N                  | N                     |
-| Serbia         | Contracted via a PEO | CXC              | GitLab IT BV                    | 12            | PEO     | EUR              | Y                     | N                  | N                     |
-| Slovenia       | Contracted via a PEO | CXC              | GitLab IT BV                    | 12            | PEO     | EUR              | Y                     | N                  | N                     |
-| Turkey         | Contracted via a PEO | CXC              | GitLab IT BV                    | 12            | PEO     | USD              | Y                     | N                  | N                     |
-| Ukraine        | Contracted via a PEO | CXC              | GitLab IT BV                    | 12            | PEO     | USD, EUR         | Y                     | N                  | N                     |
-| Hungary        | Employed via a PEO   | Remote.com       | GitLab IT BV                    | 12            | PEO     | HUF              | Y                     | Y                  | N                     |
-| Denmark *      | Employed via a PEO   | Remote.com       | GitLab IT BV                    | 12            | PEO     | DKK              | Y                     | Y                  | N                     |
-| Brazil *       | Employed via a PEO   | Remote.com       | GitLab IT BV                    | 12            | PEO     | BRL              | Y                     | Y                  | N                     |
-| UAE *          | Employed via a PEO   | Global Expansion | GitLab Services Inc             | 12            | PEO     | AED              | Y                     | Y                  | N                     |
-| Italy *        | Employed via a PEO   | Remote.com       | GitLab IT BV                    | 14            | PEO     | EUR              | Y                     | Y                  | N                     |
+| Country        | Agreement Type(s)    | Hiring Partner | Entity to invoice (for AP only) | Pay Frequency | Paid By | Currency Paid in | Workday Profile (Y/N) | Employer of Record | Open for hiring (Y/N) |
+|----------------|----------------------|----------------|---------------------------------|---------------|---------|------------------|-----------------------|--------------------|-----------------------|
+| Armenia        | Contracted via a PEO | CXC            | GitLab IT BV                    |            12 | PEO     | USD              | Y                     | N                  | N                     |
+| Czech Republic | Contracted via a PEO | CXC            | GitLab IT BV                    |            12 | PEO     | CZK              | Y                     | N                  | N                     |
+| Greece         | Contracted via a PEO | CXC            | GitLab IT BV                    |            12 | PEO     | EUR              | Y                     | N                  | N                     |
+| Poland         | Contracted via a PEO | CXC            | GitLab IT BV                    |            12 | PEO     | PLN, EUR, USD    | Y                     | N                  | N                     |
+| Portugal       | Contracted via a PEO | CXC            | GitLab IT BV                    |            12 | PEO     | EUR              | Y                     | N                  | N                     |
+| Romania        | Contracted via a PEO | CXC            | GitLab IT BV                    |            12 | PEO     | EUR, USD         | Y                     | N                  | N                     |
+| Serbia         | Contracted via a PEO | CXC            | GitLab IT BV                    |            12 | PEO     | EUR              | Y                     | N                  | N                     |
+| Slovenia       | Contracted via a PEO | CXC            | GitLab IT BV                    |            12 | PEO     | EUR              | Y                     | N                  | N                     |
+| Turkey         | Contracted via a PEO | CXC            | GitLab IT BV                    |            12 | PEO     | USD              | Y                     | N                  | N                     |
+| Ukraine        | Contracted via a PEO | CXC            | GitLab IT BV                    |            12 | PEO     | USD, EUR         | Y                     | N                  | N                     |
+| Hungary        | Employed via a PEO   | Remote.com     | GitLab IT BV                    |            12 | PEO     | HUF              | Y                     | Y                  | N                     |
+| Denmark *      | Employed via a PEO   | Remote.com     | GitLab IT BV                    |            12 | PEO     | DKK              | Y                     | Y                  | N                     |
+|    Brazil *    |  Employed via a PEO  |   Remote.com   |           GitLab IT BV          |       12      |   PEO   |        BRL       |           Y           |          Y         |           N           |
+|      UAE *     |  Employed via a PEO  |  Papaya Global |           GitLab IT BV          |       12      |   PEO   |        AED       |           Y           |          Y         |           N           |
+|     Italy *    |  Employed via a PEO  |   Remote.com   |           GitLab IT BV          |       14      |   PEO   |        EUR       |           Y           |          Y         |           N           |
 
 Contact information for our PEO representatives is found in the `Entity & PEO Contacts` note in the PeopleOps vault in 1Password. If a team member, manager or PBP has a question relating to a PEO, their process, or any related procedure for a PEO-employed team member, please reach out to the Employment Solutions Partner (@hdevlin) who will liaise and find a solution with the PEO's support.
 
