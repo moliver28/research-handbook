@@ -294,8 +294,8 @@ The coordinators should assign themselves to the corresponding monthly issue fro
 The coordinator will:
 
 1. Remind engineers to sign up, by:
-   - Posting reminders to the [#development](https://app.slack.com/client/T02592416/C02PF508L) and [#backend](https://app.slack.com/client/T02592416/C8HG8D9MY) channels in Slack
-   - Asking managers in [#eng-managers](https://app.slack.com/client/T02592416/CU4RJDQTY) to remind team-members in 1-1s
+    - Posting reminders to the [#dev-escalation](https://gitlab.slack.com/messages/CLKLMSUR4) channel in Slack
+    - Asking managers in [#eng-managers](https://app.slack.com/client/T02592416/CU4RJDQTY) to remind team-members in 1-1s
 1. Assign folks to unfilled slots when needed. Use purple text in the spreadsheet to indicate this was an assigned slot.
 1. Ensure that all developers listed in the [On-call spreadsheet](#on-call-spreadsheet) have:
    - Provided a phone number
