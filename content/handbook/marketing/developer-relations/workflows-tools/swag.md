@@ -28,7 +28,7 @@ If you are sending swag codes for the first time, you will need [a personal acce
 1. Go to the tab "Issue rewards".
 1. Add the `Date`, `Username`, `Tier`, `Nominated by/cc` (if applicable), and `Link to contribution/event?` fields for the recipient. 
 1. Highlight the `Username` field you entered and from the `GitLab` menu, select `Create issues (highlight usernames)`
-1. It’ll prompt you for your access token. Once entered, the macro will populate the rest of the fields and create an issue to reward the recipient in the [Contributor Success rewards project](https://gitlab.com/gitlab-org/developer-relations/contributor-success/rewards/-/issues/).
+1. It’ll prompt you for your access token. Once entered, the macro will populate the rest of the fields and create an issue to reward the recipient in the [Contributor Success rewards project](https://gitlab.com/gitlab-org/developer-relations/contributor-success/rewards/-/issues/). You'll need a personal access token with api access.
 
 ## Swag Nomination
 
