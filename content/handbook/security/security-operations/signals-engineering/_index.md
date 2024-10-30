@@ -53,7 +53,6 @@ While Signals Engineering has dedicated engineers focussed on advancing projects
 | Threat Intel | Threat driven detections, Top threat actor detections |
 | GitLab Customers | Consumer of customer facing detections |
 | Product team | Collaboration to improve security signal capabilities |
-| GitLab product team | Collaboration to improve security signal capabilities |
 | CorpSec | Collaboration to collect signals from purchased tooling |
 | Security Identity Team | Collaboration to collect signals from purchased tooling |
 | Red Team | Collaboration to collect signals from purchased tooling |
