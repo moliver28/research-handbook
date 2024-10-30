@@ -48,7 +48,8 @@ The changes will provide many benefits to users:
   Clearer responsibilities for keywords will make it easier for users to understand and maintain their pipeline configurations,
   especially in complex workflows with multiple jobs and stages.
   - See issues: [1](https://gitlab.com/gitlab-org/gitlab/-/issues/233876), [2](https://gitlab.com/gitlab-org/gitlab/-/issues/382179),
-    [3](https://gitlab.com/gitlab-org/gitlab/-/issues/20237), [4](https://gitlab.com/gitlab-org/gitlab/-/issues/17759).
+    [3](https://gitlab.com/gitlab-org/gitlab/-/issues/20237), [4](https://gitlab.com/gitlab-org/gitlab/-/issues/17759),
+    [5](https://gitlab.com/gitlab-org/gitlab/-/issues/17397).
 - By unifying the behaviors of DAG and STAGE, pipelines will become more predictable, reducing the chances of unexpected results.
   - See issues: [1](https://gitlab.com/gitlab-org/gitlab/-/issues/233712), [2](https://gitlab.com/gitlab-org/gitlab/-/issues/219371).
 - Users will have more confidence that their pipelines will execute exactly as defined, with fewer edge cases and unexpected overlaps between keywords.
@@ -523,7 +524,7 @@ Dropping jobs in the `failed` state has been handy because we could communicate 
 for better feedback. When canceling jobs for various reasons we don't have a way to indicate that.
 We cancel jobs because the user ran out of Compute Credits while the pipeline was running,
 or because the pipeline is auto-canceled by another pipeline or other reasons.
-If we had a `stop_reason` instead of `failure_reason` we could use that for both cancelled and failed jobs
+If we had a `stop_reason` instead of `failure_reason` we could use that for both canceled and failed jobs
 and we could also use the `canceled` status more appropriately.
 
 ### Information 2: Empty state
@@ -593,9 +594,9 @@ All proposals or future decisions must follow these goals;
 **Introduce new keyword structures for job execution types**
 
 - A new keyword, `execution`, will be introduced to specify whether a job is `automatic`, `manual`, or `delayed`.
-  - `automatic`: Runs without user intervention.
+  - `automatic`: Runs immediately without user intervention.
   - `manual`: Requires manual triggering.
-  - `delayed`: Runs after a specified delay.
+  - `delayed`: Runs after a specified delay without user intervention.
 - This separates job behavior from the `when` keyword, allowing `execution` to clearly define how the job is triggered.
 
 **Introduce a new keyword to control manual job blocking behavior**
@@ -603,12 +604,15 @@ All proposals or future decisions must follow these goals;
 - A keyword (`blocker`) will be added to define whether a manual job blocks the pipeline from proceeding.
 - This will remove the dependency on `allow_failure` for controlling blocking behavior.
 - For example, a job with `execution: manual` and `blocker: false` will not block the pipeline.
+- This can also be used with the `execution: delayed` jobs. Currently, `delayed` jobs are always blocking the pipeline.
+  With this keyword, we can define whether a `delayed` job is blocking or not.
 
 **Clarify the behavior of the `when` keyword**
 
 - The `when` keyword will continue to decide and answer only the question of **under what conditions a job should run**.
   It will not control job types or pipeline inclusion.
   - For example: `when: on_success`, `when: on_failure`, `when: always`.
+- The `when` keyword will not work with `manual` and `delayed` when `execution` is used.
 
 **New way to control pipeline inclusion**
 
@@ -632,9 +636,13 @@ All proposals or future decisions must follow these goals;
 
 - We need to differentiate the composite status calculation between job requirements and the overall stage/pipeline.
 - When calculating the overall status of a stage or pipeline, jobs with a `skipped` status are ignored,
-  they do not affect the final status of the stage or pipeline.
-- This ensures that `skipped` jobs won't influence the outcome,
-  but the final stage or pipeline status is determined based on the remaining relevant jobs.
+  they do not affect the final status of the stage or pipeline because skipped jobs are neither executed nor failed.
+- This ensures that `skipped` jobs won't influence the outcome
+  and the final stage or pipeline status is determined based on the remaining relevant jobs,
+  which better reflects the true state of the stage or pipeline.
+- Without this differentiation, skipped jobs could create inconsistencies, causing stages or pipelines to appear
+  as ambiguous. By ignoring `skipped` jobs, we maintain a logically sound status calculation that avoids
+  misleading results based on jobs that were not meant to run.
 
 **Unify DAG and Stage behaviors**
 
@@ -646,6 +654,14 @@ All proposals or future decisions must follow these goals;
 - The `needs` and `dependencies` keywords should not be used together, as they serve different purposes.
   The `needs` keyword controls job ordering, while `dependencies` fetches artifacts.
 - The usage of both will be simplified to prevent confusion.
+
+**Default Empty Dependencies for Jobs**
+
+- Set `dependencies` to an empty list (`[]`) by default, requiring users to explicitly specify the dependencies needed by each job.
+- Expected Benefits:
+  - Users will have a clearer view of the artifacts and dependencies each job relies on, making pipeline configurations easier to understand and debug.
+  - With no unnecessary artifact transfers by default, pipelines will become more efficient, reducing time and resource consumption.
+  - This change can facilitate new features such as additive CI pipelines, as discussed in [PoC Additive CI Pipelines](https://gitlab.com/gitlab-org/gitlab/-/issues/413435).
 
 ### Examples
 
