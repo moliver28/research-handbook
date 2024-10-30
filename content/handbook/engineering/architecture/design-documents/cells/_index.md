@@ -54,6 +54,7 @@ The Cells architecture will impact many features requiring some of them to be re
 Below is a list of known affected features with preliminary proposed solutions.
 
 - [Cells: Admin Area](impacted_features/admin-area.md)
+- [Cells: Advanced search](impacted_features/advanced-search.md)
 - [Cells: Backups](impacted_features/backups.md)
 - [Cells: CI/CD Catalog](impacted_features/ci-cd-catalog.md)
 - [Cells: CI Runners](impacted_features/ci-runners.md)

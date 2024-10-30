@@ -14,23 +14,36 @@ This documentation will be kept even if we decide not to implement this so that
 we can document the reasons for not choosing this approach.
 {{% /alert %}}
 
-When we introduce multiple [Cells](../goals.md#cell), we intend to isolate all services related to those Cells. These main areas will need support for cells:
+When we introduce multiple [Cells](../goals.md#cell), we intend to isolate all services related to those Cells. These main areas will need support for Cells:
 
 1. Infrastructure maintenance
 2. Index maintenance 
 3. Organization migration
 
+**NOTE:** Global search is also an impacted feature that will be covered in a [separate design document](global-search.md).
+
 ## 1. Definition
 
 The [Advanced search functionality](https://docs.gitlab.com/ee/user/search/advanced_search.html) allows users to search across the entire GitLab instance. Advanced search supports Elasticsearch and OpenSearch as the search backend.
 
+GitLab.com has one Elasticsearch cluster that houses all indexed data to support Advanced search. Advanced search includes an [automated indexing pipeline](https://docs.gitlab.com/ee/development/advanced_search.html#deep-dive) and [migration framework](https://about.gitlab.com/blog/2021/06/01/advanced-search-data-migrations/) for data migrations. Most infrastructure and index maintenance tasks are performed manually by the Global Search team through the [change request workflow](../../../../change-management.md/#change-request-workflows). 
+
+The introduction of multiple Cells will require changes to automate all manual maintenance tasks and add automation for ogranization migration.
+
 ### Infrastructure and index maintenance
 
-Infrastructure maintenance tasks include Elasticsearch cluster version upgrades, scaling the Elasticsearch cluster, and support for incident root cause analysis and resolution.
+Infrastructure maintenance tasks include:
 
-Index maintenance tasks include index shard resizing using the Zero-downtime reindexing feature ([example issue](https://gitlab.com/gitlab-com/gl-infra/production/-/issues/18158)), split shards Elasticsearch API ([example issue](https://gitlab.com/gitlab-com/gl-infra/production/-/issues/18646)), enabling the Elasticsearch slow log ([example issue](https://gitlab.com/gitlab-com/gl-infra/production/-/issues/18159)), or cleaning up reverted migrations from the Advanced search migrations index ([example issue](https://gitlab.com/gitlab-com/gl-infra/production/-/issues/16231)).
+- Elasticsearch cluster version upgrades
+- Scaling the Elasticsearch cluster
+- Support for incident root cause analysis and resolution
 
-Today, most infrastructure and index maintenance tasks are performed manually by the Global Search team through the [change request workflow](../../../../change-management.md/#change-request-workflows).
+Index maintenance tasks include:
+
+- Index shard resizing using Zero-downtime reindexing feature ([example issue](https://gitlab.com/gitlab-com/gl-infra/production/-/issues/18158))
+- Index shard resizing using Split shards Elasticsearch API ([example issue](https://gitlab.com/gitlab-com/gl-infra/production/-/issues/18646))
+- Enabling the Elasticsearch slow log ([example issue](https://gitlab.com/gitlab-com/gl-infra/production/-/issues/18159))
+- Cleaning up reverted migrations from the Advanced search migrations index ([example issue](https://gitlab.com/gitlab-com/gl-infra/production/-/issues/16231))
 
 ### Organization migration
 
@@ -76,7 +89,9 @@ flowchart LR
     F[Elasticsearch cluster]
 ```
 
-#### Problems to solve
+### Problems to solve
+
+1. Many index maintenance tasks are done manually which won't scale when there are multiple Cells.
 
 1. There is no way to know when a project's database records are fully indexed. It is not possible to know when an organization migration is complete for Advanced search. Search results will be missing until the migration is complete.
 
