@@ -53,6 +53,39 @@ Cost Tiers Approval:
 - Manager + VP Approval: $1,000.01 - $5,000
 - Manager + e-group Approval for any spend $5,000.01 - $10,000 (Apart from Sales & Marketing, where VPs can approve $5,000.01 - $10,000 spend)
 
+<details>
+<summary>Manager Guidance: You should know what you are approving </summary>
+
+- As a manager you are ultimately responsible for the performance and behaviours of your team members. Therefore, it’s important that you understand the opportunities you are approving for your team members, and that you have discussed them during a career development conversation.
+
+- You should feel in all instances that you are able to explain the reasoning and benefits behind your team members G&D fund applications.
+
+</details>
+
+<details>
+<summary>Manager Guidance: Approving Travel for Conferences and Workshops </summary>
+
+- Our intent at GitLab is to pay for everything a team member needs when travelling to a conference, but there are a couple of things to be mindful of when approving these requests.
+    - The G&D Fund should be used to pay for conference registration, tickets, etc.
+    - The costs for travelling to and from a conference, including hotel stays and meals, comes from the Travel & Expenses budget of the requestor's department.
+
+- These two costs should still be detailed in the Growth and Development request issue, ghey just need to be expensed separately.
+
+- There may be budgetary concerns if a team member is applying for a conference that would incur significant travel and accommodation costs. When approving a team members’ G&D request, managers should feel confident they have the approval of their [budget owner](https://docs.google.com/spreadsheets/d/1JDgoKl2HaHY5iMhJeu8ENqQzOJB8lHL0-oeO0UUieDU/edit?gid=617408906#gid=617408906). VP approval is required on all applications over $1000 involving travel, so in most cases they will be made aware as a matter of course.
+
+- If you have any questions, please reach out to the Learning & Development team for support.
+
+</details>
+
+<details>
+<summary>Guidance for Budget Owners </summary>
+
+- If you are a budget owner for your department, you should know  that any Travel Expenses incurred from Growth & Development related travel (usually for conferences), comes from your overall T&E budget. You may not be included on all G&D applications that impact your budget, so it’s important that you communicate to managers in your team what they can or cannot approve when it comes to G&D travel, without your oversight.
+
+- If you would like to be included in all G&D approvals where T&E budget is impacted, please communicate this to the managers in your team.
+
+</details>
+
 ### Step 4 - Make Purchase & Complete your Opportunity
 
 Once all necessary approvals have been given in your G&D application issue, you are OK to proceed with paying for your opportunity and any necessary travel arrangements.
@@ -79,10 +112,6 @@ As is detailed in the issue template, details of travel related expenses for con
 
 However, they must be expensed separately to your G&D claim, following GitLab’s [Travel and Expense policy](/handbook/finance/expenses/#41-travel-related-expenses). Add a link to your G&D issue in the claim description. Please select `Growth and Development` as the Classification for these expenses, but not as the 'Expense Type'.
 
-### Step 6 - Close & Feedback
-
-Once you have successfully claimed for reimbursement, please go back and close your issue. If you found the G&D experience to be of significant benefit, and you would recommend it to other team members, please leave a comment in the G&D feedback issue, so that the Talent Development team can add the opportunity to our G&D Select page.
-
 #### 50% Upfront Reimbursement
 
 As an option, all requests can take advantage of a split disbursement option designed to help team members carry the financial lift of costly experiences. This split disbursement option allows for 50% of the costs to be reimbursed immediately after payment and the remaining 50% is reimbursed upon completion.
@@ -94,6 +123,10 @@ Here's how this workflow works:
 1. Upon completion, the team member will submit the proof of completion (certificate, completion email, etc.) along with that same approved issue to receive the remaining 50% of total costs.
 
 Please note that upfront reimbursement does not extend to travel, hotel, or meals expenses as these are expensed from a separate budget, it can only be used for the cost of the Growth and Development opportunity, more details in the [Workshops and Conferences](/handbook/people-group/learning-and-development/growth-and-development/#workshops-and-conferences) section.
+
+### Step 6 - Close & Feedback
+
+Once you have successfully claimed for reimbursement, please go back and close your issue. If you found the G&D experience to be of significant benefit, and you would recommend it to other team members, please leave a comment in the G&D feedback issue, so that the Talent Development team can add the opportunity to our G&D Select page.
 
 ### Recoupment of Growth and Development Reimbursements
 
