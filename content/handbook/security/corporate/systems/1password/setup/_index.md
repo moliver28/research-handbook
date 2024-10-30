@@ -24,4 +24,4 @@ For users with access to secondary 1Password accounts, please make sure that the
 3. In the left sidebar, navigate to **Accounts & vaults**.
 4. If your normal user account (`{handle}@gitlab.com` and not `{handle}-admin@gitlab.com`) is listed, click the three dots and choose **Sign Out**. Repeat these actions for any other accounts that appear (ex. your personal 1Password email address).
 5. If your admin account is not listed, click **Sign in to another account**. After redirecting to the 1Password website, choose the `gitlab.1password.com` tile and verify that your `{handle}-admin@gitlab.com` email address is shown, then type in your master password.
-5. The 1Password extension in the top right corner should now show your admin creentials.
+6. The 1Password extension in the top right corner should now show your admin creentials.
