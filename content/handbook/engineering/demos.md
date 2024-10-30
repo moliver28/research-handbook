@@ -28,7 +28,7 @@ For multi-person groups or critical projects, we use a heavier weight grading pr
 1. The audience is the key business stakeholder of the demo deliverables & the product group team (Development, UX, Quality, Product).
 1. Meeting should be kept to 30 minutes. The emphasis should be on the product requirements & acceptance criteria.
 1. The demo gets kicked off and each demo tracks iterate each week on the progress until completion.
-1. Live streaming or uploading to GitLab Unfiltered channel is options. Please abide by our SAFE guidelines if choosen to do so.
+1. Live streaming or uploading to GitLab Unfiltered channel is optional. Please abide by our SAFE guidelines if choosen to do so.
 
 ## Demo grading
 
