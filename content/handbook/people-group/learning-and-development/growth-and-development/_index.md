@@ -66,8 +66,8 @@ Cost Tiers Approval:
 <summary>Manager Guidance: Approving Travel for Conferences and Workshops </summary>
 
 - Our intent at GitLab is to pay for everything a team member needs when travelling to a conference, but there are a couple of things to be mindful of when approving these requests.
-    - The G&D Fund should be used to pay for conference registration, tickets, etc.
-    - The costs for travelling to and from a conference, including hotel stays and meals, comes from the Travel & Expenses budget of the requestor's department.
+ - The G&D Fund should be used to pay for conference registration, tickets, etc.
+ - The costs for travelling to and from a conference, including hotel stays and meals, comes from the Travel & Expenses budget of the requestor's department.
 
 - These two costs should still be detailed in the Growth and Development request issue, ghey just need to be expensed separately.
 
