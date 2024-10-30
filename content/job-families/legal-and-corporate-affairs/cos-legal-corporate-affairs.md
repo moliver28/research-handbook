@@ -1,9 +1,9 @@
 ---
-title: "Chief of Staff, Legal and Corporate Affairs"
+title: "Chief of Staff, CLO & Head of Corporate Affairs"
 description: Chief of Staff and strategic partner to the Chief Legal Officer
 ---
 
-## Chief of Staff, Legal & Corporate Affairs
+## Chief of Staff, CLO & Head of Corporate Affairs
 
 ### Summary
 
