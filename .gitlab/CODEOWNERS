@@ -158,6 +158,11 @@
 /content/handbook/engineering/development/processes/infra-dev-escalation/ @jameslopez
 /content/handbook/engineering/development/sec/ @twoodham @jeromezng
 /content/handbook/engineering/development/sec/application-security-testing/ @sarahwaldner @twoodham
+/content/handbook/engineering/development/sec/application-security-testing/composition-analysis/ @tkopel @johncrowley
+/content/handbook/engineering/development/sec/application-security-testing/dynamic-analysis/ @tkopel @johncrowley
+/content/handbook/engineering/development/sec/application-security-testing/secret-detection/ @amarpatel @abellucci
+/content/handbook/engineering/development/sec/application-security-testing/static-analysis/ @thiago @connorgilbert
+/content/handbook/engineering/development/sec/application-security-testing/vulnerability-research/ @dabeles
 /content/handbook/engineering/development/sec/govern/ @adil.farrukh @alan @jayswain @nmccorrison @nrosandich @jeromezng @ryaanwells @shampton
 /content/handbook/engineering/development/sec/govern/anti-abuse.md @jayswain
 /content/handbook/engineering/development/sec/govern/authentication.md @adil.farrukh
@@ -173,7 +178,13 @@
 /content/handbook/engineering/development/sec/security-risk-management/ @dagron1 @rvider
 /content/handbook/engineering/development/sec/security-risk-management/security-infrastructure @ryaanwells
 /content/handbook/engineering/development/sec/security-risk-management/security-insights @nmccorrison
+/content/handbook/engineering/development/sec/security-risk-management/security-platform-management/ @or-gal @smeadzinger
+/content/handbook/engineering/development/sec/security-risk-management/security-policies/ @alan @g.hickman
 /content/handbook/engineering/development/sec/software-supply-chain-security @sarahwaldner @twoodham @jeromezng
+/content/handbook/engineering/development/sec/software-supply-chain-security/authentication/ @adil.farrukh @hsutor
+/content/handbook/engineering/development/sec/software-supply-chain-security/authorization/ @jayswain @jrandazzo
+/content/handbook/engineering/development/sec/software-supply-chain-security/compliance/ @nrosandich @khornergit
+/content/handbook/engineering/development/sec/software-supply-chain-security/pipeline-security/ @shampton @jocelynjane
 /content/handbook/engineering/expansion-development.md @jeromezng
 /content/handbook/engineering/frontend/ @timzallmann
 /content/handbook/engineering/workflow/ @timzallmann @jeromezng @sgoldstein @dsatcher @m_gill
