@@ -608,7 +608,7 @@ Milestones closure is in the remit of [the Delivery team](/handbook/engineering/
 
 ### Milestone cleanup schedule
 
-The milestone cleanup will happen the day before the release date.
+The milestone cleanup will happen on the milestone due date.
 
 These actions will be applied to open issues:
 
