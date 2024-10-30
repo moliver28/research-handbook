@@ -210,8 +210,8 @@ The current list of projects are identified in the [`gitlab-data/analytics`](htt
 
 | System Database | File |
 |-----------------|------|
-| GitLab.com      | [`projects_part_of_product.csv`](https://gitlab.com/gitlab-data/analytics/blob/master/transform%2Fsnowflake-dbt%2Fdata%2Fprojects_part_of_product.csv) |
-| ops.gitlab.net  | [`projects_part_of_product_ops.csv`](https://gitlab.com/gitlab-data/analytics/blob/master/transform%2Fsnowflake-dbt%2Fdata%2Fprojects_part_of_product_ops.csv) |
+| GitLab.com      | [`projects_part_of_product.csv`](https://gitlab.com/gitlab-data/analytics/-/blob/master/transform/snowflake-dbt/seeds/seed_engineering/projects_part_of_product.csv) |
+| ops.gitlab.net  | [`projects_part_of_product_ops.csv`](https://gitlab.com/gitlab-data/analytics/-/blob/master/transform/snowflake-dbt/seeds/seed_engineering/projects_part_of_product_ops.csv) |
 
 ### Updating the list of projects
 
@@ -224,10 +224,10 @@ The guidelines for inclusion in the `is_part_of_product` lists are:
 Follow these steps to request a new project to be tracked:
 
 1. Create a merge request to the GitLab.com or ops.gitlab.net project list from above.
-2. Assign the merge request to the [Engineering Productivity team](/handbook/engineering/infrastructure/engineering-productivity/#team-members) Engineering Manager.
-3. The Manager of the Engineering Productivity team will work with the [Engineering Analytics Team](/handbook/engineering/quality/engineering-analytics/#counterpart-assignments) to determine the changes to MR Rate metrics and provide validation for the projects.
-4. The Director of Engineering Productivity is the DRI to approve and merge the list of projects.
+2. Assign the merge request to the [Engineering Productivity team](/handbook/engineering/infrastructure/engineering-productivity/#members) Engineering Manager.
+3. The Manager of the Engineering Productivity team will work with the Product Data Insights Team to determine the changes to MR Rate metrics and provide validation for the projects. To check the impact to MR rate, utilize the [MR Rate Change Impact chart](https://10az.online.tableau.com/#/site/gitlab/views/DevelopmentEmbeddedDashboard_17017859046500/MRRateChangeImpact) by adding the relevant project IDs to the filter. This view shows how MR rate will increase by adding the projects to the [`projects_part_of_product.csv`](https://gitlab.com/gitlab-data/analytics/-/blob/master/transform/snowflake-dbt/seeds/seed_engineering/projects_part_of_product.csv) file.
+4. The Manager of the Engineering Productivity team is the DRI to approve and merge the list of projects.
 
 There is no need to remove archived projects from the `is_part_of_product` list. Removal of projects will remove historical merge requests from metrics and reduce Merge Request rates.
 
-Please reach out to a member of the [Engineering Productivity team](/handbook/engineering/infrastructure/engineering-productivity/) if more assistance is needed
+Please reach out to a member of the [Engineering Productivity team](/handbook/engineering/infrastructure/engineering-productivity/#members) if more assistance is needed.
