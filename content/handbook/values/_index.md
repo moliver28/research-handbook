@@ -893,7 +893,11 @@ As discussed in [Sid's interview on iteration](https://youtu.be/tPTweQlBS54?t=10
 
 ##### Start off by impacting the fewest users possible
 
-If you do a gradual rollout of your change preference few users over many users, internal users (dogfooding) over external ones, environments you get faster feedback about (SaaS) over low feedback ones (self-managed), etc. Iteration does not mean being open to all users from Day 1.
+Iteration does not mean being open to all users from day one. If you do a gradual rollout of your change, prefer:
+
+- Few users over many users
+- Internal users (dogfooding) over external users
+- Environments with fast feedback (SaaS) over slow feedback (self-managed)
 
 ##### Reduce cycle time
 
