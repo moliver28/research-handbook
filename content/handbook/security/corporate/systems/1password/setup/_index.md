@@ -13,8 +13,8 @@ As an added benefit, we give all team members a free [family account](https://su
 - [Vendor Docs - Save and Fill Passwords](https://support.1password.com/save-fill-passwords/)
 - [Vendor Docs - Sharing a Password Securely](https://support.1password.com/share-items-security/)
 
-**Additional Steps for Users with Black accounts and 1Password Admin Acounts**<br>
-For users with access to secondary 1Password accounts, please make sure that the 1Password Chrome extension in your Black Chrome profile is NOT set to automatically integrate with the desktop app. This setting may reenable itself after a major 1Password or Chrome update.
+**Additional Steps for Users with Black accounts and 1Password Admin Accounts**<br>
+For users with access to secondary 1Password accounts, please make sure that the 1Password Chrome extension in your Black Chrome profile is NOT set to automatically integrate with the desktop app. This setting may re-enable itself after a major 1Password or Chrome update.
 
-1. Right click on the Chrome extesnion and select settings
+1. Right click on the Chrome extension and select settings
 2. Under "General" make sure that "Integrate this extension with the 1Password desktop app" is disabled.
