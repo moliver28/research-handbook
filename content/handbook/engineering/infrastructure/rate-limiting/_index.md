@@ -284,13 +284,6 @@ For more information, see the [Pages Rate Limit documentation](https://docs.gitl
 
 Registry is not fronted by Cloudflare (see this [confidential issue](https://gitlab.com/gitlab-com/gl-infra/production-engineering/-/issues/16468) for full details around why). There is no application-level setting for it either (though there is an [open feature request](https://gitlab.com/gitlab-org/gitlab/-/issues/438690) to add that), so the only place where there is rate limiting in place for Registry is [in HAProxy](https://gitlab.com/gitlab-cookbooks/gitlab-haproxy/-/blob/master/templates/default/frontends/registry_https.erb).
 
-## AI vendor limits
-
-Some of our backends talk to AI models operated by cloud vendors such as Google or Anthropic.
-These vendors impose limits on us too, which can trickle down to end-users that use our AI products.
-
-The current limit for AI model requests is 160 requests / 8h / authenticated user.
-
 ## Headers
 
 The list of semi-standard rate limiting response headers can be found [here](https://docs.gitlab.com/ee/administration/settings/user_and_ip_rate_limits.html#response-headers).
