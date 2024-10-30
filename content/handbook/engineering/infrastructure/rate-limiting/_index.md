@@ -41,7 +41,7 @@ flowchart TD
             G[https + ssh]
         end
         C --> K
-        L[Runway services]
+        L[Cloud Connector backends]
         H[nginx]
         K[pages kubernetes limits]
         K-->M[pages application limits]
