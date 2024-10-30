@@ -248,12 +248,12 @@ Since GitLab is an [all remote](/handbook/company/culture/all-remote/) company w
 ### Maine
 
 - [Minimum Wage](hhttps://www.maine.gov/labor/docs/2024/posters/minwage/minimumwage2024_English.pdf)
-- [Sexual Harassment](https://www.maine.gov/labor/posters/2017/sexual_harassment_poster.pdf)
-- [Whistleblower's Protection Act](https://www.maine.gov/labor/docs/2019/laborlaws/whistleblowerprotection112019.pdf)
+- [Sexual Harassment](https://www.maine.gov/labor/docs/2022/posters/mhra/Maine%20Human%20Act_poster_English.pdf)
+- [Whistleblower's Protection Act](https://www.maine.gov/labor/docs/2022/posters/whistleblower/whistleblowerprotection_English.pdf)
 - [Workers' Compensation](https://www.maine.gov/wcb/forms/WCB-90_rev_1-1-20.pdf)
-- [Video Display Terminals](https://www.maine.gov/labor/docs/2019/laborlaws/vdtposternov2019.pdf)
-- [Child Labor Laws](https://www.maine.gov/labor/docs/2019/laborlaws/childlabornov2019.pdf)
-- [Regulation of Employment](https://www.maine.gov/labor/docs/2023/posters/Regulationofemployment_English.pdf)
+- [Video Display Terminals](https://www.maine.gov/labor/docs/2022/posters/vdt/vdtposter_English.pdf)
+- [Child Labor Laws](https://www.maine.gov/labor/docs/2022/posters/childlabor/childlabor_English.pdf)
+- [Regulation of Employment](https://www.maine.gov/labor/docs/2024/posters/regofemployment/regulationofemployment_English.pdf)
 - [Maine Employment Security Law](https://www.maine.gov/labor/docs/2022/posters/mesl/Maine%20Employment%20Security%20Law_11-19_English.pdf)
 
 ### Maryland
@@ -331,7 +331,7 @@ Since GitLab is an [all remote](/handbook/company/culture/all-remote/) company w
 ### Nebraska
 
 - [Nebraska Minimum Wage](https://drive.google.com/file/d/1BvPZ_fGm38kHgzqrCSpOHHOGbmra3rW-/view?usp=sharing)
-- [Discrimination in Employment](https://neoc.nebraska.gov/education/pdf/PosterEnglish.pdf)
+- [Discrimination in Employment](https://neoc.nebraska.gov/sites/default/files/2024-08/NEOC%20Poster%20%281%29.pdf)
 - [Unemployment Insurance Advisement of Benefit Rights](https://drive.google.com/file/d/1rs9FXv38OQNtSUJKjzyeR6mub9HAtQT7/view?usp=sharing)
 - [Job Safety and Health](http://www.mathy.com/wp-content/uploads/2018/01/Job-Safety-and-Health-saf39812-03-1.pdf)
 - [Workers' Compensation Notice - Inc.](https://drive.google.com/file/d/1F8NGLQMfWEN_ktxbmo2wuKDXXiIgK-r1/view?usp=sharing)
@@ -472,11 +472,11 @@ Since GitLab is an [all remote](/handbook/company/culture/all-remote/) company w
 ### Pennsylvania
 
 - [Minimum Wage Law](https://www.pa.gov/content/dam/copapwp-pagov/en/dli/documents/individuals/labor-management-relations/documents/llc-1.pdf)
-- [Abstract of Equal Pay Law](https://www.dli.pa.gov/Documents/Mandatory%20Postings/llc-8.pdf)
-- [Employment Provisions of the PA Human Relations Act](https://www.phrc.pa.gov/AboutUs/Documents/Fair%20Employment.pdf)
-- [Abstract of the PA Child Labor Act](https://www.dli.pa.gov/Documents/Mandatory%20Postings/llc-5.pdf)
+- [Abstract of Equal Pay Law](https://www.pa.gov/content/dam/copapwp-pagov/en/dli/documents/individuals/labor-management-relations/llc/documents/llc-8.pdf)
+- [Employment Provisions of the PA Human Relations Act](https://www.pa.gov/content/dam/copapwp-pagov/en/phrc/documents/employment/Fair%20Employment.pdf)
+- [Abstract of the PA Child Labor Act](https://www.pa.gov/content/dam/copapwp-pagov/en/dli/documents/individuals/labor-management-relations/documents/llc-5.pdf)
 - [Know Your Rights](https://www.phila.gov/media/20210423162905/Know-your-rights-flyer.pdf)
-- [Worker's Compensation Poster](https://www.dli.pa.gov/Businesses/Compensation/WC/claims/wcais/Documents/wcais%20forms/LIBC-500%20print.pdf)
+- [Worker's Compensation Poster](https://www.pa.gov/content/dam/copapwp-pagov/en/dli/documents/businesses/compensation/wc/claims/wcais/documents/wcais-forms/libc-500%20print.pdf)
 - [Workers' Compensation Notice - Federal](https://drive.google.com/file/d/1SKo7zi1Q9rkrR03gVIor1exbz1tPxlB2/view?usp=sharing)
 - [Workers' Compensation Notice - Inc.](https://drive.google.com/file/d/1exd3Hy9ODgexMuAZtza-PmvGsqzHZAIZ/view?usp=sharing)
 - **Allegheny County, PA**
