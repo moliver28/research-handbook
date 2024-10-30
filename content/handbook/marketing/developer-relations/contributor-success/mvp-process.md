@@ -87,6 +87,7 @@ is used for the entire major release cycle (for example 17.0 through 17.11). Com
 
 1. Forward the message to `#developer-relations`, `#mr-coaching`, and `#core`
 1. Share the message in the Discord `#announcements` channel and thank any wider community members who added nominations or support.
+1. Update the nomination issue and the nominated thread to document the winner.
 
 ### MVP Eligibility
 
