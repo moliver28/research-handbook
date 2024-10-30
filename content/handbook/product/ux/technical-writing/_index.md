@@ -322,6 +322,10 @@ that need to be regularly completed:
 
 Schedule for Docs project maintenance tasks:
 
+- March, 2025: {{< member-by-name "Brendan Lynch" >}}
+- February, 2025: {{< member-by-name "Emily Sahlani" >}}
+- January, 2025: {{< member-by-name "Marcin Sędłak-Jakubowski" >}}
+- December, 2024: {{< member-by-name "Roshni Sarangadharan" >}}
 - November, 2024: {{< member-by-name "Ryan Lehmann" >}}
 - October, 2024: {{< member-by-name "Russell Dickenson" >}}
 - September, 2024: {{< member-by-name "Marcel Amirault" >}}
@@ -331,10 +335,6 @@ Schedule for Docs project maintenance tasks:
 - May, 2024: {{< member-by-name "Lorena Ciutacu" >}}
 - April, 2024: {{< member-by-name "Lysanne Pinto" >}}
 - March, 2024: {{< member-by-name "Amy Qualls" >}}
-- February, 2024: {{< member-by-name "Marcel Amirault" >}}
-- January, 2024: {{< member-by-name "Phillip Wells" >}}
-- December, 2023: {{< member-by-name "Achilleas Pipinellis" >}}
-- November, 2023: {{< member-by-name "Marcin Sędłak-Jakubowski" >}}
 
 ## Reviews
 
