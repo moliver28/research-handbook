@@ -208,7 +208,7 @@ No, this does not exist within Okta.  But this should be something security auto
 
 Automating access requests is one such thing. Manager approval is not possible with Okta as yet. We are working towards other ways and means to achieve this.
 
-## Does Okta integrate with a VPN provider that allows all GitLab team members to use a company-wide VPN?
+## Does Okta integrate with a VPN provider that allows all team members to use a company-wide VPN?
 
 There is capacity to do this, but further research is needed to understand the application use case for this. At this stage, requirement for VPN is not enabled.
 

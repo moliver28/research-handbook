@@ -139,7 +139,7 @@ As CSMs have positioned themselves to be more strategic and reach Director, VP, 
 
 #### Markdown
 
-- [Handbook Markdown Guide](/handbook/markdown-guide/)
+- [Handbook Markdown Guide](https://handbook.gitlab.com/docs/markdown-guide/)
 - [GitLab Flavored Markdown (GLFM)](https://docs.gitlab.com/ee/user/markdown.html)
 - [Handbook Style Guide](/handbook/about/style-guide/)
 - [Markdown Tutorial](https://about.gitlab.com/blog/2018/08/17/gitlab-markdown-tutorial/)
@@ -187,4 +187,4 @@ We also have a list of [Recommended Learning Paths](/handbook/people-group/learn
 
 ### Coursera
 
-[Handbook details about Coursera](/handbook/total-rewards/benefits/general-and-entity-benefits/growth-and-development/#self-service-learning-skillserve-coursera-others)
+[Handbook details about Coursera](/handbook/people-group/learning-and-development/growth-and-development/#self-service-learning)

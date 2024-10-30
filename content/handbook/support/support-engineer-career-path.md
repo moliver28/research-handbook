@@ -86,7 +86,7 @@ Recommendations to explore this path:
 - Read [Transitioning from Individual Contributor to Manager](/handbook/engineering/development/dev/training/ic-to-manager/).
 - Read about [Individual Contribution vs. Management](/handbook/engineering/careers/#individual-contribution-vs-management) and [Trying the Management Track](/handbook/engineering/careers/#trying-the-management-track).
 - Read about the [Interim Manager](/handbook/engineering/careers/#interim-manager) role.
-- Read about [Elevate](/handbook/people-group/learning-and-development/elevate/) and consider participating.
+- Read about [Elevate](/handbook/people-group/learning-and-development/elevate-programs/) and consider participating.
 
 Considerations when building your path:
 

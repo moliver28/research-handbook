@@ -11,7 +11,7 @@ For more information on mentoring best practice, visit [Mentoring](/handbook/eng
 ## How does it work?
 
 1. A GitLab Team Member is recommended by their Manager to participate in the program or can reach out to [Roos Takken](/handbook/company/team/#rtakken) if they are interested in participating.
-1. Currently there are 10 seats with Plato. If all filled we will be working with a waiting list for admission. Also team members can leverage their [Growth and Development budget](/handbook/total-rewards/benefits/general-and-entity-benefits/growth-and-development/#types-of-growth-and-development-reimbursements) to enroll with Plato.
+1. Currently there are 10 seats with Plato. If all filled we will be working with a waiting list for admission. Also team members can leverage their [Growth and Development budget](/handbook/people-group/learning-and-development/growth-and-development/#types-of-growth-and-development-reimbursements) to enroll with Plato.
 1. All Mentees are invited to a KickOff Meeting with Plato
 1. Mentees select one Mentor after viewing three Mentor Plato Profiles while on a Plato Call
 1. Plato sets up the framework / software to support the Mentoring Relationship

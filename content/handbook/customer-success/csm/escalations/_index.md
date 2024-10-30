@@ -234,6 +234,6 @@ Occasionally, customers will require a product leader to act as a stable counter
 
 ## Related Links
 
-- [Support Engineering Page](/handbook/support/) and [Support Engineering Escalation Procedures](/handbook/support/workflows/working-with-issues.html)
+- [Support Engineering Page](/handbook/support/) and [Support Engineering Escalation Procedures](/handbook/support/workflows/working-with-issues/)
 - [Product Escalation Issue Template](https://gitlab.com/gitlab-com/Product/issues/new?issuable_template=Product-Support-Request) to request Product Team support for roadmap / future needs, prioritization of enhancements and/or issues and troubleshooting of customer issues.
 - [Customer Health Assessment and Account Triaging](/handbook/customer-success/csm/health-score-triage/)

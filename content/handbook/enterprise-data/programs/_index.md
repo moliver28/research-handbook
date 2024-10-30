@@ -1,6 +1,5 @@
 ---
 title: "Data Team Programs"
-description: "Data Programs."
 ---
 
 <link rel="stylesheet" type="text/css" href="/stylesheets/biztech.css" />
@@ -15,11 +14,7 @@ Welcome to the **Data Programs** page. Here you'll find information about the va
 
 ## <i class="far fa-newspaper" id="biz-tech-icons"></i> Show-n-Tell and Demos
 
-Data & Analytics Demos are a great way for everyone involved in the Data Program to share progress, innovation, collaborate, and just have fun. Data & Analytics Demos are [held every Thursday](https://calendar.google.com/event?action=TEMPLATE&tmeid=Z2Zibm5rbWZvamptajYwOGs4dWI2ODk0c2tfMjAyMTA5MTZUMTUwMDAwWiBnaXRsYWIuY29tX2Q3ZGw0NTdmcnI4cDU4cG4zazYzZWJ1bzhvQGc&tmsrc=gitlab.com_d7dl457frr8p58pn3k63ebuo8o%40group.calendar.google.com&scp=ALL) and recordings are posted to the [GitLab Unfiltered Data Team playlist](https://www.youtube.com/playlist?list=PL05JrBw4t0KrRVTZY33WEHv8SjlA_-keI).
-
-## <i class="far fa-newspaper" id="biz-tech-icons"></i> Data Science AMAs
-
-The Data Science Team regularly holds AMAs to help spread awareness of Data Science and initiatives. Check out the [AMA with GitLab Data Scientists Agenda](https://docs.google.com/document/d/1C5odZ14Fbnbb5uqNnrJsDnYQR_ZrvfPQCQ43xUEZsJY/edit) to learn more.
+Recordings of previous demos are posted to the [GitLab Unfiltered Data Team playlist](https://www.youtube.com/playlist?list=PL05JrBw4t0KrRVTZY33WEHv8SjlA_-keI).
 
 ## <i class="far fa-newspaper" id="biz-tech-icons"></i> Data Onboarding
 
@@ -41,7 +36,7 @@ The Data Team performs Proof of Value Evaluations (PoVs) for all new technologie
 ### Phase 2: Scoping & Policy Awareness
 
 1. Review the [Procurement New Software Guide](/handbook/finance/procurement/new-software/) to ensure you understand the latest procurement process to follow.
-1. Execute an [NDA](/handbook/legal/NDA/) with each Vendor included in the Evaluation.
+1. Execute an [NDA](/handbook/legal/nda/) with each Vendor included in the Evaluation.
 1. Obtain preliminary pricing to help validate established budget. If no existing budget is established, work with the Department lead to determine if the project is feasible. Let's not waste time or energy for projects we can't fund.
 
 ### Phase 3: Evaluation Design
@@ -49,7 +44,7 @@ The Data Team performs Proof of Value Evaluations (PoVs) for all new technologie
 Evaluation Design is the most complex part of the PoV.
 
 1. Decide how to test the technology versus defined requirements. Often, successfully testing data technologies requires simulating production workloads and constructing a 'Production Level SAFE Workload' is a key challenge in a Data PoV Project.
-     - No [Red Data](/handbook/security/data-classification-standard.html#red) or [Orange Data](/handbook/security/data-classification-standard.html#orange) is ever suitable for inclusion in a PoV.
+     - No [Red Data](/handbook/security/data-classification-standard/#red) or [Orange Data](/handbook/security/data-classification-standard/#orange) is ever suitable for inclusion in a PoV.
 
 ### Phase 4: Procurement
 

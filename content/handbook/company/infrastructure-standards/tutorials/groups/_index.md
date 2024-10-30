@@ -11,4 +11,4 @@ If a tutorial is not available, please contact the realm owner on Slack or in a 
 
 ### Groups
 
-- [Access Request](/handbook/infrastructure-standards/tutorials/groups/access-request)
+- [Access Request](/handbook/company/infrastructure-standards/tutorials/groups/access-request)

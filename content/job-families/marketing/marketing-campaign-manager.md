@@ -5,9 +5,40 @@ summary: " "
 
 ## Levels
 
-### Marketing Campaign Manager (Intermediate)
+### Marketing Campaign Coordinator (Associate)
 
-The Marketing Campaign Manager (Intermediate) reports to Manager, Marketing Campaigns.
+The Marketing Campaign Coordinator (Associate) reports to Manager, Marketing Campaigns.
+
+#### Marketing Campaign Coordinator (Associate) Job Grade
+
+The Marketing Campaign Coordinator (Associate) is a [grade 5](/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades).
+
+#### Marketing Campaign Coordinator (Associate) Responsibilities
+
+- Create, upload, edit, and manage HTML emails and templates for marketing campaigns.
+- Develop and oversee email components such as headers, footers, personalized elements (e.g., mail merge), and confirmation pages, ensuring adherence to GitLab standards.
+- Collaborate with the marketing team to establish contact filters and segment the database for effective email communication.
+- Deploy batch emails and automate multi-touch campaigns to nurture leads, promote events, and manage offers, utilizing GitLab frameworks and tools.
+- Personalize email content based on activity-driven triggers, while conducting tests to verify accuracy, proper formatting, and functional tracking links.
+- Assist in the administration of the Marketo platform in line with GitLab-defined processes, including asset management, naming conventions, and access controls.
+- Design website forms and landing pages, ensuring seamless integration into Marketo programs.
+- Generate marketing automation reports from the Marketo platform, analyzing email marketing performance, website engagement, and contact activity, including open rates, click-through rates, bounce rates, and unsubscribe rates.
+- Develop Marketo programs and Salesforce campaigns to effectively track demand generation initiatives.
+- Set up and manage virtual events using On24.
+- Conduct quality assurance checks for lead flow in paid digital programs.
+
+#### Marketing Campaign Manager (Associate) Requirements
+
+- Proficient in email marketing and marketing automation tools, particularly Marketo.
+- Skilled in HTML for managing email templates effectively.
+- Exceptional communication skills for collaborating with marketing teams and delivering reports.
+- Strong organizational and project management abilities to juggle multiple projects and meet deadlines.
+- Detail-oriented to ensure the accuracy and integrity of email content and tracking.
+- Experienced with CRM software (preferably Salesforce) and webinar platforms (preferably On24), with a willingness to learn additional functionalities.
+- Background in a B2B software marketing team is advantageous.
+- Capable of working both with minimal direction and collaboratively within a team.
+- Familiarity with GitLab and Git, or a readiness to learn their usage.
+- You share our values, and work in accordance with those values.
 
 #### Marketing Campaign Manager (Intermediate) Job Grade
 

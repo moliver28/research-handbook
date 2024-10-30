@@ -32,13 +32,13 @@ We welcome contributions, and if you find an opportunity to consolidate informat
 Two distinct groups are responsible for infrastructure at GitLab:
 
 - [**Platforms**](/handbook/engineering/infrastructure/platforms/), responsible for software delivery, scaling and operations of single and multi tenant GitLab SaaS
-- [**Reliability**](/handbook/engineering/infrastructure/team/reliability/), which operate all user-facing GitLab.com services.
+- [**Reliability**](/handbook/engineering/infrastructure/team/), which operate all user-facing GitLab.com services.
 
 To create an issue, or find how to engage with the related teams you can use the links below:
 
 - [Delivery](https://gitlab.com/gitlab-com/gl-infra/delivery/-/issues/new) - Follow [directions how to reach us urgently](/handbook/engineering/infrastructure/team/delivery/#reaching-our-team)
 - [Reliability](https://gitlab.com/gitlab-com/gl-infra/reliability/-/issues/new?issuable_template=default)
-  - You can [read more about how reliability triages issues here.](/handbook/engineering/infrastructure/team/reliability/issues.html#issue-board)
+  - You can [read more about how reliability triages issues here.](/handbook/engineering/infrastructure/team/reliability/issues/#issue-board)
 - [Scalability](/handbook/engineering/infrastructure/team/scalability/#working-with-us)
 - [GitLab Dedicated](/handbook/engineering/infrastructure/team/gitlab-dedicated/#working-with-us)
 
@@ -99,7 +99,7 @@ Department level view of [OKR](/handbook/company/okrs/) and scoring is on our [I
 
 Each sub-department has different guidance on OKR:
 
-- [Reliability](/handbook/engineering/infrastructure/team/reliability/#okrs)
+- [Reliability](/handbook/engineering/infrastructure/team/)
 - [Platforms](/handbook/engineering/infrastructure/platforms/#okr)
 - [Test Platform](/handbook/engineering/infrastructure/test-platform/#okrs)
 - [Engineering Productivity](/handbook/engineering/infrastructure/engineering-productivity/#okrs)

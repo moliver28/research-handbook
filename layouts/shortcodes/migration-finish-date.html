@@ -1,8 +1,0 @@
-{{- $section := .Get "section" }}
-{{- $sep := "," }}
-{{- $csv := getCSV $sep "csv/timetable.csv" }}
-{{- range $i, $r := after 1 $csv }}
-{{- if eq (index . 2) $section }}
-`{{ index . 7 }}`
-{{- end }}
-{{- end }}

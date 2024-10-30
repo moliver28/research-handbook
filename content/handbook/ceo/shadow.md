@@ -131,16 +131,10 @@ For those with regular commitments, look for shorter weeks or timezone variation
 
 | Start date | End date | See one | Teach one | Schedule Notes |
 | ---------- | -------- | ---- | ----- | --------- |
-| 2024-09-23 | 2024-09-27 | VP DIRECTS ONLY | VP DIRECTS ONLY  | In person - San Francisco |
-| 2024-09-30 | 2024-10-04 | [Nupur Sharma](https://gitlab.com/nsharma2), Solutions Architect | [Kyle Yetter](https://gitlab.com/kyetter) - Senior Backend Engineer, Geo | REMOTE - PT |
-| 2024-10-07 | 2024-10-11 | OPEN | [Nupur Sharma](https://gitlab.com/nsharma2), Solutions Architect | REMOTE - PT |
-| 2024-10-14 | 2024-10-18 | OPEN| OPEN | REMOTE - PT - very limited week due to multiple conferences |
-| 2024-10-21 | 2024-10-25 | [Dan Rhodes](https://gitlab.com/dfrhodes) - Managing Legal Counsel | OPEN | REMOTE - PT |
 | 2024-10-28 | 2024-11-01 | [Naheil McAvinue](https://gitlab.com/nmcavinue) - Director, Data & Analytics | [Dan Rhodes](https://gitlab.com/dfrhodes) - Managing Legal Counsel | REMOTE - PT |
-| 2024-11-04 | 2024-11-08 | OPEN | [Naheil McAvinue](https://gitlab.com/nmcavinue) - Director, Data & Analytics | REMOTE - PT |
-| 2024-11-04 | 2024-11-08 | OPEN | OPEN | REMOTE - Possible APAC Rotation TBC |
-| 2024-11-11 | 2024-11-15 | OPEN | OPEN | REMOTE - Possible APAC Rotation TBC |
-| 2024-11-18 | 2024-11-22 | OPEN | OPEN | REMOTE - PT |
+| 2024-11-04 | 2024-11-08 | NO CEO SHADOW | NO CEO SHADOW | IN APAC |
+| 2024-11-11 | 2024-11-15 | NO CEO SHADOW | NO CEO SHADOW | IN APAC |
+| 2024-11-18 | 2024-11-22 | OPEN | [Naheil McAvinue](https://gitlab.com/nmcavinue) - Director, Data & Analytics | REMOTE - PT |
 | 2024-11-25 | 2024-11-29 | [Francesca Gianfiglio](https://gitlab.com/fgianfiglio) - Senior Business Development Representative EMEA | OPEN | REMOTE - PT |
 | 2024-12-02 | 2024-12-06 | OPEN |  [Francesca Gianfiglio](https://gitlab.com/fgianfiglio) - Senior Business Development Representative EMEA  | REMOTE - PT |
 | 2024-12-09 | 2024-12-13 | VP DIRECTS ONLY | VP DIRECTS ONLY | REMOTE - PT |
@@ -389,7 +383,7 @@ Immediately following meetings, score the CEO on overall positivity score from 1
 
 If your score for a meeting was below a 5, immediately following the meeting, send Sid a Slack DM with your score and the reasoning.
 
-At the end of the day, post the score for each meeting to the `#ceo-shadow-private` Slack channel and `@` mention the CEO.
+If you do not report a score for a meeting, it is assumed that your score is `5`. 
 
 Score definitions:
 
@@ -843,4 +837,6 @@ CEO Shadow Program alumni are welcome to join the `#ceo-shadow-alumni` Slack cha
 | 2024-08-12 | 2024-08-21 | [Emily Plotkin](https://gitlab.com/emilyplotkin) | Sr Director, Legal - Employment | |
 | 2024-08-26 | 2024-09-06 | [Sam Wiskow](https://gitlab.com/swiskow) | Senior Product Manager, Delivery & Scalability | |
 | 2024-09-02 | 2024-09-13 | [Vladimir Dzalbo](https://gitlab.com/dzalbo) | Senior Manager, Solutions Architecture, EMEA | |
-| 2024-09-09 | 2024-09-20 |  [Hannah Sutor](https://gitlab.com/hsutor) | Principal Product Manager | |
+| 2024-09-09 | 2024-09-20 | [Hannah Sutor](https://gitlab.com/hsutor) | Principal Product Manager | |
+| 2024-09-16 | 2024-10-04 | [Kyle Yetter](https://gitlab.com/kyetter) | Senior Backend Engineer, Geo | |
+| 2024-09-30 | 2024-10-11 | [Nupur Sharma](https://gitlab.com/nsharma2), Solutions Architect | REMOTE - PT | |

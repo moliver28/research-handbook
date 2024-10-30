@@ -93,7 +93,7 @@ We review the bugfix merge requests every week. To facilitate this process, we h
 The team has been actively working on enabling Elasticsearch powered Advanced Search on GitLab.com. [Based on our analysis](https://gitlab.com/groups/gitlab-org/-/epics/1736), we set our first target to roll this feature out for all the paid groups on GitLab.com. You can find more details about the timeline and progress in the links below.
 
 - [Plan of Advanced. Search Rollout on GitLab.com](https://gitlab.com/groups/gitlab-com/-/epics/649)
-- [Steps and Enhancements of Advanced Search Rollout on GitLab.com](/handbook/engineering/infrastructure/core-platform/data_stores/search/es-rollout-timeline.html)
+- [Steps and Enhancements of Advanced Search Rollout on GitLab.com](/handbook/engineering/infrastructure/core-platform/data_stores/search/es-rollout-timeline/)
 
 ### Severity Labels for Search Issues (`~advanced search`, `~global search`)
 

@@ -21,7 +21,7 @@ Please see the internal [Wiki](https://gitlab.com/gitlab-com/Finance-Division/fi
 
 - [Sarah McCauley](/handbook/company/team/#s_mccauley) - Senior Director, Billing & Accounts Receivable (Global)
 - [Anna Piaseczna](/handbook/company/team/#annapiaseczna) - Senior Manager, GPO Billing Operations (Global)
-- Josephine Hararah - Senior Manager, Billing Operations (Global)
+- [Josephine Hararah](/handbook/company/team/#j_tranhararah) - Senior Manager, Billing Operations (Global)
 - [Simone Polverini](/handbook/company/team/#spolverini) - Manager, Billing Operations (EMEA and APAC)
 - [Cristine Sotomango Marquardt](/handbook/company/team/#csotomango) - Manager, Billing Operations (AMER)
 - [Karen McKinney](/handbook/company/team/#k.mckinney) - Senior Billing Operations Analyst (AMER)

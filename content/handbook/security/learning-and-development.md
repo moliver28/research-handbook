@@ -12,7 +12,7 @@ GitLab provides a multitude of opportunities to learn and develop new skills on 
 
 ### Growth and Development Budget
 
-Within the Growth and Development benefit, GitLab allows team members to spend [$10,000 on Growth and Development annually](/handbook/total-rewards/benefits/general-and-entity-benefits/#growth-and-development-benefit). The individual Growth and Development budget can be used to attend conferences and workshops, obtain certifications, professional coaching, academic study and more. The extensive list of Growth and Development types of reimbursement can be found [on this page](/handbook/total-rewards/benefits/general-and-entity-benefits/growth-and-development/#types-of-growth-and-development-reimbursements).
+Within the Growth and Development benefit, GitLab allows team members to spend [$10,000 on Growth and Development annually](/handbook/total-rewards/benefits/general-and-entity-benefits/#growth-and-development-benefit). The individual Growth and Development budget can be used to attend conferences and workshops, obtain certifications, professional coaching, academic study and more. The extensive list of Growth and Development types of reimbursement can be found [on this page](/handbook/people-group/learning-and-development/growth-and-development/#types-of-growth-and-development-reimbursements).
 
 ## Learning and development within GitLab Security
 

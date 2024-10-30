@@ -36,7 +36,7 @@ While today the dual-career path is most built out in our Engineering division, 
 
 ## Job Frameworks
 
-We've developed Job frameworks to provide clarity and consistency in our expectations for each job level at GitLab. There are two Job Frameworks: [one for Individual Contributors and one for People Managers](https://docs.google.com/spreadsheets/d/1FX4NBwF099uMBm7mGBtf1orIJZuHEjtiEa3jSbg9jJs/edit#gid=819074618) which are available to internal GitLab team members only, that map to the levels outlined in our [job grades](/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades). If we make any updates to the frameworks we will always communicate that broadly. If you as a team member want to propose any changes we recommend that you to open a confidential issue in [the People Business Partner project](https://gitlab.com/gitlab-com/people-group/people-business-partners/-/issues?sort=created_date&state=opened).
+We've developed Job frameworks to provide clarity and consistency in our expectations for each job level at GitLab. There are two Job Frameworks: [one for Individual Contributors and one for People Managers](https://docs.google.com/spreadsheets/d/1A46wqVK0ZdhmN7HT7G3QrBbExJw6vZJrSCFIiFd9T7U/edit?usp=sharing) which are available to internal GitLab team members only, that map to the levels outlined in our [job grades](/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades). If we make any updates to the frameworks we will always communicate that broadly. If you as a team member want to propose any changes we recommend that you to open a confidential issue in [the People Business Partner project](https://gitlab.com/gitlab-com/people-group/people-business-partners/-/issues?sort=created_date&state=opened).
 
 ### Goals of the Job Frameworks
 
@@ -62,7 +62,7 @@ We are using the Job Frameworks in the following programs:
 - [Talent Assessment](/handbook/people-group/talent-assessment/):
   - Job frameworks should be leveraged in the Talent Assessment program for both the self-assessment and the manager assessment in evaluating a team member against the competencies for their grade level. In a review of the competencies per level, strengths and development opportunities may surface which can help with content for the review that can lead to discussions with the team member and their manager on future development and career opportunities.
 - [Succession Planning](/handbook/people-group/talent-assessment/#succession-planning):
-  - In the near future we will further build out how we can leverage Job frameworks in Succession planning.
+  - We leveral Job Frameworks in Succession planning as we assess requirements for each role level.
 
 ### Competencies per Job
 
@@ -74,6 +74,7 @@ This ranges from focus on own work to cross-company and external influence in te
 This ranges from low/moderate complexity and problem solving to highly complex issues that influence the accomplishment of long-term goals of GitLab.
 - **Leadership & People Management/Communication**: The level of leadership they display and how they communicate within the organization. We expect that individual contributors also show leadership in their roles.
 This ranges from within their team to executives and board members.
+- [**High Performing Teams**](/internal.gitlab.com/handbook/company/high-performing-teams/#high-performing-teams-indicators): Each characteristic of high performance is broken into 3 indicators to help you recognize and measure success.
 - [**Values Competencies**](/handbook/people-group/competencies/#values-competencies): Competencies that are aligned with our [CREDIT Values](/handbook/values/#credit).
 - [**Remote Working Competencies**](/handbook/people-group/competencies/#remote-work-competencies): Competencies that are aligned with our Remote working competencies.
 - [**Functional Competencies**](/handbook/people-group/competencies/#functional-competencies): Competencies that are specific per function. These are built out by each function themselves.
@@ -85,11 +86,11 @@ Besides the above competency categories we have added two categories to the Job 
 
 ### Individual Contributor Job Framework
 
-Individual contributors are [Managers of One](/handbook/values/#managers-of-one). ICs make up the majority of the GitLab team members. [The Job Framework for ICs](https://docs.google.com/spreadsheets/d/1FX4NBwF099uMBm7mGBtf1orIJZuHEjtiEa3jSbg9jJs/edit#gid=819074618) is a high level guide that describes the minimum competencies we expect at each level of an IC. For exact requirements and responsibilities per level team members should refer to the Job Family page of each job.
+Individual contributors are [Managers of One](/handbook/values/#managers-of-one). ICs make up the majority of the GitLab team members. [The Job Framework for ICs](https://docs.google.com/spreadsheets/d/1A46wqVK0ZdhmN7HT7G3QrBbExJw6vZJrSCFIiFd9T7U/edit?usp=sharing) is a high level guide that describes the minimum competencies we expect at each level of an IC. For exact requirements and responsibilities per level team members should refer to the Job Family page of each job.
 
 ### People Managers Job Framework
 
-You can find [the Job Framework for People Managers in the tab here](https://docs.google.com/spreadsheets/d/1FX4NBwF099uMBm7mGBtf1orIJZuHEjtiEa3jSbg9jJs/edit#gid=0). Below we will describe each level and their reporting structure.
+You can find [the Job Framework for People Managers in the tab here](https://docs.google.com/spreadsheets/d/1A46wqVK0ZdhmN7HT7G3QrBbExJw6vZJrSCFIiFd9T7U/edit?usp=sharing). Below we will describe each level and their reporting structure.
 
 #### General Expectations of all People Managers
 

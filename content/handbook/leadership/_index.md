@@ -77,7 +77,7 @@ This is a more [efficient](/handbook/values/#efficiency), [transparent](/handboo
 Giving regular [feedback](/handbook/company/culture/all-remote/effective-communication/#feedback-is-a-gift) is extremely important for both managers and team members. Feedback can take the form of coaching sessions, separate from [1-to-1 meetings]({{< ref "1-1" >}}). Giving feedback is also about being prepared and, depending on the situation, you should create separate agendas and structure them as follows:
 
 1. Provide [context](/handbook/company/culture/all-remote/effective-communication/#understanding-low-context-communication).
-1. Use a framework for your feedback. Our recommended framework is [Crucial Conversations]({{< ref "crucial-conversations" >}}) -- we offer [a training course](/handbook/total-rewards/benefits/general-and-entity-benefits/growth-and-development/#crucial-conversations-training), and the book is part of our [recommended reading for leaders](#books).
+1. Use a framework for your feedback. Our recommended framework is [Crucial Conversations]({{< ref "crucial-conversations" >}}) -- we offer [a training course](/handbook/people-group/learning-and-development/growth-and-development/#crucial-conversations-training), and the book is part of our [recommended reading for leaders](#books).
 1. Ask yourself, is this:
     - Actionable
     - Specific
@@ -323,8 +323,8 @@ When you give leadership training please [screen share the handbook instead of c
 
 ### Leadership Development Opportunities
 
-1. Managers can participate in our [Elevate program](/handbook/people-group/learning-and-development/elevate/), focused on developing management skills to lead all-remote teams.
-1. Leadership development coaching with the [growth & development benefit](/handbook/total-rewards/benefits/general-and-entity-benefits/growth-and-development/#introduction). More details about a formal GitLab coaching program to come.
+1. Managers can participate in our [Elevate program](/handbook/people-group/learning-and-development/elevate-programs/), focused on developing management skills to lead all-remote teams.
+1. Leadership development coaching with the [growth & development benefit](/handbook/people-group/learning-and-development/growth-and-development/#introduction). More details about a formal GitLab coaching program to come.
 1. [Self-led opportunities to be a mentor](/handbook/people-group/learning-and-development/mentor/) - keep an eye out for a company-wide mentorship program with applications opening at the end of January 2022.
 1. [Join the women's TMRG mentorship group](/handbook/company/culture/inclusion/tmrg-gitlab-women/mentorship-program/) to either be a mentor to practice leadership or get paired with a leader to learn from.
 1. Sign up for [Crucial Conversations training](/handbook/people-group/learning-and-development/learning-initiatives/#crucial-conversations)

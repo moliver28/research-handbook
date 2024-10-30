@@ -13,7 +13,7 @@ For our purposes, when referring to partitioning we are referring to a local opt
 
 Definition - "Partitioning refers to splitting what is logically one large table into smaller physical pieces." Reference: [PostgreSQL: Documentation: 11: 5.10. Table Partitioning](https://www.postgresql.org/docs/11/ddl-partitioning.html)
 
-To learn more about the implementation details and performance improvements of partitioning please read the Database Team handbook entry: [Database Partitioning](/handbook/engineering/infrastructure/core-platform/data_stores/database/doc/partitioning.html)
+To learn more about the implementation details and performance improvements of partitioning please read the Database Team handbook entry: [Database Partitioning](/handbook/engineering/infrastructure/core-platform/data_stores/database/doc/partitioning/)
 
 ### Sharding
 
@@ -31,4 +31,4 @@ Foreign Data Wrappers allow for accessing remote data from multiple data sources
 
 ### Partitioning with FDW = Sharding
 
-With PostgreSQL, partitioning is the first implementation step taken on the path to sharding using Foreign Data Wrappers (FDW).  More information and implementation details can be found in the Database Team Handbook Entry: [PostgreSQL 11 sharding with foreign data wrappers and partitioning](/handbook/engineering/infrastructure/core-platform/data_stores/database/doc/fdw-sharding.html)
+With PostgreSQL, partitioning is the first implementation step taken on the path to sharding using Foreign Data Wrappers (FDW).  More information and implementation details can be found in the Database Team Handbook Entry: [PostgreSQL 11 sharding with foreign data wrappers and partitioning](/handbook/engineering/infrastructure/core-platform/data_stores/database/doc/fdw-sharding/)

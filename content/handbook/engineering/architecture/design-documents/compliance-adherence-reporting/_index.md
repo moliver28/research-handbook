@@ -99,11 +99,14 @@ compliance frameworks in GitLab 17.3.
 
 ### Decisions
 
-- [001: Triggering Checks](decisions/001_triggering_checks.md)
+- ~~[001: Triggering Checks](decisions/001_triggering_checks.md)~~ (changed, see ADR 004)
 - [002: Custom Adherence Report](decisions/002_custom_adherence_report.md)
 - [003: Custom Controls](decisions/003_custom_controls.md)
+- [004: Use Time-based Triggers for Checks](decisions/004_time_based_triggers.md)
 
 ### Design Details
+
+See [Scalability review document](scalability_review.md) for further details.
 
 We decided to use [Sidekiq workers for creating checks](decisions/001_triggering_checks.md#use-sidekiq-workers-for-creating-and-updating-checks)
 and [storing the adherence configuration in database as relational data](decisions/002_custom_adherence_report.md#storing-the-compliance-adherence-configuration-in-database-as-relational-data).
@@ -144,7 +147,7 @@ The compliance requirements would be stored in a separate table with the followi
         description: text
         requirement_type: smallint
         external_url: text
-        expression: jsonb
+        expression: text
     }
 
     class project_compliance_status {
@@ -183,8 +186,8 @@ The compliance requirements would be stored in a separate table with the followi
 ```
 
 We created a new table `project_compliance_configuration_status` for storing the results of compliance requirements and
-would drop the existing `project_compliance_standards_adherence` table later on. We don't have a `standard` column
-anymore as we don't want to associate requirements with a standard anymore, therefore, allowing the users to customise
+plan on dropping the existing `project_compliance_standards_adherence` table. We no longer have a `standard` column
+as we don't want to associate requirements directly with a standard, allowing the users to customise
 and group requirements as per their need.
 
 Unlike the current implementation we would only store results for the projects that have compliance requirements

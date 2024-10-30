@@ -115,28 +115,6 @@ flowchart TB
                 end
 ```
 
-### QA test pipelines
-
-The test pipelines run on a scheduled basis, and their results are posted to Slack. The following are the QA test pipelines that are monitored every day.
-
-| Environment                               | Links                                                                                                                                                                                                                                                   | Tests type      | Frequency                                                                                                                                                                                                                                                      | Slack channel                                                                                                                       | Latest test report                                                                                           |
-|-------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------|
-| Production                                | [Pipelines](https://ops.gitlab.net/gitlab-org/quality/production/pipelines) \| [Chatops](https://gitlab.com/gitlab-com/chatops/-/blob/eb65043eda62102b0ca38dd0cd5afc36a9dcedb4/lib/chatops/gitlab/tests_pipeline.rb#L40)                                | Smoke           | [after each deployment to Canary](https://ops.gitlab.net/gitlab-com/gl-infra/deployer/pipelines) and [after a feature flag in production has been updated to *true* or *100%*](https://docs.gitlab.com/ee/development/feature_flags/)                          | [`#e2e-run-production`](https://gitlab.slack.com/messages/CCNNKFP8B)                                                                                                                  | [Production Sanity](https://gitlab-qa-allure-reports.s3.amazonaws.com/production-sanity/master/index.html)   |
-| Canary                                    | [Pipelines](https://ops.gitlab.net/gitlab-org/quality/canary/pipelines) \| [Definition](https://gitlab.com/gitlab-org/release-tools/-/blob/72b34fb21ecea70aec3ac2ce4e2387189c24bd3b/.gitlab/ci/coordinated-pipeline.gitlab-ci.yml#L695-713)             | Smoke           | [after each deployment to Canary](https://ops.gitlab.net/gitlab-com/gl-infra/deployer/pipelines)                                                                                                                                                               | [`#e2e-run-production`](https://gitlab.slack.com/messages/CCNNKFP8B)                                                                                                                  | [Canary Sanity](https://gitlab-qa-allure-reports.s3.amazonaws.com/canary-sanity/master/index.html)           |
-| -                                         | [Pipelines](https://ops.gitlab.net/gitlab-org/quality/canary/pipelines) \| [Definition](https://gitlab.com/gitlab-org/release-tools/-/blob/954ef48375acddcbf7dc68c541b1437ba8c5bc7c/.gitlab/ci/post-deploy-migrations-pipeline.gitlab-ci.yml#L182-194)  | Full            | [after each deployment to Canary](https://ops.gitlab.net/gitlab-com/gl-infra/deployer/pipelines)                                                                                                                                                               | [`#e2e-run-production`](https://gitlab.slack.com/messages/CCNNKFP8B)                                                                                                                  | [Canary Full](https://gitlab-qa-allure-reports.s3.amazonaws.com/canary-full/master/index.html)               |
-| Staging                                   | [Pipelines](https://ops.gitlab.net/gitlab-org/quality/staging/pipelines) \| [Definition](https://gitlab.com/gitlab-org/release-tools/-/blob/954ef48375acddcbf7dc68c541b1437ba8c5bc7c/.gitlab/ci/post-deploy-migrations-pipeline.gitlab-ci.yml#L197-209) | Smoke           | [after each deployment to Staging-Canary](https://ops.gitlab.net/gitlab-com/gl-infra/deployer/pipelines)                                                                                                                                                       | [`#e2e-run-staging`](https://gitlab.slack.com/messages/CBS3YKMGD)                                                                                                                     | [Staging Sanity](https://gitlab-qa-allure-reports.s3.amazonaws.com/staging-sanity/master/index.html)         |
-| -                                         | [Pipelines](https://ops.gitlab.net/gitlab-org/quality/staging/pipelines) \| [Definition](https://gitlab.com/gitlab-com/gl-infra/deployer/-/blob/29cab58a873dff1e49e9192bd6420d78e8e84bc8/ci/environments/gstg.yml#L238-248)                             | Smoke           | [after the execution of post-deploy migrations in Staging](https://ops.gitlab.net/gitlab-com/gl-infra/deployer/pipelines)                                                                                                                                      | [`#e2e-run-staging`](https://gitlab.slack.com/messages/CBS3YKMGD)                                                                                                                     | [Staging Sanity](https://gitlab-qa-allure-reports.s3.amazonaws.com/staging-sanity/master/index.html)         |
-| Staging Canary                            | [Pipelines](https://ops.gitlab.net/gitlab-org/quality/staging-canary/pipelines) \| [Definition](https://gitlab.com/gitlab-org/release-tools/-/blob/72b34fb21ecea70aec3ac2ce4e2387189c24bd3b/.gitlab/ci/coordinated-pipeline.gitlab-ci.yml#L385-403)     | Smoke           | [after each deployment to Staging](https://ops.gitlab.net/gitlab-com/gl-infra/deployer/pipelines)                                                                                                                                                              | [`#e2e-run-staging`](https://gitlab.slack.com/messages/CBS3YKMGD)                                                                                                                     | [Staging-Canary](https://gitlab-qa-allure-reports.s3.amazonaws.com/staging-canary-sanity/master/index.html)  |
-| CustomersDot Staging                      | [Pipelines](https://gitlab.com/gitlab-org/customers-gitlab-com/-/pipelines) \| [Definition](https://gitlab.com/gitlab-org/customers-gitlab-com/-/blob/e8d058a9f54aeae1218491ad34cdfd67d27d084f/.gitlab/ci/e2e.gitlab-ci.yml#L199-255)                   | Full            | [after each deployment to CustomersDot Staging](https://gitlab.com/gitlab-org/customers-gitlab-com/-/pipelines)                                                                                                                                                | [`#e2e-run-staging`](https://gitlab.slack.com/messages/CBS3YKMGD) [`#s_fulfillment_status`](https://gitlab.slack.com/messages/CL7SX4N86)                                              | [CustomersDot Staging](https://gitlab-qa-allure-reports.s3.amazonaws.com/cdot-e2e-staging/main/index.html)   |
-| Staging Ref                               | [Pipelines](https://ops.gitlab.net/gitlab-org/quality/staging-ref/pipelines) \| [Definition](https://gitlab.com/gitlab-com/gl-infra/deployer/-/blob/10cc4811f5aae0a38b77cd5c9def954a0e2afac1/ci/environments/gstg-ref.yml#L177-191)                     | Smoke           | [after each deployment to Staging Ref](https://ops.gitlab.net/gitlab-com/gl-infra/deployer/pipelines).                                                                                                                                                         | [`#e2e-run-staging-ref`](https://gitlab.slack.com/archives/C02JGFF2EAZ)                                                                  | [Staging Ref Sanity](https://gitlab-qa-allure-reports.s3.amazonaws.com/staging-ref-sanity/master/index.html) |
-| Preprod                                   | [Pipelines](https://ops.gitlab.net/gitlab-org/quality/preprod/pipelines) \| [Definition](https://gitlab.com/gitlab-com/gl-infra/deployer/-/blob/2279042064c45fdb10ce696d1c4ef12b72affbfd/ci/environments/pre.yml#L171-181)                              | Smoke           | [Every month for a few days before release, at 03:00 UTC](https://ops.gitlab.net/gitlab-org/quality/preprod/-/pipeline_schedules) and after [deployment to preprod](/handbook/engineering/infrastructure/environments/#pre) during Security and Patch releases | [`#e2e-run-preprod`](https://gitlab.slack.com/archives/CR7QH0RV1)                                                                        | [Preprod](https://gitlab-qa-allure-reports.s3.amazonaws.com/preprod-sanity/master/index.html)                |
-| Release                                   | [Pipelines](https://ops.gitlab.net/gitlab-org/quality/release) \| [Definition](https://gitlab.com/gitlab-com/gl-infra/deployer/-/blob/10cc4811f5aae0a38b77cd5c9def954a0e2afac1/ci/environments/release.yml#L82-93)                                      | Smoke           | [Every month after the final release](https://ops.gitlab.net/gitlab-org/quality/release/-/pipeline_schedules) and after [deployment to Release](/handbook/engineering/infrastructure/environments/#release) during Security and Patch releases                 | [`#e2e-run-release`](https://gitlab.slack.com/archives/C0154HCFLRE)                                                                      | [Release](https://gitlab-qa-allure-reports.s3.amazonaws.com/release-sanity/master/index.html)                |
-| GitLab `master` `e2e:test-on-omnibus-ee` | [Pipelines](https://gitlab.com/gitlab-org/gitlab/pipelines) \| [Definition](https://gitlab.com/gitlab-org/gitlab/-/blob/77a5b0b3f8f910d4fe89a3fed46c4da53b1e587e/.gitlab/ci/qa.gitlab-ci.yml#L77-88)                                                    | Full            | [scheduled pipeline every 2 hours](https://gitlab.com/gitlab-org/gitlab/pipeline_schedules)                                                                                                                                                                    | [`#e2e-run-master`](https://gitlab.slack.com/archives/CNV2N29DM)                                                                                                                      | [Master EE](https://gitlab-qa-allure-reports.s3.amazonaws.com/e2e-test-on-omnibus/master/index.html)        |
-| GitLab `master` `e2e:test-on-omnibus-ce` | [Pipelines](https://gitlab.com/gitlab-org/gitlab/-/pipeline_schedules) \| [Definition](https://gitlab.com/gitlab-org/gitlab/-/blob/77a5b0b3f8f910d4fe89a3fed46c4da53b1e587e/.gitlab/ci/qa.gitlab-ci.yml#L121-135)                                       | Full            | [Daily at 4:00am UTC](https://gitlab.com/gitlab-org/gitlab/-/pipeline_schedules)                                                                                                                                                                               | [`#e2e-run-master`](https://gitlab.slack.com/archives/CNV2N29DM)                                                                                                                      | [Master CE](https://gitlab-qa-allure-reports.s3.amazonaws.com/e2e-test-on-omnibus-ce/master/index.html)     |
-| GitLab `master` `e2e:test-on-gdk`         | [Pipelines](https://gitlab.com/gitlab-org/gitlab/-/pipelines?ref=master&amp;source=schedule) \| [Definition](https://gitlab.com/gitlab-org/gitlab/-/blob/77a5b0b3f8f910d4fe89a3fed46c4da53b1e587e/.gitlab/ci/qa.gitlab-ci.yml#L151-164)                 | Full            | [scheduled pipeline every 2 hours](https://gitlab.com/gitlab-org/gitlab/pipeline_schedules)                                                                                                                                                                    | [`#e2e-run-master`](https://gitlab.slack.com/archives/CNV2N29DM)                                                                                                                      | [Master GDK](https://gitlab-qa-allure-reports.s3.amazonaws.com/e2e-test-on-gdk/master/index.html)            |
-| GitLab `master` `e2e:test-on-cng`         | [Pipelines](https://gitlab.com/gitlab-org/gitlab/-/pipeline_schedules) \| [Definition](https://gitlab.com/gitlab-org/gitlab/-/blob/77a5b0b3f8f910d4fe89a3fed46c4da53b1e587e/.gitlab/ci/qa.gitlab-ci.yml#L166-178)                                       | Smoke, Blocking | [scheduled pipeline every 2 hours](https://gitlab.com/gitlab-org/gitlab/pipeline_schedules)                                                                                                                                                                    | [`#e2e-run-master`](https://gitlab.slack.com/archives/CNV2N29DM)                                                                                                                      | [Master CNG](https://gitlab-qa-allure-reports.s3.amazonaws.com/e2e-test-on-cng/master/index.html)            |
-| GitLab `master` Nightly                   | [Pipelines](https://gitlab.com/gitlab-org/gitlab/-/pipeline_schedules) \| [Definition](https://gitlab.com/gitlab-org/gitlab/-/blob/77a5b0b3f8f910d4fe89a3fed46c4da53b1e587e/.gitlab/ci/qa.gitlab-ci.yml#L137-149)                                       | Full            | [Daily at 4:00am UTC](https://gitlab.com/gitlab-org/gitlab/-/pipeline_schedules)                                                                                                                                                                               | [`#e2e-run-master`](https://gitlab.slack.com/archives/CNV2N29DM)                                                                                                                      | [Master Nightly](https://gitlab-qa-allure-reports.s3.amazonaws.com/nightly/master/index.html)                |
-
 #### Emoji used
 
 For each pipeline there is a notification of success or failure (except for `master` pipelines, which only report failures).
@@ -339,6 +317,70 @@ Below is the list of the common root causes in descending order of likelihood:
 5. New GitLab QA version: Check if a new [GitLab QA version](https://gitlab.com/gitlab-org/gitlab-qa/-/tags?sort=updated_desc) was released.
 
 Failure examples can be seen in [Training Videos](#training-videos).
+
+#### Determine the version, revision, branch and package deployed in GitLab environments
+
+To find out the version, revision, branch and package deployed in gitlab.com, staging and canary environments,
+run this in the #chat-ops-test Slack channel:
+
+```bash
+/chatops run auto_deploy status
+```
+
+![ChatopsAutoDeployStatus.png](ChatopsAutoDeployStatus.png)
+
+You will [need access to the https://ops.gitlab.net/gitlab-com/chatops](https://docs.gitlab.com/ee/development/chatops_on_gitlabcom.html#requesting-access) project to run `/chatops` commands.
+Ask to be added to this project in the #development Slack channel.
+
+#### Determine if a change has been deployed to an environment using revision SHA
+
+If you have a revision SHA that is deployed on an environment, you can find out if a change has made it to that environment.
+For example, if the revision SHA deployed on an environment is `c46489109e4` and you want to find out if a change in
+`restrict_by_ip_address_spec.rb` has made it there, you can use:
+
+```bash
+git show c46489109e4:qa/qa/specs/features/ee/browser_ui/1_manage/group/restrict_by_ip_address_spec.rb
+```
+
+You can determine the revision SHA deployed on a GitLab instance by either navigating to www.example.com/help,
+by calling the `http://www.example.com/api/v4/version` API or by running `/chatops run auto_deploy status` in a Slack
+channel such as #chat-ops-test.
+
+You can also determine if your commit has been deployed on a GitLab environment using [ChatOps](https://docs.gitlab.com/ee/ci/chatops).
+For example, if your commit ref is `347e530c5b3dec60c0ce2870bc79ca4c8273604d` you can run this command in a Slack
+channel such as #chat-ops-test:
+
+```bash
+/chatops run auto_deploy status 347e530c5b3dec60c0ce2870bc79ca4c8273604d
+```
+
+#### Determine the commit SHA of a nightly image
+
+The commit SHA for a nightly pipeline can be determined in the following ways:
+
+##### By visiting the /help page or calling the `/api/v4/version` API
+
+Run the nightly docker image
+
+```bash
+docker run \
+    --hostname localhost \
+    --publish 443:443 --publish 80:80 --publish 22:22 \
+gitlab/gitlab-ee:nightly
+```
+
+The commit SHA can be determined by visiting the http://localhost/help page after sign-in
+or by calling the [`/api/v4/version` API](https://docs.gitlab.com/ee/api/version.html#version-api) where it is displayed as a value of the `revision` attribute.
+
+##### By inspecting the pipeline that created the nightly image
+
+Nightly images are created by scheduled pipelines here: https://dev.gitlab.org/gitlab/omnibus-gitlab/pipeline_schedules
+
+You can look at the last pipeline by clicking the pipeline number for CE nightly or EE nightly under
+the "Last pipeline" column.
+
+In the pipeline view click a job under the "Gitlab_com:package" column. The SHAs for GitLab Components
+are listed towards the end of the logs. The GitLab commit SHA is displayed as a value of `gitlab-rails`.
 
 #### Run the test against your GDK
 
@@ -551,6 +593,7 @@ A job may fail due to infrastructure or orchestration issues that are not relate
 - Failed to complete orchestration of a Geo cluster
 - CI runner timeouts
 - 500 error while uploading job artifacts
+- Expired tokens (For more information, check out how to [Rotate Credentials](https://internal.gitlab.com/handbook/engineering/infrastructure/engineering-productivity/rotating-credentials/))
 
 #### Failure due to external dependency
 

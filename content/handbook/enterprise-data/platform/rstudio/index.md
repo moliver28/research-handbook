@@ -239,11 +239,54 @@ This documentation was creating using RStudio version 2022.07.1.
 
 Google Sheets and R have the ability to interact via the `googlesheets4` and `googledrive` packages in R.
 
-1. Installation
-2. Reading Existing Google Sheets
-3. Writing to Google Sheets
+1. Google App Authentication Setup
+2. Package Installation
+3. Reading Existing Google Sheets
+4. Writing to Google Sheets
 
-### Part 1: Installation
+### Part 1: Google App Authentication Setup
+
+1. Follow the steps in the [handbook](/handbook/security/corporate/systems/google/apps/) to add yourself to the Google Cloud Project. 
+2. Submit and issue similar to [this one](https://gitlab.com/gitlab-com/gl-security/corp/infra/issue-tracker/-/issues/877) to set up access for yourself specifically
+3. Once the access is set up, you can use the below code to work through setting up and configuring access in RStudio.
+
+```r
+library(googlesheets4)
+library(googledrive)
+## googlesheets4 Test
+google_app <- httr::oauth_app(
+    "R",
+    key = "[KEY].apps.googleusercontent.com",
+    secret = "[SECRET]"
+)
+
+google_key <- "[GOOGLE_KEY]"
+
+# googlesheets4::gs4_auth_configure(app = google_app,
+#                                   api_key = google_key)
+
+googlesheets4::gs4_auth_configure(client = gargle::gargle_oauth_client_from_json("~/Google Drive/Shared drives/People Analytics/Google API in R/googlesheets_api_sm.json"), 
+                                  api_key = google_key)
+
+googlesheets4::gs4_auth()
+
+## Test Read
+googlesheets4::read_sheet(ss = "https://docs.google.com/spreadsheets/d/1Oe7AduRIKO7Zqh60v51Zn-WnTJYpcMDho_394urBmpA",
+                          sheet = "stop_words") |>
+    View()
+
+
+## googledrive Test
+
+googledrive::drive_auth()
+
+googledrive::drive_mv(file = "[SHEET_NAME]",
+         path = as_id("[PATH]"),
+         overwrite = TRUE)
+
+```
+
+### Part 2: Installation
 
 - Run the following code in R to install the necessary packages in RStudio
 
@@ -254,7 +297,7 @@ invisible(lapply(pkg, library, character.only = TRUE))
 rm(pkg)
 ```
 
-### Part 2: Reading Existing Google Sheets
+### Part 3: Reading Existing Google Sheets
 
 - The `read_sheet()` function will allow you to read an existing spreadsheet
   - Run the `read_sheet()` command in R pointing to the Spreadsheet URL you want to view
@@ -266,7 +309,7 @@ rm(pkg)
   - A new window will open saying authentication is complete. Close the browser window.
   - rerun the `read_sheet()` command again to confirm you can see output in R
 
-### Part 3: Writing to Google Sheets
+### Part 4: Writing to Google Sheets
 
 Below are a list of functions that can be used to write data into a Google Sheet with examples.
 

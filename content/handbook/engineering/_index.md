@@ -2,22 +2,22 @@
 title: Engineering
 ---
 
-## FY24 Direction
+## Engineering Direction
 
 GitLab has a [Three-Year Strategy](/handbook/company/strategy/), and we're excited to see every member of the Engineering division contribute to achieving it. Whether you're creating something new or improving something that already exists, we want you to feel empowered to bring your best ideas for influencing the product direction through improved scalability, usability, resilience, and system architectures. And when you feel like you need to expand your knowledge in a particular area, know that you're supported in having the resources to learn and improve your skills.
 
-Our focus on FY24 is to make sure that GitLab is enterprise grade in all its abilities and to support the AI efforts required to successfully launch Code Suggestions and GitLab Duo to General Availability.
+Our focus is to make sure that GitLab is enterprise grade in all its abilities and to support the AI efforts required to successfully launch AI features to General Availability.
 
-Making sure that GitLab is enterprise grade involves several teams collaborating on improving our disaster recovery and support offerings through ongoing work with GitLab Dedicated, and Cells infrastructure.  Our goal here is improved availability and service recovery.
+Making sure that GitLab is enterprise grade involves several teams collaborating on improving our disaster recovery and support offerings through ongoing work with GitLab Dedicated and Cells infrastructure. Our goal here is improved availability and service recovery.
 
 ## Engineering Culture
 
 Engineering culture at GitLab encompasses the processes, workflows, principles
-and priorities that all stem from our [GitLab Values](/handbook/company/culture/all-remote/values).
+and priorities that all stem from our [GitLab Values](/handbook/values/).
 All these things continuously strengthen our engineering craftsmanship and
 allow engineers to achieve engineering excellence, while growing and having a
-significant, positive impact on the product, people and the company as a whole.
-Our engineering culture is primarily being carried, and evolves, through
+significant, positive impact on the product, people, and the company as a whole.
+Our engineering culture is primarily being carried and evolves through
 knowledge sharing and collaboration. Everyone can be part of this process
 because at GitLab everyone can contribute.
 
@@ -31,17 +31,17 @@ allows everyone to contribute.
 
 ## Engineering Initiatives
 
-Engineering is the primary advocate for the performance, availability, and security of the GitLab project. Product Management prioritizes 60% of engineering time, so everyone in the engineering function should participate in the Product Management [prioritization process](/handbook/product/cross-functional-prioritization) to ensure that our project stays ahead in these areas. Engineering prioritizes 40% of time on initiatives that improve the product, underlying platform and foundational technologies we use.
+Engineering is the primary advocate for the performance, availability, and security of the GitLab project. Product Management prioritizes 60% of engineering time, so everyone in the engineering function should participate in the Product Management [prioritization process](/handbook/product/product-processes/cross-functional-prioritization/) to ensure that our project stays ahead in these areas. Engineering prioritizes 40% of time on initiatives that improve the product, underlying platform, and foundational technologies we use.
 
-Work in the 40% time budget should be coordinated and prioritized by the engineering manager of a team. Use the label "Engineering Time" for issues and MRs that are done as part of it so we can follow the work and the results across the engineering division.
+Work in the 40% time budget should be coordinated and prioritized by the Engineering Manager of a team. Use the label `Engineering Time` for issues and MRs that are done as part of it so we can follow the work and the results across the engineering division.
 
 - Contributing to broad engineering initiatives and participating in working group-related tasks.
-- Review fixes from our support team. These merge requests are tagged with the `Support Team Contributions` label.  You can [filter on open MRs](https://gitlab.com/gitlab-org/gitlab/-/merge_requests?label_name%5B%5D=Support%20Team%20Contributions).
+- Review fixes from our support team. These merge requests are tagged with the `Support Team Contributions` label. You can [filter on open MRs](https://gitlab.com/gitlab-org/gitlab/-/merge_requests?label_name%5B%5D=Support%20Team%20Contributions).
 - Working on high priority issues as a result of [issue triaging](/handbook/engineering/infrastructure/engineering-productivity/issue-triage/). This is our commitment to the community and we need to include some capacity to review MRs or work on defects raised by the community.
 - Improvements to the performance, stability and scalability of a feature or dependency including underlying infrastructure. Again, the Product team should be involved in the definition of these issues but Engineering may lead here by planning, prioritizing, and coordinating the recommended improvements.
 - Improvements and upgrades to our toolchain in order to boost efficiency.
 - Codebase improvements: Removing technical debt, updating or replacing outdated dependencies, and enhancing logging and monitoring capabilities.
-- Constructing proof-of-concept models for thorough exploration of new technologies, enhancements and new possibilites
+- Constructing proof-of-concept models for thorough exploration of new technologies, enhancements and new possibilites.
 - Work on improvements and feature enhancements to the product, in the sense of internal community contributions, that would increase our internal engineering productivity by focusing on ready-to-go items that are currently assigned a low priority in the backlog.
 
 ### Technical Roadmaps
@@ -49,13 +49,13 @@ Work in the 40% time budget should be coordinated and prioritized by the enginee
 Some of the above examples for the 40% time budget can help in forming a long-term technical roadmap for your group, and determine how best to prioritize your technical work to support overall business goals. In addition to the examples above:
 
 - Ask yourself these questions
-  - What are your most frequent sources of delays? (Could be long-standing tech debt you have to work past while developing, could be lack of reviewers for your domain, could be external to your team like with pipeline duration) 
+  - What are your most frequent sources of delays? (Could be long-standing tech debt you have to work past while developing, could be lack of reviewers for your domain, could be external to your team like with pipeline duration)
   - Do you have any consistently similar bugs or security issues that come in due to a certain area?
   - Has your team been talking about potentially refactoring any areas?
   - Is your team struggling with certain processes?
   - Have you had recent incidents that allude to a larger problem?
   - Are you getting frequent requests for help in some area?
-  - Is your team frequently missing their deliverable commitments? What would help? 
+  - Is your team frequently missing their deliverable commitments? What would help?
   - Does your area have performance (slow endpoints, inconsistent responses, intermittent errors) or scalability (the feature or area as-is will not scale) concerns?
   - Where do you see the biggest instability? Have you talked to operations and support about feedback for  your area?
   - Do you have application or rate limits in the right places?
@@ -67,13 +67,13 @@ Some of the above examples for the 40% time budget can help in forming a long-te
   - Do you have adequate telemetry , logging, monitoring of your features?
   - Do you have adequate error handling and error codes that allows fast and easy diagnostics?
 - Gather data like this
-  - Master:Broken issues 
+  - Master:Broken issues
   - ~"severity::1" and ~"severity::2"  bugs
   - Missed-Slo issues
   - Flaky test issues
   - ~"type::maintenance" issues
 - Think about the future state of your product
-  - Where do you want your product to be this time next year? 
+  - Where do you want your product to be this time next year?
   - What are the technical requirements to achieve that?
   - What are technical topics that would benefit from research/POCs?
   - What would make it easier for you to achieve that if it was no longer a factor?
@@ -113,19 +113,19 @@ We have a 3-year goal of [reaching 1,000 monthly contributors](/handbook/company
 
 ### Diversity
 
-[Diverse teams perform better.](https://www.cio.com/article/189194/5-ways-diversity-and-inclusion-help-teams-perform-better.html#:~:text=With%20diversity%20comes%20multiple%20perspectives,better%20decisions%20based%20on%20facts.) They provide a sense of belonging that leads to higher levels of trust, better decision making, and a larger talent pool. [They also focus more on facts, process facts more carefully, and are more innovative.](https://hbr.org/2016/11/why-diverse-teams-are-smarter) By hiring globally and increasing the numbers of women and ethnic minorities in the Engineering division, we're helping everyone bring their best selves to work.
+[Diverse teams perform better](https://www.cio.com/article/189194/5-ways-diversity-and-inclusion-help-teams-perform-better.html). They provide a sense of belonging that leads to higher levels of trust, better decision making, and a larger talent pool. [They also focus more on facts, process facts more carefully, and are more innovative](https://hbr.org/2016/11/why-diverse-teams-are-smarter). By hiring globally and increasing the numbers of women and under represented groups (URGs) in the Engineering division, we're helping everyone bring their best selves to work.
 
 ### Growing our team
 
-Hiring is still a top priority in FY24, and we're excited to continue hiring people who are passionate about our product and have the skills to make it the best DevSecOps tool in the market. Our current focus areas include reducing the amount of time between offer and start dates and hiring a diverse team (see above). We're also implementing industry-standard approaches like structured, behavioral, and situational interviewing to help ensure a consistent interview process that helps to identify the best candidate for every role. We're excited to have a recruiting org to partner with as we balance the time that managers spend recruiting against the time they spend investing in their current team members.
+Strategic hiring is a top priority, and we're excited to continue hiring people who are passionate about our product and have the skills to make it the best DevSecOps tool in the market. Our current focus areas include reducing the amount of time between offer and start dates and hiring a diverse team (see [above](#diversity)). We're also implementing industry-standard approaches like structured, behavioral, and situational interviewing to help ensure a consistent interview process that helps to identify the best candidate for every role. We're excited to have a recruiting org to partner with as we balance the time that managers spend recruiting against the time they spend investing in their current team members.
 
-### Expand customer focus through depth, and stability
+### Expand customer focus through depth and stability
 
-As expected, a large part of our focus in FY24 is on improving our product.
+As expected, a large part of our focus is on improving our product.
 
 For **Enterprise customers**, we're refining our product to meet the levels of security and reliability that customers rightfully demand from SaaS platforms _(SaaS Reliability)_. We're also providing more robust utilization metrics to help them discover features relevant to their own DevOps transformations _(Usage Reporting)_ and offering the ability to purchase and manage licenses without spending time contacting Sales or Support _(E-Commerce and Cloud Licensing)_. Lastly, in response to Enterprise customer requests, we're adding features to support Suggested Reviewers, better portfolio management through Work Items, and Audit Events that provide additional visibility into user passive actions.
 
-For **Free Users**, we're becoming more efficient with our open core offering, so that we can continue to support and give back to students, startups, educational institutions, open source projects, GitLab contributors, and nonprofits
+For **Free Users**, we're becoming more efficient with our open core offering, so that we can continue to support and give back to students, startups, educational institutions, open source projects, GitLab contributors, and nonprofits.
 
 For **Federal Agencies**, we're obtaining FedRAMP certification to strengthen confidence in the security standards required on our SaaS offering. This is a mandated prerequisite for United States federal agencies to use our product.
 
@@ -135,11 +135,12 @@ For customers using **CI/CD**, we're expanding the available types of Runners to
 
 ## Engineering Departments
 
-There are four departments within the Engineering Division:
+There are five departments within the Engineering Division:
 
 - [Core Development Department](/handbook/engineering/core-development/)
 - [Expansion Development Department](/handbook/engineering/expansion-development/)
-- [Infrastructure & Quality Department](/handbook/engineering/infrastructure-quality/)
+- [Technical Infrastructure](/handbook/engineering/infrastructure/)
+- [SaaS Platforms](/handbook/engineering/infrastructure/platforms/)
 - [Support Engineering Department](/handbook/support/)
 
 ## Other Related Pages
@@ -172,23 +173,22 @@ There are four departments within the Engineering Division:
 - [Contributing to Go projects](https://docs.gitlab.com/ee/development/go_guide/index.html)
 - [Wider Community Merge Request Triage Policies](/handbook/engineering/infrastructure/engineering-productivity/merge-request-triage/)
 - [Root Cause Analysis](/handbook/engineering/root-cause-analysis/)
-- [Critical Security Releases](https://gitlab.com/gitlab-org/release/docs/blob/master/general/security/process.md#critical-security-releases)
+- [Unplanned Critical Patch releases](/handbook/engineering/releases/patch-releases/#unplanned-critical-patch-release-process)
 - [Incident Management](/handbook/engineering/infrastructure/incident-management/)
 
 ### GitLab in Production
 
-- [Workflow Diagram](/handbook/engineering/workflow/related-workflows.html)
+- [Workflow Diagram](/handbook/engineering/workflow/related-workflows/)
 - [Error Budgets](/handbook/engineering/error-budgets/)
 - [Performance of GitLab](/handbook/engineering/performance/)
 - [Monitoring of GitLab.com](/handbook/engineering/monitoring/)
-- [Production Readiness Guide](https://gitlab.com/gitlab-com/infrastructure/blob/master/.gitlab/issue_templates/production_readiness.md)
+- [Production Readiness Guide](https://gitlab.com/gitlab-com/gl-infra/readiness/-/blob/master/.gitlab/issue_templates/production_readiness.md)
 
 ### People Management
 
-- [Engineering Compensation Roadmaps](/handbook/engineering/compensation-roadmaps/)
 - [Engineering Career Development](/handbook/engineering/careers/)
 - [Engineering Career Mobility Principles](/handbook/engineering/careers/#mobility-principles)
-- [Engineering Internship](/handbook/engineering/internships/)
+- [Emerging Talent @ GitLab](/handbook/hiring/emerging-talent/)
 - [Engineering Secondments](/handbook/engineering/secondments/)
 - [Engineering Management](/handbook/engineering/management/)
 - [Volunteer Coaching program for URGs](/handbook/engineering/volunteer-coaches-for-urgs/)
@@ -211,7 +211,7 @@ To maintain high availability, Engineering runs a weekly SaaS Availability stand
 
 Each week the Infrastructure team reports on incidents and key metrics. Updating these items at the top of the
 [Engineering Allocation Meeting Agenda](https://docs.google.com/document/d/1Zk3qgbn8iDyJRq0i5C5LPBgEopY6o1tpYEKfdNfA9Bg/edit#heading=h.5t67v3au7sd4)
-is the responsibility of the Engineering Manager for the [General Squad](/handbook/engineering/infrastructure/team/reliability/#general-squad) in Reliability.
+is the responsibility of the Engineering Manager for the [General Squad](/handbook/engineering/infrastructure/team/) in Reliability.
 
 1. Incident Review
    - Include any [S1 incidents](https://gitlab.com/gitlab-com/gl-infra/production/-/issues/?sort=created_date&state=all&label_name%5B%5D=incident&label_name%5B%5D=severity%3A%3A1&first_page_size=100) that have occurred since the previous meeting.
@@ -249,7 +249,7 @@ FCL xxxx - [team name]
 
 ## Engineering Performance Indicator process
 
-The [Quality Department](/handbook/engineering/quality) is the DRI for Engineering Performance Indicators. Work regarding KPI / RPI is tracked on the [engineering metrics board and task process](/handbook/engineering/quality#engineering-metrics-task-process).
+The [Product Analytics team](/handbook/product/groups/product-analysis/engineering/metrics/) is responsible for maintaining Engineering Performance Indicators. Work regarding KPI / RPI is tracked using the [Product Analytics task intake tracker](https://gitlab.com/gitlab-data/product-analytics/-/issues/new?issuable_template=PI%20Chart%20Help).
 
 ## Manual verification
 
@@ -259,7 +259,7 @@ but manual verification provides a higher level of confidence that features beha
 
 We manually verify issues when they are in the `workflow::verification` state.
 Generally, after you have manually verified something, you can close the associated issue.
-See the [Product Development Flow](../product-development-flow/) to learn more about this issue state.
+See the [Product Development Flow](/handbook/product-development-flow/) to learn more about this issue state.
 
 We manually verify in the staging environment whenever possible.
 In certain cases we may need to manually verify in the production environment.
@@ -279,8 +279,8 @@ requires immediate scheduling of bug fixes or development effort.
 - The issues escalated have critical business impact to the customer, determined by Customer Success and Support Engineering leadership
   - Failure to expedite scheduling may have cascading business impact to GitLab
 - Approval from a VP from Customer Success AND a Director of Support Engineering are required to expedite scheduling
-  - Customer Success: approval from either [Sherrod Patching](https://gitlab.com/spatching) or [David Sakamoto](https://gitlab.com/dsakamoto)
-  - Support Engineering: approval from either [Lee Matos](https://gitlab.com/lbot) or [Lyle Kozloff](https://gitlab.com/lyle) or [Shaun McCann](https://gitlab.com/shaunmccann) or [Val Parsons](https://gitlab.com/vparsons)
+  - Customer Success: approval from VP, Customer Success Management - [Sherrod Patching](https://gitlab.com/spatching)
+  - Support Engineering: approval from VP, Support - [Johnny Scarborough](https://gitlab.com/jscarborough)
 
 ### Process
 
@@ -316,12 +316,6 @@ Following this procedure will:
 - Provide support for Engineers if they are stuck on a problem
 - Provide another set of eyes on topics with high urgency or securing security-related fixes
 
-## Canary Testing
+## Internal Engineering handbook
 
-Information on canary testing has been moved to dedicated page [covering the canary stage and how to use it](/handbook/engineering/infrastructure/environments/canary-stage)
-
-## Engineering private handbook
-
-There are some engineering handbook topics that we cannot be publicly transparent about.  These topics can be viewed by GitLab team members in the [engineering section of the private handbook](https://internal.gitlab.com/handbook/engineering/).
-
-If you experience a page not found (404) error when attempting to access the internal handbook, you may need to register to use it via first browsing to the [internal handbook authorization page](https://gitlab.com/internal-handbook/internal.gitlab.com/).
+There are some engineering handbook topics that are [internal only](/handbook/communication/confidentiality-levels/#internal). These topics can be viewed by GitLab team members in the [engineering section of the internal handbook](https://internal.gitlab.com/handbook/engineering/).

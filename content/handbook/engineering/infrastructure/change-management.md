@@ -59,7 +59,7 @@ Examples:
 
 ## When you are not sure
 
-- Ask for opinions in [#infrastructure-lounge](https://gitlab.slack.com/archives/CB3LSMEJV) or [#reliability-lounge](https://gitlab.slack.com/archives/C03QC5KNW5N)
+- Ask for opinions in [#infrastructure-lounge](https://gitlab.slack.com/archives/CB3LSMEJV) or [#g_production_engineering](https://gitlab.slack.com/archives/C03QC5KNW5N)
 - Open a change management issue, err on the side of caution.
 
 ## Change Request Workflows
@@ -107,7 +107,7 @@ These are changes with high impact or high risk. If a change is going to cause d
 1. All the database changes related should have a review by a DBRE.
 1. Have the change approved by Infrastructure management at the Sr. Manager level or above by obtaining the `manager_approved` label on the Change Request issue.
 1. Identify the Engineer On-Call (EOC) scheduled for the time of the change and make them aware the change plan.
-(The source is pagerduty, if you don't have access try [getting assistance](/handbook/engineering/infrastructure/team/reliability/#getting-assistance))
+(The source is pagerduty, if you don't have access try [getting assistance](/handbook/engineering/infrastructure/team/))
 1. Announce the start of the plan execution in the `#production` Slack channel directly notifying the EOC using the `@sre-oncall` alias to ensure there are no ongoing incidents that could impact the timing of the change.  Once confirmed the EOC will apply the `eoc_approved` label and the change can proceed.
 1. Join The "Situation Room" zoom channel with the EOC and obtain verbal approval to start the plan execution.
 
@@ -137,7 +137,7 @@ These are changes that are not expected to cause downtime in Production, but whi
 1. All the database changes related should have a review by a DBRE.
 1. Have the change approved by Infrastructure management at the manager level or above by obtaining the `manager_approved` label on the Change Request issue.
 1. Identify the Engineer On-Call (EOC) scheduled for the time of the change and review the plan with them.
-(The source is pagerduty, if you don't have access try [getting assistance](/handbook/engineering/infrastructure/team/reliability/#getting-assistance))
+(The source is pagerduty, if you don't have access try [getting assistance](/handbook/engineering/infrastructure/team/))
    - [APAC EOC Schedule](https://gitlab.pagerduty.com/schedules/PF02RF0)
    - [EMEA EOC Schedule](https://gitlab.pagerduty.com/schedules/P40KYLY)
    - [Americas EOC Schedule](https://gitlab.pagerduty.com/schedules/POL1GSQ)
@@ -213,7 +213,7 @@ bastion-01-gstg  $ ./script/migrate
 
 Maintenance changes require change reviews. The reviews are intended to bring to bear the **collective** experience of the team while providing a forum for pointing out potential risks for any given change. Consider using multiple reviewers for ~C1 or ~C2 Change requests.
 
-If you are not sure who to request a review from, ask for an SRE to review the change request in [#production_engineering](https://gitlab.enterprise.slack.com/archives/C03QC5KNW5N).
+If you are not sure who to request a review from, ask for an SRE to review the change request in [#g_production_engineering](https://gitlab.enterprise.slack.com/archives/C03QC5KNW5N).
 
 Fill each of the items under the `Change Reviewer checklist` based on the change criticality label assigned to the issue.
 
@@ -280,8 +280,8 @@ The following dates are currently scheduled PCLs. Times for the dates below begi
 
 | Dates                       | Type       | Reason                        |
 |-----------------------------|------------|-------------------------------|
-| 2024-09-11 14:00 UTC -> 2024-09-13 14:00 UTC | Hard | Providing space and preserving availability due to high S1/S2 incident rate. See [this issue](https://gitlab.com/gitlab-com/gl-infra/production-engineering/-/issues/25799) for more information.  |
-| 2024-09-03 15:00 UTC -> 2024-09-04 15:00 UTC | Hard | Aiding investigation for #18489 |
+| 2024-10-25 23:00 UTC -> 2024-10-29 11:00 UTC | Hard | Upgrade CI database cluster to PostgreSQL v16 |
+| 2024-11-01 23:00 UTC -> 2024-11-05 11:00 UTC | Hard | Upgrade MAIN database cluster to PostgreSQL v16 |
 | Recurring: [Monthly release date](https://about.gitlab.com/releases/)      | Soft       | Release day                   |
 | Recurring: [Scheduled Family and Friends Days](/handbook/company/family-and-friends-day/#upcoming-family-and-friends-days)         | Soft       | Family and Friends Days                   |
 | Recurring: Saturday 01:00 UTC -> Sunday 21:00 UTC | Soft       | Weekend                   |
@@ -358,4 +358,4 @@ Exceptions to this process must be [tracked](https://gitlab.com/gitlab-com/gl-in
 ## References
 
 - Parent Policy: [Information Security Policy](/handbook/security/)
-- [Change Management Controls](/handbook/security/security-assurance/security-compliance/guidance/change-management.html)
+- [Change Management Controls](/handbook/security/security-assurance/security-compliance/guidance/change-management/)

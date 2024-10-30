@@ -46,4 +46,4 @@ Often, moving to a separate service or microservice is seen as a solution to a s
 
 ### Process for proposing a separate database
 
-The process for proposing a separate database has moved to the [required approvals](/handbook/engineering/development/required-approvals.html) section of our handbook.
+The process for proposing a separate database has moved to the [required approvals](/handbook/engineering/development/required-approvals/) section of our handbook.

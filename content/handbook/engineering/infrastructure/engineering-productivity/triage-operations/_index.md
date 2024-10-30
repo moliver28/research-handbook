@@ -192,7 +192,7 @@ This section contains issues with the `~"type::bug"` label without priority and 
 
 ##### severity::1 & severity::2 bugs past SLO
 
-This section contains bugs which has past our targeted SLO based on the severity label set. This is based on our [missed SLO detection](/handbook/engineering/infrastructure/engineering-productivity/triage-operations/index.html#missed-slo) triage policy.
+This section contains bugs which has past our targeted SLO based on the severity label set. This is based on our [missed SLO detection](/handbook/engineering/infrastructure/engineering-productivity/triage-operations/#missed-slo) triage policy.
 
 ##### Heatmap for ~customer bugs
 
@@ -540,6 +540,17 @@ Current type labels with subtype labels are:
   * `@gitlab-bot` will send a request to retry all failed jobs in the target pipeline and reply with the pipeline link.
 * Example: <https://gitlab.com/gitlab-org/quality/engineering-productivity/master-broken-incidents/-/issues/3187#note_1496076800>
 * Processor: <https://gitlab.com/gitlab-org/quality/triage-ops/-/blob/master/triage/processor/gitlab_internal_commands/command_retry_pipeline_or_job.rb>
+
+#### Reactive `delete_bot_comment` command
+
+* Automation conditions:
+  * A new issue or merge request note with `@gitlab-bot delete_bot_comment` posted by a GitLab team member as a reply to a bot comment thread.
+  * This command will not have any effect if the targeted comment is not posted by `@gitlab-bot`.
+* Automation actions:
+  * `@gitlab-bot` will delete the bot comment along with any reply comments it has.
+  * A page refresh may be needed for the thread to be removed from page.
+* Example: not available, as the comment gets deleted as a result of running the command
+* Processor: <https://gitlab.com/gitlab-org/quality/triage-ops/-/blob/master/triage/processor/gitlab_internal_commands/command_delete_bot_comment.rb>
 
 ### Database-related reactive workflow automation
 

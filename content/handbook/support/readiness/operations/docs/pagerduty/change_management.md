@@ -253,7 +253,7 @@ are not meant to be edited:
 | APAC - CMOC dropdowns           | APAC - CMOC           | 'APAC - CMOC'!2:1000                            | Support Readiness, Support Managers |
 | APAC - CMOC headers             | APAC - CMOC           | Whole sheet except F2:F1000, M2:M1000           | Support Readiness |
 | EMEA - CEOC dropdowns           | EMEA - CEOC           | 'EMEA - CEOC'!2:1000                            | Support Readiness, Support Managers, Kate Grechishkina |
-| EMEA - CEOC headers             | EMEA - CEOC           | Whole sheet except F2:F1000, M2:M1000           | Support Readiness |
+| EMEA - CEOC headers             | EMEA - CEOC           | Whole sheet except F2:F1000, M2:M1000, T2:T1000 | Support Readiness |
 | EMEA - CMOC dropdowns           | EMEA - CMOC           | 'EMEA - CMOC'!2:1000                            | Support Readiness, Support Managers, Kate Grechishkina |
 | EMEA - CMOC headers             | EMEA - CMOC           | Whole sheet except F2:F1000                     | Support Readiness |
 | AMER Managers dropdowns         | AMER Managers         | 'AMER Managers'!2:1000                          | Support Readiness, Support Managers |

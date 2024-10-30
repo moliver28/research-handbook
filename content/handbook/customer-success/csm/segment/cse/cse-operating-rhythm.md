@@ -28,6 +28,10 @@ Customer Success Operations and CS leaders determine, based on various GitLab he
 
 The CSE Team delivers monthly webinars and hands-on labs that are available to all.  The [webinar calendar](/handbook/customer-success/csm/segment/cse/webinar-calendar/) is published to our website, with a registration link for each.  Webinars are pre-recorded content with CSEs answering Q&A.  Labs provide a hands-on learning experience for each attendee with their own lab environment to work through lab exercises during the session.
 
+#### Creating Webinar Content
+
+The CSE Team works with our content team to create content for our Webinars. In order to create, from start to finish a strong webinar content. We have guidelines and tips and tricks which you can follow over at this link [Webinar Guidelines for CSEs](https://internal.gitlab.com/handbook/customer-success/cse/webinars/)
+
 #### Preparing for and Delivering a Webinar
 
 The upcoming month's webinar dates are added to an issue in the [Customer Success Engineering - Content Project](https://gitlab.com/gitlab-com/customer-success/customer-success-engineering/content/-/issues/?label_name%5B%5D=cse-events%3A%3Asign-up) and the CSE team is asked to sign up as DRIs.
@@ -69,7 +73,7 @@ The upcoming month's hands-on labs are added to an issue in the [Customer Succes
 1. Fill in the form to the best of your knowledge.
 1. Click `Submit Request`.
 
-This will result in an Issue being created on the [Demo Architect - Workshop Management Board](https://gitlab.com/gitlab-com/customer-success/demo-engineering/workshop-library/demo-engineering-workshop-issues/-/boards/7697518?label_name[]=DA%20Workshop%20Request) which will be picked up by the Demo Architecture team. 
+This will result in an Issue being created on the [Demo Architect - Workshop Management Board](https://gitlab.com/gitlab-com/customer-success/demo-engineering/workshop-library/demo-engineering-workshop-issues/-/boards/7697518?label_name[]=DA%20Workshop%20Request) which will be picked up by the Demo Architecture team.
 
 A pair of invitation codes, one for production and one for testing will be generated and shared in a comment on the issue. The Demo Architecture team will assign DRIs ownership of the session (Top level group) and verify invitation codes and associated runners are operational.
 
@@ -164,7 +168,7 @@ Escalations ought to be used sparingly and only for the larger accounts in our s
 
 There are two types of escalations: support escalations and account escalations.
 
-1. Support escalations are for existing tickets causing a very high business impact for the customer and is raising their temperature very high. The escalation process can bring attention to the issue and raise its priority within support. Following the defined process for a support ticket escalation noted on [the Support ticket attention requests page](/handbook/support/internal-support/support-ticket-attention-requests.html#submitting-a-support-ticket-attention-request-star--starring-a-ticket) is sufficient.
+1. Support escalations are for existing tickets causing a very high business impact for the customer and is raising their temperature very high. The escalation process can bring attention to the issue and raise its priority within support. Following the defined process for a support ticket escalation noted on [the Support ticket attention requests page](/handbook/support/internal-support/support-ticket-attention-requests/#submitting-a-support-ticket-attention-request-star--starring-a-ticket) is sufficient.
 1. Account escalations may or may not relate to a support ticket. It could be relevant to an open issue for a product bug or a feature request. It's useful when the customer communicates a highly-impactful problem relevant to, for example an open issue that is blocking a critical use case and causing them to evaluate other vendors for non-GitLab solutions and is thus posing a churn or contraction risk for GitLab.
 
 ### Meeting Workflow
@@ -201,13 +205,47 @@ Meetings are integral to interfacing with customers; whether we are joining a ca
 1. Once the call is complete, the call must be [logged as an activity](/handbook/customer-success/csm/cadence-calls/#review-and-update-account-details) against the customer's timeline in Gainsight.
 1. Review call and/or sync with AE if applicable and produce follow up email for customer.
 
+#### Follow up
+
+CSE should follow up with the customer within 2-3 business days after the engagement. This follow-up should include:
+
+1. A summary of the key points discussed during the meeting
+2. Any action items or next steps agreed upon
+3. Relevant resources or documentation that may be helpful for the customer
+4. An invitation for the customer to reach out with any additional questions or concerns
+
+The CSE should also update the CTA in Gainsight with the outcome of the engagement and any important notes for future reference. If there are any outstanding items that require further attention, the CSE should create appropriate follow-up tasks or escalate to the relevant teams as needed.
+
+It's important to maintain clear communication with the account/opportunity owner (AE/RM) throughout this process, keeping them informed of the engagement's progress and any significant outcomes or concerns.
+
+#### Additional questions from the customer after the follow up mail
+
+If a customer has additional questions after receiving the follow-up email, the CSE should:
+
+1. Respond promptly to the customer's inquiries, ideally within 1 business day.
+2. Provide clear and concise answers to their questions, including any relevant documentation or resources.
+3. If the questions require more in-depth discussion or demonstration, offer to schedule a brief follow-up call.
+4. Update the CTA in Gainsight with the new information and any additional actions taken.
+5. Keep the account/opportunity owner (AE/RM) informed of any significant developments or concerns raised by the customer.
+6. If the customer's questions reveal a need for ongoing support or engagement, discuss with the account owner about the possibility of extending the CSE engagement or involving other GitLab teams as appropriate.
+7. Ensure all interactions and outcomes are properly documented in Gainsight for future reference and to maintain a comprehensive record of the customer engagement.
+
+**Important Notes**:
+
+- If the topic the customer wants to address is a new topic, a new request shall be opened to clearly distinguish the different topics/requests. We also consider anything that comes up after more than 4 weeks a new request.
+- Rule of thumb: We don't want to exceed more than 3 follow ups about the same topic.
+- Please do not reopen requests from the previous quarter, even if it's related to the previous topic, it may result in uninteded consequences in regards to our metrics.
+
+If the customer comes back with additional questions to the AE or RM, please feel free to redirect them to the CSE who had the call previously with the customer.
+
 ## CSE Useful Link Signpost
 
-QBR : [Template](https://docs.google.com/presentation/d/1YlEpP81DlZd5rSqKKlxZclHY8ZDT6U1y342QFVt4qhA/edit?usp=sharing) / [CSE Cases Dashboard](https://gitlab.gainsightcloud.com/v1/ui/dashboard#/d7283d4f-4314-4bb8-a3f2-13b32a532ad7) /  [CSE Manager Dashboard](https://gitlab.gainsightcloud.com/v1/ui/dashboard#/b6c9482d-e9b8-4167-951e-f67b908cdf37)  
-**INITIATIVES** : [All Initiatives](https://gitlab.com/gitlab-com/customer-success/customer-success-engineering/scale-cse/-/issues/?sort=created_date&state=opened&label_name%5B%5D=CSE%20Initiative&first_page_size=100) / [Initiatives Needs Help](https://gitlab.com/gitlab-com/customer-success/customer-success-engineering/scale-cse/-/issues/?sort=created_date&state=opened&label_name%5B%5D=CSE%20Initiative%3A%3ANeeds%20Help&first_page_size=100) / [Comments assigned to me](https://drive.google.com/drive/u/1/search?q=followup:actionitems) / [Initiatives Board](https://gitlab.com/gitlab-com/customer-success/customer-success-engineering/scale-cse/-/boards/7715232?label_name[]=CSE%20Initiative)  
-**SIGNPOST** : [Find Product Slack Channels](/handbook/product/categories/features/) / [CS Tools](https://gitlab.com/gitlab-com/cs-tools/gitlab-cs-tools) / [Version Metrics](https://version.gitlab.com/users/sign_in) / [Metrics Dictionary Sheet](https://docs.google.com/spreadsheets/d/1EhSXqx6YXcpqHg2TpS0ZN5Rk_d2hhrTPrW5FTbmuZjw/edit?gid=0#gid=0) + [Tool](https://metrics.gitlab.com/)   
-**1:MANY** : [Adoption Labs Master Decks](https://drive.google.com/drive/u/1/folders/1h-I2J_J4MlgBmjfwxpdGiyVM0vIVW9vY) /  [Webinar Master Recordings](https://drive.google.com/drive/u/1/folders/1x0_7J30cTpfbRXjrXgG_2XOIARLusNt3) / [Webinars Youtube](https://www.youtube.com/playlist?list=PL05JrBw4t0Kpczt4pRtyF147Uvn2bGGvq) / [Scale Webinars Dashboard](https://gitlab.gainsightcloud.com/v1/ui/dashboard#/7b7c1229-e510-490f-9dbe-5c082b4e1c30)  
-**COACH** : [CI Product Coach playbook](https://docs.google.com/document/d/1qUu2JGe9c_KGMaC67z1R5li_5IVFKdyuz2xdFnic97U/edit) / [CI Coach Report](https://docs.google.com/document/d/1LUtRu5EiPES9g9EORrk6poZ6t6Grj1Wqd19CbYepHGM/edit?usp=sharing) / [Security Coach Playbook](https://docs.google.com/document/d/1e1-Ib6lDR61QigylGLmAEWMePorauCWdg2Kb3v4jYLM) / [Pipeline Parser](https://gitlab.com/ci-product-coach-pipeline-parser/pipeline-parser-2-0) / [Security Coach Common Topics & Recommendations](https://docs.google.com/document/d/1li025fruN2shzQr5tVE5Ss0wVnXcIzOMGe9V6aqeuJ4/edit#heading=h.ndg2qmc91wtx)  
+QBR : [Template](https://docs.google.com/presentation/d/1YlEpP81DlZd5rSqKKlxZclHY8ZDT6U1y342QFVt4qhA/edit?usp=sharing) / [CSE Cases Dashboard](https://gitlab.gainsightcloud.com/v1/ui/dashboard#/d7283d4f-4314-4bb8-a3f2-13b32a532ad7) /  [CSE Manager Dashboard](https://gitlab.gainsightcloud.com/v1/ui/dashboard#/b6c9482d-e9b8-4167-951e-f67b908cdf37)
+**INITIATIVES** : [All Initiatives](https://gitlab.com/gitlab-com/customer-success/customer-success-engineering/scale-cse/-/issues/?sort=created_date&state=opened&label_name%5B%5D=CSE%20Initiative&first_page_size=100) / [Initiatives Needs Help](https://gitlab.com/gitlab-com/customer-success/customer-success-engineering/scale-cse/-/issues/?sort=created_date&state=opened&label_name%5B%5D=CSE%20Initiative%3A%3ANeeds%20Help&first_page_size=100) / [Comments assigned to me](https://drive.google.com/drive/u/1/search?q=followup:actionitems) / [Initiatives Board](https://gitlab.com/gitlab-com/customer-success/customer-success-engineering/scale-cse/-/boards/7715232?label_name[]=CSE%20Initiative)
+**SIGNPOST** : [Find Product Slack Channels](/handbook/product/categories/features/) / [CS Tools](https://gitlab.com/gitlab-com/cs-tools/gitlab-cs-tools) / [Version Metrics](https://version.gitlab.com/users/sign_in) / [Metrics Dictionary Sheet](https://docs.google.com/spreadsheets/d/1EhSXqx6YXcpqHg2TpS0ZN5Rk_d2hhrTPrW5FTbmuZjw/edit?gid=0#gid=0) + [Tool](https://metrics.gitlab.com/)
+**1:MANY** : [Adoption Labs Master Decks](https://drive.google.com/drive/u/1/folders/1h-I2J_J4MlgBmjfwxpdGiyVM0vIVW9vY) /  [Webinar Master Recordings](https://drive.google.com/drive/u/1/folders/1x0_7J30cTpfbRXjrXgG_2XOIARLusNt3) / [Webinars Youtube](https://www.youtube.com/playlist?list=PL05JrBw4t0Kpczt4pRtyF147Uvn2bGGvq) / [Scale Webinars Dashboard](https://gitlab.gainsightcloud.com/v1/ui/dashboard#/7b7c1229-e510-490f-9dbe-5c082b4e1c30)
+**COACH** : [CI Product Coach playbook](https://docs.google.com/document/d/1qUu2JGe9c_KGMaC67z1R5li_5IVFKdyuz2xdFnic97U/edit) / [CI Coach Report](https://docs.google.com/document/d/1LUtRu5EiPES9g9EORrk6poZ6t6Grj1Wqd19CbYepHGM/edit?usp=sharing) / [Security Coach Playbook](https://docs.google.com/document/d/1e1-Ib6lDR61QigylGLmAEWMePorauCWdg2Kb3v4jYLM) / [Pipeline Parser](https://gitlab.com/ci-product-coach-pipeline-parser/pipeline-parser-2-0) / [Security Coach Common Topics & Recommendations](https://docs.google.com/document/d/1li025fruN2shzQr5tVE5Ss0wVnXcIzOMGe9V6aqeuJ4/edit#heading=h.ndg2qmc91wtx)
 **DEMO** : [Demo Cloud](https://gitlabdemo.cloud/login) / [Shared Demo Systems Doc](/handbook/customer-success/demo-systems/#access-shared-omnibus-instances) / [Sandbox Cloud](https://gitlabsandbox.cloud/login) / [CS Shared Demo Space](https://gitlab.com/gitlab-learn-labs/webinars)
-**TRAINING** : [DevSecOps Bootcamp Nana](https://techworld-with-nana.teachable.com/courses/enrolled/2186952) / [New CSE Learning Path](https://university.gitlab.com/learn/learning-path/scale-customer-success-engineer-cse-onboarding)  
-**USEFUL APPS** : [Rectangle](https://rectangleapp.com/) / [Amphetamine](https://apps.apple.com/us/app/amphetamine/id937984704?mt=12)  
+**TRAINING** : [DevSecOps Bootcamp Nana](https://techworld-with-nana.teachable.com/courses/enrolled/2186952) / [New CSE Learning Path](https://university.gitlab.com/learn/learning-path/scale-customer-success-engineer-cse-onboarding)
+**USEFUL APPS** : [Rectangle](https://rectangleapp.com/) / [Amphetamine](https://apps.apple.com/us/app/amphetamine/id937984704?mt=12)
+**CSE Lunch & Learn Recordings** : [Recordings](https://drive.google.com/drive/folders/1lXYzA4QSFEtR1zr0n7Nby7OYMrUYoVw4)

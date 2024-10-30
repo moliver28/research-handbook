@@ -30,18 +30,21 @@ If there is not a current job family, the recruiter is to guide the hiring manag
 
 #### Backfill Approvals
 
-Backfills require a needed approval process prior to moving to the next step of the process. All other roles (incremental/net new) do not need approval at this point in the process and can proceed to the next step.
+All backfill roles will work through an approval process before moving to the next step of the recruiting process.
 
-In order to open a backfill:
+To open a backfill:
 
-1. Manager of departing team member enters attrition in Workday via the [off-boarding process](/handbook/people-group/offboarding).
-1. Talent Acquisition Leadership (Dir+) is notified via automated reporting once attrition is entered into the system.
-1. Leadership allocates the role to appropriate recruiter.
-1. Recruiter creates a backfill issue that informs: FP&A, PBP, VP via the appropriate backfill template in [department] headcount project. For Sales, add Sales Strategy. For R&D, add the corresponding E-Group member.
-1. Recruiter works through backfill issue with the business and PBP to drive towards backfill approval: role is to be direct backfill, repurposed within a team or organization. Recruiters to ensure documentation in issue for each decision made.
-*For Sales roles only*: Once the backfill issue is created, TA leadership posts in Sales Leadership channel for approval from the VP of the department. Once approval is received, TA leader is to document approval in the backfill issue for future reference. For templates, GitLab team members can utilize [this link](https://docs.google.com/document/d/19LjNhyNhcqmBMHoaGbjPvUfjWQk0wR9w8iowPlgdfkU/edit)
-*For roles being repurposed*: the business leader owns communication to the team to discuss rationale and drive clarity. PBP/Strategy team partners on reallocation decisions.
-1. Once the role is approved/decision has been reached and all has been documented in the issue, the recruiter can create a position in Greenhouse for approval and move to the next step of the process.
+1. The Manager of a departing team member enters attrition in Workday via the [off-boarding process](/handbook/people-group/offboarding/).
+1. Each week, by noon (PST) Monday, Corporate FP&A downloads the data from Adaptive and refreshes the confidential LIVE Headcount lists shared with TA, FP&A, and relevant leaders
+   1. By the end of the day (PST) Monday, Corporate notifies FP&A partners of targeted conversations with E-Group during the week.
+1. By the end of the day (PST) Wednesday, divisional FP&A teams align with E-Group and PBPs to review all new backfill roles and determine the appropriate action for each. 
+   1. If no decisions are made, FP&A will mark backfill as paused
+   1. If decisions are made, FP&A will ensure Position IDs and GHPIDs are processed and shared with TA by the end of the day on Wednesday. 
+      - For roles being repurposed: the business leader owns communication to the team to discuss the rationale and drive clarity. PBP/Strategy team partners on reallocation decisions. 
+1. Taking the E-Group leader's decisions, each divisional Recruiting Leader will allocate the role to the appropriate recruiter.
+1. Once the role is approved/the decision has been reached and the role is allocated, the Recruiting partner will set up a kickoff strategy call with the hiring manager and will create a position in Greenhouse for approval to move to the next step of the process. 
+1. By the end of the day (PST) Thursday, the FP&A update Adaptive
+   1. FP&A includes their best estimates of the start dates of all planned personnel for the forecast period based on the input from Talent Acquisition in the headcount forecast templates. This reflects a 50/50 “most realistic” view of headcount expenses/timing and is part of the current [Forecast Interlock process](/handbook/finance/financial-planning-and-analysis/#finance-business-partners--talent-acquisition-managers-forecast-interlock).
 
 ### Create or Review the Job Family (DRI: Hiring Manager)
 

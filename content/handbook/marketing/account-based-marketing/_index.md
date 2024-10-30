@@ -23,7 +23,7 @@ ABM is a marketing strategy that concentrates resources on a set of target accou
 
 <!-- DO NOT CHANGE THIS ANCHOR -->
 
-We are the owners of the ABM platform, [6sense](/handbook.gitlab.com/handbook/marketing/marketing-operations/6sense/) at GitLab. 6sense is an Account Based Marketing platform that uses a predictive model to identify the right customers at the ideal time. We use 6sense to build our target account lists, launch display advertising, and measure account progression through the sales funnel over time. 6sense also provides account intelligence on things like intent, engagement, and keyword search. There is a 6sense data section on the account in Salesforce that is available for our XDR org and coming soon to the Sales org. If you have any questions about the tool or access to it, please drop a slack in #6sense_help.
+We are the owners of the ABM platform, [6sense](/handbook/marketing/marketing-operations/6sense/) at GitLab. 6sense is an Account Based Marketing platform that uses a predictive model to identify the right customers at the ideal time. We use 6sense to build our target account lists, launch display advertising, and measure account progression through the sales funnel over time. 6sense also provides account intelligence on things like intent, engagement, and keyword search. There is a 6sense data section on the account in Salesforce that is available for our XDR org and coming soon to the Sales org. If you have any questions about the tool or access to it, please drop a slack in #6sense_help.
 
 ## FY25 Strategy
 

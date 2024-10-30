@@ -517,7 +517,7 @@ Please note that whilst you can track leads via SFDC campaigns or UTM reports, p
 
 ## Channel Marketing Reporting
 
-We track marketing influence on channel opportunies as well as deal regisiration impact from [Market Development Funds](/handbook/resellers/Channel-Program-Guide/MDF/).
+We track marketing influence on channel opportunies as well as deal regisiration impact from [Market Development Funds](/handbook/resellers/channel-program-guide/MDF/).
 
 | Report Name                                    | Platform   | Description                                                                                                                                                                                                                                  | Link                                                                                                                                  |
 | ---------------------------------------------- | ---------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------- |

@@ -1,5 +1,5 @@
 ---
-title: "Professional Services Technical Architect - Job Role"
+title: "Professional Services Technical Architect"
 description: "As a highly visible and customer-facing position, you will work with an exceptional Professional Services organization, and the wider Customer Success team."
 ---
 
@@ -17,7 +17,7 @@ You will play a critical role in the success of Professional Services engagement
 
 ### Performance Indicator
 
-- <span style="text-decoration:underline;">PSE: [Billable utilization](/handbook/customer-success/professional-services-engineering/#implementation-plan)</span> target >= 55%
+- <span style="text-decoration:underline;">[Billable utilization](/handbook/customer-success/professional-services-engineering/#implementation-plan)</span> target >= 55%
 
 ### Technical Architect
 

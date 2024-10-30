@@ -56,7 +56,7 @@ Payments, gifts, favors, or entertainment for officials, employees, or represent
 - Navan Description box: Expense items must have a description filled out. This box is showing as optional but we require this to be filled in. This helps to correctly record the transaction and assist any reporting purposes downstream.
   - When filling in the description box , we ask for you to enter details of the expense so anyone looking at the line on a report can tell immediately (without the need of looking at the receipt) what the expense relates to and why it is claimed.
   - Please fill in the description box with details like : Items Purchased/Claimed, Period service relates to, Trip Details this claim relates to, Reason for trip, Clients Name, etc. If left blank, the expense will be bounced back to the team member to complete this portion.
-- The maximum monthly limit to be reimbursed is $10K USD (or local currency equivalent). Once this limit has been reached, all expense items will need to be approved by the A/P team in Navan.  This limit may be increased for Team Members whose positions require more spend (eg. Field Marketing), but the increase request needs to be submitted via an issue for approval by the VP, Corporate Controller and CAO. Due to the nature of their roles, E-Group members have a maximum monthly limit to be reimbursed of $20K USD before additional approvals are required.
+- The maximum monthly limit to be reimbursed is $10K USD (or local currency equivalent). Once this limit has been reached, all expense items will need to be approved by the A/P team in Navan.  This limit may be increased for Team Members whose positions require more spend (eg. Field Marketing), but the increase request needs to be submitted via an issue for approval by the VP or higher in the Accounting Organization. Due to the nature of their roles, E-Group members have a maximum monthly limit to be reimbursed of $20K USD before additional approvals are required.
 - Expenditures related to client entertainment or marketing must be necessary, prudent, and job-related.
 - Expenses that span longer than a month must be submitted on a monthly basis (eg. Although you paid for a year upfront for the internet, you must divide the total by 12 months and submit the cost monthly), with the exception of VPN.
 - Gift cards are not accepted as a form of payment for business expenses.
@@ -73,7 +73,7 @@ Payments, gifts, favors, or entertainment for officials, employees, or represent
 - The AP team will reach out to the Team Member's manager if additional approval is needed.
 - If the claim is over the advised guidance, the claim will be rejected with a note for the Team Member. The Team Member should be able to rectify the claim and resubmit.
 - Where the Team Member has already received approval from the manager, that approval should be attached as a receipt on the claim transaction.
-- Any claim made which does not fall into the policy is not reimbursable.  If an item is out of policy and approved by your manager, then please obtain and attach your manager's approval email prior to submitting the expense. This will then be reviewed by the Expense team Admin and could need further approval from VP, Corporate Controller or CAO.
+- Any claim made which does not fall into the policy is not reimbursable.  If an item is out of policy and approved by your manager, then please obtain and attach your manager's approval email prior to submitting the expense. This will then be reviewed by the Expense team Admin and could need further approval from VP or higher in the Accounting Organization.
 - There will be occasions where if you have claimed an item and it needs to be reimbursed back to GitLab, you will need to follow the repayment process in Navan for submission of the funds.
 
 ### 3.2 Trip Purpose Guidance
@@ -87,7 +87,7 @@ Payments, gifts, favors, or entertainment for officials, employees, or represent
 
 ### 3.3 Other
 
-- Out of Policy Transactions for all E-Group Members (excluding the CFO) needs to be approved by the CFO.
+- Out of Policy Transactions for all E-Group Members needs to be approved by VP or higher in the Accounting Organization.
 - Any exceptions to the policy must be documented via an issue or an email with proper approvals from their manager and Finance team.
 
 ## 4. PROCEDURES
@@ -364,7 +364,7 @@ The company will cover all work-related travel expenses. This includes lodging a
 
 #### Conferences
 
-- All costs associated with attending a conference to represent GitLab are reimbursable and an approved completed [G&D issue](/handbook/total-rewards/benefits/general-and-entity-benefits/growth-and-development) will need to be noted in the expense report upon submission. Please refer to the [Growth and Development handbook page](/handbook/total-rewards/benefits/general-and-entity-benefits/growth-and-development) for further details and requirements. The reimbursement limits currently denoted in the Growth and Development handbook page do not include the cost of travel to and from the conference, so please ensure you have Manager approval for the cost of the travel.
+- All costs associated with attending a conference to represent GitLab are reimbursable and an approved completed [G&D issue](/handbook/people-group/learning-and-development/growth-and-development/) will need to be noted in the expense report upon submission. Please refer to the [Growth and Development handbook page](/handbook/people-group/learning-and-development/growth-and-development/) for further details and requirements. The reimbursement limits currently denoted in the Growth and Development handbook page do not include the cost of travel to and from the conference, so please ensure you have Manager approval for the cost of the travel.
 - Select classification or tag "Growth and Development" in Navan when you create expenses.
 - Needs to have approved G&D Development issue which will be reviewed by AP Admin.
 - No conference expense, with the exception of travel, should be allowed outside of G&D, unless the Team Member is a speaker for an event or required to attend an event for job related responsibilities (i.e. staffing or sales).
@@ -376,14 +376,14 @@ The company will cover all work-related travel expenses. This includes lodging a
 #### Equipment
 
 - These amounts were set after a thorough analysis and review of Team Members' expense data during the previous two years and benchmarked with other remote companies. Anything over this amount will be at the expense of the Team Member and no exceptions will be made.
-- As you onboard and start your GitLab journey, new hires will receive a 1,500 USD (or equivalent local currency) stipend to help you towards setting up your home office in your first year. This will be issued to you as a Virtual Card, and you will be able to use that card to purchase items. The Virtual Card information will be sent to you by the Accounts Payable team via your Onboarding Issue. Please refer to the  [Navan End Users Guide](/handbook.gitlab.com/handbook/business-technology/enterprise-applications/guides/navan-expense-guide/) for instructions on using and accessing your Virtual Card.
+- As you onboard and start your GitLab journey, new hires will receive a 1,500 USD (or equivalent local currency) stipend to help you towards setting up your home office in your first year. This will be issued to you as a Virtual Card, and you will be able to use that card to purchase items. The Virtual Card information will be sent to you by the Accounts Payable team via your Onboarding Issue. Please refer to the  [Navan End Users Guide](/handbook/business-technology/enterprise-applications/guides/navan-expense-guide/) for instructions on using and accessing your Virtual Card.
 - Existing Team Members will get a yearly refresh of 500 USD (or equivalent local currency) to purchase upgrades, replacements, or enhancements to your home office setup. This only applies to Team Members who have been employed the entire previous fiscal year. This excludes laptops - please connect with the IT team if you require a replacement laptop.
 - We want you to set up your office the way you want it. Although we don't want to put any restrictions regarding which office equipment you may purchase, we would like to outline what is covered under the term Office Equipment.
 - What's included - Essential items which you will need to ensure you are able to perform your role in GitLab should include chair, desk, monitor, Laptop (provided), headset, external mic, external keyboard and external mouse.
 - Further to this, items like additional monitors, laptop stand, external webcam, supplementary lighting, laptop bag/case, can also be considered and expensed using the Stipend/Allowance.
 - Any items outside this will fall under an exception to the policy and will be subjected to review.
 - In addition the following items are **not reimbursable**: Phones, watches, smart speakers, smart TVs/smart monitors, walking pads/treadmills and tablets.
-- Purchasing from Private Sellers (e.g. either new or used equipment) is allowed. To expense them, attach the screenshot of your transaction with the seller showing the amount agreed upon, payment method, and item details in the description field. If paid via online transfer, attach the receipt for back up. 
+- Purchasing from Private Sellers (e.g. either new or used equipment) is allowed. To expense them, attach the screenshot of your transaction with the seller showing the amount agreed upon, payment method, and item details in the description field. If paid via online transfer, attach the receipt for back up.
 - If you have any doubts please connect with the Expense Team by submitting a request under the `Expenses -> Home Office Equipment` page of [HelpLab](/handbook/business-technology/enterprise-applications/guides/helplab-guide/). Please note that these purchases are still reviewed by your manager and accounting teams, and any misappropriation of these funds will be flagged.
 
 ##### New Hires- 1,500 USD (or equivalent local currency) Guidelines
@@ -565,7 +565,7 @@ The company will cover all work-related travel expenses. This includes lodging a
 ### Training/Tuition
 
 - All costs associated with training or tuition are reimbursable.
-- An approved [completed G&D issue](/handbook/total-rewards/benefits/general-and-entity-benefits/growth-and-development) will need to be noted in the expense report upon submission.
+- An approved [completed G&D issue](/handbook/people-group/learning-and-development/growth-and-development/) will need to be noted in the expense report upon submission.
 - The Growth and Development benefit is managed in partnership by the Total Rewards and Learning and Development team.
 - Select classification or tag "Growth and Development" in Navan when you create expenses.
 - AP Admin needs to review expense for approved issue.

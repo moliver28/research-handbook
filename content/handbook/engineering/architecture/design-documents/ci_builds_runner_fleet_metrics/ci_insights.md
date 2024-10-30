@@ -79,7 +79,7 @@ To develop this new analytic page, we will gate the new page behind a feature fl
 
 ### Add analytics on page view
 
-Make sure that we can get information on how often this page is viewed. If we do not have it, then let's implment some to know how visible this page is. The changes to this section should make the view count go up and we want to track this as a measure of success.
+Make sure that we can get information on how often this page is viewed. If we do not have it, then let's implement some to know how visible this page is. The changes to this section should make the view count go up and we want to track this as a measure of success.
 
 ### Routing
 
@@ -108,7 +108,7 @@ query getJob($projectPath: ID!, $jobName: String!){
 }
 ```
 
-There are plans to create a new unified table to log job analytics and it is not yet defined what this API will look like. Without comitting yet to an API definiton, we want so unified way to query information for nalytics that may look roughly like so:
+We want a unified way to query information for job analytics. Roughly, this could translate to the following:
 
 ```ruby
 get_jobs(project_id:, job_name: nil, stage: nil, stage_index: nil, *etc)

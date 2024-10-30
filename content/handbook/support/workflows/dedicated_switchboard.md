@@ -11,7 +11,7 @@ Read more about what the goals of Switchboard are on the [Category Direction pag
 
 ## Accessing Switchboard
 
-GitLab Support Engineers can access the [Switchboard](https://about.gitlab.com/direction/saas-platforms/switchboard/) application via [Okta](/handbook/business-technology/okta/index.html).
+GitLab Support Engineers can access the [Switchboard](https://about.gitlab.com/direction/saas-platforms/switchboard/) application via [Okta](/handbook/it/okta/).
 
 1. Log in to Okta at `https://gitlab.okta.com`
 1. Search for and click on the **Switchboard (production)** app
@@ -25,7 +25,7 @@ During [onboarding](https://docs.gitlab.com/ee/administration/dedicated/#onboard
 ## Accessing customer configuration
 
 When launching Switchboard, you should default to the `/tenants` page with a list of tenant customers.
-**Name**, **Identifier** (codename), and **External URL** are listed in a table.
+**Name**, **Identifier**, **Internal reference**, and **External URL** are listed in a table.
 Click on **Manage** to view settings for that customer.
 
 ### Version information

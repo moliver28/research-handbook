@@ -118,4 +118,4 @@ Exceptions to this procedure will be tracked as per the [Information Security Po
 ## References
 
 * Parent Policy: [Information Security Policy](/handbook/security/)
-* [Controlled Document Procedure](/handbook/security/controlled-document-procedure.html)
+* [Controlled Document Procedure](/handbook/security/controlled-document-procedure/)

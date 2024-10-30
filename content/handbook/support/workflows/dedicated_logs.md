@@ -14,7 +14,7 @@ The logs in OpenSearch will all be presented in the UTC time zone, regardless of
 
 ## Identifying tenants
 
-Each customer has a dedicated set of credentials needed for examining logs in OpenSearch. The credentials and the URL for that customer's OpenSearch instance are stored in the `GitLab Dedicated - Support` [1Password vault](/handbook/security/#vaults). Each customer is noted by a customer number in the vault, so you must refer to the `<tenant name>` to identify the proper credentials to use for a customer. This is used as part of the accessible URL, such as: `opensearch.<tenant name>.gitlab-dedicated.com`.
+Each customer has a dedicated set of credentials needed for examining logs in OpenSearch. The credentials and the URL for that customer's OpenSearch instance are stored in the `GitLab Dedicated - Support` [1Password vault](/handbook/security/#vaults). Each customer is noted by a three word **Internal reference** in the vault, so you must refer to the `<tenant name>` to identify the proper credentials to use for a customer. This is used as part of the accessible URL, such as: `opensearch.<tenant name>.gitlab-dedicated.com`. You should [use Switchboard](/handbook/support/workflows/dedicated_switchboard/#accessing-customer-configuration) as the single source of truth for identifying the **Internal reference** for a tenant based on the GitLab Dedicated instance URL.
 
 ## Accessing logs
 
@@ -153,6 +153,18 @@ To find all logs where the HTTP response status code is in the [4xx client error
 
 ### Examples
 
+#### Filter by correlation ID
+
+GitLab instances log a unique request tracking ID (known as the “correlation ID”) for most requests. An important part of troubleshooting problems in GitLab is [finding relevant log entries with a correlation ID](https://docs.gitlab.com/ee/administration/logs/tracing_correlation_id.html). Opensearch permits filtering by correlation ID. You may retrieve the correlation ID from information provided by the customer or from looking through Opensearch logs. 
+
+To show all log entries for a specific correlation ID, you can:
+
+1. Select **Add filter**
+1. Click **Select a field first**
+1. Choose `correlation_id`
+1. In the **Operator** drop-down, select `is`
+1. In the **Value** field, put the correlation ID
+
 #### Identify a deleted group or project
 
 Information about deleted groups and projects is available in the **Audit Events**. The customer should be able to review this information in the **Admin Area**. Provided the deletion occurred within the log retention window, additional information can be sought in OpenSearch. In order to identify more information about a deleted project or group in OpenSearch, you can use this information to guide the [filters](#filters) that you use.
@@ -240,3 +252,24 @@ You may wish to inspect an individual SAML response. When you have identified th
     - This file can be directly opened in some browsers like Firefox and Google Chrome to make it more readable.
 
 Read more about [what to look for in the SAML response](https://docs.gitlab.com/ee/user/group/saml_sso/troubleshooting.html#saml-debugging-tools).
+
+#### Debug a failed global search request
+
+If a search request fails, it will likely throw an error in the UI with a status code. For such failures, you can find more logs with the following steps, using an example of an error `500`:
+
+1. Select **Add filter**
+1. Click **Select a field first**
+1. Choose `status`
+1. In the **Operator** drop-down, select `is`
+1. In the **Value** box, add `500`
+1. Add another filter for the failed search term. Choose `uri`
+1. In the **Operator** drop-down, select `is` and in **Value** box add `/search?search=test`
+1. Click **Save**
+
+You can then filter by `correlation_id` only, to select the failed occurrence. Take note of the exact time at `@timestamp` to use in the next filter.
+
+1. Start a new search on a duplicated Opensearch tab.
+1. Noting the timestamp from above, copy the value of `kubernetes.host` and filter for logs within that `@timestamp` frame.
+1. Fine-tune the results by adding more filters such as, Filter: `message` Operator: `is one of` Value: `elasticsearch` to see any logs with the term elasticsearch
+
+Read more on [troubleshooting Elasticsearch](https://docs.gitlab.com/ee/integration/advanced_search/elasticsearch_troubleshooting.html#last-resort-to-recreate-an-index) for potential next steps.

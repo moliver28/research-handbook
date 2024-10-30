@@ -85,7 +85,7 @@ The first place that you get the option to embed your rolename is when you first
 
 If you want other people to be able to access your data source, you need to leave it blank. There is no reason to enter your rolename at this step, you will do it at a later step, so the proper workflow is to leave it blank at this step.
 
-From here, set up your datasource and develop as you would like. Then, when you are ready, publish your workbook/datasource. This is where you will follow the steps from the [start of this section](.../tableau-developer-guide/#connection-types-in-workbooks) for embedding your rolename as you publish the workbook.
+From here, set up your datasource and develop as you would like. Then, when you are ready, publish your workbook/datasource. This is where you will follow the steps from the [start of this section](/tableau-developer-guide/#connection-types-in-workbooks) for embedding your rolename as you publish the workbook.
 
 If you forget to embed your rolename at this step, then your users will be asked to sign into Snowflake or otherwise send an error instead of letting them access the dashboard.
 
@@ -156,8 +156,7 @@ Once in the Tag window, add in the *Draft* and department tags for the workbook:
 There are two environments for publishing: Development and Production.
 
 - **Development** is intended for testing and iterating on dashboards and data sources. This environment allows for experimentation and refinement before content is finalized.
-- **Production** is for deploying finalized content that has been validated and is ready for broader distribution and use.
-Refer to the workflow diagram below for details on the process to publish to Production.
+- **Production** is the environment for deploying **finalized, validated content** that is ready for broader distribution and trusted use across the organization. Only content that has passed all necessary reviews and meets quality standards should be promoted to Production. To publish content to Production, follow the workflow diagram below. You can request the promotion of a workbook or data source to Production by creating a [Tableau issue](https://gitlab.com/gitlab-data/tableau/-/issues/new) and using the template: `Tableau Publish to Production`. This process ensures all necessary steps are taken to safeguard data integrity and accuracy.
 
 ### Procedure for Publication to Production
 
@@ -182,30 +181,6 @@ Refer to the workflow diagram below for details on the process to publish to Pro
     E
     end
 ```
-
-#### Procedure for Promotion to Production
-
-Project Leaders have the ability to promote workbooks to Production. After a content promotion issues has been reviewd and approved Project Leads should fulfill by completing the following:
-
-- If the workbook is being published for the first time
-  1. Select **Move** by navigating to the ellipse to the right of the workbook
-  1. From the pop-up window select the appropriate department folder for the workbook promotion. Be sure to place sensitive workbooks in SAFE or restricted folders.
-  1. If the workbook title contains \[Draft\], rename the workbook and remove *Draft* from the title. The workbook may have a tag `Draft` which should also be removed by clicking the ellipse and selecting **Tags**. The associated tag can then be removed by clicking the `X` next to the tag.
-- If publishing over / updating a workbook that is already Production with a newer version from Development in Tableau Cloud then:
-  1. Select **Edit Workbook**
-  1. Click on **Publish As**
-  1. Please make sure to name the workbook JUST AS it is currently named and select the corresponding Production folder.
-  1. Updating in this manner will retain revision history, viewership counts, and custom views. Although updating this way  will place the workbook in your name. To change the owner to the original developer complete the following:
-     1. Click the ellipse next to the workbook title and click **Change Owner**
-     1. Select the proper **owner** for the workbook
-     1. When workbook ownership is changed in Tableau, for security reasons Tableau will drop data source credentials. In order to resolve this
-        1. On the Workbook click **Data Sources**
-        1. Click the elipse next to each data source
-        1. Click **Edit Connection**
-        1. From the pop-up click **Embedded credentials in the connection**
-        1. From the drop down select your name and select **Save**
-
-     1. When updating a workbook in Production will leave the original workbook in Development. This is a duplicate workbook which can cause confusion for which content to use. This workbook can be removed by either archival or deletion. To Archive ask the BI Team to move to Archive. When deleting ensure you are removing the correct workbook and also know that deleted content cannot be restored.
 
 ## Tags
 
@@ -313,6 +288,34 @@ Create a Data Source filter using the `USERNAME()` function and the `tableau_use
 ![''](images/create_filter_calc.png)
 
 ![''](images/data_source_filter.png)
+
+### Geo-Based Row-Level Security
+
+Implementing RLS based on GEO data in Tableau ensures that users access only the data pertinent to their assigned GEO. This is facilitated through the [ent_sfdc_geo](https://dbt.gitlabdata.com/#!/model/model.gitlab_snowflake.ent_sfdc_geo) table which integrates SFDC user roles with Tableau.
+
+This Geo based entitlement table is designed to manage user access to specific GEOs by combining information from SFDC user roles and Tableau's SAFE access groups. The table's logic determines access based on the following criteria:
+
+- **Users with Assigned GEOs**: If a Salesforce user has an assigned GEO, they are granted access to that specific region.
+
+- **SAFE and SFDC Role Users**: Users who are part of both the Tableau SAFE access group and specific Salesforce roles gain global access. (e.g. Executive)
+
+- **Non-Pubsec Roles**: Certain roles are granted global access excluding the 'PUBSEC' GEO (e.g. Executive - Global Minus Pubsec)
+
+- **Non-SFDC SAFE Users**: Tableau SAFE users without corresponding Salesforce roles are granted access based on their Tableau entitlements.
+
+This approach ensures that each user’s access to GEO data aligns with their organizational role and permissions.
+
+### Submitting an Access Request (AR) to Update Roles
+
+If you require modifications to your Salesforce roles or Tableau access groups to change your GEO access permissions, follow GitLab's standard Access Request process:
+
+- Submit the AR: Complete the standard [AR issue template](https://gitlab.com/gitlab-com/team-member-epics/access-requests) with the necessary details, specifying the roles or access levels you wish to obtain or modify.
+
+- Approval Workflow: Your request will undergo the standard approval process, involving reviews by the relevant managers and system administrators.
+
+- Role Assignment: Upon approval, the Sales Systems team or the Tableau Admin will implement the changes in Salesforce and/or Tableau.
+
+- Entitlement Update: The ent_sfdc_geo table will automatically reflect these changes, updating your data access permissions accordingly.
 
 ## Guidelines for Publishing Extracts
 

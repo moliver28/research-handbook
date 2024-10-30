@@ -172,7 +172,9 @@ Please be sure to include all the sections when updating or adding Engagements.
 
 ​ [Preparation materials (GitLab Team Members Only)](https://docs.google.com/presentation/d/106uQIXxy2tp3GLyl6WBdSwC7R7NUd9vTGaVePiDEo84/edit?usp=sharing)
 
-#### Outline: Terrain Mapping Best Practices For Operating Self Managed GitLab as a Production-Grade Internal Service
+#### Outline: Terrain Mapping Best Practices
+
+For Operating Self Managed GitLab as a Production-Grade Internal Service
 
 1. Teams and Users
 2. Existing Pipeline Code Analysis

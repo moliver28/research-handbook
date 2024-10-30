@@ -123,3 +123,28 @@
   term: Site Reliability Engineer
   info: |
     Site Reliability Engineers (SREs) are responsible for keeping all user-facing services and other GitLab production systems running smoothly. You can read more [here](https://handbook.gitlab.com/job-families/engineering/infrastructure/site-reliability-engineer/)
+
+- acronym: QBR
+  term: Quarterly Business Review
+  info: |
+    A once-per-quarter meeting between a vendor (us) and their client (customer) to go over key topics. Common discussion points include vendor product and service delivery since the last meeting, progress on goals, problems that need to be addressed, and changes that need to be made. The QBR is often vital to convincing the customer to renew their contract or subscription.
+
+- acronym: SPS
+  term: Success Plan Services
+  info: |
+    See this [internal Handbook page](https://internal.gitlab.com/handbook/customer-success/success-services/), which is the SSoT for SPS.
+
+- acronym: APAC
+  term: Asia-Pacific
+  info: |
+    [Asia-Pacific](https://en.wikipedia.org/wiki/Asia%E2%80%93Pacific) on Wikipedia.
+
+- acronym: EMEA
+  term: Europe, Middle East, and Africa
+  info: |
+    [Europe, the Middle East and Africa](https://en.wikipedia.org/wiki/Europe,_the_Middle_East_and_Africa) on Wikipedia.
+
+- acronym: AMER
+  term: Americas
+  info: |
+    See "AMER" in [List of country groupings](https://en.wikipedia.org/wiki/List_of_country_groupings) on Wikipedia.

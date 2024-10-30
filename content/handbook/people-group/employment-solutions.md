@@ -79,23 +79,23 @@ This table reflects the countries in which we utilize PEO's. These countries are
 
 Note: In countries with a star (*) hiring is limited to only certain roles, more detail can be found in our internal [compensation calculator](https://comp-calculator.gitlab.net/users/sign_in) under Country Hiring Status.
 
-|     Country    |  Agreement Type(s) | Hiring Partner | Entity to Invoice (for AP only) | Pay Frequency | Paid By | Currency paid in | Workday Profile (Y/N) | Scalable PEO (Y/N) | Open for hiring (Y/N) |
-|:--------------:|:------------------:|:--------------:|:-------------------------------:|:-------------:|:-------:|:----------------:|:---------------------:|:------------------:|:---------------------:|
-|    Austria *   | Employed via a PEO |   Remote.com   |           GitLab IT BV          |       12      |   PEO   |        EUR       |           Y           |          Y         |           Y           |
-|     Chile *    | Employed via a PEO |  Global Upside |           GitLab IT BV          |       12      |   PEO   |        CLP       |           Y           |          Y         |           Y           |
-|  Costa Rica *  | Employed via a PEO |  Global Upside |           GitLab IT BV          |       12      |   PEO   |        USD       |           Y           |          Y         |           Y           |
-|     India *    | Employed via a PEO |  Global Upside |           GitLab IT BV          |       12      |   PEO   |        INR       |           Y           |          Y         |           Y           |
-|     Kenya *    | Employed via a PEO |  Global Upside |           GitLab IT BV          |       12      |   PEO   |        KES       |           Y           |          Y         |           Y           |
-|    Latvia *    | Employed via a PEO |  Global Upside |           GitLab IT BV          |       12      |   PEO   |        EUR       |           Y           |          Y         |           Y           |
-|  Luxembourg *  | Employed via a PEO |   Remote.com   |           GitLab IT BV          |       12      |   PEO   |        EUR       |           Y           |          Y         |           Y           |
-|    Mexico *    | Employed via a PEO |   Remote.com   |           GitLab IT BV          |       12      |   PEO   |        MXN       |           Y           |          Y         |           Y           |
-|  Philippines * | Employed via a PEO |  Global Upside |           GitLab IT BV          |       24      |   PEO   |        PHP       |           Y           |          Y         |           Y           |
-| South Africa * | Employed via a PEO |   Remote.com   |           GitLab IT BV          |       12      |   PEO   |        ZAR       |           Y           |          Y         |           Y           |
-|  Switzerland * | Employed via a PEO |   Remote.com   |           GitLab IT BV          |       12      |   PEO   |        CHF       |           Y           |          Y         |           Y           |
-|    Sweden *    | Employed via a PEO |   Remote.com   |           GitLab IT BV          |       12      |   PEO   |        SEK       |           Y           |          Y         |           Y           |
+|     Country    |  Agreement Type(s) |  Hiring Partner  | Entity to Invoice (for AP only) | Pay Frequency | Paid By | Currency paid in | Workday Profile (Y/N) | Scalable PEO (Y/N) | Open for hiring (Y/N) |
+|:--------------:|:------------------:|:----------------:|:-------------------------------:|:-------------:|:-------:|:----------------:|:---------------------:|:------------------:|:---------------------:|
+|    Austria *   | Employed via a PEO | Global Expansion |       GitLab Services Inc       |       12      |   PEO   |        EUR       |           Y           |          Y         |           Y           |
+|     Chile *    | Employed via a PEO | Global Expansion |       GitLab Services Inc       |       12      |   PEO   |        CLP       |           Y           |          Y         |           Y           |
+|  Costa Rica *  | Employed via a PEO | Global Expansion |       GitLab Services Inc       |       12      |   PEO   |        USD       |           Y           |          Y         |           Y           |
+|     India *    | Employed via a PEO |   Global Upside  |           GitLab IT BV          |       12      |   PEO   |        INR       |           Y           |          Y         |           Y           |
+|     Kenya *    | Employed via a PEO | Global Expansion |       GitLab Services Inc       |       12      |   PEO   |        KES       |           Y           |          Y         |           Y           |
+|    Latvia *    | Employed via a PEO | Global Expansion |       GitLab Services Inc       |       12      |   PEO   |        EUR       |           Y           |          Y         |           Y           |
+|  Luxembourg *  | Employed via a PEO |    Remote.com    |           GitLab IT BV          |       12      |   PEO   |        EUR       |           Y           |          Y         |           Y           |
+|    Mexico *    | Employed via a PEO |    Remote.com    |           GitLab IT BV          |       12      |   PEO   |        MXN       |           Y           |          Y         |           Y           |
+|  Philippines * | Employed via a PEO |   Global Upside  |           GitLab IT BV          |       24      |   PEO   |        PHP       |           Y           |          Y         |           Y           |
+| South Africa * | Employed via a PEO | Global Expansion |       GitLab Services Inc       |       12      |   PEO   |        ZAR       |           Y           |          Y         |           Y           |
+|  Switzerland * | Employed via a PEO |    Remote.com    |           GitLab IT BV          |       12      |   PEO   |        CHF       |           Y           |          Y         |           Y           |
+|    Sweden *    | Employed via a PEO |    Remote.com    |           GitLab IT BV          |       12      |   PEO   |        SEK       |           Y           |          Y         |           Y           |
 
-This table reflects the countries in which we have utilized PEO's but are currently NOT open for hiring. 
-There are no current plans to open these countries for future hiring.  If we do open for hiring, it will be based on business needs. 
+This table reflects the countries in which we have utilized PEO's but are currently NOT open for hiring.
+There are no current plans to open these countries for future hiring.  If we do open for hiring, it will be based on business needs.
 More detail can be found in our internal [compensation calculator](https://comp-calculator.gitlab.net/users/sign_in) under Country Hiring Status.
 
 | Country        | Agreement Type(s)    | Hiring Partner | Entity to invoice (for AP only) | Pay Frequency | Paid By | Currency Paid in | Workday Profile (Y/N) | Employer of Record | Open for hiring (Y/N) |
@@ -162,7 +162,7 @@ Each year a spreadsheet with the project details and hours logged against the wo
 
 ## Engineering internships
 
-Engineering is currently hiring interns. The [engineering internships handbook page](/handbook/engineering/internships/) has more information on this.
+Engineering is currently hiring interns. The [engineering internships handbook page](/handbook/hiring/emerging-talent/) has more information on this.
 
 Interships require a fixed term contract during the internship, which is not possible in all countries.
 

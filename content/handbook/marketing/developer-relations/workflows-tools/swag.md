@@ -18,31 +18,17 @@ This portal shows the items you can claim, given the right coupon code. This is 
 This portal shows everything we've ordered and that is in stock & ready to ship.
 Access can be requested through an [access request](https://gitlab.com/gitlab-com/team-member-epics/access-requests/-/issues/new?issuable_template=Access_Change_Request). Mention "MyBrightSites" as the tech stack, and ping a manager from the [Developer Relations department](/handbook/marketing/developer-relations/).
 
-As of 2023-03-20, this tool is not present yet in the [tech_stack.yml](https://gitlab.com/gitlab-com/www-gitlab-com/-/blob/master/data/tech_stack.yml) file yet. This is a known issue that will soon be resolved. Only Boundless (the external vendor) has the capabilities to provision accounts today.
-
 A list of the items in our inventory with the amount of items left to be claimed is accessible in the Google Sheet.
 
 ## Sending Swag codes
 
-1. Go to the Google Sheet "Developer Relations Swag Coupon Codes & Delivery Tracking".
-1. Go to the tab "One-time Coupon codes"
-1. Add the `Email recipient` to a code of the corresponding price Tier.
-   * See [Finding Community Member Contact information](/handbook/marketing/developer-relations/contributor-success/community-contributors-workflows.html#contacting-contributors) how to obtain this information.
-1. Select a `Prize` level.
-   * First MR Merged
-   * Grand Prize (Event result link required)
-   * Second Prize (Event result link required)
-   * Participation Prize (Event result link required)
-   * MVP
-   * Notable Contributor
-   * Undefined
-1. Select `GitLab` at the top of the menu bar
-   * Note you will need to grant authorization in your Gmail account and may receive a warning to proceed
-1. Click `Send Email`
-1. Enter the row you would want the system to process and verify & confirm the email to be sent out.
-1. Verify the coupon code matches the correct prize Tier (e.g. T3XXXX -> Tier 3, etc)
-1. The system automatically changes the `Email sent?` column to Yes, but it is always good to verify.
-1. The contributor will have received an email, you can verify the sent email from your own outbox.
+If you are sending swag codes for the first time, you will need [a personal access token](https://docs.gitlab.com/ee/user/profile/personal_access_tokens.html) with the `read_api` scope. 
+
+1. Request access to the [Google Sheet "Developer Relations Swag Coupon Codes & Delivery Tracking"](https://docs.google.com/spreadsheets/d/1LXXAXrxwx3HW1zFdBTB9OLQtjOqqECef9mCbvnzdnU8/edit?usp=sharing).
+1. Go to the tab "Issue rewards".
+1. Add the `Date`, `Username`, `Tier`, `Nominated by/cc` (if applicable), and `Link to contribution/event?` fields for the recipient. 
+1. Highlight the `Username` field you entered and from the `GitLab` menu, select `Create issues (highlight usernames)`
+1. It’ll prompt you for your access token. Once entered, the macro will populate the rest of the fields and create an issue to reward the recipient in the [Contributor Success rewards project](https://gitlab.com/gitlab-org/developer-relations/contributor-success/rewards/-/issues/).
 
 ## Swag Nomination
 

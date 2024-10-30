@@ -37,7 +37,7 @@ Please follow the table below to quickly find the most relevant place for what y
 
 Our handbook page has contributions from a diverse team. To help you efficienctly find answers, we highly suggest that you `cmnd+F` this page as a best searching practice.
 
-Try searching for as many permutations of what you're looking for. For example, if you want to find information on lead scoring search for keywords like `score, scoring, lead, leads, scoring`. Remember that [information retrieval](/handbook.gitlab.com/teamops/shared-reality/) is a core GitLab value, and a skill that will make a big difference in your careers.
+Try searching for as many permutations of what you're looking for. For example, if you want to find information on lead scoring search for keywords like `score, scoring, lead, leads, scoring`. Remember that [information retrieval](/teamops/shared-reality/) is a core GitLab value, and a skill that will make a big difference in your careers.
 
 If you can't find what you're looking for please reach out to a member of the Sales Dev Ops team and we'll help you find it, or update the handbook to include it!
 
@@ -56,7 +56,7 @@ If you can't find what you're looking for please reach out to a member of the Sa
 | I am an Account Executive, and want to nominate accounts for outbounding efforts | Our end-to-end outbound process [is here](/handbook/marketing/sales-development/how-tos/#how-to-follow-our-fo-outbound-process). The easiest way to automate your workflow is to find the field BDR Prospecting Status on the SFDC Account record, and select the Queued option from there. The BDR team will then pick it up and research it for their outbound pipeline. |
 | I am an Account Executive, and want to check the state of accounts, or quality of prospects, in my territory | Our BDR team uses a set of [1:1 dashboards](/handbook/marketing/sales-development/#our-sfdc-dashboards) that consolidate all relevant resources in one place. Our BDR team typically uses these on 1:1s with the Sales team to facilitate better account and territory planning. |
 | I am a Field Marketer, or Account Executive, and want to suggest that the SDR or BDR team uses my messaging for reaching out to prospects or clients | We have a [quick process](/handbook/marketing/sales-development/sales-development-vault/#field-marketing--bdr-collaboration-process) for creating new sequences on Outreach, our messaging tool. Even though the BDR or SDR are the ones typically creating these requests, we always welcome collaboration with other teams so feel free to log your own request directly if you'd like. |
-| I am a Sales Manager, and want to gauge the quality and progress of the SAOs provided to my team. | We have a robust set of pipeline [progression dashboards](/handbook/marketing/sales-development/#our-sfdc-dashboards) that break down results in a lot of granularity. We also have a structured path for handing off opportunities from the SDR/BDR teams to the AE team that you can use to measure adherance to qualification criteria and [next steps](handbook.gitlab.com/handbook/marketing/sales-development/#sdrbdr-to-ae-sao-handoff-process). |
+| I am a Sales Manager, and want to gauge the quality and progress of the SAOs provided to my team. | We have a robust set of pipeline [progression dashboards](/handbook/marketing/sales-development/#our-sfdc-dashboards) that break down results in a lot of granularity. We also have a structured path for handing off opportunities from the SDR/BDR teams to the AE team that you can use to measure adherance to qualification criteria and [next steps](/handbook/marketing/sales-development/#sdrbdr-to-ae-sao-handoff-process). |
 
 ## Our Slack Channels
 
@@ -68,7 +68,7 @@ If you can't find what you're looking for please reach out to a member of the Sa
 | **SDR AMER and EMEA (Manager - Jonathan Rivat)**              | [`#sdr_amer_emea_inbound`](https://gitlab.enterprise.slack.com/archives/C077J5ANZ0T) |
 | **BDR COMM AMER MM (Manager - Christie Park)**       | [`#bdr_amer_comm`](https://gitlab.enterprise.slack.com/archives/C014PHFNE2U) |
 | **BDR ENTG AMER WEST & LATAM (Manager - Charlotte Platt)** | [`#bdr_entg_amer_west_latam`](https://gitlab.enterprise.slack.com/archives/C04R8DN5H8R) |
-| **BDR ENTG AMER EAST (Manager - Brian Tabbert)**       | [`#bdr_entg_amer_east`](https://gitlab.enterprise.slack.com/archives/C04QL1YSXGW) |
+| **BDR ENTG AMER EAST (Manager - Ashley Dunn)**       | [`#bdr_entg_amer_east`](https://gitlab.enterprise.slack.com/archives/C04QL1YSXGW) |
 | **BDR PUBSEC (Manager - Josh Downey)**          | [`#bdr_amer_pubsec`](https://gitlab.enterprise.slack.com/archives/C04R54N159P)|
 | **All - EMEA (Manager - Elsje Smart)**                                      | [`#sdr_emea`](https://gitlab.slack.com/messages/CCULKLB71) |
 | **BDR COMM EMEA MM - (Manager - Fintan Harrington)**     | [`#bdr_comm_emea_mm`](https://gitlab.slack.com/archives/C04NA4BQP54) |
@@ -142,7 +142,6 @@ Please find our SSoT in terms of reporting below, for the 1:1 Dashboards you can
 | [GitLab LevelUp Training channel](https://levelup.gitlab.com/learn/) | Access to GitLab LevelUp Training channel for additional learning resources. |
 | [Sales handbook page](/handbook/sales/) | Main handbook page for Sales, providing essential information and resources. |
 | [Go to Market page](/handbook/sales/field-operations/gtm-resources/) | Resources related to Go-to-Market strategy for Sales. |
-| [Sales Dev Tools and Manager Resources](/handbook/marketing/sales-development/sales-development-tools/) | Tools and resources specifically designed for Sales Development teams and managers. |
 | [Sales Development Org job family/levels](/job-families/marketing/sales-development-representative/) | Overview of job families and levels within the Sales Development Org. |
 | [Territory Alignment](/handbook/marketing/sales-development/#expand-and-territory-alignments) | Guidance on territory alignment for BDRs and SDRs. |
 | [Enterprise BDR Outbound Process Framework](https://drive.google.com/drive/search?q=%20Outbound%20Process%20Framework%22%40gitlab.com) | Framework for the outbound process followed by the Enterprise BDR team. |
@@ -297,6 +296,7 @@ Lastly, Every so often you may be assigned a lead that has no value to GitLab an
 #### Cold-Calling and Email Checkbox
 
 Before calling any Lead or Contact, BDRs must ensure that the `Do Not Call` box is unchecked.  If you speak to any anyone, including prospects and existing contacts, who ask you not to call them again, you must check this box. However, please do not delete the number as we need to know which number requested not to be called again. For any individuals who are opted-in to email, you may ask them if they wish to be called. If they express a desire to be called, you are then permitted to uncheck the `Do Not Call` box if it was previously checked.  Also, if an individual expresses independently via email a wish to be called, you may uncheck the `Do Not Call` box.  This email must be present in SFDC as proof of your authority to uncheck this box.  You cannot send email requests to individuals not opted-in to email asking whether they would like to be called.
+If you receive a request from a prospect asking to be removed from the CRM, [please follow this process](/handbook/legal/privacy/gdpr/).
 
 Our cold-calling best practices typically consist of 4 elements. A pattern interrupt, an elevator pitch and, if required, objection/trap-setting questions and Up-Front Contracts.
 
@@ -427,6 +427,8 @@ You must change your email signature [in Terminus](/handbook/marketing/marketing
 BDR outbound lead generation is done by prospecting to companies and individuals who could be a great fit for our product. Prospecting is the process of finding and developing new business through searching for potential customers with the end goal of moving these people through the sales funnel until they eventually convert into customers.
 
 BDRs will work closely with their dedicated SAE or AE to choose which accounts move into "Actively Working". Together they will build a strategy for those companies. It is crucial that outreach is very intentional and strategic. When reaching out, we want BDRs to offer value and become a trusted advisor, ensuring a positive impression is left whether there is current demand or not.
+
+Before moving an account into “Actively Working Status”, make sure there have been no MQLs or opportunities created from that account within the past 30 days, and there are no leads from that account in Qualifying status with activity in the last 30 days or with a future task date set.
 
 The FO Outbound process is split in four phases, which should be followed on a weekly basis to ensure a steady outbound pipeline in alignment with our internal KPIs. To manage this process we use a set of datapoints on SFDC on the account-level that are marked under the section "BDR Comments". Please reference the guide below on an explanation on how they work.
 
@@ -1073,6 +1075,10 @@ description: This page walks you through all the tools we use in the Sales Dev o
 
 This page is to act as your guide to the many tools and best practices that the Sales Development Organization uitlizes.
 
+#### Groove
+
+Read more about [Groove here](handbook/marketing/marketing-operations/groove/) 
+
 #### ZoomInfo
 
 [Zoominfo](https://www.zoominfo.com/) provides our Sales Development Representatives and Account Executives with access to hundreds of thousands of prospects and their contact information, company information, tech stack, revenue, and other relevant data. Individual records or bulk exports can be imported into Salesforce using extensive search criteria such as job function, title, industry, location, tech stack, employee count, and company revenue. More information can be found on the Marketing Operations [Zoominfo handbook page.](/handbook/marketing/marketing-operations/zoominfo/)
@@ -1233,8 +1239,9 @@ To help structure your usage of the above, you can follow the steps below during
 The table below can help with structuring how you perceive and action the 1:1 Dashboards we have on SFDC and Tableau, the below connect to the [KPI page here.](/handbook/marketing/sales-development/#outbound-account-management) and the videos [here](https://drive.google.com/file/d/1mOUGPVqhogmT0-mmqyhtiVKs4wmdHEZ_/view?usp=sharing) and [here](https://drive.google.com/file/d/1L3a6-vpG562rY0u4Yve4d_y1148MIvNG/view?usp=sharing) are two quick compelementary resources to walk you through how we use the dashboards.
 
 Additionally this [5' video](https://drive.google.com/file/d/1dx57o5nu9xeHsvHUOC2XYryjxYmfdHvv/view?usp=sharing) explains the purpose of these dashboards, while this [3' video](https://drive.google.com/file/d/1Sf6vFSXb8iNaSGLGv-TtasuPS3xfz-Ni/view?usp=drive_link) walks you through a practical use case of how to use a report in these dashboards.
+
 | Dashboard | Component | Expectation/Action | Coaching Opportunity |
-| ------ | ------- | ------- | ------- |
+| --------- | --------- | ------------------ | -------------------- |
 | 1:1 Accounts Dashboard | 0. Queued and Automatically 6QA'd Accounts | **For accounts in AW (Actively Working):** <br> These accounts include both queued accounts from the Sales team and those automatically marked as 6QA by our system. Team members should review accounts queued by the Sales team weekly, moving them to AWA status or leaving a chatter note with data-driven feedback on why the account was not added to a prospecting pipeline for a conversation to take place. For automatically 6QA'd accounts, BDRs should verify if the auto-qualification is valid and action them accordingly (e.g., move to pipeline or recycle). Supporting evidence from intent tools or other SSoT sources should be included in any review that may take place afterwards. | Combining both queued and auto-qualified accounts into one report allows for better efficiency in reviewing accounts. By ensuring timely review and accountability to both the sales team and the system's auto-qualification process, team members can ensure high-quality leads are not overlooked. This also strengthens collaboration with AEs/SAEs by providing feedback and refining the auto-qualification process. |
 | 1:1 Accounts Dashboard | 1. Review Existing Pipeline | **For accounts in AW:** <br> These accounts are currently in the team member's name. The total volume should not be over 125 for Mid-Market BDRs and 75 for Enterprise BDRs. As a priority, these should be reviewed weekly and action should be taken accordingly to remove or update these accounts. | When clicking into the report, the team member can screen all the data points that can help them gauge the status of their accounts at a glance. Activity and Research fields can be combined with intent data points to quickly see which accounts should be reviewed further manually. |
 | 1:1 Accounts Dashboard | 2. Research Accounts to be Recycled | **For accounts in AW:** <br> These reports are nearing their automated recycle date, which by default is two months after their actively started work date. This report acts as a fallback to the previous report. A BDR should have already reviewed these accounts as part of their actively working account screen done in the previous step. This report will act as a second reminder. | In theory, an outbound account will have received at least 30 days worth of outreach since most sequences we use have at least a 30-day cadence. It's fine to leave an account in a team member's pipeline until it's removed automatically in hopes of getting some inbound MQLs assigned to the BDR. Regardless, there's a business decision to be made about whether expecting inbound MQLs is a sound strategy based on the team member's quota attainment and overall pipeline. |
@@ -1617,9 +1624,11 @@ Quota and compensation will be assigned by the BDR/SDR Manager and discussed in 
 
     **No:** The MQL can be worked by the SDR that received it through the round robin. If you are not sure, double-check with the related SDR.
 
-13. Is the lead automatically generated from UseGems as evident from the `Initial Source` field?
+13. Is the lead automatically generated from UseGems as evident from the `Initial Source` field, or is there another lead for the same account as the MQL you received that originated from Usergems?
 
-    **Yes:** If it's an SMB lead it's worked by the inbound team, if it's a MM/ENTG lead it's passed to the BDR associated with the territory regardless of the rest of the RoE. BDR is expected to follow the outbound actively worked account process as per usual.
+    **Yes:** If it's an SMB lead it's worked by the inbound team round-robin. If it's a MM/ENTG lead, we go by the scenarios below:
+    - If there's also an associated Actively Worked account, we follow the standard Rules of Engagement and the new inbound lead goes to the BDR Assigned on the actively worked account.
+    - If there's not an account Actively Worked, but there's a lead worked by a BDR by itself. The original owner of the new lead can work it as per usual without having to pass to the BDR working the existing UserGems lead.
 
 If the related SDR relays information that was not picked up in the new SDR's research, the new SDR should end any active sequence if the prospect hasn't engaged and change lead ownership to the team member who has been engaged so they can reach out. If the new SDR has engaged with the prospect, there will need to be a coordinated handoff worked out between the new SDR and the related SDR. Note: Only activity logged in SFDC will be recognized as activity.
 
@@ -1842,24 +1851,35 @@ Announcement Channels
 
 ### Sales Dev Performance Management Process
 
-| Quota Component                         | Criteria                                                                                                                                                                  |
-|----------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| SAOs/Stage 1 ARR                       | - Informal performance management begins when a ramped XDR has two consecutive months below 80% attainment                                                                          |
-|                                        | - After two such months, the XDR is informed that they have to achieve the following or they will enter formal performance management:                                                                                                                    |
-|                                        | - Reach at least 80% to their quota **each of the next two months**                                                                                                                                           |
-|                                        | - Should they fall short of the above criteria in **either of the next two months**, they immediately move to a formal first email warning the following month                                                                                                                                                   |
-|                                        | - Should they fall short of the above criteria in **either of the next two months** after the first email warning, they immediately advance to a final email warning the following month                                                                                                                                                  |
-|                                        | - Should they fall short of the above criteria in **either of the next two months** after the final email warning, additional discipline will follow including possible termination                                                                                                                                              |
-|                                        | - After **two consecutive months** of meeting the above criteria in any phase of the process, the XDR will exit performance management  |
-| Stage 3 ARR                       | - Informal performance management begins when a ramped BDR has two consecutive months below 80% Stage 3 attainment                                                                          |
-|                                        | - After two such months, the BDR is informed that they have to achieve the following or they will enter formal performance management:                                                                                                                    |
-|                                        | - Reach at least 80% to their Stage 1 quota in **Actual Net ARR each of the next two months**                                                                                                                                         |
-|                                        | - Should they fall short of the above criteria in **either of the next two months**, they immediately move to a formal first email warning the following month                                                                                                                                                   |
-|                                        | - Should they fall short of the above criteria in **either of the next two months** after the first email warning, they immediately advance to a final email warning the following month                                                                                                                                                  |
-|                                        | - Should they fall short of the above criteria in **either of the next two months** after the final email warning, additional discipline will follow including possible termination                                                                                                                                              |
-|                                        | - After **two consecutive months** of meeting the above criteria in any phase of the process, the XDR will exit performance management  |
+The Sales Development Organization believes in getting the job done (consistently delivering results) and doing it right (meeting KPI/SLAs, adhering to our [Three Pillars](./handbook/marketing/sales-development/#our-three-pillars), being good partners internally and externally). Our performance management process is deeply rooted in this philosophy. As we are building high-performing teams, it is important to understand that while we expect results, we also have expectations surrounding how we get to those results. Therefore, a performance management process will be initiated if an XDR or leader is not meeting their performance targets and/or is not adhering to their KPIs/SLAs. The idea behind our framework is to address issues promptly to ensure long-lasting success of the team members.
 
-### Our three pillars
+The sections below will provide more details as to the performance management process on quota attainment as well as our [Three Pillars](./handbook/marketing/sales-development/#our-three-pillars) and KPIs/SLAs for Inbound Leads and Outbound Account management. While regular coaching is expected on weekly 1:1s, informal performance management will be initiated if a ramped XDR has two consecutive months below 80% attainment (SAOs, Stage 1 XDR Net ARR or Stage 3 Net ARR).
+
+#### For SAOs and Stage 1 XDR Net ARR 
+
+Once the XDR is informed, expectations will be:
+
+- Month 1: 80% target + [Three Pillars](./handbook/marketing/sales-development/#our-three-pillars)
+- Month 2: 80% target + [Three Pillars](./handbook/marketing/sales-development/#our-three-pillars)
+- Month 3 and beyond: 100% Stage 1 XDR Net ARR target + [Three Pillars](./handbook/marketing/sales-development/#our-three-pillars)
+
+Should the XDR fall short of the targets above, a formal warning will be issued. 
+After the formal warning is issued if the XDR falls short of targets again, additional disciplinary actions could be taken up to and including termination.
+
+#### For Stage 3 Net ARR
+
+As a business we understand that Stage 3 Net ARR is a metric that can take time to influence. We are viewing S3 attainment as an indicator of healthy pipeline generation. Two consecutive months below monthly quota attainment suggests potential issues. Stage 3 is a direct consequence of S1 Net ARR. Therefore, performance management will focus on what can be influenced by a BDR: Stage 1 Net ARR (not Stage 1 XDR stamped amounts, but real opportunity value: Stage 1 Net ARR)
+
+The process will however stay the same: once the BDR is informed, expectations will be:
+
+- Month 1: 80% target + [Three Pillars](./handbook/marketing/sales-development/#our-three-pillars)
+- Month 2: 90% target + [Three Pillars](./handbook/marketing/sales-development/#our-three-pillars)
+- Month 3 and beyond: 100% Stage 1 Net ARR target + [Three Pillars](./handbook/marketing/sales-development/#our-three-pillars)
+
+Should the XDR fall short of the targets above, a formal warning will be issued. 
+After a  formal warning is issued if the BDR falls short of targets, additional disciplinary actions could be taken up to and including termination.
+
+### Our Three Pillars
 
 | Task                               | Details                                                                                                                                                                                |
 |------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|

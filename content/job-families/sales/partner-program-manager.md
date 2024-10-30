@@ -183,10 +183,10 @@ The Director, Ecosystem Programs is a [grade 10](/handbook/total-rewards/compens
 
 ### Responsibilities
 
-The Director, Ecosystem Programs will be responsible for the design, management & execution of Gitlab's Ecosystem Programs. 
+The Director, Ecosystem Programs will be responsible for the design, management & execution of GitLab's Ecosystem Programs.
 
-- The Director, Ecosystem Programs will manage a team of Ecosystem Program Managers and Sr. Ecosystem Program Managers in developing, enhancing and measuring the performance of deal registration, sales engagement and partner success programs and support partner events. 
-- The Director is expected to establish the vision for the overall Ecosystem program, align with Sales on program elements and engagement, and develop the overall financial model for the channel in collaboration with Finance. 
+- The Director, Ecosystem Programs will manage a team of Ecosystem Program Managers and Sr. Ecosystem Program Managers in developing, enhancing and measuring the performance of deal registration, sales engagement and partner success programs and support partner events.
+- The Director is expected to establish the vision for the overall Ecosystem program, align with Sales on program elements and engagement, and develop the overall financial model for the channel in collaboration with Finance.
 - Collaborate across Ecosystem Sales teams to gather requirements for Programs
 
 - Lead the Ecosystem Programs team in designing, developing and managing the overall GitLab Partner Programs and individual program elements.

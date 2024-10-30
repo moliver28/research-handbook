@@ -30,7 +30,7 @@ description: "Contributor Success Team"
 
 ## Strategy
 
-This team directly follows the strategy outlined in our [open source growth strategy](/handbook/engineering/open-source/growth-strategy.html).
+This team directly follows the strategy outlined in our [open source growth strategy](/handbook/engineering/open-source/growth-strategy/).
 
 ## Mission
 
@@ -295,13 +295,13 @@ Everything that we're working actively is present above the cut-line. Our planni
 5 labels are present
 
 - `~contributorgrowth::velocity`
-  - Everything that relates to [Improving Contribution Velocity](/handbook/engineering/open-source/growth-strategy.html#improve-contribution-velocity) as defined by our [Open Source Growth Strategy](/handbook/engineering/open-source/growth-strategy.html)
+  - Everything that relates to [Improving Contribution Velocity](/handbook/engineering/open-source/growth-strategy/#improve-contribution-velocity) as defined by our [Open Source Growth Strategy](/handbook/engineering/open-source/growth-strategy/)
 - `~contributorgrowth::increase value`
-  - Everything that relates to [Increasing Contribution Value](/handbook/engineering/open-source/growth-strategy.html#increase-contribution-value) as defined by our [Open Source Growth Strategy](/handbook/engineering/open-source/growth-strategy.html)
+  - Everything that relates to [Increasing Contribution Value](/handbook/engineering/open-source/growth-strategy/#increase-contribution-value) as defined by our [Open Source Growth Strategy](/handbook/engineering/open-source/growth-strategy/)
 - `~contributorgrowth::expand outreach`
-  - Everything that relates to [Expanding Outreach](/handbook/engineering/open-source/growth-strategy.html#expand-outreach) as defined by our [Open Source Growth Strategy](/handbook/engineering/open-source/growth-strategy.html)
+  - Everything that relates to [Expanding Outreach](/handbook/engineering/open-source/growth-strategy/#expand-outreach) as defined by our [Open Source Growth Strategy](/handbook/engineering/open-source/growth-strategy/)
 - `~contributorgrowth::scale the community`
-  - Everything that relates to [Scaling the Community](/handbook/engineering/open-source/growth-strategy.html#scale-the-community) as defined by our [Open Source Growth Strategy](/handbook/engineering/open-source/growth-strategy.html)
+  - Everything that relates to [Scaling the Community](/handbook/engineering/open-source/growth-strategy/#scale-the-community) as defined by our [Open Source Growth Strategy](/handbook/engineering/open-source/growth-strategy/)
 - `~contributorgrowth::internal`
   - Everything that relates to internal processes such as onboarding, internal issues such as tooling or customer & company specific tasks.
 

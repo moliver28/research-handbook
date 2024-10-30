@@ -38,7 +38,7 @@ If we effectively seed and then nurture, we can fully activate GitLab's [two gro
 ## Assumptions
 
 1. [Open source user benefits](http://buytaert.net/acquia-retrospective-2015): significant advantages over proprietary software because of its faster innovation, higher quality, freedom from vendor lock-in, greater security, and lower total cost of ownership.
-1. [Open Source stewardship](/handbook/company/stewardship/): the wider community comes first, we [play well with others](/handbook/product/gitlab-the-product/#plays-well-with-others) and share the pie with other organizations commercializing GitLab.
+1. [Open Source stewardship](/handbook/company/stewardship/): the wider community comes first, we [play well with others](/handbook/product/categories/gitlab-the-product/#plays-well-with-others) and share the pie with other organizations commercializing GitLab.
 1. [Innersourcing](https://about.gitlab.com/blog/2014/09/05/innersourcing-using-the-open-source-workflow-to-improve-collaboration-within-an-organization/) is needed and companies will choose one solution top-down.
 1. A single application where [interdependence creates exceptional value](https://medium.com/@gerstenzang/developer-tools-why-it-s-hard-to-build-a-big-business-423436993f1c#.ie38a0cls) is superior to a collection of tools or a network of tools. Even so, good integrations are important for network effects and making it possible to integrate GitLab into an organization.
 1. To be sustainable we need an open core model that includes a proprietary GitLab EE.

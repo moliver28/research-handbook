@@ -52,7 +52,7 @@ description: "The GitLab team page for the Pipeline Authoring Group"
 - [CI/CD Variables](https://docs.gitlab.com/ee/ci/variables/)
 - Additional features can be found [here](/handbook/product/categories/features/#verify-pipeline-authoring-group)
 
-## Technical Roadmap 
+## Technical Roadmap
 
 `Remainder of FY25`
 
@@ -66,31 +66,20 @@ These areas are our high-level engineering driven goals for the remainder of `FY
 
 Goals:
 
-- Understand the components of the pipeline creation service to improve speed. 
+- Understand the components of the pipeline creation service to improve speed.
   - This [graph](https://log.gprd.gitlab.net/app/r/s/r5Owf) captures data around the pipeline creation performance.
 - Top 3 identified issues to optimize pipeline creation performance.
   - [Bulk insert Sidekiq jobs when creating a pipeline](https://gitlab.com/gitlab-org/gitlab/-/issues/348553)
   - [Expand CI variables lazily and selectively](https://gitlab.com/gitlab-org/gitlab/-/issues/410143)
   - [Evaluate rules once for parallel jobs](https://gitlab.com/gitlab-org/gitlab/-/issues/450687)
 
-### Scalability
-
-**CI/CD Variables**
-
-Goals:
-
-- Address top-level variables keyword problem - [Epic](https://gitlab.com/groups/gitlab-org/-/epics/6565)
-- Implement a new CI/CD variable structure from scratch. [Epic](https://gitlab.com/groups/gitlab-org/-/epics/8439)
-
 ### Efficiency
-
-**Auto-generating a JSON schema for spec keyword** 
 
 Goals:
 
 - Transition from entry classes to JSON schema for data structure validation. - [Issue](https://gitlab.com/gitlab-org/gitlab/-/issues/463062)
 
-### Visibility 
+### Visibility
 
 **CI Catalog instrumentation**
 
@@ -129,7 +118,7 @@ We highly value user feedback! Please use the issue below to capture feedback an
 
 - [CI/CD Catalog Feedback](https://gitlab.com/gitlab-org/gitlab/-/issues/407556)
 
-## Group Meetings 
+## Group Meetings
 
 For every meeting, it is expected that it contains a list of agenda items to discuss along with the meeting notes when the meeting takes place. This will make it easier for people to catch up if they are unable to attend.
 
@@ -260,7 +249,7 @@ When this happens, team members are encouraged to:
 
 Our CI syntax keeps evolving. We cannot support all keywords indefinitely, so deprecating and removing keywords is inevitable.
 
-GitLab does not have a versioning system for CI/CD configuration. Therefore, it is critical to over-communicate our deprecation purposes to our users and take the necessary precautions to reduce the impact on their projects. Deprecating a keyword is risky because it will break all pipelines using it, and in some cases, users are not aware of the keyword they use in their pipeline. The deprecation process described below is similar to the [deprecating and removing features](/handbook/product/gitlab-the-product/#process-for-deprecating-and-removing-a-feature) process, with additional steps to reduce the risks which involved with removing a CI/CD keyword.
+GitLab does not have a versioning system for CI/CD configuration. Therefore, it is critical to over-communicate our deprecation purposes to our users and take the necessary precautions to reduce the impact on their projects. Deprecating a keyword is risky because it will break all pipelines using it, and in some cases, users are not aware of the keyword they use in their pipeline. The deprecation process described below is similar to the [deprecating and removing features](/handbook/product/categories/gitlab-the-product/#process-for-deprecating-and-removing-a-feature) process, with additional steps to reduce the risks which involved with removing a CI/CD keyword.
 
 1. Deprecation notice - Syntax removal introduces a breaking change, as outlined in our deprecation process, we must notify the community and customers, which means including a deprecation notice in the monthly release post.
 1. Track keyword usage - Tracking keyword usage should begin as early as possible. It is a mandatory step that helps estimate the user impact, timing, and needed effort. The more users use the keyword, the more time it takes to remove it (It took more than four years to move from [remove](https://gitlab.com/gitlab-org/gitlab-foss/-/merge_requests/9766) to [deprecation](https://gitlab.com/gitlab-org/gitlab/-/issues/346823) for 'type' keyword).
@@ -326,7 +315,7 @@ Design <--> Scheduling <--> Engineering
 
 We use workflow labels to efficiently communicate an issue's state. Using these labels enables collaboration across teams and communicates an issue's current state. The DRIs throughout each phase of the workflow are responsible for keeping the workflow labels up-to-date.
 
-**Note:** `workflow::awaiting security release` is applied by an engineer after the security issue has been approved by an AppSec engineer and a maintainer, and the backports have been created. This label signals that the MR is ready for merging into production, but it is awaiting the next [monthly security release](/handbook/engineering/releases/security-releases/). When this label is applied, the issue's milestone should also be updated to the next milestone to align with the next security release's milestone.
+**Note:** `workflow::awaiting security release` is applied by an engineer after the security issue has been approved by an AppSec engineer and a maintainer, and the backports have been created. This label signals that the MR is ready for merging into production, but it is awaiting the next [monthly security release](/handbook/engineering/infrastructure/library/security-releases-development/). When this label is applied, the issue's milestone should also be updated to the next milestone to align with the next security release's milestone.
 
 Issue descriptions shall always be maintained as the single source of truth. Issue description accuracy should be maintained by the DRIs throughout each phase. However all collaborators can and should contribute when they see discrepancies or needed updates.
 

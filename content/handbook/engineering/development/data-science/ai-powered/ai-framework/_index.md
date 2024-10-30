@@ -74,7 +74,17 @@ Each week the team EM provides a Weekly Status update issue which aims to captur
 
 ### 📚 AI Framework Board Outline
 
-Our workflow process for our [board](https://gitlab.com/groups/gitlab-org/-/boards/7346017?label_name[]=group%3A%3Aai%20framework) is outlined below.
+Our workflow process involves a weekly board walk where we review issues with the **Deliverable** label. Here's how we organize our [board](https://gitlab.com/groups/gitlab-org/-/boards/7346017?label_name[]=group%3A%3Aai%20framework):
+
+#### How do people know what to work on?
+
+An issue is ready to be taken by an assignee when it has all of the following:
+
+* **Deliverable** label
+* The current Milestone
+* Either **workflow::ready for development** or **workflow::refinement** label
+
+#### Board Lists
 
 1. **Open** 📝: This list includes all identified issues. An engineering manager will be assigned if either the Milestone or the "workflow::ready for development" label is missing.
 2. **workflow::design** ✏️: During this phase, issues undergo design refinement. After design considerations are integrated, the "ready for development" label is applied.

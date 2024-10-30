@@ -23,7 +23,7 @@ Documenting a Section, Stage, Group and Category direction is critical to commun
 
 ### Understanding Milestones and Releases
 
-- [Interpreting release dates](/handbook/product/interpreting-release-dates.html) clarifies how product teams use milestones and labels to indicate the likelihood of feature delivery within certain time frames.
+- [Interpreting release dates](/handbook/product/interpreting-release-dates/) clarifies how product teams use milestones and labels to indicate the likelihood of feature delivery within certain time frames.
 - The [release definitions](/handbook/engineering/releases/) are maintained by the Engineering Team and we run the end of each Milestone on the [release date](/handbook/engineering/releases/).
 
 ### Relevant links
@@ -218,7 +218,7 @@ Development Kit (GDK).
 
 Quality Engineering Managers (QEM) are the DRIs for prioritizing bugs. These include security issues which are prioritized in conjunction with the security team. Product Managers must work with their QEM to set Milestones for issues marked with the `bug::vulnerability` [type label](/handbook/product/groups/product-analysis/engineering/dashboards/#work-type-classification) to guarantee they are shipped by their due date, as defined in the [Security Team process](/handbook/security/engaging-with-security/#severity-and-priority-labels-on-security-issues).
 
-While Product Managers are the DRIs for [milestone planning](/handbook/product/cross-functional-prioritization/#planning-for-the-milestone), they must respect the prioritization order for bugs and maintenance issues as determined by their QEM and EM, respectively. As such they should deeply understand the implications and risks of security-related issues and balance those when prioritizing a milestone work. Addressing a serious security issue by its due date may require temporarily adjusting the desired work type ratio for one or more milestones. Priority labels and Due Date designations for security issues should never be modified by Product Managers as they are directly managed by the Security Team and used to track metrics and progress.
+While Product Managers are the DRIs for [milestone planning](/handbook/product/product-processes/cross-functional-prioritization/#planning-for-the-milestone), they must respect the prioritization order for bugs and maintenance issues as determined by their QEM and EM, respectively. As such they should deeply understand the implications and risks of security-related issues and balance those when prioritizing a milestone work. Addressing a serious security issue by its due date may require temporarily adjusting the desired work type ratio for one or more milestones. Priority labels and Due Date designations for security issues should never be modified by Product Managers as they are directly managed by the Security Team and used to track metrics and progress.
 
 ### Foundational Requirements
 
@@ -507,7 +507,7 @@ As described above, prioritization is a multi-faceted problem. In order to
 translate the priorities of any given group into action by our engineering
 teams, we need to be able to translate this multi-faceted problem into a flat
 list of priorities for at least the next release cycle. Product Managers are
-[responsible for taking all these prioritization considerations](/handbook/product/cross-functional-prioritization/#planning-for-the-milestone) and creating a
+[responsible for taking all these prioritization considerations](/handbook/product/product-processes/cross-functional-prioritization/#planning-for-the-milestone) and creating a
 clear, sequenced list of next priorities. This list should be represented as an [issue board](https://about.gitlab.com/stages-devops-lifecycle/issueboard/)
 so that each team has a clear interface for making decisions about work. From
 this list, Product Designers, Engineering Managers and Product Managers can work together to
@@ -537,7 +537,7 @@ responsible for velocity and delivery. However, there are instances when there i
 - Infrastructure projects with customer commitment or heavily upvoted should be given a priority indicative of other customer commitments
 - Vision or Direction items for a launch
 
-As the DRI for [milestone prioritization](/handbook/product/cross-functional-prioritization/#planning-for-the-milestone), it is the Product Manager's job to prioritize for predictability when it is needed. You should do so by ensuring you prioritize a deliverable, and its dependencies, so that it can reasonably be expected to be delivered by any committed dates. If there is time pressure to hit a date, the PM should also explore de-scoping the issue to meet the deadline, rather than pressuring engineering to move abnormally fast or cut corners.
+As the DRI for [milestone prioritization](/handbook/product/product-processes/cross-functional-prioritization/#planning-for-the-milestone), it is the Product Manager's job to prioritize for predictability when it is needed. You should do so by ensuring you prioritize a deliverable, and its dependencies, so that it can reasonably be expected to be delivered by any committed dates. If there is time pressure to hit a date, the PM should also explore de-scoping the issue to meet the deadline, rather than pressuring engineering to move abnormally fast or cut corners.
 
 #### Private tools and dashboards for monitoring and KPI tracking
 
@@ -1413,49 +1413,38 @@ Please see [Analytics Instrumentation Guide](/handbook/product/analytics-instrum
 
 ## Post Launch Instrumentation Guide
 
-**Goal**
+**Goal:**
 Increase product instrumentation across our offerings to deliver greater product insights. There is a need to retroactively evaluate what features have been instrumented and need instrumentation from past feature launches. Post launch implementation will allow us to gather insights and allow better visibility into feature usage + adoption that may not currently be captured.
 
-**Tasks**:
+**Tasks:**
 
 1. Issue Request
-
-PM: Following the [Product Data Insights handbook](/content/handbook/product/product-analysis/#working-with-us), create an issue focused on instrumentation of products at a category level [using this templaste](https://gitlab.com/gitlab-data/product-analytics/-/blob/main/.gitlab/issue_templates/Post-Launch%20Instrumentation%20Audit.md).
-
-Assign the issue to your Product Data Insights counterpart and Carolyn Braza (`@cbraza`) will automatically be added for visibility.
-
-Alignment
-PM/PDI: Once all stakeholders have been added to the issue, Product Data Insights team will set time with the PM counterpart to align on:
-
-- Goals
-- Priorities
-- Milestones
-
-TPgM may assist in implementation of planning documentation.
-
+   - PM:
+     - Following the [Product Data Insights handbook](/content/handbook/product/product-analysis/#working-with-us), create an issue focused on instrumentation of products at a category level [using the Post-Launch Instrumentation template](https://gitlab.com/gitlab-data/product-analytics/-/issues/new?issuable_template=Post-Launch%20Instrumentation%20Audit).
+     - Assign the issue to your Product Data Insights counterpart. Carolyn Braza (`@cbraza`) will automatically be added for visibility.
+   - Alignment
+     - PM/PDI: Once all stakeholders have been added to the issue, Product Data Insights team will set time with the PM counterpart to align on:
+       - Goals
+       - Priorities
+       - Milestones
+     - TPgM may assist in implementation of planning documentation.
 1. Category Inventory & Instrumentation Mapping
-
-PM/PDI: Work together to outline a category inventory using this template (https://docs.google.com/spreadsheets/d/1sqoGOM3MIOF0ntfxgJ3cuKVyY3MLT8Cfvxi5xBvgfws/edit?usp=sharing). Category level implementation should be prioritized by most utilized features and the areas we believe have the largest impact on the business. From there, PM and Product Data Insights counterparts will utilize labels outlined here in step 3 for markers of implementation status. The PM will lead mapping of instrumentation at a category level, in close partnership with the Product Data Insights counterpart.
-
-For any metric or event that has been identified to contribute to a categories instrumentation the correct `product_category` should be set in the definition file.
-
+   - PM/PDI: Work together to outline a category inventory using [this spreadsheet template](https://docs.google.com/spreadsheets/d/1sqoGOM3MIOF0ntfxgJ3cuKVyY3MLT8Cfvxi5xBvgfws/edit?usp=sharing).
+     - Category level implementation should be prioritized by most utilized features and the areas we believe have the largest impact on the business.
+     - From there, PM and Product Data Insights counterparts will utilize labels outlined here in step 3 for markers of implementation status.
+     - The PM will lead mapping of instrumentation at a category level, in close partnership with the Product Data Insights counterpart.
+   - For any metric or event that has been identified to contribute to a categories instrumentation the correct `product_category` should be set in the definition file.
 1. Audit & Review
-
-PM/PDI: will audit implementation/review implementation to quality check and ensure accuracy async. TPgM may assist in QA.
-
+   - PM/PDI: will audit implementation/review implementation to quality check and ensure accuracy async. TPgM may assist in QA.
 1. Update Categories yaml file
-
-PM: Update the categories.yml file with the applicable implementation status (see below) Utilizing the categories.yml file, the Product Data Insights team will create a Tableau dashboard to track implementation at a category level overtime.
-
-- Complete -  Instrumentation complete and satisfactory
-- Incomplete - Some instrumentation, but not complete
-- None - No instrumentation - instrumentation needed
-- Not needed - Instrumentation not needed
-
+   - PM: Update the categories.yml file with the applicable implementation status (see below) Utilizing the categories.yml file, the Product Data Insights team will create a Tableau dashboard to track implementation at a category level over time.
+     - Complete -  Instrumentation complete and satisfactory
+     - Incomplete - Some instrumentation, but not complete
+     - None - No instrumentation - instrumentation needed
+     - Not needed - Instrumentation not needed
 1. Analytics Instrumentation
-
-PM/PDI: Once category instrumentation audit has been completed. For categories marked as either red (needing implementation) or yellow (some instrumentation, not complete),
-PM/EM: will create an instrumentation issue with the label `analytics instrumentation` and utilizing the [usage data instrumentation template](https://gitlab.com/gitlab-org/gitlab/-/issues/new?issuable_template=Usage+Data+Instrumentation).
+   - PM/PDI: Once category instrumentation audit has been completed. For categories marked as either red (needing implementation) or yellow (some instrumentation, not complete),
+   - PM/EM: will create an instrumentation issue with the label `analytics instrumentation` and utilizing the [usage data instrumentation template](https://gitlab.com/gitlab-org/gitlab/-/issues/new?issuable_template=Usage+Data+Instrumentation).
 
 ## Page load performance metrics
 

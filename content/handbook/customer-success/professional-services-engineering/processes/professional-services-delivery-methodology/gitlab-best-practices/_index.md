@@ -3,7 +3,7 @@ title: "GitLab Best Practices"
 description: "Learn about GitLab best practices for engagements."
 ---
 
-This section provides a comprehensive overview of best practices in Gitlab, highlighting key guidelines for efficient and effective usage. 
+This section provides a comprehensive overview of best practices in GitLab, highlighting key guidelines for efficient and effective usage. 
 
 The documentation provides recommendations based on standards defined by the **National security agency \[NSA\]** along with **Cybersecurity and Infrastructure Security Agency \[CISA\]** for organizations to standardize and strengthen the security of their CI/CD pipelines. 
 
@@ -124,7 +124,7 @@ Scenarios in which the final approver might not merge an MR:
 
 If any of these scenarios occurs, an MR author may merge their own MR if it has all required approvals and they have merge rights to the repository. This is also in line with the GitLab [bias for action](../../../../../values/_index.md#operate-with-a-bias-for-action) value.
 
-This policy is in place to satisfy the CHG-04 control of the GitLab [Change Management Controls](/handbook/security/change-management-policy.html).
+This policy is in place to satisfy the CHG-04 control of the GitLab [Change Management Controls](/handbook/security/change-management-policy/).
 
 To implement this policy in gitlab-org/gitlab, we have enabled the following settings to ensure MRs get an approval from a top-level CODEOWNERS maintainer:
 
@@ -191,7 +191,9 @@ In GitLab, [Review Apps](https://docs.gitlab.com/ee/ci/review_apps/index.html) p
 
 Continuous integration helps developers deploy faster and get feedback sooner. Ultimately, the best continuous integration system is the one you actually use. Find [the right CI](https://about.gitlab.com/topics/ci-cd/choose-continuous-integration-tool/) for your needs and then incorporate these best practices to make the most of your new CI workflow.
 
-## 14. CI best practice: Keep it safe: CI/CD is a shift left, so it offers a good opportunity to integrate security earlier in the process
+## 14. CI best practice: Keep it safe
+
+CI/CD is a shift left, so it offers a good opportunity to integrate security earlier in the process
 
 ## 15. Integrations with third-party
 
@@ -263,9 +265,9 @@ You can use the report to:
 
 The Compliance Report can be accessed in the top-level group by going to Security & Compliance \> Compliance Report.
 
-## 21. Implementation of Correct User Permissions and Roles will have below Positive effects over the entire DevOps lifecycle in GitLab
+## 21. Implementation of Correct User Permissions and Roles
 
-[User Permissions and Roles](https://docs.gitlab.com/ee/user/permissions.html)
+Implementation of Correct [User Permissions and Roles](https://docs.gitlab.com/ee/user/permissions.html) will have below Positive effects over the entire DevOps lifecycle in GitLab.
 
 * Restricting Developers 
   * To take major decisions like changing Security Policies

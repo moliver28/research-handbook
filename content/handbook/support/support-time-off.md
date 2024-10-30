@@ -131,7 +131,7 @@ For high priority tickets, tend towards a handing over to someone else:
 
    - Update the corresponding `yaml` file for yourself in the [Support Team project](https://gitlab.com/gitlab-support-readiness/support-team/-/tree/master/data/agents).
    - Change `works_account_deletion: true` to `works_account_deletion: false`
-   - Assign the MR to your manager.
+   - Request a review from your manager.
    - Make sure to undo this change when you return from OOO.
 1. After coming back, make sure to follow the guidelines for [catching up after a scheduled time off](#catching-up-after-a-scheduled-time-off).
 

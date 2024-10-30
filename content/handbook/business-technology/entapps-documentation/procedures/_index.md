@@ -9,5 +9,5 @@ description: "This section describes how IT Enterprise Applications carry out pr
 
 **Please note this page is a work in progress**
 
-1. [Gitlab Team Member How to Guides](https://internal.gitlab.com/handbook/it-enterprise-applications/procedures/how-tos/) 
-1. [Standard Operating Procedures](https://internal.gitlab.com/handbook/it-enterprise-applications/procedures/standard-operating-procedures/) 
+1. [GitLab Team Member How to Guides](https://internal.gitlab.com/handbook/it-enterprise-applications/procedures/how-tos/)
+1. [Standard Operating Procedures](https://internal.gitlab.com/handbook/it-enterprise-applications/procedures/standard-operating-procedures/)

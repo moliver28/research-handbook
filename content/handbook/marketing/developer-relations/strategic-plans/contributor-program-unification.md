@@ -59,7 +59,7 @@ Simply put: without these activities, we would not have a thriving community. Bu
 
 Another non-trivial gap is the lack of an explicit diversity and inclusion incentive within the contributor community. We should experiment and develop ideas to increase diversity in our community, attract and retain top contributors from underrepresented groups, and promote a safe and inclusive community.
 
-## Phase 1:  Establish a consistent method for measuring activity value, including non-code contributions
+## Phase 1: Establish a consistent method for measuring activity value, including non-code
 
 We aim to keep the spirit of the code contributor program, the GitLab Heroes, Meetups and others, while removing the unique processes around them and unifying those in a single program. Additionally, we are adding support for recognizing non-code contributions.
 
@@ -199,9 +199,9 @@ Wider community members that hold a public event with > 20 participants or speak
 
 This phase needs further discussion and validation if meetups are still the preferred way to grow the grassroots movement.
 
-## Phase 6: Draft - Increase repeat contributors by promoting recent contributions instead of historical value
+## Phase 6: Draft - Increase repeat contributors by promoting recent contributions
 
-As contributors start to accumulate points, we need to reward active and recent behavior. On the user profile you should be able to see the current score of the person as it relates to the last 3 completed months. Another section should exist to show the total history.
+As contributors start to accumulate points, we need to reward active and recent behavior instead of the historical value. On the user profile you should be able to see the current score of the person as it relates to the last 3 completed months. Another section should exist to show the total history.
 
 ## Open Questions or further iterations
 

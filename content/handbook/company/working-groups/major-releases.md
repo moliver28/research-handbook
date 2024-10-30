@@ -9,7 +9,7 @@ status: active
 | Property       | Value                                                        |
 | -------------- | ------------------------------------------------------------ |
 | Date Created   | 2024-02-22                                                   |
-| End Date       | 2023-07-01                                                   |
+| End Date       | 2025-07-01                                                   |
 | Slack          | [#wg_major-releases](https://gitlab.enterprise.slack.com/archives/C073MV570F7) (only accessible from within the company) |
 | Google Doc     | [Major Releases Working Group Agenda](https://docs.google.com/document/d/1jxl4SDDeoQgR9DOCZ63_D38OglE1OGkJBq_fC_z46BA/edit?usp=sharing)|
 | Epic           | [Future Major Release Coordination & Improvements](https://gitlab.com/groups/gitlab-com/-/epics/2363) |

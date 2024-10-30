@@ -309,7 +309,9 @@ GitLab team members seeking help can reach out to the wider community for contri
 
 GitLab guides the wider community to search for issues with the `quick win` label when looking to contribute. These issues are intended to be straightforward for community contributors and quick enough to complete while still learning the contribution process. This follows [GitLab's mission](/handbook/company/mission/#mission) to enable everyone to contribute and to support our first-time contributors onboarding with the community. The [GitLab Bot](https://gitlab.com/gitlab-bot) helps to maintain this criteria and will remove the `quick win` label when an issue does not meet the requirements.
 
-- The issue description must include an `## Implementation plan` second-level heading, containing guidance to help contributors get started.
+- The issue description must include an implementation plan as a second-level heading with guidance
+to help contributors get started.
+For example `## Implementation`, `## Implementation plan` or `## Implementation guide` are all acceptable.
 This section can be very brief or offer possible actions to resolve the issue.
 - The issue must be assigned a weight between 0-3.
 Issue weights should approximate the complexity and effort required.
@@ -331,15 +333,15 @@ More information on the [Core Team](https://about.gitlab.com/community/core-team
 
 ### Granting GitLab Duo licenses
 
-To support our mission to enable everyone to contribute, we offer GitLab Duo Pro licenses to the contributors in our wider community.
-[GitLab Duo Pro](https://about.gitlab.com/gitlab-duo/) features Code Suggestions, Chat and more AI-powered features to help boost efficiency
+To support our mission to enable everyone to contribute, we offer GitLab Duo Enterprise licenses to the contributors in our wider community.
+[GitLab Duo](https://about.gitlab.com/gitlab-duo/) features Code Suggestions, Chat, Root Cause Analysis and more AI-powered features to help boost efficiency
 and effectiveness by reducing the time required to write and understand code.
-Community contributors can [visit the Duo access project](https://gitlab.com/gitlab-community/community-members/duo-access) to request a Duo Pro license and learn more
+Community contributors can [visit the GitLab Community Duo Access project](https://gitlab.com/gitlab-community/community-members/duo-access) to request a GitLab Duo Enterprise license and learn more
 about the benefits of GitLab Duo.
 
 ### For contributors who don't own a credit card
 
-For contributors who don't own a credit card and need to be manually verified, a GitLab team member can open an [internal request](https://support-super-form-gitlab-com-support-support-op-651f22e90ce6d7.gitlab.io/) using the `Other -> Other License and Renewals related issue` template. GitLab Support will follow the [Manual credit card validation process described in the handbook](/handbook/support/license-and-renewals/workflows/saas/ci_minutes.html#manual-credit-card-validation-for-community-contributors) to complete the request.
+For contributors who don't own a credit card and need to be manually verified, a GitLab team member can open an [internal request](https://support-super-form-gitlab-com-support-support-op-651f22e90ce6d7.gitlab.io/) using the `Other -> Other License and Renewals related issue` template. GitLab Support will follow the [Manual credit card validation process described in the handbook](/handbook/support/license-and-renewals/workflows/saas/ci_minutes/#manual-credit-card-validation-for-community-contributors) to complete the request.
 
 ### For contributors who run out of compute minutes or other CI/CD resources
 

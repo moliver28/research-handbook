@@ -86,13 +86,13 @@ Some MRs require additional set up:
 - **Pipeline Execution**: For compute minutes and shared runner usage related features, populate projects with historical compute minutes usage data.
   - Merge requests related to compute minutes and shared runner usage usually require historical usage data, which can be difficult to set up if it doesn't exist already on the local GDK environment. Below is a video and instructions for how to set that up in under 7 minutes.
 
-   {{< youtube "ym-fU1U-anE" >}}
+    {{< youtube "ym-fU1U-anE" >}}
 
-   Checkout the branch in the MR and open rails console using `bin/rails console`.
+    Checkout the branch in the MR and open rails console using `bin/rails console`.
 
-   **1. Edit compute minutes**
+    **1. Edit compute minutes**
 
-   ``` ruby
+    ``` ruby
     ApplicationSetting.current.update(shared_runners_minutes: 400)
     project = Project.find(20)
     root_namespace = project.root_namespace
@@ -102,9 +102,9 @@ Some MRs require additional set up:
     Ci::Minutes::ProjectMonthlyUsage.update_counters(project_usage, amount_used: 100, shared_runners_duration: 100)
     ```
 
-   Type `:wq` to exit the log lines. Do not exit the rails console.
+    Type `:wq` to exit the log lines. Do not exit the rails console.
 
-   **2. Add helper method**
+    **2. Add helper method**
 
     ```ruby
     def increase_ci_usage(project:, date:, amount_used:, shared_runners_duration:)
@@ -117,12 +117,13 @@ Some MRs require additional set up:
     end
     ```
 
-   **3. Use helper method**
+    **3. Use helper method**
 
     ```ruby
     increase_ci_usage(project: project, date: 1.month.ago, amount_used: 10, shared_runners_duration: 20)
+    ```
 
-   The usage quota page should now reflect the changes data.
+    The usage quota page should now reflect the changes data.
 
 - **Secure**:
   - Generate project vulnerabilities, execute `GITLAB_QA_ACCESS_TOKEN=XXXXXXXXXX GITLAB_URL="https://gitlab.com" bundle exec rake vulnerabilities:setup\[<Project_Id>,<Vulnerability_Count>\] --trace` from the `gitlab/qa` directory. Replace the placeholders in the script with your local access token, project ID, and desired number of vulnerabilities. An example of this might be `GITLAB_QA_ACCESS_TOKEN=asdfASDF1234- GITLAB_URL="http://localhost:3000/" bundle exec rake vulnerabilities:setup\[25,10] --trace`

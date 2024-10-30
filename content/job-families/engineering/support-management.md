@@ -106,7 +106,7 @@ A Senior Manager, Support Engineering will:
 - Represent GitLab Support in client meetings, networking events and other official functions
 - Partner with management on budget requirements and executing to established budgets
 
-See also our [Support Manager Responsibilities page](/handbook/support/managers/manager-responsibilities.html).
+See also our [Support Manager Responsibilities page](/handbook/support/managers/manager-responsibilities/).
 
 #### Requirements
 

@@ -16,7 +16,7 @@ The two initial sources you'll see on UserGems created leads are the following:
 
 ### UserGems Contact Tracking
 
-UserGems helps Gitlab track up to 50K matched contacts from different, carefully selected cohorts, as follows:
+UserGems helps GitLab track up to 50K matched contacts from different, carefully selected cohorts, as follows:
 
 - [CW Opp Associated Contacts (Large)](https://gitlab.lightning.force.com/lightning/r/Report/00OPL000006Rs2T2AS/view);
 - [CW Opp Associated Contacts (Mid-Market)](https://gitlab.lightning.force.com/lightning/r/Report/00OPL000006Rs8v2AC/view);
@@ -28,7 +28,7 @@ UserGems helps Gitlab track up to 50K matched contacts from different, carefully
 
 ### UserGems Target Account Tracking
 
-In a separate motion to the contact tracking, UserGems also helps Gitlab identify **New Hires & Promotions** into our target accounts.
+In a separate motion to the contact tracking, UserGems also helps GitLab identify **New Hires & Promotions** into our target accounts.
 
 The current list of target accounts UserGems is tracking for GitLab can be viewed using this [Salesforce Report](https://gitlab.lightning.force.com/lightning/r/Report/00OPL0000044fjp/view).
 
@@ -93,7 +93,7 @@ Traction Complete will be used to route the leads created by UserGems as well as
 
 Do keep in mind that the notifications will be turned off for the retro-active leads due to the high volume of these leads, notifications will be turned back on after the first initial batch is completed.
 
-UserGems leads will be marked as high priority with a high priority reason of `UserGems Lead`, which allows leads to be assigned at creation. Leads that are SMB and have no BDR assigned on a matched account will round robin to SDRs, while the remaining will be assigned to BDRs. 
+UserGems leads will be marked as high priority with a high priority reason of `UserGems Lead`, which allows leads to be assigned at creation. Leads that are SMB and have no BDR assigned on a matched account will round robin to SDRs, while the remaining will be assigned to BDRs.
 
 | Notifications                                                                                                                                | Related Object | Recipients | Filter                                                                                                                                                                                                                   |
 | -------------------------------------------------------------------------------------------------------------------------------------------- | -------------- | ---------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
@@ -106,7 +106,7 @@ UserGems leads will be marked as high priority with a high priority reason of `U
 
 ### Dynamic Layouts
 
-On both the lead & contact object, on the top right side, if this is a UserGems Lead or a UserGems Past Contact, you'll be able to reference, at a glance relevant information like: Current Lead Link, Past Contact Link, Current Account, Current Account Type, Current Title, Current Email along with many other fields that are relevant. 
+On both the lead & contact object, on the top right side, if this is a UserGems Lead or a UserGems Past Contact, you'll be able to reference, at a glance relevant information like: Current Lead Link, Past Contact Link, Current Account, Current Account Type, Current Title, Current Email along with many other fields that are relevant.
 
 ### Sales Enablement
 
@@ -114,4 +114,4 @@ A training for SDRs/BDRs took place on 09/19/2024 and the recording can be viewe
 
 ### Sales Dev Plays
 
-To get more information regarding the different plays for the UserGems created leads, please visit the [Sales Development Handbook UserGems entry] (https://handbook.gitlab.com/handbook/marketing/sales-development/#usergems). 
+To get more information regarding the different plays for the UserGems created leads, please visit the [Sales Development Handbook UserGems entry](/handbook/marketing/sales-development/#usergems).

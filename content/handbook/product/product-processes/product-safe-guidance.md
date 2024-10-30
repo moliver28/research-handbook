@@ -49,7 +49,7 @@ The following applies to GitLab artifacts that have product and specific feature
 |References to revenue| Y | Y |
 |User confidentiality | Y | Y |
 
-### Materially Non-Public Information
+### Materially Non-Public Information (MNPI)
 
 Product managers often need access to MNPI to do their job. As GitLab is now a publicly-traded company, it is important we all understand what MNPI is so we manage information/data appropriately. Here are some examples of MNPI:
 

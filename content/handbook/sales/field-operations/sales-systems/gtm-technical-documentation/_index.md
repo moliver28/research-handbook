@@ -15,7 +15,7 @@ Please see the dedicated [ARR Technical Documentation Page](/handbook/sales/fiel
 
 ## Gainsight
 
-Please see the dedicated [Gainsight Technical Documentation Page](/handbook/sales/field-operations/customer-success-operations/gainsight/gainsight-gtm.html)
+Please see the dedicated [Gainsight Technical Documentation Page](/handbook/sales/field-operations/customer-success-operations/gainsight/gainsight-gtm/)
 
 ## Xactly
 

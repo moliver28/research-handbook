@@ -68,6 +68,7 @@ You can direct questions to [#people-managers-and-above](https://gitlab.slack.co
 #### Resource Repository
 
 Below, you can access all the referenced in this guide:
+
 | Reference | Notes |
 | :------ | :------ |
 |[GitLab team members share how to recognize burnout (and how to prevent it)](https://about.gitlab.com/blog/2018/03/08/preventing-burnout/)        |Audience: All team members        |

@@ -31,7 +31,7 @@ To kick off this guide, it's important to understand what being a manager entail
    - What do you anticipate being the best part of being a manager and why? What about the worst part and why?
    - What team do you want to lead / what team is best suited for your skills and experience? Why?
 1. Have coffee chats with multiple CSM Managers about their experiences in management (and, if applicable, their experience being promoted into the role from being an IC).
-1. Review GitLab's [Growth & Development budget](/handbook/total-rewards/benefits/general-and-entity-benefits/growth-and-development/) and identify opportunities to use this benefit for growing your leadership skills.
+1. Review GitLab's [Growth & Development budget](/handbook/people-group/learning-and-development/growth-and-development/) and identify opportunities to use this benefit for growing your leadership skills.
 
 ## Module 2: Learn
 
@@ -52,7 +52,7 @@ Once you feel confident you're interested in exploring management, it's time to 
       - Leave each meeting with agreed-upon action items for both parties.
 1. Read through the [leadership page](/handbook/leadership/) of the handbook.
    - See if any [recommended leadership books](/handbook/leadership/#books) interest you and, if so, [expense](/handbook/finance/expenses/#expense-policy-outline) them.
-1. Take the [Elevate](/handbook/people-group/learning-and-development/elevate/) course provided by the L&D team (formerly known as the [Manager Challenge](/handbook/people-group/learning-and-development/manager-challenge/)) if available.
+1. Take the [Elevate](/handbook/people-group/learning-and-development/elevate-programs/) course provided by the L&D team (formerly known as the [Manager Challenge](/handbook/people-group/learning-and-development/manager-challenge/)) if available.
 1. Take the [Crucial Conversations](/handbook/people-group/learning-and-development/learning-initiatives/#crucial-conversations) course.
 1. Review to see if there is a new [LifeLabs cohort](https://gitlab.com/gitlab-com/people-group/learning-development/training-curriculum/-/issues/29) coming soon.
 1. Take the [New Manager Foundations](https://www.linkedin.com/learning/new-manager-foundations-2/) LinkedIn Learning course.

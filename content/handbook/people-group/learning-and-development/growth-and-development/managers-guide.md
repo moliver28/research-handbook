@@ -68,7 +68,7 @@ Our intent at GitLab is to pay for everything a team member needs when travellin
 
 These two costs should still be detailed in the Growth and Development request issue. They just need to be expensed separately. The travel costs won't be subtracted from the team members' personal G&D budget.
 
-There may be budgetary concerns if a team member is applying for a conference that would incur significant travel and accomodation costs. When approving a team members' G&D request, managers should feel confident that they can justify the total cost.
+There may be budgetary concerns if a team member is applying for a conference that would incur significant travel and accommodation costs. When approving a team members' G&D request, managers should feel confident that they can justify the total cost.
 
 If you are unsure whether the cost of travel for one of your team members G&D applications is justifiable, please speak to your manager / VP **before** approving the request. VP approval is required on all applications over $1000 involving travel, so in most cases they will be made aware as a matter of course.
 
@@ -88,7 +88,7 @@ As an option, requests over $1000 USD can take advantage of the split disburseme
 
 ## Types of opportunities
 
-Before encouraging team members to utliize the G&D Fund, it's important to be aware of the types of opportunities that are eligible. Review the main [Types of Growth and Development Reimbursement](/handbook/total-rewards/benefits/general-and-entity-benefits/growth-and-development/#types-of-growth-and-development-reimbursements) for more information on this.
+Before encouraging team members to utilize the G&D Fund, it's important to be aware of the types of opportunities that are eligible. Review the main [Types of Growth and Development Reimbursement](/handbook/people-group/learning-and-development/growth-and-development/#types-of-growth-and-development-reimbursements) for more information on this.
 
 ## Company-directed Learning vs Growth & Development funded learning experiences
 
@@ -98,7 +98,7 @@ It's important to differentiate between mandatory, company-directed learning ini
 
 ### I would like to utilize the Growth and Development Fund for some team training, is that allowed?
 
-The G&D Fund is primarily intended for individual use for career growth and this accounts for the vast majority of applications. However, if a manager feels strongly they could benefit from a team-based training opportunity, their team memebers are supportive of that, and each team member has the remaining G&D allowance required for the opportunity, this may be suitable for G&D use. The Learning & Development review these applications on a case by case basis, so please reach out in [#learninganddevelopment](https://gitlab.enterprise.slack.com/archives/CMRAWQ97W) to discuss the suitability of your team training opportunity.
+The G&D Fund is primarily intended for individual use for career growth and this accounts for the vast majority of applications. However, if a manager feels strongly they could benefit from a team-based training opportunity, their team members are supportive of that, and each team member has the remaining G&D allowance required for the opportunity, this may be suitable for G&D use. The Learning & Development review these applications on a case by case basis, so please reach out in [#learninganddevelopment](https://gitlab.enterprise.slack.com/archives/CMRAWQ97W) to discuss the suitability of your team training opportunity.
 
 If the budget isn't available to put team members through a paid learning opportunity, we recommend engaging the Learning and Development Team using our [Engagement Concierge](/handbook/people-group/engagement-concierge/) program, where we can assist in creating a customized learning path using our existing resources and expertise.
 
@@ -108,7 +108,7 @@ Note: G&D budgets cannot be pooled - e.g. if one team member has spent their ful
 
 No. The G&D Fund shouldn't be used as a means to help underperformance, only team members who are meeting performance expectations in their current role are eligible. Team members on a Performance Improvement Plan (PIP) or any type of remedial, as outlined in the [Underperformance](/handbook/leadership/underperformance/) page are not eligible for the G&D Fund.
 
-### Can I recommend specific G&D opportunities to help solve ongoing business issues within my scope of work?
+### Can I recommend G&D opportunities to help solve ongoing business issues within my work scope?
 
 No. The G&D Fund is to empower individual team members to work on their career growth, it should not be used to solve ongoing business issues. If you feel an ongoing business problem cannot be solved without some sort of formal training, this should come from the department budget, and we would recommend speaking to your manager about this.
 
@@ -124,6 +124,6 @@ As a general rule of thumb, opportunities to improve skills that are rarely need
 
 #### My team member wants to go to a conference, but the travel isn't covered by the G&D Fund, why?
 
-If the Growth & Development conference request has been approved, then the accompanied travel expenses are also approved, but they must be filed/reimbursed separately because they come from two different budgets. 
+If the Growth & Development conference request has been approved, then the accompanied travel expenses are also approved, but they must be filed/reimbursed separately because they come from two different budgets.
 
-The Growth and Development Fund can be used to cover the cost of conference tickets and admission, but the costs for travel, accomodation, and meals, should come from your departments Travel & Expenses budget. These costs have been accounted for in the budget for each department. Team members should still include the approximate travel and hotel costs in their Growth and Development issue, so that your department's VP can review and approve the costs, with the understanding that it is coming from their T&E budget. The T&E costs are not subtracted from a team members G&D buget of 10,000 USD.
+The Growth and Development Fund can be used to cover the cost of conference tickets and admission, but the costs for travel, accommodation, and meals, should come from your departments Travel & Expenses budget. These costs have been accounted for in the budget for each department. Team members should still include the approximate travel and hotel costs in their Growth and Development issue, so that your department's VP can review and approve the costs, with the understanding that it is coming from their T&E budget. The T&E costs are not subtracted from a team members G&D budget of 10,000 USD.

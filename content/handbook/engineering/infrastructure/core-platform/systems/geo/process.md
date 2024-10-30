@@ -349,49 +349,9 @@ Process summary:
 - The DRI currently assigned to the rotation should then dedicate a portion of their week (4-6 hours) to review issues from the bug backlog as defined in the "Phase 2: Technical Assessment" section of the triage process described above.
 - If the DRI is unable to perform an upcoming triage rotation shift due to PTO, they are expected to find a backup or notify the EM to find a backup.
 
-##### Combined Schedule
+##### Schedules
 
-| Rotation   | Month     | Start Date | End Date   | Name                                                 |
-| ---------- | --------- | ---------- | ---------- | ---------------------------------------------------- |
-| Support    | July      | 2024-07-08 | 2024-07-12 | [`@ibaum`](https://gitlab.com/ibaum)                 |
-| Support    | July      | 2024-07-15 | 2024-07-19 | [`@dbalexandre`](https://gitlab.com/dbalexandre)     |
-| Bug Triage |           | 2024-07-08 | 2024-07-19 | [`@kyetter`](https://gitlab.com/kyetter)             |
-| Support    | July      | 2024-07-22 | 2024-07-26 | [`@kyetter`](https://gitlab.com/kyetter)             |
-| Support    | July      | 2024-07-29 | 2024-08-02 | [`@aakriti.gupta`](https://gitlab.com/aakriti.gupta) |
-| Bug Triage |           | 2024-07-22 | 2024-08-02 | [`@mkozono`](https://gitlab.com/mkozono)             |
-| Support    | August    | 2024-08-05 | 2024-08-09 | [`@mkozono`](https://gitlab.com/mkozono)             |
-| Support    | August    | 2024-08-12 | 2024-08-16 | [`@brodock`](https://gitlab.com/brodock)             |
-| Bug Triage |           | 2024-08-05 | 2024-08-16 | [`@ibaum`](https://gitlab.com/ibaum)                 |
-| Support    | August    | 2024-08-19 | 2024-08-23 | [`@ibaum`](https://gitlab.com/ibaum)                 |
-| Support    | August    | 2024-08-26 | 2024-08-30 | [`@dbalexandre`](https://gitlab.com/dbalexandre)     |
-| Bug Triage |           | 2024-08-19 | 2024-08-30 | [`@brodock`](https://gitlab.com/brodock)             |
-| Support    | September | 2024-09-02 | 2024-09-06 | [`@brodock`](https://gitlab.com/brodock)             |
-| Support    | September | 2024-09-09 | 2024-09-13 | [`@aakriti.gupta`](https://gitlab.com/aakriti.gupta) |
-| Bug Triage |           | 2024-09-02 | 2024-09-13 | [`@kyetter`](https://gitlab.com/kyetter)             |
-| Support    | September | 2024-09-16 | 2024-09-20 | [`@ibaum`](https://gitlab.com/ibaum)                 |
-| Support    | September | 2024-09-23 | 2024-09-27 | [`@brodock`](https://gitlab.com/brodock)             |
-| Bug Triage |           | 2024-09-16 | 2024-09-27 | [`@aakriti.gupta`](https://gitlab.com/aakriti.gupta) |
-| Support    | September | 2024-09-30 | 2024-10-04 | [`@mkozono`](https://gitlab.com/mkozono)             |
-| Support    | October   | 2024-10-07 | 2024-10-11 | [`@kyetter`](https://gitlab.com/kyetter)             |
-| Bug Triage |           | 2024-09-30 | 2024-10-11 | [`@dbalexandre`](https://gitlab.com/dbalexandre)     |
-| Support    | October   | 2024-10-14 | 2024-10-18 | [`@dbalexandre`](https://gitlab.com/dbalexandre)     |
-| Support    | October   | 2024-10-21 | 2024-10-25 | [`@aakriti.gupta`](https://gitlab.com/aakriti.gupta) |
-| Bug Triage |           | 2024-10-14 | 2024-10-25 | [`@kyetter`](https://gitlab.com/kyetter)             |
-| Support    | October   | 2024-10-28 | 2024-11-01 | [`@brodock`](https://gitlab.com/brodock)             |
-| Support    | November  | 2024-11-04 | 2024-11-08 | [`@ibaum`](https://gitlab.com/ibaum)                 |
-| Bug Triage |           | 2024-10-28 | 2024-11-08 | [`@mkozono`](https://gitlab.com/mkozono)             |
-| Support    | November  | 2024-11-11 | 2024-11-15 | [`@mkozono`](https://gitlab.com/mkozono)             |
-| Support    | November  | 2024-11-18 | 2024-11-22 | [`@dbalexandre`](https://gitlab.com/dbalexandre)     |
-| Bug Triage |           | 2024-11-11 | 2024-11-22 | [`@ibaum`](https://gitlab.com/ibaum)                 |
-| Support    | November  | 2024-11-25 | 2024-11-29 | [`@kyetter`](https://gitlab.com/kyetter)             |
-| Support    | December  | 2024-12-02 | 2024-12-06 | [`@ibaum`](https://gitlab.com/ibaum)                 |
-| Bug Triage |           | 2024-11-25 | 2024-12-06 | [`@brodock`](https://gitlab.com/brodock)             |
-| Support    | December  | 2024-12-09 | 2024-12-13 | [`@brodock`](https://gitlab.com/brodock)             |
-| Support    | December  | 2024-12-16 | 2024-12-20 | [`@mkozono`](https://gitlab.com/mkozono)             |
-| Bug Triage |           | 2024-12-09 | 2024-12-20 | [`@dbalexandre`](https://gitlab.com/dbalexandre)     |
-| Support    | December | 2024-12-23 | 2024-12-27 | See [this Google calendar](GCal URL here). Engineers will only work severe support requests in order of severity and urgency. |
-| Support    | December | 2024-12-30 | 2025-01-03 | See [this Google calendar](GCal URL here). Engineers will only work severe support requests in order of severity and urgency. |
-| Bug Triage |          | 2024-12-23 | 2024-01-03 | See [this Google calendar](GCal URL here). Bugs that are likely severity 2 or lower may not be triaged during this time.      |
+Schedules are tracked in a [Google Sheet(internal link)](https://docs.google.com/spreadsheets/d/1-kvptYZfhCSV9WTVEs4epfUSVvxIMSf5wHxnT6BmjSw/edit?gid=1214041762#gid=1214041762).
 
 ## Retrospectives
 

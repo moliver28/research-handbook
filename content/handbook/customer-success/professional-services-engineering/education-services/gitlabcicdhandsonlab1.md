@@ -9,7 +9,7 @@ description: "This Hands-On Guide walks you a live example of a GitLab CI/CD Pip
 
 CI/CD is a continuous method of software development, where you continuously build, test, deploy, and monitor iterative code changes. To achieve these tasks, GitLab uses various different components. The objective of this lab is to familiarize yourself with the GitLab Pipeline UI, as well as the jobs and stages that make up a pipeline.
 
-## Task A: Review Gitlab's CI/CD Pipelines
+## Task A: Review GitLab's CI/CD Pipelines
 
 1. Click [here](https://gitlab.com/gitlab-org/gitlab/-/pipelines) to navigate to GitLab's pipelines. You will see all of the pipelines that are running for commits to the main GitLab repo.
 

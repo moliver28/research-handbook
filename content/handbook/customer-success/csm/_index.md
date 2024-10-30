@@ -164,7 +164,7 @@ Please reference this page for an overview of the areas your CSM will engage wit
 - [Using Gainsight](/handbook/customer-success/csm/gainsight/)
 - [CSM Quaterly Business Reviews](/handbook/customer-success/csm/qbr/)
 - [CSM Responsibilities and Services](/handbook/customer-success/csm/services/)
-- [CSM and Product Interaction](/handbook/customer-success/csm/product/)
+- [CSM and Product Interaction](/handbook/product/product-management/#how-to-engage-product-managers)
 - [CSM and Professional Services Interaction](/handbook/customer-success/csm/engaging-with-ps/)
 - [CSM and Support Interaction](/handbook/customer-success/csm/support/)
 - [CSM and Partner Interaction](/handbook/customer-success/csm/engaging-with-partners/)
@@ -213,7 +213,7 @@ Landing Zones
 #### Digital Customer Programs
 
 - [Digital Customer Programs Handbook Page](/handbook/sales/field-operations/customer-success-operations/cs-ops-programs/)
-  - [CSM Assigned Customer Programs](/handbook/sales/field-operations/customer-success-operations/cs-ops-programs/available-programs/index.html#csm-assigned-account-programs)
+  - [CSM Assigned Customer Programs](/handbook/sales/field-operations/customer-success-operations/cs-ops-programs/available-programs/#csm-assigned-account-programs)
 
 ### CSM Managers
 

@@ -64,7 +64,7 @@ When traveling, there is the possibility that customs, border control, or other 
 For additional security specifically when traveling through an airport, the following advice is provided:
 
 - Completely power-off laptops and mobile devices before any security checkpoints. This reduces the risk of attacks that may be conducted against machines in a sleep mode, where the disk encryption is not being actively enforced.
-- Prior to the trip, remove any sensitive data from your local machine that is not absolutely required. Refer to the [Data Classification Standards](/handbook/security/data-classification-standard.html#data-classification-standards) for more information.
+- Prior to the trip, remove any sensitive data from your local machine that is not absolutely required. Refer to the [Data Classification Standards](/handbook/security/data-classification-standard/#data-classification-standards) for more information.
 - If you are aware of any circumstances with your travel that may present a unique security risk (such as traveling to speciality conferences like Defcon), you may request advice in the [#security-department](https://gitlab.slack.com/archives/CM74JMLTU) Slack channel.
 
 ### Expenses While Traveling

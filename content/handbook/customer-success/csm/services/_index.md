@@ -58,5 +58,5 @@ There are various services a Customer Success Manager will provide to ensure tha
   - Review the [Upgrade Assistance page](https://about.gitlab.com/support/scheduling-upgrade-assistance/) with customers during upgrade planning to ensure a plan is in place (including a rollback strategy) and Support have enough time to review the plan
 - [Infrastructure upgrade coordination](/handbook/customer-success/csm/services/infrastructure-upgrade/) -  CSMs may provide high-level guidance but the technical implementation should ideally be provided by Professional Services via [Dedicated Implementation Services](/services/implementation/enterprise/)
 - Launch best practices
-- Review and submit [Support Ticket Attention Requests](/handbook/support/internal-support/support-ticket-attention-requests.html)
+- Review and submit [Support Ticket Attention Requests](/handbook/support/internal-support/support-ticket-attention-requests/)
 - Monitor SaaS based customer experience by adding them to the [Marquee Accounts alerts](https://gitlab.com/gitlab-com/gl-infra/marquee-account-alerts) project

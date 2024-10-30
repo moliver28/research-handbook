@@ -1,6 +1,6 @@
 ---
 title: Cross Functional Prioritization
-canonical_path: "/handbook/product/cross-functional-prioritization/"
+canonical_path: "/handbook/product/product-processes/cross-functional-prioritization/"
 noindex: true
 ---
 

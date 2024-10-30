@@ -412,7 +412,6 @@ If you do start with an issue rather than an MR, use the [Documentation template
 - `type::maintenance`
 - `maintenance::refactor`
 - `docs-only`
-- `docs::fix` or `docs::improvement`
 - `Stage name`
 - `Group name`
 
@@ -564,17 +563,25 @@ After adding the `Technical Writing` label, we want to classify the type of effo
 
 Depending on the issue or merge request, you may include one or more of the preceding labels with the issue or merge request, depending on its contents. There may be occasions when *none* of the preceding labels apply to the issue or merge request; in that case, having only the `Technical Writing` label is enough.
 
-### Documentation-specific type labels
+### Type labels
 
-If an issue/merge request has both the `Technical Writing` and `documentation`
-labels, Technical Writers should add one of the following
-[scoped labels](https://gitlab.com/groups/gitlab-org/-/labels?utf8=✓&subscribed=&search=docs%3A%3A)
-to the issue/merge request on which they work:
+All issues and merge requests must be classified into one of three work types: Bug, Feature, or Maintenance.
+Add one of the following labels to an issue or merge request:
 
-- `docs::feature`
-- `docs::fix`
-- `docs::improvement`
-- `docs::non-content`
+- `type::feature`
+- `type::bug`
+- `type::maintenance`
+
+For more information, see [Work Type Classification](/handbook/product/groups/product-analysis/engineering/metrics/#work-type-classification).
+
+The majority of documentation work uses the `type::maintenance` label.
+You must also apply one these subtype labels to further classify the type of maintenance work:
+
+- `maintenance::refactor`: Edits and improvements of existing documentation.
+- `maintenance::workflow`: Documentation changes that are not visible to readers, like linting and tooling updates, and metadata changes.
+
+For example, if you open a merge request to refactor a page for CTRT, apply the `type::maintenance` and `maintenance::refactor` labels.
+If you open a merge request to modify the metadata, apply the `type::maintenance` and `maintenance::workflow` labels.
 
 ### Workflow labels
 

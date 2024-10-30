@@ -71,6 +71,12 @@ important to those working within Zendesk:
 |--------------------------------|---------------|
 | `greatly_expired`              | The organization is slated to be removed due to data rentention policies |
 | `not_in_sfdc`                  | The organization is not being controlled by the ZD-SFDC sync |
+| `org_region_apac`              | The organization has a Geographic Demographic relating to APAC |
+| `org_region_amer`              | The organization has a Geographic Demographic relating to AMER |
+| `org_region_emea`              | The organization has a Geographic Demographic relating to EMEA |
+| `org_region_latam`             | The organization has a Geographic Demographic relating to LATAM |
+| `org_region_ncsa`              | The organization has a Geographic Demographic relating to NCSA |
+| `org_region_noram`             | The organization has a Geographic Demographic relating to NORAM |
 | `partner_customer`             | The organization has purchased from an OEM partner |
 | `restricted_account`           | The SFDC account is classified as restricted and cannot receive support |
 | `sub_community_other`          | The organization has a community subscription which had an undetectable type |
@@ -740,6 +746,10 @@ important to those working within Zendesk:
 | `within_grace_period`            | Indicates a ticket was submitted while the account is within the subscription's grace period |
 | `CUSTOM_PATH_issues_IID`         | See below for more information |
 | `CUSTOM_PATH_merge_requests_IID` | See below for more information |
+| `americas_usa`                   | Customer selected preferred region of service: AMER |
+| `europe__middle_east__africa`    | Customer selected preferred region of service: EMEA |
+| `asia_pacific`                   | Customer selected preferred region of service: APAC |
+| `all_regions`                    | Customer selected preferred region of service: All Regions |
 
 For `CUSTOM_PATH_issues_IID` and `CUSTOM_PATH_merge_requests_IID`, this refers
 to a long tag that contains the entire project path.

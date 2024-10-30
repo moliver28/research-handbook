@@ -141,9 +141,9 @@ for details of the structure of the file.
 
 Information for and about the different parts of the Support Team can be found in the following sections of the Support Handbook:
 
-- [/support/engineering](/handbook/support/engineering/index.html) is content that is for Support Engineers. Think: Zendesk workflows and technical resources.
-- [/support/license-and-renewals](/handbook/support/license-and-renewals/index.html) is content for the Licensing and Renewals Support Engineers and Managers. Think: [customers.gitlab.com](https://customers.gitlab.com) and working with the Fulfillment Product Team.
-- [/support/managers](/handbook/support/managers/index.html) is content that is for Support Managers. Think: how to manage issues, run 1:1s and leadership sync information.
+- [/support/engineering](/handbook/support/engineering/) is content that is for Support Engineers. Think: Zendesk workflows and technical resources.
+- [/support/license-and-renewals](/handbook/support/license-and-renewals/) is content for the Licensing and Renewals Support Engineers and Managers. Think: [customers.gitlab.com](https://customers.gitlab.com) and working with the Fulfillment Product Team.
+- [/support/managers](/handbook/support/managers/) is content that is for Support Managers. Think: how to manage issues, run 1:1s and leadership sync information.
 - [/support/readiness](/handbook/support/readiness/) is the landing page for Support Readiness. Think: how is the support team preparing for X?
   - [/support/support-ops](/handbook/support/readiness/operations/) is content that is for Support Operations. Think: how to change Zendesk forms and fields, and other ops details.
 

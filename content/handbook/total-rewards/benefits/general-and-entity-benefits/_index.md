@@ -28,9 +28,9 @@ For any questions relating to benefits, please reach out to [HelpLab](https://he
 - [GitLab France S.A.S.]({{< ref "france-sas" >}})
 - [GitLab Singapore Pte Ltd]({{< ref "singapore-pte-ltd" >}})
 - [GitLab Iberia s.r.l Spain](/handbook/entity/iberia-srl-spain/)
-- [Remote Technology (Brazil, Denmark, Italy, Switzerland, Hungary, and Sweden)]({{< ref "remote-com" >}})
+- [Remote Technology (Brazil, Denmark, Italy, Mexico, Switzerland, Hungary, and Sweden)]({{< ref "remote-com" >}})
 - [Papaya Global (Italy)]({{< ref "papaya-global" >}})
-- [Global Expansion (Austria, Chile, Costa Rica, Kenya, Latvia, Mexico, Philippines, and UAE)]({{< ref "global-expansion" >}})
+- [Global Expansion (Austria, Chile, Costa Rica, Kenya, Latvia, Mexico, Philippines, South Africa, and UAE)]({{< ref "global-expansion" >}})
 
 ### Benefits Available to Contractors
 
@@ -73,7 +73,7 @@ Starting 2024, GitLab has partnered with HealthKick, a global well-being platfor
 We know that whole-person wellness is important for feeling good. That's why we are offering all employees access to HealthKick (at no-cost), a personal wellness membership dedicated to helping you feel your best. When you enroll you'll gain access to an array of 250+ brands, content and expert resources that will help you optimize your well-being. From fitness classes and personalized workout plans to nutrition workshops and mental health resources.
 
 Please review HealthKick's member resources and the self-registration link/instructions to enroll with anytime throughout the year.
-[Gitlab self-registration link](https://www.health-kick.com/companies/1004/registration)
+[GitLab self-registration link](https://www.health-kick.com/companies/1004/registration)
 [HealthKick Overview](https://drive.google.com/file/d/1AitsrkUDA66UV5xZsv5ooqxmr7BpxlLh/view)
 [HealthKick Welcome Packet](https://drive.google.com/file/d/1_vdASrSSzztvEwM7NOx_szEPYMkPBiiA/view?usp=sharing)
 
@@ -351,7 +351,7 @@ Managers of soon to be parents should check out this [Parental Leave Manager Too
 
 If you're interested in learning about how other GitLab team members approach parenthood, take a look at [the parenting resources wiki page](https://gitlab.com/gitlab-com/gitlab-team-member-resources/wikis/parenting) and [#intheparenthood](https://gitlab.slack.com/messages/CHADS8G12/) on Slack.
 
-## Team Member Relief Program
+## GitLab Cares - Team Member Disaster Relief Program
 
 When Team Members are affected by natural disasters such as fires, earthquakes, floods, etc..., GitLab has established a Team Member Relief Program to assist with financial hardship from these disasters or other emergencies. This program is managed in partnership with E4E Relief, a non-profit that helps businesses establish global disaster relief programs for their Team Members.
 

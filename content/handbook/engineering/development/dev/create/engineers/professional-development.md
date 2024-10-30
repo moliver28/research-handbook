@@ -90,7 +90,7 @@ GitLab has several programs they have in place which offer additional learning o
 
 ### Security Shadow Program
 
-From converging on real-time critical events with SIRT, exploiting vulnerabilities with the Red Team or participating in live Customer Assurance calls with the Risk and Field Security team, you will have the opportunity to [work next to security staff](/handbook/security/security-shadow.html) to gain valuable insight and working knowledge of security fundamentals across multiple domains.
+From converging on real-time critical events with SIRT, exploiting vulnerabilities with the Red Team or participating in live Customer Assurance calls with the Risk and Field Security team, you will have the opportunity to [work next to security staff](/handbook/security/security-shadow/) to gain valuable insight and working knowledge of security fundamentals across multiple domains.
 
 ### CEO Shadow Program
 

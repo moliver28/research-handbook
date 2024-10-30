@@ -425,7 +425,7 @@ The table includes free/community and paid tiers associated with GitLab's self-m
 ### Additional Documentation Links
 
 - [From SCM and CI to Security](https://docs.google.com/presentation/d/1Oq8znDkHrgGK5Xe5D23SdiRLt33OIJZ30OWCHNNDV14/edit?usp=sharing) *(GitLab internal only)*
-- [GitLab Security Compliance Controls](/handbook/security/security-assurance/security-compliance/sec-controls.html)
+- [GitLab Security Compliance Controls](/handbook/security/security-assurance/security-compliance/sec-controls/)
 - [GitLab Security Practices](/handbook/security/)
 - [Security Planning](/handbook/security/planning/)
 

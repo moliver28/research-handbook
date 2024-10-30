@@ -276,7 +276,7 @@ Moved to [release documentation](https://gitlab.com/gitlab-org/release/docs/).
 
 The Quality department collaborates with the [Security department's compliance team](/handbook/security/#security-compliance) to handle requests from customers and prospects.
 
-The Risk and Field Security team maintains the current state of answers to these questions, please follow the process to [request completion of assessment questionnaire](/handbook/security/security-assurance/field-security/customer-security-assessment-process.html).
+The Risk and Field Security team maintains the current state of answers to these questions, please follow the process to [request completion of assessment questionnaire](/handbook/security/security-assurance/field-security/customer-security-assessment-process/).
 
 If additional input is needed from the Quality team, the DRI for this is the Director of Quality. Tracking of supplemental requests will be via a confidential issue in the [compliance issue tracker](https://gitlab.com/gitlab-com/gl-security/security-assurance/sec-compliance/compliance). Once the additional inputs have been supplied, this is stored in the Compliance team's domain for efficiency.
 
@@ -320,44 +320,6 @@ The GitLab test automation framework is distributed across two projects:
 - Install and run [GitLab QA](https://gitlab.com/gitlab-org/gitlab-qa) to kick off test execution.
   - The spec files (test cases) can be found in the [GitLab codebase](https://gitlab.com/gitlab-org/gitlab/tree/master/qa)
 
-### Test results tracking
-
-Technical details about our test results tracking can be found in the [Test results tracking](https://docs.gitlab.com/ee/development/testing_guide/test_results_tracking.html) page.
-
-#### Individual test tracking
-
-- Within an E2E test file, each test is associated with one [GitLab testcase](https://gitlab.com/gitlab-org/gitlab/-/quality/test_cases).
-
-  ```ruby
-  RSpec.describe 'Stage' do
-    describe 'General description of the feature under test' do
-      it 'test name', testcase: 'https://gitlab.com/gitlab-org/gitlab/-/quality/test_cases/:test_case_id' do
-        ...
-      end
-
-      it 'another test', testcase: 'https://gitlab.com/gitlab-org/gitlab/-/quality/test_cases/:another_test_case_id' do
-        ...
-      end
-    end
-  end
-  ```
-
-  The test failure stack trace and the issue stack trace are compared, and the existing issue for which the stack trace is the most similar (under a 15% difference threshold) to the test failure is used.
-  The test failure job is then added to the failure report list in the issue.
-  Group label is automatically inferred based on the `product_group` metadata of the test.
-
-#### Test session tracking
-
-For each end-to-end pipeline that runs in the various environments we automatically test, we create a [test session issue](https://gitlab.com/gitlab-org/quality/testcase-sessions/-/issues) that contains the test session information.
-
-Test session issues group test results by DevOps stages, and link to [test cases](https://gitlab.com/gitlab-org/gitlab/-/quality/test_cases), and [test failure issues](https://gitlab.com/gitlab-org/gitlab/-/issues/?label_name%5B%5D=QA).
-
-Example of a test session issue: <https://gitlab.com/gitlab-org/quality/testcase-sessions/-/issues/72516>
-
-Test session issues are [working around missing GitLab feature](https://gitlab.com/groups/gitlab-org/-/epics/3129).
-
-Once GitLab stores test data, we can improve failure reporting and management.
-
 #### Documentation and videos
 
 - [GitLab QA Documentation](https://gitlab.com/gitlab-org/gitlab-qa/blob/master/docs)
@@ -390,4 +352,4 @@ See the [GitLab Data Seeder](/handbook/engineering/quality/gitlab-data-seeder) d
 - [Issue Triage Policies](/handbook/engineering/infrastructure/engineering-productivity/issue-triage/)
 - [Performance of GitLab](/handbook/engineering/performance/)
 - [Monitoring of GitLab.com](/handbook/engineering/monitoring/)
-- [Production Readiness Guide](https://gitlab.com/gitlab-com/infrastructure/blob/master/.gitlab/issue_templates/production_readiness.md)
+- [Production Readiness Guide](https://gitlab.com/gitlab-com/gl-infra/readiness/-/blob/master/.gitlab/issue_templates/production_readiness.md)

@@ -51,12 +51,13 @@ Professional coaching is a key pillar of the Elevate+ program. 1:1 coaching hour
 
 Participants should consider these important expectations for professional coaching during Elevate+:
 
-1. You'll meet with your coach for a total of 5 hours across the duration of the program
-1. Participants are expected to share their CultureAmp 360 reports directly with their coach
-1. The first session will be 60 minutes, providing space to get to know your coach and set development goals
-1. Subsequent sessions can be scheduled for 30 or 60 minute sessions
-1. Sessions can be rescheudled via the coaching portal if done before a 24 hour window
-1. Sessions cancelled within a 24 hour window **cannot be rescheduled.**  
+1. You'll meet with your coach for a total of 5 hours across the duration of the program.
+1. Participants are expected to share their CultureAmp 360 reports directly with their coach.
+1. **First Session:** Schedule your first session in the coaching portal. Your first session will be 60 minutes, providing space to get to know your coach and set development goals. This first session should happen before Workshop I on 2024-10-24.
+1. **Subsequent sessions:** Schedule subsequent sessions for 30 or 60 minute sessions, on dates of your choosing, direcly with your coach.
+1. We recommend spreading out coaching hours throughout the length of the program. You’ll likely schedule some sessions after Workshop II. That is expected (and encouraged!) so you can work with your coach on concepts discussed during the workshop.
+1. Sessions can be rescheudled via the coaching portal if done before a 24 hour window. Sessions cancelled within a 24 hour window **cannot be rescheduled.**  
+1. You will likely complete your Elevate+ certification reflection exercise before you've finished your 5 coaching hours.
 
 ## Measuring Success
 

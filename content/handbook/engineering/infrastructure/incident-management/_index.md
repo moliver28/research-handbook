@@ -196,11 +196,12 @@ When paged, the Infrastructure Leader will:
 1. Join the incident call
 1. Ask the EOC if help is needed from additional SREs.
 1. Ask the IM to ensure they are able to fulfill their duties.
+1. Evaluate whether a separate zoom should be created for technical investigations.
 1. Be the primary technical point of contact for the IM/CMOC to ensure the EOC can focus completely on remediation.
 
 ### Infrastructure Liaison
 
-To page the Incident Leader directly, run `/pd trigger` and choose the `Infrastructure Liaison` as the impacted service.
+To page the Incident Liaison directly, run `/pd trigger` and choose the `Infrastructure Liaison` as the impacted service.
 
 During a verified Severity 1 Incident the IM will page the Infrastructure Liaison.
 This is not a substitute or replacement for the active Incident Manager.
@@ -231,7 +232,7 @@ When paged, the Infrastructure Liaison will:
 ### Other escalations
 
 Further support is available from the Scalability and Delivery Groups if required.
-Scalability leadership can be reached via PagerDuty [Scalability Escalation](https://gitlab.pagerduty.com/escalation_policies#PDJ160O) (further [details available on their team page](/handbook/engineering/infrastructure/team/scalability/index.html#emergency-escalation-during-s1s2-incidents)).
+Scalability leadership can be reached via PagerDuty [Scalability Escalation](https://gitlab.pagerduty.com/escalation_policies#PDJ160O) (further [details available on their team page](/handbook/engineering/infrastructure/team/scalability/#emergency-escalation-during-s1s2-incidents)).
 Delivery leadership can be reached via PagerDuty. See the [Release Management Escalation](/handbook/engineering/infrastructure/team/delivery/#release-management-escalation) steps on the Delivery group page.
 
 ### Incident Mitigation Methods - EOC/Incident Manager
@@ -328,13 +329,16 @@ In some scenarios it may be necessary for most all participants of an incident (
 
 ## Corrective Actions
 
-Corrective Actions (CAs) are work items that we create as a result of an incident. Only issues arising out of an incident should receive the label "corrective action". They are designed to prevent the same kind of incident or improve the time to mitigation and as such are part of the Incidence Management cycle.
-
-Work items identified in incidents that don't meet the Corrective Action criteria should be raised in the [Reliability project](https://gitlab.com/gitlab-com/gl-infra/reliability/-/issues/new) and labeled with `~work::incident` rather than `~corrective action`
-
-Corrective Actions should be related to the incident issue to help with downstream analysis, and it can be helpful to refer to the incident in the description of the issue.
+Corrective Actions (CAs) are work items that we create as a result of an incident.
+Only issues arising out of an incident should receive the label `~"corrective action"`.
+They are designed to prevent the same kind of incident or improve the time to mitigation and as such are part of the Incidence Management cycle.
+Corrective Actions must be related to the incident issue to help with downstream analysis.
 
 Corrective Actions issues in the [Reliability project](https://gitlab.com/gitlab-com/gl-infra/reliability/-/issues/new) should be created using the [Corrective Action issue template](https://gitlab.com/gitlab-com/gl-infra/reliability/-/blob/master/.gitlab/issue_templates/incident-corrective-action.md) to ensure consistency in format, labels and application/monitoring of [service level objectives for completion](/handbook/engineering/infrastructure/engineering-productivity/issue-triage/#severity-slos)
+
+Issues that have the `~"corrective action"` label will automatically have the `~"infradev"` label applied.
+This is done so teams these issues are follow the same process we have for development to resolve them in [specific time-frames](/handbook/engineering/infrastructure/engineering-productivity/issue-triage/#severity-slos).
+For more details see the [infradev process](/handbook/product/product-processes/#infradev).
 
 ### Best practices and examples, when creating a Corrective Action issue
 
@@ -377,7 +381,7 @@ The current EOC can be contacted via the `@sre-oncall` handle in Slack, but plea
 
 1. You need assistance in halting the deployment pipeline. note: this can also be accomplished by [Reporting an Incident](/handbook/engineering/infrastructure/incident-management/#reporting-an-incident) and labeling it with `~blocks deployments`.
 1. You are conducting a production change via our [Change Management](/handbook/engineering/infrastructure/change-management/) process and as a required step need to seek the approval of the EOC.
-1. For all other concerns please see the [Getting Assistance](/handbook/engineering/infrastructure/team/reliability/#getting-assistance) section.
+1. For all other concerns please see the [Getting Assistance](/handbook/engineering/infrastructure/team/) section.
 
 The EOC will respond as soon as they can to the usage of the `@sre-oncall` handle in Slack, but depending on circumstances, may not be immediately available. If it is an emergency and you need an immediate response, please see the [Reporting an Incident](/handbook/engineering/infrastructure/incident-management/#reporting-an-incident) section.
 
@@ -464,7 +468,7 @@ In the case of a high severity bug that is in an ongoing, or upcoming deployment
 
 ## Security Incidents
 
-If an incident may be security related, engage the Security Engineer on-call by using `/security` in Slack. More detail can be found in [Engaging the Security Engineer On-Call](/handbook/security/security-operations/sirt/engaging-security-on-call.html).
+If an incident may be security related, engage the Security Engineer on-call by using `/security` in Slack. More detail can be found in [Engaging the Security Engineer On-Call](/handbook/security/security-operations/sirt/engaging-security-on-call/).
 
 ## Communication
 
@@ -532,10 +536,10 @@ Incident Managers and Engineers On-Call can use the following table as a guide f
 
 | Severity | Description     | Example Incidents     |
 | ------------- | ------------- | -------------|
-| `~severity::1` |  &emsp;  - GitLab.com is unavailable or severely degraded for the typical GitLab user<br>&emsp;  - Any data loss directly impacting customers<br>&emsp;  - The [guaranteed self-managed release date](/handbook/engineering/releases/#timelines) is put in jeopardy<br>&emsp;  - It is a [high impact security incident](/handbook/security/security-operations/sirt/severity-matrix.html#functional-impact-rating-examples)<br>&emsp; - It is an internally facing incident with full loss of metrics observability (Prometheus down)<br><br>[Incident Managers](/handbook/engineering/infrastructure/incident-management/#incident-manager-responsibilities) should be paged for all `~severity::1` incidents| Past `severity::1` [Issues](https://gitlab.com/gitlab-com/gl-infra/production/-/issues/?sort=updated_desc&state=closed&label_name%5B%5D=severity%3A%3A1&first_page_size=100)|
-| `~severity::2` |   &emsp;  - There is a recorded impact to the availability of one or more [GitLab.com Primary Service with a weight > 0](https://dashboards.gitlab.net/d/general-slas/general-slas?orgId=1&from=now-1h&to=now).  This includes `api`, `container registry`, `git access`, `API` and `web`.<br>&emsp;  - GitLab.com is unavailable or degraded for a small subset of users <br>&emsp;- GitLab.com is degraded but a reasonable workaround is available (includes widespread frontend degradations)<br>&emsp;- Any [moderate impact security incident](/handbook/security/security-operations/sirt/severity-matrix.html#functional-impact-rating-examples)<br>&emsp;- CustomersDot is offline<br><br>[Incident Managers](/handbook/engineering/infrastructure/incident-management/#incident-manager-responsibilities) should be paged for all `~severity::2` incidents| Past `severity::2` [Incidents](https://gitlab.com/gitlab-com/gl-infra/production/-/issues/?sort=updated_desc&state=closed&label_name%5B%5D=severity%3A%3A2&first_page_size=100)|
-| `~severity::3` |   &emsp;  - Broad impact on GitLab.com and minor inconvenience to typical user's workflow <br>&emsp;- A workaround is not needed<br>&emsp;- Any [low impact security incident](/handbook/security/security-operations/sirt/severity-matrix.html#functional-impact-rating-examples)<br>&emsp;- Most internally facing issues pertaining to blocked deployments (should a higher-severity incident be blocked by deployments, the severity for the blocker is still 3)<br>&emsp;- CustomersDot is in maintenance mode | Past `severity::3` [Incidents](https://gitlab.com/gitlab-com/gl-infra/production/-/issues/?sort=updated_desc&state=closed&label_name%5B%5D=severity%3A%3A3&first_page_size=100)|
-| `~severity::4` |   &emsp;  - Minimal impact on GitLab.com typical user's workflow | Past `severity::4` [Incidents](https://gitlab.com/gitlab-com/gl-infra/production/-/issues/?sort=updated_desc&state=closed&label_name%5B%5D=severity%3A%3A4&first_page_size=100)|
+| `~severity::1` |  &emsp;- GitLab.com is unavailable or severely degraded for the typical GitLab user<br>&emsp;- Any data loss directly impacting customers<br>&emsp;- The [guaranteed self-managed release date](/handbook/engineering/releases/#timelines) is put in jeopardy<br>&emsp;- It is a [high impact security incident](/handbook/security/security-operations/sirt/severity-matrix/#functional-impact-rating-examples)<br>&emsp;- It is an internally facing incident with full loss of metrics observability (Prometheus down)<br><br>[Incident Managers](/handbook/engineering/infrastructure/incident-management/#incident-manager-responsibilities) should be paged for all `~severity::1` incidents| Past `severity::1` [Issues](https://gitlab.com/gitlab-com/gl-infra/production/-/issues/?sort=updated_desc&state=closed&label_name%5B%5D=severity%3A%3A1&first_page_size=100)|
+| `~severity::2` |   &emsp;- There is a recorded impact to the availability of one or more [GitLab.com Primary Service with a weight > 0](https://dashboards.gitlab.net/d/general-slas/general-slas?orgId=1&from=now-1h&to=now). This includes `api`, `container registry`, `git access`, `API` and `web`.<br>&emsp;- GitLab.com is unavailable or degraded for a small subset of users <br>&emsp;- GitLab.com is degraded but a reasonable workaround is available<br>&emsp;- A widespread styling problem (frontend degradation) that makes the platform look unreliable.<br>&emsp;- Any [moderate impact security incident](/handbook/security/security-operations/sirt/severity-matrix/#functional-impact-rating-examples)<br>&emsp;- CustomersDot is offline<br><br>[Incident Managers](/handbook/engineering/infrastructure/incident-management/#incident-manager-responsibilities) should be paged for all `~severity::2` incidents| Past `severity::2` [Incidents](https://gitlab.com/gitlab-com/gl-infra/production/-/issues/?sort=updated_desc&state=closed&label_name%5B%5D=severity%3A%3A2&first_page_size=100)|
+| `~severity::3` |   &emsp;- Broad impact on GitLab.com and minor inconvenience to typical user's workflow <br>&emsp;- A workaround is not needed<br>&emsp;- Any [low impact security incident](/handbook/security/security-operations/sirt/severity-matrix/#functional-impact-rating-examples)<br>&emsp;- Most internally facing issues pertaining to blocked deployments (should a higher-severity incident be blocked by deployments, the severity for the blocker is still 3)<br>&emsp;- CustomersDot is in maintenance mode | Past `severity::3` [Incidents](https://gitlab.com/gitlab-com/gl-infra/production/-/issues/?sort=updated_desc&state=closed&label_name%5B%5D=severity%3A%3A3&first_page_size=100)|
+| `~severity::4` |   &emsp;- Minimal impact on GitLab.com typical user's workflow | Past `severity::4` [Incidents](https://gitlab.com/gitlab-com/gl-infra/production/-/issues/?sort=updated_desc&state=closed&label_name%5B%5D=severity%3A%3A4&first_page_size=100)|
 
 ### Alert Severities
 
