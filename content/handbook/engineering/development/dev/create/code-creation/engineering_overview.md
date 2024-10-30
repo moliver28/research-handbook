@@ -122,7 +122,7 @@ sequenceDiagram
     IDE->>+GLR: trigger code generation for line ` "#35; generate function `
     GLR->>PG: fetch X-Ray report for project and language
     PG->>GLR:  xray_reports record
-    GLR->>GLR: include first 50 entities from xray report into code generation prompt
+    GLR->>GLR: include first 300 entities from xray report into code generation prompt
     GLR->>-AIGW: trigger code generation ` "#35; generate function `
 ```
 
