@@ -81,8 +81,9 @@ Run this if you'd like to grant access to the copies or clones of `prep` and `pr
 
 **This will be fastest if the Data Engineer is provided with:**
 
+1. the merge request where the new models are being introduced
 1. the fully qualified name (`"database".schema.table`) of the table(s) to which access needs to be granted
-2. the role to which permissions should be granted
+1. the role to which permissions should be granted
 
 The database names for `PREP` and `PROD` can be found in the completed 🔑 `grant_clones` CI job. Linking this job for the DE will also be helpful in expediting this process.
 
