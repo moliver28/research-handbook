@@ -448,7 +448,7 @@ Arguments supporting also offering monthly pricing:
 
 ## Why show monthly pricing on the website
 
-Almost all SaaS products show monthly pricing on their pricing pages. GitLab shows [monthly pricing on our website](https://about.gitlab.com/pricing/) and notes clearly that it is billed annually. This is also a standard practice followed by companies like [Salesforce](https://www.salesforce.com/products/sales-pricing/). We previously have tried showing annual pricing on the website, but repeatedly heard from customers that they were confused by it. They often thought our product was priced significantly higher than it actually was because they expected the pricing to be displayed in monthly units and read the annual price as though it were per month.
+Almost all SaaS products show monthly pricing on their pricing pages. GitLab shows [monthly pricing on our website](https://about.gitlab.com/pricing/) and notes clearly that it is billed annually. This is also a standard practice followed by companies like [Salesforce](https://www.salesforce.com/sales/pricing/). We previously have tried showing annual pricing on the website, but repeatedly heard from customers that they were confused by it. They often thought our product was priced significantly higher than it actually was because they expected the pricing to be displayed in monthly units and read the annual price as though it were per month.
 
 ## Only sell a suite
 

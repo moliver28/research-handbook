@@ -53,7 +53,7 @@ Please don't hesitate to schedule one with me!
 - Paper notebook, I like [Moleskins](https://www.amazon.com/Moleskine-Classic-Cover-Notebook-Ruled/dp/8883701127)
 - [Fully Standing Desk](https://www.fully.com/en-eu/standing-desks/jarvis/jarvis-hardwood-standing-desk.html)
 - Office chair
-- [Bose 700](https://www.bose.com/en_us/products/headphones/noise_cancelling_headphones/noise-cancelling-headphones-700.html) Noise canceling headphones, essential for deep focus.
+- [Bose 700](https://www.bose.com/c/headphones/noise-cancelling) Noise canceling headphones, essential for deep focus.
 
 I strive to meditate daily for 20 minutes, which has a positive effect on my productivity and general wellness. When working at home it's easy to stay inside all day, so I usually take a short walk around the neighbourhood before starting work.
 

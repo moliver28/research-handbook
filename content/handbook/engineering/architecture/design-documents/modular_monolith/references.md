@@ -32,7 +32,7 @@ toc_hide: true
 Gusto / RubyAtScale:
 
 - [RubyAtScale toolchain for modularization](https://github.com/rubyatscale)
-- [Gusto's engineering blog](https://engineering.gusto.com/laying-the-cultural-and-technical-foundation-for-big-rails/)
+- [Gusto's engineering blog](https://engineering.gusto.com/laying-the-cultural-and-technical-foundation-for-big-rails-6b5ab78349ed)
 - [Gradual modularization](https://gradualmodularization.com/) (successor to CBRA)
 - [Component-Based Rails Applications](https://cbra.info) ("deprecated")
 

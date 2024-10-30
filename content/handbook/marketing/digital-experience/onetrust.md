@@ -10,7 +10,7 @@ OneTrust is privacy, security, and data governance software that marketing uses 
 ## Support
 
 1. Technical assistance: Slack #digital-experience-team
-1. [Support Portal](https://support.onetrust.com/hc/en-us) (requires separate account/login)
+1. [Support Portal](https://my.onetrust.com/s/?language=en_US) (requires separate account/login)
 1. `support@onetrust.com`
 1. [Cookiedatabase.org](https://cookiedatabase.org/)
 1. [Cookiepedia](https://cookiepedia.co.uk/)

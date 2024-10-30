@@ -169,7 +169,7 @@ People may request access to other vaults such as shared vaults that their teams
 
 ### Browser extension
 
-Go to [Browser extensions](https://agilebits.com/onepassword/extensions) and
+Go to [Browser extensions](https://1password.com/downloads/mac#browsers) and
 install the extension for whatever browser you're using. You *should not* need a
 beta version here.
 

@@ -284,7 +284,7 @@ The below is an inexhaustive list of news articles covering the growing movement
 1. LinkedIn Talent Blog: [Why You Need to Hire a Head of Remote Work — and What That Job Entails](https://business.linkedin.com/talent-solutions/blog/work-flexibility/2020/why-you-need-to-hire-a-head-of-remote-work)
 1. Reworked: [Is Now the Time to Invest in a Head of Remote Work?](https://www.reworked.co/leadership/is-now-the-time-to-invest-in-a-head-of-remote-work)
 1. Running Remote: [Is it time for your company to hire a Head of Remote?](https://runningremote.com/is-it-time-for-your-company-to-hire-a-head-of-remote)
-1. Zenefits: [Why Companies Are Hiring a Head of Remote Work (and Why You Should, Too)](https://www.zenefits.com/workest/why-companies-are-hiring-a-head-of-remote-work-and-why-you-should-too)
+1. Zenefits: [Why Companies Are Hiring a Head of Remote Work (and Why You Should, Too)](https://web.archive.org/web/20230602020646/https://www.zenefits.com/workest/why-companies-are-hiring-a-head-of-remote-work-and-why-you-should-too/)
 1. Fast Company: [Why your business needs a Head of Remote](https://www.fastcompany.com/90715519/why-your-business-needs-a-head-of-remote)
 
 ## Contribute your lessons

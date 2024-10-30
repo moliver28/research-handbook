@@ -25,7 +25,7 @@ twitter_creator: gitlab
 * Owned events
   * [GitLab DevSecOps World Tour](https://about.gitlab.com/events/commit/), our User & Customer Conference
 * Internal events
-  * [GitLab Summit](https://about.gitlab.com/events/summit-las-vegas/), our internal company and core community event
+  * GitLab Summit, our internal company and core community event
   * Please review our events decision tree to ensure Corporate Marketing is the appropriate owner for an event. If it is not clear who should own an event based on the [decision tree](https://docs.google.com/spreadsheets/d/1aWsmsksPfOlX1t6TeqPkh5EQXergt7qjHAjGTxU27as/edit?usp=sharing), please email events@gitlab.com.
 
 ## Meet the Corporate Events Team and How to Reach Us
@@ -135,14 +135,14 @@ Suggested events will be subject to a valuation calculation - will it meet or ex
 Content DRI’s will be in charge of creating their presentations based off of the template guidelines for any of the sessions. Presentations will be built in Google Slides. Once the presentation is final it will then be converted to either Keynote or PPT.
 
 1. The Corporate Events Content Manager will provide a Google Slides template specific to the content DRI’s session.
-2. The content DRI will create their content using the template that was provided to them. 
+2. The content DRI will create their content using the template that was provided to them.
 3. The content DRI will provide a draft of the presentation to the overall track DRI to review and provide feedback.
-4. The content DRI will make any suggested changes to the presentation and then provide the presentation to the track DRI to review. Steps 3 & 4 will repeat until the track DRI approves of the presentation. 
-    * If the content DRI is not the same as the presenter then at this point the main presenter will review the content - this will be the case for any E-Group presenters. The content DRI will address any feedback that the main presenter has. 
-5. The presentation will then go into the review process and you will lose editing access to the presentation. You will still have commenting privileges. After each point in the review process (brand, copy editing, legal), you will gain editing access back if necessary. 
-6. The presentation will then go to the Brand Team or designated agency for clean up & review. 
-    * **Note:** Brand will not be doing major design work for these presentations. They should come for review as a final presentation that will only need to be cleaned up in terms of brand consistency and messaging. 
-7. Next, the Corporate Events Content Manager will [create a content marketing issue](https://gitlab.com/gitlab-com/marketing/brand-product-marketing/content-strategy-and-ops/content-ops/-/issues/new?issuable_template=editing-request) for presentations to be reviewed from a copy editing standpoint and the content DRI will address any feedback that they have. 
+4. The content DRI will make any suggested changes to the presentation and then provide the presentation to the track DRI to review. Steps 3 & 4 will repeat until the track DRI approves of the presentation.
+    * If the content DRI is not the same as the presenter then at this point the main presenter will review the content - this will be the case for any E-Group presenters. The content DRI will address any feedback that the main presenter has.
+5. The presentation will then go into the review process and you will lose editing access to the presentation. You will still have commenting privileges. After each point in the review process (brand, copy editing, legal), you will gain editing access back if necessary.
+6. The presentation will then go to the Brand Team or designated agency for clean up & review.
+    * **Note:** Brand will not be doing major design work for these presentations. They should come for review as a final presentation that will only need to be cleaned up in terms of brand consistency and messaging.
+7. Next, the Corporate Events Content Manager will [create a content marketing issue](https://gitlab.com/gitlab-com/marketing/brand-product-marketing/content-strategy-and-ops/content-ops/-/issues/new?issuable_template=editing-request) for presentations to be reviewed from a copy editing standpoint and the content DRI will address any feedback that they have.
 8. **If needed**, based on the [materials legal review process in the handbook](/handbook/legal/materials-legal-review-process/), the presentation will then go to legal review. The content DRI will address any feedback that legal has.
 9. If the presentation does not need legal review, it will then go to the overall content DRI/speaker and track DRI for a final review before the presentation is deemed final.
 10. Once the presentation is deemed final, it will be converted to either Keynote or PPT for event execution.

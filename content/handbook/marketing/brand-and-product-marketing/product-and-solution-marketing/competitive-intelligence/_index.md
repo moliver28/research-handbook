@@ -135,7 +135,7 @@ As always the customer's voice is absolutely critical in this.  Fortunately ther
 
 Comparisons at a deep level are challenging and time consuming.  We'd like to acknowledge some other sites that have done a sincere and strong effort at comparing DevOps tools.  Some of these are by competitors but in keeping with GitLab values of transparency and to provide our prospects a comprehensive picture - here they are:
 
-- [XebiaLabs](https://xebialabs.com/periodic-table-of-devops-tools/)
+- [XebiaLabs](https://digital.ai/learn/devsecops-periodic-table/)
 - [CNCF](https://landscape.cncf.io/)
 - [Gitea](https://docs.gitea.io/en-us/comparison/).
 

@@ -6,7 +6,7 @@ title: Low-Code / No-Code Single-Engineer Group
 
 The LCNC SEG is a [Single-Engineer Group](/handbook/company/structure/#single-engineer-groups) within our [Incubation Engineering Department](/handbook/engineering/development/incubation/).
 
-Low-code and no-code are [two distinct concepts](https://lowcode.com/articles/low-code-vs--no-code--the-differences--similarities--and-how-to-.html) that target different personas and require separate product strategies. This page presents low-code and no-code work streams in two sections.
+Low-code and no-code are [two distinct concepts](https://appian.com/blog/acp/low-code/low-code-vs-no-code) that target different personas and require separate product strategies. This page presents low-code and no-code work streams in two sections.
 
 ### Latest video
 

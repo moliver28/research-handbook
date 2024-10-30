@@ -402,7 +402,7 @@ GitLab's Customer Success team ideated and executed a [worldwide scavenger hunt]
 
 GitLab's global [marketing team](/handbook/marketing) plays pub-style trivia every other week. You can compete as individuals or as teams, with a suggested time of 1 hour. For those within the GitLab organization, email `events@gitlab.com` if you want to arrange a game for your team.
 
-GitLab utilizes [MysteryTrip](http://games.mysterytrip.co), which serves large teams well and doesn't place a heavy preparation load on the organizer. MysteryTrip handles the preparation work for questions, acts as trivia master, and has automatic scoring and a leadercard. This makes spinning up a game quick and easy, with pricing set at around $20 per player. For those outside of the GitLab organization, regularly-scheduled trivia sessions are an excellent way to take everyone's focus away from work and engage in a shared experience.
+GitLab utilizes MysteryTrip, which serves large teams well and doesn't place a heavy preparation load on the organizer. MysteryTrip handles the preparation work for questions, acts as trivia master, and has automatic scoring and a leadercard. This makes spinning up a game quick and easy, with pricing set at around $20 per player. For those outside of the GitLab organization, regularly-scheduled trivia sessions are an excellent way to take everyone's focus away from work and engage in a shared experience.
 
 ## Co-working calls
 

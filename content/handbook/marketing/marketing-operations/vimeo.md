@@ -44,8 +44,8 @@ If a team is needing access to Vimeo, please open a [bulk access request](/handb
 ## Support
 
 1. `#brand_video` in Slack
-1. [Contact Support](https://vimeo.com/help/contact)
-1. [Help Center](https://vimeo.com/help)
+1. [Contact Support](https://help.vimeo.com/hc/en-us/contact)
+1. [Help Center](https://help.vimeo.com/hc/en-us)
 
 ## Training
 

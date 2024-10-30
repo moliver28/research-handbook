@@ -110,7 +110,7 @@ and [wider community contributions per release](/handbook/marketing/developer-re
 **Deployment Constrained.**
 Customers are afraid of confusing or unsanctioned licenses entering a business environment. -
  We don't use a limiting license such as SSPL. As we highlight [in our docs](https://docs.gitlab.com/ee/development/licensing.html),
-[GitLab Community Edition (CE)](https://gitlab.com/gitlab-org/gitlab-foss/) is licensed under the terms of the [MIT License](https://gitlab.com/gitlab-org/gitlab-foss/blob/master/LICENSE), which is an official Open Source license as defined by the [Open Source Initiative](https://opensource.org/licenses/alphabetical).
+[GitLab Community Edition (CE)](https://gitlab.com/gitlab-org/gitlab-foss/) is licensed under the terms of the [MIT License](https://gitlab.com/gitlab-org/gitlab-foss/blob/master/LICENSE), which is an official Open Source license as defined by the [Open Source Initiative](https://opensource.org/license).
 
 ## Existing Contributed Open Source Features Will Not Become Source-Available
 

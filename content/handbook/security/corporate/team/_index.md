@@ -286,7 +286,7 @@ N/A
 <!-- Team Member -->
 <tr>
 <td>
-<a href="/handbook/company/team/#mwhitaker"><div style="display: inline-block; vertical-align: top;"><img class="avatar" src="https://about.gitlab.com/images/team/marcuswhitaker-crop.jpg" style="max-width: 50px !important; width: 50px !important; max-height: 50px !important; height: 50px !important;" alt="Marcus Whitaker"></div><div style="display: inline-block; vertical-align: top">Marcus Whitaker</a><br>
+<a href="/handbook/company/team/#mwhitaker"><div style="display: inline-block; vertical-align: top;"><img class="avatar" src="" style="max-width: 50px !important; width: 50px !important; max-height: 50px !important; height: 50px !important;" alt="Marcus Whitaker"></div><div style="display: inline-block; vertical-align: top">Marcus Whitaker</a><br>
 <small>
 <i class="fas fa-earth-americas" style="padding-right: 5px;"></i>AMER<br>
 <i class="fas fa-address-card" style="padding-right: 5px;"></i><code>mwhitaker</code><br>

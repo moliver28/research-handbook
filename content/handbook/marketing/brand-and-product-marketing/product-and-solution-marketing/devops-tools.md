@@ -124,7 +124,7 @@ The DevOps tools below are commonly found in a build-your-own DevOps tool chain.
 - [JFrog Artifactory](https://jfrog.com/artifactory/)
 - [Docker Hub](https://hub.docker.com/)
 - [Docker Trusted Registry](https://docs.docker.com/ee/dtr/)
-- [RedHat/CoreOS Quay](https://coreos.com/quay-enterprise/)
+- [RedHat/CoreOS Quay](https://www.redhat.com/en/technologies/cloud-computing/quay)
 - [Amazon ECR](https://aws.amazon.com/ecr/)
 - [Azure ACR](https://azure.microsoft.com/en-us/services/container-registry/)
 - [Google Cloud Container Registry](https://cloud.google.com/container-registry/)

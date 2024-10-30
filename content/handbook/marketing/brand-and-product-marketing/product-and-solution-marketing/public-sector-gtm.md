@@ -156,7 +156,7 @@ Empowering the mission:
 
 - [How the U.S. Army Cyber School created "Courseware as Code" with GitLab](https://about.gitlab.com/customers/us_army_cyber_school/)
 
-GitLab is 100% remote and helps to foster collaborative environments. It has been recognized by numerous awards, including as a [Best Workplace by Inc. Magazine](https://fortune.com/best-small-workplaces-millennials/2022/gitlab/) and a [Top Small and Medium Workplace for Millennials by Fortune](https://fortune.com/best-small-workplaces-millennials/2022/gitlab/).
+GitLab is 100% remote and helps to foster collaborative environments. It has been recognized by numerous awards, including as a [Best Workplace by Inc. Magazine](https://fortune.com/company/gitlab/) and a [Top Small and Medium Workplace for Millennials by Fortune](https://fortune.com/company/gitlab/).
 
 ### Use Cases
 

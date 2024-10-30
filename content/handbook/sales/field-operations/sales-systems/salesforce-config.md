@@ -47,4 +47,4 @@ The Salesforce knowledge base has [a resource](https://help.salesforce.com/artic
 
 ### SFDC Backups
 
-Our Salesforce Backup solution is [Ownbackup](https://www.ownbackup.com/). There compliance information is located [here](https://www.ownbackup.com/trust/).
+Our Salesforce Backup solution is [Ownbackup](https://www.ownbackup.com/). There compliance information is located [here](https://www.owndata.com/trust).

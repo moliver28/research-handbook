@@ -8,7 +8,7 @@ description: "The GitLab team page for the Pipeline Authoring Group"
 ### Product
 
 - [Product Vision](https://about.gitlab.com/direction/ops/#verify)
-- [Pipeline Authoring Category direction](https://about.gitlab.com/direction/verify/pipeline_authoring/)
+- [Pipeline Authoring Category direction](https://about.gitlab.com/direction/verify/pipeline_composition/)
 - [number of unique users who trigger ci_pipelines (Performance indicator)](https://internal.gitlab.com/handbook/company/performance-indicators/product/ops-section/#verifypipeline-authoring---gmau---number-of-unique-users-interacting-with-gitlab-ciyml-file) - Internal link
 - [CI/CD Development Documentation](https://docs.gitlab.com/ee/development/cicd/index.html)
 - [CI/CD Components Documentation](https://docs.gitlab.com/ee/ci/components/)
@@ -454,7 +454,7 @@ The Pipeline Authoring group supports the product marketing categories described
 
 | Label                 | |  | | |
 | ----------------------| -------| ----|------------| ---|
-| `Category:Pipeline Authoring` | [Issues](https://gitlab.com/gitlab-org/gitlab/-/issues?scope=all&utf8=%E2%9C%93&state=opened&label_name[]=Category%3APipeline%20Authoring) | [MRs](https://gitlab.com/gitlab-org/gitlab/-/merge_requests?label_name%5B%5D=Category%3APipeline%20Authoring) | [Direction](https://about.gitlab.com/direction/verify/pipeline_authoring/) | [Documentation](https://docs.gitlab.com/ee/ci/) |
+| `Category:Pipeline Authoring` | [Issues](https://gitlab.com/gitlab-org/gitlab/-/issues?scope=all&utf8=%E2%9C%93&state=opened&label_name[]=Category%3APipeline%20Authoring) | [MRs](https://gitlab.com/gitlab-org/gitlab/-/merge_requests?label_name%5B%5D=Category%3APipeline%20Authoring) | [Direction](https://about.gitlab.com/direction/verify/pipeline_composition/) | [Documentation](https://docs.gitlab.com/ee/ci/) |
 | `Category:Jenkins Importer` | [Issues](https://gitlab.com/gitlab-org/gitlab/-/issues?scope=all&utf8=%E2%9C%93&state=opened&label_name[]=Category%3AJenkins%20Importer) | [MRs](https://gitlab.com/gitlab-org/gitlab/-/merge_requests?label_name%5B%5D=Category%3AJenkins%20Importer) | [Direction](https://about.gitlab.com/direction/verify/jenkins_importer/) | |
 | `Category:Component Catalog` | [Issues](https://gitlab.com/groups/gitlab-org/-/issues/?sort=created_date&state=opened&label_name%5B%5D=Category%3AComponent%20Catalog) | [MRs](https://gitlab.com/gitlab-org/gitlab/-/merge_requests?scope=all&state=opened&label_name[]=Category%3AComponent%20Catalog) | [Direction](https://gitlab.com/groups/gitlab-org/-/epics/7462) | [Documentation](https://docs.gitlab.com/ee/architecture/blueprints/ci_pipeline_components/) |
 

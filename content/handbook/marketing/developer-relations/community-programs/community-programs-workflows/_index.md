@@ -11,7 +11,7 @@ By maintaining this page, we aim to establish more transparency into our workflo
 ## Automated applications workflow overview
 
 Community Programs applications workflows have been automated since FY23Q3.
-The Community Programs team partners with a third party, [SheerID](https://www.sheerid.com/shoppers/aboutsheerid/), to assist in processing applications to community programs.
+The Community Programs team partners with a third party, [SheerID](https://www.sheerid.com/), to assist in processing applications to community programs.
 
 The Community Programs team processes applications to [GitLab's community programs](/handbook/marketing/developer-relations/community-programs/) with a seven-stage workflow:
 

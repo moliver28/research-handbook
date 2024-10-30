@@ -66,7 +66,7 @@ As CSMs have positioned themselves to be more strategic and reach Director, VP, 
 - [Google Doc (Actively being updated)](https://docs.google.com/document/d/1lkk_25XwOOw9eN-NqxuupZsDWRdWPbmFYD8RP8cWXz8/) - Lee Faus, Brian Wald, and Francis Ofungwu share themes (four pillars) they are hearing from executives around GitLab's platform
 - Sandler Articles
   - [How to Use DISC Assessments to Appropriately Customize Workplace Communication](https://www.sandler.com/blog/how-use-disc-assessments-appropriately-customize-workplace-communication/) (Article)
-  - [Up Front Contracts](https://www.dwood.sandler.com/blog/Up-Front-Contracts) (Article)
+  - [Up Front Contracts](https://go.sandler.com/dwood/insights/videos/coaching/elevating-your-up-front-contract-with-danny-wood/) (Article)
 - [Pyramid Principle for Slide Presentation](https://www.myconsultingoffer.org/case-study-interview-prep/pyramid-principle/) (Article)
 - [Tim Ferris - how I prepare for keynotes](https://tim.blog/2010/04/11/public-speaking-how-i-prepare-every-time/) (Article)
 

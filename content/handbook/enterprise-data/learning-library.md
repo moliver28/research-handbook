@@ -23,7 +23,7 @@ description: "GitLab Data Team Library"
 ## Recommended Reading, Listening, Watching
 
 - [The AI Hierarchy of Needs](https://hackernoon.com/the-ai-hierarchy-of-needs-18f111fcc007)
-- [Data Meta Metrics](https://caitlinhudon.com/2017/11/14/data-meta-metrics/)
+- [Data Meta Metrics](https://www.caitlinhudon.com/posts/2017/11/14/data-meta-metrics)
 - [Engineers Shouldn't Write ETL](https://multithreaded.stitchfix.com/blog/2016/03/16/engineers-shouldnt-write-etl/)
 - [The Startup Founder's Guide to Analytics](https://thinkgrowth.org/the-startup-founders-guide-to-analytics-1d2176f20ac1)
 - [Functional Data Engineering — a modern paradigm for batch data processing](https://medium.com/@maximebeauchemin/functional-data-engineering-a-modern-paradigm-for-batch-data-processing-2327ec32c42a)
@@ -66,7 +66,7 @@ description: "GitLab Data Team Library"
 - [Buffer Blog](https://data.buffer.com)
 - [Calogica](https://calogica.com/blog)
 - [Fishtown Analytics Blog](https://blog.fishtownanalytics.com)
-- [Go Data Driven](https://blog.godatadriven.com)
+- [Go Data Driven](https://xebia.com/blog/category/domains/data-ai/)
 - [MBA Mondays](https://avc.com/archive/#mba_mondays_archive)
 - [Mode Analytics Blog](https://blog.modeanalytics.com/)
 - [Multithreaded](https://multithreaded.stitchfix.com/)
@@ -120,7 +120,7 @@ description: "GitLab Data Team Library"
 
 - [Chris Albon](https://chrisalbon.com/#postgresql)
 - [Mode SQL Tutorial](https://mode.com/sql-tutorial/introduction-to-sql/)
-- [dbt Tutorial](https://tutorial.getdbt.com/tutorial/setting-up)
+- [dbt Tutorial](https://docs.getdbt.com/docs/get-started-dbt)
 - [Technically.dev Post on SQL](https://technically.dev/posts/sql-for-the-rest-of-us.html)
 - [Elements of Data Science](https://allendowney.github.io/ElementsOfDataScience/)
 - [Machine Learning Resources](https://drive.google.com/drive/folders/1sOXWW-FujwKU2T-auG7KPR9h6xqDRx0z?usp=sharing) (GitLab Internal)

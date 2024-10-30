@@ -1061,7 +1061,7 @@ Follow the below guidance to prepare and conduct Customer Discovery Meetings:
 You can find some additional guidance on conducting Customer Discovery Meetings from these resources:
 
 - [How to Interview Your Customers](https://customerdevlabs.com/2013/11/05/how-i-interview-customers/)
-- [Effective User Interviews](https://www.productmanagerhq.com/2018/08/effective-user-interviews/)
+- [Effective User Interviews](https://www.productmanagerhq.com/agile/product-management/effective-user-interviews/)
 
 #### Sourcing customers
 

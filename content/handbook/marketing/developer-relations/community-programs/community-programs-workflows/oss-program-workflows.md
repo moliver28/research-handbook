@@ -64,7 +64,7 @@ To do this:
 
  1. Login to MySheerID and navigate to the "Document review" section.
  1. Click "Begin" or click on any open application to view.
- 1. _Verify license type:_ Make sure that an OSI approved license is being used by checking the screenshot against this [OSI license list](https://opensource.org/licenses/alphabetical).
+ 1. _Verify license type:_ Make sure that an OSI approved license is being used by checking the screenshot against this [OSI license list](https://opensource.org/license).
  1. _Verify public settings:_ make sure there is a screenshot showing that the project is publicly visible and accepting collaborators.
  1. Visit the applying namespace on GitLab to verify that all remaining projects in the namespace meet program requirements. Use the [OS License Checker](https://gitlab.com/gitlab-org/os-license-checker) if necessary (see below).
  1. If application meets all criteria, `Approve` the application; `Reject` it if not.

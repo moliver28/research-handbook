@@ -142,7 +142,7 @@ The Total Rewards and People Connect Team member should also review alignment to
 
 ### WBSO (R&D tax credit) in the Netherlands
 
-For roles directly relating to Research and Development in the Netherlands, GitLab may be eligible for the [WBSO (R&D Tax Credit)](http://english.rvo.nl/subsidies-programmes/wbso).
+For roles directly relating to Research and Development in the Netherlands, GitLab may be eligible for the [WBSO (R&D Tax Credit)](https://english.rvo.nl/subsidies-financing/wbso).
 
 #### Organizing WBSO
 

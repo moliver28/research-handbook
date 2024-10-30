@@ -114,7 +114,7 @@ The team at [We Work Remotely](https://weworkremotely.com/blog) addressed the qu
 
 Remote interviews expand the possibilities for recruiting a more diverse and [inclusive](/handbook/company/culture/inclusion/) workforce. Remote gives your company a competitive advantage by opening the recruiting pipeline to unlimited geographic regions and sourcing employees from any location.
 
-Not only does this create a more competitive hiring process by reaching a more diverse set of candidates, but it also allows your organization to hire great people not limited by the basis of [salary](https://hired.com/blog/highlights/hired-releases-2023-state-of-software-engineers-report).
+Not only does this create a more competitive hiring process by reaching a more diverse set of candidates, but it also allows your organization to hire great people not limited by the basis of [salary](https://pages.hired.email/rs/289-SIY-439/images/Hired_2023%20State%20of%20Software%20Engineers.pdf).
 
 ## What are the challenges of conducting a remote interview?
 

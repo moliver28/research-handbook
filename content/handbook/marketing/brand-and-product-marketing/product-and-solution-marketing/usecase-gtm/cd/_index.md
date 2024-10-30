@@ -406,7 +406,7 @@ Check out this introductory video to learn the basics of CI/CD as software devel
 
 ### Interesting reads
 
-- [How We Switched to a Continuous Delivery Pipeline in 3 months](https://medium.com/faun/how-we-switch-to-a-continuous-delivery-pipeline-in-3-months-9667b9f65f7a)
+- [How We Switched to a Continuous Delivery Pipeline in 3 months](https://faun.pub/how-we-switch-to-a-continuous-delivery-pipeline-in-3-months-9667b9f65f7a)
 
 ## Buyer's Journey
 

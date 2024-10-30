@@ -241,7 +241,7 @@ For example: `Error: error building site: assemble: "/builds/gitlab-com/content-
 - Line: 1
 - Character: 2
 
-To fix markdown errors, review the message. Alternatively, review the relevant section in the [markdown style guide](/docs/markdown-guide).
+To fix markdown errors, review the message. Alternatively, review the relevant section in the [markdown style guide](https://handbook.gitlab.com/docs/markdown-guide/).
 
 For all other errors, the error message should provide the information necessary to fix it.
 

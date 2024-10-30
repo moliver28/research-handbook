@@ -450,8 +450,8 @@ The original issue about these policies is [#17693](https://gitlab.com/gitlab-or
 The following projects, resources, and blog posts were very helpful in crafting these policies:
 
 - [CodeTriage](https://www.codetriage.com/)
-- [How to be an open source gardener](http://words.steveklabnik.com/how-to-be-an-open-source-gardener)
-- [Managing the Deluge of Atom Issues](http://blog.atom.io/2016/04/19/managing-the-deluge-of-atom-issues.html)
+- [How to be an open source gardener](https://steveklabnik.com/writing/how-to-be-an-open-source-gardener)
+- [Managing the Deluge of Atom Issues](https://web.archive.org/web/20221129082058/https://blog.atom.io/2016/04/19/managing-the-deluge-of-atom-issues.html)
 - [Handling Large OSS Projects Defensively](http://artsy.github.io/blog/2016/07/03/handling-big-projects/)
 - [My condolences, you're now the maintainer of a popular open source project](https://runcommand.io/2016/06/26/my-condolences-youre-now-the-maintainer-of-a-popular-open-source-project/)
 - [The Art of Closing](https://blog.jessfraz.com/post/the-art-of-closing/)

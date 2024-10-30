@@ -188,7 +188,7 @@ We also did a series of deep dives by pairing with the development teams for eac
 
 Blocks of Ruby code can be "instrumented" to measure performance.
 
-* [Documentation of instrumentation](https://docs.gitlab.com/ee/development/service_ping) with more detail on [how to implement this](https://docs.gitlab.com/ee/development/internal_analytics/service_ping/metrics_instrumentation.html)
+* [Documentation of instrumentation](https://docs.gitlab.com/ee/api/usage_data.html) with more detail on [how to implement this](https://docs.gitlab.com/ee/development/internal_analytics/service_ping/metrics_instrumentation.html)
 * An example of how this is used for GitLab itself, can be found in this [initializer](https://gitlab.com/gitlab-org/gitlab/-/blob/master/config/initializers/zz_metrics.rb).
 
 ## Other Tools

@@ -151,7 +151,7 @@ Advantages of a single application for DevOps and Security together include unpa
    * Especially important to regulated industries like government and Financial Services
    * Most scanners require punching out of the secured network for the latest security rules/updates. We can containerize these for running in a disconnected environment.
 1. Vulnerability management (vs point solutions)
-   * Traditional app sec vendors (Veracode, Fortify, Synopsis) sell a Security Center to manage vulnerabilities found from each of their scanners (all sold separately!). GitLab not only comes with vulnerability management, but it's in the same tool that the developers use so nothing is lost in translation. In addition, you can easily pull in third party scan results into the CI pipeline (MR) to compare findings, somewhat similar to [ThreadFix](https://threadfix.it/). Is your customer paying for this or other tools to do this?
+   * Traditional app sec vendors (Veracode, Fortify, Synopsis) sell a Security Center to manage vulnerabilities found from each of their scanners (all sold separately!). GitLab not only comes with vulnerability management, but it's in the same tool that the developers use so nothing is lost in translation. In addition, you can easily pull in third party scan results into the CI pipeline (MR) to compare findings, somewhat similar to [ThreadFix](https://coalfire.com/services/security). Is your customer paying for this or other tools to do this?
 
 *see provided link for additional details including value and videos*
 

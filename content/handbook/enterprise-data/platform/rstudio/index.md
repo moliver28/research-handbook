@@ -77,7 +77,7 @@ Authenticator = gitlab.okta.com
 
 ## Connecting to Snowflake in RStudio
 
-The next step is to connect RStudio to Snowflake using the driver configurations you've just set up. This can be accomplished by using the `DBI`,`tidyverse`, and `odbc` packages in R. For a general overview on how to connect to databases in RStudio, please refer to [this website](https://db.rstudio.com/) for detailed information.
+The next step is to connect RStudio to Snowflake using the driver configurations you've just set up. This can be accomplished by using the `DBI`,`tidyverse`, and `odbc` packages in R. For a general overview on how to connect to databases in RStudio, please refer to [this website](https://solutions.posit.co/connections/db/) for detailed information.
 
 This is an example of the code that can be used to connect to Snowflake in R.
 
@@ -246,7 +246,7 @@ Google Sheets and R have the ability to interact via the `googlesheets4` and `go
 
 ### Part 1: Google App Authentication Setup
 
-1. Follow the steps in the [handbook](/handbook/security/corporate/systems/google/apps/) to add yourself to the Google Cloud Project. 
+1. Follow the steps in the [handbook](/handbook/security/corporate/systems/google/apps/) to add yourself to the Google Cloud Project.
 2. Submit and issue similar to [this one](https://gitlab.com/gitlab-com/gl-security/corp/infra/issue-tracker/-/issues/877) to set up access for yourself specifically
 3. Once the access is set up, you can use the below code to work through setting up and configuring access in RStudio.
 
@@ -265,7 +265,7 @@ google_key <- "[GOOGLE_KEY]"
 # googlesheets4::gs4_auth_configure(app = google_app,
 #                                   api_key = google_key)
 
-googlesheets4::gs4_auth_configure(client = gargle::gargle_oauth_client_from_json("~/Google Drive/Shared drives/People Analytics/Google API in R/googlesheets_api_sm.json"), 
+googlesheets4::gs4_auth_configure(client = gargle::gargle_oauth_client_from_json("~/Google Drive/Shared drives/People Analytics/Google API in R/googlesheets_api_sm.json"),
                                   api_key = google_key)
 
 googlesheets4::gs4_auth()

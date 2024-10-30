@@ -88,7 +88,7 @@ Creating a Fieldnote issue does not necessarily signal to other engineers that y
 
 ### Handy browser plugins
 
-- [Copy-as-Markdown](https://github.com/notlmn/copy-as-markdown#-copy-as-markdown) [Chrome extension](https://chrome.google.com/webstore/detail/copy-as-markdown/nlaionblcaejecbkcillglodmmfhjhfi/) [Firefox add-on](https://addons.mozilla.org/en-US/firefox/addon/cpy-as-md/)
+- [Copy-as-Markdown](https://github.com/notlmn/copy-as-markdown#-copy-as-markdown) [Chrome extension](https://chromewebstore.google.com/detail/copy-as-markdown/nlaionblcaejecbkcillglodmmfhjhfi) [Firefox add-on](https://addons.mozilla.org/en-US/firefox/addon/cpy-as-md/)
 
 ### More note taking and skill sharing ideas
 
