@@ -34,16 +34,16 @@ The introduction of multiple Cells will require changes to automate all manual m
 
 Infrastructure maintenance tasks include:
 
-- Elasticsearch cluster version upgrades
-- Scaling the Elasticsearch cluster
-- Support for incident root cause analysis and resolution
+* Elasticsearch cluster version upgrades
+* Scaling the Elasticsearch cluster
+* Support for incident root cause analysis and resolution
 
 Index maintenance tasks include:
 
-- Index shard resizing using Zero-downtime reindexing feature ([example issue](https://gitlab.com/gitlab-com/gl-infra/production/-/issues/18158))
-- Index shard resizing using Split shards Elasticsearch API ([example issue](https://gitlab.com/gitlab-com/gl-infra/production/-/issues/18646))
-- Enabling the Elasticsearch slow log ([example issue](https://gitlab.com/gitlab-com/gl-infra/production/-/issues/18159))
-- Cleaning up reverted migrations from the Advanced search migrations index ([example issue](https://gitlab.com/gitlab-com/gl-infra/production/-/issues/16231))
+* Index shard resizing using Zero-downtime reindexing feature ([example issue](https://gitlab.com/gitlab-com/gl-infra/production/-/issues/18158))
+* Index shard resizing using Split shards Elasticsearch API ([example issue](https://gitlab.com/gitlab-com/gl-infra/production/-/issues/18646))
+* Enabling the Elasticsearch slow log ([example issue](https://gitlab.com/gitlab-com/gl-infra/production/-/issues/18159))
+* Cleaning up reverted migrations from the Advanced search migrations index ([example issue](https://gitlab.com/gitlab-com/gl-infra/production/-/issues/16231))
 
 ### Organization migration
 
