@@ -1,6 +1,6 @@
 ---
 title: "Chief of Staff, CLO & Head of Corporate Affairs"
-description: Chief of Staff and strategic partner to the Chief Legal Officer
+description: Chief of Staff and strategic partner to the Chief Legal Officer & Head of Corporate Affairs
 ---
 
 ## Chief of Staff, CLO & Head of Corporate Affairs
