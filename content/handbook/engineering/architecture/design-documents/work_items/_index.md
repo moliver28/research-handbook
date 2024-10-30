@@ -189,7 +189,7 @@ Since this is a large project with numerous moving parts, feature flags are bein
 |---|---|---|
 | `work_items_alpha` | Child items in contextual view  | Enabled for `gitlab-org/plan-stage` |
 | `epics_list_drawer` | Epics list, epics board  | Enabled for `gitlab-org/plan-stage` |
-| `issues_list_drawer` | Issues list, work items list, issues board  | Disabled |
+| `issues_list_drawer` | Issues list, issues board  | Disabled |
 
 For epic work item specific feature flags, please see the [Epic Work Item Migration Epic](https://gitlab.com/groups/gitlab-org/-/epics/11777#feature-flags).
 
