@@ -967,7 +967,7 @@ Changing something without shipping it is a revision, not iteration. Only when t
 
 ##### Embracing Iteration
 
-In order to embrace iteration, we should have the attitude that we are trying to achieve as much as possible in a small amount of time; it's where we are at the end state of an iteration, that counts. The benefit of iteration is to get fast feedback from users. Focus on sharing context at the *end of the first iteration* rather than a *hypothetical future state* requiring multiple iterations. By embracing iteration we can increase creativity in incremental components.
+In order to embrace iteration, we should have the attitude that we are trying to achieve as much as possible in a small amount of time; it's where we land at the end state of an iteration that counts. The benefit of iteration is to get fast feedback from users. Focus on sharing context at the **end of the first iteration** rather than a **hypothetical future state** that requires multiple iterations. By embracing iteration we can increase creativity in incremental components.
 
 {{< youtube id="nXfKtnVUhvQ" >}}
 
