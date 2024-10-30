@@ -131,12 +131,11 @@ The E-Group offsite generally occurs in:
 
 The following date(s) have been confirmed for future E-Group offsite(s) (starting dates):
 
-- 2024-09-23
 - 2024-12-09
 - 2025-03-31
-- 2025-06-02
-- 2025-09-02
-- 2025-12-01
+- 2025-06-23
+- 2025-09-22
+- 2025-12-08
 
 The following dates were previous E-Group offsites (starting dates):
 
@@ -153,6 +152,7 @@ The following dates were previous E-Group offsites (starting dates):
 - 2024-01-08
 - 2024-03-25
 - 2024-06-24
+- 2024-09-23
 
 ## Offsite topic calendar
 
