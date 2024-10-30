@@ -1635,3 +1635,7 @@ When a major release happens, we should upgrade to the new major version before 
 ### Scheduling a dbt upgrade
 
 dbt upgrades should take place on a Tuesday of a week in which there are no major worldwide holidays or [Family and Friends days](/handbook/company/family-and-friends-day/). This is to enable enough time for team members to correct any breaking changes that weren't caught in testing without having to work through the weekend. In a worst case scenario, the upgrade can be rolled back on Wednesday so that normal operations can resume for the remainder of the week.
+
+## Snowflake Warehouse Sizing
+
+The [Snowflake warehouse sizing](/handbook/enterprise-data/platform/pipelines/snowflake-warehouse-optimization/) handbook page has guidelines on properly sizing dbt models.
