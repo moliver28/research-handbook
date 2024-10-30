@@ -8,7 +8,7 @@ title: "FedRAMP Vulnerability Deviation Request Procedure"
 <a href="https://gitlab.com/gitlab-com/gl-security/security-assurance/security-compliance-commercial-and-dedicated/team-security-dedicated-compliance/poam-deviation-requests/-/issues" class="btn bg-primary text-white btn-lg">Click here to submit a Deviation Request!</a>
 </div>
 
-Team members working with security vulnerabilities should read this procedure in its entirety and reach out to `@dedicated_compliance` in the `# sec-assurance` Slack channel if you have any questions.
+Team members working with security vulnerabilities should read this procedure in its entirety and reach out to `@sec-compliance-team` in the `#sec-assurance` Slack channel if you have any questions.
 
 ## Purpose
 
