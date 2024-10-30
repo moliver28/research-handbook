@@ -122,8 +122,8 @@ variables:
 .is-fork: &is-fork
   if: '$CI_PROJECT_ID != "42817607"'
 
-.quarterly-update: &quarterly
-  if: '$CI_PIPELINE_SOURCE == "schedule" && $RUN_TYPE == "quarterly"'
+.scheduled-update: &scheduled-update
+  if: '$CI_PIPELINE_SOURCE == "schedule" && $RUN_TYPE == "count-update"'
 
 ###################################
 #
@@ -374,8 +374,8 @@ notify_slack_on_build_failures:
 ##
 ####################################
 
-quarterly_counts:
+update_counts:
   stage: maintenance
   script: ./scripts/update-counts.sh
   rules:
-  - <<: *quarterly
+  - <<: *scheduled-update
