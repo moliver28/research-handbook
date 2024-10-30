@@ -71,10 +71,10 @@ We rotate triage duties weekly between team members as part of our [interrupt ro
 
 | Priority | Description | Engagement SLA |
 | ------- | ----------- | --------- |
-| Priority::1 | Very urgent, blocking significant other work | Engage within 24 hours |
-| Priority::2 | A blocker, but we have workarounds | Engage within 3 business days |
-| Priority::3 | Not currently a blocker but will be soon | Engage within a week |
-| Priority::4 | Not likely to be a blocker, this is a nice-to-have improvement or suggestion | Engage within a month |
+| Reliability::1 | Very urgent, blocking significant other work | Engage within 24 hours |
+| Reliability::2 | A blocker, but we have workarounds | Engage within 3 business days |
+| Reliability::3 | Not currently a blocker but will be soon | Engage within a week |
+| Reliability::4 | Not likely to be a blocker, this is a nice-to-have improvement or suggestion | Engage within a month |
 
 **Note:** Due to the complexity of our systems, we cannot commit to a resolution-based SLA when you open an issue with a given priority level, because we don't know how long something will take to resolve, and there is often more information we need from the stakeholder or external customer, which takes time to obtain. Therefore, we can only commit to an SLA for how quickly we will engage with an issue and prioritize the work.
 
@@ -190,7 +190,7 @@ We trust everyone to be a [Manager of One](../../../../leadership/_index.md#mana
 
 ### Prioritization of work
 
-We use priority labels to prioritize our work. OKR work is updated to `priority::2` when it is ready to be worked on. As such it is given higher priority than most other work. This means that external requests will be worked in based on their own priority and impact, where only P1 and P2 issues will regularly interrupt OKR work.
+We use priority labels to prioritize our work. OKR work is updated to `Reliability::2` when it is ready to be worked on. As such it is given higher priority than most other work. This means that external requests will be worked in based on their own priority and impact, where only P1 and P2 issues will regularly interrupt OKR work.
 
 ### Interrupt Rotation
 
@@ -205,7 +205,7 @@ The team member on rotation is responsible for:
   - Have a [weight](#issue-weighting).
   - Are assigned to an [appropriate epic](https://gitlab.com/groups/gitlab-com/gl-infra/-/epics?state=opened&page=1&sort=start_date_desc&label_name[]=team::Foundations) if applicable.
 - Asking issue authors for more information when needed to understand the scope of work.
-- Raising any `priority::1` or `priority::2` issues and ensuring they have a DRI and are being actively worked on.
+- Raising any `Reliability::1` or `Reliability::2` issues and ensuring they have a DRI and are being actively worked on.
 - Completing any issues that come up that can be completed during the week. Weight 5 issues can be considered depending on the priority.
   - Anything weight 8 or larger (more than 1 week of work) should be made clear that it will need to be scheduled around other work.
 - Responding to alerts in [`#g_infra_foundations_alerts`](https://gitlab.enterprise.slack.com/archives/C04Q7RQC7FF).
