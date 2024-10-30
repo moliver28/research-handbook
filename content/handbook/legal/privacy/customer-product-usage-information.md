@@ -83,7 +83,7 @@ The first exception is in the collection of hostname and IP address for Self-Man
 
 *Ownership*: Snowplow is owned by the [GitLab Analytics Instrumentation Group](/handbook/engineering/development/analytics/analytics-instrumentation/).
 
-*Types of Metrics*: Snowplow Metrics are composed of all the pseudonymized user interaction Metrics found [here](https://metrics.gitlab.com/snowplow/), as well as Project_ID, Namespace_ID, and the country and region of the user's location.
+*Types of Metrics*: Snowplow Metrics are composed of all the pseudonymized user interaction Metrics found [here](https://metrics.gitlab.com/events), as well as Project_ID, Namespace_ID, and the country and region of the user's location.
 
 *Opting-Out*: Since Snowplow Metrics pertain to individual pseudonymized user events, Snowplow Metrics can only be opted-out on an individual basis using DNT signals.  However, please note that DNT signals depend on how the event is triggered and thus may not be recognized in all situations.
 
