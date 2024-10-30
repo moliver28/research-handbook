@@ -247,14 +247,14 @@ Since GitLab is an [all remote](/handbook/company/culture/all-remote/) company w
 
 ### Maine
 
-- [Minimum Wage](https://www.maine.gov/labor/docs/2021/posters/MinimumWagePoster2022.pdf)
+- [Minimum Wage](hhttps://www.maine.gov/labor/docs/2024/posters/minwage/minimumwage2024_English.pdf)
 - [Sexual Harassment](https://www.maine.gov/labor/posters/2017/sexual_harassment_poster.pdf)
 - [Whistleblower's Protection Act](https://www.maine.gov/labor/docs/2019/laborlaws/whistleblowerprotection112019.pdf)
 - [Workers' Compensation](https://www.maine.gov/wcb/forms/WCB-90_rev_1-1-20.pdf)
 - [Video Display Terminals](https://www.maine.gov/labor/docs/2019/laborlaws/vdtposternov2019.pdf)
 - [Child Labor Laws](https://www.maine.gov/labor/docs/2019/laborlaws/childlabornov2019.pdf)
 - [Regulation of Employment](https://www.maine.gov/labor/docs/2023/posters/Regulationofemployment_English.pdf)
-- [Maine Employment Security Law](https://www.maine.gov/labor/docs/2019/laborlaws/MaineEmploymentSecurityLaw_1119.pdf)
+- [Maine Employment Security Law](https://www.maine.gov/labor/docs/2022/posters/mesl/Maine%20Employment%20Security%20Law_11-19_English.pdf)
 
 ### Maryland
 
@@ -471,7 +471,7 @@ Since GitLab is an [all remote](/handbook/company/culture/all-remote/) company w
 
 ### Pennsylvania
 
-- [Minimum Wage Law](https://www.dli.pa.gov/Individuals/Labor-Management-Relations/llc/minimum-wage/Documents/LLC-1.pdf)
+- [Minimum Wage Law](https://www.pa.gov/content/dam/copapwp-pagov/en/dli/documents/individuals/labor-management-relations/documents/llc-1.pdf)
 - [Abstract of Equal Pay Law](https://www.dli.pa.gov/Documents/Mandatory%20Postings/llc-8.pdf)
 - [Employment Provisions of the PA Human Relations Act](https://www.phrc.pa.gov/AboutUs/Documents/Fair%20Employment.pdf)
 - [Abstract of the PA Child Labor Act](https://www.dli.pa.gov/Documents/Mandatory%20Postings/llc-5.pdf)
