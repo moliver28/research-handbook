@@ -839,7 +839,7 @@ When we iterate at GitLab, we break up the work we that know we need to do into 
 
 Iteration does not require us to ship features that are open to all users from day one. Feedback could come from internal users or a limited number of external users (early access program program). It also is not a replacement for having a plan. We expect you to know where you are going, but you can iterate to get there.
 
-An iteration may be additive (adding something) or subtractive (removing something). If you make suggestions that can be excluded from the first iteration, turn them into a separate issue that you link.
+An iteration might be additive (adding something) or subtractive (removing something). If you make suggestions that can be excluded from the first iteration, turn them into a separate issue that you link.
 
 While you should have a clear vision of the desired outcome and how it addresses a customer pain point or improves the user experience, be efficient in your planning. Unless you identify important cross-functional interdependencies, focus detailed planning on the first step. It might feel you are moving too slow, however planning is critical to ensure you can move fast when implementing. You're doing it right if you feel that you have shipped the minimal feature set in the first iteration. This value is the one people most underestimate when they join GitLab. The impact both on your work process and on how much you achieve is greater than anticipated. Frequently, the simplest version that provides value turns out to be the best one.
 
