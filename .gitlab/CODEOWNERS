@@ -157,6 +157,7 @@
 /content/handbook/engineering/development/ops/verify/runner/ @nicolewilliams
 /content/handbook/engineering/development/processes/infra-dev-escalation/ @jameslopez
 /content/handbook/engineering/development/sec/ @twoodham @jeromezng
+/content/handbook/engineering/development/sec/application-security-testing/ @sarahwaldner @twoodham
 /content/handbook/engineering/development/sec/govern/ @adil.farrukh @alan @jayswain @nmccorrison @nrosandich @jeromezng @ryaanwells @shampton
 /content/handbook/engineering/development/sec/govern/anti-abuse.md @jayswain
 /content/handbook/engineering/development/sec/govern/authentication.md @adil.farrukh
@@ -169,6 +170,10 @@
 /content/handbook/engineering/development/sec/secure/composition-analysis/ @thiagocsf @gonzoyumo @fcatteau
 /content/handbook/engineering/development/sec/secure/vulnerability-research/ @idawson
 /content/handbook/engineering/development/sec/secure/static-analysis/ @tkopel @rvider
+/content/handbook/engineering/development/sec/security-risk-management/ @dagron1 @rvider
+/content/handbook/engineering/development/sec/security-risk-management/security-infrastructure @ryaanwells
+/content/handbook/engineering/development/sec/security-risk-management/security-insights @nmccorrison
+/content/handbook/engineering/development/sec/software-supply-chain-security @sarahwaldner @twoodham @jeromezng
 /content/handbook/engineering/expansion-development.md @jeromezng
 /content/handbook/engineering/frontend/ @timzallmann
 /content/handbook/engineering/workflow/ @timzallmann @jeromezng @sgoldstein @dsatcher @m_gill
