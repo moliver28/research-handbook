@@ -20,26 +20,26 @@ Both teams are working collaboratively to streamline the survey process, improve
 
 * All-Customer CSAT Survey (Customer Success)  
 * Post-Scale Engagement CSAT Survey  
-* Digital SMB [Case Closure Survey](https://handbook.gitlab.com/handbook/sales/commercial/global_digital_smb/#email-to-case) CSAT Survey  
+* Digital SMB [Case Closure Survey](/handbook/sales/commercial/global_digital_smb/#email-to-case) CSAT Survey  
 * Product CSAT Survey
 
 ## **Customer Engagement**
 
-#### **Who do we contact?**
+### **Who do we contact?**
 
 CSAT surveys sent directly to primary users on paid Premium and Ultimate accounts to measure satisfaction of a service, product, interaction or experience with GitLab. Each account will receive a CSAT survey no more than twice in a year. We hope to receive from as many accounts at GitLab as possible, rather than a representative sample of accounts. This enables us to inform all account teams of their portfolio’s customer satisfaction.
 
 In order to target leaders and decision-makers on accounts, three types of users will receive an invitation to a survey:
 
-* [GitLab admin contacts](https://handbook.gitlab.com/handbook/sales/field-operations/customer-success-operations/cs-ops-programs/#gitlab-admin-contacts)  
+* [GitLab admin contacts](/handbook.gitlab.com/handbook/sales/field-operations/customer-success-operations/cs-ops-programs/#gitlab-admin-contacts)  
 * Sold-To Billing Contact (if no GitLab Admin exists)  
 * [GitLab.com Owner user](https://docs.gitlab.com/ee/user/permissions.html)
 
-#### **Who is not contacted on a CSAT survey?**
+### **Who is not contacted on a CSAT survey?**
 
 * Identified Billing or Procurement personas configured as Owners or GitLab Admins on accounts  
 * Guest, Reporter, Developer or Maintainer roles on accounts  
-* Users that have been contacted by others CSAT Surveys within the past eight weeks, such as the [Product CSAT](https://handbook.gitlab.com/handbook/product/ux/performance-indicators/csat/) survey administered by the UX Research Team.
+* Users that have been contacted by others CSAT Surveys within the past eight weeks, such as the [Product CSAT](/handbook.gitlab.com/handbook/product/ux/performance-indicators/csat/) survey administered by the UX Research Team.
 
 ## **Viewing CSAT Survey Results**
 
@@ -47,7 +47,7 @@ Each CSAT is owned by different teams. Please see the child pages above for link
 
 ## **Deprecated Surveys**
 
-#### **\[DEPRECATED\] Net Promoter Score Survey (NPS)**
+### **\[DEPRECATED\] Net Promoter Score Survey (NPS)**
 
 **What is NPS?** 
 
@@ -59,7 +59,7 @@ Customers received NPS surveys at multiple points in their lifecycle from 2021 t
 * Pre-Renewal NPS  
 * Post-Renewal NPS/CSAT
 
-#### ---
+## ---
 
 | Page Metadata | |
 | :---- | :---- |
