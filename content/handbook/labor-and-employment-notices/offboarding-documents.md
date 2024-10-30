@@ -117,7 +117,7 @@ Pointing you to this handbook page serves as our mechanism to provide the requir
 
 ### Pennsylvania
 
-- [Unemployment Compensation UC-1609](https://www.uc.pa.gov/Documents/UC_Forms/UC-1609.pdf)
+- [Unemployment Compensation UC-1609](https://www.pa.gov/content/dam/copapwp-pagov/en/hrmoa/documents/hire-sep/separating/documents/uc-1609-benefits-employer-form.pdf)
 
 ### Rhode Island
 
