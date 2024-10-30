@@ -4,7 +4,7 @@ title: Signals Engineering Team (SIT)
 
 ## Engaging Signals Engineering
 
-Teams can engage Signals Engineering by heading over to the #signals-engineering slack channel. SIRT can also engage signals engineering for detection and alert tuning needs by selecting the "report a bug" feature in GUARD.
+Teams can engage Signals Engineering by heading over to the #signals-engineering slack channel. SIRT can also engage Signals Engineering for detection and alert tuning needs by selecting the "report a bug" feature in GUARD.
 
 ## Our Vision
 
