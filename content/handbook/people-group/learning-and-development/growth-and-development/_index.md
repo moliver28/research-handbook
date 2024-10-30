@@ -30,7 +30,6 @@ Start by having a [growth conversation](/handbook/people-group/learning-and-deve
 
 - Individual OKRs and business goals should not be tied to GD opportunities, unless the individual team member thinks it’s appropriate.
 
-
 </details>
 
 ### Step 2 - Open an Issue
