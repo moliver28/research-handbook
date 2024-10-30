@@ -336,7 +336,7 @@ There are two groups for Switchboard, [Reviewers and Maintainers](https://gitlab
 
 <!-- This table should document any feature flags that were added or removed by the epic -->
 
-| Feature flag | Details | 
+| Feature flag | Details |
 | ------------ | ------- |
 | | |
 
