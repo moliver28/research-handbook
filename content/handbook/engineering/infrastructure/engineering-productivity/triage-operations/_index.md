@@ -551,6 +551,7 @@ Current type labels with subtype labels are:
   * `@gitlab-bot` will delete the bot comment along with any reply comments it has.
   * A page refresh may be needed for the thread to be removed from page.
   * If the above automation conditions are not met, posting this command will not have any effect on the replied comment.
+  * NOTE: After deleting the bot comment, it will be re-posted to the resource if the required labels or other attributes are missing again.
 * Example: not available, as the comment gets deleted as a result of running the command
 * Processor: <https://gitlab.com/gitlab-org/quality/triage-ops/-/blob/master/triage/processor/gitlab_internal_commands/command_delete_bot_comment.rb>
 
