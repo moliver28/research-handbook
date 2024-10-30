@@ -72,7 +72,7 @@ To avoid excessive context-switching, and better distribute the workload, our te
 - **Primary engineer**. Fully allocated to the tasks below. They must prioritize these tasks above all other work, in the following order: Security, Support, Maintenance.
 - **Secondary engineer**. Acts as a backup in case the primary engineer has an unplanned absence or exceeds their capacity. They must prioritize requests from the primary engineer, but otherwise focus on `type::maintenance` issues.
 
-Neither engineer should be allocated to work on Features or critical deliverables. In the context of [Cross-functional milestone planning](/handbook/product/cross-functional-prioritization/#cross-functional-milestone-planning), their allocation counts towards the bugs and maintenance ratio.
+Neither engineer should be allocated to work on Features or critical deliverables. In the context of [Cross-functional milestone planning](/handbook/product/product-processes/cross-functional-prioritization/#cross-functional-milestone-planning), their allocation counts towards the bugs and maintenance ratio.
 
 The [rotation schedule](https://gitlab.com/groups/gitlab-org/secure/-/epics/2#schedule) follows the development cycle, which means using the start/end dates from the GitLab [product milestones](/handbook/product/milestones/). When creating the schedule, the Engineering Manager should aim to minimize the number of back-to-back rotations that engineers do.
 

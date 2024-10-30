@@ -130,7 +130,7 @@ Once a Touchpoint is created, AMM uses a set of predefined [mapping rules](#amm-
 | Offline                 | Tradeshows; BrightTalk Webcasts (for Attended status TPs), Content syndication partner delivers a list of leads who engaged with your content | CRM Campaign membership by enabling Touchpoint Generation on the campaign Object, by configuring campaign sync rules in AMM, Brighttalk Webcasts via Marketo Programs Integration through Marketo Program Rules | By referencing Campaign Type or the Marketo Program Channel Mapping    |
 | Sales activity          | Outbound call by SDR                                                                                                                          | CRM Activity (Task or Event) record synced to AMM, through logic on the Activities page in AMM                                                                                                                  | By referencing the Campaign Name assigned on the Activities page        |
 
-AMM has more extensive documentation on how [Touchpoints are generated and mapped](https://docs.marketo.com/display/BIZ/Touchpoint+Generation+and+Mapping).
+AMM has more extensive documentation on how [Touchpoints are generated and mapped](https://experienceleague.adobe.com/en/docs/marketo-measure/using/configuration-and-setup/getting-started-with-marketo-measure/touchpoint-generation-and-mapping).
 
 ## AMM Channel and Subchannel Mapping
 

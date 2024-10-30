@@ -1,6 +1,7 @@
 ---
 title: Govern, Threat Insights
 description: "The Threat Insights group at GitLab is charged with developing solutions to enable customers to manage their security risks effectively and efficiently."
+layout: single
 ---
 
 ## Customer outcomes we are driving for at GitLab
@@ -106,7 +107,7 @@ We use our Threat Insights Priorities page for [17.x](https://about.gitlab.com/d
 
 The Threat Insights group largely follows GitLab's [Product Development Flow](/handbook/product-development-flow/).
 
-Additional information can be found on the [Planning page](/handbook/engineering/development/sec/govern/sp-ti-planning.html).
+Additional information can be found on the [Planning page](/handbook/engineering/development/sec/govern/sp-ti-planning/).
 
 ### Milestone Planning
 

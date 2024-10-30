@@ -1,5 +1,5 @@
 ---
-title: "Corporate Legal"
+title: "Corporate & Compliance Legal"
 description: "This page offers a single source related to corporate legal information."
 ---
 

@@ -425,7 +425,7 @@ While there are other hardware tokens that are also decent and will function wit
 
 What GitLab team members need to keep in mind is that if you travel with your company laptop - either on a business trip, a trip to visit family and friends in another location but you intend to keep working, or just a trip to the local coffee shop - treat the token with the same level of care as a credit card. Do not leave it where it could be stolen.
 
-If you are concerned about potentially losing your hardware token, be sure to add [Touch ID](/handbook/business-technology/okta/#i-want-to-add-touch-id--face-id--face-authentication--yubikey-to-okta) and potentially a [mobile device](/handbook/business-technology/okta/#i-want-to-add-touch-id--face-id--face-authentication-to-okta-for-my-mobile-device-iphoneipad-or-android) as an accepted authentication token. Sites following the FIDO2/WebAuthn standard should support multiple tokens. That way if one is lost or stolen, you can still login use another method. Currently YubiKey's are limited to one per user, in the case of lost or damaged, please reach out in the #it_security_help Slack channel and we'll assist you with a replacement.
+If you are concerned about potentially losing your hardware token, be sure to add [Touch ID](/handbook/it/okta/#i-want-to-add-touch-id--face-id--face-authentication--yubikey-to-okta) and potentially a [mobile device](/handbook/it/okta/#i-want-to-add-touch-id--face-id--face-authentication-to-okta-for-my-mobile-device-iphoneipad-or-android) as an accepted authentication token. Sites following the FIDO2/WebAuthn standard should support multiple tokens. That way if one is lost or stolen, you can still login use another method. Currently YubiKey's are limited to one per user, in the case of lost or damaged, please reach out in the #it_security_help Slack channel and we'll assist you with a replacement.
 
 Usage of 2FA is mandatory for GitLab team members.
 
@@ -716,7 +716,7 @@ Check `Display secondary time zone` and select `(GMT+00:00) Coordinated Universa
 
 ### Google Cloud Platform
 
-See the [Sandbox Cloud page](/handbook/infrastructure-standards/realms/sandbox) for a listing of cloud resources and how to gain access to them.
+See the [Sandbox Cloud page](/handbook/company/infrastructure-standards/realms/sandbox) for a listing of cloud resources and how to gain access to them.
 
 ### Google Drive
 

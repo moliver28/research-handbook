@@ -18,7 +18,7 @@ GitLab is intentional about documenting in a manner that creates a [single sourc
 
 The term "documentation" often refers to the process of generating documentation after a change has been communicated. At GitLab, we [write things down](/handbook/values/#write-things-down) *first*, and communicate that (E.g. Document the solution first, *then* announce via Slack or email.). This way there is no need for documentation after the communication, a step that is frequently skipped.
 
-The goal isn't to create a culture of documenting for the sake of documenting; rather, to create an environment where net new solutions are documented in a universally accessible handbook before dissemination, and iterations are made to the universally recognized [single source of truth](/handbook/values/#single-source-of-truth). Each team member must approach documentation the same way, much like an editorial team adheres to a [style guide](/docs/markdown-guide).
+The goal isn't to create a culture of documenting for the sake of documenting; rather, to create an environment where net new solutions are documented in a universally accessible handbook before dissemination, and iterations are made to the universally recognized [single source of truth](/handbook/values/#single-source-of-truth). Each team member must approach documentation the same way, much like an editorial team adheres to a [style guide](https://handbook.gitlab.com/docs/markdown-guide/).
 
 ## Why does handbook-first matter?
 
@@ -112,7 +112,7 @@ This enables anyone at the company, even those who have just joined, to propose 
 
 The beauty of using a tool like [GitLab](https://about.gitlab.com/stages-devops-lifecycle) to build and evolve a company handbook is that you don't have to have the full table of contents mapped out in advance. Tools like [Almanac](https://almanac.io), [Notion](https://www.notion.so), and [Guru](https://www.getguru.com) can be used as well. Consider the following as an initial guide for top-level organization, but don't hesitate to deviate based on the size, scope, and needs of your firm.
 
-1. **Company / Building Blocks**: This section houses policies, [values](/handbook/values/), [KPIs](/handbook/company/kpis/)/[OKRs](/handbook/company/okrs), and [cultural principles](/handbook/company/culture) that apply to most or all departments in the organization. The suggested list below was curated by [Luke Thomas](https://twitter.com/lukethomas14) in his book [The Anywhere Operating System](https://friday.app/anywhere).
+1. **Company / Building Blocks**: This section houses policies, [values](/handbook/values/), [KPIs](/handbook/company/kpis/)/[OKRs](/handbook/company/okrs), and [cultural principles](/handbook/company/culture) that apply to most or all departments in the organization. The suggested list below was curated by [Luke Thomas](https://twitter.com/lukethomas14) in his book [The Anywhere Operating System](https://www.lukethomas.com/anywhere/).
    - Founding story/history of the company
    - Mission, vision, and values
    - Who we serve (customer personas)

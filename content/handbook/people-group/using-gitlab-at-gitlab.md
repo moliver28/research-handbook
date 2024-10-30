@@ -25,7 +25,7 @@ Everyone at GitLab uses our GitLab tool in their daily work. This page details i
 
 - [GitLab 101 Tool Certification](/handbook/people-group/learning-and-development/gitlab-101/)
 - [GitLab Team Members Certification](https://gitlab.edcast.com/pathways/ECL-1b9db605-c6ce-4da5-8a0d-087486d2aabe)
-- [Markdown Guide](/docs/markdown-guide/)
+- [Markdown Guide](https://handbook.gitlab.com/docs/markdown-guide/)
 - [Edit this website locally](/handbook/about/editing-handbook/)
 - [Start using git on the command line](https://docs.gitlab.com/ee/gitlab-basics/start-using-git.html)
 - [Practical Handbook Edits](/handbook/about/editing-handbook/practical-handbook-edits/)

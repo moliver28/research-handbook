@@ -46,7 +46,7 @@ Here's how the SA organization fosters value creation through the lens of a lear
    - This emphasis on teamwork and knowledge sharing reflects the core DevOps values of collaboration and transparency.
 
 6. Building and leveraging continuous feedback loops
-   - The SA organization thrives on feedback, both between team members and through instrumentation of our practices.  By leveraging feedback and data, the SA organization makes data driven decisions wherever possible.  
+   - The SA organization thrives on feedback, both between team members and through instrumentation of our practices.  By leveraging feedback and data, the SA organization makes data driven decisions wherever possible.
    - A culture of feedback reflects the DevOps philosophy of continuous improvement and adapting to evolving technology landscapes.
 
 Conclusion:
@@ -71,7 +71,7 @@ The [Strategic Field Organization](/handbook/solutions-architects/strategic-fiel
 
 [Ecosystem Solutions Architects](/job-families/sales/solutions-architect/#specialties) are the trusted advisors to our strategic alliances partners, professional services partners, and channel resellers. The focus of this team is to develop relationships and provide technical assistance and leadership to drive joint GTM strategies. This team helps grow and strengthen the partner ecosystem by building new capabilities and growing GitLab revenue together with partners.
 
-In addition to core responsibilities, Solutions Architects may assist in other client-facing activities aligned to Partner and Strategic Marketing such as blogs, videos, webinars, presentations and industry trade show presence. 
+In addition to core responsibilities, Solutions Architects may assist in other client-facing activities aligned to Partner and Strategic Marketing such as blogs, videos, webinars, presentations and industry trade show presence.
 
 See the [Solutions Architect role description](/job-families/sales/solutions-architect/) for additional details, and [Engaging an Ecosystem SA](/handbook/solutions-architects/processes/ecosystem/) when you need help with a partner cooperative opportunity.
 
@@ -96,7 +96,7 @@ Being a Trusted Advisor is referencing a role/skill that a person takes on when 
 >
 > --<cite> [Solution Focus Field Competency](/handbook/sales/training/field-functional-competencies/#solution-focus)
 
-For more information and development see the "Trusted Advisor Skill Development", [Community of Practice](/handbook/customer-success/initiatives/communities-of-practice.html#active-communities-of-practice)
+For more information and development see the "Trusted Advisor Skill Development", [Community of Practice](/handbook/customer-success/initiatives/communities-of-practice/#active-communities-of-practice)
 
 ### Key Attributes for Positioning Value
 

@@ -8,7 +8,7 @@ description: "Job families are organized by function at GitLab and we use them t
 
 ### Things to Keep in Mind
 
-1. Before you begin creating a new job family you should check the directory to see if there is an existing job family or a role close to the one you are working to create. Job families should encompass a team, a department, or perhaps a division. 
+1. Before you begin creating a new job family you should check the directory to see if there is an existing job family or a role close to the one you are working to create. Job families should encompass a team, a department, or perhaps a division.
     - Sometimes you should just add a level, a specialty or a segment and not create a new job family.
 1. We don't include location requirements for most roles (EMEA, Americas, APAC) in the job family because these can change over time and job families are constant.
 1. We don't include [expertises]({{< ref "structure#expert" >}}), since these are free form.
@@ -267,7 +267,7 @@ Here is a brief [walkthrough](https://docs.google.com/presentation/d/1ZNsMLhk5ZB
 1. Insert the title in the format of `job-title.md` for example `marketing-campaign-manager.md`
 1. Copy the [Template for New Job Family](#templates-for-new-job-family) and insert it into the body of the file
 1. Fill in the sections of the template by replacing everything in `{curly brackets}` search `{add`
-1. Use [markdown formatting](/docs/markdown-guide)
+1. Use [markdown formatting](https://handbook.gitlab.com/docs/markdown-guide/)
 1. Delete any unnecessary sections - for example, there may be no `Levels` or `Specialties` at this time, so those sections can be deleted
 1. Update the Commit message with a description of what you are doing
 1. Update Target Branch to an abbreviation of what you did. Note: include dashes between words instead of spaces.

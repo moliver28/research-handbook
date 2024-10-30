@@ -31,7 +31,7 @@ Google's Cloud KMS, depending on the tier too.
 ## Consequences
 
 1. All private keys are going to be stored in Google's Cloud KMS.
-1. Multi-tier protection will be implemented, with higher tries offering more protection.
+1. Multi-tier protection will be implemented, with higher tiers offering more protection.
 1. Protection tier will be defined on per-organization level on the GitLab Rails Service side.
 1. Depending on the protection level used, symmetric decryption keys can be in-memory cached.
 1. The symmetric key's cache must not be valid for more than 24 hours..

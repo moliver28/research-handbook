@@ -23,6 +23,12 @@ SQLFLuff is a SQL linter that works with templating tools like dbt. We use it to
 sqlfluff lint models/path/to/file/file-to-lint.sql
 ```
 
+If you are in the pytohn virtual environemtn for dbt then a `make` command with a dbt model name can be used:
+
+```console
+make lint-models MODEL="model_name"
+```
+
 A dbt command can also be used to get a list of files to lint:
 
 ```console

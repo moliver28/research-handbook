@@ -90,8 +90,8 @@ decisions. While doing so, please keep in mind the [GitLab Values](/handbook/val
 following principles:
 
 - GitLab Handbook: [Directly Responsible Individuals](/handbook/people-group/directly-responsible-individuals/).
-- Working on tickets Support workflow: [Key Principles](/handbook/support/workflows/working-on-tickets.html#key-principles)
-  and [Priorities & Impact](/handbook/support/workflows/working-on-tickets.html#priorities-and-impact).
+- Working on tickets Support workflow: [Key Principles](/handbook/support/workflows/working-on-tickets/#key-principles)
+  and [Priorities & Impact](/handbook/support/workflows/working-on-tickets/#priorities-and-impact).
 
 ### Collaboration mediums
 

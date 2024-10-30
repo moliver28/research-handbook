@@ -93,7 +93,7 @@ What constitutes "good headphones" varies significantly depending on preference.
 
 Almost any phone or laptop comes with a built-in microphone that should be adequate for your needs. A pair of Bluetooth or wired earbuds with an in-line microphone can help reduce background noise, if you work in a noisy space. These are commonly included with most smartphones.
 
-However, if you frequently speak in front of audiences, record talks or podcasts, or simply wish to have excellent audio quality, invest in a [dedicated USB microphone](https://thewirecutter.com/reviews/the-best-usb-microphone) (and, if desired, a desk mount for added ergonomic positioning). For example, [Blue Microphones](https://www.logitechg.com/en-ca/products/microphones.html) offers a variety of options that are crafted with creators, streamers, and podcasters in mind, and all provide exceptional clarity and noise reduction on [video calls](/handbook/communication/#video-calls).
+However, if you frequently speak in front of audiences, record talks or podcasts, or simply wish to have excellent audio quality, invest in a [dedicated USB microphone](https://thewirecutter.com/reviews/the-best-usb-microphone) (and, if desired, a desk mount for added ergonomic positioning). For example, [Blue Microphones](https://www.logitechg.com/en-us/products/microphones.html) offers a variety of options that are crafted with creators, streamers, and podcasters in mind, and all provide exceptional clarity and noise reduction on [video calls](/handbook/communication/#video-calls).
 
 Several GitLab team members have positive experiences with the [M-Audio UberMic](https://www.amazon.com/M-Audio-Uber-Mic-Professional-Microphone/dp/B0767N58ZY).
 

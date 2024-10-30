@@ -94,8 +94,8 @@ Note: In countries with a star (*) hiring is limited to only certain roles, more
 |  Switzerland * | Employed via a PEO |    Remote.com    |           GitLab IT BV          |       12      |   PEO   |        CHF       |           Y           |          Y         |           Y           |
 |    Sweden *    | Employed via a PEO |    Remote.com    |           GitLab IT BV          |       12      |   PEO   |        SEK       |           Y           |          Y         |           Y           |
 
-This table reflects the countries in which we have utilized PEO's but are currently NOT open for hiring. 
-There are no current plans to open these countries for future hiring.  If we do open for hiring, it will be based on business needs. 
+This table reflects the countries in which we have utilized PEO's but are currently NOT open for hiring.
+There are no current plans to open these countries for future hiring.  If we do open for hiring, it will be based on business needs.
 More detail can be found in our internal [compensation calculator](https://comp-calculator.gitlab.net/users/sign_in) under Country Hiring Status.
 
 | Country        | Agreement Type(s)    | Hiring Partner   | Entity to invoice (for AP only) | Pay Frequency | Paid By | Currency Paid in | Workday Profile (Y/N) | Employer of Record | Open for hiring (Y/N) |
@@ -142,7 +142,7 @@ The Total Rewards and People Connect Team member should also review alignment to
 
 ### WBSO (R&D tax credit) in the Netherlands
 
-For roles directly relating to Research and Development in the Netherlands, GitLab may be eligible for the [WBSO (R&D Tax Credit)](http://english.rvo.nl/subsidies-programmes/wbso).
+For roles directly relating to Research and Development in the Netherlands, GitLab may be eligible for the [WBSO (R&D Tax Credit)](https://english.rvo.nl/subsidies-financing/wbso).
 
 #### Organizing WBSO
 
@@ -162,7 +162,7 @@ Each year a spreadsheet with the project details and hours logged against the wo
 
 ## Engineering internships
 
-Engineering is currently hiring interns. The [engineering internships handbook page](/handbook/engineering/internships/) has more information on this.
+Engineering is currently hiring interns. The [engineering internships handbook page](/handbook/hiring/emerging-talent/) has more information on this.
 
 Interships require a fixed term contract during the internship, which is not possible in all countries.
 

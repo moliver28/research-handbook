@@ -176,7 +176,7 @@ Variables in GitLab CI/CD have a precedence, which means variables at a higher '
 
     > This is a project level variable, meaning it is accessible only inside the current project.
 
-1. Setting variables does not trigger a pipeline run, so click **Build > Pipelines** in the left navigation pane, click the **Run Pipeline** button, and click the second **Run Pipeline** button.
+1. Setting variables does not trigger a pipeline run, so click **Build > Pipelines** in the left navigation pane, click the **New Pipeline** button, and click the  **Run Pipeline** button.
 
 1. Click on the widget for the `environment variables` job from your running pipeline and verify the variables and their values are correctly displayed in the job output.
 

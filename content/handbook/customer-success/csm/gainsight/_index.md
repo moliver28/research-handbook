@@ -87,7 +87,7 @@ The table below represents the steps a CSM would typically take in Gainsight. Pl
 
 #### Technical Documentation
 
-- [Gainsight Technical Documentation](/handbook/sales/field-operations/customer-success-operations/gainsight/gainsight-gtm.html)
+- [Gainsight Technical Documentation](/handbook/sales/field-operations/customer-success-operations/gainsight/gainsight-gtm/)
 - [Gainsight Administration](/handbook/sales/field-operations/customer-success-operations/gainsight/)
 - [SalesForce and Zendesk Sync](/handbook/customer-success/csm/gainsight/#salesforce-and-zendesk-syncing)
 

@@ -60,7 +60,7 @@ The information contained on this page is organized into two distinct categories
 1. Once the Agreement has been stamped by Legal, follow the [DocuSign Process](/handbook/sales/field-operations/order-processing/#how-to-send-an-order-form-to-the-customer-for-signature-via-docusign) to send the agreement for signature within SFDC.
 1. All Sales Team Members have DocuSign access, please work with Sales Ops for any questions on how to use it. **Please be sure to copy the applicable Legal team member for all fully executed agreements**
 
-Need an NDA signed? Follow the process for [Team Members with DocuSign access](/handbook/legal/NDA/).
+Need an NDA signed? Follow the process for [Team Members with DocuSign access](/handbook/legal/nda/).
 {.h3}
 
 ### How to Get a Data Processing Addendum (DPA) Signed
@@ -119,7 +119,7 @@ With regards to completing RFPs, sometimes referred to as RFIs, RFQs or RFXs, pl
 
 ### Escalation Process
 
-In instances where a customer or a partner has requested material non-standard terms that are not generally accepted, and where the transaction may merit additional consideration, please follow the [Escalation Process Overview](https://internal.gitlab.com/handbook/legal-and-corporate-affairs/legal-commercial/). Included in the overview are the steps required to meet threshold requirements, ensure the matter receives the appropriate level of review, and provide guidance to complete the applicable escalation form(s)
+If a customer or partner has requested material non-standard terms, and the transaction merits additional consideration by GitLab's leadership, please follow the [GitLab Escalation Process](https://internal.gitlab.com/handbook/legal-and-corporate-affairs/legal-commercial/index.html/) (the "Process"). The Process sets forth factors to consider before escalating material non-standard requests to leadership, including initial threshold considerations, ensuring the matter receives the appropriate level of review, instructions on properly documenting the escalation, etc.
 **Note This document is only available for GitLab Team Members.**
 
 ### How to get a Data Processing Addendum (DPA) signed
@@ -259,7 +259,7 @@ Why will GitLab not sign a BAA?
 1. The GitLab Data Processing Addendum, usually referred to as the "DPA", can be accessed from the GitLab [Terms of Use page](https://about.gitlab.com/terms/). As stated in the GitLab Subscription Agreement, the terms of the DPA automatically apply to corporate customers.
 1. When asking questions about data privacy, customers may also raise questions about security. Generally, such questions are best directed to the [Field Security Team](/handbook/security/security-assurance/field-security/#contact-the-field-security-team). However, the following resources may be useful prior to contacting the Field Security team:
     -The [Security Practices handbook page](/handbook/security/) gives details about GitLab's organizational security.
-    -GitLab's [Customer Assurance Package](/handbook/security/security-assurance/field-security/customer-assurance-package.html) provides details of GitLab's current security and compliance policies.
+    -GitLab's [Customer Assurance Package](/handbook/security/security-assurance/field-security/customer-assurance-package/) provides details of GitLab's current security and compliance policies.
     -GitLab documentation explaining how to [Secure your application](https://docs.gitlab.com/ee/user/application_security/), [Secure your installation](https://docs.gitlab.com/ee/security/) and the GitLab [permissions guide](https://docs.gitlab.com/ee/development/permissions.html) are useful for helping customers understand steps they can take to secure the personal data processed by GitLab.
 
 ### Contract Lifecycle Management (CLM) Process

@@ -105,7 +105,7 @@ Purpose: These channels are open to all SMEs, Product Managers (PMs), and intere
 
 | SME Area                  | Slack Channel That Currently Exists |
 |---------------------------|-------------------------------------|
-| AI                        | #ai-field-technical                 |
+| AI                        | #ai-field-technical (may deprecate due to overlap with #sme-ai)                |
 | App Security & Compliance | TBD                                 |
 | Dedicated                 | TBD                                 |
 | Plan                      | TBD                                 |
@@ -118,7 +118,7 @@ Each SA Area Lead should set up SME Collaboration project (See [App Security Exa
 
 | SME Area                | Collaboration Project Link                                                                                   |
 |-------------------------|--------------------------------------------------------------------------------------------------------------|
-| AI                      |                                                                                                              |
+| AI                      | https://gitlab.com/gitlab-com/customer-success/subject-matter-experts/ai-sme                                                                                                             |
 | App Security            | [App Security SME Project](https://gitlab.com/gitlab-com/customer-success/sa-sme-team-appsec-and-compliance) |
 | Dedicated               |                                                                                                              |
 | Plan                    |                                                                                                              |

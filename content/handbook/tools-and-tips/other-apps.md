@@ -108,7 +108,7 @@ You can also make the entire web page editable, using the [`designMode`](https:/
 There is a free and premium version.
 
 {{% panel header="**IMPORTANT NOTE FOR GRAMMARLY**" header-bg="orange" %}}
-Grammarly browser extensions are discouraged, Grammarly will have access to everything you type in your browser, and they have had [a security problem](https://gizmodo.com/grammarly-bug-let-snoops-read-everything-you-wrote-onli-1822740378). If you want to use it to check non-confidential text manually, you should download the [desktop version](https://www.grammarly.com/native/mac) instead. The desktop version is not available for Linux. Refer to [GitLab's Data Classification Standard](/handbook/security/data-classification-standard.html) for additional details on how data is classified across the organization.
+Grammarly browser extensions are discouraged, Grammarly will have access to everything you type in your browser, and they have had [a security problem](https://gizmodo.com/grammarly-bug-let-snoops-read-everything-you-wrote-onli-1822740378). If you want to use it to check non-confidential text manually, you should download the [desktop version](https://www.grammarly.com/native/mac) instead. The desktop version is not available for Linux. Refer to [GitLab's Data Classification Standard](/handbook/security/data-classification-standard/) for additional details on how data is classified across the organization.
 {{% /panel %}}
 
 ### LanguageTool

@@ -283,7 +283,7 @@ The following section provides resources to help CSMs lead capabilities adoption
 
 1. Ask Discovery Questions to identify customer need
 2. Complete the deeper dive discovery sharing demo, proof points, value positioning, etc.
-3. Deliver [pipeline conversion workshop](/handbook/customer-success/playbooks/ci-verify.html) and user enablement example
+3. Deliver [pipeline conversion workshop](/handbook/customer-success/playbooks/ci-verify/) and user enablement example
 4. Agree to adoption roadmap, timeline and change management plans, offering relevant services (as needed) and updating the success plan (as appropriate)
 5. Lead the adoption plan with the customer, enabling teams and tracking progress through engagement and/or product analytics data showing use case adoption
 
@@ -406,7 +406,7 @@ Check out this introductory video to learn the basics of CI/CD as software devel
 
 ### Interesting reads
 
-- [How We Switched to a Continuous Delivery Pipeline in 3 months](https://medium.com/faun/how-we-switch-to-a-continuous-delivery-pipeline-in-3-months-9667b9f65f7a)
+- [How We Switched to a Continuous Delivery Pipeline in 3 months](https://faun.pub/how-we-switch-to-a-continuous-delivery-pipeline-in-3-months-9667b9f65f7a)
 
 ## Buyer's Journey
 

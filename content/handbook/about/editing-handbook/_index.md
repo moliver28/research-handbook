@@ -47,7 +47,7 @@ A typical workflow to edit the handbook:
     ![Web IDE overview, handbook page highlighted in the file tree](/images/handbook/about/editing-handbook/practical_handbook_edits_web_ide_vs_code_file_tree_edit_handbook_page.png)
 
 1. Edit the selected file, and try the Markdown preview. `Cmd+Shift+P` on macOS opens the Web IDE command palette to search for commands. For example, type `Markdown`, select `Markdown: Open Preview to the Side` and try the preview.
-    - Note that the [handbook markdown engine](/docs/markdown-guide/) supports more rendering features than the [Web IDE preview based on VS Code](https://code.visualstudio.com/docs/languages/markdown), and some items won't be rendered properly. Commit and create a [draft merge request](https://docs.gitlab.com/ee/user/project/merge_requests/drafts.html) to view the handbook [review apps](https://docs.gitlab.com/ee/ci/review_apps/) to preview the page, such as to verify embedded images.
+    - Note that the [handbook markdown engine](https://handbook.gitlab.com/docs/markdown-guide/) supports more rendering features than the [Web IDE preview based on VS Code](https://code.visualstudio.com/docs/languages/markdown), and some items won't be rendered properly. Commit and create a [draft merge request](https://docs.gitlab.com/ee/user/project/merge_requests/drafts.html) to view the handbook [review apps](https://docs.gitlab.com/ee/ci/review_apps/) to preview the page, such as to verify embedded images.
 
     ![Web IDE editor, Markdown preview](/images/handbook/about/editing-handbook/practical_handbook_edits_web_ide_vs_code_console_markdown.png)
 
@@ -189,10 +189,11 @@ section-dir/
 
 ### Moving, deleting, or renaming a page
 
-If you delete, rename, or move a page, you can:
+If you delete, rename, or move a page, you should:
 
-1. [update all existing links](practical-handbook-edits.md#find-and-replace-a-string-in-all-matching-files)
-1. [add a redirect](/docs/frontmatter.md#aliases)
+1. [update all existing links](practical-handbook-edits.md#find-and-replace-a-string-in-all-matching-files) in the handbook and internal handbook.
+   - Note: When searching for links, use the page name. Sometimes links use references or relative links, meaning it doesn't use the full path.
+1. [add a redirect](/docs/frontmatter.md#aliases).
 
 ## Editing content from shortcodes
 
@@ -240,7 +241,7 @@ For example: `Error: error building site: assemble: "/builds/gitlab-com/content-
 - Line: 1
 - Character: 2
 
-To fix markdown errors, review the message. Alternatively, review the relevant section in the [markdown style guide](/docs/markdown-guide).
+To fix markdown errors, review the message. Alternatively, review the relevant section in the [markdown style guide](https://handbook.gitlab.com/docs/markdown-guide/).
 
 For all other errors, the error message should provide the information necessary to fix it.
 

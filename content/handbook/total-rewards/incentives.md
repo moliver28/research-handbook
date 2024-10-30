@@ -113,6 +113,7 @@ If you received the same nomination twice (for the same person and the same reas
 1. The Nominator bot will send you a Slack DM asking to approve or reject the nomination.
 1. When you decide to approve, all you need to do is click the approve button. The bot will take care of the next steps (sending it to the second level manager and the People Connect team).
 1. When you decide to reject, click the reject button. The nomination will be updated as `rejected_by_manager`. The bot will ask you to reach out to the nominator as to make sure they understand why the nomination was not approved.
+1. If the next level approver is on an extended leave and unable to respond to the nomination in a reasonable timeframe (more than 2 weeks), please create a case for the People Connect team in [HelpLab](https://helplab.gitlab.systems/esc?id=sc_cat_item&sys_id=ff7a26094784069067429ee0026d4337) with who the nomination is for, so it can be manually moved to the next level manager to be processed.
 1. When everyone else has approved, the bot will reach out to you so you can share this with the team member, in the [#thanks](https://gitlab.slack.com/archives/C038E3Q6L) Slack channel, and make sure the team member's direct peers can easily see it:
      - For example, cross-post to the team member's group channel
      - For Support, add it to the [Support Week in Review](/handbook/support/#support-week-in-review) as a "Team Member Update" item

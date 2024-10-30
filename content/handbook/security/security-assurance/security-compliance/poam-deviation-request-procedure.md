@@ -8,7 +8,7 @@ title: "FedRAMP Vulnerability Deviation Request Procedure"
 <a href="https://gitlab.com/gitlab-com/gl-security/security-assurance/security-compliance-commercial-and-dedicated/team-security-dedicated-compliance/poam-deviation-requests/-/issues" class="btn bg-primary text-white btn-lg">Click here to submit a Deviation Request!</a>
 </div>
 
-Team members working with security vulnerabilities should read this procedure in its entirety and reach out to `@dedicated_compliance` in the `# sec-assurance` Slack channel if you have any questions.
+Team members working with security vulnerabilities should read this procedure in its entirety and reach out to `@sec-compliance-team` in the `#sec-assurance` Slack channel if you have any questions.
 
 ## Purpose
 
@@ -28,7 +28,7 @@ For further detail on each type, see the definitions in the [DR types](#dr-types
 
 Only the assets and scan types listed [here (internal)](https://internal.gitlab.com/handbook/engineering/dedicated/pubsec/fedramp-boundary-vulnerability-scanning/) are in-scope. Do not submit a DR for a scan type (e.g. SAST) or asset not included within the FedRAMP production authorization boundary.
 
-Vulnerabilities in-scope for FedRAMP get the `FedRAMP::Vulnerability` label applied. See AppSec's [FedRAMP Vulnerability Scanning and Triage Process](/handbook/security/product-security/application-security/runbooks/fedramp-scanners-process.html#for-each-finding-from-dast-and-container-scanners) for more details, as well as the [standard vulnerability labels (internal)](https://gitlab.com/gitlab-com/gl-security/product-security/vulnerability-management/vulnerability-management-internal/vulnerability-management-tracker/-/issues/34199373).
+Vulnerabilities in-scope for FedRAMP get the `FedRAMP::Vulnerability` label applied. See AppSec's [FedRAMP Vulnerability Scanning and Triage Process](/handbook/security/product-security/application-security/runbooks/fedramp-scanners-process/#for-each-finding-from-dast-and-container-scanners) for more details, as well as the [standard vulnerability labels (internal)](https://gitlab.com/gitlab-com/gl-security/product-security/vulnerability-management/vulnerability-management-internal/vulnerability-management-tracker/-/issues/34199373).
 
 ## Roles & Responsibilities
 

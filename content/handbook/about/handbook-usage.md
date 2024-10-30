@@ -27,7 +27,7 @@ Beyond being "handbook first," we are also "public handbook first." When informa
 </figure>
 
 <!-- blank line -->
-When asked during an [INSEAD](http://insead.edu/) case study interview (shown above) about challenges related to being all-remote, GitLab co-founder and CEO Sid Sijbrandij provided the following reply.
+When asked during an [INSEAD](https://www.insead.edu/) case study interview (shown above) about challenges related to being all-remote, GitLab co-founder and CEO Sid Sijbrandij provided the following reply.
 
 > The biggest problem is GitLab not working handbook first. We have an amazing handbook that allows us to collaborate, onboard new people, and think collectively.
 >
@@ -181,7 +181,7 @@ After a heading, leave one blank line; this is [not required in the standard](ht
 
 #### Use contributable diagrams
 
-Preference contributable diagrams over uploading images or other less contributable diagrams. This makes it easier for other people to suggest changes and contribute. Diagram options in Markdown include [Mermaid](/docs/markdown-guide/#mermaid) and [PlantUML](/docs/markdown-guide/#plantuml).
+Preference contributable diagrams over uploading images or other less contributable diagrams. This makes it easier for other people to suggest changes and contribute. Diagram options in Markdown include [Mermaid](https://handbook.gitlab.com/docs/markdown-guide/#mermaid) and [PlantUML](https://handbook.gitlab.com/docs/markdown-guide/#plantuml).
 
 ## Handbook First Competency
 

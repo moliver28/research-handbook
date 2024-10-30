@@ -150,7 +150,7 @@ Other qualities unique to a remote workplace are:
 1. Proven ability to be a [manager of one](/handbook/values/#managers-of-one)
 1. Capable of (and enjoys) working [asynchronously](asynchronous/)
 
-When asked if anyone could learn to work well in an all-remote setting during an [INSEAD](http://insead.edu) case study [interview](https://youtu.be/EuGsen3FxXc), GitLab co-founder and CEO Sid Sijbrandij replied:
+When asked if anyone could learn to work well in an all-remote setting during an [INSEAD](https://www.insead.edu/) case study [interview](https://youtu.be/EuGsen3FxXc), GitLab co-founder and CEO Sid Sijbrandij replied:
 
 > "What's essential in all-remote is that you are a [manager of one](/handbook/values/#managers-of-one).
 >

@@ -132,7 +132,7 @@ Here are some best practices that may help your all-remote team be successful.
 ### Hiring
 
 - Be transparent about your [hiring process and practices](hiring/) so that interviewing time can be spent evaluating the candidate's ability to do the job.
-- [Don't limit yourself](https://doist.com/blog/best-practices-managing-remote-employees) to *only* hiring people who have a passion for remote work. Start by looking for candidates who align with your company [values](/handbook/values/) and the role itself.
+- [Don't limit yourself](https://blog.doist.com/best-practices-managing-remote-employees/) to *only* hiring people who have a passion for remote work. Start by looking for candidates who align with your company [values](/handbook/values/) and the role itself.
 - Assign new hires a [buddy]({{< ref "onboarding-buddies" >}}) so they have someone to reach out to in their first weeks.
 - Define clear goals and [performance indicators](/handbook/company/kpis/) for each role from the start so that you can measure success once you've hired someone for the role.
 

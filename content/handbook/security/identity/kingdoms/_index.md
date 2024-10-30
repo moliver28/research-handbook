@@ -9,7 +9,7 @@ The [GitLab Tech Stack](/handbook/business-technology/tech-stack-applications/) 
 
 The primary focus for the IT team is on federating most applications with Okta SSO, with a focus on applications used across the organization, and any applications under SOX compliance or related to Finance, Legal, People, and Sales functions.
 
-Learn more on the [tech stack handbook page](/handbook/business-technology/tech-stack-applications/) and [Okta handbook page](/handbook/business-technology/okta/).
+Learn more on the [tech stack handbook page](/handbook/business-technology/tech-stack-applications/) and [Okta handbook page](/handbook/it/okta/).
 
 ## Cloud Kingdom
 

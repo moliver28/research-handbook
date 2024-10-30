@@ -101,7 +101,7 @@ Once you join the incident Zoom call, take note of any updates that have been ma
 
 Any updates **outside documented incident updates** that require administrator access to the GitLab System Status page should be initiated with [this template](https://gitlab.com/gitlab-com/support/support-team-meta/-/issues/new?issuable_template=Status%20page%20administrative%20task).
 
-The template will ping CMOC DRIs in scenarios where we need to update or add components. Before adding or changing components, please ensure to get a review from infrastructure counterparts from the appropriate [Reliability Team](/handbook/engineering/infrastructure/team/reliability/#reliability-teams).
+The template will ping CMOC DRIs in scenarios where we need to update or add components. Before adding or changing components, please ensure to get a review from infrastructure counterparts from the appropriate [Reliability Team](/handbook/engineering/infrastructure/team/).
 
 ### About Contact Requests
 
@@ -455,7 +455,7 @@ Once the GitLab Status Twitter account has posted about the maintenance schedule
 
 ## End of Shift Handover Procedure
 
-The CMOC rotation has some specific procedures for handover that substantiate what's in the general [On-call - Ending your on-call shift](/handbook/support/on-call/index.html#ending-your-on-call-shift)) section.
+The CMOC rotation has some specific procedures for handover that substantiate what's in the general [On-call - Ending your on-call shift](/handbook/support/on-call/#ending-your-on-call-shift)) section.
 
 It's necessary to inform the ingress CMOC of any relevant activity that ocurred during your shift or if there are incidents that are still ongoing. To perform a handover create an issue in the [CMOC Handover](https://gitlab.com/gitlab-com/support/dotcom/cmoc-handover/issues) issue tracker using the [Handover](https://gitlab.com/gitlab-com/support/dotcom/cmoc-handover/issues/new?issuable_template=Handover) template. Do this even if nothing happened during your shift, signaling that everything is fine is also useful information.
 

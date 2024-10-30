@@ -9,7 +9,7 @@ This section outlines our approach to handling issues. It's crucial to communica
 
 ### Triaging UX issues
 
-Every Product Designer is empowered to triage issues labeled with "~UX", ["~Deferred UX"](/handbook/engineering/workflow/#deferred-ux) and ["~UI polish"](/handbook/engineering/workflow/#ui-polish). If you are not the one triaging, you should be included for feedback by the responsible PM and EM. Use [Priority labels](/handbook/engineering/infrastructure/engineering-productivity/issue-triage/index.html#priority) to suggest when the issue should be resolved and [Severity labels](/handbook/engineering/infrastructure/engineering-productivity/issue-triage/index.html#severity) to indicate its user impact. Always coordinate with your PM and EMs on the assigned labels.
+Every Product Designer is empowered to triage issues labeled with "~UX", ["~Deferred UX"](/handbook/engineering/workflow/#deferred-ux) and ["~UI polish"](/handbook/engineering/workflow/#ui-polish). If you are not the one triaging, you should be included for feedback by the responsible PM and EM. Use [Priority labels](/handbook/engineering/infrastructure/engineering-productivity/issue-triage/#priority) to suggest when the issue should be resolved and [Severity labels](/handbook/engineering/infrastructure/engineering-productivity/issue-triage/#severity) to indicate its user impact. Always coordinate with your PM and EMs on the assigned labels.
 
 ### Scheduling issues in a milestone
 
@@ -233,7 +233,7 @@ For inspiration, watch our Product Designers discuss [iteration at GitLab](https
   - Once you've validated your solution with users, propose a single solution. Suggesting multiple alternatives can undermine your expertise as a UX professional and lead to design-by-committee. If you must propose multiple solutions, clearly explain your reasoning.
 - **Share context and goals asynchronously**:
   - Provide all necessary context in your issue to ensure your audience understands your proposal and knows how to assist. Clarify who the solution is for, what it will enable them to do, and whether you need feedback, assistance, or approval. Highlight changes since the last review to facilitate understanding.
-  - Use [collapsed content sections](/handbook/markdown-guide/#collapse) to include supportive information without distracting from the main point. Refer to [this issue comment for an example](/handbook/markdown-guide/#collapse).
+  - Use [collapsed content sections](https://handbook.gitlab.com/docs/markdown-guide/#collapse) to include supportive information without distracting from the main point. Refer to [this issue comment for an example](https://handbook.gitlab.com/docs/markdown-guide/#collapse).
   - **Reguest feedback from your Product Design Manager**:
   - `@mention` your Product Design Manager for feedback. They can provide strategic alignment, ensure quality, and maintain functional consistency across the product.
 - **Focus on the customer and problem**:

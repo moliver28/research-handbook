@@ -62,7 +62,7 @@ The training below is a good resource to ensuring you engage in a productive Men
 ## Leadership
 
 - [Emotional Intelligence](/handbook/leadership/emotional-intelligence/)(Handbook)
-- [Elevate Manager Training](/handbook/people-group/learning-and-development/elevate/)(Handbook)
+- [Elevate Manager Training](/handbook/people-group/learning-and-development/elevate-programs/)(Handbook)
 - [Become a Leader](https://www.linkedin.com/learning/paths/become-a-leader?u=2255073)
 - [Leading Others Effectively](https://www.linkedin.com/learning/paths/leading-others-effectively?u=2255073)
 - [Become a More Resilient Leader in Turbulent Times](https://online-learning.harvard.edu/course/become-more-resilient-leader-turbulent-times?delta=0)

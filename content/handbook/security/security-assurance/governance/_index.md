@@ -3,7 +3,7 @@ title: "Security Governance Program"
 description: "Security Governance Program"
 ---
 
-[Governance and Field Security team charter](/handbook/security/security-assurance/governance_and_field_security_team_charter.html)
+[Governance and Field Security team charter](/handbook/security/security-assurance/governance_and_field_security_team_charter/)
 {.h2}
 
 ## <i class="fas fa-bullseye" style="color:rgb(110,73,203)" aria-hidden="true"></i> Mission
@@ -20,7 +20,7 @@ Keeping the organization on track and within established boundaries to ensure co
 
 #### Security handbook maintenance
 
-Security Governance is responsible for the continuous maintenance and improvement of the `security` section in GitLab's handbook. This includes the creation and maintenance of [controlled documents]({{< ref "controlled-document-procedure" >}}), maintenance of the `security` section's overall structure, content relevance and accuracy, and alignment with GitLab's [style guide](/docs/markdown-guide). To request an update to the handbook's `security` section, please open an issue using the link below.
+Security Governance is responsible for the continuous maintenance and improvement of the `security` section in GitLab's handbook. This includes the creation and maintenance of [controlled documents]({{< ref "controlled-document-procedure" >}}), maintenance of the `security` section's overall structure, content relevance and accuracy, and alignment with GitLab's [style guide](https://handbook.gitlab.com/docs/markdown-guide/). To request an update to the handbook's `security` section, please open an issue using the link below.
 
 <a href="https://gitlab.com/gitlab-com/gl-security/security-assurance/governance/security-handbook/-/issues/new?issuable_template=security_handbook_request" class="btn bg-primary text-white btn-lg">Security Handbook Request</a>
 

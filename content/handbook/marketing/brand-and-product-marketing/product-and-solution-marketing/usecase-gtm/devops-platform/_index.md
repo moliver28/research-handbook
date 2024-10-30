@@ -14,7 +14,7 @@ The page below is intended to align GitLab's sales and marketing efforts with a 
 | ---- | --- |
 | Saumya Upadhyaya (@supadhyaya) | [William Galindez Arias](https://gitlab.com/warias) |
 
-**NOTE: If you are looking for messaging guidelines regarding The DevOps Platform, please visit [The DevOps Platform Message House](/handbook/marketing/brand-and-product-marketing/product-and-solution-marketing/usecase-gtm/devops-platform/message-house/index.html).**
+**NOTE: If you are looking for messaging guidelines regarding The DevOps Platform, please visit [The DevOps Platform Message House](/handbook/marketing/brand-and-product-marketing/product-and-solution-marketing/usecase-gtm/devops-platform/message-house/).**
 
 ## How to use this value play
 

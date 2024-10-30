@@ -49,7 +49,7 @@ To ensure that GitLab is proactive in supporting, retaining, and recruiting from
 
 ## Resources for Being an Ally with the Pride Community
 
-- Gladd.org: [10 Ways to Be an Ally & a Friend](https://www.glaad.org/resources/ally/2)
+- Gladd.org: [10 Ways to Be an Ally & a Friend](https://glaad.org/transgender/allies/)
 - TechStars: Out At Work: [How To Support And Be An Ally To LGBTQ+ Colleagues](https://www.techstars.com/the-line/advice/out-at-work-how-to-support-and-be-an-ally-to-lgbtq-colleagues)
 - Forbes: [How To Be An LGBTQ Ally At Work](https://www.forbes.com/sites/brianhonigman/2016/07/20/lgbtq-ally-at-work/#30a6ee0142fc)
 - Vox: [Here's what a good LGBTQ ally looks like](https://www.vox.com/identities/2019/6/22/18700875/lgbtq-good-ally)

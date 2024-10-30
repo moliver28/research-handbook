@@ -211,7 +211,7 @@ The certification level that has been chosen is **basic salary** only and will n
 benefits from a Defined Contribution pension arrangement. Please see the [Annual Allowance Fact Sheet](https://drive.google.com/file/d/1MMA-0wfzUsO70pBsweDAHK-FVc-P_iR1/view?usp=sharing).
 - These percentages are gross percentages using the [relief at source](https://www.gov.uk/workplace-pensions/managing-your-pension) method. As basic rate tax relief is then added by the pension provider, the amount on your payslip will typically be the net amount, which is 80% of the employee's contribution.
 
-These contribution percentages are in line with [The Pension Regulator's Auto-enrollment legislation](http://www.thepensionsregulator.gov.uk/doc-library/automatic-enrolment-detailed-guidance.aspx).
+These contribution percentages are in line with [The Pension Regulator's Auto-enrollment legislation](https://www.thepensionsregulator.gov.uk/en/document-library/automatic-enrolment-detailed-guidance).
 Should the government's minimum contribution standards change further GitLab will contact you to advise the new levels to comply with legislation.
 
 </details>

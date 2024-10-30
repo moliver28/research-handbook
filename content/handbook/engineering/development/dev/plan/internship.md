@@ -4,7 +4,7 @@ title: "Plan Frontend Engineer Internship"
 
 ## Overview
 
-The Plan Frontend Team internship is the result of [The Engineering Internship Pilot Program](/handbook/engineering/internships/) that started at the end of 2019. The ultimate goal of this program is to transform an entry-level candidate in to an Individual Contributor who could meet the requirements for a [Junior Engineer](/job-families/engineering/development/frontend/junior/).
+The Plan Frontend Team internship is the result of [The Engineering Internship Pilot Program](/handbook/hiring/emerging-talent/) that started at the end of 2019. The ultimate goal of this program is to transform an entry-level candidate in to an Individual Contributor who could meet the requirements for a [Junior Engineer](/job-families/engineering/development/frontend/junior/).
 
 ## First 30 days
 

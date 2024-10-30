@@ -28,7 +28,7 @@ Paid customers must set up a new namespace on SaaS when trialing Ultimate.  Ther
 
 Both situations put customer production GitLab usage at risk if a trial is applied to the SaaS namespace.
 
-Instead, a customer should create a new namespace and trial there.  We have put together some [rial guidelines](/handbook/solutions-architects/tools-and-resources/trial-guidelines/) in order to make the process as seamless as possible for customers.
+Instead, a customer should create a new namespace and trial there.  We have put together some [trial guidelines](/handbook/solutions-architects/tools-and-resources/trial-guidelines/) in order to make the process as seamless as possible for customers.
 
 ### Hands-on Workshops
 
@@ -36,7 +36,7 @@ GitLab Solutions Architects conduct hands-on workshops as interactive events for
 
 ### RFI/RFP Responses
 
-RFx's such as RFI and RFP are common steps in the public sector yet it may be required by enterprise customers to assess, evaluate and procure the software. Solutions architects often participate in the RFP process responding to the technical asks and solutions requirements. Information on responding to the RFx can be found on the [RFI/RFP](/handbook/security/security-assurance/field-security/Field-Security-RFP.html) page.
+RFx's such as RFI and RFP are common steps in the public sector yet it may be required by enterprise customers to assess, evaluate and procure the software. Solutions architects often participate in the RFP process responding to the technical asks and solutions requirements. Information on responding to the RFx can be found on the [RFI/RFP](/handbook/security/security-assurance/field-security/Field-Security-RFP/) page.
 
 ### Stack Overflow for Teams
 

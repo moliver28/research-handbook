@@ -270,7 +270,7 @@ Learn more on [how to run an all-remote board meeting](https://about.gitlab.com/
 
 {{< youtube "EuGsen3FxXc?start=788" >}}
 
-When asked during an [INSEAD](http://insead.edu) case study interview (shown above) about an all-remote company's ability to bring people together in the same physical space for a meeting, GitLab co-founder and CEO Sid Sijbrandij provided the following reply.
+When asked during an [INSEAD](https://www.insead.edu/) case study interview (shown above) about an all-remote company's ability to bring people together in the same physical space for a meeting, GitLab co-founder and CEO Sid Sijbrandij provided the following reply.
 
 For context, Sid joined the Zoom call from San Francisco, while the researchers joined from Singapore.
 

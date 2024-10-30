@@ -341,7 +341,7 @@ about the benefits of GitLab Duo.
 
 ### For contributors who don't own a credit card
 
-For contributors who don't own a credit card and need to be manually verified, a GitLab team member can open an [internal request](https://support-super-form-gitlab-com-support-support-op-651f22e90ce6d7.gitlab.io/) using the `Other -> Other License and Renewals related issue` template. GitLab Support will follow the [Manual credit card validation process described in the handbook](/handbook/support/license-and-renewals/workflows/saas/ci_minutes.html#manual-credit-card-validation-for-community-contributors) to complete the request.
+For contributors who don't own a credit card and need to be manually verified, a GitLab team member can open an [internal request](https://support-super-form-gitlab-com-support-support-op-651f22e90ce6d7.gitlab.io/) using the `Other -> Other License and Renewals related issue` template. GitLab Support will follow the [Manual credit card validation process described in the handbook](/handbook/support/license-and-renewals/workflows/saas/ci_minutes/#manual-credit-card-validation-for-community-contributors) to complete the request.
 
 ### For contributors who run out of compute minutes or other CI/CD resources
 

@@ -8,7 +8,7 @@ Elevate Applied: Elevate Applied is a dynamic collection of resources aimed to e
 
 **Apply what you learned in Elevate to build your high performing team.**
 
-Leaders at GitLab should feel supported with excellent resources to enable their practice, application, and integration of concepts taught in [Elevate](/handbook/people-group/learning-and-development/elevate/) to their day to day work at GitLab.
+Leaders at GitLab should feel supported with excellent resources to enable their practice, application, and integration of concepts taught in [Elevate](/handbook/people-group/learning-and-development/elevate-programs/) to their day to day work at GitLab.
 
 To provide this support, the Talent Development team is launching `Elevate Applied`.
 

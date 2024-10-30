@@ -131,12 +131,11 @@ The E-Group offsite generally occurs in:
 
 The following date(s) have been confirmed for future E-Group offsite(s) (starting dates):
 
-- 2024-09-23
 - 2024-12-09
 - 2025-03-31
-- 2025-06-02
-- 2025-09-02
-- 2025-12-01
+- 2025-06-23
+- 2025-09-22
+- 2025-12-08
 
 The following dates were previous E-Group offsites (starting dates):
 
@@ -153,10 +152,7 @@ The following dates were previous E-Group offsites (starting dates):
 - 2024-01-08
 - 2024-03-25
 - 2024-06-24
-
-## Quarterly touchpoint meetings
-
-We have a quarterly, remote touchpoint meeting a month after [Key Review Meetings](/handbook/company/key-review/). We aim to have them as a touchpoint that happens between the Key Review and the E-Group Offsite. We try to schedule these between 8:30am and 12:30pm PST. They usually happen on a Monday or Tuesday. In them, we review OKR and [Yearly progress](/handbook/company/yearlies/), discuss key business priorities, and connect on other issues of importance. [E-Group Weeklies](/handbook/company/e-group-weekly/) will be cancelled during this week. The agenda will be finalized one week in advance of these meetings by the CoS in collaboration with the CEO. The Office of the CEO and E-Group is expected to prioritize these discussions.
+- 2024-09-23
 
 ## Offsite topic calendar
 
@@ -217,7 +213,7 @@ In addition to the topics from the [Topic Calendar](#offsite-topic-calendar) abo
 
 These topics are discussed by E-Group before the offsite:
 
-1. Yearly and OKR progress. These will be reviewed in [quarterly touch point meetings](/handbook/company/offsite/#quarterly-touchpoint-meetings) and [Key Reviews](/handbook/company/key-review/).
+1. Yearly and OKR progress. These will be reviewed in E-Group Weeklies and [Key Reviews](/handbook/company/key-review/).
 1. Planning discussions. These will be facilitated by the Finance Team. Many of them will occur during E-Group Weeklies.
 
 ### Collaborating with EBAs on the Offsite

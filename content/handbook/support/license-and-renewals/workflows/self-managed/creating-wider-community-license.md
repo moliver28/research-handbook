@@ -6,7 +6,7 @@ category: GitLab Self-Managed licenses
 
 ## Overview
 
-GitLab allows community contributors to contribute to GitLab Enterprise Edition. Wider community members should follow the [process described here](/handbook/marketing/developer-relations/contributor-success/community-contributors-workflows.html#contributing-to-the-gitlab-enterprise-edition-ee), this page is targeted at GitLab team members. After trialling for 30 days, an EE license for 90 days can be generated if requested by a Contributor Success team member using [the internal request form](https://support-super-form-gitlab-com-support-support-op-651f22e90ce6d7.gitlab.io/). Use the **GitLab Support Internal Requests for Global customers** request option, and **Wider Community License** for the internal request type. Subsequent requests can be processed as necessary.
+GitLab allows community contributors to contribute to GitLab Enterprise Edition. Wider community members should follow the [process described here](/handbook/marketing/developer-relations/contributor-success/community-contributors-workflows/#contributing-to-the-gitlab-enterprise-edition-ee), this page is targeted at GitLab team members. After trialling for 30 days, an EE license for 90 days can be generated if requested by a Contributor Success team member using [the internal request form](https://support-super-form-gitlab-com-support-support-op-651f22e90ce6d7.gitlab.io/). Use the **GitLab Support Internal Requests for Global customers** request option, and **Wider Community License** for the internal request type. Subsequent requests can be processed as necessary.
 
 ## Actioning
 

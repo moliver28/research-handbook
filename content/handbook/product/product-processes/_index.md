@@ -23,7 +23,7 @@ Documenting a Section, Stage, Group and Category direction is critical to commun
 
 ### Understanding Milestones and Releases
 
-- [Interpreting release dates](/handbook/product/interpreting-release-dates.html) clarifies how product teams use milestones and labels to indicate the likelihood of feature delivery within certain time frames.
+- [Interpreting release dates](/handbook/product/interpreting-release-dates/) clarifies how product teams use milestones and labels to indicate the likelihood of feature delivery within certain time frames.
 - The [release definitions](/handbook/engineering/releases/) are maintained by the Engineering Team and we run the end of each Milestone on the [release date](/handbook/engineering/releases/).
 
 ### Relevant links
@@ -218,7 +218,7 @@ Development Kit (GDK).
 
 Quality Engineering Managers (QEM) are the DRIs for prioritizing bugs. These include security issues which are prioritized in conjunction with the security team. Product Managers must work with their QEM to set Milestones for issues marked with the `bug::vulnerability` [type label](/handbook/product/groups/product-analysis/engineering/dashboards/#work-type-classification) to guarantee they are shipped by their due date, as defined in the [Security Team process](/handbook/security/engaging-with-security/#severity-and-priority-labels-on-security-issues).
 
-While Product Managers are the DRIs for [milestone planning](/handbook/product/cross-functional-prioritization/#planning-for-the-milestone), they must respect the prioritization order for bugs and maintenance issues as determined by their QEM and EM, respectively. As such they should deeply understand the implications and risks of security-related issues and balance those when prioritizing a milestone work. Addressing a serious security issue by its due date may require temporarily adjusting the desired work type ratio for one or more milestones. Priority labels and Due Date designations for security issues should never be modified by Product Managers as they are directly managed by the Security Team and used to track metrics and progress.
+While Product Managers are the DRIs for [milestone planning](/handbook/product/product-processes/cross-functional-prioritization/#planning-for-the-milestone), they must respect the prioritization order for bugs and maintenance issues as determined by their QEM and EM, respectively. As such they should deeply understand the implications and risks of security-related issues and balance those when prioritizing a milestone work. Addressing a serious security issue by its due date may require temporarily adjusting the desired work type ratio for one or more milestones. Priority labels and Due Date designations for security issues should never be modified by Product Managers as they are directly managed by the Security Team and used to track metrics and progress.
 
 ### Foundational Requirements
 
@@ -507,7 +507,7 @@ As described above, prioritization is a multi-faceted problem. In order to
 translate the priorities of any given group into action by our engineering
 teams, we need to be able to translate this multi-faceted problem into a flat
 list of priorities for at least the next release cycle. Product Managers are
-[responsible for taking all these prioritization considerations](/handbook/product/cross-functional-prioritization/#planning-for-the-milestone) and creating a
+[responsible for taking all these prioritization considerations](/handbook/product/product-processes/cross-functional-prioritization/#planning-for-the-milestone) and creating a
 clear, sequenced list of next priorities. This list should be represented as an [issue board](https://about.gitlab.com/stages-devops-lifecycle/issueboard/)
 so that each team has a clear interface for making decisions about work. From
 this list, Product Designers, Engineering Managers and Product Managers can work together to
@@ -537,7 +537,7 @@ responsible for velocity and delivery. However, there are instances when there i
 - Infrastructure projects with customer commitment or heavily upvoted should be given a priority indicative of other customer commitments
 - Vision or Direction items for a launch
 
-As the DRI for [milestone prioritization](/handbook/product/cross-functional-prioritization/#planning-for-the-milestone), it is the Product Manager's job to prioritize for predictability when it is needed. You should do so by ensuring you prioritize a deliverable, and its dependencies, so that it can reasonably be expected to be delivered by any committed dates. If there is time pressure to hit a date, the PM should also explore de-scoping the issue to meet the deadline, rather than pressuring engineering to move abnormally fast or cut corners.
+As the DRI for [milestone prioritization](/handbook/product/product-processes/cross-functional-prioritization/#planning-for-the-milestone), it is the Product Manager's job to prioritize for predictability when it is needed. You should do so by ensuring you prioritize a deliverable, and its dependencies, so that it can reasonably be expected to be delivered by any committed dates. If there is time pressure to hit a date, the PM should also explore de-scoping the issue to meet the deadline, rather than pressuring engineering to move abnormally fast or cut corners.
 
 #### Private tools and dashboards for monitoring and KPI tracking
 
@@ -1061,7 +1061,7 @@ Follow the below guidance to prepare and conduct Customer Discovery Meetings:
 You can find some additional guidance on conducting Customer Discovery Meetings from these resources:
 
 - [How to Interview Your Customers](https://customerdevlabs.com/2013/11/05/how-i-interview-customers/)
-- [Effective User Interviews](https://www.productmanagerhq.com/2018/08/effective-user-interviews/)
+- [Effective User Interviews](https://www.productmanagerhq.com/agile/product-management/effective-user-interviews/)
 
 #### Sourcing customers
 

@@ -16,7 +16,7 @@ The Developer Relations team regularly attends the following event types:
 ### Community events
 
 GitLab's Developer Relations team regularly organizes virtual events including [GitLab Hackathons](https://about.gitlab.com/community/hackathon/)
-and [community office hours](/handbook/marketing/developer-relations/contributor-success/community-contributors-workflows.html#community-office-hours).
+and [community office hours](/handbook/marketing/developer-relations/contributor-success/community-contributors-workflows/#community-office-hours).
 We also support in-person contributor days and [community-organized meetups](https://about.gitlab.com/community/meetups/). Many of these activities
 are organized through the [GitLab network](https://www.meetup.com/pro/gitlab/) page on Meetup.
 

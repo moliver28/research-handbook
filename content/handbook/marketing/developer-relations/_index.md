@@ -105,7 +105,7 @@ Organization:
 
 - [<i class="fas fa-credit-card"></i> Team Budgets](/handbook/marketing/developer-relations/workflows-tools/team-budgets)
 - [<i class="fas fa-shopping-cart"></i> Swag operations](/handbook/marketing/developer-relations/workflows-tools/swag/)
-- [<i class="fas fa-magic"></i> Automated Community Programs](/handbook/marketing/developer-relations/community-programs/automated-community-programs/)
+- [<i class="fas fa-magic"></i> Automated Community Programs](/handbook/marketing/developer-relations/community-programs/community-programs-workflows/#automated-applications-workflow-overview)
 - [<i class="fas fa-robot"></i> Zapier](/handbook/marketing/developer-relations/workflows-tools/zapier/)
 - [<i class="fas fa-inbox"></i> Zendesk](/handbook/marketing/developer-relations/workflows-tools/zendesk/)
 - [<i class="fas fa-envelope"></i> Email](/handbook/marketing/developer-relations/workflows-tools/e-mail/)

@@ -497,7 +497,7 @@ We have [guidelines](/handbook/finance/spending-company-money/#guidelines) aroun
 
 ##### Frugality
 
-[Amazon states it best](http://www.amazon.jobs/principles) with: "Accomplish more with less. Constraints breed resourcefulness, self-sufficiency, and invention. There are no extra points for growing headcount, budget size, or fixed expense."
+[Amazon states it best](https://www.amazon.jobs/content/en/our-workplace/leadership-principles) with: "Accomplish more with less. Constraints breed resourcefulness, self-sufficiency, and invention. There are no extra points for growing headcount, budget size, or fixed expense."
 
 ##### Short verbal answers
 
@@ -1095,7 +1095,7 @@ Because some information is [not public](/handbook/communication/confidentiality
 
 ##### Directness
 
-Being direct is about being transparent with each other. We try to channel our inner [Ben Horowitz](https://en.wikipedia.org/wiki/Ben_Horowitz) by being [both straightforward and kind](https://medium.com/@producthunt/ben-horowitz-s-best-startup-advice-7e8c09c8de1b).
+Being direct is about being transparent with each other. We try to channel our inner [Ben Horowitz](https://en.wikipedia.org/wiki/Ben_Horowitz) by being [both straightforward and kind](https://blog.producthunt.com/ben-horowitz-s-best-startup-advice-7e8c09c8de1b).
 Feedback is always about your work and not your person. That doesn't mean it will be easy to give or receive it.
 
 ##### Articulate when you change your mind

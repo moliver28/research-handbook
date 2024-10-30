@@ -223,7 +223,7 @@ have a conversation with the Engineering Manager if uncertain about how to proce
 
 #### Code Review Process
 
-The process for reviewing and maintainer code is documented within our [Static Analysis Group Code Review](/handbook/engineering/development/sec/secure/static-analysis/code_review.html) page.
+The process for reviewing and maintainer code is documented within our [Static Analysis Group Code Review](/handbook/engineering/development/sec/secure/static-analysis/code_review/) page.
 
 #### Stabilization Period and Slack Time
 
@@ -268,7 +268,7 @@ As always, contributions are welcome from our community or the current MR coach 
 
 The process for dismissing a vulnerability as a false positive is as follows:
 
-- If it doesn't exist on the [Static Analysis Group Defined False Positives](/handbook/engineering/development/sec/secure/static-analysis/false_positives.html) page, then write documentation describing the type of false positive and why we think it is classified as such.
+- If it doesn't exist on the [Static Analysis Group Defined False Positives](/handbook/engineering/development/sec/secure/static-analysis/false_positives/) page, then write documentation describing the type of false positive and why we think it is classified as such.
 - If the vulnerability relates to a specific code location (e.g. SAST), then open an MR with comments at each FP location that contain a link to the FP documentation.
 - Dismiss vulnerability in the GitLab UI with a comment that contains:
   - A link to the FP documentation.

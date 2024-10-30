@@ -19,7 +19,7 @@ Runway is maintained by the [Scalability:Practices](/handbook/engineering/infras
 
 - [AI-gateway](/handbook/engineering/architecture/design-documents/ai_gateway/)
 - [Duo Workflow](/handbook/engineering/architecture/design-documents/duo_workflow/)
-- [PVS Service](https://docs.gitlab.com/ee/administration/external_pipeline_validation.html) 
+- [PVS Service](https://docs.gitlab.com/ee/administration/external_pipeline_validation.html)
 - [Woodhouse](https://gitlab.com/gitlab-com/gl-infra/woodhouse)
 - [glgo](https://gitlab.com/gitlab-org/architecture/gitlab-gcp-integration/glgo)
 - [Runway Docs](https://docs.runway.gitlab.com/)
@@ -42,7 +42,7 @@ Please reach out to the team following the links below.
 
 ### How do I get further help?
 
-If you need further support in understanding whether Runway can help you, or you have feedback or questions, please reach out to the [Scalability:Frameworks](/handbook/engineering/infrastructure/team/scalability/frameworks.html) team by either creating an [Issue](https://gitlab.com/gitlab-com/gl-infra/platform/runway/team/-/issues/new) or sending a message in [#f_runway](https://gitlab.slack.com/archives/C05G970PHSA).
+If you need further support in understanding whether Runway can help you, or you have feedback or questions, please reach out to the [Scalability:Frameworks](/handbook/engineering/infrastructure/team/scalability/frameworks/) team by either creating an [Issue](https://gitlab.com/gitlab-com/gl-infra/platform/runway/team/-/issues/new) or sending a message in [#f_runway](https://gitlab.slack.com/archives/C05G970PHSA).
 
 ### Technical Specification
 

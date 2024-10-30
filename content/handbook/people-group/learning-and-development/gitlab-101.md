@@ -56,7 +56,7 @@ This will make more sense once you understand all of the terminology.
    1. **Example:** If someone says to do something locally that means to open the terminal on your computer to make a change.
 1. Markdown
    1. **Definition:** a lightweight markup language with plain-text-formatting syntax. Its design allows it to be converted to many output formats, but the original tool by the same name only supports HTML.
-   1. **Example:** Take a look at our [GitLab Markdown Guide](/docs/markdown-guide)
+   1. **Example:** Take a look at our [GitLab Markdown Guide](https://handbook.gitlab.com/docs/markdown-guide/)
 1. Milestones
    1. **Definition:** are a way to track issues and merge requests created to achieve a broader goal in a certain period of time. They allow you to organize issues and merge requests into a cohesive group, with an optional start date and an optional due date.
    1. **More information on:** [milestones](https://docs.gitlab.com/ee/user/project/milestones/)

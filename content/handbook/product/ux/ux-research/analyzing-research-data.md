@@ -15,7 +15,7 @@ While capturing your research data, you'll focus on documenting **observations**
 
 While the bulk of research synthesis happens after you've finished gathering all your data, analysis can start right away. After every user interview, debrief with your teammates who observed the session about what stood out.
 
-Capturing these insights while the session is fresh in your minds makes the overall process much faster and easier. Discussing observations as a group leads to a more thoughtful analysis, reduces [cognitive bias](https://medium.com/better-humans/cognitive-bias-cheat-sheet-55a472476b18), and helps your team form a strong shared understanding of the problem space you're investigating.
+Capturing these insights while the session is fresh in your minds makes the overall process much faster and easier. Discussing observations as a group leads to a more thoughtful analysis, reduces [cognitive bias](https://betterhumans.pub/cognitive-bias-cheat-sheet-55a472476b18), and helps your team form a strong shared understanding of the problem space you're investigating.
 
 ### After interviews: Find patterns and themes
 

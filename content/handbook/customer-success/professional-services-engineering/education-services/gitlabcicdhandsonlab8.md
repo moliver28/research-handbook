@@ -13,9 +13,9 @@ Docker is a platform commonly used by developers to build container applications
 
 1. Open your **CICD Demo** project from earlier labs.
 
-1. Add a new file to the **CICD Demo** project by selecting **+ > This directory > New file**
+1. Add a new file to the **CICD Demo** project by selecting **+ > This directory > New file**.
 
-1. In the **Filename** field, enter `Dockerfile`
+1. In the **Filename** field, enter `Dockerfile`.
 
 1. Paste the following into the body of the new file.
 
@@ -39,7 +39,7 @@ Docker is a platform commonly used by developers to build container applications
 
 ### Task B: Define a `build image` Job
 
-1. In the left navigation bar, click **Code > Repository**
+1. In the left navigation bar, click **Code > Repository**.
 
 1. Open the `.gitlab-ci.yml` file and click **Edit > Edit single file**. Paste the following new job definition at the end of the file.
 
@@ -57,7 +57,7 @@ Docker is a platform commonly used by developers to build container applications
         - docker push $IMAGE
     ```
 
-    > There are alternative methods that can be used for building Docker based images. If you runners do not support Docker in Docker, you can consider using a tool like `kaniko`, as shown in the configuration below:
+    > There are alternative methods that can be used for building Docker based images. If your runners do not support Docker in Docker, you can consider using a tool like `kaniko`, as shown in the configuration below:
     
     ```yml
     build image:

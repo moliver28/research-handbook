@@ -36,7 +36,7 @@ If you would like to check whether or not a team-member is a member of a Slack o
 
 #### Okta
 
-To read more about Okta, please visit the [**Okta**](/handbook/business-technology/okta/) page of the handbook.
+To read more about Okta, please visit the [**Okta**](/handbook/it/okta/) page of the handbook.
 
 #### Jamf (Endpoint Management)
 

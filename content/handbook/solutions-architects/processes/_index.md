@@ -89,13 +89,13 @@ Simplified process description:
 
 ## Customer Security Assurance
 
-Follow the process detailed in the [GitLab's Customer Assurance Activities](/handbook/security/security-assurance/field-security/customer-security-assessment-process.html)
+Follow the process detailed in the [GitLab's Customer Assurance Activities](/handbook/security/security-assurance/field-security/customer-security-assessment-process/)
 handbook page.
 
 **Optional** Considerations when engaging the Customer Assurance team:
 
 - You can start with [Security - GitLab Trust Center](https://about.gitlab.com/security/) in some cases.
-- Encourage customers to use and review [Self-service Information Gathering](/handbook/security/security-assurance/field-security/customer-security-assessment-process.html).
+- Encourage customers to use and review [Self-service Information Gathering](/handbook/security/security-assurance/field-security/customer-security-assessment-process/).
 - SAs can attempt a first-pass for all security questionnaires if time permits
   - Do it, it's fun and educational!
   - You can also make use of the [GitLab's Trust Center](https://trust.gitlab.com/)
@@ -212,7 +212,7 @@ Solution Architects should participate in [technical discovery](#technical-disco
 - Prospect Q&A sessions
 - RFI/RFP completion
 - PoV planning, documentation and execution strategy
-- [Security Audits](/handbook/security/security-assurance/field-security/customer-security-assessment-process.html)
+- [Security Audits](/handbook/security/security-assurance/field-security/customer-security-assessment-process/)
 - [SOW Scoping with Professional Services](/handbook/customer-success/professional-services-engineering/selling/)
 
 SA's may also work in tandem with a CSM to support existing customers, especially when expand opportunities exist within the account. And SA's may also have regular touch points smaller customers who do not have a CSM assigned.
@@ -325,19 +325,19 @@ A given opportunity may be found to be too complex, valuable, or risky for a sin
 
 #### Ad Hoc Support
 
-As part of GitLab's CREDIT values, SAs are encouraged to collaborate with one-another on customer activities to deliver better results. As such, SAs often reach out on their own seeking assistance. Examples include asking questions in Slack channels or Stackoverflow, scheduling brainstorming or enablement meetings, and supporting each other's demonstrations or workshops. 
+As part of GitLab's CREDIT values, SAs are encouraged to collaborate with one-another on customer activities to deliver better results. As such, SAs often reach out on their own seeking assistance. Examples include asking questions in Slack channels or Stackoverflow, scheduling brainstorming or enablement meetings, and supporting each other's demonstrations or workshops.
 
 #### Long-Term
 
-To better support the business and create an opportunity for SAs to collaborate and learn from one another, SA Leaders may assign a secondary SA to pair long-term on an opportunity. 
+To better support the business and create an opportunity for SAs to collaborate and learn from one another, SA Leaders may assign a secondary SA to pair long-term on an opportunity.
 
-When only ad hoc support is needed without a long-term secondary SA, SAs should continue relying on and collaborating with one another. 
+When only ad hoc support is needed without a long-term secondary SA, SAs should continue relying on and collaborating with one another.
 
 #### Tracking Secondary SA Engagement on Opportunities
 
 Ad hoc and long-term secondary SAs should log activities as if they were the primary SA supporting the account, capturing their impression of the customer interaction. The `Primary Solutions Architect` field in Salesforce would be used to designate the primary SA, and any other SAs involved in the opportunity would be derived from the logged activities.
 
-If a secondary SA is also involved as a Subject Matter Expert, the `SA Assistance - Subject Matter` SA Activity Type should be used when logging the activity. 
+If a secondary SA is also involved as a Subject Matter Expert, the `SA Assistance - Subject Matter` SA Activity Type should be used when logging the activity.
 
 ### Issue Creation Details
 

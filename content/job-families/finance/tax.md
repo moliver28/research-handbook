@@ -300,10 +300,10 @@ The Director of Multinational Tax is a job [grade 11](/handbook/total-rewards/co
 
 ## Performance Indicators
 
-- [Effective Tax Rate](/handbook/tax/performance-indicators/#effective-tax-rate-etr)
-- [Budget vs. Actual](/handbook/tax/performance-indicators/#budget-vs-actual)
-- [Audit Adjustments](/handbook/tax/performance-indicators/#audit-adjustments)
-- [International Expansion](/handbook/tax/performance-indicators/#international-expansion)
+- [Effective Tax Rate](https://internal.gitlab.com/handbook/tax/performance-indicators/#effective-tax-rate-etr)
+- [Budget vs. Actual](https://internal.gitlab.com/handbook/tax/performance-indicators/#budget-vs-actual)
+- [Audit Adjustments](https://internal.gitlab.com/handbook/tax/performance-indicators/#audit-adjustments)
+- [International Expansion](https://internal.gitlab.com/handbook/tax/performance-indicators/#international-expansion)
 
 ## Career Ladder
 

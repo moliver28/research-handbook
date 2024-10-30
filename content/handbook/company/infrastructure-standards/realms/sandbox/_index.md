@@ -11,9 +11,9 @@ description: "This handbook section defines the latest iteration of infrastructu
 
 #### Documentation
 
-- [Global infrastructure standards](/handbook/infrastructure-standards/)
+- [Global infrastructure standards](/handbook/company/infrastructure-standards/)
 - [Global labels and tags](/handbook/company/infrastructure-standards/labels-tags/)
-- [Infrastructure policies](/handbook/infrastructure-standards/policies/)
+- [Infrastructure policies](/handbook/company/infrastructure-standards/policies/)
 
 #### Issue Tracking and Collaboration
 
@@ -95,13 +95,13 @@ Self-service creation and IAM management is not available yet for end users in H
 
 ##### Product Related
 
-For any staging or production(-esque) infrastructure services that are customer facing, contain [Red or Orange data](/handbook/security/data-classification-standard.html#data-classification-levels), related to the GitLab product or GitLab.com SaaS, or Engineering sponsored services, please contact the [Reliability Engineering](/handbook/engineering/infrastructure/team/reliability/) team for guidance on next steps in the `#infrastructure_lounge` Slack channel.
+For any staging or production(-esque) infrastructure services that are customer facing, contain [Red or Orange data](/handbook/security/data-classification-standard/#data-classification-levels), related to the GitLab product or GitLab.com SaaS, or Engineering sponsored services, please contact the [Reliability Engineering](/handbook/engineering/infrastructure/team/) team for guidance on next steps in the `#infrastructure_lounge` Slack channel.
 
 Most environments are typically created in the [config-mgmt project](https://gitlab.com/gitlab-com/gl-infra/config-mgmt) using the [Create a new environment](https://gitlab.com/gitlab-com/gl-infra/config-mgmt/#creating-a-new-environment) instructions.
 
 You can learn more about GitLab.com SaaS on the [Production Architecture](/handbook/engineering/infrastructure/production/architecture/) handbook page.
 
-Any projects with [yellow or green](/handbook/security/data-classification-standard.html#data-classification-levels) data usually are better suited for self management using [Group Projects](#groupteam-aws-account-or-gcp-project-non-production) using [Infrastructure Standards](/handbook/infrastructure-standards) guidelines.
+Any projects with [yellow or green](/handbook/security/data-classification-standard/#data-classification-levels) data usually are better suited for self management using [Group Projects](#groupteam-aws-account-or-gcp-project-non-production) using [Infrastructure Standards](/handbook/infrastructure-standards) guidelines.
 
 ##### Business Related
 
@@ -109,7 +109,7 @@ For any infrastructure services related to business operations and our tech stac
 
 New SaaS applications should go through the [Procurement Process](/handbook/finance/procurement/) and are managed by the respective department's [system owners](/handbook/business-technology/#cross-department-system-owners).
 
-Self-hosted application infrastructure is determined on a case-by-case basis and is architected in collaboration with [IT Infrastructure](/handbook/business-technology/it/engineering/infrastructure/), [Security Architecture](/handbook/security/product-security/architecture/), [Infrastructure Security](/handbook/security/product-security/infrastructure-security/), [Application Security](/handbook/security/product-security/application-security/), and [3rd Party Risk](/handbook/security/security-assurance/security-risk/third-party-risk-management.html). Please tag `@jeffersonmartin` in an issue for preliminary guidance on new services. If you do not have an issue yet, please create one in the [IT Infrastructure issue tracker](https://gitlab.com/gitlab-com/business-technology/engineering/infrastructure/issue-tracker/-/issues).
+Self-hosted application infrastructure is determined on a case-by-case basis and is architected in collaboration with [IT Infrastructure](/handbook/business-technology/it/engineering/infrastructure/), [Security Architecture](/handbook/security/product-security/architecture/), [Infrastructure Security](/handbook/security/product-security/infrastructure-security/), [Application Security](/handbook/security/product-security/application-security/), and [3rd Party Risk](/handbook/security/security-assurance/security-risk/third-party-risk-management/). Please tag `@jeffersonmartin` in an issue for preliminary guidance on new services. If you do not have an issue yet, please create one in the [IT Infrastructure issue tracker](https://gitlab.com/gitlab-com/business-technology/engineering/infrastructure/issue-tracker/-/issues).
 
 #### Accessing your AWS Account
 
@@ -121,7 +121,7 @@ Self-hosted application infrastructure is determined on a case-by-case basis and
 1. You can click on the link to open the AWS console, or you can close the modal window and click the `Open AWS Web Console` button on the `Cloud Account` details page.
 1. Use the provided **URL**, **Username**, and **Password** to sign in to your new AWS account. *Be careful that your browser doesn't autofill saved credentials for a different account.*
 1. After you sign in, you should navigate to IAM and add a Virtual MFA device for your user account and add a One-Time Password (OTP) to your 1Password record.
-1. Your IAM user account has `AdministratorAccess` to be able to perform any action inside of your AWS account. We do not provide team members access to the `root` user account since we only use this for break glass security incidents or related administrative activity by the [Infrastructure Realm Owners](/handbook/infrastructure-standards/#realm-owners).
+1. Your IAM user account has `AdministratorAccess` to be able to perform any action inside of your AWS account. We do not provide team members access to the `root` user account since we only use this for break glass security incidents or related administrative activity by the [Infrastructure Realm Owners](/handbook/company/infrastructure-standards/#realm-owners).
 
 #### Accessing your GCP Project
 
@@ -211,7 +211,7 @@ Over the years, our non-production infrastructure resources have grown organical
 
 ### Recent iterations
 
-[Epic 257](https://gitlab.com/groups/gitlab-com/gl-infra/-/epics/257) was created to iterate on our processes. In FY21-Q3, we created company-wide [infrastructure standards](/handbook/infrastructure-standards/) which solved the "naming things is hard" problem with [labels, tags, and naming conventions](/handbook/company/infrastructure-standards/labels-tags/) in our AWS and GCP organization accounts. The infrastructure standards define [realms](/handbook/infrastructure-standards/#gitlab-infrastructure-realms) to create separate security boundary namespaces for different use cases. For our sandbox use cases, we've created a [sandbox realm](/handbook/infrastructure-standards/realms/sandbox) for individual users and [department realms](/handbook/company/infrastructure-standards/labels-tags/#department-realms) for shared collaboration projects, notably the Engineering Development realm which allows each of the [department groups](/handbook/company/infrastructure-standards/labels-tags/#gitlab-department-group-gl_dept_group) (functional teams) to have a shared AWS account or GCP project for creating infrastructure.
+[Epic 257](https://gitlab.com/groups/gitlab-com/gl-infra/-/epics/257) was created to iterate on our processes. In FY21-Q3, we created company-wide [infrastructure standards](/handbook/company/infrastructure-standards/) which solved the "naming things is hard" problem with [labels, tags, and naming conventions](/handbook/company/infrastructure-standards/labels-tags/) in our AWS and GCP organization accounts. The infrastructure standards define [realms](/handbook/company/infrastructure-standards/#gitlab-infrastructure-realms) to create separate security boundary namespaces for different use cases. For our sandbox use cases, we've created a [sandbox realm](/handbook/company/infrastructure-standards/realms/sandbox) for individual users and [department realms](/handbook/company/infrastructure-standards/labels-tags/#department-realms) for shared collaboration projects, notably the Engineering Development realm which allows each of the [department groups](/handbook/company/infrastructure-standards/labels-tags/#gitlab-department-group-gl_dept_group) (functional teams) to have a shared AWS account or GCP project for creating infrastructure.
 
 ### Current iteration
 

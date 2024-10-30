@@ -144,7 +144,7 @@ Our current platform consists of:
 
 - the [Enterprise Data Warehouse](/handbook/enterprise-data/platform/) for storing raw and normalized source data as well as final model output for consumption by downstream consumers
 - [JupyterLab](/handbook/enterprise-data/platform/jupyter-guide/) for model training, tuning, and selection
-- [GitLab](https://gitlab.com/) for collaboration, project versioning, and score code management, [experiment tracking](/handbook/engineering/development/incubation/mlops/ml_experiment_tracking.html), and [CI/CD](https://docs.gitlab.com/ee/ci/)
+- [GitLab](https://gitlab.com/) for collaboration, project versioning, and score code management, [experiment tracking](/handbook/engineering/development/incubation/mlops/ml_experiment_tracking/), and [CI/CD](https://docs.gitlab.com/ee/ci/)
 -[GitLab CI](/handbook/enterprise-data/platform/ci-for-ds-pipelines/#our-approach-to-using-cicd-for-data-science) for automation and orchestration
 - [Monte Carlo](https://getmontecarlo.com/) for drift detection
 - Tableau Server for model monitoring and on-going performance evaluation

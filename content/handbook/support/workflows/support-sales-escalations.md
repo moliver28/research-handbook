@@ -53,4 +53,4 @@ Some examples on when this might be appropriate:
 ## Resources
 
 - [CSM Responsibilities and Services](/handbook/customer-success/csm/services/#csm-alignment)
-- [Customer Success Escalations Process](/handbook/customer-success/csm/escalations/index.html)
+- [Customer Success Escalations Process](/handbook/customer-success/csm/escalations/)

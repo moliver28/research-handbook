@@ -63,7 +63,7 @@
 /content/handbook/company/history.md @sytses
 /content/handbook/company/okrs/ @streas
 /content/handbook/company/only-healthy-constraints.md @sytses
-/content/handbook/company/quote-to-cash.md @justinfarris @ofernandez2 @tgolubeva @courtmeddaugh @alex_martin @vincywilson @jackib @chloeliu @jeromezng @jameslopez @csouthard @rhardarson @shreyasagarwal @jrabbits @NabithaRao @sbaranidharan @iweeks @s_mccauley @annapiaseczna @simon-mundy @msubramanian
+/content/handbook/company/quote-to-cash.md @justinfarris @ofernandez2 @tgolubeva @courtmeddaugh @alex_martin @vincywilson @jackib @chloeliu @jeromezng @jameslopez @rhardarson @shreyasagarwal @jrabbits @NabithaRao @sbaranidharan @iweeks @s_mccauley @annapiaseczna @simon-mundy @msubramanian
 /content/handbook/company/stewardship.md @sytses
 /content/handbook/company/strategy.md @sytses
 /content/handbook/company/group-conversations.md @streas
@@ -83,7 +83,7 @@
 /content/handbook/company/culture/gitlab-101.md @akramer @streas
 /content/handbook/company/culture/inclusion/ @wendybarnes
 /content/handbook/company/culture/inclusion/tmrg-gitlab-black/ @erran @madou
-/content/handbook/company/culture/inclusion/erg-gitlab-diversability.md @jgladen @sam.white @kchappell
+/content/handbook/company/culture/inclusion/erg-gitlab-diversability.md @jgladen @sam.white @abuerer
 /content/handbook/company/culture/inclusion/tmag-gitlab-generational-understanding.md @wendybarnes @mdrussell @terrichu
 /content/handbook/company/culture/inclusion/tmrg-gitlab-gente.md @pmejia @romerg
 /content/handbook/company/culture/inclusion/tmrg-global-voices.md @eliran.mesika @twoodham @marin
@@ -141,10 +141,10 @@
 /content/handbook/engineering/development/dev/plan/product-planning.md @kushalpandya
 /content/handbook/engineering/development/dev/plan/project-management.md @donaldcook
 /content/handbook/engineering/development/dev/training/ic-to-manager.md @dsatcher
-/content/handbook/engineering/development/fulfillment/ @jeromezng @jameslopez @csouthard @rhardarson @shreyasagarwal @tgolubeva @courtmeddaugh @ofernandez2 @alex_martin @ppalanikumar
+/content/handbook/engineering/development/fulfillment/ @jeromezng @jameslopez @rhardarson @shreyasagarwal @tgolubeva @courtmeddaugh @ofernandez2 @alex_martin @ppalanikumar
 /content/handbook/engineering/development/fulfillment/fulfillment-platform.md @jameslopez @ofernandez2
 /content/handbook/engineering/development/fulfillment/provision.md @courtmeddaugh
-/content/handbook/engineering/development/fulfillment/utilization/ @csouthard @alex_martin
+/content/handbook/engineering/development/fulfillment/utilization/ @jeromezng @alex_martin
 /content/handbook/engineering/development/growth/ @kniechajewicz
 /content/handbook/engineering/development/ops/ @sgoldstein @cheryl.li @nicolewilliams @crystalpoole
 /content/handbook/engineering/development/ops/deploy/ @nmezzopera
@@ -187,7 +187,7 @@
 /content/handbook/engineering/infrastructure-quality.md @marin @meks @vincywilson
 
 ^[Eng-Infrastructure-department]
-/content/handbook/engineering/careers/matrix/infrastructure @marin @kwanyangu @meks @dawsmith @amyphillips @rnienaber @mbursi
+/content/handbook/engineering/careers/matrix/infrastructure @marin @meks @dawsmith @amyphillips @rnienaber @mbursi
 /content/handbook/engineering/deployments-and-releases/ @marin @mbursi @dawsmith @gitlab-org/delivery
 /content/handbook/engineering/error-budgets/ @marin @rnienaber
 /content/handbook/engineering/infrastructure/ @marin @meks @vincywilson
@@ -203,7 +203,7 @@
 /content/handbook/engineering/infrastructure/core-platform/systems/geo/ @luciezhao
 /content/handbook/engineering/infrastructure/core-platform/systems/gitaly/ @andrashorvath @jcaigitlab
 /content/handbook/engineering/infrastructure/emergency-change-processes.md @marin @meks
-/content/handbook/engineering/infrastructure/incident-management/ @dawsmith @kwanyangu @marin
+/content/handbook/engineering/infrastructure/incident-management/ @dawsmith @rnienaber @marin
 /content/handbook/engineering/infrastructure/performance-indicators.md @marin @meks @vincywilson @rymai
 /content/handbook/engineering/infrastructure/platforms/ @marin @rnienaber @amyphillips
 /content/handbook/engineering/infrastructure/service-maturity-model.md @rnienaber @marin @meks
@@ -214,7 +214,7 @@
 /content/handbook/engineering/infrastructure/team/gitlab-dedicated/environment-automation.md @o-lluch @denhams @marin @amyphillips
 /content/handbook/engineering/infrastructure/team/gitlab-dedicated/switchboard.md @ashiel @marin @amyphillips
 /content/handbook/engineering/infrastructure/team/gitlab-dedicated/us-public-sector-services.md @marin @amyphillips
-/content/handbook/engineering/infrastructure/team/scalability/ @rnienaber @kwanyangu @lmcandrew @marin
+/content/handbook/engineering/infrastructure/team/scalability/ @rnienaber @lmcandrew @marin
 /content/handbook/engineering/monitoring/ @marin @meks
 /content/handbook/engineering/releases/ @marin @mbursi @dawsmith @gitlab-org/delivery
 /content/handbook/engineering/gitlab-com/ @marin @meks
@@ -452,8 +452,8 @@
 /content/handbook/people-policies/ @emilyplotkin @pegan @wendybarnes
 /content/handbook/people-policies/leave-of-absence/ @lyndemeiers @pegan @cgudgenov
 /content/handbook/people-policies/leave-of-absence/us.md @lyndemeiers @pegan @cgudgenov
-/content/handbook/total-rewards/incentives.md @wendybarnes @michellenelson @mwilkins @azurmuhle @Rkole
-/content/handbook/total-rewards/stock-options.md @wendybarnes @michellenelson @mwilkins
+/content/handbook/total-rewards/incentives.md @wendybarnes @mwilkins @azurmuhle @Rkole
+/content/handbook/total-rewards/stock-options.md @wendybarnes @mwilkins
 /content/handbook/finance/travel/ @wendybarnes @pegan
 /content/handbook/people-group/learning-and-development/team-workshops @tely2 @slee24
 
@@ -564,6 +564,7 @@
 /content/handbook/security/identity/ @gitlab-com/gl-security/identity
 /content/handbook/security/product-security/ @juliedavila
 /content/handbook/security/product-security/infrastructure-security/ @jacobjernigan
+/content/handbook/security/product-security/data-security/ @jacobjernigan @boconnor @jcamgl
 /content/handbook/security/product-security/application-security/ @jritchey
 /content/handbook/security/product-security/architecture/ @plafoucriere
 /content/handbook/security/product-security/security-research/ @estrike
@@ -601,7 +602,7 @@
 /content/handbook/support/workflows/pii_removal_requests.md @gitlab-com/support/managers @gitlab-com/gl-security/security-operations/trust-and-safety @gitlab-com/egroup @gitlab-com/content-sites
 /content/handbook/support/workflows/reinstating-blocked-accounts.md @gitlab-com/support/managers @gitlab-com/gl-security/security-operations/trust-and-safety @gitlab-com/egroup @gitlab-com/content-sites
 /content/handbook/support/workflows/setting_ticket_priority.md @gitlab-com/support/managers @gitlab-com/support/support-ops @gitlab-com/egroup @gitlab-com/content-sites
-/content/handbook/support/workflows/team/performance_review.md @sabrinafarmer @lbot @lyle @shaunmccann @vparsons @gitlab-com/egroup @gitlab-com/content-sites
+/content/handbook/support/workflows/team/performance_review.md @sabrinafarmer @lbot @lyle @jscarborough @vparsons @gitlab-com/egroup @gitlab-com/content-sites
 /content/handbook/support/workflows/working_with_security.md @gitlab-com/support/managers @gitlab-com/gl-security @gitlab-com/egroup @gitlab-com/content-sites
 /content/handbook/support/workflows/zendesk-instances.md @gitlab-com/support/managers @gitlab-com/support/support-ops @gitlab-com/egroup @gitlab-com/content-sites
 
@@ -614,9 +615,9 @@
 /content/handbook/product/ux/technical-writing/ @susantacker @dianalogan @kpaizee @david
 
 ^[total-rewards]
-/content/handbook/total-rewards/ @michellenelson @mwilkins @azurmuhle @Rkole
-/content/handbook/total-rewards/benefits/ @michellenelson @azurmuhle @Rkole
-/content/handbook/total-rewards/compensation/ @michellenelson @mwilkins
+/content/handbook/total-rewards/ @wendybarnes @mwilkins @azurmuhle @Rkole
+/content/handbook/total-rewards/benefits/ @wendybarnes @azurmuhle @Rkole
+/content/handbook/total-rewards/compensation/ @wendybarnes @mwilkins
 
 ^[working-groups]
 /content/handbook/company/working-groups/ @gitlab-com/egroup

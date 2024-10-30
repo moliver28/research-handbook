@@ -91,7 +91,7 @@ description: "The GitLab Logging Working Group will have multiple business purpo
 - Delivery
   - As an Infrastructure Security Engineer, I need our logs to be scalable, consistent and reliable (no broken timestamps, no loss of data)
 - Retention
-  - As an Infrastructure Security Engineer, I need our logs to comply with [Retention & Disposal Requirements](/handbook/security/records-retention-deletion.html#retention--disposal-requirements-procedure), compliance with internal policies, standards, and regulatory requirements
+  - As an Infrastructure Security Engineer, I need our logs to comply with [Retention & Disposal Requirements](/handbook/security/records-retention-deletion/#retention--disposal-requirements-procedure), compliance with internal policies, standards, and regulatory requirements
 - Monitoring and Alerting
   - As an Infrastructure Security Engineer, I need to be able to easily analyze logs and threat findings for one or more infrastructure resources
   - As an Infrastructure Security Engineer, I need to be able to create alerts on rules and anomalies from my logs

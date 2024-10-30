@@ -1028,7 +1028,7 @@ This is all orchestrated in the Data Pump [Airflow DAG](https://airflow.gitlabda
 
 ### Adding a Data Pump
 
-**Step 1:** Create a data model [using dbt](/handbook/enterprise-data/platform/dbt-guide/#using-dbt) in `/marts/pumps` (or `/marts/pumps_sensitive` if the model contains [RED or ORANGE Data](/handbook/security/data-classification-standard.html#data-classification-levels)), following our [SQL](/handbook/enterprise-data/platform/sql-style-guide/) and [dbt](/handbook/enterprise-data/platform/dbt-guide/#style-and-usage-guide) style and documentation standards. Create an MR using dbt model changes template. Once this is merged and appears in Snowflake in `PROD.PUMPS` or `PROD.PUMPS_SENSITIVE` you are ready for steps two and three.
+**Step 1:** Create a data model [using dbt](/handbook/enterprise-data/platform/dbt-guide/#using-dbt) in `/marts/pumps` (or `/marts/pumps_sensitive` if the model contains [RED or ORANGE Data](/handbook/security/data-classification-standard/#data-classification-levels)), following our [SQL](/handbook/enterprise-data/platform/sql-style-guide/) and [dbt](/handbook/enterprise-data/platform/dbt-guide/#style-and-usage-guide) style and documentation standards. Create an MR using dbt model changes template. Once this is merged and appears in Snowflake in `PROD.PUMPS` or `PROD.PUMPS_SENSITIVE` you are ready for steps two and three.
 
 **Step 2:** Add Model to [`pumps.yml`](https://gitlab.com/gitlab-data/analytics/-/blob/master/pump/pumps.yml) using the 'Pump Changes' MR template with the following attributes:
 
@@ -1152,7 +1152,7 @@ A new user in Stitch should by default be added to the `General` role. This role
 ## Google Data Studio
 
 Much like Google Drive all GitLab team members have access to Google's [Data Studio](https://datastudio.google.com/) which can be used to build dashboards with data from Google Sheets or other Google data sources. Hence there is no access request needed to get access provisioned to Google Data Studio.
-Google Data Studio is especially popular with Marketing with their use of Google Analytics. Though this resides outside of the platform described above, any data managed within Google's Data Studio must adhere to the same [Data Categorization and Management Policies](/handbook/security/data-classification-standard.html) as we do in the rest of our platform.
+Google Data Studio is especially popular with Marketing with their use of Google Analytics. Though this resides outside of the platform described above, any data managed within Google's Data Studio must adhere to the same [Data Categorization and Management Policies](/handbook/security/data-classification-standard/) as we do in the rest of our platform.
 
 There are 3 types of objects available in Google Data Studio:
 
@@ -1165,7 +1165,7 @@ There are 3 types of objects available in Google Data Studio:
 
 The sharing and access process in Data Studio is comparable to sharing in Google Drive / Google Docs. Google Studio Objects can be shared with individuals in our GitLab organization account or with the Organization as a whole. There are no group or role level permissions available. Given the decentralized quality of managing dashboards and data sources in Data studio it is advised that business critical data and reporting be eventually migrated to Snowflake and Tableau. This is made easy with the use of [sheetload](https://internal.gitlab.com/handbook/enterprise-data/platform/pipelines/#sheetload) or FiveTran, which has a BigQuery connector.
 
-A GitLab Team Member that creates any artifacts in Google Studio owns the owner permissions of that particular object. With the ownership the GitLab Team Member holds responsibility to keep data [SAFE](/handbook/legal/safe-framework/) within GitLab and outside the organization. Google Data Studio currently doesn't provide an admin interface that can take over the ownership. Upon off-boarding any ownership of existing objects should be carried over to ensure business continuity by the respective object owner. Note that [Red Data](/handbook/security/data-classification-standard.html#red) should never be stored or transmitted within Google Data Studio.
+A GitLab Team Member that creates any artifacts in Google Studio owns the owner permissions of that particular object. With the ownership the GitLab Team Member holds responsibility to keep data [SAFE](/handbook/legal/safe-framework/) within GitLab and outside the organization. Google Data Studio currently doesn't provide an admin interface that can take over the ownership. Upon off-boarding any ownership of existing objects should be carried over to ensure business continuity by the respective object owner. Note that [Red Data](/handbook/security/data-classification-standard/#red) should never be stored or transmitted within Google Data Studio.
 
 ## Sales Analytics Notebooks
 

@@ -15,6 +15,12 @@ description: "GitLab Data Team Workflow"
 - [Data Team Onboarding](https://gitlab.com/gitlab-data/analytics/-/blob/master/.gitlab/issue_templates/Team%3A%20Data%20Onboarding.md)
 - [Data Team Programs](/handbook/enterprise-data/programs/#data-programs)
 
+## Practical guide to contributing to the Data Team Projects
+
+Looking to get hands-on with data at GitLab? Check out our [Practical Guide](/handbook/enterprise-data/practical-guide/web-ide/) designed for all team members.
+
+This guide complements our existing resources, but with a more practical focus on the step-by-step process of contributing to the Data Team’s projects.
+
 ## How We Work
 
 We're happy to help you achieve your goals with Data. As a central shared service with finite time and capacity and with a responsibility to operate and develop the company's central Enterprise Data, the Data Team must focus its time and energy on initiatives that will yield the greatest positive impact to the [overall global organization](/handbook/values/#iterate-toward-global-maximum) towards [improving customer results](/handbook/values/#results).
@@ -125,7 +131,7 @@ Incidents are times when a problem is discovered and some immediate action is re
 - Open an [Incident issue](https://gitlab.com/gitlab-data/analytics/-/issues/new?issuable_template=incident&issue[issue_type]=incident) using the "Incident Report" template
 - Detail the relevant information with appropriate timestamps
 - Tag and assign people on the Data Team and any other teams that need to be informed
-- Review the Security Team's documentation on [Incident Response](/handbook/security/security-operations/sirt/sec-incident-response.html) and take any necessary action
+- Review the Security Team's documentation on [Incident Response](/handbook/security/security-operations/sirt/sec-incident-response/) and take any necessary action
 
 Data Team Incidents can be reviewed in [Incident Overview page](https://gitlab.com/gitlab-data/analytics/-/incidents) within the main project.
 
@@ -169,7 +175,7 @@ Think of each of these groups of labels as ways of bucketing the work done.
 
 All issues should get the following classes of labels assigned to them:
 
-- **Team:** The Data Team that will perform the work ([Fusion Team](/handbook/enterprise-data/#data-fusion-teams) or [Data Platform Team](/handbook/enterprise-data/#the-data-platform-team))
+- **Team:** The Data Team that will perform the work (i.e. Data Platform, Analytics Engineering, Data Science, BI, Data Governance)
 - **Champion:** The team who has requested the work (may be a functional partner team, or the Data Team itself)
 - **Workflow:** The status of the work
 - **Priority:** Whether the work is P1 (Operational), P2 (OKR), or P3 (Other)
@@ -178,7 +184,8 @@ Optional labels that are useful to communicate state or other priority:
 
 - **What:**
   - Data: Data being touched (Salesforce, Zuora, Zendesk, GitLab.com, etc.)
-  - Tool: (Sisense, dbt, Stitch, Airflow, etc.)
+  - Tool: (Tableau, dbt, Stitch, Airflow, etc.)
+  - Pod: [Data team pod](/handbook/enterprise-data/organization/#data-team-organization) that is scheduling the work
 - **Business Logic Change**: This label is applied for any business logic changes such as adding new dimensions, facts, marts, changing joins, adding new calculated fields.
 - **Opportunity Canvas**: This label is auto-applied on the Opportunity Canvas template, but can also be applied to work that has converted into a large-scale project. This label will be used to identify topics for discussion and prioritization at the [monthly Data Leadership forum](/handbook/enterprise-data/how-we-work/#prioritization).
 

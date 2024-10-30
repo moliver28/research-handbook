@@ -467,7 +467,7 @@ An engineer might be assigned as a DRI to look into this.
 
 The DRI is neither expected to determine a root cause nor propose a solution on their own.
 
-The DRI should instead reach out to [the Scalability:Projections team](/handbook/engineering/infrastructure/team/scalability/projections.html) for support.
+The DRI should instead reach out to [the Scalability:Projections team](/handbook/engineering/infrastructure/team/scalability/projections/) for support.
 
 ## Async Issue Updates
 

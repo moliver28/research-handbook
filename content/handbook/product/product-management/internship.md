@@ -22,7 +22,7 @@ Another option is using the table below that will help match mentors and interns
 
 ## Coffee Chat with PM internship Alumni
 
-  Feel free to schedule a coffee chat with any of the [PM internship Alumni](/handbook/product/internship/index.html#alumni). You can review the list of PM internship below. These chats can be helpful when deciding whether to apply to participate or if you're unable to participate but want to hear about the experience and what alumni have learned during their internship.
+  Feel free to schedule a coffee chat with any of the [PM internship Alumni](/handbook/product/internship/#alumni). You can review the list of PM internship below. These chats can be helpful when deciding whether to apply to participate or if you're unable to participate but want to hear about the experience and what alumni have learned during their internship.
 
 ## Planning the internship
 

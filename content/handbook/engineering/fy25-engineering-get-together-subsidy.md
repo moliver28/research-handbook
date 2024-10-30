@@ -18,7 +18,7 @@ After looking at different possibilities based on budget we were able to provide
 - Allowable reimbursable expenses related to travel, food, co-working spaces with receipts submitted through Navan up to the specific per person budget. **Instructions on how to properly code your expense within Navan can be found [below](#how-to-properly-code-your-expense-within-navan)**
 - If team members would like to expense anything outside of those areas they should outline in the issues and allow finance review to ensure that expense would be within policy prior to approval
 - Purchase order (PO)/virtual card for any expenses that will be centrally purchased for an event by one person. Ask for help in the issue on how to get that granted
-- This is for the remainder of FY25 and we will revisit in FY26
+- This subsidy can be used once per team member for the remainder of FY25 and we will revisit in FY26
 
 ### Eligibility
 
@@ -38,3 +38,7 @@ Engineering only, all team members regardless of their position/level.
    ![Set Classification and Description](/images/engineering/classification_description.png "Set Classification and Description")
 
 After the Expense has been submitted it will be routed for approvals and reviewed by our accounts payable team.  
+
+### How to notify your team members you'll be at a get-together
+
+Please follow the guidance in the [Workday Time Off Absence Module Information Guide](https://docs.google.com/document/d/17cwh97hPRKbmeCMpspxy_LwuTKXbbgFiom39SaJPW1c) under the section `What happened to the other time-off labels like Conference, Customer Visit, Volunteering, etc?`

@@ -122,21 +122,29 @@ It's also the reason why we're using raw random bytes instead of encoding them
 in text. Users do not need to look at the random bytes and we encode the
 eventual token in base64 anyway.
 
-Here's an example of a token having maximum ids, showing the maximum length of
-a token:
+### Maximum token length
 
-`glpat-YzozdzVlMTEyNjRzZ3NmCm86M3c1ZTExMjY0c2dzZgp1OjN3NWUxMTI2NHNnc2YKcjoryxlMTQzr4jrHd3j4gOoL`
-encodes the following payload:
+Here's an example of a token having maximum ids for all possible routable parts,
+prefixed with the longest prefix (20 characters) showing the maximum length of a token (151 characters):
+
+`++++++++++++++++++++bzozdzVlMTEyNjRzZ3NmCmc6M3c1ZTExMjY0c2dzZgpwOjN3NWUxMTI2NHNnc2YKdTozdzVlMTEyNjRzZ3NmCmM6M3c1ZTExMjY0c2dzZgpyOivLGUxNDOviOsd3ePiA6gs`
+
+Here is its encoded payload:
 
 ```text
-c:3w5e11264sgsf
 o:3w5e11264sgsf
+g:3w5e11264sgsf
+p:3w5e11264sgsf
 u:3w5e11264sgsf
+c:3w5e11264sgsf
 r:+\xCB\x19LM\f\xEB\xE2:\xC7wx\xF8\x80\xEA\v
 ```
 
 Note that `3w5e11264sgsf` is `(2**64-1).to_s(36)` which is the largest number
 for a bigint. `+\xCB\x19LM\f\xEB\xE2:\xC7wx\xF8\x80\xEA\v` is 16 random bytes.
+
+In practice, it's unlikely that all routable parts would be set, but this can be useful to know that
+maximum token length (e.g. for secret detection scripts).
 
 ### Meaning of fields
 
@@ -246,24 +254,24 @@ introduce a stage of transforming information: `transform`.
     "match": [
       {
         "type": "header",
-        "key": "private-token",
-        "value": "^glpat-(?<payload>.*)$"
+        "name": "private-token",
+        "regex_value": "^glpat-(?<payload>.*)$"
       }
     ],
     "transform": [
       {
         "type": "base64-line-delimited",
-        "key": "decoded",
-        "value": "{payload}"
+        "input": "${payload}",
+        "output": "decoded",
       }
     ],
     "action": "classify",
     "classify": {
       "type": "ROUTABLE_TOKEN",
       "routable_token": {
-        "cell_id": "{decoded.c}",
-        "organization_id": "{decoded.o}",
-        "user_id": "{decoded.u}"
+        "cell_id": "${decoded.c}",
+        "organization_id": "${decoded.o}",
+        "user_id": "${decoded.u}"
       }
     }
   }
@@ -290,24 +298,24 @@ queried by `ROUTABLE_TOKEN`.
     "match": [
       {
         "type": "header",
-        "key": "CI_JOB_JWT",
-        "value": "^(?<headers>\w+)\.(?<payload>\w+)\.(?<signature>\w+)$"
+        "name": "CI_JOB_JWT",
+        "regex_value": "^(?<headers>\\w+)\\.(?<payload>\\w+)\\.(?<signature>\\w+)$"
       }
     ],
     "transform": [
       {
         "type": "base64-json",
-        "key": "decoded",
-        "value": "{payload}"
+        "input": "${payload}",
+        "output": "decoded"
       }
     ],
     "action": "classify",
     "classify": {
       "type": "ROUTABLE_TOKEN",
       "routable_token": {
-        "cell_id": "{decoded.cell_id}",
-        "organization_id": "{decoded.organization_id}",
-        "user_id": "{decoded.user_id}"
+        "cell_id": "${decoded.cell_id}",
+        "organization_id": "${decoded.organization_id}",
+        "user_id": "${decoded.user_id}"
       }
     }
   }
@@ -327,29 +335,29 @@ on CPU compute cost:
     "match": [
       {
         "type": "header",
-        "key": "CI_JOB_JWT",
-        "value": "^(?<headers>\w+)\.(?<payload>\w+)\.(?<signature>\w+)$"
+        "name": "CI_JOB_JWT",
+        "regex_value": "^(?<headers>\\w+)\\.(?<payload>\\w+)\\.(?<signature>\\w+)$"
       }
     ],
     "transform": [
       {
         "type": "jwt-signature",
-        "key": "env.GITLAB_CI_JWT_PUBLIC_KEY",
-        "value": "{headers}.{payload}"
+        "input": "${headers}.${payload}",
+        "output": "env.GITLAB_CI_JWT_PUBLIC_KEY"
       },
       {
         "type": "base64-json",
-        "key": "decoded",
-        "value": "{payload}"
+        "input": "${payload}",
+        "output": "decoded"
       },
     ],
     "action": "classify",
     "classify": {
       "type": "ROUTABLE_TOKEN",
       "routable_token": {
-        "cell_id": "{decoded.cell_id}",
-        "organization_id": "{decoded.organization_id}",
-        "user_id": "{decoded.user_id}"
+        "cell_id": "${decoded.cell_id}",
+        "organization_id": "${decoded.organization_id}",
+        "user_id": "${decoded.user_id}"
       }
     }
   }

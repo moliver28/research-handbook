@@ -165,7 +165,7 @@ This page outlines the process of [DIB Roundtables](dib-roundtables.md). These c
 
 ### #IamRemarkable Workshop
 
-[#IamRemarkable](https://iamremarkable.withgoogle.com/) is a workshop created by Google. The initiative aims to empower women and other underrepresented groups to celebrate their achievements in the workplace and beyond, and to challenge perceptions around self-promotion.
+[#IamRemarkable](https://www.rmrkblty.org/iamremarkable) is a workshop created by Google. The initiative aims to empower women and other underrepresented groups to celebrate their achievements in the workplace and beyond, and to challenge perceptions around self-promotion.
 
 #### Logistics
 
@@ -183,7 +183,7 @@ Currently, we have three GitLab team members who are certified to facilitate the
 1. Terri Chu
 1. Gosia Ksionek
 
-In order to more efficiently scale this initiative at GitLab, we would *love* to have more facilitators join us! Anyone can [register to become a facilitator](https://iamremarkable.withgoogle.com/about-facilitators). As soon as you have been certified, feel free to add your name to the list of facilitators above.
+In order to more efficiently scale this initiative at GitLab, we would *love* to have more facilitators join us! Anyone can [register to become a facilitator](https://www.rmrkblty.org/iamremarkableabout-facilitators). As soon as you have been certified, feel free to add your name to the list of facilitators above.
 
 ### Stay Interviews or Team Member Experience Interviews
 
@@ -258,7 +258,7 @@ If you are a team member on a GitLab Inc or Federal contract and a disabled vete
 - We have a variety of trainings on [GitLab University](https://university.gitlab.com/learn/dashboard) including
   - DIB @ GitLab
   - Neurodiversity in the Workplace
-  - Digital Accessibility 
+  - Digital Accessibility
   - With many others to increase your knowledge on DIB Subjects
 - [Live Inclusion training](https://www.youtube.com/watch?v=gsQ2OsmgqVM&feature=youtu.be)
 - [Live Ally training](https://www.youtube.com/watch?v=wwZeFjDc4zE&feature=youtu.be)

@@ -102,7 +102,7 @@ The [Next 1-3](https://gitlab.com/groups/gitlab-org/-/boards/7472817?milestone_t
 
 | Board       | Filters           | Columns            |
 |-------------|-------------------|--------------------|
-| Planning Board | Milestone, `~group::custom models`, `~planning priority` | `~type::bug`, `~type::maintenance`, `~type::feature` |
+| Planning Board | Milestone, `~group::custom models` | `~type::bug`, `~type::maintenance`, `~type::feature` |
 | Build Board    | Milestone, `~group::custom models`, `~Deliverable` | `~workflow::ready for development`, `~workflow::in dev`, `~workflow::in review`, `~workflow::awaiting security release`, `~workflow::blocked` |
 | Next 1-3 Milestones | `%Next 1-3 Milestones` | `~workflow::problem validation`, `~workflow::problem validation`, `~workflow::design`, `~workflow::solution validation`, `~workflow::planning breakdown`, `~workflow::ready for development`     |
 | Next 4-6 Milestones | `%Next 4-6 Milestones` | Same as `Next 1-3 Milestones`     |

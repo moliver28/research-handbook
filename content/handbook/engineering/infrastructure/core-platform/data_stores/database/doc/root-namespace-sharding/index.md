@@ -167,9 +167,9 @@ For "by user" access patterns, we may be able to use this information to first f
 
 ### Technical implementation of database sharding
 
-GitLab is built on PostgreSQL which does not support native sharding (however, it's on the community roadmap). We explored [using CitusDB](/handbook/engineering/infrastructure/core-platform/data_stores/database/doc/citus.html) instead, which is not an option for us.
+GitLab is built on PostgreSQL which does not support native sharding (however, it's on the community roadmap). We explored [using CitusDB](/handbook/engineering/infrastructure/core-platform/data_stores/database/doc/citus/) instead, which is not an option for us.
 
-We also explored using of PostgreSQL features such as [partitioning in combination with foreign-data wrappers](/handbook/engineering/infrastructure/core-platform/data_stores/database/doc/fdw-sharding.html) to implement a notion of a sharding database feature ourselves. While we identified a principal direction how this can be implemented, we are well aware of its complexities. This is not perceived as a "boring" solution and we [do not know of positive reports from other companies going down this road](https://gitlab.com/gitlab-org/database-team/team-tasks/-/issues/57). Also based on our own experience with using FDW for GitLab Geo, we deem this a very complicated approach.
+We also explored using of PostgreSQL features such as [partitioning in combination with foreign-data wrappers](/handbook/engineering/infrastructure/core-platform/data_stores/database/doc/fdw-sharding/) to implement a notion of a sharding database feature ourselves. While we identified a principal direction how this can be implemented, we are well aware of its complexities. This is not perceived as a "boring" solution and we [do not know of positive reports from other companies going down this road](https://gitlab.com/gitlab-org/database-team/team-tasks/-/issues/57). Also based on our own experience with using FDW for GitLab Geo, we deem this a very complicated approach.
 
 Identified complexities reside around the following topics:
 

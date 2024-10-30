@@ -286,7 +286,7 @@ There are no perfect or required ways to set up your Greenhouse notifications, b
 
 **[Emerging Talent](emerging-talent.md)**
 
-- [Associate Engineer Developmnet](/handbook/hiring/associate-engineer-development/)
+- [Associate Engineer Development](/handbook/hiring/associate-engineer-development/)
 
 ## Global Hiring Resources
 

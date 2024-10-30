@@ -8,7 +8,7 @@ If you're a GitLab team member and are looking to alert Reliability Engineering 
 {{% /alert %}}
 
 {{% alert color="warning" %}}
-If you're a GitLab team member looking for help with a security problem, please see the [Engaging the Security On-Call](/handbook/security/security-operations/sirt/engaging-security-on-call.html) section.
+If you're a GitLab team member looking for help with a security problem, please see the [Engaging the Security On-Call](/handbook/security/security-operations/sirt/engaging-security-on-call/) section.
 {{% /alert %}}
 
 ## The Production Environment
@@ -18,7 +18,7 @@ For a complete list of production services see the [service catalog](https://git
 
 ## How to Get Help
 
-See [how to get assistance](/handbook/engineering/infrastructure/team/reliability/#getting-assistance).
+See [how to get assistance](/handbook/engineering/infrastructure/team/).
 
 ## Why `infrastructure` and `production` queues?
 
@@ -127,13 +127,13 @@ Events are recorded separately for the staging and production environment.
 For some incidents, we may figure out that the usage patterns that led to the issues were abuse.  There is a process for how we define and handle abuse.
 
 1. The definition of abuse can be found on the [security abuse operations section of the handbook](/handbook/security/)
-1. In the event of an incident affecting GitLab.com availability, the SRE team may take actions immediately to keep the system available.  However, the team must also immediately involve our security abuse team.  A new [security on call rotation](/handbook/security/security-operations/sirt/engaging-security-on-call.html) has been established in PagerDuty - There is a Security Responder rotation which can be alerted along with a Security Manager rotation.
+1. In the event of an incident affecting GitLab.com availability, the SRE team may take actions immediately to keep the system available.  However, the team must also immediately involve our security abuse team.  A new [security on call rotation](/handbook/security/security-operations/sirt/engaging-security-on-call/) has been established in PagerDuty - There is a Security Responder rotation which can be alerted along with a Security Manager rotation.
 
 ## Backups
 
 ### Purpose
 
-This section is part of [controlled document](/handbook/security/controlled-document-procedure.html) covering our controls for backups.  It covers BCD-11 in [the controls](/handbook/security/security-assurance/security-compliance/guidance/business-continuity-and-disaster-recovery.html).
+This section is part of [controlled document](/handbook/security/controlled-document-procedure/) covering our controls for backups.  It covers BCD-11 in [the controls](/handbook/security/security-assurance/security-compliance/guidance/business-continuity-and-disaster-recovery/).
 
 ### Scope
 

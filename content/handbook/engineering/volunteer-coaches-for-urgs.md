@@ -14,7 +14,7 @@ Team members at GitLab interested in helping out through the program should reac
 
 ## Individuals Receiving Coaching
 
-We're open to any skill level but the individuals receiving coaching would typically be preparing for something like our [GitLab Engineering Internship Program](/handbook/engineering/internships/), which might subsequently turn into full-time employment. If you are someone interested in entering this program to receive coaching, please contact the vendors below and follow their admission process. Feel free to communicate that you would like to work with a coach from GitLab if it can be arranged.
+We're open to any skill level but the individuals receiving coaching would typically be preparing for something like our [GitLab Engineering Internship Program](/handbook/hiring/emerging-talent/), which might subsequently turn into full-time employment. If you are someone interested in entering this program to receive coaching, please contact the vendors below and follow their admission process. Feel free to communicate that you would like to work with a coach from GitLab if it can be arranged.
 
 ```mermaid
 graph LR

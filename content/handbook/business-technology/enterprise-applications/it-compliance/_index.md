@@ -48,7 +48,7 @@ Our [IT Compliance](https://gitlab.com/groups/gitlab-com/-/boards/1802558?label_
 
 #### IT General Controls
 
-[IT General Controls](/handbook/business-technology/it-compliance/ITGC.html)
+[IT General Controls](/handbook/business-technology/it-compliance/ITGC/)
 
 **Most Common:**
 
@@ -73,4 +73,4 @@ IT Compliance works closely with our Security Compliance team to ensure that Git
 
 #### Business Technology Change Management
 
-IT Compliance works closely with our internal business partners for all Enterprise Application [Change Management](/handbook/business-technology/change-management/). More information can be found in our [Business Technology Change Management](https://internal.gitlab.com/handbook/it/it-change-management/) handbook page.
+IT Compliance works closely with our internal business partners for all Enterprise Application [Change Management](https://internal.gitlab.com/handbook/IT/it-change-management/). More information can be found in our [Business Technology Change Management](https://internal.gitlab.com/handbook/it/it-change-management/) handbook page.

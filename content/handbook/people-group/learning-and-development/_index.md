@@ -93,7 +93,7 @@ The Learning & Development team has a number of resources to help team members l
 
 Multiple teams across the company contribute to learning and development of our team members. Below is a list of some teams we partner with and how we collaborate.
 
-1. Education Services: Share sustomer & product training with team members on Level Up
+1. Education Services: Share customer & product training with team members on Level Up
 1. Talent Brand: Telling career growth stories
 1. People Operations: Measuring imapct of learning and development on team member engagement
 1. Select Department Subject Matter Experts: Legal, Compliance, and other specific courses

@@ -23,7 +23,7 @@ Once an experiment has matured sufficiently and the SEG is confident the feature
 
 To move an experiment to Beta, the following items should be in place:
 
-1. Any monitoring and alerting to ensure that any availability issues are captured. Use [logging](https://docs.gitlab.com/ee/development/logging.html) or [event tracking](/handbook/engineering/development/analytics/analytics-instrumentation/event_system_draft.html) and build dashboards from the data received.
+1. Any monitoring and alerting to ensure that any availability issues are captured. Use [logging](https://docs.gitlab.com/ee/development/logging.html) or [event tracking](/handbook/engineering/development/analytics/analytics-instrumentation/event_system_draft/) and build dashboards from the data received.
 2. [Runbook entries](https://gitlab.com/gitlab-com/runbooks) are added if necessary in order to support SRE in the event of availability issues.
 3. All data for this feature should be included in the [backup and restore processes](https://docs.gitlab.com/ee/administration/backup_restore/).
 4. Any feature flags should be on by default, or better yet removed completely.

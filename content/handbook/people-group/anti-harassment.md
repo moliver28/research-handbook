@@ -167,7 +167,7 @@ Serious cases, including any criminal offence.
 
 ## Training & Guidance
 
-Training and guidance on understanding, preventing, and dealing with discrimination and sexual harassment will be provided to both managers and individual team members. The courses and the related enrollment logic can be found [here](https://handbook/legal/legalops/navex/#courses). This training will be provided on a regular cadence, consistent with local requirements, and/or when new legal requirements are introduced. 
+Training and guidance on understanding, preventing, and dealing with discrimination and sexual harassment will be provided to both managers and individual team members. The courses and the related enrollment logic can be found [here](/handbook/legal/legalops/navex/#courses). This training will be provided on a regular cadence, consistent with local requirements, and/or when new legal requirements are introduced.
 
 ## Country & US State-Specific Requirements
 

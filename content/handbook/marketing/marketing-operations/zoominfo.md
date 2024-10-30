@@ -184,7 +184,7 @@ Enrich is mostly set to enrich the ZoomInfo fields. The ZoomInfo ([ZI]) fields, 
 This may be related to the Zoominfo Google Chrome extension. To troubleshoot the issue that you are encountering, we recommend following the steps outlined below:
 
 1. Remove & reinstall the extension:
-   - [Click here to find the extension in the Chrome store](https://app.forethought.ai/redirect/v2?destination=https%3A%2F%2Fchrome.google.com%2Fwebstore%2Fdetail%2Fzoominfo-reachout-b2b-con%2Ffofjcndophjadilglgimelemjkjblgpf%3Fhl%3Den-US&tracking_token=DxzK1zOdmUHVEiYQxvkjLVG1TtSLBShpOeRFe-cFY8RDNz3tY-gBNtMtkSSy5G-KIAEXTgLO5Esba7yh6-TKslzG2ko_j_q2_5qmxntCv0jIW0iIyb40qIufYGLdW43n8o2-bojTMbTmmrpa8CQe5E4BnVTNwych5SPOC5FC1oGI_wz5kzi6z-h8VLSZqHzs-gTi_MAMGg2R8QfebtRQZpRgImLVM2Fm4LoI1cHnvXkxQ16MJ5YBu5Musbp5_3GlYOa3FbvMeWHf5D_SBzdKag%3D%3D)
+   - [Click here to find the extension in the Chrome store](https://chromewebstore.google.com/detail/zoominfo-chrome-extension/fofjcndophjadilglgimelemjkjblgpf?hl=en-US)
 
 1. Ensure your Chrome browser is up to date:
 

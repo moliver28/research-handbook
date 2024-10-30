@@ -115,7 +115,7 @@ Talent Assessment Process guidelines specific for the Expansion Development Depa
 
 ### How we hire contractors
 
-In [this handbook page](/handbook/engineering/development/processes/hiring-contractors.html) we document the process that the development departments follow, including planning budget, candidate sourcing, interview process, contracting and onboarding.
+In [this handbook page](/handbook/engineering/development/processes/hiring-contractors/) we document the process that the development departments follow, including planning budget, candidate sourcing, interview process, contracting and onboarding.
 
 ## How We Work
 
@@ -150,11 +150,11 @@ At times when cross-functional, or cross-departmental architectural collaboratio
 
 #### Follow the Sun Coverage
 
-When cross-functional collaboration is required across global regions and time zones, it is recommended to adopt the [Follow the Sun Coverage](/handbook/engineering/development/processes/follow-the-sun-coverage.html) approach to ensure seamless global collaboration.
+When cross-functional collaboration is required across global regions and time zones, it is recommended to adopt the [Follow the Sun Coverage](/handbook/engineering/development/processes/follow-the-sun-coverage/) approach to ensure seamless global collaboration.
 
 #### Decisions requiring approvals
 
-At GitLab we value [freedom and responsibility over rigidity](/handbook/values/#freedom-and-responsibility-over-rigidity). However, there are some technical decisions that will require approval before moving forward. Those scenarios are outlined in our [required approvals](/handbook/engineering/development/required-approvals.html) section.
+At GitLab we value [freedom and responsibility over rigidity](/handbook/values/#freedom-and-responsibility-over-rigidity). However, there are some technical decisions that will require approval before moving forward. Those scenarios are outlined in our [required approvals](/handbook/engineering/development/required-approvals/) section.
 
 #### Security Vulnerability Handling
 
@@ -307,7 +307,7 @@ The shared services and components below are extracted from the GitLab [product 
 | GitLab Pages |  | Centralized with Specific Team | @vshushlin | [Knowledge](/handbook/engineering/development/dev/plan/knowledge/) |  |
 | GitLab Rails |  | Decentralized |  |  | DRI for each controller is determined by the feature category specified in the class. [app/controllers](https://gitlab.com/gitlab-org/gitlab/-/tree/master/app/controllers) and [ee/app/controllers](https://gitlab.com/gitlab-org/gitlab/-/tree/master/ee/app/controllers) |
 | GitLab Shell |  | Centralized with Specific Team | @sean_carroll | [Create:Source Code](/handbook/engineering/development/dev/create/source-code-be/) | [Reference](/handbook/product/categories/#source-code-group-1) |
-| HAproxy |  | Centralized with Specific Team | @amoter | [Infrastructure](/handbook/engineering/infrastructure/team/reliability/foundations.html) |  |
+| HAproxy |  | Centralized with Specific Team | @amoter | [Infrastructure](/handbook/engineering/infrastructure/team/reliability/foundations/) |  |
 | Jaeger |  | Centralized with Specific Team | @dawsmith | Infrastructure:Observability | Observability team made the [initial implementation/deployment](https://gitlab.com/groups/gitlab-com/gl-infra/-/epics/210). |
 | LFS |  | Centralized with Specific Team | @sean_carroll | [Create:Source Code](/handbook/engineering/development/dev/create/source-code-be/) |  |
 | Logrotate |  | Centralized with Specific Team | @twk3 | [Distribution](/handbook/engineering/infrastructure/core-platform/systems/distribution/) | Distribution team is responsible for packaging and upgrading versions. Functional issues can be directed to the vendor. |
@@ -378,7 +378,7 @@ When Development collaborates with Support it provides invaluable insight into h
 - Always write answers in a way that they can be "cut-and-pasted" and sent to a customer.
 - Reference documentation in your responses and make updates to GitLab documentation when needed.
 - Refer to existing issues and epics to reiterate our transparency value and to invite participation from the customer.
-- If you are unclear about the support-development collaboration process or workflow then please refer to the handbook page [how to use gitlab.com to request help from the GitLab development team](/handbook/support/workflows/how-to-get-help.html#how-to-use-gitlabcom-to-formally-request-help-from-the-gitlab-development-team)
+- If you are unclear about the support-development collaboration process or workflow then please refer to the handbook page [how to use gitlab.com to request help from the GitLab development team](/handbook/support/workflows/how-to-get-help/#how-to-use-gitlabcom-to-formally-request-help-from-the-gitlab-development-team)
 
 ### Incident Management
 

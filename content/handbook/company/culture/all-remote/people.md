@@ -109,7 +109,7 @@ It's not uncommon for individuals to feel a strong connection to the region wher
 
 [Research from the University of New Hampshire](https://carsey.unh.edu/publication/rural-depopulation) has found that "35% of rural counties in the United States are experiencing protracted and significant population loss."
 
-Speaking to shrinking towns across Europe, [a 2016 report from the European Parliamentary Research Service](http://www.europarl.europa.eu/thinktank/en/document.html?reference=EPRS_BRI(2016)586632) notes that "younger members of society prefer to migrate to more economically vibrant regions and cities in search of better job prospects as, in most of these territories, professional opportunities remain limited and confined to specific fields (e.g. agriculture and tourism)."
+Speaking to shrinking towns across Europe, [a 2016 report from the European Parliamentary Research Service](https://www.europarl.europa.eu/thinktank/en/document/EPRS_BRI(2016)586632) notes that "younger members of society prefer to migrate to more economically vibrant regions and cities in search of better job prospects as, in most of these territories, professional opportunities remain limited and confined to specific fields (e.g. agriculture and tourism)."
 
 All-remote has the power to pause, and perhaps even reverse, these trends of depopulation, by decoupling location and career opportunity.
 
@@ -129,7 +129,7 @@ All-remote is an ideal anecdote. Even as relocations occur, an all-remote team m
 
 At GitLab, several team members are US military spouses.
 
-Emilie S., a data engineer, provides tips for those embracing all-remote roles in a Doist blog post entitled "[6 People Who Prove You Don't Have to Sacrifice Your Career to Work Remotely](https://doist.com/blog/remote-career-advice)."
+Emilie S., a data engineer, provides tips for those embracing all-remote roles in a Doist blog post entitled "[6 People Who Prove You Don't Have to Sacrifice Your Career to Work Remotely](https://blog.doist.com/remote-career-advice/)."
 
 > Getting promoted while working remotely really depends on how remote your company is. GitLab is a fully remote organization with over 700 folks around the world, so getting promoted wasn't difficult at all. In previous roles, I was the only person who worked remotely. In those cases, I felt very forgotten by my employer. - *[Emilie S., data engineer at GitLab](https://gitlab.com/emilie)*
 

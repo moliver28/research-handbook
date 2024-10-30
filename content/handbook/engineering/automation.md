@@ -15,7 +15,7 @@ Automations for the `gitlab-org` group and projects under it can be split into t
 * Automation via API within a project: a [project access token](https://docs.gitlab.com/ee/user/project/settings/project_access_tokens) is sufficient.
 * Automation via API within a group: a [group access token](https://docs.gitlab.com/ee/user/group/settings/group_access_tokens.html) is sufficient.
 
-These guidelines ensure consistency for Engineering automation using approved secure patterns aligned with [least privileged access principle](/handbook/security/access-management-policy.html#least-privilege-reviews-for-access-requests).
+These guidelines ensure consistency for Engineering automation using approved secure patterns aligned with [least privileged access principle](/handbook/security/access-management-policy/#least-privilege-reviews-for-access-requests).
 
 ### Merge request automation guidelines
 

@@ -8,7 +8,7 @@ This page displays information and useful links on creating great technical vide
 
 ### Equipment
 
-* [Yeti Microphone](https://www.logitechg.com/en-ca/products/microphones.html])
+* [Yeti Microphone](https://www.logitechg.com/en-us/products/microphones.html])
 
 ### Tools
 

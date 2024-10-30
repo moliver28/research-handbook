@@ -361,6 +361,6 @@ If you want to share an answer in a direct message you'll need to create a group
 - [Field Enablement Handbook Page](/handbook/sales/field-operations/field-enablement/)
 - [Field Accreditation Handbook Page](/handbook/sales/training/field-certification/)
 - [Sales Training](/handbook/sales/training/)
-- [Communities of Practice](/handbook/customer-success/initiatives/communities-of-practice.html)
+- [Communities of Practice](/handbook/customer-success/initiatives/communities-of-practice/)
 - [Learn at GitLab](https://about.gitlab.com/learn/)
 - [GitLab Releases](https://about.gitlab.com/releases/)
