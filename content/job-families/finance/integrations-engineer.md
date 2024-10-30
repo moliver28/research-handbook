@@ -74,7 +74,7 @@ Extends the Associate Integration Engineer responsibilities:
 
 ### Job Grade
 
-AssoSeniorciate Integration Engineer is a [grade 7](/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades) and reports to the IT Manager or Sr IT Manager or IT Director, Enterprise Architecture & Integration Engineering.
+Senior Integration Engineer is a [grade 7](/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades) and reports to the IT Manager or Sr IT Manager or IT Director, Enterprise Architecture & Integration Engineering.
 
 ### Responsibilities
 
