@@ -47,7 +47,7 @@ A typical workflow to edit the handbook:
     ![Web IDE overview, handbook page highlighted in the file tree](/images/handbook/about/editing-handbook/practical_handbook_edits_web_ide_vs_code_file_tree_edit_handbook_page.png)
 
 1. Edit the selected file, and try the Markdown preview. `Cmd+Shift+P` on macOS opens the Web IDE command palette to search for commands. For example, type `Markdown`, select `Markdown: Open Preview to the Side` and try the preview.
-    - Note that the [handbook markdown engine](https://handbook.gitlab.com/docs/markdown-guide/) supports more rendering features than the [Web IDE preview based on VS Code](https://code.visualstudio.com/docs/languages/markdown), and some items won't be rendered properly. Commit and create a [draft merge request](https://docs.gitlab.com/ee/user/project/merge_requests/drafts.html) to view the handbook [review apps](https://docs.gitlab.com/ee/ci/review_apps/) to preview the page, such as to verify embedded images.
+    - Note that the [handbook markdown engine](https://handbook.gitlab.com/docs/markdown-guide/) supports more rendering features than the [Web IDE preview based on VS Code](https://code.visualstudio.com/docs/languages/markdown), and some items won't be rendered properly. Commit and create a [draft merge request](https://docs.gitlab.com/ee/user/project/merge_requests/drafts.html) to view the handbook [review apps](#preview-changes-on-gitlab) to preview the page, such as to verify embedded images.
 
     ![Web IDE editor, Markdown preview](/images/handbook/about/editing-handbook/practical_handbook_edits_web_ide_vs_code_console_markdown.png)
 
@@ -133,20 +133,18 @@ Additional notes:
 
 1. We don't need [.gitkeep files](https://stackoverflow.com/questions/7229885/what-are-the-differences-between-gitignore-and-gitkeep) in our handbook, they make it harder to quickly open a file in editors. Don't add them, and delete them when you see them.
 
-## Team member merge requests being labeled as Community contributions
-
-If you recently created a merge request that was labeled as a Community contribution, you can fix this mislabeling issue going forward by updating the GitLab username in your personal entry in the team member directory to match the GitLab account you use for work.
-
-Use the [team page editing instructions](edit-team-page.md) to find your team page entry file, and update the `gitlab` attribute (typically found on line 10) to be an **exact match** for the GitLab.com username you use for work.
-
 ## Preview changes on GitLab
 
-To preview your changes:
+To preview your changes, deploy the review app:
 
-1. Wait for the pipeline on the merge request to complete.
-1. In the pipeline widget on the "Overview" tab of the MR, click on the "View app" button.
+1. Wait for the pipeline on the merge request (MR) to complete.
+1. Either on the "Pipelines" tab, or in the pipeline widget on the "Overview" tab of the MR, click on the circles that denote the different pipeline stages until you find the `Stage:deploy` and the `pages` job.
+1. Next to the `pages` job name, click on the "play" button.
+1. Once _two_ `pages` jobs complete, in the pipeline widget on the "Overview" tab of the MR, click on the "View app" button.
 1. You may need to navigate to your page by going to any page, then using the left navigation tree. Do not use the search for this.
    - If you prefer to edit the URL, note that the review app uses a `.html` ending, so if your page is `content/handbook/path/to/page.md`, the URL will be `review/app/public/handbook/path/to/path.html`.
+
+If you need the review app deployed after every change on a MR, you can add the `~"deploy-review-app-always"` label to always trigger the job, including on MR creation.
 
 ## Naming pages and folder structure
 
@@ -208,6 +206,12 @@ When you encounter content in a shortcode and want to edit it:
    - For example, look in `https://gitlab.com/gitlab-com/www-gitlab-com/-/tree/master/data/performance_indicators` for the `ux_department` file.
    - If there is no comment, you can post in `#handbook` to get help, and make a MR to add it.
 1. [Edit the file](#use-the-web-ide-to-edit-the-handbook), being careful to match the existing formatting.
+
+## Team member merge requests being labeled as Community contributions
+
+If you recently created a merge request that was labeled as a Community contribution, you can fix this mislabeling issue going forward by updating the GitLab username in your personal entry in the team member directory to match the GitLab account you use for work.
+
+Use the [team page editing instructions](edit-team-page.md) to find your team page entry file, and update the `gitlab` attribute (typically found on line 10) to be an **exact match** for the GitLab.com username you use for work.
 
 ## Troubleshooting
 
