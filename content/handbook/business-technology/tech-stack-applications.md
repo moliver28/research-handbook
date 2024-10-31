@@ -142,9 +142,9 @@ Are you experiencing issues with an application/system? Visit our [Tech Stack YA
 Many applications listed in the Tech Stack are in-scope for regulatory or other compliance activities. For more information please reach out to the DRIs listed below:
 
 - FedRAMP: Corey Oas (@corey-oas), Security Compliance
-- GitLab SaaS SOC2: Liz Coleman (@lcoleman), Security Compliance
+- GitLab SaaS SOC2: Corey Oas (@corey-oas), Security Compliance
 - GitLab Dedicated SOC2: Corey Oas (@corey-oas), Security Compliance
-- ISO 27001: Liz Coleman (@lcoleman), Security Compliance
+- ISO 27001: Corey Oas (@corey-oas), Security Compliance
 - SOX: Sean Brown (@sbrown10), Internal Audit
 
 ### Updating the Offboarding Templates
