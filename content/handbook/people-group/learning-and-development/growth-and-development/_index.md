@@ -148,16 +148,23 @@ For any meals, lodging, or travel - these should not be categorised using the `G
 
 ### Courses
 
- #### Academic Study
+#### Academic Study
 
- Please use the [Conference](https://gitlab.com/gitlab-com/people-group/learning-development/growth-and-development-requests/-/issues/new?issuable_template=g-and-d-conference)
- issue template to open requests of this type.
+Please use the [Academic Study](https://gitlab.com/gitlab-com/people-group/learning-development/growth-and-development-requests/-/issues/new?issuable_template=g-and-d-academic-study) issue template to open requests of this type.
 
 **Description:** For academic courses relevant to your GitLab career development goals, the G&D Fund can be used to cover tuition and enrollment. Additional fees related to books, travel, supplies, etc, are not covered. 
 
 The course must be from a credentialed college or university and must be relevant to your career development goals and development. The relevance of the classes taken for each semester will be subject to the approval of the manager. The grade must be equivalent to a "B".
 
 **Reimbursement Requirements:** A final grade report or transcript is required to receive reimbursement. If you are paying per module, you can reimburse after completion of each module using evidence of completion in your Navan claim.
+
+#### Professional Development/Certifications/Courses
+
+Please use the [Other G&D Types](https://gitlab.com/gitlab-com/people-group/learning-development/growth-and-development-requests/-/issues/new?issuable_template=g-and-d-other) issue template to open requests of this type.
+
+**Description:** Any certifications/licenses that you and your manager think will be relevant to your development. These may include shorter non-academic courses focusing on a specific job-related skill.
+
+**Eligibility for Reimbursement:** A final grade report or satisfactory certificate of completion will be required to receive reimbursement.
 
 #### Self-Service Learning Subscriptions
 
@@ -169,6 +176,8 @@ Please use the [Other G&D Types](https://gitlab.com/gitlab-com/people-group/lear
 
 #### Language Courses
 
+Please use the [Other G&D Types](https://gitlab.com/gitlab-com/people-group/learning-development/growth-and-development-requests/-/issues/new?issuable_template=g-and-d-other) issue template to open requests of this type.
+
 **Description:** We want to support our team members where English may not be their first language. Managers are encouraged to recommend this to team members whose performance may be improved by further developing their English language skills. [Business English for Non-Native Speakers](https://www.coursera.org/specializations/business-english-speakers) course and the [Improve your English Communication Skills Specialization](https://www.coursera.org/specializations/improve-english) are two good examples. 
 
 Other languages may be considered if their relevance to job performance is made clear. (E.g. you can’t expense Spanish classes if you don’t need to speak Spanish as part of your day to day work.)
@@ -177,23 +186,21 @@ Other languages may be considered if their relevance to job performance is made 
 
 #### Code Based Learning
 
+Please use the [Other G&D Types](https://gitlab.com/gitlab-com/people-group/learning-development/growth-and-development-requests/-/issues/new?issuable_template=g-and-d-other) issue template to open requests of this type.
+
 **Description:** GitLab will pay for courses related to learning how to code (for example Learning Rails on Codecademy), regardless of your department. If you are new to development, we encourage you to learn Git through GitLab, and feel free to ask any questions in the #git-help Slack channel.
 
 **Reimbursement Requirements:** A final grade report or satisfactory certificate of completion are required to receive reimbursements.
 
-### Your 4th Trimester Coaching
+### Coaching
 
-Description: Your 4th Trimester is a 90-day coaching program with Broad Perspective Consulting. The purpose of the program is to help parents (regardless of gender) be as prepared as possible to be a working parent through coaching and development. The cost of this program is $2,300 USD.
+Please note, using G&D for coaching is only available for managers and leaders grade 8+. Team members job grade 4-7 can receive external coaching from [Modern Health](handbook/total-rewards/benefits/modern-health/#how-can-modern-health-support-my-career-goals).
 
-For Your 4th Trimester applications, please notify Talent Development that you would like to participate in the program by sending an email to growth-development@gitlab.com.
-
-Eligibility for Reimbursement: Team members returning from Parental Leave. The provider will invoice GitLab directly.
-
-### Professional Coaching
+#### Coaching Right Now
 
 **Description:** Professional coaching is available for managers and leaders job grade 8+ to support development in their professional area of interest. Team members job grade 4-7 can receive external coaching from [Modern Health]({{< ref "modern-health" >}}) and internal coaching from our [internal resources]({{< ref "coaching" >}}). Team members are expected to know their confidentiality obligations and are responsible for keeping coaching conversations [SAFE](/handbook/legal/safe-framework/).
 
-[Coaching Right Now](https://docs.google.com/document/d/188H3iuIY9JwE4kmAeoLobNz-e6j-rKie/edit?usp=sharing&ouid=113211236094818760555&rtpof=true&sd=true) connects team members with GitLab-vetted coaches - [read their coaching bios here](https://drive.google.com/file/d/1_5q7aq4diWsXq0O9csQF40skZV4f_L_L/view?usp=drive_link). Team members can book 4, 6, or 8hrs of coaching. Availability is first come, first served. Pairing with a coach via Coaching Right Now saves time and energy looking for a coach that is aligned to GitLab values and way of working.
+We partner with [Coaching Right Now](https://docs.google.com/document/d/188H3iuIY9JwE4kmAeoLobNz-e6j-rKie/edit?usp=sharing&ouid=113211236094818760555&rtpof=true&sd=true) connects team members with GitLab-vetted coaches - [read their coaching bios here](https://drive.google.com/file/d/1_5q7aq4diWsXq0O9csQF40skZV4f_L_L/view?usp=drive_link). Team members can book 4, 6, or 8hrs of coaching. Availability is first come, first served. Pairing with a coach via Coaching Right Now saves time and energy looking for a coach that is aligned to GitLab values and way of working.
 
 > Hear what GitLab team members are saying about Coaching Right Now:
 
@@ -201,31 +208,48 @@ Eligibility for Reimbursement: Team members returning from Parental Leave. The p
 - `I can tangibly see how this (coaching) investment has made me at least 20% more effective in my role, delighted in my role, and a more human leader.`
 - `This was a great (coaching) program and I'm really happy I got to be a part of it. I have two of my managers who have signed up to work with coaches now as well.`
 
+The specifics of your coaching session will not be communicated to GitLab.
+
+
+Coaching Right Now will invoice GitLab directly for the costs, you do not need to pay, or apply for reimbursement for these engagements.
+
 Apply for a coach via Coaching Right Now by opening an issue using the [coaching template](https://gitlab.com/gitlab-com/people-group/learning-development/growth-and-development-requests/-/issues/new?issuable_template=g-and-d-coaching).
 
-*The specifics of your coaching sessions will not be communicated to GitLab.* While not required, we encourage you to share your experience, learnings, reflections, and discoveries with your manager for further support.
 
-**Eligibility for Reimbursement:** Managers or Individual Contributors job grade 8+. Coaching Right Now will invoice GitLab directly. If a team member is involved in a different, approved coaching engagement outside of CRN, then the standard G&D reimbursement workflow applies.
+**Reimbursement Requirements:** Remember only managers or Individual Contributors job grade 8+ are eligible. Coaching Right Now will invoice GitLab directly for your engagement.
 
-Coaching Right Now is our preferred and vetted coaching partner. If for some reason the coaches offered via Coaching Right Now do not fit your needs, please open an issue using the [Other G&D Types template](https://gitlab.com/gitlab-com/people-group/learning-development/growth-and-development-requests/-/issues/new?issuable_template=g-and-d-other). After approvals, team members will provide a paid invoice to GitLab as proof for reimbursement.
+#### Other Coaching Opportunities
 
-### Professional Development/Certifications/Licenses
+Coaching Right Now is our preferred and vetted coaching partner. If the coaches offered via Coaching Right Now do not fit your needs, please open an issue using the [Other G&D Types template](https://gitlab.com/gitlab-com/people-group/learning-development/growth-and-development-requests/-/issues/new?issuable_template=g-and-d-other). 
 
-**Description:** Any certifications/licenses that you and your manager think will be relevant to your development.
+**Reimbursement Requirements:** After approvals, team members will provide a paid invoice to GitLab as proof for reimbursement at the end of their coaching engagement.
 
-**Eligibility for Reimbursement:** Certifications and licenses related to your career development goals. A final grade report or satisfactory certificate of completion will be required to receive reimbursement.
 
 ### Professional Dues/Membership
 
+Please use the [Other G&D Types](https://gitlab.com/gitlab-com/people-group/learning-development/growth-and-development-requests/-/issues/new?issuable_template=g-and-d-other) issue template to open requests of this type.
+
 **Description:** Any professional development membership or dues that will be relevant to your growth and development.
 
-**Eligibility for Reimbursement:** Professional membership to an accredited organization that aligns with your role. Professional dues needed in order to continue members in an accredited organization. An invoice for the dues/membership is required. Since there's no specific date of completion for this type of opportunity, it can be reimbursed after it has been purchased.
+**Reimbursement Requirements:** Professional membership to an accredited organization that aligns with your role. Professional dues needed in order to continue members in an accredited organization. An invoice for the dues/membership is required. Since there's no specific date of completion for this type of opportunity, it can be reimbursed after it has been purchased.
 
-### Self-Service Learning (Skillserve, Coursera, LinkedIn Learning Others) {#self-service-learning}
+### Wellbeing
 
-**Description:** GitLab supports team members who wish to continue their growth within their professional career. The course must be related to your career development goal, Individual Growth Plan (IGP), and/or serves the [mission]({{< ref "mission" >}}) of GitLab as a company.
+For resources related to Wellbeing and Mental Wellness, please take a look at GitLab’s Employee Assistance Program, Modern Health. The Growth and Development Fund should not be used for things like therapy, counseling, mindfulness apps, etc.
 
-**Eligibility for Reimbursement:** A final grade report or satisfactory certificate of completion are required to receive reimbursement. If paying for an ongoing license, this will likely be inexpensive (under $1000 per annum), and can be reimbursed monthly.
+Please use the Your 4th Trimester  issue template to open requests of this type.
+
+#### Your 4th Trimester Coaching
+
+Please use the [Other G&D Types](https://gitlab.com/gitlab-com/people-group/learning-development/growth-and-development-requests/-/issues/new?issuable_template=g-and-d-other) issue template to open requests of this type and tag @jallen16 into your issue for processing.
+
+**Description:** Your 4th Trimester is a 90-day coaching program with Broad Perspective Consulting. The purpose of the program is to help parents (regardless of gender) be as prepared as possible to be a working parent through coaching and development. The cost of this program is $2,300 USD.
+
+For Your 4th Trimester applications, please notify Talent Development that you would like to participate in the program by sending an email to growth-development@gitlab.com.
+
+**Reimbursement Requirements:** Team members leaving for or returning from Parental Leave. The provider will invoice GitLab directly.
+
+#### Modern Health
 
 ## Bulk Applications
 
