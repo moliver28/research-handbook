@@ -99,6 +99,8 @@ flowchart LR
 
 ## 3. Proposal
 
+Each cell will have its own Elasticsearch cluster.
+
 ### Infrastructure and index maintenance
 
 All index maintenance tasks will be initially be completed using the [Advanced search migration framework](https://docs.gitlab.com/ee/development/search/advanced_search_migration_styleguide.html). Once the migration process is verified, all index maintenance migrations will be migrated by CronWorkers. There should be a CronWorker per maintenance task:
