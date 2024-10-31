@@ -449,21 +449,22 @@ In all other cases, while Technical Writers can add (and remove) the busy indica
 
 The Technical Writing team is given merge rights (through
 [Maintainer access](/handbook/engineering/workflow/code-review/#how-to-become-a-project-maintainer))
-to GitLab projects as part of their role. Not all developers get Maintainer access. Technical
-writers should use this privilege responsibly.
+to GitLab projects as part of their role. Not all developers get Maintainer access, so Technical
+Writers must use this privilege responsibly.
 
-As Maintainers, Technical Writers should limit what they merge to:
+As Maintainers, Technical Writers must limit what they merge to:
 
 - Documentation, typically in Markdown-formatted files.
-- UI text, error messages, and link-related fixes, with the approvals of appropriate engineer(s).
+- UI text, error messages, and link-related updates in code files, with the approvals of appropriate engineers.
+  The engineer approval can be skipped if the link fix is the only code change in a
+  documentation MR changing a file or anchor name and the full pipeline ran successfully.
 - Documentation-related tooling and configuration such as linters, and changes
   to the [`gitlab-docs`](https://gitlab.com/gitlab-org/gitlab-docs) project. Engineers
   are available for code review and merges.
 
-In addition, Technical Writers should:
+In addition, Technical Writers must:
 
-- Never merge an MR with a failed pipeline, unless the failures are unrelated to the changes. If in
-  doubt, ask an engineer.
+- Never merge an MR with a failed pipeline.
 - Ensure that MRs are complete before merging, with appropriate labels and milestones.
 - Ensure that the DRI has reviewed and approved the MR.
 
