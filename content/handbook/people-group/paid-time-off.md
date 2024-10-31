@@ -26,6 +26,8 @@ Paid time off is in addition to any [official public holidays](#holidays) that a
 
 As we all work remotely it can sometimes be difficult to know when and how to plan time off. Here is some advice and guidance on how this can be done in an easy and collaborative way. **Please note that for audit and compliance purposes, all team members are required to use Workday as the single source of truth to accurately track and communicate all time off.**
 
+After completing 4 years in the company, you can consider taking longer time-off, known as "sabbatical" - 6 consecutive weeks. This time is different than normal vacation and we treat it as a burn-out prevention, way of taking care of employees who are in the company for a long time and increase creativity and innovation by creating an environment supporting restoration.
+
 {{< note >}}
 Entering time off in Workday is not necessary if working but working asynchronously. Instead, please follow the [communicating your async work days](/handbook/company/culture/all-remote/asynchronous/#communicating-your-async-work-days) section of the asynchronous handbook.
 {{< /note >}}
