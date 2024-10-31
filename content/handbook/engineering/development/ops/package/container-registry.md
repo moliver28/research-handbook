@@ -68,7 +68,7 @@ The team has agreed on the following process to handle alerts:
 
 1. There is no person formally on-call (unless otherwise agreed during certain periods, e.g. end of year holidays).
 1. Everyone is responsible for keeping an eye on [#g_container-registry_alerts](https://gitlab.enterprise.slack.com/archives/C046REGL9QD) during their working hours.
-1. When there is an alert(s)/CI notifications:
+1. When there is a new alert/CI notification:
    1. Add an 👀 emoji to the alert to signal it is being looked at.
    1. Click on an alert for details. Each alert may contain the following:
       - Runbook - how to deal with the alert.
@@ -80,9 +80,9 @@ The team has agreed on the following process to handle alerts:
       - There is an existing issue for this alert. If so, add an occurrence of this problem in the issue description following the [alert occurrence template](#alert-occurrence-template).
       - The logs/dashboards show that the issue seems to be resolved. For example, when the Pending Tasks metric for the online garbage collector is going down after a sudden peak and there are no errors in the logs.
       - The alert has been automatically resolved.
-      - Open an issue if this requires attention in the future. If the alert/ci notification is due to a flake, identify the severity of the failure and add an appropriate priority label, CC Tim Rizzi in the issue for prioritization and @-mention CR maintainers team so that they are aware of the issue.
-      - If this is a recurring alert that was deemed as safe to ignore, consider raising an issue to adjust the alert thresholds, CC Tim Rizzi in the issue for prioritization and @-mention CR maintainers team so that they are aware of the issue.
-      - Ensure the correct label from [this list](https://gitlab.com/groups/gitlab-org/-/labels?subscribed=&sort=relevance&search=flak) is applied.
+      - Open an issue if this requires attention in the future. If the alert/CI notification is due to a flake, identify the severity of the failure and add an appropriate priority label, CC `@trizzi` in the issue for prioritization and `@gitlab-org/ci-cd/package-stage/container-registry-group` so that they are aware of the issue.
+      - If this is a recurring alert that was deemed as safe to ignore, consider raising an issue to adjust the alert thresholds, CC `@trizzi` in the issue for prioritization and `@gitlab-org/ci-cd/package-stage/container-registry-group` so that they are aware of the issue.
+      - If you raised or updated an issue, ensure that it has the correct labels. If the problem is due to a flaky test, then apply the `~"failure::flaky-test"` label. `~"flaky-test::<type>"` labels are optional but recommended. If it is due to an alert, apply the `~????` label. Finally, ensure that the issue has the appropriate `~"priority::N"` label. 
    1. Otherwise:
       - Review the [#production](https://gitlab.enterprise.slack.com/archives/C101F3796) channel and the [#incident-management](https://gitlab.enterprise.slack.com/archives/CB7P5CJS1) channel for existing incidents that may be related.
       - If there is an ongoing incident, consider helping or reaching out to the team for assistance.
