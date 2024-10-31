@@ -132,13 +132,54 @@ Once you have successfully claimed for reimbursement, please go back and close y
 
 **Please note the reimbursement section above before proceeding. The training budget does not include the cost for traveling to and from an event.**
 
-### Academic Study
+### Conferences and Live Workshops
 
-**Description:** GitLab supports team members who wish to continue their education and growth within their professional career. The fund will cover only the tuition and enrollment related fees. Additional fees related to parking, books, supplies, technology, or administrative charges are not covered as part of the program. Tuition will be validated by receipt showing proof of payment.
+Please use the [Academic Study](https://gitlab.com/gitlab-com/people-group/learning-development/growth-and-development-requests/-/issues/new?issuable_template=g-and-d-academic-study) issue template to open requests of this type.
 
-The course must be from a credentialed college or university and must be relevant to your career development goals and development. If the education provider does not allow for tuition/payment deferment and this would cause financial strain, you can request to receive 50% of the reimbursement up front and the other 50% upon successful completion of the course/program. The relevance of the classes taken for each semester will be subject to the approval of the manager. The grade must be equivalent to a "B".
+**Description:** The costs of conference registration fees are eligible for G&D reimbursement. The costs for travelling to and from an event, as well as lodging and meals, should be expensed separately from the training budget following the [existing travel expense policy](/handbook/finance/expenses/), with your manager's approval. Please review current [GitLab travel policy](/handbook/finance/travel/) for the most up-to-date information about booking and planning conference travel.
 
-**Eligibility for Reimbursement:** A final grade report or transcript is required to receive reimbursement. If you are paying per module, you can reimburse after completion of each module using evidence of completion in your Navan claim.
+We encourage people to be speakers in conferences. More information for people interested in speaking can be found on our [GitLab Speaker Resources](/handbook/marketing/corporate-communications/speaking-resources/).
+
+**Reimbursement Requirements:**
+
+Reimbursement should be applied for after the conference, with proof of attendance submitted as part of the Navan claim.
+
+For any meals, lodging, or travel - these should not be categorised using the `G&D (Growth and Development)` expense type and should be claimed in line with the [Global Travel and Expense Policy](/handbook/finance/expenses/). However, when submitting your T&E expenses, please add a link to your G&D issue in the description.
+
+### Courses
+
+ #### Academic Study
+
+ Please use the [Conference](https://gitlab.com/gitlab-com/people-group/learning-development/growth-and-development-requests/-/issues/new?issuable_template=g-and-d-conference)
+ issue template to open requests of this type.
+
+**Description:** For academic courses relevant to your GitLab career development goals, the G&D Fund can be used to cover tuition and enrollment. Additional fees related to books, travel, supplies, etc, are not covered. 
+
+The course must be from a credentialed college or university and must be relevant to your career development goals and development. The relevance of the classes taken for each semester will be subject to the approval of the manager. The grade must be equivalent to a "B".
+
+**Reimbursement Requirements:** A final grade report or transcript is required to receive reimbursement. If you are paying per module, you can reimburse after completion of each module using evidence of completion in your Navan claim.
+
+#### Self-Service Learning Subscriptions
+
+Please use the [Other G&D Types](https://gitlab.com/gitlab-com/people-group/learning-development/growth-and-development-requests/-/issues/new?issuable_template=g-and-d-other) issue template to open requests of this type.
+
+**Description:** Providers like Coursera, LinkedIn Learning, Reforge, Masterclass, etc. Subscription costs can be reimbursed on a monthly basis. Applications for a subscription to these providers should include reference to specific courses the requester would like to take.
+
+**Reimbursement Requirements:** Reimbursement can be claimed after the intended course has been completed and evidenced in your claim. If you would like to retain the license to complete other courses reimbursement can be claimed in line with the payment terms (e.g. on a monthly basis).
+
+#### Language Courses
+
+**Description:** We want to support our team members where English may not be their first language. Managers are encouraged to recommend this to team members whose performance may be improved by further developing their English language skills. [Business English for Non-Native Speakers](https://www.coursera.org/specializations/business-english-speakers) course and the [Improve your English Communication Skills Specialization](https://www.coursera.org/specializations/improve-english) are two good examples. 
+
+Other languages may be considered if their relevance to job performance is made clear. (E.g. you can’t expense Spanish classes if you don’t need to speak Spanish as part of your day to day work.)
+
+**Reimbursement Requirements:** Reimbursement should happen upon course completion.
+
+#### Code Based Learning
+
+**Description:** GitLab will pay for courses related to learning how to code (for example Learning Rails on Codecademy), regardless of your department. If you are new to development, we encourage you to learn Git through GitLab, and feel free to ask any questions in the #git-help Slack channel.
+
+**Reimbursement Requirements:** A final grade report or satisfactory certificate of completion are required to receive reimbursements.
 
 ### Your 4th Trimester Coaching
 
@@ -168,16 +209,6 @@ Apply for a coach via Coaching Right Now by opening an issue using the [coaching
 
 Coaching Right Now is our preferred and vetted coaching partner. If for some reason the coaches offered via Coaching Right Now do not fit your needs, please open an issue using the [Other G&D Types template](https://gitlab.com/gitlab-com/people-group/learning-development/growth-and-development-requests/-/issues/new?issuable_template=g-and-d-other). After approvals, team members will provide a paid invoice to GitLab as proof for reimbursement.
 
-### English Language Courses
-
-**Description:** As GitLab expands globally, we want to support our team members where English may not be their first language. Managers are encouraged to recommend this to team members whose engagement as a part of GitLab and/or performance may be improved by further developing their English language skills.
-
-Examples of English Language Courses:
-
-- [Coursera](https://www.coursera.org/browse/language-learning/learning-english) offers a wide variety of online English courses in partnership with various reputable colleges and universities, like the [Business English for Non-Native Speakers course](https://www.coursera.org/specializations/business-english-speakers) and the [Improve your English Communication Skills Specialization](https://www.coursera.org/specializations/improve-english). Their courses range from improving your English language skills to more specialized courses that focus on English for STEM or career development.
-
-**Eligibility for Reimbursement:** Courses offered in-person or online by a credential college or university or an English language school are eligible for reimbursement. Reimbursement should happen upon course completion.
-
 ### Professional Development/Certifications/Licenses
 
 **Description:** Any certifications/licenses that you and your manager think will be relevant to your development.
@@ -190,29 +221,27 @@ Examples of English Language Courses:
 
 **Eligibility for Reimbursement:** Professional membership to an accredited organization that aligns with your role. Professional dues needed in order to continue members in an accredited organization. An invoice for the dues/membership is required. Since there's no specific date of completion for this type of opportunity, it can be reimbursed after it has been purchased.
 
-### Workshops and Conferences
-
-**Description:** The costs of conference registration fees are eligible for G&D reimbursement. The costs for travelling to and from an event, as well as lodging and meals, should be expensed separately from the training budget following the [existing travel expense policy](/handbook/finance/expenses/), with your manager's approval.
-
-We encourage people to be speakers in conferences. More information for people interested in speaking can be found on our [GitLab Speaker Resources](/handbook/marketing/corporate-communications/speaking-resources/).
-
-**Eligibility for Reimbursement:** Before scheduling any travel or time off to attend a conference, please discuss your request with your manager. The manager will approve the request if the conference is work-related and the timing doesn't interfere with GitLab deliverables. After discussing with your manager, create a [Growth & Development issue](/handbook/people-group/learning-and-development/growth-and-development/#how-to-apply-for-the-growth-and-development-fund). Once all required approvals are given on the issue, travel can be scheduled. Please review current [GitLab travel policy](/handbook/finance/travel/) for the most up-to-date information about booking and planning conference travel.
-
-Reimbursement should be applied for after the conference, with proof of attendance submitted as part of the Navan claim.
-
-For any meals, lodging, or travel - these should not be categorised using the `G&D (Growth and Development)` expense type and should be claimed in line with the [Global Travel and Expense Policy](/handbook/finance/expenses/). However, when submitting your T&E expenses, please add a link to your G&D issue in the description.
-
 ### Self-Service Learning (Skillserve, Coursera, LinkedIn Learning Others) {#self-service-learning}
 
 **Description:** GitLab supports team members who wish to continue their growth within their professional career. The course must be related to your career development goal, Individual Growth Plan (IGP), and/or serves the [mission]({{< ref "mission" >}}) of GitLab as a company.
 
 **Eligibility for Reimbursement:** A final grade report or satisfactory certificate of completion are required to receive reimbursement. If paying for an ongoing license, this will likely be inexpensive (under $1000 per annum), and can be reimbursed monthly.
 
-### Code Based Learning
+## Bulk Applications
 
-**Description:** The company will pay for courses related to learning how to code (for example Learning Rails on Codecademy), and you may also allocate work time to take courses that interest you. If you are new to development, we encourage you to learn Git through GitLab, and feel free to ask any questions in the #git-help Slack channel.
+If you're submitting a bulk application, where multiple team members are applying for the same opportunity, at the same time, please consider the following:
 
-**Eligibility for Reimbursement:** The course must be related to code based learning. A final grade report or satisfactory certificate of completion are required to receive reimbursements.
+- If multiple team members are doing the same training or attending the same conference, please open one issue.
+- Each team member should pay for their own expenses and process their own reimbursement through Navan. Team Members or Managers should not cover the expenses of other team members, as any reimbursements will count against their Growth and Development allowance.
+- All bulk applications should still follow the reimbursement workflow via Navan where expenses can be claimed after completing the course or attending the conference. They should not be paid for by any other methods.
+
+### Company-directed Learning Opportunities
+
+The Growth and Development policy is meant to further team members' learning and growth. Company-directed learning opportunities, such as mandatory conferences or training required to fulfill job duties, aren't within the scope for G&D and should be budgeted for outside the policy. 
+
+### I'm a manager who would like to use the G&D Fund for a training for my whole team, is that allowed?
+
+The G&D Fund is primarily designed for individual use, and each team member is entitled to use the Fund for their own career development. However, if each individual in a team has G&D allowance remaining, there may be instances where a team-based or manager led opportunity is suitable. Please reach out in the #learninganddevelopment channel to discuss the suitability of the opportunity you are recommending. The team will review these on a case by case basis.
 
 ## Policy Notes / FAQs
 
@@ -241,22 +270,6 @@ Budgets are individual and cannot be shared across teams. E.g. If one team membe
 ### Can I pay for one opportunity over multiple years?
 
 If your G&D opportunity is across more than 1 year, you can distribute the costs by reimbursing across multiple years. However, you still cannot exceed $10,000 expensed per year, 
-
-## Bulk Applications
-
-If you're submitting a bulk application, where multiple team members are applying for the same opportunity, at the same time, please consider the following:
-
-- If multiple team members are doing the same training or attending the same conference, please open one issue.
-- Each team member should pay for their own expenses and process their own reimbursement through Navan. Team Members or Managers should not cover the expenses of other team members, as any reimbursements will count against their Growth and Development allowance.
-- All bulk applications should still follow the reimbursement workflow via Navan where expenses can be claimed after completing the course or attending the conference. They should not be paid for by any other methods.
-
-### I'm a manager who would like to use the G&D Fund for a training for my whole team, is that allowed?
-
-The G&D Fund is primarily designed for individual use, and each team member is entitled to use the Fund for their own career development. However, if each individual in a team has G&D allowance remaining, there may be instances where a team-based or manager led opportunity is suitable. Please reach out in the #learninganddevelopment channel to discuss the suitability of the opportunity you are recommending. The team will review these on a case by case basis.
-
-## Company-directed Learning Opportunities
-
-The Growth and Development policy is meant to further team members' learning and growth. Company-directed learning opportunities, such as mandatory conferences or training required to fulfill job duties, aren't within the scope for G&D and should be budgeted for outside the policy. 
 
 ## Tax Implications
 
