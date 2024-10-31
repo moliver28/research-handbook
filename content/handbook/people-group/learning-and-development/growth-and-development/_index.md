@@ -246,8 +246,6 @@ For Your 4th Trimester applications, please notify Talent Development that you w
 
 **Reimbursement Requirements:** Team members leaving for or returning from Parental Leave. The provider will invoice GitLab directly.
 
-#### Modern Health
-
 ## Bulk Applications
 
 If you're submitting a bulk application, where multiple team members are applying for the same opportunity, at the same time, please consider the following:
