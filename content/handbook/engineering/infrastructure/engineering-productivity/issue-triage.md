@@ -42,7 +42,7 @@ An issue is considered completely triaged when all of the following criteria are
 
 ## Type Labels
 
-Type labels are defined on the [Engineering Metrics page](/handbook/product/groups/product-analysis/engineering/dashboards/#work-type-classification).
+Type labels are defined on the [Engineering Metrics page](/handbook/product/groups/product-analysis/engineering/metrics/#work-type-classification).
 If you are unsure about the type, you can tag the product or engineering manager for the [group](#group-labels) and ask their opinion.
 
 ## Group labels
