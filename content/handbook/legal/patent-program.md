@@ -23,6 +23,7 @@ GitLab holds the following registered patents:
 
 - US patent [11,983,091](https://image-ppubs.uspto.gov/dirsearch-public/print/downloadPdf/11983091) covering *adaptively generated program model*
 - US patent [2023/0104814](https://image-ppubs.uspto.gov/dirsearch-public/print/downloadPdf/20230104814) covering *vulnerability tracing using scope and offset*
+- US patent [18/217,435](https://ppubs.uspto.gov/dirsearch-public/print/downloadBasicPdf/12086271?requestToken=eyJzdWIiOiJlYTEyNGNlNC0xNWYxLTQ4YzItYTY3My03ZWJiYzg1MDEwNjIiLCJ2ZXIiOiI1YjA3NDRiNy0wOGMxLTQ5ZjktOGI4Zi0zZDdkOWUxMjliYzIiLCJleHAiOjB9) covering *Vulnerability Tracking Using Smatch Values of Scopes*
 - US patent [9,910,766](https://image-ppubs.uspto.gov/dirsearch-public/print/downloadPdf/9910766) covering *whitebox network fuzzing*
 - US patents [9,767,005](https://image-ppubs.uspto.gov/dirsearch-public/print/downloadPdf/9767005) and [9,098,352](https://image-ppubs.uspto.gov/dirsearch-public/print/downloadPdf/9098352), along with Chinese patent 104346277A, and European patent EP2827253A1 covering *metaphor based language fuzzing of computer code*
 - US patent [9,323,597](https://image-ppubs.uspto.gov/dirsearch-public/print/downloadPdf/9323597) covering *flow based fault testing*.
@@ -33,11 +34,22 @@ Innovation is key to GitLab's success. The GitLab Patent Program seeks to maximi
 
 ### Patent Awards
 
-As a recognition of the efforts of team members who develop inventions for GitLab, named inventors who contribute patentable inventions under the Patent Program may be eligible for Patent Awards totalling $1,750 U.S. dollars, as follows:
+As a recognition of the efforts of team members who develop inventions for GitLab, named inventors who contribute patentable inventions under the Patent Program may be eligible for Patent Awards, as follows:
+
+**New and Provisional Patent Applications**
 
 - Level One Patent Award: $250 for each named inventor on each patent application submission accepted for filing by GitLab, payable after acceptance.
 - Level Two Patent Award: $500 for each named inventor on each patent application filed by GitLab, payable after filing. No Level Two Patent Award is payable for the filing of a *provisional* patent application.
 - Level Three Patent Award: $1,000 for each named inventor on each patent issued to GitLab, payable after patent issue.
+
+**Continuation Patent Applications**
+
+GitLab also offers the following award program for continuation patent applications. These are patent applications where GitLab seeks to obtain protection for additional claims related to one of GitLab's existing, parent patent applications.  
+
+- Level One Patent Award: $250 for each named inventor on each continuation patent application filed by GitLab, payable after filing. 
+- Level Two Patent Award: $500 for each named inventor on each patent issued to GitLab, payable after patent issue.
+
+Note that no payment is issued for submission acceptance of continuation patent applications, as these are typically proposed by external legal counsel, rather than team members.
 
 ### How to participate
 
