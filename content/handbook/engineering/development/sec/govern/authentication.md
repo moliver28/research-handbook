@@ -130,6 +130,11 @@ Application Security will be involved in our security issue workflow and should 
 - Other channels of interest are `#team-member-updates`, `#g_govern_authentication`, `#sec_section`, `#ceo`, `#cto`
 - We create a weekly issue to inform the team members about the company or team updates, to share important links or to be informed about the team availability. Creation of the issue is the responsibility of an Engineering Manager, who can use an issue template located in the [Govern/Auth repo](https://gitlab.com/gitlab-org/govern/authentication/discussion). All weekly updates can be found in the project issue list [filtered by weekly update label.](https://gitlab.com/gitlab-org/govern/authentication/discussion/-/issues/?sort=updated_desc&state=closed&label_name%5B%5D=weekly%20update&first_page_size=20)
 
+#### MR review requests
+CODEOWNER file contains commons code areas that can potentially affect authentication related behaviours and is used to request `group::authentication` reviews during development. The request source can be directly related to an authentication feature either coming from a team member within the group or outside. In this case we should complete a `backend`, `frontend` review holistically as we own the feature domain.
+
+However there are frequently instances where a review request pertains to non-authentication related development outside of the team and the review is only requested due to roulette indicating an optional `group::authentication` approval. In such case, we will only review changes to authentication specific files and indicate to the assignee via a comment (mentioning them) that the review is for authentication specific portions only, and they should subsequently request `backend` or `frontend` maintainer reviews separately. A similar technique is followed for reviews directed at `database` reviewers.
+
 #### Planning
 
 We plan in monthly cycles in accordance with our [Product Development Timeline](/handbook/engineering/workflow/#product-development-timeline). Our typical planning cycle includes:
@@ -205,14 +210,6 @@ Development should not begin on an issue before it's been estimated and given a 
 Issues with the `~"workflow::verification"` or `~"workflow::awaiting security release"` labels are, for the purposes of release planning, the same as closed issues, because the dev work is complete.
 
 For work items that span greater than 1 week or are high priority deliverables (such as critical infradev issues or bugs), the assignee for the work aims to provide a brief weekly update on the progress of tasks within the issue being worked on. This is intended to be 2-3 lines highlighting what was accomplished recently, and the next steps. We do this to share the progress transparently with our counterparts but also to share domain knowledge and course correct on implementation details if uncovered after work has started.
-
-##### Verification
-
-The issue verification step is required. It should be done by someone else other than the MR author. Verification decreases the risk of defects getting into production and a different perspective to cover more test cases.
-
-- All MRs should have verification steps in the description. In the case where multiple MRs are created for an issue, the engineer who is assigned to the issue should add complete verification steps in the issue description or as a reply to the triage bot's comment.
-- When an engineer has merged their work, they should move their issue into the verification status, indicated by the ~workflow:verification label and wait until they receive notification that their work has been deployed on staging via the release issue email.
-- Issues in the `~"workflow:verification"` state are assigned randomly by the triage bot based on the verification policy to an applicable team engineer. This engineer should then additionally verify the issue.
 
 ##### Labels and how we use them
 
