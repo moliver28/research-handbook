@@ -2,7 +2,7 @@
 title: Test Platform in Cells
 ---
 
-Cells is a project that spans the entirety of GitLab. Instead of recreating feature testing done by the other teams, we will reuse and leverage what exists currently and supplement to fill in gaps.
+Cells is a project that spans the entirety of GitLab. More information on what Cells is and how it is being developed is on the [Cells hanbook page](_index.md). Instead of recreating feature testing done by the other teams, we will reuse and leverage what exists currently and supplement to fill in gaps.
 
 This approach has the following requirements:
 
@@ -10,7 +10,7 @@ This approach has the following requirements:
 - It must provide good coverage so we have confidence to release
 - It must be easy to add/enhance/change tests
 - It works with our current process
-
+ 
 ## Strategy
 
 The testing strategy for Cells follows our practice of testing at the correct level. The testing will be focused on a couple of efforts:
@@ -24,6 +24,7 @@ The testing strategy for Cells follows our practice of testing at the correct le
   - Ensuring we're building with Observability in mind and include the hooks to integrate to our Observability tools
   - [Migration testing](https://docs.gitlab.com/ee/development/testing_guide/testing_migrations_guide.html), ensuring that the migrations are performant and handle .com scale
   - Performance testing
+    - We will the the Observability tools to do performance analysis on the live environments 
     - [GPT](https://gitlab.com/gitlab-org/quality/performance#gitlab-performance-tool) based tests to check against our reference architectures
     - Enhancing our existing pipelines to capture performance metrics to Shift Left performance testing and enable devs to have better visibility into performance concerns
 
@@ -54,7 +55,7 @@ A majority of the testing we will need to do will exist at the `Single Cell` lev
 
 #### Feature
 
-This testing is done as part of the day to day work of development, the unit/integration tests added as part of developing the features. The SET can help advise on edge cases / scenarios that should be considered for testing.
+This testing is done as part of the day to day work of development, the unit/integration tests added as part of developing the features. The SET can help advise on edge cases / scenarios that should be considered for testing. We currently have two E2E test suites defined: `smoke` and `blocking` ([the test suite definitions](../test-platform/blocking-tests.md#overview)). 
 
 #### Single Cell
 
@@ -76,13 +77,15 @@ Organizations provides the capability for a company to have the ability to bette
 
 ### Router
 
-The router is currently being defined, will add details once specifications are defined. It will gain coverage by the [Single Cell](#single-cell) testing, since it will be run through the Router. However there will need to be additional tests written to verify Router functionality (i.e. that a request gets routed to the correct cell). How much of that testing needs to be done at the Unit/Integration/E2E level will be determined.
+The [HTTP Router definition](../../architecture/design-documents/cells/topology_service.md) and the [SSH Router definition](../../architecture/design-documents/cells/ssh_routing_service.md). It will gain coverage by the [Single Cell](#single-cell) testing, since it will be run through the Router. The [Multiple Cells](#multiple-cells) testing will also cover the RouterHowever there will need to be additional tests written to verify Router functionality (i.e. that a request gets routed to the correct cell). How much of that testing needs to be done at the Unit/Integration/E2E level will be determined. Router level tests will also be covered in the [Multiple Cells tests](#multiple-cells).
 
-### QA Cell
+### Topology Service
 
-### Experiment Cell
+The [Topology Service Blueprint definition](../../architecture/design-documents/cells/topology_service.md). It will gain coverage by the [Single Cell](#single-cell) testing, since logging in from the outside will exercise the Topology Service. If we need further E2E tests specifically on the Topology Service (via API?) needs to be determined. 
 
-As part of migrating to Cells architecture, there will be an Experiment Cell to enable testing. We are [discussing how to use it](https://gitlab.com/gitlab-org/quality/quality-engineering/team-tasks/-/issues/2363). As we are rolling out Cells 1.0, the Experiment Cell will be used to test out and support implementing the features needed to support the Cells. Long term it will be an environment we can run Cells specific tests against as part of the deployment process. It will be deployed to as part of Ring 0.
+### Pre-QA Cell
+
+The [Pre-QA Cell](https://gitlab.com/groups/gitlab-com/gl-infra/-/epics/1293) is being used for deployment testing purposes and may make use of the E2E test suite as part of deployment testing, but as a verification that the deployment was successful rather than as a feature/functionality test. It is deployed in Ring 0.
 
 ## Performance Testing
 
