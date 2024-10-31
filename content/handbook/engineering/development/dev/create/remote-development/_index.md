@@ -442,6 +442,8 @@ Certain `group::remote development` issues may be categorized under the `(worksp
 
 This approach ensures that these types of issues do not have an undesired impact on our velocity, and that our Workspaces process remains streamlined while accommodating different issue categories that may not fit the standard workflow.
 
+### 🧹 Tech Debt Issues 
+
 ## 👏 Communication
 
 The Remote Development Team communicates based on the following guidelines:
