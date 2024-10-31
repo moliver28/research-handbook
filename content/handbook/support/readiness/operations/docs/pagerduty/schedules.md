@@ -450,20 +450,27 @@ This rotation is used for Support Directors.
 - [Schedule link](https://gitlab.pagerduty.com/schedules/P6KUUJP)
 - Timezone: UTC
 - Layer 1
-  - Name: APAC
+  - Name: APAC Group 1
+  - Rotation type: weekly
+  - Handoff time: Sunday 0400
+  - Hours: 0000-0400
+  - Members
+    - Lee Matos
+- Layer 2
+  - Name: APAC Group 2
   - Rotation type: weekly
   - Handoff time: Sunday 0800
-  - Hours: 0000-0800
+  - Hours: 0400-0800
   - Members
-    - Shaun McCann
-- Layer 2
+    - Val Parsons
+- Layer 3
   - Name: EMEA
   - Rotation type: weekly
   - Handoff time: Sunday 1600
   - Hours: 0800-1600
   - Members
     - Val Parsons
-- Layer 3
+- Layer 4
   - Name: AMER
   - Rotation type: weekly
   - Handoff time: Sunday 0000
