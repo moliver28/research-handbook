@@ -146,6 +146,8 @@ To preview your changes, deploy the review app:
 
 If you need the review app deployed after every change on a MR, you can add the `~"deploy-review-app-always"` label to always trigger the job, including on MR creation.
 
+For more information about how the review apps are configuration for the handbook projects, please see the [Handbook Pages Deployment](https://handbook.gitlab.com/docs/development/#gitlab-pages-deployment).
+
 ## Naming pages and folder structure
 
 The site uses the concept of page bundles, sections, and leaf pages.  A section can have multiple leaf pages, which requires a `_index.md` for the section.  A page bundle is a single page with a group of images, requires an `index.md`.
