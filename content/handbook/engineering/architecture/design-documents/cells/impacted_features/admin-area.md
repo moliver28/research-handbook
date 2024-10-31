@@ -187,25 +187,25 @@ Investigation issue: https://gitlab.com/gitlab-org/gitlab/-/issues/451136
    - The request includes the list of attributes known by the cell. This allows each cell to be have different attributes, and removes any coupling between the leader cell database schema and the follower cells' one.
      This could happen if a follower cell is deployed with a schema change before the leader cell (or vice-versa). See [Schema change / cluster-level change use-cases](#schema-change--cluster-level-change-use-cases) below for more details.
 1. [In Topology Service] If the requester cell is the leader cell, the process ends here since the leader cell already has the canonical cluster-level attributes values
-1. [In Topology Service] Sends a `GET /api/v4/application/cluster_level_settings?attributes=attr1,attr2` request to the leader cell to get the requested cluster-level attributes
+1. [In Topology Service] Sends a `GET /api/v4/internal/cluster_level_settings?attributes=attr1,attr2` request to the leader cell to get the requested cluster-level attributes
 1. [In leader cell] Sends the requested cluster-level attributes to the Topology Service
    - Encrypted attributes are sent encrypted ([see below for the handling of encrypted attributes](#special-case-of-encrypted-attributes))
    - The response includes a `checksum` of the JSON data (i.e. `Zlib.crc32(attributes.to_json)`). For encrypted attributes, the decrypted value is used in the checksum.
 1. [In Topology Service] Forwards the API response from the leader cell to the requester cell
 1. [In requester cell] Update its attributes based on the received data
-   - The transaction is committed only after the checksum of the updated attributes is the same as the one received from the Topology Service.
+   - After updating attributes, the computed checksum is checked against the one received from the Topology Service.
 1. [In requester cell] The last sync timestamp is updated
 
 ```mermaid
 sequenceDiagram
     Requester cell->>+Topology Service: GetCanonicalAppSettings({ "attributes": ["attr1", "attr2"] })
-    Topology Service->>+Leader cell: GET /api/v4/application/cluster_level_settings?attributes=attr1,attr2
+    Topology Service->>+Leader cell: GET /api/v4/internal/cluster_level_settings?attributes=attr1,attr2
     Leader cell-->Leader cell: Encrypted attributes are decrypted with the<br>cell's key, and re-enrypted with a transit key
     Leader cell->>-Topology Service: { attributes: { attr1: "foo", attr2: "<encrypted>" }, checksum: 1234 }
     Note left of Topology Service: Topology service is unable to<br>decrypt any encrypted attributes
     Topology Service->>-Requester cell: { attributes: { attr1: "foo", attr2: "<encrypted>" }, checksum: 1234 }
     Requester cell-->Requester cell: Encrypted attributes are decrypted with the<br>transit key, and re-encrypted with the cell's key
-    Requester cell-->Requester cell: Updated attributes are committed if the computed checksum equals the one received from the Topology Service
+    Requester cell-->Requester cell: After updating attributes, the computed checksum is checked against the one received from the Topology Service
 ```
 
 ##### At cell boot time
@@ -223,20 +223,20 @@ When a cell updates one ore many cluster-level attributes at once, a background 
 
 1. [In leader cell] Sends a `PingCellsForAppSettingsUpdate(["attr1", "attr2"])` request to the Topology Service
    - The request includes the list of the updated attributes.
-1. [In Topology Service] Sends a `POST /api/v4/internal/need_application_settings_sync` request with body `{ "attributes": ["attr1", "attr2"] }` to each follower cell
+1. [In Topology Service] Sends a `POST /api/v4/internal/cluster_level_settings/need_sync` request with body `{ "attributes": ["attr1", "attr2"] }` to each follower cell
 1. [In follower cell] If any of the updated attributes are know to the cell, a background job is started to perform the same actions as the one described above for boot time synchronisation
 
 ```mermaid
 sequenceDiagram
     Leader cell->>+Topology Service: PingCellsForAppSettingsUpdate(["attr1", "attr2"])
     loop For each follower cell
-        Topology Service->>+Follower cell: POST /api/v4/internal/need_application_settings_sync (body: `{ "attributes": ["attr1", "attr2"] }`)
+        Topology Service->>+Follower cell: POST /api/v4/internal/cluster_level_settings/need_sync (body: `{ "attributes": ["attr1", "attr2"] }`)
         Note right of Follower cell: Imagine the cell doesn't know about "attr2",<br>it would only ask for the value of "attr1"
         Follower cell->>+Topology Service: GetCanonicalAppSettings({ "attributes": ["attr1"] })
-        Topology Service->>+Leader cell: GET /api/v4/application/cluster_level_settings?attributes=attr1
+        Topology Service->>+Leader cell: GET /api/v4/internal/cluster_level_settings?attributes=attr1
         Leader cell->>-Topology Service: { attributes: { attr1: "foo" }, checksum: 1234 }
         Topology Service->>-Follower cell: { attributes: { attr1: "foo" }, checksum: 1234 }
-        Follower cell-->Follower cell: Updated attributes are committed if the computed checksum equals the one received from the Topology Service
+        Follower cell-->Follower cell: After updating attributes, the computed checksum is checked against the one received from the Topology Service
     end
 ```
 
@@ -246,7 +246,7 @@ Encrypted attributes will need to be encrypted with a transit key that's shared 
 
 Process on the leader cell:
 
-1. Upon `GET /api/v4/application/cluster_level_settings?attributes=attr1,attr2` requests, each encrypted attribute is decrypted and re-encrypted with the `db_key_transit` transit key
+1. Upon `GET /api/v4/internal/cluster_level_settings?attributes=attr1,attr2` requests, each encrypted attribute is decrypted and re-encrypted with the `db_key_transit` transit key
    - Encrypted attributes are sent encrypted, so that the Topology Service is unable to see the decrypted value of encrypted attributes (since it doesn't have access to the `db_key_transit` transit key)
    - The decrypted value is used to compute the `checksum` key of the response
 1. Then the leader cell sends the relevant cluster-level attributes to the Topology Service
