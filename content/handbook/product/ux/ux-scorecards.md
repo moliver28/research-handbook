@@ -100,9 +100,9 @@ Following each scenario that is evaluated, a set of three questions are asked to
 
 #### Question 3: UMUX Lite, adjusted (Useful)
 
-“You just experienced our implementation of <Scenario>. How would you agree or disagree with the following statement:
+“You just experienced our implementation of `<Scenario>`. How would you agree or disagree with the following statement:
 
-<Scenario> has the features I need for what I need to do in my own work.”
+`<Scenario>` has the features I need for what I need to do in my own work.”
 
 * 5 - Strongly agree
 * 4 - Agree
