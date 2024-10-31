@@ -210,11 +210,9 @@ We partner with [Coaching Right Now](https://docs.google.com/document/d/188H3iuI
 
 The specifics of your coaching session will not be communicated to GitLab.
 
-
 Coaching Right Now will invoice GitLab directly for the costs, you do not need to pay, or apply for reimbursement for these engagements.
 
 Apply for a coach via Coaching Right Now by opening an issue using the [coaching template](https://gitlab.com/gitlab-com/people-group/learning-development/growth-and-development-requests/-/issues/new?issuable_template=g-and-d-coaching).
-
 
 **Reimbursement Requirements:** Remember only managers or Individual Contributors job grade 8+ are eligible. Coaching Right Now will invoice GitLab directly for your engagement.
 
@@ -223,7 +221,6 @@ Apply for a coach via Coaching Right Now by opening an issue using the [coaching
 Coaching Right Now is our preferred and vetted coaching partner. If the coaches offered via Coaching Right Now do not fit your needs, please open an issue using the [Other G&D Types template](https://gitlab.com/gitlab-com/people-group/learning-development/growth-and-development-requests/-/issues/new?issuable_template=g-and-d-other). 
 
 **Reimbursement Requirements:** After approvals, team members will provide a paid invoice to GitLab as proof for reimbursement at the end of their coaching engagement.
-
 
 ### Professional Dues/Membership
 
