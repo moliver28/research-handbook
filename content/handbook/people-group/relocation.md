@@ -107,7 +107,9 @@ If the country and the location factor don't change, no change in compensation i
 
    - [Location Eligibility](https://comp-calculator.gitlab.net/hiring_status/index) Check the [Compensation calculator, country hiring status](https://comp-calculator.gitlab.net/hiring_status/index) to confirm that the country is currently an entity country open to further hiring.  These are the only countries where team members can relocate.
    - [Work Eligibility](#eligibility-to-work)
-   - The relocation date is future dated and allows enough time for the process. For sales personnel with a variable change, the effective date should always be the 1st of the month.
+   - The relocation date is future dated and allows enough time for the process to be finalized.
+   - Relocations from one country to a new country: once you have determined an appropriate month for your relocation we will request that the relocation effective date reflects either the 1st or 16th of the month to help avoid any complications with local taxes or absence accrual policies. 
+   - For sales personnel with a variable change, the effective date should always be the 1st of the month.
    - Reason for relocation is provided
    - Team member has confirmed whether or not they require employer sponsored visa for relocation
    - The team member has satisfied the required one year tenure to be eligible for relocation
