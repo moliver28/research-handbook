@@ -128,40 +128,6 @@ Please note that upfront reimbursement does not extend to travel, hotel, or meal
 
 Once you have successfully claimed for reimbursement, please go back and close your issue. If you found the G&D experience to be of significant benefit, and you would recommend it to other team members, please leave a comment in the G&D feedback issue, so that the Talent Development team can add the opportunity to our G&D Select page.
 
-### Recoupment of Growth and Development Reimbursements
-
-If you voluntarily terminate employment with GitLab prior to completing twelve consecutive months of active employment, academic study or tuition expenses of $1,000 USD and over will need to be refunded to GitLab.
-
-### Tracking my G&D spend
-
-If you wish to know how much of your G&D Fund you have remaining for the calendar year, please reach out in the #learninganddevelopment slack channel.
-
-Budget estimations for the Growth & Development Fund are based on utilization rates from past years, adjusted for the size of the company. The budget is managed on a company-wide scale, not division-specific. For example, approving reimbursement for a team member in Engineering does not "take away" budget from other engineers. Eligibility is managed on an individual basis. Eligibility for the fund is part of each GitLab team member's Total Rewards package.
-
-## Bulk Applications
-
-If you're submitting a bulk application, where multiple team members are applying for the same opportunity, at the same time, please consider the following:
-
-- If multiple team members are doing the same training or attending the same conference, please open one issue.
-- Each team member should pay for their own expenses and process their own reimbursement through Navan. Team Members or Managers should not cover the expenses of other team members, as any reimbursements will count against their Growth and Development allowance.
-- All bulk applications should still follow the reimbursement workflow via Navan where expenses can be claimed after completing the course or attending the conference. They should not be paid for by any other methods.
-
-### I'm a manager who would like to use the G&D Fund for a training for my whole team, is that allowed?
-
-The G&D Fund is primarily designed for individual use, and each team member is entitled to use the Fund for their own career development. However, if each individual in a team has G&D allowance remaining, there may be instances where a team-based or manager led opportunity is suitable. Please reach out in the #learninganddevelopment channel to discuss the suitability of the opportunity you are recommending. The team will review these on a case by case basis.
-
-## Company-directed Learning Opportunities
-
-The Growth and Development policy is meant to further team members' learning and growth. Company-directed learning opportunities, such as mandatory conferences or training that are required to fulfill their job duties, are not within the scope of the Growth and Development policy and should be budgeted for outside the policy. Such expenses will not be deducted from the team member's annual Growth and Development limit and should be paid for by GitLab rather than reimbursed to the team member.
-
-## Tax Implications
-
-In some countries, the Growth and Development Fund may be considered as taxable income and can be (partially) exempted from personal income taxes or subject to employer withholding taxes. Check [the tax table]({{< ref "tax" >}}) for any tax implications in your country.
-
-For example, in the United States 2021 tax year, if GitLab pays over [$5,250 for educational benefits for you during the year, you must generally pay tax on the amount over $5,250](https://www.irs.gov/newsroom/tax-benefits-for-education-information-center). GitLab should include in your wages (Form W-2, box 1) the amount over $5,250 in income.
-
-Please contact [Payroll](mailto:payroll@gitlab.com) for any tax-related questions in your country.
-
 ## Types of Growth and Development Reimbursements
 
 **Please note the reimbursement section above before proceeding. The training budget does not include the cost for traveling to and from an event.**
@@ -247,3 +213,55 @@ For any meals, lodging, or travel - these should not be categorised using the `G
 **Description:** The company will pay for courses related to learning how to code (for example Learning Rails on Codecademy), and you may also allocate work time to take courses that interest you. If you are new to development, we encourage you to learn Git through GitLab, and feel free to ask any questions in the #git-help Slack channel.
 
 **Eligibility for Reimbursement:** The course must be related to code based learning. A final grade report or satisfactory certificate of completion are required to receive reimbursements.
+
+## Policy Notes / FAQs
+
+#### Overspending
+
+If you are found to have reimbursed over $10,000 within a calendar year, you will be required to pay back anything over $10,000 that has been spent. 
+
+#### Recoupment of Growth and Development Reimbursements
+
+If you voluntarily terminate employment with GitLab prior to completing twelve consecutive months of active employment, academic study or tuition expenses of $1,000 USD and over will need to be refunded to GitLab.
+
+#### How can I track my G&D spend?
+
+If you wish to know how much of your G&D Fund you have remaining for the calendar year, please reach out in the #learninganddevelopment slack channel.
+
+We are working on improving this process and hope to provide a self-service option soon.
+
+#### Does budget rollover?
+
+Unspent G&D budgets do not ‘rollover’ from one year to the next, the maximum any team member can expense per year is $10,000.
+
+#### Can spare budget be shared with team members?
+
+Budgets are individual and cannot be shared across teams. E.g. If one team member has $5000 remaining, this can’t be attributed to another team member to pay on their behalf.
+
+#### Can I pay for one opportunity over multiple years?
+
+If your G&D opportunity is across more than 1 year, you can distribute the costs by reimbursing across multiple years. However, you still cannot exceed $10,000 expensed per year, 
+
+## Bulk Applications
+
+If you're submitting a bulk application, where multiple team members are applying for the same opportunity, at the same time, please consider the following:
+
+- If multiple team members are doing the same training or attending the same conference, please open one issue.
+- Each team member should pay for their own expenses and process their own reimbursement through Navan. Team Members or Managers should not cover the expenses of other team members, as any reimbursements will count against their Growth and Development allowance.
+- All bulk applications should still follow the reimbursement workflow via Navan where expenses can be claimed after completing the course or attending the conference. They should not be paid for by any other methods.
+
+### I'm a manager who would like to use the G&D Fund for a training for my whole team, is that allowed?
+
+The G&D Fund is primarily designed for individual use, and each team member is entitled to use the Fund for their own career development. However, if each individual in a team has G&D allowance remaining, there may be instances where a team-based or manager led opportunity is suitable. Please reach out in the #learninganddevelopment channel to discuss the suitability of the opportunity you are recommending. The team will review these on a case by case basis.
+
+## Company-directed Learning Opportunities
+
+The Growth and Development policy is meant to further team members' learning and growth. Company-directed learning opportunities, such as mandatory conferences or training required to fulfill job duties, aren't within the scope for G&D and should be budgeted for outside the policy. 
+
+## Tax Implications
+
+In some countries, the Growth and Development Fund may be considered as taxable income and can be (partially) exempted from personal income taxes or subject to employer withholding taxes. Check [the tax table]({{< ref "tax" >}}) for any tax implications in your country.
+
+For example, in the United States 2021 tax year, if GitLab pays over [$5,250 for educational benefits for you during the year, you must generally pay tax on the amount over $5,250](https://www.irs.gov/newsroom/tax-benefits-for-education-information-center). GitLab should include in your wages (Form W-2, box 1) the amount over $5,250 in income.
+
+Please contact [Payroll](mailto:payroll@gitlab.com) for any tax-related questions in your country.
