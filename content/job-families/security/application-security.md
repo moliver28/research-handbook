@@ -5,9 +5,9 @@ extra_js:
 - libs/mermaid.min.js
 ---
 
-## What's it like to work in security at GitLab?
+## What's it like to work in Application Security at GitLab?
 
-🤝 Application Security Engineers work closely with development teams, product managers (PM), and third-party groups (including the paid bug bounty program) to ensure that GitLab products are secure.
+The Application Security team plays a vital role at GitLab by ensuring that all its products are created securely throughout all stages of the DevSecOps lifecycle. In this role, you will work closely with Engineering, Product teams, and third-party partners to enhance the security of GitLab and its products to safeguard customer data. You'll be responsible for identifying and triaging application security vulnerabilities, collaborating with teams to address them, and integrating core security principles throughout the entire DevSecOps lifecycle.
 
 🎉 **Hear from two team members about what it's like working here at GitLab in our Security department.** 🎉
 
@@ -25,25 +25,28 @@ extra_js:
 
 ## Responsibilities
 
-- Perform security-focused code reviews
-- Support and consult with product and development teams in the area of application security, including threat modeling and appsec reviews
-- Assist teams in reproducing, triaging, and addressing application security vulnerabilities.
-- Support the bug bounty program.
-- Support the preparation of security releases.
+- Collaborate closely with product and development teams in reproducing, triaging, and addressing application security vulnerabilities.
+- Effectively communicate risks to ensure clear understanding and prioritization of security issues.
+- Conduct security-focused code reviews, threat modeling, and application security assessments.
+- Support the bug bounty program by updating policies, triaging submissions, and effectively engaging with our reporters.
+- Lead both critical and regular security patch releases.
+- Ensure security is integrated across each stage of the software development lifecycle.
 - Assist in development of security processes and automated tooling that prevent classes of security issues.
+- Provide security training and outreach to internal development teams
+- Assist in maturing the team's internal processes, workflows, and automation. 
 
 Learn more about our role [on the Application Security Handbook page](/handbook/security/product-security/application-security/) including our work as [Stable Counterparts](/handbook/security/product-security/application-security/stable-counterparts/) and our [HackerOne process](/handbook/security/product-security/application-security/runbooks/hackerone-process/)
 
 ## Requirements
 
-- Ability to use GitLab.
-- Able to work well with software development teams.
-- Experience identifying security issues through code review.
-- Excellent and professional communication skills (written and verbal) with an ability to articulate complex topics in a clear and concise manner.
-- Familiarity with some common security libraries and tools (e.g. static analysis tools, proxying / penetration testing tools).
-- Familiarity and ability to explain common security flaws and ways to address them (e.g. OWASP Top 10).
-- Basic development or scripting experience and skills. Ruby, Ruby on Rails, JavaScript, and/or Go are preferred.
-- A basic understanding of network and web related protocols (such as TCP/IP, UDP, HTTP, HTTPS, protocols).
+- Strong understanding of fundamental security principles.
+- Excellent written and verbal communication skills, with an ability to articulate complex topics in a clear and concise manner.
+- Ability to effectively collaborate with software development teams.
+- Understands the mechanisms behind common vulnerabilities, can articulate their associated risks, and ways to remediate them.
+- Proficiency in reading, writing, and reviewing code in Ruby on Rails or Go.
+- Familiarity with common security libraries and tools (e.g. static analysis tools, proxying / penetration testing tools).
+- A basic understanding of network and web related protocols (e.g. TCP/IP, UDP, HTTP, HTTPS, protocols).
+- Comfortable with using Git.
 
 ## Levels
 
@@ -82,6 +85,7 @@ The role is a [grade 7](/handbook/total-rewards/compensation/compensation-calcul
 - Assist with recruiting activities and administrative work.
 - Develop security training and socialize the material with internal development teams.
 - Participate and assist in initiatives to holistically address multiple vulnerabilities found in a functional area.
+- Lead and implement initiatives to enhance the team's maturity.
 
 #### Senior Application Security Engineer Requirements
 
@@ -106,7 +110,7 @@ The role is a [grade 8](/handbook/total-rewards/compensation/compensation-calcul
 - Take initiative and drive changes in our bug bounty program which position us as the leading authority amongst other programs.
 - Lead and influence cross-functional positive changes across the Security organization.
 - Drive the most difficult or highly complex application security reviews and threat modeling. Provide expert guidance and direction for other team members when they encounter challenges in their security reviews. Own documentation and procedures surrounding application security reviews as well as lead by example for what successful application security reviews look like.
-- Scale application security by developing automated security testing or centralized security libraries which scale directly with developers and enable them to more easily write secure code.
+- Scale application security through automation, integration of security into the SDLC, and creating effective training programs.
 - Champion recruiting activities.
 - Have significant ownership in and evangelize security training with development teams.
 - Drive initiatives which scale application security and holistically address multiple vulnerabilities.
