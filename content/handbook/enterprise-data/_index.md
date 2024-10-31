@@ -41,7 +41,7 @@ The GitLab Data Program includes teams focused in the following areas:
 * [Marketing Web Analytics](/handbook/marketing/inbound-marketing/search-marketing/analytics/)
 * [People Analytics Team](/handbook/people-group/people-ops-tech-analytics/people-analytics/)
 * [Product Data Insights](/handbook/product/groups/product-analysis/)
-* [Analytics Instrumentation Group](/handbook/engineering/development/analytics/analytics-instrumentation/)
+* [Analytics Instrumentation Group](/handbook/engineering/development/ops/monitor/analytics-instrumentation/)
 * [Sales Analytics](/handbook/sales/field-operations/sales-strategy/)
 
 ### How Data Teams Work Together
