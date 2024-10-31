@@ -37,7 +37,7 @@ Following the end of the semester, the project lead solicits feedback from volun
 If you're interested in volunteering for the Spring 2025 semester, you should complete the following **by Monday, November 18th, 2024**:
 
 1. Reach out to your manager for awareness and to discuss how participation might impact your capacity.
-1. Add yourself to the [list of volunteers](https://gitlab.com/gitlab-com/Product/-/issues/13669#raised_back_of_hand-volunteers)
+1. Add yourself to the [list of volunteers](https://gitlab.com/gitlab-com/Product/-/issues/13669#raised_back_of_hand-volunteers).
 
 1. (Optional but highly encouraged!) [Brainstorm projects](#project-proposals) that would be a good fit for the students.
 
@@ -108,14 +108,14 @@ The project lead for the Tufts University Capstone Course project is a rotating 
 
 ### Responsibilities and timeline
 
-The project lead has various reponsibilties before, during and after the student project.
+The project lead has various responsibilities before, during, and after the student project.
 
 #### Before the project starts
 
 In the lead up to the project start, the project lead should:
 
 - Recruit GitLab Team Member [volunteers](#how-to-volunteer), keeping in mind the ideal [volunteer team composition](#volunteer-team-composition).
-- Solicit at least 3 [project proposals](#project-proposals) from GitLab team members for students to vote on.
+- Solicit at least 2 [project proposals](#project-proposals) from GitLab team members for students to vote on.
 - Communicate with the Product team DRIs (Product Manager, Product Designer, UX Researcher) that own the feature area for each project proposal.
 - Coordinate with the professors, Linda Borghesani (`Linda.Borghesani@tufts.edu`) & Nick Katis (`Nick.Katis@tufts.edu`). They will arrange for the students to choose which proposal.
 
