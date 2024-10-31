@@ -15,24 +15,22 @@ Rate limited requests will return a `429 - Too Many Requests` response.
 - Request assistance for a user's rate limiting settings with [this issue template](https://gitlab.com/gitlab-com/gl-infra/production-engineering/-/issues/new?issuable_template=request-rate-limiting).
 - For internal teams seeking a bypass, please refer to the [Rate Limit Bypass Policy](/handbook/engineering/infrastructure/rate-limiting/bypass-policy/).
 
-## GitLab.com Rate Limit Architecture
+## GitLab Rate Limit Architecture
+
+### GitLab.com
 
 ```mermaid
 flowchart TD
     A[Internet]
     A -->|gitlab.com| D(Cloudflare WAF)
-    A -->|cloud.gitlab.com| E
     A -->|customers.gitlab.com| F
     subgraph ide3 [Cloudflare WAF]
         D[gitlab.com zone]
-        E[cloud.gitlab.com zone]
         F[customers.gitlab.com zone]
     end
     A -->|*.gitlab.io| C
     A -->|registry.gitlab.com| N
     D --> G
-    E --> G
-    E --> L
     F --> H
     subgraph ide2 [GitLab]
         subgraph ide1 [HAProxy]
@@ -41,7 +39,6 @@ flowchart TD
             G[https + ssh]
         end
         C --> K
-        L[Cloud Connector backends]
         H[nginx]
         K[pages kubernetes limits]
         K-->M[pages application limits]
@@ -50,6 +47,34 @@ flowchart TD
     end
     G --> I
     G --> J
+```
+
+### Cloud Connector
+
+```mermaid
+flowchart LR
+  A[Internet]
+  subgraph cf [Cloudflare WAF]
+      E[cloud.gitlab.com zone]
+  end
+  subgraph G [GitLab]
+    subgraph cc_be [CloudRun / GKE]
+      F[Cloud Connector backends]
+    end
+
+    subgraph GKE
+      C[gitlab.com]
+    end
+
+    subgraph AWS
+      D[GitLab Dedicated]
+    end
+  end
+
+  E --> F
+  A -->|cloud.gitlab.com| E
+  C -->|cloud.gitlab.com| E
+  D -->|cloud.gitlab.com| E
 ```
 
 Rate limits exist in multiple layers for GitLab.com, each boxed area above represents a place where rate limits are implemented.
