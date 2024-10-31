@@ -159,7 +159,6 @@ We hold a bi-weekly design sync meeting open to all team members where we discus
 
 ## How We Work
 
-
 ### Planning
 
 Issues are refined and weighted prior to assigning them to a milestone. We use `candidate::` scoped labels to help with planning work in future milestones. This label allows us to filter on the issues we are planning, allowing Product, Engineering, and UX to refine issues async that have `workflow::design` and `workflow::ready for development` labels applied. Weighting also helps with capacity planning with respect to how issues are scheduled in future milestones.
@@ -275,12 +274,10 @@ The Engineering DRI works with the Product Designer throughout the `workflow:in 
 
 If we find that solutions are consistently not matching the agreed upon design, we will hold a retrospective with the DRI, designer, and product manager to discuss where the gaps in communication are so that we can improve. It may be necessary to begin requiring a UX approval for merge requests on certain issues to help the Engineering DRI meet the requirements.
 
-
 ### Technical Debt
 
 - We track our team's technical debt using the following the [Technical Debt Prioritization board](https://gitlab.com/gitlab-org/gitlab/-/boards/7735063?label_name[]=group%3A%3Apipeline%20authoring&label_name[]=type%3A%3Amaintenance), where we track issues with upcoming candidate labels and compare against current milestone.
 - In an effort to promote more transparency across the stage where collaboration may be needed, starting in August 2024, we've introduced a [Verify Pipeline teams Technical Debt board](https://gitlab.com/groups/gitlab-org/-/boards/1438885?not%5Blabel_name%5D%5B%5D=group%3A%3Ahosted%20runners&not%5Blabel_name%5D%5B%5D=group%3A%3Arunner&label_name%5B%5D=devops%3A%3Averify&label_name%5B%5D=type%3A%3Amaintenance) that shows the top of mind priorities in the Pipeline teams.
-
 
 ### Retrospectives
 
