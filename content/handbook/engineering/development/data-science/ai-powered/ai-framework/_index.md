@@ -49,9 +49,9 @@ Depending on the context here are the most appropriate ways to reach out to the 
 
 #### Team Meetings
 
-1. **Weekly Refinement/Weight Assignment Meeting**
+1. **Weekly Refinement Assignment Meeting**
    * **When:** Every Monday, alternating between 09:00 AM GMT+1 and 17:00 PM GMT+1
-   * **What:** This meeting replaces the previous Work Assignment Meeting and focuses on refining and assigning weights to issues. The Engineering Manager and Product Manager ensure all issues are properly refined and weighted.
+   * **What:** This meeting replaces the previous Work Assignment Meeting and focuses on refining issues. The Engineering Manager and Product Manager ensure all issues are properly refined.
 
 2. **Duo Workflow Weekly**
    * **When:** Every Monday at 17:00 – 18:00 PM GMT+1 Wednesday at 09:00 – 10:00 GMT+1.
@@ -116,21 +116,10 @@ These guidelines apply to all issues we use for planning and scheduling work wit
   * ❌ `Make Chat better`
 * Provide a meaningful description that clearly explains the goal of the issue, and provide some technical details if necessary.
 * Should there be critical implementation steps or other useful ways to create small tasks as part of the issue, please use a checklist as part of the issue descriptions.
-* The issue should have a weight, milestone and workflow label assigned.
+* The issue should have the Deliverable label, milestone and workflow label assigned.
 * Design and frontend engineering use one issue. The same issues moves from workflow::design to workflow::refinement to workflow::ready for development. This ensures that there is a single source of truth for customer-facing issues. If a design issue is too large to be implemented, it may be promoted to an epic.
 
 It's okay to create specific engineering-driven implementation issues for more complex features. These would be called **Child Issues** and they should always link back to their parent. If one issue would spawn many child issues, consider creating an Epic.
-
-🏋 Weighting and Estimation Process
-
-To assign weights to issues effectively, it's important to remember that issue weight should not be tied to time. Instead, it should be a purely abstract measure of the issue's significance. The team uses the Fibonacci sequence starting from weight 0:
-
-* **Weight 0:** Reserved for the smallest and easiest issues, such as typos or minor formatting changes, or very minor code changes with no tests required.
-* **Weight 1:** For simple issues with little or no uncertainty, risk or complexity. These issues may have labels like "good for new contributors" or "Hackathon - Candidate". Example: Changing copy text which may be simple but take some time.
-* **Weight 2:** For more involved issues which are still straightforward without much risk or complexity, but may involve touching multiple areas of the code, and updating multiple tests.
-* **Weight 3:** For larger issues which may have some unforeseen complexity or risk, or require more extensive changes, but is still not large enough to warrant breaking down into smaller separate issues.
-* **Weight 5:** Normally, this weight should be avoided, and indicates that the issue ideally should be broken down into smaller separate issues. However, in some cases, a weight of 5 might still be prioritized. For example, if there is a large amount of manual updates to be made which will require a large amount of effort, but doesn't necessarily involve significant risk or uncertainty.
-* **Weight 8/13+:** Weights above 5 are used to clearly indicate work that is not yet ready to be assigned for implementation, and must be broken down because it is too large in scope to start implementing, and/or still has too many unknowns/risks. This weight is temporarily assigned to "placeholder" issues to capture the scope of the effort in our velocity-based capacity planning calculations.
 
 ## 📝 AI Feature Evaluations Guidelines - Evaluate like I am 5
 
