@@ -5,7 +5,7 @@ description: "The Investor Relations team drives the strategy and long-term mark
 
 ## Investor Relations Analyst
 
-The Investor Relations analyst will be involved in multiple IR activities. They develop a deep and strategic understanding of GitLab's business, industry and competitors, and work directly with senior executives and Wall Street analysts. The IR Analyst enables the team to scale GitLab's activities, reach more investors, and leverage our C-level executives. We are a small team, so the IR analyst will experience all aspects of IR.  This role reports to the Vice President of Investor Relations.
+The Investor Relations analyst will be involved in multiple IR activities. They develop a deep and strategic understanding of GitLab's business, industry and competitors, and work directly with senior executives and Wall Street analysts. The IR Analyst enables the team to scale GitLab's activities, reach more investors, and leverage our C-level executives. This role reports to the Vice President of Investor Relations.
 
 ### Job Grade
 
@@ -13,25 +13,73 @@ The Investor Relations Analyst is a [grade 6](/handbook/total-rewards/compensati
 
 ### Responsibilities
 
-- Develop a deep understanding of GitLab's initiatives, the broader DevOps ecosystem, and the competitive environment to shape the investment thesis.
-- Assist in the quarterly earnings process including overall messaging development, datapoint collection and synthesis, scripts, Q&A prep, and conference call prep.
-- Analyze competitors' business models through their financial announcements, SEC filings and analyst days; report with quantitative and qualitative analysis to execs with information and perspective that might impact the company.
-- Maintain competitive peer analysis, including the development of industry and peer company performance benchmarks.
-- Maintain competitive peer analysis, including the development of industry and peer company performance benchmarks.
-- Prepare execs to meet investors with appropriate materials and context.
-- Plan and assist with investor meeting logistics and other corporate access events.
-- Develop strategies and implement programs to keep the financial community current on company performance and industry trends.
-- Manage sell-side analyst models and monitor consensus vs. our forecast.* Track investor base and aid in targeting efforts to appropriate investors, to expand and maintain key ownership positions.
+- Support quarterly earnings process including logistics, various financial analyses, and accompanying investor and board presentations
+- Review and analyze equity analyst research and models, consensus estimates, analyst and investor perceptions/opinions and market-related trends impacting valuation and market perception
+- Support the collection and analysis of investor ownership, shareholder movements, and investor targeting
+- Analyze the outcome of investor facing engagement to track outcomes and optimize c-level time investment
+- Perform financial, strategic, and competitive analyses, including industry and peer benchmarking, and ad-hoc projects to support strategic and financial initiatives
+- Assist in the creation and maintenance of investor relations materials
+- Assist in the planning and execution of investor relations events, such as non-deal roadshows, conferences, and investor day
+- Summarize and distribute equity research and competitor earnings to executives as they are published
+- Respond to and manage day-to-day activities including inbound investor inquiries, website updates, ESG inquiries, and database management
 
 ### Requirements
 
-- Bachelor's degree in business or related field; advanced degree is preferred.
-- 2+ years' experience in investment banking, private equity, equity research, corporate development or similar field.
-- Highly organized, analytical and ability to multitask.
-- Strong analytical skills, fluency in performing rigorous financial, valuation and broad quantitative analyses.
-- Proficient in presentation and spreadsheet tools.
-- Ability to source databases and the public internet for competitive intelligence.
-- Communication skills to interact with cross-functional partners
+- Bachelor’s Degree in Finance, Accounting, or other relevant field
+- 3+ years of experience, preferably in investor relations role at a public software/technology company
+- Mature financial and analytical skills with ability to interpret information and financial concepts 
+- Understanding of technology and software business models, with desire and capacity to learn about our industry, products, competitors and other key audiences
+- Excellent proficiency in Excel, PowerPoint, Google Sheets, and Google Slides; experience with financial research tools such as FactSet is a plus
+- Strong intellectual curiosity and high attention to detail with the ability to keep the big picture in mind
+- Proactive, energetic, and resourceful team member who is results-oriented and able to multitask and thrive in an all remote company and high growth environment
+- Excellent verbal and written communication and interpersonal skills
+
+## Senior Investor Relations Analyst
+
+The Senior Investor Relations Analyst will support core activities of the IR team and collaborate with cross-functional team members including FP&A, Accounting, Product Marketing, Communications, Strategy, Legal, and beyond.
+
+### Job Grade
+
+The Investor Relations Analyst is a [grade 7](/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades).
+
+### Responsibilities
+
+- Extends that of an Analyst role
+- Assist in the creation and maintenance of investor relations materials, including corporate overview slides
+- Take a leadership role in managing the logistics of investor day and other related investor day activities as needed
+
+### Requirements
+
+- Extends that of the Analyst role 
+- 5+ years of experience, preferably in investor relations role at a public software/technology company
+- Strong business acumen with understanding of technology and software business models, with desire and capacity to learn about our industry, products, competitors and other key audiences
+- Experience in equity research, investment banking, at a buy-side investment firm, and/or in a strategic finance role 
+
+
+## Investor Relations Manager
+
+### Job Grade
+
+The Investor Relations Analyst is a [grade 8](/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades).
+
+### Responsibilities
+
+- Extends that of the Senior Analyst role
+- Support quarterly earnings process including logistics, preparation of prepared remarks, Q&A materials, various financial analyses, and accompanying investor and board presentations
+- Work with equity research analysts, review t research and models, consensus estimates
+- Conduct quarterly mini-perception study to ascertain analyst and investor perceptions/opinions and market-related trends impacting valuation
+- Regularly analyze the outcome of investor facing engagement to track outcomes and optimize c-level time investment
+- Work cross-functionally to better understand the business, its evolution, and strategy
+- Assist in the planning and execution of investor relations events, including travel with executives, such as non-deal roadshows and conferences
+- Take a leadership role in managing the logistics of investor day and building the CFO presentation
+- Respond to and manage day-to-day activities including  inbound investor inquiries, website updates, database management, ESG inquiries, and vendor relationships
+
+### Requirements
+
+- Extends that of the Senior Analyst role
+- Existing network of equity research analysts and institutional investors
+- Excellent proficiency in Excel, PowerPoint, Google Sheets, and Google Slides; experience with financial research tools AlphaSense and FactSet
+- Experience interacting with C-level executives
 
 ## Vice President, Investor Relations
 
@@ -39,7 +87,7 @@ The Vice President of Investor Relations drives the strategy and long-term marke
 
 ### Job Grade
 
-The Vice President, Investor Relations is a [grade 12](/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades).\
+The Vice President, Investor Relations is a [grade 12](/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades).
 
 ### Responsibilities
 
