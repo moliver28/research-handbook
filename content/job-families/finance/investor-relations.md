@@ -12,6 +12,7 @@ The Investor Relations analyst will be involved in multiple IR activities. They 
 The Investor Relations Analyst is a [grade 6](/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades).
 
 ### Responsibilities
+
 - Support quarterly earnings process including logistics, various financial analyses, and accompanying investor and board presentations
 - Review and analyze equity analyst research and models, consensus estimates, analyst and investor perceptions/opinions and market-related trends impacting valuation and market perception
 - Support the collection and analysis of investor ownership, shareholder movements, and investor targeting
@@ -23,6 +24,7 @@ The Investor Relations Analyst is a [grade 6](/handbook/total-rewards/compensati
 - Respond to and manage day-to-day activities including inbound investor inquiries, website updates, ESG inquiries, and database management
 
 ### Requirements
+
 - Bachelor’s Degree in Finance, Accounting, or other relevant field
 - 3+ years of experience, preferably in investor relations role at a public software/technology company
 - Mature financial and analytical skills with ability to interpret information and financial concepts 
@@ -47,6 +49,7 @@ The Investor Relations Analyst is a [grade 7](/handbook/total-rewards/compensati
 - Take a leadership role in managing the logistics of investor day and other related investor day activities as needed
 
 ### Requirements
+
 - Extends that of the Analyst role 
 - 5+ years of experience, preferably in investor relations role at a public software/technology company
 - Strong business acumen with understanding of technology and software business models, with desire and capacity to learn about our industry, products, competitors and other key audiences
@@ -60,6 +63,7 @@ The Investor Relations Analyst is a [grade 7](/handbook/total-rewards/compensati
 The Investor Relations Analyst is a [grade 8](/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades).
 
 ### Responsibilities
+
 - Extends that of the Senior Analyst role
 - Support quarterly earnings process including logistics, preparation of prepared remarks, Q&A materials, various financial analyses, and accompanying investor and board presentations
 - Work with equity research analysts, review t research and models, consensus estimates
@@ -71,6 +75,7 @@ The Investor Relations Analyst is a [grade 8](/handbook/total-rewards/compensati
 - Respond to and manage day-to-day activities including  inbound investor inquiries, website updates, database management, ESG inquiries, and vendor relationships
 
 ### Requirements
+
 - Extends that of the Senior Analyst role
 - Existing network of equity research analysts and institutional investors
 - Excellent proficiency in Excel, PowerPoint, Google Sheets, and Google Slides; experience with financial research tools AlphaSense and FactSet
