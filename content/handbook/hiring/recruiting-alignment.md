@@ -28,7 +28,7 @@ description: "This page is an overview of the search team alignment and the tale
 | Product Management | Holly Nesselroad | Lerato Thipe |
 | Security | Holly Nesselroad / Joanna Micheniewicz / Michelle A. Kemp | Lerato Thipe / Alice Crosbie / Alice Crosbie |
 | Design/UX  | Riley Smith | Lerato Thipe  |
-| Emerging Talent  | Justin Smith | TBD  |
+| Emerging Talent  | Justin Smith | TBD  | 
 
 For urgent requests of the Candidate Experience Specialist team, we encourage you to contact them by also tagging @CES in Slack messages and CC'ing CES@gitlab.com on emails.
 
