@@ -103,8 +103,8 @@
 /content/handbook/engineering/ @sabrinafarmer
 /content/handbook/engineering/cross-functional-prioritization.md @sabrinafarmer @david
 /content/handbook/engineering/developer-onboarding.md @jeromezng @timzallmann
-/content/handbook/engineering/open-source/ @rymai @meks @nick_vh
-/content/handbook/engineering/on-call.md @jfuentes2 @meks @jscarborough
+/content/handbook/engineering/open-source/ @rymai @sabrinafarmer @nick_vh
+/content/handbook/engineering/on-call.md @jfuentes2 @sabrinafarmer @jscarborough
 /content/handbook/engineering/performance.md @timzallmann
 /content/job-families/engineering/ @sabrinafarmer @cbednarz @anjali_kaufmann @dparsonage @glucchesi @carlierussell @mwilkins
 /content/job-families/engineering/incubation/ @jeromezng @cbednarz @anjali_kaufmann @dparsonage @glucchesi @carlierussell @mwilkins
@@ -182,13 +182,13 @@
 /content/handbook/engineering/development/dev/create/source-code-be/ @andr3 @dpoosarla @vyaklushin @ashmckenzie @gitlab-com/egroup @gitlab-com/content-sites
 
 ^[Eng-Infrastructure-Quality-department]
-/content/handbook/engineering/infrastructure-quality.md @marin @meks @vincywilson
+/content/handbook/engineering/infrastructure-quality.md @marin @sabrinafarmer @vincywilson
 
 ^[Eng-Infrastructure-department]
-/content/handbook/engineering/careers/matrix/infrastructure @marin @meks @dawsmith @amyphillips @rnienaber @mbursi
+/content/handbook/engineering/careers/matrix/infrastructure @marin @sabrinafarmer @dawsmith @amyphillips @rnienaber @mbursi
 /content/handbook/engineering/deployments-and-releases/ @marin @mbursi @dawsmith @gitlab-org/delivery
 /content/handbook/engineering/error-budgets/ @marin @rnienaber
-/content/handbook/engineering/infrastructure/ @marin @meks @vincywilson
+/content/handbook/engineering/infrastructure/ @marin @sabrinafarmer @vincywilson
 /content/handbook/engineering/infrastructure/capacity-planning/ @andrewn @gitlab-org/scalability @marin
 /content/handbook/engineering/infrastructure/core-platform/ @marin
 /content/handbook/engineering/infrastructure/core-platform/tenant-scale.md @sissiyao
@@ -200,11 +200,11 @@
 /content/handbook/engineering/infrastructure/core-platform/systems/distribution/ @marin @plu8
 /content/handbook/engineering/infrastructure/core-platform/systems/geo/ @luciezhao
 /content/handbook/engineering/infrastructure/core-platform/systems/gitaly/ @andrashorvath @jcaigitlab
-/content/handbook/engineering/infrastructure/emergency-change-processes.md @marin @meks
+/content/handbook/engineering/infrastructure/emergency-change-processes.md @marin @sabrinafarmer
 /content/handbook/engineering/infrastructure/incident-management/ @dawsmith @rnienaber @marin
-/content/handbook/engineering/infrastructure/performance-indicators.md @marin @meks @vincywilson @rymai
+/content/handbook/engineering/infrastructure/performance-indicators.md @marin @sabrinafarmer @vincywilson @rymai
 /content/handbook/engineering/infrastructure/platforms/ @marin @rnienaber @amyphillips
-/content/handbook/engineering/infrastructure/service-maturity-model.md @rnienaber @marin @meks
+/content/handbook/engineering/infrastructure/service-maturity-model.md @rnienaber @marin @sabrinafarmer
 /content/handbook/engineering/infrastructure/team/ @marin
 /content/handbook/engineering/infrastructure/team/dei.md @andrewn
 /content/handbook/engineering/infrastructure/team/delivery/ @marin @mbursi @dawsmith
@@ -213,19 +213,19 @@
 /content/handbook/engineering/infrastructure/team/gitlab-dedicated/switchboard.md @ashiel @marin @amyphillips
 /content/handbook/engineering/infrastructure/team/gitlab-dedicated/us-public-sector-services.md @marin @amyphillips
 /content/handbook/engineering/infrastructure/team/scalability/ @rnienaber @lmcandrew @marin
-/content/handbook/engineering/monitoring/ @marin @meks
+/content/handbook/engineering/monitoring/ @marin @sabrinafarmer
 /content/handbook/engineering/releases/ @marin @mbursi @dawsmith @gitlab-org/delivery
-/content/handbook/engineering/gitlab-com/ @marin @meks
-/content/handbook/engineering/gitlab-com/policies/ @marin @meks
+/content/handbook/engineering/gitlab-com/ @marin @sabrinafarmer
+/content/handbook/engineering/gitlab-com/policies/ @marin @sabrinafarmer
 
 ^[Eng-Quality-department]
-/content/handbook/engineering/automation.md @meks @rymai
-/content/handbook/engineering/infrastructure/test-platform/ @ghosh-abhinaba @kkolpakova @ksvoboda @meks @vincywilson
+/content/handbook/engineering/automation.md @sabrinafarmer @rymai
+/content/handbook/engineering/infrastructure/test-platform/ @ghosh-abhinaba @kkolpakova @ksvoboda @sabrinafarmer @vincywilson
 /content/handbook/engineering/infrastructure/test-platform/onboarding/ @ghosh-abhinaba @kkolpakova @ksvoboda @vincywilson
 /content/handbook/engineering/infrastructure/test-platform/quad-planning/ @ghosh-abhinaba @kkolpakova @ksvoboda @vincywilson
 /content/handbook/engineering/infrastructure/test-platform/self-managed-platform-team/ @ksvoboda
 /content/handbook/engineering/infrastructure/test-platform/test-engineering-team/ @kkolpakova
-/content/handbook/engineering/quality/engineering-analytics.md @meks @lmai1
+/content/handbook/engineering/quality/engineering-analytics.md @sabrinafarmer @lmai1
 
 ^[Eng-Incubation-department]
 /content/handbook/engineering/development/incubation/ @jeromezng
@@ -622,8 +622,8 @@
 /content/handbook/company/working-groups/ai-integration.md @hbenson @timzallmann @tmccaslin
 /content/handbook/company/working-groups/api-vision.md @g.hickman @arturoherrero @timzallmann
 /content/handbook/company/working-groups/clickhouse-datastore.md @sgoldstein @nhxnguyen @nicolewilliams
-/content/handbook/company/working-groups/cross-functional-prioritization.md @vkarnes @meks @justinfarris
-/content/handbook/company/working-groups/demo-test-data.md @grantyoung @poffey21 @vincywilson @meks
+/content/handbook/company/working-groups/cross-functional-prioritization.md @vkarnes @sabrinafarmer @justinfarris
+/content/handbook/company/working-groups/demo-test-data.md @grantyoung @poffey21 @vincywilson @sabrinafarmer
 /content/handbook/company/working-groups/disaster-recovery.md  @mjwood @andrashorvath
 /content/handbook/company/working-groups/frontend-observability.md @timzallmann @samdbeckham
 /content/handbook/company/working-groups/multi-large.md @marin @mbursi
@@ -677,16 +677,16 @@
 
 ## This section is for SOX related documents.
 [SOX-Documents]
-/content/handbook/engineering/gitlab-com/policies/teleport/ @marin @meks @gitlab-com/egroup @gitlab-com/content-sites
+/content/handbook/engineering/gitlab-com/policies/teleport/ @marin @sabrinafarmer @gitlab-com/egroup @gitlab-com/content-sites
 
 ## Please do not add or remove documents from the Controlled Documents section without checking with Security Governance. The Controlled Documents program is only for documents that are in-scope for Security Compliance's external audits. You can contact Security Governance in the #sec-assurance Slack channel.
 [Controlled-Documents]
 /content/handbook/business-technology/entapps-documentation/policies/gitlab-business-continuity-plan.md @brobins @james.shen @NabithaRao @gitlab-com/egroup @gitlab-com/content-sites
-/content/handbook/engineering/gitlab-com/policies/monitoring/ @marin @meks @gitlab-com/egroup @gitlab-com/content-sites
-/content/handbook/engineering/infrastructure/database/_index.md @marin @meks @vincywilson @gitlab-com/egroup @gitlab-com/content-sites
+/content/handbook/engineering/gitlab-com/policies/monitoring/ @marin @sabrinafarmer @gitlab-com/egroup @gitlab-com/content-sites
+/content/handbook/engineering/infrastructure/database/_index.md @marin @sabrinafarmer @vincywilson @gitlab-com/egroup @gitlab-com/content-sites
 /content/handbook/engineering/infrastructure/database/disaster-recovery.md @marin @andrashorvath @gitlab-com/egroup @gitlab-com/content-sites
-/content/handbook/engineering/infrastructure/production/_index.md @marin @meks @gitlab-com/egroup @gitlab-com/content-sites
-/content/handbook/engineering/infrastructure/production/architecture/ @marin @meks @gitlab-com/egroup @gitlab-com/content-sites
+/content/handbook/engineering/infrastructure/production/_index.md @marin @sabrinafarmer @gitlab-com/egroup @gitlab-com/content-sites
+/content/handbook/engineering/infrastructure/production/architecture/ @marin @sabrinafarmer @gitlab-com/egroup @gitlab-com/content-sites
 /content/handbook/it/end-user-services/onboarding-access-requests/_index.md @NabithaRao @ericrubin @mbeee @gitlab-com/egroup @gitlab-com/content-sites
 /content/handbook/legal/gitlab-code-of-business-conduct-and-ethics.md @robin @ktesh @m_taylor @gitlab-com/egroup @gitlab-com/content-sites
 /content/handbook/people-group/acceptable-use-policy.md @wendybarnes @akramer @emilyplotkin @pegan @gitlab-com/egroup @gitlab-com/content-sites
