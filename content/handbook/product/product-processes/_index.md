@@ -416,6 +416,7 @@ changes quickly in the future so we try to avoid complex code, complex data stru
 - It is orthogonal to other features (prevents overlap with current and future features).
 - The requirements are clear.
 - It can be achieved within the scheduled milestone. Larger issues should be split up, so that individual steps can be achieved within a single milestone.
+- Refer to [research participant gratuities](/handbook/product/ux/ux-research-coordination/participation-gratuities/) section to understand [if your study qualifies for incentive distribution](/handbook/product/ux/ux-research-coordination/participation-gratuities/#study-qualification).
 
 We schedule a prioritized issue by assigning it a milestone; for more on this see
 Planning a Future Release.
