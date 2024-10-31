@@ -47,7 +47,9 @@ Please be aware that if you do not renew manually, you will be [auto-renewed].(h
 
 Q: I see I was charged for a Quarterly Subscription Reconciliation. What is this for?
 
-A: Quarterly reconciliation occurs when you exceed your license limit. You will be charged an overage based on the maximum number of seats you used during the quarter.
+A: Quarterly reconciliation occurs when you exceed your license limit. You will be charged an overage based on the maximum number of seats you used during the quarter. If you ever go over the maximum, you will get a warning on your GitLab instance.
+
+![QSR.warning](/handbook/sales/images/QSR_disclaimer_v17_5.png)
 
 More information on this can be found [here](https://docs.gitlab.com/ee/subscriptions/quarterly_reconciliation.html).
 
