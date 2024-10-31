@@ -216,29 +216,29 @@ For any meals, lodging, or travel - these should not be categorised using the `G
 
 ## Policy Notes / FAQs
 
-#### Overspending
+### Overspending
 
 If you are found to have reimbursed over $10,000 within a calendar year, you will be required to pay back anything over $10,000 that has been spent. 
 
-#### Recoupment of Growth and Development Reimbursements
+### Recoupment of Growth and Development Reimbursements
 
 If you voluntarily terminate employment with GitLab prior to completing twelve consecutive months of active employment, academic study or tuition expenses of $1,000 USD and over will need to be refunded to GitLab.
 
-#### How can I track my G&D spend?
+### How can I track my G&D spend?
 
 If you wish to know how much of your G&D Fund you have remaining for the calendar year, please reach out in the #learninganddevelopment slack channel.
 
 We are working on improving this process and hope to provide a self-service option soon.
 
-#### Does budget rollover?
+### Does budget rollover?
 
 Unspent G&D budgets do not ‘rollover’ from one year to the next, the maximum any team member can expense per year is $10,000.
 
-#### Can spare budget be shared with team members?
+### Can spare budget be shared with team members?
 
 Budgets are individual and cannot be shared across teams. E.g. If one team member has $5000 remaining, this can’t be attributed to another team member to pay on their behalf.
 
-#### Can I pay for one opportunity over multiple years?
+### Can I pay for one opportunity over multiple years?
 
 If your G&D opportunity is across more than 1 year, you can distribute the costs by reimbursing across multiple years. However, you still cannot exceed $10,000 expensed per year, 
 
