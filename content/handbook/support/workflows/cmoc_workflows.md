@@ -334,6 +334,20 @@ created>4hours order_by:created_at sort:desc group:none group:"support" -form:bi
 
 Adjust the `4` if the incident began earlier than four hours ago.
 
+If the volume of tickets are high, work together with the CMOC and SMOC to arrange volunteers to help address the tickets.
+
+#### Support Readiness Issue
+
+If this incident is the result of a feature change or bug, proceed to:
+
+1. Create a Support Readiness issue (if one does not exist).
+1. Update the issue with incident information, including timeline, impact to ticket volume, and any additional work Support is doing to respond to customers in tickets.
+1. Tag the Engineering Manager and Product Manager of the related feature to give them visibility for the impact of the change or bug.
+
+If there is an ad-hoc workflow or troubleshooting steps a Support Engineer should take to respond to a customer, document this in the Readiness issue and ensure the section stays up to date so that new volunteers can onboard quickly and start assisting with tickets.
+
+If the incident remains active and new customer tickets continue to come in near the end of your shift, tag the next CMOC in the issue and notify them of any important updates and expected impact for their timezone.
+
 ### **Stage 3: Monitor (Situational)**
 
 After the incident has been mitigated, we'll often begin a monitoring period to ensure that we do not see a recurrence of the issue. Monitoring typically lasts for 30 minutes, but it can vary and a specific amount of monitoring time may be requested by the IM. They **may also request that the monitoring stage be skipped entirely.** If this is the case, proceed directly to [Stage 4](#stage-4-resolve).
