@@ -9,26 +9,26 @@ description: "This page is an overview of the search team alignment and the tale
 |--------------------------|-----------------|-------------------------------------|
 | C Level | Jess Dallmar, Robert Allen | Michelle Jubrey | 
 | VP and Above    | Jake Foster, Jack Connors   | Michelle Jubrey  |
-| Director, Senior Director  | Matt Angell, Steph Sarff, Jake Foster, Jack Connors  | Sruthy Menon  |
-| Enterprise, Commercial, and Renewal Sales - AMER | Kevin Rodrigues |Sruthy Menon |
+| Director, Senior Director  | Matt Angell, Steph Sarff, Jake Foster, Jack Connors  | Michelle Jubrey  |
+| Enterprise, Commercial, and Renewal Sales - AMER |  |Sruthy Menon |
 | Enterprise Sales, EMEA | Joanna Tourne | Lerato Thipe |
 | Customer Success & Solutions Architects, EMEA | Ornella Miles | Lerato Thipe |
 | Commercial & Partner Sales, EMEA | Ben Cowdry | Lerato Thipe |
-| Global Services, Field Operations & Partner Sales | Kelsey Hart  | Alice Crosbie |
+| Global Services, Field Operations & Partner Sales | Kelsey Hart  | Sruthy Menon |
 | Customer Success & Solutions Architects, AMER | Barbara Dinoff | Sruthy Menon |
-| Sales, APAC | Yas Priatna  | Sruthy Menon |
+| Sales, APAC | Yas Priatna  | Jazmin Armstrong |
 | G&A/EBA/Marketing (Leadership and E-Group+ EBA) | Steph Sarff | Michelle Jubrey |
-| G&A/EBA/Marketing (Global Sales Development, Corporate Events, FP&A, EBA) | Caroline Rebello |  Michelle Jubrey |
-| G&A/Marketing (Accounting, Business Technology, Developer Relations & Strategy, Digital, Marketing Operations, Regional Marketing, Tax) | Aistè Juozaponytė  | Michelle Jubrey |
-| G&A/Marketing (Accounting Operations, Corporate Communications, Data, Internal Audit, Legal, People, Product Marketing) | Jenna VanZutphen  | Sruthy Menon |
+| G&A/EBA/Marketing (Global Sales Development, Corporate Events, FP&A, EBA) | Caroline Rebello |  Jazmin Armstrong |
+| G&A/Marketing (Accounting, Business Technology, Developer Relations & Strategy, Digital, Marketing Operations, Regional Marketing, Tax) | Aistè Juozaponytė  | Jazmin Armstrong |
+| G&A/Marketing (Accounting Operations, Corporate Communications, Data, Internal Audit, Legal, People, Product Marketing) | Jenna VanZutphen  | Jazmin Armstrong |
 | R&D, Leadership | Matt Angell | Alice Crosbie |
-| Engineering, Development | Heather Tarver, Seema Anand, Sara Currie | Lerato Thipe / Sruthy Menon / Alice Crosbie |
+| Engineering, Development | Heather Tarver, Seema Anand, Sara Currie | Sruthy Menon / Sruthy Menon / Alice Crosbie |
 | Engineering, Infrastucture   | Michelle A. Kemp, Aziz Quadri | Alice Crosbie  |
 | Engineering, Customer Support | Joanna Michniewicz / Sara Currie  | Alice Crosbie |
 | Product Management | Holly Nesselroad | Lerato Thipe |
 | Security | Holly Nesselroad / Joanna Micheniewicz / Michelle A. Kemp | Lerato Thipe / Alice Crosbie / Alice Crosbie |
 | Design/UX  | Riley Smith | Lerato Thipe  |
-| Emerging Talent  | Justin Smith | Michelle Jubrey  |
+| Emerging Talent  | Justin Smith | TBD  |
 
 For urgent requests of the Candidate Experience Specialist team, we encourage you to contact them by also tagging @CES in Slack messages and CC'ing CES@gitlab.com on emails.
 
