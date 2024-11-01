@@ -131,7 +131,6 @@ For those with regular commitments, look for shorter weeks or timezone variation
 
 | Start date | End date | See one | Teach one | Schedule Notes |
 | ---------- | -------- | ---- | ----- | --------- |
-| 2024-10-28 | 2024-11-01 | [Naheil McAvinue](https://gitlab.com/nmcavinue) - Director, Data & Analytics | [Dan Rhodes](https://gitlab.com/dfrhodes) - Managing Legal Counsel | REMOTE - PT |
 | 2024-11-04 | 2024-11-08 | NO CEO SHADOW | NO CEO SHADOW | IN APAC |
 | 2024-11-11 | 2024-11-15 | NO CEO SHADOW | NO CEO SHADOW | IN APAC |
 | 2024-11-18 | 2024-11-22 | OPEN | [Naheil McAvinue](https://gitlab.com/nmcavinue) - Director, Data & Analytics | REMOTE - PT |
@@ -839,4 +838,5 @@ CEO Shadow Program alumni are welcome to join the `#ceo-shadow-alumni` Slack cha
 | 2024-09-02 | 2024-09-13 | [Vladimir Dzalbo](https://gitlab.com/dzalbo) | Senior Manager, Solutions Architecture, EMEA | |
 | 2024-09-09 | 2024-09-20 | [Hannah Sutor](https://gitlab.com/hsutor) | Principal Product Manager | |
 | 2024-09-16 | 2024-10-04 | [Kyle Yetter](https://gitlab.com/kyetter) | Senior Backend Engineer, Geo | |
-| 2024-09-30 | 2024-10-11 | [Nupur Sharma](https://gitlab.com/nsharma2), Solutions Architect | REMOTE - PT | |
+| 2024-09-30 | 2024-10-11 | [Nupur Sharma](https://gitlab.com/nsharma2)| Solutions Architect | |
+| 2024-10-21 | 2024-11-01 | [Dan Rhodes](https://gitlab.com/dfrhodes)| Managing Legal Counsel | |
