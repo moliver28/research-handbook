@@ -151,10 +151,11 @@
 /content/handbook/engineering/development/ops/monitor/observability.md @nicholasklick @mappelman
 /content/handbook/engineering/development/ops/monitor/respond/ @hbenson @francoisrose
 /content/handbook/engineering/development/ops/package/ @crystalpoole
-/content/handbook/engineering/development/ops/verify/ @cheryl.li @carolinesimpson @nicolewilliams
-/content/handbook/engineering/development/ops/verify/pipeline-authoring/ @cheryl.li
+/content/handbook/engineering/development/ops/verify/ @cheryl.li @carolinesimpson @nicolewilliams @nmezzopera
+/content/handbook/engineering/development/ops/verify/pipeline-authoring/ @nmezzopera
 /content/handbook/engineering/development/ops/verify/pipeline-execution/ @carolinesimpson
 /content/handbook/engineering/development/ops/verify/runner/ @nicolewilliams
+/content/handbook/engineering/development/ops/verify/ci-platform/ @cheryl.li @drew
 /content/handbook/engineering/development/processes/infra-dev-escalation/ @jameslopez
 /content/handbook/engineering/development/sec/ @twoodham @jeromezng
 /content/handbook/engineering/development/sec/govern/ @adil.farrukh @alan @jayswain @nmccorrison @nrosandich @jeromezng @ryaanwells @shampton
