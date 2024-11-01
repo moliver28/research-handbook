@@ -43,7 +43,7 @@ You cannot manually renew your subscription more than 15 days before the subscri
 
 ![manage.renewal](/static/images/renew_15days_v17_4.png)
 
-Please be aware that if you do not renew manually, you will be [auto-renewed].(https://docs.gitlab.com/ee/subscriptions/self_managed/#automatic-subscription-renewal).
+Please be aware that if you do not renew manually, you will be [auto-renewed](https://docs.gitlab.com/ee/subscriptions/self_managed/#automatic-subscription-renewal).
 
 Q: I see I was charged for a Quarterly Subscription Reconciliation. What is this for?
 
@@ -69,7 +69,7 @@ Q: My GitLab subscription is due for renewal, and I would like to renew. How do 
 
 A: Please see the below content on how to renew, based on your hosting model.
 
-SaaS Subscription - [How to Renew](https://docs.gitlab.com/ee/subscriptions/gitlab_com/#renew-your-gitlab-saas-subscription)
+SaaS Subscription - [How to Renew](https://docs.gitlab.com/ee/subscriptions/gitlab_com/#renew-gitlabcom-subscription)
 
 Self Managed Subscription - [How to Renew](https://docs.gitlab.com/ee/subscriptions/self_managed/#renew-your-subscription)
 
@@ -87,13 +87,13 @@ A: Yes, these users will count as a billable user, and will be charged for.
 
 Q: I would like to give another user access to my subscription account in the GitLab Customers Portal. How do I do this?
 
-A: It is possible you may be able to transfer ownership without GitLabs assistance. See this [workflow](https://docs.gitlab.com/ee/subscriptions/gitlab_com/#add-or-change-the-contacts-for-your-subscriptionn) for details. If the self-service options are unavailable to you, then please open a [Support Ticket](https://support.gitlab.com/hc/en-us/requests/new?ticket_form_id=360000071293). You will be required to provide ownership verification, after which Support will transfer the ownership.
+A: It is possible you may be able to transfer ownership without GitLabs assistance. See this [workflow](https://docs.gitlab.com/ee/subscriptions/gitlab_com/#add-or-change-subscription-contacts) for details. If the self-service options are unavailable to you, then please open a [Support Ticket](https://support.gitlab.com/hc/en-us/requests/new?ticket_form_id=360000071293). You will be required to provide ownership verification, after which Support will transfer the ownership.
 
 Q: I am part way through my GitLab subscription term and I would like to buy extra licenses for some recent hires. Am I able to do this?
 
 A:  Yes!  Please see the below content on how to add users, based on your hosting model.
 
-SaaS Subscription - [How to Add User](https://docs.gitlab.com/ee/subscriptions/gitlab_com/#add-seats-to-your-subscription)
+SaaS Subscription - [How to Add User](https://docs.gitlab.com/ee/subscriptions/gitlab_com/#add-seats-to-subscription)
 
 Self Managed Subscription - [How to Add User](https://docs.gitlab.com/ee/subscriptions/self_managed/#add-seats-to-a-subscription)
 
@@ -159,7 +159,7 @@ A: If a customer is not on auto-renewal (Turn on Auto Renew = No) or if we know 
 
 Q: When should I direct a customer to renew online, and how can I help them do that?
 
-A: Advise them to log into the [Customers Portal](https://customers.gitlab.com/?_gl=1*2rhaas*_ga*MjAzMjU3NDY5NS4xNjY5NjU0NzM4*_ga_ENFH3X7M5Y*MTY3OTY3ODY4MS4xOTcuMS4xNjc5Njc4Nzk5LjAuMC4w) using their credentials. Once they have navigated to the *Manage Purchases* view, they should see an option to *Renew*. Once they have clicked on *Renew* and reviewed their order, they can proceed to checkout and select *Purchase*.
+A: Advise them to log into the [Customers Portal](https://customers.gitlab.com/customers/sign_in) using their credentials. Once they have navigated to the *Manage Purchases* view, they should see an option to *Renew*. Once they have clicked on *Renew* and reviewed their order, they can proceed to checkout and select *Purchase*.
 
 Q: How do I know if my customer has renewed via the online web store?
 
@@ -167,7 +167,7 @@ A: Once a customer follows the process outlined above, the renewal opportunity o
 
 Q: If my customer advised they want to purchase through the channel, what action should I take?
 
-A: You can renew a Direct customer via the Channel within the existing Renewal Opportunity and following the Quoting process of [Channel/Alliance quotes](/handbook/sales/field-operations/channel-operations/#quoting-partner-deals).
+A: You can renew a Direct customer via the Channel within the existing Renewal Opportunity and following the Quoting process of [Channel/Alliance quotes](/handbook/sales/field-operations/channel-operations/sales-faq/#quoting).
 
 Q: If my customer wants to move from Self-Managed to a SaaS instance or vice-versa, what steps do I need to take?
 
