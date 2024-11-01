@@ -12,7 +12,7 @@ The GDCMOC rotation currently uses the GitLab.com CMOC rotation to determine who
 
 ## Engaging the GDCMOC
 
-The GDCMOC can be paged via Slack or directly via PagerDuty. 
+The GDCMOC can be paged via Slack or directly via PagerDuty.
 
 - **Slack**: Using the `/pd trigger` command in Slack, select `Incident Management - GDCMOC` in the **Impacted Service** modal. Fill in the **Title** and click **Create**.
 - **PagerDuty**: From the [Incident Management - GDCMOC](https://gitlab.pagerduty.com/service-directory/P8WVAI0) page, click **New Incident**. Fill in the **Title** and click **Create**.
@@ -29,14 +29,33 @@ The description in the PagerDuty alert should contain details about an issue, or
 
 Once an outreach ticket has been sent to the customer, mark the PagerDuty alert as **resolved**.
 
-## Creating a new outreach ticket
+## Retrieve customer details
 
-Follow these steps to create a new ticket to start communications with a customer.
+Follow these steps to create a new ticket to start communications with a customer. Start with finding the details we need to create the ticket through the following options. 
+
+Note that there are tenants for internal users, and will not require a ticket outreach. They are with the internal reference `solid_harlequin_lemur` and `bold_sapphire_eel` located in the Switchboard. 
+
+### Using the Switchboard Helper script
+
+1. Clone the [Switchboard Helper project](https://gitlab.com/gitlab-com/support/toolbox/switchboard-helper).
+1. Follow the README setup instructions.
+
+Now either:
+
+- Run `bash helper.sh contact` to get the list of customer email addresses/the CSM/Primary region of tenant for all tenants in a single command.
+- Run `bash helper.sh view` to get the option to view the JSON Tenant Model for a specific customer.
+  - Look for the `customer_communications` key and take note of the `operational_email_addresses` and `customer_tam` values.
+  - Take note of the `primary_region` value as well.
+
+### Manually through Switchboard
 
 1. Find the `Switchboard (production)` tile in Okta and login to Switchboard.
 1. You should see the `Tenants` page when logged in. Find the relevant tenant and click `Manage`.
 1. Expand the `Cloud Account Config` section, and look for the `Primary Region`. This should tell us which region the customer is based in. See the [AWS docs](https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/using-regions-availability-zones.html#concepts-available-regions) if you're unsure of the AWS region code. Make a note of the region.
-1. Search for the `Customer Communications` section, and expand it. You should see values for `Operational email addresses` and `Customer CSM`. You will need these values when creating the ticket.
+1. Search for the `Customer Communications` section, and expand it. You should see values for `Operational email addresses` and `Customer CSM`.
+
+## Create a new outreach ticket
+
 1. Follow the instructions [here](/handbook/support/workflows/sending_notices/#manually-create-a-zendesk-ticket) to create a new Zendesk ticket.
     1. For the **subject** of the ticket, use the following template: `GitLab Dedicated Notice: <description>`.
     1. For the ticket **requestor**, use the first operational email address listed.
