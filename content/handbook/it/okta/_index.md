@@ -35,7 +35,11 @@ GitLab is using Okta for a few key goals:
 
 ## How do I get my Okta account set up?
 
-All GitLab team-members will have an Okta account set up as part of their onboarding process. You should already have an activation email in both your Gmail and Personal Accounts.  For efficiency, please follow the onboarding process for setting up Okta and set up 1Password first and follow that up with Okta.  Please also set up Okta from your computer rather than your mobile or the mobile app, as you will be guided to set up the Okta Verify mobile app as part of the onboarding process.
+All GitLab team members will have an Okta account set up during onboarding. You should receive an activation email in your personal email account before your start date. Please follow the steps in the email to activate your Okta account.
+
+Once you’ve signed in to Okta, access your work Gmail and look for a 1Password activation email titled "Welcome to 1Password!" to set up your account.
+
+**Important:** Set up Okta on your work computer (not on mobile or the mobile app) as the process includes setting up the Okta Verify mobile app.
 
 GitLab requires all team members to use either Biometrics or YubiKey as your [Okta authentication](#i-want-to-add-touch-id--face-id--face-authentication--yubikey-to-okta)
 
