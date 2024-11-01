@@ -21,14 +21,14 @@ To view the dashboard your browser must allow third-party cookies.
 - [MRARR Diagnostics](https://10az.online.tableau.com/t/gitlab/views/MRARRDiagnostics/MRARRDiagnostics)
   - Identifies MRs from customers that are not being tracked yet
   - Identifies projects with contributions that are not being tracked yet
-  - See [Contributing Orgs tracker](/handbook/marketing/developer-relations/contributor-success/contributing-org-tracker.html) for details
+  - See [Contributing Orgs tracker](/handbook/marketing/developer-relations/contributor-success/contributing-org-tracker/) for details
 
 ## Tableau dashboard
 
 ### `product_community_contribution_mrs`
 
 Merge requests with ~"Community contribution" label, opened in
-[projects that are part of the product](/handbook/engineering/metrics/#projects-that-are-part-of-the-product).
+[projects that are part of the product](/handbook/product/groups/product-analysis/engineering/dashboards/#projects-that-are-part-of-the-product).
 
 The results include MR type, MR age, MR labels, MR stage, MR group, MR section.
 

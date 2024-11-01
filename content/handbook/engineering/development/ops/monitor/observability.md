@@ -65,9 +65,9 @@ Updates and highlights from all teams in Ops are collected automatically [here](
 
 We use several Slack channels to organize ourselves:
 
-* Primary channel: [#g_observability](https://gitlab.slack.com/archives/C02Q93U8J07)
-* Standup channel: [#g_observability_standup](https://gitlab.slack.com/archives/C02VAHG10HW)
-* Social channel: [#g_observability_random](https://gitlab.slack.com/archives/C02QLQUB0JZ)
+* Primary channel: [#g_monitor_platform_insights](https://gitlab.enterprise.slack.com/archives/C02Q93U8J07)
+* Standup channel: [#g_monitor_platform_insights_standup](https://gitlab.enterprise.slack.com/archives/C02VAHG10HW)
+* Social channel: [#g_monitor_platform_insights_internal](https://gitlab.enterprise.slack.com/archives/C02QLQUB0JZ)
 
 ### How we do planning?
 
@@ -77,10 +77,10 @@ Milestone starting date is defined in [gitlab.org group milestones](https://gitl
 
 Milestone Planning timeline:
 
-* 10 days before milestone starting date: Planning [draft issue](https://gitlab.com/gitlab-org/opstrace/general/-/issues/?sort=updated_desc&state=all&label_name%5B%5D=Planning%20Issue&first_page_size=20) is created by PM/EM, with high level milestone goals.
+* 10 days before milestone starting date: Planning [draft issue](https://gitlab.com/groups/gitlab-org/opstrace/-/epics/80) is created by PM/EM, with high level milestone goals.
 * 8 days before milestone starting date: Planning draft is shared with team. Individual contributors recommend epics and issues related to these goals or carried over from previous milestones.
 * 5 days before milestone starting date: Planning is reviewed during team sync meeting.
-* On milestone starting date: Milestone goals and related epics and issues should be finalized and prioritized. All planned work can be seen on the [Planning Board](https://gitlab.com/groups/gitlab-org/opstrace/-/boards/3657448) Previous milestone issues are moved to the new milestone or backlog.
+* On milestone starting date: Milestone goals and related epics and issues should be finalized and prioritized. All planned work can be seen on the [Milestone Board](https://gitlab.com/groups/gitlab-org/-/boards/7850744) Previous milestone issues are moved to the new milestone or backlog.
 * During the milestone, we analyze progress and reprioritize as needed.
 
 ### How to find something to work on?
@@ -89,14 +89,17 @@ Normally at the beginning of the Milestone the EM will discuss an overview of th
 
 If you are ever looking for additional issues to work on:
 
-1. Look at the [Development board](https://gitlab.com/groups/gitlab-org/opstrace/-/boards/4463190)
-2. Identify an issue in the Ready for Development or Open columns that are unassigned.
-3. Assign yourself to the issue.
-4. Add a `workflow:in dev` label to the issue
-5. If the scope or description are unclear, connect with the EM and or PM for clarification or (if feeling confident) groom the issue yourself and proceed.
-6. Begin working on the issue.
-7. Once you are done with the issue, make sure any relevant MRs are linked and close the issue.
-8. Repeat.
+1. Look at the Platform Insight [Milestone board](https://gitlab.com/groups/gitlab-org/-/boards/7850744)
+1. Identify an issue that is unassigned.
+1. Assign yourself to the issue.
+1. Add a `workflow:in dev` label to the issue
+1. If the scope or description are unclear, connect with the EM and or PM for clarification or (if feeling confident) groom the issue yourself and proceed.
+1. Begin working on the issue.
+1. Once all relevent MRs are merged, set the `~workflow::verification` label.
+    * Ensure any MRs do not auto-close issues. (Use `Relates to #11111` rather than `Closes #11111` in MR descriptions.)
+1. Verify the changes and comment on the issue which environment you used for verification, for example `Verified on production`.
+1. Close the issue! 🎉
+1. Repeat.
 
 ### How to enable Observability Beta for a customer?
 
@@ -109,15 +112,13 @@ For SaaS:
 * In #production, run the following commands to enable the feature flags for this group (replace `gitlab-org` by the customer's group name):
 
 ```text
-/chatops run feature set --group=gitlab-org observability_tracing true
-/chatops run feature set --group=gitlab-org observability_metrics true
-/chatops run feature set --group=gitlab-org observability_logs true
+/chatops run feature set --group=gitlab-org observability_features true
 ```
 
 To see the list of groups that have been already enabled, you can run the following command:
 
 ```text
-/chatops run feature get observability_tracing
+/chatops run feature get observability_features
 ```
 
 The list returns group IDs and not group names though. To know a group's ID, browse to the group's page ([example](https://gitlab.com/gitlab-org/)), open the "..." menu on the top-right of the page and select "Copy group ID". If you don't have access to the group, ask the customer to do it.

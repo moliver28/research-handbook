@@ -7,10 +7,9 @@ coach: ""
 approvers: [ "@nduff", "@stejacks-gitlab", "@abrandl" ]
 owning-stage: "~devops::platforms"
 participating-stages: []
+toc_hide: true
 ---
 
-<!-- Blueprints often contain forward-looking statements -->
-<!-- vale gitlab.FutureTense = NO -->
 {{< design-document-header >}}
 
 ## Summary

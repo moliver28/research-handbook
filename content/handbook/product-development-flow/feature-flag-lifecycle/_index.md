@@ -36,6 +36,9 @@ For perspective on why we limit our use of feature flags please watch the video
 
 In case you are uncertain whether feature flag is necessary, please ask about this early in your merge request review process, and reviewers will likely provide you with an answer.
 
+**NOTE**:
+[Feature flags are not supported in GitLab Dedicated](https://docs.gitlab.com/ee/development/enabling_features_on_dedicated.html#feature-flags).
+
 ## The benefits of feature flags
 
 <details>

@@ -42,7 +42,7 @@ title: Learning & Development
 
 We are a small team, but we've got a big role to play at GitLab!
 
-- [Learning and Development Director](/job-families/people-group/learning-development#learning--development-manager): [Tre Ely]({{/handbook.gitlab.com/handbook/company/team/#tely2}})
+- [Learning and Development Director](/job-families/people-group/learning-development#learning--development-manager): [Tre Ely]({{/handbook/company/team/#tely2}})
 - [Senior Learning and Development Program Manager](/job-families/people-group/learning-development#intermediate-learning--development-program-manager): [Samantha Lee](/handbook/company/team/#slee24)
 - [Learning and Development Program Manager](/job-families/people-group/learning-development#intermediate-learning--development-program-manager): [Jamie Allen](/handbook/company/team/#jallen16)
 
@@ -53,7 +53,7 @@ The Learning & Development team has a number of resources to help team members l
 <div class="flex-row" markdown="0">
   <div>
     <a href="{{< ref "manager-development" >}}" class="btn btn-primary" style="width:200px;margin:5px;">Transitioning to a Manager Role</a>
-    <a href="/handbook/total-rewards/benefits/general-and-entity-benefits/growth-and-development" class="btn btn-primary" style="width:200px;margin:5px;">Growth & Development Benefit</a>
+    <a href="/handbook/people-group/learning-and-development/growth-and-development/" class="btn btn-primary" style="width:200px;margin:5px;">Growth & Development Fund</a>
     <a href="{{< ref "career-development" >}}" class="btn btn-primary" style="width:200px;margin:5px;">Career Development & Mobility</a>
   </div>
 </div>
@@ -93,7 +93,7 @@ The Learning & Development team has a number of resources to help team members l
 
 Multiple teams across the company contribute to learning and development of our team members. Below is a list of some teams we partner with and how we collaborate.
 
-1. Education Services: Share sustomer & product training with team members on Level Up
+1. Education Services: Share customer & product training with team members on Level Up
 1. Talent Brand: Telling career growth stories
 1. People Operations: Measuring imapct of learning and development on team member engagement
 1. Select Department Subject Matter Experts: Legal, Compliance, and other specific courses

@@ -90,14 +90,18 @@ The brand and design team is now the Brand Activation team under Corporate Marke
 
 Overarching Inbound Marketing Boards
 
-### [Triage Board](https://gitlab.com/groups/gitlab-com/-/boards/1761578?&label_name%5B%5D=mktg-inbound&label_name%5B%5D=mktg-status%3A%3Atriage)
+### Triage Board
+
+[Triage Board](https://gitlab.com/groups/gitlab-com/-/boards/1761578?&label_name%5B%5D=mktg-inbound&label_name%5B%5D=mktg-status%3A%3Atriage)
 
 - **GOAL:** Weed out issues that superfluous or don't contain extra information
 - **ACTIONS:** Move to either
   - Move to either `mktg-status:PLAN` which puts into the Sprint cycle or;
   - [mktg-status: blocked] and comment why it is being blocked
 
-### [Sprint Board](https://gitlab.com/groups/gitlab-com/-/boards/1761580?label_name%5B%5D=mktg-inbound&label_name%5B%5D=mktg-status%3A%3Awip)
+### Sprint Board
+
+[Sprint Board](https://gitlab.com/groups/gitlab-com/-/boards/1761580?label_name%5B%5D=mktg-inbound&label_name%5B%5D=mktg-status%3A%3Awip)
 
 - **GOAL:** Assign issues to milestones to be worked on then based on due dates, weights, priorities, resources
 - **ACTIONS:**
@@ -112,7 +116,9 @@ Overarching Inbound Marketing Boards
   - Comment why it is backlogged
   - Never backlog PR issues without prior discussion
 
-### [Inbound Marketing Leads Overview](https://gitlab.com/groups/gitlab-com/-/boards/1787553?milestone_title=%23started&&label_name%5B%5D=mktg-inbound&label_name%5B%5D=mktg-status%3A%3Awip)
+### Inbound Marketing Leads Overview
+
+[Inbound Marketing Leads Overview](https://gitlab.com/groups/gitlab-com/-/boards/1787553?milestone_title=%23started&&label_name%5B%5D=mktg-inbound&label_name%5B%5D=mktg-status%3A%3Awip)
 
 - **GOAL:** An overview of the work on each of the Inbound Marketing Teams during the current Milestone Sprint
 - **ACTIONS:**

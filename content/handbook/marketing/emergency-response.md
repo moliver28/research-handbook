@@ -15,7 +15,7 @@ At times GitLab needs to communicate a "breaking" change or details related to a
 1. Review the S1 coverage matrix below and assign the issue and tag the coverage owner closest available per their timezone in the #mktgops Slack channel.
 1. If there is not a timely response in Slack, please review the coverage owners' Slack profile and send them a quick call or text. If no timely response, tag @mktg-ops within the #mktgops Slack channel or use escalation path below.
 1. In the template the requesting team will include details including CTA, email body, send date and **provide link to Google sheet containing list**.
-1. If security, make sure to follow [instructions](/handbook/security/security-operations/sirt/security-incident-communication-plan.html#roles-and-responsibilities-in-a-security-incident)
+1. If security, make sure to follow [instructions](/handbook/security/security-operations/sirt/security-incident-communication-plan/#roles-and-responsibilities-in-a-security-incident)
 
 ### Coverage Matrix
 
@@ -60,7 +60,7 @@ For Marketing Operations - When OOO/PTO please add this to the backup team membe
 * Creating [Email request issue](https://gitlab.com/gitlab-com/marketing/marketing-operations/-/issues/new?issuable_template=incident_communications)
 * Providing approval list and who signs off on the email
   * Legal, Customer Service VP and VP of the function who is initiating the communication (i.e., Security, Engineering, Infrastructure) are required to sign off
-* [Notifying affected field teams](/handbook/security/security-operations/sirt/security-incident-communication-plan.html#communicating-internally) (Customer Success, CSM, SAE/AE, SA, Professional Services)
+* [Notifying affected field teams](/handbook/security/security-operations/sirt/security-incident-communication-plan/#communicating-internally) (Customer Success, CSM, SAE/AE, SA, Professional Services)
   * Also make sure to notify #sales and #customer-success before email is set to go out
 * Approving test email
 * Providing any edits to the test email
@@ -96,6 +96,7 @@ This is the process to follow when there is an announcement that is an emergency
    * Fill in as many blanks as you can with as much information as you have available - the issue template will walk you through what is needed. Feel free to add any additional context that may be helpful. If you do not have all the information, that is OK, as we know it is an ongoing development.
    * Add Due Date (or best guess)
    * Include googledoc of copy document, even if it is blank. Use [this template](https://docs.google.com/document/d/1J_prQ8rXRqEcPWxKd1YH4ANGP5UjMPoAfnjpY8ty0XE/edit)
+        * Please make sure to review the copy for any [RED Data](/handbook/support/workflows/sending_notices).
    * Include approx size of the list - this will determine what email platform we will use and helps immensely in our planning. Over estimate when you are unsure.
    * If you are requesting a list, create an [issue](https://gitlab.com/gitlab-com/marketing/marketing-strategy-performance/-/issues/new?issuable_template=list-request) with the Marketing Strategy team and relate it to the issue you just created.
    * Include any custom fields you need created for `mail-merge` in the email. Include field max lengths needed, or best guess. Mktops will determine if they can use an existing field or not.
@@ -143,6 +144,7 @@ This is the process to follow when there is an announcement that is an emergency
 * List loads greater than 20k take time. 100k+ may take hours/days.
 * Each platform has their own limits as to size of CSV that can be uploaded.
 * Lists greater than 100k may be subject to verification, so that we do not risk our sending reputation.
+* Avoid listing any [RED Data](/handbook/support/workflows/sending_notices) in `mail-merge` fields
 
 ## Other considerations and questions for requestors
 

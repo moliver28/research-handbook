@@ -1,5 +1,4 @@
 ---
-aliases: /handbook/engineering/open-source/growth-strategy.html
 title: "Open Source Growth Strategy"
 ---
 

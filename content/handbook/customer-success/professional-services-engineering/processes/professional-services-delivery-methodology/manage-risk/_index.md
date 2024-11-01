@@ -11,8 +11,13 @@ description: "Learn about managing reports around project wins, Business Develop
 * While the RAID is created, managed, and reported by the PM, **the internal & Customer team is encouraged to be updated the RAID as we work through Project challenges and mitigations**
 * [Example](https://gitlab.com/gitlab-com/customer-success/professional-services-group/professional-services-delivery/gitlab-professional-services/southwest/sow-2206/-/issues/8 "SWA RAID Log")
 
-[Reporting on Risk](https://gitlab.com/groups/gitlab-com/customer-success/professional-services-group/-/issues/?sort=updated_desc&state=opened&label_name%5B%5D=Escalated&first_page_size=20) via RAID
+Reporting on Risk via RAID
 
+* When creating a Risk, the following labels will be applied: "PS RAID Log" "PS Risk" "PSD Workflow::Not Started"
+* Severity should be defined and added as a label "PS:: Priority High" "PS:: Priority Medium" "PS:: Priority Low"
+* Impact will be quantified through impacts to Timeline, Scope, Quality, or Budget
+* An Owner will be assigned as a person responsible for accepting, mitigating, or resolving the Risk.
+* Mitigation plan will be detailed to lessen or eliminate the Risk.
 * Use the label “Escalated” to create immediate attention as it impacts the progress of the project. For internal visibility, the RAID link is included in the Top Customer Report when a project is Y/R
 * [Escalated items can be found here.](https://gitlab.com/groups/gitlab-com/customer-success/professional-services-group/-/issues/?sort=updated_desc&state=opened&label_name%5B%5D=Escalated&first_page_size=20)
 

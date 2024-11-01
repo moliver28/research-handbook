@@ -5,7 +5,9 @@ description: >-
   and buying process of GitLab
 ---
 
-## "You should expect excellence of yourself, teammates, and managers in your role. We will be excellent if we expect it."
+## Overview
+
+> "You should expect excellence of yourself, teammates, and managers in your role. We will be excellent if we expect it."
 
 Small and Medium Size Business Account Executives "SMB AE" act as Account Executives and the face of GitLab for SMB prospects and customers. They are the primary point of contact for companies that employ between [1 to 99 employees](/handbook/sales/field-operations/gtm-resources/). These GitLab team members are responsible for working new business in their territory as well as handling the customer journey for new and existing customers. SMB Account Executives will assist prospects through their GitLab evaluation and buying process and will be the customer's point of contact for any renewal and expansion discussions.
 
@@ -83,7 +85,7 @@ Additionally, [quarterly subscription reconciliations](/handbook/support/license
 The GitLab usage phases are broken down into the following:
 
 - Implementation: 12-9 months left
-- Adoption 9-6 months left ([Live Optimization](/handbook/sales/commercial/smb/live-optimization/))
+- Adoption 9-6 months left 
 - Expansion 6-3 months left
 - Renewal less than 3 months left
 
@@ -153,7 +155,6 @@ Customer success planning should be broken into three categories based off the p
 ### Solutions Architect & Customer Success Manager Rules of Engagement
 
 - Follow the [Commercial Sales standards](/handbook/customer-success/comm-sales/#additional-engagement-guidelines-for-sales) for engaging a Customer Success Manager or Solution Architect into the conversation with a customer or prospect.
-- Consider a [Live Optimization Session](/handbook/sales/commercial/smb/live-optimization/) with a Solutions Architect.
 - If limited on resources, encourage clients to submit questions to the following communities:
   - Community Forum: https://forum.gitlab.com/
   - Reddit: https://www.reddit.com/r/gitlab/

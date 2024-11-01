@@ -34,7 +34,7 @@ In backup and recovery, there are two SLOs:
 The backup strategy is to take a daily snapshot of the full database
 (basebackup) and store this in Google Cloud Storage. Additionally, we capture the
 write-ahead log data in GCS to be able to perform point-in-time recovery
-(PITR) using one of the basebackups. [Read more on Disaster Recovery](/handbook/engineering/infrastructure/database/disaster_recovery.html)
+(PITR) using one of the basebackups. [Read more on Disaster Recovery](/handbook/engineering/infrastructure/database/disaster_recovery/)
 
 For `DB-DR-TTR` we need to consider worst-case scenarios with the
 latest backup being 24 hours old. Hence recovery time includes the time
@@ -98,7 +98,7 @@ Basically everything under <https://docs.gitlab.com/ee/development/#databases>, 
 - [What requires downtime?](https://docs.gitlab.com/ee/update/with_downtime.html)
 - [Adding database indexes](https://docs.gitlab.com/ee/development/database/adding_database_indexes.html)
 - [Post Deployment Migrations](https://docs.gitlab.com/ee/development/database/post_deployment_migrations.html)
-- [Background Migrations](https://docs.gitlab.com/ee/development/database/background_migrations.html)
+- [Background Migrations](https://docs.gitlab.com/ee/development/database/batched_background_migrations.html)
 - [SQL Migration Style Guide](https://docs.gitlab.com/ee/development/migration_style_guide.html)
 - [SQL Query Guidelines](https://docs.gitlab.com/ee/development/sql.html)
 - [Infrastructure runbooks and documentation](https://gitlab.com/gitlab-com/runbooks#postgresql)

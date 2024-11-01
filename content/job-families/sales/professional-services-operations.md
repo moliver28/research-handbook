@@ -260,7 +260,7 @@ To be drafted as the need for this specialty arises
 
 The Manager, Professional Services Operations reports to Sr. Director, Professional Services
 
-#### Manager, Professional Services Operations Job Grade is a [grade 8](/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades)
+Manager, Professional Services Operations Job Grade is a [grade 8](/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades)
 
 #### Manager, Professional Services Operations Responsibilities
 
@@ -290,7 +290,7 @@ Works with finance, sales and the PS leadership to ensure effective use and adop
 
 ### Senior Manager, Professional Services Operations
 
-#### Senior Manager, Professional Services Operations Job Grade is a [grade 9](/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades)
+Senior Manager, Professional Services Operations Job Grade is a [grade 9](/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades)
 
 #### Senior Manager, Professional Services Operations Responsibilities
 
@@ -302,7 +302,7 @@ Works with finance, sales and the PS leadership to ensure effective use and adop
 
 ### Global Services Partners Manager
 
-#### Global Services Partners Manager Job Grade is a [grade 6](/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades)
+Global Services Partners Manager Job Grade is a [grade 6](/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades)
 
 #### Global Services Partners Manager Responsibilities
 
@@ -333,7 +333,7 @@ Works with finance, sales and the PS leadership to ensure effective use and adop
 
 ### Senior Global Services Partners Manager
 
-#### Senior Global Services Partners Manager [grade 7](/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades)
+Senior Global Services Partners Manager [grade 7](/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades)
 
 #### Senior Global Services Partners Manager Responsibilities
 

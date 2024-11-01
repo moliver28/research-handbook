@@ -1,5 +1,5 @@
 ---
-title: Gitaly Adaptive Concurrency Limit
+title: "Gitaly Adaptive Concurrency Limit"
 status: proposed
 creation-date: "2023-05-30"
 authors: [ "@qmnguyen0711" ]

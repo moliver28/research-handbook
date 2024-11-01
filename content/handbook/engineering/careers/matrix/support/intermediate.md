@@ -39,7 +39,7 @@ title: "Support Career Framework: Intermediate Support Engineer"
 - Knows where erroneous behaviors are likely to be logged and uses
   standard tooling efficiently to observe application behaviors.
 - Is able to trace application behavior through GitLab codebase.
-- Self-assigns issues according to the [Working on Tickets Flowchart](/handbook/support/workflows/working-on-tickets.html#working-on-tickets-flowchart).
+- Self-assigns issues according to the [Working on Tickets Flowchart](/handbook/support/workflows/working-on-tickets/#working-on-tickets-flowchart).
 
 ### Values Alignment
 

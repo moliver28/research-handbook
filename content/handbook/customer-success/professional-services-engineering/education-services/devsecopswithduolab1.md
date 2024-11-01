@@ -1,9 +1,9 @@
 ---
-title: "DevSecOps with GitLab Duo - Hands-On Lab: Getting Started with GitLab Duo"
+title: "GitLab Duo Principles - Hands-On Lab: Getting Started with GitLab Duo"
 description: "This Hands-On Guide walks you through using GitLab Duo to answer technical questions."
 ---
 
-> Estimated time to complete: 15 minutes
+> Estimated time to complete: 10 minutes
 
 ## Objectives
 
@@ -17,9 +17,9 @@ GitLab Duo allows you to use AI-assisted features across GitLab. To get started 
 
 1. Select **Provision Training Environment**.
 
-1. The system then prompts you for your **GitLab.com** username. Enter your GitLab.com user (excluding the leading @ sign) in the field provided. Select **Provision Training Environment**.
+1. The system will prompt you for your **GitLab.com** username. Enter your GitLab.com username (excluding the leading @ sign) in the field provided. Select **Provision Training Environment**.
 
-1. On the confirmation page, locate the `Your GitLab Credentials` section. Read this section carefully, noting the credential information provided and the expiration date. Your access to this group and all of the projects that you create is ephemeral and will be deleted after the expiration date.
+1. On the confirmation page, locate the `Your GitLab Credentials` section. Read this section carefully, noting the expiration date. Your access to this group and all of the projects that you create is ephemeral and will be deleted after the expiration date.
 
 1. Select **My Group** at the bottom of the page.
 
@@ -29,7 +29,7 @@ GitLab Duo allows you to use AI-assisted features across GitLab. To get started 
 
     > This group has a GitLab Ultimate license to see all of the features while your personal username namespace requires a paid subscription or a free trial to access all of the features.
 
-1. From your **My Test Group** training subgroup, navigate to the GitLab Duo Principles Project.
+1. From your **My Test Group** training subgroup, navigate to the **GitLab Duo Principles** project.
 
     > This project has been pre-populated with a `go.mod` file that will be used in upcoming labs. It also contains an `examples` folder that holds additional examples and activities per lab.
 
@@ -39,7 +39,7 @@ GitLab Duo allows you to use AI-assisted features across GitLab. To get started 
 
 Here are a few demo questions you can ask Duo:
 
-- `How do I move an Issue from one project to another?`
+- `How do I move an issue from one project to another?`
 - `What is a merged results pipeline?`
 - `What is an example of a simple Python function?`
 

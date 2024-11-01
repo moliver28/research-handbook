@@ -66,7 +66,7 @@ You will have the opportunity to help shape and execute a strategy to help the C
 - Proven track record in software/technology sales or consulting
 - [Leadership at GitLab](/handbook/company/structure/#management-group)
 - Ability to use GitLab
-- Ability to travel if needed and comply with the company's [travel policy](/handbook/travel/)
+- Ability to travel if needed and comply with the company's [travel policy](/handbook/finance/travel/)
 
 {{% job-families/sales/performance %}}
 

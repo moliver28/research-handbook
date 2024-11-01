@@ -41,7 +41,7 @@ Customer Success playbooks assist in selling, driving adoption, and ultimately d
 
 ## Catalog of Playbooks
 
-The following playbooks are aligned to our [customer adoption journey](/handbook/customer-success/vision/#high-level-visual-of-gitlab-adoption-journey) and support adoption of the related customer capability and [GitLab stage](/handbook/product/categories/). Within Gainsight, the CSM can manually add any Playbook ([instructions](/handbook/customer-success/csm/gainsight/#ctas)) to a Customer.
+The following playbooks are aligned to our [customer adoption journey](/handbook/customer-success/customer-success-vision/#high-level-visual-of-gitlab-adoption-journey) and support adoption of the related customer capability and [GitLab stage](/handbook/product/categories/). Within Gainsight, the CSM can manually add any Playbook ([instructions](/handbook/customer-success/csm/gainsight/#ctas)) to a Customer.
 
 | Playbook Name                                                   | Automated/Manual | Type            | Internal Reference Link                                      |
 |-----------------------------------------------------------------|------------------|-----------------|--------------------------------------------------------------|
@@ -61,9 +61,9 @@ The following playbooks are aligned to our [customer adoption journey](/handbook
 | Usage Data Enablement                                           | Manual           | Lifecycle       | [Service Ping FAQ](/handbook/customer-success/csm/service-ping-faq/)                                               |
 | Agile Enablement Stage Adoption                                 | Manual           | Objective       |                                                              |
 | Agile Expansion Stage Enablement                                | Manual           | Objective       |                                                              |
-| CD Enablement Stage Adoption                                    | Manual           | Objective       | [Continuous Delivery/Release](/handbook/customer-success/playbooks/cd-release.html)                                  |
+| CD Enablement Stage Adoption                                    | Manual           | Objective       | [Continuous Delivery/Release](/handbook/customer-success/playbooks/cd-release/)                                  |
 | CD Expansion Stage Adoption                                     | Manual           | Objective       |                                                              |
-| CI Enablement Stage Adoption                                    | Manual           | Objective       | [Continuous Integration/Verify](/handbook/marketing/brand-and-product-marketing/product-and-solution-marketing/usecase-gtm/ci/) <br> [CSM CI Workshop](/handbook/customer-success/playbooks/ci-verify.html)               |
+| CI Enablement Stage Adoption                                    | Manual           | Objective       | [Continuous Integration/Verify](/handbook/marketing/brand-and-product-marketing/product-and-solution-marketing/usecase-gtm/ci/) <br> [CSM CI Workshop](/handbook/customer-success/playbooks/ci-verify/)               |
 | CI Expansion Stage Adoption                                     | Manual           | Objective       |                                                              |
 | Configure Enablement Stage Adoption                             | Manual           | Objective       |                                                              |
 | Configure Expansion Stage Adoption                              | Manual           | Objective       |                                                              |

@@ -1,5 +1,5 @@
 ---
-title: Repository X-Ray RAG
+title: "Repository X-Ray RAG"
 status: ongoing
 creation-date: "2024-04-23"
 authors: [ "@mikolaj_wawrzyniak" ]

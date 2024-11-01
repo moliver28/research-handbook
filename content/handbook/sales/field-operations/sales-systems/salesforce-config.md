@@ -9,7 +9,7 @@ The purpose of this page is to document configuration of our SFDC org. This will
 
 ### Salesforce Provisioning
 
-For roles that should automatically receive Salesforce access your account and permissions will be automatically created by Okta. For anyone else who needs Salesforce access for their job responsibilities, please open an [Access Request](/handbook/business-technology/end-user-services/onboarding-access-requests/access-requests/).
+For roles that should automatically receive Salesforce access your account and permissions will be automatically created by Okta. For anyone else who needs Salesforce access for their job responsibilities, please open an [Access Request](/handbook/it/end-user-services/onboarding-access-requests/access-requests/).
 
 ### Salesforce De-Provisioning
 
@@ -47,4 +47,4 @@ The Salesforce knowledge base has [a resource](https://help.salesforce.com/artic
 
 ### SFDC Backups
 
-Our Salesforce Backup solution is [Ownbackup](https://www.ownbackup.com/). There compliance information is located [here](https://www.ownbackup.com/trust/).
+Our Salesforce Backup solution is [Ownbackup](https://www.ownbackup.com/). There compliance information is located [here](https://www.owndata.com/trust).

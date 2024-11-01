@@ -1,5 +1,5 @@
 ---
-title: Pipeline data partitioning design
+title: "Pipeline data partitioning design"
 status: ongoing
 creation-date: "2022-05-31"
 authors: [ "@grzesiek" ]
@@ -9,7 +9,6 @@ owning-stage: "~devops::verify"
 toc_hide: true
 ---
 
-<!-- vale gitlab.FutureTense = NO -->
 {{< design-document-header >}}
 
 ## Context

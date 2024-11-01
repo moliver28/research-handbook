@@ -117,7 +117,7 @@ Pointing you to this handbook page serves as our mechanism to provide the requir
 
 ### Pennsylvania
 
-- [Unemployment Compensation UC-1609](https://www.uc.pa.gov/Documents/UC_Forms/UC-1609.pdf)
+- [Unemployment Compensation UC-1609](https://www.pa.gov/content/dam/copapwp-pagov/en/hrmoa/documents/hire-sep/separating/documents/uc-1609-benefits-employer-form.pdf)
 
 ### Rhode Island
 
@@ -141,7 +141,7 @@ Pointing you to this handbook page serves as our mechanism to provide the requir
 
 ### Washington
 
-- [Unemployment Benefits Poster](https://esdorchardstorage.blob.core.windows.net/esdwa/Default/ESDWAGOV/about-employees/ESD-unemployment-benefits-poster.pdf)
+- [Unemployment Benefits Poster](https://media.esd.wa.gov/esdwa/Default/ESDWAGOV/about-employees/ESD-unemployment-benefits-poster.pdf)
 
 ### West Virginia
 

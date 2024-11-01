@@ -1,5 +1,4 @@
 ---
-aliases: /handbook/engineering/infrastructure/core-platform/data_stores/database/doc/workload-analysis.html
 title: Workload analysis for GitLab.com
 ---
 

@@ -42,6 +42,6 @@ According to Lee Matos:
 >
 > We ran into problems with org sync. Solved a bunch then some more.
 >
-> We recreated sfdc sync for the [Global Support instance](/handbook/support/support-ops/responsibilities.html#account---organization-sync-from-salesforce) and [US Federal instance](/handbook/support/support-ops/responsibilities.html#sfdcus-federal-zendesk-sync) and are still just syncing orgs.
+> We recreated sfdc sync for the [Global Support instance](/handbook/support/support-ops/responsibilities/#account---organization-sync-from-salesforce) and [US Federal instance](/handbook/support/support-ops/responsibilities/#sfdcus-federal-zendesk-sync) and are still just syncing orgs.
 >
 > There is a push (rightfully so) to lock it down and improve our wall/first time unknown user flow. If someone can get that over the line I think that GitLab support engineering leadership has no good reason to keep it "open access" at the moment and we support changing it. (I'm speaking out of turn — I'm stating this as fact but it's my opinion.)

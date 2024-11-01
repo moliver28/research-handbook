@@ -20,9 +20,9 @@ Traditional sales typically bypasses understanding the customer. Traditional sal
 
 ### 1.1 Research
 
-#### 1.1.1 [Determine your Buyer Persona](/handbook/marketing/brand-and-product-marketing/product-and-solution-marketing/roles-personas/buyer-persona/)
+#### 1.1.1 Determine your Buyer Persona
 
-A buyer persona is a fictional representation of your key buyers. This helps you pre-identify obstacles, objections, initiatives, and metrics that are important to your buyer. This step will give you an edge in understanding your customers better than your competition. There are typically 5 buyer personas you may encounter.
+A [buyer persona](/handbook/marketing/brand-and-product-marketing/product-and-solution-marketing/roles-personas/buyer-persona/) is a fictional representation of your key buyers. This helps you pre-identify obstacles, objections, initiatives, and metrics that are important to your buyer. This step will give you an edge in understanding your customers better than your competition. There are typically 5 buyer personas you may encounter.
 
 - Technology Leader
 - Business Application Leader
@@ -117,12 +117,12 @@ Scoping represents an opportunity to discuss customer requirements in more detai
 1. **Analyze** the updated requirements against GitLab products to determine a fit assessment. If a fit is determined, initiate a Technical Evaluation.
 1. **[Identify Opportunities to Sell Professional Services](/handbook/customer-success/professional-services-engineering/selling/)**. The SAE/ISR can find the general services the PS team offers on the services page or for more details specific SKU offerings, on the full catalog. The SAE/ISR can pull the SA in for help selecting services needed based on customer requirements.
 
-## Step 3: [Technical Evaluation](/handbook/customer-success/comm-sales/customer-buyer-journey.html#step-2-technical-evaluation)
+## Step 3: Technical Evaluation
 
-Technical evaluation is where the prospective customer evaluates the fit of GitLab to their organization and their specific business outcomes. This may be driven by a Lite POV, a free trial, real time or asynchronous Q&A, a workshop and/or other approach requiring technical guidance from an SA. If Discovery did not include the SA, the AE should follow the triage process to engage an SA for the opportunity, filling out the issue template and providing [MEDDPPICC](/handbook/sales/meddppicc/) information as well as the known required capabilities in Salesforce. The following are tasks the SA must review and manage during technical evaluation.
+[Technical evaluation](/handbook/customer-success/comm-sales/customer-buyer-journey/#step-2-technical-evaluation) is where the prospective customer evaluates the fit of GitLab to their organization and their specific business outcomes. This may be driven by a Lite POV, a free trial, real time or asynchronous Q&A, a workshop and/or other approach requiring technical guidance from an SA. If Discovery did not include the SA, the AE should follow the triage process to engage an SA for the opportunity, filling out the issue template and providing [MEDDPPICC](/handbook/sales/meddppicc/) information as well as the known required capabilities in Salesforce. The following are tasks the SA must review and manage during technical evaluation.
 
 1. **Update Customer Requirements documents** and review Google Docs and Salesforce for running meeting notes with customer environment and technical specifications.
-1. **Setup a free trial of GitLab** based on the following [Technical Evaluation Criteria](/handbook/customer-success/comm-sales/customer-buyer-journey.html#responsibilities-1).
+1. **Setup a free trial of GitLab** based on the following [Technical Evaluation Criteria](/handbook/customer-success/comm-sales/customer-buyer-journey/#responsibilities-1).
 1. **Create a solution design blueprint** from requirements gathering, tech discovery, and customer meta-records.
 1. **Create a [Proof of Value](/handbook/solutions-architects/tools-and-resources/pov)** when necessary which focuses on specific customer business outcomes that cannot be achieved through other technical and/or business interactions.
 1. **Submit a Proof of Value** (PoV/PoC) plan to stakeholders for approval.
@@ -131,7 +131,7 @@ Technical evaluation is where the prospective customer evaluates the fit of GitL
 
 [Command of the Message](/handbook/sales/command-of-the-message/) is defined as "being audible ready to define solutions to customers' problems in a way that differentiates you from your competitors & allows you to charge a premium for your products & services." This means you must in many ways understand the customers pain points and goals better than they do and speak to real solutions. The solution is presented to the customer through a pitch deck.
 
-At this point, it may also be beneficial to egage the [Risk and Field Security Team](/handbook/security/security-assurance/field-security/) to provide security assurance support. Prior to making a financial commit, many customers will require security due diligence. The AE, SAE or SA may utilize the [Customer Assurance Package](/handbook/security/security-assurance/field-security/customer-assurance-package.html) for self-service resources or request assistance through the [Customer Assurance Activities Procedure](/handbook/security/security-assurance/field-security/customer-security-assessment-process.html).
+At this point, it may also be beneficial to egage the [Risk and Field Security Team](/handbook/security/security-assurance/field-security/) to provide security assurance support. Prior to making a financial commit, many customers will require security due diligence. The AE, SAE or SA may utilize the [Customer Assurance Package](/handbook/security/security-assurance/field-security/customer-assurance-package/) for self-service resources or request assistance through the [Customer Assurance Activities Procedure](/handbook/security/security-assurance/field-security/customer-security-assessment-process/).
 
 ### 3.1 When to present the GitLab Demonstration
 

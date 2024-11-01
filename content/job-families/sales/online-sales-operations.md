@@ -6,13 +6,13 @@ The Self-Service Operations function is part of a team focused on building an ea
 
 ## Levels
 
-## Senior Analyst, Online Sales & Self Service Product GTM
+## Senior Analyst, Global Digital SMB Product GTM
 
-This role reports to the Director, Self Service Growth.
+This role reports to the Sr. Manager, Global Digital SMB Growth.
 
 ### Job Grade
 
-The Senior Analyst, Online Sales & Self Service Product GTM is a [grade 7](/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades).
+The Senior Analyst, Global Digital SMB Product GTM is a [grade 7](/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades).
 
 ### Responsibilities
 
@@ -32,7 +32,7 @@ Act as application expert for sales teams to bring questions and issues
 - Strong analytical and problem-solving skills
 - Resourcefulness to get things done cross-functionally, prioritize multiple projects, and project-manage
 - Self-starter, detail-oriented and comfortable working in a fast-paced/dynamic environment
-- Experience and knowledge of B2B enterprise SaaS tools (e.g. Salesforce, Zendesk, Drift)
+- Experience and knowledge of B2B enterprise SaaS tools (for example: Salesforce, Zendesk, Drift)
 - Lives and breathes process improvement and optimization
 - Willingness to learn and use GitLab
 - You share our values and work by those values
@@ -41,23 +41,23 @@ Act as application expert for sales teams to bring questions and issues
 
 - Sales teams time back to selling.  Achieved through: owning customer outreach strategy, single point of contact for sales, user acceptance testing to prevent production issues, effective sales enablement.
 - Customer experience and adoption with new account management features.
-- Issue resolution and customer-facing SLAs related to account management feature rollouts (e.g., time to resolution).
+- Issue resolution and customer-facing SLAs related to account management feature rollouts
 
-## Analyst, Online Sales & Self Service Operations
+## Analyst, Global Digital SMB Operations
 
-This role reports to the Director, Self Service Growth.
+This role reports to the Sr. Manager, Global Digital SMB Data and Analytics.
 
 ### Job Grade
 
-The Analyst, Online Sales & Self Service Operations is a [grade 6](/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades).
+The Analyst, Global Digital SMB Operations is a [grade 6](/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades).
 
 ### Responsibilities
 
-- Develop and rollout frameworks, processes and metrics to support, stand-up and grow a newly created team
-- Partner with enterprise systems, marketing operations, sales operations and other cross-functional groups to deliver the right tools, experiences and processes to optimize for self-service
-- Build, monitor and maintain dashboards and reports, all the way from running the day-to-day of the business to ensuring executive visibility
-- Proactively and reactively identify, analyze, troubleshoot, escalate, triage and resolve business-stopping customer-facing issues through partnership with engineering and product teams
-- Actively engage with sales and customer-facing teams to identify customer self-service opportunities and gaps. Influence the self-service product backlog based on data, customer feedback and internal feedback
+- Develop and rollout frameworks, processes and metrics to support, stand-up and grow a digital-first, at-scale SMB customer engagement team.
+- Partner with enterprise systems, marketing operations, sales operations and other cross-functional groups to deliver the right tools, experiences and processes to optimize for self-service and drive efficiency/automation wherever possible.
+- Build, monitor and maintain Salesforce dashboards and reports, all the way from running the day-to-day of the business to ensuring executive visibility
+- Enable customer-facing roles on usage of cases, dashboards, and other tools through presentation and creation of materials
+- Actively engage with sales and customer-facing teams to identify opportunities and projects to improve effectiveness. Influence the sales and finance systems backlog based on data, customer feedback and internal feedback
 
 ### Requirements
 
@@ -65,21 +65,21 @@ The Analyst, Online Sales & Self Service Operations is a [grade 6](/handbook/tot
 - Strong analytical and problem-solving skills
 - Resourcefulness to get things done cross-functionally, prioritize multiple projects, and project-manage
 - Self-starter, detail-oriented and comfortable working in a fast-paced/dynamic environment
-- Experience and knowledge of B2B enterprise SaaS tools (e.g. Salesforce, Zendesk, Drift)
+- Experience in administration, development, or operations in Salesforce CRM
 - Lives and breathes process improvement and optimization
 - Willingness to learn and use GitLab
 - You share our values and work by those values
 
-## Senior Analyst, Online Sales & Self Service Operations
+## Senior Analyst, Global Digital SMB Operations
 
 ## Job Grade
 
-The Senior Analyst, Online Sales & Self Service Operations is a [grade 7](/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades).
+The Senior Analyst, Global Digital SMB Operations is a [grade 7](/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades).
 
 ## Responsibilities
 
 - Extends that of the Analyst requirements
-- Improve the self-service team's effectiveness and efficiency and provide increased insights through data, automation, and analytics
+- Improve the SMB team's effectiveness and efficiency and provide increased insights through data, automation, and analytics
 - Develop content and train our customer-facing teams on self-service systems and business processes
 
 ## Requirements
@@ -91,13 +91,12 @@ The Senior Analyst, Online Sales & Self Service Operations is a [grade 7](/handb
 
 ## Performance Indicators
 
-- Future experience (e.g. live-chat) OKRs (e.g., customer satisfaction score, first response time, first contact resolution, etc.) These measures need to be finalized based on creation of chat.
-- Increased adoption of self-service solutions (buying & account management) driving increased customer satisfaction, efficiency and Rep productivity.
-- Issue resolution and customer-facing SLAs (e.g., time to resolution).
+- OKRs including: Speed to first response, speed to resolution, % automation, rep productivity (# of cases, nARR/rep)
+- GTM efficiency gains reflected in increased case throughput and faster time to resolve
 
 ## Career Ladder
 
-The next step in the Online Sales & Self Service Operations Job Family had not yet been defined.
+The next step in the Global Digital SMB Operations Job Family had not yet been defined.
 
 ## Hiring Process
 

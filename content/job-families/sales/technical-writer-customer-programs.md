@@ -49,10 +49,10 @@ The Senior Technical Writer, Customer Programs is a [grade 7](/handbook/total-re
 
 ## Performance Indicators
 
-- [Time-to-Value KPI's](/handbook/customer-success/vision/#time-to-value-kpis)
-- [Net Retention](/handbook/customer-success/vision/#retention-and-reasons-for-churn)
-- [Retention, Gross & Net](/handbook/customer-success/vision/#retention-gross--net-dollar-weighted)
-- [Reason for Churn/Expansion, Dollar Weighted](/handbook/customer-success/vision/#retention-gross--net-dollar-weighted)
+- [Time-to-Value KPI's](/handbook/customer-success/customer-success-vision/#time-to-value-kpis)
+- [Net Retention](/handbook/customer-success/customer-success-vision/#retention-and-reasons-for-churn)
+- [Retention, Gross & Net](/handbook/customer-success/customer-success-vision/#retention-gross--net-dollar-weighted)
+- [Reason for Churn/Expansion, Dollar Weighted](/handbook/customer-success/customer-success-vision/#retention-gross--net-dollar-weighted)
 
 ## Career Ladder
 

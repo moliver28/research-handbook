@@ -88,7 +88,7 @@ Additionally, there may be specific items that are worthwhile to discuss about t
 - Inform customer about the [GitLab Performance Tool](https://gitlab.com/gitlab-org/quality/performance)
 - Inform customer about our [support offerings for scaled architectures](https://about.gitlab.com/support/definitions/#definition-of-scaled-architecture)
 - Ask customer to provide an architecture diagram and upload to collaboration project
-- Ensure customer has [Backup/Restore](https://docs.gitlab.com/ee/raketasks/backup_restore.html) and Disaster Recovery plans in place
+- Ensure customer has [Backup/Restore](https://docs.gitlab.com/ee/administration/backup_restore/index.html) and Disaster Recovery plans in place
 
 ### Conducting the call
 
@@ -157,7 +157,7 @@ At the end of each customer call any changes to customer health should be reflec
 ### Best Practices for Note-Taking
 
 - Write down your *agenda* (including questions you want to ask) in advance. This way you can quickly add your notes for the specific context.
-- If you're comfortable in writing in [Markdown format](/handbook/markdown-guide/), use it to quickly structure your notes in real time.
+- If you're comfortable in writing in [Markdown format](https://handbook.gitlab.com/docs/markdown-guide/), use it to quickly structure your notes in real time.
 - Allow yourself time directly after the call to clean up your notes. Avoid scheduling back-to-back meetings.
 - Practice slowing down call conversations. Stopping the dialog for a few seconds to say "let me write that down" tells the customer what they said is important to you.
 - Ask your SAE/AE/SA to take notes with you. After the meeting combine and add detail.

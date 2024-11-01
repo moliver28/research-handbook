@@ -24,7 +24,7 @@ Marketing Ops is not responsible for the list pull. You must open an [list reque
 
 Please follow information found on [this page](/handbook/marketing/emergency-response/#marketing-emergency-response), as these emails are highly important, urgent and follow a different order of operations for deploy.
 
-### Security Notifications
+### Security Patch Emails
 
 These emails are sent when there is a security related update in a patch release, or a critical patch applied. The patch releases are typically 2x a month.
 
@@ -49,7 +49,7 @@ Marketing Ops Responsibilities:
 - Confirm email copy and blog have similar content
 - Schedule the email, confirm the send and paste in issue
 
-#### Marketing Operations Steps to deploy a Security  Notification
+#### Marketing Operations Steps to deploy a Security Patch Notification
 
 1. Check issue for completeness
 2. Do not edit email itself, only edit the program tokens with updated information
@@ -75,7 +75,7 @@ Sub-processor has its own list people can subscribe to, and legal will start the
 
 1. Clone from sub-processor [template in marketo](https://engage-ab.marketo.com/?munchkinId=194-VVC-221#/classic/EBP6615B2)
 2. Upload any additional list sent by Legal
-3. Build email once final copy is provided
+3. Build email once final copy is provided. Make sure to review the copy for any [RED Data](/handbook/support/workflows/sending_notices). 
 4. Send sample to legal requestor
 5. Deploy send when confirmed.
 
@@ -102,6 +102,8 @@ Communication checklist:
 5. Deploy send when confirmed.
 
 #### Recommended format for customer emails
+
+Please make sure to review the copy for any [RED Data](/handbook/support/workflows/sending_notices). 
 
 The following is the recommended format for ad hoc customer emails though tailor it if the communication objective or content requires this. This does not include marketing (e.g., email campaigns, blogs, etc.) or standard product or security notifications (e.g., release blogs, release notifications, etc.). Emails should be clear, crisp, and direct, providing links for details (e.g., details on the issue or risk, procedural details to action). To [maximize reading comprehension](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=1709943), remove all extraneous words and language to maximize the probability the email will be read and acted upon.
 

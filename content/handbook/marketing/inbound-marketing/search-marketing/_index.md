@@ -77,7 +77,7 @@ However, we should use [Google's guidelines on nofollowing links](https://webmas
 
 Regular website health checks should be performed. These checks are meant to ensure that there are no issues with the website that could cause issues with traffic to the site. These are the following things to check to ensure the health of the site:
 
-* [Google Search Console](https://www.google.com/webmasters/tools/)
+* [Google Search Console](https://search.google.com/search-console/welcome?hl=en)
 * [Google Analytics](https://analytics.google.com/analytics/web/)
 
 Issues to look for in each of these tools:

@@ -1,5 +1,4 @@
 ---
-aliases: /handbook/engineering/management/career-development
 title: "Engineering Management Career Development"
 description: "Career development information and process to follow for Engineering Managers at GitLab."
 ---
@@ -9,7 +8,7 @@ is to practice career development coaching with your developers. Not all team me
 here are some important considerations for the Engineering team:
 
 - **Technical or Professional Leadership?** This is the first section on our
-  [career development page](/handbook/engineering/career-development/#individual-contribution-vs-management)
+  [career development page](/handbook/engineering/careers/#individual-contribution-vs-management)
   for a reason. For Senior Developers, this is the most important question to
   ask about their career goals, as it will determine where they go next. For
   anyone who hasn't yet made Senior, this is less important - they need to

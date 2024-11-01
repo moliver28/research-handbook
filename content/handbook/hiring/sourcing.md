@@ -25,7 +25,9 @@ This person is of interest, but has not interacted with the Talent Acquisition (
 <tr>
 <td>
 
-### **Sourcing Strategy/Type [Greenhouse](https://support.greenhouse.io/hc/en-us/articles/115003931231-Sourcing-the-basics)**
+### Sourcing Strategy/Type Greenhouse
+
+[Greenhouse Sourcing basics](https://support.greenhouse.io/hc/en-us/articles/115003931231-Sourcing-the-basics)
 
 </td>
 <td>

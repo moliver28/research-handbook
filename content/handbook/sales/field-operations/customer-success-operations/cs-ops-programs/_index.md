@@ -29,7 +29,7 @@ You can see more information about what we do and our strategy in the following 
 - [Available Programs](/handbook/sales/field-operations/customer-success-operations/cs-ops-programs/available-programs/)
 - [Getting Help from Digital Customer Success](/handbook/sales/field-operations/customer-success-operations/cs-ops-programs/getting-help-from-dcs/)
 - [NPS/CSAT Surveys](/handbook/sales/field-operations/customer-success-operations/cs-ops-programs/nps-csat-scores/)
-- [CS Content Guide](/handbook/sales/field-operations/customer-success-operations/cs-ops-programs/cs-content-guide.html)
+- [CS Content Guide](/handbook/sales/field-operations/customer-success-operations/cs-ops-programs/cs-content-guide/)
 - [Customer Newsletter](/handbook/sales/field-operations/customer-success-operations/cs-ops-programs/customer-newsletter/)
 
 ## Who we support

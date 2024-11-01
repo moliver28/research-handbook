@@ -1,13 +1,13 @@
 ---
-title: Cells Difference with Dedicated
+title: "Cells Difference with Dedicated"
 stage: core platform
 group: Tenant Scale
 authors: [ "@skarbek" ]
 coach: "@andrewn"
 status:
+toc_hide: true
 ---
 
-<!-- vale gitlab.FutureTense = NO -->
 {{< design-document-header >}}
 
 ## Existing Reads

@@ -8,7 +8,7 @@ For the workflow that applies to the wider community see the [contributing guide
 
 ## GitLab Flow
 
-Products at GitLab are built using the [GitLab Flow](https://docs.gitlab.com/ee/topics/gitlab_flow.html).
+Products at GitLab are built using the [GitLab Flow](https://about.gitlab.com/blog/2023/07/27/gitlab-flow-duo/).
 
 We have [specific rules around code review](/handbook/engineering/workflow/code-review/).
 
@@ -57,22 +57,46 @@ There are two phases for fixing a broken `master` incident which have a target S
 
 | Phase | Service level objective | DRI |
 | --- | --- | --- |
-| [Triage](#triage-broken-master) | 4 hours from the initial broken `master` incident creation until assignment | group labeled on the incident |
+| [Triage](#triage-broken-master) | 4 hours from the 2nd occurrence of a broken `master` incident creation until assignment | group labeled on the incident |
 | [Resolution](#resolution-of-broken-master) | 4 hours from assignment to DRI until incident is resolved | Merge request author or team of merge request author or dev on-call engineer |
 
-Note: Untriaged incidents are negatively impacting master pipeline stability and development velocity. Any untriaged incident will be automatically escalated to dev-on-call within 30 minutes of inactivity, following a Slack reminder to the attributed channel, to ensure the triage SLO is met. Before escalation, if an incident becomes a blocker for MRs and deployments, the team member being impacted should refer to the [broken `master` escalation](#broken-master-escalation) steps to request help from the current [engineer on-call](/handbook/engineering/infrastructure/incident-management/#who-is-the-current-eoc) as early as needed.
+Note: Recurring incidents are negatively impacting master pipeline stability and development velocity. Any untriaged, recurring incident will be automatically escalated to `#dev-escalation` following this timeline:
+
+```mermaid
+timeline
+  title Pipeline incident escalation
+    section Pipeline failure incident #1
+      not recurring in 24 hours and no human activity : Auto closed
+      any human update on incident #1
+        : labels incident #1 with escalation skipped
+        : does not trigger any group ping or escalation
+      same job failures recurring in incident #2
+        : closes incident #2 as duplicate of incident #1
+        : labels incident #1 with escalation needed
+        : pings attributed group channel after 10 minutes of inactivity
+        : 2nd ping to group channel after 30 minutes of inactivity
+        : pings stage channel in after 3 hours 40 minutes of inactivity
+        : escalates to dev-escalation after 4 hours of inactivity
+        : labels incident #1 is escalated
+```
+
+If an incident becomes a blocker for MRs and deployments before being auto-escalated, the team member being impacted should refer to the [broken `master` escalation](#broken-master-escalation) steps to request help from the current [engineer on-call](/handbook/engineering/infrastructure/incident-management/#who-is-the-current-eoc) as early as needed.
 
 Additional details about the phases are listed below.
 
 ### Broken `master` escalation
 
-As mentioned above, broken `master` incidents are automatically escalated unless it is triaged by a triage DRI within 30 minutes.
+Recurring broken `master` incidents are automatically escalated to `#dev-escalation` unless it is triaged within 4 hours.
 
 If a broken `master` is blocking your team before auto-escalation (such as creating a security release) then you should:
 
 1. See if there is a non-resolved [broken `master` incident](https://gitlab.com/gitlab-org/quality/engineering-productivity/master-broken-incidents/-/issues) with a DRI assigned and check discussions there.
 1. Check discussions on the failure notification in the triage DRI's group Slack channel to see if anyone is investigating the incident you are looking at. See [Triage broken master](#triage-broken-master) for information on who the triage DRI is.
-1. If there is not a clear DRI or action to resolve, use the [dev escalation](/handbook/engineering/development/processes/Infra-Dev-Escalation/process.html) process to solicit help in the broken `master` incident.
+1. If there is not a clear DRI or action to resolve, use the [dev escalation](/handbook/engineering/development/processes/infra-dev-escalation/process/) process to solicit help in the broken `master` incident.
+
+#### Escalation on weekends and holidays
+
+Master broken incidents must be manually escalated to `#dev-escalation` on [weekends and holidays](/handbook/engineering/development/processes/infra-dev-escalation/process/#weekends-and-holidays-utc) if necessary. Without a manual escalation, the service level objective can extend to the next working day; that is, triage DRI is expected to triage the incident on the next working day. Regardless of when the label was applied, we always consider an incident to be in an `escalated` state as long as it has the ~"escalation::escalated" label, until the incident is resolved.
 
 ### Triage broken master
 
@@ -87,7 +111,7 @@ If a broken `master` is blocking your team before auto-escalation (such as creat
 
 If a failed test can be traced to a group through its `feature_category` metadata, the broken `master` incident associated with that test will be automatically labeled with this group as the triage DRI through [this line of code](https://gitlab.com/gitlab-org/quality/triage-ops/-/blob/5ad6a19bd1b37a304fbd02701a002f4dd83e1fcf/triage/triage/pipeline_failure/incident_creator.rb#L23). In addition, Slack notifications will be posted to the group's Slack channel to notify them about ongoing incidents. The triage DRI is responsible for monitoring, identifying, and communicating the incident. The [Engineering Productivity team](/handbook/engineering/infrastructure/engineering-productivity/) is the backup triage DRI if the failure cannot be traced to a group, or if the current triage DRI requires assistance.
 
-When an incident is attributed to a group, a notification will be sent to the triage DRI's group channel. When an incident cannot be attributed, it will be posted in the `#master-broken` channel seeking attention from Engineering Productivity team.
+A notification will be sent to the attributed group's Slack channel, or the `#g_engineering_productivity` channel as a backup DRI.
 
 #### Triage DRI Responsibilities
 
@@ -154,19 +178,21 @@ When an incident is attributed to a group, a notification will be sent to the tr
       /label ~"master-broken::caching"
       /label ~"master-broken::ci-config"
       /label ~"master-broken::dependency-upgrade"
+      /label ~"master-broken::external-dependency-unavailable"
       /label ~"master-broken::flaky-test"
       /label ~"master-broken::fork-repo-test-gap"
       /label ~"master-broken::pipeline-skipped-before-merge"
       /label ~"master-broken::test-selection-gap"
       /label ~"master-broken::need-merge-train"
-      /label ~"master-broken::infrastructure"
-      /label ~"master-broken::runner-disk-full"
       /label ~"master-broken::gitaly"
-      /label ~"master-broken::external-dependency-unavailable"
-      /label ~"master-broken::failed-to-pull-image"
-      /label ~"master-broken::gitlab-com-overloaded"
+      /label ~"master-broken::state leak"
+      /label ~"master-broken::infrastructure"
+      /label ~"master-broken::infrastructure::failed-to-pull-image"
+      /label ~"master-broken::infrastructure::frunner-disk-full"
+      /label ~"master-broken::infrastructure::gitlab-com-overloaded"
       /label ~"master-broken::job-timeout"
       /label ~"master-broken::multi-version-db-upgrade"
+      /label ~"master-broken::missing-test-coverage"
       /label ~"master-broken::undetermined"
       ```
 
@@ -181,7 +207,7 @@ When an incident is attributed to a group, a notification will be sent to the tr
 
 #### Pro-tips for Triage DRI
 
-1. For an initial assessment of what might have contributed to the failure, we can try the experimental AI-assisted [root cause analysis](https://docs.gitlab.com/ee/user/gitlab_duo/index.html#root-cause-analysis) feature by clicking the "Root cause analysis" button on the failed job page.
+1. For an initial assessment of what might have contributed to the failure, we can try the experimental AI-assisted [root cause analysis](https://docs.gitlab.com/ee/user/gitlab_duo/index.html#root-cause-analysis) feature following [this documentation](https://docs.gitlab.com/ee/user/gitlab_duo_chat/examples.html#troubleshoot-failed-cicd-jobs-with-root-cause-analysis).
 2. To confirm flakiness, you can use the `@gitlab-bot retry_job <job_id>` or the `@gitlab-bot retry_pipeline <pipeline_id>` command to retry the failed job(s), even if you are not a project maintainer.
 
    - **Note**, The `retry_job` command can fail for the following reasons:
@@ -196,7 +222,7 @@ If a DRI has not acknowledged or signaled working on a fix, any developer can ta
 
 #### Responsibilities of the resolution DRI
 
-1. Prioritize resolving broken `master` incidents over new bug/feature work. Resolution options include:
+1. Prioritize resolving recurring broken `master` incidents over new bug/feature work. Resolution options include:
    - **Default**: Revert the merge request which caused the broken `master`. If a revert is performed,
      create an issue to reinstate the merge request and assign it to the author
      of the reverted merge request.
@@ -213,7 +239,7 @@ If a DRI has not acknowledged or signaled working on a fix, any developer can ta
    delays in releases / security releases.
    See [How to fix a broken stable branch guide](https://gitlab.com/gitlab-org/release/docs/-/blob/master/general/how-to-fix-broken-stable-branch.md) for more details.
 1. Communicate in `#master-broken` when the fix was merged
-1. Once the incident is resolved, click the "lightning bolt" shortcut icon in the `#master-broken` channel and select `Broadcast Master Fixed`, then click `Continue the broadcast`.
+1. Once the incident is resolved, select the `Broadcast Master Fixed` workflow in the `#master-broken` channel, and click `Continue the broadcast` to communicate it.
 1. When `master` build was failing and the underlying problem was quarantined /
    reverted / temporary workaround created but the root cause still needs to be
    discovered, the investigation should continue directly in the incident.
@@ -527,7 +553,7 @@ All other important dates for a milestone are relative to the release date:
   - Issues for milestone completed, with docs, and have been merged into master.
   - Feature flags should be flipped from default off to default on after verification to be in the release. See [feature flags](/handbook/product-development-flow/feature-flag-lifecycle/#including-a-feature-behind-feature-flag-in-the-final-release).
   - Merging by the milestone code cut-off (Friday) **does not guarantee** that the feature will be in the release. See [release timelines](/handbook/engineering/releases/#timelines).
-  - Individual [release post entries](/handbook/marketing/blog/release-posts/index.html#contribution-instructions) merged for all relevant issues.
+  - Individual [release post entries](/handbook/marketing/blog/release-posts/#contribution-instructions) merged for all relevant issues.
   - By end of the day, milestone `%x.y` is expired.
 - **On or around Wednesday, the day before the release date**:
   - [Group Retrospective issues](/handbook/engineering/management/group-retrospectives/) are updated with shipped and missed deliverables and team-members are tagged in the discussion.
@@ -542,7 +568,7 @@ All other important dates for a milestone are relative to the release date:
 - **On or around the Wednesday immediately following the release day**:
   - [Product plans](/handbook/product/product-processes/#managing-your-product-direction) are updated to reflect previous and current releases, including category epics and direction pages.
 - **On or around the second Monday following the release day**:
-  - Non-critical security patches are [released](/handbook/engineering/releases/security-releases/).
+  - Non-critical security patches are [released](/handbook/engineering/infrastructure/library/security-releases-development/).
 
 Refer to [release post content reviews](/handbook/marketing/blog/release-posts/#content-reviews) for additional deadlines.
 
@@ -611,17 +637,17 @@ To help with prioritization and decision-making process here, we recommend think
 
 Technical debt is prioritized like [other technical decisions](/handbook/engineering/development/principles/#prioritizing-technical-decisions) in [product groups](/handbook/company/structure/#product-groups) by [product management](/handbook/product/product-processes/#how-we-prioritize-work).
 
-For technical debt which might span, or fall in gaps between groups they should be brought up for a [globally optimzed](/handbook/values/#global-optimization) prioritization in [retrospectives](/handbook/engineering/management/group-retrospectives/) or directly with the appropriate member of the [Product Leadership team](/handbook/product/product-leadership/). Additional avenues for addressing technical debt outside of product groups are [Rapid Action issues](/handbook/engineering/development/#rapid-action-issue) and [working groups](/handbook/company/working-groups/).
+For technical debt which might span, or fall in gaps between groups they should be brought up for a [globally optimzed](/handbook/values/#global-optimization) prioritization in [retrospectives](/handbook/engineering/management/group-retrospectives/) or directly with the appropriate member of the [Product Leadership team](/handbook/product/product-leaders/product-leadership/). Additional avenues for addressing technical debt outside of product groups are [Rapid Action issues](/handbook/engineering/development/#rapid-action-issue) and [working groups](/handbook/company/working-groups/).
 
 ## Deferred UX
 
-Sometimes there is an intentional decision to deviate from the agreed-upon [MVC](/handbook/product/product-principles/#the-minimal-viable-change-mvc), which sacrifices the user experience. When this occurs, the Product Designer creates a follow-up issue and labels it `Deferred UX` to address the UX gap in subsequent releases.
+Sometimes there is an intentional decision to deviate from the agreed-upon [MVC](/handbook/product/product-principles/#the-minimal-valuable-change-mvc), which sacrifices the user experience. When this occurs, the Product Designer creates a follow-up issue and labels it `Deferred UX` to address the UX gap in subsequent releases.
 
 For the same reasons as technical debt, we don't want Deferred UX to grow faster than our code base.
 
 These issues are prioritized like [other technical decisions](/handbook/engineering/development/principles/#prioritizing-technical-decisions) in [product groups](/handbook/company/structure/#product-groups) by [product management](/handbook/product/product-processes/#how-we-prioritize-work).
 
-As with [technical debt](#technical-debt), Deferred UX should be brought up for [globally optimized](/handbook/values/#global-optimization) prioritization in [retrospectives](/handbook/engineering/management/group-retrospectives/) or directly with the appropriate member of the [Product Leadership team](/handbook/product/product-leadership/).
+As with [technical debt](#technical-debt), Deferred UX should be brought up for [globally optimized](/handbook/values/#global-optimization) prioritization in [retrospectives](/handbook/engineering/management/group-retrospectives/) or directly with the appropriate member of the [Product Leadership team](/handbook/product/product-leaders/product-leadership/).
 
 ## UI polish
 
@@ -648,9 +674,9 @@ Open merge requests may also have other properties that indicate that the engine
 
 ## Security is everyone's responsibility
 
-[Security](/security/) is our top priority. Our Security Team is raising the bar on security every day to protect users' data and make GitLab a safe place for everyone to contribute. There are many lines of code, and Security Teams need to scale. That means shifting security left in the [Software Development LifeCycle (SDLC)](https://about.gitlab.com/stages-devops-lifecycle/). Each team has an [Application Security Stable Counterpart](/handbook/security/product-security/application-security/stable-counterparts.html) who can help you, and you can find more secure development help in the `#sec-appsec` Slack channel.
+[Security](/security/) is our top priority. Our Security Team is raising the bar on security every day to protect users' data and make GitLab a safe place for everyone to contribute. There are many lines of code, and Security Teams need to scale. That means shifting security left in the [Software Development LifeCycle (SDLC)](https://about.gitlab.com/stages-devops-lifecycle/). Each team has an [Application Security Stable Counterpart](/handbook/security/product-security/application-security/stable-counterparts/) who can help you, and you can find more secure development help in the `#sec-appsec` Slack channel.
 
-Being able to start the security review process earlier in the software development lifecycle means we will catch vulnerabilities earlier, and mitigate identified vulnerabilities before the code is merged. You should know when and how to proactively [seek an Application Security Review](/handbook/security/product-security/application-security/appsec-reviews.html). You should also be familiar with our [Secure Coding Guidelines](https://docs.gitlab.com/ee/development/secure_coding_guidelines.html).
+Being able to start the security review process earlier in the software development lifecycle means we will catch vulnerabilities earlier, and mitigate identified vulnerabilities before the code is merged. You should know when and how to proactively [seek an Application Security Review](/handbook/security/product-security/application-security/appsec-reviews/). You should also be familiar with our [Secure Coding Guidelines](https://docs.gitlab.com/ee/development/secure_coding_guidelines.html).
 
 We are fixing the obvious security issues before every merge, and therefore, scaling the security review process. Our workflow includes a check and validation by the reviewers of every merge request, thereby enabling developers to act on identified vulnerabilities before merging. As part of that process, developers are also encouraged to reach out to the Security Team to discuss the issue at that stage, rather than later on, when mitigating vulnerabilities becomes more expensive. After all, security is everyone's job. See also our [Security Paradigm](https://about.gitlab.com/direction/secure/#security-paradigm)
 
@@ -667,15 +693,15 @@ Not everything is urgent. See below for a non-exclusive list of things that are 
   - High severity (severity::1/priority::1) security issues. Refer to [security severity and priority](/handbook/security/#severity-and-priority-labels-on-security-issues).
   - Highest priority and severity customer issues based on the [priority and severity definitions](https://gitlab.com/gitlab-org/gitlab-foss/-/blob/master/doc/development/contributing/issue_workflow.md#priority-labels).
 - Not In Scope
-  - An operational issue of GitLab.com or a self managed customer environment. This falls under the [on-call](/handbook/engineering/on-call/index.html) process.
+  - An operational issue of GitLab.com or a self managed customer environment. This falls under the [on-call](/handbook/engineering/on-call/) process.
   - Self developed and maintained tools that are not officially supported products by GitLab.
   - Feature request by a specific customer.
 
 ### Process
 
 1. Person requesting Rapid Engineering Response creates an issue supplying all known information and applies [priority and severity](https://gitlab.com/gitlab-org/gitlab-foss/-/blob/master/doc/development/contributing/issue_workflow.md#priority-labels) (or [security severity and priority](/handbook/security/#severity-and-priority-labels-on-security-issues)) to the best of their ability.
-1. Person requesting Rapid Engineering Response raises the issue to their own manager and the [subject matter domain](/handbook/product/categories/index.html) engineering manager (or the delegation if OOO).
-   1. In case a specific group cannot be determined, raise the issue to the Director of Engineering (or the delegation if OOO) of the [section](/handbook/product/categories/index.html).
+1. Person requesting Rapid Engineering Response raises the issue to their own manager and the [subject matter domain](/handbook/product/categories/) engineering manager (or the delegation if OOO).
+   1. In case a specific group cannot be determined, raise the issue to the Director of Engineering (or the delegation if OOO) of the [section](/handbook/product/categories/).
    1. In case a specific section cannot be determined, raise the issue to the Sr. Director of Development (or the delegation if OOO).
 1. The engineering sponsor (subject matter Manager, Director, and/or Sr. Director) invokes all stakeholders of the subject matter as a rapid response task force to determine the best route of resolution:
    1. Engineering manager(s)
@@ -758,7 +784,7 @@ Issues are nominated to the board through the inclusion of the label `infradev` 
 
 Issues with `~infradev ~severity::1 ~priority::1 ~production request` labels applied require immediate resolution.
 
-`~infradev` issues requiring a ~"breaking change" should not exist.  If a current `~infradev` issue requires a breaking change then it should split into two issues.  The first issue should be the immediate `~infradev` work that can be done under current SLOs.  The second issue should be  ~"breaking change" work that needs to be completed at the next major release in accordance with [handbook guidance](/handbook/product/gitlab-the-product/#breaking-changes-deprecations-and-removing-features). Agreement from development DRI as well as the infrastructure DRI should be documented on the issue.
+`~infradev` issues requiring a ~"breaking change" should not exist.  If a current `~infradev` issue requires a breaking change then it should split into two issues.  The first issue should be the immediate `~infradev` work that can be done under current SLOs.  The second issue should be  ~"breaking change" work that needs to be completed at the next major release in accordance with [handbook guidance](/handbook/product/categories/gitlab-the-product/#breaking-changes-deprecations-and-removing-features). Agreement from development DRI as well as the infrastructure DRI should be documented on the issue.
 
 Infradev issues are also shown in the monthly [Error Budget Report](/handbook/engineering/error-budgets/#budget-reporting).
 

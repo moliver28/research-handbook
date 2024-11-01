@@ -1,10 +1,11 @@
 ---
-title: CI Build Speed Benchmarking Framework
+title: "CI Build Speed Benchmarking Framework"
 status: ongoing
 creation-date: "2024-01-12"
 authors: [ "@grzesiek" ]
 coach: "@grzesiek"
 approvers: [ "@gabrielengel_gl"]
+toc_hide: true
 ---
 
 In order to understand how GitLab CI performs in terms of CI build speed, we
@@ -49,7 +50,7 @@ format.
 
 One of the solutions that could meet the requirements / principles listed
 above, could be a Go-based binary, which would be installed on different CI
-platform using `wget` / `curl` or in a different convinient way. The benefits
+platform using `wget` / `curl` or in a different convenient way. The benefits
 of using the binary are:
 
 1. Easy installation method, without the need to use containers.

@@ -9,7 +9,7 @@ The [GitLab Tech Stack](/handbook/business-technology/tech-stack-applications/) 
 
 The primary focus for the IT team is on federating most applications with Okta SSO, with a focus on applications used across the organization, and any applications under SOX compliance or related to Finance, Legal, People, and Sales functions.
 
-Learn more on the [tech stack handbook page](/handbook/business-technology/tech-stack-applications/) and [Okta handbook page](/handbook/business-technology/okta/).
+Learn more on the [tech stack handbook page](/handbook/business-technology/tech-stack-applications/) and [Okta handbook page](/handbook/it/okta/).
 
 ## Cloud Kingdom
 
@@ -17,7 +17,7 @@ We use Amazon Web Services (AWS) and Google Cloud Platform (GCP) at GitLab, with
 
 Each team is responsible for the workloads in their respective child AWS accounts, GCP projects, etc.
 
-The Cloud Kingdom is managed by Security Identity with collaboration from counterparts in Infrastructure Security, Infrastructure, and SIRT. All access management is handled through standard baseline entitlements, access requests for production access, and [Sandbox Cloud](/handbook/infrastructure-standards/realms/sandbox/) for non-production access and dev/test accounts or projects.
+The Cloud Kingdom is managed by Security Identity with collaboration from counterparts in Infrastructure Security, Infrastructure, and SIRT. All access management is handled through standard baseline entitlements, access requests for production access, and [Sandbox Cloud](/handbook/company/infrastructure-standards/realms/sandbox/) for non-production access and dev/test accounts or projects.
 
 See the [Identity Infrastructure](/handbook/security/identity/infrastructure) handbook page to learn more.
 

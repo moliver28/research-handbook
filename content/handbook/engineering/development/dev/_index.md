@@ -13,9 +13,10 @@ We thrive for ownership of the things that we built by having a clear view on it
 
 The Dev sub-department is taking care of the first part of the DevSecOps Lifecycle with the following stages and the specific groups:
 
-1. [Manage](/handbook/product/categories/#manage-stage)
-    - [Manage:Foundations](/handbook/engineering/development/dev/manage/foundations/)
-    - [Manage:Import and Integrate](/handbook/engineering/development/dev/manage/import-and-integrate)
+1. [Foundations](/handbook/product/categories/#foundations-stage)
+    - [Foundations:Design System](/handbook/engineering/development/dev/foundations/design-system)
+    - [Foundations:Import and Integrate](/handbook/engineering/development/dev/foundations/import-and-integrate)
+    - [Foundations:Personal Productivity](/handbook/engineering/development/dev/foundations/personal-productivity)
 1. [Plan](/handbook/product/categories/#plan-stage)
     - [Plan:Project Management](/handbook/engineering/development/dev/plan/project-management/)
     - [Plan:Product Planning](/handbook/engineering/development/dev/plan/product-planning/)
@@ -33,15 +34,19 @@ The Dev sub-department is taking care of the first part of the DevSecOps Lifecyc
 
 ## Who we are
 
-### Manage
+### Foundations
 
-#### Manage:Foundations
+#### Foundations:Design System
 
-{{< team-by-manager-role "Engineering Manager(.*)Manage:Foundations" >}}
+{{< team-by-manager-role role="Manager(.*)Foundations:Design System" team="[,&] (Foundations:Design System)">}}
 
-#### Manage:Import and Integrate
+#### Foundations:Import and Integrate
 
 {{< team-by-manager-role "Engineering Manager(.*)Manage:Import and Integrate" >}}
+
+#### Foundations:Personal Productivity
+
+{{< team-by-manager-role role="Manager(.*)Foundations:Personal Productivity" team="[,&] (Foundations:Personal Productivity)">}}
 
 ### Plan
 
@@ -65,11 +70,7 @@ The Dev sub-department is taking care of the first part of the DevSecOps Lifecyc
 
 #### Create:Code Review
 
-{{< team-by-manager-role "Backend Engineering Manager(.*)Create:Code Review" >}}
-
-#### Create:Code Review Frontend
-
-{{< team-by-manager-role role="Frontend Engineering Manager(.*)Create:Source Code" team="Create:Code Review" >}}
+{{< team-by-manager-role role="Engineering Manager(.*)Create:Code Review" team="[,&] (Create:Code Review)" >}}
 
 #### Create:Code Creation
 
@@ -77,7 +78,7 @@ The Dev sub-department is taking care of the first part of the DevSecOps Lifecyc
 
 #### Create:Editor Extensions
 
-{{% team-by-manager-role role="(.*)Manager(.*)Create:Editor Extensions" %}}
+{{% team-by-manager-slug "kisha.mavryck" %}}
 
 #### Create:Remote Development
 
@@ -85,11 +86,7 @@ The Dev sub-department is taking care of the first part of the DevSecOps Lifecyc
 
 #### Create:Source Code
 
-{{< team-by-manager-role "Backend Engineering Manager(.*)Create:Source Code" >}}
-
-#### Create:Source Code Frontend
-
-{{< team-by-manager-role role="Frontend Engineering Manager(.*)Create:Source Code" team="Create:Source Code" >}}
+{{< team-by-manager-role role="Engineering Manager(.*)Create:Source Code" team="[,&] (Create:Source Code)">}}
 
 ## Stable Counterparts
 

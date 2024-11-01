@@ -167,7 +167,7 @@ By 2022, most of the world's organizations will reckon with their new reality: a
 >
 > Below is a thread about the future of remote work after the COVID-19 pandemic is over. I predict that remote will go through a trough of sorrow due to hybrid not working out, and most companies will return to being office based. But many all remote companies will see success.
 
-As this occurs, many organizations will ignore our [warnings](https://www.wired.com/story/hybrid-remote-work-offers-the-worst-of-both-worlds) on the pitfalls and nuanced difficulties in creating a thriving [hybrid-remote organization](hybrid-remote/), triggering an acute spike in demand for senior leadership who understand the mind of a remote worker and the [organizational design principles](https://jorgdesign.springeropen.com/articles/10.1186/s41469-020-00087-8) to convert remote work from a challenge to a strategic advantage. **In a high demand/low supply environment, remote work mastery will become a highly marketable skill**.
+As this occurs, many organizations will ignore our [warnings](https://www.wired.com/story/hybrid-remote-work-offers-the-worst-of-both-worlds) on the pitfalls and nuanced difficulties in creating a thriving [hybrid-remote organization](hybrid-remote/), triggering an acute spike in demand for senior leadership who understand the mind of a remote worker and the [organizational design principles](https://link.springer.com/article/10.1186/s41469-020-00087-8) to convert remote work from a challenge to a strategic advantage. **In a high demand/low supply environment, remote work mastery will become a highly marketable skill**.
 
 Much like someone who is multilingual, an individual who has completed GitLab's [Remote Work Foundations certification](remote-certification/) and [Remote Team Management](https://www.coursera.org/learn/remote-team-management) course on Coursera will have an advantage when vying for new roles centered on remote work leadership. You will effectively speak a new and evolving business language which is critical to acquiring/retaining talent, creating workflows which are location agnostic, and building a culture which does not rely on a physical building to function.
 
@@ -284,7 +284,7 @@ The below is an inexhaustive list of news articles covering the growing movement
 1. LinkedIn Talent Blog: [Why You Need to Hire a Head of Remote Work — and What That Job Entails](https://business.linkedin.com/talent-solutions/blog/work-flexibility/2020/why-you-need-to-hire-a-head-of-remote-work)
 1. Reworked: [Is Now the Time to Invest in a Head of Remote Work?](https://www.reworked.co/leadership/is-now-the-time-to-invest-in-a-head-of-remote-work)
 1. Running Remote: [Is it time for your company to hire a Head of Remote?](https://runningremote.com/is-it-time-for-your-company-to-hire-a-head-of-remote)
-1. Zenefits: [Why Companies Are Hiring a Head of Remote Work (and Why You Should, Too)](https://www.zenefits.com/workest/why-companies-are-hiring-a-head-of-remote-work-and-why-you-should-too)
+1. Zenefits: [Why Companies Are Hiring a Head of Remote Work (and Why You Should, Too)](https://web.archive.org/web/20230602020646/https://www.zenefits.com/workest/why-companies-are-hiring-a-head-of-remote-work-and-why-you-should-too/)
 1. Fast Company: [Why your business needs a Head of Remote](https://www.fastcompany.com/90715519/why-your-business-needs-a-head-of-remote)
 
 ## Contribute your lessons

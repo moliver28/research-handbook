@@ -17,7 +17,7 @@ Check out the [compliance page](https://about.gitlab.com/solutions/compliance/) 
 
 2. **Application Security Testing** is a capability or feature of GitLab, used in the Verify phase. It includes SAST and DAST, container scanning and dependency scanning. GitLab also includes license compliance in our software composition analysis.
 
-3. GitLab is a **Secure Application** (used as an adjective like GitLab is scalable, open, etc.) The security team, under the Director of Security, manages people, processes and technology to secure the GitLab software that may include SAST & DAST but also includes security policies (like using Macs), our own Security Controls, configurations, monitoring of GitLab in production, vulnerability management, etc. Learn more about how we secure the GitLab app at [about.gitlab.com/security](/security). If a customer or prospect needs GitLab to respond to a questionnaire about how the GitLab app is secure, follow [these instructions](/handbook/security/security-assurance/field-security/customer-security-assessment-process.html).
+3. GitLab is a **Secure Application** (used as an adjective like GitLab is scalable, open, etc.) The security team, under the Director of Security, manages people, processes and technology to secure the GitLab software that may include SAST & DAST but also includes security policies (like using Macs), our own Security Controls, configurations, monitoring of GitLab in production, vulnerability management, etc. Learn more about how we secure the GitLab app at [about.gitlab.com/security](/security). If a customer or prospect needs GitLab to respond to a questionnaire about how the GitLab app is secure, follow [these instructions](/handbook/security/security-assurance/field-security/customer-security-assessment-process/).
 
 ## Application Security Market Overview
 
@@ -47,7 +47,7 @@ The focus of our competitive view is on **application security testing** (App Se
 
 The term Application Security Testing includes Static Application Security Testing (SAST), Dynamic Application Security Testing (DAST), Dependency Scanning, and Container Scanning. It also includes Interactive Application Security Testing (IAST) and Runtime Application Security Protection (RASP) which GitLab does not yet offer.
 
-The term Software Composition Analysis includes Static Application Security Testing (SAST), Dependency Scanning, Container Scanning, License Compliance, and Code Quality Testing. It often includes a Bill of Materials capability, though that is typically a feature of these others, not a product of its own. Industry analysts, such as Forrester, use SCA to group capabilities. As defined in our [Solutions](/handbook/product/categories/index.html#solutions) we are [intentional in not including SAST and Code Quality](https://gitlab.com/gitlab-com/www-gitlab-com/merge_requests/26897#note_198503054) in Software Composition Analysis.
+The term Software Composition Analysis includes Static Application Security Testing (SAST), Dependency Scanning, Container Scanning, License Compliance, and Code Quality Testing. It often includes a Bill of Materials capability, though that is typically a feature of these others, not a product of its own. Industry analysts, such as Forrester, use SCA to group capabilities. As defined in our [Solutions](/handbook/product/categories/#solutions) we are [intentional in not including SAST and Code Quality](https://gitlab.com/gitlab-com/www-gitlab-com/merge_requests/26897#note_198503054) in Software Composition Analysis.
 
 ## Competitor Scope
 

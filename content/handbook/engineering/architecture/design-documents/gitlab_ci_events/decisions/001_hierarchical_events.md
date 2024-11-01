@@ -1,5 +1,6 @@
 ---
 title: 'GitLab CI Events ADR 001: Use hierarchical events'
+toc_hide: true
 ---
 
 ## Context

@@ -194,7 +194,7 @@ perspective.
 
 As an organization that values transparency, we publish all of our
 engagement survey results in our public handbook. This allows both team
-members and prospective candidates to get a view into our culture: <https://about.gitlab.com/handbook/people-group/engagement/>
+members and prospective candidates to get a view into our culture: <https://handbook.gitlab.com/handbook/people-group/engagement/>
 
 ### Our culture of action
 
@@ -324,7 +324,7 @@ sustainability strategy and programs. This includes creating and managing
 ESG disclosures and public ESG reports, identifying and prioritizing key
 issues to advance GitLab's social and environmental goals, and creating
 partnerships with nonprofit organizations that support GitLab's values
-and mission. [Read GitLab's FY23 ESG report for more information](http://about.gitlab.com/environment-social-governance).
+and mission. [Read GitLab's FY23 ESG report for more information](https://about.gitlab.com/environmental-social-governance/).
 
 #### Partnerships
 

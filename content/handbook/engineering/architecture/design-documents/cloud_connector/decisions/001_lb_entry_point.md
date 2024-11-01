@@ -1,5 +1,6 @@
 ---
 title: "Cloud Connector ADR 001: Load balancer as single entry point"
+toc_hide: true
 ---
 
 ## Context

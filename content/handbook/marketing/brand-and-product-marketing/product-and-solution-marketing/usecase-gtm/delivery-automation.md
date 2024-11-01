@@ -272,7 +272,7 @@ More case studies here -> Filter by Usecase *CI* or *CD* or *SCM* or *GitOps* to
 - [GitOps with GitLab: The CI/CD Tunnel](https://about.gitlab.com/blog/2022/01/07/gitops-with-gitlab-using-ci-cd/)
 - [Auto DevOps 101: How we're making CI/CD easier](https://about.gitlab.com/blog/2019/10/07/auto-devops-explained/)
 - [Progressive Delivery](https://about.gitlab.com/blog/2019/04/19/progressive-delivery-using-review-apps/)
-- [How We Switched to a Continuous Delivery Pipeline in 3 months](https://medium.com/faun/how-we-switch-to-a-continuous-delivery-pipeline-in-3-months-9667b9f65f7a)
+- [How We Switched to a Continuous Delivery Pipeline in 3 months](https://faun.pub/how-we-switch-to-a-continuous-delivery-pipeline-in-3-months-9667b9f65f7a)
 
 ### Videos
 

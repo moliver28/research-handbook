@@ -3,8 +3,6 @@ title: "NAVEX Compliance Courses"
 description: "Information about NAVEX compliance training, including processes, course info, and FAQ"
 ---
 
-The information on this page is specific to NAVEXEngage, NAVEX's online ethics and com
-
 ## Access
 
 Navex is GitLab's online ethics and compliance training solution. All new team members have a task during their onboarding to set up their NAVEX account and complete the assigned courses within 30 days of starting. NAVEX accounts are provisioned automatically on a new hire's start date via a Workday integration and can only be accessed through Okta.
@@ -26,8 +24,8 @@ Additionally, team members will also be enrolled in the following anti-harassmen
 - Individual Contributors located outside the US will be enrolled in the *Global Workplace Harassment* course, which will take approximately 30 minutes to complete.
 - Individual Contributors located in the US will be enrolled in a *Workplace Harassment 10* course, which has various editions designed to meet the requirements of various local requirements. This course will take approximately 60 minutes to complete; however, the exact length will vary depending on each team member's location.
 - Managers located outside the US (with the exception of any having direct reports located in Cook County, Illinois) will be enrolled in the *Global Workplace Harassment for Managers* course, which should take approximately 30-60 minutes to complete.
-- Managers located within the US and managers outside the US but having direct reports located in Cook County, Illinois will be enrolled in the *Workplace Harassment 10 for Managers* course, which is designed to meet the heightened training requirements that apply to GitLab due to its business operations in various states and the City of Chicago, Illinois. This course should take approximately 2 hours to complete.
-- All team members located in Cook County, Illinois and/or having direct reports located in Cook County, Illinois will be enrolled in a Bystander Intervention course, which should take approximately 30-60 minutes to complete.
+- Managers located within the US and managers outside the US but having direct reports located in Cook County, Illinois will be enrolled in the *Workplace Harassment 10 for Managers* course, which is designed to meet the heightened training requirements that apply to GitLab due to its business operations in various states and the City of Chicago, Illinois. This course should take approximately 2 hours to complete. If you complete the course in under 2 hours, you will be prompted to spend the remaining time reviewing the course material to meet the state-specific jurisdictional requirements.
+- All team members located in Cook County, Illinois and/or having direct reports located in Cook County, Illinois will be enrolled in a Bystander Intervention course, which should take approximately 1 hour to complete. If you complete the course in under an hour, you will be prompted to spend the remaining time reviewing the course material to meet the state-specific jurisdictional requirements.
 
 ### Refresher Training and Recertification
 

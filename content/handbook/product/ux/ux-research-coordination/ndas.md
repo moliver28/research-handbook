@@ -1,5 +1,4 @@
 ---
-aliases: /handbook/product/ux/ux-research-coordination/NDAs
 title: "Non-Disclosure Agreements for UX Research"
 description: "Steps to take if an NDA is needed for your UX Research study"
 ---

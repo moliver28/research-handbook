@@ -1,9 +1,8 @@
 ---
 owning-stage: "~devops::data stores"
 title: 'Cells ADR 010: HTTP Router uses static rules and HTTP-based caching mechanism'
+toc_hide: true
 ---
-
-<!-- vale gitlab.FutureTense = NO -->
 
 ## Context
 

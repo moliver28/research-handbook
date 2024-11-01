@@ -9,7 +9,7 @@ Pipeline management is key to predictable, scalable revenue attainment and can m
 
 A well-managed sales pipeline requires a clear process with defined activities and exit criteria that serve as a roadmap to getting a deal from discovery to closed won (or qualified out quickly). The following process is specific to the Commercial Sales team and will ensure you have a clean pipeline and accurate forecast.
 
-## <i class="fas fa-users fa-fw icon-color font-awesome"></i>Commercial Sales Stages Activities and Exit Criteria
+## <i class="fas fa-users"></i>Commercial Sales Stages Activities and Exit Criteria
 
 To view these stages in Google sheet format please [click this link](https://docs.google.com/spreadsheets/d/1tVtJvfSsmWL2L1vTcJZgARlzC9Qy3Ae7pPqGBH9_KOQ/edit#gid=1399111321).
 
@@ -145,7 +145,7 @@ It is important to note that Sales Development opportunities could come from inb
 - SA will determine if trial is assisted by the SA or self-managed by customer
 - Work with customer to determine success criteria for eval, time frame, and next steps
 - Understand buying process, e.g. paper process, approvals, signatures, etc.
-- If a [trial license extension](/handbook/support/license-and-renewals/workflows/self-managed/trials.html) is being requested from a customer, discuss with AE and prepare a project plan with the customer before granting an extension.
+- If a [trial license extension](/handbook/support/license-and-renewals/workflows/self-managed/trials/) is being requested from a customer, discuss with AE and prepare a project plan with the customer before granting an extension.
 - Other teams/business units identified that may need to be involved  (Other points of entry)
 - Additional demos scheduled for stakeholders with unique needs
 - [Opportunity Consults and Lightweight Deal Reviews](/handbook/sales/commercial/#opportunity-consults-and-lightweight-deal-reviews) with manager if monetary thresholds are met

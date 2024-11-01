@@ -1,11 +1,11 @@
 ---
 title: "Marketing Metrics"
-description: "We use Sisense to view and analyze our marketing metrics from multiple data sources."
+description: "We use Tableau to view and analyze our marketing metrics from multiple data sources."
 ---
 
 ## Marketing Metrics
 
-Below are the definitions of our primay Marketing Metrics.
+Below are the definitions of our primary Marketing Metrics.
 
 ### Inquiry
 
@@ -13,13 +13,13 @@ An inquiry is a stage of the lead/contact objects in SFDC. GitLab defines inquir
 
 #### First Order Inquiries
 
-Inquiries that are part of a parent account that has not made an order through GitLab are classified as first-order inquiries. To find them, we join the account table to the person table on the inquiry account ID. If the field `has_first_order_available` is true on the account object, the inquiry is first order. If the inquiry does not have an account associated with it, it is also first order.
+Inquiries that are part of a parent account that has not made an order through GitLab are classified as first order inquiries. To find them, we join the account table to the person table on the inquiry's account ID. If the field `has_first_order_available` is true on the corresponding account object, the inquiry is first order. If the inquiry does not have an account associated with it, it is also first order.
 
 #### Date of Inquiry
 
-Finding when a lead became an inquiry requires accounting for leads who skipped the inquiry stage. To do this take the lesser of `inquiry_date` and `inquiry_inferred_date`.
+Finding when a person became an inquiry requires accounting for person records who skipped the inquiry stage. To do this take the lesser of `inquiry_date` and `inquiry_inferred_date`.
 
-The logic for finding when a person became an inquiry is captured in the `inquiry_reporting_date` field. It should always be used to report inquiries unless you are looking for something specific.
+The logic for finding when a person became an inquiry is captured in the `true_inquiry_date` field. It should always be used to report inquiries unless you are looking for something specific.
 
 #### Technical Definition
 
@@ -37,14 +37,12 @@ Example Query, this will return a list of inquiries with the date they became an
   FROM common_mart_marketing.mart_crm_person
   where
   lower(Status) != 'raw`
-  and inquiry_reporting_date is not null
+  and true_inquiry_date is not null
 ```
 
 #### Source & Metric
 
 An Inquiry is defined by records in the [Person Mart](https://dbt.gitlabdata.com/#!/model/model.gitlab_snowflake.mart_crm_person). To find the number of inquiries, take the unique count of `email_hash`
-
-Sisense View: [rpt_crm_person_inquiry](https://app.periscopedata.com/app/gitlab:safe-dashboard/view/rpt_crm_person_inquiry/5edb66186f094f40bc49e87694ea8e8f/edit)
 
 ### MQL
 
@@ -82,7 +80,7 @@ For circumstances where the cavacts above impact reports, we have created the MQ
 
 #### Technical Definition
 
-Any lead or contact from the [fct_crm_person](https://dbt.gitlabdata.com/#!/model/model.gitlab_snowflake.fct_crm_person) table where the MQL first or Inferred MQL date is not null.
+Any lead or contact from the [fct_crm_person](https://dbt.gitlabdata.com/#!/model/model.gitlab_snowflake.fct_crm_person) table where the MQL latest or Inferred MQL date is not null.
 
 This is captured in the [fct_crm_person](https://dbt.gitlabdata.com/#!/model/model.gitlab_snowflake.fct_crm_person) table by the `is_mql = TRUE`.
 
@@ -93,7 +91,7 @@ Example Query, this will return a list of MQLs with the date they became an MQL:
   dim_crm_person.dim_crm_person_id,
   dim_crm_person.sfdc_record_id,
   Dim_crm_person.email_hash,
-  collate(mql_date, mql_inquiry_date) as mql_date
+  collate(mql_date_latest_pt, inferred_mql_date_latest) as mql_date
   FROM mart_crm_person
   where
   is_mql = TRUE
@@ -102,8 +100,6 @@ Example Query, this will return a list of MQLs with the date they became an MQL:
 #### Source
 
 An MQL is defined by records in the [Person Mart](https://dbt.gitlabdata.com/#!/model/model.gitlab_snowflake.mart_crm_person).
-
-Sisense Snippet: [rpt_crm_person_mql](https://app.periscopedata.com/app/gitlab:safe-dashboard/view/rpt_crm_person_mql/5e19022f569a480bb73adcef3a1d2681/edit)
 
 ### SAO
 
@@ -453,11 +449,15 @@ Note: There is a current transition to move towards the [Territory Success Plann
 
 ## Dashboard Review Videos
 
-### [Marketing Metrics](https://app.periscopedata.com/app/gitlab/798262/TD---Marketing-Metrics)
+### Marketing Metrics
+
+[Marketing Metrics](https://app.periscopedata.com/app/gitlab/798262/TD---Marketing-Metrics)
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/7cT_IsyWrus" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-### [SDR Metrics](https://app.periscopedata.com/app/gitlab/641469/SDR-Metrics)
+### SDR Metrics
+
+[SDR Metrics](https://app.periscopedata.com/app/gitlab/641469/SDR-Metrics)
 
 [Video Walkthrough](https://www.youtube.com/watch?v=ygeZvKvU9uc) (Private Video)
 
@@ -517,7 +517,7 @@ Please note that whilst you can track leads via SFDC campaigns or UTM reports, p
 
 ## Channel Marketing Reporting
 
-We track marketing influence on channel opportunies as well as deal regisiration impact from [Market Development Funds](/handbook/resellers/Channel-Program-Guide/MDF/).
+We track marketing influence on channel opportunies as well as deal regisiration impact from [Market Development Funds](/handbook/resellers/channel-program-guide/MDF/).
 
 | Report Name                                    | Platform   | Description                                                                                                                                                                                                                                  | Link                                                                                                                                  |
 | ---------------------------------------------- | ---------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------- |
@@ -561,7 +561,7 @@ The above reports are Bizible attribution reports at the person level, you will 
 
 [Example SFDC report](https://gitlab.my.salesforce.com/00O4M000004opfA) and an [example google sheet](https://docs.google.com/spreadsheets/d/12vKuafod5__ORqv0bCGiasMr1ANPlzPUY_95RN6Pwr0/edit#gid=48544605&range=P1) with the forumla.
 
-- [Records passed to partners](https://gitlab.my.salesforce.com/00O8X000008RSHg) - As part of our [campaigns we run jointly with channel partners](/handbook/marketing/channel-marketing/partner-campaigns/#joint-gitlab-and-partner-campaigns), we would like to understand the status of records we've passed to partners, this report give us that insight.
+- [Records passed to partners](https://gitlab.my.salesforce.com/00O8X000008RSHg) - As part of our [campaigns we run jointly with channel partners](/handbook/marketing/marketing-operations/campaigns-and-programs/#joint-gitlab-and-partner-campaigns), we would like to understand the status of records we've passed to partners, this report give us that insight.
 
 ### Contribution to sales pipeline
 

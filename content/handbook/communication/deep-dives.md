@@ -15,7 +15,7 @@ An example format guideline:
 - Implementation Overview (how is it implemented?)
 - Q&A
 
-**Note:** The support team have documented similar initiatives in the handbook: [Support Deep Dives](/handbook/support/advanced-topics/index.html#deep-dives) and [Support Training Modules](/handbook/support/advanced-topics/index.html#support-training-modules).
+**Note:** The support team have documented similar initiatives in the handbook: [Support Deep Dives](/handbook/support/advanced-topics/#deep-dives) and [Support Training Modules](/handbook/support/advanced-topics/#support-training-modules).
 
 ### Preparation steps
 

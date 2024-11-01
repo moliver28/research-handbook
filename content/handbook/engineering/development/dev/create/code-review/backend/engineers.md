@@ -47,4 +47,4 @@ This is a list of commonly requested training and some additional resources:
 - [Live learning sessions](/handbook/people-group/learning-and-development/#learning-sessions)
 - [Learning and Development - Learning Initiatves](/handbook/people-group/learning-and-development/learning-initiatives/)
 - [Compliance courses](/handbook/people-group/learning-and-development/compliance-courses/)
-- [Growth and Development Benefit](/handbook/total-rewards/benefits/general-and-entity-benefits/growth-and-development/)
+- [Growth and Development Benefit](/handbook/people-group/learning-and-development/growth-and-development/)

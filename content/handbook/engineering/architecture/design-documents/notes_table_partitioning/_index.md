@@ -1,5 +1,5 @@
 ---
-title: Partitioning the notes table
+title: "Partitioning the notes table"
 status: ongoing
 creation-date: "2023-12-22"
 authors: [ "@engwan", "@euko" ]
@@ -8,7 +8,6 @@ participating-stages: [ "~devops::create" ]
 toc_hide: true
 ---
 
-<!-- vale gitlab.FutureTense = NO -->
 {{< design-document-header >}}
 
 ## Problem

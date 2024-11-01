@@ -123,7 +123,7 @@ For colocated companies, the occasional team offsite — to take in a sporting e
 
 Below are a number of intentional facets of [GitLab's culture]({{< ref "culture#culture-at-gitlab" >}}), created to foster informal communication. We welcome other all-remote companies to iterate on these and implement as desired.
 
-1. [Contribute Unconference](https://about.gitlab.com/events/gitlab-contribute): An in-person, week-long event where we bring the entire company together in one location to get to know each other better.
+1. [Contribute Unconference](/handbook/company/culture/summit/): An in-person, week-long event where we bring the entire company together in one location to get to know each other better.
 1. [Group conversations](/handbook/company/group-conversations/): Four times a week the company gets together virtually to discuss an area of the business. Slides are provided for context but not presented.
 1. Coffee chats: More details below.
 1. Coworking calls: More details below.
@@ -372,7 +372,7 @@ Teams can also arrange shared meals around the world. [Global pizza parties](htt
 ![GitLab team in Luna Park live game show](/images/all-remote/luna_park_game_show_gitlab.jpg)
 {style="max-width: 50%;"}
 
-You can now bring peers or colleagues into online game shows through platforms like [Luna Park](https://golunapark.com). Some social games are built for synchronous experiences, while on-demand games are more amenable to asynchronous engagement across time zones.
+You can now bring peers or colleagues into online game shows through platforms like [Luna Park](https://golunapark.com). Some social games are built for synchronous experiences like [Collab](https://collab.getchinwag.com), while on-demand games are more amenable to asynchronous engagement across time zones.
 
 ## Virtual lunch table
 
@@ -402,7 +402,7 @@ GitLab's Customer Success team ideated and executed a [worldwide scavenger hunt]
 
 GitLab's global [marketing team](/handbook/marketing) plays pub-style trivia every other week. You can compete as individuals or as teams, with a suggested time of 1 hour. For those within the GitLab organization, email `events@gitlab.com` if you want to arrange a game for your team.
 
-GitLab utilizes [MysteryTrip](http://games.mysterytrip.co), which serves large teams well and doesn't place a heavy preparation load on the organizer. MysteryTrip handles the preparation work for questions, acts as trivia master, and has automatic scoring and a leadercard. This makes spinning up a game quick and easy, with pricing set at around $20 per player. For those outside of the GitLab organization, regularly-scheduled trivia sessions are an excellent way to take everyone's focus away from work and engage in a shared experience.
+GitLab utilizes MysteryTrip, which serves large teams well and doesn't place a heavy preparation load on the organizer. MysteryTrip handles the preparation work for questions, acts as trivia master, and has automatic scoring and a leadercard. This makes spinning up a game quick and easy, with pricing set at around $20 per player. For those outside of the GitLab organization, regularly-scheduled trivia sessions are an excellent way to take everyone's focus away from work and engage in a shared experience.
 
 ## Co-working calls
 

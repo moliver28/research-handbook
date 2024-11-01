@@ -38,7 +38,7 @@ and more precisely for changes in:
 
 1. The [GitLab Architecture](https://docs.gitlab.com/ee/development/architecture.html)
 1. The [GitLab.com    infrastructure](/handbook/engineering/infrastructure/production/architecture/)
-1. The [classification](/handbook/security/data-classification-standard.html) of
+1. The [classification](/handbook/security/data-classification-standard/) of
    the data being managed (stored, transferred, or updated)
 
 ## Getting Started

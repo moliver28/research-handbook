@@ -32,7 +32,7 @@ While our team will do our very best to facilitate the process, there are some s
 
 If you receive a `Vendor Set Up Form`, you can find more information [here](/handbook/sales/field-operations/order-processing/#how-to-process-customer-requested-vendor-setup-forms).
 
-If you need an `NDA`, you can find more information on obtaining one [here](/handbook/legal/NDA/).
+If you need an `NDA`, you can find more information on obtaining one [here](/handbook/legal/nda/).
 
 Please review [our SLAs]({{< ref "customer-security-assessment-process#service-level-agreements" >}}) regarding the timelines for each type of customer assurance activity.
 

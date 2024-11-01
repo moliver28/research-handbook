@@ -128,7 +128,7 @@ Extends the Staff Technical Writer responsibilities in complexity and scope.
 - **Leadership**: Identify and lead cross-GitLab department projects that improve the deliverables or processes of the Technical Writing team.
 - **Recruiting**: Be available to interview potential technical writing candidates.
 - **Mentoring**: Mentor other technical writers and team members regarding best practices and other process knowledge.
-- **Impact**: Provide positive influence on the adoption of [stages per organization](/handbook/product/performance-indicators/#stages-per-organization-spo) through more usable documentation, with the ultimate goal being a contribution to higher [ARR](/handbook/sales/sales-term-glossary/arr-in-practice/#annual-recurring-revenue-arr).
+- **Impact**: Provide positive influence on the adoption of [stages per organization](https://internal.gitlab.com/handbook/company/performance-indicators/product/#stages-per-organization-spo) through more usable documentation, with the ultimate goal being a contribution to higher [ARR](/handbook/sales/sales-term-glossary/arr-in-practice/#annual-recurring-revenue-arr).
 
 ## Performance Indicators
 

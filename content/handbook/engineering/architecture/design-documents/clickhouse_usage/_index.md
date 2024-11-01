@@ -1,5 +1,5 @@
 ---
-title: ClickHouse Usage at GitLab
+title: "ClickHouse Usage at GitLab"
 status: proposed
 creation-date: "2023-02-02"
 authors: [ "@nhxnguyen" ]
@@ -10,7 +10,6 @@ participating-stages: ["~section::ops", "~section::dev"]
 toc_hide: true
 ---
 
-<!-- vale gitlab.FutureTense = NO -->
 {{< design-document-header >}}
 
 ## Summary

@@ -183,10 +183,10 @@ The next step for both individual contributors and managers of people is to move
 
 Software Engineers in Test have the following job-family performance indicators.
 
-- [Average CE/EE master end-to-end test suite execution duration per month](/handbook/engineering/quality/performance-indicators/#average-ce-ee-master-end-to-end-test-suite-execution-duration-per-month)
-- [Ratio of quarantine vs total end-to-end tests in master per month](/handbook/engineering/quality/performance-indicators/#ratio-of-quarantine-vs-total-end-to-end-tests-in-master-per-month)
-- [Successful vs failed CE/EE master pipelines per month](/handbook/engineering/quality/performance-indicators/#successful-vs-failed-ce-ee-master-pipelines-per-month)
-- [New issue first triage SLO](/handbook/engineering/quality/performance-indicators/#new-issue-first-triage-slo)
+- [Average CE/EE master end-to-end test suite execution duration per month](/handbook/engineering/infrastructure/performance-indicators/#average-ce-ee-master-end-to-end-test-suite-execution-duration-per-month)
+- [Ratio of quarantine vs total end-to-end tests in master per month](/handbook/engineering/infrastructure/performance-indicators/#ratio-of-quarantine-vs-total-end-to-end-tests-in-master-per-month)
+- [Successful vs failed CE/EE master pipelines per month](/handbook/engineering/infrastructure/performance-indicators/#successful-vs-failed-ce-ee-master-pipelines-per-month)
+- [New issue first triage SLO](/handbook/engineering/infrastructure/performance-indicators/#new-issue-first-triage-slo)
 
 ## Hiring Process
 

@@ -28,6 +28,10 @@ The term *"sales"* refers to the Sales Team and *"field"* includes the Customer 
 - [Channel Operations](/handbook/sales/field-operations/channel-operations/)
 - [Customer Success Operations](/handbook/sales/field-operations/customer-success-operations)
 
+### RSOE Growth & Development
+
+- For guidance and resources on [RSOE Career Growth & Development](/handbook/sales/field-operations/RSOE-G&D)
+
 ### Field Operations Calendar
 
 - Field Operations utilizes a team calendar to communicate team member availability as well as office hour meetings.

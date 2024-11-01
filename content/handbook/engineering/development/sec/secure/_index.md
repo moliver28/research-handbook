@@ -8,7 +8,7 @@ The Secure engineering sub-department is responsible for the [Secure Stage](/han
 
 To provide content and tools to support the best possible assessment at the earliest possible moment.
 
-Following our [single application](/handbook/product/single-application/) paradigm,
+Following our [single application](/handbook/product/categories/gitlab-the-product/single-application/) paradigm,
 we integrate and build scanning tools to supply security and compliance assessment data to the main GitLab application
 where we develop our vulnerability management system and other features.
 While it might be technically feasible, we do not aim at building standalone products that provide this data independently from the GitLab application.
@@ -111,7 +111,7 @@ Coverage-guided fuzzing and API fuzzing are used to automatically input data int
 
 #### License Compliance
 
-[License Compliance](https://docs.gitlab.com/ee/user/compliance/license_compliance/index.html) helps with the licenses introduced by third-party libraries in the application.
+[License Compliance](https://docs.gitlab.com/ee/user/compliance/license_approval_policies.html) helps with the licenses introduced by third-party libraries in the application.
 Licence management relies on the [LicenseFinder](https://github.com/pivotal-legacy/LicenseFinder) gem.
 
 #### Vulnerability Research
@@ -146,7 +146,7 @@ Because we have a wide range of domains to cover, it requires a lot of different
 
 Our team also must have a good sense of security, with at least basic skills in [application security](https://en.wikipedia.org/wiki/Application_security).
 
-We provide tools for many different languages (ex: [sast](https://docs.gitlab.com/ee/user/application_security/sast/#supported-languages-and-frameworks), [dependency scanning](https://docs.gitlab.com/ee/user/application_security/dependency_scanning/#supported-languages-and-dependency-managers), [license compliance](https://docs.gitlab.com/ee/user/compliance/license_compliance/index.html#supported-languages-and-package-managers)). It means our team is able to understand the basics of each of these languages, including their package managers. We maintain [tests projects](https://gitlab.com/gitlab-org/security-products/tests) to ensure our features are working release after release for each of them.
+We provide tools for many different languages (ex: [sast](https://docs.gitlab.com/ee/user/application_security/sast/#supported-languages-and-frameworks), [dependency scanning](https://docs.gitlab.com/ee/user/application_security/dependency_scanning/#supported-languages-and-dependency-managers), [license compliance](https://docs.gitlab.com/ee/user/compliance/license_approval_policies.html#supported-languages-and-package-managers)). It means our team is able to understand the basics of each of these languages, including their package managers. We maintain [tests projects](https://gitlab.com/gitlab-org/security-products/tests) to ensure our features are working release after release for each of them.
 
 ### Release process
 
@@ -166,12 +166,12 @@ We use the [security-triage-automation](https://gitlab.com/gitlab-org/secure/too
 Note that we do not yet automatically create security issues for non-FedRAMP vulnerabilities. Please see the [Non-FedRAMP vulnerabilities section](#non-fedramp-vulnerabilities) for more details.
 1. [Resolve all vulnerabilities (both FedRAMP and non-FedRAMP) no longer detected on the default branch and close their issues](https://gitlab.com/gitlab-org/secure/tools/security-triage-automation#resolve-vulnerabilities-and-close-their-issues), executed every 2 days.
 
-[The Vulnmapper tool](https://gitlab.com/gitlab-com/gl-security/threatmanagement/vulnerability-management/vulnerability-management-internal/vulnmapper) also provides some [automation to vulnerability management](/handbook/security/product-security/vulnerability-management/automation/) like:
+[The Vulnmapper tool](https://gitlab.com/gitlab-com/gl-security/product-security/vulnerability-management/vulnerability-management-internal/vulnmapper) also provides some [automation to vulnerability management](/handbook/security/product-security/vulnerability-management/automation/) like:
 
 1. Adding labels to security issues to further classify the fix availability (fix_available, fix_unavailable, will_not_be_fixed, etc.).
 1. Creating Deviation Request issues for FedRAMP related security issues that should have one.
 
-Note: Our goal is to centralize automation for vulnerability management in the [Vulnmapper tool in the nearest future](https://gitlab.com/gitlab-com/gl-security/threatmanagement/vulnerability-management/vulnerability-management-internal/vulnmapper/-/milestones/4#tab-issues) and standardize our processes across the company. However, so far we're following the existing process based on the [security-triage-automation tool](https://gitlab.com/gitlab-org/secure/tools/security-triage-automation).
+Note: Our goal is to centralize automation for vulnerability management in the [Vulnmapper tool in the nearest future](https://gitlab.com/gitlab-com/gl-security/product-security/vulnerability-management/vulnerability-management-internal/vulnmapper/-/milestones/4#tab-issues) and standardize our processes across the company. However, so far we're following the existing process based on the [security-triage-automation tool](https://gitlab.com/gitlab-org/secure/tools/security-triage-automation).
 
 #### Automation failures
 
@@ -223,13 +223,17 @@ To do so, use the following procedure.
 
 </details>
 
+##### Troubleshoothing
+
+* **`GITLAB_ACCESS_TOKEN` has expired**. The automation relies on API requests to manage vulnerabilities and issues on various projects. This requires specific permissions and authentication is achieved with a Private Access Token generated on the service account `gl-service-security-triage` (credentials available in 1Password). If the token is expired, a new one (with `api` scope) must be generated by signing in with this account on gitlab.com and then the new value must be configured in [the settings](https://gitlab.com/gitlab-org/security-products/release/-/settings/ci_cd) of the `release` project.
+
 ##### FedRAMP vulnerabilities
 
 To ensure compliance, the management of FedRAMP vulnerabilities is handled by [automation](#automation). Please check the manual process fallback for additional details.
 
 ##### Non-FedRAMP vulnerabilities
 
-We do not yet have the same automation in place for non-FedRAMP vulnerabilities since it represents a too important volume to manage for our teams and some necessary [improvements in the vulnmapper tool](https://gitlab.com/gitlab-com/gl-security/threatmanagement/vulnerability-management/vulnerability-management-internal/vulnmapper/-/milestones/4#tab-issues) are required prior to enabling this.
+We do not yet have the same automation in place for non-FedRAMP vulnerabilities since it represents a too important volume to manage for our teams and some necessary [improvements in the vulnmapper tool](https://gitlab.com/gitlab-com/gl-security/product-security/vulnerability-management/vulnerability-management-internal/vulnmapper/-/milestones/4#tab-issues) are required prior to enabling this.
 In the meantime, we favor a more specialized approach for these vulnerabilities and there is no standardized process across the groups.
 
 #### Error Monitoring

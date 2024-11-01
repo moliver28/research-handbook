@@ -11,7 +11,7 @@ description: "Learn more about the Product Career Development Framework Working 
 | Target End Date | January 31,2023 |
 | Slack           | [#wg_product-cdf](https://join.slack.com/share/zt-pg3dw504-aLrkdftFZ9xrqHEGqgqQMw) (only accessible by GitLab team members) |
 | Google Doc      | [Working Group Agenda](https://docs.google.com/document/d/1a0baXkNsfDuDwcJ5IxNlLekCmFzElMGnmTmVAfQYV8o/edit?usp=sharing) (only accessible by GitLab team members) |
-| Docs            | [Framework Handbook Page](/handbook/product/product-manager-role/product-cdf-competencies/) |
+| Docs            | [Framework Handbook Page](/handbook/product/product-management/product-cdf-competencies/) |
 | Issues    | [Issue List](https://gitlab.com/gitlab-com/Product/-/issues?label_name[]=wg%3Aproduct-cdf) / [Issue Board](https://gitlab.com/gitlab-com/Product/-/boards/2778676?&label_name[]=wg%3Aproduct-cdf) |
 | Label           | `~wg-product-cdf` |
 | Associated KPIs/OKRs | Promotion Rate and Retention |
@@ -19,7 +19,7 @@ description: "Learn more about the Product Career Development Framework Working 
 
 ## Business Goals
 
-1. Deliver a revised [Product Career Development Framework](/handbook/product/product-manager-role/product-CDF-competencies/#product-management-career-development-framework) for Individual Contributor roles in Product based on new competencies by 2022-06-20.
+1. Deliver a revised [Product Career Development Framework](/handbook/product/product-management/product-cdf-competencies/#product-management-career-development-framework) for Individual Contributor roles in Product based on new competencies by 2022-06-20.
 1. Conduct AMAs and training with Product Organization on new CDFs for optional use in a  FY23-Q3 Career Conversations.
 1. Conduct AMAs and training with Product Organization on new CDFs for broad use in FY23-Q4 Career Conversations.
 
@@ -32,11 +32,11 @@ description: "Learn more about the Product Career Development Framework Working 
 
 ### Exit Criteria
 
-1. Research and incorporation of industry standards into Product Manager [Skills](/handbook/product/product-manager-role/product-CDF-competencies/#cdf-for-individual-contributors) and [Requirements](/job-families/product/product-manager/#base-requirements-across-all-levels) => 100% delivered in [Product#2460](https://gitlab.com/gitlab-com/Product/-/issues/2460#note_632540218)
+1. Research and incorporation of industry standards into Product Manager [Skills](/handbook/product/product-management/product-cdf-competencies/#cdf-for-individual-contributors) and [Requirements](/job-families/product/product-manager/#base-requirements-across-all-levels) => 100% delivered in [Product#2460](https://gitlab.com/gitlab-com/Product/-/issues/2460#note_632540218)
 1. Research and incorporation of internal expectations into Product Management [Responsibilities](/handbook/product/product-manager-responsibilities/) => 100% delivered in [Product#2517](https://gitlab.com/gitlab-com/Product/-/issues/2517) and [Product#2832](https://gitlab.com/gitlab-com/Product/-/issues/2832)
-1. Clear quantative measures for progress [included in the CDF](/handbook/product/product-manager-role/product-CDF-competencies/#cdf-topics-for-product-managers)
-1. [Training](/handbook/product/product-manager-role/product-CDF-competencies/#people-management-competencies) for how to use the CDF for all [Product Leaders](/handbook/product/product-leadership/#product-leaders)
-1. Simplification of [PM Competencies](/handbook/product/product-manager-role/product-CDF-competencies/)
+1. Clear quantative measures for progress [included in the CDF](/handbook/product/product-management/product-cdf-competencies/#cdf-topics-for-product-managers)
+1. [Training](/handbook/product/product-management/product-cdf-competencies/#people-management-competencies) for how to use the CDF for all [Product Leaders](/handbook/product/product-leaders/product-leadership/#product-leaders)
+1. Simplification of [PM Competencies](/handbook/product/product-management/product-cdf-competencies/)
 
 ## Roles and Responsibilities
 

@@ -39,7 +39,7 @@ You can see new functionality planned in the [Plan stage direction page](https:/
 
 ## Getting started
 
-First, you will need to consider whether the work items framework is right for your feature, including your users and the experience they require. You can read about that process [here](/handbook/product/ux/stage-group-ux-strategy/plan/plan.html#problem-validation).
+First, you will need to consider whether the work items framework is right for your feature, including your users and the experience they require. You can read about that process [here](/handbook/product/ux/stage-group-ux-strategy/plan/plan/#problem-validation).
 
 All contributions begin with the _Validation backlog_ and _Problem validation_ phases. During these phases, the Plan stage PMs should be **Informed** of upcoming validation activities and **Consulted** during problem validation. These are critical opportunities to collaborate with us and ensure that your ask is not overlapping with future roadmap items and is not against the guiding principles.
 
@@ -54,7 +54,7 @@ At the end of this phase, we will work with your group to determine a contributi
 
 ## Contribution models
 
-If you decide to use the work items framework this will usually mean that you're creating a new work item type and/or creating new widgets. Sometimes, all functionality you need will already be in the framework. Hooray! If not, you can contribute to the framework to [extend it for your use case](/handbook/product/ux/stage-group-ux-strategy/plan/plan.html#solution-validation).
+If you decide to use the work items framework this will usually mean that you're creating a new work item type and/or creating new widgets. Sometimes, all functionality you need will already be in the framework. Hooray! If not, you can contribute to the framework to [extend it for your use case](/handbook/product/ux/stage-group-ux-strategy/plan/plan/#solution-validation).
 
 | Phase | Your group | Plan Stage | Description |
 | ----- | ---------- | ----------------- | ----------- |

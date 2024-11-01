@@ -40,9 +40,13 @@ Examples of how we engage with analysts include:
   - Remove them from the appropriate use case profile(s)
   - Notify the product management and product marketing teams
 
-## [How We Conduct Industry Analyst Briefings](/handbook/marketing/brand-and-product-marketing/product-and-solution-marketing/analyst-relations/ar-briefings/)
+## How We Conduct Industry Analyst Briefings
 
-## [How We Conduct Industry Analyst Inquiries](/handbook/marketing/brand-and-product-marketing/product-and-solution-marketing/analyst-relations/ar-inquiry/)
+[How We Conduct Industry Analyst Briefings](/handbook/marketing/brand-and-product-marketing/product-and-solution-marketing/analyst-relations/ar-briefings/)
+
+## How We Conduct Industry Analyst Inquiries
+
+[How We Conduct Industry Analyst Inquiries](/handbook/marketing/brand-and-product-marketing/product-and-solution-marketing/analyst-relations/ar-inquiry/)
 
 ## How we incorporate Use Cases into our industry analyst interactions
 
@@ -50,7 +54,7 @@ Examples of how we engage with analysts include:
 - Ongoing briefings to provide updates on progress made within the scope of a given use case
 - Subsequent inquiry calls to revisit market requirements, competitive positioning, etc. as updated to meet evolving market conditions
 
-## Responding to requests to participate in industry analyst research comparing vendors and/or their products (e.g. Magic Quadrants (MQs), Waves, etc.)
+## Responding to requests to participate in industry analyst comparison research
 
 - GitLab evaluates participation in industry analyst comparative research to which we are invited based in large part on how well we meet the qualification criteria and how we are likely to score for strategy/vision. When participating, we are committed to providing our best possible answers for the questionnaires.
 - The teams responsible for answering the questionnaire will make this a priority. We will:
@@ -61,7 +65,7 @@ Examples of how we engage with analysts include:
   - Present our overall solution within the context of the entirety of a specific, defined market, meaning these exercises are bake-offs; we are being evaluated in comparison to everyone else rather than in comparison to an ideal world. We should take into account the competitive landscape as we craft our position and support it.
   - Our demo should be viewed as a further proof point of our solution and a way to demonstrate things we might not be able to illustrate or otherwise communicate the way we'd like to in the questionnaire response.
 
-## Process for responding to industry analyst research comparing vendors and/or their products (e.g. Magic Quadrants (MQs), Waves, etc.)
+## Process for responding to industry analyst comparison research
 
 ### Before the questionnaire arrives
 

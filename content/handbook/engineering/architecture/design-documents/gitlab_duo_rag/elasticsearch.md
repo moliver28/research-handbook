@@ -1,5 +1,5 @@
 ---
-title: Elasticsearch
+title: "Elasticsearch"
 status: proposed
 creation-date: "2024-01-25"
 authors: [ "@shinya.maeda", "@mikolaj_wawrzyniak" ]
@@ -7,6 +7,7 @@ coach: [ "@stanhu" ]
 approvers: [ "@pwietchner", "@oregand", "@tlinz" ]
 owning-stage: "~devops::ai-powered"
 participating-stages: ["~devops::data stores", "~devops::create"]
+toc_hide: true
 ---
 
 For more information on Elasticsearch and RAG broadly, see the [Elasticsearch article](../gitlab_rag/elasticsearch.md) in [RAG at GitLab](../gitlab_rag/index.md).

@@ -246,8 +246,9 @@ The below were campaigns run historically, and aligned to overall GTM. They have
 
 **Launched: 2020-04-27 and continually optimized**
 
-#### [FigJam of FY23 campaign flow>>](https://www.figma.com/file/Ei7B2jndU7eOwukjWuMbAk/CICD-GTM-Campaign-Flow-FY23_2023-08-22_10-27-25?type=whiteboard&t=HDkNJDbCt6265Ezf-1)
+#### FigJam of FY23 campaign flow
 
+- [FigJam of FY23 campaign flow>>](https://www.figma.com/file/Ei7B2jndU7eOwukjWuMbAk/CICD-GTM-Campaign-Flow-FY23_2023-08-22_10-27-25?type=whiteboard&t=HDkNJDbCt6265Ezf-1)
 - [Campaign Brief](https://gitlab.com/groups/gitlab-com/marketing/-/epics/2850#memo-campaign-brief)
 - [Campaign Core Team Members](https://gitlab.com/groups/gitlab-com/marketing/-/epics/2850#busts_in_silhouette-campaign-core-team)
 - [Current/Planned Content and Events](https://gitlab.com/groups/gitlab-com/marketing/-/epics/2850#fy23-new-planned-content-events)
@@ -271,8 +272,9 @@ The below were campaigns run historically, and aligned to overall GTM. They have
 
 **Launched: 2020-04-28 and continually optimized**
 
-#### [FigJam of FY23 campaign flow>>](https://www.figma.com/file/OuFSfs8Eb1DRepmDxG6OKj/DevOps-GTM-Campaign-Flow-FY23_2023-08-22_10-36-34?type=whiteboard&t=n9XmTSuPFXL83Ruh-1)
+#### FigJam of FY23 campaign flow
 
+- [FigJam of FY23 campaign flow>>](https://www.figma.com/file/OuFSfs8Eb1DRepmDxG6OKj/DevOps-GTM-Campaign-Flow-FY23_2023-08-22_10-36-34?type=whiteboard&t=n9XmTSuPFXL83Ruh-1)
 - [Campaign Brief](https://gitlab.com/groups/gitlab-com/marketing/-/epics/2858#memo-campaign-brief)
 - [Current/Planned Content and Events](https://gitlab.com/groups/gitlab-com/marketing/-/epics/2858#fy23-new-planned-content-events)
 - [Campaign Core Team Members](https://gitlab.com/groups/gitlab-com/marketing/-/epics/2858#busts_in_silhouette-campaign-core-team)
@@ -293,8 +295,9 @@ The below were campaigns run historically, and aligned to overall GTM. They have
 
 **Launched: 2020-04-29 and continually optimized**
 
-#### [FigJam of FY23 campaign flow>>](https://www.figma.com/file/OuFSfs8Eb1DRepmDxG6OKj/DevOps-GTM-Campaign-Flow-FY23_2023-08-22_10-36-34?type=whiteboard&t=elKOAakWTl8snIYW-1)
+#### FigJam of FY23 campaign flow
 
+- [FigJam of FY23 campaign flow>>](https://www.figma.com/file/OuFSfs8Eb1DRepmDxG6OKj/DevOps-GTM-Campaign-Flow-FY23_2023-08-22_10-36-34?type=whiteboard&t=elKOAakWTl8snIYW-1)
 - [Epic with tactical issues](https://gitlab.com/groups/gitlab-com/marketing/-/epics/743)
 - [Solution Resource](/handbook/marketing/brand-and-product-marketing/product-and-solution-marketing/usecase-gtm/devsecops/)
 - [Campaign Review 2021-07-26](https://docs.google.com/presentation/d/1gPMLjIRPNOCt8DqHUWYdwxW2tNH528qg_YbmZaDYzl8/edit#slide=id.g5e411f22b2_0_0) - GitLab Team Members Only
@@ -312,8 +315,9 @@ The below were campaigns run historically, and aligned to overall GTM. They have
 
 **Launched: 2020-06-22 and continually optimized**
 
-#### [FigJam of FY23 campaign flow>>](https://www.figma.com/file/R5rSFgNdyW5mSN9mSHORJo/Campaigns-%3E-GitOps-GTM-Campaign-Flow-FY22---FY23_2023-08-22_10-43-13?type=whiteboard&t=elKOAakWTl8snIYW-1)
+#### FigJam of FY23 campaign flow
 
+- [FigJam of FY23 campaign flow>>](https://www.figma.com/file/R5rSFgNdyW5mSN9mSHORJo/Campaigns-%3E-GitOps-GTM-Campaign-Flow-FY22---FY23_2023-08-22_10-43-13?type=whiteboard&t=elKOAakWTl8snIYW-1)
 - [Epic with tactical issues](https://gitlab.com/groups/gitlab-com/marketing/-/epics/745)
 - [Campaign Review 2021-9-26](https://docs.google.com/presentation/d/1eYF_H95XzrGmgrqbbRy6rYKsqZkpPvCt7sNxyuEsZuk/edit#slide=id.g5e411f22b2_0_0) - GitLab Team Members Only
 - [SDR & Sales enablement epic](https://gitlab.com/groups/gitlab-com/marketing/-/epics/891)

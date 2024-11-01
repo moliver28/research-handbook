@@ -110,7 +110,7 @@ GitLab offers a full catalog of professional services including implementation, 
 
 * [PS Offerings Framework](framework)
 * [PS Standard SKUs](SKUs)
-* [PS Full Catalog](/services/catalog/)
+* [PS Full Catalog](https://about.gitlab.com/services/catalog/)
 
 ## Working with Professional Services
 

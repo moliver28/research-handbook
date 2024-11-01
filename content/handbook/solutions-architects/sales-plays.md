@@ -7,7 +7,7 @@ description: "Discover GitLab Solutions Architects' Sales Plays practices"
 
 The SA should either be included in a discovery call or provided with Outcome / Infrastructure / Challenges information uncovered by prior interactions with the account. Occasionally, SA's may support a combination call of discovery and technical demonstration/deep-dive on a single call, but this is suboptimal as the latter approach does not allow the SA time to prepare for and/or tailor the discussion.
 
-The SA is also responsible for any pre-sales technical customer inquiry or audit from associated accounts, including RFI, RFP or security audits. For details on the audit process, proceed to the [Security](/handbook/security/security-assurance/field-security/customer-security-assessment-process.html) page.
+The SA is also responsible for any pre-sales technical customer inquiry or audit from associated accounts, including RFI, RFP or security audits. For details on the audit process, proceed to the [Security](/handbook/security/security-assurance/field-security/customer-security-assessment-process/) page.
 
 The SA is always responsible for drafting Professional Services SOW's, regardless of the account status (pre- and post-sales).
 

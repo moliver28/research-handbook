@@ -1,0 +1,13 @@
+---
+# Error: handbook.StaticImagePath
+#
+# Checks for image paths that start with /static.
+#
+# For a list of all options, see https://vale.sh/docs/topics/styles/
+extends: existence
+message: "Remove /static from image path for proper image rendering."
+link: https://handbook.gitlab.com/docs/markdown-guide/#images
+level: error
+scope: raw
+raw:
+  - '\[.+\]\(\/static\/images.*\)'

@@ -36,11 +36,11 @@ Team members registered to the Social Insurance are also registered with the Emp
 #### Sick Leave
 
 - When a person is unable to work because of injury or sickness and GitLab provides no pay, the Health Insurance Scheme provides 60% of the standard monthly remuneration (determined on the basis of the insured person's basic monthly salary/wage) as a sickness or injury benefit from the fourth day, for up to 18 months.
-- Team members must designate any time off for illness as `Out Sick` in Time Off by Deel to ensure that time off is properly tracked. In the event that a team member is out sick for greater than three consecutive calendar days, the team member must then follow the process with regard to [Communicating Illness-Related Leave]({{< ref "paid-time-off#communicating-illness-related-leave" >}}).
+- Team members must designate any time off for illness as `Out Sick` in Workday to ensure that time off is properly tracked. In the event that a team member is out sick for greater than three consecutive calendar days, the team member must then follow the process with regard to [Communicating Illness-Related Leave]({{< ref "paid-time-off#communicating-illness-related-leave" >}}).
 
 #### Annual/Vacation Leave
 
-A team member who has been continuously employed for six months is entitled to a minimum of ten days' annual paid leave on the day after completing six months of employment. The entitlement increases by one day per year for the following two years and by two days per year thereafter, up to a maximum of 20 days per year. Annual paid leave runs concurrently with GitLab PTO. Team members must designate all vacation time taken as `Vacation` in Time Off by Deel to ensure that vacation entitlement is properly tracked. Unused annual paid leave expires after two years if not used. Team members are not entitled to payment for unused vacation time upon termination of employment.
+A team member who has been continuously employed for six months is entitled to a minimum of ten days' annual paid leave on the day after completing six months of employment. The entitlement increases by one day per year for the following two years and by two days per year thereafter, up to a maximum of 20 days per year. Annual paid leave runs concurrently with GitLab PTO. Team members must designate all vacation time taken as `Paid Time Off` in Workday to ensure that vacation entitlement is properly tracked. Unused annual paid leave expires after two years if not used. Team members are not entitled to payment for unused vacation time upon termination of employment.
 
 #### Statutory Maternity Leave
 

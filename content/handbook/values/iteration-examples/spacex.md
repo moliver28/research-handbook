@@ -1,7 +1,8 @@
 ---
 title: "Iteration at SpaceX"
 description: Learn more about how SpaceX and Elon Musk iterate
-canonical_path: "/handbook/values/iteration-examples/spacex/"
+toc_hide: true
+hide_summary: true
 ---
 
 ## Iteration at SpaceX

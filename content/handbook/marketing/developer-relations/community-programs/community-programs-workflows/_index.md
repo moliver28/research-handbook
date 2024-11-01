@@ -11,7 +11,7 @@ By maintaining this page, we aim to establish more transparency into our workflo
 ## Automated applications workflow overview
 
 Community Programs applications workflows have been automated since FY23Q3.
-The Community Programs team partners with a third party, [SheerID](https://www.sheerid.com/shoppers/aboutsheerid/), to assist in processing applications to community programs.
+The Community Programs team partners with a third party, [SheerID](https://www.sheerid.com/), to assist in processing applications to community programs.
 
 The Community Programs team processes applications to [GitLab's community programs](/handbook/marketing/developer-relations/community-programs/) with a seven-stage workflow:
 
@@ -32,7 +32,7 @@ SheerID therefore hosts and sends all communications (email and browser notifica
 SheerID also provides [customer service](https://drive.google.com/file/d/13AW0BYt4HNFzGfM6iRuMtpjZ1J8tAXyI/view?usp=sharing) specific to GitLab.
 [MySheerID](https://my.sheerid.com/) is the customer portal for the verification system.
 The portal contains details on each application form, a reporting system, and account settings.
-GitLab team members requiring access to the MySheerID portal can request an account through an [access request](/handbook/business-technology/end-user-services/onboarding-access-requests/access-requests/).
+GitLab team members requiring access to the MySheerID portal can request an account through an [access request](/handbook/it/end-user-services/onboarding-access-requests/access-requests/).
 
 We review GitLab's contract with SheerID on an annual basis.
 Costs are based on the total number of verifications across all programs.

@@ -94,7 +94,7 @@ Progress of this portion can be monitored in this issue at [gitlab-org/gitlab#33
 
 In rarer cases an attacker's goal is simply denial of a service through maliciously destroying data or code required for a target system to run applications.
 
-Evidence of code execution or command injection is sufficient for simulated destruction in some ways. Alternative proof of destruction could be a process similar to [Secret Detection post-processing and revocation](https://docs.gitlab.com/ee/user/application_security/secret_detection/post_processing.html).
+Evidence of code execution or command injection is sufficient for simulated destruction in some ways. Alternative proof of destruction could be a process similar to [Secret Detection post-processing and revocation](https://docs.gitlab.com/ee/user/application_security/secret_detection/automatic_response.html#high-level-architecture).
 
 We could introduce a feature flag in DAST to enable destructive behaviour when code injection is viable.
 We **must** perform domain/subdomain validation before attempting to run destructive behaviour from Runners.

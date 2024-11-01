@@ -13,7 +13,7 @@ This group aims to unify all GitLab employees in a supportive wellness and menta
 
 Co-leads: @mmacfarlane and @yyugitlab
 
-Executive sponsor: @chrisweber44 
+Executive sponsor: To be confirmed
 
 Advisors & allies: Could be you!
 

@@ -14,7 +14,7 @@ The Customer 360 (or C360) is the full overview for each individual account.
 The left side panel of the 360 contains the following sections:
 
 - Summary - high-level overview of the account
-- Attributes - account-related details and links; for lifecycle stage definitions, see our [vision handbook page](/handbook/customer-success/vision/#lifecycle-stages), and for deployment types see our [definitions](/handbook/customer-success/csm/gainsight/deployment-types/)
+- Attributes - account-related details and links; for lifecycle stage definitions, see our [vision handbook page](/handbook/customer-success/customer-success-vision/#lifecycle-stages), and for deployment types see our [definitions](/handbook/customer-success/csm/gainsight/deployment-types/)
 - Scorecard - [health score](/handbook/customer-success/csm/health-score-triage/)
 - Success Plan - [success plans](/handbook/customer-success/csm/success-plans/)
 - Account Hierarchy - provides a tree of parent and child account hierarchy if applicable

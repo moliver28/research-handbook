@@ -1,5 +1,5 @@
 ---
-title: Transaction management in Gitaly
+title: "Transaction management in Gitaly"
 status: ongoing
 creation-date: "2023-05-30"
 authors: [ "@samihiltunen" ]

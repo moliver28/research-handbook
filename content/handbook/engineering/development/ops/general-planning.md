@@ -1,6 +1,4 @@
 ---
-aliases: /handbook/engineering/development/ops/general-planning.html
-
 title: General Planning Process - Ops Sub-department
 description: "The general planning process followed by the groups within the Ops Sub-department."
 ---

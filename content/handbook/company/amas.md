@@ -1,8 +1,6 @@
 ---
 title: AMAs
 description: What you need to know about Ask Me Anything (AMA)
-aliases:
-- /handbook/amas/
 ---
 
 An AMA (Ask Me Anything) is a session for team members to ask a specific individual or group of individuals questions either generally or on a specific topic.
@@ -28,7 +26,7 @@ We suggest each person attend via their own device to avoid [hybrid meetings](/h
 ### Steps to Request an AMA
 
 1. To request an AMA be put on the GitLab team meetings calendar, the requestor should find a date and time on the GitLab Team Meetings calendar that works for the AMA host.
-1. The requestor will slack [the EBA](/handbook/eba/)for their department in the `#group-conversations` Slack Channel and provide the following information:
+1. The requestor will slack [the EBA](/handbook/eba/) for their department in the `#group-conversations` Slack Channel and provide the following information:
     - Title of AMA
     - Public or Private Livestream
     - Date & Time (YYYY-MM-DD PST)
@@ -37,8 +35,10 @@ We suggest each person attend via their own device to avoid [hybrid meetings](/h
     - Agenda Link
     - Attendees (specify if calendar invitations go to specific teams or to everyone@gitlab.com)
     - Confirm if this call is "open to friends and family"
-
-- The EBA will create the event in the EBA Zoom account and add it to the GitLab team meetings calendar. The EBA will add the AMA document link in the description and invite the specified attendees to the meeting. The EBA will add Alternate Hosts if applicable.
+1. The EBA will create the event in the EBA Zoom account and add it to the GitLab team meetings calendar. 
+    - The EBA will add the AMA document link in the description and invite the specified attendees to the meeting. 
+    - In order to limit traffic in the document during the call, the link for the AMA document in the meeting invitation should contain "/preview" at the end of the address to direct attendees to the preview version, with instructions in the body of the document directing those who have questions to editable version. 
+    - The EBA will add Alternate Hosts if applicable.
 
 ## Defining Terms
 

@@ -132,7 +132,7 @@ The frontend roadmap items above are broken down into specific epics and issues,
 
 Documenting development decisions is another way to increase efficiency.  These decisions can be either in an issue explicitly stating that we will not work on this issue, the product category page for your group or a more formal decision log in your group's section of the handbook.  Whatever your chosen desitination, each group should try to maintain a [single source of truth](/handbook/values/#single-source-of-truth) for the decisions.  A recent example (without mentioning specific product name) had a development team researching an open source product to accelerate development time only to find out later that this research had been previously completed and the product was eliminated from consideration.  If this decision had been discoverable via documentation or issue it would have saved precious development time.
 
-We have started creating decision logs to benefit our internal development team as well as our greater GitLab community.  It is up to each group to determine the best location for decision logs to be discoverable.  For example, the Database team has a decision log for [Sharding GitLab with CitusDB](/handbook/engineering/infrastructure/core-platform/data_stores/database/doc/citus.html) in the Core Platform/Database section of the handbook and a decision log for the [Sharding Working Group](/handbook/company/working-groups/sharding/#outcome---closed) in the working group section of the handbook.
+We have started creating decision logs to benefit our internal development team as well as our greater GitLab community.  It is up to each group to determine the best location for decision logs to be discoverable.  For example, the Database team has a decision log for [Sharding GitLab with CitusDB](/handbook/engineering/infrastructure/core-platform/data_stores/database/doc/citus/) in the Core Platform/Database section of the handbook and a decision log for the [Sharding Working Group](/handbook/company/working-groups/sharding/#outcome---closed) in the working group section of the handbook.
 
 For issues, a clear decision is when an issue is successfully closed.  However, if an issue is closed because we "won't do it" it may not be immediately clear.  We are adopting the `~won't do` label for those issues.  Often the pattern is to just stash these issues in the `~backlog`.  This can be misleading to those watching the issue and frustrating to the original author, especially if they are a community contributor.  When we apply a `won't do` label to an issue, we are making a clear decision.  If there is no pushback on the `won't do` label then we made the right decision.  If there is pushback and we need to reprioritize the issue, then that is a good outcome as well.
 
@@ -226,9 +226,9 @@ To sign up for a month, simply open an MR to the schedule below to add yourself 
 | May   |  @manojmj | Progress: The story of how we leveraged housekeeper, YAML & GitLab Pages to build alignment | https://youtu.be/zUl5dMF5gz0  |
 | June  |           |       |          |
 | July  |     @terrichu     |   [Advanced search basics, integration, indexing and search](https://docs.google.com/presentation/d/1Fy3pfFIGK_2ZCoB93EksRKhaS7uuNp81I3L5_joWa04/edit?usp=sharing_)    | https://youtu.be/5OXK1isDaks |
-| August | @sxuereb | PromQL Basics, Mimir and our exporters       ||
-| September |  @bshah11     |    TBD  ||
-| October |         |       |          |
+| August | @sxuereb | [PromQL Basics, Mimir and our exporters](https://docs.google.com/presentation/d/1BhH0Ga_gtwoaiILCQEWYo4XdFidznT5Uk2v6D3QF7hw)       | https://youtu.be/CPo1-__wdh8 |
+| September | @mkaeppler | [Life of a Cloud Connector request](https://docs.google.com/presentation/d/1-T6PNMBFhBJMtfGdfjMsgMcgSHXtLzDd4T8lrTMkDHg/edit#slide=id.g1e546bbceaf_0_1402) | https://youtu.be/DeTh9dhDrnw         |
+| October |  @bshah11     |    Kubernetes Operators for PostgreSQL  ||
 | November |        |       |          |
 | December |        |       |          |
 
@@ -251,3 +251,11 @@ The following conditions are followed when initiating the process:
 2. The length of duration is what is defined by the Rapid Action and Borrow requests. For Internship, it is typically [6 weeks to 3 months](/handbook/people-group/learning-and-development/internship-for-learning/#:~:text=How%20long%20does%20an%20internship%20of%20this%20nature%20last%3F).
 3. At any time, the maximum concurrent temporary assignments cannot exceed 2 individuals for the roles within Core Platform. Note that there is no limit to roles for Rapid Actions and Borrows of company priority initiatives.
 4. Other specific requirements of each temporary arrangement, for example a condition of Internship says 'If your manager has coverage, you can spend a percentage of your time working (through an 'Internship') with another team.'
+
+## Collaborations and Requests For Help Cross Org
+
+We are piloting a process within Core Platform to standardize how we interact and respond to Collaboration requests from other organizations such as Professional Services or Customer Success Teams. Each team will use a template similar to [this](https://gitlab.com/gitlab-com/geo-customers/-/blob/master/.gitlab/issue_templates/Support%20Request%20-%20Collaboration%20Template.md) where specific information similar to an RFH template is used to help streamline any calls for Product/Engineering to participate in cross group collaborations or customer calls where engineer expertise is required.
+
+### Collaboration and RFH Templates
+
+Refer to https://gitlab.com/gitlab-com/enablement-sub-department/section-enable-request-for-help for details.

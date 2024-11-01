@@ -35,7 +35,7 @@ The Regional Sales Director is a [grade 10](/handbook/total-rewards/compensation
 - Demonstrate high levels of integrity, initiative, honesty and leadership
 - [Leadership at GitLab](/handbook/company/structure/#director-group)
 - Ability to use GitLab
-- Ability to travel if needed and comply with the company's [travel policy](/handbook/travel/)
+- Ability to travel if needed and comply with the company's [travel policy](/handbook/finance/travel/)
 
 {{% job-families/sales/performance %}}
 

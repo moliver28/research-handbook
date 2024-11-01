@@ -66,7 +66,7 @@ Solution Architects should use the [Support Super form](https://support-super-fo
 
 GitLab Team Members can no longer submit inactive namespace / namesquatting requests for their own use. See: [support-team-meta#5170](https://gitlab.com/gitlab-com/support/support-team-meta/-/issues/5170)
 
-Customers can submit a support ticket. See [Name Squatting Policy]({{< ref "namesquatting_policy" >}}).
+Customers can submit a support ticket. See [Name Squatting Policy](/handbook/support/workflows/namesquatting_policy/).
 
 ## Contact Request
 
@@ -114,11 +114,11 @@ Common issues include the following when the UI and API methods are not working:
 - User account confirmation retrigger
 - [Project export](https://gitlab.com/gitlab-com/support/internal-requests/-/blob/master/.gitlab/issue_templates/GitLab.com%20Console%20Export%20Request.md)
 
-Rarely, console escalations will also be used to workaround lack of a feature where Support can complete actions that would be unavailable or onerously time-consuming to customers.
+Rarely, console escalations will also be used to workaround lack of a feature where Support can complete actions that would be unavailable or onerously time-consuming to customers. When actions cannot be done via the UI or API, engineers should ensure that a feature request exists to have it in the product. Consider tagging the appropriate Product Manager for prioritization.
 
 Console escalation requests can also serve a purpose when further information (unavailable through the UI or API) is needed to understand the root cause of a problem. For example, searching for unverified secondary email until [gitlab#367823](https://gitlab.com/gitlab-org/gitlab/-/issues/367823) is resolved. This may be because we are not sufficiently logging in Kibana/Sentry, we're unable to replicate an issue, or the creation of an issue may not be the appropriate action needed to resolve a customer problem. Collaborate with console enabled engineers and product teams to solve these types of problems.
 
-Any request requiring disk access or a big data pull request similar to this [example](https://gitlab.zendesk.com/agent/tickets/336085), which cannot be done via rails console, requires an [infra issue](https://gitlab.com/gitlab-com/gl-infra/infrastructure/-/issues). Please note that infra does not have an SLO on these requests and may, in the customer's view, take an unreasonable amount of time to action on.
+Any request requiring assistance from infrastructure teams, please see the [SaaS Platforms Request for Help](https://gitlab.com/gitlab-com/saas-platforms/saas-platforms-request-for-help) issue tracker and [SaaS Platforms Getting Assistance](../../engineering/infrastructure/getting-assistance/) page.
 
 ### Response time and escalating the request
 
@@ -134,9 +134,9 @@ Engineers with console access should search for similar previous requests, look 
 You can filter requests by "Read::Only" or "Read::Write" labels.
 Common or custom functions can be found in the [support runbooks](https://gitlab.com/gitlab-com/support/runbooks/).
 
-For update, create, and delete actions, it's essential to carefully review the request and think about the impact of these actions. Remember, update and delete actions can be risky. When writing custom commands or scripts, it's crucial to calibrate them based on the potential risks and the situation's specifics. Unless the situation is urgent, get another set of eyes in your code to confirm what you want to achieve.
+For update, create, and delete actions, it's essential to carefully review the request and think about the impact of these actions. Remember, update and delete actions can be risky. When writing custom commands or scripts, it's crucial to calibrate them based on the potential risks and the situation's specifics. You should always get another set of eyes on your code to confirm what you want to achieve. Customer data loss is not an acceptable tradeoff for expediency.
 
-If you're not completely sure about the specifics of the script or commands, test them out in your test instance first. And if needed, get feedback from developers who know that area of codebase before using them in the production console. This approach helps reduce risks when doing console tasks in production.
+If you're not completely sure about the specifics of the script or commands, test them out in your test instance first. And if needed, get feedback from developers who know that area of codebase before using them in the production console. This approach helps reduce risks when doing console tasks in production. For any scripts that are originating from the support team and are not already in a runbook or approved by development teams, please reach out to a manager or staff support engineer for review and approval.
 
 ## CI Catalog Badge requests
 

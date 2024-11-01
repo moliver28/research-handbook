@@ -77,7 +77,7 @@ Some MRs require additional set up:
 - **Paid features**: Request a license via an [Access Request](https://gitlab.com/gitlab-com/team-member-epics/access-requests/-/issues/new), using the GitLab_Team_Member_License_Request template. [Add the license to your instance](https://docs.gitlab.com/ee/administration/license_file.html#add-your-license-file-during-installation).
   - You can also switch between CE and EE editions: [How to simulate a CE instance](https://docs.gitlab.com/ee/development/ee_features.html#simulate-a-ce-instance-when-unlicensed).
 - **Pipeline-related and Runner features**: Create or enable a runner to run a pipeline. [Create a runner in Gitpod](https://gitlab.com/gitlab-org/gitlab-development-kit/-/blob/main/doc/howto/gitpod.md#enable-runners) or [GDK](https://gitlab.com/gitlab-org/gitlab-development-kit/-/blob/main/doc/howto/runner.md).
-- **Compliance**: To test [audit event streaming](https://docs.gitlab.com/ee/administration/audit_event_streaming.html) using a stream destination URL. Generate a temporary destination with [Pipedream](https://pipedream.com/).
+- **Compliance**: To test [audit event streaming](https://docs.gitlab.com/ee/administration/audit_event_streaming/) using a stream destination URL. Generate a temporary destination with [Pipedream](https://pipedream.com/).
 - **Fulfillment**: Only Fulfillment Product Designers should review CustomersDot MRs.
   - [Set up CustomersDot locally](https://gitlab.com/gitlab-org/customers-gitlab-com/-/tree/main#setup). If impractical, review screenshots and videos in the MR description or coordinate a demo with the engineer. For complex changes, keep the change behind a feature flag and review on staging post-merge.
 - **Geo**:Install and configure two **GDKs** as Geo primary and secondary sites.
@@ -86,13 +86,13 @@ Some MRs require additional set up:
 - **Pipeline Execution**: For compute minutes and shared runner usage related features, populate projects with historical compute minutes usage data.
   - Merge requests related to compute minutes and shared runner usage usually require historical usage data, which can be difficult to set up if it doesn't exist already on the local GDK environment. Below is a video and instructions for how to set that up in under 7 minutes.
 
-   {{< youtube "ym-fU1U-anE" >}}
+    {{< youtube "ym-fU1U-anE" >}}
 
-   Checkout the branch in the MR and open rails console using `bin/rails console`.
+    Checkout the branch in the MR and open rails console using `bin/rails console`.
 
-   **1. Edit compute minutes**
+    **1. Edit compute minutes**
 
-   ``` ruby
+    ``` ruby
     ApplicationSetting.current.update(shared_runners_minutes: 400)
     project = Project.find(20)
     root_namespace = project.root_namespace
@@ -102,9 +102,9 @@ Some MRs require additional set up:
     Ci::Minutes::ProjectMonthlyUsage.update_counters(project_usage, amount_used: 100, shared_runners_duration: 100)
     ```
 
-   Type `:wq` to exit the log lines. Do not exit the rails console.
+    Type `:wq` to exit the log lines. Do not exit the rails console.
 
-   **2. Add helper method**
+    **2. Add helper method**
 
     ```ruby
     def increase_ci_usage(project:, date:, amount_used:, shared_runners_duration:)
@@ -117,12 +117,13 @@ Some MRs require additional set up:
     end
     ```
 
-   **3. Use helper method**
+    **3. Use helper method**
 
     ```ruby
     increase_ci_usage(project: project, date: 1.month.ago, amount_used: 10, shared_runners_duration: 20)
+    ```
 
-   The usage quota page should now reflect the changes data.
+    The usage quota page should now reflect the changes data.
 
 - **Secure**:
   - Generate project vulnerabilities, execute `GITLAB_QA_ACCESS_TOKEN=XXXXXXXXXX GITLAB_URL="https://gitlab.com" bundle exec rake vulnerabilities:setup\[<Project_Id>,<Vulnerability_Count>\] --trace` from the `gitlab/qa` directory. Replace the placeholders in the script with your local access token, project ID, and desired number of vulnerabilities. An example of this might be `GITLAB_QA_ACCESS_TOKEN=asdfASDF1234- GITLAB_URL="http://localhost:3000/" bundle exec rake vulnerabilities:setup\[25,10] --trace`
@@ -179,7 +180,7 @@ Some MRs require additional set up:
 **After review**:
 
 - Remove yourself as a reviewer and post a summary comment, indicating if any changes are required.
-- Create follow-up issues for any outstanding UX concerns that deviate from the Minimum Viable Change (MVC), labeling them as `Deferred UX` (details on [UX labels](/handbook/product/ux/#ux-labels)).
+- Create follow-up issues for any outstanding UX concerns that deviate from the Minimal Valuable Change (MVC), labeling them as `Deferred UX` (details on [UX labels](/handbook/product/ux/#ux-labels)).
 
 **Follow-up with authors**:
 

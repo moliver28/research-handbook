@@ -1,8 +1,6 @@
 ---
 title: Group Conversations
 description: "Everything you need to know about GitLab's daily, recurring Group Conversations"
-aliases:
-- /handbook/group-conversations/
 ---
 
 ## Introduction
@@ -126,7 +124,7 @@ If your Group Conversation is optional and you need to move the date, please wor
 | [Sales](/handbook/sales/) | Sales VPs | Yes (GTM Key Review shared with Marketing) | Monthly - rotates between VP of Commercial, VP of Enterprise, VP of Channel & VP of Customer Success | | EBAs in Sales |
 | [Finance](/handbook/finance/) | Brian Robins | Yes | Twice per quarter | | EBAs in Finance|
 | [People](/handbook/people-group/) | Wendy Barnes | Yes | Twice per quarter | | EBA to CPO |
-| [Product](/handbook/product/) | [Month PLT Leader Rotation](/handbook/product/product-leadership/#product-group-conversation-leader-rotation) | Yes | Quarterly | | EBAs in Product |
+| [Product](/handbook/product/) | [Month PLT Leader Rotation](/handbook/product/product-leaders/product-leadership/#product-group-conversation-leader-rotation) | Yes | Quarterly | | EBAs in Product |
 | [Support](/handbook/support/) | Johnny Scarborough | Yes | Quarterly | @lbot @lyle @vparsons| EBA to Engineering |
 | [Security](/handbook/security/) | Josh Lemos | Yes | Quarterly| | EBA to Security |
 | [Development](/handbook/engineering/development/) | Tim Zallmann | Yes | Quarterly | | EBA to Engineering |
@@ -134,7 +132,7 @@ If your Group Conversation is optional and you need to move the date, please wor
 | [General](/handbook/ceo/) | Sid Sijbrandij | No | Every other month | | EBA to CEO|
 | [Alliances](/handbook/alliances/) | Nima Badiey | No | Quarterly | | EBA to VP of Alliances |
 | [IT](/handbook/business-technology/it) | Nabitha Rao | Yes | Quarterly | | EBA to VP of Business Technology |
-| [Data](/handbook/business-technology/data-team/) | Amie Bright | Yes | Quarterly | | EBA to VP of Business Technology |
+| [Data](/handbook/enterprise-data/) | Amie Bright | Yes | Quarterly | | EBA to VP of Business Technology |
 
 ## Current Schedule
 
@@ -162,8 +160,8 @@ If your Group Conversation is optional and you need to move the date, please wor
 | Thursday 2024-07-25 | Data | Amie Bright | July 18 |
 | Monday 2024-08-05 | Infrastructure & Quality | Mek Stittri | July 25 |
 | Thursday 2024-08-22 | IT | Nabitha Rao | August 14 |
-| Wednesday 2024-08-28 | Product | Product Leadership | - |
 | Thursday 2024-08-29 | Finance | Brian Robins | - |
+| Wednesday 2024-09-11 | Product | Product Leadership | August 30 |
 | Thursday 2024-09-12 | People | Wendy Barnes | - |
 | Thursday 2024-09-26 | Support | Johnny Scarborough | September 18 |
 | Monday 2024-09-30 | Security | Josh Lemos | September 19|

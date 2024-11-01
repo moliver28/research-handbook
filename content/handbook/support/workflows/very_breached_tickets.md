@@ -54,7 +54,7 @@ Regional details for how the response and outcome are acheived are noted below.
 
 ### AMER
 
-- In AMER, Managers are aligned to SGGs and managers will triage on an SGG basis. So for example if Aric and Mike share Kapok, Aric and Mike will work to get Kapok tickets addressed. At present the bot message does not take in to account SGG, so there is an open issue to improve that: [Add SGG info to VBT Bot Output](https://gitlab.com/gitlab-com/support/support-team-meta/-/issues/5577)
+- TBD
 
 ## APPENDIX: References and resources
 

@@ -55,10 +55,10 @@ Our promotion philosophy comprises core pillars surrounding the approach and pro
 
 ### Pillars
 
-- Promotions are based on performance, not on growth potential. If being considered for an in-line promotion, Team members should already be executing at the next level [job frameworks level]({{< ref "structure#job-frameworks" >}}) prior to promotion. Team members would typically be eligble for promotion to the next level in the same job family after twelve months in their current position.
+- Promotions are based on performance, not on growth potential. If being considered for an in-line promotion, Team members should already be executing at the next level [job frameworks level]({{< ref "structure#job-frameworks" >}}) prior to promotion. Team members would typically be eligible for promotion to the next level in the same job family after twelve months in their current position.
 - Career growth should be a partnership between team member and manager. As a manager, it is important to create space to regularly discuss your team members' development and career aspirations, and identify opportunities to support them in their advancement and growth.
 - When reviewing a proposed promotion, we consider: 1) readiness of the individual, and 2) business justification/opportunity.
-- All in-line promotions at GitLab require a [promotion document](https://docs.google.com/document/d/1nDkYGK2yhe8pD-lnMGmEF-Cf0IlGgVOznjXMq9FxGiQ/edit?usp=sharing). We believe in [transparency](/handbook/values/#transparency) within the promotion process.
+- All in-line promotions at GitLab require a [promotion document](#promotion-document). We believe in [transparency](/handbook/values/#transparency) within the promotion process.
 - We encourage team members to live our [efficiency value](/handbook/values/#efficiency), be a [manager of one](/handbook/values/#managers-of-one), and take ownership of their promotion document in partnership with their manager.
 - We calibrate planned promotions on a twice per year basis to ensure an equitable review, and through this process track metrics that help us understand if our promotions are occurring at a healthy and fair rate.
 
@@ -70,7 +70,7 @@ Our promotion philosophy is also aligned with our [values](/handbook/values/):
 - **Results**: Business justification, scope, and team member results are demonstrated and documented to support promotions
 - **Efficiency**: Consistency and scalability in our promotion processes by twice per year planning and calibration. The planning and calibration timing considers existing programs and cycles for the business and aims to embed promotions into cadences where they best align for efficiency.
 - **Diversity, Inclusion, and Belonging**: Fairness and equity reflected through a consistent approach and documentation to promotions at all levels in the organization and supported by our [job frameworks](/handbook/company/structure/) and Total Rewards [URG]({{< ref "review-cycle-inputs#underrepresented-group-audit" >}}) audit
-- **Iteration**: Process is improved each cycle. In FY23, we moved to quarterly promotions with calibration and updated our processes and metrics accordingly. In FY24, we moved to a twice per year promotion cadence to ensure efficiency and scalability in our process as the business continues to grow.
+- **Iteration**: Process is improved each cycle. In FY24, we moved to a twice per year. We continue to look at ways we can iterate on our process for efficiency and scalability.
 - **Transparency**: Clarity and efficacy of promotion metrics, budget, and guidelines, in addition to transparency in promotion justification through internally public promotion documents.
 
 ### Processing a Promotion
@@ -79,7 +79,7 @@ Most promotions are processed through our twice per year Promotion Calibrations,
 
 ## Twice per Year Promotion Calibration Process & Timeline
 
-At GitLab, we promote on a twice per year basis. This means that there is **one effective date every 6 months when team members can be promoted**. We process promotions in Q1 (effective date February 1st) and Q3 (effective date August 1st). There are three core stages to the promotion process: Planning, Calibration, and Processing.
+At GitLab, we promote on a twice per year basis. There are three core stages to the promotion process: Planning, Calibration, and Processing.
 
 The Sales Development organization reviews In-Cycle Promotions on a monthly basis, due to the specific [promotion criteria](/handbook/marketing/sales-development/#sales-development-fy24-career-path) for each level within the job family structure. Planning, calibration and processing steps are aligned to the details below.
 
@@ -95,57 +95,79 @@ Sales Development promotions will be reviewed on a monthly basis.
 
 - Planning & Calibration: by the third week of each month
 - Processing: promotions must be added to HRIS by the 5th day of each effective month
-- Effective date for promotions: 2023-11-01, 2023-12-01, 2024-01-01
+- Effective date for promotions: 20XX-11-01, 20XX-12-01, 20XX-01-01
 
-Below is the timeline for FY25:
+### Twice Annual Process
+
+Below is the timeline for FY26:
 *Please note that the Calibration timeline for Senior Director+ promotions will differ slightly from the timelines indicated above, as Senior Director+ promotions are calibrated twice per year at the [E-group offsite]({{< ref "offsite#schedule" >}}).*
 
-### FY25-Q1 (1st Half)
+### FY26-Q1 (Feb 1)
 
-*Status:* Completed
+*Status:* In Progress
 
-- Planning: 2022-12-20 to 2023-01-06
-- Calibrations: 2023-01-09 to 2023-01-20
-- Processing: 2023-01-23 to 2023-02-01 (Promotions must be added to Workday by 2023-01-20)
-  - Effective date for promotions: 2023-02-01.
-  - Communication: In conjunction with [annual compensation review raises]({{< ref "compensation-review-cycle#february" >}}). After communicating 1:1 with individuals, updates can be posted publicly in #team-member-updates.
+- Planning: 2024-11-01 to 2024-12-01
+- Calibrations: 2024-12-02 to 2025-01-03
+- Workday input by Director+: 2025-01-09 to 2025-01-17
+- PBP + E-Group Leader approvals: 2025-01-20 to 2025-01-21
+- Workday Approvals: 2025-01-22 to 2025-01-24
+- Team member individual communication: 2025-01-27 to 2025-01-31 (after fully approved in Workday)
+- Effective date for promotions: 2025-02-01
+- After communicating 1:1 with individuals on or after 2025-02-01, updates can be posted publicly in #team-member-updates. **Managers should not communicate until Total Rewards communicates that the promotions are fully approved.**
 
-## FY25-Q3 (2nd Half)
+### FY26-Q4 (Nov 1)
 
-Status: In progress
+Status: Pending  
 
-- Planning: 2024-06-10 to 2024-06-21
-- Calibrations & Workday input by Director+: 2024-06-24 to 2024-07-10
-- PBP & E-Group leader approvals: 2024-07-12
-- Workday Approvals: 2024-07-16 to 2024-07-18
-- Communication: 2024-07-24 to 2024-08-01
-- Effective date for promotions: 2024-08-01
-- Communication: After fully approved in Workday
-- After communicating 1:1 with individuals **on or after 2023-07-24**, updates can be posted publicly in #team-member-updates. Managers should *not* communicate until Total Rewards communicates that the promotions are approved.
+- Planning: 
+- Calibrations & Workday input by Director+: 
+- PBP & E-Group leader approvals: 
+- Workday Approvals: 2
+- Communication: 
+- Effective date for promotions: 2025-11-01
+- After communicating 1:1 with individuals **on or after 2025-11-01**, updates can be posted publicly in #team-member-updates. Managers should *not* communicate until Total Rewards communicates that the promotions are approved.
+
+### FY27-Q2 (May 1)
+
+Status: Pending  
+
+- Planning: 
+- Calibrations & Workday input by Director+: 
+- PBP & E-Group leader approvals: 
+- Workday Approvals: 2
+- Communication: 
+- Effective date for promotions: 2026-05-01
+- After communicating 1:1 with individuals **on or after 2026-05-01**, updates can be posted publicly in #team-member-updates. Managers should *not* communicate until Total Rewards communicates that the promotions are approved.
+
+### FY27-Q4 (Nov 1)
+
+Status: Pending  
+
+- Planning: 
+- Calibrations & Workday input by Director+: 
+- PBP & E-Group leader approvals: 
+- Workday Approvals: 2
+- Communication: 
+- Effective date for promotions: 2026-11-01
+- After communicating 1:1 with individuals **on or after 2026-11-01**, updates can be posted publicly in #team-member-updates. Managers should *not* communicate until Total Rewards communicates that the promotions are approved.
 
 ## Planning
 
-Q3 Promotion Planning is generally done via spreadsheets to maintain confidentiality and enable collaboration across department leaders where appropriate. Prior to the Planning phase in the timeline above, People Business Partners will make sure the spreadsheets are up to date before going into the Calibration phase.
+FY26 Q1 Promotion **Planning** will be completed via spreadsheets to maintain confidentiality and enable collaboration across department leaders where appropriate. Prior to the Planning phase in the timeline above, People Business Partners will make sure the spreadsheets are up to date before going into the Calibration phase.
 
 Once the Calibration phase by Division is complete, Directors and above will have the ability to enter promotion compensation recommendations into the [Workday planning grid](https://docs.google.com/document/d/1KwpFnZC5MFpCwS9ElqkSh0f1bdZ3l0Gp-B4lDdJwIg0/edit?usp=sharing). For specific Division calibration meeting timelines, please reach out to your People Business Partner.
 
 ### Promotion Document
 
-The [promotion document](https://docs.google.com/document/d/1nDkYGK2yhe8pD-lnMGmEF-Cf0IlGgVOznjXMq9FxGiQ/edit?usp=sharing) is required for all in-line promotions.
+The [promotion document](https://docs.google.com/document/d/1oXH9HzdO8gjqdeosstQRC1Mqt_5lCaN1U2kaF9Av-Ec/edit?usp=sharing) is required for all in-line promotions. **Promotion documents should not exceed three pages total.**
 
-As the audience are other GitLab team members, the text should be written in third person using the team member's name and appropriate pronouns (he/she/they) to highlight the work and skills as evidence of the team member's suitability for the role.
+As the audience are other GitLab team members, the text should be written in third person using the team member's name and appropriate pronouns (he/she/they) to highlight the work and skills as evidence of the team member's suitability for the role. A [style guide](/handbook/people-group/promotion-document-style-guide/) is available to assist in crafting a compelling document.
 
-In-line promotion documents should demonstrate values alignment, business need for the role, and team member readiness through delivery of impactful business results. The core sections in our promotion document are: Promotion Summary, Values Alignment, Business Results, and Business Justification.
+In-line promotion documents should demonstrate values alignment, business need for the role, and team member readiness through delivery of impactful business results. The core sections in our promotion document are: Promotion Summary, Business Results/Impact, Values Alignment and Business Justification.
 
 #### Promotion Summary
 
 This section is a high-level summary (3-5 sentences) of achievements that demonstrate how the team member has the capability to perform at the next level.
-
-#### Values Alignment
-
-Values are at the core of everything we do at GitLab. It is essential to tie team member achievements and initiatives back to the values they support. Promotion documents should include 1-2 core points per value of evidence supporting values alignment.
-
-- Please review our guidance on [DIB behaviours](/handbook/values/#diversity-inclusion--belonging-competency) aligned to each job level which provides examples of how to demonstrate our [Diversity Inclusion & Belonging Value](/handbook/values/#diversity-inclusion)
 
 #### Business Results
 
@@ -153,20 +175,27 @@ As our most important [value](/handbook/values/#hierarchy), results are at the c
 
 Please list the 3 most impactful results (accomplishments, initiatives, or projects) that demonstrate the team member's performance at the next level aligned with our values and expectations in the [job framework](https://docs.google.com/spreadsheets/d/1FX4NBwF099uMBm7mGBtf1orIJZuHEjtiEa3jSbg9jJs/edit#gid=0).
 
-For each result, please use the following structure:
+**Project impact on GitLab / Business Result**
 
-- Project/accomplishment
-  - Example: Creation of the company-wide Org Design Playbook
-- Team member role
-  - Example: Lead the playbook creation from inception to publishing in the handbook in partnership with two other People Business Partners
-- Brief (2-3 sentence) description of project/accomplishment and business relevance/importance
-  - Example: One of our [FY25 Yearlies](https://internal.gitlab.com/handbook/company/yearlies/#fy25-yearlies) is related to driving a high performance culture. A key aspect of high performance culture is our ability to manage through change in an efficient and results-oriented way. Organizational design shifts and realignments can have an adverse impact on team member's velocity in delivering results if we are not aligned on an efficient, thorough, and team member oriented approach to execution.
-- Project/accomplishment impact
-  - Example: The creation of the Org Design Playbook outlines a repeatable process for any organizational change across the company. It creates a collaborative, team member oriented, communication centric, and results driven format that leaders and People Business Partners can leverage to execute and lead through change. This directly ties to building a high performance culture as a key resource for change management, execution, and stakeholder alignment.
-- Business result
-  - Example: Since the implementation of the Org Design Playbook we also implemented a scoring system that allows us to measure the success of the changes we execute. We have seen an increase in the overall average score since the playbook's creation.
+**Project/accomplishment impact**
 
-Business relevance refers to why the project/accomplishment is important to the company (I.E. related to an OKR? a key investment theme? etc.). Impact refer to how the project/accomplishment will help drive us in the direction we need to go as an organization. Business result refers to the direct result seen from the team members' contribution.
+- Example: The creation of the Org Design Playbook outlines a repeatable process for any organizational change across the company. It creates a collaborative, team member oriented, communication centric, and results driven format that leaders and People Business Partners can leverage to execute and lead through change. This directly ties to building a high performance culture as a key resource for change management, execution, and stakeholder alignment.
+
+**Business result**
+
+- Example: Since the implementation of the Org Design Playbook we also implemented a scoring system that allows us to measure the success of the changes we execute. We have seen an increase in the overall average score since the playbook’s creation.
+
+**Business relevance** refers to *why* the project/accomplishment is important to the company (I.E. related to an OKR? a key investment theme? etc.). 
+
+- Example: One of our FY25 Yearlies is related to driving a high performance culture. A key aspect of high performance culture is our ability to manage through change in an efficient and results-oriented way. Organizational design shifts and realignments can have an adverse impact on team member’s velocity in delivering results if we are not aligned on an efficient, thorough, and team member oriented approach to execution.
+
+**Team member’s direct contribution**
+
+- Example: Tanuki was the DRI for the global cross functional team, and established all change management communication for the project.
+
+**How the team member exhibited CREDIT values in their work on this accomplishment.**
+
+- Example: Tanuki demonstrated the Iteration value while delivering this result. They drove a subset of feature teams to commit on delivery timelines to enable GTM motions for the product launch while giving other teams flexibility to deliver iteratively.
 
 We ask that the structure above be followed for business results consistently to ensure that we:
 
@@ -177,6 +206,12 @@ We ask that the structure above be followed for business results consistently to
 #### Business Justification
 
 GitLab considers both individual readiness and business need when we think about promotions. Managers are responsible for completing the business justification section of the promotion document to include what justifies the need for the team members skills and work to be completed at the higher level. Possible business justifications typically include: more complex projects, additional scope of work required as the team scales, and/or additional responsibility due to XYZ business reason.
+
+#### Values Alignment
+
+Values are at the core of everything we do at GitLab. It is essential to tie team member achievements and initiatives back to the values they support. Every Value should be referenced in the promotion document *at least once* with an example of how the promotion candidate contribution to the business result align to the Value. Please provide a 1-2 senteence example for Values that were not referenced in the Business Results section which highlight further how the team member has exhibited CREDIT. 
+
+- Please review our guidance on [DIB behaviours](/handbook/values/#diversity-inclusion--belonging-competency) aligned to each job level which provides examples of how to demonstrate our [Diversity Inclusion & Belonging Value](/handbook/values/#diversity-inclusion)
 
 #### Additional Tips
 
@@ -305,22 +340,21 @@ As a leader, if your team member's promotion is approved, you will need to reset
 
 4. Do I need this many "X" level (i.e. Senior Engineer)  team members in my current team state? Is there enough work at that level to be done?
 
-### FY25 Security Promotion Process
+### Security Promotion Process
 
-Giving and receiving feedback is a critical part of building high performing teams. Feedback from team members on key business results achieved is an important data point to consider when assessing team member promotion readiness. In an effort to continue to foster a feedback culture within the Security division and ensure we are calibrating collaboration effectiveness through business results, starting in FY25 Q3 we will be embedding a formal feedback touchpoint into our promotion process for the division. **Please note that the feedback does not determine whether the team member is ready for promotion in isolation, but is rather a data point to consider throughout the promotion planning and calibration process.**
+Giving and receiving feedback is a critical part of building high performing teams. Feedback from team members on key business results achieved is an important data point to consider when assessing team member promotion readiness. In an effort to continue to foster a feedback culture within the Security division and ensure we are calibrating collaboration effectiveness through business results, starting in FY25 Q3 we embedded a formal feedback touchpoint into our promotion process for the division. **Please note that the feedback does not determine whether the team member is ready for promotion in isolation, but is rather a data point to consider throughout the promotion planning and calibration process.**
 
 The steps below outline the process promotion candidates should follow to request feedback as part of our bi-annual promotion process, key due dates, and helpful resources for both promotion candidates and feedback providers to review.
 
 1. Team members aligns with manager on promotion readiness and candidacy
     - Ahead of requesting feedback, team members should have a conversation on promotion readiness with their manager. If there is alignment on readiness for the upcoming promotion cycle between both manager and team member, the team member qualifies as a "promotion candidate". Managers should ensure that the CISO direct in their leadership chain is also aware and supportive of the promotion candidacy before kicking off the process. This also creates space for early feedback.
-    - **Due date: 2024-05-31**
+    - **Due date: 2024-10-31**
 2. Team member completes their [promotion document](/handbook/people-group/promotions-transfers/#promotion-document)
     - The promotion document completion should be team member driven with manager support, review, and feedback. Ahead of requesting feedback, the promotion document should be complete, as it will serve as the baseline to provide feedback. Team members should ensure their manager has reviewed their promotion document and is aligned with the content ahead of requesting feedback.
-    - **Due date: 2024-06-06**
+    - **Due date: 2024-11-08**
 3. Team member makes a copy of feedback form template
     - This [Google Form](https://docs.google.com/forms/d/1h-_ZOQS8Hug168P76qgdO5Coj2rfPceLHZ6xjjLPWjQ/edit) provides a template for promotion feedback collection across the Security division to ensure consistency in the format and questions to facilitate more consistent and equitable [calibration process](/handbook/people-group/promotions-transfers/#calibration). This process focuses specifically on feedback related to the business results section of the promotion document to ensure feedback is consistently tied back to key deliverables that demonstrate next level performance.
     - *Each promotion candidate should make a copy of this form to use to collect feedback from their respective feedback providers.*
-    - **Due date: 2024-06-07**
 4. Team member identifies stakeholders for feedback request
     - Team members should ideally select 3-4 distinct team members to provide feedback across the three business results highlighted in their [promotion documents](/handbook/people-group/promotions-transfers/#promotion-document), but are required to select *at least* 2 distinct team members to provide feedback. All three of the business results highlighted in the promotion document should have feedback provided from at least one feedback provider. Team members should review their proposed feedback providers with their manager before sending out the feedback form to ensure alignment.
     - Requirements for feedback providers are:
@@ -328,27 +362,28 @@ The steps below outline the process promotion candidates should follow to reques
         - Feedback provider is not in the same reporting line as the manager (I.E. not team member's manager, skip level, etc.)
         - Feedback providers can be cross-functional or within the division, with a mix of both being the preference and recommendation. The core focus when thinking through who the most appropriate team members to provide feedback are is to reflect on who worked most closely with the promotion candidate on the business results highlighted in the promotion document.
         - Feedback providers should be at or above the target promotion level (I.E. if a Security Engineer is targeting a Senior Security Engineer promotion, the feedback provider's level should be Senior Security Engineer or higher). Feedback providers can be individual contributors or people managers at or above the target promotion level. The reason we require feedback providers to be at or above the target promotion level is to ensure they are able to speak to business results and collaboration in the context of next level expectations as team members who are already operating at the next level.
-    - You can reference our [job grades](/handbook/total-rewards/compensation/compensation-calculator/#job-grades) for a refresh on the people management and inidividual contributor corresponding job levels, [GitLab Job Frameworks](https://docs.google.com/spreadsheets/d/1FX4NBwF099uMBm7mGBtf1orIJZuHEjtiEa3jSbg9jJs/edit#gid=0) for an overview of key differences by level company-wide, and our [job families](/job-families/security/) as a resource for Security-specific differences in expectations by level.
+    - You can reference our [job grades](/handbook/total-rewards/compensation/compensation-calculator/#job-grades) for a refresh on the people management and individual contributor corresponding job levels, [GitLab Job Frameworks](https://docs.google.com/spreadsheets/d/1FX4NBwF099uMBm7mGBtf1orIJZuHEjtiEa3jSbg9jJs/edit#gid=0) for an overview of key differences by level company-wide, and our [job families](/job-families/security/) as a resource for Security-specific differences in expectations by level.
     - If you need assistance meeting these requirements for selecting feedback providers, please discuss with your manager for support.
+    - **Due date: 2024-11-14**
 5. Team member sends out feedback form copy to feedback providers
     - This references the form promotion candidates made a copy of in Step 3.
     - Team members can leverage this as a structure to include in the feedback request if helpful: *Hi [team member name], I am currently under consideration for a promotion to [next level job title]. I would really appreciate your feedback on our work together, specifically on results and our collaboration related to [name business result]. Please complete this feedback form by [insert due date]. You can read more about the feedback process [link this handbook section].*
     - For promotion candidates requesting feedback and for team members providing feedback, we recommend that you review our [Guidance on Feedback](/handbook/people-group/guidance-on-feedback/) ahead of the process kicking off. The [S-B-I model](/handbook/people-group/guidance-on-feedback/#s-b-i-model) can be a helpful framework in ensuring feedback is structured in a clear and digestible way.
-    **Feedback will be ongoing from 2024-06-10 through 2024-06-21. All feedback needs to be obtained by 2024-06-21.**
+    **Feedback will be ongoing from 2024-11-15 through 2024-11-29. If team members are prepared to send out the feedback form to stakeholders prior to 2024-11-11 they may do so. All feedback needs to be obtained by 2024-11-29.**
 6. Team member and manager analyze feedback
     - Team member shares the feedback obtained with their manager and they discuss and analyze themes and trends
     - Team member and manager compile themes to share with CISO direct. Leverage [this template](https://docs.google.com/document/d/11w4fI2iJj0-GRgtQxRGgRMiUyt60Z1Xv1w19UkC2ubE/edit) for theme compilation and analysis to ensure consistency. Analysis should focus on key themes and feedback provided in the Google Form.
     - CISO direct has the opportunity to review, provide feedback, and ask any clarifying questions to ensure they are able to represent the feedback in the CISO directs [calibration session](/handbook/people-group/promotions-transfers/#calibration).
-    - **Due date: 2024-06-28**
+    - **Due date: 2024-12-06**
 7. CISO direct adds feedback summary to calibration spreadsheet
     - CISO direct is responsible for adding the promotion feedback analysis compiled in Step 6 to the CISO directs promotion calibration spreadsheet to ensure visibility ahead of the calibration session. The spreadsheet is titled `Security Promotion Projections` for reference.
     - Add the complete [feedback analysis](https://docs.google.com/document/d/11w4fI2iJj0-GRgtQxRGgRMiUyt60Z1Xv1w19UkC2ubE/edit) for each promotion candidate to column J and ensure that the CISO, CISO directs, and the Security [People Business Partner](/handbook/people-group/people-business-partners/#people-business-partner-alignments) have access.
-    - **Due date: 2024-07-05**
+    - **Due date: 2024-12-11**
 8. Calibration session occurs
-    - Calibration is scheduled for 2024-07-08 where CISO directs calibrate promotion candidates across the division.
+    - Calibration is scheduled for the week of 2024-12-16 where CISO directs calibrate promotion candidates across the division.
     - CISO direct is responsible for following up with the promotion candidate's manager to provide feedback and key takeaways from the calibration session.
 9. Managers communicate promotion status
-    - Promotions are effective 2024-08-01 and the communication window is 2024-07-24 to 2024-08-01 aligned with the [company-wide timeline](/handbook/people-group/promotions-transfers/#fy25-q3-2nd-half)
+    - Promotions are effective 2025-02-01 and the communication window is 2025-01-27 to 2025-01-31 aligned with the [company-wide timeline](/handbook/people-group/promotions-transfers/#fy26-q1-feb-1)
     - Managers will communicate successful or unsuccessful promotion with team members directly. For unsuccessful promotions, clear feedback should be provided to the team member.
 
 #### Feedback Confidentiality
@@ -357,7 +392,7 @@ A goal through this process is to continue to facilitate opportunity to provide 
 
 The feedback form asks for feedback provider's information, so promotion candidates and their managers will have visibility into specifics of the feedback provided. At the CISO directs calibration session we will review themes in [this structure](https://docs.google.com/document/d/11w4fI2iJj0-GRgtQxRGgRMiUyt60Z1Xv1w19UkC2ubE/edit).
 
-Feedback provided **will not** be shared outside of the promotion candidates' leadership chain, CISO directs group, and aligned [People Busines Partner](/handbook/people-group/people-business-partners/#people-business-partner-alignments).
+Feedback provided **will not** be shared outside of the promotion candidates' leadership chain, CISO directs group, and aligned [People Business Partner](/handbook/people-group/people-business-partners/#people-business-partner-alignments).
 
 #### Resources
 
@@ -427,25 +462,20 @@ When reviewing compensation for a transfer in Greenhouse, the Total Rewards team
 
 This section describes the approval chain after the People Business Partner submits a promotion request in Workday.
 
-1. The changes will route for approval to the manager, next level manager,and e-Group leader.
+1. The changes will route for approval to the manager, next level manager, and e-Group leader.
 1. If the request is approved, the People Connect Team will stage the [Job Change Letter]({{< ref "promotions-transfers#job-change-letter" >}}) in DocuSign.
-1. DocuSign will prompt the manager to discuss the promotion with the team member. The Manager will communicate the change to the team member in their `1-1 meeting by sharing the job change letter on the call`. The Manager and the team member will process/sign the letter. Following the signatures, the manager will announce the promotion on the slack #team-member-updates channel. In the announcement the manager will describe how the individual met the promotion criteria and offer congratulations.
+1. DocuSign will prompt the manager to discuss the promotion with the team member. The Manager will communicate the change to the team member in their `1-1 meeting by sharing the job change letter on the call`. The Manager and the team member will process/sign the letter. Following the signatures, the manager will announce the promotion on the slack `#team-member-updates` channel. In the announcement the manager will describe how the individual met the promotion criteria and offer congratulations.
 1. For change of departments and managers, People Connect Team members will create a Career Mobility Issue.
 
 ### For People Connect Team: Processing Promotions, Internal Transfers & Compensation Changes
 
 1. If the request is approved through Workday, the People Connect Team will create the [Job Change Letter]({{< ref "promotions-transfers#job-change-letter" >}}), whereas if the request is through Greenhouse the `People Connect Team will be notified via the People Connect team email` inbox that the [Job Change Letter](/handbook/hiring/talent-acquisition-framework/ces-contract-processes/#job-change-letter) has been created by the CES team and signed.
-1. The People Connect Team member notifies Payroll of the changes by adding the relevant details to the applicable payroll sheet depending on the country under the 'Compensation' header and starting month tab
-    - [Non-US payroll changes](https://docs.google.com/spreadsheets/d/1M_puIKHLWkHnVzOJ2MwjIpQ-mwxolae-LpT2VPlByv0/edit#gid=261391927)
-    - [(US)Payroll Changes](https://docs.google.com/spreadsheets/d/1163qL1tIG32vAVUNNIbhnPnzkL5euPAD9DGlOaapTjY/edit#gid=1431873926)
-    - [Canada Payroll Changes](https://docs.google.com/spreadsheets/d/1_jX0TuBarGHnvM3CL7n64ily9a7aV4himDREODk8Ddo/edit#gid=13386269)
-1. If there is a sales commission change: Add the details to the [Final Sales OTE sheet](https://docs.google.com/spreadsheets/d/1lyGxlNAdY4PLMKR31Zw46i7jpb8qfMovMJBUql8PfjE/edit?usp=sharing)
 
 #### Job Change Letter
 
-1. For all the [GitLab entities](/handbook/people-group/employment-solutions/#gitlab-entities) and [Independent Contractors](/handbook/people-group/employment-solutions/#team-members-hired-as-contractors-via-our-gitlab-it-bv-entity) create a job change letter as per the steps mentioned below. If the team member is employed by a PEO, notify the applicable [PEO](/handbook/people-group/employment-solutions/#peo-professional-employer-organization-employer-of-record-and-not-a-gitlab-entity) either by email or for remote.com via their dashboard. See the People Connect 1password vault for contact details.
-1. Review the [Signature requirements per country](https://docs.google.com/spreadsheets/d/1soc-j0Z_UUqHX8X04zJUzBrDv0I1SNCjkbO8-OTZQ24/edit#gid=712364544) and process the job change letter accordingly.
-1. Make a copy of the [Job Change Letter template](https://docs.google.com/document/d/12AscsmP3qnTqCC9h6cx1UpIVrnZUfoN6AvfMjf8guyg/edit) and enter all applicable information based on the Workday request and add the applicable [Signatory](/handbook/hiring/talent-acquisition-framework/ces-contract-processes/#entity-contract-signatories) or [Company Signature Stamp](https://docs.google.com/document/d/1RWkI7zuFIUkW_sh1TmYii6e8zNOmz9USUoEr1wBIBpQ/edit?usp=sharing). The effective date is as follows:
+1. For [GitLab entities](/handbook/people-group/employment-solutions/#gitlab-entities) and [Independent Contractors](/handbook/people-group/employment-solutions/#team-members-hired-as-contractors-via-our-gitlab-it-bv-entity) a job change letter may be required, as per the steps mentioned below. If the team member is employed by a PEO, notify the applicable [PEO](/handbook/people-group/employment-solutions/#peo-professional-employer-organization-employer-of-record-and-not-a-gitlab-entity) either by email or for remote.com via their dashboard. See the People Connect 1password vault for contact details.
+1. Review the [Signature requirements per country](https://docs.google.com/spreadsheets/d/1soc-j0Z_UUqHX8X04zJUzBrDv0I1SNCjkbO8-OTZQ24/edit?usp=sharing) and process the job change letter accordingly. Please note not all entities and country locations require Job Change Letters (for example team members in the US will not receive a Job Change Letter).
+1. Make a copy of the applicable Job Change Letter template and enter all applicable information based on the Workday request and add the applicable [Signatory](/handbook/hiring/talent-acquisition-framework/ces-contract-processes/#entity-contract-signatories) or [Company Signature Stamp](https://docs.google.com/document/d/1RWkI7zuFIUkW_sh1TmYii6e8zNOmz9USUoEr1wBIBpQ/edit?usp=sharing). The effective date is as follows:
     - For sales personnel with a variable change, the effective date is always the 1st of the month regardless of their entity.
     - If the team member is making a lateral move where there is no change in compensation, then the start date can be any Monday.
     - For US team members, the effective date should be either the 1st or the 16th. If the [payroll cut off date](/handbook/finance/payroll/#payroll-cut-off-date) has passed for the current pay period, the effective date should be made for the start of the next pay period. The GitLab Inc and Federal Payroll calendar should be referenced when determining the effective date.
@@ -488,7 +518,7 @@ As highlighted in the Definition section, all interim roles (regardless of the n
 
 When the interim period comes to a close, one of two outcomes can occur:
 
-- The team member successfully completes the interim period aligned with [the success criteria](/handbook/engineering/career-development/#interim-manager) and moves into the interim role permanently.
+- The team member successfully completes the interim period aligned with [the success criteria](/handbook/engineering/careers/#interim-manager) and moves into the interim role permanently.
   - As a general guideline, the interim period should last no *less* than 30 days, and no *more* than 4 months .
   - The People Business Partner should submit the promotion request through Workday using the [Change Job](https://docs.google.com/document/d/1hpPikG0STncYKamaY8XlfMTwYdoszP-0Xogvpp5hyZ4/edit) job aid including the promotion document to make the change official. In Workday, the reason for the change should be `Promotion - Promotion`. The accomplishments leading up to the interim and during the interim can be used for the promotion document. The manager is responsible for creating the promotion document and [recommending a compensation increase]({{< ref "promotions-transfers#recommending-a-compensation-increase" >}}). *Note: Promotion documents are only required if the team member's move results in a promotion. For lateral moves, we do not require promotion documents.*
 - The team member does not complete the interim period successfully or decides that the manager track is not something they want to pursue, and moves back to their role prior to the interim period.
@@ -515,7 +545,7 @@ Note: There are no changes that are made in Workday for acting roles. To track a
 
 A person "acting" in the role is someone who occupies a role temporarily and will move back to their original role. "Acting" in a role may be to experiment with the role to determine if it fits an individual's career development path goals, or may be filling in for a vacant role while we hire someone to fill the role permanently. While interim is only applicable to the Engineering division, acting is used across GitLab.
 
-*Interviews are not required role Acting roles as they generally do not end in promotion, nor are direct reports in Workday generally moved to Acting managers.* The process for selecting someone for an acting position is:
+*Interviews are not required for Acting roles as they generally do not end in promotion, nor are direct reports in Workday generally moved to Acting managers.* The process for selecting someone for an acting position is:
 
 - Upcoming Acting roles will be discussed during staff meetings.
 - Leadership can gather interest from their team members for the upcoming acting roles.
@@ -554,7 +584,7 @@ Job title specialties are used to indicate a stage, group and/or a specific focu
 
 ### Job Title Specialty Guidance For Managers
 
-Different departments at GitLab manage job title specialties in different ways. Below, we have outlined guidance for certain departments to document how they thing through job title specialties to ensure a consistent approach.
+Different departments at GitLab manage job title specialties in different ways. Below, we have outlined guidance for certain departments to document how they think through job title specialties to ensure a consistent approach.
 
 To easily access a report for what current job title specialties are for your team, you can follow these steps:
 
@@ -603,7 +633,6 @@ Note for Sales Managers: If team members are not moved under the correct sales m
 
 1. The People Connect Specialist logs into Workday via Okta to approve the transfer in Workday > click on Inbox in top right corner
 1. Review the business process titled 'Transfer' and reason 'Manager to Another Manager' > click: approve
-1. Log into BambooHR and update the manager, as this is currently connected to Time Off by Deel: Click on tab: Job > scroll to: Job Information > Click on: Add Entry > Fill in the following fields: Under 'Effective Date' add the same effective date as in Workday and select under 'Reports To' the applicable new manager > click: save
 
 **Process for EBA to update senior leadership:**
 
@@ -620,7 +649,7 @@ Note for Sales Managers: If team members are not moved under the correct sales m
 
 ## Department Transfers
 
-If you are interested in applying for an open role, please do so  through [Greenhouse](https://boards.greenhouse.io/gitlab) or the internal job board, link found on the #new-vacancies Slack channel.
+If you are interested in applying for an open role, please do so  through [Greenhouse](https://boards.greenhouse.io/gitlab) or the internal job board, link found on the `#new-vacancies` Slack channel.
 
 Please understand the following eligibility guidelines that need to be met to be able to proceed with your application:
 
@@ -737,7 +766,7 @@ A [Career Mobility Issue](https://gitlab.com/gitlab-com/people-group/people-oper
 - Migration from Manager to Individual Contributor (defined as a decrease in management level from Mgr+ to IC within Workday)
 - Migration of Team (for purposes of Career Mobility issues, team changes are defined as a change in both manager & cost center)
 
-Individual contributors moving into a Management level may or may not need their access to be reviewed, please check-in with your current and new manager to confirm this step. If access should be updated follow the AR process documented [here](/handbook/business-technology/end-user-services/onboarding-access-requests/access-requests/).
+Individual contributors moving into a Management level may or may not need their access to be reviewed, please check-in with your current and new manager to confirm this step. If access should be updated follow the AR process documented [here](/handbook/it/end-user-services/onboarding-access-requests/access-requests/).
 
 Or, if the team member already has access to the systems and tools needed, the manager can open 'Becoming a GitLab Manager' and 'Interview Training' issues that are housed within the [Training Project](https://gitlab.com/gitlab-com/people-group/Training/-/issues/?sort=created_date&state=opened&first_page_size=100) in GitLab.
 

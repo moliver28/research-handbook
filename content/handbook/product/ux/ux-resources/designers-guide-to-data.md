@@ -62,12 +62,12 @@ The data source determines the table names used in Tableau queries. We have thre
   - [Tools for viewing events](https://archives.docs.gitlab.com/16.2/ee/development/internal_analytics/snowplow/index.html) for exploration/testing
   - [Implementing Snowplow click tracking for designers](https://www.youtube.com/watch?v=95wNcGMrpMg&ab_channel=GitLabUnfiltered)
 
-[Key Data Sources for Product Managers at GitLab](/handbook/business-technology/data-team/programs/data-for-product-managers/#key-data-sources-for-product-managers-at-gitlab) elaborates on how each data source is used and queried.
+[Key Data Sources for Product Managers at GitLab](/handbook/enterprise-data/programs/data-for-product-managers/#key-data-sources-for-product-managers-at-gitlab) elaborates on how each data source is used and queried.
 
 These visualizations will help you understand how the systems work together:
 
 - A [simplified diagram](https://docs.gitlab.com/ee/development/internal_analytics/#data-flow) showing the interactions between GitLab Inc and self-managed instances.
-- A detailed diagram of the [data platform's data stack](/handbook/business-technology/data-team/platform/#our-data-stack).
+- A detailed diagram of the [data platform's data stack](/handbook/enterprise-data/platform/#our-data-stack).
 
 ## Examples of using data for design decisions
 
@@ -86,8 +86,8 @@ The issues and merge requests below are examples of how we have used data for de
 
 ## Resources
 
-- [Data for Product Managers](/handbook/business-technology/data-team/programs/data-for-product-managers/)
+- [Data for Product Managers](/handbook/enterprise-data/programs/data-for-product-managers/)
 - [Internal Analytics at GitLab](https://docs.gitlab.com/ee/development/internal_analytics/)
-- [Experimentation Design & Analysis](/handbook/product/product-analysis/experimentation/)
+- [Experimentation Design & Analysis](/handbook/product/groups/product-analysis/experimentation/)
 - [Growth Experiments Knowledge Base](/handbook/marketing/growth/)
 - [Using Data to Find Insights](/handbook/product/ux/ux-research/quantitative-data/)

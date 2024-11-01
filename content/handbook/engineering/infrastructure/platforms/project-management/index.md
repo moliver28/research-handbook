@@ -21,8 +21,13 @@ This enables other engineers and other managers to have good information about p
 Completed epics should remain "Open" with the ~"workflow-infra::In Progress" label.
 Update the status block in the epic description to summarize the project and share the completed status.
 
-We use [automation](https://gitlab.com/gitlab-com/gl-infra/epic-issue-summaries/) to collect the status information into top-level epics for each group.
+We use [automation](https://gitlab.com/gitlab-com/gl-infra/epic-issue-summaries/) to collect the status information into top-level epics for each group, and to gather status updates from epic notes.
 This automation runs several times each day, and can be triggered by [running the pipeline listed on the project page](https://gitlab.com/gitlab-com/gl-infra/epic-issue-summaries/-/pipeline_schedules).
+
+#### Status updates on project epics
+
+Comments are automatically generated on project epics to report status.
+To enable this functionality, please ensure the epic follows [these steps](https://gitlab.com/gitlab-com/gl-infra/epic-issue-summaries/-/blob/26295198fedcde8af09bf6b6abb22ed3acd52f07/README.md#child-epics).
 
 #### When a project is finished
 
@@ -54,15 +59,9 @@ Epics must always have the following sections:
 
 ### Sections format
 
-We use [automation](https://gitlab.com/gitlab-com/gl-infra/epic-issue-summaries/) that relies on the presence of following headings and structure in the Epic description:
+The DRI of the epic should be the assignee, and there should only be one assignee for an epic.
 
-#### DRI Section
-
-```markdown
-### DRI
-
-@user
-```
+Use the following headings and structure in the Epic description:
 
 #### Participants Section
 
@@ -77,31 +76,10 @@ The DRI and the EM are responsible for updating the list of participants accordi
 - @participantN
 ```
 
-#### Development Log
-
-This section contains the previous Status Updates. At least, it is updated everytime the DRI updates the Status Section.
-
-```markdown
-### Development Log
-
-<details>
-
-<details>
-<summary>(Previous) Status YYYY-MM-DD</summary>
-
-
-</details>
-
-</details>
-```
-
 #### Status Section
 
-```markdown
-### Status YYYY-MM-DD
-
-<Updates about the project at the YYYY-MM-DD>
-```
+The status section is generated automatically on sub-epics.
+See the section on [status updates on project epics](#status-updates-on-project-epics) for more info.
 
 ### Should this be an issue or an epic?
 
@@ -171,7 +149,7 @@ This was discussed on a [Scalability issue](https://gitlab.com/gitlab-com/gl-inf
 
 ### Labels in gitlab-org group
 
-Stage groups use [type labels](/handbook/engineering/metrics/#data-classification) to label merge requests in projects in the `gitlab-org` group.
+Stage groups use [type labels](/handbook/product/groups/product-analysis/engineering/dashboards/#data-classification) to label merge requests in projects in the `gitlab-org` group.
 If you need a stage group to perform work, it is best to apply the relevant stage group label when the issue is created.
 
 ## Issue Trackers

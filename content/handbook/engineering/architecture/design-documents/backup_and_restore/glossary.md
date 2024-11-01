@@ -2,6 +2,7 @@
 stage: systems
 group: Geo
 title: 'Unified Backups: Glossary'
+toc_hide: true
 ---
 
 ## archive

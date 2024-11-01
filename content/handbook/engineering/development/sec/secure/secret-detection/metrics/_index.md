@@ -247,7 +247,7 @@ help:
 
 1. For help in creating Tableau dashboards and visualizations, the
 [Product Data Insights (PDI) team](/handbook/product/product-analysis) has an issue
-[intake process](/handbook/product/product-analysis/#issue-intake) where you can request their help.
+[intake process](/handbook/product/groups/product-analysis/#issue-intake) where you can request their help.
 1. For specific questions on your Tableau worksheet or
 dashboard, you can reach out to the PDI team on their slack channels:
     - [#data-tableau](https://gitlab.enterprise.slack.com/archives/C03RMCEHVCP) for

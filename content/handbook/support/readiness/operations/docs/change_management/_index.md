@@ -70,7 +70,6 @@ information on these, see the documentation page of the item itself.
 | Light agent provisioning (Global)    | Ad hoc |
 | Pagerduty                            | [Special](../pagerduty/change_management/) |
 | Salesforce Cases scripts             | Ad hoc |
-| SGG Slackbot                         | Ad hoc |
 | Support Super Form                   | Ad hoc |
 | Support Super Form Processor         | Ad hoc |
 | SWIR Form Processor                  | Ad hoc |

@@ -1,6 +1,6 @@
 ---
 title: 'Database Scalability: Limit on-disk table size to < 100 GB for GitLab.com'
-status: proposed
+status: accepted
 creation-date: "2021-06-23"
 authors: [ "@abrandl" ]
 coach: ""
@@ -14,8 +14,10 @@ no_list: true
 <!-- vale gitlab.FutureTense = NO -->
 {{< design-document-header >}}
 
-This document is a proposal to work towards reducing and limiting table sizes on GitLab.com. We establish a **measurable target** by limiting table size to a certain threshold. This is used as an indicator to drive database focus and decision making. With GitLab.com growing, we continuously re-evaluate which tables need to be worked on to prevent or otherwise fix violations.
+This document is a proposal to work towards reducing and limiting table sizes on GitLab.com. We establish a **measurable target** by limiting table size to a certain threshold (100 GB). Action however should be taken as early as 10 GB.
 
+Size limits are used as an indicator to drive database focus and decision making.
+With GitLab.com growing, we continuously re-evaluate which tables need to be worked on to prevent or otherwise fix violations.
 This is not meant to be a hard rule but rather a strong indication that work needs to be done to break a table apart or otherwise reduce its size.
 
 This is meant to be read in context with the [Database Sharding blueprint](https://gitlab.com/gitlab-org/gitlab/-/merge_requests/64115),
@@ -47,7 +49,29 @@ Large tables on GitLab.com are a major problem - for both operations and develop
 1. **Index creation times** go up significantly - in 2021, we see B-Tree creation take up to 6 hours for a single B-Tree index. This impacts our ability to deploy frequently and leads to vacuum-related problems (delayed cleanup).
 1. We tend to add **many indexes** to mitigate, but this eventually causes significant overhead, can confuse the query planner and a large number of indexes is a smell of a design problem.
 
-## Examples
+## Target: All physical tables on GitLab.com are < 100 GB including indexes
+
+To maintain and improve operational stability and lessen development burden, we target a **table size less than 100 GB for a physical table on GitLab.com** (including its indexes). This has numerous benefits:
+
+1. Improved query performance and more stable query plans
+1. Significantly reduce vacuum run times and increase frequency of vacuum runs to maintain a healthy state - reducing overhead on the database primary
+1. Index creation times are significantly faster (significantly less data to read per index)
+1. Indexes are smaller, can be maintained more efficiently and fit better into memory
+1. Data migrations are easier to reason about, take less time to implement and execute
+
+It is much easier to rectify problems when the table is small. Do not wait until the table approaches 100 GB.
+Rather, start action to reduce table sizes when the table is around 10 GB.
+
+This target is *pragmatic*: We understand table sizes depend on feature usage, code changes and other factors - which all change over time. We may not always find solutions where we can tightly limit the size of physical tables once and for all. That is acceptable though and we primarily aim to keep the situation on GitLab.com under control. We adapt our efforts to the situation present on GitLab.com and re-evaluate frequently.
+
+While there are changes we can make that lead to a constant maximum physical table size over time, this doesn't need to be the case necessarily. Consider for example hash partitioning, which breaks a table down into a static number of partitions. With data growth over time, individual partitions also grow in size and may eventually reach the threshold size again. We strive to get constant table sizes, but it is acceptable to ship easier solutions that don't have this characteristic but improve the situation for a considerable amount of time.
+
+As such, the target size of a physical table after refactoring depends on the situation and there is no hard rule for it. We suggest to consider historic data growth and forecast when physical tables reach the threshold of 100 GB again. This allows us to understand how long a particular solution is expected to last until the model has to be revisited.
+
+NOTE:
+In PostgreSQL context, a **physical table** is either a regular table or a partition of a partitioned table.
+
+### Examples
 
 Most prominently, the `ci_builds` table is 1.5 TB in size as of June 2021 and has 31 indexes associated with it which sum up to 1 TB in size. The overall on-disk size for this table is 2.5 TB. Currently, this grows at 300 GB per month. By the end of the year, this is thought to be close to 5 TB if we don't take measures against.
 
@@ -60,7 +84,9 @@ The following examples show that very large tables often constitute the root cau
    1. regular reindexing activity on the weekend: causes [growing WAL queue](https://gitlab.com/gitlab-com/gl-infra/production/-/issues/4767) (impacts recovery objectives),
    1. `notes` table: Re-creating a GIN trigram index for maintenance reasons has become nearly unfeasible and had to be [aborted after 12 hours upon first try](https://gitlab.com/gitlab-com/gl-infra/production/-/issues/4633) as it was blocking other vacuum operation.
 
-## Problematic tables on GitLab.com
+### Problematic tables on GitLab.com
+
+NOTE: See https://gitlab-com.gitlab.io/gl-infra/platform/stage-groups-index/ for up to date table sizes.
 
 This shows the TOP30 tables by their total size (includes index sizes) as of mid June 2021 on GitLab.com. `table_size, index_size` is the on-disk size of the actual data and associated indexes, respectively. `percentage_of_total_database_size` displays the ratio of total table size to database size.
 
@@ -119,25 +145,6 @@ limit 30;
 | `resource_label_events`      | 66 GB      | 47 GB      | 19 GB      | 6           | 0.5                               |
 | `merge_request_diffs`        | 63 GB      | 39 GB      | 22 GB      | 5           | 0.5                               |
 
-## Target: All physical tables on GitLab.com are < 100 GB including indexes
-
-NOTE:
-In PostgreSQL context, a **physical table** is either a regular table or a partition of a partitioned table.
-
-To maintain and improve operational stability and lessen development burden, we target a **table size less than 100 GB for a physical table on GitLab.com** (including its indexes). This has numerous benefits:
-
-1. Improved query performance and more stable query plans
-1. Significantly reduce vacuum run times and increase frequency of vacuum runs to maintain a healthy state - reducing overhead on the database primary
-1. Index creation times are significantly faster (significantly less data to read per index)
-1. Indexes are smaller, can be maintained more efficiently and fit better into memory
-1. Data migrations are easier to reason about, take less time to implement and execute
-
-This target is *pragmatic*: We understand table sizes depend on feature usage, code changes and other factors - which all change over time. We may not always find solutions where we can tightly limit the size of physical tables once and for all. That is acceptable though and we primarily aim to keep the situation on GitLab.com under control. We adapt our efforts to the situation present on GitLab.com and re-evaluate frequently.
-
-While there are changes we can make that lead to a constant maximum physical table size over time, this doesn't need to be the case necessarily. Consider for example hash partitioning, which breaks a table down into a static number of partitions. With data growth over time, individual partitions also grow in size and may eventually reach the threshold size again. We strive to get constant table sizes, but it is acceptable to ship easier solutions that don't have this characteristic but improve the situation for a considerable amount of time.
-
-As such, the target size of a physical table after refactoring depends on the situation and there is no hard rule for it. We suggest to consider historic data growth and forecast when physical tables reach the threshold of 100 GB again. This allows us to understand how long a particular solution is expected to last until the model has to be revisited.
-
 ## Solutions
 
 There is no standard solution to reduce table sizes - there are many!
@@ -166,7 +173,7 @@ A few examples can be found below, many more are organized under the epic [Datab
 1. [Implement worker that hard-deletes old CI jobs metadata](https://gitlab.com/gitlab-org/gitlab/-/issues/215646)
 1. [`merge_request_diff_files` violates < 100 GB target](https://gitlab.com/groups/gitlab-org/-/epics/6215) (epic)
 
-## Goal
+## Execution
 
 The [epic for `~group::database`](https://gitlab.com/groups/gitlab-org/-/epics/6211) drives decision making to establish and communicate the target and to identify and propose necessary changes to reach it. Those changes should primarily be driven by the respective stage group owning the data (and the feature using it), with `~group::database` to support.
 
@@ -179,6 +186,6 @@ Identifying solutions for offending tables is driven by the [GitLab Database Tea
 | Role               | Who |
 |--------------------|-----|
 | Author             | Andreas Brandl |
-| Engineering Leader | Craig Gomes |
+| Engineering Leader | Nick Nyugen |
 
 <!-- vale gitlab.Spelling = YES -->

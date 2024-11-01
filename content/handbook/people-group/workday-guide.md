@@ -45,6 +45,10 @@ Use these helpful resources for completing team member self-service tasks in Wor
 |Team Members|upload a signed document|[Link](https://docs.google.com/document/d/1FDUdF9AxiRGHh8v9k1zkVL_5-kWUR9JGgv4AfdyvGeU/edit)|-|
 |Team Members|view compensation changes|&bull;Click your profile photo, then View Profile<br />&bull;Click "Actions"<br />&bull;Click `Compensation > View Compensation Statement History`|-|
 |Team Members|set Team Page export preferences|[Link](https://docs.google.com/document/d/16_G0jQEjV3f08rGZ65g6RHTCSX5IfFalo9ZUdLEqH1s/edit)|-|
+|Team Members|request time off & view balances|[Link](https://docs.google.com/document/d/1CZvTbPfvCOHDqA9riifMNNN0wsZyaxIql14cj_M5TK8/edit)|-|
+|Team Members|correct time off|[Link](https://docs.google.com/document/d/1c0Qp738HXEeIb_SxUeKZYlG3su086CO5Dxa618Rvffk/edit)|-|
+|Team Members|request time off through Slack|[Link](https://docs.google.com/document/d/1co0-_8YEV2iS7YIFsDdsSqw7ohCd1nNd3HCQU7jTQMo/edit)|-|
+|Team Members|request a leave of absence|[Link](https://docs.google.com/document/d/1ZatJdGp485lOS2QVrxYJByQK8dD_CMGiLVOykgd338w/edit)|-|
 |Managers|request a one-time payment|[Link](https://docs.google.com/document/d/15_cqMAIoqkxNhoCTL42X3XUpr0E9fNZXFmY3Yitk2LQ/edit)|-|
 |Managers|terminate team members (voluntary)|[Link](https://docs.google.com/document/d/1Fr1G1i1kssfADgDf3D6LbZHR8RZmWKZYDNV8AfduZ1c/edit)|-|
 |Managers|view team information|[Link](https://docs.google.com/document/d/1HlvaxIvmUPL6GLB3z6TqHWMf95RrDD7aOaeZPE0Hm7Q/edit)|-|

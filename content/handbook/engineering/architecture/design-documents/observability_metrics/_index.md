@@ -1,5 +1,5 @@
 ---
-title: GitLab Observability - Metrics
+title: "GitLab Observability - Metrics"
 status: proposed
 creation-date: "2022-11-09"
 authors: [ "@ankitbhatnagar" ]
@@ -10,7 +10,6 @@ participating-stages: []
 toc_hide: true
 ---
 
-<!-- vale gitlab.FutureTense = NO -->
 {{< design-document-header >}}
 
 ## Summary

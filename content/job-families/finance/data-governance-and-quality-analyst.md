@@ -117,11 +117,11 @@ The responsibilities of the Senior Data Governance and Quality Analyst extend th
 The requirements of the Senior Data Governance and Quality Analyst extend the Data Analyst (Intermediate) role and include:
 
 - 6+ years experience in an analytics role or data governance role
-- Fluent in all Data Analysis technologies defined in the [Data Team Platform](/handbook/business-technology/data-team/platform/)
+- Fluent in all Data Analysis technologies defined in the [Data Team Platform](/handbook/enterprise-data/platform/)
 - Deep understanding of SQL, Data Visualization and Business Intelligence practices
 - Have demonstrated experience in Data Catalog implementation and support at an enterprise level
 - Strong knowledge in data architecture and data engineering, good understanding of data sources, transformation rules, and uses of the data for the area of stewardship
-- Own and maintain one or more sections of the [Data Catalog](/handbook/business-technology/data-team/data-catalog/)
+- Own and maintain one or more sections of the [Data Catalog](/handbook/enterprise-data/data-catalog/)
 
 ### Staff Data Governance and Quality Analyst
 
@@ -149,10 +149,10 @@ The responsibilities of the Staff Data Governance and Quality Analyst extend the
 The requirements of the Staff Data Governance and Quality Analyst extend the Senior Data Governance and Quality Analyst role and include:
 
 - 8+ years experience in an analytics role or data govenance role
-- Fluent in all major technologies in the [Data Team Platform](/handbook/business-technology/data-team/platform/), with a particular emphasis on Data Visualization, Business Intelligence and Data Modeling
+- Fluent in all major technologies in the [Data Team Platform](/handbook/enterprise-data/platform/), with a particular emphasis on Data Visualization, Business Intelligence and Data Modeling
 - Recognized expert in SQL, Tableau, and dbt
 - Demonstrated experience in driving large scale data governance and / or data quality initiatives
-- Own and maintain the [Data Catalog](/handbook/business-technology/data-team/data-catalog/)
+- Own and maintain the [Data Catalog](/handbook/enterprise-data/data-catalog/)
 
 ## Hiring Process
 

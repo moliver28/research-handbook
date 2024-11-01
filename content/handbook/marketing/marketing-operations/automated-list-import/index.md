@@ -15,7 +15,9 @@ The objective of this process is to reduce the SLA for list imports to a minimum
 1. Each record is added to the Marketo program according to the program status specified in the import file.
 1. At the end, a slack alert is sent on the #event_list_upload channel with a report containing information regarding created, updated and failed leads.
 
-#### [Video Explanation of list upload process](https://drive.google.com/file/d/1Wp3yYLZAPeBJs9J7wIBF3R8wFaGN0SF3/view?usp=share_link)
+#### Video Explanation of list upload process
+
+[Video Explanation of list upload process](https://drive.google.com/file/d/1Wp3yYLZAPeBJs9J7wIBF3R8wFaGN0SF3/view?usp=share_link) (internal)
 
 ## How to use
 
@@ -193,7 +195,7 @@ The following data cleanup is required for any list prior to sending it to the M
 | Country                | Yes                                       | See values [here](#reference-values-for-picklists)                                                                                        | Missing this value will result in an **error**                                                                                                                                                                                                                          |
 | Campaign Member Status | Yes                                       | See values [here](#reference-values-for-picklists)                                                                                        | This will determine the status in the Marketo Program                                                                                                                                                                                                                   |
 | Label as Opt-In?       | No                                        | Yes/No or True/False                                                                                                                      | Leave blank if no option is provided                                                                                                                                                                                                                                    |
-| CRM Partner ID         | No                                        | You can find a list of these IDs [here](/handbook/marketing/channel-marketing/partner-campaigns/#partner-crm-ids) | If this import is a part of a joint event with partners, you must include the CRM Partner ID as a column in your list upload. You can find a list of these IDs [here](/handbook/marketing/channel-marketing/partner-campaigns/#partner-crm-ids) |
+| CRM Partner ID         | No                                        | You can find a list of these IDs [here](/handbook/marketing/marketing-operations/campaigns-and-programs/#partner-crm-ids) | If this import is a part of a joint event with partners, you must include the CRM Partner ID as a column in your list upload. You can find a list of these IDs [here](/handbook/marketing/marketing-operations/campaigns-and-programs/#partner-crm-ids) |
 | Preferred Language | No | Must be written exactly: French, German, Japanese, Italian, Korean, Spanish, Portuguese. Other languages available [here](https://gitlab.com/gitlab-com/marketing/marketing-operations/-/issues/8945). | Leave blank if value is English or unknown |
 
 ## Reference values for picklists

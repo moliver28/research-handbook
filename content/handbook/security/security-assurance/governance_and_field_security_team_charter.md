@@ -1,5 +1,6 @@
 ---
-title: Governance and Field Security Team Charter
+title: "Governance and Field Security Team Charter"
+description: "Governance and Field Security Team Charter"
 ---
 
 ## Team Charter

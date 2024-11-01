@@ -24,7 +24,7 @@ The **Distinguished Engineer, Infrastructure** is a member of the Infrastructure
 
 ### Specific areas of focus and interest within the Infrastucture department
 
-* **Team alignment**: primarily, I am focused on working with the [Scalability](/handbook/engineering/infrastructure/team/scalability/), [Observability](/handbook/engineering/infrastructure/team/reliability/#observability), [Datastores](/handbook/engineering/infrastructure/team/reliability/#datastores) and [Delivery](/handbook/engineering/infrastructure/team/delivery/) teams.
+* **Team alignment**: primarily, I am focused on working with the [Scalability](/handbook/engineering/infrastructure/team/scalability/), [Observability](/handbook/engineering/infrastructure/team/), [Datastores](/handbook/engineering/infrastructure/team/) and [Delivery](/handbook/engineering/infrastructure/team/delivery/) teams.
 * **Availability**: ensuring that GitLab.com meets its availability objectives is key to how I will prioritise my focus. Knowing whether we are reaching these objectives is determined by our service-level monitoring.
 * **Technical Debt**: I help triage technical debt that is having an impact on availability, primarily through [the Infradev process](/handbook/engineering/workflow/#a-guide-to-creating-effective-infradev-issues). The current state is available through the [weekly Infradev report](https://gitlab.com/gitlab-org/infradev-reports/-/issues?label_name[]=Infradev%20Status%20Report).
 * **Service-Level Monitoring**: My responsibility is to define, and work with specific teams to introduce service-level monitoring across the GitLab fleet.

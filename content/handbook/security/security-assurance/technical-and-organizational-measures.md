@@ -1,5 +1,6 @@
 ---
 title: "Technical and Organizational Security Measures for GitLab Cloud Services"
+description: "Technical and Organizational Security Measures for GitLab Cloud Services"
 ---
 
 ## Technical and Organizational Security Measures for GitLab Cloud Services

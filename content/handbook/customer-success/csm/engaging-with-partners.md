@@ -2,7 +2,9 @@
 title: "Engaging with Partners"
 ---
 
-## Process for Engaging with Partners in [CSM-Assigned](/handbook/customer-success/csm/segment/) Customer Accounts
+## Process for Engaging with Partners in CSM-Assigned Customer Accounts
+
+[CSM-Assigned](/handbook/customer-success/csm/segment/) Customer Accounts
 
 ### Pre-Customer Kick-Off or 1st Engagement
 

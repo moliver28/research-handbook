@@ -19,7 +19,7 @@ graph TD
   E -->|No|G("Click to contact #legal")
 
 click C "https://app.slack.com/client/T02592416/CLFCPMF8E"
-click D "https://about.gitlab.com/handbook/legal/policies/product-third-party-trademarks-guidelines/"
+click D "https://handbook.gitlab.com/handbook/legal/policies/product-third-party-trademarks-guidelines/"
 click G "https://app.slack.com/client/T02592416/C78E74A6L"
 ```
 

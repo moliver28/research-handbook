@@ -1,4 +1,5 @@
 ---
+title: "SAST IDE Integration"
 status: ongoing
 creation-date: "2024-06-21"
 authors: [ "@erran", "@jleasure", "@julianthome", "@theoretick" ]
@@ -6,6 +7,7 @@ coach: "@theoretick"
 approvers: [ "@connorgilbert", "@dashaadu", "@tkopel", "@kisha.mavryck" ]
 owning-stage: "~devops::secure"
 participating-stages: ["~devops::create", "~devops::secure"]
+toc_hide: true
 ---
 
 <!--
@@ -57,21 +59,7 @@ Blueprint statuses you can use:
 
 -->
 
-<!-- Blueprints often contain forward-looking statements -->
-<!-- vale gitlab.FutureTense = NO -->
-
-# SAST IDE Integration
-
-<!--
-This is the title of your blueprint. Keep it short, simple, and descriptive. A
-good title can help communicate what the blueprint is and should be considered
-as part of any review.
--->
-
-<!--
-For long pages, consider creating a table of contents.
-The `[_TOC_]` function is not supported on docs.gitlab.com.
--->
+{{< design-document-header >}}
 
 ## Summary
 

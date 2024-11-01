@@ -57,6 +57,12 @@ The `Partner Prospect Admin` will receive an email notification when leads are s
 
 - [List Import](https://engage-ab.marketo.com/?munchkinId=194-VVC-221#/classic/SC34955C3ZN19)
 
+## Assign to Partner Button Workaround
+
+Vartopia has a validation rule that requires manufacturers to use the Assign to Partner button and manually assign the lead to Partners.
+
+To bypass this validation rule, we need to uncheck or check the Update from Vartopia when updating the Share and Prospect Status. However, we don't want to update a status when `Update from Vartopia` is `TRUE`, since this would mean the lead was already assigned to another partner.
+
 ## Prospects Module for Carahsoft
 
 We allow Carahsoft access to the Prospects module through the `Partner Placeholder Pubsec` partner account, which will allow them to receive leads from joint GitLab - Partner marketing campaigns.
@@ -277,7 +283,7 @@ In comparison to the main process, we are required to create a child campaign pe
 2. Marketo - input the subcategory ID into the Marketo program description.
 3. Marketo - sync the program to the SFDC campaign.
 4. Salesforce - create SFDC campaign (automated).
-5. Salesforce - create a [child campaign](https://trailhead.salesforce.com/content/learn/modules/campaign-management-with-nonprofit-success-pack/create-campaigns-and-campaign-hierarchies) and set the SFDC campaign as your parent campaign.
+5. Salesforce - create a child campaign and set the SFDC campaign as your parent campaign.
 6. Salesforce - update the `Partner Account` (partner) on the child campaign.
 7. Marketo - import the leads from POP to the child campaign -  leads must already be assigned to partners on import.
 8. Vartopia - when a partner converts the lead to DR, Vartopia will recognize there's a campaign linked to the account, and display a dropdown to select the campaign name.

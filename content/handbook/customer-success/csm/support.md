@@ -12,7 +12,7 @@ Define the process for how the CSM interacts with the systems and processes desi
 
 ## Establishing Customers in Support Systems
 
-During the onboarding process, the CSM will ensure that customers are correctly established in the support system. GitLab manages support requests through a system called [Zendesk](/handbook/support/workflows/zendesk-instances.html). GitLab has [integrated the GitLab instance of Salesforce with Zendesk](/handbook/support/workflows/zendesk_organizations_and_users_overview/) to facilitate the establishment of users in Zendesk. The integration synchronizes account-level data so that the Zendesk ticket has accurate information on the customers' purchase of products that include support.
+During the onboarding process, the CSM will ensure that customers are correctly established in the support system. GitLab manages support requests through a system called [Zendesk](/handbook/support/workflows/zendesk-instances/). GitLab has [integrated the GitLab instance of Salesforce with Zendesk](/handbook/support/workflows/zendesk_organizations_and_users_overview/) to facilitate the establishment of users in Zendesk. The integration synchronizes account-level data so that the Zendesk ticket has accurate information on the customers' purchase of products that include support.
 
 Though automation exists, the CSM must still ensure customers take additional steps to fully establish their personnel in Zendesk. Specifically, the CSM must work with the customer to establish specific Zendesk users under the Zendesk Account so that tickets submitted by the customer's personnel are guided by the GitLab support team's [Service Level Agreements (SLAs)](https://about.gitlab.com/support/#gitlab-support-service-levels).
 
@@ -41,7 +41,7 @@ GitLab offers [a variety of support options](https://about.gitlab.com/support/) 
 1. If a call is necessary, the support engineer will invite your team to a call via the ticket.
 1. If a support engineer requests follow up items, please make sure to respond back with these items. This will help us resolve the issue as quickly as possible.
 
-## Automated linking of customer architecture / [Collaboration Project](/handbook/customer-success/csm/customer-collaboration-project/) information in Zendesk tickets
+## Automated linking of customer architecture / Collaboration Project information in Zendesk tickets
 
 For each customer / org in Zendesk managed by a CSM, we can get a link to the collaboration project included, which then can point to the customers architecture details within existing tickets. This link helps our support team to access customer information from the [Customer Collaboration Project](/handbook/customer-success/csm/customer-collaboration-project/) without looking up the URL manually each time.
 
@@ -100,7 +100,7 @@ In the email notifying CSMs of new tickets, the included Zendesk ticket link cur
 
 ## Provide Customer Feedback on Support Tickets
 
-Sometimes CSMs receive feedback on a support ticket from a customer via email. This feedback can be positive or negative. You can feed back that information to the support management team by following the instructions under points 3 and 4 in the [Sources of feedback](/handbook/support/workflows/how-to-respond-to-feedback.html#sources-of-feedback) section of the Support Satisfaction (SSAT) workflow documentation. The SSAT Reviewing Manager will pick up and action the feedback.
+Sometimes CSMs receive feedback on a support ticket from a customer via email. This feedback can be positive or negative. You can feed back that information to the support management team by following the instructions under points 3 and 4 in the [Sources of feedback](/handbook/support/workflows/how-to-respond-to-feedback/#sources-of-feedback) section of the Support Satisfaction (SSAT) workflow documentation. The SSAT Reviewing Manager will pick up and action the feedback.
 
 As described at that link, support already collects feedback via an automatic email survey and a mid-ticket feedback link. It can be helpful to remind customers about these options from time to time. You'll still see the feedback when reviewing a customer's support tickets prior to cadence calls.
 

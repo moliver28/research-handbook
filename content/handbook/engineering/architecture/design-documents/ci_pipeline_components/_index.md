@@ -1,5 +1,5 @@
 ---
-title: CI/CD Catalog
+title: "CI/CD Catalog"
 status: implemented
 creation-date: "2022-09-14"
 authors: [ "@ayufan", "@fabiopitino", "@grzesiek" ]
@@ -10,7 +10,6 @@ participating-stages: []
 toc_hide: true
 ---
 
-<!-- vale gitlab.FutureTense = NO -->
 {{< design-document-header >}}
 
 ## Summary

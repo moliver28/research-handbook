@@ -1,6 +1,4 @@
 ---
-aliases: /handbook/engineering/development/sec/secure/qa_process.html
-
 title: Secure QA Process
 ---
 
@@ -39,8 +37,7 @@ More information about can be found in the [Security Products test projects repo
 ### Testing on OpenShift
 
 We currently do not have automated tests for OpenShift. If you want to see how a change affects the analyzer behavior on OpenShift,
-you can test it using the [Secure OpenShift Instance](http://gitlab.apps.secure-stage-openshift-test.k8s-ft.win/).
-You can find the credentials to login to this instance in 1Password under the name `Secure Openshift`.
+you can test it by setting up an OpenShift environment by following the [steps listed here](https://gitlab.com/gitlab-org/quality/quality-engineering/team-tasks/-/issues/745#note_468404882).
 
 If there is not an existing test project for the feature which you would like to test, then it is recommended
 to mirror an existing test repository on GitLab.com. To do this, go to **New Project** -> **Import Project** -> **Repo by URL**

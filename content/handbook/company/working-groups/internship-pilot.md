@@ -59,7 +59,7 @@ Phase 1 focuses on designing and launching the internship program with the prima
         1. Connect with Universities, Meetup groups and Programming bootcamps
         1. LinkedIn, Instagram, FB ads
         1. Sourcing
-        1. Gitlabbers to contact their universities/Meetup groups/programming clubs
+        1. GitLabbers to contact their universities/Meetup groups/programming clubs
     1. Define communication milestones ✅
         1. 2019-11-05: Internal announcement of the program + handbook update
         1. 2019-11-15: Opening of jobs (Glassdoor, LinkedIn, Stack Overflow etc.)

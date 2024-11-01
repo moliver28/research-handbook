@@ -1,5 +1,6 @@
 ---
-title: "Observation Remediation Procedure"
+title: "Observation Remediation"
+description: "This details the remediation process for observations."
 ---
 
 ## Purpose
@@ -57,7 +58,7 @@ It is the responsibility of the Observation Manager to determine if an open obse
 - legacy GCF controls
 - process or application changes
 
-If an observation is confirmed Ignored or Invalid, the associated risk rating of that observation can be changed. See the [Observation Risk Rating Adjustment](https://gitlab.com/gitlab-com/gl-security/security-assurance/observation-management/-/blob/master/runbooks/2_Remediation%20and%20Closeout.md#moving-to-ignoreinvaild-in-zengrc) runbook for further details.
+If an observation is confirmed Ignored or Invalid, the associated risk rating of that observation can be changed. See the [Observation Risk Rating Adjustment](https://gitlab.com/gitlab-com/gl-security/security-assurance/security-compliance-commercial-and-dedicated/observation-management/-/blob/master/runbooks/2_Remediation%20and%20Closeout.md#updating-risk-rating) runbook for further details.
 
 ### Root Cause Observation Epics
 
@@ -94,7 +95,7 @@ OFI's do not have defined remediation SLA's as they are process improvements or 
 - Observations will **always** impact control effectiveness ratings
 - OFIs will **never** impact control effectiveness ratings
 
-### Criteria for Upgrading Observations (i.e. tier 3 information system level risks) to Security Operational Risks (tier 2)
+### Criteria for Upgrading Observations
 
 The observation program is a key input to the [StORM program]({{< ref "storm-program" >}}), which manages tier 2 security operational risks. When the following criteria is met, it is an indicator that a larger risk exists and is upgraded to a tier 2 operational risk and therefore included in the StORM program. This criteria is as follows:
 
@@ -124,13 +125,13 @@ flowchart TD
     B --> C[ELC]
     B --> D(Observation Epic)
     C --> E{Does a Risk<br>already exist?}
-    E --> |Yes| F[Map related Risk in ZenGRC,<br>update into risk info if appropriate]
-    E --> |No| H[Follow ZenGRC Risk<br>Runbook for new risks]
+    E --> |Yes| F[Map related Risk,<br>update into risk info if appropriate]
+    E --> |No| H[Follow Risk<br>Runbook for new risks]
     H --> G(Risk is treated and<br>managed in StORM Program)
     F --> G
     D --> J{Does a Risk<br>already exist?}
-    J --> |Yes| K[Map related Risk in ZenGRC,<br>update into risk info if appropriate]
-    J --> |No| L[Follow ZenGRC Risk<br>Runbook for new risks]
+    J --> |Yes| K[Map related Risk,<br>update into risk info if appropriate]
+    J --> |No| L[Follow Risk<br>Runbook for new risks]
     L --> M(Work with SecComp<br>on Remediation)
     K --> M
 ```
@@ -174,7 +175,7 @@ Exceptions to this procedure will be tracked as per the [Information Security Po
 
 - Parent Policy: [Information Security Policy]({{< ref "../_index.md" >}})
 - [GCF Control Lifecycle]({{< ref "security-control-lifecycle" >}})
-- [Sarbanes-Oxley (SOX) Compliance](/handbook/internal-audit/sarbanes-oxley/)
+- [Sarbanes-Oxley (SOX) Compliance](https://internal.gitlab.com/handbook/internal-audit/sarbanes-oxley/)
 - [Observation Management Procedure]({{< ref "observation-management-procedure" >}})
 - [Observation Management Project](https://gitlab.com/gitlab-com/gl-security/security-assurance/observation-management)
 - [Insight Charts](https://gitlab.com/gitlab-com/gl-security/security-assurance/observation-management/insights/#/Observation_Issues_Chart)

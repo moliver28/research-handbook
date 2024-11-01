@@ -4,7 +4,7 @@ title: Our L&D Team
 
 While our team loves making learning and development content for the rest of the organization, we also love learning and growing ourselves. This page is meant to serve as a resource for the L&D team to explore, learn, and grow. We encourage all L&D Team Members to add to this page as you find additional resources.
 
-The content should be accessible at no cost but anything requiring payment [can be reimbursed following the GitLab Growth and Development policy](/handbook/total-rewards/benefits/general-and-entity-benefits/growth-and-development).
+The content should be accessible at no cost but anything requiring payment [can be reimbursed following the GitLab Growth and Development policy](/handbook/people-group/learning-and-development/growth-and-development/).
 
 ## New Learning and Development Team Members
 
@@ -36,8 +36,8 @@ All new Learning and Development (L&D) team members complete our [team onboardin
 
 ## Courses & Certifications
 
-- [Crucial Conversations](https://www.vitalsmarts.com/crucial-conversations-training/)
-- [Crucial Conversations Instructor Certification](https://www.vitalsmarts.com/crucial-conversations-training/)
+- [Crucial Conversations](https://cruciallearning.com/courses/crucial-conversations-for-dialogue/)
+- [Crucial Conversations Instructor Certification](https://cruciallearning.com/courses/crucial-conversations-for-dialogue/)
 - [Association for Talent Development Certifications](https://www.td.org/education-courses/certificate-programs)
 - [Senior Professional in Human Resources](https://www.hrci.org/our-programs/our-certifications/sphr)
 

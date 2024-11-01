@@ -5,7 +5,7 @@ description: "Editing content in Contentful"
 
 ## Content Type Overview
 
-We use emojis to discern which content types are related to **Pages** (📄), **Atoms**, or small building blocks (⚛️), and **Blocks**, or bigger chunks of content that can be assembled using atoms (📦). We have a few others, but between a series of Atom and Block entries added to a single Page entry, a page on our marketing site is built. Please see [the handbook page](/handbook/marketing/digital-experience/contentful-cms/custom-pages.html) for our **Custom Page** content type to learn more about how those pages are built and when they differ from our **Pages**.
+We use emojis to discern which content types are related to **Pages** (📄), **Atoms**, or small building blocks (⚛️), and **Blocks**, or bigger chunks of content that can be assembled using atoms (📦). We have a few others, but between a series of Atom and Block entries added to a single Page entry, a page on our marketing site is built. Please see [the handbook page](/handbook/marketing/digital-experience/contentful-cms/custom-pages/) for our **Custom Page** content type to learn more about how those pages are built and when they differ from our **Pages**.
 
 ## Editing existing content in Contentful
 

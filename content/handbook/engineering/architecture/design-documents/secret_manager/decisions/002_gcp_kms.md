@@ -1,6 +1,7 @@
 ---
 title: 'GitLab Secrets Manager ADR 002: Use GCP Key Management Service'
 owning-stage: "~devops::verify"
+toc_hide: true
 ---
 
 ## Context
@@ -10,7 +11,7 @@ store asymmetric keys belonging to each vault.
 
 ## Decision
 
-We decided to rely on Google CLoud Platform (GCP) Key Management Service (KMS) to manage the asymmetric keys
+We decided to rely on Google Cloud Platform (GCP) Key Management Service (KMS) to manage the asymmetric keys
 used by the GitLab Secrets Manager vaults.
 
 Using GCP provides a few advantages:

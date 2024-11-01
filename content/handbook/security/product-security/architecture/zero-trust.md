@@ -4,7 +4,7 @@ title: Zero Trust
 
 ## Zero Trust
 
-As part of raising that bar, GitLab is implementing Zero Trust, or the practice of  shifting access control from the perimeter of the org to the individuals, the assets and the endpoints. You can learn more about this strategy from the [Google BeyondCorp whitepaper: A New Approach to Enterprise Security](https://ai.google/research/pubs/pub43231).
+As part of raising that bar, GitLab is implementing Zero Trust, or the practice of  shifting access control from the perimeter of the org to the individuals, the assets and the endpoints. You can learn more about this strategy from the [Google BeyondCorp whitepaper: A New Approach to Enterprise Security](https://research.google/pubs/beyondcorp-a-new-approach-to-enterprise-security/).
 
 In our case, Zero Trust means that all devices trying to access an endpoint or asset within our GitLab environment will need to authenticate and be authorized. Because Zero Trust relies on dynamic, risk-based decisions, this also means that users must be authorized and validated: what department are they in, what role do they have, how sensitive is the data and the host that they are trying to access?  We're at the beginning stages in our Zero Trust roadmap, but as we move along in the journey, we'll document our lessons learned, process and progress in our [Security blog](https://about.gitlab.com/blog/categories/security/).
 
@@ -21,7 +21,7 @@ You can also check out our [Zero Trust Networking (ZTN) blog series](https://abo
 
 Head over to the /r/netsec subreddit to see our [October 29, 2019 Reddit AMA](https://www.reddit.com/r/netsec/comments/d71p1d/were_a_100_remote_cloudnative_company_and_were/) on Zero Trust where we fielded questions around our ZTN implementation, roadmap, strategy and more.
 
-Identity is a critical element of the implementation of a ZTN framework. GitLab is moving forward with an implementation of Okta to allow us to standardize authentication for Cloud Application access and implement user-friendly SSO. See our [Okta](/handbook/business-technology/okta/) page for more details.
+Identity is a critical element of the implementation of a ZTN framework. GitLab is moving forward with an implementation of Okta to allow us to standardize authentication for Cloud Application access and implement user-friendly SSO. See our [Okta](/handbook/it/okta/) page for more details.
 
 ### Why We Don't Have a Corporate VPN
 

@@ -68,7 +68,7 @@ Learn more by going to the [Marketing Demand Generation section](https://partner
 
 ### **Customer Case Studies**
 
-Testimonials from happy customers are a great tool, but gathering this information can be difficult and time-consuming. GitLab is offering our Partners access to UserEvidence software which can quickly and easily collect customer feedback and turn it into compelling quotes, graphics, and other publishable materials. To participate in this program, Partners should contact [Partner Marketing](mailto:Partner-Marketing@gitlab.com) or learn more by going to the [Marketing Demand Generation section](https://partners.gitlab.com/prm/English/c/marketing-demand-gen) of the Partner Portal.
+Testimonials from happy customers are a great tool, but gathering this information can be difficult and time-consuming. To participate in this program, Partners should contact [Partner Marketing](mailto:Partner-Marketing@gitlab.com) or learn more by going to the [Marketing Demand Generation section](https://partners.gitlab.com/prm/English/c/marketing-demand-gen) of the Partner Portal.
 
 ### **Concierge Marketing Program**
 
@@ -76,11 +76,11 @@ Select Partners are elibible to participate in this program. Get the help you ne
 
 ### **Marketing Development Funds**
 
-Select Partners may be eligible for [Marketing Development Funds, or MDF,](/handbook/resellers/Channel-Program-Guide/MDF/) to acquire new GitLab customers, drive demand within an existing mutual customer base, or help educate GitLab teams. GitLab MDF can support multiple marketing efforts, including participation in trade shows, sales incentives, direct mailing costs, training, and more.
+Select Partners may be eligible for [Marketing Development Funds, or MDF,](/handbook/resellers/channel-program-guide/MDF/) to acquire new GitLab customers, drive demand within an existing mutual customer base, or help educate GitLab teams. GitLab MDF can support multiple marketing efforts, including participation in trade shows, sales incentives, direct mailing costs, training, and more.
 
 #### Requesting Marketing Development Funds
 
-Our Select Partners are eligible to submit requests for consideration for marketing development funds (MDF). To learn more, check out our [MDF handbook page](/handbook/resellers/Channel-Program-Guide/MDF/) or login to the [Partner Portal](https://partners.gitlab.com/prm/English/c/marketing) marketing development funds page.
+Our Select Partners are eligible to submit requests for consideration for marketing development funds (MDF). To learn more, check out our [MDF handbook page](/handbook/resellers/channel-program-guide/MDF/) or login to the [Partner Portal](https://partners.gitlab.com/prm/English/c/marketing) marketing development funds page.
 
 ### **GitLab Branded Item Requests**
 
@@ -107,11 +107,11 @@ GitLab uses the Partner Portal, and our News on Demand Platform to communicate w
 If you are looking for additional information on the GitLab Partner program see the following handbook pages.
 
 - [Channel Partner Program Overview](/handbook/resellers/)
-- [Channel Program Guide](/handbook/resellers/Channel-Program-Guide/)
+- [Channel Program Guide](/handbook/resellers/channel-program-guide/)
 - [Channel Services Program](/handbook/resellers/services/)
 - [Channel Services Catalog](/handbook/resellers/services/services-catalog/)
 - [Channel Partner Training and Certifications](/handbook/resellers/training/)
-- [Channel Partners: Working with GitLab](/handbook/resellers/channel-working-with-GitLab/)
+- [Channel Partners: Working with GitLab](/handbook/resellers/channel-working-with-gitlab/)
 - [Channel Tools and Resources](/handbook/resellers/channel-tools-resources/)
 - [Alliance Program](https://about.gitlab.com/partners/technology-partners/)
 
