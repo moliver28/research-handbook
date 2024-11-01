@@ -31,6 +31,19 @@ Requester must be a Group Owner of a pre-existing paid namespace.
 
 Free users should reference [GitLab.com rate limits documentation](https://docs.gitlab.com/ee/user/gitlab_com/#gitlabcom-specific-rate-limits). Support will provide information [when GitLab initiates contact due to an incident](https://about.gitlab.com/support/statement-of-support/#free-users).
 
+
+### Authenticating requests
+
+Authentication for this type of request can be done through a simple simple access check through the Zenesk Super App. If the person writing in is an Owner in the group or subgroup, you can provide information about those paths as described in [What we can provide](#what-we-can-provide).  
+
+Before sending anything verify:
+- The user is signed into the Support Portal OR
+- The user has replied to a message you have sent in the support interaction
+
+Be aware: Owners in subgroups can only get information about the paths in which they have Owner.
+
+For example, a user writes in but they are Owner in `companyName/it` you cannot pass identifying information about projects in `companyName/secretProjects`.
+
 ### What we can provide
 
 We can provide the following information:
