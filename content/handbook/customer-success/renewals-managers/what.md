@@ -140,6 +140,7 @@ These tactics/motions may not always be approved or appropriate for each risk sc
 10. Peer phone call (peer of customer)
 11. Board member contact
 12. Develop bespoke ROI deck for customer internal justifications
+13. Align customer leadership with our executive leadership
 
 ## Kicking off the risk mitigation (end-to-end summary)
 
