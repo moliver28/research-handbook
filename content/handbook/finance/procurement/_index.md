@@ -143,7 +143,7 @@ Depending on a few factors of your purchase, there are different ways to engage 
 
 ### Review Steps, Timeline, and Considerations
 
-Requests can take 5 days to 3+ weeks for processing depending on a number of factors that will impact the time for review of a Purchase Request including, but not limited to:
+In order to ensure adequate time for approvals and to avoid delays, requestors are asked to submit requisitions 30 days before the contract needs finalized. A number of factors impact the time for review of a Purchase Request including, but not limited to:
 
 1. New or existing vendor
 1. If negotiation is required
@@ -209,9 +209,9 @@ Each review's targeted approval time is outlined below, but as mentioned above, 
 
 #### 3.C. Security Review: 4-14 Days
 
-- [Security Third Party Risk Management](/handbook/security/security-assurance/security-risk/third-party-risk-management/) reviews are required for vendors that collect, process, or store Orange / Red Data, software providers (SaaS and On-premise), and independent contractors / consultants. (Excluding field marketing events)
-- This activity cannot begin until **after** the supplier completes the security questionnaire and supplies their security documentation. Oftentimes, it can take 1-2 weeks for the supplier to respond and complete the requested materials. The security review SLA begins once that is completed. Time before this activity can begin is entirely dependent upon the supplier's response time and maturity of security protocols.
-- **TIP:** To increase speed of approval, upload any security compliance documentation (SOC-2 Report, ISO27001 Certificate) to the ZipHQ Request and notify your supplier contact they will be receiving a request from GitLab's Security Risk Team for completion ASAP.
+- [Security Third Party Risk Management](/handbook/security/security-assurance/security-risk/third-party-risk-management/) reviews are required for vendors that collect, process, or store Orange or Red Data. This includes software providers (SaaS and On-premise) and professional services firms. Requests for Field Marketing events often do not require a security review.
+- The TPRM review cannot begin until **after** the supplier completes the security questionnaire and provides the necessary security documentation. Oftentimes, it can take 1-2 weeks for the supplier to respond and complete the requested materials. The security review SLA begins once that is completed. Time before this activity can begin is entirely dependent upon the supplier's response time and the maturity of their security environment.
+- **TIP:** To increase speed of approval, upload any security compliance documentation (SOC-2 Report, ISO27001 Certificate) to the ZipHQ Request and notify your supplier contact they will be receiving a request from GitLab's Security Risk Team for completion ASAP. Additionally, obtaining a direct security contact early in the process can prevent delays in completing this review.
 - For any inquiries and questions, please tag @securityrisk in the #procurement slack channel.
 
 #### 3.D. PeopleOps Review: 1-4 Days
