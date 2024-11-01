@@ -838,5 +838,5 @@ CEO Shadow Program alumni are welcome to join the `#ceo-shadow-alumni` Slack cha
 | 2024-09-02 | 2024-09-13 | [Vladimir Dzalbo](https://gitlab.com/dzalbo) | Senior Manager, Solutions Architecture, EMEA | |
 | 2024-09-09 | 2024-09-20 | [Hannah Sutor](https://gitlab.com/hsutor) | Principal Product Manager | |
 | 2024-09-16 | 2024-10-04 | [Kyle Yetter](https://gitlab.com/kyetter) | Senior Backend Engineer, Geo | |
-| 2024-09-30 | 2024-10-11 | [Nupur Sharma](https://gitlab.com/nsharma2), Solutions Architect | |
-| 2024-10-21 | 2024-11-01 | [Dan Rhodes](https://gitlab.com/dfrhodes), Senior Managing Legal Counsel | |
+| 2024-09-30 | 2024-10-11 | [Nupur Sharma](https://gitlab.com/nsharma2) | Solutions Architect | |
+| 2024-10-21 | 2024-11-01 | [Dan Rhodes](https://gitlab.com/dfrhodes) | Senior Managing Legal Counsel | |
