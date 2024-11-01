@@ -9,46 +9,56 @@ with fullstack teams (frontend, backend, and fullstack engineers), and/or Engine
 
 ## Levels
 
-### Senior Manager, Development
+### Senior Manager, Engineering
 
-*The Senior Manager, Development reports to the [Director, Development](#director-development).
+- The Senior Manager, Engineering role extends the [Engineering Manager](/job-families/engineering/development/management/engineering-manager/) role.
+- The Senior Manager, Engineering reports to the [Director, Engineering](#director-engineering).
 
-#### Senior Manager, Development Job Grade
+#### Senior Manager, Engineering Job Grade
 
-The  Senior Manager, Development is a [grade 9](/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades).
+The  Senior Manager, Engineering is a [grade 9](/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades).
 
-#### Senior Manager, Development Responsibilities
+#### Senior Manager, Engineering Responsibilities
 
-- Extends that of the [Frontend Engineering Manager](/job-families/engineering/development/frontend/manager/) and the [Backend Engineering Manager](/job-families/engineering/development/backend/manager/) responsibilities
 - Manage up to six engineering teams
 - Conduct managerial interviews for candidates, and train engineering managers to do said interviews
 - Generate and implement process improvements, especially cross-team processes
 - Hold regular [1:1s](/handbook/leadership/1-1/) with team managers and skip-level 1:1s with all members of their team
 - Management mentorship
 
-#### Senior Manager, Development Requirements
+#### Senior Manager, Engineering Requirements
 
-- Extends that of the [Frontend Engineering Manager](/job-families/engineering/development/frontend/manager/) and the [Backend Engineering Manager](/job-families/engineering/development/backend/manager/) requirements
-- Technical credibility: Past experience as a product engineer and leading teams thereof
-- Management credibility: Past experience (3 to 5 years) as an engineering manager
+- Professional experience as an engineer in at least one primary language or framework of the organization, or a closely related language or framework.
+- Ability to discuss architectural concepts and systems design, and to broker technical decisions at a high-level between individual contributors.
+- Experience across the devops lifecycle, with deep understanding of at least one area.
+- Exposure to automation through CI/CD pipelines.
+- An understanding of multiple delivery and distribution strategies, including an ability to maintain velocity within GitLab's dual cadence of continuous deployment and a monthly release cycle.
+- Understanding of a variety of security principles and best practices including the ability to ensure a secure development process.
+- Understands how to maintain and enforce Quality Assurance through testing frameworks and code review standards. 
+- Ability to communicate technical concepts to non-technical stakeholders.
+- Past experience (3 to 5 years) as an engineering manager.
+- Proven track record of execution that demonstrates an understanding of the software development lifecycle.
 - Ability to understand, communicate and improve the quality of multiple teams
 - Demonstrate longevity at, at least, one recent job
 - Ability to be successful managing at a remote-only company
 - Humble, servant leader
 - Ability to use GitLab
-- Be a user of GitLab, or familiar with our company recommended
-- Prior Developer Platform or Tool industry experience recommended
-- Prior product company experience recommended
-- Prior high-growth startup experience recommended
-- Experience working on systems at massive (i.e. consumer) scale recommended
-- Deep open source experience recommended
-- Experience working with global teams recommended
+
+#### Senior Manager, Engineering Nice-to-have Requirements
+
+- Be a user of GitLab, or familiar with our company
+- Prior Developer Platform or Tool industry experience
+- Prior product company experience
+- Prior high-growth startup experience
+- Experience working on systems at massive (i.e. consumer) scale
+- Deep open source experience
+- Experience working with global teams
 - We value diversity, inclusion and belonging in leadership
 - Be inquisitive: Ask great questions
 
 ### Principal Engineer
 
-*The Principal Engineer reports to the [Senior Engineering Manager, Development](#senior-manager-development).
+- The Principal Engineer reports to the [Senior Manager, Engineering](#senior-manager-engineering).
 
 #### Principal Engineer Job Grade
 
@@ -79,43 +89,50 @@ The Principal Engineer is a [grade 9](/handbook/total-rewards/compensation/compe
 
 - Extends either the [Staff Frontend Engineer](/job-families/engineering/development/frontend#staff-frontend-engineer) or the [Staff Backend Engineer](/job-families/engineering/development/backend/#staff-backend-engineer) requirements
 
-### Director, Development
+### Director, Engineering
 
-*The Director of Development role reports to the [Senior Director, Development](/job-families/engineering/engineering-management/#senior-director-development).
+- The Director of Engineering role reports to the [Senior Director, Development](/job-families/engineering/engineering-management/#senior-director-development).
 
-#### Director, Development Job Grade
+#### Director, Engineering Job Grade
 
-The  Director, Development is a [grade 10](/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades).
+The  Director, Engineering is a [grade 10](/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades).
 
-#### Director, Development Responsibilities
+#### Director, Engineering Responsibilities
 
-- Extends that of the [Senior Engineering Manager](#senior-manager-development) responsibilities
+- Extends that of the [Senior Manager, Engineering](#senior-manager-engineering) responsibilities
 
-#### Director, Development Requirements
+#### Director, Engineering Requirements
 
-- Extends that of the [Senior Engineering Manager](#senior-manager-development) requirements
 - Excellent communication skills
 - Expert hiring manager skills and experience
-- A strong people management philosophy for managers and engineers
-- Experience managing managers
-- Agile project management skills
-- Ability to understand, communicate and improve the quality of multiple teams
+- Experience managing managers, and a strong people management philosophy for both managers and engineers.
+- Experience managing relationships with external vendors.
+- Track record of structuring, staffing, and maintaining a high-performing organization that is resourced appropriately and cost-effectively.
+- Ability to coordinate complex technical projects that span multiple teams, while providing high-level progress updates in clear, business-friendly terms.
+- Ability to develop long-term technical roadmaps and broker architectural decisions across teams.
+- Ability to use understanding of both established systems and general industry direction to help guide strategic decisions.
+- Experience prioritizing technical debt at the organizational level, identifying risks, and balancing short-term delivery with long-term system health.
+- Expertise in agile methodologies, with a focus on optimizing overall organizational velocity and execution against business goals.
+- Thorough understanding of Security practices across the entire software lifecycle from product security to threat management.
 - Demonstrate longevity at, at least, one recent job
 - Ability to be successful managing at a remote-only company
 - Humble, servant leader
-- Be a user of GitLab, or familiar with our company recommended
-- Prior Developer Platform or Tool industry experience recommended
-- Prior product company experience recommended
-- Prior high-growth startup experience recommended
-- Experience working on systems at massive (i.e. consumer) scale recommended
-- Deep open source experience recommended
-- Experience working with global teams recommended
+
+#### Director, Engineering Nice-to-have Requirements
+
+- Be a user of GitLab, or familiar with our company
+- Prior Developer Platform or Tool industry experience
+- Prior product company experience
+- Prior high-growth startup experience
+- Experience working on systems at massive (i.e. consumer) scale
+- Deep open source experience
+- Experience working with global teams
 - We value diversity, inclusion and belonging in leadership
 - Be inquisitive: Ask great questions
 
 ### Distinguished Engineer
 
-*The Distinguished Engineer reports to the [Director, Development](/job-families/engineering/engineering-management/#director-development).
+*The Distinguished Engineer reports to the [Director, Development](/job-families/engineering/engineering-management/#director-engineering).
 
 #### Distinguished Engineer Job Grade
 
@@ -148,7 +165,7 @@ The  Senior Director, Development is a [grade 11](/handbook/total-rewards/compen
 #### Senior Director, Development Responsibilities
 
 - This role is defined by the functional area(s) the person manages
-- Extends that of the [Director, Development](#director-development) responsibilities
+- Extends that of the [Director, Engineering](#director-engineering) responsibilities
 - Organizational credibility: Past experience in managing an entire functional area of Engineering
 - Prioritization of hiring efforts to focus on areas of most need and quickly recruit top engineering talent
 - Motivate and communicate across multiple levels of their department
@@ -161,11 +178,11 @@ The  Senior Director, Development is a [grade 11](/handbook/total-rewards/compen
 
 #### Senior Director, Development Requirements
 
-- Extends that of the [Director, Development](#director-development) requirements
+- Extends that of the [Director, Engineering](#director-engineering) requirements
 
 ### Senior Distinguished Engineer
 
-The Senior Distinguished Engineer reports to the [Senior Director, Development](/job-families/engineering/engineering-management/#senior-director-development) or [Director, Development](/job-families/engineering/engineering-management/#director-development) of their sub-department.
+The Senior Distinguished Engineer reports to the [Senior Director, Development](/job-families/engineering/engineering-management/#senior-director-development) or [Director, Engineering](/job-families/engineering/engineering-management/#director-engineering) of their sub-department.
 
 #### Senior Distinguished Engineer Job Grade
 

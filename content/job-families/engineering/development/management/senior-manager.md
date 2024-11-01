@@ -43,8 +43,16 @@ with fullstack teams (frontend, backend, and fullstack engineers), and/or Engine
 - Excellent written and verbal communication skills
 - Share [our values](/handbook/values/), and work in accordance with those values
 - Build teams that excel through our values. Recognize when to course-correct or restructure a team to improve performance or alignment with our mission.
-- Technical credibility: Past experience as a product engineer and leading teams thereof
-- Management credibility: Significant past experience as an engineering manager
+- Professional experience as an engineer in at least one primary language or framework of the organization, or a closely related language or framework.
+- Ability to discuss architectural concepts and systems design, and to broker technical decisions at a high-level between individual contributors.
+- Experience across the devops lifecycle, with deep understanding of at least one area.
+- Exposure to automation through CI/CD pipelines.
+- An understanding of multiple delivery and distribution strategies, including an ability to maintain velocity within GitLab's dual cadence of continuous deployment and a monthly release cycle.
+- Understanding of a variety of security principles and best practices including the ability to ensure a secure development process.
+- Understands how to maintain and enforce Quality Assurance through testing frameworks and code review standards. 
+- Ability to communicate technical concepts to non-technical stakeholders.
+- Past experience (3 to 5 years) as an engineering manager.
+- Proven track record of execution that demonstrates an understanding of the software development lifecycle.
 - Ability to understand, communicate and improve the quality of multiple teams
 - Demonstrate longevity at, at least, one recent job
 - Ability to be successful managing at a remote-only company

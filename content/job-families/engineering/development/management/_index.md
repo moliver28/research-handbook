@@ -21,33 +21,11 @@ The Senior Engineering Manager, Development is a [grade 9](/handbook/total-rewar
 
 #### Responsibilities
 
-- Manage up to six engineering teams
-- Conduct managerial interviews for candidates, and train engineering managers to do said interviews
-- Generate and implement process improvements, especially cross-team processes
-- Hold regular [1:1s](/handbook/leadership/1-1/) with team managers and skip-level 1:1s with all members of their team
-- Management mentorship
+Senior Engineering Manager, Development responsibilities extend those of [Senior Manager, Engineering](/handbook/job-families/engineering/engineering-management/#senior-manager-engineering-responsibilities) with [specific responsibities for the Development role](/handbook/job-families/engineering/development/management/senior-manager/).
 
 #### Requirements
 
-- Technical credibility: Past experience as a product engineer and leading teams thereof
-- Management credibility: Past experience (3 to 5 years) as an engineering manager
-- Ability to understand, communicate and improve the quality of multiple teams
-- Demonstrate longevity at, at least, one recent job
-- Ability to be successful managing at a remote-only company
-- Humble, servant leader
-- Ability to use GitLab
-
-#### Nice-to-have Requirements
-
-- Be a user of GitLab, or familiar with our company
-- Prior Developer Platform or Tool industry experience
-- Prior product company experience
-- Prior high-growth startup experience
-- Experience working on systems at massive (i.e. consumer) scale
-- Deep open source experience
-- Experience working with global teams
-- We value diversity, inclusion and belonging in leadership
-- Be inquisitive: Ask great questions
+Senior Engineering Manager, Development requirements match those of [Senior Manager, Engineering](/handbook/job-families/engineering/engineering-management/#senior-manager-engineering-requirements).
 
 ### Director, Development
 
@@ -57,17 +35,13 @@ The Director of Development role extends the [Senior Engineering Manager](#senio
 
 The  Director, Development is a [grade 10](/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades).
 
+#### Responsibilities
+
+Director, Development responsibilities extend those of [Director, Engineering](/handbook/job-families/engineering/engineering-management/#director-engineering-responsibilities) with [specific responsibities for the Development role](/handbook/job-families/engineering/development/management/director/).
+
 #### Requirements
 
-- Excellent communication skills
-- Expert hiring manager skills and experience
-- A strong people management philosophy for managers and engineers
-- Experience managing managers
-- Agile project management skills
-- Ability to understand, communicate and improve the quality of multiple teams
-- Demonstrate longevity at, at least, one recent job
-- Ability to be successful managing at a remote-only company
-- Humble, servant leader
+Director, Development requirements match those of [Director, Engineering](/handbook/job-families/engineering/engineering-management/#director-engineering-requirements).
 
 #### Nice-to-have Requirements
 
