@@ -5,11 +5,13 @@ description: A description of programs and resources for team members to access 
 
 The Growth and Development (G&D) Fund can be used by GitLab team members to receive reimbursement for approved growth experiences and opportunities at GitLab. Team members can be reimbursed for up to $10,000 per calendar year for approved growth experiences, provided they meet all eligibility requirements.
 
+Whether you want to upskill with new certifications, attend industry conferences, or explore courses to enhance your expertise, this fund is an amazing resource to help you shape your career at GitLab and support [High Performing Teams](https://internal.gitlab.com/handbook/company/high-performing-teams/).
+
 The Growth and Development (G&D) fund is managed by the [Talent Development team](/handbook/people-group/learning-and-development/#learning--development-team). For any questions, please contact a team member directly, or reach out in the #learninganddevelopment slack channel.
 
 ## Eligibility
 
-To use the Growth and Development fund, applicants must be full time GitLab employees, meeting performance expectations in their role, and should not be on ‘leave’ status.
+To use the Growth and Development fund, applicants must be full-time GitLab employees who meet performance expectations in their role and are not on ‘leave’ status.
 
 ## Process
 
@@ -17,7 +19,7 @@ Here is a step by step guide on how to apply for G&D applications:
 
 ### Step 1 - Growth Conversation
 
-Start by having a [growth conversation](/handbook/people-group/learning-and-development/career-development/#what-is-career-development) with your manager to discuss the learning opportunity. It’s important to discuss timing, capacity, and application timeline for both the program and fund processing. This conversation should allow time for you to apply for the program and your manager to ensure team capacity.
+Start by having a [growth conversation](/handbook/people-group/learning-and-development/career-development/#what-is-career-development) with your manager to discuss the learning opportunity. It’s important to talk through the timing, workload, and application timeline of the program to ensure coverage for your team. This conversation should allow time for you to apply for the program before it begins and allow your manager to ensure team capacity.
 
 <details>
 <summary>Manager Guidance: Growth Conversations & Recommending Opportunities </summary>
@@ -49,7 +51,7 @@ Request approval on the issue. Depending on the cost of the application, differe
 
 Cost Tiers Approval:
 
-- Manager Approval (with VP's made aware on the issue): $0-$1,000
+- Manager Approval: $0-$1,000
 - Manager + VP Approval: $1,000.01 - $5,000
 - Manager + e-group Approval for any spend $5,000.01 - $10,000 (Apart from Sales & Marketing, where VPs can approve $5,000.01 - $10,000 spend)
 
@@ -108,7 +110,7 @@ All expenses should be claimed via [Navan](/handbook/finance/expenses/#-introduc
 
 #### Travel Expenses
 
-As is detailed in the issue template, details of travel related expenses for conference applications including the cost of travel, lodging, and meals, should still be included in your G&D issue for approval. 
+As is detailed in the issue template, details of travel-related expenses, including costs for travel, lodging, and meals, should still be included in your G&D issue for approval. 
 
 However, they must be expensed separately to your G&D claim, following GitLab’s [Travel and Expense policy](/handbook/finance/expenses/#41-travel-related-expenses). Add a link to your G&D issue in the claim description. Please select `Growth and Development` as the Classification for these expenses, but not as the 'Expense Type'.
 
@@ -136,7 +138,7 @@ Once you have successfully claimed for reimbursement, please go back and close y
 
 Please use the [Academic Study](https://gitlab.com/gitlab-com/people-group/learning-development/growth-and-development-requests/-/issues/new?issuable_template=g-and-d-academic-study) issue template to open requests of this type.
 
-**Description:** The costs of conference registration fees are eligible for G&D reimbursement. The costs for travelling to and from an event, as well as lodging and meals, should be expensed separately from the training budget following the [existing travel expense policy](/handbook/finance/expenses/), with your manager's approval. Please review current [GitLab travel policy](/handbook/finance/travel/) for the most up-to-date information about booking and planning conference travel.
+**Description:** The costs of conference registration fees are eligible for G&D reimbursement. The costs for travelling to and from an event, as well as lodging and meals, should be expensed separately from the training budget following the [existing travel expense policy](/handbook/finance/expenses/), with your manager's approval. Please review current [GitLab travel policy](/handbook/finance/travel/) for the latest information on booking and planning conference travel.
 
 We encourage people to be speakers in conferences. More information for people interested in speaking can be found on our [GitLab Speaker Resources](/handbook/marketing/corporate-communications/speaking-resources/).
 
@@ -156,7 +158,7 @@ Please use the [Academic Study](https://gitlab.com/gitlab-com/people-group/learn
 
 The course must be from a credentialed college or university and must be relevant to your career development goals and development. The relevance of the classes taken for each semester will be subject to the approval of the manager. The grade must be equivalent to a "B".
 
-**Reimbursement Requirements:** A final grade report or transcript is required to receive reimbursement. If you are paying per module, you can reimburse after completion of each module using evidence of completion in your Navan claim.
+**Reimbursement Requirements:** A final grade report or transcript is required to receive reimbursement. If you are paying per module, you can submit for reimbursement after completing each module, providing evidence of completion in your Navan claim.
 
 #### Professional Development/Certifications/Courses
 
@@ -200,7 +202,7 @@ Please note, using G&D for coaching is only available for managers and leaders g
 
 **Description:** Professional coaching is available for managers and leaders job grade 8+ to support development in their professional area of interest. Team members job grade 4-7 can receive external coaching from [Modern Health]({{< ref "modern-health" >}}) and internal coaching from our [internal resources]({{< ref "coaching" >}}). Team members are expected to know their confidentiality obligations and are responsible for keeping coaching conversations [SAFE](/handbook/legal/safe-framework/).
 
-We partner with [Coaching Right Now](https://docs.google.com/document/d/188H3iuIY9JwE4kmAeoLobNz-e6j-rKie/edit?usp=sharing&ouid=113211236094818760555&rtpof=true&sd=true) connects team members with GitLab-vetted coaches - [read their coaching bios here](https://drive.google.com/file/d/1_5q7aq4diWsXq0O9csQF40skZV4f_L_L/view?usp=drive_link). Team members can book 4, 6, or 8hrs of coaching. Availability is first come, first served. Pairing with a coach via Coaching Right Now saves time and energy looking for a coach that is aligned to GitLab values and way of working.
+Our partnership with  [Coaching Right Now](https://docs.google.com/document/d/188H3iuIY9JwE4kmAeoLobNz-e6j-rKie/edit?usp=sharing&ouid=113211236094818760555&rtpof=true&sd=true) connects team members with GitLab-vetted coaches - [read their coaching bios here](https://drive.google.com/file/d/1_5q7aq4diWsXq0O9csQF40skZV4f_L_L/view?usp=drive_link). Team members can book 4, 6, or 8hrs of coaching. Availability is first come, first served. Pairing with a coach via Coaching Right Now saves time and energy looking for a coach that is aligned to GitLab values and way of working.
 
 > Hear what GitLab team members are saying about Coaching Right Now:
 
