@@ -15,7 +15,7 @@ Vimeo is connected to Okta. To request access, [create an access request](/handb
 
 ### Bulk access
 
-If a team is needing access to Vimeo, please open a [bulk access request](/handbook/it/end-user-services/onboarding-access-requests/access-requests/#individual-or-bulk-access-request) and use the GitLab user group `@gitlab-com/gl-security/corp/helpdesk` to provision you. Once access is granted, please ping `@joanna_c` to update permissions for each user in the group. 
+If a team is needing access to Vimeo, please open a [bulk access request](/handbook/it/end-user-services/onboarding-access-requests/access-requests/#individual-or-bulk-access-request) and use the GitLab user group `@gitlab-com/gl-security/corp/helpdesk` to provision you. Once access is granted, please ping `@joanna_c` to update permissions for each user in the group.
 
 ### User Roles
 
@@ -140,7 +140,6 @@ With a [showcase](https://vimeo.zendesk.com/hc/en-us/articles/228908367-Showcase
 1. Click the `+` icon in the left sidebar menu next to `Showcases`.
 1. Input a title and description for your showcase.
 1. Select the [privacy level](/handbook/marketing/marketing-operations/vimeo/#privacy-settings-overview) for your showcase. The privacy level you select will determine whether you toggle `SEO: Show in Google results` on or off.
-1. In the right window pane, click the `Add video` button to add on-demand videos to your showcase. You can also create a [live event](/handbook/marketing/marketing-operations/vimeo/#live-events) for the showcase.
 1. In the left sidebar menu, click `Assets`. Here you can add branded assets to your showcase including a logo, thumbnail, and accent color.
 1. In the left sidebar menu, click `SEO`. If you toggled `SEO: Show in Google results` off in step 3, disregard this step. If you toggled `SEO: Show in Google results` on, input the site title, description and meta keywords for this showcase. [More on SEO with showcases here](https://vimeo.zendesk.com/hc/en-us/articles/360032785152-Search-Engine-Optimization-SEO-with-showcases).
 1. In the left sidebar menu, click `Web`. Toggle on/off the various layout options for your showcase. The right window pane shows a preview of how your showcase will look as you toggle your options.
