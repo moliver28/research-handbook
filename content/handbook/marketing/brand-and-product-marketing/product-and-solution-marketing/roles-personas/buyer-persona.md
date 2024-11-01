@@ -33,7 +33,7 @@ See the [Enterprise IT Roles page](/handbook/marketing/brand-and-product-marketi
 
 #### Writing for all personas
 
-- When writing content, always remember to use the [GitLab voice](https://design.gitlab.com/brand/overview/#tone-of-voice) regardless of the persona.
+- When writing content, always remember to use the [GitLab voice](https://design.gitlab.com/brand-messaging/brand-voice) regardless of the persona.
 - Never alienate other personas. You can appeal to a buyer without buzzword bingo.
 - Look at who uses a channel most (twitter & docs: user, webinar linkedin: buyer) when shared (website) guide them /features for users /solutions for buyers.
 
@@ -71,8 +71,8 @@ See the [Enterprise IT Roles page](/handbook/marketing/brand-and-product-marketi
 
 - **My Messaging:**
 
-  - Create secure code faster with continuous improvment through accelerated feedback loops
-  - Do more with less with built-in support automation and integrations with 3rd-party sevices
+  - Create secure code faster with continuous improvement through accelerated feedback loops
+  - Do more with less with built-in support automation and integrations with 3rd-party services
   - Enforce compliance, have visibility, and better prepare for audits
   - Have visibility across your entire SDLC and Supply Chain
 
@@ -134,8 +134,8 @@ See the [Enterprise IT Roles page](/handbook/marketing/brand-and-product-marketi
 - **Recommended Buyer's Journey**
 
   - Awareness: CIO Round Table, Conference Presos, Case studies
-  - Considerations: Blog posts, white papers, cusotm website landing page
-  - Decision: topical campaigin email with CTA, Podcasts, Press releases/announcements
+  - Considerations: Blog posts, white papers, custom website landing page
+  - Decision: topical campaign email with CTA, Podcasts, Press releases/announcements
 
 ---
 
@@ -216,7 +216,7 @@ See the [Enterprise IT Roles page](/handbook/marketing/brand-and-product-marketi
 1. Probably a Researcher
 1. Decision-Maker for renewals (but not likely for first order)
 
-- **Buyers Journey:**
+- **Buyer's Journey:**
 
   - Awareness: Tech demos, Developer Relations Outreach, Analyst Reports, Webinar
   - Consideration: Customer video testimonials, Local Meetups, Podcast
@@ -247,7 +247,7 @@ See the [Enterprise IT Roles page](/handbook/marketing/brand-and-product-marketi
 
 - **Potential Titles:**
 
-  - CISO / Deputy CISO / Director or VP CyberSecurity / Cloud Security Architect / Information Security Operations Manager / IT Security Manager / Sr. Manager, DevSecOps / Softare Security Engineer / Security Consultant / Information Security Analyst
+  - CISO / Deputy CISO / Director or VP CyberSecurity / Cloud Security Architect / Information Security Operations Manager / IT Security Manager / Sr. Manager, DevSecOps / Software Security Engineer / Security Consultant / Information Security Analyst
 
 - **Reports to:**
 
@@ -327,8 +327,8 @@ scaling efficiencies and new ways of working across multiple projects and enviro
 - **My Messaging:**
 
   - GitLab supports your multi-cloud strategy by allowing you to deploy anywhere with no cloud vendor lock-in
-  - Implement guardrails to control access to cloud envirionments and incrementally deploy your appliations to the cloud
-  - Increase deployment velocity with auomation and CI/CD
+  - Implement guardrails to control access to cloud environments and incrementally deploy your applications to the cloud
+  - Increase deployment velocity with automation and CI/CD
   - A single platform improves communications with Dev, Sec, and other departments
 
 - **Potential Titles:**
@@ -341,7 +341,7 @@ scaling efficiencies and new ways of working across multiple projects and enviro
 
 - **Job Responsibilities:**
 
-  - Drive digital transformation, cloud migration/ IT moderniation, and DevSecOps transformation efforts
+  - Drive digital transformation, cloud migration/ IT modernization, and DevSecOps transformation efforts
   - Design and coordinate implementation of automated solutions to replace or enhance manual processes
   - Collect requirements, researches, and analyzes alternatives, and make recommendations for IT infrastructure solutions
   - Ensure that new IT infrastructure solutions are designed and deployed to meet functional, security and technical requirements
@@ -377,7 +377,7 @@ scaling efficiencies and new ways of working across multiple projects and enviro
 
 - **Content Sources for Tech Purchasing Decisions:**
 
-  - Primary: Technical videos & demos / Conference presos / Analyst reports /B log posts / Case Studies
+  - Primary: Technical videos & demos / Conference presos / Analyst reports /Blog posts / Case Studies
   - Secondary: Peer review sites / eBooks / Websites / Events & Meetups / Podcasts
   - Tertiary: Social media / Infographics
   - Internal Influencers: User & Quality Testing / PMs / Solutions & Tech Architects / Platform
@@ -388,11 +388,11 @@ Engineers / C-Suite / Heads of Engineering & Data Science / DevOps Engineers / I
   1. Influencer
   1. Probably a researcher
   1. Likely an Initiator / Identifier of Need & Researcher
-  1. Decison-Maker: this group is the lead ARR and First Order purchaser of GitLab
+  1. Decision-Maker: this group is the lead ARR and First Order purchaser of GitLab
 
 - **Recommended Buyer's Journey:**
 
-  - Awareness: Tech demo video servies, case studies, conference presentation
+  - Awareness: Tech demo video services, case studies, conference presentation
   - Consideration: Peer reviews, customer video testimonials, ebook
   - Decision:  LinkedIn/Twitter, Reddit, Infographic
 
@@ -488,8 +488,8 @@ Engineers / C-Suite / Heads of Engineering & Data Science / DevOps Engineers / I
 
 - **My Messaging:**
 
-  - A single platform reduces tool sprawl and requires few integrations reducting associated maintenance
-  - Establish success delivery porcesses by setting up prodcedural guidelines
+  - A single platform reduces tool sprawl and requires few integrations reducing associated maintenance
+  - Establish success delivery processes by setting up procedural guidelines
   - Ease communication between different teams to build partnerships and develop solutions
 
 - **Potential Titles:**
@@ -505,7 +505,7 @@ Engineers / C-Suite / Heads of Engineering & Data Science / DevOps Engineers / I
   - Coordinates and manages the entire SDLC
   - Ensures teams can work together well to complete projects
   - Identifies functional requirements for each department to ensure the completion of SW development
-  - Ensure the team delivers the project on time and according to cusotmer specifications
+  - Ensure the team delivers the project on time and according to customer specifications
 
 - **Job is Measured by:**
 
@@ -541,7 +541,7 @@ Engineers / C-Suite / Heads of Engineering & Data Science / DevOps Engineers / I
   1. Researcher
   1. Decision-maker
 
-- **Recommended Buyers Journey:**
+- **Recommended Buyer's Journey:**
 
   - Awareness: Press releases, Blog posts, Tech demos
   - Consideration: ebook, Case studies, Conference presos
@@ -566,9 +566,9 @@ Engineers / C-Suite / Heads of Engineering & Data Science / DevOps Engineers / I
 - **My Messaging:**
 
   - Improve productivity through the use of a single platform to reduce context switching and improve communications
-  - Increase the spped of development through the use of automation and CI/CD
+  - Increase the speed of development through the use of automation and CI/CD
   - Gain increased visibility with reporting across the entire project
-  - East the tranition to a true DevSecOps framework for legacy applications
+  - Ease the transition to a true DevSecOps framework for legacy applications
 
 - **Potential Titles:**
 
@@ -625,8 +625,8 @@ Engineers / C-Suite / Heads of Engineering & Data Science / DevOps Engineers / I
 
 - **Recommended Buyer's Journey:**
 
-  - Awareness: Press releaes, analyst reports, blog posts
-  - Consideratoin: Conference presos, customer vidoe testimonials, ebook, custom web landing page
+  - Awareness: Press releases, analyst reports, blog posts
+  - Consideration: Conference presos, customer video testimonials, ebook, custom web landing page
   - Decision: Whitepaper, webinars, podcasts
 
 ---
@@ -712,8 +712,8 @@ Engineers / C-Suite / Heads of Engineering & Data Science / DevOps Engineers / I
 
 - **Recommended Buyer's Journey:**
 
-  - Awareness: Analyst reports, Case studies, Customer Video Testimnials, Customer Website Landing Page
-  - Cosideration: Press releases, blog posts, conference presos
+  - Awareness: Analyst reports, Case studies, Customer Video Testimonials, Customer Website Landing Page
+  - Consideration: Press releases, blog posts, conference presos
   - Decision: Peer reviews (G2), Functional 'how-to' webinars, Topical campaigns email w CTA
 
 ---
@@ -731,7 +731,7 @@ Engineers / C-Suite / Heads of Engineering & Data Science / DevOps Engineers / I
 - [Infographic:](https://drive.google.com/drive/search?q=infographic) Visual image such as a chart or diagram used to represent information or data.
 - [Peer review site:](https://www.g2.com/discussions/what-can-gitlab-do) Collection of reviews providing a steady stream of authentic customer feedback that IT professionals use to make tech purchasing decisions.
 - [Podcast:](https://about.gitlab.com/blog/2019/07/03/group-conversation-podcast/) Digital audio file made available on the internet for downloading to a computer/mobile device, typically available as a series, new installments of which can be received by subscribers automatically.
-- [Reference/testimonial from customer:](https://www.youtube.com/watch?v=pMWXn6NslEE) Person/company that is willing to share positive feedback or story about a products/services or overall customer experience at-large.
+- [Reference/testimonial from customer:](https://www.youtube.com/watch?v=pMWXn6NslEE) Person/company that is willing to share positive feedback or story about products/services or overall customer experience at-large.
 - [Research report:](https://www.accenture.com/us-en/insights/interactive/fjord-trends-2022) Publication reporting on the findings of a research project or alternatively scientific observations on or about a subject. (Often published by tech thought leaders like Accenture, Deloitte, etc.)
 - [Social media:](https://www.linkedin.com/) Internet-based form of communication. Social media platforms allow users to have conversations, share information and create web content. (Facebook, Twitter, LinkedIn, Tik Tok, Instagram)
 - [Technical video/demo:](https://www.youtube.com/watch?v=Rm-tNcskxqY) Highly customized, deep-dive demonstration of a digital product, often presented to the buyer's technical team.
