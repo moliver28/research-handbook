@@ -5,6 +5,8 @@ description: "How to use Feast to train ML models"
 
 [Feast](https://docs.feast.dev/) is an open source feature store aimed to improve the process of obtaining, documenting and deploying features for data science (DS) models. In the DS GitLab team we are currently focused on using the Offline Store (used for batch non-realtime predictions). The repository for Feast can be found [HERE](https://gitlab.com/gitlab-data/data-science-projects/feast-poc)
 
+**Note**: Since Feast feature transformations capabilities are not yet mature enough and could not match the performance capabilities we need, we have opted for creating a separate for of Feast where we optimize feature trasnformations based on our particular use case. You can read more about the fork, [HERE](https://gitlab.com/gitlab-data/feast-gitlab).
+
 The most important concepts to understand the Feast Offline Store are:
 
 1. [Data Sources](https://docs.feast.dev/v/master/getting-started/concepts/data-ingestion#data-source): The building blocks that contain the features that will be served. These can be specified as either a physical data source (CSV, parquet file, ...) or a SQL query. Since Feast is currently lacking a feature transformation engine, we define any feature transformations as SQL queries.
@@ -127,8 +129,7 @@ Currently we have the UI running in a VM that can be accessed by requesting perm
 │
 ├── model_feature_service_manager           <- Module to generate feature services from a YAML file. Used to create feature services for DS models (PtC, PtE, ...)
 │
-├── orchestrate
-|   └── mr_ci.py                            <- Script that generates the feature_store.yaml (configuration file) needed to run feast in MR CI.
+├── create_views                            <- Module that generates views out of the features defined in Feast. Helpful for taking advantage of MonteCarlo table lineage.
 ```
 
 Currently (V1) feature repository is split in different functional areas such as product data, marketing, sales, ... Each one of those directories contains the necessary SQL queries that are used to create the data sources and the python files that create the feature views and annotate the fields with metadata.
@@ -174,6 +175,11 @@ Also, make sure to check out the current implementation of PtC, specifically [cr
 
 ### Defining Data Sources and feature trasnsformations
 
+There are two ways of accomplishing this:
+
+
+#### Using scaffold queries (old method - less efficient for bigger tables)
+
 To address lacking transformations in Feast, following types of SQL queries are used in the GitLab Feast repository:
 
 1. Simple aggregations such as SUM, AVG (with optional grouping by account id, opportunity id, etc)
@@ -191,6 +197,87 @@ The data source table in Feast should have following format:
 
 The main `entity_id` in the data source is unique when combined with the `event_timestamp`. The metric field is the result of the SQL transformation. In case of [product usage period usage query](https://gitlab.com/gitlab-data/data-science-projects/feast-poc/-/blob/main/feature_repo/product/product_usage.py?ref_type=heads) this would be a CRM Account per event_timestamp (here: monthly aggregated data), and the metric would be something like the window average of `unique_active_users` in the `period_unit` of aggregation. If `period_unit = 5` we would have that the record of 2023-01-01 is averaging `unique_active_users` from 2022-09-01 to 2023-01-01, the record of 2023-02-01 averages from 2022-10-01 to 2023-03-02 etc
 
+#### Using jinja templating
+
+As explained before, we are using [a fork of Feast](https://gitlab.com/gitlab-data/feast-gitlab) to add additional features to Feast. Namely, adding the use of Jinja templating to speed up feature transformation, specifically transformations involving rolling / window aggregations.
+
+In the previous approach to creating feature transformations that need to consider these window aggregations we would have a scaffold query like this:
+
+```sql
+WITH base AS (
+
+    SELECT *
+    FROM  prod.workspace_data_science.monthly_stage_usage_by_account
+
+), dim_date AS (
+
+    SELECT first_day_of_month AS snapshot_month
+    FROM prod.common.dim_date
+    WHERE date_actual <= CURRENT_DATE
+        AND date_actual >= '2021-02-01'::DATE
+
+), scaffold AS (
+
+    SELECT DISTINCT
+        base.dim_crm_account_id,
+        dim_date.snapshot_month 
+    FROM base 
+    CROSS JOIN dim_date
+)
+
+SELECT
+    a.dim_crm_account_id,
+    a.snapshot_month AS product_usage_date,
+    --number of all time features used
+    SUM(b.stage_create_alltime_features) AS stage_create_alltime_features_cnt,
+
+FROM scaffold a
+LEFT JOIN base b
+      ON a.dim_crm_account_id = b.dim_crm_account_id 
+      AND b.snapshot_month BETWEEN ADD_MONTHS(a.snapshot_month, -{period_unit}) AND a.snapshot_month
+GROUP BY 1, 2, 3
+```
+
+to:
+
+```sql
+-- USE_TEMPLATE_WORKFLOW
+WITH base AS (
+    SELECT *
+    FROM  prod.workspace_data_science.monthly_stage_usage_by_account
+    {% if validation %}
+    LIMIT 100
+    {% endif %}
+)
+SELECT
+    a.dim_crm_account_id,
+
+    {% if get_historical_features %} b."entity_timestamp"::DATE {% endif %}
+    {% if validation %} '2024-05-01'::DATE {% endif %} -- just for validation, hardcore a date
+            AS snapshot_month,
+
+    --number of all time features used
+    SUM(a.stage_create_alltime_features) AS stage_create_alltime_features_cnt
+
+FROM base a
+{% if get_historical_features %}
+INNER JOIN "entity_dataframe" b
+    ON a.dim_crm_account_id = b.dim_crm_account_id
+    AND a.snapshot_month BETWEEN DATE_TRUNC('month', ADD_MONTHS(b."entity_timestamp"::DATE, -6)) AND DATE_TRUNC('month', ADD_MONTHS(b."entity_timestamp"::DATE, -1))
+{% endif %}
+GROUP BY 1, 2
+```
+
+Notice how in the first query we need to create a scaffold of all combinations of the entity key (dim_crm_account_id).
+
+In the second query, we can access the "entity_dataframe" (a list of accounts/namespaces/... that we want to retrieve the features for) using the jinja variable `get_historical_features`. This part of the query will only be executed during feature retrieval (when using the feature store to train or score a model). This way, we only calculate the transformation at feature retrieval time for the entities (for example, customer_ids) and timeframe we care about, speeding the query process.
+
+We also introduce the `validation` variable. This is because when running feast apply, Feast needs to validate that the query can be built. With this we can add logic to make sure that the date key (snapshot_month) is present at validation time (as there is no `entity_dataframe` at validation time). Also, it let us select only a limited amount of rows in the base CTE to make the validation query even faster.
+
+To let feast know it needs to use this jinja workflow you need to add a comment at the top of your SQL query, `-- USE_TEMPLATE_WORKFLOW`.
+
+You can read more about this in the [Feast fork](https://gitlab.com/gitlab-data/feast-gitlab).
+
 #### Parameters
 
 Feast allows to create reusable queries that can be modified with parameters. It is useful when one model may require rolling 5 months for the product usage data, while the other - 3 months of the same product usage metrics.
@@ -198,8 +285,27 @@ Feast allows to create reusable queries that can be modified with parameters. It
 1. **period_unit**: Queries with `period_unit` result in columns that indicate window of time (usually in months). When creating the feature view, the period_unit is substituted with provided value. For example, for [product usage period usage query](https://gitlab.com/gitlab-data/data-science-projects/feast-poc/-/blob/main/feature_repo/product/product_usage.py?ref_type=heads) a feature view named `product_usage_metrics_5_period_unit` was created by setting the `{period_unit}` value to 5 months, as seen [here](https://gitlab.com/gitlab-data/data-science-projects/feast-poc/-/blob/main/feature_repo/product/product_usage.py?ref_type=heads)
 1. TODO - not implemented yet - **entity**: To address various levels of aggregation, variable `entity` can be used, which allows to extract specific granularity from the table. For example, when working with product-related table that is unique on both account and namespace level - entity will allow to refer to either of those granularities.
 
+## Connecting Feast to MonteCarlo (MC)
+
+In the efforts the rest of the data teams more aware of how the DS team is using the source data to create machine learning (ML) models we started a process to make MC aware of the data that feast creates to feed into ML models. The benefits being:
+
+1. More integration of the DS team with the whole set of tools used by the rest of the team
+2. Easier for AEs and DEs to understand how changes in a data model might affect a downstream ML model that it is powered from that data
+3. Help the DS team be aware whenever there is an upstream fail in one of the tables that are critical to the DS model
+
+Once MC is aware of the feature definitions that Feast has created, we can leverage MC table lineage tracking and notification system to accomplish the above.
+
+To make this connection possible we have created a script in the Feast repository, [create_views](https://gitlab.com/gitlab-data/data-science-projects/feast-feature-store/-/tree/main/create_views?ref_type=heads). This works by taking all the feature definitions stored in Feast (both Feature views and services) and creating views out of them in the `PROD.LINEAGE_TRACKING` schema. Since all these feature definitions reference snowflake tables, MC can then use its lineage tracking to achieve the above.
+
+This script is automated and runs in Gitlab CI every time a new branch is merged into the `main` branch.
+
+An example of part of the PtC table lineage can be seen here:
+
+![PtC Lineage in MC](image.png)
+
 ## Future improvements
 
 1. Implement `feast apply` to run transformations for only those feature views or services that were updated (especially when testing locally)
 1. Move helper functions to the `gitlabdata` python package.
 1. Create authentication functions to replace the credential yaml files and avoid copy-pasting between repositories. This functionality should be added to `gitlabdata` python package.
+
