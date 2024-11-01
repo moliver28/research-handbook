@@ -19,7 +19,7 @@ status: active
 
 The current approach to feature testing, using RSpec and Capybara, has a number of drawbacks:
 
-* Feature suite provides limited confidence in code changes, fails to catch regressions.
+* Due to lack of coverage or quantity of quarantined specs, the feature suite provides limited confidence in code changes and fails to catch regressions.
 * Low level of stability leads to high frequency of broken master.
 * Limited debugging tools make it difficult to create stable tests and debug flaky ones.
 * Maintenance of tests written in Ruby is the responsibility of Frontend engineers, who may or may not have skill in this language.
@@ -28,16 +28,42 @@ The current approach to feature testing, using RSpec and Capybara, has a number 
 
 This Working Group has the following goals:
 
-1. Establish the credibility of an alternative testing system, such as Playwright, as an alternative to RSpec / Capybara.
-    1. This may involve one or more Proof-of-Concepts (PoC)
-    1. May be deployed on a relatively isolated surface area, with limited test coverage or a high proportion of quarantined tests
-1. Improved developer documentation or tooling that might result from this investigation
+1. Establish the credibility of an alternative JavaScript-based testing system, [Playwright](https://playwright.dev/), as an alternative to RSpec / Capybara.
+2. Create a proof of concept using Playwright with a part of the GitLab platform.
+3. Create an architecture blueprint with a strategy on how to migrate to Playwright.
 
 #### Exit Criteria
 
-| Criteria                                                                                                  | Start Date | Completion Date | Progress | DRI                                        |
-| --------------------------------------------------------------------------------------------------------- | ---------- | --------------- | -------- | ------------------------------------------ |
-|  |  |     |    |      |
+| Criteria          | Start Date | Completion Date | Progress | DRI |
+| ----------------- | ---------- | --------------- | -------- | --- |
+| Data Management   |            |                 |          |     |
+| Authentication    |            |                 |          |     |
+| CI/CD             |            |                 |          |     |
+| Environment Setup |            |                 |          |     |
+| Migration Plan    |            |                 |          |     |
+
+#### Details
+
+**Data Management**
+
+RSpec includes numerous tools to create objects in Rails without database access. We need to determine a solution for this in Playwright. This will include ways to set up/tear down test data, database seeding, and managing of fixtures and factories.
+
+**Authentication**
+
+We'll need to determine how to simulate user authentication.
+
+**CI/CD**
+
+Need to set up CI pipelines running Node.js. Look into how to parallelize the running of tests, with a goal of quicker pipelines than the current RSpec solution.
+
+**Environment Setup**
+
+Ensure system can be installed with the GDK, and the test suite can be run with minimal setup.
+
+**Migration Plan**
+
+Strategy to take to gradually migrate to Playwright.
+
 
 ### Roles and Responsibilities
 
