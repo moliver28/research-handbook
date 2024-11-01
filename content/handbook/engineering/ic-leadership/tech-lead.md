@@ -1,10 +1,10 @@
 ---
-title: "Tech Lead at GitLab"
+title: "Technical Leads at GitLab"
 ---
 
-## Tech Lead at GitLab
+## Technical Leads
 
-At GitLab, Tech Lead is an [archetype](/handbook/engineering/ic-leadership) and a role. When we think
+At GitLab, a Technical Lead ("Tech Lead") is an [archetype](/handbook/engineering/ic-leadership) and a role. When we think
 about "Tech Lead" as an archetype we mean that Staff+ Engineers at GitLab are
 supposed to exhibit patterns of behavior that make them act as technical
 leaders, who partner with Engineering Managers and Product Managers to support
@@ -52,3 +52,11 @@ There is Slack channel available
 [#tech_leads](https://gitlab.enterprise.slack.com/archives/C06ALUU5NKS)
 (internal) where Tech Leads can collaborate together, and ask questions about
 the role or an archetype of a Tech Lead. Everyone else is welcome too!
+
+### Tech Lead designation
+
+To designate a team member as a Tech Lead, author an MR to update this table.
+
+| Team Member    | Tech Lead Designation | Team          | Start Date | End Date |
+|----------------|-----------------------|---------------|-----|----|
+| [@igor.drozdov](https://gitlab.com/igor.drozdov) | [Prompt Migration to AI Gateway](https://gitlab.com/groups/gitlab-org/-/epics/14259)          | ~"group::custom models"    | 2024-06-24 | TBD |
