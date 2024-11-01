@@ -104,14 +104,12 @@ These reviews ensure that elements reflect current priorities and do not get sta
 1. [Earnings activities](/handbook/finance/investor-relations/)
 1. [Key Reviews](/handbook/company/key-review/)
 1. [Group Conversations](/handbook/company/group-conversations/)
-1. [Quarterly touchpoint meetings](/handbook/company/offsite/#quarterly-touchpoint-meetings)
 
 ## Month
 
 1. [Release](https://about.gitlab.com/releases/)
 1. [Retrospective](/handbook/communication/#kickoffs)
 1. [Most KPIs](/handbook/company/kpis/)
-1. **Note**: while Key Reviews, E-Group Offsites, and Quarterly Touch Points each happen on a quarterly basis, we aim to space these out throughout the quarter, so we have a set time for business deep dives on a monthly basis.
 
 ## Week
 
@@ -152,20 +150,20 @@ gantt
     Start Q3 Earnings Prep      :10-25, 1d
 
     section E Group Offsite
-    January                     :01-05, 4d
-    April                       :04-04, 4d
-    June                        :06-04, 4d
-    October                     :10-04, 4d
+    March                       :03-20, 4d
+    June                        :06-20, 4d
+    September                   :09-20, 4d
+    December                    :12-05, 4d
 
     section Board Meeting
-    Prep led by CFO             :02-14, 21d
-    March                       :03-18, 1d
-    Prep led by CFO             :05-14, 21d
-    June                        :06-17, 1d
-    Prep led by CFO             :08-14, 21d
-    September                   :09-15, 1d
-    Prep led by CFO             :11-14, 21d
-    December                    :12-14, 1d
+    Prep led by CFO             :03-10, 21d
+    March                       :03-24, 1d
+    Prep led by CFO             :06-05, 21d
+    June                        :06-24, 1d
+    Prep led by CFO             :09-10, 21d
+    September                   :09-25, 1d
+    Prep led by CFO             :11-24, 21d
+    December                    :12-11, 1d
 
     section Monthly Releases
     Release                     :milestone, m12,01-22, 1d
