@@ -58,7 +58,7 @@ As you are both aware, XXX has been interviewing for the XXX role and the team i
 
 - What transition date works best for the both of you? The GitLab standard recommendation is between 4-6 weeks (OR 45 days for Sales Development). Please see our handbook page [here](/handbook/people-group/promotions-transfers/#internal-transfer-start-date) for some suggestions on transition timelines.
 - Please discuss any outstanding items that may require XX to stay in their current role longer than 6 weeks as we want to ensure they'll be able to have a smooth transition between roles.
-- I'd recommend connecting live if you can, but if not, async works and we can use this channel. If you do connect live, please  confirm with me once you've done so and agreed on a start date. Once I have that information, I will proceed with the formal offer approvals.  Once they accept the offer (and sign the Job Change Letter), we will be able to move forward with their backfill process. Thanks!
+- I'd recommend connecting live if you can, but if not, async works and we can use this channel. If you do connect live, please  confirm with me once you've done so and agreed on a start date. Once I have that information, I will proceed with the formal offer approvals.  Once they accept the offer (and sign the Job Change Letter), we will be able to move forward with the [Backfill Approval process](/handbook/hiring/talent-acquisition-framework/req-creation/#backfill-approvals). Thanks!
 
 - If the hiring team would like to move forward with an offer, the Recruiter will align with People Connect on the team member's current compensation. The Recruiter will
   - Reach out to People Connect by submitting a request through HelpLab using the [Internal Movement](https://helplab.gitlab.systems/esc?id=sc_cat_item&sys_id=7b2f4b8d4748069067429ee0026d435f) case template. In your request details please include that you the candidate has been selected to move forward and that you require their current compensation details. People Connect will only confirm the salary details and any confirmation on equity would need to be verified by the Total Rewards team separately.
@@ -97,7 +97,7 @@ As you are both aware, XXX has been interviewing for the XXX role and the team i
 
 - Once your team member has notified you that they have applied for an internal opportunity (this should happen at the application stage) make sure to check in with them during 1:1s to see how their interviews are progressing.
 - If your team member moves to the offer stage, the Recruiter will connect you with the hiring manager via Slack. Please follow the steps outlined by the Recruiter once you receive that confirmation. Until you receive that Slack from TA, the offer is not confirmed.
-- Once the transition date is agreed upon, the current manager is responsible for notifying their leadership so they can align with Finance and get started on the backfill request.
+- Once the transition date is agreed upon, the current manager is responsible for notifying their leadership and to follow the steps outlined in the [Backfill Approval process](/handbook/hiring/talent-acquisition-framework/req-creation/#backfill-approvals) handbook page
 If the team member is not selected for the new role, the current manager should meet with the team member to discuss ongoing career development in their current role.
 
 ## Hiring Manager Responsibilities
