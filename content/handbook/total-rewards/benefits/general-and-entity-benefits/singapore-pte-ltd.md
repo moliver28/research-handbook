@@ -90,7 +90,7 @@ Email ehs@fullertonhealth.com
 
 ### Administration of Health Screening
 
-Fullerton Health will send the invoice directly to total-rewards@gitlab.com team for payment. The Total Rewards team will review and forward to Accounts Payable to process the invoice. These invoices will come through on an ad-hoc basis. As with all discretionary benefit offerings, GitLab may modify or remove this benefit at its discretion.
+Fullerton Health will send the invoice directly to the Total Rewards team for payment. The Total Rewards team will review and forward to Accounts Payable to process the invoice. These invoices will come through on an ad-hoc basis. As with all discretionary benefit offerings, GitLab may modify or remove this benefit at its discretion.
 
 ## Pension
 
