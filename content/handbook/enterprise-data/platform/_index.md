@@ -254,16 +254,16 @@ To get access to snowflake support portal, please follow the below steps.
 
 - When you are in your [Snowsight](https://docs.snowflake.com/en/user-guide/ui-snowsight) instance, open your account (bottom-left corner) and go to the Support option
 
-![support_sf_1.png](support_sf_1.png)
+![support_sf_1.png](../../../../static/images/data/support_sf_1.png)
 
 - On the panel, you can see the already open cases
 
-![support_sf_2.png](support_sf_2.png)
+![support_sf_2.png](../../../../static/images/data/support_sf_2.png)
 
 - In the top-right corner, to open a new case, press `+ Support Case` button
 - Fill in the data to describe your issue and the Snowflake team will handle it
 
-![support_sf_3.png](support_sf_3.png)
+![support_sf_3.png](../../../../static/images/data/support_sf_3.png)
 
 - For each update on your case, you will be informed by email
 
