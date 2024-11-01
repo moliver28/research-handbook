@@ -1,18 +1,18 @@
 ---
-title: Partner Operations
+title: Ecosystems Operations
 ---
 
 ## Levels
 
-### Partner Specialist
+### Ecosystems Specialist
 
-The Partner Specialist reports to the Manager, Global Partner Specialists
+The Ecosystems Specialist reports to the Manager, Global Ecosystems Specialists
 
-#### Partner Specialist Job Grade
+#### Ecosystems Specialist Job Grade
 
-The Partner Specialist is a [grade 6](/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades).
+The Ecosystems Specialist is a [grade 6](/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades).
 
-#### Partner Specialist Responsibilities
+#### Ecosystems Specialist Responsibilities
 
 - Develop, manage, and continuously improve critical partner processes including partner onboarding, deal registration, NFR licensing, rebates, and certifications
 - Provide daily operational support and enablement to sales, partners, and cross-functional teams for all partner related inquiries (e.g., accounts, deal registrations, opportunities, quotes and orders, post-sales support, program compliance, reporting/dashboards)
@@ -24,7 +24,7 @@ The Partner Specialist is a [grade 6](/handbook/total-rewards/compensation/compe
 - Identify opportunities for process automation and optimization, with a focus on scalability and driving significant growth
 - Document processes and best practices to enable our Sellers, Partners, Partner Operations team members, and other cross-functional GitLab teams
 
-#### Partner Specialist Requirements
+#### Ecosystems Specialist Requirements
 
 - Demonstrated progressive relevant experience and understanding of partner operations
 - Experience working directly with sales/partner sales teams and partners
@@ -37,24 +37,24 @@ The Partner Specialist is a [grade 6](/handbook/total-rewards/compensation/compe
 - Interest in GitLab, and open source software
 - Shares GitLab's [values](/handbook/values/) and works in accordance with those values
 
-### Senior Partner Specialist
+### Senior Ecosystems Specialist
 
-The Senior Partner Specialist reports to the Manager, Global Partner Specialists
+The Senior Ecosystems Specialist reports to the Manager, Global Partner Specialists
 
-#### Senior Partner Specialist Job Grade
+#### Senior Ecosystems Specialist Job Grade
 
-The Senior Partner Specialist is a [grade 7](/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades).
+The Senior Ecosystems Specialist is a [grade 7](/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades).
 
-#### Senior Partner Specialist Responsibilities
+#### Senior Ecosystems Specialist Responsibilities
 
-- Extends that of the Partner Specialist Responsibilities
+- Extends that of the Ecosystems Specialist Responsibilities
 - Demonstrates a deeper understanding of GitLab partner programs and operations to handle more complex requests and escalations
 - Collaborates with managers across departments to create and iterate on operational processes and larger projects related to the Partner Specialist team
 - SME on all partner processes that provides enablement and mentorship to other Partner Specialists
 
-#### Senior Partner Specialist Requirements
+#### Senior Ecosystems Specialist Requirements
 
-- Extends that of the Partner Specialist Requirements
+- Extends that of the Ecosystems Specialist Requirements
 - Demonstrated progressive relevant experience and understanding of partner operations
 - Experience working directly with sales/partner sales teams and partners
 - Excellent problem solving, project management, interpersonal and organizational skills
@@ -66,18 +66,18 @@ The Senior Partner Specialist is a [grade 7](/handbook/total-rewards/compensatio
 - Interest in GitLab, and open source software
 - Shares GitLab's [values](/handbook/values/) and works in accordance with those values
 
-### Senior Partner Operations Analyst
+### Senior Ecosystems Operations Analyst
 
-The Senior Partner Operations Analyst reports to the Senior Manager, Partner Operations
+The Senior Ecosystems Operations Analyst reports to the Senior Manager, Partner Operations
 
-#### Senior Partner Operations Analyst Job Grade
+#### Senior Ecosystems Operations Analyst Job Grade
 
-The Senior Partner Operations Analyst is a [grade 7](/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades).
+The Senior Ecosystems Operations Analyst is a [grade 7](/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades).
 
-#### Senior Partner Operations Analyst Responsibilities
+#### Senior Ecosystems Operations Analyst Responsibilities
 
 - Identify opportunities for system and process automation and optimization, and lead projects with a focus on efficiency, effectiveness, scalability and growth
-- Translate GitLab's Partner GTM strategy into technical solutions that automate QTC, territory coverage, reporting models, and compensation
+- Translate GitLab's Ecosystems GTM strategy into technical solutions that automate QTC, territory coverage, reporting models, and compensation
 - Collaborate with Salesforce administrators and developers to influence and enhance CRM functionalities to meet partner data management and attribution needs
 - Work cross-functionally to improve the integration between Salesforce and other mission-critical systems, including Impartner, Vartopia, and Zuora
 - Create and implement reporting and dashboards for the Partner organization that focuses on improving efficiency, effectiveness, and productivity
@@ -86,7 +86,7 @@ The Senior Partner Operations Analyst is a [grade 7](/handbook/total-rewards/com
 - Support the partner sales team on escalations including SFDC account management, opportunity assistance, and ad hoc support
 - Build and deliver ad hoc solutions to support projects and company OKRs
 
-#### Senior Partner Operations Analyst Requirements
+#### Senior Ecosystems Operations Analyst Requirements
 
 - Demonstrated progressive relevant experience and understanding of partner operations
 - Experience working directly with sales/partner sales teams and partners
@@ -101,25 +101,25 @@ The Senior Partner Operations Analyst is a [grade 7](/handbook/total-rewards/com
 - Interest in GitLab, and open source software
 - Shares GitLab's [values](/handbook/values/) and works in accordance with those values
 
-### Manager, Global Partner Specialists
+### Manager, Global Ecosystems Specialists
 
-The Manager, Global Partner Specialists reports to the Director, Partner Operations
+The Manager, Global Ecosystems Specialists reports to the Director, Partner Operations
 
-#### Manager, Global Partner Specialists Job Grade
+#### Manager, Global Ecosystems Specialists Job Grade
 
-The Manager, Global Partner Specialists is a [grade 8](/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades).
+The Manager, Global Ecosystems Specialists is a [grade 8](/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades).
 
-#### Manager, Global Partner Specialists Responsibilities
+#### Manager, Global Ecosystems Specialists Responsibilities
 
 - Develop and lead a team of partner SMEs across the business in driving critical partner processes and providing daily operational support and enablement to sales, partners, and cross-functional teams for all partner related inquiries
-- Manage Partner Specialist team performance and professional development
-- Coach Partner Specialists to establish strong partnerships with the teams and partners they support
+- Manage Ecosystems Specialist team performance and professional development
+- Coach Ecosystems Specialists to establish strong partnerships with the teams and partners they support
 Be the point of escalation for sales and partner leadership on partner related inquiries
 - Identify opportunities to implement or improve tools and automate processes that focus on increasing efficiency, effectiveness, productivity, and scalability
 - Work with other departments to recommend improvements to the integration between Salesforce and other mission-critical systems, including Impartner, Vartopia, and Zuora
 - Collaborate cross-functionally to roll out partner program updates, system enhancements, process improvements and enablement programs
 
-#### Manager, Global Partner Specialists Requirements
+#### Manager, Global Ecosystems Specialists Requirements
 
 - Demonstrated progressive relevant experience and understanding of partner operations
 - Experience managing individual contributor performance to lead a successful team
@@ -134,17 +134,17 @@ Be the point of escalation for sales and partner leadership on partner related i
 - Interest in GitLab, and open source software
 - Shares GitLab's [values](/handbook/values/) and works in accordance with those values
 
-### Partner Operations Manager
+### Ecosystems Operations Manager
 
-The Partner Operations Manager reports to the Director, Partner Operations
+The Ecosystems Operations Manager reports to the Director, Ecosystems Operations
 
-#### Partner Operations Manager Job Grade
+#### Ecosystems Operations Manager Job Grade
 
-The Partner Operations Manager is a [grade 8](/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades).
+The Ecysostems Operations Manager is a [grade 8](/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades).
 
-#### Partner Operations Manager Responsibilities
+#### Ecosystems Operations Manager Responsibilities
 
-- Own and drive long-term and high impact strategic projects across the global partner business including project identification and scoping, stakeholder alignment and management, build, rollout, and execution
+- Own and drive long-term and high impact strategic projects across the global ecosystems business including project identification and scoping, stakeholder alignment and management, build, rollout, and execution
 - Contribute to cross-functional company projects as the voice of our partners and partner teams
 - Assess existing partner processes, identify opportunities to redesign for efficiency and scalability, and successfully drive projects to deliver these improvements
 - Engage with Product, Marketing, Finance, and Enablement teams on GitLab revenue plays and special projects to ensure partner requirements are included in initial scoping and design to drive successful partner outcomes
@@ -153,7 +153,7 @@ The Partner Operations Manager is a [grade 8](/handbook/total-rewards/compensati
 - Assist in designing, maintaining, and delivering on the roadmap for partner operations initiatives
 - Build and deliver ad hoc reporting to support projects and company OKRs
 
-#### Partner Operations Manager Requirements
+#### Ecosystems Operations Manager Requirements
 
 - Demonstrated progressive experience and understanding of partner operations and programs
 - Excellent problem solving, project management, interpersonal, and organizational skills
@@ -168,24 +168,24 @@ The Partner Operations Manager is a [grade 8](/handbook/total-rewards/compensati
 - Interest in using GitLab
 - Shares GitLab's [values](/handbook/values/) and works in accordance with those values
 
-### Senior Manager, Global Partner Specialists
+### Senior Manager, Global Ecosystems Specialists
 
-The Senior Manager, Global Partner Specialists reports to the Director, Partner Operations
+The Senior Manager, Global Ecosystems Specialists reports to the Director, Ecosystems Operations
 
-#### Senior Manager, Global Partner Specialists Job Grade
+#### Senior Manager, Global Ecosystems Specialists Job Grade
 
-The Senior Manager, Global Partner Specialists is a [grade 9](/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades).
+The Senior Manager, Global Ecosystems Specialists is a [grade 9](/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades).
 
-#### Senior Manager, Global Partner Specialists Responsibilities
+#### Senior Manager, Global Ecosystems Specialists Responsibilities
 
-- Extends that of Manager, Global Partner Specialists Responsibilities
+- Extends that of Manager, Global Ecosystems Specialists Responsibilities
 - Develop, document, launch, and enable teams on new processes that support our long-term partner sales and services strategy in FY25 and beyond
 - Drive operationalization of short-term partner GTM initiatives and pilots from idea to execution including building, launching, iterating, and expanding upon success globally with efficient and scalable processes
 - Measure the ROI of new partner GTM initiatives and leverage it to effectively communicate positive business outcomes and drive further investment
 
-#### Senior Manager, Global Partner Specialists Requirements
+#### Senior Manager, Global Ecosystems Specialists Requirements
 
-- Extends that of the Manager, Global Partner Specialists Requirements
+- Extends that of the Manager, Global Ecosystems Specialists Requirements
 - Demonstrate progressive experience managing individual contributor performance to lead successful teams
 - Proven ability to delegate initiatives and drive results through team performance
 - Experience working directly with sales/partner sales teams and partners at leadership and individual contributor levels
@@ -194,15 +194,15 @@ The Senior Manager, Global Partner Specialists is a [grade 9](/handbook/total-re
 - Interest in GitLab, and open source software
 - Shares GitLab's [values](/handbook/values/) and works in accordance with those values
 
-### Senior Manager, Partner Operations
+### Senior Manager, Ecosystems Operations
 
-The Senior Manager, Partner Operations reports to the Director, Partner Operations
+The Senior Manager, Ecosystems Operations reports to the Director, Ecosystems Operations
 
-#### Senior Manager, Partner Operations Job Grade
+#### Senior Manager, Ecosystems Operations Job Grade
 
-The Senior Manager, Partner Operations is a [grade 9](/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades).
+The Senior Manager, Ecosystems Operations is a [grade 9](/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades).
 
-#### Senior Manager, Partner Operations Responsibilities
+#### Senior Manager, Ecosystems Operations Responsibilities
 
 - Develop and lead a team of SMEs to drive critical partner operations processes and have business ownership of the tech stack
 - Identify and lead the creation, testing, deployment of complex automations and workflows to drive operational efficiency, effectiveness, scalability and growth
@@ -215,7 +215,7 @@ The Senior Manager, Partner Operations is a [grade 9](/handbook/total-rewards/co
 - Lead cross-functional projects from end-to-end including project identification, documentation, coordination, and successful execution and post-launch management
 - Build and deliver ad hoc solutions to support projects and company OKRs
 
-#### Senior Manager, Partner Operations Requirements
+#### Senior Manager, Ecosystems Operations Requirements
 
 - Demonstrated progressive relevant experience and understanding of partner operations
 - Experience managing individual contributor performance to lead a successful team
@@ -232,15 +232,15 @@ The Senior Manager, Partner Operations is a [grade 9](/handbook/total-rewards/co
 - Interest in GitLab, and open source software
 - Shares GitLab's [values](/handbook/values/) and works in accordance with those values
 
-### Director, Partner Operations
+### Director, Ecosystems Operations
 
-The Director, Partner Operations reports to the Senior Director, Sales Operations
+The Director, Ecosystems Operations reports to the Senior Director, Sales Operations
 
-#### Director, Partner Operations Job Grade
+#### Director, Ecosystems Operations Job Grade
 
-The Director, Partner Operations is a [grade 10](/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades).
+The Director, Ecosystems Operations is a [grade 10](/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades).
 
-#### Director, Partner Operations Responsibilities
+#### Director, Ecosystems Operations Responsibilities
 
 - Drive recruiting of a world-class team at all levels
 - Motivate and communicate across multiple levels of their department
@@ -259,7 +259,7 @@ The Director, Partner Operations is a [grade 10](/handbook/total-rewards/compens
 - Create and coordinate key reporting for GitLab leadership team, partnering with Customer Success to provide reporting on customer adoption, sentiment and advocacy and business results (i.e., forecasts, renew, expand, churn)
 - Act as liaison to partner enablement to drive training and enablement priorities, content and methods
 
-#### Director, Partner Operations Requirements
+#### Director, Ecosystems Operations Requirements
 
 - Demonstrated progressive experience with alliance and channel partner operations in a global SaaS environment
 - Ability to work independently with a high degree of accountability, while also able to collaborate cross-functionally (finance, product, marketing, sales enablement, etc) with exceptional interpersonal skills
