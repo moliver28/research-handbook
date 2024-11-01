@@ -249,7 +249,7 @@ to the new structure:
 All new loads in the `S3` bucket will go into the same folder as before `gitlab-com-snowplow-events/output`.
 
 ### Snowflake support portal access
-
+ 
 To get access to snowflake support portal, please follow the below steps.
 
 - Register using GitLab email id to [community portal](https://community.snowflake.com/CommunitiesSelfReg)
