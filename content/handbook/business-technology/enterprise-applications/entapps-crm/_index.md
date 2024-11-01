@@ -18,7 +18,7 @@ CRM Systems exists to support the GitLab field organization by providing reliabl
 
 ### Salesforce.com Change Management Processes and SDLC (Software Development Life Cycle)
 
-Changes to Salesforce.com come in a variety of formats but all of them will feature the following change managment controls:
+Changes to Salesforce.com come in a variety of formats but all of them will feature the following change Management controls:
 
 1. All changes will start with an GitLab Issue defining the ask or problem, and capturing additional decisions and business requirements.
 1. All changes will be developed and tested in a Salesforce Sandbox environment before being deployed or replicated in production.
@@ -29,7 +29,7 @@ We have defined the following ending Label stages for the Sales Systems workflow
 
 ### No Changes to Salesforce.com
 
-Label: `SalesSystems::Deployed - 0 - No Changes`
+Label: `entapps-status::deployed-0`
 Description: This issue is completed. There was no setting, configuration or code change to SFDC. No Sign-off Needed, No Change Set Used.
 
 1. These issues resulted in no Setting, Configuration or Code changes to SFDC.
@@ -38,14 +38,14 @@ Description: This issue is completed. There was no setting, configuration or cod
 
 **Changes that cannot or are impractical to use a Change Sets (Field Level Security, Sharing Rules, Layout Changes, Picklist Value Changes, Approval Processes, Role Creation and Assignments)**
 
-Label: `SalesSystems::Deployed - 1 - Settings Change`
+Label: `entapps-status::deployed-1`
 Description: This issue is completed. There was a setting change. Sign-off is required, No Change Set Used.
 
 1. These changes will need a special deploy window for the changes to be made by hand. Please coordinate with the Business DRI.
 
 ### Changes that contain Salesforce.com Fields, Workflows, Validation Rules, or other non-code Configuration
 
-Label: `SalesSystems::Deployed - 2 - Configuration Change`
+Label: `entapps-status::deployed-2`
 Description: This issue is completed. There was a configuration change. Sign-off Required, Change Set screenshot required.
 
 1. These changes will always use a Salesforce.com Changeset that will be linked to the related issue.
@@ -53,7 +53,7 @@ Description: This issue is completed. There was a configuration change. Sign-off
 
 ### Changes that contain Salesforce.com Apex Code, Apex Triggers, or Visualforce Pages
 
-Label: `SalesSystems::Deployed - 3 - Code Change`
+Label: `entapps-status::deployed-3`
 Description: This issue is completed. There was a code change. Sign-off Required, Change Set Screenshot required, Approved and attached MR required.
 
 1. These changes will require the creation of a Merge Request to our SFDC source repository as instructed below.
@@ -87,7 +87,7 @@ Please seek explicite and documented approval from the Senior Director of Sales 
 1. The need to self deploy a non-invasive change.
 1. The need to create a non-invasive formula field in production for time sensitive triage of a critical issue.
 
-These changes would be classified as a `CMT: Emergency Change`.  Any issue where this occurs should be flagged with this label for future compliance review.
+These changes would be classified as a `entapps-CMT::emergency change`.  Any issue where this occurs should be flagged with this label for future compliance review.
 
 ### Critical Field Approvals
 
@@ -147,7 +147,7 @@ Persuant with GitLab's [best practices for password security](/handbook/security
 
 #### Refresh process for sandboxes maintained as part of the SDLC process
 
-1. The Sales Systems team will have an issue tracked in GitLab with a label of `SalesSystems` and `Sandbox Refresh Checklist` for the refresh of each environment with a due date of the refresh date.
+1. The Sales Systems team will have an issue tracked in GitLab with a label of `entapps CRM systems` and `Sandbox Refresh Checklist` for the refresh of each environment with a due date of the refresh date.
 2. On the date of the refresh, the assigned Sales Systems team member will kick off the refresh in production.  Note: A sandbox refresh can take up to 72 hours to complete.
 3. After the refresh completes, the Sales Systems team will complete the following steps to set the environment.
 
@@ -212,21 +212,21 @@ Sandboxes which are managed as part of our team's SDLC process will follow a reg
 ### Steps to getting help from Sales Systems
 
 1. Create an issue in our [project](https://gitlab.com/gitlab-com/sales-team/field-operations/systems), making sure to provide detailed business requirements for the ask or problem. Please leave assignee blank
-    - If this issue removes any existing functionality, or requires any components to be deprecated, please include the `technical debt` label on the issue.
+    - If this issue removes any existing functionality, or requires any components to be deprecated, please include the `entapps tech debt` label on the issue.
 2. In order to align our working style with the Labels, the Systems team prioritizes working on issues in the order as they get added & the issues get labeled accordingly
 3. The Systems Label Workflow and Label Description are as follows
 
-      ![The Systems Label Workflow](/handbook/sales/images/Systemsworkflow.png)
+      ![The CRM Systems Label Workflow](/images/handbook/enterprise-applications/crm-labels.png)
 
-      - ![Sales Systems](/handbook/sales/images/Salessystems.png) New Issues that are created in the systems board are automatically tagged and any existing issues related to sales systems are tagged with this label
-      - ![Need More Information](/handbook/sales/images/SSNeedinformation.png) Issues awaiting for information from the requester, needs more clarity in requirements may or may not be assigned to milestone and assigned to the DRI and/or systems team member
-      - ![Out Of Scope](/handbook/sales/images/SSOutscope.png) Issues that are outside the parameters of an initiative, cannot be combined with current functionality and this issue will be closed
-      - ![Ready For Assignment](/handbook/sales/images/SSReadyassingment.png) Issues that have completed requirements gathering and been accepted, no milestone and not assigned to systems team member
-      - ![Assigned](/handbook/sales/images/SSAssign.png) Issues that are ready to moveforward to be worked on, slotted to a milestone & assigned to systems team member's queue
-      - ![Build](/handbook/sales/images/SSBuild.png) Issues that are in the current milestone, assigned to systems team member that are actively worked on
-      - ![Ready To Business Owner Review](/handbook/sales/images/SSBusinessowner.png) Issues in current milestone that are near the finish line, needs to be reviewed and demoed to the business owner(s) to sign-off
-      - ![Ready To Deploy](/handbook/sales/images/SSReadydeploy.png) Issues in current milestones, sign-offs given by the business owner that are ready to be deployed by systems team member
-      - ![Blocked](/handbook/sales/images/SSBlocked.png) Issues in the current milestone which are assigned to systems team member which are stalled due to technical difficulties and/or assigned to business owner pending to provide information to the systems member to move forward
+      - ![entapps CRM systems](/images/handbook/enterprise-applications/entapps-crm-systems.png) New Issues that are created in the EntApps CRM board are automatically tagged and any existing issues related to sales systems are tagged with this label
+      - ![entapps waiting](/images/handbook/enterprise-applications/entapps-waiting.png) Issues awaiting for information from the requester, needs more clarity in requirements may or may not be assigned to milestone and assigned to the DRI and/or systems team member
+      - ![entapps out of scope](/images/handbook/enterprise-applications/entapps-out-of-scope.png) Issues that are outside the parameters of an initiative, cannot be combined with current functionality and this issue will be closed
+      - ![entapps inbox](/images/handbook/enterprise-applications/entapps-inbox.png) Issues that are new and have not been evaluated yet
+      - ![entapps assigned](/images/handbook/enterprise-applications/entapps-assigned.png) Issues that are ready to moveforward to be worked on, slotted to a milestone & assigned to systems team member's queue
+      - ![entapps build](/images/handbook/enterprise-applications/entapps-build.png) Issues that are in the current milestone, assigned to systems team member that are actively worked on
+      - ![Rentapps customer review](/images/handbook/enterprise-applications/entapps-customer-review.png) Issues in current milestone that are near the finish line, needs to be reviewed and demoed to the business owner(s) to sign-off
+      - ![entapps ready to deploy](/images/handbook/enterprise-applications/entapps-deploy.png) Issues in current milestones, sign-offs given by the business owner that are ready to be deployed by systems team member
+      - ![entapps blocked](/images/handbook/enterprise-applications/entapps-blocked-png.png) Issues in the current milestone which are assigned to systems team member which are stalled due to technical difficulties and/or assigned to business owner pending to provide information to the systems member to move forward
 
 4. Please review the status of any issue on our agile [board.](https://gitlab.com/groups/gitlab-com/-/boards/1117318?label_name[]=SalesSystems)
 5. If there is a severity impacting the flow of business (i.e. No one can make a quote, No accounts are being created, Opportunities cannot be closed Won) follow the process as described above as well as share the issues in the `Sales-Support` Slack Channel
@@ -238,7 +238,7 @@ Sandboxes which are managed as part of our team's SDLC process will follow a reg
 - [ ] 1. [Business DRI] Business User Acceptance Testing Complete with Evidence
 - [ ] 2. [Business Program Owner] Business Process Owner sign-off.
 - [ ] 3. [Systems Owner] Systems Owner Sign-off.
-- [ ] 4. [Systems DRI] Add the correct `SalesSystems::Deployed - #` GitLab Label
+- [ ] 4. [Systems DRI] Add the correct `entapps-status::deployed-#` GitLab Label
 - [ ] 5. [Systems DRI] Screenshot of Completed Change Set Attached and MR Attached (if Code)
 
 **[Business DRI] Business User Acceptance Testing Complete with Evidence :- The Business DRI should sign off after validating the provided solution works as expected as `definition of done`. The Business DRI will add evidence in the issue or in few scenarios the systems team member will be providing the evidence for the business DRI to confirm in the issue**
@@ -263,20 +263,20 @@ Sandboxes which are managed as part of our team's SDLC process will follow a reg
 
 **[Systems Owner] Systems Owner Sign-off :- Salesforce CRM System Owners should provide the signoff. The signoff matrix is an below**
 
-| Main Approver               |Backup Approver (if Sheela Viswanathan is unavailable)                                               | Backup Approver (if Sheela Viswanathan and Al Champagne are unavailable)                                                |
+| Main Approver               |Backup Approver (if Sheela Viswanathan is unavailable)                                               | Backup Approver (if Sheela Viswanathan and Leslie Mendonca are unavailable)                                                |
 |-----------------------------|--------------------------------------------------------------|-----------------------------------------------------------------|
-| Sheela Viswanathan - Senior Manager, Sales Systems  |Al Champagne - Senior Director, Enterprise Applications | Nabitha Rao - VP, IT  |
+| Sheela Viswanathan - Senior Manager, Sales Systems  |Leslie Mendonca - Senior Director, Enterprise Applications | Nabitha Rao - VP, IT  |
 
-**[Systems DRI] Add the correct `SalesSystems::Deployed - #` GitLab Label**
+**[Systems DRI] Add the correct `entapps-status::deployed-#` GitLab Label**
 
 Once the issue has been deployed, the issue should be tagged with one of the following deploy label following the [SDLC - Software Development Life Cycle](/handbook/sales/field-operations/sales-systems/#salesforcecom-change-management-processes-and-sdlc-software-development-life-cycle) by the sales systems team member assigned to the issue
 
-- SalesSystems::Deployed - 0 - No Changes
-- SalesSystems::Deployed - 1 - Settings Change
-- SalesSystems::Deployed - 2 - Configuration Change
-- SalesSystems::Deployed - 3 - Code Change
+- entapps-status::deployed-0
+- entapps-status::deployed-1
+- entapps-status::deployed-2
+- entapps-status::deployed-3
 
-**[Systems DRI] Screenshot of Completed Change Set Attached and MR Attached (if Code) :- If the issue ended up in label `SalesSystems::Deployed - 2 - Configuration Change` OR `SalesSystems::Deployed - 3 - Code Change` the systems member assigned to the issue should add the screenshot of the change set**
+**[Systems DRI] Screenshot of Completed Change Set Attached and MR Attached (if Code) :- If the issue ended up in label `entapps-status::deployed-2` OR `entapps-status::deployed-3` the systems member assigned to the issue should add the screenshot of the change set**
 
 ## Milestone Review and QA
 
@@ -297,9 +297,9 @@ Before a milestone can be closed, the following checks are performed by Sales Sy
 3. Your SFDC Dev Environment is correctly pointed at your SFDC Dev Sandbox
 4. You have cloned our [Git repository](https://gitlab.com/gitlab-com/sales-team/field-operations/salesforce-src) into your local Sandbox working directory.
 5. You are working from a GitLab issue with clear technical specifications that deliver on the agreed business requirements.
-6. You have identified the priority of the request based on our [priority matrix](/handbook/sales/field-operations/sales-systems/), and added the appropriate label: `Priority::Low`, `Priority::Medium`, `Priority::High`
+6. You have identified the priority of the request based on our [priority matrix](/handbook/sales/field-operations/sales-systems/), and added the appropriate label: `entapps-priority::p3`, `entapps-priority::p2`, `entapps-priority::p1`
 
-**Change Managment Steps:**
+**Change Management Steps:**
 
 1. Make sure you start on branch master and `git pull`.
 2. Create a new branch, giving it a name that ties back to the issue: `git checkout -b "SalesSystems-158"`.
@@ -380,7 +380,7 @@ The uninstall process is the same regardless of whether a package is managed or 
 2. Perform initial research on what the packages original intent may have been and identify who owns/owned the use of the functionality.
    - GitLab's Tech Stack Google Sheet is a great place to check for this information and [can be found here](https://docs.google.com/spreadsheets/d/1mTNZHsK3TWzQdeFqkITKA0pHADjuurv37XMuHv12hDU/edit?usp=sharing)
 3. Open an issue with the owner to investigate further. In this discussion, obtain confirmation on whether or not it may be removed.
-   - Add the `technical debt` label to the issue.
+   - Add the `entapps tech debt` label to the issue.
 4. If confirmed to move forward, test by removing the package from the sandbox.
 5. If successfully removed from sandbox, announce the intent to move forward in removing.
 6. Document any relevant information about the package.
@@ -395,7 +395,7 @@ The uninstall process is the same regardless of whether a package is managed or 
 
 - This process is most often used by the systems team. If you have or are aware of a field in Salesforce that is no longer needed, please inform the Sales Systems team by following the process outlined in [getting help from the sales systems team](#steps-to-getting-help-from-sales-systems)
 
-1. Open an issue listing out all of the fields that we are investigating to deprecate. Be sure to include the field name, field API name and the object that the field is associated with in a table in the description of the issue.  Add the `technical debt` label to the issue.
+1. Open an issue listing out all of the fields that we are investigating to deprecate. Be sure to include the field name, field API name and the object that the field is associated with in a table in the description of the issue.  Add the `entapps tech debt` label to the issue.
 2. Alert the data team to the upcoming field deprecation by tagging them on the issue.
 3. Alert all relevant partner teams (Marketing Ops, Sales Ops, Finance Ops etc.) as needed
 4. Prepend `[DEPRECATE]` to the beginning of the field name. If the field name cannot accommodate a field name that long copy and paste the original name into the description, trim unnecessary characters from the name and try again. For this reason `[DELETE]` is also acceptable to prepend to the field name.
