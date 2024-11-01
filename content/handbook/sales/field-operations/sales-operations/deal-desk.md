@@ -287,16 +287,77 @@ In addition to the step-by-step quoting guides that follow this paragraph, check
 | Add Quarterly True Up Language | Standard Quarterly True Up language will populate in the Notes section of the Order Form |
 | Remove Signature Block         | Signature Block will be removed. Use for customers with Existing Agreements (MSA)        |
 
+#### Non-Standard Deal Elements
+
+As of 2024-11-20, we have created a new quote section called **Non-Standard Deal Elements.** The fields in this section should be populated when certain non-standard deal elements are requested. If populated, these fields will trigger an approval requirement. By populating the applicable fields and clicking [“Submit for Approval,”](/handbook/sales/field-operations/order-processing/#standard-quote-approval) users can seek approvals via automated quote approval workflow.
+
+![Non-Standard Deal Elements](/handbook/sales/images/nonstandarddealelements.png)
+
+The below guide is meant to help users determine if they should populate the Non-Standard Deal Elements fields on a quote, and what should be populated in each field.
+
+##### Deferred Payments
+
+![Payment Schedule](/handbook/sales/images/paymentschedule.png)
+
+- Criteria: If a customer’s payment schedule is not prepaid or paid annually, approval is required. The default value is Prepaid.
+- Process: When creating a quote that will not be prepaid, users should follow the instructions [here](/handbook/sales/field-operations/sales-operations/deal-desk/#billingpayment-schedule) to build the quote. On the quote, users should leverage the **Payment Schedule** field to select the appropriate value.
+  - The options are as follows:
+    - Prepaid (default)
+    - Annual Payments
+    - Custom Payment Schedule
+    - GCP Prepay
+    - GCP Postpay
+    - AWS Prepay
+  - If a payment schedule other than Prepaid or Annual Payments is requested, users should select **Custom Payment Schedule** and populate the request details in the **Custom Payment Schedule Details** field (required). This requires approval per the [Deal Approval Matrix](https://docs.google.com/document/d/1-CH-uH_zr0qaVaV1QbmVZ1rF669DsaUeq9w-q1QiKPE/edit?tab=t.0#bookmark=kix.tmxlca7fg47o).
+  - Opportunity Mapping: The “Payment Schedule” field on the quote maps to the “Billing Schedule” field on the opportunity - i.e. if you select “Annual Payments” on the quote, the opportunity will be updated automatically to reflect “Annual Payments.”
+  - Order Form Language: If “Annual Payments” is selected, “[Language] Add Annual Payments” will flip to TRUE automatically.
+- Example: I am creating a 18 month deal, where I’d like 6 months billed up front, and then the final 12 months billed at the 6 month mark. When I create the quote, I select “Custom Payment Schedule” in the “Payment Schedule” field. I then populate “Custom Payment Schedule Details” with the following: _I would like a payment schedule for this deal where the first 6 months are billed up front, and the final 12 months are billed at the 6 month mark_. When I’m ready to seek this and all other applicable approvals, I click “Submit for Approval” on the quote. After I receive approvals, I make sure to work with Legal to obtain applicable language for the Order Form.
+
+##### Price Lock / Optional Future Pricing
+
+![Price Lock](/handbook/sales/images/pricelock.png)
+
+- Criteria: If a price lock or any optional future pricing language is to be included on an Order Form, approval is required per the [Deal Approval Matrix](https://docs.google.com/document/d/1-CH-uH_zr0qaVaV1QbmVZ1rF669DsaUeq9w-q1QiKPE/edit?tab=t.0#bookmark=kix.gn5oe9x9lsfk).
+- Process: When creating a quote that will require a price lock or optional future pricing language, users should check the box next to **Price Lock/Optional Future Pricing** and populate the request details in the **Price Lock Details** field.
+  - Note: Request details should be entered in this field, but final language must be sought from Legal via Legal Request case after approvals have been obtained for the price lock request.
+- Example: I am selling a deal where I would like to lock in the price of any add-ons during the subscription term at a certain rate. The customer would like this stated on the Order Form. When I create the quote, I check the box next to “Price Lock/Optional Future Pricing.” I populate “Price Lock Details” with the following: _I would like a price lock that states that any users added during the subscription term will be priced at $XXX.XX per user per year._ When I’m ready to seek this and all other applicable approvals, I click “Submit for Approval” on the quote. After I receive approvals, I make sure to work with Legal to obtain applicable language for the Order Form.
+
+##### Deal Contingent on Future Product/Feature Release
+
+![Deal Contingency](/handbook/sales/images/dealcontingency.png)
+
+- Criteria: In the _rare_ scenario that we are selling a deal that is contingent on a future product or feature release, approval is required from a number of stakeholders, including executives, per the [Deal Approval Matrix](https://docs.google.com/document/d/1-CH-uH_zr0qaVaV1QbmVZ1rF669DsaUeq9w-q1QiKPE/edit?tab=t.0#bookmark=kix.lp6f9bgfr9bd).
+- Process: When creating a quote for a deal that is contingent on a future product or feature release, users should check the box next to **Deal Contingent on Product Release** and populate details in the **Deal Contingency Details** field.
+  - Note: Details should be entered in this field, but final language regarding the deal contingency must be sought from Legal via Legal Request case after approvals have been obtained for the deal contingency.
+- Example: I am selling a deal that is contingent on a new feature release. Specifically, the customer says they are only going to sign this Order Form is we confirm that a specific feature will be available. When I create the quote, I check the box next to “Deal Contingent on Product Release.” I populate “Deal Contingency Details” with the following: _I would like language that states that X feature will be available as of Y date._ When I’m ready to seek this and all other applicable approvals, I click “Submit for Approval” on the quote. After I receive approvals, I make sure to work with Legal to obtain applicable language for the Order Form.
+
+##### Multiple Production Instances
+
+![Secondary Subscription](/handbook/sales/images/secondarysubscription.png)
+
+- Criteria: In the scenario where a customer is requesting a secondary production instance free of charge (i.e. $0 subscription), approval is required per the [Deal Approval Matrix](https://docs.google.com/document/d/1-CH-uH_zr0qaVaV1QbmVZ1rF669DsaUeq9w-q1QiKPE/edit?tab=t.0#bookmark=kix.ku5uwebuwk1h) and will not be granted in all circumstances. The most common example of this scenario is a migration, where the customer requests a $0 subscription to maintain their existing instance for a period of time while they transition to the new instance (which is paid).
+- Process: When creating a quote for a secondary $0 subscription, users should check the box next to **Secondary Production Instance ($0 Sub).**
+- Example: My customer is migrating from Self-Managed to SaaS. They need both environments for 3 months to support the migration. As such, I need to create a $0 subscription for 3 months to maintain the Self-Managed instance. On my quote, I check the box next to “Secondary Production Instance ($0 Sub).”  When I’m ready to seek this and all other applicable approvals, I click “Submit for Approval” on the quote. After I receive approvals, I make sure to work with Legal to obtain applicable language for the Order Form.
+
+##### Non-Standard Ramp Deal
+
+![Non-Standard Ramp](/handbook/sales/images/nonstandardramp.png)
+
+- Criteria: A Non-Standard Ramp is defined as a ramp deal where the ramp intervals are not annual - i.e. the ramp periods are not equal to 12 months. This requires approval per the [Deal Approval Matrix](https://docs.google.com/document/d/1-CH-uH_zr0qaVaV1QbmVZ1rF669DsaUeq9w-q1QiKPE/edit?tab=t.0#bookmark=kix.n3wzwlv9dv7v).
+- Process: The user creating the ramp deal should check the box next to the **Non-Standard Ramp** field and populate details regarding the request in the **Non-Standard Ramp Details** field.
+  - Note: If the ramp deal requires multiple unique quotes, this approval is only required on the initial year's quote.
+- Example: My customer would like a 24 month subscription with non-standard ramps - they’d like to increase users every 6 months. When I create the quote, I check the box next to “Non-Standard Ramp” and I populate “Non-Standard Ramp Details” with the following: _I’d like a 24 month deal where users increase by X every 6 months._ When I’m ready to seek this and all other applicable approvals, I click “Submit for Approval” on the quote. After I receive approvals, I make sure to work with Deal Desk to build the ramp deal.
+
 #### Billing/Payment Schedule
 
-At GitLab, the default billing/payment schedule is full prepayment. In the case of multi-year deals, you may opt to choose Annual Payments. As noted above, you may use the Annual Payments toggle field on the quote to populate language on the order form that commits the order in question to an annual billing/payment schedule.
+At GitLab, the default billing/payment schedule is full prepayment. In the case of multi-year deals, you may opt to choose Annual Payments. As noted above, you must select" Annual Payments" in the **Payment Schedule** field, which will automatically update the Annual Payments toggle field on the quote to populate language on the order form that commits the order in question to an annual billing/payment schedule.
 
 If you choose to add Annual Payments to a quote, please keep in mind the following:
 
 1. On a New Business quote, Initial Term must equal 24, 36, 48, or 60. On a Renewal quote, Renewal Term must equal 24, 36, 48, or 60.
 2. All quotes with Annual Payments must use the "1 Year" Product SKU. You will see an error message if you select Annual Payments and anything other than the 1 Year SKU.
-3. All opportunities with Annual Payments should have "Annual Payments" selected in the "Billing Schedule" field.
-4. You may not convert a prepaid deal to Annual Payments via Add-On/Amendment quote, or vice versa. Add-Ons will always follow the original billing.payment schedule. 
+3. All opportunities with Annual Payments should have "Annual Payments" selected in the "Payment Schedule" field.
+4. You may not convert a prepaid deal to Annual Payments via Add-On/Amendment quote, or vice versa. Add-Ons will always follow the original billing/payment schedule. 
 
 #### Contact Requirements
 
@@ -754,7 +815,7 @@ Salesforce Guided Selling filters have been updated. Legacy SKUs have been remov
 
 - **New Business:** New Subscription quotes can only be created using the new SKUs listed above.
 - **Add-Ons:** For existing subscriptions that contain legacy SKUs, all Amend Subscription quotes will use the existing legacy SKU, i.e.; If you upsell an existing Gold subscription, your amendment quote and Order Form will still use the legacy Gold SKU.
-- **Renewals:** For existing subscriptions that contain legacy SKUs, **all Renew Subscription quotes will require that the legacy SKU be removed from the quote, and that the new SKU be added to the quote in its place for the renewal.** When quoting a renewal, *please follow the steps below to change the SKU:*
+- **Renewals:** For existing subscriptions that contain legacy SKUs, **all Renew Subscription quotes will require that the legacy SKU be removed from the quote, and that the new SKU be added to the quote in its place for the renewal.** When quoting a renewal, _please follow the steps below to change the SKU:_
   - First, click **Select Products**
   - On the **Edit Products and Charges** page, select "Add Products"
   - Click "Select" and then click "Add Base Products"
@@ -866,7 +927,7 @@ For GitLab.com subscriptions, Deal Desk will follow the below steps to ensure th
 
 - From the Account, click on the relevant Subscription record for the existing subscription under "Subscription Products and Charges".
 - Copy the `GitLab Namespace Id` and `GitLab Namespace Name` data into these same fields on the New subscription quote.
-- Once ready, ensure the New subscription quote is submitted to Zuora *prior* to the Cancellation quote.
+- Once ready, ensure the New subscription quote is submitted to Zuora _prior_ to the Cancellation quote.
 
 If any issues with this process occur, the customer may [change the linked namespace](https://docs.gitlab.com/ee/subscriptions/gitlab_com/#change-the-linked-namespace) or contact support. For a demo see, [Linking GitLab Subscription to the Namespace](https://gitlab.com/gitlab-com/support/support-team-meta/-/issues/4770#note_1194437643)
 
@@ -1024,7 +1085,7 @@ For more information on ARR calculation for Ramp Deals, see [ARR in Practice](/h
 
 #### How to Process a Professional Services SOW Amendment (Change Order)
 
-Occasionally, changes will be made to a Custom SOW after an opportunity has been booked. These changes could include delivery (invoice) schedules or types of services delivered. The total value of the opportunity **should not change.** If the total value of an opportunity is negatively impacted, this will require an internal refund and rebooking of the order. Should there be additional revenue generated as a result of this Change Order, a new Professional Services Only opportunity is required to account for the *delta value*.
+Occasionally, changes will be made to a Custom SOW after an opportunity has been booked. These changes could include delivery (invoice) schedules or types of services delivered. The total value of the opportunity **should not change.** If the total value of an opportunity is negatively impacted, this will require an internal refund and rebooking of the order. Should there be additional revenue generated as a result of this Change Order, a new Professional Services Only opportunity is required to account for the _delta value_.
 
 #### Creating Decomission Opportunties
 
