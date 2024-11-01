@@ -31,6 +31,6 @@ There are several stages and teams involved to go from collecting data to making
 | [Privacy Policy](https://about.gitlab.com/privacy/) | Our privacy policy outlining what data we collect and how we handle it |
 | [Product Usage Data Privacy Policy](/handbook/legal/privacy/customer-product-usage-information/) | Our privacy policy outlining product usage data we collect and how we handle it |
 | [Analytics Instrumentation Direction](https://about.gitlab.com/direction/analytics/analytics-instrumentation/) | The roadmap for Analytics Instrumentation at GitLab |
-| [Analytics Instrumentation Development Process](/handbook/engineering/development/ops/monitor/analytics-instrumentation/) | The development process for the Analytics Instrumentation groups |
+| [Analytics Instrumentation Development Process](/handbook/engineering/development/analytics/analytics-instrumentation/) | The development process for the Analytics Instrumentation groups |
 
 _2024-05-16: last page update_

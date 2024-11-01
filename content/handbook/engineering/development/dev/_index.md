@@ -20,7 +20,7 @@ The Dev sub-department is taking care of the first part of the DevSecOps Lifecyc
 1. [Plan](/handbook/product/categories/#plan-stage)
     - [Plan:Project Management](/handbook/engineering/development/dev/plan/project-management/)
     - [Plan:Product Planning](/handbook/engineering/development/dev/plan/product-planning/)
-    - [Plan:Optimize](/handbook/engineering/development/ops/monitor/optimize)
+    - [Plan:Optimize](/handbook/engineering/development/dev/plan/optimize)
     - [Plan:Editor](/handbook/engineering/development/dev/plan/editor/)
 1. [Create](/handbook/product/categories/#create-stage)
     - [Create: Source Code BE](/handbook/engineering/development/dev/create/source-code-be/)
