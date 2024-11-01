@@ -64,7 +64,6 @@ Frontend Engineers at GitLab work on our product. This includes both the open-so
 - [Intermediate](/job-families/engineering/development/frontend/#intermediate-frontend-engineer)
 - Senior
 - [Staff](/job-families/engineering/development/frontend/#staff-frontend-engineer)
-- [Frontend Engineering Manager](/job-families/engineering/development/frontend/manager/)
 
 ## Job Grade
 

@@ -69,7 +69,6 @@ A Senior Frontend Engineer may want to pursue the engineering management track a
 - [Intermediate](/job-families/engineering/development/frontend/#intermediate-frontend-engineer)
 - [Senior](/job-families/engineering/development/frontend/#senior-frontend-engineer)
 - Staff
-- [Frontend Engineering Manager](/job-families/engineering/development/frontend/manager/)
 
 ## Job Grade
 
