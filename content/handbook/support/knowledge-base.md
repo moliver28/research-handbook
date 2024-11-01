@@ -9,7 +9,7 @@ one customer into a public resource that helps others self-serve &ndash; leverag
 into an article that can be used multiple times independently from the ticket assignee.
 
 The KB complements our product docs. Where the docs provides an overview of our _current_ product
-offerings and helps users learn use and operate them, the KB provides solutions to problems users
+offerings and helps users learn to use and operate them, the KB provides solutions to problems users
 encounter in current and _past_ versions of our product offerings. This narrow focus makes knowledge
 more accessible to customers who may not always be on the latest version of our products.
 
@@ -59,11 +59,11 @@ knowledge base content. This has the following benefits:
      For content specific to our US Government product offerings.
 1. Fill out the template with the content you'd like to contribute. Focus more on the technical
    content, while following the style and content guide in the template as closely as you can.
-1. Create the merge request as a **draft**.
+1. Create the merge request using the `Knowledge Base Article` template.
 1. Assign reviewers:
    - If timeliness is important, assign a Staff Support Engineer or Support Manager for review.
    - Otherwise, assign a KB editor: currently @irisb or @weimeng-gtlb.
-1. Create an entry in the CODEOWNERS file that includes you as a maintainer.
+1. Create an entry in the [CODEOWNERS](https://gitlab.com/gitlab-com/support/support-pages/-/blob/master/.gitlab/CODEOWNERS) file that includes you as a maintainer.
 
 ### Publishing a KB article
 
@@ -84,7 +84,7 @@ For Staff Support Engineers and Support Managers:
 
 - You have been added as approvers so we can merge timely content without needing to wait for an editor.
 - Focus on the technical correctness of the content. No need to be overly concerned with style and formatting.
-- After approving and merging, then tag a KB editor in the MR for further review.
+- After approving and merging, tag a KB editor in the MR for further review.
 
 ## Becoming a KB editor
 
