@@ -70,6 +70,8 @@ Choose the method below that feels most comfortable and have the following infor
    - Add your pronouns.
    - Consider adding `pronunciation` for your full name to help others to pronounce your name correctly (such as, `Sid See-brandy` for Sid Sijbrandij).
    - Add your Twitter and GitLab handles without the leading `@`.
+   - Add your Mastodon account in the format `mastodon.instance/@username`. Basically, the profile link without the `https://`.
+     - Note: Currently, Mastodon only shows up on the handbook version of the team page, not the marketing `about.gitlab.com` site.
    - Ensure your list of `departments` is accurate. Use other team members' as a reference.
    - Add your [`specialty`](/handbook/company/structure/#specialist).
    - Add your [`expertise`](/handbook/company/structure/#expert).
