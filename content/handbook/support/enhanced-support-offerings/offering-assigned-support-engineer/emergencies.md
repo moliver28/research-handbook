@@ -7,8 +7,8 @@ description: Workflow for an ASE when their account submits an emergency
 ## Emergencies from ASE accounts
 
 An account with an Assigned Support Engineer (ASE) can submit an emergency
-either [while you're available](#when-available)
-or [while you're not](#when-unavailable).
+either [while you're available](#when-youre-available)
+or [while you're not](#when-youre-not-available).
 
 In either case, it is important to note that you are not permanently on-call
 and, thus, are **not required** to take the emergency unless you're the on-call
