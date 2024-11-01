@@ -74,7 +74,6 @@ as well as some level of understanding of Ruby and Ruby on Rails.
 - [Intermediate](/job-families/engineering/backend-engineer/#intermediate-backend-engineer)
 - [Senior](/job-families/engineering/backend-engineer/#senior-backend-engineer)
 - [Staff](/job-families/engineering/backend-engineer/#staff-backend-engineer)
-- [Backend Engineering Manager](/job-families/engineering/backend-engineer/#backend-engineering-manager)
 
 ## Job Grade
 

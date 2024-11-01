@@ -52,7 +52,6 @@ Backend Engineers at GitLab work on our product. This includes both the open sou
 - Intermediate
 - [Senior](/job-families/engineering/backend-engineer/#senior-backend-engineer)
 - [Staff](/job-families/engineering/backend-engineer/#staff-backend-engineer)
-- [Backend Engineering Manager](/job-families/engineering/backend-engineer/#backend-engineering-manager)
 
 ## Job Grade
 
