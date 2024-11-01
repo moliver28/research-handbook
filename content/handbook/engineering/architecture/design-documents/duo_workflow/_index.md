@@ -646,7 +646,7 @@ GitLab for the reasons described.
 
 ### States
 
-UI states are going to be driven by the server to ensure consistency and no race condition between UI state changes and API responses. This will simplify keeping data and action in sync. All possible workflow states can be seen in the [WorflowStatusEnum](https://gitlab.com/gitlab-org/duo-workflow/duo-workflow-service/-/blob/main/duo_workflow_service/entities/state.py?ref_type=heads#L23). 
+UI states are going to be driven by the server to ensure consistency and no race condition between UI state changes and API responses. This will simplify keeping data and action in sync. All possible workflow states can be seen in the [WorflowStatusEnum](https://gitlab.com/gitlab-org/duo-workflow/duo-workflow-service/-/blob/main/duo_workflow_service/entities/state.py?ref_type=heads#L23).
 
 #### New
 
@@ -684,7 +684,7 @@ Checkpoints are built on the server-side and serve as a way to resume execution 
 
 #### Ability to load workflow from checkpoints
 
-If a Workflow cannot reach the `COMPLETED` state before it stops executing, then the user should have the ability to start again only from the latest checkpoint. From a UI perspective, this mean that we need to support multiple workflow because otherwise we cannot know which workflow currently exists. This should be doable by fetching `duoWorkflowWorkflows` and rendering all existing workflows. For the IDEs, this mean rendering existing workflows in the sidebar. 
+If a Workflow cannot reach the `COMPLETED` state before it stops executing, then the user should have the ability to start again only from the latest checkpoint. From a UI perspective, this mean that we need to support multiple workflow because otherwise we cannot know which workflow currently exists. This should be doable by fetching `duoWorkflowWorkflows` and rendering all existing workflows. For the IDEs, this mean rendering existing workflows in the sidebar.
 
 Then when selecting a workflow, fetch information about the current workflow with **how to fetch an existing workflow**. Here is what should happen based on states:
 

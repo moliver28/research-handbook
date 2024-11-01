@@ -37,7 +37,7 @@ We plan to maintain our existing certifications and attestations. We will contin
 
 - PCI DSS SAQ D (Service Provider) and SAQ A (Merchant)
 - IRAP Protected
-- ISO/IEC 42001:2023 - AI management systems 
+- ISO/IEC 42001:2023 - AI management systems
 - Cyber Essentials Plus
 - FedRAMP High Authorization
 - DoD IL4

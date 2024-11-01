@@ -19,17 +19,17 @@ In this task, you will implement a feature flag in your application using GitLab
 
 Follow these steps to set up and use a feature flag:
 
-1. Navigate to **Deploy > Feature flags**. 
+1. Navigate to **Deploy > Feature flags**.
 
-1. Select **New Feature Flag**. 
+1. Select **New Feature Flag**.
 
-1. For the name, input `test`. For the Type, select `Percent rollout`. 
+1. For the name, input `test`. For the Type, select `Percent rollout`.
 
-1. Set the percentage to 50%, and set the **Based on select** to Random. 
+1. Set the percentage to 50%, and set the **Based on select** to Random.
 
 1. Select **Create feature flag**.
 
-1. After creating the feature flag, select **Configure**. Take note of the API URL and Instance ID fields. You will need these for your code changes. 
+1. After creating the feature flag, select **Configure**. Take note of the API URL and Instance ID fields. You will need these for your code changes.
 
 1. Select your `index.js` file.
 
@@ -57,8 +57,8 @@ Follow these steps to set up and use a feature flag:
 
 1. Select **Commit changes**.
 
-    > This code will continually run, attempting to check if the feature flag toggle is enabled or disabled. Since it is enabled for 50% of users, you should see it around half the time when this runs. 
-    
+    > This code will continually run, attempting to check if the feature flag toggle is enabled or disabled. Since it is enabled for 50% of users, you should see it around half the time when this runs.
+
 1. To test running this, we will test running the script.
 
 1. Open you `.gitlab-ci.yml` file.

@@ -37,12 +37,12 @@ To open a backfill:
 1. The Manager of a departing team member enters attrition in Workday via the [off-boarding process](/handbook/people-group/offboarding/).
 1. Each week, by noon (PST) Monday, Corporate FP&A downloads the data from Adaptive and refreshes the confidential LIVE Headcount lists shared with TA, FP&A, and relevant leaders
    1. By the end of the day (PST) Monday, Corporate notifies FP&A partners of targeted conversations with E-Group during the week.
-1. By the end of the day (PST) Wednesday, divisional FP&A teams align with E-Group and PBPs to review all new backfill roles and determine the appropriate action for each. 
+1. By the end of the day (PST) Wednesday, divisional FP&A teams align with E-Group and PBPs to review all new backfill roles and determine the appropriate action for each.
    1. If no decisions are made, FP&A will mark backfill as paused
-   1. If decisions are made, FP&A will ensure Position IDs and GHPIDs are processed and shared with TA by the end of the day on Wednesday. 
-      - For roles being repurposed: the business leader owns communication to the team to discuss the rationale and drive clarity. PBP/Strategy team partners on reallocation decisions. 
+   1. If decisions are made, FP&A will ensure Position IDs and GHPIDs are processed and shared with TA by the end of the day on Wednesday.
+      - For roles being repurposed: the business leader owns communication to the team to discuss the rationale and drive clarity. PBP/Strategy team partners on reallocation decisions.
 1. Taking the E-Group leader's decisions, each divisional Recruiting Leader will allocate the role to the appropriate recruiter.
-1. Once the role is approved/the decision has been reached and the role is allocated, the Recruiting partner will set up a kickoff strategy call with the hiring manager and will create a position in Greenhouse for approval to move to the next step of the process. 
+1. Once the role is approved/the decision has been reached and the role is allocated, the Recruiting partner will set up a kickoff strategy call with the hiring manager and will create a position in Greenhouse for approval to move to the next step of the process.
 1. By the end of the day (PST) Thursday, the FP&A update Adaptive
    1. FP&A includes their best estimates of the start dates of all planned personnel for the forecast period based on the input from Talent Acquisition in the headcount forecast templates. This reflects a 50/50 “most realistic” view of headcount expenses/timing and is part of the current [Forecast Interlock process](/handbook/finance/financial-planning-and-analysis/#finance-business-partners--talent-acquisition-managers-forecast-interlock).
 
@@ -96,7 +96,7 @@ Once you've selected a template to copy, the first screen will ask for **Basic J
 1. `CA/CO/HI/NY/NJ/WA/DC Salary` should be filled in if you believe you may list your position in the United States. If not, Recruiters can list 1-1 as the salary range as it's a required field. To find the salary range, utilize the comp calculator and search for Colorado (metro area = not applicable) for the minimum and California (metro area = San Francisco) for the maximum. This field is tied to your job post, so it's important that it's filled in correctly.
 1. Fill in the `Openings Section`. Your opening ID is your req ID with -1, -2, etc following it. It is **not** the GHPID.
 1. Enter the `Target Start Date` as listed on the GitLab Hiring Plan
-1. Under `Type` choose if this is a *Annual Plan*, *Backfill*, *Incremental* or *Intern*. If you select *Backfill*, please enter the name of the teammate you are backfilling on the line below. 
+1. Under `Type` choose if this is a *Annual Plan*, *Backfill*, *Incremental* or *Intern*. If you select *Backfill*, please enter the name of the teammate you are backfilling on the line below.
    1. **Annual Plan**: Refers to any budgeted net new role included at the start of the fiscal year as part of the planned headcount. These roles will appear in the interlock sheet and are typically labeled as ‘FYxx AOP’ in the ‘employee name’ field.
    1. **Backfill**: Refers to budgeted roles generated throughout the year due to a team member’s departure. These will also be visible in the interlock sheet and labeled as backfill in the ‘employee name’ field.
    1. **Incremental**: Refers to any Rolling List of Asks (RLoA) or in-quarter approved budget release not part of the annual plan. This headcount is released by Finance during the quarter and communicated directly by TALT in Pod Squad. Recruiters should ensure the correct ‘req type’ is selected in Greenhouse to inform the interlock sheet.

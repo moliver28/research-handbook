@@ -119,11 +119,11 @@ Below is the timeline for FY26:
 
 Status: Pending  
 
-- Planning: 
-- Calibrations & Workday input by Director+: 
-- PBP & E-Group leader approvals: 
+- Planning:
+- Calibrations & Workday input by Director+:
+- PBP & E-Group leader approvals:
 - Workday Approvals: 2
-- Communication: 
+- Communication:
 - Effective date for promotions: 2025-11-01
 - After communicating 1:1 with individuals **on or after 2025-11-01**, updates can be posted publicly in #team-member-updates. Managers should *not* communicate until Total Rewards communicates that the promotions are approved.
 
@@ -131,11 +131,11 @@ Status: Pending
 
 Status: Pending  
 
-- Planning: 
-- Calibrations & Workday input by Director+: 
-- PBP & E-Group leader approvals: 
+- Planning:
+- Calibrations & Workday input by Director+:
+- PBP & E-Group leader approvals:
 - Workday Approvals: 2
-- Communication: 
+- Communication:
 - Effective date for promotions: 2026-05-01
 - After communicating 1:1 with individuals **on or after 2026-05-01**, updates can be posted publicly in #team-member-updates. Managers should *not* communicate until Total Rewards communicates that the promotions are approved.
 
@@ -143,11 +143,11 @@ Status: Pending
 
 Status: Pending  
 
-- Planning: 
-- Calibrations & Workday input by Director+: 
-- PBP & E-Group leader approvals: 
+- Planning:
+- Calibrations & Workday input by Director+:
+- PBP & E-Group leader approvals:
 - Workday Approvals: 2
-- Communication: 
+- Communication:
 - Effective date for promotions: 2026-11-01
 - After communicating 1:1 with individuals **on or after 2026-11-01**, updates can be posted publicly in #team-member-updates. Managers should *not* communicate until Total Rewards communicates that the promotions are approved.
 
@@ -185,7 +185,7 @@ Please list the 3 most impactful results (accomplishments, initiatives, or proje
 
 - Example: Since the implementation of the Org Design Playbook we also implemented a scoring system that allows us to measure the success of the changes we execute. We have seen an increase in the overall average score since the playbook’s creation.
 
-**Business relevance** refers to *why* the project/accomplishment is important to the company (I.E. related to an OKR? a key investment theme? etc.). 
+**Business relevance** refers to *why* the project/accomplishment is important to the company (I.E. related to an OKR? a key investment theme? etc.).
 
 - Example: One of our FY25 Yearlies is related to driving a high performance culture. A key aspect of high performance culture is our ability to manage through change in an efficient and results-oriented way. Organizational design shifts and realignments can have an adverse impact on team member’s velocity in delivering results if we are not aligned on an efficient, thorough, and team member oriented approach to execution.
 
@@ -209,7 +209,7 @@ GitLab considers both individual readiness and business need when we think about
 
 #### Values Alignment
 
-Values are at the core of everything we do at GitLab. It is essential to tie team member achievements and initiatives back to the values they support. Every Value should be referenced in the promotion document *at least once* with an example of how the promotion candidate contribution to the business result align to the Value. Please provide a 1-2 senteence example for Values that were not referenced in the Business Results section which highlight further how the team member has exhibited CREDIT. 
+Values are at the core of everything we do at GitLab. It is essential to tie team member achievements and initiatives back to the values they support. Every Value should be referenced in the promotion document *at least once* with an example of how the promotion candidate contribution to the business result align to the Value. Please provide a 1-2 senteence example for Values that were not referenced in the Business Results section which highlight further how the team member has exhibited CREDIT.
 
 - Please review our guidance on [DIB behaviours](/handbook/values/#diversity-inclusion--belonging-competency) aligned to each job level which provides examples of how to demonstrate our [Diversity Inclusion & Belonging Value](/handbook/values/#diversity-inclusion)
 

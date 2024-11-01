@@ -4,7 +4,7 @@ title: Google Workspace Deprovisioner
 
 ## Overview
 
-Google Workspace Deprovisioner consists of a collection of flows built in [Okta Workflows](https://help.okta.com/wf/en-us/content/topics/workflows/workflows-main.htm) ("OWF"). The flows were created to provide a consistent and automated process for deprovisioning Google Workspace user accounts. 
+Google Workspace Deprovisioner consists of a collection of flows built in [Okta Workflows](https://help.okta.com/wf/en-us/content/topics/workflows/workflows-main.htm) ("OWF"). The flows were created to provide a consistent and automated process for deprovisioning Google Workspace user accounts.
 
 The deprovisioner is composed of 2 distinct parts.
 
@@ -47,12 +47,12 @@ To trigger an initial offboarding use the following Slack slash command associat
 
 `/google-offboard <user email>`
 
-**Note:** The Slack slash command is only available to limited members of the Corporate Security team. 
+**Note:** The Slack slash command is only available to limited members of the Corporate Security team.
 {: .note}
 
 A successful trigger will result in a `one moment...processing request for <user email>` slack message before the offboarding initiates.
 
-A slack thread will be started by the Google Deprovisioner app which will contain all actions performed as part of offboarding. A status and message will be returned for the results of each action. 
+A slack thread will be started by the Google Deprovisioner app which will contain all actions performed as part of offboarding. A status and message will be returned for the results of each action.
 
 Once complete Google Deprovisioner will update the thread and report whether or not the offboarding was successful.
 
@@ -75,8 +75,8 @@ The following documentation assumes some experience and working knowledge with O
 - **Trigger**
   - Flows that trigger the Google Workspace Deprovisioner. Trigger flows may include scheduled runs, slack slash commands, delegate flows, or any other flow that is initiated by a user or system. These flows should trigger the orchestrator flows to start.
 - **Orchestrator**
-  - Flows that orchestrates all the various action and events as part of Google Workspace deprovisioning. 
-  - An orchestrator flow will usually be composed of multiple actions, notifications, and logging flows. 
+  - Flows that orchestrates all the various action and events as part of Google Workspace deprovisioning.
+  - An orchestrator flow will usually be composed of multiple actions, notifications, and logging flows.
 - **Action**
   - Flows that handle a specific action as part of deprovisioning. For example, an action could sign a user out, update a user profile, delete tokens, or get a list of user groups. In general, each action corresponds to a specific Google Workspace API endpoint (e.g. [users.get](https://developers.google.com/admin-sdk/directory/reference/rest/v1/users/get) in the Google [Admin SKD API](https://developers.google.com/admin-sdk/reference-overview)).
 - **Notification**
@@ -97,7 +97,7 @@ Google Deprovisioner uses a combination of pre-built 3rd party connectors and cu
 ### Tables
 
  OWF does not provide native database support, so tables are used at this time to store logs. Tables are updated by the **log** flows.
- 
+
 The following tables are used
 
 - Offboarding
@@ -145,17 +145,17 @@ Below is a high level overview of how Google Deprovisioner operates. For a more 
   - User triggers the Slack slash command and includes email of user to offboard
   - Verifies an email is present and gather initial `user` and `actor` data. required by the orchestrator flow.
   - Start orhcestrator flow.
-- **Orchestrator** 
+- **Orchestrator**
   - Construct offboarding object from initially provided data
   - **Log** - new offboarding with `initiated`
   - **Notification** - new offboarding
   - **Action** - get `user`'s profile data
   - **Action** - get `manager`'s priofile data
-  - Verify whether `user`'s profile data present 
+  - Verify whether `user`'s profile data present
     - If **Present**
       - **Action** - perform offboarding actions
         - **Log** - result of each action to events
-        - **Notification** - Send action results 
+        - **Notification** - Send action results
       - **Notification** - completed offboarding
       - **Notification** - update manager about offboarding
       - **Log** - update offboarding with `Completed`
@@ -179,11 +179,11 @@ Below is a high level overview of how Google Deprovisioner operates. For a more 
   - **Notification** - new post-90 offboarding
   - **Action** - get `user`'s profile data
   - **Action** - get `manager`'s priofile data
-  - Verify whether `user`'s profile data present 
+  - Verify whether `user`'s profile data present
     - If **Present**
       - **Action** - perform offboarding actions
         - **Log** - result of each action to events
-        - **Notification** - Send action results 
+        - **Notification** - Send action results
       - **Notification** - post-90 completed offboarding
       - **Log** - update post-90 offboarding with `Completed`
     - **Missing**

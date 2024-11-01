@@ -368,7 +368,7 @@ Use this workflow for requests to delete user data from Sales or Marketing syste
 1. No confirmation or verification is required for this request type under data privacy laws. Unless the user responds back in the issue that they did not submit the request, proceed with the workflow.
 1. In the [Personal Account Requests Service Desk](https://gitlab.com/gitlab-com/gdpr-request/-/issues/new), create a new confidential issue using the [Deletion Meta Issue - Marketing](https://gitlab.com/gitlab-com/gdpr-request/-/issues/new?issuable_template=Deletion%20Meta%20Issue%20-%20Marketing) template, populating the title with the email address of the original request.
 1. **Follow the instructions in the top of the template**, then complete each step in the issue that begins with `Support Engineer:` in order.
-1. Let the requester know the deletion process is complete by leaving a comment on the original issue with the following snippet. 
+1. Let the requester know the deletion process is complete by leaving a comment on the original issue with the following snippet.
 
 <details>
   <summary markdown="spam">Request Closed - Deletion Complete</summary>

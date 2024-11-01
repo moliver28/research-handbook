@@ -50,7 +50,7 @@ The process in which Technical Architects, Engagement Managers, and Practice Man
 
 ### Initial Documentation and Planning
 
-- **Write Data Sheet**: Practice Management creates a draft data sheet following a [template](https://drive.google.com/drive/folders/15qTq8OTpuMP4wDEBn14kzaMNfQaDaR7q) in this folder, creating a google slide and then saving as a pdf. 
+- **Write Data Sheet**: Practice Management creates a draft data sheet following a [template](https://drive.google.com/drive/folders/15qTq8OTpuMP4wDEBn14kzaMNfQaDaR7q) in this folder, creating a google slide and then saving as a pdf.
 - **Create Template SOW (DOW only if necessary)**: Engagement Manager coordinates with TA and practice team to create google docs and pdf versions of these documents. See [examples here](https://drive.google.com/drive/folders/1sXW6ZoAOXhrvVvHw6eRK-w3g_EwTWmrs).
 - **Create Estimate Breakdown**: Engagement Managers outline cost estimates and TAs and practice update the [build sheet](https://docs.google.com/spreadsheets/d/15zx0JzyfZkX_jKQ9mCSJQd3HZ_u_jKXyXnS9UwsO9rs/edit?gid=1402627007#gid=1402627007), which includes updating the COGS (Cost of Goods Sold).
 
@@ -67,7 +67,7 @@ The process in which Technical Architects, Engagement Managers, and Practice Man
 ### Documentation and Updates
 
 - **Update Qualification Questions**: Engagement Managers & Technical Architects update the qualification questions as needed.
-  - These are discovery questions to help EMs gather the inputs to the build sheet scope estimate. 
+  - These are discovery questions to help EMs gather the inputs to the build sheet scope estimate.
 - **Update PSQ Offerings**: Practice Management updates the PSQ offering language based on the template SOW.
 - **Perform Initial Enablement Sessions**: Practice works with Technical Architects and Engagement Managers to perform initial enablement sessions.
   - Engagement Management

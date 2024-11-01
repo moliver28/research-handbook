@@ -39,7 +39,7 @@ TA Leadership Enablement for these sheets can be found [here](https://internal.g
 
 ### Quarterly Headcount Validation Exercise
 
-Our headcount management is a fluid process through the fiscal year. Starting with our annual plan, we will have changes throughout the quarter based on backfill activity, top down incremental releases, and our quarterly [RLoA process](/handbook/finance/financial-planning-and-analysis/#rolling-list-of-asks-rloa). 
+Our headcount management is a fluid process through the fiscal year. Starting with our annual plan, we will have changes throughout the quarter based on backfill activity, top down incremental releases, and our quarterly [RLoA process](/handbook/finance/financial-planning-and-analysis/#rolling-list-of-asks-rloa).
 
 Once roles are released, FP&A partners collaborate with Talent Acquisition leadership to set a forecasted start month. We use these forecasted start month to project our bottom line headcount projections through the course of the quarter, set hiring goals and manage headcount spend. Our goal is to come up with the most accurate forecast possible, and essential to doing that is business readiness to recruit on roles as we progress through our hiring plan.
 

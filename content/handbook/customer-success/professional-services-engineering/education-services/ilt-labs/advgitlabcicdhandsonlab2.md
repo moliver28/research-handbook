@@ -23,11 +23,11 @@ To start, let’s create a basic `Node.js` application to use for demonstration 
 
 1. Select **Create blank project**.
 
-1. Set the project name to **Node**, leave all other options as default, then select **Create project**. 
+1. Set the project name to **Node**, leave all other options as default, then select **Create project**.
 
 1. In this project, select **+ > New file**.
 
-1. Set the filename to `index.js` and add the following code: 
+1. Set the filename to `index.js` and add the following code:
 
     ```js
     module.exports.binarySearch = function binarySearch(arr, val) { 
@@ -66,11 +66,11 @@ To start, let’s create a basic `Node.js` application to use for demonstration 
     }
     ```
 
-    > This code is a simple binary search, which will search a sorted array for a value, returning either the index of the value if it exists in the array, or -1 if the value is not found. 
+    > This code is a simple binary search, which will search a sorted array for a value, returning either the index of the value if it exists in the array, or -1 if the value is not found.
 
 1. Select **Commit changes**.
 
-To create a Node project, we need to also create a `package.json` file. 
+To create a Node project, we need to also create a `package.json` file.
 
 1. Navigate to your project repository.
 
@@ -190,7 +190,7 @@ Next, we will create a `.gitlab-ci.yml` file to define our tests.
 
 ## Task C. Using caching to optimize jobs
 
-Let’s take a look at this set of job definitions to see if they can be made more efficient. One common optimization we can look for is repetition in scripts run during jobs. In this example, both jobs need to install the `jest-junit` package with npm. Rather than installing `jest-junit` twice, we can cache the package between jobs. 
+Let’s take a look at this set of job definitions to see if they can be made more efficient. One common optimization we can look for is repetition in scripts run during jobs. In this example, both jobs need to install the `jest-junit` package with npm. Rather than installing `jest-junit` twice, we can cache the package between jobs.
 
 1. In your `.gitlab-ci.yml` file, add the following job:
 
@@ -247,7 +247,7 @@ The `.gitlab-ci.yml` file should now look like this:
       - jest linearsearch.test.js
   ```
 
-> With this definition, we create a cache with a key that matches the `CI_COMMIT_REF_SLUG`. This ensures that each job will receive a unique cache. The data being cached is the `node_modules` folder. To set up the cache for use, we use the script to run the install command for the `jest-junit` package, which we will use for report formatting in a later lab. 
+> With this definition, we create a cache with a key that matches the `CI_COMMIT_REF_SLUG`. This ensures that each job will receive a unique cache. The data being cached is the `node_modules` folder. To set up the cache for use, we use the script to run the install command for the `jest-junit` package, which we will use for report formatting in a later lab.
 
 Now that we have a cache defined, we can remove the `jest-junit` package install from each job.
 
@@ -291,7 +291,7 @@ Now that we have a cache defined, we can remove the `jest-junit` package install
           - node_modules
     ```
 
-1. Commit your changes to `main`. 
+1. Commit your changes to `main`.
 
 1. Navigate to your pipeline and verify that your testing jobs now run successfully.
 

@@ -81,7 +81,7 @@ graph LR
    2. If customer is not available in first week for a formal kick-off, both ASE and CSA should begin work async and will start any needed conversations via email.
    3. Utilize the slide [template](https://docs.google.com/presentation/d/1uQpuSwPV43ZkNvG18y_XBRRoBaCtWiyhYoHHAT3QBY4/edit) (internal)
    4. Share the .pdf version post call as well as immediate next steps, such as a discovery workshop
-    
+
 ### Logging Accelerator Events
 
 In order to keep track of key deliverables in the Accelerator process, CSAs need to log these events in Gainsight. This will allow reporting and a complete account timeline within Gainsight.
@@ -102,4 +102,3 @@ Instructions:
 5. Fill in "Accelerator Content Module"
    * Use this optional field to document the activity itself
    * i.e. "Delivered guidance report for cost optimization", or "Custom Security Policy Workshop"
-   

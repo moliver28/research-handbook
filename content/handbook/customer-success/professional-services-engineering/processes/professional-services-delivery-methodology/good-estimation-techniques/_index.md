@@ -18,7 +18,7 @@ We recommend the below t-shirt sizing estimation if the GitLab and Customer Proj
 * Sm - 1  (0-2 hrs)
 * Med - 2   (2-5 hrs)
 * Large -3  (5-10 hrs)
-* _anything more than 10hrs should be broken into smaller tasks_ 
+* _anything more than 10hrs should be broken into smaller tasks_
 
 ## Estimation Uncertainty
 

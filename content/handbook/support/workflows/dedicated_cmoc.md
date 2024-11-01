@@ -12,7 +12,7 @@ The GDCMOC rotation currently uses the GitLab.com CMOC rotation to determine who
 
 ## Engaging the GDCMOC
 
-The GDCMOC can be paged via Slack or directly via PagerDuty. 
+The GDCMOC can be paged via Slack or directly via PagerDuty.
 
 - **Slack**: Using the `/pd trigger` command in Slack, select `Incident Management - GDCMOC` in the **Impacted Service** modal. Fill in the **Title** and click **Create**.
 - **PagerDuty**: From the [Incident Management - GDCMOC](https://gitlab.pagerduty.com/service-directory/P8WVAI0) page, click **New Incident**. Fill in the **Title** and click **Create**.

@@ -260,7 +260,7 @@ After completing the creation of an On24 web event, the next step is to connect 
 1. Update the program tokens as needed within the program. All email assets and landing pages are token dependent. Important tokens to review:
     - `my.webcastDate`, `my.webcastTitle` and `my.event location` are standard to update.
     - `my.eventid` and `my.key` need to be filled out to have seamless registration work correctly between Marketo and On24. The `key` is a several character long alphanumeric snippet and can be found at the end of the Audience URL as seen [here](https://on24support.force.com/Support/servlet/rtaImage?eid=ka04U000000x7I2&feoid=00N4U000008YrFJ&refid=0EM4U0000029XDA).
-    - `my.language` is set to `english` as a default, but if the presentation is localized be sure to change to the spoken language 
+    - `my.language` is set to `english` as a default, but if the presentation is localized be sure to change to the spoken language
     - `my.bullet1` - `my.bullet4` appear on the `registration landing page` so be sure to update either the tokens or the templates to accommodate. The series of tokens for `my.InviteEmailBody1`, `my.InviteEmailBody2`, `my.InviteEmailBody3` and `my.bullet1-4` also appear on the `invitation` email templates, with the `InviteEmailBody#` corresponding to which email in the series that text will appear on.
     - If speakers are to be shown on the landing page, be sure to update the series of `speakers` tokens. If there is no need to display the speakers, deactivate the `speaker lists` on the `registration landing page` template.
     - `my.introParagraph` and in some places `my.2ndparagraph` are utilized to fill in landing pages.
@@ -312,7 +312,7 @@ In order to get `Q&A`, `poll` and `survey` data into Marketo from On24, a list u
 
 #### Q&A Syncing into Salesforce
 
-After an [update from Q2 2024](https://gitlab.com/gitlab-com/marketing/marketing-operations/-/issues/8776#note_1944794265), Workato now automatically pulls Q&A data from On24 into Marketo, giving easier access for those interested in viewing conversations between GitLab staff and attendees from On24 events. 
+After an [update from Q2 2024](https://gitlab.com/gitlab-com/marketing/marketing-operations/-/issues/8776#note_1944794265), Workato now automatically pulls Q&A data from On24 into Marketo, giving easier access for those interested in viewing conversations between GitLab staff and attendees from On24 events.
 
 #### Field Matching Instructions for Marketing Ops (Outdated Upload Instructions)
 
@@ -339,19 +339,19 @@ The campaigns team has started a FAQ document [here](https://docs.google.com/doc
 
 ### Fields That Sync Between On24 and Marketo
 
-Fields we have set up to directly sync between On24 and Marketo are as follows: 
+Fields we have set up to directly sync between On24 and Marketo are as follows:
 
 - First Name
 - Last Name
 - Company
 - Job Title
 - Address
-- City 
+- City
 - State
 - Postal Code
 - Country
-- Work Phone 
-- more tbd 
+- Work Phone
+- more tbd
 
 ### Data Removal Requests
 

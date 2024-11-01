@@ -14,7 +14,7 @@ The UX Research team researches customers, end users, potential users, stakehold
 
 ### How the UX Research team works
 
-Using a range of research methodologies (including user interviews, surveys, usability testing, diary studies, and card sorting) we collect raw data on user behaviors, needs, and preferences. 
+Using a range of research methodologies (including user interviews, surveys, usability testing, diary studies, and card sorting) we collect raw data on user behaviors, needs, and preferences.
 
 We then apply rigorous data analysis and synthesis to transform this data into valuable insights that inform and shape the design and development of our products.
 
@@ -52,7 +52,7 @@ Detailed breakdown of our strategic pillars and our 2 years action plan can be f
 
 We want to learn from you! We are always looking for a range of professionals to take part in our studies, and would love to have you sign-up. You can read more about what to expect as a research participant [here](https://docs.google.com/presentation/d/1r0WMYS-ZvvEaqRvW3AazdIipCyz8xAynMFnp7PqjDMA/edit#slide=id.g2873bc64769_0_0), and register your interest in taking part in future research [here](https://research.rallyuxr.com/gitlab/lp/csmsignup?channel=app).
 
-**What you get in return**: 
+**What you get in return**:
 
 - **Influence Over Design and Product Decisions**: Your feedback will be heard and considered in future design and product decisions directing anything from feature improvements to product strategy.
 - **Smoother Experience and Better Product**: Your insights will help us shape a product that better fits your day-to-day needs, improving your overall experience and productivity.
@@ -64,14 +64,14 @@ We’d love to collaborate with you, gather your perspective, and partner with y
 - **Ensure Your Customers Are Represented in UX Research**: You can nominate customers as research participants by sharing their details in the #ux_reops channel or direct your customers to [the UX Research Panel](https://research.rallyuxr.com/gitlab/lp/csmsignup?channel=app) to register their interest.
 - **Share what you know via GitLab User Insight Repository**: Share what you learn about your customers in the #ux_research channel, or connect with a designated UX researcher for specific stages or themes.
 - **Identify Areas for Improvement That Need Further Research (unknown)**: If you notice areas that could benefit from deeper exploration, feel free to mention it in the #ux_research channel or contact [the UX researcher for the relevant stage or theme](/handbook/product/ux/ux-research/how-uxr-team-operates/). Providing a related issue for reference would be a bonus!
-- **Leverage UX Research Insights to Guide Your Work**: Stay updated by checking out the #ux_research_reports channel for the latest insights. You can also explore [Dovetail](https://gitlab.dovetail.com/start/), our research insights management tool, to search by keywords or watch interview session recordings. You can also consult with [the UX researcher for the relevant stage or theme](/handbook/product/ux/ux-research/how-uxr-team-operates/), to be more informed when making design, product or customer engagement decisions. 
+- **Leverage UX Research Insights to Guide Your Work**: Stay updated by checking out the #ux_research_reports channel for the latest insights. You can also explore [Dovetail](https://gitlab.dovetail.com/start/), our research insights management tool, to search by keywords or watch interview session recordings. You can also consult with [the UX researcher for the relevant stage or theme](/handbook/product/ux/ux-research/how-uxr-team-operates/), to be more informed when making design, product or customer engagement decisions.
 
-**What you get in return**: 
+**What you get in return**:
 
 - **Informed Decision-Making**: The UX research team provides valuable insights based on user behaviour and feedback, helping internal teams make informed, data-driven decisions throughout the product development process.
 - **Risk Mitigation**: UX research helps identify potential issues early in the development process, allowing internal teams to address these challenges before they escalate, thereby reducing the risk of costly mistakes or misaligned products.
 
-### Do you have questions about UX Research? 
+### Do you have questions about UX Research?
 
 The UX Research team is here for you! Reach out in the #ux_research Slack channel. Below is a full list of our UX Research team handbook content:
 

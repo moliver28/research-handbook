@@ -15,7 +15,7 @@ Product Design Manager pairs give PDMs a regular touchpoint with their peers and
 ### Collaboration suggestions
 
 - Share team processes and ways of working.
-- Walk your pair through your product areas to familiarize them with it. 
+- Walk your pair through your product areas to familiarize them with it.
 - Talk through ongoing and upcoming work happening in your area. This can uncover opportunities for cross-stage collaboration.
 - Discuss strengths and skillsets on your teams to connect product designers looking to grow in certain areas with product designers who are already strong in those areas.
 

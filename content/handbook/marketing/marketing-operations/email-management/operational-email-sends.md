@@ -75,7 +75,7 @@ Sub-processor has its own list people can subscribe to, and legal will start the
 
 1. Clone from sub-processor [template in marketo](https://engage-ab.marketo.com/?munchkinId=194-VVC-221#/classic/EBP6615B2)
 2. Upload any additional list sent by Legal
-3. Build email once final copy is provided. Make sure to review the copy for any [RED Data](/handbook/support/workflows/sending_notices). 
+3. Build email once final copy is provided. Make sure to review the copy for any [RED Data](/handbook/support/workflows/sending_notices).
 4. Send sample to legal requestor
 5. Deploy send when confirmed.
 
@@ -103,7 +103,7 @@ Communication checklist:
 
 #### Recommended format for customer emails
 
-Please make sure to review the copy for any [RED Data](/handbook/support/workflows/sending_notices). 
+Please make sure to review the copy for any [RED Data](/handbook/support/workflows/sending_notices).
 
 The following is the recommended format for ad hoc customer emails though tailor it if the communication objective or content requires this. This does not include marketing (e.g., email campaigns, blogs, etc.) or standard product or security notifications (e.g., release blogs, release notifications, etc.). Emails should be clear, crisp, and direct, providing links for details (e.g., details on the issue or risk, procedural details to action). To [maximize reading comprehension](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=1709943), remove all extraneous words and language to maximize the probability the email will be read and acted upon.
 

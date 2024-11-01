@@ -99,11 +99,11 @@ Google Workspace deprovisioning is composed of 2 parts that are outlined below. 
 
 **If the team member’s manager leaves the company (at the same time or in a few months), what happens to the original team member’s data? How can we access it, and for how long?**
 
-> If the manager leaves GitLab around the same time as the team member, Google Drive and Google Calendar data for both the team member and manager will be transferred to the manager's manager. 
+> If the manager leaves GitLab around the same time as the team member, Google Drive and Google Calendar data for both the team member and manager will be transferred to the manager's manager.
 
 **The team member was an owner/editor of a Google Doc in a shared drive that I can see but only have viewer/commenter access. How do I get Editor access since the emails to request access were sent to their email? Is there a standardized or automated way to do this without opening an AR?**
 
-> in Google Workspace Share drives and myDrives (personal drive) operate differently. Files in Share Drives are owned directly by the Share Drive itself, while myDrive files are owned by the user. If you need access or additional permissions to a Share Drive file, make an Access Request and include as much information about the file as possible. 
+> in Google Workspace Share drives and myDrives (personal drive) operate differently. Files in Share Drives are owned directly by the Share Drive itself, while myDrive files are owned by the user. If you need access or additional permissions to a Share Drive file, make an Access Request and include as much information about the file as possible.
 
 **A customer is emailing the former team member and even if they are getting a vacation response, they haven’t opened a new thread with someone else. I’m worried about needing to stay in contact with that customer. What should I do? How can we maintain a great customer experience?**
 
@@ -115,13 +115,13 @@ Google Workspace deprovisioning is composed of 2 parts that are outlined below. 
 
 **For Security reasons, data security, compliance, and the other good reasons, who has administrative access to all this data? Who can help me? Who doesn’t get access and why?**
 
-> Administrative access to not only offboarded team member data, but Google Workspace overall, is limited to members of the Corporate Securtiy team. Access is restricted further to only those who need administrative permission as part of their day to day duties. This follows the principle of least privileges and helps keep corporate data private and secure. 
+> Administrative access to not only offboarded team member data, but Google Workspace overall, is limited to members of the Corporate Securtiy team. Access is restricted further to only those who need administrative permission as part of their day to day duties. This follows the principle of least privileges and helps keep corporate data private and secure.
 
 **I have delegated access to a former team members calendar, docs, and email. What should or should I not do? What data privacy concerns should I be concerned about? If I see something weird or personal inadvertently, should I report it to People Ops or Security, or just ignore it?**
 
 > First, if you see anything unusual or personally sensitive, please report it to the Security team immediately.
 >
-> While you have delegate access to the user's Gmail account, please be mindful of responding to emails as the former team member. Instead, forward the email to yourself and respond to the forwarded email from your account. 
+> While you have delegate access to the user's Gmail account, please be mindful of responding to emails as the former team member. Instead, forward the email to yourself and respond to the forwarded email from your account.
 
 **A former team member had access to confidential financial insider information or a confidential codename project. What processes are in place to protect that data from being shared with other team members who are not approved to see it?**
 

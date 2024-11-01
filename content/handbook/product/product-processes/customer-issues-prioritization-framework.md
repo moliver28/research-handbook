@@ -93,7 +93,7 @@ Supported link types:
 
 ### Theme labels
 
-You can add any number of `~theme:...` labels to issues or epics to enable aggregating priority score grouped by theme labels within the dashboard. Using theme labels is a helpful for tool for segmenting different groups of related customer requested issues. **Note:** Aggregate values are not de-duplicated among all theme labels. For example, if the priority score of Issue A is 100 and it has two theme labels, the value aggregated for each theme label will be 100. 
+You can add any number of `~theme:...` labels to issues or epics to enable aggregating priority score grouped by theme labels within the dashboard. Using theme labels is a helpful for tool for segmenting different groups of related customer requested issues. **Note:** Aggregate values are not de-duplicated among all theme labels. For example, if the priority score of Issue A is 100 and it has two theme labels, the value aggregated for each theme label will be 100.
 
 ### Priority points
 

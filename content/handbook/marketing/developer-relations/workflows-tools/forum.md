@@ -363,7 +363,7 @@ The `Only show overridden` checkbox can be helpful to see modified settings. The
 - Posting: min post/topic title length, do not allow uncategorized topics, post edit time limit, do not show edit history to public, max reply history, newuser max replies/mentions per topic, newuser max links/embedded media/max attachments
 - Email: alternative reply by email addresses
 - Files: authorized extensions, do not download remote images to local, purge deleted uploads grace period days
-- Security: Allow moderators to manage categories and groups, allowed iframes, enforce second factor for staff 
+- Security: Allow moderators to manage categories and groups, allowed iframes, enforce second factor for staff
 - Spam: Hide post sensitivity, newuser spam host threshold, max new accounts per registration ip
 - Rate Limits: rate limit new user create post
 - User Preferences: Enable mailing list mode

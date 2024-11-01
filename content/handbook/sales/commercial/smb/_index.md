@@ -85,7 +85,7 @@ Additionally, [quarterly subscription reconciliations](/handbook/support/license
 The GitLab usage phases are broken down into the following:
 
 - Implementation: 12-9 months left
-- Adoption 9-6 months left 
+- Adoption 9-6 months left
 - Expansion 6-3 months left
 - Renewal less than 3 months left
 

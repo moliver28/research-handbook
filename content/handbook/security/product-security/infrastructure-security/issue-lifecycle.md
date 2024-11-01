@@ -42,7 +42,7 @@ The first step is to ensure it is properly categorized for review by the InfraSe
 
 This might look like a very complex workflow, but we have a friendly bot that helps you set the right labels. The InfraSec team utilizes the [GitLab Triage Bot](/handbook/support/readiness/operations/docs/gitlab/triage_bot/) to automate the initial handling of security-related issues. By leveraging this bot, issues are automatically categorized, labeled, and assigned according to predefined criteria, ensuring efficient prioritization and management throughout the issue lifecycle.
 
-Configuration of the bot for InfraSec use-cases is available [here](https://gitlab.com/gitlab-com/gl-security/product-security/infrastructure-security/automation/infrasec-triage-bot/-/tree/main). 
+Configuration of the bot for InfraSec use-cases is available [here](https://gitlab.com/gitlab-com/gl-security/product-security/infrastructure-security/automation/infrasec-triage-bot/-/tree/main).
 
 ### When an issue is created
 

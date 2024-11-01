@@ -17,15 +17,15 @@ In this lab we will analyze more complex merge processes, looking specifically a
 
 ## Task A. Enabling Merge Trains
 
-1. To enable a merge train in your project, in the left sidebar, select **Settings > Merge requests**. 
+1. To enable a merge train in your project, in the left sidebar, select **Settings > Merge requests**.
 
-1. Under Merge options, click the options **Enable merged results pipeline**, **Pipelines must succeed**, and **Enable merge trains**. 
+1. Under Merge options, click the options **Enable merged results pipeline**, **Pipelines must succeed**, and **Enable merge trains**.
 
 1. At the bottom of the page, select **Save changes**.
 
 ## Task B. Running a merge train
 
-To demonstrate a merge train, let’s create a purposefully long CI/CD job. 
+To demonstrate a merge train, let’s create a purposefully long CI/CD job.
 
 1. Navigate to your project repository.
 
@@ -89,7 +89,7 @@ The current pipeline should look like this:
         - sleep 4m
   ```
 
-Adding this job will ensure that you have enough time to create two merge requests. 
+Adding this job will ensure that you have enough time to create two merge requests.
 
 To start, create your two merge requests:
 
@@ -107,7 +107,7 @@ To start, create your two merge requests:
 
 1. Leave all options as default and select **Create merge request**.
 
-1. Repeat the same process so that you have two merge requests. 
+1. Repeat the same process so that you have two merge requests.
 
 1. Once you have two merge requests, set them both to auto-merge. You will see a message stating `Set by your user to start a merge train when all merge checks pass`. Await the completion of your merge requests and verify that they merge successfully.
 
@@ -224,13 +224,13 @@ Now, let’s create two merge requests that conflict:
     }
     ```
 
-1. Commit this code to the branch and create a new merge request from it. 
+1. Commit this code to the branch and create a new merge request from it.
 
-1. Return to your `conflict` merge request and merge it into the repository. 
+1. Return to your `conflict` merge request and merge it into the repository.
 
-1. After it merges, navigate to your `conflict-2` merge request. You will now see that the merge is blocked, stating *Merge conflicts must be resolved*. 
+1. After it merges, navigate to your `conflict-2` merge request. You will now see that the merge is blocked, stating *Merge conflicts must be resolved*.
 
-1. Select the option **Resolve conflicts**. You will have the option to select either using the code in the current merge request, or using the code in main. 
+1. Select the option **Resolve conflicts**. You will have the option to select either using the code in the current merge request, or using the code in main.
 
 1. Select your preferred option, then select **Commit** to source branch.
 

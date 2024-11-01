@@ -35,7 +35,7 @@ In the current iteration, the Update Tickers contain information and updates tar
 This is the current iteration of the Update Ticker:
 
 1. **Survey**
-1. **"Skip to" anchor links** 
+1. **"Skip to" anchor links**
 1. **Content categories**
    - Leadership Priorities: High customer or business impact topics that you are expected to be aware of and action on
    - Take Action: Action that you are required to complete by a certain date
@@ -47,7 +47,7 @@ This is the current iteration of the Update Ticker:
 
 1. During the [Field Communications triage process](/handbook/sales/field-communications/#how-to-use), each Field Announcement Request is evaluated to determine if the update should  be included in the relevant Update Ticker.
 
-   - Contributions should be submitted by 12 pm PT each Wednesday to be included in the Update Ticker going out the following day (on Thursday). 
+   - Contributions should be submitted by 12 pm PT each Wednesday to be included in the Update Ticker going out the following day (on Thursday).
    - When possible, we advocate for using the Update Ticker (as opposed to #field-fyi) to reduce pings to the field and deliver news in a consolidated, predictable, and digestible format.
 
 Reach out in the #field-enablement-team Slack channel for questions/feedback, or share feedback in the survey at the top of each Update Ticker.

@@ -24,7 +24,7 @@ In the context of this working group:
 
 ### Goals
 
-The working group exists to coordinate the delivery of cross-team efforts that improve both the values and the confidence in our RTO and RPO targets. 
+The working group exists to coordinate the delivery of cross-team efforts that improve both the values and the confidence in our RTO and RPO targets.
 
 The exit criteria and target goals for the working group are defined [here](https://internal.gitlab.com/handbook/engineering/disaster-recovery/) in the internal handbook.
 

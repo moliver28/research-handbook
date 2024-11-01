@@ -5,7 +5,7 @@ description: "Continuous education webcast series for GitLab sales team members"
 
 ## Field Enablement Spotlight Sessions
 
-The Field Enablement Spotlight is a weekly continuous education series for all GitLab Sales, Customer Success, Solution Architects, Partner Ecosystem, Renewals, Professional Services & Sales Development team members. 
+The Field Enablement Spotlight is a weekly continuous education series for all GitLab Sales, Customer Success, Solution Architects, Partner Ecosystem, Renewals, Professional Services & Sales Development team members.
 
 ## Upcoming Training
 
@@ -265,7 +265,7 @@ There are a few places to see previous Sales Enablement sessions:
 
 - Alignment call to finalize topics & tentative schedule with:
   - Sr. Program Manager, Onboarding & Continuous Education (John Blevins)
-  - Director, Sales & Customer Enablement 
+  - Director, Sales & Customer Enablement
 
 - After alignment call, John Blevins to open issues for each enablement session with
   - Documentation of preliminary learning objectives, title, expected outcomes, etc.
@@ -299,12 +299,12 @@ There are a few places to see previous Sales Enablement sessions:
 
 **1 week before the start of a session**
 
-- Confirm speaker content readiness, calls to action, and communications plans. 
-- Send a report via Slack on the current week's session attendance and a preview of the following week's session to regional leaders via the #field-enablement-team channel. 
+- Confirm speaker content readiness, calls to action, and communications plans.
+- Send a report via Slack on the current week's session attendance and a preview of the following week's session to regional leaders via the #field-enablement-team channel.
 
 **Week of the start of a session**
 
-- Communications will be sent out on Slack via #sales, #customer-success & the current #sales-quick-start cohort. 
+- Communications will be sent out on Slack via #sales, #customer-success & the current #sales-quick-start cohort.
 - Change the recurring meeting title from the placeholder **"Field Enablement Spotlight"** to show the topic of the week.
   - For example, to drive attendance a calendar email update is sent to the entire field sales organization each week indicating the new topic, i.e **"Field Enablement: Competitive Intelligence Update."**
 - Update the [Spotlight Notes & Agenda document](https://docs.google.com/document/d/1hEFNxrjZYgM7GTrV47R6KLkP4AmTe-Mg_Rkr_snTOtw/edit?usp=sharing) with details for the weekly topic including presenter(s), learning objectives, resources, calls to action & notes.
@@ -313,7 +313,7 @@ There are a few places to see previous Sales Enablement sessions:
 
 Field Enablement Spotlight sessions are scheduled on the [Sales Enablement calendar](https://calendar.google.com/calendar/embed?src=gitlab.com_5n3g60l58thum9aovp8iisav34%40group.calendar.google.com&ctz=America%2FLos_Angeles) so that everyone on the Sales and Customer Enablement and PMM team has the ability to edit the calendar event.
 
-Whenever possible, two options for each weekly Spotlight session will be held to accomidate GitLab's global field sales audience. 
+Whenever possible, two options for each weekly Spotlight session will be held to accomidate GitLab's global field sales audience.
 
 - **(Option 1) 11:00a (US Eastern Time)(UTC -4)** = (8 AM Pacific Time) = (5 PM Central European Time)
 
@@ -379,7 +379,7 @@ The moderator should serve as the host of the call and overall wingperson for th
 - Add session recording to the [Field Enablement Spotlight: Continuous Education at GitLab](https://gitlab.highspot.com/items/6480e56aff37cbf397ac752f) Highspot page.
 - Promote the recorded session availability on #sales & #customer-success Slack channels.
 - Check the zoom meeting report & record the number of total attendees as a comment in the issue.
-- Update the quarterly Spotlight attendace report with .csv attendance report from zoom to show attendance by region, department, and leader. 
+- Update the quarterly Spotlight attendace report with .csv attendance report from zoom to show attendance by region, department, and leader.
 
 ## Additional Enablement Pages
 

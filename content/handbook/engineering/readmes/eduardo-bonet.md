@@ -8,9 +8,9 @@ description: "Read Me for Eduardo Bonet"
 
 I am classified as a [Virtuoso](https://www.16personalities.com/) according the personality types, and I feel it matches pretty well my style.
 
-I am a generalist: in the past, I've worked professionally as an Android Developer, Fullstack Developer, Data Scientist, Machine learning engineer and at GitLab as Incubation Engineer for MLOps. 
+I am a generalist: in the past, I've worked professionally as an Android Developer, Fullstack Developer, Data Scientist, Machine learning engineer and at GitLab as Incubation Engineer for MLOps.
 
-I enjoy organizing events to get people together, like the [AI Learning Group](https://gitlab.com/gitlab-org/ai-powered/custom-models/custom-models/-/issues/32), or simply going to a pub. In the past I organized multiple meetups. 
+I enjoy organizing events to get people together, like the [AI Learning Group](https://gitlab.com/gitlab-org/ai-powered/custom-models/custom-models/-/issues/32), or simply going to a pub. In the past I organized multiple meetups.
 
 I am also a member of the [Dutch Workers Council](https://internal.gitlab.com/handbook/legal-and-corporate-affairs/legal-and-compliance/netherlands/).
 

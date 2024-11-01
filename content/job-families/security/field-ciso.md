@@ -47,7 +47,7 @@ All responsibilities listed above (applicalbe to all roles) plus:
 - Own CISO, CSO, and/or chief security architect relationships in key accounts while providing credible, leading-edge security guidance to help orchestrate their desired outcomes
 - Assist account teams with GitLab product security and compliance expertise in order to drive ARR for GitLab while also providing direction on opportunity and account strategies related to selling and expanding with security (e.g., up-tier)
 - Act as a prospect / customer advocate on security related matters
-- Develops field enablement content including demos of GitLab security features 
+- Develops field enablement content including demos of GitLab security features
 - Curate and manage security related field feedback, while collaborating with the product team on issue prioritization
 - Contribute to security sales strategy and playbooks in while collaborating with marketing and product teams
 - Scale and grow regional-level expertise within the field (SAE/AE,SA,CSM) through contributions to enablement and content

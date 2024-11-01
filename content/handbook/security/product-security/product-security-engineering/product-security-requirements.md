@@ -164,7 +164,7 @@ A sunset roadmap describes the phases and steps needed to move functionality fro
     1. Identify the stakeholders that use the tool and involve them early - they can point you to relevant context quickly, and might need to remain informed of sunsetting efforts.
     1. The gap analysis might identify requirements that neither the tooling nor GitLab currently meet. These don't need to be added to the Sunset Roadmap.
 1. Identify any GitLab issues and/or architectural blueprints that describe plans the product team might have for GitLab functionality
-1. Segment the work into "phases". 
+1. Segment the work into "phases".
     1. Each phase has the steps needed to move a piece of functionality into GitLab. It will include at least two steps: adding to GitLab, and removing from the custom tooling
     1. Link to existing issues, epics, blueprints
     1. Each phase should state "This phase is complete when ...".

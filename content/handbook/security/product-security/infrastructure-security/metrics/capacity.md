@@ -5,7 +5,7 @@ description: "This page provides an overview of how we measure the team's capaci
 
 ## Overview
 
-This page provides an overview of how we measure the team's capacity to effectively handle current workloads and plan for future needs. By collecting and analyzing this data, we can make informed decisions regarding the team's capacity and headcount requirements. 
+This page provides an overview of how we measure the team's capacity to effectively handle current workloads and plan for future needs. By collecting and analyzing this data, we can make informed decisions regarding the team's capacity and headcount requirements.
 
 Additionally, this page includes information on the type of work classification and effort classification. The type of work classification helps us identify areas where additional capacity or other changes may be necessary. It provides a detailed breakdown of different types of work associated with the InfraSec team, such as stable counterpart duties, threat model duties, merge request reviews, and more.
 

@@ -43,13 +43,13 @@ In order to target leaders and decision-makers on accounts, three types of users
 
 ## **Viewing CSAT Survey Results**
 
-Each CSAT is owned by different teams. Please see the child pages above for links to dashboards. 
+Each CSAT is owned by different teams. Please see the child pages above for links to dashboards.
 
 ## **Deprecated Surveys**
 
 ### **\[DEPRECATED\] Net Promoter Score Survey (NPS)**
 
-**What is NPS?** 
+**What is NPS?**
 
 Net Promoter Score is a [standardized](https://en.wikipedia.org/wiki/Net_promoter_score) numerical value from 1 to 10\. It is NOT a determination of customer health. It is NOT a method of pinpointing specific product issues.
 

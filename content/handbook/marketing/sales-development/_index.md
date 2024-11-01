@@ -193,7 +193,7 @@ You will find the lead views below. These views are split per use-case for your 
 | FY25 B5 - My Qualifying Leads          | These are leads in qualifying status which means some sort of two-way engagement happened between you two. Please review this section of our handbook for best converting follow-up practices.                                                                                                                                                                                                                          |
 | FY25 B6 - 6QA imported leads           | You can find any leads in your ownership related to accounts that have just hit 6QA status in this view. 6QA means the account has been shown to have high intent signals and has similar signs to other accounts that have purchased from us. We have brought in appropriate titles from ZoomInfo so that when you move the 6QA account into Actively Working, you have some leads all ready for sequencing.                                                                  |
 | FY25 B7 - BDR Prospecting Last 7 Days  | This view will surface leads that you created or refreshed from ZoomInfo or Cognism. (Please note that there is also a contacts view you will need to check should the person already be a contact in our system)                                                                                                                                                                                                                 |
-| FY25 B8 - UG changes - less than 3 months   | This view will surface leads that were automatically created by UserGems for job changed that happened in the last 3 months. | 
+| FY25 B8 - UG changes - less than 3 months   | This view will surface leads that were automatically created by UserGems for job changed that happened in the last 3 months. |
 | FY25 B9 - UG changes - more than 3 months | This view will surface leads that were automatically created by UserGems for job changed that happened more than 3 months ago. |
 
 #### Contact Views
@@ -209,8 +209,8 @@ You will find the lead views below. These views are split per use-case for your 
 
 | View                                         | Description                                                                                                                                       |
 |----------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------|
-| B1 - All Accounts in Territory (Clone).                          | List of all of your accounts where you are the BRD assigned | 
-| B2 - My Actively Working accounts (Clone)     | List of "Actively Working" accounts where you are the BDR assigned.                                                                     |                                                                
+| B1 - All Accounts in Territory (Clone).                          | List of all of your accounts where you are the BRD assigned |
+| B2 - My Actively Working accounts (Clone)     | List of "Actively Working" accounts where you are the BDR assigned.                                                                     |
 | B3 - BDR Recycle Date Past due (Clone)       | Show AWA accounts where the Recycle Date is in the past two weeks.                                                                                |
 | B5 - Mvd to "WorkedinFY" this week (Clone)  | Show Worked in FY accounts with a recent Recycle Date. |
 
@@ -866,7 +866,7 @@ There will be times when an SDR or BDR is working a prospect and, after connecti
 
 - If the SDR or BDR has done their due diligence to verify account information and still ends up finding an opportunity outside of their territory: as long as the related account isn't an AWA and there is no related activity from an SDR in the past 30 days, and the SDR or BDR's manager has verified that the accurate information could not have been uncovered prior to engaging with the prospect, then that SDR or BDR and their team will get SAO credit.
 - If the related account is an AWA or there is related activity from an SDR in the past 30 days, SAO credit will belong to the BDR assigned to the AWA or the SDR working the lead related to the account.
-- If the related account isn't an AWA and there is no related activity from an SDR in the past 30 days, but the SDR or BDR's manager determines that the accurate information should have been uncovered prior to engaging with the prospect, SAO credit will be assigned to the team manager assigned to the correct territory. 
+- If the related account isn't an AWA and there is no related activity from an SDR in the past 30 days, but the SDR or BDR's manager determines that the accurate information should have been uncovered prior to engaging with the prospect, SAO credit will be assigned to the team manager assigned to the correct territory.
 - Any other situations that arise which result in a credit dispute will be investigated and resolved by the SDR or BDR's leader and senior leader.
 
  **In situations where an SDR or BDR has received conflicting information and it is unclear what the correct territory is for an account, they should Chatter the AEs assigned to the potential territories and have them figure out who owns it.**
@@ -1077,7 +1077,7 @@ This page is to act as your guide to the many tools and best practices that the 
 
 #### Groove
 
-Read more about [Groove here](handbook/marketing/marketing-operations/groove/) 
+Read more about [Groove here](handbook/marketing/marketing-operations/groove/)
 
 #### ZoomInfo
 
@@ -1118,7 +1118,7 @@ Read more about [Groove here](handbook/marketing/marketing-operations/groove/)
 
 #### 6Sense 6QA Automations
 
-We currently have in place an automation that will automatically move accounts that reach 6QA status from 6Sense to SFDC. These accounts will be marked for BDR review on the [1:1 Dashboards](/handbook/marketing/sales-development/#11-account-and-lead-level-dashboard-coaching-guidance) under report 0. 
+We currently have in place an automation that will automatically move accounts that reach 6QA status from 6Sense to SFDC. These accounts will be marked for BDR review on the [1:1 Dashboards](/handbook/marketing/sales-development/#11-account-and-lead-level-dashboard-coaching-guidance) under report 0.
 
 ##### BDR Team Process
 
@@ -1126,18 +1126,18 @@ We currently have in place an automation that will automatically move accounts t
   - `BDR Prospecting Status: Actively Working`
   - `BDR Account Strategy: Showing Intent`
 - These Accounts will be flagged on 1:1 dashboards for team members to review with an expected SLA of **48 hours**
-- Any accounts that team members choose to dispute using the instructions below will be flagged to the Action Needed dashboards for Managers to keep track of. 
-- While these accounts are automatically switched to Actively Working to indicate the high propensity to buy, team members need to still review and accept or dispute a 6QA account. 
+- Any accounts that team members choose to dispute using the instructions below will be flagged to the Action Needed dashboards for Managers to keep track of.
+- While these accounts are automatically switched to Actively Working to indicate the high propensity to buy, team members need to still review and accept or dispute a 6QA account.
 - This can be done through a secondary field titled `6QA Acceptance Status` where the options `Disputed` (would need to provide reasoning) or `Accepted` can be found.
 - Any accounts that marked as `Accepted` by the BDR team will be flagged on the [MM/ENTG saved search on ZoomInfo](https://app.zoominfo.com/#/apps/searchV2/v2/results/person?query=eyJmaWx0ZXJzIjp7InBhZ2UiOjEsImNvbXBhbnlQYXN0T3JQcmVzZW50IjoiMSIsImlzQ2VydGlmaWVkIjoiaW5jbHVkZSIsInNvcnRCeSI6IlJlbGV2YW5jZSIsInNvcnRPcmRlciI6ImRlc2MiLCJleGNsdWRlRGVmdW5jdENvbXBhbmllcyI6dHJ1ZSwiY29uZmlkZW5jZVNjb3JlTWluIjo4NSwiY29uZmlkZW5jZVNjb3JlTWF4Ijo5OSwib3V0cHV0Q3VycmVuY3lDb2RlIjoiVVNEIiwiaW5wdXRDdXJyZW5jeUNvZGUiOiJVU0QiLCJleGNsdWRlTm9Db21wYW55IjoidHJ1ZSIsInJldHVybk9ubHlCb2FyZE1lbWJlcnMiOmZhbHNlLCJleGNsdWRlQm9hcmRNZW1iZXJzIjp0cnVlLCJzY29yaW5nT3B0aW9ucyI6IntcImlkXCI6XCJaUmhSeWJtUHIxMGU2cEVQVDVBcVwiLFwib25seUNvbnRhY3RGaWx0ZXJzXCI6ZmFsc2V9Iiwic291cmNlSWQiOiJBTlVSQSIsInRpdGxlU2VuaW9yaXR5IjoiQ19FWEVDVVRJVkVTLFZQX0VYRUNVVElWRVMsRElSRUNUT1IiLCJ3b3JrRXhwZXJpZW5jZUpvaW5PcGVyYXRvciI6Ik9SIiwicnBwIjoyNSwiZGVwYXJ0bWVudHMiOiJJbmZvcm1hdGlvbiBUZWNobm9sb2d5LEVuZ2luZWVyaW5nICYgVGVjaG5pY2FsLEMtU3VpdGUiLCJoYXNNb2JpbGVQaG9uZSI6ImluY2x1ZGUiLCJDRi1zYWxlc2ZvcmNlLWFjY291bnQtMTAyIjp7ImluY2x1ZGUiOnsicGxhdGZvcm0iOiJzYWxlc2ZvcmNlIiwiZW50aXR5IjoiYWNjb3VudCIsImZpZWxkTmFtZSI6IjEwMiIsImlkTGlzdCI6WyI0MDU5OXg0NG0xYXl1YWR4Il0sImlzSW5jbHVkZSI6dHJ1ZX19LCJoYXNFbWFpbCI6ImluY2x1ZGUifSwic2VhcmNoVHlwZSI6MH0%3D) which in turn will trigger the [ZoomInfo workflow here](https://app.zoominfo.com/#/apps/automate/workflow/overview/65fdc8011c3ae1ac2cbef07b/completed) to automatically bring relevant decision-makers for these accounts to the [B6 - 6QA view on SFDC.](/handbook/marketing/sales-development/#bdr-lead-views).
 - This is a complementary automation for the outbound team to automatically source some prospects for you. you are still expected to properly add the account to your pipeline following the steps outlined above.  
 
 ##### SDR Hold Accounts
 
- For the SDR team, we have implemented a proces to ensure that the automated flagging of accounts as Actively Working, as described above, does not interfere with regular inbound MQL lead routing. 
+ For the SDR team, we have implemented a proces to ensure that the automated flagging of accounts as Actively Working, as described above, does not interfere with regular inbound MQL lead routing.
 
-- By placing accounts on SDR Hold for 14 days, we reserve non-FO available and non-Compensation Target Accounts for SDRs, giving them the opportunity to work leads with new LIMs (Lead Intent Matches) related to those accounts. 
-- After 14 days, the system automatically checks for open opportunities within the last 30 days. If there are no opportunities, the SDR Hold status is lifted, and the account’s BDR Prospecting Status is updated to Actively Working with the BDR Account Strategy set to Showing Intent. 
+- By placing accounts on SDR Hold for 14 days, we reserve non-FO available and non-Compensation Target Accounts for SDRs, giving them the opportunity to work leads with new LIMs (Lead Intent Matches) related to those accounts.
+- After 14 days, the system automatically checks for open opportunities within the last 30 days. If there are no opportunities, the SDR Hold status is lifted, and the account’s BDR Prospecting Status is updated to Actively Working with the BDR Account Strategy set to Showing Intent.
 - The system also checks for MQLs in the last 30 days, and Slack alerts are sent to the BDR to accept or reject the account, with the account showing up in the SFDC view for further action.
 - Leads will normally show up on the [S1 view](handbook/marketing/sales-development/#sdr-lead-views) to align with the standard [inbound process](/handbook/marketing/sales-development/#how-to-action-your-leads)
 
@@ -1167,13 +1167,13 @@ This is where you can find messaging related to GitLab vs some of our competiors
 
 #### 1. When a person that we are tracking leaves their current place of employment
 
-- UserGems will track that person to their new role and will automatically create a lead with their new details in our system. 
+- UserGems will track that person to their new role and will automatically create a lead with their new details in our system.
 - These leads will be flagged on the [Action Needed BDR/SDR dashboards](/handbook/marketing/sales-development/#our-sfdc-dashboards) for you and your manager's review, on the [S1 HP view for SDRs](/handbook/marketing/sales-development/#sdr-lead-views) as well as on the [B8 and B9 views for BDRs.](/handbook/marketing/sales-development/#bdr-lead-views)
-- We expect that our [standard RoE](/handbook/marketing/sales-development/#rules-of-engagement-roe) will be followed normally in actioning these leads. In case of wrong lead assignments, please follow the standard [SFDC Chatter process](/handbook/marketing/sales-development/#chatter-guide-for-troubleshooting) or locate the `Re-Run Traction Complete` checkbox on the lead's record and check it after having updated the lead's information. 
+- We expect that our [standard RoE](/handbook/marketing/sales-development/#rules-of-engagement-roe) will be followed normally in actioning these leads. In case of wrong lead assignments, please follow the standard [SFDC Chatter process](/handbook/marketing/sales-development/#chatter-guide-for-troubleshooting) or locate the `Re-Run Traction Complete` checkbox on the lead's record and check it after having updated the lead's information.
 - After having reassigned the lead on SFDC, it is the new owner's responsibility to manually remove and re-enroll the lead into the appropriate Groove Flow.
 - After reviewing these leads, the team member needs to make a decision on whether they will action the individual lead by itself, or proceed to add the entire account to their outbound pipeline. The table at the end of these steps can be used as a reference when making this choice.
-- If the team member decides to follow the [Outbound Process](/handbook/marketing/sales-development/#how-to-follow-our-fo-outbound-process) for the entire Account that the lead connects to. Please ensure that the `BDR Account Research` field will include a clear note of the keyword `UserGems` for tracking purposes. 
-- In any scenario, these leads will also be automatically enrolled to a Groove flow either if the job change occured [more](https://groove.clari.com/flows/1124150) or [less](https://groove.clari.com/flows/1122335) than 90 days ago. Both flows start with a manual task to check the validity of the lead (ie. is their new company a current customer?) that need to be completed by the team member. If the person should not be part of the flow for any reason, the team member should complete task 1 and then remove the person from the flow. Do note that upon spot checking, even if a person was not eligible for prospecting efforts, we'll still make sure that the right action (ie. a one-off email) has been taken by the team member. 
+- If the team member decides to follow the [Outbound Process](/handbook/marketing/sales-development/#how-to-follow-our-fo-outbound-process) for the entire Account that the lead connects to. Please ensure that the `BDR Account Research` field will include a clear note of the keyword `UserGems` for tracking purposes.
+- In any scenario, these leads will also be automatically enrolled to a Groove flow either if the job change occured [more](https://groove.clari.com/flows/1124150) or [less](https://groove.clari.com/flows/1122335) than 90 days ago. Both flows start with a manual task to check the validity of the lead (ie. is their new company a current customer?) that need to be completed by the team member. If the person should not be part of the flow for any reason, the team member should complete task 1 and then remove the person from the flow. Do note that upon spot checking, even if a person was not eligible for prospecting efforts, we'll still make sure that the right action (ie. a one-off email) has been taken by the team member.
 - If you'd like to iterate on these flows please follow the content creation process outlined [here.](/handbook/marketing/sales-development/#new-outreach-sequenceworkflow-creation)
 - We'll also notify you via Slack and email about these Job Changes.
 - Generation of pipeline from these efforts is tracked on our [Pipeline Progress Dashboard on SFDC](https://gitlab.my.salesforce.com/01Z8X000000u6mP?)
@@ -1189,7 +1189,7 @@ This is where you can find messaging related to GitLab vs some of our competiors
 #### 2. When a company that we are tracking gets a new hire or promotion
 
 - These people will be automatically be enrolled to a [fully automated sequence](https://groove.clari.com/flows/1124157).  
-  - We expect that our [standard RoE](/handbook/marketing/sales-development/#rules-of-engagement-roe) will be followed normally. 
+  - We expect that our [standard RoE](/handbook/marketing/sales-development/#rules-of-engagement-roe) will be followed normally.
 
 #### 3. When people leave or join accounts where we have open oppourtunities
 
@@ -1203,7 +1203,7 @@ This is where you can find messaging related to GitLab vs some of our competiors
 #### Manager Tool Certification
 
 We have an end-to-end process and tool walkthrough that walks manager through all the knowledge and information they need to know to be able to use our tech stack, both for inbound and outbound processes. The full walkthrough of this training is [documented on the issue here](https://gitlab.com/gitlab-com/marketing/sales-development/-/issues/401). Moreover, abbreviated notes of the training can be [found here](https://docs.google.com/document/d/1chOoHvwk-dSsAwoloZhdGiJJoFz0yjjq07kOYmzQUvQ/edit).
-Our training playlist can [be found here](https://www.youtube.com/playlist?list=PL05JrBw4t0KpFZmMd8LLfqkcXr9lotTAb) 
+Our training playlist can [be found here](https://www.youtube.com/playlist?list=PL05JrBw4t0KpFZmMd8LLfqkcXr9lotTAb)
 
 #### General leadership principles
 
@@ -1855,7 +1855,7 @@ The Sales Development Organization believes in getting the job done (consistentl
 
 The sections below will provide more details as to the performance management process on quota attainment as well as our [Three Pillars](./handbook/marketing/sales-development/#our-three-pillars) and KPIs/SLAs for Inbound Leads and Outbound Account management. While regular coaching is expected on weekly 1:1s, informal performance management will be initiated if a ramped XDR has two consecutive months below 80% attainment (SAOs, Stage 1 XDR Net ARR or Stage 3 Net ARR).
 
-#### For SAOs and Stage 1 XDR Net ARR 
+#### For SAOs and Stage 1 XDR Net ARR
 
 Once the XDR is informed, expectations will be:
 
@@ -1863,7 +1863,7 @@ Once the XDR is informed, expectations will be:
 - Month 2: 80% target + [Three Pillars](./handbook/marketing/sales-development/#our-three-pillars)
 - Month 3 and beyond: 100% Stage 1 XDR Net ARR target + [Three Pillars](./handbook/marketing/sales-development/#our-three-pillars)
 
-Should the XDR fall short of the targets above, a formal warning will be issued. 
+Should the XDR fall short of the targets above, a formal warning will be issued.
 After the formal warning is issued if the XDR falls short of targets again, additional disciplinary actions could be taken up to and including termination.
 
 #### For Stage 3 Net ARR
@@ -1876,7 +1876,7 @@ The process will however stay the same: once the BDR is informed, expectations w
 - Month 2: 90% target + [Three Pillars](./handbook/marketing/sales-development/#our-three-pillars)
 - Month 3 and beyond: 100% Stage 1 Net ARR target + [Three Pillars](./handbook/marketing/sales-development/#our-three-pillars)
 
-Should the XDR fall short of the targets above, a formal warning will be issued. 
+Should the XDR fall short of the targets above, a formal warning will be issued.
 After a  formal warning is issued if the BDR falls short of targets, additional disciplinary actions could be taken up to and including termination.
 
 ### Our Three Pillars
@@ -1906,7 +1906,7 @@ The below apply for all inbound-related leads for both the SDR and BDR teams:
 | Low vs High Touch Sequence Usage    | - Over 70% of inbound leads enrolled to High Touch sequences.        |
 | Inbound pasks past due per day        | - No more than 10% of tasks pending per day. <br> - 90% of tasks to be properly completed, not skipped. <br>                       |
 | Two way conversations           | - 50 per week.        |
-| UserGems inbound leads actioning | 15 minutes for actioning inbound leads, 24 business hours to convert to Actively Working Account if necessary. | 
+| UserGems inbound leads actioning | 15 minutes for actioning inbound leads, 24 business hours to convert to Actively Working Account if necessary. |
 
 #### Outbound Account Management
 
@@ -1917,7 +1917,7 @@ In addition to the above, BDR team members are expected to:
 | Volume of Actively Working Accounts per Quarter               | **- Enterprise:** <br> - 75 AWA'd accounts per BDR per Quarter, measured per Actively Working Start Date. <br> - 65 6QAd accounts per Quarter, per BDR. <br> **- Mid-Market:** <br> - 125 AWA'd accounts per BDR per Quarter, measured per Actively Working Start Date. <br> - 25 6QA'd accounts per Quarter, per BDR.  |
 | Research Quality            | >80% usage of Intent tools on AWA'd accounts, with high propensity to purchase indicators showed. |
 | Volume of Prospects per Account | 5-10 prospects sequenced per account, whose titles and personas match our ICPs. |
-| 6QA Account Review | All automatically 6QA'd accounts to be reviewed, and either accepted or rejected, within 48 hours. | 
+| 6QA Account Review | All automatically 6QA'd accounts to be reviewed, and either accepted or rejected, within 48 hours. |
 
 ### PTO and Flexible Working
 

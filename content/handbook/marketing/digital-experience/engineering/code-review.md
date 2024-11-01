@@ -15,7 +15,7 @@ Every reviewer at GitLab must strive for our [reviewer values](/handbook/marketi
 
 ## Getting your merge request reviewed, approved, and merged
 
-### Acceptance Checklist 
+### Acceptance Checklist
 
 This checklist encourages the authors, reviewers, and maintainers of merge requests (MRs) to confirm changes were analyzed for high-impact risks to quality, performance, reliability, security, observability, and maintainability.
 
@@ -55,9 +55,9 @@ Ensure the issues being referenced are correctly tagged and updated.
 
 All GitLab engineers can, and are encouraged to, perform a code review on merge requests of colleagues and community contributors. If you want to review merge requests, you can wait until someone assigns you one, but you are also more than welcome to browse the list of open merge requests and leave any feedback or questions you may have. Note that while all engineers can review all merge requests, the ability to *accept* merge requests is restricted to maintainers.
 
-You can find someone to review your merge requests by: 
+You can find someone to review your merge requests by:
 
-1. Looking on the list of [GitLab Digital Experience Team Members](/handbook/marketing/digital-experience/#team-members). 
+1. Looking on the list of [GitLab Digital Experience Team Members](/handbook/marketing/digital-experience/#team-members).
 2. Utilizing Reviewer Roulette which will drop suggestion(s) for both a maintainer an reviewer currently available on our team. The suggestion will be listed as on comment on the change associated with your MR *Reviewer Roulette is only availble for the Buyer Experience project*
 3. Utilizing the [Gitlab Review Workload Dashboard](https://gitlab-org.gitlab.io/gitlab-roulette/?currentProject=buyer-experience) this will randomly select a maintainer and reviewer for you *Gitlab Review Workload Dashboard is only availble for the Buyer Experience project*
 
@@ -90,7 +90,7 @@ and get on with their work quickly. Remove yourself as a reviewer.
 Of course, if you are out of office and have
 [communicated](/handbook/people-group/paid-time-off/#communicating-your-time-off)
 this through your GitLab.com Status, authors are expected to realize this and
-find a different reviewer themselves. 
+find a different reviewer themselves.
 
 When a merge request author has been blocked for longer than
 the `Review-response` SLO, they are free to remind the reviewer through Slack or add
@@ -106,4 +106,4 @@ As the author of an MR you should reassign to another reviewer or maintainer if 
 
 Some GitLab projects use GitLab's [CODEOWNERS file feature](https://docs.gitlab.com/ee/user/project/codeowners/) to manage approvals for specific file paths and types. In the `digital-experience/buyer-experience` project, [we use a combination of CODEOWNERS approval rules plus MR approval settings](https://docs.gitlab.com/ee/development/code_review.html#merging-a-merge-request) in order to follow segregation of duties best practices. This section describes the process for updating the eligible approvers for CODEOWNERS changes for the `digital-experience/buyer-experience` project.
 
-The Code Owners for the [CODEOWNERS file](https://gitlab.com/gitlab-com/marketing/digital-experience/buyer-experience/-/blob/main/.gitlab/CODEOWNERS) itself are managed with a rule in the file. 
+The Code Owners for the [CODEOWNERS file](https://gitlab.com/gitlab-com/marketing/digital-experience/buyer-experience/-/blob/main/.gitlab/CODEOWNERS) itself are managed with a rule in the file.

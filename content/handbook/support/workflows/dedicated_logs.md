@@ -155,7 +155,7 @@ To find all logs where the HTTP response status code is in the [4xx client error
 
 #### Filter by correlation ID
 
-GitLab instances log a unique request tracking ID (known as the “correlation ID”) for most requests. An important part of troubleshooting problems in GitLab is [finding relevant log entries with a correlation ID](https://docs.gitlab.com/ee/administration/logs/tracing_correlation_id.html). Opensearch permits filtering by correlation ID. You may retrieve the correlation ID from information provided by the customer or from looking through Opensearch logs. 
+GitLab instances log a unique request tracking ID (known as the “correlation ID”) for most requests. An important part of troubleshooting problems in GitLab is [finding relevant log entries with a correlation ID](https://docs.gitlab.com/ee/administration/logs/tracing_correlation_id.html). Opensearch permits filtering by correlation ID. You may retrieve the correlation ID from information provided by the customer or from looking through Opensearch logs.
 
 To show all log entries for a specific correlation ID, you can:
 

@@ -7,7 +7,7 @@ View the Renewals Manager handbook pages:
 - [Home](/handbook/customer-success/renewals-managers/home) - Information about the organization.
 - [What we do](/handbook/customer-success/renewals-managers/what) - Information about what tasks and activities renewals managers perform.
 
-Renewals Managers --> visit the internal handbook [page](https://internal.gitlab.com/handbook/sales/go-to-market/renewals/) and [Highspot](https://gitlab.highspot.com/items/65831c38686f413428300ccd?lfrm=isd.9) for more information. 
+Renewals Managers --> visit the internal handbook [page](https://internal.gitlab.com/handbook/sales/go-to-market/renewals/) and [Highspot](https://gitlab.highspot.com/items/65831c38686f413428300ccd?lfrm=isd.9) for more information.
 
 ---
 

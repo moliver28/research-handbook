@@ -21,7 +21,7 @@ TODO: Need to detail what exactly is the process to add SMEs to StackOverFlow
 
 ## SME Google Groups
 
-Each SA Area Lead should set up SA and CS SME Google Groups for calendars. Have also both SA program Leads owners also, as a backup in case SA Area Lead is OOO 
+Each SA Area Lead should set up SA and CS SME Google Groups for calendars. Have also both SA program Leads owners also, as a backup in case SA Area Lead is OOO
 
 Use list of [SA SMEs](/handbook/solutions-architects/sa-practices/subject-matter-experts/#sme-list) and [CS SMEs](https://gitlab.com/gitlab-com/customer-success/subject-matter-experts/cs-subject-matter-experts/-/tree/main#who-are-the-current-smes-and-what-areas-are-they-focused-on) to form Groups
 

@@ -10,43 +10,43 @@ participating-stages: []
 toc_hide: true
 ---
 
-We require that all communication between services and both parties are identified 
+We require that all communication between services and both parties are identified
 and verified as identified in threat modelling exercises.
 
-Mutual TLS fits this requorement this document is a work in progess and represents 
+Mutual TLS fits this requorement this document is a work in progess and represents
 a early discussions of exploring mTLS as an option for authentication between services
 
 ## Goals
 
 The purpose of implementing mutual TLS (mTLS) is to ensure all communication
-between services is secure and both parties identities are verified. This 
-enhances overall system security by mitigating risks associated with 
-unauthorized access and data interception. All services that communicate with 
-each other should use mTLS where it's feasible to do so as a secure 
+between services is secure and both parties identities are verified. This
+enhances overall system security by mitigating risks associated with
+unauthorized access and data interception. All services that communicate with
+each other should use mTLS where it's feasible to do so as a secure
 authentication mechanism
 
 1. **Scope**
-    
-    mTLS secures CDNs and load balancers to their backends and secures communication 
-    between internal services. But it doesn't secures communication from outside 
-    clients to GitLab services. Communication between services inside a cell and those 
+
+    mTLS secures CDNs and load balancers to their backends and secures communication
+    between internal services. But it doesn't secures communication from outside
+    clients to GitLab services. Communication between services inside a cell and those
     outside a cell should be considered and discussed separately as the requirements
     are likely to be very different.
 
 1. **Technology**
-    
-    The certificate authority should be able to be integrated with a CDN provider, 
-    Kubernetes, Runway and cloud managed load balancers/services that support mTLS. 
-    Recommending using a Docker sidecar where feasible. Existing open source 
+
+    The certificate authority should be able to be integrated with a CDN provider,
+    Kubernetes, Runway and cloud managed load balancers/services that support mTLS.
+    Recommending using a Docker sidecar where feasible. Existing open source
     software or cloud provided mechanisms should be used for managing certificates
 
 1. **Ease of use.**
 
-    The management of mTLS should be able to be handled transparently to developers 
+    The management of mTLS should be able to be handled transparently to developers
 
 1. **Authorization**
 
-    Using mTLS headers as an option for authorization as well as authentication should 
+    Using mTLS headers as an option for authorization as well as authentication should
     be considered
 
 ## Requirements

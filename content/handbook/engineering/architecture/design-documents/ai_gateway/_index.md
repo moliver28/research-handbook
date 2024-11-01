@@ -539,31 +539,31 @@ Further testing strategy is being discussed in
 
 ### Self-hosted deployment of AI Gateway
 
-Customers within self-hosted environments can also deploy a self-hosted 
-version of AIGW, enabling usage of Duo features even within airgapped 
-solutions, including those requiring FedRAMP compliance. This approach 
-allows us to serve sophisticated customers capable of managing their 
-own LLM infrastructure, providing them with more control and flexibility. 
-Instructions on how to setup AIGW on self-managed are found in 
+Customers within self-hosted environments can also deploy a self-hosted
+version of AIGW, enabling usage of Duo features even within airgapped
+solutions, including those requiring FedRAMP compliance. This approach
+allows us to serve sophisticated customers capable of managing their
+own LLM infrastructure, providing them with more control and flexibility.
+Instructions on how to setup AIGW on self-managed are found in
 our [docs](https://docs.gitlab.com/ee/administration/self_hosted_models/install_infrastructure.html).
 
 While this adds another component to be installed, the alternative would be
-to implement a model interface in the monolith. This presents serveral 
+to implement a model interface in the monolith. This presents serveral
 challenges, including:
 
-- Need to reimplement in Ruby all libraries that exist in Python for LLM handling 
-- Duplicate codebases and maintainance 
+- Need to reimplement in Ruby all libraries that exist in Python for LLM handling
+- Duplicate codebases and maintainance
 - Lack of feature parity between self-hosted and `.com`
 - Difficult logging and tracing for self-hosted customers
 
 Relying on AI Gateway for both self-hosted and `.com` environments on the other hand
-centralizes the infrastructure challenges and solution when dealing with interfacing 
+centralizes the infrastructure challenges and solution when dealing with interfacing
 with LLMs.
 
 #### AI Gateway and GitLab version matching
 
-Customers need a clear indication of which AIGW version is compatible to their GitLab instance. 
-Since AI Gateway deploument is not managed by Omnibus/GNG, we achieve this by providing image tags 
+Customers need a clear indication of which AIGW version is compatible to their GitLab instance.
+Since AI Gateway deploument is not managed by Omnibus/GNG, we achieve this by providing image tags
 for each GitLab version: an AIGW image with TAG `gitlab-17.2-ee` is compatible with GitLab version `17.2-ee`.
 
 [More discussion on versioning](https://gitlab.com/gitlab-org/modelops/applied-ml/code-suggestions/ai-assist/-/issues/579)

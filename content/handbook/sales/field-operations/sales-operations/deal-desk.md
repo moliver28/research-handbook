@@ -296,7 +296,7 @@ If you choose to add Annual Payments to a quote, please keep in mind the followi
 1. On a New Business quote, Initial Term must equal 24, 36, 48, or 60. On a Renewal quote, Renewal Term must equal 24, 36, 48, or 60.
 2. All quotes with Annual Payments must use the "1 Year" Product SKU. You will see an error message if you select Annual Payments and anything other than the 1 Year SKU.
 3. All opportunities with Annual Payments should have "Annual Payments" selected in the "Billing Schedule" field.
-4. You may not convert a prepaid deal to Annual Payments via Add-On/Amendment quote, or vice versa. Add-Ons will always follow the original billing.payment schedule. 
+4. You may not convert a prepaid deal to Annual Payments via Add-On/Amendment quote, or vice versa. Add-Ons will always follow the original billing.payment schedule.
 
 #### Contact Requirements
 

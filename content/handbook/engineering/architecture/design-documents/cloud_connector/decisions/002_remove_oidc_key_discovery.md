@@ -34,7 +34,7 @@ The proposed solution increases the stability of the Cloud Connector authenticat
 
 Trade-offs:
 
-- We will have to update all Cloud Connector backend service code repositories and redeploy them whenever we rotate keys. 
+- We will have to update all Cloud Connector backend service code repositories and redeploy them whenever we rotate keys.
   - Now, the system would always converge on the latest state but we still need to take cache into account which caused us incidents in the past.
   - We control all the systems that needs to be updated/redeployed so we can automate the rotation process in the future.
   - The planned key rotation is a very infrequent process. We currently do this once a year. Rather than that, it should only be done in case of the key leak.  
@@ -96,7 +96,7 @@ Currently, it works like this:
 If we remove OIDC, we have to change this sequence:
 
 - First, we will create a new key pair and add the public key to the expected key set in all Cloud Connector backend services. This prepares Cloud Connector backends to validate tokens signed with both the old and new key.
-- We make sure that all Cloud Connector backends are redeployed and include the new public key. 
+- We make sure that all Cloud Connector backends are redeployed and include the new public key.
 - At this point, we can swap out private key in the token issuer.
 - Finally, we can remove the old public key from all Cloud Connector backends.
 
@@ -104,5 +104,5 @@ We will document the key rotation process and link it to the Cloud Connector and
 
 ### Next steps
 
-The approach suggested in this ADR allows us to make incremental improvements toward next solutions. 
+The approach suggested in this ADR allows us to make incremental improvements toward next solutions.
 For example, in [epic 14401](https://gitlab.com/groups/gitlab-org/-/epics/14401) we explore the concept of self-contained JWTs, which would further simplify key management by embedding public keys directly in the tokens sent by clients. Since this requires validating the entire certificate chain, the key from which leaf certificates are derived must be available in backend services. Making this parent key available to backends could use the same approach we suggest in this ADR.

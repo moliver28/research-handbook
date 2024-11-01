@@ -85,7 +85,7 @@ The initial customer pitch, delivered by the SA, allows us to identify key stake
 
 - What is a Day In The Life of a Developer?
 - What does a Day In The Life of a Developer entail?
-- Who are the key participants involved in the Day In The Life of a Developer? 
+- Who are the key participants involved in the Day In The Life of a Developer?
 - What are some of the expected outcomes of a Day In The Life of a Developer for them?
 
 During the pitch, the account team should strive to:
@@ -135,7 +135,7 @@ The process which we will go through, at a high level, is as follows:
 1. Current state
     1. Initial process "walk-through" for the prospect or customer to demonstrate - A best practice is to share a current state diagram based on our (possibly limited) understanding of the customer's environment to facilitate the Day in the Life discussion
         1. Capture people, processes and technology
-    1. Analyze and identify bottlenecks and improvement areas. 
+    1. Analyze and identify bottlenecks and improvement areas.
         1. Time is limited - Use the list of discovery questions selected during prep and focus/"double click" on the areas where GitLab can help - avoid delving deep into areas that GitLab cannot affect
 1. Design future state
     1. Review the expectations, to align the team on the target they are aiming to create

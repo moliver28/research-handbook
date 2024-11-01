@@ -2,7 +2,7 @@
 title: "MERGE: Ongoing Development for Associate Engineers"
 ---
 
-Congratulations and welcome to the GitLab team! We're excited to have you on board as you start this exciting new chapter in your engineering career. Our comprehensive ongoing development program is designed to support you every step of the way - from your first day, to your first merge request, and beyond. You'll have support from your manager, onboarding buddy, and the Talent Development team; don't ever hesitate to reach out. 
+Congratulations and welcome to the GitLab team! We're excited to have you on board as you start this exciting new chapter in your engineering career. Our comprehensive ongoing development program is designed to support you every step of the way - from your first day, to your first merge request, and beyond. You'll have support from your manager, onboarding buddy, and the Talent Development team; don't ever hesitate to reach out.
 
 Get ready to explore new technologies and skills, collaborate with GitLab team members around the globe, and grow in an environment where your success and results are our priority. Let's dive in and make great things happen together!
 
@@ -23,7 +23,7 @@ Skill development and career growth are important for all team members at GitLab
 
 ### Your First Week at GitLab
 
-Our GitLab team starts using the product on Day 1 for onboarding with our [onboarding issue](https://gitlab.com/gitlab-com/people-group/people-operations/employment-templates/-/blob/main/.gitlab/issue_templates/onboarding.md). You'lll start here, too. 
+Our GitLab team starts using the product on Day 1 for onboarding with our [onboarding issue](https://gitlab.com/gitlab-com/people-group/people-operations/employment-templates/-/blob/main/.gitlab/issue_templates/onboarding.md). You'lll start here, too.
 
 The first week at GitLab can feel like a lot - getting used to your new at home workspace, meeting your manager and colleagues, and working through values and compliance trainings. It's a great week to have a few coffee chats with your onboarding buddy, get to know your manager, and introduce yourself in the [#new-team-members Slack channel](https://app.slack.com/client/E03N1RJJX7C/C4XCPSVB8).
 
@@ -53,7 +53,7 @@ In your first month at GitLab, you'll be assigned a custom learning path from O'
 Along with this self paced work, you'll start exploring opportunties to advance your technical skills in the flow of work at GitLab in spaces like:
 
 - Internal hackathons and innovation days
-- Reviewing Community Contributions (and owning stagnant contributions) 
+- Reviewing Community Contributions (and owning stagnant contributions)
 - Specialized tech tracks for areas like Machine Learning, Security, or Performance Optimization
 - Contribution to open-source projects, fostering practical skills and community involvement
 - Peer-led sessions and reverse mentoring to foster a learning culture.

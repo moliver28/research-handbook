@@ -13,19 +13,19 @@ However, the trial period will pass by in the blink of an eye! As the experiment
 
 ## Scoping the Trial
 
-A trial is successful when you have been able to use the time allowed to complete your evaluation end-to-end while every decision maker was able to understand if the solution solves their problems, brings value and delivers a return on investment. 
+A trial is successful when you have been able to use the time allowed to complete your evaluation end-to-end while every decision maker was able to understand if the solution solves their problems, brings value and delivers a return on investment.
 
 ### What are the objectives of the trial?
 
 This is the most important step and will help to ensure an efficient trial. We recommend setting up 3 key goals to validate in 30 days. The goals can be specific problems you are trying to solve, use cases that you want to validate,...
 
-Next, make a list of the features that you will need to configure to support these goals and sort the "must haves" versus "good to haves". 
+Next, make a list of the features that you will need to configure to support these goals and sort the "must haves" versus "good to haves".
 
-There are hundreds of features in GitLab, make sure you focus on implementing the ones that support your goals. You can refer to [this list of features per stages of the software development life cycle](https://about.gitlab.com/features/). The rest can be added to the backlog to test at a later stage once the main goals have been evaluated. 
+There are hundreds of features in GitLab, make sure you focus on implementing the ones that support your goals. You can refer to [this list of features per stages of the software development life cycle](https://about.gitlab.com/features/). The rest can be added to the backlog to test at a later stage once the main goals have been evaluated.
 
 ### How will success be measured against these objectives?
 
-Define your success metrics and specific KPIs for each goal.  What does it mean to achieve the goals? How will you know if this goal has been accomplished? 
+Define your success metrics and specific KPIs for each goal.  What does it mean to achieve the goals? How will you know if this goal has been accomplished?
 
 Make sure you have a baseline to compare to. This is particularly important once you conclude the trial to establish a clear before / after comparison and will be helpful to share with all stakeholders in the decision process.
 
@@ -33,14 +33,14 @@ Make sure you have a baseline to compare to. This is particularly important once
 
 Understand how you will take the decision at the end of the evaluation:
 
-- What information do you need? 
-- How will you present the results? 
-- Who will decide what the next steps are? 
-- What is the exact decision you need to make? Do you merely need to decide to purchase the solution? Or are there other joint decisions such as migrating from existing tools? 
+- What information do you need?
+- How will you present the results?
+- Who will decide what the next steps are?
+- What is the exact decision you need to make? Do you merely need to decide to purchase the solution? Or are there other joint decisions such as migrating from existing tools?
 
 ### Who should participate?
 
-Identify all the team members in the organization who should participate in the trial. 
+Identify all the team members in the organization who should participate in the trial.
 
 1. Start by designating a project coordinator.
 1. List the people who will need to take part in the final decision making process. Who needs to be an active participant in the trial? Who only needs to view a final report with the findings to take the decision? This list could include:
@@ -68,7 +68,7 @@ For example, an organization evaluating the security and compliance capabilities
 ### How to plan the evaluation?
 
 The evaluation should begin when the participants have the bandwidth to take on the trial alongside their regular activities.
-Defining a schedule is helpful to make sure that the evaluation will complete on time. Here is an example: 
+Defining a schedule is helpful to make sure that the evaluation will complete on time. Here is an example:
 
 - Week 0:
   - Kick off meeting
@@ -88,7 +88,7 @@ The Ultimate trial is active for a duration of 30 days and can be requested for 
 - Head to the [Trial Landing page](https://about.gitlab.com/free-trial/) on the GitLab's marketing website
 - Choose between [SaaS](https://about.gitlab.com/free-trial/?hosted=sass) or [Self Managed](https://about.gitlab.com/free-trial/?hosted=self-managed)
 - Follow the instructions to set up your account
-- Choosing Self Managed will require some additional configuration as you will first need to install the instance 
+- Choosing Self Managed will require some additional configuration as you will first need to install the instance
 - Once the trial is activated, you will gain access to a free Ultimate tier trial
 
 ### I already have a company account
@@ -185,7 +185,7 @@ No matter if you are using GitLab for the first time or willing to improve your 
 
 - Go through the extensive [documentation](https://docs.gitlab.com/) and review the [tutorials](https://docs.gitlab.com/?tab=Tutorials)
 - [GitLab University](https://university.gitlab.com/): A collection of trainings and certifications (both free and paid)
-- [GitLab Youtube channel](https://www.youtube.com/channel/UCnMGQ8QHMAnVIsI3xJrihhg): Find demos, use cases, recorded webinars and more 
+- [GitLab Youtube channel](https://www.youtube.com/channel/UCnMGQ8QHMAnVIsI3xJrihhg): Find demos, use cases, recorded webinars and more
 - [The resource page](https://about.gitlab.com/resources/) for reports, ebooks, webcast, etc
 - [GitLab Blog](https://about.gitlab.com/blog/): search for topics of interest including tips, use cases, etc
 - [Join the community](https://about.gitlab.com/community/) and become a member through various programs

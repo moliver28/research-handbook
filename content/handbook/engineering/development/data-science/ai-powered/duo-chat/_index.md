@@ -59,7 +59,7 @@ This system should be used when estimating tasks, *inspired* by the Foundations 
 
 ## Troubleshooting Duo Chat
 
-You can find a comprehensive runbook for troubleshooting Duo Chat issues in our [Duo Chat Runbook Page](https://gitlab.com/gitlab-com/runbooks/-/blob/master/docs/duo-chat/README.md?ref_type=heads). 
+You can find a comprehensive runbook for troubleshooting Duo Chat issues in our [Duo Chat Runbook Page](https://gitlab.com/gitlab-com/runbooks/-/blob/master/docs/duo-chat/README.md?ref_type=heads).
 
 If you notice any gaps, please feel free to reach out to the Duo Chat group or make an MR with your changes to the runbook.
 

@@ -33,7 +33,7 @@ provides from their local environment to extend the default _AI Context_.
   - correctly augment the user prompt with AI Context before sending it to LLM. Presumably, this part is already
  handled by [AI Gateway](https://docs.gitlab.com/ee/architecture/blueprints/ai_gateway/).
 - **Project Administrator**. In the context of this blueprint, "Project Administrator" means any individual with the
-"Edit project settings" permission ("Maintainer" or "Owner" roles, as defined in [Project members permissions](https://docs.gitlab.com/ee/user/permissions.html#project-members-permissions)). 
+"Edit project settings" permission ("Maintainer" or "Owner" roles, as defined in [Project members permissions](https://docs.gitlab.com/ee/user/permissions.html#project-members-permissions)).
 
 ![Illustration of the AI Context architecture](img/architecture.jpg)
 
@@ -109,7 +109,7 @@ specific LLM used for that or another Duo feature.
 
 To implement the _AI Context Policy Management_ system, it is proposed to:
 
-- Introduce the YAML file format for configuring global policies 
+- Introduce the YAML file format for configuring global policies
 - In the YAML configuration file, support two `ai_context_policy` types:
   - `block`: blocks all content except for the specified `exclude` paths. Excluded files are allowed. (**Default**)
   - `allow`: allows all content except for the specified `exclude` paths. Excluded files are blocked.
@@ -117,14 +117,14 @@ To implement the _AI Context Policy Management_ system, it is proposed to:
 - In the YAML configuration file, support glob patterns to exclude certain paths from the global policy
 - Support nested _AI Context Policies_ to provide a more granular control of _AI Context_ in sub-folders. For
 example, a policy in `/src/tests` would override a policy in `/src`, which, in its turn, would override a
-global _AI Context Policy_ in `/`. 
+global _AI Context Policy_ in `/`.
 
 ### _Supplementary User Context_ proposal
 
 To implement the _Supplementary User Context_ system, it is proposed to:
 
 - Introduce user-level UI to specify _Supplementary User Context_ for prompts. A particular implementation of the UI could
-differ in different environments (IDEs, Web, etc.), but the actual design of these implementations is beyond the scope of 
+differ in different environments (IDEs, Web, etc.), but the actual design of these implementations is beyond the scope of
 this architecture blueprint
 - The user-level UI should communicate to the user what is in the _Supplementary User Context_ at any moment.
 - The user-level UI should allow the user to edit the contents of the _Supplementary User Context_.
@@ -182,7 +182,7 @@ each user can be stored as:
 - To mitigate potential performance and scalability issues, it would make sense to keep _AI Context Retriever_, and
 _AI Context Policy Management_ in the same environment as the feature needing those. It would be
 [Language Server](https://gitlab.com/gitlab-org/editor-extensions/gitlab-lsp) for Duo features in IDEs and different
-services in the monolith for Duo features on the Web. 
+services in the monolith for Duo features on the Web.
 
 ### Data flow
 
@@ -279,7 +279,7 @@ higher-level policies when sending prompts.
 
 ### Iteration 5
 
-- User-level UI for _Supplementary User Context_. 
+- User-level UI for _Supplementary User Context_.
 
 **Success criteria for the iteration:** Users can see and edit the contents of the _Supplementary User Context_ and
 the context is shared between all Duo features within the environment (Web, IDEs, etc.)

@@ -73,7 +73,7 @@ The Senior Business Systems Analyst is a [grade 7](/handbook/total-rewards/compe
 - Oversee the implementation of applications, coordinating with business, development and QA teams.
 - Work closely with IT engineering and architecture teams to ensure that proposed solutions not only meet business needs but also align with technical capabilities.
 - Foster strong relationships with stakeholders to understand evolving business needs.
-- Present findings, recommendations, and project updates to IT leadership and other relevant stakeholders. Communicate complex information in a clear, compelling, and influential manner. 
+- Present findings, recommendations, and project updates to IT leadership and other relevant stakeholders. Communicate complex information in a clear, compelling, and influential manner.
 - Act as a trusted advisor to senior management and executives, providing insights and recommendations, and driving for solutions.
 - Lead and oversee complex projects, including project planning, budgeting, and resource allocation. Take a leadership role in tracking project progress and provide strategic guidance to project teams to ensure successful project delivery.
 - Provide mentorship and guidance to junior analysts, contributing to their professional development and fostering a collaborative team environment.

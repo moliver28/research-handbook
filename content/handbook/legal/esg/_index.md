@@ -92,21 +92,21 @@ Add this content to the GiveLab section on the ESG page
 
 ## GiveLab 30 Days of Impact
 
-GiveLab 30 Days of Impact is GitLab’s first annual volunteer campaign created to encourage team members to foster connections, build trust among one another and embody our CREDIT values while positively impacting our communities. We have designed this program with our high-performing team culture and results for customers in mind. 
+GiveLab 30 Days of Impact is GitLab’s first annual volunteer campaign created to encourage team members to foster connections, build trust among one another and embody our CREDIT values while positively impacting our communities. We have designed this program with our high-performing team culture and results for customers in mind.
 
 GiveLab 30 days of Impact will run from 2024-11-12 through 2024-12-12 and our goal is to encourage as many team members as possible to volunteer over the course of 30 days.
 
 Throughout the month, team members can volunteer as little as one hour of their time to make an impact. We understand that our team members are driven by many different factors, and we welcome that volunteer participation will look different for everyone. Through GiveLab 30 days of Impact we aim to offer many different ways for team members to get involved such as:
 
-- Through company-sponsored virtual events 
+- Through company-sponsored virtual events
 - Local in-person volunteer events organized by the GitLab ESG team, [GiveLab Champions](/handbook/legal/esg/#givelab-champions), and team members
-- Individual volunteer pursuits 
-- Find and contribute to opportunities in the [GiveLab Volunteer Directory](https://docs.google.com/spreadsheets/d/1koFKQbKqm4jpKtZlteLDTPM3HYv20nffXaqRJ2C8YBA/edit?usp=sharing) 
+- Individual volunteer pursuits
+- Find and contribute to opportunities in the [GiveLab Volunteer Directory](https://docs.google.com/spreadsheets/d/1koFKQbKqm4jpKtZlteLDTPM3HYv20nffXaqRJ2C8YBA/edit?usp=sharing)
 - Include a volunteer activity at an all-hands or team builder
 
 ### Why GiveLab 30 Days of Impact Exists
 
-While GitLab encourages year-round volunteerism through [GiveLab](/handbook.gitlab.com/handbook/legal/esg/#givelab), GiveLab 30 days of Impact centralizes our efforts into an annual campaign to have a larger collective impact over a specific timeframe. Corporate volunteerism has been proven to be an effective strategy for [boosting engagement](https://bc-ccc.uberflip.com/i/1510320-community-involvement-study-2023-executive-summary/0?_gl=1%2An3v02c%2A_ga%2ANzYwODcyNTg5LjE3Mjc3MTEzNzY.%2A_ga_50520H9ZLC%2AMTcyOTA1NTM1MC4yLjEuMTcyOTA1NTQyNS4wLjAuMA..), improving employee retention, and [strengthening relationships at work](https://blog.catchafire.org/5-corporate-volunteering-stats-you-should-know#:~:text=Studies%20show%20that%2080%25%20of,enhances%20the%20overall%20work%20culture). 
+While GitLab encourages year-round volunteerism through [GiveLab](/handbook.gitlab.com/handbook/legal/esg/#givelab), GiveLab 30 days of Impact centralizes our efforts into an annual campaign to have a larger collective impact over a specific timeframe. Corporate volunteerism has been proven to be an effective strategy for [boosting engagement](https://bc-ccc.uberflip.com/i/1510320-community-involvement-study-2023-executive-summary/0?_gl=1%2An3v02c%2A_ga%2ANzYwODcyNTg5LjE3Mjc3MTEzNzY.%2A_ga_50520H9ZLC%2AMTcyOTA1NTM1MC4yLjEuMTcyOTA1NTQyNS4wLjAuMA..), improving employee retention, and [strengthening relationships at work](https://blog.catchafire.org/5-corporate-volunteering-stats-you-should-know#:~:text=Studies%20show%20that%2080%25%20of,enhances%20the%20overall%20work%20culture).
 Additionally, this program offers volunteering opportunities around a major holiday season in many parts of the world, a time when many are seeking opportunities to give back.
 
 ### Team Member Benefits of Volunteerism
@@ -134,9 +134,9 @@ Virtual GitLab-sponsored volunteer events are open for all team members to join,
 
 #### SuitUp, Global
 
-SuitUp programs empower students to discover their passions through experiential learning opportunities and mentorship alongside corporate volunteers. There are two types of opportunities available with Suit Up: 
+SuitUp programs empower students to discover their passions through experiential learning opportunities and mentorship alongside corporate volunteers. There are two types of opportunities available with Suit Up:
 
-1. Career panels: volunteers can participate in a one-hour panel discussion with students on the topics of Technology & AI for Good or Business & Technology. 
+1. Career panels: volunteers can participate in a one-hour panel discussion with students on the topics of Technology & AI for Good or Business & Technology.
 2. Business competition: volunteers will help coach students as they compete in a business competition focused on addressing a real-world social issue by creating an innovative solution using AI. There are four events to choose from.
 
 **Necessary volunteer skills:** No technical skills are required to volunteer. Volunteers should feel comfortable in sharing their career journey guidance and/ or providing feedback and coaching to students.  
@@ -182,8 +182,8 @@ Resumes reviewed by skilled professionals empower youth by helping them showcase
 **Time commitment:** 1 hour
 
 **Regions supported through volunteerism:** LATAM
- 
-#### Goodera and Backpacks for VIC Kids, Australia 
+
+#### Goodera and Backpacks for VIC Kids, Australia
 
 This exercise is designed to help students build confidence and develop essential problem-solving skills, while the user-friendly and inclusive nature of Scratch makes coding approachable for everyone. Volunteers will create a repository of ten engaging scratch coding exercises to inspire middle school students to explore computer science concepts. These problem statements will then help ignite curiosity and empower students to explore fundamental concepts in a fun and accessible way.
 
@@ -195,7 +195,7 @@ This exercise is designed to help students build confidence and develop essentia
 
 **Regions supported through volunteerism:** APAC
 
-#### Goodera and the Maya Care Foundation, India 
+#### Goodera and the Maya Care Foundation, India
 
 Engage with Senior Citizens who are presently in a nursing home or institutional care setting, often a place where residents can suffer from social isolation. In this volunteer opportunity, volunteers will foster connections and engage in meaningful conversations and activities with a group of Senior Citizens, guided by Goodera.
 
@@ -221,13 +221,13 @@ In-person opportunities can be organized by the GitLab ESG team, [GiveLab Champi
 
 We’ve curated a [list](https://docs.google.com/spreadsheets/d/1koFKQbKqm4jpKtZlteLDTPM3HYv20nffXaqRJ2C8YBA/edit?gid=1439615563#gid=1439615563) of eligible nonprofits with open volunteer opportunities in the cities where we have larger numbers of team members. Team members can facilitate conversations directly with the nonprofits to learn about current needs.
 
-### Organize a volunteer activity for an all-hands or team builder 
+### Organize a volunteer activity for an all-hands or team builder
 
 Please open [an issue](https://gitlab.com/gitlab-com/www-gitlab-com/-/issues/new?issuable_template=volunteer_support) and reach out to April Skeete in the #givelab slack channel
 
-### Volunteer independently 
+### Volunteer independently
 
-Many of you already volunteer in your community and we want to capture how you make an impact. If you already utilize PTO to volunteer, follow the instructions on requesting time off and adding ‘volunteer time’ as the reason and join the #givelab slack channel to share your story! 
+Many of you already volunteer in your community and we want to capture how you make an impact. If you already utilize PTO to volunteer, follow the instructions on requesting time off and adding ‘volunteer time’ as the reason and join the #givelab slack channel to share your story!
 
 ### Contribute to GitLab’s OSS codebase
 
@@ -246,7 +246,7 @@ Managers play an important role in supporting team members in taking time for th
 
 ### How to Request Volunteer Time Off
 
-Team Members taking time off to volunteer should communicate time off in advance with their manager. To request volunteer time off, follow the [Paid Time Off](/handbook.gitlab.com/handbook/people-group/paid-time-off/#paid-time-off) procedures outlined in our handbook and reach out to People Connect via HelpLab should you have any concerns. A step-by-step guide on how to request paid time off can be found [here](https://docs.google.com/document/d/1CZvTbPfvCOHDqA9riifMNNN0wsZyaxIql14cj_M5TK8/edit?tab=t.0). Note that when following along with this guide, during “Step 8” there is a section listed as “Reasons”, and here you should select “Volunteer Time Off” from the dropdown options. Note that at this time, entering your paid time off requests labeled as “Volunteer Time Off” can only be completed by submitting your request within Workday, and not the Workday Slack App. 
+Team Members taking time off to volunteer should communicate time off in advance with their manager. To request volunteer time off, follow the [Paid Time Off](/handbook.gitlab.com/handbook/people-group/paid-time-off/#paid-time-off) procedures outlined in our handbook and reach out to People Connect via HelpLab should you have any concerns. A step-by-step guide on how to request paid time off can be found [here](https://docs.google.com/document/d/1CZvTbPfvCOHDqA9riifMNNN0wsZyaxIql14cj_M5TK8/edit?tab=t.0). Note that when following along with this guide, during “Step 8” there is a section listed as “Reasons”, and here you should select “Volunteer Time Off” from the dropdown options. Note that at this time, entering your paid time off requests labeled as “Volunteer Time Off” can only be completed by submitting your request within Workday, and not the Workday Slack App.
 
 ### Expenses and Reimbursements for Participation
 
@@ -258,7 +258,7 @@ Surveys will be sent to team members following their volunteer participation and
 
 We appreciate the internal stakeholders who have provided initial input to include relevant program considerations such as the People Team, PBPs, Finance, DIB & TMRGs and EBAs. Additionally, we’ll continue to incorporate considerations from our GiveLab Champions, who sit within various departments across the company.
 
-### Get in touch with the ESG Team 
+### Get in touch with the ESG Team
 
 Join the #givelab slack channel
 
@@ -557,5 +557,5 @@ Monetary contributions are initiated by the request of our team members and TMRG
 
 **Q: Does GitLab donate its product to nonprofits?**
 
-A: Through [GitLab for Nonprofits](https://about.gitlab.com/solutions/nonprofit/), GitLab donates up to 5,000 seats annually to Registered Nonprofit Organizations. Interested Registered Nonprofit Organizations are required to apply and will be vetted for registration and standing status. Licenses are donated on a first come first serve basis and the number of seats to be donated within a fiscal year is reviewed annually by the ESG Team, the FP&A Business Partner, and Chief Legal Officer. Please review our [Nonprofit program application](https://about.gitlab.com/solutions/nonprofit/join/#nonprofit-program-application) for further details. 
+A: Through [GitLab for Nonprofits](https://about.gitlab.com/solutions/nonprofit/), GitLab donates up to 5,000 seats annually to Registered Nonprofit Organizations. Interested Registered Nonprofit Organizations are required to apply and will be vetted for registration and standing status. Licenses are donated on a first come first serve basis and the number of seats to be donated within a fiscal year is reviewed annually by the ESG Team, the FP&A Business Partner, and Chief Legal Officer. Please review our [Nonprofit program application](https://about.gitlab.com/solutions/nonprofit/join/#nonprofit-program-application) for further details.
 Please see GitLab’s [Trade Compliance Policy Handbook](/handbook/legal/trade-compliance/) for a list of embargoed countries. Registered Nonprofit Organizations in embargoed countries are not eligible for the in-kind donation program.

@@ -14,7 +14,7 @@ US based benefits are arranged through Willis Towers Watson and managed on the P
 
 ## 2025 Plan year
 
-As the costs of healthcare increase, Gitlab strives to offer a competitive benefits program and maintain low costs for Team Members.   For 2025, GitLab will continue to cover the majority of costs for your total benefits package. 
+As the costs of healthcare increase, Gitlab strives to offer a competitive benefits program and maintain low costs for Team Members.   For 2025, GitLab will continue to cover the majority of costs for your total benefits package.
 
 ### 2025 Open Enrollment
 
@@ -24,10 +24,10 @@ This year is a **passive enrollment**, so no action is needed if you are not mak
 
 Please see additional information on the 2025 US Benefit Plans
 
-- Need help selecting a plan? Use the [Flimp PlanSelect tool](https://myplanselect.com/navigation/Gitlab/2024) to help you find the plan that best fits you and your family’s needs. 
+- Need help selecting a plan? Use the [Flimp PlanSelect tool](https://myplanselect.com/navigation/Gitlab/2024) to help you find the plan that best fits you and your family’s needs.
 - Review the [2025 Benefits Memo](https://docs.google.com/document/d/13u3mMkiqRr7lO0m4htejjsQnXEr8lePn/edit?usp=sharing&ouid=115600862362829120699&rtpof=true&sd=true) for highlights and updates
 - See the [2025 US Benefits Guide](TBD) for a full review of the GitLab Benefit Plans
-- Watch our [2025 Benefits Video](https://www.brainshark.com/1/player/willis?pi=zHgzXkIHdzaInCz0&r3f1=&fb=0) for a review of all the plans. 
+- Watch our [2025 Benefits Video](https://www.brainshark.com/1/player/willis?pi=zHgzXkIHdzaInCz0&r3f1=&fb=0) for a review of all the plans.
 - See our 2025 [Annual Rights Notices](https://drive.google.com/file/d/1t17_KcSPt4l09YQL3Iiy544yxXf5z8Bx/view?usp=sharing)
 - GitLab offers Mental Wellness Services through [Modern Health](/handbook/total-rewards/benefits/modern-health/). In addition to these services, team members that enroll in the Cigna and Kaiser plans have access to their network of [Mental Health Programs and Resources](https://drive.google.com/file/d/1LT_LG1Px3xrGMBP0-iMPXaFyQvopfSiL/view?usp=sharing)
 - See the [Transparency in Coverage](https://www.cigna.com/legal/compliance/machine-readable-files). These machine readable files are made available in response to the federal Transparency in Coverage Rule and include negotiated service rates and out-of-network allowed amounts between health plans and healthcare providers. The machine-readable files are formatted to allow researchers, regulators, and application developers to more easily access and analyze data
@@ -75,9 +75,9 @@ You can log into PlanSource through your Workday profile. There is an integratio
 
 ## Who To Contact & Claims Escalations
 
-- Need Help with your Claims? We got you covered. WTW Claim Escalation Services are here to assist you when you encounter issues with your benefit claims. If your claim has been denied, delayed, or you’re facing challenges in resolving it, the WTW team can step in and provide support. **You can request this assistance via [HelpLab](https://helplab.gitlab.systems/esc).** 
+- Need Help with your Claims? We got you covered. WTW Claim Escalation Services are here to assist you when you encounter issues with your benefit claims. If your claim has been denied, delayed, or you’re facing challenges in resolving it, the WTW team can step in and provide support. **You can request this assistance via [HelpLab](https://helplab.gitlab.systems/esc).**
 - For Cigna related questions please use the [Cigna One Guide Service](https://drive.google.com/file/d/1eIvtYtYPSt3Q0h-Byd16CFFfT0bxv8yF/view?usp=sharing)
-- For questions regarding the PlanSource system internal policies, etc. 401(k), : [HelpLab](https://helplab.gitlab.systems/esc). 
+- For questions regarding the PlanSource system internal policies, etc. 401(k), : [HelpLab](https://helplab.gitlab.systems/esc).
 
 ## ID Cards
 
@@ -276,7 +276,7 @@ Coverage will be provided for the following services:
 
 Coverage will includes treatment and/or procedures performed to enable conception with or without an infertility condition. Coverage for Artificial Insemination/Intrauterine insemination will be available regardless of an infertility condition (e.g. In Vitro, GIFT, ZIFT, etc.).
 
-See the [2024 HDHP](https://drive.google.com/file/d/1zAQExWPX3Bm131RdZQaFqMY-K1RdfMlR/view?usp=sharing), and  [2024 PPO](https://drive.google.com/file/d/1O9LW50Wa7Dq6C9SRoEiCR422XK-0_2ZB/view?usp=sharing). 2025 Plan Summaries will be available soon. 
+See the [2024 HDHP](https://drive.google.com/file/d/1zAQExWPX3Bm131RdZQaFqMY-K1RdfMlR/view?usp=sharing), and  [2024 PPO](https://drive.google.com/file/d/1O9LW50Wa7Dq6C9SRoEiCR422XK-0_2ZB/view?usp=sharing). 2025 Plan Summaries will be available soon.
 
 </details>
 
@@ -431,7 +431,7 @@ For out-of-network services: 365 days from Date of Service.
 
 <summary> Kaiser Infertility Services</summary>
 
-Kaiser California is covered for infertility services at 50% co-insurance. Coverage includes services for diagnosis and treatment of infertility. Coverage does not include conception by artificial means (IVF/GIFT/ZIFT/etc). 
+Kaiser California is covered for infertility services at 50% co-insurance. Coverage includes services for diagnosis and treatment of infertility. Coverage does not include conception by artificial means (IVF/GIFT/ZIFT/etc).
 
 Kaiser Hawaii Plan members are covered for an infertility consultation and certain In Vitro Fertilization (IVF) procedures. More information on the Infertility services for Hawaii Kaiser members can be found on the [2025 Hawaii Health Plan](https://drive.google.com/file/d/1NSxUxvL_L_rLIDMTJW654lkLCycpCR4H/view?usp=sharing ).
 
@@ -679,12 +679,12 @@ All employer contributions are pre-tax contributions. Team members can still mak
 
 Effective 2024-08-01, Team Members can elect to make after-tax contributions to their 401(k) with automatic Roth in-plan conversions. Follow [these instructions](https://drive.google.com/file/d/16Xpn4FiuX0EcCOkegSG5KwYi8IQhr3--/view?usp=sharing) to make these elections and set up conversions. Note that team members must call Fidelity in order to request and set up automatic conversions. See the [considerations and benefits](https://drive.google.com/file/d/1AO61oKXd1zUlZpNTEEpM3ut0XfTZponI/view?usp=sharing) of enabling automatic conversions.
 
-Please see the [Fidelity Roth 401(k) contributions, after-tax contributions, and the Roth in-plan conversion FAQ](https://drive.google.com/file/d/1WtisN4O4O7X_vtS6YP4X8nVP1xukc2uL/view?usp=sharing) for more details. 
+Please see the [Fidelity Roth 401(k) contributions, after-tax contributions, and the Roth in-plan conversion FAQ](https://drive.google.com/file/d/1WtisN4O4O7X_vtS6YP4X8nVP1xukc2uL/view?usp=sharing) for more details.
 
 Please also see our [webinar with SageView](https://drive.google.com/file/d/1u0LrgJFh3-_lQ-vgXlI2CBbnKJ0t7eX6/view?usp=sharing) on how this 401(k) feature works, the benefits of using the feature, and considerations team members should be aware of before participating.  
 
-Team Members should take note that the 401(k) after-tax deductions takes priority over ESPP contributions. 
-Team Members should calculate their after-tax contributions carefully to ensure that they have enough funds for ESSP contributions, should they wish to participate in both features. 
+Team Members should take note that the 401(k) after-tax deductions takes priority over ESPP contributions.
+Team Members should calculate their after-tax contributions carefully to ensure that they have enough funds for ESSP contributions, should they wish to participate in both features.
 
 </details>
 
@@ -861,9 +861,9 @@ A  minimum amount of $5 USD will apply to the rollover. Note if the FSA rollover
 
 <summary> Flexible Spending Accounts and Leaving GitLab </summary>
 
-FSAs are employer-owned accounts. If you leave GitLab Medical FSA account will be terminated on your date of termination unless you continue this through COBRA. You are able to use your full FSA amounts up to and on your last day, but not afterwards unless you enroll into COBRA. WEX (Discovery) requires that all claims be submitted up to 90 days after termination date. You can enroll into COBRA FSA if you have spent less out of your account than you have contributed to it. If you decide to enroll, you will be required to continue making your monthly contributions on a post-tax status. For additional information, please reach out to WEX (Discovery) at 866.451.3399 or customerservice@discoverybenefits.com. 
+FSAs are employer-owned accounts. If you leave GitLab Medical FSA account will be terminated on your date of termination unless you continue this through COBRA. You are able to use your full FSA amounts up to and on your last day, but not afterwards unless you enroll into COBRA. WEX (Discovery) requires that all claims be submitted up to 90 days after termination date. You can enroll into COBRA FSA if you have spent less out of your account than you have contributed to it. If you decide to enroll, you will be required to continue making your monthly contributions on a post-tax status. For additional information, please reach out to WEX (Discovery) at 866.451.3399 or customerservice@discoverybenefits.com.
 
-Dependent Care FSAs cannot be continued via COBRA. You are able to use your dependent care FSA for expenses that occur up to your last day, but not afterwards. Wex requires that all claims be submitted up to 90 days after termination date. For additional information, please reach out to WEX (Discovery) at 866.451.3399 or customerservice@discoverybenefits.com. 
+Dependent Care FSAs cannot be continued via COBRA. You are able to use your dependent care FSA for expenses that occur up to your last day, but not afterwards. Wex requires that all claims be submitted up to 90 days after termination date. For additional information, please reach out to WEX (Discovery) at 866.451.3399 or customerservice@discoverybenefits.com.
 
 </details>
 
@@ -1066,4 +1066,3 @@ Information regarding GitLab's Parental Leave policy and how to apply, can be fo
 ## State-Specific Allowed Leaves
 
 To learn more about State-specific leave laws, please visit the [Leave of Absence - US](/handbook/people-policies/leave-of-absence/us) handbook page.
- 

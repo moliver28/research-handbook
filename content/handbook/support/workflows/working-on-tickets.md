@@ -185,7 +185,7 @@ region, you should follow these steps:
 
 ## Ticket handover (assignee change not related to preferred region)
 
-When an engineer is required to hand over a ticket, either to another region or within the same region (e.g., due to the assignee going on PTO), the following workflows should be followed. 
+When an engineer is required to hand over a ticket, either to another region or within the same region (e.g., due to the assignee going on PTO), the following workflows should be followed.
 
 <details>
   <summary markdown="span">Preparing a ticket for handover</summary>
@@ -211,7 +211,7 @@ When an engineer is required to hand over a ticket, either to another region or 
 1. If additional research is needed:
    - Introduce yourself, inform the customer that further research is required,
      and set expectations for the next steps.
-     
+
 </details>
 
 <details>
@@ -227,7 +227,7 @@ When an engineer is required to hand over a ticket, either to another region or 
 1. If additional research is needed:
    - Introduce yourself, inform the customer that further research is required,
      and set expectations for the next steps.
-     
+
 </details>
 
 ## Contacting a Customer Success Manager (CSM) or Account Manager (AM)
@@ -382,7 +382,7 @@ to ensure proper routing and SLA assignment:
    ticket plugin.
 1. Select the appropriate form type. This will most likely match the request
    type of the originating ticket.
-1. Enter the customer's details like subject, problem description and other 
+1. Enter the customer's details like subject, problem description and other
    relevant information. Use the customer's existing Zendesk Ticket to obtain
    the necessary customer information to complete the form.
 1. Submit the ticket using the `Create Ticket` button.

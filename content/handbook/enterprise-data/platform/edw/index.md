@@ -567,17 +567,17 @@ The current design of the Enterprise Data Warehouse is build on the Snowflake cl
 
 Due to increasing data volumes and business logic complexity in the Enterprise Data Warehouse, the data model transformations built in the EDW have become increasingly non-performant overtime with the daily dbt model production run taking over 12 hours to complete. Query runtimes on some of our largest Snowplow, Service Ping, and GitLab.com data sets can take longer than several minutes to complete on L and XL size warehouses. Our daily Snowplow event data volumes are expected to increase by 2.5x within the next 12+ months. Therefore, we need an Analytics Performance Policy that can provide guidelines on how to architect performant data models in the transformation layer of the EDW that balance technical considerations with business needs and requirements.
 
-We think about dbt model runs along 3 major dimensions: performance, efficiency, and cost. 
+We think about dbt model runs along 3 major dimensions: performance, efficiency, and cost.
 
 1. **Performance** relates to how long it takes a model to build
-1. **Efficiency** relates to how well a model uses local storage, remote storage, and partition pruning. 
-1. **Cost** relates to how many Snowflake credits are required to run a model and is impacted by both the performance and efficiency of the model. 
+1. **Efficiency** relates to how well a model uses local storage, remote storage, and partition pruning.
+1. **Cost** relates to how many Snowflake credits are required to run a model and is impacted by both the performance and efficiency of the model.
 
 The scope of this Analytics Performance Policy at this time is specifically focused on the performance of models. In the future, we will consider adding a separate efficiency and cost policy that would roll-up to an overall Analytics Scalability Policy.
 
 *The Analytics Performance Policy is only considering the data transformations and does not consider retention of data that is extracted and loaded towards the RAW database of the EDW. For the time being, the policy assumes we will keep all data in the RAW database and we will not delete data. After a data retention policy is implemented in the future, we would reevaluate and iterate on this Analytics Performance Policy that focuses on the Transformation layer of the EDW. The alignment that is reached with the Functional Teams in this Analytics Performance Policy will be used to influence a data retention policy on the RAW database in Snowflake.*
 
-### Performance Targets 
+### Performance Targets
 
 *These initial performance targets were created to allow the daily dbt model production run to finish within an 8 hour working day and provide for the run to be triaged within a working day. The Snowflake query time targets were created to make incremental improvements from several minutes query times to 1 minute to provide for a more productive and delightful querying experience in Snowflake. These targets are subject to change in the future as we continue to improve performance and receive new business requirements.*
 
@@ -597,7 +597,7 @@ The scope of this Analytics Performance Policy at this time is specifically focu
 
 ### Historical Archiving Process
 
-1. For non-idempotent data, which is data that cannot be recreated or otherwise surfaced in the data model due to a performance policy consideration, leverage a data platform archiving methodology to create an historical archive of the data. 
+1. For non-idempotent data, which is data that cannot be recreated or otherwise surfaced in the data model due to a performance policy consideration, leverage a data platform archiving methodology to create an historical archive of the data.
 
 For example, with only exposing 13 months of product usage data in atomic fact tables and creating an aggregated data table at the month, metric, namespace grain that only provides data for the past 13 months, an historical archive table would be able to provide insights from 2 or 3 years in the past for the aggregated table while the live data model would only provide the last 13 months of data.  
 

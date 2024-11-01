@@ -40,10 +40,10 @@ For detailed Glossary, please visit: https://support.zendesk.com/hc/en-us/articl
 ## Important Links
 
 - [Explore Basics](~/content/handbook/support/readiness/operations/docs/zendesk/zendesk-explore/basics.md)
-- [Setting up Explore](~/content/handbook/support/readiness/operations/docs/zendesk/zendesk-explore/setting_up.md) 
-- [Dashboards](~/content/handbook/support/readiness/operations/docs/zendesk/zendesk-explore/dashboards.md) 
-- [Important Dashboards](~/content/handbook/support/readiness/operations/docs/zendesk/zendesk-explore/important_dashboards.md) 
-- [Reports](~/content/handbook/support/readiness/operations/docs/zendesk/zendesk-explore/reports.md) 
-- [Important Reports](~/content/handbook/support/readiness/operations/docs/zendesk/zendesk-explore/important_reports.md) 
-- [Formulas](~/content/handbook/support/readiness/operations/docs/zendesk/zendesk-explore/formulas.md) 
-- [Performing Calculations](~/content/handbook/support/readiness/operations/docs/zendesk/zendesk-explore/performing_calculations.md) 
+- [Setting up Explore](~/content/handbook/support/readiness/operations/docs/zendesk/zendesk-explore/setting_up.md)
+- [Dashboards](~/content/handbook/support/readiness/operations/docs/zendesk/zendesk-explore/dashboards.md)
+- [Important Dashboards](~/content/handbook/support/readiness/operations/docs/zendesk/zendesk-explore/important_dashboards.md)
+- [Reports](~/content/handbook/support/readiness/operations/docs/zendesk/zendesk-explore/reports.md)
+- [Important Reports](~/content/handbook/support/readiness/operations/docs/zendesk/zendesk-explore/important_reports.md)
+- [Formulas](~/content/handbook/support/readiness/operations/docs/zendesk/zendesk-explore/formulas.md)
+- [Performing Calculations](~/content/handbook/support/readiness/operations/docs/zendesk/zendesk-explore/performing_calculations.md)

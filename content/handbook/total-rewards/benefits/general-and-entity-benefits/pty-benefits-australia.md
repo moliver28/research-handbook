@@ -241,7 +241,7 @@ Unpaid carer's leave can be taken:
 #### Long Service Leave
 
 - Team members may be eligible for long service leave in accordance with state/territory based legislation as varied from time to time.
-- This leave runs concurrently with GitLab PTO. Team members should select `AUS Long Service` in Workday to ensure that leave entitlements are properly tracked. 
+- This leave runs concurrently with GitLab PTO. Team members should select `AUS Long Service` in Workday to ensure that leave entitlements are properly tracked.
 
 #### Other Types of Leave
 
@@ -395,7 +395,7 @@ In considering whether contact is unreasonable, think about:
 - the extent to which the team member is being compensated (eg with time off after an on-call rotation):
   - to remain available to perform work during the period in which contact is made; or
   - for working additional hours outside of their ordinary hours of work;
-- the nature of the team member’s role and their level of responsibility; and 
+- the nature of the team member’s role and their level of responsibility; and
 - the team member’s personal circumstances.
 
 In case of an issue arising relating to whether a team member has reasonably (or unreasonably) refused to monitor or respond to contact, the team members involved are encouraged to raise the issue with their manager or contact [Team Member Relations](teammemberrelations@gitlab.com).

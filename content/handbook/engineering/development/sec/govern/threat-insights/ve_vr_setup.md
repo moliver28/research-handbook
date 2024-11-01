@@ -34,7 +34,7 @@ Examples:
 
 ### Setup AI
 
-Follow this [instructions here](https://gitlab.com/gitlab-org/security-products/tests/webgoat.net/-/security/vulnerabilities/105323245) to configure your GDK access to AI features. 
+Follow this [instructions here](https://gitlab.com/gitlab-org/security-products/tests/webgoat.net/-/security/vulnerabilities/105323245) to configure your GDK access to AI features.
 
 For GitLab Team members only:
 

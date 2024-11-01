@@ -27,7 +27,7 @@ In order to fulfill the above goals, the [SME Program is structured, appropriate
 
 \*NOTE: Currently the CSM SMEs have collated resources and materials for each SME Area. They are maintained in Highspot at [CS SME Hub of content](https://gitlab.highspot.com/items/667095b95cc9b08c87d40b68?lfrm=srp.0).
 
-This is [description of the CS SME program](https://gitlab.com/gitlab-com/customer-success/subject-matter-experts/cs-subject-matter-experts/-/tree/main) taking the lead on the gathering of collateral for each SME Area 
+This is [description of the CS SME program](https://gitlab.com/gitlab-com/customer-success/subject-matter-experts/cs-subject-matter-experts/-/tree/main) taking the lead on the gathering of collateral for each SME Area
 
 ## Areas of Expertise
 
@@ -143,4 +143,3 @@ SMEs will be regularly evaluated based on their contributions and impact on the 
 | High Velocity AMER | Michael Balzer | Jefferson Jones | Sophia Manicor |  |
 | High Velocity EMEA |  | Claire Marie Champernowne, Nupur Sharma | Jan Kunzmann | |
 | Pub Sector AMER | Kevin Chasse, Josh Swan  |  |  | Daniel Marquard, Michael Bradley |
- 

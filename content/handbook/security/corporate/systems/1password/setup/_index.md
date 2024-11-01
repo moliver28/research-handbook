@@ -19,7 +19,7 @@ As an added benefit, we give all team members a free [family account](https://su
 
 For users with access to secondary 1Password accounts, please make sure that the 1Password Chrome extension in your Black Chrome profile is NOT set to automatically integrate with the desktop app. This setting may re-enable itself after a major 1Password or Chrome update.
 
-1. In the top right corner of Chrome, click the **plugin icon** (puzzle piece), click the **3 dots** dropdown menu next to 1Password, then choose **Settings**. 
+1. In the top right corner of Chrome, click the **plugin icon** (puzzle piece), click the **3 dots** dropdown menu next to 1Password, then choose **Settings**.
 2. In the **General** section in the left sidebar, ensure that `Integrate this extension with the 1Password desktop app` is disabled.
 3. In the left sidebar, navigate to **Accounts & vaults**.
 4. If your normal user account (`{handle}@gitlab.com` and not `{handle}-admin@gitlab.com`) is listed, click the three dots and choose **Sign Out**. Repeat these actions for any other accounts that appear (ex. your personal 1Password email address).

@@ -7,7 +7,7 @@ Core Web Vitals (CWV) are a set of performance metrics introduced by Google to m
 
 ## Key Metrics
 
-1. Largest Contentful Paint (LCP): Measures loading performance. LCP represents the time it takes for the largest visible content element (e.g., image or block of text) to appear in the viewport. 
+1. Largest Contentful Paint (LCP): Measures loading performance. LCP represents the time it takes for the largest visible content element (e.g., image or block of text) to appear in the viewport.
    * Target: LCP should occur within 2.5 seconds of when the page first starts loading.
 2. Cumulative Layout Shift (CLS): Measures visual stability. CLS tracks how much the layout shifts during the loading process. A page with minimal unexpected shifts provides a better experience.
    * Target: A CLS score of less than 0.1.

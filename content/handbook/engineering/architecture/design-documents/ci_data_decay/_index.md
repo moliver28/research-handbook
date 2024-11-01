@@ -25,7 +25,7 @@ The proposed strategies involves:
 
 1. [Partitioning CI/CD data tables](pipeline_partitioning.md) to efficiently support large scale
    of data and reduce the risk of databae performance degradation.
-1. [Reducing the growth rate of metadata](reduce_data_growth_rate.md) by being efficient in the 
+1. [Reducing the growth rate of metadata](reduce_data_growth_rate.md) by being efficient in the
    data to store at any given stage of the pipeline lifecycle.
 1. [Archiving pipeline data](pipeline_archival.md) to consistently move less accessed data to other
    storage solutions like object storage and enforce a different access pattern.

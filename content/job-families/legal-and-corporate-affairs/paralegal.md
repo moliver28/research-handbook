@@ -99,9 +99,9 @@ The Lead Paralegal is a [Grade 8](/handbook/total-rewards/compensation/compensat
 - Consider commercial impact when applying legal and regulatory principles and seeks workable solutions
 - Network internally beyond the legal team to build relationships, knowledge, and insight
 - Identify and apply governance processes and control mechanisms relevant to GitLab
-- Accurately communicate risks to senior leadership while weighing business needs 
-- Provide technical and functional knowledge to projects that contribute to overall direction across teams 
-- Lead by sharing solutions and problem-solving approaches with others 
+- Accurately communicate risks to senior leadership while weighing business needs
+- Provide technical and functional knowledge to projects that contribute to overall direction across teams
+- Lead by sharing solutions and problem-solving approaches with others
 - Interact with team members in addition to suppliers, vendors, and/or customers where applicable to the role
 - Collaborate with the team and other stakeholders within the department to maintain a high bar for quality in a fast-paced, iterative environment
 

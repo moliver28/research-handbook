@@ -17,7 +17,7 @@ counterpart will apply the `~threat model::needed` label to the epic or issue. T
 will also create a dedicated threat modeling issue in the
 [`threat-models`](https://gitlab.com/gitlab-com/gl-security/product-security/appsec/threat-models/-/issues/new?issuable_template=Threat%20Model)(internal link) project.
 Within the issue the development and the application security team should collaborate on the creation
-of a threat model. The development team must provide technical documentation in the issue before the process starts. The issue template contains detailed steps to guide through the process. 
+of a threat model. The development team must provide technical documentation in the issue before the process starts. The issue template contains detailed steps to guide through the process.
 
 If you're new to threat modeling: for a beginner friendly start please have a look at our
 [threat modeling how to page](/handbook/security/product-security/application-security/threat-modeling/howto/).

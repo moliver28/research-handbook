@@ -9,7 +9,7 @@ canonical_path: "/handbook/support/readiness/operations/docs/gem"
 ### What is a gem?
 
 Essentially, a ruby gem is a library of ruby code that is packaged and
-distributed. The full ins and outs can get complicated, so check out 
+distributed. The full ins and outs can get complicated, so check out
 [Ruby's official documentation](https://guides.rubygems.org/what-is-a-gem/) for
 more information.
 

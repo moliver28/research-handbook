@@ -47,7 +47,7 @@ Below is the information related to Brazil's statutory leave policies.  Please n
 
 ### Annual leave
 
-Brazil has specific requirements that govern statutory leave to remain compliant. For reference, after 12 months of service, you are entitled to 30 calendar days of paid time off. Team members are also eligible for [GitLab's paid time off policy](/handbook/people-group/paid-time-off/#paid-time-off). If the time off taken falls under the requirements for statutory time then the time off will automatically be deducted from the statutory allowance first (you may see this reflected as "dummy days" on your pay slip). 
+Brazil has specific requirements that govern statutory leave to remain compliant. For reference, after 12 months of service, you are entitled to 30 calendar days of paid time off. Team members are also eligible for [GitLab's paid time off policy](/handbook/people-group/paid-time-off/#paid-time-off). If the time off taken falls under the requirements for statutory time then the time off will automatically be deducted from the statutory allowance first (you may see this reflected as "dummy days" on your pay slip).
 If the time off does not fall under the requirements it will be used as Flex Time Off, then once you have exhausted the full statutory leave allowance all ongoing time off will be Flex Time Off per GitLab policy.
 
 Please keep the below in mind before [submitting your time off request via Workday or the Workday Slack App](/handbook/people-group/paid-time-off/#communicating-your-time-off).

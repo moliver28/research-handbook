@@ -13,7 +13,7 @@ toc_hide: true
 {{< design-document-header >}}
 
 NOTE:
-This architecture design document has been superseded by [GitLab Modular Monolith](https://docs.gitlab.com/ee/architecture/blueprints/modular_monolith/). 
+This architecture design document has been superseded by [GitLab Modular Monolith](https://docs.gitlab.com/ee/architecture/blueprints/modular_monolith/).
 <!-- TODO: change to new design doc URL -->
 
 The one of the major risks of a single codebase is an infinite growth of the whole

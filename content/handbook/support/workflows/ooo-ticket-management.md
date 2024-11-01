@@ -44,7 +44,7 @@ contains notes on all currently Open, Pending and On-Hold tickets. The Support E
 would be suitable candidates for reassigment.
 
 This has the advantage for faciliating collaboration that would otherwise clutter up the other main Support Slack channels. It also ensures that tickets
-are not left in limbo as other Support Engineers are actively being pinged as part of the workflow. 
+are not left in limbo as other Support Engineers are actively being pinged as part of the workflow.
 
 It is recommended to follow this workflow if 5 days or more of PTO are planned, and you have more than 10 tickets to handover.
 

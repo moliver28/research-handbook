@@ -27,7 +27,7 @@ The field won't accept routes with a trailing slash or a leading slash.
 
 To configure SEO metadata attributes of a *📄 The Sourcee* page, it's necessary to use the `SEO Title` and `SEO Description` fields of the [content type](https://app.contentful.com/spaces/xz1dnu24egyd/environments/master/content_types/article/fields)
 
-To improve search engine results, use different language for the slug, Headline, SEO Title, and sSEO Description. 
+To improve search engine results, use different language for the slug, Headline, SEO Title, and sSEO Description.
 
 URLs should be kept short and aim to include topical terms and no stop words. URLs that are concise, descriptive, and easy to understand are generally better for both SEO and user experience.
 

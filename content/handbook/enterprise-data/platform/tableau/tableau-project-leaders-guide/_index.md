@@ -5,7 +5,7 @@ description: "GitLab's Project Leader Guide"
 
 A GitLab Tableau Project Leader is responsible for managing Tableau content within their assigned department. Their primary role is to ensure the integrity, security, and effectiveness of the department’s data and reporting. They oversee dashboards, workbooks, and data sources within the project, ensuring they meet organizational standards and are properly maintained.
 
-Project Leaders collaborate with developers to manage content in Production, whether by promoting new content or updating existing content. They play a key role in maintaining high-quality reporting and ensuring that the department's data assets are reliable and accessible. Here is the contact list for [Tableau Department Project Leads](https://10az.online.tableau.com/#/site/gitlab/workbooks/2730535/views). 
+Project Leaders collaborate with developers to manage content in Production, whether by promoting new content or updating existing content. They play a key role in maintaining high-quality reporting and ensuring that the department's data assets are reliable and accessible. Here is the contact list for [Tableau Department Project Leads](https://10az.online.tableau.com/#/site/gitlab/workbooks/2730535/views).
 
 This page is a resource and training for Project Leaders where the following is covered:
 
@@ -23,7 +23,7 @@ This page is a resource and training for Project Leaders where the following is 
    * **Understand the Workbooks & Dashboards**: Have a thorough knowledge of the Tableau data sources, workbooks, and dashboards in your project. Ensure that they meet business requirements and are up to date.
 
 2. **Validating and Approving Content**:
-   * **Promotion Process with Issues:** Have all Tableau content promotions Production use the Tableau GitLab [Issue](https://gitlab.com/gitlab-data/tableau/-/issues/new) using the template `Tableau Publish to Production`. 
+   * **Promotion Process with Issues:** Have all Tableau content promotions Production use the Tableau GitLab [Issue](https://gitlab.com/gitlab-data/tableau/-/issues/new) using the template `Tableau Publish to Production`.
    * **Production Validation**: Before promoting content to Production, ensure the data is accurate and meets the business’s needs. Double-check that the content is a trusted and validated source.
    * **Single Source of Truth**: Ensure usage of single source of truth (SSOT) for Certified and Published data sources. Also ensure that production content has one place for the users to access trusted dashboards and reports. Minimize redundant or conflicting workbooks that might confuse end users.
 
@@ -42,7 +42,7 @@ As a Project Lead, your main abilities are to move content from Development to P
 
 3. **Setting Permissions in Project Folders:** Project Leads have the ability to **set permissions** within their designated project folders. However, Please **Do Not Alter Permissions** without consulting the BI Team. Incorrectly setting permissions can expose sensitive data or restrict access for users who need it. If you believe that permission adjustments are needed, please **contact the BI Team**. They will help ensure that permissions are configured correctly and securely.
 
-Note that Project Leads do not have access to **Archive content.** Please reach out to the BI Team to have content moved to the Tableau Archived folder. 
+Note that Project Leads do not have access to **Archive content.** Please reach out to the BI Team to have content moved to the Tableau Archived folder.
 
 ---
 
@@ -72,4 +72,3 @@ When updating content in production it is best to overwrite what is in Productio
       1. From the drop down select your name and select **Save**
 
    1. When updating a workbook to Production the original workbook in Development will remain. This is a duplicate workbook which can cause confusion for which content to use. This workbook can be removed by either archival or deletion. To Archive ask the BI Team to move to Archive. When deleting ensure you are removing the correct workbook and also know that deleted content cannot be restored.
-   

@@ -148,19 +148,19 @@ The Director, International Accounting and Finance Transformation is a [10](/han
 - Ensure the international accounting team perform analysis to determine the impact of e.g. new accounting standards, changes in accounting policies, impact of non-GAAP policies on statutory reporting requirements for the non-US entities
 - Initiate, design, and implementation of new policies and procedures for non-US entities to support new audit requirements and business activities in non-US jurisdictions
 - Ensure all disclosures are properly included in the financial statements of non-US entities
-- Oversee US GAAP consolidations.  Monitor impact of foreign exchange 
+- Oversee US GAAP consolidations.  Monitor impact of foreign exchange
 - Netsuite business administration.  Monitor and approve changes to Netsuite Chart of Accounts.
 - Manage integration of International M&A events
-- Develop and oversee Controllership & Accounting Operations transformation roadmap.  Ability to translate strategic vision and objectives into measurable and executable milestones. 
+- Develop and oversee Controllership & Accounting Operations transformation roadmap.  Ability to translate strategic vision and objectives into measurable and executable milestones.
 - Execute multi-year plans to enable transformation efficiency and scale.
-- Participant in quarterly IT portfolio project prioritization process. 
+- Participant in quarterly IT portfolio project prioritization process.
 - Comfortable building and driving new frameworks and processes with cross-functional teams.
 - Interpersonal skills and the ability to collaborate effectively with stakeholders at all levels of the organization.
 - Build partnerships with Enterprise Applications, Business Technology Operations, Business Technology Program Management, and Integrations Engineering IT organizations
 - Identify, scope, and prioritize projects based on business needs. Prepare business cases and project plans.
 - Identify project phases and determine project timeline.   Consider Accounting  black out periods and management of project resources.  
-- Communicate changes to program status, risks and dependencies. Identify, assess, and escalate program blockers.  Ability to work through impasse. 
-- Possess an ownership mentality, intellectual curiosity, and an ability to execute in a dynamic fast-paced environment. 
+- Communicate changes to program status, risks and dependencies. Identify, assess, and escalate program blockers.  Ability to work through impasse.
+- Possess an ownership mentality, intellectual curiosity, and an ability to execute in a dynamic fast-paced environment.
 - Challenges the status quo.   Ability to influence new strategic / operational direction
 - Experience with design and solutions using next-generation technology such as data analytics, machine learning. and generative AI.
 

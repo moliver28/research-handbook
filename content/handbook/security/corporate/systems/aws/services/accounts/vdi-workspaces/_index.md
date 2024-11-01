@@ -14,7 +14,7 @@ https://clients.amazonworkspaces.com/
 
 ## Maintenance policy
 
-The workspaces sometimes go into unhealthy status, rebooting it could fix it. If not then rebuilding the VDI. 
+The workspaces sometimes go into unhealthy status, rebooting it could fix it. If not then rebuilding the VDI.
 
 ## AWS Documentation
 

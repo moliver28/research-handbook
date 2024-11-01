@@ -100,7 +100,7 @@ The Staff Global Workforce Strategy Program Manager is a [grade 8](/handbook/tot
 - Partner with the Legal and Tax team on international employment and contractual reviews, changes and requirements.
 - Oversee the vendor for immigration questions and counsel while building self-service content regarding immigration questions/processes.
 - Makes independent judgment decisions regarding mobility questions and requests.
-- Serve as a trusted partner with various cross-functional teams to execute program initiatives and policies to scale. 
+- Serve as a trusted partner with various cross-functional teams to execute program initiatives and policies to scale.
 - Independently manage the PEO vendor selection through RFP/RFI's, and ensure vendor QBR's are conducted.
 - Constantly identify process inefficiencies and inconsistencies and collaborate towards an improved and more productive process that improves the team member and/or manager’s experience.
 - Understand our broader People Team strategy and processes to architect, develop and implement scalable, flexible solutions that are extensible to our business needs.

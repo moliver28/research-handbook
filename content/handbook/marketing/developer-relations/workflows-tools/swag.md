@@ -22,11 +22,11 @@ A list of the items in our inventory with the amount of items left to be claimed
 
 ## Sending Swag codes
 
-If you are sending swag codes for the first time, you will need [a personal access token](https://docs.gitlab.com/ee/user/profile/personal_access_tokens.html) with the `read_api` scope. 
+If you are sending swag codes for the first time, you will need [a personal access token](https://docs.gitlab.com/ee/user/profile/personal_access_tokens.html) with the `read_api` scope.
 
 1. Request access to the [Google Sheet "Developer Relations Swag Coupon Codes & Delivery Tracking"](https://docs.google.com/spreadsheets/d/1LXXAXrxwx3HW1zFdBTB9OLQtjOqqECef9mCbvnzdnU8/edit?usp=sharing).
 1. Go to the tab "Issue rewards".
-1. Add the `Date`, `Username`, `Tier`, `Nominated by/cc` (if applicable), and `Link to contribution/event?` fields for the recipient. 
+1. Add the `Date`, `Username`, `Tier`, `Nominated by/cc` (if applicable), and `Link to contribution/event?` fields for the recipient.
 1. Highlight the `Username` field you entered and from the `GitLab` menu, select `Create issues (highlight usernames)`
 1. It’ll prompt you for your access token. Once entered, the macro will populate the rest of the fields and create an issue to reward the recipient in the [Contributor Success rewards project](https://gitlab.com/gitlab-org/developer-relations/contributor-success/rewards/-/issues/).
 

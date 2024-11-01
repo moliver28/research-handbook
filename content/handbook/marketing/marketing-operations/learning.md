@@ -42,7 +42,7 @@ Last updated: June 2024
 
 ### AntiCon London 2024 Takeaways
 
-#### Introductions 
+#### Introductions
 
 1. The velocity at which new AI marketing tools are launching is exponential in comparison to business organizations.
 1. We are going to continue to see tools embed new AI functionalities to their solutions. AI will disrupt the marketing technology landscape, but it’s here to stay. We will see pioneers of AI gain technological and organizational benefits.

@@ -5,7 +5,7 @@ description: A multi-modal learning experience for GitLab team members to streng
 
 ## Radical Candor on High Performing Teams
 
-At GitLab, [high performing teams](https://internal.gitlab.com/handbook/company/high-performing-teams/#high-performing-teams-playbook) collaborate with open and effective communication. To strengthen this skill across the organization, we're bringing the [Radical Candor](https://www.radicalcandor.com/blog/what-is-radical-candor/) communication framework to GitLab. Radical Candor focuses on buidling trust, another pilar of high performing teams at GitLab, and using that trust to foster effective collaboration through conflict. 
+At GitLab, [high performing teams](https://internal.gitlab.com/handbook/company/high-performing-teams/#high-performing-teams-playbook) collaborate with open and effective communication. To strengthen this skill across the organization, we're bringing the [Radical Candor](https://www.radicalcandor.com/blog/what-is-radical-candor/) communication framework to GitLab. Radical Candor focuses on buidling trust, another pilar of high performing teams at GitLab, and using that trust to foster effective collaboration through conflict.
 
 Learners will experience Radical Candor in a semi-synchronous program, with time spent in self paced training, async Slack discussion, and live practice.
 
@@ -31,7 +31,7 @@ _By signing up, you agree to spend approx. 45 minutes per week for the 6 week co
 
 Radical Candor at GitLab embraces a semi-synchronous learning model, including a mix of self-paced learning, live practice, and async discussion. Review the detailed course requirements below.
 
-| Course Element | Description | 
+| Course Element | Description |
 | ----- | ---------- |
 | Self-Paced Course | Complete a 3 hour, self-paced course in MasterClass, led by Kim Scott, founder of Radical Candor. |
 | Live Practice | Meet for two 25-minute practice sessions with other learners. In breakout groups, discuss concepts of Radical Candor and practice scenario-based discussions. |
@@ -56,5 +56,5 @@ Refer to the timeline below for a breakdown of each course requirement, as well 
 ## Additional Program Requirements
 
 1. Radical Candor is open to all team members at GitLab.
-1. Enrollment is first-come, first served. Once the 50-person cohort is full, we'll create a waiting list. 
+1. Enrollment is first-come, first served. Once the 50-person cohort is full, we'll create a waiting list.
 1. By 2024-11-18, if you've not activated your MasterClass license, your seat may be reassigned to someone on the waitlist.

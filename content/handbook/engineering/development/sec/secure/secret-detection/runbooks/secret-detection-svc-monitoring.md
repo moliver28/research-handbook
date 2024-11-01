@@ -21,7 +21,7 @@ We primarily need to monitor system metrics and recurrent errors raised within t
 
 Most of above-mentioned monitoring targets i.e. Resource Saturation and Aggregated SLIs, are available in the [**Service Overview Dashboard**](https://dashboards.gitlab.net/d/secret-detection-main/secret-detection3a-overview?orgId=1).
 
-The recurrent application errors are generally available in the GitLab Error Monitoring/[Sentry](https://new-sentry.gitlab.net/organizations/gitlab) tool. However, we are yet to integrate the service with the Error Monitoring tool. Please refer to this [issue](https://gitlab.com/gitlab-org/gitlab/-/issues/499067) to track the integration progress. 
+The recurrent application errors are generally available in the GitLab Error Monitoring/[Sentry](https://new-sentry.gitlab.net/organizations/gitlab) tool. However, we are yet to integrate the service with the Error Monitoring tool. Please refer to this [issue](https://gitlab.com/gitlab-org/gitlab/-/issues/499067) to track the integration progress.
 
 Meanwhile, you may refer to the logs for any log messages with `ERROR` levels to look for application-related errors. **Logs** are available [here](https://console.cloud.google.com/run/detail/us-east1/secret-detection/logs?project=gitlab-runway-production).
 

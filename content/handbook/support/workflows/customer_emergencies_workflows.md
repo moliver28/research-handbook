@@ -54,7 +54,7 @@ An example DRI schedule is below. Note that AMER 2 is DRI for 30 minutes longer 
     - Work with your network/peers/Support Pod to find an Assignee for each of those tickets
 - During the week before you are on-call, discuss tickets that need to be handed over with your manager. Assign these tickets to them to ensure they have a DRI and chat through Next Steps as needed. (It's expected that your Manager will help with finding an Assignee to work on the ticket.)
   - 🔎 Identify tickets you can reasonably keep during on-call week
-    - 📉Try to enter the on-call week with about ~20% less than the AQC baseline. (Current: 22) 
+    - 📉Try to enter the on-call week with about ~20% less than the AQC baseline. (Current: 22)
 NOTE: 💡Solving emergency tickets will count towards your AQC
 
 ###### During On-Call
@@ -62,10 +62,10 @@ NOTE: 💡Solving emergency tickets will count towards your AQC
 - Emergencies are unpredictable, so remember that your main objective this week is to deliver results for customers who contact CEOC
 - 🔥 If one of your assigned tickets gets hot, you can [STAR the ticket](/handbook/support/internal-support/support-ticket-attention-requests.md), or raise attention to a Support Leader who can help
 - Help with the Global queue as you can
-  - Take easy win tickets (i.e. 2FA, Low priority, free user tickets) as you are able 
+  - Take easy win tickets (i.e. 2FA, Low priority, free user tickets) as you are able
   - Leave internal notes with next steps on tickets if you cannot take assignment
   - Pair and participate in Support Pod sessions as you are able
-- 🧠 Remember: your goal this week is to take care of customers who page CEOC 
+- 🧠 Remember: your goal this week is to take care of customers who page CEOC
 
 ###### Week After On-Call
 

@@ -154,7 +154,7 @@ If you have questions regarding the planned rotation schedule, please ping the [
 
 1. This is not a performance evaluation.
 1. Plan to observe and ask questions.
-1. Don't plan to do any of your usual work. Prepare your team as if you were on vacation. In Slack, change your status noting who will be covering for you. 
+1. Don't plan to do any of your usual work. Prepare your team as if you were on vacation. In Slack, change your status noting who will be covering for you.
 1. Be ready to add a number of [handbook](/handbook/about/handbook-usage/) updates during your shadow period.
 1. Participating in the shadow program is a privilege where you will be exposed to confidential information, including having access to material non-public information (MNPI). Participation in the shadow program and access to such information is underpinned by trust in the shadows to honor the confidentiality of topics being discussed and information shared. The continuation of this program is entirely dependent on shadows past, present, and future honoring this trust placed in them. As stated in GitLab's [Insider Trading Policy](https://drive.google.com/file/d/184tkDZaPmZAxwQRQ5BwBv2JpfTWbWmBW/view), participants in the shadow program will be considered Designated Insiders because shadows have access to MNPI. Each participant of the CEO Shadow Program or other E-Group level shadow program will be added to the Designated Insider list for the quarter in which they are program participants. Each shadow will be removed from the Designated Insider list once the window has closed for the same quarter they participate as a shadow only if that is the sole reason the participant is on the Designated Insider list. For additional information, please see the [Designated Insider Pre-Clearance Process and FAQs](https://docs.google.com/document/d/1mcBtnfGbv4jSsJUklMQYyj2052MBHe4Lf9RkE-B9yvA/edit#).
 1. Give feedback to and receive feedback from the CEO. Participants in the shadow program are encouraged to deliver [candid feedback](/handbook/people-group/guidance-on-feedback/#giving-feedback). Examples of this are to the CEO and to the world about the company if they make a blog post or video. Shadows maintaining confidentiality during the program is separate from shadows being able to provide candid feedback.
@@ -383,7 +383,7 @@ Immediately following meetings, score the CEO on overall positivity score from 1
 
 If your score for a meeting was below a 5, immediately following the meeting, send Sid a Slack DM with your score and the reasoning.
 
-If you do not report a score for a meeting, it is assumed that your score is `5`. 
+If you do not report a score for a meeting, it is assumed that your score is `5`.
 
 Score definitions:
 

@@ -7,7 +7,7 @@ description: "The Enterprise Applications, G&A Team implements and supports spec
 
 ## <i class="fas fa-users" id="biz-tech-icons"></i> About Us
 
-The **Enterprise Applications, G&A Team** implements and supports specialized applications that support our internal business processes spanning the procure-to-pay and record-to-report processes at GitLab. We are directly responsible for the administration and expansion of GitLab’s financial systems to support scalability and compliance. 
+The **Enterprise Applications, G&A Team** implements and supports specialized applications that support our internal business processes spanning the procure-to-pay and record-to-report processes at GitLab. We are directly responsible for the administration and expansion of GitLab’s financial systems to support scalability and compliance.
 
 Our team ensures the availability of these applications through monitoring and alerting. These internal-facing applications include the following applications - NetSuite, Coupa, Zip, Navan Travel & Expense, Adaptive Planning, etc. We are also responsible for the IT Audit and Compliance function to ensure we pass SOX Audit for our IT General Controls (ITGC).
 
@@ -31,20 +31,20 @@ Our team ensures the availability of these applications through monitoring and a
 
 ### Finance Systems Administration
 
-- The team supports Keeping-the-lights-on (KTLO) of the in-scope financial applications. This includes, user provisioning and offboarding, COA segment additions, financial report builds, release upgrade testing, and daily maintenance to ensure the system works as expected. 
+- The team supports Keeping-the-lights-on (KTLO) of the in-scope financial applications. This includes, user provisioning and offboarding, COA segment additions, financial report builds, release upgrade testing, and daily maintenance to ensure the system works as expected.
 
 ### Non-Project Operational Enhancements
 
-- A majority of our time is spent supporting and deploying smaller, non-project-sized tasks that will be prioritized into a milestone.These include adding or updating workflows, custom field enhancements, enabling a quick feature, updating expense policies, etc. 
+- A majority of our time is spent supporting and deploying smaller, non-project-sized tasks that will be prioritized into a milestone.These include adding or updating workflows, custom field enhancements, enabling a quick feature, updating expense policies, etc.
 
 **<i class="fas fa-bullhorn" id="biz-tech-icons"></i> How We Operate - Intake, Planning and Milestones**
 
 ### How do I submit a request to your team?
 
-- **Projects** 
+- **Projects**
 
   - For any requests that will span several weeks, have a cross functional impact, and will require a project manager, please reach out to the [PMO team](../business-technology/pmo/) to get the project on the roadmap and prioritized.
-    
+
 - **Operational Enhancements**
 
   - As most issues require a change to our system to comply with SOX, it must be documented through a **CM: Configuration Change**  template linked [here](https://gitlab.com/gitlab-com/business-technology/enterprise-apps/financeops/finance-systems/-/issues/new#). For any new requests, please submit an issue through the template. These issues will be evaluated and assigned to the ~BT:Backlog label [here](https://gitlab.com/groups/gitlab-com/-/issues/?sort=created_date&state=opened&label_name%5B%5D=BT%3A%3ABacklog&first_page_size=100)

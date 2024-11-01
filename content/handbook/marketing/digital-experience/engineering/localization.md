@@ -54,7 +54,7 @@ Per this [comment](https://gitlab.com/gitlab-com/marketing/digital-experience/bu
 
 #### Best practices for content editors adding localized content
 
-Many of our webpages were built using a variety of standards, so some webpages will require a code change the first time they are localized. For this reason, if it's the first time a page is being translated, it's best if a DEx engineer reviews the page first. After any necessary code changes have been made and merged, content editors can edit translated content in Contentful. An exception to this rule is the Homepage and Pricing page - please make your edits then tag a DEx engineer to review and publish. In general, we avoid making changes on Fridays so as to avoid any potential bugs appearing on the weekend - if it's anything other than a small content change or typo, try to avoid publishing changes on Fridays. 
+Many of our webpages were built using a variety of standards, so some webpages will require a code change the first time they are localized. For this reason, if it's the first time a page is being translated, it's best if a DEx engineer reviews the page first. After any necessary code changes have been made and merged, content editors can edit translated content in Contentful. An exception to this rule is the Homepage and Pricing page - please make your edits then tag a DEx engineer to review and publish. In general, we avoid making changes on Fridays so as to avoid any potential bugs appearing on the weekend - if it's anything other than a small content change or typo, try to avoid publishing changes on Fridays.
 
 Known issues: Since many content editors don't have access to Admin features in Contentful, they will not be able to bulk publish. This means that everytime the publish button is clicked, a new pipeline will begin. DEx engineers can help with bulk publishing to avoid this issue. If a change was published more than 30 minutes ago and it's still not visible on the website, please reach out to the digital-experience-team slack channel, so we can investigate if there was a failure.
 
@@ -83,9 +83,9 @@ Right now, each Marketo form ID is unique per every locale. We are looking into 
 
 ### Global Gateway
 
-The global gateway is crucial for creating a positive first impression by presenting content in users' native languages, fostering trust and ensuring seamless navigation. It enhances user experience by directing them to localized marketing sites and correctly localized product sign-up paths. 
+The global gateway is crucial for creating a positive first impression by presenting content in users' native languages, fostering trust and ensuring seamless navigation. It enhances user experience by directing them to localized marketing sites and correctly localized product sign-up paths.
 
-Our FY25 goal for the marketing site Global Gateway is to create a more personalized and effective marketing experience for users worldwide, ultimately driving better engagement and business outcomes. We will measure engagement and business outcomes with Google Analytics and Tableau. 
+Our FY25 goal for the marketing site Global Gateway is to create a more personalized and effective marketing experience for users worldwide, ultimately driving better engagement and business outcomes. We will measure engagement and business outcomes with Google Analytics and Tableau.
 
 #### Language Selector
 

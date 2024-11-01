@@ -22,7 +22,7 @@ There are a few different storefronts to meet the needs of each team or group. T
 - EMEA Field Marketing (EMEA, UK)
 - Corporate Events (US, APAC)
 - Contributor Success (US)
-- People Experience 
+- People Experience
 - Talent Brand (US)
 - Absence Management (US)
 - Human Resources (US)

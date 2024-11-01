@@ -29,8 +29,8 @@ In order to officially "graduate" from Sales Onboarding at GitLab and be awarded
   - Customer Focus: Intro to Renewals Manager Organization - (30 minutes)
   - Customer Focus: Working with Sales Devlopment & Marketing - (50 minutes)
   - Customer Focus: Mock Calls - (2 hours)
-- Complete 1 mock discovery call at the SQS Workshop with a PMM, Manager, or a more experienced SA or CSM. 
-  - Mock calls are scored using a point system, with 80 points required to pass. Points are awarded as 0 points, half points, or full points across 6 core skills outlined below using this [Google Form](https://forms.gle/BWVQBMRruf1TUb5S6) as the official rubric and system of record. 
+- Complete 1 mock discovery call at the SQS Workshop with a PMM, Manager, or a more experienced SA or CSM.
+  - Mock calls are scored using a point system, with 80 points required to pass. Points are awarded as 0 points, half points, or full points across 6 core skills outlined below using this [Google Form](https://forms.gle/BWVQBMRruf1TUb5S6) as the official rubric and system of record.
 - Mock Call Grading Criteria
 
   - Uses open-ended (Discovery Questions and/or Trap-Setting Questions) **- 30 Points**

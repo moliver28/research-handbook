@@ -13,7 +13,7 @@ The purpose of this lab is to create a review app from a Node.js application. A 
 
 ## Task A. Creating a Web App
 
-For this task, we will be creating a web application to run in our review environment. 
+For this task, we will be creating a web application to run in our review environment.
 
 1. Navigate to your project repository.
 

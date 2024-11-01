@@ -8,7 +8,7 @@ At GitLab, we believe everyone can contribute. In that spirit, members of the UX
 
 We engage, support, and recognize students during the capstone design experience. As an industry sponsor, GitLab works with the students to solve an existing problem that is relevant to both Tufts and our organization.
 
-The Tufts Capstone is a great opportunity for GitLab Team Members looking to share their knowledge and learn from each other. Some of the benefits include: 
+The Tufts Capstone is a great opportunity for GitLab Team Members looking to share their knowledge and learn from each other. Some of the benefits include:
 
 - Improve your mentoring and coaching skills by working with students who are new to GitLab
 - Improve your communication skills, specifically around the concepts we work with every day using clear language that simplifies complexity
@@ -43,7 +43,7 @@ If you're interested in volunteering for the Spring 2025 semester, you should co
 
 ## Volunteer team composition
 
-For best results, we are looking for 3-5 volunteers from GitLab's UX team, **at least** 1 of whom is a Product Designer and 1 of whom is a UX Researcher. 
+For best results, we are looking for 3-5 volunteers from GitLab's UX team, **at least** 1 of whom is a Product Designer and 1 of whom is a UX Researcher.
 
 ## Project proposals
 

@@ -186,7 +186,7 @@ Please see the [project-permission-structure](/handbook/enterprise-data/platform
 
 ## Tableau Content Publication
 
-Tableau Workbooks and Data Sources can be published to two folder environments: Development and Production. The following details the publication process for each folder environment. 
+Tableau Workbooks and Data Sources can be published to two folder environments: Development and Production. The following details the publication process for each folder environment.
 
 ### Publication to Development Folders
 
@@ -218,14 +218,14 @@ The Production Folder is a separate environment where Tableau users can find das
 #### First-Time Promotion to Production
 
 1. **Developer Publish to Development**: The Developer publishes the content to a Tableau Development folder. This is the initial step where content is prepared for review and eventual promotion.
-1. **Developer Creates an Issue**: The Developer creates a [GitLab Issue](https://gitlab.com/gitlab-data/tableau/-/issues/new) which will document the promotion process to Production. Use the template `Tableau Publish Workbook or Data Source to Production` which lists all necessary request documentation and requirements. 
+1. **Developer Creates an Issue**: The Developer creates a [GitLab Issue](https://gitlab.com/gitlab-data/tableau/-/issues/new) which will document the promotion process to Production. Use the template `Tableau Publish Workbook or Data Source to Production` which lists all necessary request documentation and requirements.
 1. **Developer Confirms Content Validity**: Developer ensures content meets promotion criteria requirements as documented in Issue. The Developer will then assign the issue to the associated [Department Project Lead](https://10az.online.tableau.com/#/site/gitlab/workbooks/2730535/views) for approval, signaling that the content is ready for review.
 1. **Review Process**: The Project Lead will review the issue and content. They will check for compliance with Production requirements and assess the content's readiness. If needed, the Approvers will propose corrections or updates to the content. The Developer will need to address these before proceeding.
 1. **Final Promotion**: Once all requirements are met and approval is granted, the Project Lead moves the content from Development to Production. This step officially makes the content available for business use.
 
 #### Editing and Updating Content in Production
 
-There are two options for editing or updating content which is in Production: 
+There are two options for editing or updating content which is in Production:
 
 1. **Update and Overwrite Original:** This is required for any major changes to a workbook or data source. Changes include replacing or editing a data source, altering or adding logic, custom sql, or calculated fields. This is the preferred option where the developer edits the workbook or data source and save it to the Development folder. It is then reviewed and inspected. After approval it the Project Leader will overwrite it to Production.
 1. **Allow Developer to Edit in Production:** Allow me 48 hours to edit/update access to alter in Production content myself. This is only allowed for small changes such as cosmetic improvements, spelling corrections, small filter changes or urgent issues.

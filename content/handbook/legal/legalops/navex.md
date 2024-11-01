@@ -40,7 +40,7 @@ For the best user experience, we recommend using Google Chrome and disabling you
 - Toggle the zoom, making sure it is set to no greater than 100%.
 - Clear your cache.
 - Make sure you have logged into Navex in only one tab/window.
-- Restart your computer. 
+- Restart your computer.
 
 If you are experiencing course completion issues, follow these best practices:
 

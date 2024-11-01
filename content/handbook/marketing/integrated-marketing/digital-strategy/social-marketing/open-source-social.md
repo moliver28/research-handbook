@@ -9,7 +9,7 @@ twitter_creator: "gitlab"
 
 ## Open Social Media Strategies
 
-GitLab-based social media strategies to aid in developing your own social media department. 
+GitLab-based social media strategies to aid in developing your own social media department.
 
 *Updates coming soon!*
 

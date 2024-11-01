@@ -7,7 +7,7 @@ description: "How to get assistance for problems on Production Platforms"
 
 If you need to report an incident - follow the instructions on the [Report An Incident page](./incident-management/#reporting-an-incident).
 
-If you are looking for help, and you know what service you need help with - find the owner in the [tech stack](https://gitlab.com/gitlab-com/www-gitlab-com/-/blob/master/data/tech_stack.yml). If they are listed below, then please create a Request For Help issue. If they aren't listed, please contact the owners through the Slack channel listed in the tech stack file. 
+If you are looking for help, and you know what service you need help with - find the owner in the [tech stack](https://gitlab.com/gitlab-com/www-gitlab-com/-/blob/master/data/tech_stack.yml). If they are listed below, then please create a Request For Help issue. If they aren't listed, please contact the owners through the Slack channel listed in the tech stack file.
 
 If you need help, but you aren't sure who to ask, look through the teams below to see which team is the best fit for your question.
 
@@ -109,4 +109,4 @@ Our Slack channel is: [#f_gitlab_dedicated](https://gitlab.enterprise.slack.com/
 
 ### Teleport Requests
 
-Requests for access via teleport should go exclusively in the #teleport-requests channel. This type of request is responded to with best effort, but without a formal SLA. Please avoid using any other channel to escalate these requests, and do not directly ping the sre-oncall as they will not respond to these requests. 
+Requests for access via teleport should go exclusively in the #teleport-requests channel. This type of request is responded to with best effort, but without a formal SLA. Please avoid using any other channel to escalate these requests, and do not directly ping the sre-oncall as they will not respond to these requests.

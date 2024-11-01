@@ -106,8 +106,8 @@ A Python script is used for this automation which follows specific criteria to i
 
 2. <b>Data Sources</b> - Stale Criteria: A data source is considered unused if it has no connected workbooks and has not been created or updated in the last 90 days.
 
-    Exclusions and Uniquenss: 
-        
+    Exclusions and Uniquenss:
+
     - Exclusions: Workbooks and Data sources with the Tableau tag "Do NOT Archive" are excluded from archiving.
 
     - Renaming for Uniqueness: Before moving a workbook or data source to the "Archive" folder, its name is appended with the owner, parent project, and the current date/time to ensure uniqueness and avoid conflicts.

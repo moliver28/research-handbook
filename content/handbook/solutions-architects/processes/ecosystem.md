@@ -12,7 +12,7 @@ For issues, the ESA team will leverage the **~Partner-SA**, **~Partner Region-AM
 
 The Ecosystem Team’s north star is GitLab NetARR.  ESAs will support the Ecosystem Sales Managers (ESM) whose main responsibility is to work with field account teams to achieve their revenue goals leveraging partners to scale the quantity, value, and strategic relevance of deals.  
 
-The ESA primary contribution is to help the GitLab Global Ecosystem team drive our sales strategy by empowering an ecosystem of partners with mature GitLab GTM solutions, services practices, and GTM solutions.  The Ecosystem SA role also entails communicating technical concerns of partners back into GitLab Product, Engineering, Marketings and other areas as appropriate. This role involves pre-sales and supporting partners. 
+The ESA primary contribution is to help the GitLab Global Ecosystem team drive our sales strategy by empowering an ecosystem of partners with mature GitLab GTM solutions, services practices, and GTM solutions.  The Ecosystem SA role also entails communicating technical concerns of partners back into GitLab Product, Engineering, Marketings and other areas as appropriate. This role involves pre-sales and supporting partners.
 
 ## Field and Ecosystem SA Opportunity Responsibility
 
@@ -44,23 +44,23 @@ The ESA also promotes partner Delivery teams to get trained and certified to pro
 
 ## Ecosystem Solutions Architecture Engagement Model
 
-### Developing Partner Champions 
+### Developing Partner Champions
 
 The Ecosystem SA goal is to effectively enable an entire ecosystem of associated services, platform, technology, and transaction partners.  We cannot do this unless we develop [GitLab Partner Champions](/handbook/resellers/partner-champions-program/) within our partner community.  Selling and services relationships are personal.  We don’t “enable partners."  We develop champions who can share and scale our reach delivering simple messages that unlock services and consumption.  This effort requires focus and achieves scale.
 
 ### Working with Strategic Alliance Partners
 
-The Ecosystem SA is an influential technical representative from GitLab to our strategic an technical alliance partners. This role involves pre-sales and driving partner solutions and joint GTM initiatives.  The Ecosystem SA role also entails communicating technical concerns of partners back into GitLab Product Management, and driving integration intitiatives with our Product Marketing and Engineering counterparts. 
+The Ecosystem SA is an influential technical representative from GitLab to our strategic an technical alliance partners. This role involves pre-sales and driving partner solutions and joint GTM initiatives.  The Ecosystem SA role also entails communicating technical concerns of partners back into GitLab Product Management, and driving integration intitiatives with our Product Marketing and Engineering counterparts.
 
 In terms of key responsibilities, the Ecosystem SA is responsible for supporting these Strategic Alliance Partnerships through the following activities:
 
 - Partner Go To Market (GTM): Proactively identifies market demand prior to solutioning. Engages business leaders with proposal development and estimate preparation to validate business alignment to solution development.  Works across technical and services partners to identify and develop joint solutinos, enablement and messaging, both internal and external.  
-- Subject Matter Expertise: Recognized as a trusted advisor within an area of focus, with exceptional soft / public speaking skills and “hands on the keyboard” depth. 
+- Subject Matter Expertise: Recognized as a trusted advisor within an area of focus, with exceptional soft / public speaking skills and “hands on the keyboard” depth.
 - Internal and External Evangelism: Communicates, grows and evolves awareness of applicable Partner technology, services, success stories, market trends and best practices.
 - GitLab Strategy: Generates ideas for and participates in Ecosystem group strategy formulation for both business and technical considerations.
 - Content Curation: Sources and curates content with Partner Enablement team that is easy to find and use, and helps meet the goals of GitLab and its partners.
 
-### TODO Working with Services Partners 
+### TODO Working with Services Partners
 
 ### MBO Guidelines
 

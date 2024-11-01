@@ -57,7 +57,7 @@ Product TPgM team
 Natalie Pinto: Manager of Technical Program Management
 
 * Slack handle: @natalie
-* GitLab handle: @natalie.pinto 
+* GitLab handle: @natalie.pinto
 * [READ.me](https://gitlab.com/natalie.pinto)
 
 Clarissa Ersoz: Technical Program Manager
@@ -73,8 +73,8 @@ Michaela Seferian-Jenkins: Technical Program Manager
 
 TBH: Technical Program Manager, Escalation Specialist
 
-* Slack handle: 
-* GitLab handle: 
-* Email: 
+* Slack handle:
+* GitLab handle:
+* Email:
 
 [Click here](/handbook.gitlab.com/job-families/product/program-manager/) to learn more about technical program management roles & responsibilites.

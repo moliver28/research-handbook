@@ -11,7 +11,7 @@ Members of [E-Group](/handbook/company/structure/#executives) and department lea
 These meetings are designed to ensure that E-Group is aligned on:
 
 1. Top priorities and watchpoints from the lens of each E-Group member.
-1. Important KPIs and OKRs that need visibility and alignment. 
+1. Important KPIs and OKRs that need visibility and alignment.
 1. Performance against the plan, forecast, and operating model.
 1. Accountability to each other and the rest of the company.
 
@@ -22,9 +22,9 @@ These meetings are designed to ensure that E-Group is aligned on:
 
 ## Timing and scheduling
 
-Key Reviews are once per quarter. 
+Key Reviews are once per quarter.
 
-The Staff EBA to the CFO is the scheduling DRI for the Key Reviews and will schedule a two hour block during the week after Board Meeting material is submitted. We use Board memos as collateral, so meetings occur in the week between Board memo submissions and the Board Meeting. 
+The Staff EBA to the CFO is the scheduling DRI for the Key Reviews and will schedule a two hour block during the week after Board Meeting material is submitted. We use Board memos as collateral, so meetings occur in the week between Board memo submissions and the Board Meeting.
 
 To be clear on when this meeting would happen:
 
@@ -41,7 +41,7 @@ A Key Review should not be cancelled without permission. Permission to cancel or
 Required invitees are members of E-Group, the CoS to the CEO, the EBA to the CFO, and the EBAs to the CEO.
 Optional attendees are other team members as designated by their E-Group leader.
 
-Key Review Meetings may contain [material non-public information (MNPI)](/handbook/enterprise-data/data-management/#data-categorization). As materials are limited access, participation is limited. Key Review agendas and recordings should not be shared with anyone not on the invite. 
+Key Review Meetings may contain [material non-public information (MNPI)](/handbook/enterprise-data/data-management/#data-categorization). As materials are limited access, participation is limited. Key Review agendas and recordings should not be shared with anyone not on the invite.
 
 If the Key Review meeting will not contain MNPI, it can be privately livestreamed to GitLab Unfiltered.
 
@@ -62,7 +62,7 @@ If you would like to be added to a function's Key Review, ask your functional E-
 
 ## Meeting Format
 
-Each E-Group member will share its Board memo on the Board material submission date. This is the key collateral used in these meetings. 
+Each E-Group member will share its Board memo on the Board material submission date. This is the key collateral used in these meetings.
 
 E-Group members can **optionally** choose to include additional material. Some may chooose to use a version of a [company-wide template](https://docs.google.com/presentation/d/1esfS19XLcVDQnEd8iBZJM_FXKJXE2NR8aRNqBYj8hCc/edit#slide=id.g278553b265c_0_3) that we have previously used in these meetings. as much as possible to reduce duplicative efforts and streamline Key Reviews. Whether leveraging memos or other mediums, materials should capture:
 
@@ -79,9 +79,9 @@ E-Group members can **optionally** choose to include additional material. Some m
 1. KPIs should be covered. This can be in the memo and/or links to the handbook.
 1. Wherever possible, the KPI or KR being reviewed should be compared to Plan, Target, or industry benchmark.
 1. There is no presentation; the meeting is purely Q&A. Of course, people can ask to talk them through a slide. If you want to present, please [post a YouTube video](/marketing/marketing-operations/youtube/) and link that from the slide deck, agenda, and/or Slack.
-1. The Staff EBA to the CFO is responsible for coordinating a central submission document for materials to be linked in 5 business days in advance of the meeting. 
+1. The Staff EBA to the CFO is responsible for coordinating a central submission document for materials to be linked in 5 business days in advance of the meeting.
 1. All Key Review material, excluding memos that should be submitted on the specified date, should be linked 5 business days in advance in the [FY25 & FY26 Key Reviews SSOT](https://docs.google.com/spreadsheets/d/1cAomghJzvww1iikBVgbanOIgg4nuEKZRnK1hDh7sN6k/edit?gid=0#gid=0) on the KR Summary & Materials tab.
 1. The agenda document should include a presentation link that is accessible to all team members on the invite, as well as a Q&A section.
-1. All Key Reviews are private recordings due to MNPI and are not to be shared outside of the attendees on the specific Key Review invite. 
+1. All Key Reviews are private recordings due to MNPI and are not to be shared outside of the attendees on the specific Key Review invite.
 1. If the function DRI is not available to attend their Key Review, the function DRI can designate a person or people from their leadership team to provide updates, share views, and cascade information.
 1. Repetition in recognizing what is working or not working each Key Review is okay as repetition can be an organizational tool for teaching people what’s important amidst all the noise.

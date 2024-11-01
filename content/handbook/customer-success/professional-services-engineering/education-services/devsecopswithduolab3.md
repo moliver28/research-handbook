@@ -49,7 +49,7 @@ GitLab Duo extends beyond just code generation. GitLab Duo can support you throu
 
 1. From the issue you just created, select **Create merge request**.
 
-1. Add a brief description similar to `This MR introduces the Go Figure module to our "hello world" application`. 
+1. Add a brief description similar to `This MR introduces the Go Figure module to our "hello world" application`.
 
 1. Leave all other options as default and select **Create merge request**.
 
@@ -110,7 +110,7 @@ GitLab Duo extends beyond just code generation. GitLab Duo can support you throu
 
 1. At the bottom of the job output, select **Troubleshoot**.
 
-1. This will open a Duo chat window with a description of the `root cause of failure`. **Note:** You could have also opened Duo chat and used the `/troubleshoot` command to generate this explanation. 
+1. This will open a Duo chat window with a description of the `root cause of failure`. **Note:** You could have also opened Duo chat and used the `/troubleshoot` command to generate this explanation.
 
 1. Review the explanation of the failed job and the example fix.
 

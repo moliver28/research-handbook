@@ -14,7 +14,7 @@ A: Yes. We use GCP Persistent Storage volumes underneath all of our filesystems,
 
 #### Q: How customer data removed when they delete something?
 
-Subquestion in detail: If a customer deletes their project, group, or account on GitLab.com, is their data securely deleted? 
+Subquestion in detail: If a customer deletes their project, group, or account on GitLab.com, is their data securely deleted?
 
 A: Neither the git repo backups nor the database backups will be purged immediately. When a project is deleted, the corresponding data from the database as well as the files associated with that project's repository, pages, and wiki will be removed, but will continue to exist in backups for up to two weeks after the deletion. Note that this time frame can be longer in case [Delayed project deletion](https://docs.gitlab.com/ee/user/gitlab_com/index.html#delayed-project-deletion) is enabled. For this reason we cannot guarantee that a deleted project is entirely purged from our system until the oldest of those backups expires. Please note that this is not the same as "secure delete", which typically means overwriting the deleted files' blocks with random bytes at least N times, but without the decryption keys, a stolen copy of our disk images would be unreadable.
 

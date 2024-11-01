@@ -13,7 +13,7 @@ toc_hide: true
 
 ## Problem to solve
 
-TODO 
+TODO
 
 ## Strategies
 

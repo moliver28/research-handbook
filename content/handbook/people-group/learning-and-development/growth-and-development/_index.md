@@ -24,7 +24,7 @@ Start by having a [growth conversation](/handbook/people-group/learning-and-deve
 <details>
 <summary>Manager Guidance: Growth Conversations & Recommending Opportunities </summary>
 
-- All Growth and Development applications need manager approval, so applications from team members should not come as a surprise to you when they are created, but should come about as a result of ongoing Career Development conversations with your team. If you don’t already have regular career development conversations planned in with your team members, we recommend scheduling these in so that you can better understand your team members’ career goals. 
+- All Growth and Development applications need manager approval, so applications from team members should not come as a surprise to you when they are created, but should come about as a result of ongoing Career Development conversations with your team. If you don’t already have regular career development conversations planned in with your team members, we recommend scheduling these in so that you can better understand your team members’ career goals.
 
 - Take a look at the [Support your team with Career Conversations](https://levelup.gitlab.com/access/saml/login/internal-team-members?returnTo=https://levelup.gitlab.com/learn/course/support-your-team-with-career-conversations) course in Level Up for best practice on how to handle these conversations effectively.
 
@@ -92,7 +92,7 @@ Cost Tiers Approval:
 
 Once all necessary approvals have been given in your G&D application issue, you are OK to proceed with paying for your opportunity and any necessary travel arrangements.
 
-All individual G&D requests should be paid for by the team member who has applied for the opportunity. 
+All individual G&D requests should be paid for by the team member who has applied for the opportunity.
 
 Once you have paid for the opportunity, you can proceed with taking part in, and completing it, in whatever form that might take.
 
@@ -110,7 +110,7 @@ All expenses should be claimed via [Navan](/handbook/finance/expenses/#-introduc
 
 #### Travel Expenses
 
-As is detailed in the issue template, details of travel-related expenses, including costs for travel, lodging, and meals, should still be included in your G&D issue for approval. 
+As is detailed in the issue template, details of travel-related expenses, including costs for travel, lodging, and meals, should still be included in your G&D issue for approval.
 
 However, they must be expensed separately to your G&D claim, following GitLab’s [Travel and Expense policy](/handbook/finance/expenses/#41-travel-related-expenses). Add a link to your G&D issue in the claim description. Please select `Growth and Development` as the Classification for these expenses, but not as the 'Expense Type'.
 
@@ -154,7 +154,7 @@ For any meals, lodging, or travel - these should not be categorised using the `G
 
 Please use the [Academic Study](https://gitlab.com/gitlab-com/people-group/learning-development/growth-and-development-requests/-/issues/new?issuable_template=g-and-d-academic-study) issue template to open requests of this type.
 
-**Description:** For academic courses relevant to your GitLab career development goals, the G&D Fund can be used to cover tuition and enrollment. Additional fees related to books, travel, supplies, etc, are not covered. 
+**Description:** For academic courses relevant to your GitLab career development goals, the G&D Fund can be used to cover tuition and enrollment. Additional fees related to books, travel, supplies, etc, are not covered.
 
 The course must be from a credentialed college or university and must be relevant to your career development goals and development. The relevance of the classes taken for each semester will be subject to the approval of the manager. The grade must be equivalent to a "B".
 
@@ -180,7 +180,7 @@ Please use the [Other G&D Types](https://gitlab.com/gitlab-com/people-group/lear
 
 Please use the [Other G&D Types](https://gitlab.com/gitlab-com/people-group/learning-development/growth-and-development-requests/-/issues/new?issuable_template=g-and-d-other) issue template to open requests of this type.
 
-**Description:** We want to support our team members where English may not be their first language. Managers are encouraged to recommend this to team members whose performance may be improved by further developing their English language skills. [Business English for Non-Native Speakers](https://www.coursera.org/specializations/business-english-speakers) course and the [Improve your English Communication Skills Specialization](https://www.coursera.org/specializations/improve-english) are two good examples. 
+**Description:** We want to support our team members where English may not be their first language. Managers are encouraged to recommend this to team members whose performance may be improved by further developing their English language skills. [Business English for Non-Native Speakers](https://www.coursera.org/specializations/business-english-speakers) course and the [Improve your English Communication Skills Specialization](https://www.coursera.org/specializations/improve-english) are two good examples.
 
 Other languages may be considered if their relevance to job performance is made clear. (E.g. you can’t expense Spanish classes if you don’t need to speak Spanish as part of your day to day work.)
 
@@ -220,7 +220,7 @@ Apply for a coach via Coaching Right Now by opening an issue using the [coaching
 
 #### Other Coaching Opportunities
 
-Coaching Right Now is our preferred and vetted coaching partner. If the coaches offered via Coaching Right Now do not fit your needs, please open an issue using the [Other G&D Types template](https://gitlab.com/gitlab-com/people-group/learning-development/growth-and-development-requests/-/issues/new?issuable_template=g-and-d-other). 
+Coaching Right Now is our preferred and vetted coaching partner. If the coaches offered via Coaching Right Now do not fit your needs, please open an issue using the [Other G&D Types template](https://gitlab.com/gitlab-com/people-group/learning-development/growth-and-development-requests/-/issues/new?issuable_template=g-and-d-other).
 
 **Reimbursement Requirements:** After approvals, team members will provide a paid invoice to GitLab as proof for reimbursement at the end of their coaching engagement.
 
@@ -258,7 +258,7 @@ If you're submitting a bulk application, where multiple team members are applyin
 
 ### Company-directed Learning Opportunities
 
-The Growth and Development policy is meant to further team members' learning and growth. Company-directed learning opportunities, such as mandatory conferences or training required to fulfill job duties, aren't within the scope for G&D and should be budgeted for outside the policy. 
+The Growth and Development policy is meant to further team members' learning and growth. Company-directed learning opportunities, such as mandatory conferences or training required to fulfill job duties, aren't within the scope for G&D and should be budgeted for outside the policy.
 
 ### I'm a manager who would like to use the G&D Fund for a training for my whole team, is that allowed?
 
@@ -268,7 +268,7 @@ The G&D Fund is primarily designed for individual use, and each team member is e
 
 ### Overspending
 
-If you are found to have reimbursed over $10,000 within a calendar year, you will be required to pay back anything over $10,000 that has been spent. 
+If you are found to have reimbursed over $10,000 within a calendar year, you will be required to pay back anything over $10,000 that has been spent.
 
 ### Recoupment of Growth and Development Reimbursements
 
@@ -290,7 +290,7 @@ Budgets are individual and cannot be shared across teams. E.g. If one team membe
 
 ### Can I pay for one opportunity over multiple years?
 
-If your G&D opportunity is across more than 1 year, you can distribute the costs by reimbursing across multiple years. However, you still cannot exceed $10,000 expensed per year, 
+If your G&D opportunity is across more than 1 year, you can distribute the costs by reimbursing across multiple years. However, you still cannot exceed $10,000 expensed per year,
 
 ## Tax Implications
 

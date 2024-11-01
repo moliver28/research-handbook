@@ -26,7 +26,7 @@ The following items are internal:
    - Spend of more than 10%
    - A department's cost
    - Team member retention (analysts may make business assumptions based on this)
-   - The Sales pipeline 
+   - The Sales pipeline
    - Net and gross retention KPIs. Only the actual numbers can't be public. Other details, such as the goal and their calculation, may be public.
 1. All external communications about any financial information should be in line with the company's [SAFE Guidelines](/handbook/legal/safe-framework/) and [Social Media Policy](/handbook/marketing/team-member-social-media-policy/). If you have any questions please reach out via the [#Safe](https://gitlab.slack.com/archives/C01UZQ63WFQ) Slack channel.
 1. Deals with external parties like contracts and [approving and paying invoices](/handbook/finance/accounting/#procure-to-pay).

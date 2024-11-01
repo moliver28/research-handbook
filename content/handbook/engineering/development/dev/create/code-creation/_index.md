@@ -127,7 +127,7 @@ We maintain a practice of weekly async status updates to ensure clear communicat
 - Updates are required for all assigned issues
 - Multiple updates may be needed if working on multiple issues
 
-#### Template 
+#### Template
 
 This is the template to use for the updates
 

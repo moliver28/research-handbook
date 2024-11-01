@@ -12,7 +12,7 @@ Further information on GitLab authorized operating systems, versions, and except
 
 The operating system choices have obviously affected the hardware selection process.
 
-Apple hardware is the common choice among GitLab team members. Team members may also select a Dell Linux laptop if they are familiar with Linux and capable of self-support, as long as they are using an approved operating system. Please do not select Linux if you have never used macOS or Apple products before. 
+Apple hardware is the common choice among GitLab team members. Team members may also select a Dell Linux laptop if they are familiar with Linux and capable of self-support, as long as they are using an approved operating system. Please do not select Linux if you have never used macOS or Apple products before.
 
 > We have a corporate discount for corporate-purchased Apple products only. Apple does **not** have an employee discount program for GitLab at this time.
 
@@ -84,7 +84,7 @@ Due to supply constraints, specific models available may vary. Due to custom ord
 We will work with each person to find an available model meeting the following specifications:
 
 - 16" Display
-- Intel i9 CPU or equivalent 
+- Intel i9 CPU or equivalent
 - 512GB SSD
 - 32GB Memory
 

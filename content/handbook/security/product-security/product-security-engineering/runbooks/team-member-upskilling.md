@@ -4,7 +4,7 @@ title: "Team Member Upskilling"
 
 ## Team Member Upskilling Runbook
 
-This runbook is a collection of resources for new or existing Product Security Engineers, or for those looking to build a body of work 
+This runbook is a collection of resources for new or existing Product Security Engineers, or for those looking to build a body of work
  to enhance their skills and knowledge in product security. This runbook is designed to provide guidance and resources for continuous learning and professional development.
 
 ### 1. Core Competencies

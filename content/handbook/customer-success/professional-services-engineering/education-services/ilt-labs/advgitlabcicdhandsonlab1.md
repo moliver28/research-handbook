@@ -23,17 +23,17 @@ To start, let's create a new project in the lab environment:
 
 1. Navigate to your project.
 
-1. In the left sidebar, select **Settings > CI/CD**. 
+1. In the left sidebar, select **Settings > CI/CD**.
 
-1. Select **Expand** next to Runners. 
+1. Select **Expand** next to Runners.
 
-1. Select **New project runner**. 
+1. Select **New project runner**.
 
-1. Select **Run untagged jobs**, leave all other settings as default, and select **Create runner**. 
+1. Select **Run untagged jobs**, leave all other settings as default, and select **Create runner**.
 
 1. Ensure that Linux is selected as your operating system.
 
-1. In the section titled **Step 1**, review the command, which will look something like this: 
+1. In the section titled **Step 1**, review the command, which will look something like this:
 
     ```shell
     gitlab-runner register  --url https://ilt.gitlabtraining.cloud  --token glrt-RrzYz4Kok-1X63pSqVJf
@@ -43,7 +43,7 @@ To start, let's create a new project in the lab environment:
 
 ### Task B. Deploying a runner
 
-We will manage the association of the runner and deployment of runner configuration through GitLab. This strategy allows you to have source control on your runner configuration, which is ideal for tracking changes. 
+We will manage the association of the runner and deployment of runner configuration through GitLab. This strategy allows you to have source control on your runner configuration, which is ideal for tracking changes.
 
 Let's take a look at how this is structured:
 
@@ -87,7 +87,7 @@ Let's take a look at how this is structured:
     ```
 
    > The first command we run will unregister any current runners on your remote server. This prevents duplicate registrations of runners.
-   > 
+   >
    > The `–non-interactive` flag prevents the runner from prompting us for inputs during the installation process. Rather than entering a prompt, we provide the arguments for URL, executor, docker image, and token through command line arguments.
    >
    > In this configuration, the executor is set to docker. For the `docker-image`, you are setting the default Docker image to use for your pipelines. You can use any Docker image you like, for this example, we will use `alpine:latest` as the default image.
@@ -169,11 +169,11 @@ To make these changes, we will push a `config.toml` file to the runner.
 
 1. Navigate to your project repository.
 
-1. Select **+ > New file** 
+1. Select **+ > New file**
 
 1. In the filename, type `config.toml`.  
 
-1. Copy the `config.toml` from your job output into the toml file you created in your repository. 
+1. Copy the `config.toml` from your job output into the toml file you created in your repository.
 
     Your `config.toml` will look something like this (the `your-token` value will be your runner token instead):
 
@@ -261,15 +261,15 @@ This script copies your configuration to the runner machine. When the runner is 
 
 ## Task E. Testing the Runner
 
-To test the runner, let’s create a basic Docker in Docker configuration to use for a project. 
+To test the runner, let’s create a basic Docker in Docker configuration to use for a project.
 
-1. Navigate to your `Runners` project. 
+1. Navigate to your `Runners` project.
 
 1. Start by disabling instance level runners to ensure the jobs run on your project runner. To do this, navigate to **Settings > CI/CD**.
 
 1. Select **Expand** next to the **Runners** option.
 
-1. Toggle Enable instance runners for this project **off**. 
+1. Toggle Enable instance runners for this project **off**.
 
 1. Navigate back to your code repository.
 

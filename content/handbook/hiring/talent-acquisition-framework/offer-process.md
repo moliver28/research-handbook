@@ -19,7 +19,7 @@ There are two specialized notes for the Engineering, Product and Security teams 
 1. Recruiter to review scorecards and ensure candidate is ready for review and all [Engineering Hiring Practices](/handbook/engineering/hiring/#hiring-practices) have been met. Once confirmed, recruiter tags hiring manager in candidate profile to initate 'justification'.
 1. Once a 'hire' decision has been made, there is an additional step - the justification. The justification is intended to serve as an asynchronous method to articulate the hiring decision as well as flesh out any nuances in the decision not captured in scorecards. Justifications are reviewed by offer approvers farther along in the process. A hiring manager will need to answer the following questions in the candidate's profile within Greenhouse prior to an offer preparation:
 
-Justification Questions: 
+Justification Questions:
 
 - In what specific way(s) does this candidate make the team better?
 - What flags were raised during the interview process? Include any past rejections, thumbs-down ratings, or hesitancy from previous interview scorecards (but not resume reviews), as well as your reasons for being comfortable moving forward despite interviewer recommendation.
@@ -28,12 +28,12 @@ Justification Questions:
 
 ## Reference Check Stage
 
-Once a hiring decision has been reached (note: for all teams outside of R&D) the recruiter is to start the reference check process. For R&D offers, this process is run in tandem with the 'debrief' stage (see above section). 
+Once a hiring decision has been reached (note: for all teams outside of R&D) the recruiter is to start the reference check process. For R&D offers, this process is run in tandem with the 'debrief' stage (see above section).
 
-We require references for all external candidates at offer via sending a Reference Check Form in Greenhouse. To use this form: 
+We require references for all external candidates at offer via sending a Reference Check Form in Greenhouse. To use this form:
 
-1. Update notifications on the job for reference check. Navigate to 'Job Setup', select 'Forms' and edit the individual reference form. Add hiring manager to notification so they can initiate the calls once references have been submitted. 
-1. Click the 'send' button on the location-specific form attached to the Greenhouse reference check stage. 
+1. Update notifications on the job for reference check. Navigate to 'Job Setup', select 'Forms' and edit the individual reference form. Add hiring manager to notification so they can initiate the calls once references have been submitted.
+1. Click the 'send' button on the location-specific form attached to the Greenhouse reference check stage.
 1. Once references are submitted, your Hiring Manager will be responsible for completing reference checks.
 
 The Reference Check Form will request references' contact details as well as candidate details that will help with a future offer. You can view completed forms in the "Application" tab.
@@ -90,7 +90,7 @@ A description on what to input into each Offer field in Greenhouse can be found 
 - **Indefinite or Fixed Contract:** Netherlands hires will receive a fixed contract for their first year, as will any contractors or interns. Other than these, you can select "no" or leave this field blank.
 {{% /details %}}
 
-Note:The Reference Check Form does not automatically update a candidates' legal name, so that will need to be updated manually in the Details tab. 
+Note:The Reference Check Form does not automatically update a candidates' legal name, so that will need to be updated manually in the Details tab.
 
 **Internal Candidates**: recruiter is to wait until after offer has been presented, but before the candidate is marked as hired, to merge the applicants' profiles. All other candidates should have profiles merged as early as possible. Please visit the [Enablement handbook page](https://internal.gitlab.com/handbook/people-group/talent-acquisition/enablement-team/#greenhouse-admin-instructions) for instructions.
 
@@ -109,16 +109,16 @@ Talent Acqusition partners with hiring managers in order to advise on best pract
 1. Internal Candidates need to include inputs in the 'Approval Notes' section. Recruiter to include candidate's current level and position, as well as their compensation package. If the comp has a variable component, please include base, on target earnings (OTE), and split in this section.
 
 **Additional Process for Engineering**
-Recruiters advise and partner with hiring manager to construct compensation package for candidates. Once details are confirmed, there are a few additional steps specifically for Engineering offers starting in FY25 Q3 as follows: 
+Recruiters advise and partner with hiring manager to construct compensation package for candidates. Once details are confirmed, there are a few additional steps specifically for Engineering offers starting in FY25 Q3 as follows:
 
-1. For any offers above 0.85 compa ratio, recruiter and hiring manager will partner with TA Director and Engineering VP to confirm candidate position in range. To provide the VP with a snapshot of the proposed base and equity and how this compares to the average internal salary, the recruiter will be required to complete the [0.85+ VP Approval Template](https://docs.google.com/document/d/1VuunhZFT40d86iOPzsq9PtbobBTelCiKgZyJDepyf-M/edit) and share with the TA Director. Please make sure you add the relevant Finance Business Partner and PBP to the document for visibility. Once approved, recruiter to move through next steps - offer approval process. 
+1. For any offers above 0.85 compa ratio, recruiter and hiring manager will partner with TA Director and Engineering VP to confirm candidate position in range. To provide the VP with a snapshot of the proposed base and equity and how this compares to the average internal salary, the recruiter will be required to complete the [0.85+ VP Approval Template](https://docs.google.com/document/d/1VuunhZFT40d86iOPzsq9PtbobBTelCiKgZyJDepyf-M/edit) and share with the TA Director. Please make sure you add the relevant Finance Business Partner and PBP to the document for visibility. Once approved, recruiter to move through next steps - offer approval process.
     - When creating the offer in Greenhouse, add a link to the 0.85+ VP Approval Template in the `Comp Calc Link & Additional Context` section
-1. Recruiter to add compa-ratio information in [Pod Squad](https://docs.google.com/spreadsheets/d/1zGKpr_JUYpW_PrDKF8FVsJtvlCGpCBaFHmUuU48zVRw/edit#gid=2102749819) 
-1. For any offers at or below 0.85 compa ratio, recruiter to move through next steps - offer approval process. 
+1. Recruiter to add compa-ratio information in [Pod Squad](https://docs.google.com/spreadsheets/d/1zGKpr_JUYpW_PrDKF8FVsJtvlCGpCBaFHmUuU48zVRw/edit#gid=2102749819)
+1. For any offers at or below 0.85 compa ratio, recruiter to move through next steps - offer approval process.
 
 ### Offer Approval Process
 
-For all offers within range (ie: no exceptions) they will route through the following approval path: 
+For all offers within range (ie: no exceptions) they will route through the following approval path:
 
 1. Total Rewards
 1. FP&A Partner
@@ -139,7 +139,7 @@ FP&A reviews:
 **Common approval challenges:**
 
 - Out of Office: If the offer is stuck in the approvals chain because someone is out of office, the Recruiter to proactively reach out to the approver's manager about an appropriate temporary adjustment. Recruiter to work with Enablement team to update approval path.
-- Incorrect Offer Approver: Recruiter to work with Enablement team to correct. 
+- Incorrect Offer Approver: Recruiter to work with Enablement team to correct.
 
 **Counter offer details:**
 
@@ -173,18 +173,18 @@ Offer details usually include:
 
 ### Sending the Employment Contract/Offer Letter
 
-Once a verbal offer is made to a candidate... 
+Once a verbal offer is made to a candidate...
 
-1. Recruiter will notify `@ces` to [send a contract](coordinator/#send-contract) to the candidate via Greenhouse email. The Talent Acquisition team will sometimes refer to an Offer Letter and Employment Contract interchangeably, because they are called Offer Letters in the US and Employment Contracts outside of the US. 
-1. Any special circumstances regarding relocation communicated in the notification to CES to ensure it is added to the contract. 
+1. Recruiter will notify `@ces` to [send a contract](coordinator/#send-contract) to the candidate via Greenhouse email. The Talent Acquisition team will sometimes refer to an Offer Letter and Employment Contract interchangeably, because they are called Offer Letters in the US and Employment Contracts outside of the US.
+1. Any special circumstances regarding relocation communicated in the notification to CES to ensure it is added to the contract.
 1. Once a candidate signs a contract, the CES will send welcome email with instructions on hardware ordering and next steps.
 
 ### Declined Offers
 
-Offer acceptance rates are a key metric for Talent Acquisition, and unfortunately, offer declines will happen. In order to ensure we are measuring our offer accpetance rate appropriately, recruiters need to move candidates within Greenhouse at the appropriate times. 
+Offer acceptance rates are a key metric for Talent Acquisition, and unfortunately, offer declines will happen. In order to ensure we are measuring our offer accpetance rate appropriately, recruiters need to move candidates within Greenhouse at the appropriate times.
 
-1. When a decision has been made at debrief to move forward with an offer, candidate is moved to Offer and Background Check stage. If candidate declines a verbal or written offer, this will then be caught in our offer acceptance rate. 
-1. Recruiter notifies [Finance Business Partner](/handbook/finance/#finance-business-partner-alignment) via the candidates notes section in GH that the candidate has declined the offer 
+1. When a decision has been made at debrief to move forward with an offer, candidate is moved to Offer and Background Check stage. If candidate declines a verbal or written offer, this will then be caught in our offer acceptance rate.
+1. Recruiter notifies [Finance Business Partner](/handbook/finance/#finance-business-partner-alignment) via the candidates notes section in GH that the candidate has declined the offer
 1. FP&A will make appropriate changes in Adaptive
 1. If contract has been generated, recruiter notifies CES via the candidate notes section in GH that the candidate has declined offer and the contract needs to be voided. CES will then follow their own decline process.
 1. Recruiter to then disposition the candidate with the appropriate offer decline reasoning so we can measure/monitor rationale for declined offers and partner cross functionally around themes as they present. Please ensure you add relevant notes about why the candidate rejected our offer in the 'Rejection Notes' section. Any details about compensation and numbers should be added as a private note.
@@ -194,5 +194,5 @@ Offer acceptance rates are a key metric for Talent Acquisition, and unfortunatel
 **Accepted Offers** After the employment contract has been signed by both a GitLab signatory and the candidate:
 
 1. Recruiter to disposition all remaining candidates on position within 24 hours of offer acceptance. Recruiter to manage any active candidates in pipeline appropriately.
-1. CES will send a welcome email and mark the candidate as Hired in Greenhouse. 
+1. CES will send a welcome email and mark the candidate as Hired in Greenhouse.
 1. Once the candidate has been marked as Hired, this will trigger a sync with Workday and initiate the pre-onboarding process with the People Connect team.

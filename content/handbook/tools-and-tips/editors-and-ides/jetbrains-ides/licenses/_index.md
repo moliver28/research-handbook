@@ -11,7 +11,7 @@ For GitLab employees, there is a [central license management](https://www.jetbra
     1. If you want to onboard a larger set of users (5 or more), please *do file* an Access Request.
     1. If you want to use any of the commonly used JetBrains products (listed below) you *do not* need to file an Access Request:
         - GoLand, RubyMine, PyCharm, DataGrip or WebStorm
-        - IntelliJ IDEA Ultimate if working on Editor Extensions 
+        - IntelliJ IDEA Ultimate if working on Editor Extensions
     1. If you want to use any other JetBrains product:
         - on a *regular basis*, please *do file* an Access Request.
         - *occasional use* is possible without an Access Request. Please note that we have a limited set of "All Products" licenses. People who filed an Access Request will receive priority treatment over occasional users.

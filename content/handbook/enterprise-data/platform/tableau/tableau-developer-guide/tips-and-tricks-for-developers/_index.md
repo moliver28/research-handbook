@@ -466,10 +466,10 @@ You can add a color palette to Tableau Desktop so that any time you need to choo
 Creating a chart with two axes can help unlock the flexibility and customization that Tableau is built for. The top uses are displaying more than one axis on screen with greater flexibility, and a hack for better control over on-screen labels. You can find more documentation on creating and using dual axis charts [here](https://help.tableau.com/current/pro/desktop/en-us/multiple_measures.htm).
 
 *Two Axes*
-Have you ever wanted to show a bar chart and a line chart on screen together? Tableau is great at that - you can overlay one over the other using a dual axis chart. Don’t forget to consider if you want to “synchronize the axes”! That means, if you want both axes to start and end at the same place. 
+Have you ever wanted to show a bar chart and a line chart on screen together? Tableau is great at that - you can overlay one over the other using a dual axis chart. Don’t forget to consider if you want to “synchronize the axes”! That means, if you want both axes to start and end at the same place.
 ![two axes to create two bars](/images/handbook/enterprise-data/platform/tableau/dual_axis_two_axes.png)
 
-Many people have discovered a dual axis chart already for two measures, but did you know that they can be useful for creating labels? 
+Many people have discovered a dual axis chart already for two measures, but did you know that they can be useful for creating labels?
 
 For example, if you have a stacked bar chart on screen (just one measure), and you want to add a label, Tableau will label each segment of the bar. But let’s say you want to label the whole bar, not each segment! You can use a dual axis chart & remove the color from the back of the two bars to get your desired label!
 ![dual axis with color on one bar and the label on the other](/images/handbook/enterprise-data/platform/tableau/dual_axis_label.png)
@@ -492,7 +492,7 @@ A collection of tips and tricks to make the Tableau development experience faste
 
 6. You can alias a dimension so that the name of the field in your data pane stays the same, but end users see an alias when they view the worksheet/dashboard. You can do this by right clicking on the header which shows the name you would like to alias, and then selecting "Edit Alias". This alias will persist in the view across all worksheets.
 
-7. Aliasing a measure is a little more tricky than aliasing a dimension, as you can't right click on the header and rename it that way. Instead, you can follow the process outlined in Tip 1 of [this article](https://www.flerlagetwins.com/2024/03/random-tableau-tips.html). 
+7. Aliasing a measure is a little more tricky than aliasing a dimension, as you can't right click on the header and rename it that way. Instead, you can follow the process outlined in Tip 1 of [this article](https://www.flerlagetwins.com/2024/03/random-tableau-tips.html).
 
     1. Double click on the "pill" of the field - so the name of the field on the Row shelf, Columns shelf, or Marks Card. This will change it from a green colored "pill", to the text editing version with the field name surrounded by brackets "[Field Name]".
     2. Put your cursor at the start of the field to start typing before the name of the field.

@@ -16,11 +16,11 @@ As part of the regular rhythm of business, it is important to review activities 
 ### Weekly
 
 1. **SA Next Steps and Next Step Date**: ensure during 1-1s that SAs complete and report on SA Next Steps on an opportunity. Are we on track with our technical strategy.
-SA Managers can also add comments (e.g., recognition, pattern matching, assists, questions, and data hygience coaching) and  gain insight from SA on next steps. 
+SA Managers can also add comments (e.g., recognition, pattern matching, assists, questions, and data hygience coaching) and  gain insight from SA on next steps.
 2. **SA Activity Review**: Using the following, review [SA Activity Recordings](/handbook/solutions-architects/processes/activity-capture/#recording-activity-with-rattle) for main opportunities. Ensure that AEs have not closed, or duplicated opportunities that SAs were recording activities against.
 
-   - Salesforce reporting, 
-   - [Rattle Board](https://board.gorattle.com/), 
+   - Salesforce reporting,
+   - [Rattle Board](https://board.gorattle.com/),
    - [Top Deals List](https://docs.google.com/spreadsheets/d/1mcqOAJEvfUcA0pznusA-jiBV_3_suGqN9F_AKXAAUfs/edit?gid=695806319#gid=695806319)
    - [Tableau SA Activity Dashboards](https://10az.online.tableau.com/#/site/gitlab/views/SAQBRMetrics/SAActivities?:iid=1)
 

@@ -222,7 +222,7 @@ The Senior Director, Sales Development Operations is a [grade 11](/handbook/tota
 - Ensures we efficiently and effectively qualify inbound demand, follow our SLAs and respect our KPIs Defines success metrics for SDR team and works with cross functional partners to ensure the team is exceeding their goals
 - Plans, forecasts, and understands ramp adjusted capacity to ensure the team is grown effectively, in tandem with the needs of our sales organization and the supply of inbound demand from marketing
 - Manages SDR headcount plan for optimized capacity and productivity, ensuring our talent and organizational design strategy is aligned to our business strategy
-- Recruit, onboard, coach and develop top talent towards career development and advancement within the SDR function 
+- Recruit, onboard, coach and develop top talent towards career development and advancement within the SDR function
 - Identifies and champions new technologies with the SDR teams to optimize sales development in the world of Artificial Intelligence
 
 #### Senior Director, Global Sales Development Operations Requirements

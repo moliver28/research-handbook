@@ -115,7 +115,7 @@ There are often 'what-if' scenarios when an SA evaluates an incoming lead. These
 - **#3: Does the SA have the lead time to prepare; is the meeting is not scheduled within 12-24 hours of the request**
   - Goal: AEs to hold off on scheduling the next customer meetings until the SA Team has enough time to evaluate if all correct information has been collected in Questions 1 & 2.
     - SAs deserve time to clarify on Command Plans with the AEs and prepare demonstration environments. GitLab is a large, and ever changing platform - the product is forever being delivered (every month). The SA team requests proper time to prepare so they can deliver the best results.
-    - Sometimes, a lot of runaway is not possible. We will still have a 'Fast Track' process that allows the AE to both mark the request record in Salesforce (for future metrics) and notify the Team 
+    - Sometimes, a lot of runaway is not possible. We will still have a 'Fast Track' process that allows the AE to both mark the request record in Salesforce (for future metrics) and notify the Team
 - **#4: Does the SA have relatable experience on this type of account.**
   - 'Yes' could be the "preferred" answer depending on the account and timeline.
   - But 'No' is also a 'Yes'. Solution Architects belong to a learning-focused organization. Less experienced SAs are going to continue to take on accounts where they do not know everything, and will have a chance to learn with the support of the wider team
@@ -301,7 +301,7 @@ Commercial SA team meetings are held on a regular basis to ensure alignment, sha
   - Purpose: Connect as a team, discuss any ongoing initiatives, regional priorities, share updates, and address any pressing issues
 
 ### Manager Sync
- 
+
 - Frequency: Weekly
 - Duration: 25 minutes
 - Purpose: Discuss team performance, address any challenges, and align on priorities for the upcoming weeks, months, quarters

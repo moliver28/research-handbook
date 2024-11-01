@@ -9,7 +9,7 @@ The GitLab IDE is a powerful tool that allows us to write, test, and debug code 
 
 Before getting started, make sure you have created an issue using the appropriate template, most likely the "Standard Data Team Issue" template.
 
-### Create a new branch 
+### Create a new branch
 
 *Non-confidential issues*
 
@@ -17,7 +17,7 @@ To create a branch and a merge request from a non-confidential issue, you can si
 
 <img src="create-merge-request.png" alt="Create merge request" width="900"/>
 
-While you have the option to create only the branch and not the merge request, and also to update your branch name and source by using the dropdown next to the 'Create merge request' button, it's best to create the merge request and branch simultaneously, using the default branch name and source (master). 
+While you have the option to create only the branch and not the merge request, and also to update your branch name and source by using the dropdown next to the 'Create merge request' button, it's best to create the merge request and branch simultaneously, using the default branch name and source (master).
 
 *Confidential issues*
 
@@ -25,7 +25,7 @@ When working on a confidential issue, you may notice that you can't create an MR
 
 <img src="confidential-issue-mr.png" alt="Confidential issue MR" width="900"/>
 
-However, you can still create a branch within the project for your work. To do this, click on 'Code' in the left sidebar, then select 'Branches'. 
+However, you can still create a branch within the project for your work. To do this, click on 'Code' in the left sidebar, then select 'Branches'.
 
 <img src="branches.png" alt="Branches" width="250"/>
 

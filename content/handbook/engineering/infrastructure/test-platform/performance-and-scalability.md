@@ -96,7 +96,7 @@ For the above reasons we test against fully controlled environments and don't te
 
 GitLab Performance Tool tests are not executed in merge requests due to several critical factors:
 
-1. Requirement for Consistent Test Conditions: 
+1. Requirement for Consistent Test Conditions:
    - Performance tests demand strictly repeatable conditions for accurate results.
    - This includes identical server specifications, network conditions, and test data across runs.
 2. Cost, Time and Resource Constraints:

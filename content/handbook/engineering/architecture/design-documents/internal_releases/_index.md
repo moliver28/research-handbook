@@ -12,7 +12,7 @@ toc_hide: true
 
 ## Introduction
 
-In 2023 GitLab launched a new fully managed private solution, [GitLab Dedicated](https://about.gitlab.com/dedicated/), our single tenant 
+In 2023 GitLab launched a new fully managed private solution, [GitLab Dedicated](https://about.gitlab.com/dedicated/), our single tenant
 SaaS offering completely managed by GitLab Inc. These internal instances run public GitLab versions limiting the ability to deploy security
 fixes before a public disclosure. To guarantee the [safety and availability](/handbook/engineering/development/principles/#prioritizing-technical-decisions)
 on single tenant SaaS instances, Delivery has an increasing need to prepare private packages to remediate high-severity issues within [specific SLAs](/handbook/security/product-security/vulnerability-management/sla/).

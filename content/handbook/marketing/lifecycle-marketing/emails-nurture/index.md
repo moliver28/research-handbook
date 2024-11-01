@@ -121,7 +121,7 @@ Which are formed as follows:
 #### Trial nurtures
 <!-- DO NOT CHANGE THIS ANCHOR -->
 
-* **Goal:** Educate trialers about key features to use during 60 day period and give them materials to consider upgrading or purchasing an add-on. 
+* **Goal:** Educate trialers about key features to use during 60 day period and give them materials to consider upgrading or purchasing an add-on.
 * **Delivery System:** Iterable (GitLab.com) & Marketo (SM)
 
 * [Figma file - with all trial experiences](https://www.figma.com/file/HKhm1PmEfqLfeM5UEO8v1a/Email-Marketing-%3E-Trial-nurture-updates-2023_2023-08-22_10-19-25?type=whiteboard&t=hPlLyXaGRSF8sgoP-0)
@@ -131,7 +131,7 @@ Which are formed as follows:
 
 ### Trial Nurture Variations
 
-Following the launch of Duo Enterprise trials, we have several different trial nurtures running in either Iterable or Marketo.  These nurtures send to the Owner role who starts the trial. The goal of these programs is to drive usage for Ultimate + Duo Enterprise and in turn influence conversion: 
+Following the launch of Duo Enterprise trials, we have several different trial nurtures running in either Iterable or Marketo.  These nurtures send to the Owner role who starts the trial. The goal of these programs is to drive usage for Ultimate + Duo Enterprise and in turn influence conversion:
 
 * Existing/New Free GitLab.com users – GitLab Ultimate + Duo Enterprise
   * [Copy](https://docs.google.com/document/d/1M51p0y3gy7su0pmGzxSyCvpGyX2MMX6EvrWR6i0pnz8/edit?tab=t.0#heading=h.6vgpxnyb4dh1)
@@ -221,7 +221,7 @@ All of the HTML email files are in [Iterable](https://app.iterable.com/campaigns
 
 For a more in-depth look at how these emails work, please review the [Figma journey](https://www.figma.com/file/FdF9bhLOtPKah7IxarPNjO/Aug-2023-Iterable-Free-User-Email-Journey?type=whiteboard&node-id=0%3A1&t=CsoAGTyGQ4j5rLR1-1).
 
-### Invited users 
+### Invited users
 
 Please note we are limited in what we can send to this audience.
 

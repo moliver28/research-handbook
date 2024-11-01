@@ -42,6 +42,6 @@ Certain third party software is automatically patched by Jamf using their [app i
 
 ### Continuous notifications to update even after quitting the App
 
-If you are still seeing update notifications even after quitting the app and re opening, try restarting the computer or look for areas where the application is still open, like in the task bar next to the clock. 
+If you are still seeing update notifications even after quitting the app and re opening, try restarting the computer or look for areas where the application is still open, like in the task bar next to the clock.
 
 <img src="1password-taskbar-quit.png" alt="1password taskbar quit" width="400">

@@ -4,7 +4,7 @@
 
 Administered by the Customer Success team via Gainsight to a larger audience, these surveys assess customer satisfaction with GitLab's overall support, service levels, and customer experience. Further, this survey represents a macro-level baseline for Customer Satisfaction Scoring, not drive customer-level interactions and escalation.
 
-## **Send Schedules** 
+## **Send Schedules**
 
 | CSAT Survey | Send Schedule | Follow-up Date | Close Schedule |
 | :---- | :---- | :---- | :---- |
@@ -14,7 +14,7 @@ Administered by the Customer Success team via Gainsight to a larger audience, th
 |  | Nov 3, 2025 (tentative) | Nov 14, 2025 (tentative) | Dec 7, 2025 (tentative) |
 | All-Customer Survey 2 | Jan 8, 2025 (tentative) |  |  |
 
-## **Questions** 
+## **Questions**
 
 1. How satisfied are you with GitLab?  
 2. How satisfied are you with your teams’ adoption of GitLab?  
@@ -79,13 +79,13 @@ In customer success, the primary teams in Customer Success who action survey fee
 **Digital SMB**
 
 * **Pre-send:** Create awareness of the survey through one-to-many event invites.  
-* **Post-send:** Automatic email follow-ups are sent to customers who have provided feedback, inviting them to email their SMB Advocate team. This is particularly important for customers who may be dissatisfied, as it allows us to proactively address their concerns and explore potential solutions. When a customer sends an email to their SMB Advocate it automatically generates a SFDC Case for the team to follow-up on. 
+* **Post-send:** Automatic email follow-ups are sent to customers who have provided feedback, inviting them to email their SMB Advocate team. This is particularly important for customers who may be dissatisfied, as it allows us to proactively address their concerns and explore potential solutions. When a customer sends an email to their SMB Advocate it automatically generates a SFDC Case for the team to follow-up on.
 
 **Customer Success Leadership:**
 
-* Customer Success leadership (both CSM and CSE) will schedule calls with customers, focusing on those who score as ‘detractors’ to understand where the customer experience is insufficient and what improvements we can make.   
+* Customer Success leadership (both CSM and CSE) will schedule calls with customers, focusing on those who score as ‘detractors’ to understand where the customer experience is insufficient and what improvements we can make.
   * Future state: there will be a formal program to track and manage customer programs that are born as a direct result of customer feedback (likely in FY26 Q1).  
-* The CSSO team will provide resources and guidance for CS leaders and their teams to ensure that they have the tools and knowledge necessary to effectively manage CSAT surveys and leverage customer feedback to improve GitLab's products and services. 
+* The CSSO team will provide resources and guidance for CS leaders and their teams to ensure that they have the tools and knowledge necessary to effectively manage CSAT surveys and leverage customer feedback to improve GitLab's products and services.
 
 ## ---
 

@@ -31,7 +31,7 @@ People Operations is a Department under the [People](/handbook/people-group) Div
 
 ### HelpLab
 
-The People Operations Department primarily uses HelpLab as the primary tool for all GitLab's People Operations-related queries. This is where folks from other teams can ask for help, direction, and receive answers or direction to the correct team from the People Connect team. 
+The People Operations Department primarily uses HelpLab as the primary tool for all GitLab's People Operations-related queries. This is where folks from other teams can ask for help, direction, and receive answers or direction to the correct team from the People Connect team.
 
 You can also tag subsets of the People Operations Team in other slack channels using:
 

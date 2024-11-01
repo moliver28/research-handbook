@@ -335,7 +335,7 @@ It is **absolutely essential** that managers complete the required pre-work to e
     - Anything else noteworthy (i.e. recently promoted or transferred, etc.)
 - Keep the [SBI Model](/handbook/people-group/guidance-on-feedback/#s-b-i-model) (Situation, Behavior, Impact) in mind when adding notes for strengths/accomplishments and improvement areas. Each point should include clear examples and blanket statements should be avoided.
 - Review the notes of your peers for other team members and add feedback/questions/thoughts for discussion
-- If you did not attend the people manager live training session, please access the training video. 
+- If you did not attend the people manager live training session, please access the training video.
 
 #### Topics To Avoid
 
@@ -373,7 +373,7 @@ Below is the high level timeline for the formal assessment beginning in Q4 FY25 
 
 *Team members who are on Leave of Absence (LOA) on TBD are excluded from the auto advancement of their talent assessment until they return to work.
 
-Note: For full details on our Annual Compensation Review (ACR) timeline and cycle, pelase refer to our ACR [handbook page](/handbook.gitlab.com/handbook/total-rewards/compensation/compensation-review-cycle/). 
+Note: For full details on our Annual Compensation Review (ACR) timeline and cycle, pelase refer to our ACR [handbook page](/handbook.gitlab.com/handbook/total-rewards/compensation/compensation-review-cycle/).
 
 ### Cadence
 
@@ -408,7 +408,7 @@ Aligned with the [timeline](#timeline), managers can see final assessments for e
 
 The cut-off date to determine whether to assess team members as Too New to Rate based on recent promotion/transfer for the FY25 Talent Assessment cycle is based on their time in role prior to the start of the Talent Assessment cycle, **2025-01-27**. Guidelines are as follows:
 
-1. **If a team member interviews and transfers or is promoted to a new role, with an effective date *within* 90 days of the start of the talent assessment cycle or throughout the talent assessment cycle (on or after 2024-10-01), guidance would be that they should be assessed as Too New to Rate.** 
+1. **If a team member interviews and transfers or is promoted to a new role, with an effective date *within* 90 days of the start of the talent assessment cycle or throughout the talent assessment cycle (on or after 2024-10-01), guidance would be that they should be assessed as Too New to Rate.**
 1. **If a team member interviews and transfers to a new role or was promoted to a new role more than 90 days before the start of the talent assessment cycle (on or before 2024-10-01) they would be assessed based on the new level/role.**
 
 It is important to note that because being promoted recognizes high performance both in terms of increased scope/responsibility and monetarily through compensation increase therefore a **promotion "resets" the performance factor evaluation**.
@@ -706,7 +706,7 @@ The succession planning process might vary slightly for different areas of the b
 
 *Note that the `Emergency Coverage` slide in the [template above](https://docs.google.com/presentation/d/1w-ODnm-S_sV7TAEDqfU6kUpZqr7-cDIFwAlPZI10HzU/edit#slide=id.gf99d467451_1_8) should only be used to if the identified successor could not provide temporary coverage for the current leader in an emergency situation.*
 
-## Resources 
+## Resources
 
 | Resource | Purpose |
 | ------ | ------ |

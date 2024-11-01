@@ -24,6 +24,6 @@ Advisors & allies: Could be you!
 ## Where to reach us
 
 - Join our Slack channel #
-- Issue label: 
-- Email: 
+- Issue label:
+- Email:
 - Sign up to get meeting invites by joining the GitLab Mental Health Google Group (link to be added)

@@ -86,11 +86,11 @@ OKRs do not replace or supersede core team member responsibilities or performanc
 
 ## OKR Process at GitLab
 
-The CoS to the CEO is coordinating the OKRs process detailed below. The EBA to the CEO assists in scheduling designated time during E-Group Weekly Meetings. 
+The CoS to the CEO is coordinating the OKRs process detailed below. The EBA to the CEO assists in scheduling designated time during E-Group Weekly Meetings.
 
 ### CEO initiates new quarter's OKRs
 
-**In the first month of the fiscal quarter,** the Chief of Staff (CoS) to the CEO initiates the OKR process. The CoS works with the CEO will propose big themes and priorities for next quarter. Yearlies are consulted in the drafting process. The CoS to the CEO creates a Google Doc for E-Group alignment. This document is shared with E-Group in an [E-Group Weekly](/handbook/company/e-group-weekly/). E-Group is encouraged to offer feedback in the E-Group Weekly, directly within the Google Doc, or in meetings with the CEO or Office of the CEO. 
+**In the first month of the fiscal quarter,** the Chief of Staff (CoS) to the CEO initiates the OKR process. The CoS works with the CEO will propose big themes and priorities for next quarter. Yearlies are consulted in the drafting process. The CoS to the CEO creates a Google Doc for E-Group alignment. This document is shared with E-Group in an [E-Group Weekly](/handbook/company/e-group-weekly/). E-Group is encouraged to offer feedback in the E-Group Weekly, directly within the Google Doc, or in meetings with the CEO or Office of the CEO.
 
 **In the second month of the fiscal quarter,** E-Group will align on big themes and priorities. Before the end of the second month and before team planning is deeply underway, E-Group will lock in a single set of company-wide OKRs. After E-Group alignment, Company-level OKRs will then be shared with all of GitLab in the `#okrs` channel.  
 
@@ -155,7 +155,7 @@ We will review **company-level** OKR progress once a month in an E-Group Weekly.
 
 This is also a time to discuss function [KPIs](/handbook/company/kpis/) and functional level OKRs that E-Group feel should be highlighted with the broader team.
 
-Two weeks after the end of the quarter, we'll have an E-Group Weekly session that reviews company-level OKR and key metrics progress from the previous quarter. 
+Two weeks after the end of the quarter, we'll have an E-Group Weekly session that reviews company-level OKR and key metrics progress from the previous quarter.
 
 ### Making changes within quarter
 

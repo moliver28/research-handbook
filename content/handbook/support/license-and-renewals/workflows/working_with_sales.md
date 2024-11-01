@@ -104,7 +104,7 @@ Chatter the [**@SMB Advocate Team**](https://gitlab.my.salesforce.com/_ui/core/c
 
 - If you have SFDC access to the case, and the case has an assigned owner
   - Ping the case owner in chatter on the case
-  - Include the applicable Regional manager: 
+  - Include the applicable Regional manager:
     - EMEA: @Miguel Nunes
     - AMER/ APAC: @Taylor Lund
   - notify your regional [L&R DRI](/handbook/support/license-and-renewals/#support-management-contacts) in [#support_licensing-subscription](https://gitlab.enterprise.slack.com/archives/C018C623KBJ) for awareness.
@@ -113,8 +113,8 @@ Chatter the [**@SMB Advocate Team**](https://gitlab.my.salesforce.com/_ui/core/c
   - In your post, include:
     - details of the request
     - the Zendesk ticket link
-    - cc: your regional [L&R DRI](/handbook/support/license-and-renewals/#support-management-contacts) in your post for awareness. 
-- If you are unable to make contact with the Regional manager within a reasonable amount of time, escalate to: @Mike Smith via chatter on the case and notify your regional [L&R DRI](/handbook/support/license-and-renewals/#support-management-contacts) in [#support_licensing-subscription](https://gitlab.enterprise.slack.com/archives/C018C623KBJ) for awareness. 
+    - cc: your regional [L&R DRI](/handbook/support/license-and-renewals/#support-management-contacts) in your post for awareness.
+- If you are unable to make contact with the Regional manager within a reasonable amount of time, escalate to: @Mike Smith via chatter on the case and notify your regional [L&R DRI](/handbook/support/license-and-renewals/#support-management-contacts) in [#support_licensing-subscription](https://gitlab.enterprise.slack.com/archives/C018C623KBJ) for awareness.
 
 ## Determining whether **to pass** or **to NOT pass** to Sales
 

@@ -8,7 +8,7 @@ This page is intended to help others understand what it might be like to work wi
 
 It’s also a well-intentioned effort at building some trust by being intentionally vulnerable, and to share my ideas of a good working relationship to reduce the anxiety of people who might be on my team.
 
-## About Me 
+## About Me
 
 I am a lawyer, wife, boy-mom, cat-mom, horse-mom, daughter, former and wannabe-again endurance athlete, just trying to keep all the balls up in the air and every once in a while having to make the choice of which one to drop. In my professional life, I want to help build a company where team members trust each other, trust business decisions, and all work together toward a common goal.
 
@@ -26,11 +26,11 @@ Provide us more information than you think we need so that we can understand the
 
 ## My Working Style
 
-I prefer to operate behind the scenes. If things are going well, you might not even know that my team has been involved! Generally, I make the best connections via one on one interactions, so please feel free to reach out just to meet me. As a reminder, however, I cannot provide individual legal advice to anyone. My role is to provide advice on behalf of GitLab. 
+I prefer to operate behind the scenes. If things are going well, you might not even know that my team has been involved! Generally, I make the best connections via one on one interactions, so please feel free to reach out just to meet me. As a reminder, however, I cannot provide individual legal advice to anyone. My role is to provide advice on behalf of GitLab.
 
 ## What I Assume About Others
 
-I assume that if we work at GitLab we are working toward a common goal of seeing GitLab succeed. In that, I take to heart our efforts to assume positive intent, and I work hard to give the benefit of the doubt. 
+I assume that if we work at GitLab we are working toward a common goal of seeing GitLab succeed. In that, I take to heart our efforts to assume positive intent, and I work hard to give the benefit of the doubt.
 
 ## What I Want To Earn
 

@@ -147,7 +147,7 @@ deploy app:
     - if: $CI_PIPELINE_SOURCE != 'merge_request_event'
 ```
 
-To be able to launch and maintain the execution of our web application, we will need to add it as a system service for our server. To achieve this, we will write a simple system service. 
+To be able to launch and maintain the execution of our web application, we will need to add it as a system service for our server. To achieve this, we will write a simple system service.
 
 1. Create a new file at the root of your project named `array.service`. In this file, add the following text:
 

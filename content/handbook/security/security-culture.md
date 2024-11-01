@@ -37,7 +37,7 @@ Current committee members:
 - [Julie Davila](https://gitlab.com/juliedavila) (Executive Sponsor)
 
 <details>
-<summary>Previous committee members</summary> 
+<summary>Previous committee members</summary>
 
 Previously nominated committee members (July 2022 - September 2023):
 

@@ -23,7 +23,7 @@ Our mission is to develop a comprehensive context framework that will:
 | {{< member-by-name "Ben Venker" >}}            | Global Search / PM and Product DRI  |
 | {{< member-by-name "Allen Cook" >}}            | Code Creation       |
 | {{< member-by-name "Denys Mishunov" >}}        | AI Framework        |
-| {{< member-by-name "Michael Angelo Rivera" >}} | Editor Extensions   | 
+| {{< member-by-name "Michael Angelo Rivera" >}} | Editor Extensions   |
 | {{< member-by-name "Missy Davies" >}}          | Code Creation       |
 | {{< member-by-name "Shinya Maeda" >}}          | Duo Chat            |
 | {{< member-by-name "Vitali Tatarintev" >}}     | Code Creation       |

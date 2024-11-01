@@ -37,7 +37,7 @@ Elevate+ runs for a total of 13 weeks. Across this timeline, participants will a
 _Click [here](https://360.articulate.com/review/content/ca768383-22b0-432a-89cc-011eeec37323/review) for an interactive version of the program oultine._
 
 | Program Element | Duration | Description | Date |
-| ----- | ----- | ---------- | ----- | 
+| ----- | ----- | ---------- | ----- |
 | Virtual Kickoff | 50 Minutes | Review program expectations, build cross-functional connections, and discuss leading at GitLab | Wednesday, 2024-10-02 at 3:30pm UTC |
 | 1:1 Coaching | 5 Hours | 60 minute intro session, then 4 hours of flexible 1:1 coaching, in 30 or 60 minute sessions | Dates to be set by participants |
 | Workshop I | 2 Hours | Facilitated live instruction, group discussion, breakout groups, solo activities, and an E-Group guest presenter | Thursday, 2024-10-24 from 3:30 to 5:30pm UTC |

@@ -52,7 +52,7 @@ This section outlines the process and expectations when requesting support from 
 
 ### Before requesting support
 
-Before submitting a request for support, please review Geo's [documentation](https://docs.gitlab.com/ee/administration/geo/), the [Disaster Recovery](https://docs.gitlab.com/ee/administration/geo/disaster_recovery/) docs, the [Backup and Restore](https://docs.gitlab.com/ee/administration/backup_restore/) docs, the Geo Handbook pages, or search through previous customer issues in the [Geo Customers Project](https://gitlab.com/gitlab-com/geo-customers). The answer to your questions might be found there. **Please reach out in the Geo Support Pod Channel `#spd_pod_geo` first before submitting a RFH.** 
+Before submitting a request for support, please review Geo's [documentation](https://docs.gitlab.com/ee/administration/geo/), the [Disaster Recovery](https://docs.gitlab.com/ee/administration/geo/disaster_recovery/) docs, the [Backup and Restore](https://docs.gitlab.com/ee/administration/backup_restore/) docs, the Geo Handbook pages, or search through previous customer issues in the [Geo Customers Project](https://gitlab.com/gitlab-com/geo-customers). The answer to your questions might be found there. **Please reach out in the Geo Support Pod Channel `#spd_pod_geo` first before submitting a RFH.**
 
 ### Asking a general question
 
@@ -61,9 +61,9 @@ If you have a general question for which you can't find your answer, then feel f
 ### Create a support request issue
 
 We like to use issues when customers need help from the Geo Team. This helps us to prioritize work and make sure that we don't lose history and maintain context when the Slack retention policy activates.
-We ask requestors to create an issue in the [Geo Customers Project](https://gitlab.com/gitlab-com/geo-customers). 
+We ask requestors to create an issue in the [Geo Customers Project](https://gitlab.com/gitlab-com/geo-customers).
 
-Please make sure to use and fill the [Geo support request issue template](https://gitlab.com/gitlab-com/geo-customers/-/blob/master/.gitlab/issue_templates/Support%20Request%20-%20Geo.md) for Geo related questions and [Backup and Restore support request issue template](https://gitlab.com/gitlab-com/geo-customers/-/blob/master/.gitlab/issue_templates/Support%20Request%20-%20Backup%20and%20Restore.md). As the requestor you **only** need to fill the Customer Info and Support Question sections. 
+Please make sure to use and fill the [Geo support request issue template](https://gitlab.com/gitlab-com/geo-customers/-/blob/master/.gitlab/issue_templates/Support%20Request%20-%20Geo.md) for Geo related questions and [Backup and Restore support request issue template](https://gitlab.com/gitlab-com/geo-customers/-/blob/master/.gitlab/issue_templates/Support%20Request%20-%20Backup%20and%20Restore.md). As the requestor you **only** need to fill the Customer Info and Support Question sections.
 
 Other than the [Collaboration template](https://gitlab.com/gitlab-com/geo-customers/-/issues/new?issuable_template=Support%20Request%20-%20Collaboration), RFHs must be opened by Support Engineers once a support ticket has been opened.
 

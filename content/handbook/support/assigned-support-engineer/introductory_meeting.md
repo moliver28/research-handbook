@@ -42,7 +42,7 @@ In addition, it's also **highly recommended** to address the following items
 during the meeting, as these tips are essential for effective customer-facing
 interactions:
 
-- Avoid assigning labels to colleagues during all interactions, particularly 
+- Avoid assigning labels to colleagues during all interactions, particularly
 those that are customer-facing. For instance, a CSM should refrain from
 making statements like, "This ASE is really good at CI/CD."
   - Such statements can inadvertently influence the customer’s expectations

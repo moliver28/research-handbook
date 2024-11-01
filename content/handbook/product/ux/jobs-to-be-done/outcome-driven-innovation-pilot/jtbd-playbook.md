@@ -4,7 +4,7 @@ description: >-
   The JTBD playbook is a comprehensive, step-by-step guide to help teams effectively apply the JTBD framework. It guides you from initial assumptions to prioritized user desired outcomes, providing a solid foundation and collaborative research tools.
 ---
 
->⚠️ **This framework is undergoing evaluation in a [pilot program](https://gitlab.com/gitlab-org/gitlab/-/iss️ues/477045)** ⚠️ 
+>⚠️ **This framework is undergoing evaluation in a [pilot program](https://gitlab.com/gitlab-org/gitlab/-/iss️ues/477045)** ⚠️
 
 The playbook will ensure you tackle the right problems at the right time by focusing on the critical question: **What outcomes are you trying to influence?**.
 

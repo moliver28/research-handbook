@@ -7,7 +7,7 @@ To be able to scale the availability of GitLab learning offerings, [GitLab Profe
 
 The program provides a systematic approach to developing and validating the skills and knowledge needed to successfully deliver each course offered by GitLab Professional Education Services.
 
-## GitLab Certified Trainer 
+## GitLab Certified Trainer
 
 ### Candidate Process for Internal Trainers, Subcontractors, and Train the Trainer Customers
 

@@ -57,7 +57,7 @@ This lab will explore how we can ensure a test pipeline when a single job fails.
 
 ## Task A. Stopping a Pipeline after Failure
 
-In this example, let’s look at how we can cancel the pipeline in the case where one of our tests fails. 
+In this example, let’s look at how we can cancel the pipeline in the case where one of our tests fails.
 
 1. Navigate to your `Node` project repository.
 
@@ -221,9 +221,9 @@ The tests will now look like this:
 
 1. Select your most recent pipeline.
 
-1. Wait for the tests to complete. Refresh after the test jobs are complete and select the tab `Tests`. 
+1. Wait for the tests to complete. Refresh after the test jobs are complete and select the tab `Tests`.
 
-1. You will see a report of your test results in the tab. 
+1. You will see a report of your test results in the tab.
 
 ## Lab Guide Complete
 

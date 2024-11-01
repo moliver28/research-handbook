@@ -4,7 +4,7 @@ title: Lumos Access Request Guide
 
 ## Overview
 
-You can request access to applications by creating an access request in the Lumos UI. 
+You can request access to applications by creating an access request in the Lumos UI.
 
 Lumos will automatically notify and get approval from your manager, system owner, and any other approvals needed.
 

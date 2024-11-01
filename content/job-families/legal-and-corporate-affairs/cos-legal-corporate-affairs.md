@@ -9,7 +9,7 @@ description: Chief of Staff and strategic partner to the Chief Legal Officer
 
 The Chief of Staff, Legal & Corporate Affairs acts as a trusted partner to the Chief Legal Officer and Corporate Secretary. They will be responsible for supporting GitLab’s Legal & Corporate Affairs team with a focus on defining and driving initiatives that support the team’s cross functional reach  and easy to work with reputation.
 
-The Chief of Staff, Legal & Corporate Affairs is a senior strategic leadership role. This person will be responsible for driving operational alignment across the LACA team. This person will also partner with the CLO & Head of Corporate Affairs to develop efficient content for critical strategic  meetings including GitLab Board of Directors meeting, E-Group Offsites and Legal & Corporate Affairs Leadership Offsites. This is a unique opportunity to interact with every aspect of a public company at scale. 
+The Chief of Staff, Legal & Corporate Affairs is a senior strategic leadership role. This person will be responsible for driving operational alignment across the LACA team. This person will also partner with the CLO & Head of Corporate Affairs to develop efficient content for critical strategic  meetings including GitLab Board of Directors meeting, E-Group Offsites and Legal & Corporate Affairs Leadership Offsites. This is a unique opportunity to interact with every aspect of a public company at scale.
 
 ### Job Grade
 

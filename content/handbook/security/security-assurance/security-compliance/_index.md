@@ -39,15 +39,15 @@ The single source of truth for all of in-progress work is the Security Complianc
 
 Much of our work related to the [FedRAMP Authorization Program](content/handbook/security/security-assurance/security-compliance/fedramp-compliance.md) is unfortunately not visible to the rest of GitLab due to regulatory mandates outside of our control. In order to bring as much transparency and visibility into our work, and to continue to track basic metrics, it is critical that we continue to use our epic board and issue tracker as much as possible, even if used to track high-level tasks with links to detailed issues within the authorization boundary.
 
-All team members are encouraged to regularly start Slack discussions in `# sec-assurance` instead of the private `sec-assurance-team` channel which was the default before October 2024. Most of the work we do is actually not limited access and therefore can be discussed openly. 
+All team members are encouraged to regularly start Slack discussions in `# sec-assurance` instead of the private `sec-assurance-team` channel which was the default before October 2024. Most of the work we do is actually not limited access and therefore can be discussed openly.
 
 ## How we work
 
-We use agile program management and project management best practices to organize our work with the goal of being as efficient as possible while continuously iterating towards our objectives. Security Compliance team members are encouraged to regularly bring up feedback on how we can improve the way we work and this is a standing topic in our weekly team meeting agenda. 
+We use agile program management and project management best practices to organize our work with the goal of being as efficient as possible while continuously iterating towards our objectives. Security Compliance team members are encouraged to regularly bring up feedback on how we can improve the way we work and this is a standing topic in our weekly team meeting agenda.
 
 ### Scheduled meetings
 
-We try to avoid meetings when possible and prefer to work async. However, if we don't make progress async we should not hesitate to schedule a meeting. Our only recurring, mandatory meetings are the monthly department meeting, weekly team meeting, and 1:1s. However, don't wait for our team meeting or 1:1s to start a discussion; instead start a Slack thread and/or an issue and let's use these meetings to finish the discussion and make final decisions. 
+We try to avoid meetings when possible and prefer to work async. However, if we don't make progress async we should not hesitate to schedule a meeting. Our only recurring, mandatory meetings are the monthly department meeting, weekly team meeting, and 1:1s. However, don't wait for our team meeting or 1:1s to start a discussion; instead start a Slack thread and/or an issue and let's use these meetings to finish the discussion and make final decisions.
 
 We have a weekly call with all of Security Compliance, which includes time for a breakout discussion specific for Dedicated Markets. In addition to that, we also have recurring calls necessary for our FedRAMP program which are necessary for contributing to the working group, and logging meeting minutes (external audit artifacts) associated with the configuration control board and compliance sync.
 
@@ -176,7 +176,7 @@ DRIs should provide weekly updates for the DRI's epics according to following pr
        - **Risk and Confidence** - Any new blockers identified or existing blockers that persist? Any other challenges now or in the near future? How do these blockers and/or challenges affect our confidence of completing by scheduled due date per the roadmap?
        - **Mitigations** -  What is required to overcome challenges or blockers identified?  Should this be escalated to other team members, teams, executives, or domain experts?
    - **Update Workflow and Health label** - After each status update, the workflow label and health status should be updated. See [Labels](#labels).
-1. **Top-Level Epic Status Update** [automation](https://gitlab.com/gitlab-com/gl-infra/epic-issue-summaries) periodically synthesizes updates from the DRI's status update reply comment to automatically populate their epic with the status and the top-level team epic. 
+1. **Top-Level Epic Status Update** [automation](https://gitlab.com/gitlab-com/gl-infra/epic-issue-summaries) periodically synthesizes updates from the DRI's status update reply comment to automatically populate their epic with the status and the top-level team epic.
 1. In order to ensure efficiency we will use these same status updates across any other department, division, or OKR status updates, to include broadcasts in Slack.
 
 ### Backlog refinement

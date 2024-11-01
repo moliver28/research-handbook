@@ -32,7 +32,7 @@ The following list of questions can help determine if a tool may be a potential 
 1. Is there some complexity to managing the infrastructure of the tool that would justify it being outside of GitLab's monolith?
 1. Are we adding another layer of complexity by having that infrastructure outside GitLab's monolith, and if so is it higher or lower than managing that?
 1. Do we require Runway features that are not in the list of [supported features](https://docs.runway.gitlab.com/reference/supported-features/)?
-1. In terms of [tooling handover](/handbook/security/product-security/product-security-engineering/_index.md#tooling-handover-epics), does the team have any experience with Runway and are they willing to take it over if it is deployed using that method? 
+1. In terms of [tooling handover](/handbook/security/product-security/product-security-engineering/_index.md#tooling-handover-epics), does the team have any experience with Runway and are they willing to take it over if it is deployed using that method?
 
 Which can be visualized as the following mermaid diagram:
 

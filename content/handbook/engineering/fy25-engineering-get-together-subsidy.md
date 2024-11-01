@@ -34,7 +34,7 @@ Engineering only, all team members regardless of their position/level.
 1. Set `GL Code` to `Business Meals & Entertainment`
    ![Set Expense Type and GL Code](/images/engineering/expense_type_gl_code.png "Set Expense Type and GL Code")
 1. Set `Classification` to `FY25 Team Building Budget`
-1. In the `Description` field add a brief description noting the expense is for a team building activity 
+1. In the `Description` field add a brief description noting the expense is for a team building activity
    ![Set Classification and Description](/images/engineering/classification_description.png "Set Classification and Description")
 
 After the Expense has been submitted it will be routed for approvals and reviewed by our accounts payable team.  

@@ -8,11 +8,11 @@ description: "This Hands-On Guide demonstrates how to configure testing for a bi
 - Using the `allow_failure`, `dependencies` / `needs`, and `before_script` / `after_script` keywords
 - Including a code coverage job
 
-In this lab, we will create a simple testing procedure for our Go application. 
+In this lab, we will create a simple testing procedure for our Go application.
 
 ## Task A. Create code and tests
 
-Let’s introduce some code to test, as well as some unit tests for the code. 
+Let’s introduce some code to test, as well as some unit tests for the code.
 
 1. Navigate to your project.
 
@@ -24,7 +24,7 @@ Let’s introduce some code to test, as well as some unit tests for the code.
 
 1. Leave all other options as default and select **Create directory**.
 
-1. In the **ArrayUtils** directory, select **+ > New file**. 
+1. In the **ArrayUtils** directory, select **+ > New file**.
 
 1. Name the file `ArrayUtils.go`. Add the following code to the file:
 
@@ -79,11 +79,11 @@ Let’s introduce some code to test, as well as some unit tests for the code.
 
 1. Leave all other options as default and select **Commit changes**.
 
-To run these tests, you can use the command `go test array/ArrayUtils`. Let’s see how we can integrate these tests into our CI/CD pipeline. 
+To run these tests, you can use the command `go test array/ArrayUtils`. Let’s see how we can integrate these tests into our CI/CD pipeline.
 
 ## Task B. Create test stage and job in .gitlab-ci.yml
 
-Generally, tests will run inside of the test stage of a CI/CD process. 
+Generally, tests will run inside of the test stage of a CI/CD process.
 
 1. Select your `.gitlab-ci.yml` file.
 
@@ -99,13 +99,13 @@ Generally, tests will run inside of the test stage of a CI/CD process.
       - release
     ```
 
-1. Create a job in the test stage that runs the tests we created for ArrayUtils. 
+1. Create a job in the test stage that runs the tests we created for ArrayUtils.
 
     *Coding Challenge:*
 
     What is the the syntax for a job in the test stage that runs the tests we created for ArrayUtils? Write the syntax.
 
-    *Answer:* One example approach is shown in the following code snippet. If you have not done so yet, copy the code into your `.gitlab-ci.yml` file. 
+    *Answer:* One example approach is shown in the following code snippet. If you have not done so yet, copy the code into your `.gitlab-ci.yml` file.
 
     ```yaml
     test go:
@@ -167,11 +167,11 @@ test go:
     }
     ```
 
-    In this example, the final test looks for a value that does not exist in the array, but expects it to find the value. This test will always fail as we are expecting the wrong result. 
+    In this example, the final test looks for a value that does not exist in the array, but expects it to find the value. This test will always fail as we are expecting the wrong result.
 
-1. Commit this code to main and observe the resulting pipeline. 
+1. Commit this code to main and observe the resulting pipeline.
 
-1. Monitor the progress of your test job. 
+1. Monitor the progress of your test job.
 
     > When the test job completes, you will see that the job fails. When it fails, it will show a yellow exclamation mark rather than a red x. This indicates that the job failed as a warning, meaning it won’t prevent future stages from running. You will see that your next stage does execute even with the failure.
 

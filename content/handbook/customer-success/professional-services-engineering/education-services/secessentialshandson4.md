@@ -92,7 +92,7 @@ The License Compliance report will generate a list of all of the licenses detect
 
 1. Wait for the pipeline for the merge request to complete.
 
-1. Once the pipeline completes, refresh the page. A license compliance scan will now display, showing 1 new license detected. 
+1. Once the pipeline completes, refresh the page. A license compliance scan will now display, showing 1 new license detected.
 
 1. Return to the merge reqest overview.
 

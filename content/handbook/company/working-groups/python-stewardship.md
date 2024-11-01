@@ -11,20 +11,20 @@ status: not started
 |------------------|-----------------|
 | Date Created     | 2024-11-01 |
 | Target End Date  | 2025-02-01 |
-| Epic             | https://gitlab.com/groups/gitlab-org/-/epics/15580 | 
+| Epic             | https://gitlab.com/groups/gitlab-org/-/epics/15580 |
 | Slack            | #wg_python-stewardship (only accessible from within the company) |
 | Google Doc       | Agenda (https://docs.google.com/document/d/1gs-OrjjyfxQ3BDaKxOXcrMuUl3z1jmsxGmbdmEgIBF8/edit?tab=t.dma9z3zh8fwb) (only accessible from within the company) |
 | Meeting Calendar | Calendar (https://calendar.google.com/calendar/u/0?cid=Y18xZWE4ZTViZWZiYmUzMDk0MDgzNGJiZWViMWY1NTFlODVjNWQ0NzQwZDc0MzJhMWQyMDkzOWQ4MzU0YjhkNjU3QGdyb3VwLmNhbGVuZGFyLmdvb2dsZS5jb20) (only accessible from within the company) |
 
 ## Goal
 
-- Consolidate Python development within GitLab, providing confidence to developers on developing high-quality Python codebases. 
+- Consolidate Python development within GitLab, providing confidence to developers on developing high-quality Python codebases.
 - Simplify developer decision making by providing opininated guidelines on how to create, maintain and deploy Python services and libraries in GitLab.
 - Define resources (courses, mentorship) for training  developers that want or need to contribute to a Python codebase.
 
 ## Context
 
-While Python has been present at small scale for many years in the company, the evolution of our AI Infrastructure lead to Python becoming a critical part of our product. Yet, we haven't consolidated a development culture around it. 
+While Python has been present at small scale for many years in the company, the evolution of our AI Infrastructure lead to Python becoming a critical part of our product. Yet, we haven't consolidated a development culture around it.
 
 As a result, developers are confused on how to write Python code, how to review Python code, and how to set up new functionality. Ruby developers also feel a lack of support when it comes to understanding and contributing to the codebase. One key difference between our Ruby codebase and our Python codebase is that the Python codebase is more distributed: instead of having a single repository we have multiple each responsible for an area.
 
@@ -55,13 +55,13 @@ Documentation and process:
 
 - Training for non-Python developers  
 - Development guidelines  
-  - Different types of repositories:   
+  - Different types of repositories:
     - Python services (AIGW, workflow)  
     - Python utilities (CEF)  
     - libraries  
   - Creation of codebase  
   - Authentication  
-  - Testing guidelines 
+  - Testing guidelines
 - Code review and maintainership guidelines
 - Deployment guidelines
   - Python services (AIGW, workflow)  

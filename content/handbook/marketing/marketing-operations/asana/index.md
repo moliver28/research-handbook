@@ -13,13 +13,13 @@ Our team is using Asana to add a made-for-marketing project and task management 
 
 We've consistently heard from team members across the marketing org that there is an opportunity to improve efficiency. The main problems we are looking to solve are:
 
-- Stretching GitLab to perform as a project management tool for Marketing processes it was not built for, and use cases it will never be used for by our customer base. 
-- This can cause undue administrative work, bottlenecks and detracts from our day-to-day commitment to efficiency. 
+- Stretching GitLab to perform as a project management tool for Marketing processes it was not built for, and use cases it will never be used for by our customer base.
+- This can cause undue administrative work, bottlenecks and detracts from our day-to-day commitment to efficiency.
 - Adding a made-for-marketing project and task management tool will improve efficiency, freeing up time for our team to learn about and understand how our customers use GitLab
 
 ## Users
 
-Asana will be rolled out across the entire Marketing Org, excluding Sales Development and the Data Team. 
+Asana will be rolled out across the entire Marketing Org, excluding Sales Development and the Data Team.
 
 ## Rollout
 

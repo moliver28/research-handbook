@@ -10,7 +10,7 @@ job: "IT Compliance Associate"
 
 ### About me
 
-- My  professional  experience is  diverse (HR, Medical Transcription, Digital Transformation initiatives) . This is my first year in the tech  industry and I feel fortunate to be a part of the IT compliance team -  helping with User Access Reviews. 
+- My  professional  experience is  diverse (HR, Medical Transcription, Digital Transformation initiatives) . This is my first year in the tech  industry and I feel fortunate to be a part of the IT compliance team -  helping with User Access Reviews.
 (enjoying and loving  all the challenges and the learning that comes with it)
 
 ### Communication

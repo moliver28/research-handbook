@@ -58,7 +58,7 @@ Docker is a platform commonly used by developers to build container applications
     ```
 
     > There are alternative methods that can be used for building Docker based images. If your runners do not support Docker in Docker, you can consider using a tool like `kaniko`, as shown in the configuration below:
-    
+
     ```yml
     build image:
       stage: build

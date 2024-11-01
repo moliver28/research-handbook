@@ -270,7 +270,7 @@ A copy of the license email sent to the customer is automatically logged under t
 File a submission via the [Support Super Form](https://support-super-form-gitlab-com-support-support-op-651f22e90ce6d7.gitlab.io/):
 
 1. Fill in your work email
-2. Select "Request a team member license" 
+2. Select "Request a team member license"
 3. Select a plan level
 
 ### GitLab.com Billable Members List

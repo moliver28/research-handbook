@@ -25,7 +25,7 @@ Export EPSS data to a new bucket, rather than exporting it into the existing PMD
 
 ## Consequences
 
-The implementation is simpler than adding a directory to the existing advisories bucket, but may feel less intuitive. 
+The implementation is simpler than adding a directory to the existing advisories bucket, but may feel less intuitive.
 This change require the relevant Terraform changes regarding the provisioning of a new bucket.
 This should also be addressed in the exporter and the GitLab `package_metadata` sync configuration.
 

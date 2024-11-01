@@ -126,7 +126,7 @@ The [DCI matrix](/handbook/people-group/directly-responsible-individuals/#dri-co
 </tr>
 
 <tr>
-<td> 
+<td>
 
 **Pre-Sales & Alignment**
 </td>

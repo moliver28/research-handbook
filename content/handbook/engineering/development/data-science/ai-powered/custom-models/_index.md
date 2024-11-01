@@ -133,7 +133,7 @@ The Custom Models communicates based on the following guidelines:
 
 ## LLM Judges
 
-In developing LLM-backed applications, the Custom Models team can use different LLMs as judges 
+In developing LLM-backed applications, the Custom Models team can use different LLMs as judges
 for model evaluation purposes. The Custom Models team has been granted permission to use OpenAI models as Judges, with these requirements:
 
 - With respect to inputs, be sure not to provide any proprietary, SAFE, or otherwise sensitive information as an input to OpenAI models, as OpenAI is permitted to use our inputs to improve their services.

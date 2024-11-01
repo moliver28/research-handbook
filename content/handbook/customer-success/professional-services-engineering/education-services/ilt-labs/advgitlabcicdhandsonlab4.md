@@ -9,7 +9,7 @@ description: "This Hands-On Guide walks you through common best practices for CI
 - Reducing repetition in your pipeline
 - Hidden jobs and map merges
 
-In our testing pipeline, there are a few instances where we are repeating code and definitions.  We already saw that it was possible to use caches to reduce repetition in the npm install of packages. In this lab, you will learn how to further reduce the repetition in your code. 
+In our testing pipeline, there are a few instances where we are repeating code and definitions.  We already saw that it was possible to use caches to reduce repetition in the npm install of packages. In this lab, you will learn how to further reduce the repetition in your code.
 
 Here is the current `.gitlab-ci.yml` file definition:
 

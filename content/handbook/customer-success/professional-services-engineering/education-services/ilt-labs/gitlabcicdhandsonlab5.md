@@ -115,9 +115,9 @@ Let’s try to figure out what happened!
 
 ## Task C.1. Isolate the command that causes the error
 
-The first logical step is to isolate the command that is causing the error. We can see in the logs that the `ssh-add "$SSH_INVALID_KEY"` command looks to cause the error. 
+The first logical step is to isolate the command that is causing the error. We can see in the logs that the `ssh-add "$SSH_INVALID_KEY"` command looks to cause the error.
 
-With the command isolated, we can consider some ways to verify the command. One option would be to try running the command locally if possible. This can help rule out potential issues with the runner. For this example, we can assume the runners are working correctly, meaning the issue lies in the actual command itself. 
+With the command isolated, we can consider some ways to verify the command. One option would be to try running the command locally if possible. This can help rule out potential issues with the runner. For this example, we can assume the runners are working correctly, meaning the issue lies in the actual command itself.
 
 In these cases, often the variable/input of the command is the main source of the error. From the error message, it looks that the key is not formatted correctly. Let's consult the documentation to see why.
 
@@ -125,17 +125,17 @@ In these cases, often the variable/input of the command is the main source of th
 
 Often, common errors will be present in our documentation with solutions to the problems. To find this error:
 
-1. Try searching a part of it in the [documentation](https://docs.gitlab.com/): *error in libcrypto*. The first result you get is an article titled: **Using SSH keys with GitLab CI/CD**. 
+1. Try searching a part of it in the [documentation](https://docs.gitlab.com/): *error in libcrypto*. The first result you get is an article titled: **Using SSH keys with GitLab CI/CD**.
 
 1. If you scroll to the Troubleshooting section of this page, you will see a section on the exact error we are facing.
 
-The documentation tells us that the issue is not having a new line at the end of the key. Let’s try adding one and see if it fixes the problem. 
+The documentation tells us that the issue is not having a new line at the end of the key. Let’s try adding one and see if it fixes the problem.
 
 1. Return to your variables by selecting **Settings > CI/CD > Variables**.
 
 1. Select the group next to the `SSH_INVALID_KEY` variable .
 
-1. Expand the group variable section and select the **Edit** icon next to the `SSH_INVALID_KEY` variable. 
+1. Expand the group variable section and select the **Edit** icon next to the `SSH_INVALID_KEY` variable.
 
 1. Add a new line to the end of the variable value, then select **Save Changes**.
 
@@ -143,9 +143,9 @@ To test if this fixes the error:
 
 1. Navigate back to your CI/CD project.
 
-1. Select **Build > Pipelines** from the left sidebar. 
+1. Select **Build > Pipelines** from the left sidebar.
 
-1. Select **Run pipeline**. 
+1. Select **Run pipeline**.
 
 1. Leave all values as default and select **Run pipeline** again. You will now see the job complete successfully!
 

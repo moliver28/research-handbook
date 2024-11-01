@@ -77,7 +77,7 @@ The Customer Success Strategy Manager is a grade 8 (/handbook/total-rewards/comp
 - Develop and manage team strategies and outcome/metric programs, ensuring alignment with overall business goals.
 - Collaborate with the team and other stakeholders within the department to maintain a high bar for quality in a fast-paced, iterative environment.
 
-### Requirements 
+### Requirements
 
 - Demonstrated progressive experience in a strategic role, preferably within Customer Success, Sales Strategy, or a similar function.
 - Proficiency in data analysis tools such as Excel, SQL, and business intelligence tools (e.g., Tableau, Looker). Experience with CRM systems (e.g., Salesforce) and customer success platforms (e.g., Gainsight) is a plus.
@@ -96,7 +96,7 @@ The Manager, Customer Success Strategy is a grade 8 (/handbook/total-rewards/com
 ### Responsibilities
 
 - Guide and manage the day to day responsibilities of all members of team.
-- Set direction and vision for the team while being accountable for overall team resulsts. 
+- Set direction and vision for the team while being accountable for overall team resulsts.
 - Develop and design business models that align with the company's strategic objectives and customer success goals.
 - Conduct thorough analyses of proposed changes and their potential impacts on the business and customer success operations.
 - Lead the design and execution of experiments to test new strategies, processes, and metrics, ensuring robust and actionable results.
@@ -107,7 +107,7 @@ The Manager, Customer Success Strategy is a grade 8 (/handbook/total-rewards/com
 - Develop and manage team strategies and outcome/metric programs, ensuring alignment with overall business goals.
 - Collaborate with the team and other stakeholders within the department to maintain a high bar for quality in a fast-paced, iterative environment.
 
-### Requirements 
+### Requirements
 
 - Demonstrated progressive experience in a strategic role, preferably within Customer Success, Sales Strategy, or a similar function.
 - Proficiency in data analysis tools such as Excel, SQL, and business intelligence tools (e.g., Tableau, Looker). Experience with CRM systems (e.g., Salesforce) and customer success platforms (e.g., Gainsight) is a plus.
@@ -139,7 +139,7 @@ The Senior Manager, Customer Success Strategy is a grade 9 (/handbook/total-rewa
 - Proficiency in data analysis tools such as Excel, SQL, and business intelligence tools (e.g., Tableau, Looker). Experience with CRM systems (e.g., Salesforce) and customer success platforms (e.g., Gainsight) is a plus.
 - Excellent written and verbal communication skills, with the ability to present complex information clearly and concisely to stakeholders at all levels.
 - Strong analytical and problem-solving skills with the ability to interpret complex data and translate it into actionable insights.
-- Demonstrated ability to hire, retain, coach and lead high performing teams 
+- Demonstrated ability to hire, retain, coach and lead high performing teams
 - Excellent collaboration skills with proven ability to effectively communicate and partner with cross-functional stakeholders.
 - Proven ability to manage multiple projects simultaneously and deliver high-quality results in a fast-paced environment.
 - Deep understanding of customer success principles and a customer-centric approach to strategy development.

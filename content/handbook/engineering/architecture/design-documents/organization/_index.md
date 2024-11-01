@@ -242,7 +242,7 @@ Organizations in the context of Cells 1.5 will contain the following functionali
   - Organizations can be deleted by Organization Owners.
 - **Users**
   - Organization Users can be part of multiple Organizations using one account.
-  - Users are able to navigate between their Organizations using an Organization switcher. 
+  - Users are able to navigate between their Organizations using an Organization switcher.
   - Non-Enterprise Users can be removed from or leave an Organization.
   - When users are added to Organizations they receive an email informing them that they have been added to the Organization.
   - Users get [a personal Namespace in each Organization](https://docs.gitlab.com/ee/architecture/blueprints/cells/impacted_features/personal-namespaces.html) they are associated with.

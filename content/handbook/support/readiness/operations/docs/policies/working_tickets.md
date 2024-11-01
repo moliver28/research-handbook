@@ -183,7 +183,7 @@ When a ticket is filed using the incorrect form, agents will use the
 tag the ticket, and leave an internal note. From there, we are expected
 to review the ticket and determine the next steps.
 
-As the ticket was initially created using an incorrect form, it is likely that it will not have a first response yet from the correct team. In such cases, we should set the `Ticket Stage` to `FRT` before correcting the form. 
+As the ticket was initially created using an incorrect form, it is likely that it will not have a first response yet from the correct team. In such cases, we should set the `Ticket Stage` to `FRT` before correcting the form.
 
 ```mermaid
 graph TD;

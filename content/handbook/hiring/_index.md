@@ -13,15 +13,15 @@ To create globally inclusive access to opportunities so that **everyone can cont
 
 ### Talent Acquisition Mission Statement
 
-It is the Talent Acquisition Team's mission to predictably build distributed, representative teams that enable team members to **co-create** the future of software. 
+It is the Talent Acquisition Team's mission to predictably build distributed, representative teams that enable team members to **co-create** the future of software.
 
 ### Our Guiding Principles
 
 As we set out to achieve this vision, we will continue to rely on core guiding principles to define how we build toward the future.
 
-1. **Experience**: Stakeholder experience is central to our craft. We are a partner, an advisor, and an essential component to building high performing teams and culture at GitLab. 
-1. **Inclusivity**: We design fair and equitable processes into the fabric of what we do. We believe Talent Acquisition has an outsized impact on the make-up of our teams, and we strive to continue to build them with inclusivity as a integral piece of our craft. 
-1. **Predictability**: Our ability to have the right team members, in the right roles, at the right time is imperative to execute on our commitments and plans as an organization. We strive for predictability: to build accuracy in our forecasts and enable the business to look around corners through strong relationships and data driven decision making. 
+1. **Experience**: Stakeholder experience is central to our craft. We are a partner, an advisor, and an essential component to building high performing teams and culture at GitLab.
+1. **Inclusivity**: We design fair and equitable processes into the fabric of what we do. We believe Talent Acquisition has an outsized impact on the make-up of our teams, and we strive to continue to build them with inclusivity as a integral piece of our craft.
+1. **Predictability**: Our ability to have the right team members, in the right roles, at the right time is imperative to execute on our commitments and plans as an organization. We strive for predictability: to build accuracy in our forecasts and enable the business to look around corners through strong relationships and data driven decision making.
 
 ### Our Objectives and Roadmap
 

@@ -9,7 +9,7 @@ The Command Plan is how GitLab has operationalized [Command of the Message](/han
 
 ## Command Plan Requirements
 
-The Command Plan consists of the below 3 sections. The Opportunity Overview section is **required for ALL opportunities in stage 2-Scoping or later for current quarter and next quarter as a minimum global standard**. The remaining sections (MEDDPPICC and Close Plan Details) are only required for opportunities *at or above defined ARR thresholds* (**$100K+ for Enterprise**, **$50K+ for Mid-Market**). 
+The Command Plan consists of the below 3 sections. The Opportunity Overview section is **required for ALL opportunities in stage 2-Scoping or later for current quarter and next quarter as a minimum global standard**. The remaining sections (MEDDPPICC and Close Plan Details) are only required for opportunities *at or above defined ARR thresholds* (**$100K+ for Enterprise**, **$50K+ for Mid-Market**).
 
 By day 1 of the current quarter, all Command Plans and Opportunity Consults should be updated for both the current and next quarters. Note: These thresholds are minimum global standards, and geographic and segment specific teams can and should aim to exceed these expectations by extending the command plan process to lower deal thresholds where appropriate.
 

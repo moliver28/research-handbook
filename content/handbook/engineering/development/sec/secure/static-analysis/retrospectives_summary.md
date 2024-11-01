@@ -34,5 +34,4 @@ This milestone focused on [SAST in the IDE](https://gitlab.com/groups/gitlab-org
 
 During these milestones the team continued to work on SAST in the IDE. The retrospective focused on one main item:
 
-1. We've discussed how blockers should be raised and how they should be handled. To enable a better reflection of status, we've changed the format of our standup to be more concise and will continue monitoring the situation. 
- 
+1. We've discussed how blockers should be raised and how they should be handled. To enable a better reflection of status, we've changed the format of our standup to be more concise and will continue monitoring the situation.
