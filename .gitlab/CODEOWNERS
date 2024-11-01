@@ -166,9 +166,10 @@
 /content/handbook/engineering/development/sec/govern/security-policies/ @alan
 /content/handbook/engineering/development/sec/govern/threat-insights @nmccorrison @ryaanwells
 /content/handbook/engineering/development/sec/secure/ @twoodham
-/content/handbook/engineering/development/sec/secure/composition-analysis/ @thiagocsf @gonzoyumo @fcatteau
+/content/handbook/engineering/development/sec/secure/dynamic-analysis/ @tkopel @mikeeddington
+/content/handbook/engineering/development/sec/secure/composition-analysis/ @gonzoyumo @tkopel
 /content/handbook/engineering/development/sec/secure/vulnerability-research/ @idawson
-/content/handbook/engineering/development/sec/secure/static-analysis/ @tkopel @rvider
+/content/handbook/engineering/development/sec/secure/static-analysis/ @thiagocsf @adamcohen @jleasure @julianthome @mbenayoun 
 /content/handbook/engineering/expansion-development.md @jeromezng
 /content/handbook/engineering/frontend/ @timzallmann
 /content/handbook/engineering/workflow/ @timzallmann @jeromezng @sgoldstein @dsatcher @m_gill
