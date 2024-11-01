@@ -165,18 +165,16 @@ Persuant with GitLab's [best practices for password security](/handbook/security
 
 |Pre-Refresh step|Owner|To be completed by|Environments|Action steps|
 |-----|-----|-----|-----|-----|
-
 |Date Alignment|Systems|Systems|Developer, Test1, Test2|Align the date of the refresh within the team|
 |Date Publicization|Systems|@ana-moreno|Developer, Test1, Test2|Publicize the date of the refresh ahead of time so affected business stakeholders are aware and ready for post-refresh date steps.|
 |Sandbox Access Group Access|@ana-moreno|@ana-moreno (or User Management)||Review recent login access to relevant sandbox and add any missing or new users to relevant Sandbox Access group.|
 |Disable Marketo sync|Marketing Operations|Marketing Operations|Test1|Contact MOPs to disable the SFDC sync (before refresh).|
-||||||
+
 
 ##### Post-Refresh Steps
 
 |Post-Refresh step|Owner|To be completed by|Environments|Action steps|
 |-----|-----|-----|-----|-----|
-
 |Get the new Sandbox Org ID and instance Id if required|@ana-moreno|@ana-moreno||Find and update the Org ID/Instance ID on the Refresh issue|
 |Backup & Anonymize Data|@ana-moreno|@ana-moreno (Or Admin user with Own access)|Developer, Test1, Test2|Create a backup of the sandbox and anonymize the data when backup is complete.|
 |Reconnect RingLead user|@rrosue|@rrosu|Test1|After the RingLead Integration user has been reset and updated in 1Password, proceed with the following: <br> 1. Login to RingLead.<br>2. Locate the SFDC connections page.<br>3. Authenticate with the RingLead Integration user using the user password for this account in the production org (stored in 1Password).|
