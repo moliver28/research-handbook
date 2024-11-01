@@ -15,7 +15,6 @@ To ensure the stability, security, and auditability of GitLab by:
 5. Encouraging the development and use of product features for routine operations
 6. Enhancing overall system reliability by standardizing change processes
 
-
 ### Scope
 
 This policy applies to all GitLab deployment environments such as GitLab.com and Dedicated and to all users in those environments
