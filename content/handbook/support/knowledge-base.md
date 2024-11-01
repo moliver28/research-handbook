@@ -65,6 +65,11 @@ knowledge base content. This has the following benefits:
    - Otherwise, assign a KB editor: currently @irisb or @weimeng-gtlb.
 1. Create an entry in the [CODEOWNERS](https://gitlab.com/gitlab-com/support/support-pages/-/blob/master/.gitlab/CODEOWNERS) file that includes you as a maintainer.
 
+### Reviewing a KB article
+
+- Always. Be. Merging. Make suggestions and apply them yourself.
+- It's more important to capture the knowledge than to capture it with the right style and formatting.
+
 ### Publishing a KB article
 
 After the KB article is merged, send a request using the
@@ -73,20 +78,38 @@ After the KB article is merged, send a request using the
 - What is this request concerning?: `Create a Zendesk article`
 - Which Zendesk instance?: Select according to the directory the article is located in.
 
-## How to approve content
+## Roles
 
-In general:
+### Contributors
 
-- Always. Be. Merging. Make suggestions and apply it yourself.
-- It's more important to capture the knowledge than to capture it with the right style and formatting.
+Everyone can contribute. The most important thing is to capture the knowledge you've created while
+solving a problem. You don't need any special training to begin.
 
-For Staff Support Engineers and Support Managers:
+### Rapid reviewers
 
-- You have been added as approvers so we can merge timely content without needing to wait for an editor.
-- Focus on the technical correctness of the content. No need to be overly concerned with style and formatting.
-- After approving and merging, tag a KB editor in the MR for further review.
+Staff Support Engineers and Support Managers are KB rapid reviewers who can be called on to approve
+and merge content without needing to wait for an editor to become available.
 
-## Becoming a KB editor
+Rapid reviewers should:
 
-- Contribute.
-- Talk to @weimeng-gtlb.
+- Be called upon when there is advantage to publishing changes quickly, i.e. when new product issues
+  are encountered by users or as part of incident response.
+- Collaborate with KB contributors on the technical accuracy of the content, prioritizing having
+  updates published as soon as possible.
+- Tag a KB editor after approving and merging a KB article merge request to ask for a style and
+  format review and edit.
+
+### Editors
+
+KB editors help ensure KB articles are accessible to readers and have consistent style and
+formatting.
+
+To become a KB editor:
+
+- Contribute KB articles.
+- Talk to {{< member-by-name "Wei-Meng Lee" >}}.
+
+The current KB editors are:
+
+- {{< member-by-name "Iris Blackburn" >}}
+- {{< member-by-name "Wei-Meng Lee" >}}
