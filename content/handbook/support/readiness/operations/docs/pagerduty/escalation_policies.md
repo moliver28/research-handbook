@@ -104,7 +104,6 @@ deleted. You might need to edit it first to remove rules and persons first.
   - Escalates after 5 min
 - Level 4:
   - Notify the following users or schedules
-    - Shaun McCann
     - Lee Matos
     - Lyle Kozloff
     - Val Parsons
@@ -135,7 +134,6 @@ deleted. You might need to edit it first to remove rules and persons first.
   - Escalates after 5 min
 - Level 3:
   - Notify the following users or schedules
-    - Shaun McCann
     - Lee Matos
     - Lyle Kozloff
     - Val Parsons
@@ -159,7 +157,6 @@ deleted. You might need to edit it first to remove rules and persons first.
   - Escalates after 5 min
 - Level 3:
   - Notify the following users or schedules
-    - Shaun McCann
     - Lee Matos
     - Lyle Kozloff
     - Val Parsons
