@@ -19,12 +19,12 @@ To see what training is coming soon, view the [Field Enablement Spotlight issue 
 | Nov 14 | New Forrester TEI Report   | Marketing  |
 | Nov 21 |  Salesforce Lightning   | RSOE Team  |
 | Nov 28 |  **No Session**  |  |
-| Dec 5 |  TBD  |  |
+| Dec 5 |  Beyond the Role: GitLab Personas  |   |
 | Dec 12 |  Global Ecosystem Team Quarterly Update   | Ecosystem Team |
 | Dec 19 |  Analyst Relations Update  | Analyst Relations Team  |
 | Dec 26 |  **No Session**   |  |
 | Jan 2 |  TBD  |  |
-| Jan 9 |  TBD  |  |
+| Jan 9 |  Gong 201 Training  |  |
 | Jan 16 |  TBD  |  |
 | Jan 23 | *No session during the last two weeks of the quarter*   |  |
 | Jan 30 | *No session during the last two weeks of the quarter* |    |
