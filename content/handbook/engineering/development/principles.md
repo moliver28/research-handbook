@@ -148,7 +148,9 @@ For some tips on how to iterate you can check
 ### Reduce review time
 
 Be mindful about a code review latency. Do not make authors wait too much
-before you review their code.
+before you review their code. As covered in [Collaboration in Engineering](/handbook/engineering/#collaboration-in-engineering),
+unblocking others is part of building a [high performing team](https://internal.gitlab.com/handbook/company/high-performing-teams/).
+You should try to clear your MRs review backlog at least twice during your working day.
 
 For many people context switching is a very expensive thing to do, which can
 negatively impact their productivity. Be mindful about that when you are
