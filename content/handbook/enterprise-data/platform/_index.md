@@ -265,7 +265,7 @@ To get access to snowflake support portal, please follow the below steps.
 
 ![support_sf_3.png](support_sf_3.png)
 
-- For each update on your case you will be informed by email
+- For each update on your case, you will be informed by email
 
 ### Warehouse Access
 
