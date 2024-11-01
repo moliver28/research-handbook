@@ -103,7 +103,7 @@ Q: How can I check to see when my customers subscription is due for renewal?
 
 A: You can find when a Customer is up for renewal by checking the *Next Renewal Date* field on the Account. If an Account has multiple Subscriptions you can navigate to the relevant *Renewal Opportunity* and check the *Subscription Renewal Date.*
 
-Q: How can I check to see if my customer has successfully linked their GitLab.com user account to their CDot user account?
+Q: How can I check to see if my customer has successfully linked their GitLab.com user account to their Customers Portal user account?
 
 A: Navigate to <https://customers.gitlab.com/admin/customer/> and search by customer email. Use the *Zuora* and *Impersonate* tabs to validate that the information in these portals matches the Customers Portal. *Provider* and *Uid* fields are also populated with values.
 
