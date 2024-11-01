@@ -300,7 +300,7 @@ This script is automated and runs in Gitlab CI every time a new branch is merged
 
 An example of part of the PtC table lineage can be seen here:
 
-![PtC Lineage in MC](montecarlo_ptc_table_lineage.png)
+![PtC Lineage in MC](~/static/images/handbook/enterprise-data/platform/feast/montecarlo_ptc_table_lineage.png)
 
 ## Future improvements
 
