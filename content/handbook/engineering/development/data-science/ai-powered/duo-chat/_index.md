@@ -29,7 +29,7 @@ The Duo Chat group is focused on developing GitLab Duo Chat capabilities, while 
 
 This flowchart describes the planning process for the Duo Chat team:
 
-![Duo Chat Planning Flowchart](/images/duo_chat_planning_flowchart.png)
+![Duo Chat Planning Flowchart](./duo_chat_planning_flowchart.png)
 
 The top part of the chart is what we do prior to the formal milestone planning. Those pre-planning activities should happen in an ongoing continuous manner over time as new issues are created.
 
