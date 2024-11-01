@@ -19,7 +19,7 @@ The  Senior Manager, Development is a [grade 9](/handbook/total-rewards/compensa
 
 #### Senior Manager, Development Responsibilities
 
-- Extends that of the [Frontend Engineering Manager](/job-families/engineering/development/frontend/manager/) and the [Backend Engineering Manager](/job-families/engineering/development/backend/manager/) responsibilities
+- Extends that of the [Engineering Manager](/job-families/engineering/development/engineering-manager/) responsibilities
 - Manage up to six engineering teams
 - Conduct managerial interviews for candidates, and train engineering managers to do said interviews
 - Generate and implement process improvements, especially cross-team processes
@@ -28,7 +28,7 @@ The  Senior Manager, Development is a [grade 9](/handbook/total-rewards/compensa
 
 #### Senior Manager, Development Requirements
 
-- Extends that of the [Frontend Engineering Manager](/job-families/engineering/development/frontend/manager/) and the [Backend Engineering Manager](/job-families/engineering/development/backend/manager/) requirements
+- Extends that of the [Engineering Manager](/job-families/engineering/development/engineering-manager/) requirements
 - Technical credibility: Past experience as a product engineer and leading teams thereof
 - Management credibility: Past experience (3 to 5 years) as an engineering manager
 - Ability to understand, communicate and improve the quality of multiple teams
