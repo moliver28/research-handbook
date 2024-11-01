@@ -175,8 +175,7 @@ Also, make sure to check out the current implementation of PtC, specifically [cr
 
 ### Defining Data Sources and feature trasnsformations
 
-There are two ways of accomplishing this:
-
+There are two ways of accomplishing this
 
 #### Using scaffold queries (old method - less efficient for bigger tables)
 
@@ -301,11 +300,10 @@ This script is automated and runs in Gitlab CI every time a new branch is merged
 
 An example of part of the PtC table lineage can be seen here:
 
-![PtC Lineage in MC](image.png)
+![PtC Lineage in MC](montecarlo_ptc_table_lineage.png)
 
 ## Future improvements
 
 1. Implement `feast apply` to run transformations for only those feature views or services that were updated (especially when testing locally)
 1. Move helper functions to the `gitlabdata` python package.
 1. Create authentication functions to replace the credential yaml files and avoid copy-pasting between repositories. This functionality should be added to `gitlabdata` python package.
-
