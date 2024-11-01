@@ -162,25 +162,12 @@ For more details on the engineering career ladders, please review the [engineeri
 
 Candidates for this position can generally expect the hiring process to follow the order below. Note that as candidates indicate preference or aptitude for one or more specialties, the hiring process will be adjusted to suit. Please keep in mind that candidates can be declined from the position at any stage of the process. To learn more about someone who may be conducting the interview, find their job title on our [team page](/handbook/company/team/).
 
-For Individual Contributors:
-
 - Candidates will be invited to schedule a 30 minute [screening call](/handbook/hiring/#screening-call) with one of our Technical Recruiters
 - Next, candidates will be invited to schedule a 90 minute technical interview with one of our Backend Engineers
 - Next, candidates will be invited to schedule a 60 minute interview with one of our Backend Engineering Managers
 - Next, candidates will be invited to schedule a 60 minute interview with our Director of Engineering
 - Successful candidates will subsequently be made an offer.
 Additional details about our process can be found on our [hiring page](/handbook/hiring/).
-
-For Managers:
-
-- Selected candidates will be invited to schedule a 30 minute [screening call](/handbook/hiring/#screening-call) with one of our Technical Recruiters
-- Next, candidates will be invited to schedule a 60 minute first interview with a Director of Engineering
-- Next, candidates will be invited to schedule a 45 minute second peer interview with an Engineering Manager
-- Next, candidates will be invited to schedule a 45 minute third interview with another member of the Engineering team
-- Next, candidates will be invited to schedule a 45 minute fourth interview with a member of the Product team
-- Next, candidates will be invited to schedule a 45 minute fifth interview with our VP of Engineering
-- Finally, candidates may be asked to schedule a 50 minute final interview with our CEO
-- Successful candidates will subsequently be made an offer via email
 
 ## Specialties
 
