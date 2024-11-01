@@ -1,15 +1,14 @@
 ---
 title: "Monitor Stage"
-description: "The Monitor Stage is responsible providing observability, analytics and optimize features."
+description: "The Monitor Stage is responsible providing observability and response features."
 ---
 
 ## Groups
 
 This stage consists of the following group:
 
-- [Analytics Instrumentation](analytics-instrumentation/)
-- [Optimize](optimize/)
-- [Platform Insights](platform-insights/)
+- [Respond](respond/)
+- [Observability](observability/)
 
 ## Product Categories
 
