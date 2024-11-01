@@ -55,7 +55,7 @@ Fill out [this Google form](https://docs.google.com/forms/d/e/1FAIpQLSf5yUA-H0RS
 | By 2024-11-04   | Pre-Program survey sent via Culture Amp | |
 | By 2024-11-14 | Mentor/Mentee pre-program coffee chats | |
 | TBA  | Initial program Kickoff meeting |  |
-| Week of 2025-02-01 | End of program feedback due |  |
+| Week of 2025-04-01 | End of program feedback due |  |
 
 ## Being a Mentor
 
