@@ -25,5 +25,6 @@ Please consider whether one of our existing vendors may be able to service your 
 - Upon receipt, the Procurement team will open a GitLab Issue based on your responses and will route for the necessary approvals, including your manager, Security, and Privacy. Once the Issue is opened, please attach any relevant contracts, backups, or documents.
 - Reviews may take several weeks, depending on the level of risk involved with your software of choice, the depth of review needed, and vendor responsiveness.
 - Once all necessary parties have approved your software request, the Procurement team will issue you a virtual one-time use credit card via email to purchase the approved software license at the approved price.
+**IMPORTANT** Do **NOT** purchase a software using your personal credit card.
 - After you have purchased your software with the virtual credit card, please forward a copy of your receipt to ap@gitlab.com as confirmation if there are no other contracts or backup documents.
 *If you have any questions, please reach out to the Procurement team via the #Procurement Slack channel.*
