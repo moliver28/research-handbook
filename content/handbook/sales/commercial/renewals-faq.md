@@ -29,7 +29,7 @@ A: Once signed into the [Customers Portal](https://customers.gitlab.com/customer
 
 Q: Will my GitLab subscription auto-renew?
 
-A: [Please review this section of the GitLab documention that explains where to check on your subscription card](https://docs.gitlab.com/ee/subscriptions/self_managed/#enable-or-disable-automatic-subscription-renewal).
+A: [Please review this section of the GitLab documentation that explains where to check on your subscription card](https://docs.gitlab.com/ee/subscriptions/self_managed/#enable-or-disable-automatic-subscription-renewal).
 
 Q: Will I be notified about my upcoming renewal?
 
