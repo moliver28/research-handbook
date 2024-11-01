@@ -158,6 +158,8 @@ The following events will send data to the app for notification processing:
 - Customer public comment made on ticket
 - Emergency ticket created
 - Escalated ticket created
+- Tickets being STAR'd
+- Tickets created by specific organizations
 
 ### User settings
 
@@ -171,7 +173,6 @@ will not) recieve are:
   - Values:
     - Assigned tickets only
     - CC'd tickets only
-    - Tickets within my SGG only
     - All tickets
 - Notify me about
   - This tells the app what kind of events to notify you for
@@ -184,10 +185,10 @@ will not) recieve are:
 - Notify me only for tickets with priority
   - This tells the app which priorities to notify you on
   - Values:
-    - Urgent
-    - High
-    - Medium
-    - Low
+    - at least Urgent
+    - at least High
+    - at least Medium
+    - at least Low
   - **Note** A blank value is assumed to be "all priorities"
 - Also notify me for escalated ticket creation
   - This dictates if you want to be notified via the app when an escalated
@@ -252,6 +253,12 @@ The current plugins are:
 
 - **Namespace Lookup**
   > This lets you search gitlab.com for a namespace. It then displays information based on the results. This is related to the one in the GitLab Super App, but instead it shows less information and shows the SFDC IDs it is associated with.
+- **Project Lookup**
+  > This lets you search gitlab.com for a project. It then displays information based on the results.
+- **Attempt Association**
+  > On tickets where the product type is `GitLab.com`, clicking the button on the plugin will attempt to auto-associate the requester to an organizaiton. If that is not possible, it will detail why it was not possible.
+- **Associate User**
+  > On a Support Ops ticket, it will ask you for an email address. It will then use the organization on the current ticket to associate said email address to that organization.
 
 App information:
 
@@ -378,6 +385,22 @@ practices when writing a response for translation.
 - Single Word Use
   - It is likely that the response you are sending may be lost in translation,
     for example the word `pass` would differ to a `boarding pass`.
+
+### Troubleshooting Errors in the Unbabel App
+
+**Error: Unexpected Error (The HTTP call to /api/zendesk/v3/tickets/translate/ returned 403)**
+
+![Unbabel_403_error](/images/suport/Unbabel_App_403_error.png)
+
+This error usually occurs when a request to translate Zendesk ticket fails with a 403 status code. This is often due to Cloudflare's security system incorrectly detecting the ticket content as potentially malicious, thus preventing the request from reaching Unbabel's servers.
+
+To verify if Cloudflare is blocking the request, check the `Network` response in your browser’s developer tools when the error occurs.
+
+![Unbabel_cloudfare_error](/images/support/Unbabel_403_cloudfare.png)
+
+If you see this error, reach out to Unbabel Support Team by emailing `customer.happiness@unbabel.com`. Provide the ticket ID, details of the error, and what you observed in the `Network` response within the browser’s developer tools.
+
+*Temporary workaround:* While Unbabel Support is investigating the issue, you can advise the ticket assignee to temporarily use [Unbabel's TowerLLM demo](https://mtdemo.unbabel.com/) to manually translate their ticket replies.
 
 ### Zendesk Triggers
 

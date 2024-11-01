@@ -1,5 +1,4 @@
 ---
-aliases: /handbook/sales/training/SKO
 title: "Sales Kickoff"
 description: "The GitLab Sales Kickoff sets the tone for the GitLab field organization for the new fiscal year"
 ---
@@ -20,13 +19,10 @@ We will achieve this by creating an event that is:
 
 ---
 
-## [Sales Kickoff 2023](/handbook/sales/training/SKO/2023)
-
-## [Sales Kickoff 2022](/handbook/sales/training/SKO/2022)
-
-## [Sales Kickoff 2021](/handbook/sales/training/SKO/2021)
-
-## [Sales Kickoff 2020](/handbook/sales/training/SKO/2020)
+- [Sales Kickoff 2023](/handbook/sales/training/SKO/2023)
+- [Sales Kickoff 2022](/handbook/sales/training/SKO/2022)
+- [Sales Kickoff 2021](/handbook/sales/training/SKO/2021)
+- [Sales Kickoff 2020](/handbook/sales/training/SKO/2020)
 
 ---
 

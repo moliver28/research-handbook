@@ -1,8 +1,6 @@
 ---
 title: "Infrastructure Security"
 description: "GitLab's Infrastructure Security provides security oversight of the SaaS."
-aliases:
-- /handbook/security/security-engineering/infrastructure-security
 ---
 
 ## Team Identity
@@ -42,10 +40,6 @@ Further details can be found in the [job family description](/job-families/secur
 <td><a href="/job-families/security/security-leadership#senior-manager-infrastructure-security">Senior Manager, Infrastructure Security</a></td>
 </tr>
 <tr>
-<tr>
-<td>Marco Lancini</td>
-<td><a href="/job-families/security/infrastructure-security#principal-infrastructure-security-engineer">Principal Security Engineer, Infrastructure Security</a></td>
-</tr>
 <td>Paulo Pontes Martins</td>
 <td><a href="/job-families/security/infrastructure-security#senior-infrastructure-security-engineer">Staff Security Engineer, Infrastructure Security</a></td>
 </tr>

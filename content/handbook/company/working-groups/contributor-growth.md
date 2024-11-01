@@ -24,7 +24,7 @@ Implement key business iterations that results in substantial and sustained incr
    1. Create additional retention recognition => Experimented with rewarding
    1. Addition Outreach effort => Experimented with frontend themed months
 1. Delivery key joint strategy of increasing community contributors
-   1. We delivered an [open source growth strategy](/handbook/engineering/open-source/growth-strategy.html)
+   1. We delivered an [open source growth strategy](/handbook/engineering/open-source/growth-strategy/)
    1. We further iterated towards the concepts of [Resident Contributors](https://docs.google.com/document/d/1ctO5ZLRnGb22tJwo4vb2ca5t-EwIpaVIFB6-IwdtCPg/edit) (only accessible from within the company)
 1. Setup first iteration of community cohort team
 1. Define follow up working process between Developer Relations and Contributor Success teams

@@ -1,7 +1,7 @@
 ---
 title: "Vue.js 3 Migration Working Group"
 description: "Learn more about the Vue.js 3 Migration Working Group attributes, goals, roles and responsibilities."
-status: active
+status: disbanded
 ---
 
 ## Attributes
@@ -10,10 +10,17 @@ status: active
 | ----------------- | ------------------------------------------------------------------------------------------------------------------------------------ |
 | Date Created      | 2023-02-10                                                                                                                           |
 | Target End Date   | 2025-12-31                                                                                                                           |
+| End Date          | 2024-10-10                                                                                                                           |
 | Slack             | #wg_vue3_migration (only accessible from within the company)                                                                         |
 | Google Doc        | [Agenda](https://docs.google.com/document/d/1Ad8mbz5HzMsBI2sR6DgQ34afOn1L1OJy5m_RrrpXaqE) (only accessible from within the company)  |
 | Epic              | [gitlab-org/&2652](https://gitlab.com/groups/gitlab-org/-/epics/6252)                                                                |
 | Overview & Status | See [Exit Criteria](#exit-criteria)                                                                                                  |
+
+### Disbanding
+
+On October 10th 2024, the Vue 3 working group was disbanded in favor of smaller, more focused task groups.
+On this date, the migration to Vue 3 is not complete and there's still a great deal of work to be done.
+Please see the [exit criteria](#exit-criteria) for information on what's left to complete.
 
 ### Context
 
@@ -44,15 +51,19 @@ This Working Group has the following goals:
 
 #### Exit Criteria
 
-| Criteria                                                                                                  | Start Date | Completion Date | Progress | DRI                                        |
-| --------------------------------------------------------------------------------------------------------- | ---------- | --------------- | -------- | ------------------------------------------ |
-| [Get Bootstrap Vue running with Vue Compat mode 2](https://gitlab.com/groups/gitlab-org/-/epics/12385)    | 2021-06-21 | 2022-10-25      | 100%     | [@xanf](https://gitlab.com/xanf)           |
-| [Get GitLab UI running with Vue Compat mode 2](https://gitlab.com/groups/gitlab-org/-/epics/12386)        | 2021-06-21 | 2024-04-30      | 70%      | [@markrian](https://gitlab.com/markrian)   |
-| [Get main GitLab repo vue-router working with Vue Compat mode](https://gitlab.com/groups/gitlab-org/-/epics/10046) | 2023-05-18 | 2024-05-31      | 50%       | TBD                                        |
-| [Use Vue.js 3 for running test suites on main repo](https://gitlab.com/groups/gitlab-org/-/epics/9862)    | 2023-05-18 | 2024-05-31      | 30%      | [@xanf](https://gitlab.com/xanf)           |
-| [Get CustomersDot running with Vue Compat mode 2](https://gitlab.com/groups/gitlab-org/-/epics/12388)     | 2024-02-01 | 2024-04-30      | 0%       | [@vitallium](https://gitlab.com/vitallium) |
-| [Switch Vue Compat from mode 2 to mode 3](https://gitlab.com/groups/gitlab-org/-/epics/12389)             | 2024-05-31 | 2024-10-31      | 0%       | TBD                                        |
-| [Switch to using Vue 3 proper](https://gitlab.com/groups/gitlab-org/-/epics/12390)                        | 2024-10-31 | 2025-12-01      | 0%       | TBD                                        |
+As this group has been disbanded, not all exit criteria has been met.
+The main items have been picked up by related task groups.
+The final two will be picked up once they're unblocked.
+
+| Criteria | Start Date | End Date | Progress | DRI | Continued |
+| -------- | ---------- | -------- | -------- | --- | --------- |
+| [Get BootstrapVue running with Vue Compat mode 2](https://gitlab.com/groups/gitlab-org/-/epics/12385) | 2021-06-21 | 2022-10-25 | 100% | `@xanf` | Complete |
+| [Get GitLab UI running with Vue Compat mode 2](https://gitlab.com/groups/gitlab-org/-/epics/12386) | 2021-06-21 | - | 70% | `@markrian` | [GitLab UI task group](/handbook/company/working-groups/task-groups/gitlab-ui-vue-compat/) |
+| [Vue Compat mode on vue-router on GitLab Main](https://gitlab.com/groups/gitlab-org/-/epics/10046) | 2023-05-18 | - | 50% | TBD | ??? |
+| [Use Vue.js 3 for running test suites on main repo](https://gitlab.com/groups/gitlab-org/-/epics/9862) | 2023-05-18 | - | 30% | `@xanf` | Company Responsibiity |
+| [Get CustomersDot running with Vue Compat mode 2](https://gitlab.com/groups/gitlab-org/-/epics/12388) | 2024-02-01 | - | 0% | `@vitallium` | ??? |
+| [Switch Vue Compat from mode 2 to mode 3](https://gitlab.com/groups/gitlab-org/-/epics/12389) | - | - | 0% | TBD | TBD |
+| [Switch to using Vue 3 proper](https://gitlab.com/groups/gitlab-org/-/epics/12390) | - | - | 0% | TBD | TBD |
 
 ### Roles and Responsibilities
 
@@ -64,10 +75,12 @@ This Working Group has the following goals:
 | Functional Lead    | Natalia Tepluhina   | Principal Engineer, Plan                            |
 | Functional Lead    | Stanislav Lashmanov | Senior Frontend Engineer, Create: Code Review       |
 | Functional Lead    | Andrew Fontaine     | Senior Frontend Engineer, Deploy:Environments       |
-| Member             | Mark Florian        | Staff Frontend Engineer, Manage:Foundations         |
+| Member             | Mark Florian        | Staff Frontend Engineer, Foundations:Design System  |
 | Member             | Andrei Zubov        | Frontend Engineer, Deploy:Environments              |
 | Member             | Artur Fedorov       | Senior Frontend Engineer, Govern:Security Policies  |
 | Member             | Frédéric Caplette   | Senior Frontend Engineer, Verify:Pipeline Authoring |
-| Member             | Vitaly Slobodin     | Staff Frontend Engineer, Fulfillment                |
+| Member             | Lukas Eipert        | Staff Frontend Engineer, Foundations:Design System  |
 | Member             | Marina Mosti        | Senior Frontend Engineer, Switchboard               |
 | Member             | Nathan Dubord       | Senior Frontend Engineer, about.gitlab.com          |
+| Member             | Vanessa Otto        | Senior Frontend Engineer, Foundations:Design System |
+| Member             | Vitaly Slobodin     | Staff Frontend Engineer, Fulfillment                |

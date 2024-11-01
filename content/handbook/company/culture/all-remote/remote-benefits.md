@@ -88,7 +88,7 @@ Companies may need to create a [remote leadership team](remote-work-emergency-pl
 
 Limiting your company's recruiting pipeline to a certain geographic region, or sourcing employees who are able and willing to relocate, is a competitive *dis*advantage.
 
-Not only does this create a less [inclusive](/handbook/company/culture/inclusion/) hiring process which reaches a less diverse set of candidates, it forces your organization to compete primarily on the basis of [salary](https://hired.com/page/state-of-salaries).
+Not only does this create a less [inclusive](/handbook/company/culture/inclusion/) hiring process which reaches a less diverse set of candidates, it forces your organization to compete primarily on the basis of [salary](https://www.lhh.com/us/en/insights/2024-salary-guide/).
 
 1. You're able to hire great people [no matter where they live]({{< ref "handbook/people-group/employment-solutions#country-hiring-guidelines" >}}).
    - GitLab has a truly global footprint, with team members in [65+ countries](/handbook/company/team).
@@ -120,14 +120,14 @@ Not only does this create a less [inclusive](/handbook/company/culture/inclusion
 
 *In the [GitLab Unfiltered](https://www.youtube.com/channel/UCMtZ0sc1HHNtGGWZFDRTh5A) video above, two GitLab colleagues discuss the benefits of living in a lower cost-of-living environment near friends, family, and community.*
 
-[Research from the University of New Hampshire](https://carsey.unh.edu/publication/rural-depopulation) has found that "35% of rural counties in the United States are experiencing protracted and significant population loss." Speaking to shrinking towns across Europe, [a 2016 report from the European Parliamentary Research Service](http://www.europarl.europa.eu/thinktank/en/document.html?reference=EPRS_BRI(2016)586632) notes that "younger members of society prefer to migrate to more economically vibrant regions and cities in search of better job prospects as, in most of these territories, professional opportunities remain limited and confined to specific fields (e.g. agriculture and tourism)."
+[Research from the University of New Hampshire](https://carsey.unh.edu/publication/rural-depopulation) has found that "35% of rural counties in the United States are experiencing protracted and significant population loss." Speaking to shrinking towns across Europe, [a 2016 report from the European Parliamentary Research Service](https://www.europarl.europa.eu/thinktank/en/document/EPRS_BRI(2016)586632) notes that "younger members of society prefer to migrate to more economically vibrant regions and cities in search of better job prospects as, in most of these territories, professional opportunities remain limited and confined to specific fields (e.g. agriculture and tourism)."
 
 We believe all-remote has the power to pause, and perhaps even reverse, these trends of depopulation.
 
 Working remotely gives each person the autonomy to serve in a place that matters to them – a place that has shaped them – contributing significantly to the well-being of a population that may be at risk of losing its foundation, should talent continue to flee to the usual job centers.
 
 1. There's evidence that [remote work can reduce the effects of urban crowding](https://qz.com/work/1641664/remote-workers-are-the-solution-to-urban-crowding) for many cities around the world. Some states and countries are even [offering incentives](http://fortune.com/2019/06/22/google-housing-plan-bay-area) to encourage remote work. Here are [13 examples](https://web.archive.org/web/20210122035410/https://www.bankrate.com/personal-finance/smart-money/places-that-will-pay-you-to-move/) around the world.
-1. For global companies, bringing better-paying jobs to low-cost regions has positive economic impacts and works to reverse the [trends](http://www.europarl.europa.eu/thinktank/en/document.html?reference=EPRS_BRI(2016)586632) of [depopulation in rural regions](https://carsey.unh.edu/publication/rural-depopulation).
+1. For global companies, bringing better-paying jobs to low-cost regions has positive economic impacts and works to reverse the [trends](https://www.europarl.europa.eu/thinktank/en/document/EPRS_BRI(2016)586632) of [depopulation in rural regions](https://carsey.unh.edu/publication/rural-depopulation).
 
 ## The competitive advantage for companies that embrace remote work
 
@@ -139,7 +139,7 @@ Companies may need to create a [remote leadership team](transition/#make-the-exe
 
 Limiting your company's recruiting pipeline to a certain geographic region, or sourcing employees who are able and willing to relocate, is a competitive **dis**advantage.
 
-Not only does this create a less [inclusive](/handbook/company/culture/inclusion/) hiring process which reaches a less diverse set of candidates, it forces your organization to compete primarily on the basis of [salary](https://hired.com/page/state-of-salaries).
+Not only does this create a less [inclusive](/handbook/company/culture/inclusion/) hiring process which reaches a less diverse set of candidates, it forces your organization to compete primarily on the basis of [salary](https://www.lhh.com/us/en/insights/2024-salary-guide/).
 
 Remote organizations are able to hire great people no matter where they live. For example, GitLab has a truly global footprint, with team members in [65+ countries](/handbook/company/team).
 
@@ -187,7 +187,7 @@ All-remote work promotes:
 
 GitLab is one of the world's largest all-remote companies with [team members](/handbook/company/team) located in more than 65 countries around the world.
 
-Our all-remote workforce implementation is featured in [The Journal of Organizational Design](https://jorgdesign.springeropen.com/articles/10.1186/s41469-020-00087-8). It is also the centerpiece of case studies authored by [Harvard Business School](https://www.hbs.edu/faculty/Pages/item.aspx?num=57917) and [INSEAD](https://publishing.insead.edu/case/gitlab).
+Our all-remote workforce implementation is featured in [The Journal of Organizational Design](https://link.springer.com/article/10.1186/s41469-020-00087-8). It is also the centerpiece of case studies authored by [Harvard Business School](https://www.hbs.edu/faculty/Pages/item.aspx?num=57917) and [INSEAD](https://publishing.insead.edu/case/gitlab).
 
 Click around to learn more about what "all-remote" really means, [how it works at GitLab](tips/#how-it-works-at-gitlab), some [tips and tricks](tips/#tips-for-leaders-and-other-companies) for remote teams, and [resources](resources/) to learn more.
 

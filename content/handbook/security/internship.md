@@ -5,7 +5,7 @@ description: "The ultimate goal of this program is to transform an entry-level c
 
 ## Overview
 
-The **Security** internship is the result of [The Engineering Internship Pilot Program](/handbook/engineering/internships/) that started at the end of 2019. The ultimate goal of this program is to transform an entry-level candidate into an Individual Contributor who could meet the requirements for a [Security Engineer](/job-families/security/security-engineer).
+The **Security** internship is the result of [The Engineering Internship Pilot Program](/handbook/hiring/emerging-talent/) that started at the end of 2019. The ultimate goal of this program is to transform an entry-level candidate into an Individual Contributor who could meet the requirements for a [Security Engineer](/job-families/security/security-engineer).
 
 ## OKRs for the Internship
 

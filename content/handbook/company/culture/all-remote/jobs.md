@@ -45,12 +45,12 @@ However, an increasing amount of startups and small-to-medium sized businesses a
 1. [Jamm](https://jamm.app/) Fully remote team building an app to help remote teams work better together.
 1. [Anybox](https://anybox.fr/), see their feedback (in French) [Télétravail généralisé, notre retour d'expérience](https://blog.anybox.fr/teletravail-generalise-confiance-et-seminaires/).
 1. [Screenly](https://www.screenly.io), this is [how they work](https://www.screenly.io/blog/2016/11/23/how-we-work-at-screenly/).
-1. [Soshace](https://soshace.com), see their [jobs page](https://soshace.com/careers).
+1. [Soshace](https://soshace.com), see their [jobs page](https://soshace.com/jobs-seekers/).
 1. [Innolitics](http://innolitics.com), see their [handbook](http://innolitics.com/about/handbook/) which describes how they work remotely.
 1. [IOpipe](https://iopipe.com)
 1. [HiringThing](https://www.hiringthing.com/), see their post about what it is like to work [remote-only](https://blog.hiringthing.com/what-its-like-to-work-at-hiringthing).
 1. [SerpApi](https://serpapi.com)
-1. [Scrapinghub](https://scrapinghub.com/), who turns websites into data. See their [about us page](https://scrapinghub.com/about), [open positions](https://scrapinghub.com/jobs), and [blog](https://blog.scrapinghub.com/).
+1. [Scrapinghub](https://www.zyte.com/), who turns websites into data. See their [about us page](https://www.zyte.com/about), [open positions](https://www.zyte.com/jobs/), and [blog](https://www.zyte.com/blog/).
 1. [Jitbit](https://www.jitbit.com/)
 1. [ProxyCrawl](https://proxycrawl.com)
 1. [Crossover](https://www.crossover.com/), read their tips on [creating the ultimate package for remote work](https://medium.com/the-crossover-cast/the-ultimate-package-for-remote-work-b9c68339fe57).
@@ -59,7 +59,7 @@ However, an increasing amount of startups and small-to-medium sized businesses a
 1. [Podia](https://www.podia.com), a remote-only company, see [their founder's Tweetstorm](https://twitter.com/spencerfry/)
 1. [Knack](https://www.knack.com), a remote-only company, see [why they work remotely](https://www.knack.com/blog/why-we-chose-remote).
 1. [Honeybadger](https://www.honeybadger.io), see [how they work](https://www.honeybadger.io/careers/).
-1. [Doist](https://doist.com), makers of [Todist](https://todoist.com) and [Twist](https://twistapp.com). Here's how they [make remote work happen](https://blog.doist.com/https-blog-doist-com-managing-remote-teams-622521189e80), as well as [a blog post on not sacrificing one's career ambitions in an all-remote setting](https://doist.com/blog/remote-career-advice/).
+1. [Doist](https://doist.com), makers of [Todist](https://todoist.com) and [Twist](https://twistapp.com). Here's how they [make remote work happen](https://blog.doist.com/https-blog-doist-com-managing-remote-teams-622521189e80), as well as [a blog post on not sacrificing one's career ambitions in an all-remote setting](https://blog.doist.com/remote-career-advice/).
 1. [Discourse](https://www.discourse.org/), see Coding Horror's ["We hire the best, just like everyone else"](https://blog.codinghorror.com/we-hire-the-best-just-like-everyone-else/)
 1. [Aha!](https://www.aha.io/), see their blog about [remote work](https://blog.aha.io/category/remote-work/).
 1. [Articulate](https://articulate.com), see their [company page](https://www.articulate.com/about/) for how they work.
@@ -72,10 +72,11 @@ However, an increasing amount of startups and small-to-medium sized businesses a
 1. [Winding Tree](https://windingtree.com/), Decentralized Travel Ecosystem built by decentralized team.
 1. [reinteractive](https://reinteractive.com/)
 1. [easyDNS](https://easydns.com/), see why they decided to [go all-remote.](https://easydns.com/blog/2019/05/23/the-end-of-an-era-for-easydns/)
-1. [TaxJar](https://www.taxjar.com), read their [blog about building a remote-only culture](https://life.taxjar.com/), their [benefits](https://www.taxjar.com/jobs/), [core values](https://www.taxjar.com/about/), and [hear what employees say about working there](https://www.comparably.com/companies/taxjar).
+1. [TaxJar](https://www.taxjar.com), read their [blog about building a remote-only culture](https://www.taxjar.com/about), their [benefits](https://www.taxjar.com/jobs/), [core values](https://www.taxjar.com/about/), and [hear what employees say about working there](https://www.comparably.com/companies/taxjar).
 1. [Animalz](https://www.animalz.co/), an agency providing content to B2B/SaaS organizations
 1. [Almanac](https://almanac.io/), see their [async collaboration norms](https://almanac.io/handbook/almanac-handbook-9SaCJX/async-collaboration-norms-almanac-nN7bF2BOfBRFJNBqwoj4uyRA91vFPLtT), [resources for leaders](https://almanac.io/async-review) in a world without offices and [current open roles](https://almanac.io/careers).
 1. [Iterative](https://iterative.ai/), a company building open-source developer tools for machine learning
+1. [SearchApi](https://searchapi.io/), a remote-only company, see their [jobs page](https://www.searchapi.io/careers)
 
 ### Remote-first companies
 
@@ -87,7 +88,7 @@ Chris H. of Firstbase [curates](https://twitter.com/chris_herd/status/1297223150
 1. [Niteo](https://niteo.co/), a decade-old Python boutique with a public [handbook](https://github.com/niteoweb/handbook)
 1. [ElevenYellow](https://elevenyellow.com), type `job openings` on their [console](https://www.elevenyellow.com/) to join this team of digital nomads.
 1. [wemake.services](https://wemake.services), software development company using [`RSDP`](https://wemake.services/meta/)
-1. [Igalia](https://igalia.com), [employee-owned cooperative](https://www.igalia.com/about-us/great-place-to-work/) providing software development consulting services
+1. [Igalia](https://igalia.com), [employee-owned cooperative](https://www.igalia.com/about/) providing software development consulting services
 1. [Ad Hoc](https://adhocteam.us/), see their post ["The truth about remote work"](https://adhocteam.us/2017/12/05/truth-remote-work/) and their [jobs page](https://adhocteam.us/join/).
 1. [Help Scout](https://www.helpscout.com/), see their posts "[What We've Learned Building a Remote Culture](https://www.helpscout.com/blog/remote-culture/)," "[Employee Onboarding Best Practices](https://www.helpscout.com/blog/employee-onboarding/)," and "[6 Tips to Keeping Your Remote Team Connected](https://www.helpscout.com/blog/remote-team-connectivity/)."
 
@@ -112,7 +113,7 @@ While there are myriad job boards that curate part-time and freelance gigs which
 
 Here's a [list](https://www.ryrob.com/remote-jobs-websites/) of 60 remote jobs sites, including:
 
-1. [Remote AI Jobs](https://www.moaijobs.com/location/remote-ai-jobs)
+1. [Remote AI Jobs](https://www.moaijobs.com/remote-ai-jobs)
 1. [DailyRemote](https://dailyremote.com/)
 1. [Real Work From Anywhere](https://realworkfromanywhere.com/)
 1. [Startup Jobs](https://startup.jobs/remote-jobs)
@@ -143,7 +144,7 @@ Here's a [list](https://www.ryrob.com/remote-jobs-websites/) of 60 remote jobs s
 
 > "Getting promoted while working remotely really depends on how remote your company is. GitLab is a fully remote organization with over 700 folks around the world, so getting promoted wasn't difficult at all. In previous roles, I was the only person who worked remotely. In those cases, I felt very forgotten by my employer." - *Emilie L Schario, a Data Engineer at GitLab*
 
-For a better understanding of the nuances, take a look at "[6 People Who Prove You Don't Have to Sacrifice Your Career to Work Remotely](https://doist.com/blog/remote-career-advice/)" on the Doist blog. Experts from various all-remote and remote-first companies, including [GitLab](https://about.gitlab.com/jobs/), [Doist](https://doist.com/), [Help Scout](https://www.helpscout.com/), [DataTrue](https://datatrue.com/), and [Quuu](https://quuu.co/), share their experiences.
+For a better understanding of the nuances, take a look at "[6 People Who Prove You Don't Have to Sacrifice Your Career to Work Remotely](https://blog.doist.com/remote-career-advice/)" on the Doist blog. Experts from various all-remote and remote-first companies, including [GitLab](https://about.gitlab.com/jobs/), [Doist](https://doist.com/), [Help Scout](https://www.helpscout.com/), [DataTrue](https://datatrue.com/), and [Quuu](https://quuu.co/), share their experiences.
 
 ## Remote work communities and networking
 

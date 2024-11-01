@@ -1,7 +1,6 @@
 ---
 title: Duo Chat Group
 description: "The Duo Chat group is focused on developing GitLab Duo Chat capabilities, while supporting other product groups and the wider community in integrating more functionality."
-aliases: /handbook/engineering/development/data-science/duo-chat
 ---
 
 ## Vision
@@ -58,9 +57,20 @@ This system should be used when estimating tasks, *inspired* by the Foundations 
 - **8 - Extra large** This is going to take some time and research and probably more than one engineer to complete within the milestone. At this size, we should be looking at how we can split this into smaller issues/tasks.
 - **13+ - Too large** This issue is far too complex, large, or under-defined. Anything with a weight of this size should go back to `~workflow::refinement` to be refined and split into more manageable chunks.
 
+## Troubleshooting Duo Chat
+
+You can find a comprehensive runbook for troubleshooting Duo Chat issues in our [Duo Chat Runbook Page](https://gitlab.com/gitlab-com/runbooks/-/blob/master/docs/duo-chat/README.md?ref_type=heads). 
+
+If you notice any gaps, please feel free to reach out to the Duo Chat group or make an MR with your changes to the runbook.
+
 ## 🔗 Other Useful Links
 
 ### 📝 Dashboards (internal only)
 
+- [Duo Chat xAU, retention, event count, and response time](https://10az.online.tableau.com/#/site/gitlab/views/AiFeatures/Focusview?:iid=3) (see also sister dashboards, e.g. Duo Chat CRM)
+- [Slash command usage and user counts](https://10az.online.tableau.com/#/site/gitlab/views/SlashUseDuo/SlashUseDashboard/3e8fd0ba-f45b-4dd0-b649-84db3636553d/8db30355-e2c0-4636-9c43-5429bb952a41?:iid=4)
+- [Duo Chat Error Rate in Elastic](https://log.gprd.gitlab.net/app/dashboards#/view/5f334d60-cfd7-11ee-bc6b-0b206b291ea1?_g=(refreshInterval:(pause:!t,value:60000),time:(from:now-2d,to:now)))
+- [Duo Chat Error Budget in Grafana](https://dashboards.gitlab.net/d/stage-groups-detail-duo_chat/6c28d63a-60e8-5db3-9797-39f988a1900b?orgId=1)
+- [Duo Feedback](https://10az.online.tableau.com/#/site/gitlab/views/DuoFeedbackDashboard/DuoFeedbackDashboard?:iid=1)
 - [Duo Chat Question Categorization](https://10az.online.tableau.com/#/site/gitlab/views/DuoCategoriesofQuestions/DuoCategory?:iid=1)
 - [Chat QA Evaluation](https://gitlab.com/gitlab-org/ai-powered/ai-framework/qa-evaluation)

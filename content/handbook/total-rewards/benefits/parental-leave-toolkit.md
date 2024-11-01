@@ -105,7 +105,7 @@ Visit the [GitLab Team page](/handbook/company/team/) and search for 'Parental L
 
 ### Adding Parental Leave Reentry Buddy to your GitLab Profile
 
-1. Find your [yml file](/handbook/editing-handbook/#add-yourself-to-the-team-page).
+1. Find your [yml file](/handbook/about/editing-handbook/#add-yourself-to-the-team-page).
 1. Add `Parental Leave Reentry buddy` to the `departments` section in your entry (keeping your existing departments):
 
    ```yaml

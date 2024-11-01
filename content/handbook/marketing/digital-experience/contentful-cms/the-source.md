@@ -27,6 +27,14 @@ The field won't accept routes with a trailing slash or a leading slash.
 
 To configure SEO metadata attributes of a *📄 The Sourcee* page, it's necessary to use the `SEO Title` and `SEO Description` fields of the [content type](https://app.contentful.com/spaces/xz1dnu24egyd/environments/master/content_types/article/fields)
 
+To improve search engine results, use different language for the slug, Headline, SEO Title, and sSEO Description. 
+
+URLs should be kept short and aim to include topical terms and no stop words. URLs that are concise, descriptive, and easy to understand are generally better for both SEO and user experience.
+
+Title tag (SEO Title field) and H1 (Headline field) need to be interchangeable - a title tag is shown in SERPs and has to have a maximum length of 55-60 characters. H1s can be longer to be descriptive, also for optimisation purposes title tags need to be changeable/ similar for H1s, but independently.
+
+The meta description (SEO Description feid) in SERPs is what entices action from a searcher, and should use as much of the 155-160 character limit as possible.
+
 ### Hero Configuration
 
 To personalize the hero section, use the fields in the [📄 The Source](https://app.contentful.com/spaces/xz1dnu24egyd/environments/master/content_types/customPage/fields) Content Type. These fields are designed to let you customize the static Hero section, making it the first component that visitors see on the page.

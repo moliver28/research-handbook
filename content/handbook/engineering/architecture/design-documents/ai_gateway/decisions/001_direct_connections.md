@@ -1,5 +1,6 @@
 ---
 title: 'AI Gateway ADR 001: Allow direct connections'
+toc_hide: true
 ---
 
 {{% alert %}}

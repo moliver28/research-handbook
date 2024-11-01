@@ -15,10 +15,10 @@ Each month GitLab recognizes one or more community contributors as GitLab MVPs (
 1. A [rolling GitLab MVP Nominations issue](https://gitlab.com/search?search=%22GitLab+MVP+Nominations%22&nav_source=navbar&project_id=39971471&group_id=65123486&scope=issues)
 is used for the entire major release cycle (for example 17.0 through 17.11). Community contributors can be added to this issue at anytime.
 1. Use the [`mvp_workflow_tracker.md` issue template](https://gitlab.com/gitlab-org/developer-relations/contributor-success/team-task/-/blob/main/.gitlab/issue_templates/mvp_workflow_tracker.md?ref_type=heads) to create an issue with a checklist of steps to follow during the selection process.
-1. Select one or more [eligible MVPs](/handbook/marketing/developer-relations/contributor-success/mvp-process.html#mvp-eligibility) from the nomination issue.
+1. Select one or more [eligible MVPs](/handbook/marketing/developer-relations/contributor-success/mvp-process/#mvp-eligibility) from the nomination issue.
    - Selections should be chosen based on contribution and community impact, nomination comments and emoji votes.
    - Selections should be completed at least 10 calendar days before the [release date](https://about.gitlab.com/releases/).
-1. Make a new thread in the nominations issue announcing the MVP(s).
+1. If this is is a minor release version, use the existing thread in the nominations issue announcing the MVP(s).
    - Be sure to ping and thank the nominators and anyone who added supportive comments for the nominees.
    - Add the MVP(s) to the table in the top level description of the issue.
 
@@ -51,17 +51,28 @@ is used for the entire major release cycle (for example 17.0 through 17.11). Com
    - Assign another Contributor Success team member to review/merge and double check the merge request is targeting the correct release branch.
    - Ping the [release post manager](https://gitlab.com/gitlab-com/www-gitlab-com/-/blob/master/data/release_post_managers.yml) into the MR for awareness.
    - Merge by the Tuesday of release week.
-1. Award the MVP winner with the MVP achievement using the `MVP Achievements` group access token from the Contributor Success vault.\
-   NOTE: You will need the [1Password cli](/handbook/security/password-guidelines.html#cli-integration) installed:
+1. Award the MVP winner with the MVP achievement by running the following query in [GraphiQL](https://gitlab.com/-/graphql-explorer). (You will need to be a `Maintainer` of the [Achievements Group](https://gitlab.com/gitlab-org/achievements). By default Contributor Success team members should have rights.) If there are no errors, you have succeeded! You can also verify the achievement by visiting the MVP's GitLab profile.
 
-   ```shell
-   curl -g \
-   -X POST \
-   -H "Content-Type: application/json" \
-   -H "Authorization: Bearer $(op read 'op://Contributor Success Team/GitLab MVP Achievements Group Access Token/password')" \
-   -d '{"query":"mutation{achievementsAward(input:{achievementId: \"gid://gitlab/Achievements::Achievement/53\" userId: \"gid://gitlab/User/<user_id>\"}){errors}}"}' \
-   https://gitlab.com/api/graphql
-   ```
+    ```graphql
+    mutation {
+      achievementsAward(
+        input: {achievementId: "gid://gitlab/Achievements::Achievement/53", userId: "gid://gitlab/User/<user id>"}
+      ) {
+        userAchievement {
+          id
+          achievement {
+            id
+            name
+          }
+          user {
+            id
+            username
+          }
+        }
+        errors
+      }
+    }
+    ```
 
    NOTE: To find a userId from a username, visit the GitLab profile page for the user and click the dropdown ellipsis (kebab menu) in the upper right corner.
 
@@ -131,6 +142,6 @@ Every release GitLab chooses a [Most Valuable Person (MVP)](https://about.gitlab
 
 1. Determine MVP after release post is published to the [blog](https://about.gitlab.com/releases/categories/releases/)
 1. Find MVP's contact information
-   - [Contacting contributors](/handbook/marketing/developer-relations/contributor-success/community-contributors-workflows.html#contacting-contributors)
+   - [Contacting contributors](/handbook/marketing/developer-relations/contributor-success/community-contributors-workflows/#contacting-contributors)
 1. Send Swag according to our [SWAG operations guide](/handbook/marketing/developer-relations/workflows-tools/swag/)
    - Note that MVPs currently receive a Tier 3 swag prize

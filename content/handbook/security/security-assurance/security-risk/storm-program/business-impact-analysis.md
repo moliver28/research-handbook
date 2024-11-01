@@ -8,7 +8,7 @@ controlled_document: true
 
 The Business Impact Analysis (BIA) helps determine the systems critical to serving GitLab's Customers.   The output of the BIA is the designation of a [Critical System Tier](/handbook/security/security-assurance/security-risk/storm-program/critical-systems/) (CST) for a new system. The CST aids Security Compliance in Scoping and is also available to help business owners determine the prioritization of system restoration efforts in the event of a disruption.
 
-**Note:** In adjacent to the BIA, questions may be asked to satisfy [global privacy regulation requirements](/handbook/legal/privacy/privacy-laws.html#gdpr) pertaining to a system's [Personal Data]({{< ref "data-classification-standard#data-classification-definitions" >}}) processing.
+**Note:** In adjacent to the BIA, questions may be asked to satisfy [global privacy regulation requirements](/handbook/legal/privacy/privacy-laws/#gdpr) pertaining to a system's [Personal Data]({{< ref "data-classification-standard#data-classification-definitions" >}}) processing.
 
 ## Scope
 

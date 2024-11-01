@@ -1,5 +1,4 @@
 ---
-aliases: /handbook/engineering/infrastructure/feature-support.html
 title: "Infrastructure Feature Support"
 description: "How the Infrastructure Department supports shipping features to Production."
 ---
@@ -11,7 +10,7 @@ When a GitLab feature is released to Production, it can be released at one of th
 
 The availability of a feature is closely related with our ability to support the feature on our SaaS Platforms.
 
-These guidelines ensure that features in our Production environments can be operated by our [Reliability teams](/handbook/engineering/infrastructure/team/reliability/) to match the expected level of support.
+These guidelines ensure that features in our Production environments can be operated by our [Reliability teams](/handbook/engineering/infrastructure/team/) to match the expected level of support.
 
 ### Requesting and creating new GCP infrastructure resources
 

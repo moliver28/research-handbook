@@ -15,7 +15,9 @@
 {{- end }}
 
 {{- $manager = index (where site.Data.public.team "slug" "eq" $managerSlug) 0 }}
-{{- $members = where site.Data.public.team "reports_to" "eq" $managerSlug }}
+{{- if $manager.slug }}
+  {{- $members = where site.Data.public.team "reports_to" "eq" $managerSlug }}
+{{- end }}
 
 {{- with (.Get "team") }}
   {{ $members = where $members "role" "like" . }}

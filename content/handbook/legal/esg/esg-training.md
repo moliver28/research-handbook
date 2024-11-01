@@ -1,5 +1,4 @@
 ---
-aliases: /handbook/legal/esg/esg-training
 title: "ESG Training"
 description: "ESG Training for GitLab team members"
 ---

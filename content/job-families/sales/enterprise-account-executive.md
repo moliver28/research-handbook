@@ -49,7 +49,7 @@ The Associate Strategic Account Executive is a [grade 8](/handbook/total-rewards
 - Motivated, driven, and results oriented
 - You share our [values](/handbook/values/), and work in accordance with those values.
 - Ability to use GitLab
-- Ability to travel if needed and comply with the [company's travel policy](/handbook/travel/)
+- Ability to travel if needed and comply with the [company's travel policy](/handbook/finance/travel/)
 
 ## Strategic Account Executive
 
@@ -87,7 +87,7 @@ The Strategic Account Executive is a [grade 8](/handbook/total-rewards/compensat
 - Preferred experience with Git, Software Development Tools, Application Lifecycle Management
 - You share our [values](/handbook/values/), and work in accordance with those values.
 - Ability to use GitLab
-- Ability to travel if needed and comply with the [company's travel policy](/handbook/travel/)
+- Ability to travel if needed and comply with the [company's travel policy](/handbook/finance/travel/)
 
 The [confidence gap](https://www.theatlantic.com/magazine/archive/2014/05/the-confidence-gap/359815/) exists. The above list is intended to show the kinds of experience and qualities we're looking for. If you're reading this, do not match all of the requirements, and are hesitant to apply, we encourage you to make an application despite your hesitations.
 
@@ -147,7 +147,7 @@ The Major Account Executive Leader is a [grade 8](/handbook/total-rewards/compen
 
 ### Responsibilities
 
-- Manage and support  Gitlab's major account/(s)
+- Manage and support  GitLab's major account/(s)
 - Manage the end to end sales process through engagement of appropriate resources such as Solutions Architects, Customer Success Managers, Professional Services, Marketing,  Executives, Partners, and the Channel.
 - Leverage solution selling expertise to respond efficiently to customer needs and identify business potential in order to build a strategic, long-term partnership with your customers.
 - Has a deep understanding of the customer, including an understanding of their performance metrics and develops plans in anticipation of the customer's business strategies and goals.

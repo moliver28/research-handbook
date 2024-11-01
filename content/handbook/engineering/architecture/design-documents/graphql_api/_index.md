@@ -1,5 +1,5 @@
 ---
-title: GraphQL API
+title: "GraphQL API"
 status: accepted
 creation-date: "2021-01-07"
 authors: [ "@grzesiek" ]
@@ -10,7 +10,6 @@ participating-stages: []
 toc_hide: true
 ---
 
-<!-- vale gitlab.FutureTense = NO -->
 {{< design-document-header >}}
 
 [GraphQL](https://graphql.org/) is a data query and manipulation language for

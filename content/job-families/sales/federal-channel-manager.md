@@ -35,7 +35,7 @@ The Public Sector Channel Manager is a [grade 8](/handbook/total-rewards/compens
 - Strong customer service orientation and ability to develop and maintain relationships
 - You share our values, and work in accordance with those values.
 - Ability to use GitLab
-- Ability to travel if needed and comply with the company's [travel policy](/handbook/travel/#travel-guidance-covid-19). Federal, LLC team members need to also comply with the applicable vaccination policies.
+- Ability to travel if needed and comply with the company's [travel policy](/handbook/finance/travel/#travel-guidance-covid-19). Federal, LLC team members need to also comply with the applicable vaccination policies.
 
 ## Career Ladder
 

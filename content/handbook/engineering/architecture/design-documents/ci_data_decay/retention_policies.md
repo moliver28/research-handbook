@@ -1,5 +1,5 @@
 ---
-title: Retention policies for CI/CD data
+title: "Retention policies for CI/CD data"
 status: ongoing
 creation-date: "2024-05-27"
 authors: [ "@fabiopitino", "@mbobin" ]
@@ -9,7 +9,6 @@ owning-stage: "~devops::verify"
 toc_hide: true
 ---
 
-<!-- vale gitlab.FutureTense = NO -->
 {{< design-document-header >}}
 
 ## Problem to solve

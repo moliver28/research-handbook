@@ -32,14 +32,6 @@ To opt-in, follow these steps on Slack
 1. Click on `Edit profile`
 1. Scroll down to the `GitLab Birthdays` field and select `Yes`
 
-### Parental Leave Welcome Back
-
-A scheduled pipeline runs every day to check who's coming back from parental leave in 3 days.
-For those team members we send them a Direct Message reminding them that they can take more
-PTO if needed and links to the handbook related to coming back after parental leave.
-
-For this pipeline we have a direct integration with Time Off by Deel.
-
 ### Informing People Connect Team about details missing in BambooHR for upcoming new hires
 
 For the new hire announcements to be accurate, it is required to ensure the

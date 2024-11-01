@@ -1,5 +1,5 @@
 ---
-title: Services
+title: "Services"
 status: proposed
 creation-date: "2023-08-18"
 authors: [ "@nagyv-gitlab" ]

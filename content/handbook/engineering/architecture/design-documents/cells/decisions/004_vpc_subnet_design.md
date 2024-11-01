@@ -1,6 +1,7 @@
 ---
 owning-stage: "~devops::data stores" # because Tenant Scale is under this
 title: 'Cells ADR 004: One VPC per Cell, with Private Service Connect for internal communication between Cells'
+toc_hide: true
 ---
 
 ## Context

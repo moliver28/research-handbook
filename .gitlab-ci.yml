@@ -15,7 +15,7 @@
 ###################################
 
 stages:
-  - test
+  - sync
   - build
   - deploy
   - notify
@@ -28,6 +28,7 @@ include:
       job_stage: build
 
 default:
+  image: alpine:latest
   interruptible: true # All jobs are interruptible by default
   # The following 'retry' configuration settings may help avoid false build failures
   #  during brief problems with CI/CD infrastructure availability
@@ -86,14 +87,17 @@ variables:
   RESTORE_CACHE_ATTEMPTS: 3
   EXECUTOR_JOB_SECTION_ATTEMPTS: 3
 
+  ### BUILD / PAGES DEFAULTS **
+  ENVIRONMENT: 'production'
+  HUGO_BASEURL: 'https://handbook.gitlab.com/'
   PAGES_PREFIX: ""
 
   ### TOOLING ###
   # Specify versions of tools used in pipelines
-  HUGO_VERSION: '0.128.0'
+  HUGO_VERSION: '0.135.0'
   HUGO_IMAGE: "registry.gitlab.com/pages/hugo/hugo_extended:$HUGO_VERSION"
-  MARKDOWNLINT_VERSION: '0.13.0'
-  VALE_VERSION: '3.6.0'
+  MARKDOWNLINT_VERSION: '0.14.0'
+  VALE_VERSION: '3.7.1'
 
   ### CACHE DEPENDENCIES ###
   GOPATH: $CI_PROJECT_DIR/.GOPATH
@@ -114,6 +118,28 @@ variables:
 
 .build-and-test-only: &build-and-test-only
   if: '$BUILD_AND_TEST_ONLY == "true"'
+
+.is-fork: &is-fork
+  if: '$CI_PROJECT_ID != "42817607"'
+
+.scheduled-update: &scheduled-update
+  if: '$CI_PIPELINE_SOURCE == "schedule" && $RUN_TYPE == "count-update"'
+
+###################################
+#
+# INTERRUPTION PROTECTION
+#
+###################################
+
+dont-interrupt-me:
+  stage: sync
+  interruptible: false
+  script:
+    - echo "This jobs makes sure this pipeline won't be interrupted! See https://docs.gitlab.com/ee/ci/yaml/#interruptible."
+  variables:
+    GIT_STRATEGY: none
+  rules:
+    - if: $CI_PIPELINE_SOURCE == "pipeline"
 
 ###################################
 #
@@ -155,7 +181,6 @@ build:
   - <<: *merge-request-only
     variables:
       PAGES_PREFIX: 'mr$CI_MERGE_REQUEST_IID'
-      ENVIRONMENT: 'mr$CI_MERGE_REQUEST_IID'
       HUGO_BASEURL: "${CI_PAGES_URL}/${PAGES_PREFIX}"
 
 ###################################
@@ -164,17 +189,12 @@ build:
 #
 ###################################
 pages:
-  image: alpine:latest
   stage: deploy
   dependencies: [build]
   environment:
-    # tracking DORA deployment frequency
     name: $ENVIRONMENT
-    deployment_tier: production
     url: $HUGO_BASEURL
   variables:
-    ENVIRONMENT: production
-    HUGO_BASEURL: https://handbook.gitlab.com/
     GIT_STRATEGY: none
   pages:
     path_prefix: "$PAGES_PREFIX"
@@ -189,12 +209,12 @@ pages:
     - if: '$CI_MERGE_REQUEST_LABELS =~ /deploy-review-app-always/'
       variables:
         PAGES_PREFIX: 'mr$CI_MERGE_REQUEST_IID'
-        ENVIRONMENT: 'mr/$CI_MERGE_REQUEST_IID'
+        ENVIRONMENT: 'review/mr$CI_MERGE_REQUEST_IID'
         HUGO_BASEURL: "${CI_PAGES_URL}/${PAGES_PREFIX}"
     - <<: *merge-request-only
       variables:
         PAGES_PREFIX: 'mr$CI_MERGE_REQUEST_IID'
-        ENVIRONMENT: 'mr/$CI_MERGE_REQUEST_IID'
+        ENVIRONMENT: 'review/mr$CI_MERGE_REQUEST_IID'
         HUGO_BASEURL: "${CI_PAGES_URL}/${PAGES_PREFIX}"
       when: manual
       allow_failure: true
@@ -208,7 +228,7 @@ pages:
 markdownlint:
   image:
     name: davidanson/markdownlint-cli2:v${MARKDOWNLINT_VERSION}
-    entrypoint: ["/bin/sh", "-c"]
+    entrypoint: [""]
     docker:
       user: root
   stage: build
@@ -223,6 +243,7 @@ markdownlint:
   rules:
     - <<: *merge-request-or-tag
     - <<: *build-and-test-only
+    - <<: *is-fork
   artifacts:
     when: always
     expire_in: 1 month
@@ -234,7 +255,7 @@ markdownlint:
 vale:
   image:
     name: jdkato/vale:v${VALE_VERSION}
-    entrypoint: ["/bin/sh", "-c"]
+    entrypoint: [""]
     docker:
       user: root
   stage: build
@@ -245,6 +266,7 @@ vale:
   rules:
     - <<: *merge-request-or-tag
     - <<: *build-and-test-only
+    - <<: *is-fork
   artifacts:
     when: always
     expire_in: 1 month
@@ -256,7 +278,7 @@ vale:
 handbooklint:
   image:
     name: gitlab/glab
-    entrypoint: ["/bin/sh", "-c"]
+    entrypoint: [""]
   stage: build
   needs: []
   before_script:
@@ -268,6 +290,7 @@ handbooklint:
   rules:
     - <<: *merge-request-or-tag
     - <<: *build-and-test-only
+    - <<: *is-fork
   artifacts:
     when: always
     expire_in: 1 month
@@ -281,16 +304,22 @@ hugolint:
   needs: []
   rules:
     - <<: *build-and-test-only
+      allow_failure: true
+    - <<: *is-fork
+      allow_failure: true
     - <<: *default-branch
       allow_failure: true
     - <<: *merge-request-or-tag
       allow_failure: true
   image:
     name: registry.gitlab.com/gitlab-com/content-sites/handbook-tools/hugolint:latest
+  before_script:
+    - apk add jq
   script:
     - hugolint linkcheck --format=json $(find content -type f -name '*.md' | grep -v ' ') >linkcheck.json
     - hugolint missinglinks --num 30 $(find content -name '*.md' | grep -v ' ') >missinglinks.txt 2>/dev/null
     - head -n 20 missinglinks.txt
+    - if [ -f "linkcheck.json" ] && [ -s "linkcheck.json" ] && [ "$(jq length linkcheck.json)" -gt 0 ]; then echo "Broken relative links detected."; exit 1; fi
   artifacts:
     when: always
     expire_in: 1 month
@@ -307,6 +336,7 @@ secret_detection:
   rules:
     - <<: *build-and-test-only
     - <<: *merge-request-or-tag
+    - <<: *is-fork
 
 ####################################
 ##
@@ -320,12 +350,12 @@ post_comment_on_failure:
   stage: notify
   image:
     name: gitlab/glab
-    entrypoint: ["/bin/sh", "-c"]
+    entrypoint: [""]
+  before_script:
+    - apk add yq jq sed bash
   script:
-    - apk add yq jq
-    - ./scripts/parse-codequality-report.sh -r ./codequality.json > msg.txt
-    - glab auth login -t $GITLAB_TOKEN
-    - glab mr note --unique $CI_MERGE_REQUEST_IID -m "$(cat msg.txt)"
+    - bash ./scripts/parse-codequality-report.sh -r ./codequality.json > msg.txt
+    - bash ./scripts/post-comment.sh "$(cat msg.txt)"
   rules:
   - <<: *merge-request-or-tag
 
@@ -334,4 +364,18 @@ notify_slack_on_build_failures:
   stage: notify
   script: ./scripts/send-failure-notification-to-slack.sh
   rules:
+  - <<: *is-fork
+    when: never
   - <<: *default-branch
+
+####################################
+##
+## MAINTENANCE STAGE
+##
+####################################
+
+update_counts:
+  stage: maintenance
+  script: ./scripts/update-counts.sh
+  rules:
+  - <<: *scheduled-update

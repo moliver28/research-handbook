@@ -82,7 +82,7 @@ When you give the bonus and celebrate the bonus in Slack, it also serves as a re
 
 Remote teams have an easier time speaking freely about travel. Because they're remote, they're autonomous by default, and location is [decoupled from output](/handbook/values/#measure-results-not-hours). In-office teams face stigmas related to conversing about vacations in the office.
 
-An easy way to force this toxic cloud of taboo out of your team is to use a digital program to remind team members to take time off. At GitLab, we've worked with [Time Off by Deel](https://www.deel.com/engage/pto) to create an [opt-in program]({{< ref "paid-time-off#monthly-reminder-to-consider-taking-pto" >}}) which sends a direct message on the first working day of each month asking the individual to consider what time they plan on taking this month to rest and recharge. It also gives permission to the team member to directly confront their manager if they feel as if they cannot possibly take time off.
+An easy way to force this toxic cloud of taboo out of your team is to use a digital program to remind team members to take time off. At GitLab, we work with [Time Off by Deel](https://www.deel.com/engage/pto) in conjunction with Workday to create an [opt-in program]({{< ref "paid-time-off#monthly-reminder-to-consider-taking-pto" >}}) which sends a direct message on the first working day of each month asking the individual to consider what time they plan on taking this month to rest and recharge. It also gives permission to the team member to directly confront their manager if they feel as if they cannot possibly take time off.
 
 GitLab's verbiage is below.
 

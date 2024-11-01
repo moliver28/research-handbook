@@ -47,7 +47,7 @@ Remote summits may be by invitation only and encourage idea-sharing, discussion,
 
 {{< youtube "3iFCbBT7Xt4" >}}
 
-> [The Remote Work Summit](https://www.theremoteworksummit.com/) is an initiative to bring together 24+ industry leaders from Fortune 500 companies, startups and agencies to share their secrets of building effective remote teams, organizations & careers. You can watch the recorded sessions from the third edition of the event, which took place in April 2020.
+> The Remote Work Summit is an initiative to bring together 24+ industry leaders from Fortune 500 companies, startups and agencies to share their secrets of building effective remote teams, organizations & careers. You can watch the recorded sessions from the third edition of the event, which took place in April 2020.
 
 ### Flex Summit
 

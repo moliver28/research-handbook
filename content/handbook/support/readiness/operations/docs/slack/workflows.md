@@ -403,7 +403,6 @@ Located at
    - Emoji reaction:
      - :loose_lips_sink_ships:
    - Channels:
-     - #feed_zd-federal
      - #spt_us-gov-evening-overnight
      - #spt_us-government
 1. Reply to a message in thread

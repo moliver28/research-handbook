@@ -2,7 +2,7 @@
 title: Analytics Engineering
 ---
 
-**Analytics Engineers** sit at the [intersection](/handbook/business-technology/data-team/#data-job-families) of business teams, [Data Analytics](/job-families/finance/data-analyst) and [Data Engineering](/job-families/finance/data-engineer) and are responsible for bringing robust, efficient, and integrated data models and products to life. Analytics Engineers speak the language of business teams and technical teams, they are able to translate data insights and analysis needs into models powered by the [Enterprise Data Platform](/handbook/business-technology/data-team/platform). The successful Analytics Engineer is able to blend business acumen with technical expertise and transition between business strategy and data development.
+**Analytics Engineers** sit at the [intersection](/handbook/enterprise-data/#data-job-families) of business teams, [Data Analytics](/job-families/finance/data-analyst) and [Data Engineering](/job-families/finance/data-engineer) and are responsible for bringing robust, efficient, and integrated data models and products to life. Analytics Engineers speak the language of business teams and technical teams, they are able to translate data insights and analysis needs into models powered by the [Enterprise Data Platform](/handbook/enterprise-data/platform). The successful Analytics Engineer is able to blend business acumen with technical expertise and transition between business strategy and data development.
 
 ## Associate Analytics Engineer
 
@@ -17,14 +17,14 @@ The Associate Analytics Engineer is a [grade 5](/handbook/total-rewards/compensa
 As a team member responsible for helping to bridge the gap between business and technology, the Associate Analytics Engineer role requires equal amounts business acumen and technical acumen.
 
 - Collaborate with team members to collect business requirements, define successful analytics outcomes, and design data models
-- Build trust in all interactions and with [Trusted Data Development](/handbook/business-technology/data-team/data-development/#trusted-data-development)
-- Serve as the [Directly Responsible Individual](/handbook/people-group/directly-responsible-individuals) for small sections of the [Enterprise Dimensional Model](/handbook/business-technology/data-team/platform/edw/)
+- Build trust in all interactions and with [Trusted Data Development](/handbook/enterprise-data/data-development/#trusted-data-development)
+- Serve as the [Directly Responsible Individual](/handbook/people-group/directly-responsible-individuals) for small sections of the [Enterprise Dimensional Model](/handbook/enterprise-data/platform/edw/)
 - Design and develop [dbt](https://www.getdbt.com/) code to extend the Enterprise Dimensional Model
-- Create and maintain architecture and systems documentation in the [Data Team Handbook](/handbook/business-technology/data-team/)
-- Maintain the [Data Catalog](/handbook/business-technology/data-team/data-catalog/), a scalable resource to support Self-Service and Single-source-of-truth analytics
+- Create and maintain architecture and systems documentation in the [Data Team Handbook](/handbook/enterprise-data/)
+- Maintain the [Data Catalog](/handbook/enterprise-data/data-catalog/), a scalable resource to support Self-Service and Single-source-of-truth analytics
 - Document plans and results in either issue, MRs, the [handbook](/handbook/), or READMEs following the GitLab tradition of [handbook first!](/handbook/about/handbook-usage/#why-handbook-first)
 - Implement the [DataOps](https://en.wikipedia.org/wiki/DataOps) philosophy in everything you do
-- Craft code that meets our internal standards for style, maintainability, and best practices (such as the [SQL Style Guide](/handbook/business-technology/data-team/platform/sql-style-guide)) for a high-scale database environment. Maintain and advocate for these standards through code review.
+- Craft code that meets our internal standards for style, maintainability, and best practices (such as the [SQL Style Guide](/handbook/enterprise-data/platform/sql-style-guide)) for a high-scale database environment. Maintain and advocate for these standards through code review.
 
 ### Requirements
 
@@ -54,7 +54,7 @@ The Analytics Engineer is a [grade 6](/handbook/total-rewards/compensation/compe
 
 Responsibilities for the Analytics Engineer (Intermediate) extend the Associate Analytics Engineer job. In addition:
 
-- Serve as the [Directly Responsible Individual](/handbook/people-group/directly-responsible-individuals) for major sections of the [Enterprise Dimensional Model](/handbook/business-technology/data-team/platform/edw/)
+- Serve as the [Directly Responsible Individual](/handbook/people-group/directly-responsible-individuals) for major sections of the [Enterprise Dimensional Model](/handbook/enterprise-data/platform/edw/)
 - Design, develop, and extend [dbt](https://www.getdbt.com/) code to extend the Enterprise Dimensional Model
 - Approve data model changes as a Data Team Reviewer and [code owner](https://gitlab.com/gitlab-data/analytics/blob/master/CODEOWNERS) for specific database and data model schemas
 - Provide data modeling expertise to all GitLab teams through code reviews, pairing, and training to help deliver optimal, DRY, and scalable database designs and queries in Snowflake and in Periscope.
@@ -83,9 +83,9 @@ Responsibilities for the Senior Analytics Engineer extend the Analytics Engineer
 
 - Own one or more stakeholder relationship in Go To Market, Research & Development, or General & Administrative business functions
 - Serve as Data Model subject matter expert and data model spokesperson, demonstrated by the ability to address questions quickly and accurately
-- Advocate for the [Data Quality Program](/handbook/business-technology/data-team/data-quality/) and [Trusted Data](/handbook/business-technology/data-team/platform/#tdf) to help ensure all data is profiled, reviewed, and accurate to support critical decisions
-- Guide [Work Breakdown](/handbook/business-technology/data-team/how-we-work/planning/#work-breakdown) Sessions
-- Organize and Plan quarter-long development initiatives per the [Data Team Planning Drumbeat](/handbook/business-technology/data-team/how-we-work/planning/)
+- Advocate for the [Data Quality Program](/handbook/enterprise-data/data-quality/) and [Trusted Data](/handbook/enterprise-data/platform/#tdf) to help ensure all data is profiled, reviewed, and accurate to support critical decisions
+- Guide [Work Breakdown](/handbook/enterprise-data/how-we-work/planning/#work-breakdown) Sessions
+- Organize and Plan quarter-long development initiatives per the [Data Team Planning Drumbeat](/handbook/enterprise-data/how-we-work/planning/)
 
 ### Senior Analytics Engineer Requirements
 
@@ -182,7 +182,7 @@ Requirements for the Principal Analytics Engineer extend the Staff Analytics Eng
 
 ## Performance Indicators
 
-Analytics Engineers are evaluated on their contributions to the four [Data Team Impact Dimensions](/handbook/business-technology/data-team/#how-we-measure-impact):
+Analytics Engineers are evaluated on their contributions to the four [Data Team Impact Dimensions](/handbook/enterprise-data/#how-we-measure-impact):
 
 - Data Platform Stability
 - Data Quality & Governance

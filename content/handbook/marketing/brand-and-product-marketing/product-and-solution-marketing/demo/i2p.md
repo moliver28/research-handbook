@@ -71,7 +71,8 @@ Now let's register a new user in our GitLab server.
 > - Click `Register`
 > - Create a user with your name and email address (no verification sent)
 
-## Create a group (optional, if showing Chat) <!-- Maybe re-use to show how groups work instead of for Mattermost -->
+## Create a group (optional, if showing Chat)
+<!-- Maybe re-use to show how groups work instead of for Mattermost -->
 
 We've got GitLab running and we're logged in. Since we'll want to work as a
 team, we'll create a GitLab group. Groups allow you to organize projects into

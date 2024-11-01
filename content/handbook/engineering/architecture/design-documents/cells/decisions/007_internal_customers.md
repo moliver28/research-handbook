@@ -1,9 +1,8 @@
 ---
 owning-stage: "~devops::data stores"
 title: 'Cells ADR 007: Cells 1.0 for internal customers only'
+toc_hide: true
 ---
-
-<!-- vale gitlab.FutureTense = NO -->
 
 ## Context
 

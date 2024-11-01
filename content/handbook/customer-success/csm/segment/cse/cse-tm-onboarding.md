@@ -1,11 +1,8 @@
 ---
-title: "CSE New Team Member Onboarding"
-aliases:
-- /handbook/customer-success/csm/segment/cse/cse-tm-onboarding/
-- /handbook/customer-success/csm/segment/scale/cse-tm-onboarding/
+title: "CSE Team Member Onboarding"
 ---
 
-View the [CSME Handbook homepage](/handbook/customer-success/csm/) for additional CSME-related handbook pages.
+View the [CSM Handbook homepage](/handbook/customer-success/csm/) for additional CSM-related handbook pages.
 
 ---
 **Overview**

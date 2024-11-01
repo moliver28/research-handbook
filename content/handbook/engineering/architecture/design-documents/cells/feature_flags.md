@@ -4,9 +4,9 @@ group: Engineering Productivity
 title: 'Cells: Feature Flags'
 authors: [ "@skarbek" ]
 coach: "@rymai"
+toc_hide: true
 ---
 
-<!-- vale gitlab.FutureTense = NO -->
 {{< design-document-header >}}
 
 ## Summary
@@ -32,13 +32,13 @@ Feature Flags play a vital role in the Development of GitLab. Chunks of code hav
 
 ## Proposal
 
-We will iterate on expanding our use of Feature Flags into Cells, but far slower as the Primary Cell, or the current .com Infrastructure, will still be the primary place that we can expect the majority of feature flags to be leveraged for testing. Because the migration of customers onto Cells is a goal in the future we'll certainly want to expand how we interact with Feature Flags for target actors, but we need to develop the capabilities and procedures to ensure the safety and stability of .com.
+We will iterate on expanding our use of Feature Flags into Cells, but far slower as the Legacy Cell, or the current .com Infrastructure, will still be the primary place that we can expect the majority of feature flags to be leveraged for testing. Because the migration of customers onto Cells is a goal in the future we'll certainly want to expand how we interact with Feature Flags for target actors, but we need to develop the capabilities and procedures to ensure the safety and stability of .com.
 
 ### Iteration Cells 1.0
 
 With the ultimate goal that Cells is attempting to host more stable versions of GitLab, our first Iteration for feature flags will mostly be discovery of work to be accomplished along with prioritizing with the appropriate teams. Doing so also provides us time to think about future iterations and refine as we see fit.
 
-The expectation here is that we'll continue to use our Primary Cell, our current infrastructure, to manage and change feature flags like we do today with no change in the behavior or the expectations by Development teams related to any Secondary Cells. Any on-going work surrounding improvements that may already be in progress should be accounted for as to prevent interference or introduce unnecessary complexity.
+The expectation here is that we'll continue to use our Legacy Cell, our current infrastructure, to manage and change feature flags like we do today with no change in the behavior or the expectations by Development teams related to any Cell. Any on-going work surrounding improvements that may already be in progress should be accounted for as to prevent interference or introduce unnecessary complexity.
 
 ### Future Iterations
 
@@ -56,13 +56,13 @@ This will reach out to Cell 7 and disable the feature flag.
 
 ##### Engagement on Actors
 
-Feature Flags that are leveraged to gather information to assist with development may target a specific project, user, or percentage based actor. Issues exist which that make setting this across all Cells difficult. Thus, for actor based changes to feature flags, these will be limited to only the Primary Cell.
+Feature Flags that are leveraged to gather information to assist with development may target a specific project, user, or percentage based actor. Issues exist which that make setting this across all Cells difficult. Thus, for actor based changes to feature flags, these will be limited to only the Legacy Cell.
 
 Let's use an example. Let's say we want to change feature flag `lorem_ipsum_dolar` for actor `@ayufan`. This user may be spread across 3 total Cells. Using the command:
 
 > `/chatops run feature set lorem_ipsum_dolar ayufan`
 
-The command only change the flag for that actor on our Primary Cell. All other
+The command only change the flag for that actor on our Legacy Cell. All other
 cells will be ignored. We may be able to expand Chatops to be able to accept an
 added flag such that we could directly set the actor on a particular Cell. Doing
 so will require the Engineer to know which Cell an actor resides. The reason for

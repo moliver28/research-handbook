@@ -22,7 +22,9 @@ Marketing uses GitLab for agile project management including [groups](https://do
 
 Marketing Departments collaborate to produce Integrated Campaigns. An Integrated Campaign is a communication effort that includes several campaign tactics such as blog posts, emails, events, advertisements, content on about.gitlab.com, videos, case studies, whitepapers, surveys, social outreach, and webcasts. An Integrated Campaign will have a campaign theme that summarizes the message we are communicating to our market.
 
-### [Active integrated campaigns](/handbook/marketing/campaigns/#active-marketing-campaigns)
+### Active integrated campaigns
+
+[Active integrated campaigns](/handbook/marketing/campaigns/#active-marketing-campaigns)
 
 **Have a new campaign idea?** [Make a suggestion](/handbook/marketing/campaigns#new-ideas-for-marketing-campaigns-or-events)
 

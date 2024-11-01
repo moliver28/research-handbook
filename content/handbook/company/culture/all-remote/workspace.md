@@ -93,7 +93,7 @@ What constitutes "good headphones" varies significantly depending on preference.
 
 Almost any phone or laptop comes with a built-in microphone that should be adequate for your needs. A pair of Bluetooth or wired earbuds with an in-line microphone can help reduce background noise, if you work in a noisy space. These are commonly included with most smartphones.
 
-However, if you frequently speak in front of audiences, record talks or podcasts, or simply wish to have excellent audio quality, invest in a [dedicated USB microphone](https://thewirecutter.com/reviews/the-best-usb-microphone) (and, if desired, a desk mount for added ergonomic positioning). For example, [Blue Microphones](https://www.bluedesigns.com) offers a variety of options that are crafted with creators, streamers, and podcasters in mind, and all provide exceptional clarity and noise reduction on [video calls](/handbook/communication/#video-calls).
+However, if you frequently speak in front of audiences, record talks or podcasts, or simply wish to have excellent audio quality, invest in a [dedicated USB microphone](https://thewirecutter.com/reviews/the-best-usb-microphone) (and, if desired, a desk mount for added ergonomic positioning). For example, [Blue Microphones](https://www.logitechg.com/en-us/products/microphones.html) offers a variety of options that are crafted with creators, streamers, and podcasters in mind, and all provide exceptional clarity and noise reduction on [video calls](/handbook/communication/#video-calls).
 
 Several GitLab team members have positive experiences with the [M-Audio UberMic](https://www.amazon.com/M-Audio-Uber-Mic-Professional-Microphone/dp/B0767N58ZY).
 
@@ -149,7 +149,7 @@ Laptop keyboards are engineered to *fit the laptop*, not to be ergonomic. Whenev
 
 There are a wide variety of ergonomic keyboards, and it's worth trying out a few in a retail location if possible. If this is not practical, Wirecutter has assembled [a well-researched guide on the best ergonomic keyboards](https://thewirecutter.com/reviews/comfortable-ergo-keyboard).
 
-A traditional mouse can put strain on the wrist by creating movements in an unnatural position. Fortunately there are plenty of other options available such as vertical mice, trackpads, trackballs and pen tablets. Each has their own advantages. Find one that is comfortable for you and minimizes wrist movement as much as possible (vertical mice, for example, engage your shoulder and arm more than your wrist and trackballs rely on moving your fingers). You can also consider a left-handed mouse. Painless Movement has [a regularly updated list of the best ergonomic mice](https://www.painlessmovement.com/best-ergonomic-mouse-wrist-pain) as well as comprehensive information on the various types towards the bottom of the page.
+A traditional mouse can put strain on the wrist by creating movements in an unnatural position. Fortunately there are plenty of other options available such as vertical mice, trackpads, trackballs and pen tablets. Each has their own advantages. Find one that is comfortable for you and minimizes wrist movement as much as possible (vertical mice, for example, engage your shoulder and arm more than your wrist and trackballs rely on moving your fingers). You can also consider a left-handed mouse. Wirecutter and CNN Underscored both recommend the [Logitech MX Master 3](https://www.nytimes.com/wirecutter/reviews/logitech-mx-master-3-mouse-review/) mouse. See CNN Underscored for a list of other recomended ergonomic mice [here](https://www.cnn.com/cnn-underscored/reviews/best-ergonomic-mouse).
 
 It's important for remote workers to be cognizant of repetitive motion. While it may seem extreme to some, consider installing two mice and switching hands to move one's cursor.
 
@@ -173,7 +173,7 @@ If possible, visit a physical store to try out a variety of ergonomic seating op
 
 [Steelcase](https://www.steelcase.com/products/office-chairs) and [MillerKnoll](https://www.hermanmiller.com/products/seating) both offer solid options. While retail pricing on chairs from these firms is very high, you can often find them used for less. To assist in your research, consider [Wirecutter's exhaustive (and continually updated) guide to office chairs](https://thewirecutter.com/reviews/best-office-chair).
 
-**Employers:** Consider offering an [allowance](/handbook/spending-company-money) for employees to invest in a high-quality ergonomic chair.
+**Employers:** Consider offering an [allowance](/handbook/finance/spending-company-money/) for employees to invest in a high-quality ergonomic chair.
 
 ### Desk
 
@@ -280,7 +280,7 @@ Get creative if you cannot dedicate space for a permanent home office. You can a
 
 Whether an organization is [fully remote, remote-first, or hybrid](stages/), it's up to company leaders to enable an equitable and inclusive employee experience. Just as you'd invest in a team's workspace in a physical office, enabling team members to create healthy and productive spaces is a core part of building remote infrastructure. An optimized workspace leads to [team member happiness, wellness, and engagement](stories/), and it also leads to better overall results for your organization.
 
-Keep in mind that there's no "one size fits all" for a home office setup, because each member of your team has different needs, work preferences, and home environments. Consider providing budget for your team to spend on their home workspace, a coworking space, or equipment needed to be productive on the go. For example, at GitLab, team members are [allowed to spend company money](/handbook/spending-company-money) as they would their own, with [guidance provided](/handbook/finance/expenses#-setting-up-a-home-office-for-the-first-time) for various types of equipment. Keep in mind that team members' needs may change as they [experiment to find their ideal work environment](getting-started/#experiment-with-work-environments).
+Keep in mind that there's no "one size fits all" for a home office setup, because each member of your team has different needs, work preferences, and home environments. Consider providing budget for your team to spend on their home workspace, a coworking space, or equipment needed to be productive on the go. For example, at GitLab, team members are [allowed to spend company money](/handbook/finance/spending-company-money/) as they would their own, with [guidance provided](/handbook/finance/expenses#-setting-up-a-home-office-for-the-first-time) for various types of equipment. Keep in mind that team members' needs may change as they [experiment to find their ideal work environment](getting-started/#experiment-with-work-environments).
 
 ## GitLab Knowledge Assessment: Considerations for a productive home office or remote workspace
 

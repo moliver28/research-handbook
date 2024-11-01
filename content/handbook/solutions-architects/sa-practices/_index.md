@@ -24,7 +24,7 @@ Solution Architects have various practices:
 
 [Monthly Release Quiz](/handbook/solutions-architects/sa-practices/monthly-release-quiz)
 
-[Subject Matter Expert program](/handbook/solutions-architects/sa-practices/subject-matter-experts)
+[SA Subject Matter Expert program](/handbook/solutions-architects/sa-practices/subject-matter-experts/)
 
 ## SA Practices - Pre-sales
 

@@ -46,7 +46,7 @@ All new spend, changing of vendors for existing services, and market reviews eve
 - Follow the RFP process outlined in the [internal handbook](https://internal.gitlab.com/handbook/finance/procurement/). You will find resources and templates for RFP events at any level, whether it is a quick bid or a full procurement-led RFP with 5+ vendors. Always reach out to your Procurement Cateogry Manager to notify them that an RFP is being conducted- they can assist in the process and can answer any questions.
   - As part of this process, create an issue with the [RFP Intake template](https://gitlab.com/gitlab-com/Finance-Division/procurement-team/procurement/-/issues/new#) and tag your [Category Manager](#procurement-team-alignment).
 
-Before sharing details and/or confidential information regarding GitLab business needs, obtain a [Mutual Non-Disclosure Agreement](/handbook/legal/NDA/#) from the potential vendor(s). Refer to the [Signature Authorization Matrix](https://internal.gitlab.com/handbook/company/authorization-matrix/) for signing authority.
+Before sharing details and/or confidential information regarding GitLab business needs, obtain a [Mutual Non-Disclosure Agreement](/handbook/legal/nda/#) from the potential vendor(s). Refer to the [Signature Authorization Matrix](https://internal.gitlab.com/handbook/company/authorization-matrix/) for signing authority.
 
 All vendors must adhere to the [GitLab Partner Code of Ethics](/handbook/legal/partner-code-of-ethics/). It is mandatory all vendors contractually adhere to this if they would like to do business with us. (Note these are typically not required in event related agreements unless the vendor is providing services).
 
@@ -60,7 +60,7 @@ For more information on these requirements and steps, see the [Review Steps, Tim
 
 #### 3. Contracting
 
-All work that is done with a vendor must have a completed contract to be compliant and work may not be started until a contract is in place. Contracts include [NDAs](/handbook/legal/NDA/#), Master Service Agreements and Statements of Works. Our legal team assists with this step in the process. Please see the [legal review process](#3a-legal-review-3-to-21-days) for more details.
+All work that is done with a vendor must have a completed contract to be compliant and work may not be started until a contract is in place. Contracts include [NDAs](/handbook/legal/nda/#), Master Service Agreements and Statements of Works. Our legal team assists with this step in the process. Please see the [legal review process](#3a-legal-review-3-to-21-days) for more details.
 
 Additionally, please note that a small number of team members can sign agreements on behalf of GitLab - please see the [Authorization Matrix](https://internal.gitlab.com/handbook/company/authorization-matrix/) for more details.
 
@@ -211,7 +211,7 @@ Each review's targeted approval time is outlined below, but as mentioned above, 
 
 - [Security Third Party Risk Management](/handbook/security/security-assurance/security-risk/third-party-risk-management/) reviews are required for vendors that collect, process, or store Orange / Red Data, software providers (SaaS and On-premise), and independent contractors / consultants. (Excluding field marketing events)
 - This activity cannot begin until **after** the supplier completes the security questionnaire and supplies their security documentation. Oftentimes, it can take 1-2 weeks for the supplier to respond and complete the requested materials. The security review SLA begins once that is completed. Time before this activity can begin is entirely dependent upon the supplier's response time and maturity of security protocols.
-- **TIP:** To increase speed of approval, upload any security compliance documentation (SOC-2 Report, ISO27001 Certificate) to the ZipHQ Request and notify your supplier contact they will be receiving a request from ZenGRC for completion ASAP.
+- **TIP:** To increase speed of approval, upload any security compliance documentation (SOC-2 Report, ISO27001 Certificate) to the ZipHQ Request and notify your supplier contact they will be receiving a request from GitLab's Security Risk Team for completion ASAP.
 - For any inquiries and questions, please tag @securityrisk in the #procurement slack channel.
 
 #### 3.D. PeopleOps Review: 1-4 Days
@@ -270,13 +270,12 @@ If you are unable to plan and have a legitimate reason to escalate a purchase re
 
 Exceptions to the PO Policy are:
 
-1. Purchases under $5K
+1. One time purchases under $5K (or less than $5K annually)
 1. Charitable Contributions (Donations)
-1. Computer/Hardware Advances (if unable to be paid through Payroll Dept)
 1. Interview Candidate Reimbursement
-1. Legal Fees
-1. Audit, Tax, and Insurance Fees
-1. Benefits, PEO Providers and Payroll
+1. Confidential outside counsel legal fees
+1. Statutory Tax fees
+1. PEO Providers
 1. AR/Customer Refunds
 1. Board of Director Payments
 1. Financing, Banking and Investing (incl interest, debt, FX, fees)
@@ -355,7 +354,7 @@ The planning stages for events of this size should be completed at least 18-24 m
 
 #### Documentation
 
-- [Non-Disclosure Agreement (NDA) Process](/handbook/legal/NDA/)
+- [Non-Disclosure Agreement (NDA) Process](/handbook/legal/nda/)
 - [Certificate of Insurance Request Process](/handbook/legal/procurement-guide-collaborating-with-gitlab-legal/#requesting-a-certificate-of-insurance)
 - [Uploading Third Party Contracts to ContractWorks](/handbook/legal/vendor-contract-filing-process/)
 - [Company Information](https://gitlab.com/gitlab-com/Finance-Division/finance/-/wikis/company-information) - general information about each legal entity of the company
@@ -368,7 +367,7 @@ The planning stages for events of this size should be completed at least 18-24 m
 - [Individual Use Software](individual-use-software/)
 - [RFP and Vendor Selection Process](https://internal.gitlab.com/handbook/finance/procurement/)
 - [Vendor Terms and Conditions](vendor-guidelines/)
-- [Non-Disclosure Agreement (NDA)](/handbook/legal/NDA/#)
+- [Non-Disclosure Agreement (NDA)](/handbook/legal/nda/#)
 - [Charitable Contributions](charitable-contributions/)
 - [Non-Cost Related Agreements (Including Trials/Demos)](trial-agreement/)
 <!-- markdownlint-enable MD051 -->

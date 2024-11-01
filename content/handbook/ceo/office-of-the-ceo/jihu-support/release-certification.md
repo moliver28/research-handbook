@@ -1,14 +1,11 @@
 ---
 title: Release Certification
-aliases:
-- /handbook/ceo/office-of-the-ceo/jihu-support/release-certification/
-- /handbook/ceo/chief-of-staff-team/jihu-support/release-certification/
 ---
 
 ## Process for Release Certification
 
 Every release with JiHu contributions needs to be certified by a member of the
-[Federal Application Security team](/handbook/security/product-security/application-security/index.html).
+[Federal Application Security team](/handbook/security/product-security/application-security/).
 This is required to satisfy PubSec/FedRamp requirements and
 to handle JiHu's merge request contributions to GitLab Inc repositories.
 
@@ -24,9 +21,7 @@ This means that only members of the Federal AppSec team are eligible to perform 
 Note that *any* member of the Application Security team may review and approve a JiHu contribution,
 but only Federal AppSec team members can certify the release.
 
-Members of the Federal AppSec team will use the
-[AppSec Rotation spreadsheet](https://docs.google.com/spreadsheets/d/18vz84dgTfetTaBjbOCXaLKNfzLYMiy_tBW6RfEUYYHk/edit#gid=0)
-to sign up to be responsible for certifying monthly releases. These assignments will also need to be reflected on the
+Members of the Federal AppSec team are responsible for certifying monthly releases. Their assignment is [managed by automation](/handbook/security/product-security/application-security/runbooks/triage-rotation/). These assignments will also need to be reflected on the
 [Release Managers page](https://about.gitlab.com/community/release-managers/), under the AppSec Release Certification column.
 
 ### Certification process

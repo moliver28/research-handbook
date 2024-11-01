@@ -147,7 +147,7 @@ Those comfortable with external interactions may offer their services to the Fie
 
 ### Security Guidelines for Incubation Projects
 
-Incubation Engineers should familiarize themselves with the [GitLab AppSec Review](/handbook/security/product-security/application-security/appsec-reviews.html) process and preferably have the AppSec review triggered early for each merge request when appropriate.
+Incubation Engineers should familiarize themselves with the [GitLab AppSec Review](/handbook/security/product-security/application-security/appsec-reviews/) process and preferably have the AppSec review triggered early for each merge request when appropriate.
 
 Incubation Engineers are often required to create prototypes or demo applications as they are iterating on ideas and gathering feedback. Below are some security guidelines to keep in mind while building these applications:
 
@@ -157,11 +157,11 @@ Incubation Engineers are often required to create prototypes or demo application
 
 ### UX Engagement with Incubation Projects
 
-For UX support, see how Product Designers [engage with Single Engineer Groups (SEGs)](/handbook/product/ux/product-designer/index.html#engagement-with-single-engineer-groups-segs).
+For UX support, see how Product Designers [engage with Single Engineer Groups (SEGs)](/handbook/product/ux/product-designer/#engagement-with-single-engineer-groups-segs).
 
 ### Releasing Features
 
-When releasing features, ensure you engage the [Application Security team](/handbook/security/product-security/application-security/stable-counterparts.html) if your feature matches the [guidelines of what should be reviewed](/handbook/security/product-security/application-security/appsec-reviews.html#what-should-be-reviewed), and follow the [guidelines for documentation](/handbook/product/ux/technical-writing/workflow/#documentation-for-a-product-change).
+When releasing features, ensure you engage the [Application Security team](/handbook/security/product-security/application-security/stable-counterparts/) if your feature matches the [guidelines of what should be reviewed](/handbook/security/product-security/application-security/appsec-reviews/#what-should-be-reviewed), and follow the [guidelines for documentation](/handbook/product/ux/technical-writing/workflow/#documentation-for-a-product-change).
 
 ### Write a Release Post
 

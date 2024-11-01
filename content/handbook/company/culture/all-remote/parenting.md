@@ -57,7 +57,7 @@ While there is no one-size-fits-all answer, we have amassed some great tips for 
 
 For parents with toddlers who may not understand why a parent is home but unable to play or engage, consider working in a space with a door that you can shut. This creates a more obvious separation between work and life.
 
-If you live in a space where such a division is impractical or impossible, consider working in a coworking space, external office, or shared community home through firms such as [Codi](https://www.codi.com). GitLab recognizes that not every living space is amenable to remote work, which is why we will [reimburse for external spaces](/handbook/spending-company-money#coworking-or-external-office--space).
+If you live in a space where such a division is impractical or impossible, consider working in a coworking space, external office, or shared community home through firms such as [Codi](https://www.codi.com). GitLab recognizes that not every living space is amenable to remote work, which is why we will [reimburse for external spaces](/handbook/finance/spending-company-money/#coworking-or-external-office--space).
 
 ### Block out family time on your calendar
 
@@ -184,7 +184,7 @@ From family time to unforgettable adventures, there are many great stories of ho
 
 ### Guides from friends and partners
 
-1. [Doist's guide for the remote working parent](https://doist.com/blog/remote-working-parents-survival-guide)
+1. [Doist's guide for the remote working parent](https://todoist.com/inspiration/remote-working-parents-survival-guide)
 1. [Trello: A remote work guide for parents](https://blog.trello.com/remote-work-guide-for-parents)
 1. [Thrive Global: Managing parenting and remote work](https://thriveglobal.com/stories/three-tips-for-managing-parenting-and-remote-work)
 1. [Buffer: Tips from a remote team on working at home with kids](https://buffer.com/resources/integrating-work-family-21-tips-working-home-kids)

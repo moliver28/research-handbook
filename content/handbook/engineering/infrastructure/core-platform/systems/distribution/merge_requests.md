@@ -1,6 +1,4 @@
 ---
-aliases: /handbook/engineering/infrastructure/core-platform/systems/distribution/merge_requests.html
-
 title: "Distribution Team Merge Request Handling"
 description: "Workflow and responsibilities for Merge Requests performed by Distribution Engineers."
 ---
@@ -32,7 +30,7 @@ Reviewers are responsible for working with contributors to ensure that changes m
 
 Additionally, in the spirit of "everyone can contribute", anyone who is interested is encouraged to be a Reviewer. There should be no barrier preventing anyone from reviewing available merge requests. We encourage any interested party to participate.
 
-Anyone who plans on actively participating in the Reviewer process is encouraged to [update their entry on the team page](/handbook/editing-handbook/#add-yourself-to-the-team-page).
+Anyone who plans on actively participating in the Reviewer process is encouraged to [update their entry on the team page](/handbook/about/editing-handbook/#add-yourself-to-the-team-page).
 
 When looking for merge requests to review, consider checking the [Merge Request Report](https://gitlab-org.gitlab.io/distribution/monitoring/mrs/) to see what reviews are in danger of breaching the [SLO](#service-level-objective).
 

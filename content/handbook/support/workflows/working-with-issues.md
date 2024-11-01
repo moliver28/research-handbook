@@ -58,7 +58,7 @@ Here are some tips:
 
 Regardless of the type of issue, please include any relevant information *along* with a link. Also check that the [correct labels](#adding-labels) have been applied.
 
-Please see the product handbook to see [what information product wants us to provide for feature requests](/handbook/product/how-to-engage/#customer-feature-requests)
+Please see the product handbook to see [what information product wants us to provide for feature requests](/handbook/product/product-management/#customer-feature-requests)
 
 Optional:
 
@@ -73,7 +73,7 @@ Using the appropriate labels is *critical* to ensuring visibility of issues and 
 Required:
 
 - [Group](https://gitlab.com/gitlab-org/gitlab-ce/blob/master/doc/development/contributing/issue_workflow.md#group-labels): Unsure of which? Check out [documentation metadata](https://docs.gitlab.com/ee/development/documentation/#metadata), [label descriptions](https://gitlab.com/gitlab-org/gitlab/-/labels), [DevOps Stages](/handbook/product/categories/#devops-stages), [features list by stage](https://about.gitlab.com/features) or similar existing issue.
-- [Type Labels](/handbook/engineering/metrics/#work-type-classification) should be added by the template, but *add* them if any are missing.
+- [Type Labels](/handbook/product/groups/product-analysis/engineering/dashboards/#work-type-classification) should be added by the template, but *add* them if any are missing.
 - `~customer` (if a ZenDesk link is added, the bot will add this automatically if you forget)
 - `~regression ##.x` if applicable; for high-impact ones, add `~"Next Patch Release"` and ping the relevant lead and subject area experts
 
@@ -126,7 +126,7 @@ and
 
 ## Creating Feature Proposals
 
-As per our [Statement of Support](https://about.gitlab.com/support/statement-of-support/), the Support Team will generally ask the customer to create feature requests. Feature requests with direct feedback from customers are valuable as customers are often best equipped to explain their use case, requirements, and needs. Ask customers to create the feature request issue and share the link with us. Once an issue link is available, [add labels](#adding-labels) and relevant details in the [comments](#adding-comments-on-existing-issues), and [link the source](/handbook/product/how-to-engage/#customer-feature-requests).
+As per our [Statement of Support](https://about.gitlab.com/support/statement-of-support/), the Support Team will generally ask the customer to create feature requests. Feature requests with direct feedback from customers are valuable as customers are often best equipped to explain their use case, requirements, and needs. Ask customers to create the feature request issue and share the link with us. Once an issue link is available, [add labels](#adding-labels) and relevant details in the [comments](#adding-comments-on-existing-issues), and [link the source](/handbook/product/product-management/#customer-feature-requests).
 
 If you create a feature proposal on behalf of a customer, please follow the same process as [Creating Issues](#creating-issues) by using the `Feature Proposal` template. After the issue is created, share the link in a reply encouraging the customer to follow and contribute to the issue.
 

@@ -54,6 +54,8 @@ The DRI for a given project can be identified by looking at the corresponding ep
 
 Additionally, we maintain a list of active projects and the assigned DRI on this page, in [What Are We Working On](#what-are-we-working-on).
 
+Authors of merge requests related to a specific project should request a review from the assigned DRI or backup DRI to ensure they are aware of the changes and can provide the necessary oversight.
+
 ## 📈 Measuring results
 
 ### OKRs
@@ -64,7 +66,7 @@ Here is the [standard, company-wide process for OKRs](/handbook/company/okrs/)
 
 ### Performance indicators
 
-We measure the value we contribute by using [performance indicator metrics](/handbook/product/performance-indicators/). The primary metric used for the Package Registry group is the number of monthly active users or GMAU.
+We measure the value we contribute by using [performance indicator metrics](https://internal.gitlab.com/handbook/company/performance-indicators/product/). The primary metric used for the Package Registry group is the number of monthly active users or GMAU.
 
 {{< tableau height="600px" toolbar="hidden" src="https://us-west-2b.online.tableau.com/t/gitlabpublic/views/TopEngineeringMetrics/TopEngineeringMetricsDashboard" >}}
   {{< tableau/filters "GROUP_LABEL"="container registry" >}}
@@ -84,19 +86,23 @@ We measure the value we contribute by using [performance indicator metrics](/han
 
 ### What Are We Working On
 
-Here is a list of active projects and initiatives that we are currently working on, along with the corresponding [DRI](/handbook/people-group/directly-responsible-individuals/):
+Below is a list of projects and initiatives that we are currently working on, along with the corresponding [DRI](/handbook/people-group/directly-responsible-individuals/).  We work on issues by priority and projects may not have active development in every milestone.  DRI engineers take responsibility for planning and delivery of upcoming work, however, issues can be assigned to any team member.
 
 | Project                                                                                                                | DRI                                   | Backup DRI                          |
 | ---------------------------------------------------------------------------------------------------------------------- | ------------------------------------- | ----------------------------------- |
 | [Release metadata database and online GC for self-managed installs](https://gitlab.com/groups/gitlab-org/-/epics/5521) | {{< member-by-gitlab hswimelar >}}    | {{< member-by-gitlab jaime >}}      |
-| [AMAU usage tracking](https://gitlab.com/groups/gitlab-org/-/epics/8213)                                               | {{< member-by-gitlab jaime >}}        | {{< member-by-gitlab adie.po >}}    |
-| [Allow renaming/moving groups and projects with repositories](https://gitlab.com/groups/gitlab-org/-/epics/9459)       | {{< member-by-gitlab suleimiahmed >}} | {{< member-by-gitlab adie.po >}}    |
+| [Container Registry: Add support for tag immutability](https://gitlab.com/groups/gitlab-org/-/epics/15139)             | {{< member-by-gitlab jdrpereira >}}   | {{< member-by-gitlab rchanila >}}   |
 | [Database load balancing](https://gitlab.com/groups/gitlab-org/-/epics/8591)                                           | {{< member-by-gitlab jdrpereira >}}   | {{< member-by-gitlab suleimiahmed >}} |
 | [Confidential](https://gitlab.com/groups/gitlab-org/-/epics/13237)                                                     | {{< member-by-gitlab jaime >}}        | {{< member-by-gitlab jdrpereira >}} |
 | [Database background migrations](https://gitlab.com/groups/gitlab-org/-/epics/13609)                                   | {{< member-by-gitlab suleimiahmed >}} | {{< member-by-gitlab jdrpereira >}} |
-| [Release database dependent features for self-managed installs](https://gitlab.com/groups/gitlab-org/-/epics/12218)    | {{< member-by-gitlab adie.po >}} |  {{< member-by-gitlab hswimelar >}} |
-| [Update user interface](https://gitlab.com/groups/gitlab-org/-/epics/12218)                                            | {{< member-by-gitlab rchanila >}} | {{< member-by-gitlab adie.po >}} |
+| [Improve the fragility and speed of tests](https://gitlab.com/groups/gitlab-org/-/epics/9194)                          | {{< member-by-gitlab vespian_gl >}}   | {{< member-by-gitlab jaime >}} |
+
+### What We've Recently Completed
+
+| Project                                                           | Milestone Completed                    |
+| ----------------------------------------------------------------- | -------------------------------------- |
+|                                                                   |                                        |
 
 ## Documentation
 
-Project documentation is available [here](/product/container-registry/).
+Project documentation is available [here](https://docs.gitlab.com/ee/user/packages/container_registry/).

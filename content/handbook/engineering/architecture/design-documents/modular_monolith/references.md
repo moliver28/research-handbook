@@ -1,13 +1,13 @@
 ---
+title: "References"
 status: proposed
 creation-date: "2023-06-21"
 authors: [ "@fabiopitino" ]
 coach: [ ]
 approvers: [ ]
 owning-stage: ""
+toc_hide: true
 ---
-
-# References
 
 ## Related design docs
 
@@ -32,7 +32,7 @@ owning-stage: ""
 Gusto / RubyAtScale:
 
 - [RubyAtScale toolchain for modularization](https://github.com/rubyatscale)
-- [Gusto's engineering blog](https://engineering.gusto.com/laying-the-cultural-and-technical-foundation-for-big-rails/)
+- [Gusto's engineering blog](https://engineering.gusto.com/laying-the-cultural-and-technical-foundation-for-big-rails-6b5ab78349ed)
 - [Gradual modularization](https://gradualmodularization.com/) (successor to CBRA)
 - [Component-Based Rails Applications](https://cbra.info) ("deprecated")
 

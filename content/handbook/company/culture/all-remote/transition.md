@@ -89,9 +89,9 @@ Clear and proactive internal communication is essential to removing fear and ins
 1. Consider building an applicable guide to starting (or moving into) a remote role, akin to [GitLab's guide on the topic](getting-started/).
 1. Host AMA (Ask Me Anything) sessions to get a better understanding of team member concerns and perspectives, and use that feedback to shape strategy.
 1. Retain workspace consultants to ensure that team members are equipped to work [comfortably and ergonomically in their home](workspace/).
-1. Consider a policy that [reimburses fees associated with co-working spaces](/handbook/spending-company-money), understanding that some employees will thrive in settings that mimic the office.
+1. Consider a policy that [reimburses fees associated with co-working spaces](/handbook/finance/spending-company-money/), understanding that some employees will thrive in settings that mimic the office.
 1. Invest in education, including [conferences](events/), courses, meetups, etc.
-1. Formalize and document an [in-person strategy](in-person/), embracing retreats, [company summits](https://about.gitlab.com/events/gitlab-contribute), etc. to show that bonding in a physical space is still valued.
+1. Formalize and document an [in-person strategy](in-person/), embracing retreats, [company summits](/handbook/company/culture/summit/), etc. to show that bonding in a physical space is still valued.
 1. Prepare for micro-groups to form as people relocate. Leverage [geographic Slack channels](/handbook/communication/chat#location-channels-loc_) to retain community even as people use newfound remote freedoms to move to a locale that is more personally fulfilling.
 1. Get intentional about [informal communication](informal-communication/). With the removal of daily in-person interactions, you'll need to formalize mechanisms such as coffee chats, team social calls, and co-working calls to form and foster relationships.
 
@@ -113,7 +113,7 @@ Expect bumps along the road. As with any significant business transformation, it
 
 Leadership should be completely [transparent](/handbook/values/#transparency) with team members as the transition unfolds. Share headaches and roadblocks as well as successes. This should occur in an agreed channel so that discussion and feedback is centralized, and action items can be clearly disseminated.
 
-[Iteration](/handbook/values/#iteration) is a core value at GitLab, and we strive to [apply iteration to everything](management/#applying-iteration-to-everything) — from [building a product](https://about.gitlab.com/blog/2019/04/26/agile-iteration-unique-onboarding-experience) to shaping our [workspaces](workspace/). This applies to business transformation as well. Implement the [smallest viable change](/handbook/values/#minimal-viable-change-mvc), solicit feedback, and tweak or revert if needed. By taking this approach to transforming your business, you're setting the example for how day-to-day tasks should be managed in a fully remote setting.
+[Iteration](/handbook/values/#iteration) is a core value at GitLab, and we strive to [apply iteration to everything](management/#applying-iteration-to-everything) — from [building a product](https://about.gitlab.com/blog/2019/04/26/agile-iteration-unique-onboarding-experience) to shaping our [workspaces](workspace/). This applies to business transformation as well. Implement the [smallest valuable change](/handbook/values/#minimal-valuable-change-mvc), solicit feedback, and tweak or revert if needed. By taking this approach to transforming your business, you're setting the example for how day-to-day tasks should be managed in a fully remote setting.
 
 ### Iteration requires empowered teams and workers
 

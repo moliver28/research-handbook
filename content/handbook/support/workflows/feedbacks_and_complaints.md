@@ -31,7 +31,7 @@ For feature proposals, guide the customer on how to create the issues in [GitLab
 
 If a customer requests a refund, please follow the [Handling Refund Requests](/handbook/support/license-and-renewals/workflows/billing_contact_change_payments#refunds) workflow.
 
-### Customer Feedback submitted in the ticket, or feedback provided indirectly to a Sales or CSM team member
+### Mid-ticket feedback, or indirect feedback from a Sales or CSM team member
 
 A customer always has the option to submit feedback about their support
 experience via the

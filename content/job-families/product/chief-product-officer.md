@@ -31,7 +31,7 @@ need to make sure that the company is building, shipping and supporting the righ
 - Be passionate about and use the product management features within GitLab like epics and portfolio management.
 - Ensure the flow through the product is great.
 - Manage the process by which ideas are transformed into detailed requirements on a prioritized backlog.
-- Craft minimum viable changes (MVC's) to be made iteratively to our platform.
+- Craft minimal valuable changes (MVC's) to be made iteratively to our platform.
 
 ## Requirements
 
@@ -44,7 +44,7 @@ need to make sure that the company is building, shipping and supporting the righ
 - Experience with hyper-growth, more than 25% QoQ.
 - Experience with growth strategy and data strategy.
 - Ability to take decisions at high velocity.
-- Able to define minimum viable changes.
+- Able to define minimal valuable changes.
 - You are living wherever you want and are excited about the [all remote](/handbook/company/culture/all-remote/) lifestyle
 
 - [Leadership at GitLab](/handbook/company/structure/#e-group)

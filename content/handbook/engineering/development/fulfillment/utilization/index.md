@@ -116,12 +116,14 @@ When going out of office, please be sure to [clearly communicate](/handbook/peop
 
 3. Update your GitLab.com status with your out of office dates by clicking on your profile picture and selecting "Edit Status." For Example: `OOO Back on yyyy-mm-dd` Adding `OOO` to your status message will keep you from appearing in the [reviewer roulette](https://docs.gitlab.com/ee/development/code_review.html#reviewer-roulette).
 
+4. If the planned PTO is more than 3 days, [create a coverage issue](https://gitlab.com/gitlab-org/fulfillment/meta/-/issues/new?issuable_template=em_coverage) to indicate who's helping where and how we all can support each other. If you're unsure if a coverage issue is needed for your planned PTO, please discuss with your engineering manager.
+
 ## Milestone Planning
 
 ### Key dates
 
 | Date | Event |
-| ------ | ------ | ------ |
+| ------ | ------ |
 | The Monday of the week the milestone ends |**PM** creates a Planning Issue and pings the EM(s) in the Planning Issue for review & preliminary weighting.<br><br> **EM and PM** calculate capacity, add to Planning Issue.|
 | Monday to Friday of the week the milestone ends |**EM** & **ICs** add weights to issues in the backend and frontend build boards.|
 | The Friday the milestone ends | **PM** adds ~Deliverable labels to issues.|
@@ -131,20 +133,19 @@ When going out of office, please be sure to [clearly communicate](/handbook/peop
 
 ### How We Prioritize Issues
 
-We have [cross-functional prioritization](/handbook/product/cross-functional-prioritization/) process that is aligned with our prioritization framework.
+We have [cross-functional prioritization](/handbook/product/product-processes/cross-functional-prioritization/) process that is aligned with our prioritization framework.
 
 #### Responsibilities
 
 - The Product Manager will prioritize `type::feature` issues
 - The Engineering Manager will prioritize `type::maintenance` issues
 - The Software Engineer in Test will prioritize `type::bug` issues
-- The Product Designer will prioritize `sus::impacting` issues ([System Usability Scale (SUS)](/handbook/engineering/infrastructure/engineering-productivity/issue-triage/#sus-impacting))
+- The Product Designer will prioritize `bug::ux` issues ([System Usability Scale (SUS)](/handbook/engineering/infrastructure/engineering-productivity/issue-triage/#ux-bugs))
 
 #### Mechanics
 
-- The team uses the [#g_utilization_planning](https://gitlab.slack.com/archives/C04108X3FDG) Slack channel to discuss cross-functional prioritization.
-- The team reviews [this dashboard](/handbook/engineering/metrics/dashboards/) which shows the distribution of MRs that are bugs, maintenance, and features to ensure the team's efforts are properly aligned to our target prioritization ratio (60% features / 30% maintenance / 10% bugs).
-- The team uses [this prioritization board](https://gitlab.com/gitlab-org/gitlab/-/boards/4416231?label_name%5B%5D=group%3A%3Autilization) to order our top features, bugs, maintenance, and [System Usability Scale (SUS)](/handbook/engineering/infrastructure/engineering-productivity/issue-triage/#sus-impacting) impacting issues.
+- The team reviewus [this dashboard](/handbook/product/groups/product-analysis/engineering/dashboards/#mr-types-dashboard) which shows the distribution of MRs that are bugs, maintenance, and features to ensure the team's efforts are properly aligned to our target prioritization ratio (60% features / 30% maintenance / 10% bugs).
+- The team uses [this prioritization board](https://gitlab.com/gitlab-org/gitlab/-/boards/4416231?label_name%5B%5D=group%3A%3Autilization) to order our top features, bugs, maintenance, and [System Usability Scale (SUS)](/handbook/engineering/infrastructure/engineering-productivity/issue-triage/#ux-bugs) impacting issues.
 - For a quick view and controls on bugs by priority, [this board](https://gitlab.com/groups/gitlab-org/-/boards/2874336?label_name[]=group%3A%3Autilization&label_name[]=type%3A%3Abug) can be used. More detailed information on bugs, including backlog and open rate, both of which are factors in determining their desired bug percentage for the upcoming milestone, is shown in this [dashboard](https://10az.online.tableau.com/t/gitlab/views/OpenBugAgeOBA/BugPrioritizationDashboard) (select Utilization from filters).
 - The team collaborates on a prioritization issue that documents and discusses our current prioritization scheme.
 
@@ -456,7 +457,9 @@ Other boards where previous requests are tracked:
 
 Following a similar process to Milestone Retrospectives, we employ [Iteration Retrospectives](https://gitlab.com/gitlab-com/www-gitlab-com/-/merge_requests/82623) on a quarterly basis.
 
-#### [May 2021](https://gitlab.com/gitlab-org/fulfillment-meta/-/issues/234)
+#### May 2021
+
+[May 2021](https://gitlab.com/gitlab-org/fulfillment-meta/-/issues/234)
 
 **Key Takeaways**
 
@@ -554,4 +557,4 @@ a typical DRI.
   {{< tableau/filters "GROUP_LABEL"="utilization" >}}
 {{< /tableau >}}
 
-You can find more centralized engineering metrics at [this page](/handbook/engineering/metrics/dashboards/).
+You can find more centralized engineering metrics at [this page](/handbook/product/groups/product-analysis/engineering/dashboards/).

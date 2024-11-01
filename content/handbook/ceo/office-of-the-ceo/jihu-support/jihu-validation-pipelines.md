@@ -1,8 +1,5 @@
 ---
 title: JiHu validation pipelines
-aliases:
-- /handbook/ceo/office-of-the-ceo/jihu-support/jihu-validation-pipelines/
-- /handbook/ceo/chief-of-staff-team/jihu-support/jihu-validation-pipelines/
 ---
 
 ## JiHu validation pipelines
@@ -45,6 +42,6 @@ or merge request, and move on.
 
 If nothing can be found, follow this workflow:
 
-- Create an issue and notify JiHu for the potential breakage. You can contact [@chaomao](https://gitlab.com/chaomao)
+- Create an issue and notify JiHu for the potential breakage. You can contact [@qianzhangxa](https://gitlab.com/qianzhangxa)
 - Add `~"JiHu impacted"` label to the merge request so we can track this.
 - (Bonus) Investigate the failure and follow up accordingly. This can be telling JiHu why and how the failure can happen, or what they need to do or what they need to change. To better support them, figuring out a way so they can more easily follow up is encouraged.

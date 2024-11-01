@@ -91,7 +91,7 @@ Follow this process to obtain legal review of a **single piece of material**. A 
     - no
 
     ## Is the material subject to mandatory review?
-    <!-- Delete as appropriate and refer to the definition of mandatory review: https://about.gitlab.com/handbook/legal/materials-legal-review-process/#mandatory-review -->
+    <!-- Delete as appropriate and refer to the definition of mandatory review: https://handbook.gitlab.com/handbook/legal/materials-legal-review-process/#mandatory-review -->
     - yes <!-- if yes, identify the type of material from the list of materials subject to mandatory review -->
     - no
 

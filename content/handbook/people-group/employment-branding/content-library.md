@@ -44,6 +44,7 @@ These awards and lists recognize GitLab's unique culture and help us spread the 
 
 <details><summary>2024</summary>
 
+- [Best Workplaces in Technology, Large, Fortune, 2024](https://www.greatplacetowork.com/best-workplaces/technology/2024?category=large)
 - [Best Places to Work, Builtin, 2024](https://builtin.com/awards/remote/2024/best-large-places-to-work?utm_source=bambu&utm_medium=social&utm_campaign=advocacy&blaid=5510421)
 - [Great Place to Work Certified, 2024-2025](https://www.greatplacetowork.com/certified-company/7013799)
 - [Best Workplaces in the Bay Area, Fortune, 2024](https://www.greatplacetowork.com/best-workplaces/bay-area/2024?mkt_tok=NTIwLUFPTy05ODIAAAGToW2DF6DFcjmJx7mX7Syzanz8QeeemZx_ylMFFyzwjw4hUz3QiiDbC29FO4FzTp8lEg3nb3Ksh9d-AhfrRKRT91u0o3ZYYgG_X3-uc58fXUxJsw)
@@ -62,19 +63,19 @@ These awards and lists recognize GitLab's unique culture and help us spread the 
 
 - [Best Workplaces for Parents, Fortune, 2022](https://www.greatplacetowork.com/best-workplaces-parents?mkt_tok=NTIwLUFPTy05ODIAAAGIch_eubKDhGDzybtHOPnrcxe8dgsYnuW1QwdVR2XCewDx-EJjcFjfAJYwniK6cFNS-VLk-V5Kk2hzXRcCz-XNjpJys6F6_QGqCaPBDJxQtoJPDA)
 - [Best Companies for Remote Workers, Quartz, 2022](https://qz.com/list/best-companies-to-work-from-home-2022/gitlab-5)
-- [Best Workplaces in Technology, Small & Medium, Fortune, 2022](https://fortune.com/best-small-workplaces-technology/2022/gitlab/)
+- [Best Workplaces in Technology, Small & Medium, Fortune, 2022](https://fortune.com/company/gitlab/)
 - [Best Workplaces for Millennials, Fortune, 2022](https://www.greatplacetowork.com/best-workplaces/millennials/2022?category=small-and-medium)
 - [Best Workplaces for Innovators, Fast Company, 2022](https://www.fastcompany.com/best-workplaces-for-innovators/list)
-- [Best Medium Workplaces, Fortune, 2022](https://fortune.com/best-medium-workplaces/2022/gitlab/)
+- [Best Medium Workplaces, Fortune, 2022](https://fortune.com/company/gitlab/)
 - [Great Place to Work Certified, 2021-2022](https://www.greatplacetowork.com/certified-company/7013799)
-- [Best Workplaces in the SF Bay Area, Fortune, 2022](https://www.greatplacetowork.com/best-companies-in-the-us/)
+- [Best Workplaces in the SF Bay Area, Fortune, 2022](https://www.greatplacetowork.com/best-companies-in-the-us)
 
 </details>
 
 <details><summary>2021</summary>
 
 - [Best Tech Companies For Remote Jobs in 2021 according to Glassdoor, Forbes](https://www.forbes.com/sites/louiscolumbus/2020/12/20/the-best-tech-companies-for-remote-jobs-in-2021-according-to-glassdoor/?sh=2922f81c2ceb)
-- [Fortune's Best Small & Medium Workplaces in 2020](https://www.greatplacetowork.com/best-workplaces/smb/2020?category=medium)
+- [Fortune's Best Small & Medium Workplaces in 2020](https://www.greatplacetowork.com/best-workplaces/medium/2020)
 - [Great Place to Work Certified, 2020-2021](https://www.greatplacetowork.com/certified-company/7013799)
 - [Best Engingeering Departments, Comparably, 2021](https://www.businessinsider.com/companies-with-the-best-engineering-teams-according-to-employees-comparably-2021-4#here-is-the-full-list-of-companies-with-the-best-engineering-departments-26)
 

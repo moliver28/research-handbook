@@ -37,9 +37,11 @@ Systems that fall outside of the threshold of the above in-scope system factors.
 | Role | Responsibility |
 | :---: | :---: |
 | Security Compliance Team | *Execution of Full Entitlement Review, Privilaged Access, Terminated User Reviews<br><br>* Creation of observations and oversight of remediation activities for any identified findings|
+| IT Compliance Team | *Execution of Full Entitlement Review, Privilaged Access, Terminated User Reviews for SOX in-scope systems<br><br>* Creation of observations and oversight of remediation activities for any identified findings|
 | System Owners | *Validation of privileged entitlements<br><br>* Validation of user entitlements<br><br>*Timely evidence support <br><br>* Execution of remediation plans for identified observations<br><br>* Execution of access removal(s)|
-| IT Operations | * Execution of access removal(s)|
+| System Administrators | *Validation of privileged entitlements<br><br>* Validation of user entitlements<br><br>*Timely evidence support <br><br>* Execution of remediation plans for identified observations<br><br>* Execution of access removal(s)|
 | Managers | *Support validation of privileged entitlements<br><br>* Support validation of user entitlements|
+| IT Operations | * Execution of access removal(s)|
 | Security Assurance Management (Code Owners) | Responsible for approving significant changes and exceptions to this procedure |
 
 ## What is Authomize and why do I have an Okta tile for it?
@@ -64,12 +66,14 @@ In the event access is identified to no longer be required, open an [Access Remo
 
 If you have any questions or require assistance with completing an access review, please [contact the GitLab Security Compliance team]({{< ref "../security-compliance" >}}).
 
-### Annual Access Review Cadence
+### Access Review Cadence
 
 - In-scope:
+  - Annual Entitlement Reviews for all users - system specific
   - Quarterly Terminated User Access Reviews - system specific
   - Quarterly Entitlement Reviews for privileged users - system specific
-  - Annual Entitlement Reviews for all users - system specific
+  - Bi-Annual Entitlement Reviews for all users - system specific based on origin/criticality/risk impact
+  - 2 or 3 year review cycle - system specific based on origin/criticality/risk impact
 - [SOX In-Scope Appplications](https://gitlab.com/groups/gitlab-com/internal-audit/-/wikis/IT-General-Controls)
   - Quarterly Entitlement Reviews for all users
 
@@ -81,7 +85,7 @@ If appropriateness of access cannot be verified as part of the review or a syste
 
 ## Additional Guidance
 
-### Timing of Quarterly Access Reviews
+### Timing of Access Reviews
 
 - Access reviews are targeted to be completed within 1 month from when the system listing is exported to completion of all steps of the review. By completing the access review within a month's timeframe, we ensure the access data has not become stale. If any components of an access review are not completed within the quarter they are initiated, the review would likely be considered ineffective for compliance purposes making the month timeline all the more important to adhere to.
 
@@ -163,7 +167,7 @@ Exceptions to this procedure will be tracked as per the [Information Security Po
 ## <i class="fas fa-book" style="color:rgb(110,73,203)" aria-hidden="true"></i> References
 
 - [Identification & Authentication Security Controls]({{< ref "sec-controls" >}})
-- [Access Requests handbook page](/handbook/business-technology/end-user-services/onboarding-access-requests/access-requests/)
+- [Access Requests handbook page](/handbook/it/end-user-services/onboarding-access-requests/access-requests/)
 - [Access Management Policy]({{< ref "access-management-policy" >}})
 
 <a href="{{< ref "security-assurance" >}}" class="btn bg-primary text-white btn-lg">Return to the Field Security Homepage</a>

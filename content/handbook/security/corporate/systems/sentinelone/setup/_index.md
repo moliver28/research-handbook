@@ -22,7 +22,7 @@ echo '!/opt/sentinelone/mount' | sudo tee -a /etc/aide.conf
 
 > These steps are only needed for **Linux** laptops. SentinelOne is already automatically installed on macOS by Jamf MDM.
 
-1. Make sure you are using an approved [Linux distribution](/handbook/security/corporate/services/laptops/security/os).
+1. Make sure you are using an approved [Linux distribution](https://internal.gitlab.com/handbook/it/it-self-service/operating-systems/#linux).
 
 1. [Download](https://gitlab.com/gitlab-com/it/security/sentinelone-installers) the configuration file and the installer (DEB/RPM).
 

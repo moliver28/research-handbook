@@ -48,4 +48,4 @@ If you are [eligible]({{< ref "general-and-entity-benefits#parental-leave" >}}),
 
 ### Applying for Parental Leave in Korea
 
-To initiate your parental leave, submit your time off by selecting the `Parental Leave` category in Time Off by Deel at least 30 days before your leave starts. Please familiarize yourself with [GitLab's Parental Leave policy]({{< ref "general-and-entity-benefits#parental-leave" >}}).
+To initiate your parental leave, submit your time off by selecting the `Parental Leave` category in Workday at least 30 days before your leave starts. Please familiarize yourself with [GitLab's Parental Leave policy]({{< ref "general-and-entity-benefits#parental-leave" >}}).

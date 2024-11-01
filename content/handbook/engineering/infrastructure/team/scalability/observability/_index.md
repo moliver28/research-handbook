@@ -1,5 +1,4 @@
 ---
-aliases: /handbook/engineering/infrastructure/team/scalability/observability.html
 title: "Scalability:Observability Team"
 ---
 
@@ -37,10 +36,10 @@ The following gives an overview of our scope and ownership.
 1. [Monitoring fundamentals](https://gitlab.com/gitlab-com/runbooks/blob/e00eeb59937a9043c5db04314a35acb05c4e9288/docs/monitoring/README.md#L1)
    1. Metrics stack
    1. Logging stack
-1. [Error budgets](/handbook/engineering/infrastructure/team/scalability/observability/error_budgets.html)
+1. [Error budgets](/handbook/engineering/infrastructure/team/scalability/observability/error_budgets/)
    1. Ownership of concept and implementation
    1. Delivery of monthly error budget report
-1. [Capacity planning](/handbook/engineering/infrastructure/team/scalability/observability/capacity_planning.html)
+1. [Capacity planning](/handbook/engineering/infrastructure/team/scalability/observability/capacity_planning/)
    1. [Triage rotation for .com](/handbook/engineering/infrastructure/capacity-planning/#gitlabcom-capacity-planning)
    1. [Operational aspects for GitLab Dedicated capacity planning](https://docs.gitlab.com/ee/architecture/blueprints/capacity_planning/)
    1. Developing [Tamland](https://gitlab.com/gitlab-com/gl-infra/tamland), the forecasting tool
@@ -53,7 +52,7 @@ The following gives an overview of our scope and ownership.
 The group is an owner of several performance indicators that roll up to the Infrastructure department indicators:
 
 1. [Service Maturity model](/handbook/engineering/infrastructure/service-maturity-model/) which covers GitLab.com's production services.
-1. The forecasting [project named Tamland](/handbook/engineering/infrastructure/team/scalability/observability/tamland.html) which generates capacity warnings to prevent incidents.
+1. The forecasting [project named Tamland](/handbook/engineering/infrastructure/team/scalability/observability/tamland/) which generates capacity warnings to prevent incidents.
 
 These are combined to enable us to better prioritize team projects.
 
@@ -74,6 +73,10 @@ The team are responsible for provisioning access to the services listed below, a
 ## How we work
 
 We default to working inline with the GitLab [values](/handbook/values/) and by following the processes of the wider [SaaS Platforms section](/handbook/engineering/infrastructure/platforms/project-management/) and [Scalability group](/handbook/engineering/infrastructure/team/scalability/#how-we-work). In addition to this, listed below are some processes that are specific, or particularly important, to how we work in Scalability:Observability.
+
+### Project Sizing
+
+Projects will be staffed by at least three engineers from the team, and preferably from both SRE and BE roles.  This will allow us to share knowledge and keep projects moving forward when people are unavailable.
 
 ### Issue management
 
@@ -124,9 +127,14 @@ There is no strict frequency for posting updates, although we strive to make upd
 
 When posting updates, consider providing enough context (e.g. through links) so that interested team members are able to dive in on their own ([low context](/handbook/communication/#top-tips-and-best-practices)).
 
+### Cost Management
+
+For details on the daily operational costs of our observability services refer to the [Cost of Observability Stack](cost.md) documentation. This resource includes access instructions and cost breakdowns.
+
 ## History and Accomplishments
 
 This section contains notes on team history and our accomplishments, but is not meant to be exhaustive.
 
 * 2024-02, Capacity planning: [Proactive investigation of postgres CPU spike seen in saturation forecast](https://gitlab.com/gitlab-com/gl-infra/capacity-planning-trackers/gitlab-com/-/issues/1668#note_1807225359) uncovered a [database design issue](https://gitlab.com/gitlab-org/gitlab/-/issues/435250)
 * 2024-03, Capacity planning: [Tamland predicted redis CPU saturation which led to Practices proactively scaling Redis](https://gitlab.com/gitlab-com/gl-infra/capacity-planning-trackers/gitlab-com/-/issues/1712) ([slides](https://docs.google.com/presentation/d/1y58mgaUrpu1dBO_bKVLfDUez9lz-ETLE7E1yksDjAbY/edit#slide=id.g2cc1c00d163_5_4))
+* 2024-05, Metrics: [The migration from Thanos to Mimir was completed](https://gitlab.com/groups/gitlab-com/gl-infra/-/epics/1107) which brought [significant improvements](https://gitlab.com/groups/gitlab-com/gl-infra/-/epics/1107#outcome) in metrics accuracy and dashboard performance.

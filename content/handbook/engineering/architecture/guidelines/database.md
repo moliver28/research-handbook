@@ -2,7 +2,7 @@
 title: "Database"
 ---
 
-GitLab is a [single application](/handbook/product/single-application/) that relies on a [single data store](/handbook/product/single-application/#single-data-store) (terminology we use in the context of stringent durability requirements, e.g., PostgreSQL as opposed to Redis).
+GitLab is a [single application](/handbook/product/categories/gitlab-the-product/single-application/) that relies on a [single data store](/handbook/product/categories/gitlab-the-product/single-application/#single-data-store) (terminology we use in the context of stringent durability requirements, e.g., PostgreSQL as opposed to Redis).
 
 This directive drives GitLab's product development: while GitLab is [*SaaS first*](https://about.gitlab.com/direction/#product-strategy), it is not *SaaS only*. In terms of databases, GitLab supports self-managed configurations with a single database cluster, generally through the use of logical databases. Only at scale do we contemplate unfolding the single cluster into multiple ones, as GitLab.com does. This implies that the code base stays stable and can leverage flexible backend strategies to address scalability. Self-managed and GitLab.com will continue to operate as a single application, and self-managed in particular will continue to provide simplicity while offering the flexibility to scale.
 

@@ -1,5 +1,5 @@
 ---
-title: Image resizing for avatars and content images
+title: "Image resizing for avatars and content images"
 status: implemented
 creation-date: "2020-10-21"
 authors: [ "@craig-gomes" ]

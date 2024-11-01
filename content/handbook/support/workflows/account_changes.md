@@ -1,20 +1,20 @@
 ---
-title: Making Changes and Taking Actions on an Account
+title: Making Changes and Taking Actions on a user's behalf
 category: GitLab.com
 subcategory: Accounts
-description: "Workflow for when and how to make account changes on behalf of a customer"
+description: Workflow for responding to requests to make changes or take action on behalf of a GitLab.com user
 ---
 
 ## Overview
 
-This workflow focuses on the process when action is required by the Support team on behalf of the user.
+This workflow focuses on the process when action is required by the Support team on behalf of a GitLab.com user.
 
 The main situations where action may need to be taken on behalf of the user:
 
 1. Project/Group Changes
 1. Account Access Requests
 1. Releasing an Email Address
-1. Primary email change of an enterprise user.
+1. Primary email change of an enterprise user
 
 ### User Action First
 
@@ -47,9 +47,8 @@ If ownership is verified, then:
 1. [Confirm permission for the changes](#asking-permission).
 1. Add an [Admin Note](/handbook/support/workflows/admin_note) to the user's account.
 
-Example cases include:
+Example:
 
-1. Swapping secondary email with primary email due to primary email being unconfirmed or non-existent. If the requester is a free user, manager approval is needed. Available until [gitlab#416451](https://gitlab.com/gitlab-org/gitlab/-/issues/416451) is implemented.
 1. Removing an identity tied to the user account. The identity should also be verified in these cases.
 
 ## Releasing an Email Address

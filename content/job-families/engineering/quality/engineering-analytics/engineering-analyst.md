@@ -81,7 +81,7 @@ The Senior Engineering Analyst role extends the [Engineering Analyst](#engineeri
 - An expert in data domain of assigned Engineering Department.
 - Attend and ensure key-review readiness of assigned Engineering Department.
 - Occasionally represent Engineering Analytics in broad company communication and announcements.
-- Occasionally contribute to the company's strategic Data direction in collaboration with the [Data team](/handbook/business-technology/data-team/#data-job-families).
+- Occasionally contribute to the company's strategic Data direction in collaboration with the [Data team](/handbook/enterprise-data/#data-job-families).
 - Influence the overall objectives and long-range goals of the Engineering Analytics team.
 
 ### Staff Engineering Analyst

@@ -1,5 +1,5 @@
 ---
-title: Self-Hosted Model Deployment
+title: "Self-Hosted Model Deployment"
 status: proposed
 creation-date: "2024-03-29"
 authors: [ "@sean_carroll", "@eduardobonet" ]
@@ -10,8 +10,6 @@ participating-stages: []
 toc_hide: true
 ---
 
-<!-- Blueprints often contain forward-looking statements -->
-<!-- vale gitlab.FutureTense = NO -->
 {{< design-document-header >}}
 
 This Blueprint describes support for customer self-deployments of Mistral LLMs as a backend for GitLab Duo features, as an alternative to the default Vertex or Anthropic models offered on GitLab Dedicated and .com. This initiative supports both internet connected and air-gapped GitLab deployments.
@@ -37,7 +35,6 @@ Other features that are goals of the Custom Models group and which may have some
 - RAG
 - Fine Tuning
 - GitLab managed hosting of open source models, other than the current supported third party models.
-- Bring Your Own API Key (BYOK)
 
 ## Proposal
 
@@ -107,15 +104,12 @@ In the initial implementation a single self-hosted Model will be supported, but 
 
 ### AI Gateway Deployment
 
-Customers will be required to deploy a local instance of the AI Gateway in their own infrastructure. The initial means to do this is via Docker container, as described [in this issue](https://gitlab.com/gitlab-org/gitlab/-/issues/452489).
+Customers will be required to deploy a local instance of the AI Gateway in their own infrastructure. The AI Gateway can be installed using:
 
-Self-hosted Runway will be the preferred delivery mechanism for deploying the AI Gateway. Future options, in order of preference are:
+- [Docker](https://docs.gitlab.com/ee/administration/self_hosted_models/install_infrastructure.html#install-by-using-docker)
+- [Helm Chart](https://docs.gitlab.com/ee/administration/self_hosted_models/install_infrastructure.html#install-by-using-the-ai-gateway-helm-chart)
 
-- Runway [discussion](https://gitlab.com/gitlab-com/gl-security/security-assurance/fedramp/fedramp-certification/-/issues/452#note_1832261170)
-- Kubernetes deployment [issue](https://gitlab.com/gitlab-org/gitlab/-/issues/452490)
-- Omnibus packaging [issue](https://gitlab.com/gitlab-org/omnibus-gitlab/-/issues/8467)
-
-It should be noted that deployment by Docker container is a temporary measure only, and will be superceeded by the three options listed above.
+The AI Gateway container is published to the [GitLab Container Registry](https://gitlab.com/gitlab-org/modelops/applied-ml/code-suggestions/ai-assist/container_registry/) and [DockerHub](https://hub.docker.com/repository/docker/gitlab/model-gateway/tags) on every GitLab Release.
 
 ### Prompt Support
 
@@ -123,15 +117,51 @@ For each supported model and supported GitLab Duo feature, prompts will be devel
 
 When the standard prompts are migrated into either the AI Gateway or a prompt template repository (direction is to be determined), the prompts supporting self-hosted models will also be migrated.
 
-### Supported LLMs
+### LLM Hosting Support
 
-- [Mistral-7B-v0.1](https://huggingface.co/mistralai/Mistral-7B-v0.1)
-- [Mixtral-8x7B-instruct](https://huggingface.co/mistralai/Mixtral-8x7B-Instruct-v0.1)
-- [Mixtral 8x22B](https://huggingface.co/mistral-community/Mixtral-8x22B-v0.1)
-- [CodeGemma 7B IT](https://huggingface.co/google/codegemma-7b-it)
-- [CodeGemma 2B](https://huggingface.co/google/codegemma-2b)
+Self-Hosted models are supported running as on-premises on customer internal infrastructure or in a private space on cloud providers:
 
-Installation instructions will be added to the Developer documentation. [issue](https://gitlab.com/gitlab-org/gitlab/-/issues/452509)
+- [AWS Bedrock](https://aws.amazon.com/bedrock/)
+- [Microsoft Azure OpenAI Service](https://azure.microsoft.com/en-us/products/ai-services/openai-service)
+
+Specific model support by cloud provider is listed below. The GitLab AI Gateway also needs to be installed, and the Docker container is accessible on [DockerHub](https://hub.docker.com/repository/docker/gitlab/model-gateway/tags) and the [GitLab Container Registry](https://gitlab.com/gitlab-org/modelops/applied-ml/code-suggestions/ai-assist/container_registry/).
+
+For details on what Duo features are supported by model, see [this documentation page](https://docs.gitlab.com/ee/administration/self_hosted_models/install_infrastructure.html#install-large-language-model-serving-infrastructure)
+
+#### Self-Hosted inference
+
+| Model                        | Availability    |
+|------------------------------|-----------------|
+| Mistral 7B                   | Beta         |
+| Mixtral 8x7B                 | Beta         |
+| Mixtral 8x7B Instruct        | Beta         |
+| Mixtral 8x22B                | Beta         |
+| Codestral 22B                | Beta         |
+| CodeGemma 2B                 | Beta            |
+| CodeGemma 7B-code            | Beta            |
+| Code-Llama 13B               | Beta            |
+| DeepSeek Coder 33B Instruct  | Beta            |
+| DeepSeek Coder 33B Base      | Beta            |
+
+#### Inference on AWS Bedrock
+
+| Model                        | Availability    |
+|------------------------------|-----------------|
+| Mistral 7B                   | Beta         |
+| Mixtral 8x7B                 | Beta         |
+| Mixtral 8x7B Instruct        | Beta         |
+| Mixtral 8x22B                | Beta         |
+| Codestral 22B                | Beta        |
+| Claude 3.5 Sonnet            | Beta         |
+| Claude 3 Haiku               | Beta         |
+
+#### Inference on Microsoft Azure
+
+| Model                        | Availability    |
+|------------------------------|-----------------|
+| OpenAI 4o                    | Beta       |
+
+Installation instructions are available in the [Developer documentation](https://docs.gitlab.com/ee/administration/self_hosted_models/install_infrastructure.html).
 
 #### RAG / Duo Chat tools
 
@@ -216,7 +246,3 @@ In this out-of-scope architecture .com customers point to self-managed models. T
 ##### GitLab Dedicated
 
 Support will not be provided for Dedicated customers to use a self-hosted AI Gateway and self-hosted models. Dedicated customers who use GitLab Duo features can access them via the .com AI Gateway. If there is customer demand for self-managed models for Dedicated customers, this can be considered in the future.
-
-##### Externally hosted models
-
-It is expected that customers will self-host models.

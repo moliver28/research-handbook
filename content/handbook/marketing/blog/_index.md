@@ -36,6 +36,8 @@ Please create an issue using the [blog submission template](https://gitlab.com/g
 
 The blog editor will review the pitch and either a) greenlight the post, b) offer suggestions for improvements, or c) explain why the idea might not be a fit for the blog and offer other ideas for getting the message out.
 
+**Note: You can also notify the Blog team of a typo or request a change via the [blog submission template](https://gitlab.com/gitlab-com/marketing/brand-product-marketing/content-strategy-and-ops/blog/-/issues/new?issuable_template=blog-post-submission).
+
 ### External contributions
 
 **Note:** GitLab does not accept unsolicited blog submissions. If you are a GitLab partner and would like to pitch a blog post idea for consideration, please [email sgittlen@gitlab.com](mailto:sgittlen@gitlab.com). If you are a GitLab community member and would like to pitch a blog post idea for consideration, please [email contributors@gitlab.com](mailto:contributors@gitlab.com). Please DO NOT SEND drafts of your blogs with your pitch.
@@ -228,7 +230,7 @@ We limit media embeds to the following providers:
 
 ### Adding code blocks
 
-Below are the two types of code blocks we commonly use on the blog. Find a number of other options in the [Markdown guide](/handbook/markdown-guide/#code-blocks).
+Below are the two types of code blocks we commonly use on the blog. Find a number of other options in the [Markdown guide](https://about.gitlab.com/community/markdown-guide-middleman/#code-blocks).
 
 #### Inline code
 
@@ -325,11 +327,11 @@ to exemplify your steps `domain.com`, be consistent and keep it `domain.com`, th
 
 #### Embedding videos
 
-Please see the [Markdown Guide](/handbook/markdown-guide/#display-videos-from-youtube) for instructions for embedding videos from YouTube and other sources.
+Please see the [Markdown Guide](https://about.gitlab.com/community/markdown-guide-middleman/#display-videos-from-youtube) for instructions for embedding videos from YouTube and other sources.
 
 #### Embedding tweets or Instagram posts
 
-Please see the [Markdown guide for instructions for embedding posts from social media](/handbook/markdown-guide/#embed-tweets).
+Please see the [Markdown guide for instructions for embedding posts from social media](https://about.gitlab.com/community/markdown-guide-middleman/#embed-tweets).
 
 #### Creating GIFs
 

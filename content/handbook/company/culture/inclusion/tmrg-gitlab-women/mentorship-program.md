@@ -44,19 +44,18 @@ Don't take our word for it - check out what mentors and mentees at GitLab have t
 
 ## Current Program Timeline
 
-Fill out [this Google form](https://docs.google.com/forms/d/e/1FAIpQLSf5yUA-H0RSeQSA8gj3_2mcdzZJkKLCsU-be-Ygdw5KfCSVLw/viewform?usp=sf_link) to be notified of mentorship programs happening in FY24!
+Fill out [this Google form](https://docs.google.com/forms/d/e/1FAIpQLSf5yUA-H0RSeQSA8gj3_2mcdzZJkKLCsU-be-Ygdw5KfCSVLw/viewform?usp=sf_link) to be notified of mentorship programs happening in FY25!
 
 | Date | Description | Related Resources |
 | ----- | ----- | ----- |
-| May 2023 | Discuss program details with Women's TMRG group meeting |  |
-| 2023-06-12  | Call for Mentors | Applications are currently closed. |
-| 2023-06-12 | Call for Mentees | Applications are currently closed. |
-| 2023-06-23  | Applications Close | |
-| 2023-06-30   | Pairing of mentor relationships complete and communicated to applicants | |
-| By 2023-07-14   | Pre-Program survey sent via Culture Amp | |
-| By 2023-07-14 | Mentor/Mentee pre-program coffee chats | |
-| 2023-07-12 and 2023-07-13  | Initial program Kickoff meeting |  |
-| Week of 2023-11-30 | End of program feedback due |  |
+| 2024-09-23  | Call for Mentors |  |
+| 2024-09-23 | Call for Mentees |  |
+| 2024-10-06  | Applications Close | |
+| 2024-10-30   | Pairing of mentor relationships complete and communicated to applicants | |
+| By 2024-11-04   | Pre-Program survey sent via Culture Amp | |
+| By 2024-11-14 | Mentor/Mentee pre-program coffee chats | |
+| TBA  | Initial program Kickoff meeting |  |
+| Week of 2025-02-01 | End of program feedback due |  |
 
 ## Being a Mentor
 

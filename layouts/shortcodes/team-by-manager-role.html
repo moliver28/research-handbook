@@ -9,13 +9,15 @@
   {{- with (.Get "role") }}
     {{- $managerRole = . }}
   {{- else }}
-    {{- errorf "The %q shortcode requires a single positional argument for manger-role."}}
+    {{- errorf "The %q shortcode requires a single positional argument for manager-role."}}
   {{- end }}
 {{- end }}
 
 {{- $manager := index (where site.Data.public.team "role" "like" $managerRole) 0 }}
 {{- $members := slice }}
-{{- $members = where site.Data.public.team "reports_to" "eq" $manager.slug }}
+{{- if $manager.slug }}
+  {{- $members = where site.Data.public.team "reports_to" "eq" $manager.slug }}
+{{- end }}
 {{- with (.Get "team") }}
   {{- $members = where $members "role" "like" . }}
 {{- end }}

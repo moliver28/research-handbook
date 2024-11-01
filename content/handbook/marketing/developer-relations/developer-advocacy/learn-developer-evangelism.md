@@ -1,7 +1,5 @@
 ---
 title: "Learn Developer Advocacy"
-aliases:
-- /handbook/marketing/developer-relations/developer-evangelism/learn-developer-evangelism/index.html
 ---
 
 ## What is advocacy?

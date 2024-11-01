@@ -6,9 +6,8 @@ description: "This page has all the information for the GTM-CICD sales play."
 
 Note: Think of a sales play as a recipe. If you follow the recipe, we can achieve more predictable, consistent results. And if we find an asset or approach that works best (or flops), then we can tweak the recipe to continuously improve. **If you have improvements to suggest, please contribute comments to [this MR](https://gitlab.com/gitlab-com/marketing/strategic-marketing/product-marketing/-/issues/5095) to suggest your edits and upvote on others.
 
-## Jump to [Sales Play Tactics](#sales-play-tactics)
-
-### [Sales Play Quick Reference Guide](https://docs.google.com/presentation/d/1F0aZ4k9NutSwYDBCiXF4AcwprBPDcsISvAOYb7NgepM/edit?usp=sharing)
+* Jump to [Sales Play Tactics](#sales-play-tactics)
+* [Sales Play Quick Reference Guide](https://docs.google.com/presentation/d/1F0aZ4k9NutSwYDBCiXF4AcwprBPDcsISvAOYb7NgepM/edit?usp=sharing) (internal)
 
 ## Overview
 
@@ -152,11 +151,13 @@ Advantages of a single application for DevOps and Security together include unpa
    * Especially important to regulated industries like government and Financial Services
    * Most scanners require punching out of the secured network for the latest security rules/updates. We can containerize these for running in a disconnected environment.
 1. Vulnerability management (vs point solutions)
-   * Traditional app sec vendors (Veracode, Fortify, Synopsis) sell a Security Center to manage vulnerabilities found from each of their scanners (all sold separately!). GitLab not only comes with vulnerability management, but it's in the same tool that the developers use so nothing is lost in translation. In addition, you can easily pull in third party scan results into the CI pipeline (MR) to compare findings, somewhat similar to [ThreadFix](https://threadfix.it/). Is your customer paying for this or other tools to do this?
+   * Traditional app sec vendors (Veracode, Fortify, Synopsis) sell a Security Center to manage vulnerabilities found from each of their scanners (all sold separately!). GitLab not only comes with vulnerability management, but it's in the same tool that the developers use so nothing is lost in translation. In addition, you can easily pull in third party scan results into the CI pipeline (MR) to compare findings, somewhat similar to [ThreadFix](https://coalfire.com/services/security). Is your customer paying for this or other tools to do this?
 
 *see provided link for additional details including value and videos*
 
-### [Proof points](/handbook/marketing/brand-and-product-marketing/product-and-solution-marketing/usecase-gtm/devsecops/#proof-points---customers)
+### Proof points
+
+[Proof points](/handbook/marketing/brand-and-product-marketing/product-and-solution-marketing/usecase-gtm/devsecops/#proof-points---customers)
 
 ## Objection handling
 

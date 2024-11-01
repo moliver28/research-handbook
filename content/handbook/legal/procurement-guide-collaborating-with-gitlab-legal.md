@@ -47,7 +47,7 @@ Use of competitors' services: [Guidelines](https://internal.gitlab.com/handbook/
 ## NDA Process
 
 - Prior to exchanging any confidential information, GitLab and a potential Vendor should execute a Mutual Non-Disclosure Agreement. This will ensure the adequate protection of any / all information shared.
-- Follow the [Non-Disclosure Agreement process](/handbook/legal/NDA/) to send an NDA via DocuSign or request one if you do not have DocuSign access.
+- Follow the [Non-Disclosure Agreement process](/handbook/legal/nda/) to send an NDA via DocuSign or request one if you do not have DocuSign access.
 - NOTE: If a potential vendor requires the use of their NDA template, please follow the process located on the [Procurement Page](/handbook/finance/procurement/) which will initiate the legal review process.
 
 ## Negotiating Terms

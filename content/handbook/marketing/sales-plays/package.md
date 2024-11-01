@@ -6,7 +6,9 @@ description: "This page has all the information for the expand with Package sale
 
 Note: Think of a sales play as a recipe. If you follow the recipe, we can achieve more predictable, consistent results. And if we find an asset or approach that works best (or flops), then we can tweak the recipe to continuously improve. **If you have improvements to suggest, please contribute comments to [this issue](https://gitlab.com/gitlab-com/Product/-/issues/4440) to suggest your edits and upvote on others.
 
-### [Sales Play Quick Reference Guide](https://docs.google.com/presentation/d/1F0aZ4k9NutSwYDBCiXF4AcwprBPDcsISvAOYb7NgepM/edit?usp=sharing)
+### Sales Play Quick Reference Guide
+
+[Sales Play Quick Reference Guide](https://docs.google.com/presentation/d/1F0aZ4k9NutSwYDBCiXF4AcwprBPDcsISvAOYb7NgepM/edit?usp=sharing) (internal)
 
 ## Overview
 

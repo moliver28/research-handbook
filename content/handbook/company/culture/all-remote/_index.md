@@ -1,6 +1,7 @@
 ---
 title: All Remote
 description: GitLab is one of the world's largest all-remote companies
+note: Do not remove alias due to extensive external use where it cannot be updated.
 aliases:
 - /handbook/company/all-remote/
 ---
@@ -23,7 +24,7 @@ aliases:
         <p class="h1 my-3"><strong>The Complete Guide to Remote Work</strong></p>
     </div>
     <div class="col p-4">
-        <p class="h3">All-remote since inception, GitLab applies the DevSecOps Platform approach to innovate how people col p-4laborate, communicate, and deliver results in 65+ countries. Our knowledge and best practices are open to the public.</p>
+        <p class="h3">All-remote since inception, GitLab applies the DevSecOps Platform approach to innovate how people collaborate, communicate, and deliver results in 65+ countries. Our knowledge and best practices are open to the public.</p>
     </div>
 </div>
 

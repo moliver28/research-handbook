@@ -121,7 +121,7 @@ The Partner Help Desk team has compiled a list of issues and solutions to the mo
 
 ## Help Your Partners Become a GitLab Designated Professional Services Partner (PSP)
 
-Step 1: Introduce your partners to the [GitLab Partner Services Program](/handbook/resellers/Channel-Program-Guide/#gitlab-partner-services-program)
+Step 1: Introduce your partners to the [GitLab Partner Services Program](/handbook/resellers/channel-program-guide/#gitlab-partner-services-program)
 
 Step 2: Set an enablement plan with the partner representative that identifies their key employees who sign up for training and become certified to meet the competency requirements for the program.
 
@@ -133,7 +133,7 @@ Step 4:  Partner Support team awards partners their designation using GitLab Par
 
 GitLab partners who are compliant with the partner program are eligible to become a GitLab Designated Professional Services Partner (PSP).
 
-The requirements for the GitLab Professional Service Partner badge can be found on the [Channel Services Handbook Page](/handbook/resellers/Channel-Program-Guide/#gitlab-partner-services-program).
+The requirements for the GitLab Professional Service Partner badge can be found on the [Channel Services Handbook Page](/handbook/resellers/channel-program-guide/#gitlab-partner-services-program).
 
 ### GitLab Professional Services Partner Designation Award Process
 
@@ -437,7 +437,7 @@ The newsletter will…
 **Be fun to look at and read**
 
 - A focus on multimedia is important in order to help the newsletter break the monotony of text Partners sift through each day.
-- We will use images, gifs, emoji, and video where possible. For example, instead of doing a written win-wire, we will interview the individual and embed that 30-60 second video in the newsletter.
+- We will use images, GIFs, emoji, and video where possible. For example, instead of doing a written win-wire, we will interview the individual and embed that 30-60 second video in the newsletter.
 
 **Help the Channel operationalize key messages**
 

@@ -3,6 +3,7 @@ stage: core platform
 group: Tenant Scale
 title: 'Cells: HTTP Routing Service'
 status: accepted
+toc_hide: true
 ---
 
 This document describes design goals and architecture of Routing Service

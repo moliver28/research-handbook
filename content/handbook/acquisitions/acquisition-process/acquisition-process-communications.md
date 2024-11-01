@@ -46,11 +46,10 @@ Communications is part of our [acquisition process](/handbook/acquisitions/acqui
             1. Legal
             1. Corporate Development Champion
     1. Company-wide internal Slack Message
-        1. Responsible Team: People Team/Talent Brand & Engagement
+        1. Responsible Team: Communications
         1. Reviewers and Approvers
             1. People Team/Talent Brand & Engagement
             1. Product Champion
-            1. Product Marketing
             1. Legal
             1. Corporate Development Champion
     1. Field Communications & FAQ
@@ -115,3 +114,11 @@ Communications is part of our [acquisition process](/handbook/acquisitions/acqui
     1. Reach out to relevant analysts, if appropriate (analyst relations)
     1. Either port to GitLab or deactivate acquired company's social channels, depending on volume of followers (social team)
     1. Retro of announcement and process (corporate development team)
+
+4. Acquisition Leaks and Rumors 
+    1. If news of a potential acquisition leaks, the GitLab Communications team will direct and own the response.
+        1. If any GitLab team member is contacted regarding a leaked acquisition or rumor, GitLab Communications directs the person to follow the [media mentions, incoming media requests and interviews process](/handbook/marketing/corporate-communications/#media-mentions-incoming-media-requests-and-interviews-including-podcasts) handbook direction.
+        1. The Corporate Development Deal Process Manager will inform the target company representatives of the GitLab Communications response and process.
+    1. The Communications Team will own the response and establish their decision on how to respond, or not respond, based on factors such as time to close, source of leak, and coverage of leak, among others.
+        1. This applies to both internal and external communications.
+        1. Should a decision be made to comment on, or affirm a leak, GitLab Legal, Finance, and Accounting will be involved to ensure compliance with regulatory reporting standards.

@@ -247,7 +247,9 @@ Ad value or equivalency - similar to how we measure this for the brand, this is 
 
 There are dozens of employee social media advocacy tools, many of which operate similarly. We chose Bambu due to the deep ties with our existing social media management software, Sprout Social, and the potential to streamline the "brand-to-team-member" content process. It's also pretty easy to use.
 
-#### I was not able to provide feedback on the tool selection process, the rollout of this program, or the topics and strategy. What gives?
+#### Feeback on Bambu
+
+I was not able to provide feedback on the tool selection process, the rollout of this program, or the topics and strategy. What gives?
 
 This project has operated inside of the social team for a long time and has had to overcome many challenges from across the company in order to launch. We're thrilled that you'd want to provide feedback, however, we've developed the program with the right team members attached and providing feedback. For your ideas, please consider opening an issue for a future iteration where the team can consider your ideas to be included at a later time.
 

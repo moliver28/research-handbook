@@ -18,8 +18,8 @@ We have a variety of methods for identifying and [recruiting participants for re
 ### Pre-requisites
 
 1. You query the data warehouse using Structured Query Language (SQL). There are countless guides to learning SQL available for free on the Web. There are many different flavors of SQL, and the one we use is [Snowflake](https://docs.snowflake.com/en/index.html). However, most basic functionality is consistent among the major variations of SQL, so don't feel like you need to seek out Snowflake-specific resources.
-1. In order to query the data warehouse, you'll need Editor access to Sisense (formerly Periscope). This requires completing an [access request](/handbook/business-technology/end-user-services/onboarding-access-requests/access-requests/).
-1. [Data for Product Managers](/handbook/business-technology/data-team/programs/data-for-product-managers/) provides an overview of how the gain access to the SQL Explorer in Sisense where you will write and execute your queries, as well as providing a high level over view of how the warehouse is structured.
+1. In order to query the data warehouse, you'll need Editor access to Sisense (formerly Periscope). This requires completing an [access request](/handbook/it/end-user-services/onboarding-access-requests/access-requests/).
+1. [Data for Product Managers](/handbook/enterprise-data/programs/data-for-product-managers/) provides an overview of how the gain access to the SQL Explorer in Sisense where you will write and execute your queries, as well as providing a high level over view of how the warehouse is structured.
 1. The Data team [documents individual data warehouse tables](https://dbt.gitlabdata.com/#!/overview) using a tool called dbt. Some tables are better documented and contain purpose descriptions and explanations of different columns, and some unfortunately do not. However, documentation does improve over time.
 
 ### SaaS-specific tables
@@ -93,4 +93,4 @@ LIMIT 50
 ### How to get help
 
 - For questions on where you can find certain data in the warehouse, the #data channel on Slack can address them.
-- If you require a very in depth SQL query, you can reach out to the [Product Data Insights team](/handbook/product/product-analysis/#working-with-us) to see if they have availability to assist you.
+- If you require a very in depth SQL query, you can reach out to the [Product Data Insights team](/handbook/product/groups/product-analysis/#working-with-us) to see if they have availability to assist you.

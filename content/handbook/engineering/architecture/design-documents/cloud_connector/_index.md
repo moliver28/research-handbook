@@ -1,5 +1,5 @@
 ---
-title: Cloud Connector architecture evolution
+title: "Cloud Connector architecture evolution"
 status: implemented
 creation-date: "2023-09-28"
 authors: [ "@mkaeppler" ]
@@ -52,14 +52,12 @@ The major areas we are focused on are:
   install a global, load-balanced entry point at `cloud.gitlab.com`. This entry point can make simple
   routing decisions based on the requested path, which allows us to target different backend services
   as we broaden the feature scope covered by Cloud Connector.
-  - **Status:** done. The decision was documented as [ADR001](decisions/001_lb_entry_point.md).
-- [**Give instance admins control over product usage data.**](https://gitlab.com/groups/gitlab-org/-/epics/12020)
-  Telemetry for Cloud Connector services are either instrumented within
-  Editor Extensions or the AI gateway. Our approach to AI telemetry is currently independent of our long-term vision of
-  [Unified Internal events tracking](https://gitlab.com/groups/gitlab-org/-/epics/9610).
-  As Cloud Connector implements additional use cases beyond AI, we want to bring AI-related telemetry into alignment with existing
-  technical choices.
-  - **Status:** in discovery.
+  - **Status:** done. The decision was documented as [ADR-001](decisions/001_lb_entry_point.md).
+- [**Remove OIDC key discovery.**](https://gitlab.com/groups/gitlab-org/-/epics/15142)
+  The original architecture for Cloud Connector relied heavily on OIDC discovery to fetch JWT validation keys.
+  OIDC discovery is prone to networking and caching problems and adds complexity to solve a problem we don't have.
+  Our proposed alternative to OIDC discovery is to package the public keys used for token validation from our well-known token issuers with Cloud Connector backends directly instead of fetching them over the network.
+  - **Status:** planned. The decision was documented as [ADR-002](decisions/002_remove_oidc_key_discovery.md)
 - [**Rate-limiting features.**](https://gitlab.com/groups/gitlab-org/-/epics/12032)
   During periods of elevated traffic, backends integrated with Cloud Connector such as
   AI gateway or TanuKey may experience resource constraints. GitLab should apply a consistent strategy when deciding which instance
@@ -69,3 +67,4 @@ The major areas we are focused on are:
 ## Decisions
 
 - [ADR-001: Use load balancer as single entry point](decisions/001_lb_entry_point.md)
+- [ADR-002: Remove OIDC key discovery](decisions/002_remove_oidc_key_discovery.md)

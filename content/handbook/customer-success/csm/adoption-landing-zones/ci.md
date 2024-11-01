@@ -1,5 +1,4 @@
 ---
-aliases: /handbook/customer-success/csm/adoption-landing-zones/CI
 title: "CI Adoption Landing Zone"
 description: "A page containing links to helpful CI resources for the CSM team and our customers"
 ---
@@ -56,7 +55,7 @@ description: "A page containing links to helpful CI resources for the CSM team a
        - [Pitch Template](https://gitlab.highspot.com/items/64d9afedc17499f9125f9ca3?lfrm=srp.1)
        - [Pitch Style](https://gitlab.highspot.com/items/63ca2a7a7d574a620e8b41e0?lfrm=srp.0)
 2. DevOps Solution Resource: Continous Integration: [Public Handbook Page](/handbook/marketing/brand-and-product-marketing/product-and-solution-marketing/usecase-gtm/ci/#sample-discovery-questions)
-3. CI Workshop Planning Overview: [Public Handbook Page](/handbook/customer-success/workshops/ci-workshop.html)
+3. CI Workshop Planning Overview: [Public Handbook Page](/handbook/customer-success/workshops/ci-workshop/)
 
 ## Migrating to GitLab
 

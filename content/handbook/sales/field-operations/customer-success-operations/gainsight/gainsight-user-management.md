@@ -7,7 +7,7 @@ The specific aspects of user management in Gainsight are detailed here.
 
 ## GitLab Access Requests and Offboarding Issues
 
-For a user to gain access to Gainsight, an [Access Request](/handbook/business-technology/end-user-services/onboarding-access-requests/access-requests/) (AR) must be created. These should be created automatically for new employees. Similarly, when users leave GitLab an Offboarding issue will be created. The following GitLab pages will show any ARs or Offboarding issues that need to be actioned by the CS Ops team:
+For a user to gain access to Gainsight, an [Access Request](/handbook/it/end-user-services/onboarding-access-requests/access-requests/) (AR) must be created. These should be created automatically for new employees. Similarly, when users leave GitLab an Offboarding issue will be created. The following GitLab pages will show any ARs or Offboarding issues that need to be actioned by the CS Ops team:
 
 - [Access Requests](https://gitlab.com/gitlab-com/team-member-epics/access-requests/-/issues/?sort=milestone_due_desc&state=opened&label_name%5B%5D=CSOpsAR%3A%3AAction%20Needed&first_page_size=20&_gl=1*hm7n*_ga*MTc0NDE2MzMzOS4xNjE4NDE5NTU3*_ga_ENFH3X7M5Y*MTY3NTE3MzU0Ny4xMDMuMS4xNjc1MTczNTY4LjAuMC4w): When a user joins GitLab, the **CSOps::Action Needed** label should automatically be added to their AR (there may be situations where this will need to be added manually). If an AR has this tag it will appear on the list. Once the needed actions have been taken, change the label to **CSOpsAR::Completed** and it will no longer appear on the list.
 - [Offboarding Issues](https://gitlab.com/gitlab-com/team-member-epics/employment/-/issues/?sort=milestone_due_desc&state=opened&label_name%5B%5D=offboarding&not%5Blabel_name%5D%5B%5D=CSOps%3A%3AOffboarding%20Completed&first_page_size=20&_gl=1*rt0jmx*_ga*MTc0NDE2MzMzOS4xNjE4NDE5NTU3*_ga_ENFH3X7M5Y*MTY3NTE3MzU0Ny4xMDMuMS4xNjc1MTczNTY4LjAuMC4w): Any issues that DO NOT have the **CSOps::Offboarding Complete** label will appear on this list. Once the needed actions have been taken, change the label to CSOps::Offboarding Complete and it will no longer appear on the list.
@@ -92,7 +92,7 @@ Once you have confirmed the user has synced from Salesforce successfully, you wi
    - *(If applicable)* If the user is a PubSec CSM or leader, set the US PubSec User field to Yes.
    - *(If applicable)* From the main User Management page there will be a status next to the user's name. Occasionally the user is inactive, and you will need to click the ... menu and select Activate User
 6. Add the user to the Okta gainsight user group:
-   1. Navigate to https://groups.google.com/ (you must be a groups.google.com admin any groups to appear).
+   1. Navigate to <https://groups.google.com/> (you must be a groups.google.com admin any groups to appear).
    2. Go to the okta-gainsight-users group
    3. Go to Members, then Add Members and use the new user's email address to add them to the group. Once they have been added successfully, they will see a Gainsight tile in Okta (this may take some time to appear).
 

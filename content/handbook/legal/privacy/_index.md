@@ -43,7 +43,7 @@ Tell people what you are doing with personal data and why you are doing it so th
 
 ***Consent*** A freely given, specific, informed and unambiguous indication of an individual's wishes. Consent is captured by an unticked checkbox or other unequivocal statement which signifies agreement to the processing of personal data before or at the time of collection.
 
-***Data Classification*** A method of determining types of data associated by risk. See [GitLab Security Data Classification Standards](/handbook/security/data-classification-standard.html) for more information.
+***Data Classification*** A method of determining types of data associated by risk. See [GitLab Security Data Classification Standards](/handbook/security/data-classification-standard/) for more information.
 
 ***Data Controller*** A natural or legal person, agency, or other entity which alone, or jointly with others, determines the purpose and means of processing personal data. For example, GitLab is a Data Controller is in the areas of marketing and sales where the personal data of prospects and leads is managed solely at our discretion. GitLab also serves as a Data Controller for all personal data collected from Team Members for employment purposes and any administration of benefits.
 
@@ -92,7 +92,7 @@ Tell people what you are doing with personal data and why you are doing it so th
 
 ## Privacy Review Process
 
-Every vendor that handles personal data is required to go through a Privacy Review prior to being onboarded, which includes completion and approval of the privacy due diligence questionnaires detailed in the [Procurement process](/handbook/finance/procurement/#privacy-review-4-14-days). Certain vendors who are classified as handling red or orange data under our [Data Classification Standards](/handbook/security/data-classification-standard.html) are reviewed annually. Additionally, when new product features are designed, there are times when a formal privacy review is required.
+Every vendor that handles personal data is required to go through a Privacy Review prior to being onboarded, which includes completion and approval of the privacy due diligence questionnaires detailed in the [Procurement process](/handbook/finance/procurement/#privacy-review-4-14-days). Certain vendors who are classified as handling red or orange data under our [Data Classification Standards](/handbook/security/data-classification-standard/) are reviewed annually. Additionally, when new product features are designed, there are times when a formal privacy review is required.
 
 This section outlines the process for these reviews.
 
@@ -121,7 +121,7 @@ graph TD
    N1 --> O[Process Complete<br> Approved]
    N2 --> P[Third-Party Risk<br> Acceptance Required]
 
-   click Did1 "https://about.gitlab.com/handbook/business-technology/enterprise-applications/guides/zip-guide/"
+   click Did1 "https://handbook.gitlab.com/handbook/business-technology/enterprise-applications/guides/zip-guide/"
    click J "https://gitlab.com/gitlab-com/legal-and-compliance/-/blob/master/.gitlab/issue_templates/Vendor-Procurement-Privacy-Review.md" _blank
    click P "https://gitlab.com/gitlab-com/legal-and-compliance/-/blob/master/.gitlab/issue_templates/Third-Party-Risk-Acceptance.md" _blank
 

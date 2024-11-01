@@ -8,7 +8,7 @@ title: "Proposed Usecase: Data Science"
 
 ### Common challenges
 
-Common challenges in data science are described on the [Data Science with GitLab solution page](https://about.gitlab.com/solutions/data-science/) and generally include being cross-functional, agile, and iterative while unlocking the value in an organization's data. To do this, data teams need to:
+Common challenges in data science are described on the [Data Science with GitLab use case page](/handbook/marketing/brand-and-product-marketing/product-and-solution-marketing/usecase-gtm/data-science/) and generally include being cross-functional, agile, and iterative while unlocking the value in an organization's data. To do this, data teams need to:
 
 - Collaborate both inside and outside their teams, and often inside and outside their organization
 - Plan and manage projects and sprints, with tools flexible enough to support scrum, kanban, and more
@@ -17,9 +17,11 @@ Common challenges in data science are described on the [Data Science with GitLab
 - Streamline testing and validation of work, making it much faster and more repeatable
 - Simplify infrastructure management and often across multiple cloud providers
 
-To be fleshed out as with [other usecases](/handbook/marketing/use-cases/).
+To be fleshed out as with [other use cases](/handbook/marketing/use-cases/).
 
-### [Keywords and definitions](keywords/)
+### Keywords and definitions
+
+[Keywords and definitions](keywords/)
 
 ## Personas
 
@@ -43,9 +45,9 @@ Who are the [buyers](/handbook/product/personas/)
 - Engineering Manager of Data Products, or of Data Infrastructure
 - Director of Data and Analytics, or Chief Data Officer
 
-## [Message House](message-house/)
+## Message House
 
-The message house provides a structure to describe and discuss value and differentiators for data science.
+The [message house](message-house/) provides a structure to describe and discuss value and differentiators for data science.
 
 ### Discovery Questions
 
@@ -80,7 +82,7 @@ Internal to GitLab:
 |-----------------|-------------|---------------|
 |  **Leading SCM and CI in one application**  | GitLab enables streamlined code reviews and collaboration at proven enterprise scale, making development workflows easier to manage and minimizing context switching required between tools in complex DevOps toolchains. Users can release software faster and outpace the competition with the ability to quickly respond to changes in the market. | Forrester names GitLab among the leaders in [Continuous Integration Tools in 2017](https://about.gitlab.com/blog/2017/09/27/gitlab-leader-continuous-integration-forrester-wave/), Alteryx uses GitLab to have code reviews, source control, CI, and CD [all tied together](https://about.gitlab.com/customers/alteryx/). Axway overcomes legacy SCM and complex toolchain.  |
 |  **Open Source; Everyone Can Contribute**  | Open core development model allows anyone to contribute to the functionality of the product. Uniquely transparent product development process engaging customers, partners, and the community. Strong and growing community - thousands of organizations and millions of users.  | Over 3,000 active community code contributors. [Siemens](https://about.gitlab.com/blog/2018/12/18/contributor-post-siemens) needed to improve and enhance their developer tools, and actively contribute to GitLab project with upstream commits.  |
-|  **Deploy Your Software Anywhere**  | Deploy and manage your models in any environment, including any cloud with support for GCP, AWS, Azure, OpenShift, VMWare, On Prem, Bare Metal, etc. Gain workflow portability - one deployment workflow regardless of destination. Provides a complete DevOps platform that allows teams to have the same productivity metrics, governance, and other connective tissue, no matter what cloud they use.  |  [Ask Media Group](https://www.askmediagroup.com/microservices-in-practice/) found it difficult to manage the process of building and deploying microservices. With GitLab Premium, their developers can immediately begin to contribute a new service that can be deployed to AWS as soon as they start.  [Gartner's 2019 Hype Cycle for Infrastructure and Operations Automation](https://www.gartner.com/en/documents/3947548/hype-cycle-for-i-o-automation-2019): GitLab helped to define the market, and is recognized as a relevant vendor for both Continuous Delivery and Toolchain Orchestration.  |
+|  **Deploy Your Software Anywhere**  | Deploy and manage your models in any environment, including any cloud with support for GCP, AWS, Azure, OpenShift, VMWare, On Prem, Bare Metal, etc. Gain workflow portability - one deployment workflow regardless of destination. Provides a complete DevOps platform that allows teams to have the same productivity metrics, governance, and other connective tissue, no matter what cloud they use.  |  [Ask Media Group](https://web.archive.org/web/20230129170441/https://www.askmediagroup.com/microservices-in-practice/) found it difficult to manage the process of building and deploying microservices. With GitLab Premium, their developers can immediately begin to contribute a new service that can be deployed to AWS as soon as they start.  [Gartner's 2019 Hype Cycle for Infrastructure and Operations Automation](https://www.gartner.com/en/documents/3947548/hype-cycle-for-i-o-automation-2019): GitLab helped to define the market, and is recognized as a relevant vendor for both Continuous Delivery and Toolchain Orchestration.  |
 
 ## The GitLab Solution
 

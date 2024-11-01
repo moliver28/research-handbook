@@ -87,7 +87,7 @@ Any GitLab team member is able to propose a Family and Friends Day. If there are
 
 ### I'm in a role which requires me to work that day. How can I still benefit from this initiative?
 
-If you are in a role that requires you to work or your team has other coverage requirements on Family and Friends Day (for example, [Customer Support](/handbook/support/support-time-off.html#how-support-handles-family-and-friends-days)), you can work with your manager to find an alternative day. We encourage you to consider the following business day as the preferred second choice for a day away, but do what works best for you and your team.
+If you are in a role that requires you to work or your team has other coverage requirements on Family and Friends Day (for example, [Customer Support](/handbook/support/support-time-off/#how-support-handles-family-and-friends-days)), you can work with your manager to find an alternative day. We encourage you to consider the following business day as the preferred second choice for a day away, but do what works best for you and your team.
 
 ### What if the date is a public holiday or non-working day in my country? How does this apply to me?
 
@@ -115,6 +115,6 @@ If you'd like to take a different day off for personal reasons, refer to the [Pa
 
 We'll assume that most people are off on Family and Friends Day, but we know that some people will take other days.
 
-Please update [Time Off by Deel](/handbook/people-group/paid-time-off/#time-off-by-deel) in Slack. You can select `Create an OOO Event` and find `Family and Friends Day` in the drop-down menu of `What type of OOO is this?`.
+Please enter the date in Workday by selecting the `Family and Friends Day` option in the `Time Offs` drop down list.
 
 Feel free to block your calendar with "Family and Friends Day" to share whatever day you take.

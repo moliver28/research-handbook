@@ -1,5 +1,5 @@
 ---
-title: GitLab to Kubernetes communication
+title: "GitLab to Kubernetes communication"
 status: implemented
 creation-date: "2020-12-03"
 authors: [ "@ash2k" ]

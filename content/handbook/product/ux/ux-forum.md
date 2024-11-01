@@ -2,8 +2,6 @@
 title: UX Forum
 description: >-
   The UX Forum is a recurring meeting for UX team members to share and discuss their work.
-aliases:
-- /handbook/product/ux/ux-showcase/
 ---
 
 ## About UX Forum

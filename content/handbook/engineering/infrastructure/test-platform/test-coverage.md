@@ -11,7 +11,7 @@ test scenarios. The suite runs against a test environment including [Gitaly Clus
 
 #### Test run schedule
 
-This is triggered on the [`gitlab-org/gitlab` nightly schedule pipeline](https://gitlab.com/gitlab-org/gitlab/-/blob/master/.gitlab/ci/package-and-test-nightly/main.gitlab-ci.yml),
+This is triggered on the [`gitlab-org/gitlab` nightly schedule pipeline](https://gitlab.com/gitlab-org/gitlab/-/blob/master/.gitlab/ci/test-on-omnibus-nightly/main.gitlab-ci.yml),
 where a near full suite of tests for CE and EE are executed (exclusions are made for tests of product features which depend on network connectivity
 such as importing data from external sources). Results of the `gitlab-org/gitlab` nightly schedule pipeline
 can be found in the [Allure report](https://gitlab-qa-allure-reports.s3.amazonaws.com/nightly/master/index.html),
@@ -67,9 +67,9 @@ GitLab QA scenario that verifies update from the previous (major or minor) versi
 
 1. `Test::Omnibus::UpdateFromPrevious` scenario is run with:
 
-   - `e2e:package-and-test-ee` / `e2e:package-and-test-ce` jobs which executes from a [scheduled pipeline every 2 hours](https://gitlab.com/gitlab-org/gitlab/-/pipeline_schedules) against GitLab `master`.
-   - `e2e:package-and-test-nightly` job which executes from a [nightly scheduled pipeline](https://gitlab.com/gitlab-org/gitlab/-/pipeline_schedules) against GitLab `master`.
-   Results of these jobs can be found in the [Allure report](https://gitlab-qa-allure-reports.s3.amazonaws.com/e2e-package-and-test/master/index.html),
+   - `e2e:test-on-omnibus-ee` / `e2e:test-on-omnibus-ce` jobs which executes from a [scheduled pipeline every 2 hours](https://gitlab.com/gitlab-org/gitlab/-/pipeline_schedules) against GitLab `master`.
+   - `e2e:test-on-omnibus-nightly` job which executes from a [nightly scheduled pipeline](https://gitlab.com/gitlab-org/gitlab/-/pipeline_schedules) against GitLab `master`.
+   Results of these jobs can be found in the [Allure report](https://gitlab-qa-allure-reports.s3.amazonaws.com/e2e-test-on-omnibus/master/index.html),
 where test states such as failures can be filtered on.
 The update test job names are `update-major`, `update-minor`, and `update-ee-to-ce`.
 

@@ -50,6 +50,7 @@ In total, 14 team members from across the Engineering organization will be recog
 1. **Software Efficiency Award** - awarded to individuals who implement an abstraction, pattern, or library that makes future development efforts much more efficient
 1. **Proactive Avoidance Award** - awarded to individuals who raise concerns about things *before* they become disastrous incidents
 1. **Security Improvement Award** - awarded to individuals who implement security features or defense in depth pattern to provide a more secure DevSecOps enviornment for everyone
+1. **Hiring Efficiency Award** - awarded to individuals who made a significant contribution to hiring efforts
 
 #### Engineering Excellence
 
@@ -148,6 +149,26 @@ These are the past award winners. The quarter indicated is the quarter the award
 | FY25-Q2 | Customer Results | Customer Kudos | Kaitlyn Chappell |
 | FY25-Q2 | Customer Results | Performance and Scalability | Chance Feick |
 | FY25-Q2 | Customer Results | Contribution to Sales or Renewal | Erika Miklós |
+
+### FY25-Q3
+
+| Quarter | Category | Award | Winner |
+| --- | --- | --- | --- |
+| FY25-Q3 | Efficiency | Best Design Proposal | Bob Van Landuyt |
+| FY25-Q3 | Efficiency | Cost Savings | **Not Awarded** |
+| FY25-Q3 | Efficiency | Software Efficiency | Dmitry Gruzd |
+| FY25-Q3 | Efficiency | Proactive Avoidance |  **Not Awarded** |
+| FY25-Q3 | Efficiency | Security Improvement | Brett Walker |
+| FY25-Q3 | Excellence | Engineering Excellence | Angelo Rivera |
+| FY25-Q3 | Excellence | Excellence Under Pressure | **Not Awarded** |
+| FY25-Q3 | Excellence | Testing Excellence | **Not Awarded** |
+| FY25-Q3 | Excellence | Most Impactful MR or Doc Update | **Not Awarded** |
+| FY25-Q3 | Excellence | Everyone-can-contribute | **Not Awarded** |
+| FY25-Q3 | Customer Results | Customer Centered Individual | Terri Chu |
+| FY25-Q3 | Customer Results | Customer Kudos | Sam Bernal-Damasco|
+| FY25-Q3 | Customer Results | Performance and Scalability | **Not Awarded**|
+| FY25-Q3 | Customer Results | Contribution to Sales or Renewal | Fabian Zimmer |
+
 ---
 
 ## Engineering Quarterly Achievers Process

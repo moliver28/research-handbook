@@ -6,7 +6,7 @@ twitter_image: '/images/tweets/handbook-marketing.png'
 
 <link rel="stylesheet" type="text/css" href="/stylesheets/biztech.css" />
 
-## <i class="fas fa-bullhorn fa-fw color-orange font-awesome"></i> Welcome to the GitLab Product and Solution Marketing Handbook
+## <i class="fas fa-bullhorn"></i> Welcome to the GitLab Product and Solution Marketing Handbook
 
 We create positioning and messaging to fuel demand and adoption of GitLab's solutions and products. We develop market and competitive intelligence in order to develop actionable insights on market trends, customer needs, and competitive insights that guide go-to-market and product strategy. We identify, recruit, and activate customer advocates to demonstrate momentum and trust in the market.
 

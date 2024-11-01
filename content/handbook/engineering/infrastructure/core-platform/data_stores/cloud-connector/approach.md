@@ -1,5 +1,4 @@
 ---
-aliases: /handbook/engineering/infrastructure/core-platform/systems/cloud-connector/approach.html
 title: Application Performance Group - Approach and Common Themes
 ---
 

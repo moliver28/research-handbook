@@ -1,5 +1,4 @@
 ---
-aliases: /handbook/marketing/career-development/matrix/marketing/community-relations/contributor-success/staff
 title: "Contributor Success Career Framework: Staff Fullstack Engineer"
 description: "These are the expected competencies of a Staff Fullstack Engineer, Contributor Success at GitLab."
 ---

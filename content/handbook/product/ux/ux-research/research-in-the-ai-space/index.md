@@ -1,5 +1,4 @@
 ---
-aliases: /handbook/product/ux/ux-research/research-in-the-AI-space
 title: "Doing UX research in the AI space"
 description: "How to conduct UX research in the Artificial Intelligence (AI) space, including research guidelines."
 ---
@@ -20,7 +19,7 @@ The guidelines on this page aim to provide direction on how to include the user'
 
 ## The guidelines
 
-### Guideline 1: Problem validation - Identify and understand user needs
+### Guideline 1: Start with identifying and understanding user needs
 
 AI solutions themselves won't reveal the user problem they are meant to solve. To identify and understand user needs (and to determine if the AI solution is addressing a real user problem), there are different approaches you can take:
 
@@ -53,7 +52,7 @@ AI solutions themselves won't reveal the user problem they are meant to solve. T
 - If you don't have a high level of confidence or understanding of the problem statement or user needs, you will want to take the time to conduct generative research to learn more about a user group and their needs. While this approach takes more time, it provides deep insights into users' needs, goals, and pain points that can be used to ideate on new solutions.
 - It's recommended to do this if you have the time. The output will provide a solid justification as to why the AI feature is important for users.
 
-### Guideline 2: Pre-Solution validation - Collect user feedback on your idea before building anything
+### Guideline 2: Collect user feedback on your idea before building anything
 
 Did you know that you can validate your future AI powered feature in parallel to the engineering team building it by using [Wizard of Oz prototyping](https://medium.com/@lizschemanski/wizard-of-oz-experiments-eed2c0a12081)? Validating before the AI solution is available is a great way to capture users' expectations and requirements early on. They can inform engineering efforts in training the AI.
 
@@ -67,7 +66,7 @@ It may be tempting, but don't ask users if they would use this AI feature. Peopl
 1. their problem or need, and
 1. how helpful the solution is with addressing those. In other words, does it provide value?
 
-### Guideline 3: Solution validation and more - Collect more than just usability feedback during solution validation of your AI powered prototype
+### Guideline 3: Collect more than just usability feedback during AI prototype validation
 
 Once an AI powered solution is available for validation, make sure to not only collect feedback on its usability, but also:
 
@@ -91,7 +90,7 @@ If you are maturing your AI feature towards [Generally Available](https://docs.g
 AI will make mistakes due to their probabilistic nature. It's important to understand how AI mistakes may affect users. Will certain mistakes result in turning users away from using it? Or using GitLab? Here's what you can do:
 
 - Plan for research activities to assess what mistakes are ok to do versus those that cause harm and need to be avoided at all cost.
-- There may also be opportunities to include questions related to AI mistakes when conducting solution validation, e.g. When evaluating early prototypes (see [Guidelines 2](#guideline-2-pre-solution-validation---collect-user-feedback-on-your-idea-before-building-anything) and [3](#guideline-3-solution-validation-and-more---collect-more-than-just-usability-feedback-during-solution-validation-of-your-ai-powered-prototype)).
+- There may also be opportunities to include questions related to AI mistakes when conducting solution validation, e.g. When evaluating early prototypes (see [Guidelines 2](#guideline-2-collect-user-feedback-on-your-idea-before-building-anything) and [3](#guideline-3-collect-more-than-just-usability-feedback-during-ai-prototype-validation)).
 - Set up your prototype in a way that it includes "wrong" recommendations to capture how people react to AI mistakes.
 
 ### Guideline 5: Plan ahead for longitudinal research
@@ -119,24 +118,40 @@ This survey is available for you to send to your participants who are working wi
 
 ## AI Usability Metric
 
-To effectively evaluate the usability of our AI experiences and track progress over time, we will follow the existing [Usability testing](/handbook/product/ux/ux-research/usability-testing/) process. Specific asks for AI usability:
+To effectively evaluate the usability of our AI capabilities and track progress over time, please follow the instructions below:
 
-- Use external users as your participants
-- Utilize the measures called out below
+### What to measure
 
-### Measures
-
-As with our standard approach to usability testing, not only do we measure pass/fail rates, we also have the participant rate each task using specific metrics, which were chosen for three reasons: they're lightweight, they focus on the mechanics/usability of the experience, and they should already be familiar because they're used in other validation research. This approach gives us observational and perceptive data to use when measuring a given task.
-
-For the purposes of AI Usability testing, the following measures are to be used for each task:
+We have leveraged the existing [Category Maturity Scorecard grading system](/handbook/product/ux/category-maturity/category-maturity-scorecards/#calculating-the-cm-scorecard-score) and focused on 3 pieces of data to be measured for AI capabilities:
 
 - [Effectiveness](/handbook/product/ux/ux-research/usability-testing/#effectiveness) (pass/fail)
 - [Efficiency](/handbook/product/ux/ux-research/usability-testing/#efficiency) (Single Ease Question)
 - [Satisfaction](/handbook/product/ux/ux-research/usability-testing/#satisfaction) of the experience
 
-These measures can be applied in either moderated or unmoderated tests.
+These measures are lightweight, focusing on both the mechanics and the usability of the experience, and can be applied in either moderated or unmoderated tests.
 
-### Scoring
+### When to measure
+
+All AI / Duo capabilities should be assessed in any of the following scenarios:
+
+- Before they become Generally Available (GA);
+- When a significant change to the experience is introduced.
+
+It's at the designer and the product team's discretion to regard a change as significant or not. And here are some examples to help you decide:
+
+- Insignificant changes might be minor tweaks that enhance the interface but do not fundamentally change the user’s experience or the way they perform tasks / interact with the product. An example could be changing the colour of a button.
+- Significant changes may significantly alter user behavior, and require users to adapt to a new way of interaction. An example could be an change to the information architecture of the product.
+
+The full description of GA Scope and Definition of Done for Duo capabilities is [here](https://gitlab.com/gitlab-org/gitlab/-/issues/444274#ga-scope--definition-of-done) (internal access only).
+
+### How to measure
+
+Follow the [steps for running a Category Maturity Scorecard study](/handbook/product/ux/category-maturity/category-maturity-scorecards/#steps-for-running-a-category-maturity-scorecard-study), and only make the following adaptations:
+
+- Recruit 5 external participants for the study;
+- When a participant has completed a scenario, ask the [Efficiency](/handbook/product/ux/ux-research/usability-testing/#efficiency) and [Satisfaction](/handbook/product/ux/ux-research/usability-testing/#satisfaction) questions only. You won't need to ask the UMUX Lite question, as it doesn't entirely pertain to our usablity focus.
+
+### Acceptance criteria
 
 Similar to the Category Maturity Scorecard scoring (Figure 1), the calculated AI Usability score will be a number between 1.00 - 5.00. This is intended to give some granularity to the scores as regression/progression occurs. If need be, the score is translatable to an A-F grade scale.
 
@@ -146,18 +161,17 @@ Similar to the Category Maturity Scorecard scoring (Figure 1), the calculated AI
 
 A new Google Sheet is located [here](https://docs.google.com/spreadsheets/d/1LeBsDFgE_UTinRLG4IVatSfzPB1bz9yIYP3ZaWhU58Q/edit?gid=1157931099#gid=1157931099), which will calculate the AI Usability score for you.
 
-### Goals
-
-The quality bar for AI experiences is just as high as our other experiences within GitLab. That translates to
+The quality bar for AI capabilities is just as high as our other experiences within GitLab. That translates to
 
 - a pass rate of 4/5 or 80%
-- a score range of 3.63-3.94, or a 'B' grade.
+- AND, a score range of 3.63-3.94, or a 'B' grade.
 
-### Considerations
+### Other considerations
 
 - Focus on user tasks that provide value to the user. JTBD may not exist yet in the space you're working in. That's ok; it shouldn't be a blocker for AI usability testing.
 - If you have 1 task failure, the failure (pass/fail) is documented, but their ratings aren't documented; find a replacement participant to meet the minimum of 5 participants.
 - If you have 2 task failures on the same task, stop testing that task. Understand what needs to be addressed, make adjustments, then start testing that task again.
+- If the adjustments introduce significant changes to user experience, [weigh confidence vs. risk](/handbook/product/ux/ux-research/when-to-conduct-ux-research/#additional-considerations-weighing-confidence-vs-risk) to decide whether you should start afresh with 5 new participants.
 - Testing AI experiences introduces new challenges to consider. For example, it's important to be clear and accurate on the capabilities of what's being shown to participants. This is to set the right kind of expectations. More details on this topic can be found in the **Challenges of Testing AI Products** section of [this article](https://www.uxmatters.com/mt/archives/2023/06/testing-the-future-a-guide-to-testing-ai-products-with-users.php).
 
 ### References

@@ -86,6 +86,38 @@ The Senior Paralegal is a [Grade 7](/handbook/total-rewards/compensation/compens
 - Proactive, dynamic and result driven individual with strong organizational skills
 - Ability to use GitLab
 
+### Lead Paralegal
+
+#### Job Grade
+
+The Lead Paralegal is a [Grade 8](/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades)
+
+#### Responsibilities
+
+- Act as a DRI on tasks and projects and effectively manage relationships with stakeholders across legal and GitLab, including skills in providing education and enablement; excellent at leading and participating in cross-functional projects
+- Contribute to internal and external training materials
+- Consider commercial impact when applying legal and regulatory principles and seeks workable solutions
+- Network internally beyond the legal team to build relationships, knowledge, and insight
+- Identify and apply governance processes and control mechanisms relevant to GitLab
+- Accurately communicate risks to senior leadership while weighing business needs 
+- Provide technical and functional knowledge to projects that contribute to overall direction across teams 
+- Lead by sharing solutions and problem-solving approaches with others 
+- Interact with team members in addition to suppliers, vendors, and/or customers where applicable to the role
+- Collaborate with the team and other stakeholders within the department to maintain a high bar for quality in a fast-paced, iterative environment
+
+#### Requirements
+
+- Minimum of 10+ years experience working in a law firm, in-house legal department, or combination of both, in a paralegal capacity
+- Paralegal certification preferred, but will consider comparable experience in lieu of certification
+- Demonstrated ability to successfully manage cross-functional projects
+- Exceptional written and verbal communication, organizational, and analytical skills
+- Ability to adapt and willingness to work on a variety of projects and types of requests
+- Strong attention to detail and affinity for use of various types of technologies including Slack, G-Suite, Microsoft Office and other applications
+- Proactive, dynamic and result driven individual with strong organizational skills
+- High degree of deep subject matter expertise and ability to break this down to non-legal team members in simple non-technical communication
+- Decisive and comfortable making decisions
+- Ability to use GitLab
+
 ### Specialties
 
 #### Associate Paralegal (Employment)

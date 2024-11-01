@@ -41,12 +41,12 @@ In addition, as a PM, you also play a critical role in the regular development a
 | Task | Description |
 | --- | --- |
 | Maintain and update [Direction pages](https://about.gitlab.com/direction/#devops-stages) | Direction pages communicate our [vision](https://about.gitlab.com/direction/) and plan externally and internally. |
-| Review PIs and update [PI pages](/handbook/product/performance-indicators/) | Product Indicators are how we know whether or not we are making the right investments or measuring the right thing. PMs should be intimately knowledgeable with the PIs in their domain. |
+| Review PIs and update [PI pages](https://internal.gitlab.com/handbook/company/performance-indicators/product/) | Product Indicators are how we know whether or not we are making the right investments or measuring the right thing. PMs should be intimately knowledgeable with the PIs in their domain. |
 | Release planning for every milestone | PMs are the DRIs for planning and [prioritizing](/handbook/product/product-processes/#prioritization-ahead-of-kickoff) the work for their respective development group. Some of the output for release planning can be planning issues and [kick-off](/handbook/product/product-processes/#kickoff-meetings) videos. |
 | Create [release post content](/handbook/product/product-processes/#release-posts) | The release post is the way to broadcast what features have been released. PMs are responsible to ensure release post item MRs are created, reviews are complete and posted. |
 | Drive alignment with stable counterparts via [OKRs](/handbook/product/product-processes/#objectives-and-key-results-okrs) | PMs play a role in facilitating alignment by ensuring individual functional groups' objectives are appropriately prioritized within their development group. |
 | Connect user and customer insights with [product prioritization](/handbook/product/product-processes/#issues-important-to-customers) | Customer interviewing, collecting insights about customer adoption, pain points, and reprioritizing "What's Next". PMs are responsible for continuously refining the most important feature, bugs, and tech debt to ensure relevance to the market, install base, and expansion. |
-| [Triage new issues](/handbook/product/product-processes/#prioritization) (features, bugs, security vulnerabilities, etc) | PMs [share responsibility](/handbook/product/product-processes#prioritization-for-feature-maintenance-and-bugs) for prioritizing the most important issues based on [work type](/handbook/engineering/metrics/#work-type-classification). |
+| [Triage new issues](/handbook/product/product-processes/#prioritization) (features, bugs, security vulnerabilities, etc) | PMs [share responsibility](/handbook/product/product-processes#prioritization-for-feature-maintenance-and-bugs) for prioritizing the most important issues based on [work type](/handbook/product/groups/product-analysis/engineering/dashboards/#work-type-classification). |
 | Determine [pricing tier for features](/handbook/company/pricing/) | [The CEO is responsible for pricing, but PMs are responsible for determining which plan features belong to.](/handbook/company/pricing/#departments) |
 
 ### How does a PM ensure they are solving a problem for our users?
@@ -62,7 +62,7 @@ In order for a PM to deeply understand the problems our users are facing and det
 - Communicate with users on issues and epics
 - Work with Pre-Sales and Post-Sales to connect with customers and prospects
 - Uncover insights through UX Research
-- Use other [sensing mechanisms](/handbook/product/product-processes/#sensing-mechanisms). It is through user interactions that we can begin to understand what problems our users are facing and identify how we could make product improvements to help eliminate the pain points. These user interactions can present themselves in many different ways.
+- Use other [sensing mechanisms](/handbook/product/product-processes/sensing-mechanisms/). It is through user interactions that we can begin to understand what problems our users are facing and identify how we could make product improvements to help eliminate the pain points. These user interactions can present themselves in many different ways.
 
 ### How does a PM ensure we build lovable products?
 
@@ -110,13 +110,13 @@ It is not sufficient to just know the problems. It is also insufficient to have 
 
 ### Primary Performance Indicator for the Role
 
-[Stage Monthly Active Users](/handbook/product/performance-indicators/)
+[Stage Monthly Active Users](https://internal.gitlab.com/handbook/company/performance-indicators/product/)
 
 ---
 
 ## Career paths
 
-The job families are the single-source-of-truth (SSoT) for our job responsibilities related to career paths. For more information on how GitLab Product Management thinks about the growth and development through these different roles, see the [Career Development Framework](/handbook/product/product-manager-role/product-cdf-competencies/).
+The job families are the single-source-of-truth (SSoT) for our job responsibilities related to career paths. For more information on how GitLab Product Management thinks about the growth and development through these different roles, see the [Career Development Framework](/handbook/product/product-management/product-cdf-competencies/).
 
 ### Product Manager
 
@@ -335,7 +335,7 @@ Beyond the [base requirements](#base-pm-requirements), Senior Principal Product 
 
 #### Requirements
 
-Beyond the [base requirements](#base-pm-requirements), Senior Principal Product Manager requirements are outlined in the [Product Management Career Development Framework](/handbook/product/product-manager-role/product-CDF-competencies/).
+Beyond the [base requirements](#base-pm-requirements), Senior Principal Product Manager requirements are outlined in the [Product Management Career Development Framework](/handbook/product/product-management/product-cdf-competencies/).
 
 #### Example Behaviors
 

@@ -1,13 +1,11 @@
 ---
 title: "Handbook Style Guide"
-aliases:
-- /handbook/style-guide/
 ---
 
 GitLab's general communications practices are detailed at [GitLab Communication](/handbook/communication/), but beyond those we do have some channel-specific guidance available.
 See the [list of resources below](#related-resources) for links to other guides.
 
-Handbook style guidance is covered primarily by [the handbook markdown guide](/docs/markdown-guide/),
+Handbook style guidance is covered primarily by [the handbook markdown guide](https://handbook.gitlab.com/docs/markdown-guide/),
 and [the editing handbook page](../editing-handbook/_index.md#naming-pages-and-folder-structure).
 
 In the absence of handbook-specific guidance, follow:
@@ -18,7 +16,7 @@ In the absence of handbook-specific guidance, follow:
 ## Related Resources
 
 - [GitLab Communication](/handbook/communication/)
-- [Markdown guide](/handbook/markdown-guide/)
+- [Markdown guide](https://handbook.gitlab.com/docs/markdown-guide/)
 - [GitLab Documentation guidelines](https://docs.gitlab.com/ee/development/documentation/)
   - [Documentation style Guide](https://docs.gitlab.com/ee/development/documentation/styleguide/)
 - [GitLab style guides](https://docs.gitlab.com/ee/development/contributing/style_guides.html)

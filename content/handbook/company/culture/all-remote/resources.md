@@ -109,7 +109,7 @@ Looking for GitLab's library of guides to working remotely? Those are [**here**]
 - [YouTube: TFiR Interview - He Built A $1 Billion Open Source Company With No Headquarters: Sid Sijbrandij of GitLab](https://www.youtube.com/watch?v=ha4aMKl3MRA)
 - [Skills For Mars — Darren Murph On Transparency, Values & Leadership when All-Remote](https://youtu.be/g78mzVYjDY0)
 - [How to build and manage a distributed team - GitLab and Arch Systems](https://youtu.be/tSp5se9BudA)
-- [Building a distributed company](https://outklip.com/blog/gitlab-building-a-distributed-company/)
+- [Building a distributed company](https://web.archive.org/web/20230929130804/https://outklip.com/blog/gitlab-building-a-distributed-company/)
 - [Using video for effective collaboration for remote teams](https://youtu.be/6mZqzK_40FE)
 - [GitLab and Turtle's CEOs talk about running remote companies](https://youtu.be/-23DGyIMorE)
 - [Opening keynote from GitLab Contribute, 2019](https://youtu.be/kDfHy7cv96M?t=735)
@@ -156,7 +156,7 @@ Looking for GitLab's library of guides to working remotely? Those are [**here**]
 - [GitLab's secret to managing 160 employees in 160 locations - Interview by Y Combinator](https://blog.ycombinator.com/gitlab-distributed-startup/)
 - [GitLab's remote-only presentation, 2017](https://docs.google.com/presentation/d/1JHHYQvAhsudGz8QB8nqp5ScJjqyhPD3ehCoKOlZb7VE/edit#slide=id.g1d6fee80ee_0_348)
 - [Software Engineering Daily: GitLab with Sid Sijbrandij](https://softwareengineeringdaily.com/2019/03/15/gitlab-with-sid-sijbrandij/)
-- [Outklip Blog: Using Video for Remote Work: Q&A with GitLab CEO](https://outklip.com/blog/using-video-for-remote-work/)
+- [Outklip Blog: Using Video for Remote Work: Q&A with GitLab CEO](https://web.archive.org/web/20230929141545/https://outklip.com/blog/using-video-for-remote-work/)
 - [Arc Blog: Work Like Automattic, Buffer & GitLab - Remote Operations at Top Distributed Companies](https://arc.dev/blog/remote-operations-automattic-buffer-gitlab-9rihtsu120)
 
 ### Threads and conversations
@@ -199,13 +199,13 @@ Looking for GitLab's library of guides to working remotely? Those are [**here**]
 - [Remote work doesn't scale... or does it?](https://medium.com/@getadam/remote-work-doesnt-scale-or-does-it-4a72ce2bb1f3)
 - [Case Closed: Work-From-Home is the World's Smartest Management Strategy](https://www.inc.com/geoffrey-james/case-closed-work-from-home-is-worlds-smartest-management-strategy.html)
 - [A Long Commute Could Be the Last Thing Your Marriage Needs](https://www.forbes.com/sites/markeghrari/2016/01/21/a-long-commute-could-be-the-last-thing-your-marriage-needs/#5baf10f04245)
-- [6 People Who Prove You Don't Have to Sacrifice Your Career to Work Remotely](https://doist.com/blog/remote-career-advice/)
+- [6 People Who Prove You Don't Have to Sacrifice Your Career to Work Remotely](https://blog.doist.com/remote-career-advice/)
 - [After Growing to 50 People, We're Ditching the Office Completely](https://open.buffer.com/no-office/)
 - [On-Premise Tribes in Shiny Caves](https://medium.com/understanding-as-a-service-uaas/on-premise-people-and-shiny-caves-remote-as-a-service-97cff86382b6)
 - [The benefits - and pitfalls - of working in isolation](http://theconversation.com/the-benefits-and-pitfalls-of-working-in-isolation-105350)
 - [It's not just the isolation. Working from home has surprising downsides](https://theconversation.com/its-not-just-the-isolation-working-from-home-has-surprising-downsides-107140)
 - [The Day They Invented Offices](https://shift.infinite.red/a-hypothetical-conversation-with-a-real-estate-developer-in-a-world-without-offices-53cd7be0942#.pufgl7l3a)
-- [That remote work think piece has some glaring omissions (a rant)](http://www.catehuston.com/blog/2016/04/07/that-remote-work-think-piece-has-some-glaring-omissions/)
+- [That remote work think piece has some glaring omissions (a rant)](https://cate.blog/2016/04/07/that-remote-work-think-piece-has-some-glaring-omissions/)
 - [Tweets about the impact by Amir Salihefendic](https://twitter.com/amix3k/status/881251640795439104)
 - [Martin Fowler on remote vs. co-located](https://martinfowler.com/articles/remote-or-co-located.html)
 - [Top 5 Reasons Why Companies Adopt Remote Work](https://web.archive.org/web/20210422134451/https://www.remoter.com/top-5-reasons-why-companies-adopt-remote-work)
@@ -230,7 +230,7 @@ Looking for GitLab's library of guides to working remotely? Those are [**here**]
 - [How to stay productive when you're working remotely](https://thriveglobal.com/stories/working-remotely-from-home-stay-productive-tips/)
 - [10 tips for improving your remote conversations](https://www.smartbrief.com/original/2019/07/10-tips-improving-your-remote-conversations)
 - [450 remote workers reveal how to boost productivity when working from home](https://thriveglobal.com/stories/450-remote-workers-reveal-how-to-boost-productivity-when-working-from-home/)
-- [Managing Remote Employees: Best Practices from Doist's Head of Marketing](https://doist.com/blog/best-practices-managing-remote-employees/)
+- [Managing Remote Employees: Best Practices from Doist's Head of Marketing](https://blog.doist.com/best-practices-managing-remote-employees/)
 - [The future of work is distributed. Here's how your company can strategize.](https://www.forbes.com/sites/falonfatemi/2019/06/28/the-future-of-work-is-distributed-heres-how-your-company-can-strategize)
 - [Leading remotely - What every manager should know](https://thriveglobal.com/stories/leading-remotely-what-every-manager-should-know/)
 - [Why engaging remote workers is good people business and how to do it](https://www.forbes.com/sites/forbeshumanresourcescouncil/2019/06/17/why-engaging-remote-workers-is-good-people-business-and-how-to-do-it/)
@@ -352,7 +352,6 @@ Some organizations (like GitLab) provide stipends or [reimbursement](/handbook/f
 - [Co-work Paradise](http://www.coworkparadise.com/)
 - [Project Getaway](http://www.projectgetaway.com/)
 - [B-Digital Nomad](https://www.b-digitalnomad.com/)
-- [Remote Work Association](https://www.remoteworkassociation.com/)
 
 ### Guides for remote work
 

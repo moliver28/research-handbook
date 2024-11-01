@@ -18,7 +18,7 @@ Here are how the team members divide their work to ensure the best results:
 - The **[People Analytics Team](/handbook/people-group/people-ops-tech-analytics/people-analytics)** is responsible for working with stakeholders to develop and report various People Metrics and KPIs for the business. Additional insight is also providing using statistical analysis or experimental design to help understand effects of different People related initiatives.
 - The **People Engineering Team**
 
-### <i class="fas fa-bullhorn fa-fw" style="color:rgb(107,79,187); font-size:.85em" aria-hidden="true"></i>Connect With Us
+### Connect With Us
 
 <a href="https://helplab.gitlab.systems/esc?id=ec_pro_dashboard" class="btn btn-primary btn-lg"><i class="fa-brands fa-slack"></i> HelpLab</a>
 <a href="https://gitlab.com/people/general/-/issues" class="btn btn-primary btn-lg"><i class="fa-brands fa-gitlab"></i> Issue tracker</a>

@@ -1,5 +1,4 @@
 ---
-aliases: /handbook/marketing/brand-and-product-marketing/product-and-solution-marketing/roles-personas/Day_in_the_Life_SecOpsEngineer_Persona.html
 title: "Day in the Life for the Security Operations Engineer persona"
 ---
 

@@ -32,7 +32,6 @@ important to those working within Zendesk:
 | `sub_consumption_cicd_minutes` | Consumption | The organization has purchased CI/CD minutes |
 | `sub_consumption_eap`          | Consumption | The organization has purchased the Enterprise Agile Planning addon |
 | `sub_consumption_storage`      | Consumption | The organization has storage |
-| `sub_dotcom_bronze`            | Standard    | The organization has a GitLab.com Bronze subscription |
 | `sub_dotcom_premium`           | Priority    | The organization has a GitLab.com Premium subscription |
 | `sub_dotcom_ultimate`          | Priority    | The organization has a GitLab.com Ultimate subscription |
 | `sub_edu`                      | None        | The organization has a EDU community subscription |
@@ -62,6 +61,7 @@ important to those working within Zendesk:
 | `open_partner`        | Signifies the ticket is from an account labeled as Open Partner |
 | `select_partner`      | Signifies the ticket is from an account labeled as Select Partner |
 | `alliance_partner`    | Signifies the ticket is from an account labeled as Alliance Partner |
+| `support_hold`        | Signifies the organization that filed the ticket has a Support Hold in place |
 
 </details>
 <details>
@@ -71,6 +71,12 @@ important to those working within Zendesk:
 |--------------------------------|---------------|
 | `greatly_expired`              | The organization is slated to be removed due to data rentention policies |
 | `not_in_sfdc`                  | The organization is not being controlled by the ZD-SFDC sync |
+| `org_region_apac`              | The organization has a Geographic Demographic relating to APAC |
+| `org_region_amer`              | The organization has a Geographic Demographic relating to AMER |
+| `org_region_emea`              | The organization has a Geographic Demographic relating to EMEA |
+| `org_region_latam`             | The organization has a Geographic Demographic relating to LATAM |
+| `org_region_ncsa`              | The organization has a Geographic Demographic relating to NCSA |
+| `org_region_noram`             | The organization has a Geographic Demographic relating to NORAM |
 | `partner_customer`             | The organization has purchased from an OEM partner |
 | `restricted_account`           | The SFDC account is classified as restricted and cannot receive support |
 | `sub_community_other`          | The organization has a community subscription which had an undetectable type |
@@ -78,7 +84,6 @@ important to those working within Zendesk:
 | `sub_consumption_cicd_minutes` | The organization has a CI/CD minutes purchase |
 | `sub_consumption_eap`          | The organization has an Agile Planning addon |
 | `sub_consumption_storage`      | The organization has a storage purchase |
-| `sub_dotcom_bronze`            | The organization has a gitlab.com Bronze subscription |
 | `sub_dotcom_premium`           | The organization has a gitlab.com Premium subscription |
 | `sub_dotcom_ultimate`          | The organization has a gitlab.com Ultimate subscription |
 | `sub_edu`                      | The organization has an EDU community subscription |
@@ -741,6 +746,10 @@ important to those working within Zendesk:
 | `within_grace_period`            | Indicates a ticket was submitted while the account is within the subscription's grace period |
 | `CUSTOM_PATH_issues_IID`         | See below for more information |
 | `CUSTOM_PATH_merge_requests_IID` | See below for more information |
+| `americas_usa`                   | Customer selected preferred region of service: AMER |
+| `europe__middle_east__africa`    | Customer selected preferred region of service: EMEA |
+| `asia_pacific`                   | Customer selected preferred region of service: APAC |
+| `all_regions`                    | Customer selected preferred region of service: All Regions |
 
 For `CUSTOM_PATH_issues_IID` and `CUSTOM_PATH_merge_requests_IID`, this refers
 to a long tag that contains the entire project path.
@@ -778,7 +787,6 @@ So an example:
 | `sub_consumption_cicd_minutes` | None        | The organization has purchased CI/CD minutes |
 | `sub_consumption_eap`          | None        | The organization has purchased the Enterprise Agile Planning addon |
 | `sub_consumption_storage`      | None        | The organization has storage |
-| `sub_dotcom_bronze`            | None        | The organization has a GitLab.com Bronze subscription |
 | `sub_dotcom_premium`           | None        | The organization has a GitLab.com Premium subscription |
 | `sub_dotcom_ultimate`          | None        | The organization has a GitLab.com Ultimate subscription |
 | `sub_edu`                      | None        | The organization has a EDU community subscription |
@@ -809,6 +817,7 @@ So an example:
 | `open_partner`        | Signifies the ticket is from an account labeled as Open Partner |
 | `select_partner`      | Signifies the ticket is from an account labeled as Select Partner |
 | `alliance_partner`    | Signifies the ticket is from an account labeled as Alliance Partner |
+| `support_hold`        | Signifies the organization that filed the ticket has a Support Hold in place |
 
 </details>
 <details>
@@ -824,7 +833,6 @@ So an example:
 | `sub_consumption_cicd_minutes` | The organization has a CI/CD minutes purchase |
 | `sub_consumption_eap`          | The organization has an Agile Planning addon |
 | `sub_consumption_storage`      | The organization has a storage purchase |
-| `sub_dotcom_bronze`            | The organization has a gitlab.com Bronze subscription |
 | `sub_dotcom_premium`           | The organization has a gitlab.com Premium subscription |
 | `sub_dotcom_ultimate`          | The organization has a gitlab.com Ultimate subscription |
 | `sub_edu`                      | The organization has an EDU community subscription |

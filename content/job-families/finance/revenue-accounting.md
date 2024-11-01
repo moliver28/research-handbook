@@ -182,8 +182,8 @@ The Senior Manager, Revenuer Accouting is a [grade 9](/handbook/total-rewards/co
 ### Performance Indicators
 
 - [Average days to close](/handbook/finance/accounting/#month-end-review--close)
-- [Number of material audit adjustments](/handbook/internal-audit/#performance-measures-for-accounting-and-finance-function-related-to-audit)
-- [Percentage of ineffective Sox Controls](/handbook/internal-audit/#performance-measures-for-accounting-and-finance-function-related-to-audit)
+- [Number of material audit adjustments](https://internal.gitlab.com/handbook/internal-audit/#performance-measures-for-accounting-and-finance-function-related-to-audit)
+- [Percentage of ineffective Sox Controls](https://internal.gitlab.com/handbook/internal-audit/#performance-measures-for-accounting-and-finance-function-related-to-audit)
 
 ## Director, Revenue Accounting Levels
 
@@ -295,12 +295,12 @@ The Vice President, Revenue, is a [job grade 12](/handbook/total-rewards/compens
 - [Deals reviewed for revenue recognition = 100%](/handbook/finance/accounting/#deals-reviewed-for-revenue-recognition--100)
 - [Non GAAP Revenue (Ratable Recognition)](/handbook/finance/accounting/#non-gaap-revenue-ratable-recognition)
 - [Average days to close](/handbook/finance/accounting/#average-days-to-close-kpi-definition)
-- [Number of material audit adjustments = 0](/handbook/internal-audit/#performance-measures-for-accounting-related-to-audit)
+- [Number of material audit adjustments = 0](https://internal.gitlab.com/handbook/internal-audit/#performance-measures-for-accounting-related-to-audit)
 - [Average days of sales outstanding](/handbook/finance/accounting/#11-accounts-receivable)
 - [Deals reviewed for revenue recognition = 100%](/handbook/finance/accounting/#deals-reviewed-for-revenue-recognition--100)
 - [Non GAAP Revenue (Ratable Recognition)](/handbook/finance/accounting/#non-gaap-revenue-ratable-recognition)
 - [Revenue recognition and accounting for other quote to cash transactions in Net Suite](/handbook/finance/accounting/#8-revenue-recognition-and-accounting-for-other-quote-to-cash-transactions-in-net-suite)
-- [Percentage of ineffective SOX Controls = 0%](/handbook/internal-audit/#performance-measures-for-accounting-related-to-audit)
+- [Percentage of ineffective SOX Controls = 0%](https://internal.gitlab.com/handbook/internal-audit/#performance-measures-for-accounting-related-to-audit)
 
 ## Career Ladder
 

@@ -146,7 +146,7 @@ We spend a lot of time working in Go which is the language that [GitLab Runner](
 
 We work in monthly iterations. Iteration planning dates for the upcoming milestone are aligned with GitLab's [product development timeline](/handbook/engineering/workflow/#product-development-timeline).
 
-At a minimum, 30 days before the start of a milestone, the runner PM reviews and re-prioritizes as needed the features to be included in the [iteration planning issue](https://gitlab.com/gitlab-org/gitlab-runner/-/issues/?sort=created_date&state=opened&label_name%5B%5D=Planning%20Issue&first_page_size=20). The planning issue is a tool for asynchoronous collaboration between the PM, EM and members of the team. We use [cross-functional prioritization](/handbook/product/cross-functional-prioritization/#prioritization-for-feature-maintenance-and-bugs) to guide the collaboration process.
+At a minimum, 30 days before the start of a milestone, the runner PM reviews and re-prioritizes as needed the features to be included in the [iteration planning issue](https://gitlab.com/gitlab-org/gitlab-runner/-/issues/?sort=created_date&state=opened&label_name%5B%5D=Planning%20Issue&first_page_size=20). The planning issue is a tool for asynchoronous collaboration between the PM, EM and members of the team. We use [cross-functional prioritization](/handbook/product/product-processes/cross-functional-prioritization/#prioritization-for-feature-maintenance-and-bugs) to guide the collaboration process.
 
 The commitments for the iteration plan are directly related to the capacity of the team for the upcoming iteration. Therefore, to finalize the iteration plan (resource allocation) for a milestone, we evaluate and consider the following:
 
@@ -276,7 +276,7 @@ GitLab FedRAMP certification.
 
 Using the [`container-scanners`](https://gitlab.com/gitlab-com/gl-security/appsec/container-scanners) project, GitLab
 scans all images we produce to highlight CVE vulnerabilities. From those scans, the
-[`vulnmapper`](https://gitlab.com/gitlab-com/gl-security/threatmanagement/vulnerability-management/vulnerability-management-internal/vulnmapper)
+[`vulnmapper`](https://gitlab.com/gitlab-com/gl-security/product-security/vulnerability-management/vulnerability-management-internal/vulnmapper)
 project creates issues in the project that created the vulnerable image, including
 [SLAs](/handbook/security/product-security/vulnerability-management/sla/) to which we must adhere.
 The Runner team member assigned the `Support & Security Responder` role in the weekly team task should triage and
@@ -332,10 +332,12 @@ The primary course of action here is to create a
 [`deviation request issue`](https://gitlab.com/gitlab-com/gl-security/security-assurance/team-security-dedicated-compliance/poam-deviation-requests/-/issues)
 (see
 https://handbook.gitlab.com/handbook/security/security-assurance/dedicated-compliance/poam-deviation-request-procedure/).
-When creating the issue, be sure to select `operational_requirement_template` as a template and complete the following sections:
+We generally create one deviation request issue per offending software module (e.g. `git-lfs` or `libcurl`). When
+creating the issue, be sure to select `operational_requirement_template` as a template and complete the following
+sections:
 
 - Affected images
-- Vulnerability details
+- Vulnerability details (one row for each relevant CVE report)
 - Relevant `vulnmapper` issues
 - Justification
 

@@ -9,11 +9,11 @@ As our Engineering Productivity Manager/Senior Manager, you'll play a pivotal ro
 
 ### Engineering Manager, Engineering Productivity
 
-#### Engineering Manager, Engineering Productivity Job Grade
+#### Job Grade
 
 The role is a [grade 8](/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades).
 
-#### Engineering Manager, Engineering Productivity Responsibilities
+#### Responsibilities
 
 - Lead a team of engineers focused on improving development efficiency and streamlining workflows.
 - Analyze engineering processes and identify areas for improvement.
@@ -38,11 +38,11 @@ The role is a [grade 8](/handbook/total-rewards/compensation/compensation-calcul
 
 ### Senior Engineering Manager, Engineering Productivity
 
-#### Senior Engineering Manager, Engineering Productivity Job Grade
+#### Job Grade
 
 The role is a [grade 9](/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades).
 
-#### Senior Engineering Manager, Engineering Productivity Responsibilities
+#### Responsibilities
 
 - All of the responsibilities listed for Engineering Productivity Team Manager.
 - Develop and lead a high-performing Engineering Productivity team, fostering a strong team environment.
@@ -54,7 +54,7 @@ The role is a [grade 9](/handbook/total-rewards/compensation/compensation-calcul
 - Stay up-to-date on industry trends in engineering productivity and tooling.
 - Develop and deliver presentations on engineering productivity best practices to the broader engineering organization.
 
-#### Senior Engineering Manager, Engineering Productivity Requirements
+#### Requirements
 
 - 8+ years of experience in software engineering with a deep understanding of software development lifecycle (SDLC) and best practices.
 - 5+ years of experience leading and managing a team, with a proven track record of success.
@@ -66,8 +66,8 @@ The role is a [grade 9](/handbook/total-rewards/compensation/compensation-calcul
 
 ## Performance Indicators
 
-- [GitLab.com Availability](/handbook/engineering/infrastructure-quality/performance-indicators/#gitlabcom-availability)
-- [Infrastructure corrective action SLO](/handbook/engineering/infrastructure-quality/performance-indicators/#corrective-action-slo)
+- [GitLab.com Availability](/handbook/engineering/infrastructure/performance-indicators/#gitlabcom-availability-slo)
+- [Infrastructure corrective action SLO](/handbook/engineering/infrastructure/performance-indicators/#corrective-action-slo)
 - Project Completion rate
   - Measure by tracking the percentage of projects completed on time and within budget.
 - Stakeholder Satisfaction score

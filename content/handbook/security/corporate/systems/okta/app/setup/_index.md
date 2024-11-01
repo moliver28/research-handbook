@@ -9,8 +9,7 @@ All SaaS and vendor software needs to go through the [procurement process](/hand
 As part of that procurement process, GitLab must verify that the application can be configured with Okta SSO using SAML or SCIM and has automatable user management for creation, updates, and deactivation.
 
 - [Finance Procurement Process](/handbook/finance/procurement/new-software)
-- [New Application Change Management Issue Template](https://gitlab.com/gitlab-com/business-technology/change-management/-/issues/new?issuable_template=okta_new_app_request)
-- [Update Application Change Management Issue Template](https://gitlab.com/gitlab-com/business-technology/change-management/-/issues/new?issuable_template=okta_existing_app_update)
+- Open a new [new corpsec issue](https://gitlab.com/gitlab-com/gl-security/corp/issue-tracker/-/issues/new?issuable_template=corpsec_general_change) and tag `@gitlab-com/gl-security/corp/identity`. Provide any documentation from the vendor regarding SSO.
 
 ## Timeline Expectations
 

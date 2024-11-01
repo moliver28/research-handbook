@@ -3,30 +3,22 @@ title: TaNewKi Tips
 description: A guide for new team members
 ---
 
-## <i class="fab fa-gitlab fa-fw" style="color:rgb(252,109,38); font-size:.85em" aria-hidden="true"></i> Welcome
+## Welcome
 
 Hello! We could not be more excited to have you at GitLab. This page is here to help walk you through what you can expect before and during your first few weeks as a new team member.
 
-## <i class="fab fa-gitlab fa-fw" style="color:rgb(252,109,38); font-size:.85em" aria-hidden="true"></i> Meet the People Connect team
+## Meet the People Connect team
 
 The [People Connect team](/handbook/company/team/?department=people-connect-team) is here to help guide you in your journey here at GitLab. A member of the team will be assigned to your Onboarding Issue, and will be there to provide guidance as you begin onboarding. You can learn more about us below by reading our bios on the team page.
 
-## <i class="fab fa-gitlab fa-fw" style="color:rgb(252,109,38); font-size:.85em" aria-hidden="true"></i> Onboarding Issues
-
-Are you curious about what onboarding looks like here at GitLab? We currently use our own product to facilitate onboarding through issues. If you have never seen a GitLab issue before, take some time to watch the video below to see what you'll be working out of during your onboarding.
-
-<figure class="video_container">
-  <iframe src="https://www.loom.com/embed/7acd42bc463f48a4a8dca9afa2f9bf27" frameborder="0" allowfullscreen="true"> </iframe>
-</figure>
-
-## <i class="fab fa-gitlab fa-fw" style="color:rgb(252,109,38); font-size:.85em" aria-hidden="true"></i> Timeline
+## Timeline
 
 After you sign your offer and complete your background check and references, you can expect your onboarding to go like this:
 
 ### Before you start
 
 1. Sign your offer, and be on the lookout for your :email: Welcome Email from the Candidate Experience Specialist team. You can read about the team on [this handbook page](/handbook/hiring/talent-acquisition-framework/coordinator/).
-    - This email will contain all pertainent information such as how to order your office equipment and most importantly your laptop. The IT team also has a very handy, handbook page [you can review](/handbook/business-technology/end-user-services/onboarding-access-requests/#gitlab-laptops).
+    - This email will contain all pertainent information such as how to order your office equipment and most importantly your laptop. The IT team also has a very handy, handbook page [you can review](/handbook/it/end-user-services/onboarding-access-requests/#gitlab-laptops).
     - Please note,when you receive your laptop, make sure to **not** sign into the laptop with your personal Apple ID. You will be asked to create an Apple ID on day one with your GitLab email address.
 1. If you are being employed by one of GitLab's US entities, either GitLab Inc or GitLab Federal LLC, you will need to complete your I9 via LawLogix. You will receive an email from LawLogix. This email will walk you through the process of completing the I9.
 1. If you live in Germany, Belgium, or Japan you will need to be on a lookout from an email from the People Connect team to complete some payroll documents.
@@ -48,7 +40,7 @@ After you sign your offer and complete your background check and references, you
 1. The first thing you'll want to do is check your personal email where you will have received an onboarding email from GitLab with directions on how to access Okta, your GitLab email and all other applications. Most of GitLab applications are accessed through Okta so make sure you follow the directions in the email in order. You will be required to create a strong password, which you need to keep a note of. Once you have accessed your GitLab email, you will receive a invite from 1Password where you can store all your important personal passwords, along with creating strong/er passwords if required.
 1. Once you accept your GitLab access invites, you'll be able to open up and see your own personalized version of the [onboarding issue](https://gitlab.com/gitlab-com/people-group/people-operations/employment-templates/-/blob/main/.gitlab/issue_templates/onboarding.md).
 
-## <i class="fab fa-gitlab fa-fw" style="color:rgb(252,109,38); font-size:.85em" aria-hidden="true"></i> Helpful Resources
+## Helpful Resources
 
 1. [TaNEWki Tips](/handbook/people-group/general-onboarding/tanewki-tips/) - This page is here to help walk you through what you can expect before and during your first few weeks as a new team member.
 1. [Read Aloud: A Text to Speech Voice Reader](https://chrome.google.com/webstore/detail/read-aloud-a-text-to-spee/hdhinadidafjejdhmfkjgnolgimiaplp?hl=en)
@@ -67,7 +59,7 @@ After you sign your offer and complete your background check and references, you
     - [Better Team Page](https://leipert-projects.gitlab.io/better-team-page/timezones/) - Okta Sign In Required
     - [Every Timezone](https://everytimezone.com/)
 
-## <i class="fab fa-gitlab fa-fw" style="color:rgb(252,109,38); font-size:.85em" aria-hidden="true"></i> Acronym Dictionary
+## Acronym Dictionary
 
 As point 23 on our [communication handbook page](/handbook/communication/#writing-style-guidelines) outlines, we try to avoid using acronyms at GitLab as much as possible however, sometimes we forget. Below you can find common acronyms used here that may help you. If you come across any not in this list during your onboarding, feel empowered to do a merge request to add it below!
 
@@ -76,7 +68,7 @@ As point 23 on our [communication handbook page](/handbook/communication/#writin
 | Acronym| Word/Saying/Title |
 |:---------------|:---------------|
 | AMA | [Ask Me Anything](/handbook/communication/ask-me-anything/) |
-| AR | [Access Request](/handbook/business-technology/end-user-services/onboarding-access-requests/access-requests/) |
+| AR | [Access Request](/handbook/it/end-user-services/onboarding-access-requests/access-requests/) |
 | DRI | Directly Responsible Individual |
 | E-Group | Executive Group |
 | EBA | Executive Business Administrator |
@@ -87,7 +79,7 @@ As point 23 on our [communication handbook page](/handbook/communication/#writin
 | MECC| [Managing so Everyone Can Contribute](/teamops/)|
 | MNPI | Material Non-Public Information  |
 | MR | Merge Request  |
-| MVC| [Minimum Viable Change](/handbook/values/#minimal-viable-change-mvc) (not related to Model-View-Controller)|
+| MVC| [Minimal Valuable Change](/handbook/values/#minimal-valuable-change-mvc) (not related to Model-View-Controller)|
 | OKRs | [Objectives & Key Results](/handbook/company/okrs) |
 | PTO | [Paid Time Off](/handbook/people-group/paid-time-off/) |
 | SIRT | [Security Incident Response Team](/handbook/security/security-operations/sirt) |
@@ -134,7 +126,7 @@ As point 23 on our [communication handbook page](/handbook/communication/#writin
 | TAM | Total Addressable Market |
 | TCV | Total Contract Value |
 
-## <i class="fab fa-gitlab fa-fw" style="color:rgb(252,109,38); font-size:.85em" aria-hidden="true"></i> Equipment and Expenses
+## Equipment and Expenses
 
 If you're nearing your start date and still haven't received your laptop, please reach out to people-connect@gitlab.com for us to check in with the IT department and see where your laptop is in transit.
 
@@ -142,7 +134,7 @@ If you're nearing your start date and still haven't received your laptop, please
 
 GitLab utitilizes Navan as our team member [expense](/handbook/finance/expenses/) reimbursement tool. All team members will have access to Navan within 2 days from their hire date. If you don't see a tile for Navan in your Okta dashboard, please contact `ap@gitlab.com`.
 
-## <i class="fab fa-gitlab fa-fw" style="color:rgb(252,109,38); font-size:.85em" aria-hidden="true"></i> Onboarding Expectations
+## Onboarding Expectations
 
 1. As an all remote company, it is important to remember that we all work in different time zones, [asynchronous communication](/handbook/company/culture/all-remote/asynchronous/#introduction) is key to ensure that everyone is included. Don't feel like you need to stay up late at night or early morning to keep up with your fellow team members, this is where we pride oursleves on [our async way](/handbook/company/culture/all-remote/asynchronous/). **This means that you may not have meetings on your first day, or your first week but it's not because we're not excited to have you here. It's just our way of working!**
 1. Take your time! There is a lot to go through, and you may feel like you have to get to everything each day. If you do great! If not, that's great too.
@@ -159,7 +151,7 @@ Want to learn more about Onboarding from current team members? View their feedba
 &nbsp;&nbsp;<i class="fab fa-gitlab" style="color:rgb(107,79,187); font-size:.85em" aria-hidden="true"></i>
 {{% /alert %}}
 
-## <i class="fab fa-gitlab fa-fw" style="color:rgb(252,109,38); font-size:.85em" aria-hidden="true"></i> Frequently Asked Questions
+## Frequently Asked Questions
 
 ### Equipment and Expenses
 
@@ -191,7 +183,7 @@ A: Depending on where you are located, you can find the payroll cut off dates [h
 
 **Q: I have preplanned vacations or commitments, how should I handle this upon starting and ensuring the PTO?**
 
-A: That's absolutely okay. You'll want to make sure to talk with your manager as soon as you can about the days to make sure appropriate coverage is there and then once you get access to Slack, you'll be able to submit your time off in [Time Off by Deel](/handbook/people-group/paid-time-off/#time-off-by-deel).
+A: That's absolutely okay. You'll want to make sure to talk with your manager as soon as you can about the days to make sure appropriate coverage is there and then enter the time off in Workday.
 
 **Q: How long do I have to enroll in benefits?**
 

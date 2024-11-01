@@ -31,7 +31,7 @@ Note that this cookie can sometimes not show up for GitLab team members. This do
 Use this [library](https://gitlab.com/gitlab-com/marketing/digital-experience/buyer-experience/-/blob/main/lib/getCookieValue.ts?ref_type=heads) by passing the name of any available cookie that the client is able to parse:
 
 ```js
-import { getCookieValue } from '~/lib/getCookieValue';
+import getCookieValue from '~/lib/getCookieValue';
 ```
 
 Then, you can use that function to update the component during any lifecycle after the `mounted` hook, depending on your intended functionality.

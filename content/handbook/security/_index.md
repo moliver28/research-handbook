@@ -67,6 +67,8 @@ To reflect this, we have structured the Security Division around four key tenets
         <ul>
             <li><a href="product-security/application-security/">Application Security</a></li>
             <li><a href="product-security/infrastructure-security/">Infrastructure Security</a></li>
+            <li><a href="product-security/product-security-engineering/">Product Security Engineering</a></li>
+            <li><a href="product-security/architecture/">Security Architecture</a></li>
             <li><a href="product-security/security-research/">Security Research</a></li>
             <li><a href="product-security/vulnerability-management/">Security Threat & Vulnerability Management</a></li>
         </ul>
@@ -181,9 +183,9 @@ Many teams follow a convention of having a GitLab group `team-name-team` with a 
   - Identity and Access Management
     - [@gitlab-com/gl-security/identity/infra](https://gitlab.com/gitlab-com/gl-security/identity/infra)
     - [@gitlab-com/gl-security/identity/ops](https://gitlab.com/gitlab-com/gl-security/identity/ops)
-  - [@gitlab-com/gl-security/threatmanagement/redteam](https://gitlab.com/gitlab-com/gl-security/threatmanagement/redteam)
+  - [@gitlab-com/gl-security/security-operations/redteam](https://gitlab.com/gitlab-com/gl-security/security-operations/redteam)
   - [@gitlab-com/gl-security/security-research](https://gitlab.com/gitlab-com/gl-security/security-research)
-  - [@gitlab-com/gl-security/threatmanagement/vulnerability-management](https://gitlab.com/gitlab-com/gl-security/threatmanagement/vulnerability-management)
+  - [@gitlab-com/gl-security/threatmanagement/vulnerability-management](https://gitlab.com/gitlab-com/gl-security/product-security/vulnerability-management)
 
 #### Slack Channels
 
@@ -204,6 +206,22 @@ handled by the Security Division.
 - Use the **@trust-and-safety** mention in any Slack channel to tag the members of the Trust & Safety team.
 - Use the **@security-identity** mention in any Slack channel (or `#security-identity-ops`) to tag members of the Identity team.
 
+#### Division, Department, and Team updates
+
+We believe it is important to share regular updates at various levels of the Security Division, and we use Slack as the primary mechanism for providing these updates. Our updates are open to all GitLab team members using the following process:
+
+- **Start of each month:** A thread per-department is started in `#security-department` by each department leader (CorpSec, ProdSec, SecAssurance, SecOps). These threads are pinned for the duration of the month.
+  - Thread template:
+    - `<MONTH> <DEPARMENT> Weekly Updates`
+    - Example: `August Product Security Weekly Updates`
+- **Weekly:** At least once a week, teams provide updates they wish to share within the appropriate thread. For example, updates from Vulnerability Management would be placed in the Product Security thread for the given month.
+  - These weekly updates, while highly encouraged, are strictly optional and should represent content that ICs and managers feel should be highlighted. Teams are encouraged to define processes and DRIs around these updates that work for them.
+  - Individuals providing the weekly updates are encouraged to use the "Also send to #security-department" option within the thread to increase visibility.
+- **End of each month:** Departmental leaders prepare a monthly update, including no more than **three updates per team**, and post it in `#ciso` within the first week of the following month.
+  - Each monthly update should include a brief preface written by the departmental leader covering any notable themes or other strategic updates.
+  - Each of the three updates per-team should be no more than 2-3 sentences and include at least one link to allow readers to gain additional context. Links should be to GitLab Issues or Epics wherever possible. If information is confidential and not able to be added to an Issue or Epic, a note should be added indicating this.
+  - It is recommended that departmental leaders build their monthly update over the course of the month via a GitLab issue ([see an example](https://gitlab.com/gitlab-com/gl-security/product-security/product-security-meta/-/issues/72)) in collaboration with their managers and senior ICs.
+
 #### Ransomware
 
 For an overview of the communication and response process for a suspected ransomware attack, please see our [Responding to Ransomware]({{< ref "responding-to-ransomware" >}}) page.
@@ -216,19 +234,19 @@ For an overview of the communication and response process for a suspected ransom
 
 The following best practices will help ensure tokens are handled appropriately at GitLab. For detailed requirements regarding the use of tokens at GitLab, please see our [token management standard]({{< ref "token-management-standard" >}}).
 
-1. When creating a [Personal Access Token](https://docs.gitlab.com/ee/user/profile/personal_access_tokens.html), be sure to choose the appropriate [scopes](/handbook/security/security-operations/sirt/engaging-security-on-call.html) that only have the permissions that are absolutely necessary.
+1. When creating a [Personal Access Token](https://docs.gitlab.com/ee/user/profile/personal_access_tokens.html), be sure to choose the appropriate [scopes](/handbook/security/security-operations/sirt/engaging-security-on-call/) that only have the permissions that are absolutely necessary.
 1. Oftentimes a [Project Access Token](https://docs.gitlab.com/ee/user/project/settings/project_access_tokens.html) might be sufficient instead of a Personal Access Token. Project Access Tokens have a much more limited scope and should be preferred over Personal Access Tokens whenever possible.
 1. Always set an expiration for your tokens when creating them. Tokens should preferably expire in a matter of hours or a day.
 1. Be mindful to keep these personal access tokens secret. Be particularly careful not to accidentally commit them in configuration files, paste them into issue or merge request comments, or otherwise expose them.
 1. Please consider periodically reviewing your currently active Personal Access Tokens and revoking any that are no longer needed.
 1. Personal Access Tokens will be highly discouraged within the GitLab production environment, and disallowed/disabled wherever possible. Existing tokens shall remain, but additional issuance will not be permissible/possible.
-1. If you believe a personal access token has been leaked, revoke it immediately (if possible) and [contact the security team](/handbook/security/security-operations/sirt/engaging-security-on-call.html) using the `/security` Slack command.
+1. If you believe a personal access token has been leaked, revoke it immediately (if possible) and [contact the security team](/handbook/security/security-operations/sirt/engaging-security-on-call/) using the `/security` Slack command.
 
 #### Receive notification of security releases
 
 - To receive security release blog notifications delivered to your inbox, visit our [contact us](https://about.gitlab.com/company/contact/) page.
 - To receive release notifications via RSS, subscribe to our [security release RSS feed](https://about.gitlab.com/security-releases.xml) or our [RSS feed for all releases](https://about.gitlab.com/all-releases.xml).
-- For additional information regarding security releases, please visit the Delivery Team's [security releases](/handbook/engineering/releases/security-releases/) page.
+- For additional information regarding security releases, please visit the Delivery Team's [security releases](/handbook/engineering/infrastructure/library/security-releases-development/) page.
 
 ### <i class="fas fa-book" style="color:rgb(110,73,203)" aria-hidden="true"></i> Resources
 

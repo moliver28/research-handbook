@@ -1,6 +1,6 @@
 ### Engineering Allocation
 
-While we have moved to the [cross-functional prioritization process](/handbook/product/cross-functional-prioritization/) to empower teams to determine the optimal balance of all types of issues, we will keep Engineering Allocations as a way to allow teams to quickly shift to a critical priority, designating the EM as the DRI to drive the effort.
+While we have moved to the [cross-functional prioritization process](/handbook/product/product-processes/cross-functional-prioritization/) to empower teams to determine the optimal balance of all types of issues, we will keep Engineering Allocations as a way to allow teams to quickly shift to a critical priority, designating the EM as the DRI to drive the effort.
 
 Engineering is the DRI for mid/long term team efficiency, performance, security (incident response and anti-abuse capabilities), availability, and scalability. The expertise to proactively identify and iterate on these is squarely in the Engineering team. Whereas Product can support in performance issues as identified from customers. In some ways these efforts can be viewed as risk-mitigation or revenue protection. They also have the characteristic of being larger than one group at the stage level. Development would like to conduct an experiment to focus on initiatives that should help the organization scale appropriately in the long term.  We are treating these as a percent investment of time associated with a stage or category. The percent of investment time can be viewed as a prioritization budget outside normal Product/Development assignments.
 
@@ -37,7 +37,7 @@ One of the most frequent questions we get as part of this experiment is "How doe
 To help with getting items that on the list for consideration, we will be performing a survey periodically.  The survey will consist of the following questions:
 
 1. If you were given a % of engineering development per release to work on something, what would it be?
-1. How would you justify it?  Have you tried leveraging [cross-functional prioritization process](/handbook/product/cross-functional-prioritization/) before considering an engineering allocation?
+1. How would you justify it?  Have you tried leveraging [cross-functional prioritization process](/handbook/product/product-processes/cross-functional-prioritization/) before considering an engineering allocation?
 
 We will keep the list of questions short to solicit the most input.  The survey will go out to members of the Development, Quality, Security.  After we get the results, we will consider items for potential adding as an Engineering Allocation.
 

@@ -1,6 +1,5 @@
 ---
 title: Security Policies and Threat Insights planning
-aliases: /handbook/engineering/development/sec/govern/sp-ti-planning.html
 ---
 
 ## How we do planning
@@ -43,7 +42,7 @@ Engineers assigned to refine issues are encouraged to ask questions and push bac
 
 We assign issues for refinement to ensure we have focus on the highest-priority items, as determined by Product Management.  This is **not** an assignment to work on the issue.
 
-* Engineering output: Move issue into the `workflow::ready for dev` state and unassign themselves if they have completed refinement. Leave issue in `workflow::refinement` and assign the issue to their EM if for any reason refinement could not be completed. Confirm the issue has the appropriate [work type classification](/handbook/engineering/metrics/#work-type-classification).
+* Engineering output: Move issue into the `workflow::ready for dev` state and unassign themselves if they have completed refinement. Leave issue in `workflow::refinement` and assign the issue to their EM if for any reason refinement could not be completed. Confirm the issue has the appropriate [work type classification](/handbook/product/groups/product-analysis/engineering/dashboards/#work-type-classification).
 
 ### Release Scope final & kickoff
 
@@ -104,9 +103,9 @@ The goal of the refinement process is to ensure an issue is ready to be worked o
    * Consider creating a [feature flag clean up](https://gitlab.com/gitlab-org/gitlab/-/issues/new?issuable_template=Feature%20Flag%20Cleanup) issue if the removal of the feature flag will occur in a subsequent milestone.
 1. Encourage Community Contributions.
    * If the scope of the issue is well defined and there are no dependencies, consider adding
-     [contribution Labels](/handbook/marketing/developer-relations/contributor-success/community-contributors-workflows.html#labels).
+     [contribution Labels](/handbook/marketing/developer-relations/contributor-success/community-contributors-workflows/#labels).
    * The `~"quick win"` label is particularly helpful but note that you would
-     be [volunteering to mentor new contributors](/handbook/marketing/developer-relations/contributor-success/community-contributors-workflows.html#issues-for-new-contributors).
+     be [volunteering to mentor new contributors](/handbook/marketing/developer-relations/contributor-success/community-contributors-workflows/#issues-for-new-contributors).
 1. Refinement Review.
    * If the weight you've assigned to the issue is 3 or less, move the issue directly to `~"workflow::ready for development"`.
    * If the weight of the issue is greater than 3, unassign the issue from yourself and request a review from another engineer.

@@ -170,9 +170,9 @@ The Director, Corporate Development is a [grade 10](/handbook/total-rewards/comp
 
 #### Performance Indicators
 
-- [Acquisition velocity](/handbook/product/performance-indicators/)
-- [Acquisition success](/handbook/product/performance-indicators/)
-- [Qualified acquisition targets](/handbook/product/performance-indicators/)
+- [Acquisition velocity](https://internal.gitlab.com/handbook/company/performance-indicators/product/)
+- [Acquisition success](https://internal.gitlab.com/handbook/company/performance-indicators/product/)
+- [Qualified acquisition targets](https://internal.gitlab.com/handbook/company/performance-indicators/product/)
 
 ### Senior Director of Corporate Development
 
@@ -250,9 +250,9 @@ The VP of Corporate Development is a [grade 12](/handbook/total-rewards/compensa
 
 #### Performance Indicators
 
-- [Acquisition velocity](/handbook/product/performance-indicators/)
-- [Acquisition success](/handbook/product/performance-indicators/)
-- [Qualified acquisition targets](/handbook/product/performance-indicators/)
+- [Acquisition velocity](https://internal.gitlab.com/handbook/company/performance-indicators/product/)
+- [Acquisition success](https://internal.gitlab.com/handbook/company/performance-indicators/product/)
+- [Qualified acquisition targets](https://internal.gitlab.com/handbook/company/performance-indicators/product/)
 
 ## Hiring Process
 

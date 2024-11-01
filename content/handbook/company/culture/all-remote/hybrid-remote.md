@@ -188,7 +188,7 @@ COVID-19 created a wave of companies intentionally shifting to remote-first. For
 
 1. HubSpot — *[The Future of Work at HubSpot: How We're Building a Hybrid Company](https://www.hubspot.com/careers-blog/future-of-work-hybrid)*
 1. Dropbox — *[Dropbox goes Virtual First](https://blog.dropbox.com/topics/company/dropbox-goes-virtual-first)*
-1. Robinhood — *[Robinhood is a Remote First Company](https://blog.robinhood.com/news/2022/1/12/robinhood-is-a-remote-first-company)*
+1. Robinhood — *[Robinhood is a Remote First Company](https://newsroom.aboutrobinhood.com/robinhood-is-a-remote-first-company/)*
 1. Reddit — *[Evolving Reddit's Workforce](https://redditblog.com/2020/10/27/evolving-reddits-workforce)*
 1. Figma — *[How work is changing at Figma](https://www.figma.com/blog/how-work-is-changing-at-figma)*
 1. Coinbase — *[Post COVID-19, Coinbase will be a remote-first company](https://www.coinbase.com/blog/post-covid-19-coinbase-will-be-a-remote-first-company)*
@@ -212,7 +212,7 @@ COVID-19 created a wave of companies intentionally shifting to remote-first. For
 1. Canva - *[Canva's Future of Work: Flexibility and Connection](https://medium.com/canva/canvas-future-of-work-flexibility-and-connection-b410d1793d83)*
 1. Microsoft - *[The Philosophy and Practice of our Hybrid Workplace](https://blogs.microsoft.com/blog/2021/03/22/the-philosophy-and-practice-of-our-hybrid-workplace)*
 1. Unilever - *[Our Future Workplace](https://www.unilever.com/planet-and-society/future-of-work/future-workplace)*
-1. Zoom - *[How Zoom is Approaching our Next Phase of Work](https://blog.zoom.us/how-zoom-is-approaching-our-next-phase-of-work)*
+1. Zoom - *[How Zoom is Approaching our Next Phase of Work](https://www.zoom.com/en/blog/how-zoom-is-approaching-our-next-phase-of-work/)*
 1. Deloitte - *[Transforming when, where, and how we work](https://www2.deloitte.com/us/en/pages/careers/articles/join-deloitte-hybrid-workplace-vaccine-update.html)*
 
 ## Do hybrid-remote employees have a commute?

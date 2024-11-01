@@ -31,7 +31,6 @@ The DevOps tools below are commonly found in a build-your-own DevOps tool chain.
 - [Atlassian Jira](https://about.gitlab.com/solutions/jira/)
 - [Asana](https://asana.com/)
 - [Trello](https://trello.com/)
-- [CollabNet VersionOne](https://www.collab.net/)
 - Basecamp
 - Wrike
 - Podio
@@ -43,7 +42,6 @@ The DevOps tools below are commonly found in a build-your-own DevOps tool chain.
 
 ### Portfolio Management
 
-- [CollabNet VersionOne](https://www.collab.net/)
 - [Atlassian Jira Portfolio](https://www.atlassian.com/software/jira/portfolio)
 - [CA Technologies / Rally](https://www.ca.com/us.html)
 - Wrike
@@ -126,7 +124,7 @@ The DevOps tools below are commonly found in a build-your-own DevOps tool chain.
 - [JFrog Artifactory](https://jfrog.com/artifactory/)
 - [Docker Hub](https://hub.docker.com/)
 - [Docker Trusted Registry](https://docs.docker.com/ee/dtr/)
-- [RedHat/CoreOS Quay](https://coreos.com/quay-enterprise/)
+- [RedHat/CoreOS Quay](https://www.redhat.com/en/technologies/cloud-computing/quay)
 - [Amazon ECR](https://aws.amazon.com/ecr/)
 - [Azure ACR](https://azure.microsoft.com/en-us/services/container-registry/)
 - [Google Cloud Container Registry](https://cloud.google.com/container-registry/)

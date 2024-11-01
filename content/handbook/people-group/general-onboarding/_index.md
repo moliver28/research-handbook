@@ -19,7 +19,7 @@ Through onboarding issues, you should gain access to our team member [baseline e
 
 In certain instances, the People Connect team may not be able to assist with onboardings due to a national holiday or Family and Friends Day. These specific dates are documented in the People Connect team [availability](https://internal.gitlab.com/handbook/people-group/people-operations/people-connect/people_experience_team/#people-experience-team-availability).
 
-## <i class="fab fa-gitlab fa-fw" style="color:rgb(252,109,38); font-size:.85em" aria-hidden="true"></i> TaNewKi Welcome Call {#tanuki-orange}
+## TaNewKi Welcome Call
 
 The People Connect team hosts a pre-onboarding call known as the Ta-New-Ki call (a play on the abstract Tanuki i.e. Japanese raccoon dog you will find in our logo). The purpose of this call, which is hosted in Zoom, is to give soon to onboard team members the chance to meet / socialise and to provide an opportunity to ask any lingering questions ahead of their start date. Internally we refer to this as an AMA (Ask Me Anything) call. **This call is open to all current team members, hiring managers.**
 
@@ -120,7 +120,7 @@ The People team is not involved in the process for hiring, onboarding, or offboa
 - [GitLab onboarding buddies](/handbook/people-group/general-onboarding/onboarding-buddies)
 - [Merge Request buddies](/handbook/people-group/general-onboarding/mr-buddies)
 - [Onboarding Processes](https://internal.gitlab.com/handbook/people-group/people-operations/people-connect/onboarding_process/)
-- [Quality team onboarding](/handbook/engineering/quality/onboarding/)
+- [Test Platform Onboarding](/handbook/engineering/infrastructure/test-platform/onboarding/)
 - [Sales team onboarding](/handbook/sales/onboarding/)
 - [Support team onboarding](/handbook/support/training)
 - [SRE onboarding](/handbook/engineering/infrastructure/team/reliability/sre-onboarding/)

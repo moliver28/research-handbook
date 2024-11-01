@@ -1,5 +1,4 @@
 ---
-aliases: /handbook/engineering/infrastructure/production/architecture/supporting-architecture.html
 title: "Supporting Architecture"
 controlled_document: true
 ---

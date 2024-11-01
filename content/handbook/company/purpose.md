@@ -78,7 +78,7 @@ We empower how people work by providing thought leadership on remote work which 
 1. Collaboration with [The Last Mile](https://about.gitlab.com/blog/2020/11/13/thelastmile-gitlab/)
 1. Guidance and coaching on [how to use open source contributions to build resumes and network](https://thenewstack.io/the-opportunity-of-open-source-to-create-opportunities-for-others/)
 1. Participation in internship programs such as [Outreachy](https://about.gitlab.com/blog/2021/04/15/outreachy-sponsorship-winter-2020/) and [Google of Summer Code](https://summerofcode.withgoogle.com/organizations/4961424868114432/)
-1. [Engineering Internships](/handbook/engineering/internships/) at GitLab
+1. [Engineering Internships](/handbook/hiring/emerging-talent/) at GitLab
 1. [Engineering mentoring and coaching programs](/handbook/engineering/#mentorship-and-coaching-programs) for GitLab team members
 1. [GitLab Learn](https://gitlab.edcast.com/) courses which can create pathways for targeted groups (for example, career transitioning or new to Open Source)
 

@@ -17,11 +17,10 @@ The reasons for creating a Gender and Sexual Orientation Identity page in the Gi
 - [Diversity, Inclusion and Belonging at GitLab](/handbook/company/culture/inclusion/)
 - [Human Rights Campaign website](https://www.hrc.org/)
   - [HRC Sexual Orientation and Gender Identity Definitions](https://www.hrc.org/resources/sexual-orientation-and-gender-identity-terminology-and-definitions)
-  - [HRC Transgender FAQ](https://www.hrc.org/resources/transgender-faq)
+  - [HRC Transgender FAQ](https://www.hrc.org/resources/transgender-and-non-binary-faq)
 - [The Genderbread Person](https://www.itspronouncedmetrosexual.com/2018/10/the-genderbread-person-v4/)
 - [A comprehensive list of LGBTQ+ term definitions](https://www.itspronouncedmetrosexual.com/2013/01/a-comprehensive-list-of-lgbtq-term-definitions/)
 - [We Are Family Lesbian, Gay and Bisexual Glossary of Terms](https://www.wearefamilycharleston.org/lgbt-glossary-az)
-- [NYU LGBTQ Terminology](https://www.nyu.edu/students/communities-and-groups/student-diversity/lesbian-gay-bisexual-transgender-and-queer-student-center/glossary-of-important-lgbt-terms.html)
 - [UC Davis LGBTQIA Resource Center Glossary](https://lgbtqia.ucdavis.edu/educated/glossary)
 - [Things not to say to a trans person](https://www.youtube.com/watch?v=pvBwWeG4Rpc)
 
@@ -199,7 +198,7 @@ This [Vox article on transgender mental health](https://www.vox.com/identities/2
 
 No, not all transgender people desire medical transition such as hormone therapy and surgeries. Additionally, some trans people do desire medical transition, but cannot afford it. [They are still trans none the less](https://www.vox.com/identities/2016/5/13/17938114/transgender-people-transitioning-surgery-medical).
 
-As [HRC says well](https://www.hrc.org/resources/transgender-faq),
+As [HRC says well](https://www.hrc.org/resources/transgender-and-non-binary-faq),
 
 > "Many transgender people cannot afford medical treatment nor can they access it. In light of these injustices, it is important that civil rights and protections are extended to all transgender people equally, regardless of their medical histories. It's also critical to continue advocating for full access to health care coverage for transgender people."
 
@@ -209,7 +208,7 @@ Simple, just ask :)
 
 Asking for someone's pronouns is the same as asking for their name. In the same way that you wouldn't assume what someone's name is and start calling them by a name that wasn't theirs, you shouldn't assume someone's pronouns.
 
-In English, there are [many common pronouns](https://uwm.edu/lgbtrc/qa_faqs/what-are-some-commonly-used-pronouns/) such as the singular they/them and ze/hir/hirs. To learn more see this [Time article on pronouns](http://time.com/4327915/gender-neutral-pronouns/).
+In English, there are [many common pronouns](https://uwm.edu/lgbtrc/support-resources/gender-pronouns/) such as the singular they/them and ze/hir/hirs. To learn more see this [Time article on pronouns](http://time.com/4327915/gender-neutral-pronouns/).
 
 For more information on pronouns, check out [Pronoun Guidance and Information]({{< ref "pronouns" >}}).
 
@@ -219,7 +218,7 @@ Quickly apologize, correct yourself and move on. Don't make a big deal out of it
 
 ### Can someone be fired for being transgender, gay, etc.?
 
-The answer to this question, unfortunately, largely depends on where you are in the world. At GitLab, you will not get fired for any of the following reasons, no matter where you are:
+At GitLab, you will not get fired for any of the following reasons, no matter where you are:
 
 Race, color, religion, national origin, sex (including pregnancy), age, disability, HIV status, sexual orientation, gender identity, marital status, past or present military service, or any other status protected by the laws or regulations in the locations where we operate.
 

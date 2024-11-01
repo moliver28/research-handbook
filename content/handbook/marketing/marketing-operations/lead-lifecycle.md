@@ -32,7 +32,7 @@ In addition to our statuses, there are substatus that are required for XDRs to u
 | Unsubscribe |
 | No longer at company |
 | Interested in CE only |
-| Interested in Gitlab.com only |
+| Interested in GitLab.com only |
 | Disqualified Account |
 | Bad Data |
 

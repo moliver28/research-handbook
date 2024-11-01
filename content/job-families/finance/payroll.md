@@ -329,7 +329,7 @@ The Director, Global Payroll Operations is a [grade 10](/handbook/total-rewards/
 
 - [Payroll accuracy for each check date](/handbook/finance/payroll/#payroll-accuracy-for-each-check-date--100)
 - [Payroll journal entry reports submitted to Accounting](/handbook/finance/payroll/#payroll-journal-entry-reports-submitted-to-accounting--payroll-date--2-business-days)
-- [Percentage of ineffective SOX Controls](/handbook/internal-audit/#performance-measures-for-accounting-and-finance-function-related-to-audit)
+- [Percentage of ineffective SOX Controls](https://internal.gitlab.com/handbook/internal-audit/#performance-measures-for-accounting-and-finance-function-related-to-audit)
 
 ## Career Ladder
 

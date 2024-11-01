@@ -36,7 +36,7 @@ manager or to SEs who followed the process before.
 
 Examples of SEs using the process:
 
-- [Slack groups per SGG and region](https://gitlab.com/gitlab-com/support/support-team-meta/-/issues/4618#gitlab-support-process-change-rollout-plan)
+- [Slack groups per region](https://gitlab.com/gitlab-com/support/support-team-meta/-/issues/4618#gitlab-support-process-change-rollout-plan)
 - [Limit PagerDuty Notifications in `#support_self-managed` to Triggered Events](https://gitlab.com/gitlab-com/support/support-team-meta/-/issues/5090)
 
 ### Start with a Request for Comments (RFC)
@@ -210,9 +210,8 @@ The process change rollout plan template contains instructions to guide you thro
 
 ## Individual assignment and responsibilities changes
 
-These types of changes are almost always local and small. Some examples are:
+These types of changes are almost always local and small. An example:
 
-- Changing the SGG assignment of an SE
 - Changing the workload balance of an SE to have them spend more time sharing
   knowledge and less time taking tickets
 
@@ -229,13 +228,3 @@ one or more of the following actions before making the change:
    managers' sync.
 1. Host two separate cross-regional meetings, one with each of the regions
    other than your own, to explain your plan and ask for concerns and questions.
-   1. This is an important step to take if the plan is to make one or more
-      changes related to one or more SGGs, **even if the change will only
-      happen within your region**.
-   1. If the change is specific to certain SGGs, keep the meetings small by
-      inviting only the managers who are aligned with those SGGs.
-1. As soon it becomes apparent that there is an SGG-level problem you will try
-   to mitigate or resolve with one or more individual changes, notify all
-   potentially-impacted SGGs of the problem and that you are working to
-   figure out a mitigation or resolution. This has been requested by SEs to
-   provide some advance warning that something may change soon.
