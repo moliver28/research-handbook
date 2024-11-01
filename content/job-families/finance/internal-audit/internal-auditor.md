@@ -35,7 +35,7 @@ The Internal Auditor is a [grade 6](/handbook/total-rewards/compensation/compens
 
 ### Career Ladder
 
-The next step in the Internal Auditor job family is to move to the [Senior Internal Auditor](/job-families/finance/internal-audit/#senior-internal-auditor) job family.
+The next step in the Internal Auditor job family is to move to the Senior Internal Auditor job family.
 
 ### Hiring Process
 

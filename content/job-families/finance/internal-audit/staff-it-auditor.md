@@ -1,5 +1,5 @@
 ---
-title: Staff Internal Audit & SOX Compliance Analyst
+title: Staff IT Auditor
 description: responsible for preparing and implementing a risk-based audit plan to assess, report on, and make suggestions for improving the company's key operational, finance, and internal controls with a specialty in IT risk and security
 ---
 
@@ -9,7 +9,7 @@ The Staff Internal Audit & SOX Compliance Analyst reports to the Senior Internal
 
 ### Job Grade
 
-The Staff Internal Audit & SOX Compliance Analyst is a [grade 8](/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades).
+The Staff IT Auditor is a [grade 8](/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades).
 
 ### Responsibilities
 
@@ -48,7 +48,7 @@ CISA/CISSP/IT Audit certification preferred
 
 ### Career Ladder
 
-The next step in the Senior SOX Compliance Anaylst job family is to move to the [Manager, Internal Audit and SOX](/job-families/finance/internal-audit/#manager-internal-audit) job family.
+The next step in the Staff IT Auditor job family is to move to the Principal IT Auditor job family.
 
 ### Hiring Process
 

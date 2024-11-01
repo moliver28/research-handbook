@@ -59,7 +59,7 @@ The Director, IT Audit is a [grade 10](/handbook/total-rewards/compensation/comp
 
 ### Career Ladder
 
-The next step in the Internal Audit job family is to move to the [Internal Audit](/job-families/finance/#internal-audit/) job family.
+The next step in the Director, IT Audit job family is to move to the Senior Director, IT Audit job family.
 
 ### Hiring Process
 
