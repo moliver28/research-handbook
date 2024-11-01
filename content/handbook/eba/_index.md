@@ -15,7 +15,7 @@ This page details processes and general guidelines specific to the Executive Bus
 | [Engineering](/handbook/engineering/) | **Vange Ingan**<br>Sr EBA  | Sabrina Farmer (CTO) |
 | [Engineering](/handbook/engineering/) | **Liki Simonot**<br>Sr EBA | Mek Stittri (VP of Infrastructure & Quality)<br>Tim Zallmann (Sr. Director of Engineering, Core Development) |
 | [Finance](/handbook/finance/) | **Darci Tadich**<br>Staff EBA |  Brian Robins (CFO) |
-| [Finance](/handbook/finance/) | **OPEN**<br> EBA| Erin Mannix (Chief Accounting Officer)<br>Jim Gladen (VP of Tax)<br>Brijen Joshi (VP of Internal Audit) |
+| [Finance](/handbook/finance/) | **Sarah Hobbs**<br>EBA | Simon Mundy (VP Controller)<br>Julie Malloy (VP Accounting Operations)<br>Jim Gladen (VP of Tax)<br>Brijen Joshi (VP of Internal Audit) |
 | [Finance](/handbook/finance/) | **Anita Mall**<br>Sr EBA | James Shen (VP of Finance )<br>Nabitha Rao (VP of IT/EntApps)<br>Kelsey Turcotte (VP of Investor Relations)<br>Wendy Barnes (CPO) - interim support |
 | [Legal & Corporate Affairs](/handbook/legal/) | **Sharlene Seemungal**<br>Staff EBA  | Robin Schulman (CLO and Head of Corporate Affairs) |
 | [Legal & Corporate Affairs](/handbook/legal/)  | **Lauren Lopez**<br>EBA  |Craig Patrick (Chief of Staff, CLO & Head of Corporate Affairs)<br> Eliran Mesika (VP of Corporate Development)<br>Emily Plotkin (Sr. Director of Legal, Employment)<br>Lynsey Sayers (VP of Legal, Privacy & IP)<br>Matt Taylor (VP of Legal, Commercial)<br>Rashmi Chachra (VP of Legal - Corporate & Compliance)<br>Stacy Cline (Sr. Director of ESG)<br>Dan Hodes (Sr. Director of Legal, Risk Management and Dispute Resolution) |
