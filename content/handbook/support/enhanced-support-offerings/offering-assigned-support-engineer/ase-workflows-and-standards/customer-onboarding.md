@@ -1,7 +1,6 @@
 ---
-title: Onboarding a Customer
-category: Assigned Support Engineer
-description: Workflow to onboard a new customer with an ASE
+title: Onboarding an ASE Account
+description: Workflow to onboard an account that is new to the ASE service
 ---
 
 ## Overview
@@ -15,7 +14,7 @@ informing the rest of Support about the account's new status.
 
 ## Customer Communication
 
-[Introduce yourself as the customer's ASE](introductory_meeting.html).
+[Introduce yourself as the customer's ASE](introductory-meeting.html).
 
 Consider whether ongoing cadence calls would help the customer relationship
 and/or help achieve their goals. There is no defined process for this so

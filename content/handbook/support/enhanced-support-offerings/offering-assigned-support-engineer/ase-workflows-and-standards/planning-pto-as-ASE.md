@@ -1,6 +1,5 @@
 ---
 title: Planning PTO as ASE
-category: Assigned Support Engineer
 description: Planning PTO for Assigned Support Engineers
 ---
 

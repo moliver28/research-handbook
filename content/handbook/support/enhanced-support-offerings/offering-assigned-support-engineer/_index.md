@@ -105,19 +105,9 @@ one or more Assigned Support Engineers, please read our
 [Account Teams working with ASEs](working-with-ases/account-teams-working-with-ases.html)
 page.
 
-### ASE Workflows and Standards
+### ASE workflows and other standard practices
 
-**<<<< COMING SOON >>>>**
-
-Link to a page that includes:
-
-- QBRs
-- Reports
-- Customer Onboarding (customer-onboarding.html and introductory-meeting.html)
-- OOO Management (planning-pto-as-ASE.html)
-- Issues v. Tickets
-- Time Tracking
-- Handling ticket tsunamis (ticket-tsunami.html)
+- [ASE workflows and other standard practices](ase-workflows-and-standards)
 
 ### Becoming and Being an ASE
 

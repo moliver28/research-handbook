@@ -26,7 +26,7 @@ You might also find it helpful to review the
    1. Look for the `focuses:` header
    1. Add a new focus after your existing ones:
 
-      ```
+      ```yaml
       - name: ASE
         percentage: [percent]
         zendesk: [instance]

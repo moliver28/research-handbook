@@ -1,6 +1,5 @@
 ---
 title: Ticket Tsunami Workflow
-category: Assigned Support Engineer
 description: Workflow for an ASE when their account submits a lot of tickets in a short amount of time
 ---
 

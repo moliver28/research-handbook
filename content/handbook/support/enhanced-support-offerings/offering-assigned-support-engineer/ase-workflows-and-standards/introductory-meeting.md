@@ -1,7 +1,6 @@
 ---
 title: Introductory Meeting
-category: Assigned Support Engineer
-description: Purpose, structure and goals of an introductory meeting between an ASE and their account, and tips for how to make the meeting successful
+description: Purpose, structure and goals of an introductory meeting between an ASE and their new account, and tips for how to make the meeting successful
 ---
 
 ## Overview and Purpose
@@ -89,7 +88,7 @@ resources.
    1. What's going well and what's not going well?
    1. What are their goals for using GitLab?
    1. Determine whether it would make sense to use a
-     [collaboration project](../../../customer-success/csm/customer-collaboration-project.html)
+     [collaboration project](../../../../customer-success/csm/customer-collaboration-project.html)
      to track any long-term plans
 
 ## Tips
