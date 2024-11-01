@@ -131,6 +131,50 @@ This structure has the following benefits:
 
 The definitions can be potentially improved by introducing inheritance. When a feature has mostly the same definition for all models, it can inherit from or include a base definition and extend it.
 
+#### Versioning
+
+Versioning prompts is an important part of iteration. We use semantic versioning for versioning our prompts, where each version is a folder within the target prompt. Using semantic version enables us to communicate expactions about compatibility:
+
+- A bump to the patch means a fix to the prompt that is backwards compatible.
+- A bump to the minor means a feature addition that doesn't require any changes to the api (for example, a new parameter is added to the template but a default is provided).
+- A bump to the major means a non-backwards compatible change: a completely new prompt, or the template requires new parameters but providing a default is not possible.
+
+
+If we have a version `1.0.0` and `2.0.0` for prompts support completion for gpt, versions `1.0.0` and `1.0.1` for claude_3 and only `1.0.0` for the default model, than the versioned prompt directory will look like:
+
+```
+definitions/
+  code_suggestions/
+    completion/
+      1.0.0/
+        base.yml
+      gpt/
+        1.0.0/
+          base.yml
+        2.0.0/
+          base.yml
+      claude_3/
+        1.0.0/
+          base.yml
+        1.0.1/
+          base.yml
+    partials
+      completion
+        user
+          1.0.0
+            base.yml
+```
+
+To create a new version, the developer must create a new folder, and either copy the previous `base.yml` or create a new one.
+
+To call a specific version of a prompt, the id will be `code_suggestions/completion/claude_3/1.0.0`
+
+To enable composition, template partials must also be versioned.
+
+**Disadvantages**
+
+The main downside of the adopted is that we do not have diffing between consecutive versions, and that the folder structure in AI Gateway does not scale to the number of changes needed. If that is the case, we can move the prompt definition folder to it's own repository, which would give us both versioning and diffing.
+
 ### Code Completion
 
 #### Current behavior
