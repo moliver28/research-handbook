@@ -28,6 +28,10 @@ For more information about Cells, see also:
 - The [Cells 2.0](iterations/cells-2.0.md) target is to support a public and open source contribution
   model in a cellular architecture.
 
+## Cells Phased Execution
+
+Please follow along in the [Cells handbook page.](handbook/engineering/infrastructure/cells/)
+
 ## Goals
 
 See [Goals, Glossary and Requirements](goals.md).
