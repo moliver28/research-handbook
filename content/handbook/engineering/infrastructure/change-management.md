@@ -135,7 +135,7 @@ These are changes that are not expected to cause downtime in Production, but whi
 1. Ensure there is a Due Date to the issue and an event to the [GitLab Production](https://calendar.google.com/calendar/embed?src=gitlab.com_si2ach70eb1j65cnu040m3alq0%40group.calendar.google.com) calendar.
 1. Changes which include downtime must be pre-communicated to users. Follow the guidance for [Communicating a change that requires downtime](/handbook/engineering/infrastructure/change-management/#communicating-a-change-that-requires-downtime-maintenance-window)
 1. All the database changes related should have a review by a DBRE.
-1. Have the change approved by Infrastructure management at the manager level or above by obtaining the `manager_approved` label on the Change Request issue.
+1. Have the change approved by Infrastructure management at the Sr. Manager level or above by obtaining the `manager_approved` label on the Change Request issue.
 1. Identify the Engineer On-Call (EOC) scheduled for the time of the change and review the plan with them.
 (The source is pagerduty, if you don't have access try [getting assistance](/handbook/engineering/infrastructure/team/))
    - [APAC EOC Schedule](https://gitlab.pagerduty.com/schedules/PF02RF0)
@@ -158,7 +158,7 @@ These are changes with either no or very-low risk of negative impact, but where 
 #### Approval
 
 1. Add a Due Date to the issue.
-1. Ensure that the plan is reviewed by someone else in Reliability.
+1. Ensure that the plan is reviewed by someone else in Production Engineering.
 
 ### Criticality 4
 
@@ -213,7 +213,7 @@ bastion-01-gstg  $ ./script/migrate
 
 Maintenance changes require change reviews. The reviews are intended to bring to bear the **collective** experience of the team while providing a forum for pointing out potential risks for any given change. Consider using multiple reviewers for ~C1 or ~C2 Change requests.
 
-If you are not sure who to request a review from, ask for an SRE to review the change request in [#g_production_engineering](https://gitlab.enterprise.slack.com/archives/C03QC5KNW5N).
+If you are not sure who to request a review from, ask for an SRE to review the change request in [#s_production_engineering](https://gitlab.enterprise.slack.com/archives/C07U6SAKS4D).
 
 Fill each of the items under the `Change Reviewer checklist` based on the change criticality label assigned to the issue.
 
@@ -255,8 +255,8 @@ Steps:
 - Add a step in the Change issue to communicate externally with a draft of the wording.
 - Add the `~Scheduled Maintenance` label to the Change issue or create a new issue using the template `external_communication` if a confidential issue is necessary.
 - Obtain approval for the overall plan and expected impact from:
-  - Director of SRE, Infrastructure
-  - VP of Infrastructure & Quality
+  - Senior Engineering Manager of Production Engineering
+  - Director of Infrastructure Platforms
   - Director of Support, Global Readiness
   - [Release Managers](/handbook/engineering/infrastructure/team/delivery/#reaching-our-team)
 - 1 month before the change at least (if possible):
@@ -303,7 +303,7 @@ In addition to all of the restrictions in the Soft PCL, Hard PCLs include code d
 
 In case of an active S1/S2 incident, the EOC should interact with the Incident Manager On Call prior to making any decision. It is at EOC and Incident Manager On Call discretion to make a decision on whether a change should be approved and executed. If the change is approved, Incident Manager On Call should inform the [Infrastructure Leadership Escalation](/handbook/engineering/infrastructure/incident-management/#infrastructure-leadership-escalation) of this decision (who will inform the executive team as necessary).
 
-During some multi-day PCL periods it will be preferred to exempt specific changes from the PCL.  Each of these must have an associated issue providing clear justification for the exemption and have the approval of the VP of Infrastructure & Quality or their designee.
+During some multi-day PCL periods it will be preferred to exempt specific changes from the PCL.  Each of these must have an associated issue providing clear justification for the exemption and have the approval of the Director of Infrastructure Platforms or their designee.
 
 ## Feature Flags and the Change Management Process
 
@@ -341,7 +341,7 @@ Additionally, during an incident investigation, knowing which high-risk features
 - **What if I still want to make a change during the PCL period?**
 
     Product Group Development code changes will require Development VP approval
-    All other changes, including all underlying cloud and infrastructure changes will require Infrastructure & Quality VP approval.
+    All other changes, including all underlying cloud and infrastructure changes will require approval from the Director of Infrastructure Platforms.
 
 - **Does this apply to our monthly release?**
 
@@ -349,11 +349,11 @@ Additionally, during an incident investigation, knowing which high-risk features
 
 - **We have a question that is not answered here?**
 
-    Please raise an issue to [Infrastructure team's queue](https://gitlab.com/gitlab-com/gl-infra/reliability/-/issues) and we will be happy to get back to you as soon as we can.
+    Reach out in Slack on [#s_production_engineering](https://gitlab.enterprise.slack.com/archives/C07U6SAKS4D).
 
 ## Exceptions
 
-Exceptions to this process must be [tracked](https://gitlab.com/gitlab-com/gl-infra/production/-/issues) and approved by Infrastructure.
+Exceptions to this process must be [tracked](https://gitlab.com/gitlab-com/gl-infra/production/-/issues) and approved by the Director of Infrastructure Platforms.
 
 ## References
 
