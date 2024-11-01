@@ -6,7 +6,7 @@ This document serves as a guide for rolling out Code Suggestions models.
 
 ## Create a rollout plan
 
-Create an issue using the [Rollout Plan Template](content/handbook/engineering/development/dev/create/code-creation/code-suggestions-guide/model_rollout_guide.md).
+Create an issue using the [Rollout Plan Template](https://gitlab.com/gitlab-org/gitlab/-/issues/new?issuable_template=Code%20Suggestions%20Model%20Rollout%20Plan).
 This must be done before or during the implementation of the new model.
 Specific rollout plans may need to be created for different [rollout phases](#rollout-phases).
 
