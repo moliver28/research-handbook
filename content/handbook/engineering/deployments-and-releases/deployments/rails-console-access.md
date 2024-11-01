@@ -6,7 +6,15 @@ title: "Rails Console Access"
 
 ### Purpose
 
-To ensure the stability, security, and auditability of GitLab
+To ensure the stability, security, and auditability of GitLab by:
+
+1. Reducing reliance on manual changes that can mask broken or missing product features
+2. Minimizing the use of arbitrary code execution to accomplish routine tasks
+3. Mitigating risks associated with far-reaching console access and improving auditability
+4. Promoting the use of safer change methods such as version-controlled code deployments and feature flags
+5. Encouraging the development and use of product features for routine operations
+6. Enhancing overall system reliability by standardizing change processes
+
 
 ### Scope
 
