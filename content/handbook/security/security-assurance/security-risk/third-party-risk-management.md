@@ -180,8 +180,7 @@ TPRM procedures are guided by the vendor's Inherent and Residual Risk levels, wh
 |Very High|Red|
 |High|Orange SaaS<sup>1</sup>|
 |Moderate|Orange<sup>2</sup>|
-|Low|Yellow|
-|Very Low|Green|
+|Low|Yellow / Green|
 
 <html>
 <small>
@@ -201,8 +200,7 @@ Vendors that meet GitLab's security requirements will have residual risks levels
 |Very High|High|
 |High|Moderate|
 |Moderate|Low|
-|Low|Very Low|
-|Very Low|Very Low|
+|Low|Low|
 
 Vendors that fail to meet GitLab's Third Party Risk Assessment requirements will have a residual risk score equivalent to the inherent risk score and may require a [Security Notice.](#tprm-security-notice-process)
 
