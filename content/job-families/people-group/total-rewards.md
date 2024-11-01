@@ -44,16 +44,16 @@ The Senior Total Rewards Program Manager is a [grade 8](/handbook/total-rewards/
 #### Responsibilities
 
 - Lead all aspects of the planning, coordination and execution of new and revised Total Rewards programs
-- Orchestrate Total Rewards teams in coordination with stakeholders, partners and with the customer-experience always in mind 
-- Support Total Rewards leadership in preparing communication materials, building enablement and change management content, 
+- Orchestrate Total Rewards teams in coordination with stakeholders, partners and with the customer-experience always in mind
+- Support Total Rewards leadership in preparing communication materials, building enablement and change management content,
 - Ensure programs are delivered with compliance, quality and on time with a one People Team mindset and brand
-- Anticipate and prepare for unforeseen contingencies to avoid or mitigate program launch issues 
+- Anticipate and prepare for unforeseen contingencies to avoid or mitigate program launch issues
 
 #### Requirements
 
-- Demonstrated experience in Program Management with an emphasis in Global Total Rewards, ideally in fast-paced, dynamic environment 
+- Demonstrated experience in Program Management with an emphasis in Global Total Rewards, ideally in fast-paced, dynamic environment
 - Experience in executive compensation in a public company
-- Experience with Workday and Aon Hewitt/Radford 
+- Experience with Workday and Aon Hewitt/Radford
 - Experience working with People Business Partners and senior leaders in a business facing role to solve compensation challenges
 - Experience leading presentations to senior leaders teams and company-wide audiences
 - Tested ability to drive programs to completion amidst ambiguity and dynamic environment factors
@@ -327,7 +327,7 @@ The next step in the Total Rewards job family is to move to the VP, Total Reward
 
 - [Percentage over compensation band](/handbook/people-group/people-success-performance-indicators/#percent-over-compensation-band)
 - [Average location factor](/handbook/people-group/people-success-performance-indicators/#average-location-factor)
-- [New hire location factor](/#new-hire-location-factor)
+- New hire location factor
 - [Pay equality](/handbook/company/culture/inclusion/#performance-indicators)
 
 ### Hiring Process

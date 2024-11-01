@@ -18,7 +18,7 @@ If a user that is not already approved to receive a Gainsight license requests a
 
 ## Salesforce Account Setup & License Provisioning
 
-A Salesforce account should be automatically created when a user joins GitLab. If you cannot locate the user's Salesforce account, see the [Troubleshooting](/#troubleshooting) section below.
+A Salesforce account should be automatically created when a user joins GitLab. If you cannot locate the user's Salesforce account, see the [Troubleshooting](#troubleshooting) section below.
 
 Once you have located the user record, follow these steps. Although some of these steps may be already completed by Sales Systems, it is important to confirm that the user's setup is done correctly in Salesforce before giving access in Gainsight.
 
@@ -74,7 +74,7 @@ The `SFDC User Sync` job will only sync users that are Active in Salesforce. If 
 
 You can see the logs/details of a specific sync by navigating to Connectors 2.0 → Activities tab. Then find the sync in the list, click the 3 dots, and select Job Activity. From here you can see the number of successful and failed records. You also have the option to download any failed records to see the specific error messages.
 
-For more information on troubleshooting specific errors, see the [Troubleshooting](/#troubleshooting) section below.
+For more information on troubleshooting specific errors, see the [Troubleshooting](#troubleshooting) section below.
 
 ## Gainsight User Management
 
@@ -154,7 +154,7 @@ We currently have three main C360 layouts:
 
 ## Removing Gainsight Access
 
-When a user leaves GitLab or no longer requires access to Gainsight, you can remove deactivate their account and remove their license. For GitLab employees who leave GitLab, an offboarding issue should be created as detailed in [GitLab Access Requests and Offboarding Issues](/#gitlab-access-requests-and-offboarding-issues).
+When a user leaves GitLab or no longer requires access to Gainsight, you can remove deactivate their account and remove their license. For GitLab employees who leave GitLab, an offboarding issue should be created as detailed in [GitLab Access Requests and Offboarding Issues](#gitlab-access-requests-and-offboarding-issues).
 
 To deactive a user's Gainsight account:
 

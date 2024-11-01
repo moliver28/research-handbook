@@ -115,7 +115,7 @@ We have the following abbreviation letter before SAT, please don't use SAT witho
 
 - C = unused since customer is ambiguous (can mean product or support, not all users are customers)
 - E = unused since employee is used by other companies but not by us
-- I = [Interviewee](/#interviewee-satisfaction-isat) (would you recommend applying here)
+- I = Interviewee (would you recommend applying here)
 - L = [Leadership](/handbook/eba/#leadership-sat-survey) (as an executive with dedicated administrative support, how is your executive administrative support received)
 - O = [Onboarding](/handbook/people-group/people-success-performance-indicators/#onboarding-tsat) (how was your onboarding experience)
 - P = [Product](https://internal.gitlab.com/handbook/company/performance-indicators/product/) (would you recommend GitLab the product)

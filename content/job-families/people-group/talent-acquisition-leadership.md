@@ -200,17 +200,17 @@ The VP of Talent Acquisition is a [grade 12](/handbook/total-rewards/compensatio
 
 ## Performance Indicators
 
-- [Active Users with a Recruiting or Hiring Manager LinkedIn Seat](/#active-users-with-a-recruiting-or-hiring-manager-linkedin-seat--x)
-- [Average Location Factor](/handbook/people-group/people-success-performance-indicators/#average-location-factor)
-- [Interviewee Satisfaction (ISAT)](/#interviewee-satisfaction-isat)
-- [Candidates Sourced by Talent Acquisition Department vs. Candidates Hired](/#candidates-sourced-by-talent-acquisition-department-vs-candidates-hired)
-- [Cost Per Hire](/#cost-per-hire)
-- [Hires vs. Plan](/#hires-vs-plan)
-- [Offer Acceptance Rate](/#offer-acceptance-rate)
+- Active Users with a Recruiting or Hiring Manager LinkedIn Seat
+- Average Location Factor
+- Interviewee Satisfaction (ISAT)
+- Candidates Sourced by Talent Acquisition Department vs. Candidates Hired
+- Cost Per Hire
+- Hires vs. Plan
+- Offer Acceptance Rate
 - [Pay Equality](/handbook/company/culture/inclusion/#performance-indicators)
-- [Talent Acquisition team or Hiring Manager LinkedIn Seat](/#recruiting-or-hiring-manager-linkedin-seat--x)
-- [Applied vs Sourced Candidates](/#applied-vs-sourced-candidates)
-- [Time to Offer Accept](/#time-to-offer-accept-days)
+- Talent Acquisition team or Hiring Manager LinkedIn Seat
+- Applied vs Sourced Candidates
+- Time to Offer Accept
 - [Women in Company](/handbook/company/culture/inclusion/#performance-indicators)
 - [Women in Leadership](/handbook/company/culture/inclusion/#performance-indicators)
 

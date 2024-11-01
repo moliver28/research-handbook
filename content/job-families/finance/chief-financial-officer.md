@@ -18,6 +18,6 @@ title: "Chief Financial Officer"
 ## Performance Indicators
 
 - [Plan vs Actual](/handbook/finance/financial-planning-and-analysis/#plan-vs-actual)
-- [New hire location factor](/#new-hire-location-factor)
+- New hire location factor
 - [Runway](/handbook/finance/accounting/#cash-burn-average-cash-burn-and-runway)
 - [Effective Tax Rate](https://internal.gitlab.com/handbook/tax/performance-indicators/#effective-tax-rate-etr)

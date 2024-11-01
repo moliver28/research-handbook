@@ -110,8 +110,8 @@ The Manager, Global TA Enablement is a [grade 8](/handbook/total-rewards/compens
 
 #### Manager, Global TA Enablement Performance Indicators
 
-- [Average candidate ISAT](/#interviewee-satisfaction-isat)
-- [Hires vs. Plan](/#hires-vs-plan)
+- Average candidate ISAT
+- Hires vs. Plan
 
 ### Senior Manager, Global TA Enablement
 
@@ -151,6 +151,6 @@ The Senior Manager, Global TA Enablement is a [grade 9](/handbook/total-rewards/
 
 #### Senior Manager, Global TA Enablement Performance Indicators
 
-- [Average candidate ISAT](/#interviewee-satisfaction-isat)
-- [Hires vs. Plan](/#hires-vs-plan)
-- [Time to Offer Accept](/#time-to-offer-accept-days)
+- Average candidate ISAT
+- Hires vs. Plan
+- Time to Offer Accept

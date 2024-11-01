@@ -168,7 +168,7 @@ Strong analytical, problem-solving, and strategic-thinking skills with a forward
 1. [Average days to close](/handbook/finance/accounting/#average-days-to-close-kpi-definition)
 1. [Number of material audit adjustments](https://internal.gitlab.com/handbook/internal-audit/#performance-measures-for-accounting-related-to-audit)
 1. [Average days of sales outstanding](/handbook/finance/accounting/#11-accounts-receivable)
-1. [New hire location factor](/#new-hire-location-factor)
+1. New hire location factor
 1. [Percentage of ineffective SOX Controls](https://internal.gitlab.com/handbook/internal-audit/#performance-measures-for-accounting-related-to-audit)
 
 ## Career Ladder

@@ -78,7 +78,7 @@ The Director, Corporate Controller is a [10](/handbook/total-rewards/compensatio
 1. [Average days to close](/handbook/finance/accounting/#average-days-to-close-kpi-definition)
 1. [Number of material audit adjustments](https://internal.gitlab.com/handbook/internal-audit/#performance-measures-for-accounting-related-to-audit)
 1. [Average days of sales outstanding](/handbook/finance/accounting/#11-accounts-receivable)
-1. [New hire location factor](/#new-hire-location-factor)
+1. New hire location factor
 1. [Percentage of ineffective SOX Controls](https://internal.gitlab.com/handbook/internal-audit/#performance-measures-for-accounting-related-to-audit)
 
 ### Senior Director, Assistant Controller
@@ -128,7 +128,7 @@ both grow in the role and grow with the company, demonstrating leadership capabi
 1. [Average days to close](/handbook/finance/accounting/#average-days-to-close-kpi-definition)
 1. [Number of material audit adjustments](https://internal.gitlab.com/handbook/internal-audit/#performance-measures-for-accounting-related-to-audit)
 1. [Average days of sales outstanding](/handbook/finance/accounting/#11-accounts-receivable)
-1. [New hire location factor](/#new-hire-location-factor)
+1. New hire location factor
 1. [Percentage of ineffective SOX Controls](https://internal.gitlab.com/handbook/internal-audit/#performance-measures-for-accounting-related-to-audit)
 
 ### Vice President, Corporate Controller
@@ -177,7 +177,7 @@ The Vice President, Corporate Controller is a [12](/handbook/total-rewards/compe
 
 - [Average days to close](/handbook/finance/accounting/#average-days-to-close-kpi-definition)
 - [Number of material audit adjustments](https://internal.gitlab.com/handbook/internal-audit/#performance-measures-for-accounting-related-to-audit)
-- [New hire location factor](/#new-hire-location-factor)
+- New hire location factor
 - [Percentage of ineffective SOX Controls](https://internal.gitlab.com/handbook/internal-audit/#performance-measures-for-accounting-related-to-audit)
 
 ## Career Ladder

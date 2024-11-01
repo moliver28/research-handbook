@@ -66,7 +66,7 @@ The Vice President, Investor Relations is a [grade 12](/handbook/total-rewards/c
 
 ## Performance Indicators
 
-1. [New Hire Location Factor](/#new-hire-location-factor)
+1. New hire location factor
 1. [Enterprise Value to Sales](/handbook/finance/investor-relations/#enterprise-value-to-sales)
 1. Percent of analysts who describe the company the same way we do
 1. Percent of unanticipated questions during earning calls; Target > 80% of questions are anticipated

@@ -38,7 +38,7 @@ The Talent Brand Manager monitors reviews on a weekly basis, and responds direct
 1. Based on the department, tag the appropriate People Business Partner or talent acquisition lead in the issue to offer additional context and review the response draft.
 1. Determine the right escalation path within that specific department so that the leaders can be tagged and made aware.
 1. Tag the Chief People Officer, VP of Talent Acquisition, and Senior Director of People Success for awareness.
-1. Get feedback and approval from the impacted department, and work with the People Business Partner or talent acquisition lead to determine who is going to respond on behalf of the team. See [Who Should Respond](/#who-should-respond) section below.
+1. Get feedback and approval from the impacted department, and work with the People Business Partner or talent acquisition lead to determine who is going to respond on behalf of the team. See [Who Should Respond](#who-should-respond) section below.
 
 ### Escalating and responding to interview reviews
 

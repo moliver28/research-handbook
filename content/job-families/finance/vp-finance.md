@@ -39,7 +39,7 @@ The VP, FP&A is a [grade 12](/handbook/total-rewards/compensation/compensation-c
 
 1. [Plan vs Actual](/handbook/finance/financial-planning-and-analysis/#plan-vs-actual)
 1. [IACV Efficiency](/handbook/sales/#iacv-efficiency-ratio)
-1. [New hire location factor](/#new-hire-location-factor)
+1. New hire location factor
 
 ## Hiring Process
 

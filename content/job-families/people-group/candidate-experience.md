@@ -137,11 +137,11 @@ The next step in the Candidate Experience job family is to move to the [Recruite
 
 ## Performance Indicators
 
-- [Average candidate ISAT](/#interviewee-satisfaction-isat)
-- [Hires vs. Plan](/#hires-vs-plan)
-- [Time to Offer Accept](/#time-to-offer-accept-days)
-- [CES Service Desk Issues Response Time and Issue Distribution](/#ces-service-desk-metrics)
-- [CES Response Time](/#ces-service-desk-metrics)
+- Average candidate ISAT
+- Hires vs. Plan
+- Time to Offer Accept
+- CES Service Desk Issues Response Time and Issue Distribution
+- CES Response Time
 
 ## Hiring Process
 
