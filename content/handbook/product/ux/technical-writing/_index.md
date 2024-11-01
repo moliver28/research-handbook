@@ -461,6 +461,7 @@ As Maintainers, Technical Writers must limit what they merge to:
 - Documentation-related tooling and configuration such as linters, and changes
   to the [`gitlab-docs`](https://gitlab.com/gitlab-org/gitlab-docs) project. Engineers
   are available for code review and merges.
+- Technical writing changes to the `CODEOWNERS` file.
 
 In addition, Technical Writers must:
 
