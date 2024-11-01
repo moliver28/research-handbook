@@ -64,6 +64,61 @@ them, as that introduces other issues).
 
 For more guidance on feature tiers and pricing, visit [tiering guidance for features](/handbook/product/tiering-guidance-for-features/)
 
+### Deprecations & Removals Policy
+
+#### Definitions
+
+See the [terminology of deprecations](https://docs.gitlab.com/ee/update/terminology.html).
+
+#### Is this a breaking change?
+
+By definition, a removal is a breaking change. With a [few exceptions](#exceptions-for-breaking-changes), if the answer is yes to any of the following questions, the change is to be considered a breaking change and should be avoided other than for critical business risk.
+
+- Does this change require an action from the customer to ensure continuity of function? (For example, removing background upload for object storage meant users needed to migrate objects to a supported object storage provider)
+- Does this change cause a disruption to a customer's workflows or tasks? (For example, removing support for the "WIP" prefix in MRs meant users would need to use the "Draft:" prefix instead)
+- Does this change cause other parts of the product to fail? (For example, removing certificate-based cluster integration means users can no longer install additional applications via GitLab Managed Apps)
+
+For special definitions of what constitutes a breaking change for our APIs, see:
+
+- [REST API breaking changes](https://docs.gitlab.com/ee/development/api_styleguide.html#what-is-a-breaking-change).
+- [GraphQL API breaking changes](https://docs.gitlab.com/ee/development/api_graphql_styleguide.html#breaking-changes).
+
+For `Experiment` or `Beta` features, please see [Support for experiment, beta, and generally available features](https://docs.gitlab.com/ee/policy/experiment-beta-support.html).
+
+#### Exceptions for breaking changes
+
+Introducing a **breaking change in a minor release is against policy** because it can disrupt our customers, however there are some rare exceptions:
+
+- When GitLab establishes that delaying a breaking change would overall have a _significantly_ more negative impact to customers compared to shipping it in a minor release.
+- If an integrated service shuts down, the integration can be removed during a minor release.
+
+In all cases, the PM or EM must [follow the Request a Breaking Change process](https://docs.gitlab.com/ee/development/deprecation_guidelines/#requesting-a-breaking-change-in-a-minor-release).
+
+#### Deprecating and removing features
+
+Deprecating and removing a feature needs to follow a specific process because it is important that we minimize disruption for our users. As you move through the process, use the language `deprecated` or `removed` to specify the current state of the feature that is going to be or has been removed.
+
+#### Process for deprecating and removing a feature
+
+Please follow the [process outlined in the docs](https://docs.gitlab.com/ee/development/deprecation_guidelines/#requesting-a-breaking-change-in-a-minor-release).
+
+#### Breaking Change Windows on GitLab.com
+
+We deploy changes to GitLab.com many times a day. Because they are part of a continuous delivery process, these changes, including breaking changes, are not as predictable for customers.
+
+Starting from GitLab 17.0, we introduced fixed windows during which breaking changes are rolled out to GitLab.com. The fixed windows are set as the Monday, Tuesday and Wednesday of the three weeks preceding the major release date, typically following the X.11 release date. A detailed example of what this looks like can be found in [our 17.0 introduction issue](https://gitlab.com/gitlab-com/Product/-/issues/13238).
+
+Breaking changes should only be enabled during the breaking change windows. This means that where breaking changes are behind feature flags, the changes (feature flag) should only be switched during one of these windows to ensure customers workflows are not impacted outside of these communicated periods.
+
+Product Managers will be responsible for making sure that as part of the deprecations and removals process, where applicable the deprecation/removal is aligned with a publicly communicated Breaking Change Window.
+
+In June of 2023, we changed the process so that all deprecations and removals are displayed on [the Deprecations page](https://docs.gitlab.com/ee/update/deprecations.html).
+The announcements are grouped by the milestone they will be removed in. The deprecation announcement date is listed below each individual item.
+
+#### Syntax deprecation process
+
+{{% include "includes/syntax-deprection.md" %}}
+
 ### Naming features
 
 Naming new features or [renaming existing features](https://docs.gitlab.com/ee/development/renaming_features.html) is notoriously hard and sensitive to many opinions.
