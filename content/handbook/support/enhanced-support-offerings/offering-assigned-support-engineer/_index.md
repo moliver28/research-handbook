@@ -21,8 +21,8 @@ By taking a personalized, customized approach to serving each account, the ASE
 has the opportunity to ensure that these important customers are happy and
 successful with GitLab.
 
-For the official description of this offering, see the [Assigned Support Engineer
-Delivery Data Sheet](https://drive.google.com/file/d/1I-GDQV9wZkTvTTMqIPw1mSLaeVUru4zU/view).
+For the official description of this offering, see the
+[Assigned Support Engineer Delivery Data Sheet](https://drive.google.com/file/d/1I-GDQV9wZkTvTTMqIPw1mSLaeVUru4zU/view).
 
 ### ASE Leadership Team
 
@@ -66,8 +66,8 @@ There are two recurring meetings in place to bring the ASEs and management
 together for the purposes of supporting each other, sharing ASE practices, and
 discussing needed process and program improvements. The meetings occur on
 alternating weeks, one week being scheduled favorably for EMEA and AMER, and
-the next for AMER and APAC. Both meetings can be found in the [GitLab Support
-calendar](https://handbook.gitlab.com/handbook/support/#google-calendar).
+the next for AMER and APAC. Both meetings can be found in the
+[GitLab Support calendar](/handbook/support/#google-calendar).
 
 - `ASE Sync - AMER/EMEA`: Wednesdays at 4:30 p.m. UTC
 - `ASE Sync - APAC/AMER`: Thursdays at 1:00 a.m. UTC
@@ -110,6 +110,7 @@ page.
 **<<<< COMING SOON >>>>**
 
 Link to a page that includes:
+
 - QBRs
 - Reports
 - Customer Onboarding (customer-onboarding.html and introductory-meeting.html)
@@ -121,6 +122,7 @@ Link to a page that includes:
 ### Becoming and Being an ASE
 
 Please see our [Becoming and Being an ASE page](#becoming-and-being-an-ase.html) if:
+
 - you are considering whether to become an ASE
 - you are about to become and ASE
 - you are a new ASE
@@ -130,6 +132,7 @@ Please see our [Becoming and Being an ASE page](#becoming-and-being-an-ase.html)
 **<<<< COMING SOON >>>>**
 
 Link to a page that includes:
+
 - ticket routing and assignment
 - views
 - special fields

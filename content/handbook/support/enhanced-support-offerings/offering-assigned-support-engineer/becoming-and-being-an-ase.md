@@ -25,6 +25,7 @@ You might also find it helpful to review the
    [Support Team project](https://gitlab.com/gitlab-support-readiness/support-team/-/tree/master/data/agents):
    1. Look for the `focuses:` header
    1. Add a new focus after your existing ones:
+
       ```
       - name: ASE
         percentage: [percent]
@@ -35,10 +36,11 @@ You might also find it helpful to review the
         - id: [org_b ID]
           percentage: [org_b percentage]
       ```
+
       1. where `[percent]` is 25 times the number of accounts you have - if you have 2 accounts, put 50
       1. where `[instance]` is either "global" or "us_gov", according to
          whether your ASE accounts work with Global or US Gov Support
-      1. where `[org_a ID]` is the organization ID, in Zendesk, for your first account (Handbook [topic](https://handbook.gitlab.com/handbook/support/readiness/operations/docs/zendesk/searching/#example-3)
+      1. where `[org_a ID]` is the organization ID, in Zendesk, for your first account (Handbook [topic](/handbook/support/readiness/operations/docs/zendesk/searching/#example-3)
       for finding the correct ID), `[org_b ID]` is the same for your second
       account, and so on
       1. where `[org_a percentage]` is the percentage of your ASE time that
@@ -48,6 +50,7 @@ You might also find it helpful to review the
 1. Update your signature in Zendesk to indicate that you are an ASE
 
 ### 
+
 **<<<< COMING SOON >>>>**
 
 - Balancing between ASE and Global
