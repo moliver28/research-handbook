@@ -37,11 +37,11 @@ See https://handbook.gitlab.com/handbook/product/categories/#fulfillment-section
 
 ### Sales & Go-To-Market
 
-{{< member-and-role-by-gitlab "cnodari" "jrabbits" "Gsodhi" "james_harrison" >}}
+{{< member-and-role-by-gitlab "cnodari" "jrabbits" "Gsodhi" >}}
 
 ### Finance & IT
 
-{{< member-and-role-by-gitlab "s_mccauley" "annapiaseczna" "andrew_murray" "smundy" "lmendonca2" "achampagne1" >}}
+{{< member-and-role-by-gitlab "s_mccauley" "annapiaseczna" "andrew_murray" "smundy" "lmendonca2" >}}
 
 ### Support Engineering
 

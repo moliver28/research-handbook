@@ -285,7 +285,7 @@
 /content/handbook/finance/financial-planning-and-analysis/ @james.shen
 /content/handbook/finance/financial-planning-and-analysis/adaptive-insights.md @james.shen
 /content/handbook/finance/growth-and-development/cfo-shadow-program.md @brobins @dtadich
-/content/handbook/finance/procurement/ @RendiMiller @emannix @brobins
+/content/handbook/finance/procurement/ @RendiMiller @brobins
 /content/handbook/finance/spending-company-money.md @brobins
 /content/handbook/finance/timekeeping/ @cgudgenov @simon-mundy
 /content/handbook/finance/internal-audit/ @bjoshi2 @atoomer
@@ -497,34 +497,34 @@
 ^[sales]
 /content/handbook/resellers/ @ecepulis
 /content/handbook/resellers/training.md @akramer @ecepulis
-/content/handbook/sales/ @akramer @jakebielecki @james_harrison
+/content/handbook/sales/ @akramer @jakebielecki
 /content/handbook/sales/account-planning/ @lschoenfeld @akramer @emelier
-/content/handbook/sales/assistance-from-investors.md @james_harrison
+/content/handbook/sales/assistance-from-investors.md @jakebielecki
 /content/handbook/sales/build-value-with-customers.md @akramer
 /content/handbook/sales/channel/ @ecepulis
 /content/handbook/sales/club/ @kdemarest @kagarrett
 /content/handbook/sales/command-of-the-message/ @akramer @dsteer
 /content/handbook/sales/commercial/ @bcaller @MDines @akramer @kyla @steve_xu @carolynharding
-/content/handbook/sales/commissions/ @james_harrison
+/content/handbook/sales/commissions/ @jakebielecki
 /content/handbook/sales/faq-from-prospects.md @akramer
 /content/handbook/sales/field-communications/ @monicaj @shannonthompson
 /content/handbook/sales/field-communications/gitlab-highspot/ @monicaj
 /content/handbook/sales/field-manager-development.md @ashahrazad1
-/content/handbook/sales/field-operations/ @akramer  @jakebielecki @james_harrison
+/content/handbook/sales/field-operations/ @akramer  @jakebielecki
 /content/handbook/sales/field-operations/channel-operations/ @nscala
 /content/handbook/sales/field-operations/customer-success-operations/ @jakebielecki
 /content/handbook/sales/field-operations/field-enablement/ @ashahrazad1 @kshirazi @monicaj
-/content/handbook/sales/field-operations/gtm-resources/ @james_harrison
+/content/handbook/sales/field-operations/gtm-resources/ @jakebielecki
 /content/handbook/sales/field-operations/order-processing.md @jrabbits
 /content/handbook/sales/field-operations/release-schedule.md @monicaj
-/content/handbook/sales/field-operations/sales-operations/ @james_harrison
+/content/handbook/sales/field-operations/sales-operations/ @jakebielecki
 /content/handbook/sales/field-operations/sales-operations/deal-desk.md @jrabbits
 /content/handbook/sales/field-operations/sales-strategy/ @jakebielecki
 /content/handbook/sales/field-operations/sales-systems/ @sheelaviswanathan
-/content/handbook/sales/forecasting.md @james_harrison
+/content/handbook/sales/forecasting.md @jakebielecki
 /content/handbook/sales/gainsight/ @jakebielecki
 /content/handbook/sales/idea-to-production-demo/ @akramer
-/content/handbook/sales/insidesales.md @james_harrison
+/content/handbook/sales/insidesales.md @jakebielecki
 /content/handbook/sales/it-agility-director-interview.md @akramer
 /content/handbook/sales/manager-operating-rhythm/ @ashahrazad1 @akramer
 /content/handbook/sales/manager-operating-rhythm/enterprise-sales.md @emelier @kshirazi
@@ -533,7 +533,7 @@
 /content/handbook/sales/onboarding/ @jblevins608 @ashahrazad1
 /content/handbook/sales/playbook/ @emelier @kshirazi
 /content/handbook/sales/prospecting.md @emelier @akramer @kshirazi
-/content/handbook/sales/public-sector.md @james_harrison
+/content/handbook/sales/public-sector.md @jakebielecki
 /content/handbook/sales/qbrs/ @ashahrazad1 @shannonthompson @monicaj
 /content/handbook/sales/qualification-questions.md @akramer
 /content/handbook/sales/readmes/ @akramer
@@ -541,13 +541,13 @@
 /content/handbook/sales/sales-google-groups/ @monicaj @shannonthompson
 /content/handbook/sales/sales-meetings.md @monicaj @akramer
 /content/handbook/sales/sales-operating-procedures/ @akramer
-/content/handbook/sales/sales-renewal-process.md @james_harrison
-/content/handbook/sales/sales-term-glossary/ @james_harrison
-/content/handbook/sales/selling-professional-services.md @james_harrison
+/content/handbook/sales/sales-renewal-process.md @jakebielecki
+/content/handbook/sales/sales-term-glossary/ @jakebielecki
+/content/handbook/sales/selling-professional-services.md @jakebielecki
 /content/handbook/sales/shadow-program.md @emelier @akramer
 /content/handbook/sales/sop.md @jrabbits
 /content/handbook/sales/tam.md @jakebielecki
-/content/handbook/sales/territories/ @james_harrison @lschoenfeld
+/content/handbook/sales/territories/ @jakebielecki @lschoenfeld
 /content/handbook/sales/territories/latam.md @disastor @ricardoamarilla
 /content/handbook/sales/territory-planning.md @akramer @emelier
 /content/handbook/sales/training/ @ashahrazad1 @jblevins608
@@ -557,7 +557,7 @@
 /content/handbook/sales/training/sales-enablement-sessions/ @ashahrazad1 @jblevins608
 /content/handbook/sales/training/sko/ @kdemarest @kagarrett
 /content/handbook/sales/understand-customer-gitlab-use.md @jakebielecki
-/content/job-families/sales/ @jakebielecki @james_harrison @cbednarz @anjali_kaufmann @dparsonage @glucchesi @carlierussell @mwilkins
+/content/job-families/sales/ @jakebielecki @cbednarz @anjali_kaufmann @dparsonage @glucchesi @carlierussell @mwilkins
 
 ^[security]
 /content/handbook/security/ @joshlemos @jlongo_gitlab @plafoucriere @juliedavila
