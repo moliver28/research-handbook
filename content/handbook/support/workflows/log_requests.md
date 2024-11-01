@@ -94,3 +94,11 @@ GitLab reached out to the owners of a project that was causing concern for the p
 > There are 3 different IPs showing in our logs, 2 of which are based in CountryA and 1 in CountryB (please note these locations may not be accurate as they are based purely on geolocation web searches). They also all have the same user agent.
 
 Example ticket: [130153](https://gitlab.zendesk.com/agent/tickets/130153)
+
+#### Example 4: What is a project or group access token doing
+
+A user is an owner of a project or group with an access token, and is seeing the access token's "last used" value continue to update daily in project/group settings. They are trying to determine what automation is using the token. Following the limitations on [what we can provide](#what-we-can-provide), we can indicate the full paths the token accessed and user agent to help identify the source.
+
+> The bot account tied to the token accessed the below list of API paths. Additionally, all requests originated from the following user agent: `Go-http-client/2.0`.
+
+Example ticket: [527238](https://gitlab.zendesk.com/agent/tickets/527238)
