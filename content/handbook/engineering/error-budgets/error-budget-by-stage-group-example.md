@@ -1,5 +1,4 @@
 ---
-aliases: /handbook/engineering/error-budgets/error-budget-by-stage-group-example.html
 title: "Engineering Error Budgets for Stage Groups"
 description: "Engineering Error Budget by stage groups example."
 ---
@@ -10,7 +9,7 @@ Error Budgets consist of two components: Apdex and Error Rate.
 
 **Apdex Success Rate**: The rate of operations that were successful and performed adequately.
 
-The threshold for ‘performed adequately’ is different for each service.
+The threshold for 'performed adequately' is different for each service.
 
 This is currently a global threshold per service, but stage groups will soon have the [ability to customise this by endpoint](https://gitlab.com/groups/gitlab-com/gl-infra/-/epics/525).
 

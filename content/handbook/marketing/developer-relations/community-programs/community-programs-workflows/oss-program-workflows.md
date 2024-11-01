@@ -1,5 +1,4 @@
 ---
-
 title: "GitLab for Open Source Program Workflows"
 description: "Details on program-specific workflows related to the GitLab for Open Source Program"
 ---
@@ -42,7 +41,7 @@ For reasons relating to trade controls, we are unable to accept applicants from 
 Eligibility requirements for the GitLab for Open Source Program are listed in the [program's handbook page](/handbook/marketing/developer-relations/community-programs/open-source-program/).
 SheerID assists GitLab with reviewing program applications and ensuring applicants meet these program requirements.
 
-SheerID is unable to completely automate the [Verification phase](/handbook/marketing/developer-relations/community-programs/automated-community-programs/#verification) of the application workflow for the GitLab for Open Source Program.
+SheerID is unable to completely automate the [Verification phase](/handbook/marketing/developer-relations/community-programs/community-programs-workflows/#verification) of the application workflow for the GitLab for Open Source Program.
 This means the program manager and other trained team members must verify applications with some amount of manual effort.
 Verification for the GitLab for Open Source Program will require an application processing team until further automation is implemented.
 The team plans to explore ways to more fully automate the application process of the program in the future.
@@ -65,7 +64,7 @@ To do this:
 
  1. Login to MySheerID and navigate to the "Document review" section.
  1. Click "Begin" or click on any open application to view.
- 1. _Verify license type:_ Make sure that an OSI approved license is being used by checking the screenshot against this [OSI license list](https://opensource.org/licenses/alphabetical).
+ 1. _Verify license type:_ Make sure that an OSI approved license is being used by checking the screenshot against this [OSI license list](https://opensource.org/license).
  1. _Verify public settings:_ make sure there is a screenshot showing that the project is publicly visible and accepting collaborators.
  1. Visit the applying namespace on GitLab to verify that all remaining projects in the namespace meet program requirements. Use the [OS License Checker](https://gitlab.com/gitlab-org/os-license-checker) if necessary (see below).
  1. If application meets all criteria, `Approve` the application; `Reject` it if not.

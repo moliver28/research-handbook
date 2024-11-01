@@ -1,10 +1,7 @@
 ---
-
 title: Support Managers
 description: Support Managers activities and references
 ---
-
-
 
 ## Role and Responsibilities
 

@@ -46,6 +46,7 @@ A successful Field Marketing Manager has substantial understanding of sales-focu
 
 ### Levels
 
+- Associate Field Marketing Manager - Entry Level
 - Field Marketing Manager - Intermediate
 - Senior Field Marketing Manager - Senior
 - Staff, Field Marketing Manager - Staff
@@ -56,6 +57,68 @@ A successful Field Marketing Manager has substantial understanding of sales-focu
 
 - Past experience running marketing to develop DACH, BENELUX, Nordics, Southern Europe, and/or UK & Ireland.
 - Robust understanding of marketing to the automotive, banking, and tech sectors.
+
+## Associate Field Marketing Manager
+
+A successful Associate Field Marketing Manager plays a critical role in executing field marketing strategies and initiatives. This role involves close collaboration with cross-functional teams, including sales, marketing, and product, to drive sales pipeline growth for our Sales and Ecosystem programs. The ideal candidate thrives in taking ownership of regional marketing programs, excels in detailed planning, and maintains proactive communication. Reporting to the Senior Manager of Regional Marketing, the Associate Field Marketing Manager will support Field Marketing Managers in delivering impactful marketing experiences aligned with our sales objectives. Additionally, this role may occasionally assist the Channel Marketing Manager in executing targeted marketing initiatives for the ecosystem team, such as managing joint campaigns, coordinating partner events, and ensuring these efforts align with broader ecosystem goals.
+
+### Job Grade
+
+The Associate Field Marketing Manager is a [grade 5](/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades).
+
+### Tool Proficiency
+
+Proficient in Salesforce, Marketo, Tableau, Asana, GitLab, and Google Workspace
+
+### Sales Relationship
+
+- Attend and present in regional sales meetings to foster alignment with sales teams
+- Support Field Marketing Managers on campaign and event execution and strategy
+- Ensure clear, consistent communication across all channels and with stakeholders
+- Collaborate with Business Development teams on pre-event and post-event tasks, including campaign setup in Groove for Sales
+
+### Cross-functional Collaboration
+
+Work with key internal teams such as:
+
+- Product Marketing
+- Corporate Events Marketing
+- Corporate Communications
+- Marketing Operations
+- Digital Marketing
+- Developer Relations
+- Business Development
+- Customer Success Managers (CSMs)
+- Solution Architects
+
+### Campaign Setup Support
+
+- Manage third-party vendor contracts through the procurement process, including approvals and legal coordination
+- Handle financial management tasks like forecasting, payments, and reconciliation
+- Assist with venue sourcing and coordinate F&B for events
+- Create and maintain Marketo programs and Salesforce.com campaigns
+- Support email drafting and copy deadline tracking
+- Coordinate workshops, Zoom setups, and logistics for events
+
+### Active Campaign Management
+
+- Track event capacity, manage waitlists and registrations, and update event pages
+- Create and manage event-related Slack channels
+- Ensure the timely delivery and review of asset copies (landing pages, invites, etc.)
+- Track event details in the FMM/Sales tracker and manage event logistics
+- Handle trade show orders, swag, and badges for events
+- Schedule "Know Before You Go" calls and provide on-site event support when needed
+
+### Post Campaign Reporting
+
+- Process and clean lead lists within 48 hours post-event and report feedback
+- Close out projects and report on lead follow-up metrics (15/30/45-day BDR/SDR follow-ups)
+- Track campaign results in Tableau, including SAO creation, opportunity progression, and closure
+
+### Collaborate with Sr. Field Marketing Specialist
+
+- Report any issues with SFDC, Marketo, Asana, and other tools
+- Communicate any updates for handbook revisions
 
 ## Field Marketing Manager
 
@@ -89,7 +152,7 @@ The Field Marketing Manager is a [grade 6](/handbook/total-rewards/compensation/
 - A passion and substantial understanding of the developer tools, IT operations tools, and/or IT security markets.
 - Experience with supporting both direct sales and channel sales teams.
 - Travel up to 50%.
-- Ability to travel if needed and comply with the company’s travel policy. If employed by GitLab Federal, LLC, team members need to also comply with the applicable vaccination policies.
+- Ability to travel if needed and comply with the company's travel policy. If employed by GitLab Federal, LLC, team members need to also comply with the applicable vaccination policies.
 
 ### Key Performance Indicators
 
@@ -124,7 +187,7 @@ This role includes all of the requirements above, plus:
 - Experience in enterprise solution demand creation and field marketing.
 - Orientation to managing program details.
 - Travel up to 50%.
-- Ability to travel if needed and comply with the company’s travel policy. If employed by GitLab Federal, LLC, team members need to also comply with the applicable vaccination policies.
+- Ability to travel if needed and comply with the company's travel policy. If employed by GitLab Federal, LLC, team members need to also comply with the applicable vaccination policies.
 
 ### Key Performance Indicators
 
@@ -187,7 +250,7 @@ The Manager, Field Marketing is a [grade 8](/handbook/total-rewards/compensation
 - Experience managing direct or cross-functional teams of 3-10 marketers.
 - Experience managing a multi-million dollar marketing budget and working with senior finance and marketing leaders on annual budgeting processes.
 - Demonstrated track record of driving results and staying within a budget.
-- Ability to travel if needed and comply with the company’s travel policy. If employed by GitLab Federal, LLC, team members need to also comply with the applicable vaccination policies.
+- Ability to travel if needed and comply with the company's travel policy. If employed by GitLab Federal, LLC, team members need to also comply with the applicable vaccination policies.
 
 #### AMER Specific Requirements
 
@@ -210,7 +273,7 @@ This role includes all of the performance indicators of the previous level plus:
 - [10X spend contribution to sales pipeline](/handbook/marketing/strategy-performance/marketing-metrics/#marketing-attribution) for geo (AMER, EMEA,APAC) responsible for.
 - Contribution to the outlined Regional Marketing OKRs, in alignment with the [Marketing OKRs](/handbook/company/okrs/#most-recent-okrs).
 - Spending of the regional [Field Marketing budget](/handbook/marketing/field-marketing/#the-field-marketing-budget) within 5% variance, for geo (AMER, EMEA,APAC) responsible for.
-- Spending of the regional [Channel Marketing MDF budget](/handbook/resellers/Channel-Program-Guide/MDF/) within 5% variance for geo (AMER, EMEA, APAC) responsible for.
+- Spending of the regional [Channel Marketing MDF budget](/handbook/resellers/channel-program-guide/MDF/) within 5% variance for geo (AMER, EMEA, APAC) responsible for.
 
 ### Hiring Process
 
@@ -234,7 +297,7 @@ The Senior Manager, Field Marketing is a [grade 9](/handbook/total-rewards/compe
 
 - Establish, allocate, and track budget down to the sub-region
 - Play an integral role in building out and operationalizing the work Field Marketing does to support our growing channel business
-- Play an integral role in building out Field Marketing’s work with cross-functional integrated campaigns
+- Play an integral role in building out Field Marketing's work with cross-functional integrated campaigns
 - Lead bi-monthly actionable calls with regional peers from the sales development team with the focus on MQL progression and regional goal tracking
 - Act as a leader to foster team collaboration and problem solving within the Integrated Marketing team
 
@@ -242,7 +305,7 @@ The Senior Manager, Field Marketing is a [grade 9](/handbook/total-rewards/compe
 
 - 20+ years of experience
 - Past experience running a team of 10+ direct reports
-- Ability to travel if needed and comply with the company’s travel policy. If employed by GitLab Federal, LLC, team members need to also comply with the applicable vaccination policies.
+- Ability to travel if needed and comply with the company's travel policy. If employed by GitLab Federal, LLC, team members need to also comply with the applicable vaccination policies.
 
 ### Key Performance Indicators
 

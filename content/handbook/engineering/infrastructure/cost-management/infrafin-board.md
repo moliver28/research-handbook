@@ -1,15 +1,7 @@
 ---
-
 title: "Infrafin"
 description: "Infrafin Board"
 ---
-
-
-
-
-
-
-
 
 ---
 

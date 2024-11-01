@@ -6,7 +6,7 @@ title: "Reliability:Database Reliability Team"
 
 The Database Reliability team at GitLab mission is to Build, Run and Own the entire lifecycle of the PostgreSQL database engine for GitLab.com.
 
-The team is focused on owning the reliability, scalability, performance & security of the database engine and its supporting services. The team should be seeking to build their services on top of [Reliability::Foundations](/handbook/engineering/infrastructure/team/reliability/foundations.html) services and cloud vendor managed products, where appropriate, to reduce complexity, improve efficiency and deliver new capabilities quicker.
+The team is focused on owning the reliability, scalability, performance & security of the database engine and its supporting services. The team should be seeking to build their services on top of [Reliability::Foundations](/handbook/engineering/infrastructure/team/reliability/foundations/) services and cloud vendor managed products, where appropriate, to reduce complexity, improve efficiency and deliver new capabilities quicker.
 
 The team uses [Engineering Principals](/handbook/engineering/development/principles/) to guide the decisions it makes for it's services. The team does not explicitly have any self hosted product responsibilities but we should contribute the lessons we learn running the database engine for GitLab at scale in production  back to the Product, Development & Support teams to improve overall customer experience with GitLab, as well as collaborating with the Support teams when self managed customers encounter complex database engine issues.
 
@@ -39,15 +39,15 @@ Systems or services explicitly not owned by us:
 
 |   |   |
 |---|---|
-| Workflow | [Issue Labels](/handbook/engineering/infrastructure/team/reliability/issues.html#labels) <br> [Weekly Issue Triage](https://gitlab.com/groups/gitlab-com/gl-infra/-/issues/?sort=created_date&state=opened&label_name%5B%5D=team%3A%3ADatabase%20Reliability&first_page_size=20) |
+| Workflow | [Issue Labels](/handbook/engineering/infrastructure/team/reliability/issues/#labels) <br> [Weekly Issue Triage](https://gitlab.com/groups/gitlab-com/gl-infra/-/issues/?sort=created_date&state=opened&label_name%5B%5D=team%3A%3ADatabase%20Reliability&first_page_size=20) |
 | Backlog | [Current Milestone](https://gitlab.com/groups/gitlab-com/gl-infra/-/boards/3406753) <br> [Issue Backlog](https://gitlab.com/groups/gitlab-com/gl-infra/-/boards/5360242) |
-| Reaching us | [`#g_infra_database_reliability`](https://gitlab.slack.com/archives/C02K0JTKAHJ) <br> [`#reliability-lounge`](https://gitlab.slack.com/archives/C03QC5KNW5N) <br> `@gitlab-org/reliability/database` |
+| Reaching us | [`#g_infra_database_reliability`](https://gitlab.slack.com/archives/C02K0JTKAHJ) <br> `@gitlab-org/reliability/database` |
 | Weekly Agenda | [Weekly APAC and EMEA/AMER](https://docs.google.com/document/d/1d8YrRO4Vw_pHXohgwq-lEBM75ihMtkLpcd2_cFa6Yrs/edit#) |
 | Achievements | [FY24 - Q1](https://gitlab.com/gitlab-com/gl-infra/reliability/-/issues/17443) |
 
 ## DBRE Escalations
 
-We have a detailed [DBRE escalation process](./dbre-escalation/process.html) that provides escalation guidelines for handling database related production incidents.
+We have a detailed [DBRE escalation process](dbre-escalation/process.html) that provides escalation guidelines for handling database related production incidents.
 
 ## OKRs
 
@@ -100,10 +100,10 @@ The following (private) Grafana dashboard are important / useful for database sp
 
 ### Documentation
 
-- [What requires downtime?](https://docs.gitlab.com/ee/development/what_requires_downtime.html)
+- [What requires downtime?](https://docs.gitlab.com/ee/update/with_downtime.html)
 - [Adding database indexes](https://docs.gitlab.com/ee/development/database/adding_database_indexes.html)
 - [Post Deployment Migrations](https://docs.gitlab.com/ee/development/database/post_deployment_migrations.html)
-- [Background Migrations](https://docs.gitlab.com/ee/development/database/background_migrations.html)
+- [Background Migrations](https://docs.gitlab.com/ee/development/database/batched_background_migrations.html)
 - [SQL Migration Style Guide](https://docs.gitlab.com/ee/development/migration_style_guide.html)
 - [SQL Query Guidelines](https://docs.gitlab.com/ee/development/sql.html)
 - [Infrastructure runbooks and documentation](https://gitlab.com/gitlab-com/runbooks#postgresql)

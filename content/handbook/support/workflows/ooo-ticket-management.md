@@ -10,23 +10,23 @@ These workflows discuss how support engineers can asynchronously manage and summ
 
 ### Using the OOO Ticket Summary macro
 
-As part of this workflow, the Support Engineer going on leave will leave notes on currently Open, Pending and On-Hold tickets for their group with a macro. This macro will provide a summary of the ticket, add the Support Engineer to the ticket's CC list (in case someone else in the SGG group takes over assignment of the ticket), and adds the `ooo_summary` tag to the ticket.
+As part of this workflow, the Support Engineer going on leave will leave notes on currently Open, Pending and On-Hold tickets with a macro. This macro will provide a summary of the ticket, add the Support Engineer to the ticket's CC list, and adds the `ooo_summary` tag to the ticket.
 
 It is recommended to follow this workflow if 3 days or more of PTO are planned.
 
 #### Workflow
 
-Go to the [My Assigned Tickets](https://gitlab.zendesk.com/agent/filters/360062369834) view in Zendesk. For each ticket you wish to summarize for your group because you anticipate on-going work will be required, do the following:
+Go to the [My Assigned Tickets](https://gitlab.zendesk.com/agent/filters/360062369834) view in Zendesk. For each ticket you wish to summarize because you anticipate on-going work will be required, do the following:
 
 1. Use the [OOO Ticket Summary](https://gitlab.com/search?search=360080271299&group_id=2573624&project_id=17008590&scope=&search_code=true&snippets=false&repository_ref=master&nav_source=navbar) macro.
-1. Fill in the sections of the internal note with details for your SGG group. It is important that you summarize:
+1. Fill in the sections of the internal note with details for your peers. It is important that you summarize:
    1. What is the problem to be solved?
    1. What information has been collected?
    1. What actions have been taken?
    1. What progress has been made?
    1. What are the potential next steps? Alternatively, clarify if you are uncertain what the next steps are.
 
-Feel free to also ask group members if they can pickup tickets in [other forms of communication](/handbook/communication/#multimodal-communication), such as Slack, but Zendesk should remain as the single source of truth for tickets that need attention from other group members.
+Feel free to also ask regional peers if they can pickup tickets in [other forms of communication](/handbook/communication/#multimodal-communication), such as Slack, but Zendesk should remain as the single source of truth for tickets that need attention from other team members.
 
 #### Finding your tickets upon your return
 
@@ -44,8 +44,7 @@ contains notes on all currently Open, Pending and On-Hold tickets. The Support E
 would be suitable candidates for reassigment.
 
 This has the advantage for faciliating collaboration that would otherwise clutter up the other main Support Slack channels. It also ensures that tickets
-are not left in limbo as other Support Engineers are actively being pinged as part of the workflow. When pinging other Support Engineers for reassignment
-you are not limited to your Support Global Group, so please feel free to ping globally.
+are not left in limbo as other Support Engineers are actively being pinged as part of the workflow. 
 
 It is recommended to follow this workflow if 5 days or more of PTO are planned, and you have more than 10 tickets to handover.
 
@@ -66,7 +65,7 @@ Go to the [My Assigned Tickets](https://gitlab.zendesk.com/agent/filters/3600623
     - Have you paired with this Support Engineer on the ticket previously?
     - Is this ticket a follow up of another ticket? Who was the previous assignee?
     - Does the customer in question have an Assigned Support Engineer?
-    - Is there a [subject matter expert](https://gitlab-com.gitlab.io/support/team/skills-by-subject) for the topic in the ticket?
+    - Is there a [subject matter expert](https://gitlab-support-readiness.gitlab.io/support-team/skills-by-subject.html) for the topic in the ticket?
     - Is there a [support stable counterpart](../support-stable-counterparts.md) for the topic in the ticket?
     - To your knowledge, is there another Support Engineer that has a close working relationship with the customer?
     - Do you have any insights on whether another Support Engineer might be interested on the topic of the ticket?

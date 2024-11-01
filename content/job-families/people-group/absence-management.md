@@ -49,9 +49,9 @@ The Senior Absence Management Specialist is a [grade 6](/handbook/total-rewards/
 - Responsible for the full life-cycle administration of all leave of absence programs including but not limited to remitting and collecting required documentation, reporting leave wages to both the US and Non-US payroll teams, and ensuring compliance by accurately completing all requests in a timely manner.
 - Stays up to date with regulatory time away changes, and suggests both company and statutory time away policy and practice revisions as needed.
 - Ensures proper tracking of leave requests in all internal HRIS systems, identifies process dependencies, and suggests remediation of those dependencies.
-- Acts as a team member’s first point of contact to facilitate a smooth departure as well as a smooth transition back to work.
+- Acts as a team member's first point of contact to facilitate a smooth departure as well as a smooth transition back to work.
 - Answers complex leave-related questions and concerns from Team Members, working closely with the Manager, People Business Partner, Legal, and other key stakeholders as needed.
-- Acts as the first point of contact for Managers, People Business Partners, and other key stakeholders related to the team members’ time away request(s).
+- Acts as the first point of contact for Managers, People Business Partners, and other key stakeholders related to the team members' time away request(s).
 - Responsible for leading the interactive process related to all requested accommodations as prescribed under the Americans with Disabilities Act. This may also include religious, lactation, and other work-related accommodations.
 - Champions a [handbook first](/handbook/about/handbook-usage/) mentality keeping all internal processes and policies up to date at all times.
 - Maintains LOA trend data and status reports as needed.
@@ -89,16 +89,16 @@ The Senior Absence Management Partner is a [grade 7](/handbook/total-rewards/com
 
 - Administers global absence management programs and drives policy and practice revisions as needed.
 - Ensures compliance with all leave of absence and employment laws across all countries in which we have entities.
-- Oversees the creation and/or modification of LOA policies and practices to ensure alignment with applicable requirements as well as GitLabs’ Values.
+- Oversees the creation and/or modification of LOA policies and practices to ensure alignment with applicable requirements as well as GitLabs' Values.
 - Ensures alignment with partners across the organization including Legal, Compliance, Sales Operations, Payroll, benefits/leave vendors, and Total Rewards.
 - Primary absence partner and subject matter expert for Global LOA inquiries, requests, designations and approvals.
 - Hands-on responsibility of day-to-day administration of all employee leave of absence programs.
 - Maintains communication with team members on leave to facilitate a smooth departure as well as a smooth transition back to work.
 - Partners with leaders and team members regarding workplace accommodations.
 - Optimizes the LOA processes to deliver exceptional Team member experiences before, during and after the leave of absence.
-- Optimizes the administrative processing of LOA’s to ensure accurate and timely completion of required steps.  May be required to determine outsourcing options for administrative aspects of LOA’s.
+- Optimizes the administrative processing of LOA's to ensure accurate and timely completion of required steps.  May be required to determine outsourcing options for administrative aspects of LOA's.
 - Provides trend LOA data and status reports as needed.
-- Ensures the proper tracking of LOA’s and identifies the process dependencies and remediation of those dependencies.
+- Ensures the proper tracking of LOA's and identifies the process dependencies and remediation of those dependencies.
 
 ### Senior Absence Management Partner Requirements
 
@@ -137,7 +137,7 @@ The Absence Management Manager is a [grade 8](/handbook/total-rewards/compensati
 
 - Manages global absence programs and oversees policy and practice revisions as needed.
 - Stays up to date on all time away related compliance, statutory, and regulatory changes across all countries in which GitLab has entities.
-- Oversees the creation and/or modification of LOA policies and practices to ensure alignment with applicable requirements as well as GitLabs’ Values.
+- Oversees the creation and/or modification of LOA policies and practices to ensure alignment with applicable requirements as well as GitLabs' Values.
 - Strategic partner across all organizations including Legal, Compliance, Sales Operations, Payroll, benefits/leave vendors, and Total Rewards to ensure alignment.
 - Primary absence partner and subject matter expert for all Global LOA inquiries, requests, designations, and approvals.
 - Continually reviews company-specific leave programs to optimize the LOA processes to deliver exceptional Team member experiences before, during, and after the leave of absence.

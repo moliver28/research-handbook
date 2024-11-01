@@ -385,7 +385,7 @@ By demographic:
     | United Kingdom      | 3.04       |
     | United States       | 3.38       |
 
-1. I believe investing more of the company’s money into improving benefits at GitLab will help to attract and retain talent.
+1. I believe investing more of the company's money into improving benefits at GitLab will help to attract and retain talent.
 
     | GitLab                 | 2019 Score | 2020 Score | YOY Change |
     |------------------------|------------|------------|------------|
@@ -565,7 +565,7 @@ By demographic:
     |--------------------------------------------------------------------------------|-------|------------------|
     | Stress                                                                         | 333   | 42%              |
     | Example from my manager.                                                       | 391   | 50%              |
-    | Encouragement from my manager/peers to support my wellbeing through time off.  | 475   | 61%              |
+    | Encouragement from my manager/peers to support my well-being through time off.  | 475   | 61%              |
     | Example from leaders, for example Sid.                                         | 456   | 58%              |
     | Reduced workload.                                                              | 101   | 13%              |
     | Other (Expanded on below.)                                                     | 118   | 15%              |
@@ -965,7 +965,7 @@ This section serves to highlight benefits that we have previously researched, bu
 
 ### Telehealth
 
-We researched and selected four vendors to receive more information. Demo calls were conducted with three of these vendors where we learned more about the solutions and pricing. After reviewing the [results of the benefits survey](#global-benefits-survey), there wasn’t enough interest in a telehealth solution to justify the price so we decided to not move forward with any of the vendors at this time.
+We researched and selected four vendors to receive more information. Demo calls were conducted with three of these vendors where we learned more about the solutions and pricing. After reviewing the [results of the benefits survey](#global-benefits-survey), there wasn't enough interest in a telehealth solution to justify the price so we decided to not move forward with any of the vendors at this time.
 
 While we aren't offering a global telehealth solution at this time, team members based in the US who are enrolled in our [Cigna]({{< ref "inc-benefits-us#cigna-telehealth" >}}) or [Kaiser]({{< ref "inc-benefits-us#kaiser-telehealth" >}}) medical plans can access telehealth services through these plans. Other team members may have options for telehealth available to them through their provider.
 

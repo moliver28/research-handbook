@@ -1,11 +1,10 @@
 ---
 title: "Network Security Management Procedure"
-controlled_document: true
 ---
 
 ## Purpose
 
-GitLab architects a defense-in-depth methodology that enforces the concept of “least functionality” through restricting network access to systems, applications and services and ensures sufficient security and privacy controls are executed to protect the confidentiality, integrity, availability and safety of the organization’s network infrastructure, as well as to provide situational awareness of activity on GitLab’s networks.
+GitLab architects a defense-in-depth methodology that enforces the concept of "least functionality" through restricting network access to systems, applications and services and ensures sufficient security and privacy controls are executed to protect the confidentiality, integrity, availability and safety of the organization's network infrastructure, as well as to provide situational awareness of activity on GitLab's networks.
 
 ## Scope
 
@@ -34,13 +33,21 @@ GitLab's network architecture is available to both internal and external users a
 - [Cloudflare Statuspage](https://www.cloudflarestatus.com/)
 - [Run a traceroute from the Cloudflare network](https://ops.gitlab.net/gitlab-com/gl-infra/cloudflare-traceroute)
 
-### [On-Call Reference](https://gitlab.com/gitlab-com/runbooks/-/blob/master/docs/cloudflare/oncall.md)
+### On-Call Reference
 
-### [False Positive Triage Process](https://gitlab.com/gitlab-com/runbooks/-/blob/master/docs/cloudflare/troubleshooting.md#false-positive-triage-process)
+[On-Call Reference](https://gitlab.com/gitlab-com/runbooks/-/blob/master/docs/cloudflare/oncall.md)
 
-### [Change Workflow](https://gitlab.com/gitlab-com/gl-infra/reliability/-/issues/10993)
+### False Positive Triage Process
 
-### When to use a Page Rule vs WAF Rules vs [cf_allowlists](https://ops.gitlab.net/gitlab-com/gl-infra/terraform-modules/cf_allowlists) **internal-only**
+[False Positive Triage Process](https://gitlab.com/gitlab-com/runbooks/-/blob/master/docs/cloudflare/troubleshooting.md#false-positive-triage-process)
+
+### Change Workflow
+
+[Change Workflow](https://gitlab.com/gitlab-com/gl-infra/reliability/-/issues/10993)
+
+### When to use a Page Rule vs WAF Rules vs cf_allowlists
+
+[cf_allowlists](https://ops.gitlab.net/gitlab-com/gl-infra/terraform-modules/cf_allowlists) **internal-only**
 
 Whatever it is, create an issue [**in the Firewall tracker**](https://gitlab.com/gitlab-com/gl-infra/cloudflare-firewall/-/issues) first and link it to the relevant issues. This firewall tracker is used to keep track of existing rules. This applies to all rules, regardless of how they are managed.
 
@@ -80,9 +87,9 @@ Cloudflare Web UI, that is not the preferred method to manage rules.
 The three zones that use Cloudflare each have a dedicated
 `cloudflare-pagerules.tf` file in its Terraform environment.
 
-- [gitlab.net](https://ops.gitlab.net/gitlab-com/gitlab-com-infrastructure/-/blob/master/environments/ops/cloudflare-pagerules.tf)
-- [gitlab.com](https://ops.gitlab.net/gitlab-com/gitlab-com-infrastructure/-/blob/master/environments/gprd/cloudflare-pagerules.tf)
-- [staging.gitlab.com](https://ops.gitlab.net/gitlab-com/gitlab-com-infrastructure/-/blob/master/environments/gstg/cloudflare-pagerules.tf)
+- [`gitlab.net`](https://ops.gitlab.net/gitlab-com/gl-infra/config-mgmt/-/blob/main/environments/ops/cloudflare-pagerules.tf)
+- [`gitlab.com`](https://ops.gitlab.net/gitlab-com/gl-infra/config-mgmt/-/blob/main/environments/gprd/cloudflare-pagerules.tf)
+- [`staging.gitlab.com`](https://ops.gitlab.net/gitlab-com/gl-infra/config-mgmt/-/blob/main/environments/gstg/cloudflare-pagerules.tf)
 
 #### How to make changes
 
@@ -144,7 +151,9 @@ If you'd like to watch a more detailed video about its inner workings, you can
 view [this demonstration video](https://youtu.be/vTKyf-PS7Lo) which goes into
 much more detail.
 
-### [How Page Rules work](https://gitlab.com/gitlab-com/gl-infra/reliability/-/issues/10989)
+### How Page Rules work
+
+[How Page Rules work](https://gitlab.com/gitlab-com/gl-infra/reliability/-/issues/10989)
 
 ### General Information
 
@@ -165,4 +174,4 @@ Exceptions to this procedure will be tracked as per the [Information Security Po
 
 - Parent Policy: [Information Security Policy](/handbook/security/)
 - [Production Architecture](/handbook/engineering/infrastructure/production/architecture/)
-- [Encryption Policy](/handbook/security/product-security/vulnerability-management/encryption-policy.html#encryption-in-transit)
+- [Encryption Policy](/handbook/security/product-security/vulnerability-management/encryption-policy/#encryption-in-transit)

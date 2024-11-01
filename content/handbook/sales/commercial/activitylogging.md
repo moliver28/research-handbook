@@ -1,5 +1,4 @@
 ---
-
 title: "Logging Activities - Best Practices"
 description: "Overview of the SMB Logging Activities Best Practices"
 ---
@@ -24,7 +23,7 @@ Once the contact has been added to the opp in SFDC, it must also be added to the
 
 ![outreach-screenshot](/images/handbook/sales/outreach.png)
 
-FO AE’s should log calls using one of the below subject lines only;
+FO AE's should log calls using one of the below subject lines only;
 
 - Initial Call (ii)
 - IQM (ii)
@@ -51,7 +50,7 @@ If manually logging a call in SFDC, log on the Contact, with the Related To fiel
 
 ### Email
 
-Before emailing through Gmail, check that the recipient has a purple circle next to their name.  This will ensure the email is tracked in Outreach, and synced to SFDC.  If they do not, make sure the contact is attached to the opportunity in both SFDC, and Outreach.  The contact must also live under the same account as the opportunity.  
+Before emailing through Gmail, check that the recipient has a purple circle next to their name.  This will ensure the email is tracked in Outreach, and synced to SFDC.  If they do not, make sure the contact is attached to the opportunity in both SFDC, and Outreach.  The contact must also live under the same account as the opportunity.
 
 ### Chorus
 
@@ -60,7 +59,7 @@ Every pre-arranged meeting should be held via Chorus, and not Zoom.  This ensure
 - Create a new meeting in Google Calendar
 - Select Add Video Conferencing
 - Click on Chorus Meeting
-- Click Save.  
+- Click Save.
 - DO NOT click on Make it a Zoom Meeting
 - A video tutorial of the process is available.  To request the link, please post a message in the #self-service_public slack channel.
 
@@ -68,4 +67,4 @@ Once the meeting has taken place, and a Chorus activity has been automatically l
 
 ### Cases
 
-When following up on a case, be sure to relate the relevant activity to the Case record.  You can either log an activity directly on the Case, or log an activity via Outreach on the contact, and relate it to the Case record.  
+When following up on a case, be sure to relate the relevant activity to the Case record.  You can either log an activity directly on the Case, or log an activity via Outreach on the contact, and relate it to the Case record.

@@ -5,7 +5,7 @@ description: "Editing content in Contentful"
 
 ## Content Type Overview
 
-We use emojis to discern which content types are related to **Pages** (📄), **Atoms**, or small building blocks (⚛️), and **Blocks**, or bigger chunks of content that can be assembled using atoms (📦). We have a few others, but between a series of Atom and Block entries added to a single Page entry, a page on our marketing site is built. Please see [the handbook page](/handbook/marketing/digital-experience/contentful-cms/custom-pages.html) for our **Custom Page** content type to learn more about how those pages are built and when they differ from our **Pages**.
+We use emojis to discern which content types are related to **Pages** (📄), **Atoms**, or small building blocks (⚛️), and **Blocks**, or bigger chunks of content that can be assembled using atoms (📦). We have a few others, but between a series of Atom and Block entries added to a single Page entry, a page on our marketing site is built. Please see [the handbook page](/handbook/marketing/digital-experience/contentful-cms/custom-pages/) for our **Custom Page** content type to learn more about how those pages are built and when they differ from our **Pages**.
 
 ## Editing existing content in Contentful
 
@@ -145,7 +145,7 @@ If you want to edit other parts of the page the process is similar, just follow 
    - Location - Add city and state of event, if in-person. If virtual, type in `Virtual`.
    - Region - Select the appropriate region for event
    - Event URL - Add registration URL
-   - Social Tags: Optional - Add any hashtags that may be relevant. For example, you can type “DevSecOps” and hit enter, then enter your next tag. Each tag will automatically have the # symbol applied.
+   - Social Tags: Optional - Add any hashtags that may be relevant. For example, you can type "DevSecOps" and hit enter, then enter your next tag. Each tag will automatically have the # symbol applied.
 1. Once fields have been reviewed and are final, click `Publish`
 
 To remove an event from the events page, go to the event and click Change Status -> `Unpublish`. Once the event is unpublished, you can also click the three dots `...` in the upper right corner, and `delete` the event to remove it from Contentful entirely (otherwise the event will remain as a draft).

@@ -28,7 +28,7 @@ description: "The GitLab Learning Restructure Working Group aims to create a pla
 ### Update /Learn
 
 1. Inventory existing training programs to establish a SSoT ==> Complete, established in [GitLab Learn](https://about.gitlab.com/learn/)
-1. Update https://about.gitlab.com/learn/ to capture SSoT and provide more clarity on which training is for what ==> Complete
+1. Update <https://about.gitlab.com/learn/> to capture SSoT and provide more clarity on which training is for what ==> Complete
 
 ### Create future coordination processes and plan
 

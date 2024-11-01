@@ -1,5 +1,4 @@
 ---
-
 title: UTM Strategy
 description: Everything you need to know about our UTM strategy, which enables insights through the connected/resulting Tableau dashboards.
 twitter_image: /images/tweets/handbook-marketing.png
@@ -39,7 +38,7 @@ Adding UTMs to links allows Marketing to identify the source of traffic, form fi
 
 UTM parameters provide three key benefits:
 
-1. Help us understand our customers’ journey through each touchpoint.
+1. Help us understand our customers' journey through each touchpoint.
 2. Provides us with the marketing channel and marketing campaign categorization, plus the landing page the person converted on telling us the offer (webinar, gated content, free trial etc.).
 3. Used in combination, we can better understand what mix of marketing channels, campaigns, and offers produce the best results.
 
@@ -59,7 +58,7 @@ UTMs should **always** be used when linking to:
 
 **When UTMs are NOT Needed:**
 
-* When linking to a non GitLab web property (Eg: Youtube, Linkedin, etc..)
+* When linking to a non GitLab web property (Eg: Youtube, LinkedIn, etc..)
 * Internal links with the same gitlab.com domain. For instance, linking to learn.gitlab.com from an about.gitlab.com webpage. Google Analytics is set up for cross-domain tracking. If UTMs are detected within an internal gitlab.com link, a new session will be counted, and conversion attribution will be overridden by the new UTM parameter values. The original source will not receive proper credit.
 
 ## How to create UTMs
@@ -177,12 +176,13 @@ Note on `Agency`: Sometimes 3rd party agencies are used to drive registrations t
 
 #### utm_partnerid
 
-This parameter assigns the lead generated from the activity to the partner that sourced the lead, either from an event or evergreen partner campaign.
+The UTM parameter URL plays a huge part on partner lead routing and reporting. We utilize `utm_partnerid` in the UTM parameter URL to capture the Account ID (18) of the Partner Account, which populates into the `CRM Partner ID`. This process is embedded as a hidden field in all our partner-related Marketo forms. Each page must have the `utm_partnerid` in the URL, otherwise we cannot pass to the partner.
 
-**Find the CRM Partner ID**
-This field is populated with the Salesforce Account ID (18) of Partner Account used for both Channel and Alliance.
-
-For a running list of Channel Partners and their CRM IDs, which is critical to the channel partner lead flow, [click here](https://gitlab.my.salesforce.com/?ec=302&startURL=%2F00O4M000004aSq6), while the CRM Partner ID for Alliance Partners can be found [here](https://gitlab.my.salesforce.com/?ec=302&startURL=%2F00O8X000008mxIb).
+* utm_medium = `partner` (never changes)
+* utm_soure = `partner` (never changes)
+* GTM = `x` (never changes)
+* Partner Name - utm_partnerid is a dropdown show all Channel Partners, and two Alliance Partners (AWS, and GCP). Select the partner you are working with.
+* Fill out the rest of the UTM parameters
 
 ### UTM structure for nurture emails
 

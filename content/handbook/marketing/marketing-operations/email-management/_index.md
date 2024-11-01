@@ -1,14 +1,7 @@
 ---
-
 title: "Email Management"
 description: "Email database management is a core responsibility for MktgOps. Ensuring GitLab is following email best practices, in compliance with Global spam laws and overall health of active database are all priorities."
 ---
-
-
-
-
-
-
 
 ## Overview
 
@@ -97,7 +90,7 @@ Emails that contain mostly marketing or promotional content like newsletters, ev
 
 If a person asks a team member to remove them from email marketing from GitLab, the team member can take a few different steps stated below. If a person unsubscribes, they may still receive [operational emails](/handbook/marketing/marketing-operations/email-management/#operational--bypass-unsubscribe) related to their account.
 
-1. Send the person to the [Email Subscription Center](/handbook/company/preference-center/index.html) to update their preferences
+1. Send the person to the [Email Subscription Center](/handbook/company/preference-center/) to update their preferences
 1. Send the person to the unsubscribe page (https://page.gitlab.com/UnsubscribePage.html) to unsubscribe from ALL communication
 1. On the person's SFDC record, check the `email opt out` box, which will then update the unsubscribe checkbox in Marketo and Outreach.
 1. If they are not in SFDC or refuse to go to unsubscribe page, the Marketing Operations team can manually unsubscribe them in Marketo. Create a confidential issue and alert the team in #mktgops.

@@ -1,5 +1,4 @@
 ---
-
 title: "APJ Customer Success"
 ---
 The APJ Customer Success department is part of the [GitLab Sales](/handbook/sales/) function under the WW Customer Success organisation who partners with our large, mid-market and strategic customers to deliver value throughout their GitLab adoption in the code development lifecycle.
@@ -19,7 +18,7 @@ To deliver value to all customers by engaging in a consistent, repeatable, scala
 
 ## Vision Page
 
-The WW ["Customer Success Vision Page"](/handbook/customer-success/vision/) provides the long-term vision which we also follow in the APJ Customer Success team.
+The WW ["Customer Success Vision Page"](/handbook/customer-success/customer-success-vision/) provides the long-term vision which we also follow in the APJ Customer Success team.
 
 ## APJ Customer Success Team
 

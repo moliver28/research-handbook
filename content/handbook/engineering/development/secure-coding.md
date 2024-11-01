@@ -1,13 +1,6 @@
 ---
-
 title: Keeping secure coding knowledge fresh in development
 ---
-
-
-
-
-
-
 
 ## Secure Coding Training Guidelines
 
@@ -21,7 +14,7 @@ It is essential that all developers are aware of secure coding best practices an
 
 ## Background
 
-* [Secure coding training](/handbook/security/secure-coding-training.html) was done in late July of 2019.
+* [Secure coding training](/handbook/security/secure-coding-training/) was done in late July of 2019.
 * Secure coding is an [onboarding task](https://gitlab.com/gitlab-com/people-group/people-operations/employment-templates/-/blob/main/.gitlab/issue_templates/onboarding_tasks/department_development.md) for new developers.
 
 ## What challenges does this address?

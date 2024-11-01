@@ -1,14 +1,7 @@
 ---
-
 title: "Recommended Books for Engineers"
 description: This page list Recommended Books for Engineers.
 ---
-
-
-
-
-
-
 
 ## What books do we recommend for Engineers?
 

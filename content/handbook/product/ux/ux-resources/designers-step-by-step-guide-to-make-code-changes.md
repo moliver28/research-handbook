@@ -28,7 +28,7 @@ You also need to have Visual Studio Code installed since this is the code editor
 
 Finally, you need to have your Git and SSH credentials correctly set up in your machine. If you haven't configured SSH access in your computer you can do so by completing the configuration explained in the following tutorial:
 
-- [Setting up SSH access](https://docs.gitlab.com/ee/ssh/)
+- [Setting up SSH access](https://docs.gitlab.com/ee/user/ssh.html)
 
 ## Step by step guide
 
@@ -72,7 +72,7 @@ Finally, you need to have your Git and SSH credentials correctly set up in your 
      - `git commit -m 'A meaningful message'`. This command will create a commit with your changes. It's very important that you comply with the commit message rules, otherwise your pipeline will fail. To comply with the rules make sure that your commit message it's a least three words but not more than 75 characters, the first letter needs to be capitalized and it can't end in period `.`.
      - `git push --set-upstream origin your-branch-name`. This command will create an upstream branch and push your changes against that remote branch. After the push is completed the terminal will show the MR url which you can open in a browser to finalize your change.
 
-1. You're done! Just make sure that you add all the final details to your MR including a milestone and a [type label](/handbook/engineering/metrics/#data-classification)
+1. You're done! Just make sure that you add all the final details to your MR including a milestone and a [type label](/handbook/product/groups/product-analysis/engineering/dashboards/#data-classification)
 
 ## Caveats
 

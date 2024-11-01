@@ -5,7 +5,7 @@ description: "Marketo is our marketing automation platform used for email market
 
 ## About Marketo
 
-[Marketo](https://www.marketo.com/) is our marketing automation platform used for email marketing, lead management, and program management.
+[Marketo](https://business.adobe.com/products/marketo/adobe-marketo.html) is our marketing automation platform used for email marketing, lead management, and program management.
 
 ## Marketo Tech Stack Guide
 
@@ -73,7 +73,7 @@ To enable, you must [create an issue](https://gitlab.com/gitlab-com/marketing/ma
 
 We do have a sandbox to work in for Marketo. The sandbox is used for training, creation of API links and overall testing before we move to production. There is not a way to `promote` a program from the sandbox to Prod, so building programs in the sandbox first is not always required. Guidelines for when to build in the sandbox is TBD, but for custom API and webhook integrations, it is highly recommended.
 
-If you'd like access to the sandbox, please fill out an [AR](/handbook/business-technology/end-user-services/onboarding-access-requests/access-requests/frequently-asked-questions/).
+If you'd like access to the sandbox, please fill out an [AR](/handbook/it/end-user-services/onboarding-access-requests/access-requests/frequently-asked-questions/).
 
 To limit the number of leads that pass from SFDC staging to Marketo Sandbox, we have instituted a custom rule that will only allow leads to sync from SFDC Staging to Marketo Sandbox IF `Marketo Sync` = TRUE. This is opposite logic than what we have for production.
 
@@ -83,7 +83,7 @@ Sales Systems refreshes the [SFDC staging environment](/handbook/sales/field-ope
 
 ## Forms
 
-Nearly all the forms on our website (`about.gitlab.com`) are Marketo embedded forms. Marketing Operations is responsible for maintaining existing forms and creating any new forms.
+Use the instructions below with the documentation [here](https://internal.gitlab.com/handbook/marketing/marketing-ops-and-analytics/marketing-operations/operational-setup-marketo/). Nearly all the forms on our website (`about.gitlab.com`) are Marketo embedded forms. Marketing Operations is responsible for maintaining existing forms and creating any new forms.
 
 We primarily use Global forms, which means the form is used on multiple landing pages and the automation for the form is handled on the individual Marketo programs. If you need fields that are not avaiable on the global forms, you need to request a custom form.
 
@@ -105,7 +105,9 @@ Form documentation can be found [here](https://docs.google.com/spreadsheets/d/1c
 
 **Translated Forms Available**: Spanish, French, Italian, Korean, German, Portuguese, and Japanese. These are global forms, go to the Design Studio > Forms > Translated Forms. It is important to use these (and not clone) as they influence the [localization segmentation](/handbook/marketing/marketing-operations/marketo/#segmentations) of `Language Preference`.
 
-If you require a new language or need a new form, please gather the [translations](/handbook/marketing/localization/#current-state) and then create an [issue](https://gitlab.com/gitlab-com/marketing/marketing-operations/-/issues/new?issuable_template=form_request). Due to resource constraints, we are only creating new forms for [P0 countries](/handbook/marketing/localization/#priority-countries).
+Localized forms require special hidden fields to properly capture `Preferred Language`. Refer to [this issue](https://gitlab.com/gitlab-com/marketing/marketing-operations/-/issues/10025) for detailed set-up instructions.
+
+If you require a new language or need a new form, please gather the [translations](/handbook/marketing/localization/#current-state) and then create an [issue](https://gitlab.com/gitlab-com/marketing/marketing-operations/-/issues/new?issuable_template=form_request).
 
 All forms should follow these guidelines:
 
@@ -151,9 +153,39 @@ dataLayer.push(
 });
 ```
 
+### Database Recurring Purge
+
+Marketing operations has created an automated process to purge inactive leads from the database on a recurring basis. This helps maintain data quality and reduce costs associated with storing unnecessary records. The leads are deleted from both Marketo and salesforce and follows these criteria:
+
+| Filter Description               | Criteria                                      | Date of Activity |
+|----------------------------------|-----------------------------------------------|------------------|
+| Not Clicked Link in Email        | Email: is any                                 | in past 2 years  |
+| Not Was Added to Opportunity     | Opportunity: is any                           | in past 2 years  |
+| Not Opened Email                 | Email: is any                                 | in past 2 years  |
+| Not Filled Out Form              | Form Name: is any                             | in past 2 years  |
+| Not Clicked Link on Web Page     | Link Name: is any                             | in past 2 years  |
+| Not Had Interesting Moment       | Type: is not empty                            | in past 2 years  |
+| Not Visited Web Page             | Web Page: is any                              | in past 2 years  |
+| Not Person was Created           |                          | in past 2 years  |
+| SFDC Type                        | SFDC Type: is Lead                            | -                |
+| Person Status                    | Person Status: is 'Raw', 'Inquiry', 'Disqualified', 'Recycle', 'Ineligible' | - |
+| Account Type                     | Account Type: is not Customer; Partner; Reseller | -                |
+| Not SFDC Activity was Logged          | Subject: is any                         | in past 2 year   |
+|Not currently sequencing in Outreach|||
+
+The purge process runs weekly and permanently deletes leads meeting all of the above criteria.
+
+It's important to note that this process does not affect leads with any recent activity, those who have been through programs, or those associated with opportunities or current customers. This ensures that valuable leads are retained while removing truly inactive records.
+
+Marketing Operations team members should regularly review the purge logs to ensure the process is running correctly and to identify any potential issues or exceptions that may need to be addressed.
+
+The process runs through [this smart campaign](https://engage-ab.marketo.com/?munchkinId=194-VVC-221#/classic/SC53025A1ZN19) and deletes all records that meet the criteria [from this list](https://engage-ab.marketo.com/?munchkinId=194-VVC-221#/classic/SL52963827C3LA1).
+
 ### Program Asset Expiration
 
 Starting in November 2022, teams within Marketo will transition to utilizing the [asset expiration feature](https://experienceleague.adobe.com/docs/marketo/using/product-docs/core-marketo-concepts/programs/working-with-programs/local-asset-expiration.html?lang=en#:~:text=Right%2Dclick%20on%20your%20desired,Choose%20an%20expiration%20date) added to the product in early 2022 as a way to declutter our expired landing pages and no longer relevant smart campaigns. Detailed instructions on this process can be found in our handbook on the [Campaigns and Programs](/handbook/marketing/marketing-operations/campaigns-and-programs/) page.
+
+Beginning in July of 2024, Marketo will now link to our Events Page (https://about.gitlab.com/events) for asset expirations. This will be the new Redirect instead of homepage. By utilizing asset expiration this allows us to avoid having to manually go in and update each LP no longer in use and have the page redirect to /events rather than the home page. Note: The fallback page is only used for unrecognized landing pages and whenever a landing page is unavailable. If you choose to not setup asset expiration and want a page available for longer you can do so and manually close with a redirect at a later time.
 
 ### Product data in Marketo
 
@@ -161,7 +193,7 @@ Data and engineering teams have developed integrations to bring data related to 
 
 1. [Marketing Contact Datamart & Pump](https://internal.gitlab.com/marketing-operations/product-data/#marketing-datamart-pump-and-pql-information-email-marketing-data-mart): Fields start with `[CDB]`
 1. [SaaS Trial & Handshakes](https://internal.gitlab.com/marketing-operations/product-data/#saas-trials--handraise): Fields start with `[PQL]`
-1. [Propensity to Buy Models](/handbook/business-technology/data-team/organization/data-science/#conversion): Fields start with `[PTP]` - Trial users only at the moment
+1. [Propensity to Buy Models](/handbook/enterprise-data/organization/data-science/#conversion): Fields start with `[PTP]` - Trial users only at the moment
 
 ### Campaign Limits
 
@@ -238,7 +270,7 @@ Based on certain criteria, a lead may auto-MQL. Note that any auto-MQL is consid
 |  Inbound  | Contact Request, <br> Renewals, <br> [Hand Raise PQL](/handbook/product/product-principles/#a-pql-can-be-further-broken-down-into-two-types-usage-and-hand-raise), <br> In-app Health Check, <br> Duo Requests <br> | +100 | 1/day |
 | [PTP Score](https://internal.gitlab.com/handbook/sales/propensity_models/)  |Newly assigned a 4 or 5 score via the Propensity Model alongside being assigned an `A` or `B` ranking via Lead Score Classification.<br> See [Educational deck](https://docs.google.com/presentation/d/1dxSXekzw-SIF1g4pjNf6QGNBUY1L6euggsqqr9BTHUY/edit#slide=id.g1d24c3e4ddd_5_252) or handbook for details <br>  | +100 | 1/90 days |
 | Web Chat - <br>Qualified  |Web chat interaction or meeting scheduled | +100 | 1/day |
-|* Inbound - Med|Inbound form, not above |    +100|1/day|
+|* Inbound - Med|Inbound form, not above and excluding Startup applicants |    +100|1/day|
 
 #### Behavior Scoring
 
@@ -269,6 +301,7 @@ Boosts to scores occur when a special action takes place above the traditional a
 |:-------------:|:-------:|:-----:|:--------:|
 |Re-MQL Score|    Status is Nurture,user takes an activity that increases behaviour score<br>MQL Counter >0    |+20    |    1/month|
 |Visits Key Webpage|`/pricing/`,<br> `/sales`,<br> `/install`,<br> `/features`,<br> `/direction`,<br> `/solutions/startups/`,<br> `/releases/gitlab-com/`    |+25    |1/week    |
+| [6QA identified](/handbook/marketing/marketing-operations/6sense/#marketo) | When 6sense's predictive intent data model identifies leads and contacts showing interest in GitLab | +20| 1/ 3 month|
 
 <!--|PF Engagement Booster 2|Engagement Time > 4 minutes|+15|Everytime|
 |PF Engagement Booster 1|Engagement Time >  2 minutes < 4 minutes|+10|Everytime|
@@ -337,7 +370,9 @@ Marketo segmentations are used similar to a smartlist, but they are permanent an
 
 The following segmentations that are approved and live.
 
-<details><summary>[Buyer Personas - Function](https://engage-ab.marketo.com/?munchkinId=194-VVC-221#/classic/SG1008A1)</summary>
+<details><summary>Buyer Personas - Function</summary>
+[Segmentation in Marketo](https://engage-ab.marketo.com/?munchkinId=194-VVC-221#/classic/SG1008A1)
+
 Based off of guidance on [Buyer Persona page](/handbook/marketing/brand-and-product-marketing/product-and-solution-marketing/roles-personas/buyer-persona/#buyer-personas).
 
 - App Dev
@@ -430,6 +465,7 @@ Complete list of priority countries as found [here](https://gitlab.com/gitlab-co
 - Spanish
 - Portuguese
 - Italian
+- Non-English, not otherwise listed
 - Default (English)
 
 </details>

@@ -117,9 +117,10 @@ Issue discussions can be lengthy and exhaustive.  As a best practice, update iss
 
 Issues maintain a history of the changes to the descriptions, so update descriptions when it makes sense.
 
+{{% alert color="info" %}}
 <i class="fas fa-info-circle" aria-hidden="true" style="color: rgb(49, 112, 143)
 ;"></i> Tip! Using a header with a clear highlight on the "latest update" can be a quick and clear indication to any viewer what has been last agreed in conversations.
-{: .alert .alert-info}
+{{% /alert %}}
 
 ### Set issue weight
 

@@ -25,24 +25,26 @@ important to those working within Zendesk:
 <details>
 <summary>SLA Related Tags</summary>
 
-| Tag                 | What it means |
-|---------------------|---------------|
-| `starter`           | Signifies the ticket is using a Starter plan, granting Standard SLA on Support tickets |
-| `premium`           | Signifies the ticket is using a Premium plan, granting Priority SLA on Support tickets |
-| `ultimate`          | Signifies the ticket is using a Ultimate plan, granting Priority SLA on Support tickets |
-| `bronze`            | Signifies the ticket is using a Bronze plan, granting Standard SLA on Support tickets |
-| `silver`            | Signifies the ticket is using a Silver plan, granting Priority SLA on Support tickets |
-| `gold`              | Signifies the ticket is using a Gold plan, granting Priority SLA on Support tickets |
-| `priority_prospect` | Signifies the ticket is from a prospect who has been temporarily granted Standard SLA on Support tickets |
-| `free_customer`     | Signifies the ticket is from a non-paying end-user. This means they receive no SLA on Support Tickets |
-| `missing_sla_tag`   | This means the ticket is missing any form of SLA tagging. As this is a problem, this tag applies a Standard SLA |
-| `low`               | Signifies the ticket as a Low priority, thus granting it bare-level support SLAs for Support tickets with Priority SLA |
-| `medium`            | Signifies the ticket as a Normal priority, thus granting it mid-level support SLAs for Support tickets with Priority SLA |
-| `high`              | Signifies the ticket as a High priority, thus granting it high level support SLAs for Support tickets with Priority SLA |
-| `urgent`            | Signifies the ticket is an emergency request |
-| `prospect`          | Signifies the ticket is from a prospect. This means they receive no SLA on Support Tickets |
-| `trial`             | Signifies the ticket is from a non-paying end-user using the trial system. This means they receive no SLA on Support Tickets |
-| `consumption_only`  | Signifies the ticket is a consumption ticket |
+| Tag                            | SLA granted | What it means |
+|--------------------------------|-------------|---------------|
+| `sub_community_other`          | None        | The organization has a community subscription of an unknown type |
+| `sub_consumption_ai`           | Consumption | The organization has purchased an AI addon |
+| `sub_consumption_cicd_minutes` | Consumption | The organization has purchased CI/CD minutes |
+| `sub_consumption_eap`          | Consumption | The organization has purchased the Enterprise Agile Planning addon |
+| `sub_consumption_storage`      | Consumption | The organization has storage |
+| `sub_dotcom_premium`           | Priority    | The organization has a GitLab.com Premium subscription |
+| `sub_dotcom_ultimate`          | Priority    | The organization has a GitLab.com Ultimate subscription |
+| `sub_edu`                      | None        | The organization has a EDU community subscription |
+| `sub_gitlab_dedicated`         | Priority    | The organization has a GitLab Dedicated subscription |
+| `sub_oss`                      | None        | The organization has a OSS community subscription |
+| `sub_other`                    | General     | The organization has an unknown purchase |
+| `sub_proserv`                  | None        | The organization has a Professional Services engagement purchase |
+| `sub_sm_premium`               | Priority    | The organization has a Self-managed Premium subscription |
+| `sub_sm_starter`               | Standard    | The organization has a Self-managed Starter subscription |
+| `sub_sm_ultimate`              | Priority    | The organization has a Self-managed Ultimate subscription |
+| `sub_ss_ase`                   | General     | The organization has purchased an Assigned Support Engineer addon |
+| `sub_usgov_12x5`               | Priority    | The organization has a US Government purchase granting 12x5 support |
+| `sub_usgov_24x7`               | Priority    | The organization has a US Government purchase granting 24x7 support |
 
 </details>
 <details>
@@ -59,6 +61,7 @@ important to those working within Zendesk:
 | `open_partner`        | Signifies the ticket is from an account labeled as Open Partner |
 | `select_partner`      | Signifies the ticket is from an account labeled as Select Partner |
 | `alliance_partner`    | Signifies the ticket is from an account labeled as Alliance Partner |
+| `support_hold`        | Signifies the organization that filed the ticket has a Support Hold in place |
 
 </details>
 <details>
@@ -68,6 +71,12 @@ important to those working within Zendesk:
 |--------------------------------|---------------|
 | `greatly_expired`              | The organization is slated to be removed due to data rentention policies |
 | `not_in_sfdc`                  | The organization is not being controlled by the ZD-SFDC sync |
+| `org_region_apac`              | The organization has a Geographic Demographic relating to APAC |
+| `org_region_amer`              | The organization has a Geographic Demographic relating to AMER |
+| `org_region_emea`              | The organization has a Geographic Demographic relating to EMEA |
+| `org_region_latam`             | The organization has a Geographic Demographic relating to LATAM |
+| `org_region_ncsa`              | The organization has a Geographic Demographic relating to NCSA |
+| `org_region_noram`             | The organization has a Geographic Demographic relating to NORAM |
 | `partner_customer`             | The organization has purchased from an OEM partner |
 | `restricted_account`           | The SFDC account is classified as restricted and cannot receive support |
 | `sub_community_other`          | The organization has a community subscription which had an undetectable type |
@@ -75,7 +84,6 @@ important to those working within Zendesk:
 | `sub_consumption_cicd_minutes` | The organization has a CI/CD minutes purchase |
 | `sub_consumption_eap`          | The organization has an Agile Planning addon |
 | `sub_consumption_storage`      | The organization has a storage purchase |
-| `sub_dotcom_bronze`            | The organization has a gitlab.com Bronze subscription |
 | `sub_dotcom_premium`           | The organization has a gitlab.com Premium subscription |
 | `sub_dotcom_ultimate`          | The organization has a gitlab.com Ultimate subscription |
 | `sub_edu`                      | The organization has an EDU community subscription |
@@ -738,6 +746,10 @@ important to those working within Zendesk:
 | `within_grace_period`            | Indicates a ticket was submitted while the account is within the subscription's grace period |
 | `CUSTOM_PATH_issues_IID`         | See below for more information |
 | `CUSTOM_PATH_merge_requests_IID` | See below for more information |
+| `americas_usa`                   | Customer selected preferred region of service: AMER |
+| `europe__middle_east__africa`    | Customer selected preferred region of service: EMEA |
+| `asia_pacific`                   | Customer selected preferred region of service: APAC |
+| `all_regions`                    | Customer selected preferred region of service: All Regions |
 
 For `CUSTOM_PATH_issues_IID` and `CUSTOM_PATH_merge_requests_IID`, this refers
 to a long tag that contains the entire project path.
@@ -768,6 +780,27 @@ So an example:
 | `high`            | Signifies the ticket as a High priority, thus granting it high level support SLAs for Support tickets with Priority SLA |
 | `urgent`          | Signifies the ticket is an emergency request |
 
+| Tag                            | SLA granted | What it means |
+|--------------------------------|-------------|---------------|
+| `sub_community_other`          | None        | The organization has a community subscription of an unknown type |
+| `sub_consumption_ai`           | None        | The organization has purchased an AI addon |
+| `sub_consumption_cicd_minutes` | None        | The organization has purchased CI/CD minutes |
+| `sub_consumption_eap`          | None        | The organization has purchased the Enterprise Agile Planning addon |
+| `sub_consumption_storage`      | None        | The organization has storage |
+| `sub_dotcom_premium`           | None        | The organization has a GitLab.com Premium subscription |
+| `sub_dotcom_ultimate`          | None        | The organization has a GitLab.com Ultimate subscription |
+| `sub_edu`                      | None        | The organization has a EDU community subscription |
+| `sub_gitlab_dedicated`         | Priority    | The organization has a GitLab Dedicated subscription |
+| `sub_oss`                      | None        | The organization has a OSS community subscription |
+| `sub_other`                    | None        | The organization has an unknown purchase |
+| `sub_proserv`                  | None        | The organization has a Professional Services engagement purchase |
+| `sub_sm_premium`               | Priority    | The organization has a Self-managed Premium subscription |
+| `sub_sm_starter`               | Standard    | The organization has a Self-managed Starter subscription |
+| `sub_sm_ultimate`              | Priority    | The organization has a Self-managed Ultimate subscription |
+| `sub_ss_ase`                   | None        | The organization has purchased an Assigned Support Engineer addon |
+| `sub_usgov_12x5`               | Priority    | The organization has a US Government purchase granting 12x5 support |
+| `sub_usgov_24x7`               | Priority    | The organization has a US Government purchase granting 24x7 support |
+
 </details>
 <details>
 <summary>Account Related Tags</summary>
@@ -784,6 +817,7 @@ So an example:
 | `open_partner`        | Signifies the ticket is from an account labeled as Open Partner |
 | `select_partner`      | Signifies the ticket is from an account labeled as Select Partner |
 | `alliance_partner`    | Signifies the ticket is from an account labeled as Alliance Partner |
+| `support_hold`        | Signifies the organization that filed the ticket has a Support Hold in place |
 
 </details>
 <details>
@@ -799,7 +833,6 @@ So an example:
 | `sub_consumption_cicd_minutes` | The organization has a CI/CD minutes purchase |
 | `sub_consumption_eap`          | The organization has an Agile Planning addon |
 | `sub_consumption_storage`      | The organization has a storage purchase |
-| `sub_dotcom_bronze`            | The organization has a gitlab.com Bronze subscription |
 | `sub_dotcom_premium`           | The organization has a gitlab.com Premium subscription |
 | `sub_dotcom_ultimate`          | The organization has a gitlab.com Ultimate subscription |
 | `sub_edu`                      | The organization has an EDU community subscription |

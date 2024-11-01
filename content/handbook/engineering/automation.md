@@ -1,5 +1,4 @@
 ---
-
 title: "Guidelines for automation and access tokens"
 description: "Guidelines for automation with project/group tokens or service accounts"
 ---
@@ -16,7 +15,7 @@ Automations for the `gitlab-org` group and projects under it can be split into t
 * Automation via API within a project: a [project access token](https://docs.gitlab.com/ee/user/project/settings/project_access_tokens) is sufficient.
 * Automation via API within a group: a [group access token](https://docs.gitlab.com/ee/user/group/settings/group_access_tokens.html) is sufficient.
 
-These guidelines ensure consistency for Engineering automation using approved secure patterns aligned with [least privileged access principle](/handbook/security/access-management-policy.html#least-privilege-reviews-for-access-requests).
+These guidelines ensure consistency for Engineering automation using approved secure patterns aligned with [least privileged access principle](/handbook/security/access-management-policy/#least-privilege-reviews-for-access-requests).
 
 ### Merge request automation guidelines
 
@@ -49,7 +48,7 @@ Follow the same guidelines as for the project access tokens above.
 
 For cases where automation is applied at the group level or across multiple projects, and where the Maintainer
 permission is required to perform the automation (for example, to post restricted quick actions), you can
-[request a new service account](/handbook/security/access-management-policy.html#requesting-gitlabcom-service-account-for-automation)
+[request a new service account](https://internal.gitlab.com/handbook/security/access-management-standard/#requesting-gitlabcom-service-account-for-automation)
 that will be owned by a specific team.
 
 ## List of automations currently in place

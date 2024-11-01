@@ -1,9 +1,9 @@
 ---
 title: Staff Internal Audit & SOX Compliance Analyst
-description: responsible for preparing and implementing a risk-based audit plan to assess, report on, and make suggestions for improving the company’s key operational, finance, and internal controls with a specialty in IT risk and security
+description: responsible for preparing and implementing a risk-based audit plan to assess, report on, and make suggestions for improving the company's key operational, finance, and internal controls with a specialty in IT risk and security
 ---
 
-The position is additionally responsible for identifying and assisting in documenting existing internal controls, new internal controls, and establishing an internal monitoring function to audit the company’s compliance with such internal controls. The position will have a key role in assessing and providing recommendations to the company’s compliance with the requirements of the Sarbanes-Oxley Act of 2002 (SOX), and treatment of IT and security risks.
+The position is additionally responsible for identifying and assisting in documenting existing internal controls, new internal controls, and establishing an internal monitoring function to audit the company's compliance with such internal controls. The position will have a key role in assessing and providing recommendations to the company's compliance with the requirements of the Sarbanes-Oxley Act of 2002 (SOX), and treatment of IT and security risks.
 
 The Staff Internal Audit & SOX Compliance Analyst reports to the Senior Internal Audit Manager, IT and Security.
 
@@ -41,10 +41,10 @@ CISA/CISSP/IT Audit certification preferred
 
 ### Performance Indicators
 
-- [Percentage of Desktop procedures documented](/handbook/internal-audit/#internal-audit-performance-measures)
-- [Percentage of controls tested](/handbook/internal-audit/#internal-audit-performance-measures)
-- [Percentage of recommendations implemented](/handbook/internal-audit/#internal-audit-performance-measures)
-- [Percentage of audits completed](/handbook/internal-audit/#internal-audit-performance-measures)
+- [Percentage of Desktop procedures documented](https://internal.gitlab.com/handbook/internal-audit/#internal-audit-performance-measures)
+- [Percentage of controls tested](https://internal.gitlab.com/handbook/internal-audit/#internal-audit-performance-measures)
+- [Percentage of recommendations implemented](https://internal.gitlab.com/handbook/internal-audit/#internal-audit-performance-measures)
+- [Percentage of audits completed](https://internal.gitlab.com/handbook/internal-audit/#internal-audit-performance-measures)
 
 ### Career Ladder
 

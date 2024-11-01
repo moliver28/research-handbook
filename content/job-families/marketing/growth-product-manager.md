@@ -44,7 +44,7 @@ allows developers to invent, create, and deploy modern applications.
 We want to facilitate [Concurrent DevOps](https://about.gitlab.com/topics/concurrent-devops/) so that teams can work simultaneously instead of sequentially, unleashing collaboration across organizations.
 
 We work in a very unique way at GitLab, where flexibility and independence meet
-a high paced, pragmatic way of working. And everything we do is [in the open](https://about.gitlab.com/handbook/).
+a high paced, pragmatic way of working. And everything we do is [in the open](/handbook/).
 
 We are looking for talented product managers that are excited by the idea to
 contribute to our vision. We know there are a million things we can and want to

@@ -43,13 +43,13 @@ When you provision your credentials, a new top-level group will be created with 
 
 ## Personal AWS Account and GCP Project
 
-Each team member can use the [GitLab Sandbox Cloud](/handbook/infrastructure-standards/realms/sandbox/) to provision their own AWS account or GCP project for deploying infrastructure yourself.
+Each team member can use the [GitLab Sandbox Cloud](/handbook/company/infrastructure-standards/realms/sandbox/) to provision their own AWS account or GCP project for deploying infrastructure yourself.
 
 > For the purposes of onboarding, we will focus on GCP. You will not need your AWS account right away, so you can always come back later.
 
-- [ ] **Action:** Follow the [self-service instructions](/handbook/infrastructure-standards/realms/sandbox/#individual-aws-account-or-gcp-project) to provision a GCP project.
-- [ ] **Action:** Follow the [self-service instructions](/handbook/infrastructure-standards/realms/sandbox/#individual-aws-account-or-gcp-project) to provision an AWS account.
-- [ ] **Action:** Read about how [Terraform Environments](/handbook/infrastructure-standards/realms/sandbox/#terraform-environments) have been automated with the Sandbox Cloud and explore the [available templates](https://gitlab.com/gitlab-com/infra-standards/project-templates). You can follow the [self-service instructions](/handbook/infrastructure-standards/realms/sandbox/#how-to-create-a-terraform-environment) to create an environment using one of the templates or create any resources manually yourself in your AWS account or GCP project.
+- [ ] **Action:** Follow the [self-service instructions](/handbook/company/infrastructure-standards/realms/sandbox/#individual-aws-account-or-gcp-project) to provision a GCP project.
+- [ ] **Action:** Follow the [self-service instructions](/handbook/company/infrastructure-standards/realms/sandbox/#individual-aws-account-or-gcp-project) to provision an AWS account.
+- [ ] **Action:** Read about how [Terraform Environments](/handbook/company/infrastructure-standards/realms/sandbox/#terraform-environments) have been automated with the Sandbox Cloud and explore the [available templates](https://gitlab.com/gitlab-com/infra-standards/project-templates). You can follow the [self-service instructions](/handbook/company/infrastructure-standards/realms/sandbox/#how-to-create-a-terraform-environment) to create an environment using one of the templates or create any resources manually yourself in your AWS account or GCP project.
 
 Please note that services may take a few minutes before being ready. If you log in and immediately see an error, wait a few minutes then try to access the account again.
 
@@ -198,7 +198,7 @@ At this point you should have your own group on GitLab.com SaaS as well as a GCP
 
    > This step also makes sure that your agent was set up correctly. If your Auto DevOps pipeline does not look like the one below make sure your agent config is correct. It may be a single indent is missing that invailidated the whole yaml.
 
-   ![Correct Auto DevOps Pipeline](./ADO.png)
+   ![Correct Auto DevOps Pipeline](ADO.png)
 
 1. It is out of scope for onboarding but you could continue to modify the agent as you add more and more projects to this group. The below example is what your manifest definition might look like if you started adding multiple projects:
 

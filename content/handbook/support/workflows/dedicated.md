@@ -91,6 +91,17 @@ Working with Grafana [has been moved]({{< ref "dedicated_instance_health" >}})
 
 Use the Switchboard app. More information can be found in the [Switchboard workflow]({{< ref "dedicated_switchboard" >}}).
 
+#### Feature Flags are not supported
+
+In GitLab Dedicated, [feature flags](https://docs.gitlab.com/ee/subscriptions/gitlab_dedicated/#gitlab-application-features) are not supported, meaning we do not able enable/disable a feature flag for a Dedicated instance. When customers request feature flags to be modified in the GitLab Rails console, the GitLab Support team should:
+
+- create or find an issue in the appropriate issue tracker about making this feature generally available (without a feature flag).
+- notify the [appropriate Product Manager](/handbook/product/categories/) in the issue with a comment that followed the [feedback template](/handbook/product/product-management/#feedback-template).
+- notify the customer that we [don't keep tickets open](https://about.gitlab.com/support/general-policies/#we-dont-keep-tickets-open-even-if-the-underlying-issue-isnt-resolved) even if the underlying issue isn't resolved.
+- check whether the customer has any questions about the next steps.
+
+Support team members with questions can check in the [`#spt_pod_dedicated`](https://gitlab.enterprise.slack.com/archives/C058LM1RL3V) Slack channel for additional guidance.
+
 ### Configuration changes
 
 GitLab Dedicated uses the [Cloud Native Hybrid reference architecture](https://docs.gitlab.com/ee/administration/reference_architectures/10k_users.html#cloud-native-hybrid-reference-architecture-with-helm-charts-alternative). Instance implementation and changes are done via the [instrumentor project](https://gitlab.com/gitlab-com/gl-infra/gitlab-dedicated/instrumentor).
@@ -112,9 +123,11 @@ When any changes are required besides those listed below, raise an issue in the 
 
 #### Outbound (Reverse) PrivateLink Request
 
+Outbound PriveLink allows any traffic from the GitLab Dedicated instance, or hosted runners for GitLab Dedicated to not be exposed to the public internet. While we advise for the onboarding to be completed, the customer can start these steps before.
+
 1. Open a new [PrivateLink Request issue](https://gitlab.com/gitlab-com/gl-infra/gitlab-dedicated/team/-/issues/new?issuable_template=private_link_request) and confirm that the `support::request-for-help` label is added.
 
-   - As a comment in the issue, request two **Availability Zone IDs (AZ IDs)** that can be used by the customer.
+   - As a comment in the issue, request two **Availability Zone IDs (AZ IDs)** that can be used by the customer. For hosted runners, we only need a primary **Availability Zone ID (AZ IDs)**.
 
 1. Provide the IAM role Principal to the customer. It has the following format: `arn:aws:iam::<AWS_Account_ID>:role/reverse_private_link@<tenant_id>`. You will find this information in the `Reverse Private Link IAM Principal` row of the `Tenant Details` section in Switchboard. Alternatively, read the instructions in the issue created for information on how to find the `<AWS_Account_ID>` and `<tenant_id>`.
 1. Provide the two **AZ IDs** from the issue to the customer. An example AZ ID is: `use-az1` or `usw-az4`. Note: *These are not AWS Zone IDs.*

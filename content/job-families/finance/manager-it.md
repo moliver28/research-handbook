@@ -14,7 +14,7 @@ The Manager, IT is a [grade 8](/handbook/total-rewards/compensation/compensation
 
 #### Manager, IT Responsibilities
 
-- Hold regular 1:1’s with all members of the IT Teams
+- Hold regular 1:1's with all members of the IT Teams
 - Embed an asynchronous, distributed philosophy in everything you do
 - Regularly give IT group conversations
 - Embed an asynchronous, distributed philosophy in everything you do
@@ -36,7 +36,7 @@ The Manager, IT is a [grade 8](/handbook/total-rewards/compensation/compensation
 
 - Build, scale and manage our IT Engineering team to support our needs as distributed company
 - Be the IT Expert at GitLab - Come with Solutions, not a Practice of No
-- Hold regular 1:1’s with all members of the IT Teams
+- Hold regular 1:1's with all members of the IT Teams
 - Represent the IT team in different company functions - be an advocate for modern, efficient, SIMPLE solutions
 - Create and execute a plan to develop and mature our IT capabilities
 - Collaborate with all functions of the company to ensure IT needs are addressed
@@ -67,10 +67,10 @@ The Manager, IT End User Services leads a team of highly-collaborative and resul
 - A clear channel of feedback to improve the efficacy of onboarding and to measure team member satisfaction
 - Offboarding process is followed without exception and all compliance requirements are met
 - IT Asset and configuration management. Track, log and correct information to protect assets and components
-- Customer service management. Translate ‘lessons learnt’ into continual service improvement
+- Customer service management. Translate 'lessons learnt' into continual service improvement
 - Produce proactive reports, trending analysis, service level reporting, SLA compliance, process consultation and application of ITIL best practice
 - Problem management. Initiate and monitor actions to investigate patterns and trends to resolve problems
-- Hold regular 1:1’s with all members of the IT Teams
+- Hold regular 1:1's with all members of the IT Teams
 - Triage and manage priorities of IT HelpDesk and Operations
 - Embed an asynchronous, distributed philosophy in everything you do
 

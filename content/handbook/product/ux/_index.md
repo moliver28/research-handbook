@@ -21,8 +21,8 @@ Our goal is to make our product easy to use, supportive of contributions from th
 - **We support all users from beginners to experts.** We believe that GitLab software should be unintimidating and accessible for a beginner, without oversimplifying important features for advanced users. We stay with users every step of the way to help them learn fast as a beginner and then become an expert over time.
 - **We're building one product, together.** We're highly focused on ensuring that no matter how big our product gets, the entire experience stays cohesive, consistent, and interconnected.
 - **We're humble facilitators of user experience design.** Everyone is a designer; [everyone can contribute](https://docs.gitlab.com/ee/development/ux/). We are not egotistical, moody experts who alone hold the keys to user delight. We encourage Product Managers, Engineers, and the wider GitLab community to contribute to creating an exceptional user experience.
-- **We look for small changes and big impacts.** Sometimes the simplest, most boring solution is what is needed to make users successful. We want our UI to stay out of the user’s way. We work iteratively to make modest but valuable changes that make users more productive, faster, and better at accomplishing their tasks.
-- **We're informed by empathy.** We’re human, and we design for humans, so we strive for understanding, self-awareness, and connection. We are quirky, and we introduce our quirks into designs when appropriate.
+- **We look for small changes and big impacts.** Sometimes the simplest, most boring solution is what is needed to make users successful. We want our UI to stay out of the user's way. We work iteratively to make modest but valuable changes that make users more productive, faster, and better at accomplishing their tasks.
+- **We're informed by empathy.** We're human, and we design for humans, so we strive for understanding, self-awareness, and connection. We are quirky, and we introduce our quirks into designs when appropriate.
 - **When we find problems that are simple to fix, we are empowered to make those changes ourselves.** If a change will take you less than 15 minutes to make (for example, a minor change to our website or microcopy in the product), then start with an MR instead of an issue. By making the change yourself, you are taking immediate action to improve our product, and you might learn a new skill, too! If it seems simple, but you have questions, remember that there are people who can help you with code changes both in the UX department and across the company.
 
 We work closely with the community, and our stable counterparts Product Managers (PM), Frontend engineers (FE), Backend engineers (BE), Quality engineers, and the Brand team. We follow GitLab's shared process referred to as the [Product Development Flow](/handbook/product-development-flow/).
@@ -37,7 +37,7 @@ We work closely with the community, and our stable counterparts Product Managers
 - [Technical Writing](/handbook/product/ux/technical-writing/workflow/)
 - [Product Designer](/handbook/product/ux/product-designer/)
 - [Product Design Manager](/handbook/product/ux/product-design/product-design-manager)
-- [Cross-functional Prioritization](/handbook/product/cross-functional-prioritization/)
+- [Cross-functional Prioritization](/handbook/product/product-processes/cross-functional-prioritization/)
 
 ### Headcount planning
 
@@ -107,7 +107,7 @@ GitLab uses labels to categorize, prioritize, and track work. The following is a
 - [Actionable Insights](/handbook/engineering/ux/ux-research/research-insights/#how-to-document-actionable-insights) document learnings from research that need to be acted on.
   - [Actionable Insight::Exploration needed](https://gitlab.com/groups/gitlab-org/-/issues/?sort=updated_desc&state=opened&label_name%5B%5D=Actionable%20Insight%3A%3AExploration%20needed): A research insight derived from a UX research study that requires further exploration.
   - [Actionable Insight::Product change](https://gitlab.com/groups/gitlab-org/-/issues/?sort=updated_desc&state=opened&label_name%5B%5D=Actionable%20Insight%3A%3AProduct%20change): A research insight derived from a UX research study and requires a change to the product experience.
-- [Type labels](/handbook/engineering/metrics/#work-type-classification): Used to track feature, maintenance, and bug issues and MRs. UX Leadership are active participants in influencing the prioritization of all three work types. See also who are the [DRIs for prioritization](/handbook/product/cross-functional-prioritization/#prioritization-for-feature-maintenance-and-bugs).
+- [Type labels](/handbook/product/groups/product-analysis/engineering/dashboards/#work-type-classification): Used to track feature, maintenance, and bug issues and MRs. UX Leadership are active participants in influencing the prioritization of all three work types. See also who are the [DRIs for prioritization](/handbook/product/product-processes/cross-functional-prioritization/#prioritization-for-feature-maintenance-and-bugs).
 - **Theme labels** can be created to group issues that solve a similar user experience problem but don't have a category. This can be especially useful for a user experience that spans the product. These issues still require a UX label.
 - [**UX: Feature Discovery Improvement**](https://gitlab.com/groups/gitlab-org/-/issues?label_name%5B%5D=UX%3A++Feature+Discoverability+Improvement): Indicates issue may improve feature discoverability.
 - [**UX: Onboarding Improvement**](https://gitlab.com/groups/gitlab-org/-/issues/?label_name%5B%5D=UX%3A%20Onboarding%20Improvement): Indicates issue is a potential onboarding improvement.
@@ -120,7 +120,7 @@ The [UX Calendar](https://calendar.google.com/calendar/embed?src=gitlab.com_9psh
 
 After each release, we have a company retrospective call in which we discuss what went well, what went wrong, and what we can improve for the next release.
 
-To understand the specific challenges faced by the UX Department, we hold an async UX retrospective after every milestone. This retro is carried out through a new Issue created for the recent release in the [ux-retrospectives](https://gitlab.com/gl-retrospectives/ux-retrospectives/issues) project. The goal is to evaluate what went well, what didn’t go well, and how we can improve.
+To understand the specific challenges faced by the UX Department, we hold an async UX retrospective after every milestone. This retro is carried out through a new Issue created for the recent release in the [ux-retrospectives](https://gitlab.com/gl-retrospectives/ux-retrospectives/issues) project. The goal is to evaluate what went well, what didn't go well, and how we can improve.
 
 ### UX Forum
 

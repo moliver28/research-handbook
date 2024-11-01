@@ -1,8 +1,6 @@
 ---
 title: "Incentives at GitLab"
 description: "The page contains information about incentives available for GitLab team members."
-aliases:
-- /handbook/incentives/
 ---
 
 Can't find what you're looking for? Try the main [People Operations page](/handbook/people-group/).
@@ -15,7 +13,7 @@ The following incentives are available for GitLab team members. Also see our sep
 
 1. Every now and then, individual GitLab team members really shine as they live our values.  We especially like to celebrate the special moments that exemplify the behavior we want to see in all GitLab team members.
 1. We recognize this through the `#thanks` channel, and sometimes also through a discretionary bonus which is also celebrated in `#thanks`.
-1. [Any GitLab team member can recommend a discretionary bonus for another GitLab team member to the GitLab team member's manager using the Nominator Bot]({{< ref "incentives" >}}) for a $1,000 at [the exchange rate](/handbook/total-rewards/compensation/#exchange-rates). The exception is that direct reports cannot nominate their manager or anyone in their management chain for a discretionary bonus.
+1. Any GitLab team member can recommend a discretionary bonus for another GitLab team member to the GitLab team member's manager using the [Nominator Bot](#nominator-bot-process) for a $1,000 at [the exchange rate](/handbook/total-rewards/compensation/#exchange-rates). The exception is that direct reports cannot nominate their manager or anyone in their management chain for a discretionary bonus.
 1. Only [GitLab team members](/handbook/people-group/employment-solutions/#team-member-types-at-gitlab) are eligible to receive a discretionary bonus / working group bonus or nominate other GitLab team members. Hence, `Temporary Contractors` (Not included in GitLab Team Member Types) are not eligible to receive or nominate discretionary bonus / working group bonus. Any such nominations for the temporary contractors will not be approved by the People Connect team.
 1. We are fixing this amount at $1,000 thoughtfully and purposefully. We want the focus to be on the value and the behavior, not on the perceived monetary impact to GitLab. This is about recognition.
 1. A general guideline is that 1 in 10 team members might receive a discretionary bonus each month. This can vary greatly as we don't give out bonuses just to hit a quota, nor would we hold one back because a certain number had already been awarded.
@@ -54,8 +52,8 @@ Discretionary bonuses are to celebrate team members that live by our values. To 
 
 - The reason for the bonus is that this person (X, a Technical Writer) has single-handedly stepped in to act as a part-time documentation engineer in the absence of a full-time engineer.
 The person's history of contributions is plain to see here: (Nominator included links to boards, issues or merge requests)
-In particular, X's implementation of a Global Navigation and GitLab iconography for documentation are real highlights of X's impact for end-users. For developers, they have modernized the codebase and continue to work toward making `gitlab-docs` just like any other GitLab project for developers. X's dedication to the Technical Writing team over a long period of time motivates me to do more than just thank X in `#thanks` channel. X has specifically: Been active to see the Technical Writing team to [succeed]({{< ref "values#see-others-succeed" >}}). X delivers for the team in lots of [MVCs]({{< ref "values#minimal-viable-change-mvc" >}}), so we can get early value. For example, making iconography available using Markdown first, and planning to deliver other implementations later. X solutions are [boring]({{< ref "values#boring-solutions" >}}), in that X aims to reuse as much GitLab code as possible, and raising instances where that isn’t the case as technical debt. For example, docs icons are the same library as icons in the product.
-- I’d like to nominate X for a discretionary bonus for exhibiting the values for results, efficiency, and collaboration. While the whole backend engineers in the X team were OOO, despite it wasn’t his team, X stepped in and handled a problem (link) that was blocking a deploy. X was able to debug the problem, not an easy one by the way, communicate it to the different counterparts, and also fix it. X also spotted that it could affect other features and provide a way to fix them as well.
+In particular, X's implementation of a Global Navigation and GitLab iconography for documentation are real highlights of X's impact for end-users. For developers, they have modernized the codebase and continue to work toward making `gitlab-docs` just like any other GitLab project for developers. X's dedication to the Technical Writing team over a long period of time motivates me to do more than just thank X in `#thanks` channel. X has specifically: Been active to see the Technical Writing team to [succeed](/handbook/values/#see-others-succeed). X delivers for the team in lots of [MVCs](/handbook/values/#minimal-valuable-change-mvc), so we can get early value. For example, making iconography available using Markdown first, and planning to deliver other implementations later. X solutions are [boring](/handbook/values/#boring-solutions), in that X aims to reuse as much GitLab code as possible, and raising instances where that isn't the case as technical debt. For example, docs icons are the same library as icons in the product.
+- I'd like to nominate X for a discretionary bonus for exhibiting the values for results, efficiency, and collaboration. While the whole backend engineers in the X team were OOO, despite it wasn't his team, X stepped in and handled a problem (link) that was blocking a deploy. X was able to debug the problem, not an easy one by the way, communicate it to the different counterparts, and also fix it. X also spotted that it could affect other features and provide a way to fix them as well.
 - I am nominating X for the values efficiency and results for the Nominator Bot. This bot assists us to nominate a team member for Discretionary Bonus without logging into Workday. This new bot speeds up the process probably by half the time it took to get approvals (for both me that administers the process and managers for approval) and directly now impacts our PI to increase discretionary bonuses. X is managing all the debugging and going above and beyond to solve any problems, without anyone asking X or having to follow up and this is out of scope of "just building a nominator" bot.
 You can read more about the process in [our handbook](#nominator-bot-process)
 
@@ -107,7 +105,7 @@ If you received the same nomination twice (for the same person and the same reas
 1. If applicable, please be sure to include any relevant issues or merge requests that support the nomination.
 1. Once submitted, the bot will send this over to the manager to kick-off the approval flow.
 1. If at any point in the approval flow the manager or the manager's manager has a question about approving the bonus they can reach out to the manager and/or nominator for more context. If they have remaining questions related to the process and logistics (e.g., where is the bonus in the approval chain?), this [FAQ guide](/handbook/people-group/engineering/nominatorbot/#frequenty-asked-questions) could help clarify, alternatively they can reach out to [people connect](/handbook/people-group/people-connect/). For remaining questions regarding guidance on whether to approve a nomination, they can reach out to their aligned [People Business Partner](/handbook/people-group/#people-business-partner-alignment-to-division).
-1. If the manager or second level approver is on an extended leave and unable to respond to the nomination in a reasonable timeframe (more than 2 weeks), please email people-connect@gitlab.com with who the nomination is for, so it can be manually moved to the next level manager to be processed.
+1. If the manager or second level approver is on an extended leave and unable to respond to the nomination in a reasonable timeframe (more than 2 weeks), please create a case for the People Connect team in [HelpLab](https://helplab.gitlab.systems/esc?id=sc_cat_item&sys_id=ff7a26094784069067429ee0026d4337) with who the nomination is for, so it can be manually moved to the next level manager to be processed.
 1. Once everyone has approved the bot will report back to you with the good news. If it's rejected we ask the person who rejects, to reach out to you. That is not done by the bot.
 
 ##### Manager Process
@@ -115,6 +113,7 @@ If you received the same nomination twice (for the same person and the same reas
 1. The Nominator bot will send you a Slack DM asking to approve or reject the nomination.
 1. When you decide to approve, all you need to do is click the approve button. The bot will take care of the next steps (sending it to the second level manager and the People Connect team).
 1. When you decide to reject, click the reject button. The nomination will be updated as `rejected_by_manager`. The bot will ask you to reach out to the nominator as to make sure they understand why the nomination was not approved.
+1. If the next level approver is on an extended leave and unable to respond to the nomination in a reasonable timeframe (more than 2 weeks), please create a case for the People Connect team in [HelpLab](https://helplab.gitlab.systems/esc?id=sc_cat_item&sys_id=ff7a26094784069067429ee0026d4337) with who the nomination is for, so it can be manually moved to the next level manager to be processed.
 1. When everyone else has approved, the bot will reach out to you so you can share this with the team member, in the [#thanks](https://gitlab.slack.com/archives/C038E3Q6L) Slack channel, and make sure the team member's direct peers can easily see it:
      - For example, cross-post to the team member's group channel
      - For Support, add it to the [Support Week in Review](/handbook/support/#support-week-in-review) as a "Team Member Update" item
@@ -139,7 +138,7 @@ graph TD;
 
 1. Sometimes a [working group]({{< ref "structure#working-groups" >}}) strongly displays GitLab Values over a period, project or situation. For this case, use the  Working Group Bonus.
 1. As with individuals, we recognize those who make up that group through the `#thanks` channel and sometimes through a Working Group Bonus.
-1. [Anybody can recommend a Working Group Bonus through the managers of the individuals involved]({{< ref "incentives" >}}) for $100 per person at [the exchange rate](/handbook/total-rewards/compensation/#exchange-rates).
+1. Anybody can [recommend a Working Group Bonus](#process-for-recommending-working-group-bonus-in-workday) through the managers of the individuals involved for $100 per person at [the exchange rate](/handbook/total-rewards/compensation/#exchange-rates).
 
 ### Process for Recommending Working Group Bonus in Workday
 
@@ -163,7 +162,7 @@ graph TD;
 1. The next level Manager receives an alert from Workday and can approve or deny.
 1. Once approved by the next level manager, the request is sent to People Connect for review and final approval.
 1. Once fully approved, Payroll is notified of the bonus and can begin processing.
-1. After this, the manager is able to notify the team member of the bonus and will announce it on the GitLab Slack channel `[#thanks](https://gitlab.slack.com/archives/C038E3Q6L)`. The announcement should include the “who” and “why” of the bonus.
+1. After this, the manager is able to notify the team member of the bonus and will announce it on the GitLab Slack channel `[#thanks](https://gitlab.slack.com/archives/C038E3Q6L)`. The announcement should include the "who" and "why" of the bonus.
 
 ### Communicating Discretionary Bonuses
 
@@ -202,11 +201,11 @@ On a quarterly basis there's a review of the discretionary bonuses data. This in
 
 ## GitLab Awards Program
 
-Each fiscal year the GitLab Awards program recognizes team members who made great impact as a result of displaying our [Values]({{< ref "values#credit" >}}). The GitLab Awards Program consists of two different types of awards: The DZ Award and Values Awards.
+Each fiscal year the GitLab Awards program recognizes team members who made great impact as a result of displaying our [Values](/handbook/values/#credit). The GitLab Awards Program consists of two different types of awards: The DZ Award and Values Awards.
 
 ### The DZ Award
 
-In honor of our valued co-founder, [Dmitriy Zaporozhets “DZ”](https://levelup.gitlab.com/learn/video/dz-video), his contributions and him dedicating 10 years to GitLab, GitLab recognizes a team member each fiscal year who made a great impact solving a hard problem by using a [boring solution]({{< ref "values#boring-solutions" >}}).
+In honor of our valued co-founder, [Dmitriy Zaporozhets "DZ"](https://levelup.gitlab.com/learn/video/dz-video), his contributions and him dedicating 10 years to GitLab, GitLab recognizes a team member each fiscal year who made a great impact solving a hard problem by using a [boring solution](/handbook/values/#boring-solutions).
 
 The DZ award details:
 
@@ -215,7 +214,7 @@ The DZ award details:
 
 #### Criteria for The DZ Award
 
-Potential nominees should be any team members who solved a challenging problem by creating and implementing a [boring solution]({{< ref "values#boring-solutions" >}}) that resulted in a positive and profound impact.
+Potential nominees should be any team members who solved a challenging problem by creating and implementing a [boring solution](/handbook/values/#boring-solutions) that resulted in a positive and profound impact.
 
 **Criteria used to calibrate:**
 
@@ -232,7 +231,7 @@ Potential nominees should be any team members who solved a challenging problem b
 
 ### The Values Awards
 
-The Values Awards honor those who embody and employ the GitLab values which are fostering an environment where everyone can thrive. These awards specifically recognize team members who are inclusive with all team members in their diversity of thought and perspectives. Team members eligible for these awards demonstrate: no ego in the workplace, use a single source of truth, saying why not just what, and embracing uncomfortable ideas and conversations. The contributions or displays of the GitLab Value should be visible beyond the team member’s direct team, customers, users or investors.
+The Values Awards honor those who embody and employ the GitLab values which are fostering an environment where everyone can thrive. These awards specifically recognize team members who are inclusive with all team members in their diversity of thought and perspectives. Team members eligible for these awards demonstrate: no ego in the workplace, use a single source of truth, saying why not just what, and embracing uncomfortable ideas and conversations. The contributions or displays of the GitLab Value should be visible beyond the team member's direct team, customers, users or investors.
 
 The Values Awards details:
 
@@ -260,7 +259,7 @@ We aim to make a significant impact in our efforts to foster an environment wher
 
 ##### Iteration Award
 
-We do the smallest thing possible and get it out as quickly as possible. The value award for [Iteration](/handbook/values/#iteration) should be awarded to a team member that contributed or displayed iteration that led to faster results through for example: setting a due date, minimal viable change (MVC) or low level of shame.
+We do the smallest thing possible and get it out as quickly as possible. The value award for [Iteration](/handbook/values/#iteration) should be awarded to a team member that contributed or displayed iteration that led to faster results through for example: setting a due date, minimal valuable change (MVC) or low level of shame.
 
 ##### Transparency Award
 
@@ -297,7 +296,7 @@ Chances are that if you work at GitLab, you have great friends and peers who wou
 - In the past, we had a tiered system of referral bonuses, but we've simplified the structure to add a flat bonus amount.
 - [$1,500](/handbook/total-rewards/compensation/#exchange-rates) base referral bonus for a new hire.
 
-We encourage and support [diversity](/handbook/values/#diversity-inclusion) on our team and in our hiring practices and encourage team members to consider whether their are potential candidates in their networks who identify as members of underrepresented groups in tech.
+We encourage and support [diversity](/handbook/values/#diversity-inclusion) on our team and in our hiring practices and encourage team members to consider whether there are potential candidates in their networks who identify as members of underrepresented groups in tech.
 
 Please note if the team member has a hire date effective **before 2023-11-20**, then the [previous](/handbook/hiring/referral-operations/#adding-a-referral-to-workday-people-connect-team) mentioned referral bonus amounts apply.
 
@@ -330,7 +329,7 @@ For information regarding the program details and team member eligibility and un
 
 1. Talent Acquisition Manager will track all referrals set to hired in the time period of Add-on campaign.
 1. Talent Acquisition Manager will notify People Connect by Slack or email, the first of the month that aligns with the referred new hire's 3 month employment at GitLab.
-1. People Connect will follow [steps outlined above]({{< ref "incentives" >}})
+1. People Connect will follow the [steps outlined above](#referral-bonus-processing)
 
 ### GitLab Anniversaries
 
@@ -355,7 +354,7 @@ Start your quarter off by getting to know someone new at GitLab, or meeting some
 
 ### Group Get Togethers
 
-Please review the latest [Covid-19 guidance for in-person GitLab events that include more than 5 attendees](/handbook/travel/#travel-safety--covid-19) before planning a Group Get Together.
+Please review the latest [Covid-19 guidance for in-person GitLab events that include more than 5 attendees](/handbook/finance/travel/#travel-safety--covid-19) before planning a Group Get Together.
 
 In areas where many GitLab team members live, stay tuned in Slack and on this page for planned events where we'll invite all GitLab team members in that area to join together in person. For team members who participate in Group Get Togethers, individual Get Togethers in person or remote will not be available in the month the Group Get Together takes place.
 
@@ -379,7 +378,7 @@ Note that meals and local travel while visiting are not typically covered for an
 
 There are many regular meet-ups of GitLab team-members in many cities. We have a [shared calendar](https://calendar.google.com/calendar?cid=Z2l0bGFiLmNvbV85cWZnajRuMm9nZHMydmlhMDFrb3ZoaGpub0Bncm91cC5jYWxlbmRhci5nb29nbGUuY29t) to view the schedule. Subscribe to it, make use of the visiting grant, and join meet-ups near you (or far away!).
 
-To claim the grant, include a line item on your expense report or invoice along with the receipt of your flights, trains, and/or transportation to and from the airport with a list of the team members you visited. The expense report may be submitted during the first month of travel or up to 3 months after your trip has concluded. That said, if it's more [frugal]({{< ref "values#frugality" >}}) to book and expense your travel further in advance, please do so.
+To claim the grant, include a line item on your expense report or invoice along with the receipt of your flights, trains, and/or transportation to and from the airport with a list of the team members you visited. The expense report may be submitted during the first month of travel or up to 3 months after your trip has concluded. That said, if it's more [frugal](/handbook/values/#frugality) to book and expense your travel further in advance, please do so.
 
 ### Significant Life Event Grants (suspended)
 

@@ -1,14 +1,7 @@
 ---
-aliases: /handbook/sales/training/SKO/SKO-planning
 title: "Sales Kickoff Planning"
 description: "This page outlines the GitLab Sales Kickoff core team structure and planning process"
 ---
-
-
-
-
-
-
 
 ## Sales Kickoff Core Team
 
@@ -51,7 +44,7 @@ The SKO core team also includes an executive sponsor (VP, Field Ops) with respon
 | Mainstage | - Keynote content<br>- Customer and/or partner speaker sessions<br>- Motivational speaker | - Events<br>- Corp Comms<br>- Execs|
 | Non-mainstage | - Role-based breakouts<br>- Birds of a Feather sessions | - Events<br>- Portfolio Marketing<br>- Field org |
 | Partner Summit | - Partner Summit sessions<br>- Partner sponsorships | - Events<br>- Portfolio Marketing<br>- Field Enablement |
-| Awards & Compensation | - Tracking final results<br>- Awards<br>- President’s Club winners<br>- Comp Overview | - Events<br>- CRO leaders |
+| Awards & Compensation | - Tracking final results<br>- Awards<br>- President's Club winners<br>- Comp Overview | - Events<br>- CRO leaders |
 | Production Video | - Video for mainstage sessions <br>- Video content production for SKO and Partner Summit, Event recording, and Other | - Events<br>- Digital Production<br>- Field Enablement<br>- Channel |
 
 ## Managing SKO Work

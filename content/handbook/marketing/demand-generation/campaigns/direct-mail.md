@@ -1,5 +1,4 @@
 ---
-
 title: "Direct Mail"
 description: "Overview of direct mail programs as a tactic used within marketing campaigns, including account centric campaigns."
 twitter_image: '/images/tweets/handbook-marketing.png'
@@ -32,7 +31,7 @@ The project owner is responsible for following the steps below to create the epi
 
 ## [Main Issue >>]()
 
-## [Copy for landing page and emails >>]() - [template](https://docs.google.com/document/d/1j43mf7Lsq2AXoNwiygGAr_laiFzmokNCfMHi7KNLjuA/edit)
+## [Copy for landing page and emails >>]() - template: https://docs.google.com/document/d/1j43mf7Lsq2AXoNwiygGAr_laiFzmokNCfMHi7KNLjuA/edit
 
 ## :notepad_spiral: Key Details
 * **Project Owner:**

@@ -1,5 +1,4 @@
 ---
-
 title: "Francis Potter - Senior Pro Services Engineer"
 description: Helping teams adopt transformational practices and technology for over 20 years
 job: "Professional Services"

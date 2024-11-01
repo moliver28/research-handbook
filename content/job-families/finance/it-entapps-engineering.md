@@ -24,7 +24,7 @@ Associate IT Enterprise Applications Administrator is a [grade 5](/handbook/tota
 
 ### Associate IT Enterprise Applications Engineer Requirements
 
-- Bachelor’s degree, preferably in Computer Science, Information Technology, Computer Engineering, or related IT discipline; or equivalent experience.
+- Bachelor's degree, preferably in Computer Science, Information Technology, Computer Engineering, or related IT discipline; or equivalent experience.
 - 0-2 years of experience in a system administration role ideally with enterprise SaaS software model.
 Hands-on entry-level administrator experience across a single platform: SalesForce, DocuSign CLM, Netsuite, Zuora Billing, Zuora Revenue, Coupa, Zip, Navan, Workday, ADP, eTrade etc.
 
@@ -45,8 +45,8 @@ Intermediate IT Enterprise Applications Engineer is a [grade 6](/handbook/total-
 
 ### Intermediate IT Enterprise Applications Engineer Requirements
 
-- 2-3 years of experience in a system administration role ideally with enterprise SaaS software model.
-- Hands-on entry-level administrator experience across multiple platforms: SalesForce, DocuSign CLM, Netsuite, Zuora Billing, Zuora Revenue, Coupa, Zip, Navan, Workday, ADP, eTrade etc.
+- 2-3 years of experience in a system development role ideally with enterprise SaaS software model.
+- Hands-on developer experience across multiple platforms: SalesForce, DocuSign CLM, Netsuite, Zuora Billing, Zuora Revenue, Coupa, Zip, Navan, Workday, ADP, eTrade etc.
 
 ## Senior IT Enterprise Applications Engineer
 
@@ -71,7 +71,7 @@ Extends the Intermediate IT Enterprise Applications Administrator responsibiliti
     - Develop with NetSuite SuiteCloud development tools such as SuiteBuilder, SuiteFlow, SuiteAnalytics, and SuiteScript to develop new and maintain existing business workflows.
     - Build system integrations tools such as SuiteTalk, RESTlets and Netsuite SOAP APIs.
   - Workday:
-    - Assist with the implementations, and post-production support, of Workday’s HCM Suite of modules.
+    - Assist with the implementations, and post-production support, of Workday's HCM Suite of modules.
     - Develop technical integrations using Workday Studio, Workday RaaS Integrations, Enterprise Interface Builder (EIB), Calculated Fields, Web Services, Workday Custom Reports, Web Services, XSLT, and xPath.
     - Contribute to Workday R1/R2 release reviews and testing by identifying impact associated with new release features.
   - Zuora Billing & Revenue:
@@ -79,7 +79,7 @@ Extends the Intermediate IT Enterprise Applications Administrator responsibiliti
 
 ### Senior IT Enterprise Applications Engineer Requirements
 
-- Bachelor’s degree, preferably in Computer Science, Information Technology, Computer Engineering, or related IT discipline; or equivalent experience.
+- Bachelor's degree, preferably in Computer Science, Information Technology, Computer Engineering, or related IT discipline; or equivalent experience.
 - 3-5 years of experience implementing, configuring, customizing and integrating SaaS software Eg: SalesForce, DocuSign CLM, Netsuite, Zuora Billing, Zuora Revenue, Coupa, Zip, Navan, Workday, ADP, eTrade etc.
 - Be a self-starter, and thrive in a fast paced environment, customer centric and have the interpersonal skills necessary to manage business and technology relationships.
 - Exceptional time management and prioritization skills, resilient under pressure, able to meet deadlines and able to work in a constantly changing environment.
@@ -132,7 +132,7 @@ Extends the Senior IT Enterprise Applications Engineer responsibilities plus:
 
 ### Manager, IT Enterprise Applications Engineering Requirements
 
-- Bachelor’s degree, preferably in Computer Science, Information Technology, Computer Engineering, or related IT discipline; or equivalent experience.
+- Bachelor's degree, preferably in Computer Science, Information Technology, Computer Engineering, or related IT discipline; or equivalent experience.
 5-7 years of experience implementing, configuring, customizing and integrating SaaS software Eg: SalesForce, DocuSign CLM, Netsuite, Zuora Billing, Zuora Revenue, Coupa, Zip, Navan, Workday, ADP, eTrade etc.
 - Be a self-starter, and thrive in a fast paced environment, customer centric and have the interpersonal skills necessary to manage business and technology relationships.
 - Exceptional time management and prioritization skills, resilient under pressure, able to meet deadlines and able to work in a constantly changing environment.

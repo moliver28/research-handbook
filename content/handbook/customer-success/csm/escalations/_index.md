@@ -39,7 +39,7 @@ This process addresses critical and high escalations for CSM-assigned customers.
 
 Based on the level of the escalation, the DRI for the escalation will be:
 
-1. Support for low or medium-level escalations
+1. Support for low or medium-level escalations that come through support, otherwise the CSM will be the DRI for account escalations
 2. The CSM for high and critical escalations that are **outside of a professional services project**,
 3. The Professional Services Project Manager for any escalation during/as a part of a professional services project.
 
@@ -75,7 +75,7 @@ If an escalation is opened as high or critical, and the escalation is product re
 
 - Support Engineering is responsible for managing Low and Medium level escalations, leveraging other teams (e.g., Customer Success Managers (CSMs), Engineering) as needed.
 - Support Engineering should inform the CSM of the escalation if a CSM is assigned.
-- The CSM is responsible for managing any account-related issues (e.g., delayed response, open actions, non-compliance installation or product use, etc.) and coordinating with any GitLab executives (e.g., egroup) or senior leadership to address account concerns.
+- The CSM is responsible for managing any account-related issues (e.g., delayed response, open actions, non-compliance installation or product use, etc.) and coordinating with any GitLab executives (e.g., e-group) or senior leadership to address account concerns.
 
 ### What's the difference between an account escalation or an incident escalation?
 
@@ -169,7 +169,7 @@ Example message for the event when the escalation is identified and created and 
 - **Severity**: High
 - **Status**: Opened
 - **Product DRI**: "[Assigned Product DRI](https://docs.google.com/spreadsheets/d/1x44kzJE4_Ixj20utn4g5Mggn1Jc3kKMWaY16F2WmLWg/edit#gid=242012002)"
-- **Description**: "<Example <Customer> platform is impacted by performance problems since several weeks and users are affected on a daily base which is driving the customer into a critical state. The performance problems are also risking their our license expansion.>”
+- **Description**: "<Example <Customer> platform is impacted by performance problems since several weeks and users are affected on a daily base which is driving the customer into a critical state. The performance problems are also risking their our license expansion.>"
 - **FYI**: "<TAG_YOUR_MANAGER_HERE>"
 
 For high or critical escalations, and if the escalation is product related, a Product DRI is required. Please assign the applicable Product DRI from this [list](https://docs.google.com/spreadsheets/d/1x44kzJE4_Ixj20utn4g5Mggn1Jc3kKMWaY16F2WmLWg/edit#gid=242012002). The Product DRI should be added to the #esc_customername channel and will drive any product related items throughout the escalation.
@@ -217,10 +217,6 @@ The CSM Manager's responsibility is to ensure that the CSM is familiar with the 
 
 When a customer is in an escalated state, the path to resolution must continue to move forward, with both the internal stakeholders and the customer clear on current actions and next steps. The CSM manager is responsible for ensuring that this forward-motion and clear alignment is present and for stepping in and driving action or alignment where necessary.
 
-## Support Engineering's role in Escalations
-
-See the [Support Engineering Guide to Escalations](/handbook/support/internal-support/support-ticket-attention-requests.html) for more specific information on how support manages customers in an escalated state.
-
 ## Engineering's role in Escalations
 
 Engineering support will usually come via Support Engineering, however it's worth noting that under some conditions [Engineering / Product may prioritize bug fixes and feature requests](/handbook/engineering/#critical-customer-escalations) related to an escalation.
@@ -238,6 +234,6 @@ Occasionally, customers will require a product leader to act as a stable counter
 
 ## Related Links
 
-- [Support Engineering Page](/handbook/support/) and [Support Engineering Escalation Procedures](/handbook/support/workflows/working-with-issues.html)
+- [Support Engineering Page](/handbook/support/) and [Support Engineering Escalation Procedures](/handbook/support/workflows/working-with-issues/)
 - [Product Escalation Issue Template](https://gitlab.com/gitlab-com/Product/issues/new?issuable_template=Product-Support-Request) to request Product Team support for roadmap / future needs, prioritization of enhancements and/or issues and troubleshooting of customer issues.
 - [Customer Health Assessment and Account Triaging](/handbook/customer-success/csm/health-score-triage/)

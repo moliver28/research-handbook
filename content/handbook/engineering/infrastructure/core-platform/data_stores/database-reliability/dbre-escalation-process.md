@@ -1,5 +1,4 @@
 ---
-aliases: /handbook/engineering/infrastructure/core-platform/data_stores/database-reliability/dbre-escalation/process.html
 title: DBRE Escalation Process
 summary: This page outlines the DBRE team escalation process and guidelines for developing the rotation schedule for handling infrastructure incident escalations.
 ---
@@ -23,7 +22,7 @@ The expectation for the DBRE engineers is to be a database consultant and collab
 1. This process is designed for the following issues:
    1. **GitLab.com** S1 and S2 production incidents raised by the **Engineer On Call** , **Development**, and **Security** teams.
 1. This process is **NOT** a path to reach the DBRE team for non-urgent issues that the Development, Security, and Support teams run into. Such issues can be moved forward by:
-   1. Labelling with `team::Database Reliability` and following the [Reliability General Workflow](/handbook/engineering/infrastructure/team/reliability/#how-we-work--general-workflow)
+   1. Labelling with `team::Database Reliability` and following the [Reliability General Workflow](/handbook/engineering/infrastructure/team/)
    1. Raising to the `#g_infra_database_reliability` Slack channel, or
    1. Asking the infrastructure-lounge Slack channel assigning the `@dbre` user group
 1. This process provides for Weekdays coverage only.

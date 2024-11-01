@@ -4,6 +4,7 @@ title: "zapier"
 
 ## What is Zapier?
 
+**Most of Marketing Operation's Zaps are being migrated to Workato, please follow along [epic](https://gitlab.com/groups/gitlab-com/business-technology/enterprise-apps/-/epics/532) for more information** 
 Zapier is an automation tool that allows us to move data from one application to another, that otherwise would not have had an integration. Zapier helps us be more efficient and allow for real-time passage of data between two disperate systems.
 
 **Common Zaps**:

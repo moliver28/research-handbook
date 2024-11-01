@@ -1,13 +1,6 @@
 ---
-
 title: "Developer Relations Program Management"
 ---
-
-
-
-
-
-
 
 The Developer Relations team works from issues and [issue boards](#developer-relations-issue-boards). If you need our assistance with any project, please open an issue and use one of the [_main program labels_](#developer-relations-labels) anywhere within the GitLab repo.
 
@@ -30,7 +23,7 @@ Please use this template when creating Epics for activities that should appear i
 ```markdown
 <!--  Epic Title Formatting Guide:
 
-Dates should be using ISO dates, see https://about.gitlab.com/handbook/communication/#writing-style-guidelines
+Dates should be using ISO dates, see https://handbook.gitlab.com/handbook/communication/#writing-style-guidelines
 
 Event: Event Name, Location, Date
 Content: Title, Date
@@ -112,10 +105,10 @@ Note: These are samples for guidance, please add relevant labels for activity re
 | `heroes-talk` | Evangelists |  For issues related to a CFP submission or tech talk given by a GitLab Hero  | Project label |
 | `request-for-heroes` | Evangelists | Share speaking, blogging, and other contribution opportunities with GitLab Heroes  | Project label |
 | `Code contributor program` | Code contributors |  **Main program label**: for general issues related to the program  |  |
-| `1st contribution` | Code contributors | [Automatic contribution label](/handbook/marketing/developer-relations/contributor-success/community-contributors-workflows.html#labels) | `gitlab-com` group label |
-| `1st contribution` | Code contributors | [Automatic contribution label](/handbook/marketing/developer-relations/contributor-success/community-contributors-workflows.html#labels) | `gitlab-org` group label |
-| `Community contribution` | Code contributors | [Automatic contribution label](/handbook/marketing/developer-relations/contributor-success/community-contributors-workflows.html#labels) | `gitlab-com` group label |
-| `Community contribution` | Code contributors | [Automatic contribution label](/handbook/marketing/developer-relations/contributor-success/community-contributors-workflows.html#labels) | `gitlab-org` group label |
+| `1st contribution` | Code contributors | [Automatic contribution label](/handbook/marketing/developer-relations/contributor-success/community-contributors-workflows/#labels) | `gitlab-com` group label |
+| `1st contribution` | Code contributors | [Automatic contribution label](/handbook/marketing/developer-relations/contributor-success/community-contributors-workflows/#labels) | `gitlab-org` group label |
+| `Community contribution` | Code contributors | [Automatic contribution label](/handbook/marketing/developer-relations/contributor-success/community-contributors-workflows/#labels) | `gitlab-com` group label |
+| `Community contribution` | Code contributors | [Automatic contribution label](/handbook/marketing/developer-relations/contributor-success/community-contributors-workflows/#labels) | `gitlab-org` group label |
 | `Hackathon` | Code contributors | Community contribution during GitLab Hackathon events | `gitlab-org` group label |
 | `GitLab Hackathon` | Code contributors | Community contribution during GitLab Hackathon events | `gitlab-com` group label |
 | `OKRs` | _Team_ | Quarterly team OKRs |  |

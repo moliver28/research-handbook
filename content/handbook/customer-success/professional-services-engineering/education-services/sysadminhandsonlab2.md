@@ -85,6 +85,8 @@ The objective of this lab is to show various gitlab-ctl commands you can use to 
 
 1. Change the `Default group visibility` to **Internal** by clicking on the associated radio button.
 
+1. Select **Save changes** at the bottom of the **Visibility and access controls** section to apply these changes.
+
 ### Task C. Locate sign-in settings
 
 1. The second setting we will update are Sign-In restrictions. Still under **Settings** > **General**, click **Collapse** next to **Visibility and access controls**.
@@ -93,7 +95,25 @@ The objective of this lab is to show various gitlab-ctl commands you can use to 
 
 1. Under **Two-factor authentication**, click the checkbox next to **Enforce two-factor authentication**.
 
+1. Select **Save changes** at the end of the **Sign-in restrictions** section to apply this change.
+
 1. Click **Collapse** next to **Sign-in restrictions** to close the menu.
+
+1. After applying this change, you will be redirected to a page to setup 2FA on your administrator account. You can either enabled 2FA on your account, or disable the 2FA setting to avoid this notification.
+
+To disable the 2FA setting:
+
+1. Select **Configure it later** on the 2FA page.
+
+1. Select **Admin Area** in the left sidebar.
+
+1. Select **Settings** > **General**.
+
+1. Select **Expand** next to **Sign-in restrictions**.
+
+1. Uncheck **Enforce two-factor authentication**.
+
+1. Select **Save Changes** at the end of the **Sign-in restrictions** section
 
 ### Task D. Update the header logo
 
@@ -113,4 +133,4 @@ You have completed this lab exercise. You can view the other [lab guides for thi
 
 ### Suggestions?
 
-If you’d like to suggest changes to the GitLab System Admin Hands-on Guide, please submit them via merge request.
+If you'd like to suggest changes to the GitLab System Admin Hands-on Guide, please submit them via merge request.

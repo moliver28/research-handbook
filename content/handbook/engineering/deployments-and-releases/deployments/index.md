@@ -23,7 +23,7 @@ Once a new branch is created, only commits that pass the CI tests are eligible f
 
 Automated tasks in the [release-tools](https://gitlab.com/gitlab-org/release-tools) project are setup to drive the next steps:
 
-- Twice every hour, a task runs to cherry-pick merge requests labeled with `~"Pick into auto-deploy"` (See [Labels of importance]).
+- Twice every hour, a task runs to cherry-pick merge requests labeled with `~"Pick into auto-deploy"` (See [Labels of importance](#labels-of-importance)).
 - Twice every hour, a task searches for the latest "green build" in the auto-deploy branch.
   - If it finds a commit that has not been previously deployed, it will start the process of creating a new package.
   - If the commit has already been deployed, the task will not take any actions.
@@ -34,7 +34,7 @@ A package is deployed to GitLab.com in the following steps:
 1. 2a. From the tag the Omnibus package is built. 2b. In parallel a Cloud Native GitLab package is built
 1. 3a. When a new package is built, it is automatically deployed to gstg-cny, [the canary stage of staging.gitlab.com](/handbook/engineering/infrastructure/environments/#staging-canary). 3b. In parallel, the same package is deployed to the [Staging-ref environment, gstg-ref](/handbook/engineering/infrastructure/environments/#staging-ref)
 1. A set of automated QA end-to-end/integration tests are run. Note that two sets of blocking QA tests are executed, one targeting gstg-cny and the other targeting staging (gstg). This is designed to assist with exposing issues arising in mixed deployment environments, where multiple versions of GitLab components are deployed that share services such as the database
-1. After passing, the package is automatically deployed to gprd-cny, [the canary stage of gitlab.com](/handbook/engineering/infrastructure/environments/#production-canary), where [canary testing](/handbook/engineering/#canary-testing) can take place. This means that specific projects (like `gitlab-org/gitlab`) as well as a small amount of end user traffic will be using the new package.
+1. After passing, the package is automatically deployed to gprd-cny, [the canary stage of gitlab.com](/handbook/engineering/infrastructure/environments/#production-canary), where [covering the canary stage and how to use it](/handbook/engineering/infrastructure/environments/canary-stage) can take place. This means that specific projects (like `gitlab-org/gitlab`) as well as a small amount of end user traffic will be using the new package.
 1. Like with deployment to staging-canary above, two sets of automated QA end-to-end/integration tests are run. One targets the canary stage of production, the other targets the main stage (to ensure the new and old code are still functional). Note that the `smoke` and `reliable` tests targeting production canary (gprd-cny) are blocking.
 1. After 30 minutes in the [canary stage of gitlab.com](/handbook/engineering/infrastructure/environments/#production-canary), and provided no new exceptions or alerts are reported, the package is considered to be ready for deployment to [gitlab.com](/handbook/engineering/infrastructure/environments/#production) and [staging.gitlab.com](/handbook/engineering/infrastructure/environments/#staging)
 1. The promotion to [gitlab.com](/handbook/engineering/infrastructure/environments/#production) and [staging.gitlab.com](/handbook/engineering/infrastructure/environments/#staging) is triggered manually by the release

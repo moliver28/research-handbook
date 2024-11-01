@@ -1,5 +1,4 @@
 ---
-aliases: /handbook/engineering/infrastructure/team/delivery/metrics.html
 title: "Delivery Team Metrics"
 description: "The Delivery Team enables GitLab Engineering to deliver features in a safe, scalable and efficient fashion to both GitLab.com and self-managed customers."
 ---

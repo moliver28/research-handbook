@@ -1,5 +1,4 @@
 ---
-aliases: /handbook/engineering/infrastructure/core-platform/systems/distribution/maintenance/arm.html
 title: "Distribution Team Infrastructure: ARM"
 description: "Describes the hardware and use of infrastructure for building ARM packages."
 ---

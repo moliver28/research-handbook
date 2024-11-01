@@ -1,6 +1,6 @@
 ---
 title: "Delivery Group"
-description: "The Delivery Group enables GitLab Engineering to deliver features in a safe, scalable and efficient fashion to both GitLab.com and self-managed customers."
+description: "The Delivery Group enables GitLab Engineering to deliver features in a safe, scalable and efficient fashion to both GitLab.com, GitLab Dedicated and self-managed customers."
 ---
 
 ## Common Links
@@ -12,7 +12,7 @@ description: "The Delivery Group enables GitLab Engineering to deliver features 
 | **Issue Tracker** | [**Delivery**](https://gitlab.com/gitlab-com/gl-infra/delivery) |
 | **Slack Channels** | [#g_delivery](https://gitlab.slack.com/archives/g_delivery) / `@delivery-team` |
 | **Delivery Handbook** | [Team training](/handbook/engineering/infrastructure/team/delivery/training/) |
-| **Delivery Metrics** | [Metrics](/handbook/engineering/infrastructure/team/delivery/metrics.html) |
+| **Delivery Metrics** | [Metrics](/handbook/engineering/infrastructure/team/delivery/metrics/) |
 | Deployment and Release process | [Deployments and Releases](/handbook/engineering/deployments-and-releases/) |
 | Release Tools Project | [Release tools](/handbook/engineering/infrastructure/release-tools) |
 | Release Manager Runbooks | [release/docs/runbooks](https://gitlab.com/gitlab-org/release/docs/-/blob/master/runbooks/README.md) |
@@ -20,8 +20,8 @@ description: "The Delivery Group enables GitLab Engineering to deliver features 
 ## Mission
 
 The Delivery Group enables GitLab Engineering to deliver features in a
-**safe**, **scalable** and **efficient** fashion to both GitLab.com and self-managed customers.
-The group ensures that GitLab's monthly, security, and patch releases are deployed to GitLab.com and
+**safe**, **scalable** and **efficient** fashion to GitLab.com, GitLab Dedicated and self-managed customers.
+The group ensures that GitLab's monthly, and patch releases are deployed to GitLab.com, GitLab Dedicated and
 publicly released in a timely fashion.
 
 ## Vision
@@ -73,7 +73,7 @@ These principles are intended to help everyone work independently in a way that 
 ### When designing a solution
 
 1. Simplify Release Management. We always want to be reducing work for release managers either by removing tasks or by improving automation. Be very cautious about introducing new tasks without removing something else
-1. Don’t add functionality to Deployer. We aim to deprecate Deployer as part of our work to migrate away from VMs
+1. Don't add functionality to Deployer. We aim to deprecate Deployer as part of our work to migrate away from VMs
 1. Always consider metrics. If we don't have the metrics to track the value, we should look to add them
 1. UX consistency. Strive for consistency across tool interactions and naming
 1. Low-context designs. Design tools as if non-delivery team members need to use them. Keep things simple and let the tools do the hard work
@@ -110,7 +110,7 @@ The primary goal of the Releases team is to provide everything to do with creati
 
 ### Delivery:Deployments
 
-The primary goal of the Deployments team is to provide everything to do with rolling out changes to active platforms managed by GitLab, including but not limited to continuous deployment to GitLab.com (deployment safety), changing gitlab.com architecture to support continuous deployment (eliminate staging 🤞 ) and thinking about how to optimise the rollout experience (zero downtime work).
+The primary goal of the Deployments team is to provide everything to do with rolling out changes to active platforms managed by GitLab, including but not limited to continuous deployment to GitLab.com (deployment safety), changing gitlab.com architecture to support continuous deployment (eliminate staging 🤞 ) and optimizing the zero downtime rollout experience of GitLab Dedicated.
 
 ### Team Members
 

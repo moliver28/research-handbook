@@ -3,7 +3,7 @@ title: "Legal Operations"
 description: "Information and processes related to Legal Operations"
 ---
 
-The Legal Operations Team is responsible for supporting Legal Team processes with a focus on defining and driving initiatives that improve the team’s efficiency and effectiveness.
+The Legal Operations Team is responsible for supporting Legal Team processes with a focus on defining and driving initiatives that improve the team's efficiency and effectiveness.
 
 Check out the [Legal Operations Portfolio](https://gitlab.com/groups/gitlab-com/-/epics/1641) to learn more about our active projects.
 
@@ -13,7 +13,7 @@ The Legal Operations Team manages the [Legal Tech Stack](https://docs.google.com
 
 ## Procurement
 
-For information on GitLab’s Procurement Team, policies, and processes, visit the [GitLab Procurement Team handbook](/handbook/finance/procurement/).
+For information on GitLab's Procurement Team, policies, and processes, visit the [GitLab Procurement Team handbook](/handbook/finance/procurement/).
 
 Use the [Procurement Guide: Collaborating with GitLab Legal](/handbook/legal/procurement-guide-collaborating-with-gitlab-legal/) to learn about how Legal assists and interacts with the procurement of products and services.
 
@@ -51,7 +51,7 @@ This process is designed to enable LACA team members to submit requests related 
 
 #### Types of Expenditures
 
-- Growth & Development: Team members can review the [Growth & Development Program](/handbook/total-rewards/benefits/general-and-entity-benefits/growth-and-development/#growth-and-development-fund-eligibility) and  various options available to GitLab team members._Note: The program would not cover costs associated with travel & expenses, which would be allocated to the LACA budget._
+- Growth & Development: Team members can review the [Growth & Development Program](/handbook/people-group/learning-and-development/growth-and-development/#growth-and-development-fund-eligibility) and  various options available to GitLab team members._Note: The program would not cover costs associated with travel & expenses, which would be allocated to the LACA budget._
 - Event / Conferences: Team members may wish to attend applicable events / conferences where they can learn more about a specific subject. Team members must complete the LACA Expenditure Request Issue Template and supply the necessary information.
 - Tools / Software: For requests related to new tools / software, a LACA Expenditure Request Issue Template is required.
 

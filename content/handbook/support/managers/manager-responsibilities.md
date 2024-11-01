@@ -1,11 +1,8 @@
 ---
-
 title: Support Engineering Manager Responsibilities
 description: "Support Engineering Manager Responsibilities"
 category: Support Management
 ---
-
-
 
 ## Introduction
 
@@ -19,7 +16,7 @@ Leadership at GitLab is a unique opportunity to embody and model the GitLab Valu
 | Responsibilities | GitLab Values |
 | ---------------- | ------------- |
 | Consistently ensure high Customer Support Satisfaction | Results, Efficiency, Iteration, Transparency |
-| Support and nurture team members in Customer Support and SGG (Support Global Groups) | Collaboration, Diversity Inclusion Belonging |
+| Support and nurture team members in Customer Support | Collaboration, Diversity Inclusion Belonging |
 
 Our [Hazards and Challenges page](/handbook/support/managers/hazards-and-challenges) describes some known issues and how we handle them.
 
@@ -32,7 +29,7 @@ Our primary responsibility in the Support Leadership team is to ensure high qual
 | Help support engineers to resolve tickets accurately and efficiently | Understand GitLab [Support Service Levels](https://about.gitlab.com/support/#gitlab-support-service-levels) and [KPIs](/handbook/support/#how-we-measure-our-performance) |
 |  | Know how we use Zendesk, [Slack](#working-in-slack), and GitLab for ticket management |
 |  | Serve as [Support Manager On-Call](/handbook/support/on-call/) for Customer Emergencies and Escalations |
-|  | Serve as [SSAT Reviewing Manager](/handbook/support/workflows/how-to-respond-to-feedback) for handling Customer Feedback |
+|  | Monitor and [respond to feedback](/handbook/support/workflows/how-to-respond-to-feedback) your Support Engineers receive |
 |  | Know how to use Zendesk Explore to monitor KPIs |
 |  | Work with GitLab Sales, Pricing, Product, and other teams when company initiatives change Support requirements |
 | Help Support Engineers to manage tickets, manage customer expectations, and communicate well | Coach SEs on communication techniques |
@@ -43,11 +40,11 @@ Our primary responsibility in the Support Leadership team is to ensure high qual
 | Stay up-to-date on GitLab Product, Strategy, Pricing, etc. | Contribute to and read the [Support Week in Review](/handbook/support/#support-week-in-review) document every week |
 |  | Participate (at the Section level or cross-functional level) in [Support Stable Counterparts](/handbook/support/#support-stable-counterparts) or [Cross-functional non-product counterparts](/handbook/support/#cross-functional-non-product-counterparts) |
 
-## Support and nurture team members in Customer Support and SGG (Support Global Groups)
+## Support and nurture team members in Customer Support
 
 We are equally responsible to ensure our team members are supported in their GitLab journey, and are able to bring their best selves to work every day.
 
-| Team Member and SGG Responsibility | Sub-responsibility |
+| Team Member Responsibility | Sub-responsibility |
 | -------------------------- | ------------------ |
 | Support and nurture team members | Foster cross-regional connections among Support Engineers and Support Managers |
 |  | Create an inclusive environment and foster DIB values within the team |
@@ -71,15 +68,10 @@ We are equally responsible to ensure our team members are supported in their Git
 |  | Grade assessments for SE and Manager candidates in Greenhouse |
 |  | Work with your regional Recruiter to source potential candidates |
 |  | Train Support Engineers via the [Interview Training module](https://gitlab.com/gitlab-com/support/support-training/-/issues/new?issue%5Bassignee_id%5D=&issue%5Bmilestone_id%5D=#) to prepare them for grading technical assessments and performing technical interviews |
-| Foster sense of community within and between SGG groups | Coach and encourage team members to resolve group challenges (ie self-organize) |
-|  | Engage in team building activities across all global groups |
-|  | Interact with groups to amplify group successes and understand group challenges |
-|  | Encourage and support cross-group collaboration |
-| Serve as a point of escalation to team members | Act as a guide to help progress stagnant SGG initiatives |
-|  | Seek to understand (and be prepared to assist with) the overall health of each group (group wellbeing, collaboration efforts, blockers, capacity issues) |
-|  | Help adjust or redistribute team member priorities based on SGG or individual capacity |
-|  | Communicate clear SGG and/or individual expectations and seek to remove ambiguities |
-|  | Help develop global strategies with team members across SGG groups where it makes sense |
+| Foster sense of community within and between regions | Coach and encourage team members to resolve challenges|
+|  | Engage in team building activities |
+|  | Interact with team members to amplify successes and understand regional and global challenges |
+|  | Encourage and support cross-region collaboration |
 
 ### Working in Slack
 

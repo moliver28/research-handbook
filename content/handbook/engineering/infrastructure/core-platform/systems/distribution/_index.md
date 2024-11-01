@@ -89,7 +89,7 @@ Distribution ensures the experience of installing and maintaining GitLab is easy
 
 ### Distribution:Build Charter
 
-Build team focus is ensuring GitLab components are tested, current, license compliant, and available for our users’ platforms and architectures. This group manages the build pipelines, researches support for new services, platforms, and architectures, as well as maintains existing ones. We strive to respond efficiently to build failures, security results, and dependency changes in order to ensure a safe reliable product for our users.
+Build team focus is ensuring GitLab components are tested, current, license compliant, and available for our users' platforms and architectures. This group manages the build pipelines, researches support for new services, platforms, and architectures, as well as maintains existing ones. We strive to respond efficiently to build failures, security results, and dependency changes in order to ensure a safe reliable product for our users.
 
 ### Distribution:Deploy Charter
 
@@ -107,7 +107,7 @@ Deploy team focus is configuration, deployment, and operation of GitLab as a who
 
 The following people are members of the Distribution:Build Team:
 
-{{< team-by-manager-slug manager="sissiyao" team="Build" >}}
+{{< team-by-manager-slug manager="plu8" team="Build" >}}
 
 ### Distribution Deploy Team
 
@@ -245,7 +245,7 @@ In Distribution we strive for the following in our public projects:
 1. Uphold our [Community Code of Conduct](https://about.gitlab.com/community/contribute/code-of-conduct/).
 1. Enable [GitLab's mission that everyone can contribute.](/handbook/company/mission/#mission).
 1. Show our work in [public](#public-by-default).
-1. [Recognize and thank](/handbook/marketing/developer-relations/contributor-success/community-contributors-workflows.html#recognition-for-contributors) contributors for their work.
+1. [Recognize and thank](/handbook/marketing/developer-relations/contributor-success/community-contributors-workflows/#recognition-for-contributors) contributors for their work.
 1. Respect contributors donated time by providing [a timely review turnaround time](/handbook/engineering/workflow/code-review/#review-turnaround-time).
 
 ### Working with Open Source communities
@@ -271,7 +271,7 @@ All work carried out by the Distribution team is public. Some exceptions apply:
 - Work has legal implications - Unless legal details can be omitted from the work.
 
 Some of the team work is carried out on our development server at `dev.gitlab.org`.
-[Infrastructure overview document](https://docs.gitlab.com/omnibus/release/README.html#infrastructure) lists the reasons.
+[Infrastructure overview document](https://docs.gitlab.com/omnibus/release/#infrastructure) lists the reasons.
 
 Unless your work is related to the security, all other work is carried out in projects on `GitLab.com`.
 If you need to submit a sensitive issue, please use confidential issues.
@@ -302,7 +302,7 @@ using the appropriate issue template in the same issue tracker.
 ## Work Resources
 
 General resources available to developers are listed in the
-[Sandbox cloud page](/handbook/infrastructure-standards/realms/sandbox/).
+[Sandbox cloud page](/handbook/company/infrastructure-standards/realms/sandbox/).
 
 In the Distribution team specifically, everyone should have access to the
 following resources:
@@ -345,7 +345,7 @@ The following important areas of the GitLab Handbook impact how we work and are 
 - [How to follow our Product Principles](/handbook/product/product-principles/#how-we-follow-our-principles)
 - [Principles of our company strategy](/handbook/company/strategy/#principles)
 - [Effective & Responsible Communication Guidelines](/handbook/communication/#effective--responsible-communication-guidelines)
-- [Test Platform in Distribution group](/handbook/engineering/infrastructure/test-platform/self-managed-platform-team/distribution/index.html)
+- [Test Platform in Distribution group](/handbook/engineering/infrastructure/test-platform/self-managed-platform-team/distribution/)
 
 ## Work/life harmony
 

@@ -84,9 +84,12 @@ deleted. You might need to edit it first to remove rules and persons first.
     - Customer Emergencies - AMER Group 1
     - Customer Emergencies - AMER Group 2
     - Customer Emergencies - AMER Group 3
-    - Customer Emergencies - EMEA
-    - Customer Emergencies - APAC Group 1
-    - Customer Emergencies - APAC Group 2
+    - Customer Emergencies - APAC Group 1 A
+    - Customer Emergencies - APAC Group 1 B
+    - Customer Emergencies - APAC Group 2 A
+    - Customer Emergencies - APAC Group 2 B
+    - Customer Emergencies - EMEA Group 1
+    - Customer Emergencies - EMEA Group 2
     - Shadow - Customer Emergenices
   - Escalates after 10 min
 - Level 2
@@ -101,7 +104,6 @@ deleted. You might need to edit it first to remove rules and persons first.
   - Escalates after 5 min
 - Level 4:
   - Notify the following users or schedules
-    - Shaun McCann
     - Lee Matos
     - Lyle Kozloff
     - Val Parsons
@@ -111,13 +113,6 @@ deleted. You might need to edit it first to remove rules and persons first.
     - Johnny Scarborough
   - Escalates after 5 min
 - If no one acknowledges, repeat this policy `5` times
-
-### Customer Support SSAT
-
-- [Escalation policy link](https://gitlab.pagerduty.com/escalation_policies#P0DPFUO)
-- Level 1
-  - Notify the following users or schedules
-    - SSAT Reviewing Manager
 
 ### Incident Management - CMOC Rotation
 
@@ -139,7 +134,6 @@ deleted. You might need to edit it first to remove rules and persons first.
   - Escalates after 5 min
 - Level 3:
   - Notify the following users or schedules
-    - Shaun McCann
     - Lee Matos
     - Lyle Kozloff
     - Val Parsons
@@ -163,7 +157,6 @@ deleted. You might need to edit it first to remove rules and persons first.
   - Escalates after 5 min
 - Level 3:
   - Notify the following users or schedules
-    - Shaun McCann
     - Lee Matos
     - Lyle Kozloff
     - Val Parsons

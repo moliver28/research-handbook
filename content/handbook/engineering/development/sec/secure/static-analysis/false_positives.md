@@ -1,14 +1,6 @@
 ---
-aliases: /handbook/engineering/development/sec/secure/static-analysis/false_positives.html
-
 title: "Static Analysis Group Defined False Positives"
 ---
-
-
-
-
-
-
 
 ## Static Analysis Group Defined False Positives
 

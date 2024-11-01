@@ -1,13 +1,6 @@
 ---
-
 title: Package Group - GitLab Quality Assurance End-to-End Testing for the Package group
 ---
-
-
-
-
-
-
 
 ## Overview
 
@@ -194,7 +187,7 @@ More information on how to run tests using the gitlab-qa gem can be found on [Wh
 #### How can I have access to the GitLab QA Vault in 1Password?
 
 There are important variables to run several scenarios listed above. Also when running tests against different environments these variables
-are necessary. To have access to this vault please create an [access request](/handbook/business-technology/end-user-services/onboarding-access-requests/access-requests/) to the 1Password GitLab QA Vault.
+are necessary. To have access to this vault please create an [access request](/handbook/it/end-user-services/onboarding-access-requests/access-requests/) to the 1Password GitLab QA Vault.
 
 #### I triggered package-and-qa. Where do I find the tests?
 
@@ -233,7 +226,7 @@ The `only: {}` metadata defines and filters the environment. Know more about [Ex
 
 #### Can I use the gitlab-qa gem to just do the setup of a GitLab instance locally without running tests?
 
-Yes. There are two useful options that can be passed to the command: `--no-teardown` which ensure the gitlab instance stays up after running tests and `--no-tests` for only setting up the instance without having any test code run.
+Yes. There are two useful options that can be passed to the command: `--no-teardown` which ensure the GitLab instance stays up after running tests and `--no-tests` for only setting up the instance without having any test code run.
 
 An example:
 

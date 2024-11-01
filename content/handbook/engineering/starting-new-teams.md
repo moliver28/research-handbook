@@ -1,13 +1,6 @@
 ---
-
 title: Starting new teams
 ---
-
-
-
-
-
-
 
 ## Starting new teams
 

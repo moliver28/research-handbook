@@ -66,7 +66,7 @@ This meeting is hosted 1x per month as follows
 
 The purpose is to provide an opportunity to increase and leverage communication between our Sales Leadership and Sales team members who identify as people of color
 
-Understanding and acknowledging that our team members of color are experiencing a lot of emotions right now, and are processing those emotions in different ways. Our [Values]({{< ref "values" >}}) promote being inclusive, [Building a Safe Community]({{< ref "values#building-a-safe-community" >}}), and [Being an Ally]({{< ref "ally-resources" >}}), and we need to lean into these focus areas, starting with our own team.
+Understanding and acknowledging that our team members of color are experiencing a lot of emotions right now, and are processing those emotions in different ways. Our [Values](/handbook/values/) promote being inclusive, [Building a Safe Community](/handbook/values/#building-a-safe-community), and [Being an Ally]({{< ref "ally-resources" >}}), and we need to lean into these focus areas, starting with our own team.
 
 ### Contribute to a TMRG key initiative
 

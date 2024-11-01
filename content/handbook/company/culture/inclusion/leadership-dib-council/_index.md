@@ -1,5 +1,4 @@
 ---
-
 title: Leadership Diversity Inclusion & Belonging Council
 description: "A strategic group of Senior leaders URG Leaders who assist the DIB team to implement the strategy and align the strategy to the Division's strategic imperatives"
 canonical_path: "/company/culture/inclusion/leadership-dib-council/"
@@ -17,7 +16,7 @@ A strategic group of Senior leaders Leaders who assist the DIB team in implement
 1. Ensure that the DIB strategic imperatives are embedded into business goals.
 1. Unblock obstacles encountered while implementing GitLab DIB strategy globally
 1. Provide Division and/ or geographic insights to the DIB team
-1. Represent DIB in eGroup and CEO Skips syncs.
+1. Represent DIB in e-group and CEO Skips syncs.
 1. Play the role of DIB Interruptor - actively advocate, challenge the norm and iterate to ensure Diversity, Inclusion and Belonging remains top of mind in their divisions amongst other senior leaders
 
 ## Structure & Members
@@ -35,7 +34,7 @@ Senior leadership representative (Snr. Dir +) from each Department and a person 
   - Michel Isnard
 - Marketing - Two Representatives
   - Christine Lee
-  - TBC
+  - Amie Bright
 - Finance
   - Andrew Murray
   - Dennis van Rooijen

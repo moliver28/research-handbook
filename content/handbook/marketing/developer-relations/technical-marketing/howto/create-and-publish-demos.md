@@ -19,7 +19,7 @@ Tell one story across the whole video (have one key take away), what is being sh
 
 ### Publishing
 * [ ] Publish demo video to youtube **"GitLab"** channel, playlists: "Snapshots".
-   * [ ] Add CTA's to the end of the new video and fix any other ones so the chain stays intact. See [adding CTA's to Learn videos](/handbook/marketing/developer-relations/technical-marketing/howto/add-ctas-to-learn-videos.html) for more details.
+   * [ ] Add CTA's to the end of the new video and fix any other ones so the chain stays intact. See [adding CTA's to Learn videos](/handbook/marketing/developer-relations/technical-marketing/howto/add-ctas-to-learn-videos/) for more details.
    * [ ] Create attractive video thumbnails. See [thumbnail guide](https://louisem.com/198803/how-to-youtube-thumbnails) for more details.
 * [ ] Publish demo video to GitLab Snapshots page at https://about.gitlab.com/learn/.
 * [ ] Add demo video to [GDrive Demo Folder](https://drive.google.com/drive/u/0/folders/1AWGh_v8Gn26RYhPYmc4jWor-RgqvngRZ) in the appropriate folder.

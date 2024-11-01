@@ -1,5 +1,4 @@
 ---
-
 title: "Cadence"
 description: "Everything in a company happens in a certain cadence. The period of each cadence differs. Learn about the cadences we have at GitLab."
 ---
@@ -111,7 +110,6 @@ These reviews ensure that elements reflect current priorities and do not get sta
 1. [Release](https://about.gitlab.com/releases/)
 1. [Retrospective](/handbook/communication/#kickoffs)
 1. [Most KPIs](/handbook/company/kpis/)
-1. [Monthly touchpoint meetings](/handbook/company/offsite/#monthly-touch-point-meetings)
 
 ## Week
 
@@ -152,20 +150,20 @@ gantt
     Start Q3 Earnings Prep      :10-25, 1d
 
     section E Group Offsite
-    January                     :01-05, 4d
-    April                       :04-04, 4d
-    June                        :06-04, 4d
-    October                     :10-04, 4d
+    March                       :03-20, 4d
+    June                        :06-20, 4d
+    September                   :09-20, 4d
+    December                    :12-05, 4d
 
     section Board Meeting
-    Prep led by CFO             :02-14, 21d
-    March                       :03-18, 1d
-    Prep led by CFO             :05-14, 21d
-    June                        :06-17, 1d
-    Prep led by CFO             :08-14, 21d
-    September                   :09-15, 1d
-    Prep led by CFO             :11-14, 21d
-    December                    :12-14, 1d
+    Prep led by CFO             :03-10, 21d
+    March                       :03-24, 1d
+    Prep led by CFO             :06-05, 21d
+    June                        :06-24, 1d
+    Prep led by CFO             :09-10, 21d
+    September                   :09-25, 1d
+    Prep led by CFO             :11-24, 21d
+    December                    :12-11, 1d
 
     section Monthly Releases
     Release                     :milestone, m12,01-22, 1d

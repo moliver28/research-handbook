@@ -4,10 +4,17 @@ title: Triage Rotation
 
 Application Security team members are alphabetically assigned as the
 responsible individual (DRI) for incoming requests to the Application
-Security team for a given calendar week in the [Triage Rotation](https://docs.google.com/spreadsheets/d/18vz84dgTfetTaBjbOCXaLKNfzLYMiy_tBW6RfEUYYHk/edit?ts=5ce48702#gid=0)
-Google Sheet in the Security Team Drive.
+Security team, typically for a weekly or fortnighly period.
 
-One application security engineer is assigned this task each week and can be found at [Triage Rotation](https://docs.google.com/spreadsheets/d/18vz84dgTfetTaBjbOCXaLKNfzLYMiy_tBW6RfEUYYHk/edit?ts=5ce48702#gid=0).
+### Who is on rotation?
+
+Automation manages the scheduling and assignment of rotations:
+
+- ["Who is on rotation now?"](https://gitlab.com/gitlab-com/gl-security/product-security/appsec/tooling/rotation-management/-/wikis/who-is-on-now)
+- [Rotation Management FAQ & README](https://gitlab.com/gitlab-com/gl-security/product-security/appsec/tooling/rotation-management)
+- [Holiday Coverage](/handbook/security/product-security/application-security/runbooks/holiday-coverage/)
+
+### What are the rotations?
 
 The following rotations are defined:
 
@@ -17,7 +24,7 @@ The following rotations are defined:
     the either queue spikes.
   - Responsible for reviewing [security dashboards]({{< ref "security-dashboard-review" >}}) on a best-effort level
 - (Weekly Assignment) Triage Rotation (mentions and issues), by order of priority:
-  - Daily triage of [FedRAMP vulnerabilities reported by our scanners](https://internal.gitlab.com/handbook/security/application_security/runbooks/fedramp-scanner-triage-process/)
+  - Daily triage of [FedRAMP vulnerabilities reported by our scanners](https://internal.gitlab.com/handbook/security/product_security/application_security/runbooks/fedramp-scanner-triage-process/)
     - This is a mandatory daily check to make sure we do triage of vulnerabilities.
     - If it is not possible to do a daily check and triage of reported vulnerabilities, ask on for help in the `#sec-appsec` channel.
   - First responder to [JiHu Contribution pings]({{< ref "jihu-security-review-process" >}}) that come into the `#sec-appsec` Slack channel
@@ -33,8 +40,8 @@ The following rotations are defined:
     - @appsec-team in Slack
   - First responder for issues created needing triage: [~security-triage-appsec issue search](https://gitlab.com/groups/gitlab-org/-/issues?scope=all&utf8=%E2%9C%93&state=opened&label_name%5B%5D=security-triage-appsec)
     - Refer to [this page]({{ ref "engaging-with-security#reproducibility-on-security-issues" }}) to learn about the different labels that we can apply to issues when they're not vulnerabilities
-- (Monthly Assignment) Security Engineer for Security Releases
-- (Monthly Assignment, Federal AppSec only) Release Certifications
+- (~Fortnightly Assignment) Security Engineer for [Security & Patch Releases](https://about.gitlab.com/releases/#patch-releases)
+- (Fortnightly Assignment, Federal AppSec only) Release Certifications
   - Responsible for the [release certification process]({{< ref "release-certification" >}})
   - This applies to any release that might have JiHu contributions, including monthly and patch releases
 - (Quarterly Assignment) Bug Bounty/AppSec Blog Post

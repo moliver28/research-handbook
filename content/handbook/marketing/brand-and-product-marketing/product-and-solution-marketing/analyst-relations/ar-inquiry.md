@@ -1,13 +1,6 @@
 ---
-
 title: "Industry Analyst Relations Inquiry"
 ---
-
-
-
-
-
-
 
 ## How We Conduct Industry Analyst Inquiry
 
@@ -74,7 +67,7 @@ title: "Industry Analyst Relations Inquiry"
   - **MARK ALL ISSUES CONFIDENTIAL - Inquiry with Industry Analysts typically involve non-public, proprietary intellectual property and/or other confidential information and we must do our part to keep it that way.**
   - Use the date of the inquiry for the Due date
   - Click "Submit issue". Once the issue is created, assign the inquiry requestor to the issue
-  - If there are related issues, go to that section and add them.  
+  - If there are related issues, go to that section and add them.
     - Research Request issue
     - Other inquiries on the same topic if this is a series
     - Link to the MQ/Wave Issue or other related research

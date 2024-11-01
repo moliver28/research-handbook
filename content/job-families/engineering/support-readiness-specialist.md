@@ -38,7 +38,7 @@ As a Support Readiness Specialist you will:
 ### Operations
 
 As a Support Readiness Specialist - Operations, you will be responsible for supporting the
-day-to-day operations and software systems used by GitLab’s global Technical
+day-to-day operations and software systems used by GitLab's global Technical
 Support team (including, but not limited to: our Zendesk instance(s), GitLab.com
 projects/integrations, and Calendly setup). You will be able to juggle a
 diverse workload that includes everything from managing user provisioning, to
@@ -68,7 +68,7 @@ backbone and the foundation to our success!
 
 #### Projects you might work on
 
-When you are not tackling your normal day to day challenges, you’ll have a lot
+When you are not tackling your normal day to day challenges, you'll have a lot
 of freedom to work on things that will make your life, and the lives of your
 coworkers, easier. Current and past Support Readiness Specialists in Operations have:
 
@@ -76,11 +76,11 @@ coworkers, easier. Current and past Support Readiness Specialists in Operations 
   [tooling to generate weekly 1-1 issues](https://gitlab.com/gitlab-com/support/toolbox/1-1-issue-generator)
   for Support Engineers containing metrics, random tickets to review, etc.
 - Developed
-  [tooling to generate weekly account deletion reports](/handbook/support/support-ops/documentation/adwr.html).
+  [tooling to generate weekly account deletion reports](/handbook/support/support-ops/documentation/adwr/).
 - Leaned into
   [dogfooding](/handbook/engineering/development/principles/#dogfooding) by
   having various aspects of Zendesk
-  [version controlled via GitLab.com](/handbook/support/support-ops/documentation/sync_repos.html).
+  [version controlled via GitLab.com](/handbook/support/support-ops/documentation/sync_repos/).
 - ...and even more!
 
 ### Data Analysis & Services Delivery
@@ -124,7 +124,7 @@ workflow information or documentation closer to customers, Support Engineers
 and Support Management.
 - coordinate with Support Readiness Specialists in Service Delivery on improving
 ticket quality and customer satisfaction with Support (SSAT).
-- facilitate the self-organization and activities of [Support Pods](/handbook/support/workflows/working-with-pods.html)
+- facilitate the self-organization and activities of [Support Pods](/handbook/support/workflows/working-with-pods/)
 - keep your eye on the horizon for product and offering changes to keep support prepared for the future.
 
 ### Requirements
@@ -181,7 +181,7 @@ Generally they meet the following criteria. They:
 
 A Senior Support Readiness Specialist may be interested in exploring Support
 Readiness Management as an alternative at this point. See
-[Engineering Career Development](/handbook/engineering/career-development/)
+[Engineering Career Development](/handbook/engineering/careers/)
 for more details.
 
 ### Career Ladder

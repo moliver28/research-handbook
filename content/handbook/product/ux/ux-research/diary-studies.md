@@ -54,7 +54,7 @@ When using Google Docs or Sheets, make sure to follow these steps and guidelines
 1. Give them `editor` access and type in a short note (if needed)
 1. Select `send`
 
-Depending on the number of expected diary entries and touchpoints, it is advised to open participants’ diary documents often to monitor their current progress. If participants have not filled out specific entries on time, you can leave a comment and @ mention them using their email address to send a reminder to complete the task(s).
+Depending on the number of expected diary entries and touchpoints, it is advised to open participants' diary documents often to monitor their current progress. If participants have not filled out specific entries on time, you can leave a comment and @ mention them using their email address to send a reminder to complete the task(s).
 
 ### Tips for conducting diary studies
 

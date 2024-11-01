@@ -116,7 +116,7 @@ Information regarding test coverage can be found via these issues/epics:
 
 - [Unit test coverage of Compliance features](https://gitlab.com/gitlab-org/gitlab/-/issues/392415)
 - [Shift-left coverage provided by E2E tests](https://gitlab.com/groups/gitlab-org/-/epics/11644)
-- [Increasing E2E test coverage](https://gitlab.com/groups/gitlab-org/infrastructure/test-platform/-/epics/9)
+- [Increasing E2E test coverage](https://gitlab.com/groups/gitlab-org/quality/quality-engineering/-/epics/9)
 
 ## Milestone Planning
 
@@ -126,7 +126,7 @@ We plan in monthly cycles in accordance with our [Product Development Timeline](
 
 - By the 4th, Product should have created a planning issue for their group in the [Compliance project](https://gitlab.com/gitlab-org/govern/compliance/general/-/issues) for the coming release using the [template](https://gitlab.com/gitlab-org/govern/compliance/general/-/blob/main/.gitlab/issue_templates/planning_issue.md).
 - The Complaince [quad](/handbook/engineering/infrastructure/test-platform/quad-planning/) will add a tentative plan for the release, outlining the highest priority issues within each of their respective areas.
-- We prioritize using the [cross-functional prioritization](/handbook/product/cross-functional-prioritization/). The Product Manager will prioritize `type::feature` issues, the Engineering Manager will prioritize `type::maintenance` issues, and the Quality Manager will prioritize `type::bug` issues.
+- We prioritize using the [cross-functional prioritization](/handbook/product/product-processes/cross-functional-prioritization/). The Product Manager will prioritize `type::feature` issues, the Engineering Manager will prioritize `type::maintenance` issues, and the Quality Manager will prioritize `type::bug` issues.
 - Pre-planning is completed asynchronously by Product, Engineering, Quality and Design on the issue, this is to identify any unknowns or questions that need to be answered and resolved prior to final planning.
 - Issues can be either in Refinement phase (`workflow::planning breakdown` and `workflow::solution validation`) or Implementation phase (`workflow::scheduling` and `workflow::ready for development`).
 - Engineering Manager will update issue with the estimated group capacity for the Milestone
@@ -202,7 +202,7 @@ While individual groups are free to use as many stages in the [Product Developme
 
 ### Discovery/Refinement
 
-**The end goal is defined,** where all direct stakeholders says “yes, this is ready for development”. Some issues get there quickly, some require a few passes back and forth to figure out.
+**The end goal is defined,** where all direct stakeholders says "yes, this is ready for development". Some issues get there quickly, some require a few passes back and forth to figure out.
 
 The goal is for engineers to have buy-in and feel connected to the roadmap. By having engineering included earlier on, the process can be much more natural and smooth. To do so, engineering managers, engineers, and designers can be pinged directly from the issue.
 
@@ -239,7 +239,7 @@ When estimating development work, please assign an issue an appropriate weight:
 | 8 | A complex change, that will involve much of the codebase or will require lots of input from others to determine the requirements. These issues will often need further investigation or discovery before being `workflow::ready for development` and we will likely benefit from multiple, smaller issues. |
 | 13 | A significant change that may have dependencies (other teams or third-parties) and we likely still don't understand all of the requirements. It's unlikely we would commit to this in a milestone, and the preference would be to further clarify requirements and/or break in to smaller Issues. |
 
-As part of estimation, if you feel the issue is in an appropriate state for an engineer to start working on it, please add the ~"workflow::ready for development" label. Alternatively, if there are still requirements to be defined or questions to be answered that you feel an engineer won't be able to easily resolve, please add the `workflow::blocked` label. Issues with the `workflow::blocked` label will appear in their own column on our planning board, making it clear that they need further attention. When applying the `workflow::blocked` label, please make sure to leave a comment and ping the [DRI](/handbook/people-group/directly-responsible-individuals/) on the blocked issue and/or link the blocking issue to raise visibility.
+As part of estimation, if you feel the issue is in an appropriate state for an engineer to start working on it, please add the `workflow::ready for development` label. Alternatively, if there are still requirements to be defined or questions to be answered that you feel an engineer won't be able to easily resolve, please add the `workflow::blocked` label. Issues with the `workflow::blocked` label will appear in their own column on our planning board, making it clear that they need further attention. When applying the `workflow::blocked` label, please make sure to leave a comment and ping the [DRI](/handbook/people-group/directly-responsible-individuals/) on the blocked issue and/or link the blocking issue to raise visibility.
 
 #### Implementation Plan
 
@@ -369,7 +369,7 @@ All meetings should have an agenda prepared at least 12 hours in advance. If thi
 
 ## Planning for PTO
 
-We follow the [Govern stage PTO process](/handbook/engineering/sec/govern/#pto) and [GitLab team members Guide to Time Off](/handbook/people-group/paid-time-off/#a-gitlab-team-members-guide-to-time-off).
+We follow the [Govern stage PTO process](/handbook/engineering/development/sec/govern/#pto) and [GitLab team members Guide to Time Off](/handbook/people-group/paid-time-off/#a-gitlab-team-members-guide-to-time-off).
 
 ## Group Shared Calendar
 

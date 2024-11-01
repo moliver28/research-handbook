@@ -25,7 +25,6 @@ such as:
 
 - Toggling the escalation state of an org (turning it on or off)
 - Set the collaboration project ID for an organization
-- Setting a Dedicated SGG for an organization
 - Setting an Assigned Support Engineer for an organization
 
 ### Request a team member license
@@ -49,7 +48,10 @@ instance. Without one, your request will be declined.
 
 ### Create a Zendesk macro
 
-Use this to request the creation of a macro in a Zendesk instance.
+Use this to request the creation of a macro in a Zendesk instance. If the
+comment type for the macro is `Public` or `Private`, it will create a
+corresponding managed content file within the correct project (if it does not
+already exist).
 
 **NOTE**: This is not creating an issue to discussion. This is creating an issue
 for action. The issue made will be actioned on quite quickly and will not allow
@@ -57,7 +59,10 @@ room for discussion, outside of followup questions from Support Operations.
 
 ### Edit a Zendesk macro
 
-Use this to request modifications of a macro in a Zendesk instance.
+Use this to request modifications of a macro in a Zendesk instance. If the
+comment type for the macro is `Public` or `Private`, it will create a
+corresponding managed content file within the correct project (if it does not
+already exist).
 
 **NOTE**: This is not creating an issue to discussion. This is creating an issue
 for action. The issue made will be actioned on quite quickly and will not allow

@@ -1,7 +1,5 @@
 ---
 title: Documentation
-aliases:
-- /handbook/documentation/
 ---
 
 GitLab documentation is crafted to help users, admins, and decision-makers
@@ -13,7 +11,7 @@ and stored with the product in its respective paths within the
 [GitLab repositories](https://docs.gitlab.com/ee/development/documentation/site_architecture/#architecture).
 It's published at [docs.gitlab.com](https://docs.gitlab.com) (offering multiple
 versions of all product documentation) and at the `/help/` path on each GitLab
-instance’s domain, with content for that instance’s version.
+instance's domain, with content for that instance's version.
 
 Our goal is to create documentation that is accurate and easy
 to use. The documentation should be easy to browse or search for the information you need, and
@@ -69,7 +67,7 @@ For more information, see the [Documentation section of our Development document
   - [Page structure and template](https://docs.gitlab.com/ee/development/documentation/topic_types/index.html)
   - [Style Guide](https://docs.gitlab.com/ee/development/documentation/styleguide/)
   - [Site architecture](https://docs.gitlab.com/ee/development/documentation/site_architecture/index.html)
-- The [Documentation Markdown Guide](/docs/markdown-guide/)
+- The [Documentation Markdown Guide](https://handbook.gitlab.com/docs/markdown-guide/)
 - The [GitLab Docs project](https://gitlab.com/gitlab-org/gitlab-docs/), which
 contains the code that pulls the documentation content from multiple
 repositories and builds docs.gitlab.com

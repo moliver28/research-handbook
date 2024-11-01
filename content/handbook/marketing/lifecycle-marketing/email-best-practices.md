@@ -30,7 +30,7 @@ This page focuses on email best practices and their implementation at GitLab. Yo
   * ❏ Contextual - personalized, localized, segmented, relevant, anticipated
   * ❏ Urgent - topical, events, deadlines, newsjacking
   * ❏ Emotional - aspirations, happiness, anxiety, duty, fear
-  * ❏ Detailed - answers the question “what is this email about?”
+  * ❏ Detailed - answers the question "what is this email about?"
   * ❏ Intriguing - questions, curiosity, mysterious, humor, puns
   * ❏ Visual - very long or very short, unusual spelling, emoji, unusual punctuation
   * ❏ Earned - testimonials, reviews, endorsements, media coverage
@@ -114,7 +114,7 @@ Attracting Attention: The subject line is the first thing your recipients see wh
 
 Increasing Open Rate: A good subject line can make the difference between an email being opened or ignored. A high open rate is essential for your message to reach your audience.
 
-Conveying Value: The subject line should clearly and concisely communicate the value or benefit that the recipient will gain by opening the email. It should answer the question: “Why should I open this email?”
+Conveying Value: The subject line should clearly and concisely communicate the value or benefit that the recipient will gain by opening the email. It should answer the question: "Why should I open this email?"
 
 Creating Expectation: You can use the subject line to build anticipation or intrigue, which can motivate recipients to open the email to learn more.
 
@@ -168,7 +168,7 @@ Example: 5/950 = 0.5% Unsubscribe Rate.
 ## Email Templates
 <!-- DO NOT CHANGE THIS ANCHOR -->
 
-### Please see [this issue](https://gitlab.com/gitlab-com/marketing/demand-generation/campaigns/-/issues/3375) for more details and to see how the email templates look
+**Please see [this issue](https://gitlab.com/gitlab-com/marketing/demand-generation/campaigns/-/issues/3375) for more details and to see how the email templates look**
 
 **What are email templates?** An email template is a reusable HTML file that is used to build email campaigns (according to Litmus).
 

@@ -32,11 +32,12 @@ We will follow our parent department [Engineering](/handbook/engineering/#divers
 
 ## Organizational responsibilities
 
-The development team is responsible for developing products in the following categories:
+The Expansion department includes the following sub-departments and groups:
 
-- [Sec](/handbook/engineering/development/sec/)
-- [Data Science](/handbook/engineering/development/data-science/)
+- [Secure](/handbook/engineering/development/sec/secure/)
+- [Govern](/handbook/engineering/development/sec/govern/)
 - [Fulfillment](/handbook/engineering/development/fulfillment/)
+- [Growth](/handbook/engineering/development/growth/)
 
 ## Team Members
 
@@ -114,7 +115,7 @@ Talent Assessment Process guidelines specific for the Expansion Development Depa
 
 ### How we hire contractors
 
-In [this handbook page](/handbook/engineering/development/processes/hiring-contractors.html) we document the process that the development departments follow, including planning budget, candidate sourcing, interview process, contracting and onboarding.
+In [this handbook page](/handbook/engineering/development/processes/hiring-contractors/) we document the process that the development departments follow, including planning budget, candidate sourcing, interview process, contracting and onboarding.
 
 ## How We Work
 
@@ -149,16 +150,16 @@ At times when cross-functional, or cross-departmental architectural collaboratio
 
 #### Follow the Sun Coverage
 
-When cross-functional collaboration is required across global regions and time zones, it is recommended to adopt the [Follow the Sun Coverage](/handbook/engineering/development/processes/follow-the-sun-coverage.html) approach to ensure seamless global collaboration.
+When cross-functional collaboration is required across global regions and time zones, it is recommended to adopt the [Follow the Sun Coverage](/handbook/engineering/development/processes/follow-the-sun-coverage/) approach to ensure seamless global collaboration.
 
 #### Decisions requiring approvals
 
-At GitLab we value [freedom and responsibility over rigidity](/handbook/values/#freedom-and-responsibility-over-rigidity). However, there are some technical decisions that will require approval before moving forward. Those scenarios are outlined in our [required approvals](/handbook/engineering/development/required-approvals.html) section.
+At GitLab we value [freedom and responsibility over rigidity](/handbook/values/#freedom-and-responsibility-over-rigidity). However, there are some technical decisions that will require approval before moving forward. Those scenarios are outlined in our [required approvals](/handbook/engineering/development/required-approvals/) section.
 
 #### Security Vulnerability Handling
 
 1. The development groups who introduce or consume the dependency of concern (e.g. gems, libs, base images, etc.) are responsible for resolving vulnerabilities detected against the dependency.
-2. For business selected vendors that provide base images (RHEL's UBI8 for example), we need to wait for their patches, or need to log Deviation Request (DR) as viable resolutions. The [VulnMapper](https://gitlab.com/gitlab-com/gl-security/threatmanagement/vulnerability-management/vulnerability-management-internal/vulnmapper/-/tree/main), an automation developed by the Threat Management team, can create vendor dependency DRs to a large extent, but there are still cases that DR needs to be reported manually.
+2. For business selected vendors that provide base images (RHEL's UBI8 for example), we need to wait for their patches, or need to log Deviation Request (DR) as viable resolutions. The [VulnMapper](https://gitlab.com/gitlab-com/gl-security/product-security/vulnerability-management/vulnerability-management-internal/vulnmapper/-/tree/main), an automation developed by the Threat Management team, can create vendor dependency DRs to a large extent, but there are still cases that DR needs to be reported manually.
 3. The assigned development group can redirect issues if the initial assignment was inaccurate, following the processes for [shared responsibility issues](/handbook/engineering/infrastructure/engineering-productivity/issue-triage/#shared-responsibility-issues) and/or [Shared responsibility functionality](/handbook/product/categories/#shared-responsibility-functionality).
 
 ### Development Headcount planning
@@ -244,7 +245,7 @@ Below are tips for developing individual's OKRs:
 
 ## Engineering Allocations and Tracking
 
-[Engineering Allocation](/handbook/engineering/#engineering-allocation) require us to track goals with more diligence and thought.  We need confidence that we’re making correct decisions and executing well to these initiatives. As such, you will see us reviewing these more closely than other initiatives.  We will meet on a cadence to review these initiatives and request additional reporting to support the process.  Possible requests for additional data:
+[Engineering Allocation](/handbook/engineering/#engineering-allocation) require us to track goals with more diligence and thought.  We need confidence that we're making correct decisions and executing well to these initiatives. As such, you will see us reviewing these more closely than other initiatives.  We will meet on a cadence to review these initiatives and request additional reporting to support the process.  Possible requests for additional data:
 
 1. [Demos](/handbook/engineering/demos/)
 1. [GitLab Roadmaps](https://docs.gitlab.com/ee/user/group/roadmap/)
@@ -306,7 +307,7 @@ The shared services and components below are extracted from the GitLab [product 
 | GitLab Pages |  | Centralized with Specific Team | @vshushlin | [Knowledge](/handbook/engineering/development/dev/plan/knowledge/) |  |
 | GitLab Rails |  | Decentralized |  |  | DRI for each controller is determined by the feature category specified in the class. [app/controllers](https://gitlab.com/gitlab-org/gitlab/-/tree/master/app/controllers) and [ee/app/controllers](https://gitlab.com/gitlab-org/gitlab/-/tree/master/ee/app/controllers) |
 | GitLab Shell |  | Centralized with Specific Team | @sean_carroll | [Create:Source Code](/handbook/engineering/development/dev/create/source-code-be/) | [Reference](/handbook/product/categories/#source-code-group-1) |
-| HAproxy |  | Centralized with Specific Team | @amoter | [Infrastructure](/handbook/engineering/infrastructure/team/reliability/foundations.html) |  |
+| HAproxy |  | Centralized with Specific Team | @amoter | [Infrastructure](/handbook/engineering/infrastructure/team/reliability/foundations/) |  |
 | Jaeger |  | Centralized with Specific Team | @dawsmith | Infrastructure:Observability | Observability team made the [initial implementation/deployment](https://gitlab.com/groups/gitlab-com/gl-infra/-/epics/210). |
 | LFS |  | Centralized with Specific Team | @sean_carroll | [Create:Source Code](/handbook/engineering/development/dev/create/source-code-be/) |  |
 | Logrotate |  | Centralized with Specific Team | @twk3 | [Distribution](/handbook/engineering/infrastructure/core-platform/systems/distribution/) | Distribution team is responsible for packaging and upgrading versions. Functional issues can be directed to the vendor. |
@@ -377,7 +378,7 @@ When Development collaborates with Support it provides invaluable insight into h
 - Always write answers in a way that they can be "cut-and-pasted" and sent to a customer.
 - Reference documentation in your responses and make updates to GitLab documentation when needed.
 - Refer to existing issues and epics to reiterate our transparency value and to invite participation from the customer.
-- If you are unclear about the support-development collaboration process or workflow then please refer to the handbook page [how to use gitlab.com to request help from the GitLab development team](/handbook/support/workflows/how-to-get-help.html#how-to-use-gitlabcom-to-formally-request-help-from-the-gitlab-development-team)
+- If you are unclear about the support-development collaboration process or workflow then please refer to the handbook page [how to use gitlab.com to request help from the GitLab development team](/handbook/support/workflows/how-to-get-help/#how-to-use-gitlabcom-to-formally-request-help-from-the-gitlab-development-team)
 
 ### Incident Management
 
@@ -391,7 +392,7 @@ These [frequently asked questions](/handbook/engineering/infrastructure/incident
 ### Development Escalation Process
 
 - [General information](/handbook/engineering/development/processes/Infra-Dev-Escalation/)
-- [Process outline](/handbook/engineering/development/processes/Infra-Dev-Escalation/process.html)
+- [Process outline](/handbook/engineering/development/processes/infra-dev-escalation/process/)
 
 ### Reducing the impact of far-reaching work
 
@@ -425,7 +426,7 @@ Some areas have already been identified that meet the definition above, and may 
 | Area             | Reason                      | Special workflows (if any)                                                                                            |
 | ---------------- | --------------------------- |-----------------------------------------------------------------------------------------------------------------------|
 | Database migrations, tooling, complex queries, metrics | impact to entire application<br/><br/>The database is a critical component where any severe degradation or outage leads to an S1 incident. | [Documentation](https://docs.gitlab.com/ee/development/database_review.html#general-process)                          |
-| Sidekiq changes (adding or removing workers, renaming queues, changing arguments, changing profile of work required)  | impact to multiple services<br/><br/>Sidekiq shards run groups of workers based on their profile of work, eg memory-bound. If a worker fails poorly, it has the potential to halt all work on that shard. | [Documentation](https://docs.gitlab.com/ee/development/sidekiq_style_guide.html#sidekiq-compatibility-across-updates) |
+| Sidekiq changes (adding or removing workers, renaming queues, changing arguments, changing profile of work required)  | impact to multiple services<br/><br/>Sidekiq shards run groups of workers based on their profile of work, eg memory-bound. If a worker fails poorly, it has the potential to halt all work on that shard. | [Documentation](https://docs.gitlab.com/ee/development/sidekiq/compatibility_across_updates.html) |
 | Redis changes    | impact to multiple services<br/><br/>Redis instances are responsible for sets of data that are not grouped by feature category. If one set of data is misconfigured, that Redis instance may fail.  |                                                                                                                       |
 | Package product areas            | high percentage of traffic share |                                                                                                                       |
 | Gitaly product areas             | high percentage of traffic share |                                                                                                                       |
@@ -447,7 +448,7 @@ These are the stakeholders:
 
 | Team                                                                                                                                                           | Stake |
 |----------------------------------------------------------------------------------------------------------------------------------------------------------------| --- |
-| [Create:IDE](/handbook/engineering/development/dev/create/ide)                                                                         | Owns the WebIDE ([maintainers](https://gitlab-org.gitlab.io/gitlab-roulette/?currentProject=gitlab-web-ide&mode=show&hidden=reviewer))  |
+| [Create:Remote Development](/handbook/engineering/development/dev/create/remote-development)                                                                         | Owns the WebIDE ([maintainers](https://gitlab-org.gitlab.io/gitlab-roulette/?currentProject=gitlab-web-ide&mode=show&hidden=reviewer))  |
 | [Editor Extensions](/handbook/engineering/development/dev/create/editor_extensions/)                                                   | Maintains the GitLab Workflow VS Code Extension ([maintainers](https://gitlab-org.gitlab.io/gitlab-roulette/?currentProject=gitlab-vscode-extension&mode=show&hidden=reviewer)), [Jetbrains](https://gitlab.com/groups/gitlab-org/-/epics/6349), [Neovim](https://gitlab.com/groups/gitlab-org/-/epics/10739), [Visual Studio](https://gitlab.com/groups/gitlab-org/-/epics/10668) extensions and the [language server](https://gitlab.com/groups/gitlab-org/-/epics/2431). Also contributes with UX improvements for Code Suggestions within GitLab Workflow. |
 | [Enablement:Cloud Connector](/handbook/engineering/infrastructure/core-platform/systems/cloud-connector/) (`@mkaeppler`, `@nmilojevic1`) | AI-Assissted for Self-Managed |
 | [AI Framework](/handbook/engineering/development/data-science/ai-powered/ai-framework/)                                                           | Abstraction Layer for GitLab Chat, Code Suggestions and other AI capabilities |

@@ -93,7 +93,7 @@ Here is the [standard, company-wide process for OKRs](/handbook/company/okrs/)
 
 ### Performance indicators
 
-We measure the value we contribute by using [performance indicator metrics](/handbook/product/performance-indicators/). The primary metric used for the Package Registry group is the number of monthly active users or GMAU.
+We measure the value we contribute by using [performance indicator metrics](https://internal.gitlab.com/handbook/company/performance-indicators/product/). The primary metric used for the Package Registry group is the number of monthly active users or GMAU.
 
 {{< tableau height="600px" toolbar="hidden" src="https://us-west-2b.online.tableau.com/t/gitlabpublic/views/TopEngineeringMetrics/TopEngineeringMetricsDashboard" >}}
   {{< tableau/filters "GROUP_LABEL"="package registry" >}}
@@ -113,16 +113,20 @@ We measure the value we contribute by using [performance indicator metrics](/han
 
 ### What Are We Working On
 
-Here is a list of active projects and initiatives that we are currently working on, along with the corresponding [DRI](/handbook/people-group/directly-responsible-individuals/):
+Below is a list of projects and initiatives that we are currently working on, along with the corresponding [DRI](/handbook/people-group/directly-responsible-individuals/).  We work on issues by priority and projects may not have active development in every milestone.  DRI engineers take responsibility for planning and delivery of upcoming work, however, issues can be assigned to any team member.
 
-| Project                                                                                                                                        | DRI                                                                                       |
-|------------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------|
-| [Automated packages import from Artifactory or Sonatype](https://gitlab.com/groups/gitlab-org/-/epics/8730)                                    | [@10io](https://gitlab.com/10io)                                                          |
-| [Maven dependency proxy](https://gitlab.com/groups/gitlab-org/-/epics/3610)                                                                    | [@10io](https://gitlab.com/10io)                                                          |
-| [Improve the performance of package metadata generation](https://gitlab.com/groups/gitlab-org/-/epics/9835)                                 | [@dmeshcharakou](https://gitlab.com/dmeshcharakou)                                        |
-| [Eliminating duplicate npm packages](https://gitlab.com/groups/gitlab-org/-/epics/9812)                                                        | [@dmeshcharakou](https://gitlab.com/dmeshcharakou)                                        |
-| [Key improvements for the npm registry](https://gitlab.com/groups/gitlab-org/-/epics/7037)                                                     | [@radbatnag](https://gitlab.com/radbatnag)                                                |
-| [Key improvements for the NuGet registry](https://gitlab.com/groups/gitlab-org/-/epics/7039)                                                   | [@mkhalifa3](https://gitlab.com/mkhalifa3)                                               |
+| Project                                                                                                                | DRI                                    | Backup DRI                          |
+| ---------------------------------------------------------------------------------------------------------------------- | -------------------------------------- | ----------------------------------- |
+| [Maven Virtual Registry MVC](https://gitlab.com/groups/gitlab-org/-/epics/14137)                                       | {{< member-by-gitlab 10io >}}          | {{< member-by-gitlab mkhalifa3 >}}  |
+| [Dependency Firewall](https://gitlab.com/groups/gitlab-org/-/epics/5133)                                               | {{< member-by-gitlab dmeshcharakou >}} | {{< member-by-gitlab radbatnag >}} |
+| [Extract package formats into their own classes](https://gitlab.com/groups/gitlab-org/-/epics/12294)                   | {{< member-by-gitlab dmeshcharakou >}} | {{< member-by-gitlab radbatnag >}} |
+| [Package Registry Test Stability](https://gitlab.com/groups/gitlab-org/-/epics/15148)                                  | {{< member-by-gitlab radbatnag >}} |   |
+
+### What We've Recently Completed
+
+| Project                                                           | Milestone Completed                    |
+| ----------------------------------------------------------------- | -------------------------------------- |
+|                                                                   |                                        |
 
 ## Documentation
 

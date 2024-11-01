@@ -1,14 +1,7 @@
 ---
-
 title: "Search Marketing"
 description: "The Search Marketing focuses on growing revenue for GitLab by increasing traffic and improving conversion rates on GitLab's public websites"
 ---
-
-
-
-
-
-
 
 ## Search Marketing
 
@@ -50,7 +43,7 @@ We publish our total conversion rate monthly in dataStudio.
 ## Tools we maintain
 
 * [Google Analytics](https://analytics.google.com/analytics/web/): Google Analytics lets you measure your advertising ROI as well as track your Flash, video, and social networking sites and applications.
-* [Hotjar](https://www.hotjar.com/): Hotjar is a powerful tool that reveals the online behavior and voice of your users. By combining both Analysis and Feedback tools, Hotjar gives you the ‘big picture’ of how to improve your site's user experience and performance/conversion rates.
+* [Hotjar](https://www.hotjar.com/): Hotjar is a powerful tool that reveals the online behavior and voice of your users. By combining both Analysis and Feedback tools, Hotjar gives you the 'big picture' of how to improve your site's user experience and performance/conversion rates.
 * [Google Optimize](https://optimize.google.com/optimize/home/): Google Website Optimizer was a free website optimization tool that helped online marketers and webmasters increase visitor conversion rates and overall visitor satisfaction by continually testing different combinations of website content.
 * [Sitebulb](/handbook/marketing/inbound-marketing/search-marketing/sitebulb/): Sitebulb is a  website auditing tool for search engine optimization.
 
@@ -84,7 +77,7 @@ However, we should use [Google's guidelines on nofollowing links](https://webmas
 
 Regular website health checks should be performed. These checks are meant to ensure that there are no issues with the website that could cause issues with traffic to the site. These are the following things to check to ensure the health of the site:
 
-* [Google Search Console](https://www.google.com/webmasters/tools/)
+* [Google Search Console](https://search.google.com/search-console/welcome?hl=en)
 * [Google Analytics](https://analytics.google.com/analytics/web/)
 
 Issues to look for in each of these tools:

@@ -1,7 +1,6 @@
 ---
 title: AI Model Validation Group
 description: "The Model Validation group is focused on supporting GitLab teams to make data-driven feature development decisions leveraging ML/AI."
-aliases: /handbook/engineering/development/data-science/model-validation
 ---
 
 ## 📝 Mission
@@ -11,6 +10,12 @@ The AI Model Validation team mission is to support and improve the integrity, re
 ## Direction
 
 [Here](https://about.gitlab.com/direction/ai-powered/ai_model_validation/) is the group direction page. We have two categories under this group: Category AI Evaluation and Category AI Research. This group is part of the [AI-Powered stage](/handbook/engineering/development/data-science/ai-powered/).
+
+### Central Evaluation Framework (CEF)
+
+Model validation is the primary maintainer of our [Central Evaluation Framework](https://gitlab.com/gitlab-org/modelops/ai-model-validation-and-research/ai-evaluation/prompt-library) (CEF). This tool supports the entire end-to-end process of AI feature creation, from selecting the appropriate model for a use case to evaluating the AI features’ output. AI Validation works in concert with other types of evaluation, such as SET Quality testing and diagnostic testing, but is specifically focused on the interaction with Generative AI.
+
+> Read about how we [How we validate and test AI models at scale](https://about.gitlab.com/blog/2024/05/09/developing-gitlab-duo-how-we-validate-and-test-ai-models-at-scale/) on the GitLab blog.
 
 ## 🚀 Team members
 
@@ -22,13 +27,49 @@ The team is composed of [ML engineers](/job-families/engineering/development/dat
 | [Andras Herczeg](/handbook/company/team/#andrasherczeg) | Senior ML Engineer |
 | [Stephan Rayner](/handbook/company/team/#srayner) | Senior ML Engineer |
 | [Tan Le](/handbook/company/team/#tle_gitlab) | Senior ML Engineer |
-| [Monmayuri Ray](/handbook/company/team/#mon) | Engineering Manager |
 | [Susie Bitters](/handbook/company/team/#susie.bee) | Senior Product Manager |
 
 ## ☎️ How to contact us
 
 - Tag a team member in a merge request or issue
 - Slack Channel: [`#g_ai_model_validation`](https://gitlab.enterprise.slack.com/archives/C05CJ1T3P0W)
+
+## How we work
+
+### Estimation
+
+The estimation and planning process is managed primarily asynchronously; however, synchronous calls may be scheduled if necessary to clarify blockers or ensure alignment.
+
+A week before the milestone is finalized, the team is provided with a list of issues to evaluate. Throughout that week, team members engage in discussions to assign estimates or weights to tasks. Any issues that are too large or lack team consensus are either reworked, removed from the milestone, or scheduled for further investigation as a spike.
+
+The task estimation and planning process follows a structured workflow:
+
+- The Product Manager (PM) maintains a comprehensive list of all issues relevant to the product's progress.
+- The Engineering Manager (EM) works with the Product Manager (PM) to select the subset of issues that the team will evaluate for the upcoming release, ensuring the list is manageable and aligned with team priorities.
+- Domain experts within the team may be consulted to clarify ambiguous issues before estimation, ensuring that tasks are well understood before being assigned weights.
+
+By the end of the estimation process, every issue designated as a deliverable for the upcoming release must meet the following criteria:
+
+- Each issue must have a weight or be time-boxed.
+- There must be a clear description of one or more actionable tasks that make up the issue.
+- The issue must include a definition of done to guide the development process and ensure clarity around when a task is considered complete.
+
+### Weighting issues
+
+We use weights to forecast the complexity of each given issue aimed at being scheduled into a given milestone. These weights help us ensure that the amount of scheduled work in a cycle is reasonable, both for the team as a whole and for each individual. We understand weights are mere forecasts and we accept the uncertainty that comes with this.
+
+Before each milestone, the team sets weights on all issues currently aimed at the next milestone by Product and triaging processes, along with updating the description with the proposed solution if agreed upon. This exercise may require multiple team members to collaborate on some issues in order to properly set a weight and agree on a solution. The weights we use are:
+
+| Weight     | Description  |
+| ---------- | ------------ |
+| 1: Trivial | The solution is understood, no extra investigation is required, and anyone can pick this up. This task should take no more than 1-2 hours. |
+| 3: Medium  | The solution is understood, but some extra investigation or effort will be required to realize the solution. One engineer should be able to finish 2-3 of these tasks in a week.  |
+| 5: Large   | The solution is outlined, but there are unknowns with the work—these issues can be scheduled but should be broken down first. Likely a major piece of work, potentially worked on by two engineers. |
+| 8: Unknown | There are many unknowns with the proposed solution or how to implement it. These issues will not be scheduled and instead should be broken down, or a spike should be scheduled to investigate further. |
+
+### Retrospectives
+
+We conduct monthly async [retrospectives](/handbook/engineering/management/group-retrospectives/) which are [located here.](https://gitlab.com/gl-retrospectives/data-science/ai-powered/model-validation)
 
 ## Customer outcomes we are driving for GitLab Duo
 
@@ -183,6 +224,7 @@ Further, we iterate and act more quickly with feedback and [here](https://gitlab
 
 ## 🔗 Additional Resources
 
+- [Current Milestone Commitments](https://gitlab.com/groups/gitlab-org/-/boards/7476573) (don't forget to filter by current milestone!)
 - [GitLab Validation Metrics](https://about.gitlab.com/direction/ai-powered/ai_model_validation/ai_evaluation/metrics/)
 - [GitLab Evaluation Procedure](https://about.gitlab.com/direction/ai-powered/ai_model_validation/ai_evaluation/procedures/)
 - [Blog: How we validate and test at scale](https://about.gitlab.com/blog/2024/05/09/developing-gitlab-duo-how-we-validate-and-test-ai-models-at-scale/)

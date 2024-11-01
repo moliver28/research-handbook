@@ -39,10 +39,10 @@ Navigate to career development resources located throughout the GitLab handbook:
     <a href="{{< ref "self-paced-learning#linux-foundation-courses" >}}" class="btn btn-primary" style="margin:5px;">Linux Foundation Courses</a>
     <a href="{{< ref "self-paced-learning#oreilly-learning" >}}" class="btn btn-primary" style="margin:5px;">O'Reilly Learning</a>
     <a href="{{< ref "self-paced-learning#gcp-learning" >}}" class="btn btn-primary" style="margin:5px;">GCP Learning</a>
-    <a href="/handbook/total-rewards/benefits/general-and-entity-benefits/growth-and-development#professional-developmentcertificationslicenses" class="btn btn-primary" style="margin:5px;">Professional Certifications</a>
-    <a href="/handbook/total-rewards/benefits/general-and-entity-benefits/growth-and-development#workshops-and-conferences" class="btn btn-primary" style="margin:5px;">Attend a Workshop/Conference</a>
-    <a href="/handbook/total-rewards/benefits/general-and-entity-benefits/growth-and-development#crucial-conversations-training" class="btn btn-primary" style="margin:5px;">Crucial Conversations</a>
-    <a href="/handbook/total-rewards/benefits/general-and-entity-benefits/growth-and-development#academic-study" class="btn btn-primary" style="margin:5px;">Academic Study</a>
+    <a href="/handbook/people-group/learning-and-development/growth-and-development/#professional-developmentcertificationslicenses" class="btn btn-primary" style="margin:5px;">Professional Certifications</a>
+    <a href="/handbook/people-group/learning-and-development/growth-and-development/#workshops-and-conferences" class="btn btn-primary" style="margin:5px;">Attend a Workshop/Conference</a>
+    <a href="/handbook/people-group/learning-and-development/growth-and-development/#crucial-conversations-training" class="btn btn-primary" style="margin:5px;">Crucial Conversations</a>
+    <a href="/handbook/people-group/learning-and-development/growth-and-development/#academic-study" class="btn btn-primary" style="margin:5px;">Academic Study</a>
     <a href="/job-families/expert/merge-request-coach" class="btn btn-primary" style="margin:5px;">MR Coaching</a>
     <a href="https://levelup.gitlab.com/access/saml/login/internal-team-members?returnTo=https://levelup.gitlab.com/learn/course/teamops" class="btn btn-primary" style="margin:5px;">TeamOps Certification</a>
     <a href="https://about.gitlab.com/company/culture/inclusion/tmrg-gitlab-women/" class="btn btn-primary" style="margin:5px;">#IamRemarkable Workshop</a>
@@ -69,9 +69,9 @@ Navigate to career development resources located throughout the GitLab handbook:
   <div>
     <a href="/handbook/ceo/shadow" class="btn btn-primary" style="margin:5px;">CEO Shadow</a>
     <a href="{{< ref "office-of-the-ceo#chief-of-staff-shadow" >}}" class="btn btn-primary" style="margin:5px;">Chief of Staff to CEO Shadow</a>
-    <a href="https://about.gitlab.com/handbook/finance/growth-and-development/cfo-shadow-program/" class="btn btn-primary" style="margin:5px;">CFO Shadow</a>
-    <a href="https://about.gitlab.com/handbook/marketing/cmo-shadow/" class="btn btn-primary" style="margin:5px;">CMO Shadow</a>
-    <a href="https://about.gitlab.com/handbook/engineering/fellow/shadow/" class="btn btn-primary" style="margin:5px;">Engineering Fellow</a>
+    <a href="https://handbook.gitlab.com/handbook/finance/growth-and-development/cfo-shadow-program/" class="btn btn-primary" style="margin:5px;">CFO Shadow</a>
+    <a href="https://handbook.gitlab.com/handbook/marketing/cmo-shadow/" class="btn btn-primary" style="margin:5px;">CMO Shadow</a>
+    <a href="https://handbook.gitlab.com/handbook/engineering/fellow/shadow/" class="btn btn-primary" style="margin:5px;">Engineering Fellow</a>
     <a href="{{< ref "security-shadow" >}}" class="btn btn-primary" style="margin:5px;">Security Team Shadow</a>
     <a href="https://gitlab.com/gitlab-com/support/support-team-meta/-/blob/master/.gitlab/issue_templates/Support%20Shadow%20Program.md" class="btn btn-primary" style="margin:5px;">Support Team Shadow</a>
   </div>
@@ -101,7 +101,7 @@ A live speaker series hosted in March 2022 with [Lavinia Mehedintu](https://www.
 
 1. 70% of your development should come from on-the-job and action learning.  This can include development experiences like managing a project, serving on a cross-functional team, taking on a new task, job shadowing, job rotation, etc.
 1. 20% of your development should come from interactions with others.  This includes having a mentor, being a mentor, coaching, participating in communities of practice, providing and receiving feedback, serving as a leader in your organization, etc.
-1. 10% of your development should come from training, including classes, seminars, webinars, podcasts, reading, conferences, etc. GitLab offers a [growth and development benefit](/handbook/total-rewards/benefits/general-and-entity-benefits/growth-and-development) to help with this.
+1. 10% of your development should come from training, including classes, seminars, webinars, podcasts, reading, conferences, etc. GitLab offers a [growth and development benefit](/handbook/people-group/learning-and-development/growth-and-development/) to help with this.
 
 ### Career Development versus Career Mobility
 
@@ -114,9 +114,9 @@ You are encouraged to learn and develop skills without pressure to in turn seek 
 | Development | Choosing and building a career path that accelerates professional growth. | Learn new skills, complete a course, be a mentee |
 | Mobility | Career mobility involves both lateral (promotions) and horizontal (transfers) movement along a career path. Mobility involves applying experience and skills as leverage for a new role. | Mentor to learn leadership skills with the intention of applying for a manager role; Complete a job shadow or internship and upskill to transfer to a new team. |
 
-### Career Development and Wellbeing
+### Career Development and Well-being
 
-Watch this live speaker series where we talk to Leah Weiss of [Skylyte](https://www.skylyte.com/) about the connection between wellbeing, purpose, and our career growth.
+Watch this live speaker series where we talk to Leah Weiss of Skylyte about the connection between well-being, purpose, and our career growth.
 
 {{< youtube "2XmmGYlsEP8" >}}
 
@@ -232,7 +232,7 @@ Team Members: Take the [Support your team with Career Conversations course in Le
 Managers should support their direct reports with their professional development goals. Implement the following into a [1-1]({{< ref "1-1" >}}), team meeting, or async communication to support your team.
 
 1. Encourage team members to create an [Individual Growth Plan]({{< ref "career-development#individual-growth-plan" >}}) or use [GitLab Epics to track their career development]({{< ref "career-development#use-gitlab-epics-to-track-your-career-development" >}}).
-1. Utilize the [Growth & Development Benefit](/handbook/total-rewards/benefits/general-and-entity-benefits/growth-and-development).
+1. Utilize the [Growth & Development Benefit](/handbook/people-group/learning-and-development/growth-and-development/).
 1. Recommend (and model) blocking [time to learn during the work week]({{< ref "learning-initiatives#take-time-out-to-learn-campaign" >}}).
 1. Organize team specific and cross-functional learning communities to practice [social learning]({{< ref "learning-initiatives#social-learning-through-live-learning" >}}).
 1. Model and share your own career and professional development pursuits.
@@ -249,13 +249,13 @@ Managers should support their direct reports with their professional development
 
 ### Inclusive Growth
 
-It’s critical to understand how the diverse experiences and perspectives of individuals influence their approach to career growth. Without the right support, behaviors by team members [from underrepresented groups](/handbook/company/culture/inclusion/#examples-of-select-underrepresented-groups) might influence their growth. Consider how the following might influence growth on your team
+It's critical to understand how the diverse experiences and perspectives of individuals influence their approach to career growth. Without the right support, behaviors by team members [from underrepresented groups](/handbook/company/culture/inclusion/#examples-of-select-underrepresented-groups) might influence their growth. Consider how the following might influence growth on your team
 
 | Behavior | Example |
 | ----- | --------------- |
-| Raised Hands | Who opts in? Who doesn’t? Who’s your go to person for stretch projects? Lack of opting in might be influenced by imposter syndrome, not a lack of interest. |
-| Starting the Conversation | Who already set up career conversations with you? Who hasn’t? Like opting in, this could indicate different expectations of growth rather than disinterest. |
-| Stretch Projects | Share equitably across your team. Be aware of who got the last opportunity. Ask open and honestly about everyone’s interests and capacity before allocating stretch projects. |
+| Raised Hands | Who opts in? Who doesn't? Who's your go to person for stretch projects? Lack of opting in might be influenced by imposter syndrome, not a lack of interest. |
+| Starting the Conversation | Who already set up career conversations with you? Who hasn't? Like opting in, this could indicate different expectations of growth rather than disinterest. |
+| Stretch Projects | Share equitably across your team. Be aware of who got the last opportunity. Ask open and honestly about everyone's interests and capacity before allocating stretch projects. |
 | Beyond Work | Consider the jobs we have outside of work. These responsibilities might influence our career growth but do not have to limit it. |
 | Cultural|  Career growth expectations vary around the world. Ask your team individually about their expectations rather than making assumptions based on your experience. |
 | Bias | Biases that might especially be prevalent in career conversations could include past roles and companies, performance, and authority. |
@@ -345,7 +345,7 @@ The bi-annual cadence is not required, but recommended. Some team members may pr
 
 ## E-Group Performance Enablement Review
 
-Each member of the E-Group will have a performance conversation with their direct manager, the [CEO](/handbook/company/team/#sytses), at the beginning of the new fiscal year. These conversations will assess alignment to each of our [credit values]({{< ref "values#credit" >}}), performance and personal development.
+Each member of the E-Group will have a performance conversation with their direct manager, the [CEO](/handbook/company/team/#sytses), at the beginning of the new fiscal year. These conversations will assess alignment to each of our [credit values](/handbook/values/#credit), performance and personal development.
 
 The E-Group will follow a similar process to our GitLab team member process with the additional requirement of a [self review](https://docs.google.com/document/d/1pi-nv6NtMejosVOXlr1O4rZGxmGUzuN01OMnXn5dxKU/edit#).
 

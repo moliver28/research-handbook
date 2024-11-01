@@ -1,5 +1,4 @@
 ---
-
 title: "Ben King's README"
 description: "README for Ben King (Support Engineer (APAC))"
 job: "Support Engineer (APAC)"
@@ -69,7 +68,7 @@ I have experience with a variety of networking concepts, particularly lower leve
 | Item | Brand |
 | ------ | ------ |
 | Web Camera | [Logitech C920 HD PRO WEBCAM](https://www.logitech.com/en-au/products/webcams/c920-pro-hd-webcam.960-000770.html) |
-| Microphone | [Audio-Technica AT2005USB](https://audio-technica.com.au/available-now-at2005usb-home-recording-podcasting-live-performance/) |
+| Microphone | [Audio-Technica AT2005USB](https://www.audio-technica.com/en-us/at2005usb) |
 | Chair | [AK Racing K7](https://ak-racing.com.au/products/akracing-k7012-gaming-chair-black-blue) |
 | Monitor | [Kogan 34" 144Hz Ultrawide](https://www.kogan.com/au/buy/kogan-34-wqhd-curved-219-ultrawide-144hz-hdr-gaming-monitor-3440-x-1440/) |
 | Headphones | [Sony Noise Cancelling WH1000XM4](https://www.sony.com.au/electronics/headband-headphones/wh-1000xm4) |

@@ -1,7 +1,5 @@
 ---
 title: "Developer Advocacy Community Response Process"
-aliases:
-- /handbook/marketing/developer-relations/developer-evangelism/community-response/index.html
 ---
 
 ## How to engage developer advocates in community response

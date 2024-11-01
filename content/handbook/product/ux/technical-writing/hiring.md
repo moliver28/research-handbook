@@ -22,7 +22,7 @@ The following people interview the candidate for a Technical Writing role:
 - Product Manager or Customer Support representative
 - Technical Writing Senior Manager
 
-The goal is to evaluate the candidate’s technical skills and knowledge, such as:
+The goal is to evaluate the candidate's technical skills and knowledge, such as:
 
 - Tooling experience
 - Communication skills
@@ -120,7 +120,7 @@ Be kind. Thank them for their time and interest.
 
 ### After the interview
 
-Fill out the candidate’s scorecard in Greenhouse.
+Fill out the candidate's scorecard in Greenhouse.
 
 **Takeaways**
 

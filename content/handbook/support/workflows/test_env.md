@@ -1,11 +1,8 @@
 ---
-
 title: Testing Environment
 category: Infrastructure for troubleshooting
 description: "Support Engineer test environment setup options and guidelines"
 ---
-
-
 
 ## Selecting the Right Testing Environment
 
@@ -13,7 +10,7 @@ Support Engineers need testing environments to learn how to support GitLab and a
 
 This page explains the main choices available to you. Some guidelines:
 
-1. You should choose a way to spin up a specific version of GitLab quickly so that you can replicate customer issues. The current recommended way to do this is to use [GitLab Sandbox Cloud](/handbook/infrastructure-standards/realms/sandbox/#how-to-get-started). Each specific module that you'll be using has its own `README.md` in the deployment projects, so make sure to give that a read as well.
+1. You should choose a way to spin up a specific version of GitLab quickly so that you can replicate customer issues. The current recommended way to do this is to use [GitLab Sandbox Cloud](/handbook/company/infrastructure-standards/realms/sandbox/#how-to-get-started). Each specific module that you'll be using has its own `README.md` in the deployment projects, so make sure to give that a read as well.
 1. Testing locally is also recommended - configuring Docker Engine / VM based system (details below) to your taste will let you quickly spin up a specific GitLab version.
 1. You will need licenses for all self-managed tiers so you can match the features available with your customer's features - see the next section.
 1. For most testing, a single box Omnibus installation will be fine.
@@ -55,14 +52,14 @@ GCP resources can belong to different [GCP projects](https://cloud.google.com/st
 
 #### GitLab Sandbox Cloud for GCP (preferred)
 
-If you need flexibility for creating test environments, the [GitLab Sandbox Cloud](/handbook/infrastructure-standards/realms/sandbox/#how-to-get-started) allows for creating a personally-owned GCP projects. You can create test resources using the [GCP console](https://console.cloud.google.com/home/dashboard), or [gcloud command line tool](https://cloud.google.com/sdk/gcloud). If you need to replicate any of the [Reference Architectures](https://docs.gitlab.com/ee/administration/reference_architectures/), it's recommended that you use the [GitLab Environment Toolkit](https://gitlab.com/gitlab-org/gitlab-environment-toolkit).
+If you need flexibility for creating test environments, the [GitLab Sandbox Cloud](/handbook/company/infrastructure-standards/realms/sandbox/#how-to-get-started) allows for creating a personally-owned GCP projects. You can create test resources using the [GCP console](https://console.cloud.google.com/home/dashboard), or [gcloud command line tool](https://cloud.google.com/sdk/gcloud). If you need to replicate any of the [Reference Architectures](https://docs.gitlab.com/ee/administration/reference_architectures/), it's recommended that you use the [GitLab Environment Toolkit](https://gitlab.com/gitlab-org/gitlab-environment-toolkit).
 
 **Note:** Please remember to shut down resources that you are no longer using.
-We are now using [automation scripts](https://gitlab.com/gitlab-com/gl-security/threatmanagement/vulnerability-management/vulnerability-management-internal/instance-ttl-automation) to shutdown resources over the weekend. To exclude your resources from being shutdown you'll need to add the `instance-ttl-bot-ignore` label to those resrouces.
+We are now using [automation scripts](https://gitlab.com/gitlab-com/gl-security/product-security/vulnerability-management/vulnerability-management-internal/instance-ttl-automation) to shutdown resources over the weekend. To exclude your resources from being shutdown you'll need to add the `instance-ttl-bot-ignore` label to those resources.
 
 ##### Managing your GCP resources automatically
 
-You can use [Terraform Environments](/handbook/infrastructure-standards/realms/sandbox/#terraform-environments) to automatically manage GCP resources in your personally-owned GCP projects. If you are after a simple Omnibus machine with a runner, select `support-resources-template-v2-########` template. Feel free to also explore other available [Project templates](https://gitlab.com/gitlab-com/infra-standards/project-templates) to deploy [GitLab Environment Toolkit](https://gitlab.com/gitlab-org/gitlab-environment-toolkit) or create a GKE cluster that already has GitLab installed through Helm chart.
+You can use [Terraform Environments](/handbook/company/infrastructure-standards/realms/sandbox/#terraform-environments) to automatically manage GCP resources in your personally-owned GCP projects. If you are after a simple Omnibus machine with a runner, select `support-resources-template-v2-########` template. Feel free to also explore other available [Project templates](https://gitlab.com/gitlab-com/infra-standards/project-templates) to deploy [GitLab Environment Toolkit](https://gitlab.com/gitlab-org/gitlab-environment-toolkit) or create a GKE cluster that already has GitLab installed through Helm chart.
 
 Note that these environments are ephemeral.
 
@@ -70,7 +67,7 @@ Check out a [this demo video](https://www.youtube.com/watch?v=aBF-AyQiFfA) for d
 
 #### Other GCP Projects
 
-You can use the `support-resources` project to manually create resources in a GCP testing environment alongside the resources created by our [automation tools](https://gitlab.com/gitlab-com/support/support-resources/-/blob/master/README.md). As with the [GitLab Sandbox Cloud](/handbook/infrastructure-standards/realms/sandbox/#how-to-get-started) for GCP - you can manage these manually created resources using the [GCP console](https://console.cloud.google.com/home/dashboard?project=support-resources-c801eb), or [gcloud command line tool](https://cloud.google.com/sdk/gcloud).
+You can use the `support-resources` project to manually create resources in a GCP testing environment alongside the resources created by our [automation tools](https://gitlab.com/gitlab-com/support/support-resources/-/blob/master/README.md). As with the [GitLab Sandbox Cloud](/handbook/company/infrastructure-standards/realms/sandbox/#how-to-get-started) for GCP - you can manage these manually created resources using the [GCP console](https://console.cloud.google.com/home/dashboard?project=support-resources-c801eb), or [gcloud command line tool](https://cloud.google.com/sdk/gcloud).
 
 **Warning:** You may also have access to the `gitlab-internal` and `gitlab-support` GCP projects. It's strongly recommended that you make use of the `support-resources` project or the GitLab Sandbox Cloud, instead of creating new resources in these projects.
 
@@ -98,13 +95,13 @@ There's also a few disadvantages to using the project:
 1. Less granularity - while you can identify all the resources a user is running, having one's personal GCP project brings a lot more granularity to the data about each individual user.
 1. Isolation - while the `Support-Resources` automation project is good at preventing resources conflicts, those can still happen as everybody has access to the pool of resources (so accidents can and have happened). In a personal GCP project one can, among other things, restrict access to their resources.
 1. Familiarity with GCP - when using the `Support-Resources` project a lot of the intricacies of using GCP are performed beneath the covers. Having your own GCP projects will expose you to the complexity of setting things up manually or automating that yourself.
-1. Sandbox Cloud is the emerging company standard. For more history and details on the sets of problems it solves, see the [Sandbox Cloud Context and Problem Statement](/handbook/infrastructure-standards/realms/sandbox/#background-context-and-problem-statement)
+1. Sandbox Cloud is the emerging company standard. For more history and details on the sets of problems it solves, see the [Sandbox Cloud Context and Problem Statement](/handbook/company/infrastructure-standards/realms/sandbox/#background-context-and-problem-statement)
 
 #### GCP GKE Kubernetes Cluster
 
-Please use your [GitLab Sandbox Cloud](/handbook/infrastructure-standards/realms/sandbox/#how-to-get-started) GCP project to create a GCP Kubernetes (GKE) cluster. You can create a GKE cluster manually from the console or you can use the [Support GKE cluster template](https://gitlab.com/gitlab-com/infra-standards/project-templates/support-gke-cluster-template) (for an empty GKE cluster) or  [Support GitLab GKE cluster template](https://gitlab.com/gitlab-com/infra-standards/project-templates/support-gitlab-gke-template) (for a GKE cluster with a GitLab helm deployment) from your [GitLab Sandbox account](https://gitlabsandbox.cloud/cloud). Click [here](/handbook/infrastructure-standards/realms/sandbox/#how-to-create-a-terraform-environment) for more information on spinning up resources with terraform in the GitLab Sandbox.
+Please use your [GitLab Sandbox Cloud](/handbook/company/infrastructure-standards/realms/sandbox/#how-to-get-started) GCP project to create a GCP Kubernetes (GKE) cluster. You can create a GKE cluster manually from the console or you can use the [Support GKE cluster template](https://gitlab.com/gitlab-com/infra-standards/project-templates/support-gke-cluster-template) (for an empty GKE cluster) or  [Support GitLab GKE cluster template](https://gitlab.com/gitlab-com/infra-standards/project-templates/support-gitlab-gke-template) (for a GKE cluster with a GitLab helm deployment) from your [GitLab Sandbox account](https://gitlabsandbox.cloud/cloud). Click [here](/handbook/company/infrastructure-standards/realms/sandbox/#how-to-create-a-terraform-environment) for more information on spinning up resources with terraform in the GitLab Sandbox.
 
-**Note:** If you are using GKE to test GitLab Runners, note that GitLab Runners require the use of [RBAC roles in GCP](https://cloud.google.com/kubernetes-engine/docs/how-to/role-based-access-control). The `support-resources` GCP project  does not allow the user enough permision to create the required roles, but you can do it with your personal [GitLab Sandbox Cloud](/handbook/infrastructure-standards/realms/sandbox/#how-to-get-started) GCP project
+**Note:** If you are using GKE to test GitLab Runners, note that GitLab Runners require the use of [RBAC roles in GCP](https://cloud.google.com/kubernetes-engine/docs/how-to/role-based-access-control). The `support-resources` GCP project  does not allow the user enough permission to create the required roles, but you can do it with your personal [GitLab Sandbox Cloud](/handbook/company/infrastructure-standards/realms/sandbox/#how-to-get-started) GCP project
 
 <details>
 <summary>Open me for instructions on how to manually create GKE on your own project.</summary>
@@ -123,7 +120,7 @@ Connecting to, and configuring, your cluster can be done locally using [gcloud](
 
 ### AWS Testing Environment
 
-Please use [Sandbox Cloud](/handbook/infrastructure-standards/realms/sandbox/#how-to-get-started) to create credentials for AWS.
+Please use [Sandbox Cloud](/handbook/company/infrastructure-standards/realms/sandbox/#how-to-get-started) to create credentials for AWS.
 
 #### EKS testing Environment with Helm
 
@@ -131,7 +128,7 @@ Please use [Sandbox Cloud](/handbook/infrastructure-standards/realms/sandbox/#ho
 <summary>Open me for instructions on how to quickly create an EKS deployment using Helm</summary>
 <div markdown="1">
 
-The following guide is designed to help you quickly deploy a Kubenertes environment using EKS and Helm for testing purposes on this environment.
+The following guide is designed to help you quickly deploy a Kubernetes environment using EKS and Helm for testing purposes on this environment.
 
 Pre-requisites:
 
@@ -251,7 +248,7 @@ Once these steps are completed you can visit your GitLab instance using `gitlab.
 - When creating a new cluster you will need to run:
 
 1. `./eks_bootstrap_script up`.
-1. Create kuberetes secrets as before.
+1. Create Kubernetes secrets as before.
 1. Deploy your Helm chart.
 1. Update your CNAME with the new loadbalancer in your registrar.
 
@@ -322,13 +319,13 @@ In addition, you can find official, platform-specific documentation of features 
 
 To be in line with [GitLab's encryption policy](/handbook/security/product-security/vulnerability-management/encryption-policy), TLS should also be implemented on public-facing testing resources.
 
-For GitLab instances specifically, it's recommended that [LetsEncrypt is manually enabled for Omnibus installs](https://docs.gitlab.com/omnibus/settings/ssl.html#primary-gitlab-instance).  First, you'll need a domain assigned to your external IP regardless of your cloud platform.  Enabling LetsEncrypt for Omnibus installs is well documented at the link above.
+For GitLab instances specifically, it's recommended that [LetsEncrypt is manually enabled for Omnibus installs](https://docs.gitlab.com/omnibus/settings/ssl/).  First, you'll need a domain assigned to your external IP regardless of your cloud platform.  Enabling LetsEncrypt for Omnibus installs is well documented at the link above.
 
 #### Self-Signed Certificates
 
  Implementing TLS on any test instance that includes a login page can be done with a self-signed certificate if desired.  Self-signed certificates are free, suitable for testing environments, and encrypt ingress and egress traffic with the same ciphers as paid certificates.  The down-side is that self-signed certificates are not trusted by any browser or operating system and will therefore warn users of the risks when accessing a site that utilizes a self-signed (untrusted) certificate.  If external parties will be accessing your instance that should rely on your TLS implementation, it's best to include a signed certificate from a legitimate certificate authority.
 
-Self-signed certicificates can be generated with a tool like [mkcert](https://mkcert.dev). Once `mkcert` has been installed, you can this command to generate a certificate file and a key file for `gitlab.example.com`:
+Self-signed certificates can be generated with a tool like [`mkcert`](https://mkcert.dev). Once `mkcert` has been installed, you can this command to generate a certificate file and a key file for `gitlab.example.com`:
 
 ```sh
 mkcert gitlab.example.om
@@ -395,9 +392,9 @@ This guide involves configuring and setting up VMWare and Docker locally and ass
 
 #### Install VMWare (paid)
 
-1. Navigate to [VMWare store](https://store.vmware.com), and then purchase
-   **VMware Fusion 10 (for macOS)** (or current version).
-1. Download **VMware Fusion 10 (for macOS)** using the provided link.
+1. Navigate to [VMWare store](https://www.vmware.com/products/desktop-hypervisor/workstation-and-fusion), and then purchase
+   **VMWare Fusion 10 (for macOS)** (or current version).
+1. Download **VMWare Fusion 10 (for macOS)** using the provided link.
 1. Install VMWare Fusion 10.
 1. Launch VMWare Fusion.
 1. When prompted, enter the license details.
@@ -457,7 +454,7 @@ Multipass is a tool to generate cloud-style Ubuntu VMs quickly on Linux, macOS, 
 
 It can be [installed using brew](https://multipass.run/docs/installing-on-macos#heading--use-brew) or the [package installer](https://multipass.run/docs/installing-on-macos#heading--use-the-installer-package).
 
-NOTE: Some Mac users may experience a [long standing bug](https://github.com/canonical/multipass/issues/2387) where the MacOS firewall prevents Multipass from functioning consistenstly. Use macOS 13.3.1 or above to avoid this issue.
+NOTE: Some Mac users may experience a [long standing bug](https://github.com/canonical/multipass/issues/2387) where the MacOS firewall prevents Multipass from functioning consistently. Use macOS 13.3.1 or above to avoid this issue.
 
 Once installed, use `multipass help` to get an idea of what it can do. The general format is `multipass <command> <name>`.
 
@@ -483,15 +480,15 @@ Once installed, use `multipass help` to get an idea of what it can do. The gener
    apt install -y "gitlab-ee=$GL_VERSION-ee.0"
    ```
 
-   ***Please note:*** You need to replace the above password entry "your_root_password" with an alphanumeric password which is not a series of words and phrases otherwise you will encounter the error message "Password must not contain commonly used combinations of words and letters”.
+   ***Please note:*** You need to replace the above password entry "your_root_password" with an alphanumeric password which is not a series of words and phrases otherwise you will encounter the error message "Password must not contain commonly used combinations of words and letters".
 
-1. Run the following one-liner. If you’d like to increase/decrease memory or disk, replace with the appropriate values. You can use `multipass help launch` for more details on this command.
+1. Run the following one-liner. If you'd like to increase/decrease memory or disk, replace with the appropriate values. You can use `multipass help launch` for more details on this command.
 
    ```bash
    multipass launch --cpus 4 --memory 8G --disk 10G --name gitlab-omnibus && multipass mount ~/mp_mount/ gitlab-omnibus:/mp_mount && multipass exec gitlab-omnibus -- sh -c 'sudo sh /mp_mount/install-omnibus.sh'
    ```
 
-1. You’re finished! Use `multipass shell gitlab-omnibus` to access your instance. Additionally:
+1. You're finished! Use `multipass shell gitlab-omnibus` to access your instance. Additionally:
     - `multipass list` or `multipass ls` to see all instances
     - `multipass stop gitlab-omnibus` to stop the instance
     - `multipass delete gitlab-omnibus` to delete the instance
@@ -586,7 +583,7 @@ docker-machine create \
 --driver virtualbox $ENV_NAME
 ```
 
-- Resource: [https://docs.docker.com/machine/drivers/virtualbox/](https://docs.docker.com/machine/drivers/virtualbox/)
+- Resource: [https://web.archive.org/web/20210619101324/https://docs.docker.com/machine/drivers/virtualbox/](https://web.archive.org/web/20210619101324/https://docs.docker.com/machine/drivers/virtualbox/)
 
 ### Creating GitLab test instance with docker machine
 
@@ -684,9 +681,9 @@ docker exec -it gitlab-ee gitlab-ctl reconfigure
 
 #### Resources
 
-- [https://docs.gitlab.com/omnibus/docker/](https://docs.gitlab.com/omnibus/docker/)
-- [https://docs.docker.com/machine/get-started/](https://docs.docker.com/machine/get-started/)
-- [https://docs.docker.com/machine/reference/ip/](https://docs.docker.com/machine/reference/ip/)
+- <https://docs.gitlab.com/ee/install/docker.html>
+- <https://web.archive.org/web/20210619101324/https://docs.docker.com/machine/get-started/>
+- <https://web.archive.org/web/20210619101324/https://docs.docker.com/machine/reference/ip/>
 
 ## Windows
 
@@ -695,5 +692,5 @@ even the [Kubernetes Executor in a Mixed Cluster](https://docs.gitlab.com/runner
 
 The options are the same as above:
 
-- Cloud environements: GCP and AWS have Windows Server images you can spin up to connect to via RDP.
+- Cloud environments: GCP and AWS have Windows Server images you can spin up to connect to via RDP.
 - A local environment: Microsoft provides [pre-packeged Windows VMs](https://developer.microsoft.com/en-us/windows/downloads/virtual-machines/) for your hypervisor of choice.

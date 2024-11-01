@@ -1,5 +1,4 @@
 ---
-
 title: "Philippe Lafoucrière README"
 job: "Security Architect"
 ---
@@ -45,14 +44,14 @@ updates on issues where I've been involved, without getting pinged explicitly.
 You can always book a slot in my agenda (during working hours) if you want to talk to me, no need to
 ask.
 
-My English is not perfect. The best way for me to improve is to correct myself when I’m using wrong
+My English is not perfect. The best way for me to improve is to correct myself when I'm using wrong
 words or expressions.
 
-Also, you can tell I’m tired when my English is worse than usual!
+Also, you can tell I'm tired when my English is worse than usual!
 
 ### My working style
 
-I live by our [values]({{< ref "values" >}}) and embrace every one of them as much as I can. By
+I live by our [values](/handbook/values/) and embrace every one of them as much as I can. By
 default, I will go async via an issue or a merge request. I create a lot of issues, but they do not
 all translate into an action item. I use issues as a placeholder for discussions too. Sometimes,
 it's to document why I or we think it's not a good idea to do something. We can re-evaluate the
@@ -77,15 +76,15 @@ Having managed a company for a decade, I have an affinity for:
 
 ### Typical workday
 
-I wake up at 6 am, exercise until 8 am, breakfast until 8:30 am I usually don’t work before
+I wake up at 6 am, exercise until 8 am, breakfast until 8:30 am I usually don't work before
 this time, but always check my emails and slack messages when I wake up (old CEO habit).
 
 I take a 1-hour break for lunch, usually between 11:30 am - 12:30 pm.
 
 I end the day around 6 pm to cook dinner for the family.
 
-I get back to the computer between 7 and 8 pm After that, Slack and emails are still in “monitor
-mode”, but it’s usually family time.
+I get back to the computer between 7 and 8 pm After that, Slack and emails are still in "monitor
+mode", but it's usually family time.
 
 ### Projects
 

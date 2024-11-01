@@ -191,7 +191,7 @@ The Manager, Billing is a [grade 8](/handbook/total-rewards/compensation/compens
 
 #### Manager, Billing Operations Requirements
 
-- Bachelor’s degree in Accounting/Finance or equivalent experience
+- Bachelor's degree in Accounting/Finance or equivalent experience
 - 5+ Years of experience in billing and collections
 - 3+ Years experience with Zuora and Salesforce from quote to cash
 - Proven ability to perform strategic planning and set priorities for a billing department
@@ -328,7 +328,7 @@ The Director, Billing and Collections is a [grade 11](/handbook/total-rewards/co
 
 - [Average days of sales outstanding](/handbook/finance/accounting/#accounts-receivable-performance-indicators)
 - [Time for Invoices to be generated when a deal is closed won in Salesforce](/handbook/finance/accounting/#accounts-receivable-performance-indicators)
-- [Percentage of ineffective Sox Controls](/handbook/internal-audit/#performance-measures-for-accounting-and-finance-function-related-to-audit)
+- [Percentage of ineffective Sox Controls](https://internal.gitlab.com/handbook/internal-audit/#performance-measures-for-accounting-and-finance-function-related-to-audit)
 
 ## Career Ladder
 

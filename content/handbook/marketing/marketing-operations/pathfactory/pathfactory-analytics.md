@@ -1,14 +1,7 @@
 ---
-
 title: "PathFactory Analytics"
 description: "All roles and permissions have access to reporting functionality in PathFactory."
 ---
-
-
-
-
-
-
 
 ## PathFactory Analytics
 
@@ -33,7 +26,7 @@ If you are using Safari as your preferred browser, ensure `Prevent cross-site tr
 
 ### Explore Page Analytics
 
-1. [Explore Page Analytics](https://lookbookhq.force.com/nook/s/article/explore-page-analytics)
+1. [Explore Page Analytics](https://support.pathfactory.com/kb/how-to-view-explore-page-performance-analytics/)
 
 ### ABM Analytics
 

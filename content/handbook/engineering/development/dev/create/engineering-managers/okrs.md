@@ -1,13 +1,6 @@
 ---
-
 title: Objectives & Key Results (OKRs)
 ---
-
-
-
-
-
-
 
 ## Cascading OKRs
 

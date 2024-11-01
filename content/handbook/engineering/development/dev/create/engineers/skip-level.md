@@ -1,14 +1,7 @@
 ---
-
 title: "Managing Effective Skip Level Meetings"
 description: This page describes how we implement Skip Level Meetings.
 ---
-
-
-
-
-
-
 
 ## Why are Skip Level meetings important?
 
@@ -123,7 +116,7 @@ The Senior Manager will use this opportuntity to say thank you to the team membe
 
 - What's one thing your team should stop doing? Why did you choose that?
 - How is your / your team's workload? Do you feel it's too little, too much, or the right amount?
-- What do you think your team does really well?  
+- What do you think your team does really well?
 - Can you describe the last major project you worked on? What's one thing that could be improved?
 
 **Giving Praise to your team**

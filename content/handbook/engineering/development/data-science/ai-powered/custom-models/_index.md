@@ -1,7 +1,6 @@
 ---
 title: Custom Models Group
 description: "The Custom Models group focuses on additional, custom models that power GitLab Duo functionality in support of our customers unique data and use-cases."
-aliases: /handbook/engineering/development/data-science/custom-models
 ---
 
 ## Vision
@@ -44,9 +43,9 @@ Issues owned by the Custom Models group should have these labels, as appropriate
 
 - `~"group::custom models"`
 - `~"devops::ai-powered"`
-- `~"section::dev"`
-- `~"category::model personalization"`
-- `~"category::self-hosted model deployment"`
+- `~"section::data science"`
+- `~"Category:Model personalization"`
+- `~"Category:Self-Hosted models"`
 
 In addition, issues should contain the relevant `~type:` and subtype labels.
 
@@ -74,7 +73,7 @@ The [Planning Board](https://gitlab.com/groups/gitlab-org/-/boards/7472416?miles
 
 ### Ready for Development Status
 
-Issues that are ready to be worked on by an engineer are labelled `workflow::ready for development`. Only issues with this label should be assigned to an engineer as a Deliverable. If research is required, the `~spike` label is assigned, but the scope of the spike should be clearly stated in the issue and an outcome might be code written or a refined issue created.
+Issues that are ready to be worked on by an engineer are labeled `workflow::ready for development`. Only issues with this label should be assigned to an engineer as a Deliverable. If research is required, the `~spike` label is assigned, but the scope of the spike should be clearly stated in the issue and an outcome might be code written or a refined issue created.
 
 ### Capacity Planning Spreadsheet
 
@@ -103,7 +102,7 @@ The [Next 1-3](https://gitlab.com/groups/gitlab-org/-/boards/7472817?milestone_t
 
 | Board       | Filters           | Columns            |
 |-------------|-------------------|--------------------|
-| Planning Board | Milestone, `~group::custom models`, `~planning priority` | `~type::bug`, `~type::maintenance`, `~type::feature` |
+| Planning Board | Milestone, `~group::custom models` | `~type::bug`, `~type::maintenance`, `~type::feature` |
 | Build Board    | Milestone, `~group::custom models`, `~Deliverable` | `~workflow::ready for development`, `~workflow::in dev`, `~workflow::in review`, `~workflow::awaiting security release`, `~workflow::blocked` |
 | Next 1-3 Milestones | `%Next 1-3 Milestones` | `~workflow::problem validation`, `~workflow::problem validation`, `~workflow::design`, `~workflow::solution validation`, `~workflow::planning breakdown`, `~workflow::ready for development`     |
 | Next 4-6 Milestones | `%Next 4-6 Milestones` | Same as `Next 1-3 Milestones`     |
@@ -132,6 +131,18 @@ The Custom Models communicates based on the following guidelines:
 1. The primary channel for work-related communication is the [#g_custom_models](https://gitlab.enterprise.slack.com/archives/C06DCB3N96F) Slack channel.
 1. Internal team issues and projects are namespaced under [`gitlab-org/ai-powered/custom-models`](https://gitlab.com/gitlab-org/ai-powered/custom-models)
 
+## LLM Judges
+
+In developing LLM-backed applications, the Custom Models team can use different LLMs as judges 
+for model evaluation purposes. The Custom Models team has been granted permission to use OpenAI models as Judges, with these requirements:
+
+- With respect to inputs, be sure not to provide any proprietary, SAFE, or otherwise sensitive information as an input to OpenAI models, as OpenAI is permitted to use our inputs to improve their services.
+- With respect to outputs, as per our usual restriction, please ensure that no ChatGPT- or GPT-generated outputs are added to GitLab issues, MRs, marketing materials, or other content.
+- We can’t automatically or programmatically extract data or output from the models, i.e. likely no automated benchmarking. Similarly, we can’t interfere with or disrupt their services, including circumvent any rate limits or restrictions.
+- We can opt out of OpenAI using our inputs/outputs to train their models so please do so by following the instructions [here](https://help.openai.com/en/articles/5722486-how-your-data-is-used-to-improve-model-performance).
+
+See [this internal note](https://gitlab.com/gitlab-org/gitlab/-/issues/470559#note_1997562193) for more context.
+
 ## Asking for help
 
 Don't hesitate to ask for help from other team members via the [#g_custom_models](https://gitlab.enterprise.slack.com/archives/C06DCB3N96F) Slack channel.
@@ -145,7 +156,7 @@ If you are pinged by name in either Slack or GitLab, please acknowledge the ping
 
 ## Time Off
 
-Team members should add any [Paid Time Off](/handbook/people-group/paid-time-off/) in the "Time Off by Deel" slack app, so that the Engineering Manager can use the proper number of days off during capacity planning. Where possible, try to add time off a full milestone in advance.
+Team members should add any [Paid Time Off](/handbook/people-group/paid-time-off/) in the "Workday" slack app, so that the Engineering Manager can use the proper number of days off during capacity planning. Where possible, try to add time off a full milestone in advance.
 
 It is recognised there can always be last-minute, unplanned PTO needs. Please take any time you need, but enter it into PTO Deel and communicate with the EM as soon as you can.
 

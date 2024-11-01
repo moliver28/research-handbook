@@ -33,7 +33,7 @@ Create epic here: https://gitlab.com/groups/gitlab-com/marketing/-/epics/new
 
 * **Channel Marketing Manager:**
 * **Channel Account Manager:**
-* **Tactic/Event Type:** [Select from here](/handbook/resellers/Channel-Program-Guide/MDF/#eligible-activities-and-required-proof-of-performance-mdf-activities) - If your campaign type is not listed, please list other.
+* **Tactic/Event Type:** [Select from here](/handbook/resellers/channel-program-guide/MDF/#eligible-activities-and-required-proof-of-performance-mdf-activities) - If your campaign type is not listed, please list other.
 * **Official Campaign Name:**
 * **Location:** if applicable
 * **Event website:**  if applicable
@@ -68,11 +68,11 @@ Make a copy of the [Planning Spreadsheet](https://docs.google.com/spreadsheets/d
 Please read through the [Event Handbook page](/handbook/marketing/events/#employee-booth-guidelines) for best practices at events. Once you commit to an event, please make sure to plan to attend.
    * [ ] CAM:
    * [ ] Channel SA: If you need an SA to attend, [please follow their triage process](/handbook/marketing/events/#requesting-technical-staffing).
-   * [ ] Speaker: If you need a customer speaker, [please follow the Customer Reference Process](/handbook/marketing/brand-and-product-marketing/product-and-solution-marketing/customer-advocacy/customer-events.html#requesting-a-reference-customer).
+   * [ ] Speaker: If you need a customer speaker, [please follow the Customer Reference Process](/handbook/marketing/brand-and-product-marketing/product-and-solution-marketing/customer-advocacy/customer-events/#requesting-a-reference-customer).
    * [ ] other:
 
 ### Lead follow-up with Channel Partner
-- [ ] Will the partner do initial lead follow-up? YES, based on [process outlined here](/handbook/marketing/channel-marketing/partner-campaigns/#passing-to-vartopia-and-partner-visibility).
+- [ ] Will the partner do initial lead follow-up? YES, based on [process outlined here](/handbook/marketing/marketing-operations/campaigns-and-programs/#passing-to-vartopia-and-partner-visibility).
    - [ ] Please describe how the partner plans to follow-up on leads received from this event/campaign:
 - [ ] Please add any additional, relevant notes regarding the partnership on this event/campaign here:
 
@@ -154,7 +154,7 @@ For all details regarding swag, [please see here](/handbook/marketing/channel-ma
 * [ ] [List Clean and Upload](https://gitlab.com/gitlab-com/marketing/marketing-operations/-/issues/new?issuable_template=mdf-list-upload) - Partner Team creates, assigns to MOps
 * [ ] [Create Proof of Performance Issue](https://gitlab.com/gitlab-com/marketing/partner-marketing//-/issues/new?issuable_template=channel_mdf_pop) - Partner Team creates
 
-/label ~"mktg-status::wip"  ~“Channel Marketing” ~"Channel" ~"MDF"
+/label ~"mktg-status::wip"  ~"Channel Marketing" ~"Channel" ~"MDF"
 /confidential
 ```
 
@@ -165,11 +165,11 @@ For all details regarding swag, [please see here](/handbook/marketing/channel-ma
 ```markdown
 <!-- Name this epic: Name of Event - Date of Event -->
 
-## [Main Issue]() - [template] (https://gitlab.com/gitlab-com/marketing/channel-marketing/-/issues/new?issuable_template=ptnr_mktg_webinar_main_template)
+## [Main Issue]() - template: https://gitlab.com/gitlab-com/marketing/channel-marketing/-/issues/new?issuable_template=ptnr_mktg_webinar_main_template
 
-## [Copy Document](https://docs.google.com/document/d/1w9yMw2DQJ5u1RxC3kYO0ZgQM5TJfKlRiGGjJqVFg1GE/edit?usp=sharing)
+## Copy Document: https://docs.google.com/document/d/1w9yMw2DQJ5u1RxC3kYO0ZgQM5TJfKlRiGGjJqVFg1GE/edit?usp=sharing
 
-## [Dry Run Agenda]() - [template](https://docs.google.com/document/d/1vrdOEV4fbl5bzYpqQcCFnMN6QjuCIc0nRfilP3IvCfM/edit#heading=h.qv152nkfuvce)
+## [Dry Run Agenda]() - template: https://docs.google.com/document/d/1vrdOEV4fbl5bzYpqQcCFnMN6QjuCIc0nRfilP3IvCfM/edit#heading=h.qv152nkfuvce
 
 ## [Landing Page]() - `to be added when live`
 

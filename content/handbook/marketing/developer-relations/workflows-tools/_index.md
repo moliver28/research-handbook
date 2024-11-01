@@ -12,7 +12,7 @@ title: "Developer Relations Workflows and Tools"
 - [Code of Conduct Enforcement](/handbook/marketing/developer-relations/workflows-tools/code-of-conduct-enforcement/)
 - [Team Budgets](/handbook/marketing/developer-relations/workflows-tools/team-budgets)
 - [Developer Advocate Community Response Process](/handbook/marketing/developer-relations/developer-advocacy/community-response/)
-- [Community Operations: Automated Community Programs](/handbook/marketing/developer-relations/community-programs/automated-community-programs/)
+- [Community Operations: Automated Community Programs](/handbook/marketing/developer-relations/community-programs/community-programs-workflows/#automated-applications-workflow-overview)
 - [Swag operations](/handbook/marketing/developer-relations/workflows-tools/swag/)
 - [Content Review / Fix Fridays](/handbook/marketing/developer-relations/workflows-tools/content-review/)
 
@@ -41,11 +41,12 @@ These are the tools the Developer Relations team is the DRI for:
 
 ### Community Operations Tool Stack (deprecated)
 
+{{% alert color="warning" %}}
 <i class="fas fa-hand-point-right" aria-hidden="true" style="color: rgb(138, 109, 59)
 ;"></i> This overview is currently being deprecated as we attempt to migrate from
 the manually-generated list to one automatically-generated from the `data/tech_stack.yml` file.
 Please use the [automatically-generated table instead](#tool-stack-overview)
-{: .alert .alert-warning}
+{{% /alert %}}
 
 <details>
 <summary markdown="span">Click to show deprecated table</summary>
@@ -78,11 +79,11 @@ These are the tools that are essential to some Community programs, but the Devel
 
 | Tool Name       | Description                                                                                                                                                                                                                               | How We Use                                                                                                                                                                                                                                                                             |
 |-----------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Customer Portal | [CustomersDot](https://gitlab.com/gitlab-org/customers-gitlab-com/-/tree/staging/doc/architecture#customersdot) - Web portal where customers can manage their subscriptions and account information, generate and manage GitLab licenses. | To help troubleshoot issues with community program applications. To create and manage licenses for community program applications and for [GitLab EE contributors](/handbook/marketing/developer-relations/contributor-success/community-contributors-workflows.html#contributing-to-the-gitlab-enterprise-edition-ee) |
+| Customer Portal | [CustomersDot](https://gitlab.com/gitlab-org/customers-gitlab-com/-/tree/staging/doc/architecture#customersdot) - Web portal where customers can manage their subscriptions and account information, generate and manage GitLab licenses. | To help troubleshoot issues with community program applications. To create and manage licenses for community program applications and for [GitLab EE contributors](/handbook/marketing/developer-relations/contributor-success/community-contributors-workflows/#contributing-to-the-gitlab-enterprise-edition-ee) |
 | Marketo         | [Marketo](/handbook/marketing/marketing-operations/marketo/)                                                                                                                                                                              | Powers each intake form for our ([Education](https://about.gitlab.com/solutions/education/), [Open Source](https://about.gitlab.com/solutions/open-source/), and [Startups](https://about.gitlab.com/solutions/startups/)) programs. It is an integration which inserts the application record into Salesforce.                                                |
 | Printfection    | [Printfection](https://www.printfection.com/) is our swag management platform                                                                                                                                                             | [How we use Printfection](/handbook/marketing/brand-and-product-marketing/brand/merchandise-handling)                                                                                                                                                                                                |
 | Salesforce      | [Salesforce](https://www.salesforce.com) is our [CRM](https://en.wikipedia.org/wiki/Customer_relationship_management)                                                                                                                     | We use Salesforce (SFDC) to [support the Education, Open Source and Startup Programs](/handbook/marketing/developer-relations/community-programs/community-program-applications)                                                                                                     |
-| Canva           | [Canva](https://www.canva.com/) is the tool we use to create a lot of our GitLab-branded materials.                                                                                                                                       | Community team members should creat an account using their `@gitlab.com` email and [request access](/handbook/business-technology/end-user-services/onboarding-access-requests/access-requests/) to Canva Enterprise from the Design team.                                        |
+| Canva           | [Canva](https://www.canva.com/) is the tool we use to create a lot of our GitLab-branded materials.                                                                                                                                       | Community team members should creat an account using their `@gitlab.com` email and [request access](/handbook/it/end-user-services/onboarding-access-requests/access-requests/) to Canva Enterprise from the Design team.                                        |
 
 ### Adding a new tool to the Developer Relations tool stack
 

@@ -1,17 +1,13 @@
 ---
-
 title: Global Search Group
 description: "The Global Search team is focused on bringing world class search functionality to GitLab.com and self-managed instances."
 ---
 
-
-
-
-
-
 ## Vision
 
 The Global Search Group focuses on bringing world class search functionality to GitLab.com and self-managed instances.
+
+This page covers processes and information specific to the Global Search group. See also the [Global Search](https://about.gitlab.com/direction/global-search/) and [Code Search](https://about.gitlab.com/direction/global-search/code-search/) direction pages.
 
 ## Mission
 
@@ -44,7 +40,7 @@ The following members of other functional teams are our stable counterparts:
 
 ## Shared Responsibilities
 
-The Global Search team shares responsibilites with the AI Framework team in the area of [Retrieval Augmented Generation](./rag_ownership_framework.png) (RAG). Specifically, we will collaborate in the data preparation stage and information retrieval stage of the RAG process.
+The Global Search team shares responsibilites with the AI Framework team in the area of [Retrieval Augmented Generation](rag_ownership_framework.png) (RAG). Specifically, we will collaborate in the data preparation stage and information retrieval stage of the RAG process.
 
 ## Meetings
 
@@ -85,12 +81,19 @@ Before a major milestone starts, we prepare an epic with all the breaking change
 
 Every MR that was created before the breaking change milestone should have this or a similar warning in the description: `:warning: This MR must be kept as a draft and cannot be merged until **DATE** :warning:`
 
+### Bugfix backport process
+
+We review the bugfix merge requests every week. To facilitate this process, we have created scoped labels: `backport::required`, `backport::skip`, and `backport::complete`.
+
+- The `backport::skip` label will be added to merge requests if no backport is needed.
+- The `backport::required` label will be added to the merge requests that need to be backported to a previous release in the initial review. The DRI will follow the [patch release process](/handbook/engineering/releases/#patch-releases-overview) to backport the fix to a previous release. Once the backport is done, the `backport::complete` label will be added to indicate the whole process is complete.
+
 ### Advanced Global Search Rollout on GitLab.com
 
 The team has been actively working on enabling Elasticsearch powered Advanced Search on GitLab.com. [Based on our analysis](https://gitlab.com/groups/gitlab-org/-/epics/1736), we set our first target to roll this feature out for all the paid groups on GitLab.com. You can find more details about the timeline and progress in the links below.
 
 - [Plan of Advanced. Search Rollout on GitLab.com](https://gitlab.com/groups/gitlab-com/-/epics/649)
-- [Steps and Enhancements of Advanced Search Rollout on GitLab.com](/handbook/engineering/infrastructure/core-platform/data_stores/search/es-rollout-timeline.html)
+- [Steps and Enhancements of Advanced Search Rollout on GitLab.com](/handbook/engineering/infrastructure/core-platform/data_stores/search/es-rollout-timeline/)
 
 ### Severity Labels for Search Issues (`~advanced search`, `~global search`)
 
@@ -102,7 +105,7 @@ The team has been actively working on enabling Elasticsearch powered Advanced Se
 The two types of operations we detail severity metrics for above are:
 
 - Recall Record, Global: This is the time it takes to recall a record using a globally scoped search of GitLab.com. Records could be entities such as projects, users, groups, etc.
-- Time until inserted record is recallable: This is the elapsed time between adding a new record and having that new record be recallable via a search. This process depends on many underlying technologies such as the [Go indexer](https://gitlab.com/gitlab-org/gitlab-elasticsearch-indexer), [Sidekiq queues](https://docs.gitlab.com/ee/development/elasticsearch.html#how-does-it-work), and the Elasticsearch database.
+- Time until inserted record is recallable: This is the elapsed time between adding a new record and having that new record be recallable via a search. This process depends on many underlying technologies such as the [Go indexer](https://gitlab.com/gitlab-org/gitlab-elasticsearch-indexer), [Sidekiq queues](https://docs.gitlab.com/ee/development/advanced_search.html#how-does-it-work), and the Elasticsearch database.
 
 ### Weighting for Search Issues
 
@@ -132,7 +135,7 @@ We have the following guidelines for doing reviews on Global Search Team MRs:
 
 ### Oncall escalation coverage
 
-As the Global Search Team requires special domain knowledge, such as Elasticsearch, we borrow team members with this domain knowledge from other groups to cover the on-call escalation when we are understaffing, especially during the holiday seasons. In general, we will follow the [dev](/handbook/engineering/development/processes/Infra-Dev-Escalation/process.html#escalation-process) on-call process. The Elasticsearch domain experts, identified by domain_expertise on their profile, may be contacted when SRE and dev on-call engineers cannot resolve the production incidents. We don't expect the domain experts to work outside their normal working hours. In case of emergency, we will follow the rules and best practices outlined in our [Incident Management](/handbook/engineering/infrastructure/incident-management/) handbook. To assist team members in catching up on the latest development status and resolving potential incidents, we have created a [Global Search Incident Management document](https://gitlab.com/gitlab-org/search-team/training-materials/-/tree/main/2021-12-14-production-incident-management) as a reference.
+As the Global Search Team requires special domain knowledge, such as Elasticsearch, we borrow team members with this domain knowledge from other groups to cover the on-call escalation when we are understaffing, especially during the holiday seasons. In general, we will follow the [dev](/handbook/engineering/development/processes/infra-dev-escalation/process/#escalation-process) on-call process. The Elasticsearch domain experts, identified by domain_expertise on their profile, may be contacted when SRE and dev on-call engineers cannot resolve the production incidents. We don't expect the domain experts to work outside their normal working hours. In case of emergency, we will follow the rules and best practices outlined in our [Incident Management](/handbook/engineering/infrastructure/incident-management/) handbook. To assist team members in catching up on the latest development status and resolving potential incidents, we have created a [Global Search Incident Management document](https://gitlab.com/gitlab-org/search-team/training-materials/-/tree/main/2021-12-14-production-incident-management) as a reference.
 
 #### Onboard domain experts from other groups to cover production incident escalation
 
@@ -159,7 +162,7 @@ When onboarding domain experts from other groups to help cover production incide
 
 ### JTBD
 
-We utilize the Jobs to be Done (JTBD) framework to better understand our customers' and users' needs. You can view the current list of our JTBD [here](/handbook/engineering/infrastructure/core-platform/data_stores/search/jtbd/#jobs-to-be-done).
+We utilize the [Jobs to be Done](/handbook/product/ux/jobs-to-be-done/) (JTBD) framework to better understand our customers' and users' needs. You can view the current list of our JTBD [here](/handbook/engineering/infrastructure/core-platform/data_stores/search/jtbd/#jobs-to-be-done).
 
 ### Performance Testing
 
@@ -169,9 +172,10 @@ We are exploring [Rally](https://esrally.readthedocs.io) for performance testing
 
 ### Documentations
 
-- [GitLab Elasticsearch Integration](https://docs.gitlab.com/ee/integration/elasticsearch.html)
+- [GitLab Elasticsearch Integration](https://docs.gitlab.com/ee/integration/advanced_search/elasticsearch.html)
 - [GitLab Advanced Search Development Guidelines](https://docs.gitlab.com/ee/development/advanced_search.html)
 - [GDK Elasticsearch Setup Instructions](https://gitlab.com/gitlab-org/gitlab-development-kit/-/blob/main/doc/howto/elasticsearch.md)
+- [GDK Zoekt Setup Instructions](https://gitlab.com/gitlab-org/gitlab-development-kit/-/blob/main/doc/howto/zoekt.md)
 
 ### Blog Posts
 

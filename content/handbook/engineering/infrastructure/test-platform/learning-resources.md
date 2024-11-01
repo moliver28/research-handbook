@@ -1,15 +1,8 @@
 ---
-
 title: Quality Engineering Learning Resources
 description: >-
   The Quality Engineering Sub-Department has compiled a list of learning resources for SET and QEM growth.
 ---
-
-
-
-
-
-
 
 ## Software Engineer in Test Focus
 
@@ -31,7 +24,7 @@ GitLab has [book clubs](/handbook/leadership/book-clubs/). Considering joining o
 
 ### GitLab-led Learning
 
-- [Elevate Leadership Training](/handbook/people-group/learning-and-development/elevate/) (open to aspiring managers starting in late FY24)
+- [Elevate Leadership Training](/handbook/people-group/learning-and-development/elevate-programs/) (open to aspiring managers starting in late FY24)
 - [Crucial Conversations Training](/handbook/people-group/learning-and-development/learning-initiatives/crucial-conversations/)
 
 ### Books

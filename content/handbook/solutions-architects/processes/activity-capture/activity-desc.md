@@ -1,11 +1,9 @@
 ---
-
 title: Solutions Architecture Activity Description
 description: >-
   Solutions Architects record all customer and prospect activity. This is activity description to guide the accurate capture.
 
 ---
-
 
 Solutions Architects record all customer and prospect activity with accurate activity type to promote **result** and **efficiency**. By consistently and accurately capturing our prospect or customer-facing activity, we can perform analysis for further reporting to establish **efficient** decision making for GitLab's business.
 
@@ -25,7 +23,7 @@ This page describes all activity types available for SAs in
 Select these types when capturing activities by Enterprise and Commercial SA teams.
 
 - **Customer No Show** - The SA has the opportunity to log an activity for a scheduled client meeting whereby the customer has not attended. In collaboration with the SAE/AE/Channels Manager, the SA should try to understand the underlying reason for the customers absence and record under the [SA] Activity Description.
-- **Customer Strategy Plan Review** - Collaborative session between SA and a customer identifying and documenting business stakeholders, high-impact strategic requirements and key technologies, the current state of their technology ecosystem, current and desired capabilities, operational alignment with strategic objectives, and perceived gaps and deficiencies in current capabilities. See [process description](/handbook/solutions-architects/processes/index.html#customer-strategy-planning) for details. When reporting this activity a link to the latest Customer Strategy Plan must be included.
+- **Customer Strategy Plan Review** - Collaborative session between SA and a customer identifying and documenting business stakeholders, high-impact strategic requirements and key technologies, the current state of their technology ecosystem, current and desired capabilities, operational alignment with strategic objectives, and perceived gaps and deficiencies in current capabilities. See [process description](/handbook/solutions-architects/processes/#customer-strategy-planning) for details. When reporting this activity a link to the latest Customer Strategy Plan must be included.
 - **Demo** - The SA can record the activity when a planned GitLab product demonstration has been
 delivered to the client. In the [SA] Activity Description field in troops, the SA should
 also refer to insights around the demonstration purpose and area of product walkthrough. Options could be a full high-level end-to-end GitLab overview, or a specific GitLab stage demonstration, a partial GitLab platform overview or a very specific technical deep dive into the product.
@@ -36,8 +34,8 @@ also refer to insights around the demonstration purpose and area of product walk
   - Application front- and back-end discussion
   - Cloud journey and strategy discussion
 - **Other** - The SA should utilise this [SA] Activity type to record any activity not listed in the options dropdown and is reserved for all non-anticipated types of SA services. It is imperative when using this activity type to be precise under the [SA] Activity Description field in troops to record the detail of the activity.
-- **Post-sales technical account management** - SA uses this type to record technical account management work for accounts that don’t qualify for CSM and for collaboration with CSM as part of post sales cadence calls. For growth opportunities to expand the account using the cadence calls, log the activity in other appropriate types.
-- **PoV related activity** - It is assumed that the client’s indication of a PoV and/or Technical Evaluation would be shared in either a Discovery session or during another [SA] Activity and the PoV related activity would be used by the SA as an activity record pertaining to the preparation, execution and completion of a PoV or a Technical Evaluation. Examples of PoV related activities could be;
+- **Post-sales technical account management** - SA uses this type to record technical account management work for accounts that don't qualify for CSM and for collaboration with CSM as part of post sales cadence calls. For growth opportunities to expand the account using the cadence calls, log the activity in other appropriate types.
+- **PoV related activity** - It is assumed that the client's indication of a PoV and/or Technical Evaluation would be shared in either a Discovery session or during another [SA] Activity and the PoV related activity would be used by the SA as an activity record pertaining to the preparation, execution and completion of a PoV or a Technical Evaluation. Examples of PoV related activities could be;
   - PoV/Technical Evaluation scoping: The SA has the opportunity to record their activity towards engaging with the client on understanding the requirements and work in collaboration to agree on the type of evaluation [PoV or Technical Evaluation] and on the in-scope success criteria. The client on the other hand has the opportunity to define whether a high- or lite-touch PoV is required. Optionally the client may prefer to decide that a self-managed Technical Evaluation is sufficient and the SA assists ad-hoc.
   - Technical Evaluation cadence: The SA has the opportunity to record their activity with their client specific in relation to the Technical Evaluation. Upon agreeing to a plan, specific requirements and the definition of success, a regular or irregular cadence may be set by the SA with collaboration with the customer.
   - PoV cadence: The SA will often agree to a PoV plan, duration, sign off the in-scope PoV success criteria and work with their client on a regular cadence [weekly, bi-weekly, multi-weekly]. This [SA] Activity is an opportunity to capture the frequency and progress on the PoV. The SA should consider hosting a final cadence session with their client to agree on the sign off of the final completion of the evaluation.
@@ -61,8 +59,8 @@ also refer to insights around the demonstration purpose and area of product walk
 
 Select these [SA] Activity types when capturing activities by the Strategic Field team but other activity types for Enterprise can also be used.
 
-- **SA Assistance - Strategic Field** - Calls with client’s management and executives to review enterprise DevOps strategy and alignment to the overall company initiatives such as digital or cloud transformation.
-- **Executive Solution Plan** - Calls with client’s management and executives to discuss, strategize and review DevOps solution for organization wide transformation, develop the trusted advisory relationship with industry thought leadership and guide the enterprise for DevOps adoption with best practices.
+- **SA Assistance - Strategic Field** - Calls with client's management and executives to review enterprise DevOps strategy and alignment to the overall company initiatives such as digital or cloud transformation.
+- **Executive Solution Plan** - Calls with client's management and executives to discuss, strategize and review DevOps solution for organization wide transformation, develop the trusted advisory relationship with industry thought leadership and guide the enterprise for DevOps adoption with best practices.
 
 ### Description for Alliance/Channel SA Activity
 

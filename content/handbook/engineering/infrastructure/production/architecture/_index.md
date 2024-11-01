@@ -9,7 +9,7 @@ This document does not cover servers that are not integral to the public facing 
 
 ## Purpose
 
-This page is our [document](/handbook/security/controlled-document-procedure.html#creation) that captures an overview of the production architecture for GitLab.com.
+This page is our [document](/handbook/security/controlled-document-procedure/#creation) that captures an overview of the production architecture for GitLab.com.
 
 ## Scope
 
@@ -147,7 +147,7 @@ When needed we also sometimes deal with CPU saturation by making application cha
 
 #### Network Architecture
 
-<img src="/images/handbook/engineering/infrastructure/production-architecture/network-arch.png" alt="">
+<img src="https://about.gitlab.com/images/handbook/engineering/infrastructure/production-architecture/network-arch.png" alt="">
 
 [Source](https://drive.google.com/file/d/19-IMmcJHVUz_bWOXU7_1NoYOdQJEZ3lM/view?usp=sharing), GitLab internal use only
 

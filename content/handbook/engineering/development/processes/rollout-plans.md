@@ -1,13 +1,6 @@
 ---
-
 title: Rollout Plan Process for Development
 ---
-
-
-
-
-
-
 
 ## About This Page
 
@@ -47,7 +40,7 @@ Here are some things to consider including in your rollout plan:
     * Account for different states of data during rollout, such as cached data or data that was in a previously valid state.
     * Include a pre-check list to ensure you are [supporting multi-version compatibility / backwards compatibility](https://docs.gitlab.com/ee/development/multi_version_compatibility.html).
 1. Communication
-    * Include a communication plan that includes relevant stakeholders - such as other stage groups, departments, or by [engaging with Support](/handbook/support/managers/change-management.html) to communicate changes to users.
+    * Include a communication plan that includes relevant stakeholders - such as other stage groups, departments, or by [engaging with Support](/handbook/support/managers/change-management/) to communicate changes to users.
     * Outline in the rollout plan locations to communicate or look for signals of an unsuccessful rollout - such as the #production Slack channel or new issues list.
 1. Staging and Production checks
     * Include any specific checks that need to be done when your changes are released on staging and production.
@@ -67,7 +60,7 @@ There are additional rollout plan processes to keep yourself aware of:
 
 * [Rolling out a low-risk feature flag](/handbook/product-development-flow/feature-flag-lifecycle/#rollout)
 * [Rolling out a high-risk feature flag](/handbook/engineering/infrastructure/change-management/#feature-flags-and-the-change-management-process)
-* [Running an experiment](/handbook/marketing/growth/engineering/experimentation/#experiment-rollout-issue)
+* [Running an experiment](/handbook/engineering/development/growth/experimentation/#experiment-rollout-issue)
 
 #### Rollout plan templates
 

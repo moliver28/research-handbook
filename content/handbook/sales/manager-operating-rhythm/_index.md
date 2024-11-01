@@ -1,15 +1,7 @@
 ---
-
 title: "Manager Operating Rhythm"
 description: "A consistent management operating rhythm (MOR) fosters efficient, predictable growth by codifying best practices for how front-line managers in GitLab's field organization lead their teams"
 ---
-
-
-
-
-
-
-
 
 ## Overview
 

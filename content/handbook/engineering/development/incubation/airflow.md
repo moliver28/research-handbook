@@ -1,13 +1,6 @@
 ---
-
 title: Airflow Single-Engineer Group
 ---
-
-
-
-
-
-
 
 ## About the Airflow SEG
 
@@ -21,9 +14,9 @@ title: Airflow Single-Engineer Group
 
 | Date       | Tl;DW;                                                    | Video                                                                          |
 |------------|-----------------------------------------------------------|--------------------------------------------------------------------------------|
-| 2023-01-12 | DAG overview page is now pretty                           | [https://youtu.be/E3_YGF7Wr2k](https://youtu.be/E3_YGF7Wr2k){:target="_blank"} |
-| 2023-01-05 | Developed the first Airflow page with an overview of Dags | [https://youtu.be/oFs4OsHZfRw](https://youtu.be/oFs4OsHZfRw){:target="_blank"} |
-| 2022-12-21 | First video that started this SEG                         | [https://youtu.be/Jrjp6_rdDo4](https://youtu.be/Jrjp6_rdDo4){:target="_blank"} |
+| 2023-01-12 | DAG overview page is now pretty                           | [https://youtu.be/E3_YGF7Wr2k](https://youtu.be/E3_YGF7Wr2k) |
+| 2023-01-05 | Developed the first Airflow page with an overview of Dags | [https://youtu.be/oFs4OsHZfRw](https://youtu.be/oFs4OsHZfRw) |
+| 2022-12-21 | First video that started this SEG                         | [https://youtu.be/Jrjp6_rdDo4](https://youtu.be/Jrjp6_rdDo4) |
 
 ## Apache Airflow
 

@@ -161,11 +161,11 @@ Details on what contributed to the budget spend can be further found by examinin
 
 ## Budget spend (by stage group)
 
-There is [an example available](error-budget-by-stage-group-example.html) with a more detailed look at how this is built.
+There is [an example available](error-budget-by-stage-group-example.md) with a more detailed look at how this is built.
 
-The current [28 day](/handbook/business-technology/data-team/programs/data-for-product-managers/#usage_ping_metric_count-snippet) budget spend can be found on each [stage group dashboard](https://dashboards.gitlab.net/dashboards/f/stage-groups/stage-groups). Feature categories for that stage group are rolled up to a single value.
+The current [28 day](/handbook/enterprise-data/programs/data-for-product-managers/#usage_ping_metric_count-snippet) budget spend can be found on each [stage group dashboard](https://dashboards.gitlab.net/dashboards/f/stage-groups/stage-groups). Feature categories for that stage group are rolled up to a single value.
 
-Stage groups can use their dashboards to explore the cause of their budget spend. The process to investigate the budget spend is described in [the developer documentation](https://docs.gitlab.com/ee/development/stage_group_dashboards.html#check-where-budget-is-being-spent)
+Stage groups can use their dashboards to explore the cause of their budget spend. The process to investigate the budget spend is described in [the developer documentation](https://docs.gitlab.com/ee/development/stage_group_observability/dashboards/stage_group_dashboard.html)
 
 The formula for calculating availability:
 
@@ -201,7 +201,7 @@ Error budget events are attributed to stage groups via feature categorization. T
 
 Updates to feature categories only change how future events are mapped to stage groups. Previously reported events will not be retroactively updated.
 
-The [Scalability:Projections team](/handbook/engineering/infrastructure/team/scalability/projections.html) owns keeping the mappings up to date when feature categories are changed in the website repository. When the categories are changed in `stages.yml`, a scheduled pipeline creates an issue ([example issue](https://gitlab.com/gitlab-com/gl-infra/scalability/-/issues/2084)) on the [build board](https://gitlab.com/gitlab-com/gl-infra/scalability/-/boards/1697160). The issue contains the pipeline link and instructions to follow in the description. The categories need to be synced to two places:
+The [Scalability:Projections team](/handbook/engineering/infrastructure/team/scalability/projections/) owns keeping the mappings up to date when feature categories are changed in the website repository. When the categories are changed in `stages.yml`, a scheduled pipeline creates an issue ([example issue](https://gitlab.com/gitlab-com/gl-infra/scalability/-/issues/2084)) on the [build board](https://gitlab.com/gitlab-com/gl-infra/scalability/-/boards/1697160). The issue contains the pipeline link and instructions to follow in the description. The categories need to be synced to two places:
 
 1. The [Rails application](https://docs.gitlab.com/ee/development/feature_categorization/#updating-configfeature_categoriesyml).
 1. The [Runbooks repository](https://gitlab.com/gitlab-com/runbooks/-/blob/master/services/stage-group-mapping.jsonnet).
@@ -239,12 +239,12 @@ Our current contract is 99.95% availability and a 20 minute monthly error budget
 |**Stage Group**   | **Monthly Spend (28 days)** | **Business Reason** | **Review Date**|
 |------------------|---------------------|---------------------|---------------------|
 | Enablement:Tenant Scale | 99.80% | To allow the group to focus on long-term scalability work (Cells) as well as coordinate changes requiring introduction in the next API version. Described in [this MR](https://gitlab.com/gitlab-com/www-gitlab-com/-/merge_requests/108039) | 2025-01-31 (or if total traffic share exceeds 5%) |
-| Deploy:Environments | 99.9% | [To safely account for a disproportion in traffic in the feature flag endpoint that skews the budget](https://gitlab.com/gitlab-org/gitlab/-/issues/415063#note_1457186576), by using an custom error budget we can keep the correct urgency while accurately represnt the situation for the other services. | 2024-06-06 |
-| Plan:Product Planning | 99.89% | Due to an issue checking permissions for participants in a comment in an Epic, the check can be computationally heavy with some endpoints taking over 10 seconds to respond. [The team is currently working on optmizing it](https://gitlab.com/gitlab-org/gitlab/-/issues/454045). | 2024-05-30 |
+| Deploy:Environments | 99.9% | [To safely account for a disproportion in traffic in the feature flag endpoint that skews the budget](https://gitlab.com/gitlab-org/gitlab/-/issues/415063#note_1457186576), by using an custom error budget we can keep the correct urgency while accurately represnt the situation for the other services. | 2025-03-01 |
+| Plan:Product Planning | 99.89% | Due to an issue checking permissions for participants in a comment in an Epic, the check can be computationally heavy with some endpoints taking over 10 seconds to respond. [The team is currently working on optmizing it](https://gitlab.com/gitlab-org/gitlab/-/issues/454045). | 2024-10-30 |
 
 **Exceptions**
 
-Temporary exceptions are granted as a means to allow different stakeholders to fulfill higher priority business needs, if it is estimated that the granted exception is not creating additional risk to GitLab.com reliability. Note that *exceptions* are different from [Custom Targets](/handbook/engineering/error-budgets/custom-targets/index.html), which set properties on endpoints defining acceptable performance.
+Temporary exceptions are granted as a means to allow different stakeholders to fulfill higher priority business needs, if it is estimated that the granted exception is not creating additional risk to GitLab.com reliability. Note that *exceptions* are different from [Custom Targets](/handbook/engineering/error-budgets/custom-targets/), which set properties on endpoints defining acceptable performance.
 
 Valid reasons for an exception are:
 

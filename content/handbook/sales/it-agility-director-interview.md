@@ -1,14 +1,7 @@
 ---
-
 title: "Interview with an IT Agility Director"
 description: "Clips from an April 2020 interview with an IT Agility Director at a Fortune 500 energy company"
 ---
-
-
-
-
-
-
 
 ## Introduction
 

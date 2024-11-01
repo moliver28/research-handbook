@@ -1,5 +1,4 @@
 ---
-
 title: "GitLab for Startups Program Workflows"
 description: "Details on program-specific workflows related to the GitLab for Startups Program"
 ---
@@ -52,7 +51,7 @@ Here are some common workflows associated with managing the program, including q
 
 ### Review application within Zendesk "Startups" view
 
-Scenario: User did not submit complete application  
+Scenario: User did not submit complete application
 
 In **Zendesk**:
 

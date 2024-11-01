@@ -4,7 +4,7 @@ title: "Engineering Analyst"
 
 Engineering Analysts at GitLab build and improve on the data capabilities needed to support a highly productive Engineering Division.
 They equip Engineering leaders with metric intelligence and actionable performance indicators.
-They work closely with GitLab’s Data team to enable new data capabilities that drives our analysis and visualizations.
+They work closely with GitLab's Data team to enable new data capabilities that drives our analysis and visualizations.
 
 ## Responsibilities
 
@@ -81,7 +81,7 @@ The Senior Engineering Analyst role extends the [Engineering Analyst](#engineeri
 - An expert in data domain of assigned Engineering Department.
 - Attend and ensure key-review readiness of assigned Engineering Department.
 - Occasionally represent Engineering Analytics in broad company communication and announcements.
-- Occasionally contribute to the company's strategic Data direction in collaboration with the [Data team](/handbook/business-technology/data-team/#data-job-families).
+- Occasionally contribute to the company's strategic Data direction in collaboration with the [Data team](/handbook/enterprise-data/#data-job-families).
 - Influence the overall objectives and long-range goals of the Engineering Analytics team.
 
 ### Staff Engineering Analyst

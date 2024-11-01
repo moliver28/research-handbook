@@ -1,5 +1,4 @@
 ---
-
 title: "PMM Metrics"
 ---
 
@@ -30,8 +29,8 @@ For MVC, we'll start with a handful of exclusive TOP level project labels in the
 
 1. We have a quarterly milestone to track PMM quarterly work.
 1. We also can set up an Insights dashboard using [GitLab Insights](https://docs.gitlab.com/ee/user/project/insights/) which will give us visibility into work completed.  Such as:
-![Stacked Bar](https://docs.gitlab.com/ee/user/project/insights/img/insights_example_stacked_bar_chart.png)
+![Stacked Bar](https://docs.gitlab.com/ee/user/project/insights/img/insights_example_stacked_bar_chart_v11_10.png)
 
 or
 
-![bar chart](https://docs.gitlab.com/ee/user/project/insights/img/insights_example_bar_time_series_chart.png)
+![bar chart](https://docs.gitlab.com/ee/user/project/insights/img/insights_example_bar_time_series_chart_v11_10.png)

@@ -23,7 +23,7 @@ The Staff Fullstack Engineer is a [grade 8](/handbook/total-rewards/compensation
 - Craft code that meets our internal standards for style, maintainability, and best practices for a high-scale web environment. Maintain and advocate for these standards through code review.
 - Represent GitLab and its values in public communication around specific projects and community contributions.
 - Confidently ship small features and improvements with minimal guidance and support from other team members. Collaborate with the team on larger projects.
-- Participate in Tier 2 or Tier 3 weekday and weekend and occasional night [on-call rotations](/handbook/engineering/development/processes/Infra-Dev-Escalation/process.html) to assist troubleshooting product operations, security operations, and urgent engineering issues.
+- Participate in Tier 2 or Tier 3 weekday and weekend and occasional night [on-call rotations](/handbook/engineering/development/processes/infra-dev-escalation/process/) to assist troubleshooting product operations, security operations, and urgent engineering issues.
 - Senior Fullstack Engineers improve the [engineering projects](/handbook/engineering/projects/) at GitLab as a [project maintainer](/handbook/engineering/workflow/code-review/#maintainer). For more information regarding timelines and exceptions, [see this page](/handbook/engineering/workflow/code-review/#senior-maintainers).
 - Staff Fullstack Engineer only - Participate in the [Incident Management on-call rotation](/handbook/engineering/infrastructure/incident-management/#incident-manager-responsibilities) to help ensure the availability goals for GitLab.com are met, by working with reliability engineers and development team members.
 
@@ -66,12 +66,12 @@ The Staff Fullstack Engineer is a [grade 8](/handbook/total-rewards/compensation
 - Extends the responsibilities and requirements of the Senior or Staff level [Fullstack Engineer](/job-families/engineering/development/fullstack/)
 - Reports into a team member of the [Strategy and Operations Team](/job-families/chief-executive-officer/strategy-and-operations/), an organization that rolls into the CEO
 - Perform enhancements to the look-and-feel of the published handbooks
-- Help facilitate the [support process](https://about.gitlab.com/handbook/content-websites-responsibility/#support-process-for-content-websites) for [Content Sites](https://about.gitlab.com/handbook/content-websites-responsibility/#what-are-the-content-websites) by answering team member questions and triaging/responding to issues
+- Help facilitate the [support process](/handbook/content-websites-responsibility/#support-process-for-content-websites) for [Content Sites](/handbook/content-websites-responsibility/#what-are-the-content-websites) by answering team member questions and triaging/responding to issues
 - Coordinate with various stakeholders regarding site content or structure changes, including helping mediate potential - ownership issues encountered when refactoring or splitting up existing shared code/content/infrastructure
 - Maintain and improve the CI/CD pipelines, build processes, and review environments
 - Improve content-authoring experience and tooling
 - Perform and/or coordinate/delegate resolution of any other content sites issues related to infrastructure, code, - architecture, projects, security, CI/CD, builds, deployments, upgrades, performance, scalability, metrics, monitoring, etc
-- Support [dogfooding of GitLab features](https://about.gitlab.com/direction/dogfooding/) on [Content Sites](https://about.gitlab.com/handbook/content-websites-responsibility/#what-are-the-content-websites) and related infrastructure
+- Support [dogfooding of GitLab features](https://about.gitlab.com/direction/dogfooding/) on [Content Sites](/handbook/content-websites-responsibility/#what-are-the-content-websites) and related infrastructure
 
 ### Hiring Process for Handbook Specialty
 

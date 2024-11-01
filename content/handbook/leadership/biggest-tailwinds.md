@@ -23,7 +23,7 @@ We also have a [Mitigating Concerns page](https://internal.gitlab.com/handbook/l
 
 [Lack of Developers](https://stackoverflow.blog/2017/03/09/developer-hiring-trends-2017/)
 
-[Open Source](https://about.gitlab.com/topics/20-years-open-source/)
+[Open Source](https://web.archive.org/web/20230821170744/https://about.gitlab.com/topics/20-years-open-source/)
 
 ## 3. Multicloud
 
@@ -49,7 +49,7 @@ GitLab's adherence to all-remote makes the company an attractive destination for
 
 [GitLab Guide to All-Remote](/handbook/company/culture/all-remote/guide/)
 
-[Work where you want, when you want](https://jorgdesign.springeropen.com/articles/10.1186/s41469-020-00087-8)
+[Work where you want, when you want](https://link.springer.com/article/10.1186/s41469-020-00087-8)
 
 [All-Remote Upgrade](/handbook/company/culture/all-remote/hybrid-remote/#all-remote-upgrade)
 

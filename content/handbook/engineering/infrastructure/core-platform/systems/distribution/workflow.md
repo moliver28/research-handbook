@@ -1,6 +1,4 @@
 ---
-aliases: /handbook/engineering/infrastructure/core-platform/systems/distribution/workflow.html
-
 title: "Distribution Team Workflow"
 description: "Overview of how work is performed by Distribution Engineers, for Omnibus, Helm and other Engineering projects."
 ---
@@ -17,7 +15,7 @@ Distribution team members are expected to:
 * Ensure that fixing red master branch in projects takes the highest priority
 * Pick items to work on from the project scheduled queues
 * Define test plans for changes not covered by integration tests
-* Label issues and merge requests to track [engineering metrics](/handbook/engineering/metrics/)
+* Label issues and merge requests to track [engineering metrics](/handbook/product/groups/product-analysis/engineering/dashboards/)
 
 ## Groups
 
@@ -141,7 +139,7 @@ In order to minimize disruption and context switching for team members, Distribu
 
 ### Expectation
 
-Similar to [Development Escalation Process](/handbook/engineering/development/processes/Infra-Dev-Escalation/process.html#expectation), the DRI is not solely responsible for a resolution of any requests, they should engage any SME and escalate to engineering manager and/or product manager whenever requires. In addition to that, there is also no expectation that the DRI can complete the same amount of `Deliverable` work during the week.
+Similar to [Development Escalation Process](/handbook/engineering/development/processes/infra-dev-escalation/process/#expectation), the DRI is not solely responsible for a resolution of any requests, they should engage any SME and escalate to engineering manager and/or product manager whenever requires. In addition to that, there is also no expectation that the DRI can complete the same amount of `Deliverable` work during the week.
 
 ### Duties
 
@@ -179,7 +177,7 @@ When you are not on DRI duty, please consider the following when the request is 
 
 ## Iteration
 
-Use iteration to better control scope and deliver measurable value in each release. A timebox measurement process would ensure that if expected progress isn’t achieved, there’s a procedure to follow.
+Use iteration to better control scope and deliver measurable value in each release. A timebox measurement process would ensure that if expected progress isn't achieved, there's a procedure to follow.
 
 * If a project goes more than 2 milestones without delivering on the success criteria within the defined MVC/issue, a detailed evaluation/retrospective should be performed.
 * If the project goes 3 milestones without meeting success criteria, then a larger evaluation should be performed with the section leaders.

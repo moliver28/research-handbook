@@ -13,7 +13,7 @@ This page acts as a quick reference of mental models for sync and async collabor
 
 ### 2 steps forward, 1 step back design
 
-At GitLab we ship using the [Minimal Viable Change](/handbook/product/product-principles/#the-minimal-viable-change-mvc) (MVC). Designing in this context can often be confusing for newcomers because it's important to consider the big picture as well as the steps for how we get there. To deal with this dichotomy, we design by initially thinking about the mid to long-term vision and then reducing the scope of the experience (in a lovable way) to make implementation quicker. In other words, we design by taking 2 steps forward and 1 step back.
+At GitLab we ship using the [Minimal Valuable Change](/handbook/product/product-principles/#the-minimal-valuable-change-mvc) (MVC). Designing in this context can often be confusing for newcomers because it's important to consider the big picture as well as the steps for how we get there. To deal with this dichotomy, we design by initially thinking about the mid to long-term vision and then reducing the scope of the experience (in a lovable way) to make implementation quicker. In other words, we design by taking 2 steps forward and 1 step back.
 
 **Actions**
 
@@ -58,3 +58,27 @@ We can't design in isolation. All the decisions we make are in the context of a 
 - [Salesforce Workdifferently](https://www.salesforce.com/workdifferently/)
 - [Salesforce Workdifferently: An Introduction To The 6 Principles To Work Differently (video)](https://www.salesforce.com/video/3642076/)
 - [IBM enterprise design thinking](https://www.ibm.com/design/thinking/)
+
+## Collaborative exercises
+
+As designers, we're generally embedded within stage groups. As we work to create designs, it can be helpful to include our engineering and product counterparts in our ideation processes. Collaborative exercises can sometimes be quite useful for this purpose. Conducting these exercises periodically within our teams can help build trust and generate buy-in. It can also help surface ideas and things to consider earlier rather than later in the design process.
+
+As we are distributed globally you may opt for either an async or a sync collaborative exercise, depending on your goals and desired outcomes.
+
+Below are a few of the exercises teams have run, organized by which stage of the design process you're in.
+
+### Product direction and vision
+
+When you're defining your product direction and vision, putting together an async board for your team to review your ideas – and add their own – can be quite useful. Some teams have run product direction workshops, which can either be [broadly](https://www.figma.com/board/vNxxMxNDcD9LgcJONuqpZt/GitLab-Duo-Chat-product-direction?node-id=0-1&t=1wZYG52QM1e72xWV-1) or more [narrowly focused](https://www.figma.com/board/ito0oanIxHNL42HH2IWIxe/AI-Framework-small-sync?node-id=0-1&t=5AurIwjIdhrAK149-1), depending on your needs. 
+
+An [altitude exercise](https://gitlab.com/gitlab-org/monitor/respond/-/issues/60) is an another approach. An altitude exercise solicits feedback at the satellite-level, airplane-level, and ground-level. This exercise can help gather feedback about strategy and the particular design details simultaneously. 
+
+### Ideation
+
+If you're at the ideation stage of the design process, you might consider an asynchronous [ideation workshop](https://www.figma.com/board/WATUtNyV1Vlsz9DIVOMDER/Measure-AI-accuracy?node-id=0-1&t=iPQSAnQOeGfH0d6M-1). If you have a number of options you're weighing as a team, a sync [lighting decision jam](https://about.gitlab.com/blog/2022/01/19/collaboration-techniques-for-distributed-teams/) could help the team align on a way forward. 
+
+### Specific design feedback
+
+If you've developed a design direction and want to give the team space to ask questions synchronously, an "ask me anything" style meeting can be useful. When running this type of session, ensure you share your design direction prior to the meeting so everyone has a chance to review and you can gather the best feedback. 
+
+Alternately, if you'd like feedback on common areas of [confusion](https://www.figma.com/board/1ikV7tqYaPV1g4gvWr4QbQ/AI-Settings-discussion-2024-04-25?node-id=0-1&t=47R6xGzEbcaJhx8g-1) or on the [technical feasibility](https://www.figma.com/board/WATUtNyV1Vlsz9DIVOMDER/Measure-AI-accuracy?node-id=0-1&t=4rChZf7wyE7d6zn0-1) of your proposal, putting together an async board for your team to review can be a great way to start these conversations.

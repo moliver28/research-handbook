@@ -2,12 +2,10 @@
 title: The GitLab Handbook
 ---
 
-{{< blocks/cover title="GitLab Handbook" image_anchor="top" color="primary" >}}
+{{< blocks/section type="container" color="white" height="min" >}}
+{{< /blocks/section >}}
 
-<div class="mt-6" id="homeSearch"></div>
-
-{{% /blocks/cover %}}
-
+<!-- generate from data/toc.yaml -->
 {{< homepage-data-toc >}}
 
 {{< blocks/section color="dark" type="row" >}}
@@ -29,11 +27,14 @@ title: The GitLab Handbook
     .td-box--dark > .col > .row > p {
         display: none;
     }
-    #homeSearch {
-        width: 100%;
+    .td-main > .td-box--height-min {
+        text-align: center;
+        padding-bottom: 0;
+        min-height: 0;
+        height: fit-content;
     }
-    #homeSearch >.DocSearch-Button {
-        width: 100% !important;
+    #td-block-1 {
+        padding-top: 0;
     }
 </style>
 {{< /blocks/section >}}
@@ -41,10 +42,11 @@ title: The GitLab Handbook
 <script>
     $( document ).ready(function(event) {
         d = docsearch({
-          container: "#homeSearch",
+          container: "#docsearch-1",
           appId: '3IIMMA8IDY',
           apiKey: '71feb3efa6044f78ab6b8a7422e727b7',
           indexName: 'handbook-gitlab',
+          maxResultsPerGroup: 20
         });
     })
 </script>

@@ -1,14 +1,7 @@
 ---
-
 title: "Sales Operations Go To Market"
 noindex: true
 ---
-
-
-
-
-
-
 
 ## Welcome to The Sales Operations GTM Page
 

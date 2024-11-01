@@ -28,7 +28,7 @@ The following categories can be used to decorate the projects we want to monitor
 | `deploy` | Used to deploy GitLab.com |
 | `website` | Deployed to a website (URL will be required) |
 | `api/service` | |
-| `green/yellow/orange/red_data` | [Data classification standard](/handbook/security/data-classification-standard.html) |
+| `green/yellow/orange/red_data` | [Data classification standard](/handbook/security/data-classification-standard/) |
 | `3rdparty` | Interaction with 3rd parties |
 | `demo/test/poc` | |
 | `temporary` | Temporary projects (should be removed at some point) |
@@ -65,7 +65,7 @@ Rules define actions to take, based on the project categories. These actions are
 | `docs` | [Secret Detection](https://docs.gitlab.com/ee/user/application_security/secret_detection/) must be enabled |
 | `marked_for_deletion` | Project will be deleted |
 | `deprecated` | Project will be archived |
-| all | Projects can't have [`internal`](https://docs.gitlab.com/ee/public_access/public_access.html#internal-projects-and-groups) visibility |
+| all | Projects can't have [`internal`](https://docs.gitlab.com/ee/user/public_access.html#internal-projects-and-groups) visibility |
 | all | *Default branch* must be `protected` |
 | all | [`SECRET_DETECTION_HISTORIC_SCAN`](https://docs.gitlab.com/ee/user/application_security/secret_detection/#full-history-secret-detection) must not be set in the CI/CD configuration |
 

@@ -1,14 +1,7 @@
 ---
-
 title: "Litmus"
 description: "Litmus is email marketing software used primarily by marketing campaign managers to build, test, and optimize our email marketing programs."
 ---
-
-
-
-
-
-
 
 ## Uses
 
@@ -18,7 +11,7 @@ Litmus is email marketing software used primarily by lifecycle marketing to buil
 
 We currently have an Enterprise subscription. This provides 5 `Admin`, `Full`, `Code editor`, or `Content editor` users provisioned to the account. `Reviewer` and `Proof reviewer` users are unlimited.
 
-To request access to Litmus, follow the [AR process](/handbook/business-technology/end-user-services/onboarding-access-requests/access-requests/#individual-or-bulk-access-request). Be sure to indicate the role you are requesting in your AR.
+To request access to Litmus, follow the [AR process](/handbook/it/end-user-services/onboarding-access-requests/access-requests/#individual-or-bulk-access-request). Be sure to indicate the role you are requesting in your AR.
 
 Please note that if you are requesting `Proof reviewer` access, no AR is required. You will be added automatically when you are requested to review a proof.
 

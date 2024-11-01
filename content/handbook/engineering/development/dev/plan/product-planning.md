@@ -39,21 +39,84 @@ We have useful dashboards tracking the performance of parts of the application w
 
 ## OKRs
 
+Beginning FY24, we have moved away from Ally.io and have been using GitLab to track OKRs. Please note that the links below are only accessible to GitLab team members.
+
 ### Active Quarter OKRs
 
-As we migrate to using GitLab to track OKRs, the active quarter (FY24-Q1) OKRs will be visible [here](https://gitlab.com/gitlab-com/gitlab-OKRs/-/issues/?sort=created_date&state=opened&type%5B%5D=objective&label_name%5B%5D=division%3A%3AEngineering&label_name%5B%5D=group%3A%3Aproduct%20planning&milestone_title=Q4&first_page_size=100) and Key Results [here](https://gitlab.com/gitlab-com/gitlab-OKRs/-/issues/?sort=created_date&state=opened&label_name%5B%5D=division%3A%3AEngineering&label_name%5B%5D=group%3A%3Aproduct%20planning&milestone_title=Q4&type%5B%5D=key_result&first_page_size=100).
+The current quarter (FY25-Q3) OKRs are visible [here](https://gitlab.com/gitlab-com/gitlab-OKRs/-/issues/?sort=title_asc&state=opened&label_name%5B%5D=devops%3A%3Aplan&label_name%5B%5D=group%3A%3Aproduct%20planning&first_page_size=100).
 
 ### Previous Quarter OKRs
 
-FY23-Q4 OKRs were conducted in Ally.io and are no-longer available.
+All the previous quarter OKRs are available [here](https://gitlab.com/gitlab-com/gitlab-OKRs/-/issues/?sort=title_asc&state=closed&label_name%5B%5D=devops%3A%3Aplan&label_name%5B%5D=group%3A%3Aproduct%20planning&first_page_size=100).
 
 ## Work
 
 See the [Plan stage page](/handbook/product/categories/#plan-stage) and the [Plan:Project Management backend team page](/handbook/engineering/development/dev/plan/project-management/).
 
+### Milestone Planning
+
+The week after a release of current milestone, planning issue for next milestone is created by automation and is available [here](https://gitlab.com/gitlab-org/plan-stage/product/-/issues/?sort=title_asc&state=opened&label_name%5B%5D=group%3A%3Aproduct%20planning&first_page_size=100).
+Once the issue is created, Product Manager fills out initial information (i.e. broader theme for the milestone, product priorities, deliverable areas, etc.) within the issue description and refines the [Milestone Planning board](https://gitlab.com/gitlab-org/gitlab/-/boards/7695201?not[label_name][]=product%20work&label_name[]=group%3A%3Aproduct%20planning&milestone_title=Started).
+
+Once the milestone candidates are available, Engineering Kick Off Call is scheduled. This call happens once a month on the day after the release is cut for current milestone (i.e. every second Friday of the month). In this call, team members review the proposed list of candidates and slippage from previous milestone that they're already assigned to, and the Milestone Planning board for issues labelled `workflow::planning breakdown` to identify any missing information, blocking dependencies, and ensuring if issues are indeed ready for development. If an issue in the list already has expert/DRI available, then they are required to update the issue to include additional information
+about what needs to be done, and possible hints around approach that an engineer can take while working on the issue. At the end of the meeting, following outcome is expected;
+
+- List of issues we want to work on in the milestone
+- DRIs for those issues who can update it with implementation details
+  - Once issue is updated, workflow label is updated to `workflow::ready for development`
+- Team member bandwidth and availability for the milestone
+
+**Estimation Template**
+
+The following is a guiding mental framework for engineers to consider when contributing to estimates on issues.
+
+```markdown
+### Refinement / Weighting
+
+<!--
+Ready for development means replying yes to the following questions:
+
+- Is this issue sufficiently small enough? If not, break it into smaller issues
+- Is it assigned to the correct domain (e.g. frontend, backend)? If not, break it into two issues for the respective domains
+– Is the issue clear and easy to understand? If not, try asking further clarification questions and update the description once they are received
+
+If more than 2 MRs are needed, consider adding a table like the following to the description (e.g. under `Implementation plan`).
+
+| Description | MR |
+|-|-|
+|||
+
+It will help track the status.
+-->
+
+- [ ] Ready for development
+- [ ] Weight is assigned
+- [ ] Number of MRs listed
+- [ ] Needs testing considerations
+- [ ] Needs documentation updates
+
+**Reasoning:**
+
+<!--
+Add some initial thoughts on how you might break down this issue. A bulleted list is fine.
+
+This will likely require the code changes similar to the following:
+
+- replace the hex driver with a sonic screwdriver
+- rewrite backups to magnetic tape
+- send up semaphore flags to warn others
+
+Links to previous examples. Discussions on prior art. Notice examples of the simplicity/complexity in the proposed designs.
+-->
+```
+
 ### Capacity Planning
 
-{{% include "includes/engineering/plan/capacity-planning.md" %}}
+#### Estimating effort
+
+When estimating the effort involved in upcoming work, we use the same approach and numerical scale as other groups in the Plan stage.
+
+{{% include "includes/engineering/plan/estimating-effort.md" %}}
 
 #### Weighing bugs
 
@@ -63,7 +126,7 @@ See the [Plan stage page](/handbook/product/categories/#plan-stage) and the [Pla
 
 Work that arrives in ~"workflow::ready for development" that is out of scope
 or ill-defined should be
-[returned to ~"workflow::planning breakdown" for further refinement](https://about.gitlab.com/handbook/product-development-flow/#build-phase-2-develop--test).
+[returned to ~"workflow::planning breakdown" for further refinement](/handbook/product-development-flow/#build-phase-2-develop--test).
 To avoid the disruption this introduces we try to reduce the number of times
 it happens by planning more carefully. While it's not always possible, we aim
 to identify complexity before the build phase, such as by assigning an engineering
@@ -88,10 +151,6 @@ The deliverable is a design document that answers the questions set out in the
 issue description. This can simply be the issue itself, containing a summary
 of the discussion in the description, answers to the questions and links to
 any PoC MRs produced.
-
-#### Historical Capacity
-
-{{% include "includes/engineering/plan/historical-capacity.md" %}}
 
 #### Collaborating to Improve Velocity
 
@@ -138,6 +197,39 @@ The ~"backend complete" label is added to issues with multiple specializations (
 frontend) to indicate that the backend component is complete. Backend engineers should add this label when the backend work is
 functionally complete, merged and verified but frontend, or other work is ongoing.
 
+### Definition of Ready
+
+During the planning and breakdown process we usually need to make issues and tasks that outline the technical work required.
+
+A Definition of Ready is an agreed set of guidelines for ensuring an issue or task is ready to be picked up and worked on. Its job is to provide a reference that we can use when deciding whether we can add the 'ready for development' workflow label and expect somebody to be able to complete the work.
+
+To determine whether an issue or task is suitable to be deemed `ready for development`, consider the following Definition of Ready.
+
+1. The work is described in sufficient detail. A reader without previous context or assumed knowledge is able to understand what work is to be undertaken. What we're doing and why we're doing it is described.
+2. Acceptance Criteria or Requirements are clearly defined. This should help the assignee understand the scope of the work and verify the intended happy/sad paths are functional and tested.
+   - Including the relevant license level and feature flags in the Acceptance Criteria or Requirements is also advised.
+3. Other work that blocks or is blocked by the work is linked with the correct relationship.
+4. Relevant resources such as designs, documents, and external links are attached.
+5. Cross-functional dependencies are described; such as needing to ask for Technical Writing assistance.
+6. Documentation that needs to be updated or added is linked.
+7. In case of feature development, a weight has been added and confirmed with at least one other engineer (preferably a domain expert).
+   - In case an item is weighed as `4` or above, domain expert can provide guidance on breaking down this issue into separate issues (or tasks).
+
+> During the process of populating an Issue or Task for engineering work, we will probably need to ask questions for extra clarity or to help prevent us from making assumptions. We may also feel we don't have enough information to be able to properly break down work into suitably sized chunks. Consider [a spike](#consider-a-spike-andor-a-design-document) where the path forward is not clear.
+
+#### Why?
+
+During the planning/breakdown process, it's important that we keep in mind a couple of things:
+
+1. The author of the issue/task may not be the person to work on it
+2. We might not start working on the issue/task right away
+
+Our Definition of Ready should help ensure that our work is defined well enough that the two points above are not problems.
+
+Due to our async nature and distributed team, treating a Definition of Ready as a hard quality gate could have a negative effect on productivity. Because of this, the Definition of Ready should be used as a guide rather than as rules and we shouldn't prevent work from being picked up if an issue/task doesn't adhere to the Definition of Ready perfectly.
+
+Issues and tasks are mutable — we can always go back and change plans, add missing context, document decisions made during development, etc.
+
 #### Health Status
 
 To help with visibility of whether or not an issue can be delivered in a milestone, the team uses health status to communicate quickly.
@@ -179,9 +271,9 @@ This avoids the rush to provide documentation that often accompanies the release
   {{< tableau/filters "GROUP_LABEL"="product planning" >}}
 {{< /tableau >}}
 
-Detailed metrics are available on the [Engineering Metrics page](/handbook/engineering/metrics/dashboards/).
+Detailed metrics are available on the [Engineering Metrics page](/handbook/product/groups/product-analysis/engineering/dashboards/dashboards/).
 
-Product Planning is part of a test of new MR sub-type labels which are designed to make it easier to understand which top-level type should be applied. You can read more about them in the [Work Type Classification](/handbook/engineering/metrics/#work-type-classification) section of the metrics page.
+Product Planning is part of a test of new MR sub-type labels which are designed to make it easier to understand which top-level type should be applied. You can read more about them in the [Work Type Classification](/handbook/product/groups/product-analysis/engineering/dashboards/#work-type-classification) section of the metrics page.
 
 Note: MR Type may differ from issue type. For example, a ~"maintenance::dependency" change that supports a new ~"feature::enhancement".
 

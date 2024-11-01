@@ -1,9 +1,6 @@
 ---
-aliases: /handbook/engineering/infrastructure/team/scalability/observability/tamland.html
-
 title: "Tamland: Development"
 ---
-
 
 ## Tamland: Saturation forecasting
 

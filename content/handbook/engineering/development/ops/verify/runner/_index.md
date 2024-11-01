@@ -18,8 +18,8 @@ This team maps to [Verify](/handbook/product/categories/#verify-stage) DevOps st
 The product strategy and roadmap for the runner product categories are covered on the following direction pages.
 
 - [Runner Core](https://about.gitlab.com/direction/verify/runner_core/)
-- [Runner Fleet](https://about.gitlab.com/direction/verify/runner_fleet)
-- [Runner SaaS](https://about.gitlab.com/direction/verify/runner_saas)
+- [Hosted Runners](https://about.gitlab.com/direction/verify/hosted_runners/)
+- [Fleet Visibility](https://about.gitlab.com/direction/verify/fleet_visibility/)
 
 ## UX strategy
 
@@ -146,7 +146,7 @@ We spend a lot of time working in Go which is the language that [GitLab Runner](
 
 We work in monthly iterations. Iteration planning dates for the upcoming milestone are aligned with GitLab's [product development timeline](/handbook/engineering/workflow/#product-development-timeline).
 
-At a minimum, 30 days before the start of a milestone, the runner PM reviews and re-prioritizes as needed the features to be included in the [iteration planning issue](https://gitlab.com/gitlab-org/gitlab-runner/-/issues/?sort=created_date&state=opened&label_name%5B%5D=Planning%20Issue&first_page_size=20). The planning issue is a tool for asynchoronous collaboration between the PM, EM and members of the team. We use [cross-functional prioritization](/handbook/product/cross-functional-prioritization/#prioritization-for-feature-maintenance-and-bugs) to guide the collaboration process.
+At a minimum, 30 days before the start of a milestone, the runner PM reviews and re-prioritizes as needed the features to be included in the [iteration planning issue](https://gitlab.com/gitlab-org/gitlab-runner/-/issues/?sort=created_date&state=opened&label_name%5B%5D=Planning%20Issue&first_page_size=20). The planning issue is a tool for asynchoronous collaboration between the PM, EM and members of the team. We use [cross-functional prioritization](/handbook/product/product-processes/cross-functional-prioritization/#prioritization-for-feature-maintenance-and-bugs) to guide the collaboration process.
 
 The commitments for the iteration plan are directly related to the capacity of the team for the upcoming iteration. Therefore, to finalize the iteration plan (resource allocation) for a milestone, we evaluate and consider the following:
 
@@ -276,15 +276,15 @@ GitLab FedRAMP certification.
 
 Using the [`container-scanners`](https://gitlab.com/gitlab-com/gl-security/appsec/container-scanners) project, GitLab
 scans all images we produce to highlight CVE vulnerabilities. From those scans, the
-[`vulnmapper`](https://gitlab.com/gitlab-com/gl-security/threatmanagement/vulnerability-management/vulnerability-management-internal/vulnmapper)
+[`vulnmapper`](https://gitlab.com/gitlab-com/gl-security/product-security/vulnerability-management/vulnerability-management-internal/vulnmapper)
 project creates issues in the project that created the vulnerable image, including
-[SLAs](../../../../../security//product-security/vulnerability-management/#remediation-slas) to which we must adhere.
+[SLAs](/handbook/security/product-security/vulnerability-management/sla/) to which we must adhere.
 The Runner team member assigned the `Support & Security Responder` role in the weekly team task should triage and
 review the list of CVEs and address any issues as appropriate:
 
 - `Critical` severity issues should be addressed immediately.
 - `High`, `Medium`, and `Low` severity issues should be addressed in the priority order of the
-  [remediation SLAs](../../../../../security/product-security/vulnerability-management/#remediation-slas).
+  [remediation SLAs](/handbook/security/product-security/vulnerability-management/sla/).
 
 The procedure for addressing CVE issues is as follows:
 
@@ -332,10 +332,12 @@ The primary course of action here is to create a
 [`deviation request issue`](https://gitlab.com/gitlab-com/gl-security/security-assurance/team-security-dedicated-compliance/poam-deviation-requests/-/issues)
 (see
 https://handbook.gitlab.com/handbook/security/security-assurance/dedicated-compliance/poam-deviation-request-procedure/).
-When creating the issue, be sure to select `operational_requirement_template` as a template and complete the following sections:
+We generally create one deviation request issue per offending software module (e.g. `git-lfs` or `libcurl`). When
+creating the issue, be sure to select `operational_requirement_template` as a template and complete the following
+sections:
 
 - Affected images
-- Vulnerability details
+- Vulnerability details (one row for each relevant CVE report)
 - Relevant `vulnmapper` issues
 - Justification
 

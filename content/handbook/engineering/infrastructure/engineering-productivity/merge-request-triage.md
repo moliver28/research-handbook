@@ -1,14 +1,7 @@
 ---
-
 title: Wider Community Merge Request Triage
 description: "Guidelines for triaging new merge requests from the wider community opened on GitLab.com projects"
 ---
-
-
-
-
-
-
 
 At GitLab, our mission is to change all creative work from read-only to read-write so that [everyone can contribute](/handbook/company/mission/#mission). GitLab highly values community contribution and we want to continue growing community code contribution. GitLab encourages the community to file issues and open merge requests for our projects under the [`gitlab-org` group](https://gitlab.com/gitlab-org), and for the [`gitlab-com/www-gitlab-com` project](https://gitlab.com/gitlab-com/www-gitlab-com). Their contributions are valuable, and we should handle them as effectively as possible. A central part of this is triage - the process of categorization according to type and product group.
 
@@ -117,7 +110,7 @@ A merge request is considered completely triaged when it:
 
 - is closed following the [closing policy for merge requests](https://docs.gitlab.com/ee/development/contributing/merge_request_workflow.html#merge-request-ownership).
 
-This triage process is being done manually on a case-by-case basis by a member of the [GitLab Website Community Team](https://gitlab.com/gitlab-com-community) or the relevant [code owner](https://docs.gitlab.com/ee/user/project/code_owners.html).
+This triage process is being done manually on a case-by-case basis by a member of the [GitLab Website Community Team](https://gitlab.com/gitlab-com-community) or the relevant [code owner](https://docs.gitlab.com/ee/user/project/codeowners/).
 
 ### Wider community merge request triage SLOs (`gitlab-com/www-gitlab-com`)
 

@@ -1,5 +1,4 @@
 ---
-
 title: "Startups Program"
 description: "Learn about the GitLab for Startups Program from GitLab's Developer Relations team"
 ---

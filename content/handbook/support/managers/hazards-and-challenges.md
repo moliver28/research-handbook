@@ -1,5 +1,4 @@
 ---
-
 title: Support Team hazards and challenges
 description: Hazards, Challenges, and possible solutions to consider to solve them
 ---
@@ -14,7 +13,7 @@ description: Hazards, Challenges, and possible solutions to consider to solve th
 | Team knowledge doesn't match ticket difficulty | Develop training materials, provide time for professional development, encourage specializations.  |
 | We aren't hitting our SLOs | Hire and train as per above. Add regularity to scheduling and encourage efficient work patterns. |
 | Leadership breaks trust    | Communicate in public channels, alert early and often of potential discussions, engender the GitLab value of Transparency. |
-| Fear of conflict results in poor decisions | Provide focus on meta-issues by triaging issues in the [Active Now](/handbook/support/index.html#improving-our-processes---active-now-issue-board) board. Encourage buy-in and bravery. Truly listen and respond. Explicitly overrule: state reasoning and thank everyone for voicing opinions. |
+| Fear of conflict results in poor decisions | Provide focus on meta-issues by triaging issues in the [Active Now](/handbook/support/#improving-our-processes---active-now-issue-board) board. Encourage buy-in and bravery. Truly listen and respond. Explicitly overrule: state reasoning and thank everyone for voicing opinions. |
 | Team lacks commitment to results or implementing decisions | Ensure voices are heard. Re-enforce "disagree and commit". Build accountability. |
 | There's no accountability in poor results or not meeting commitments | Reinforce GitLab value of Results by paying attention and following up. |
 | Lack of trust as the team grows | Make an intentional effort to frequently do pairing sessions between regions.|

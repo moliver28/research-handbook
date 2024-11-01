@@ -1,16 +1,7 @@
 ---
-
 title: "Field Enablement"
 description: "The Field Enablement team's mission is to design and deliver effective enablement solutions to field team members and partners that grow expertise and confidence needed to drive efficient, predictable, and scalable growth for GitLab"
 ---
-
-
-
-
-
-
-
-
 
 ## Overview
 
@@ -48,16 +39,18 @@ We envision a Field organization that has easy and intuitive access to the infor
 | ------ | ------ | ------ |
 | Ali Shahrazad  | Sr. Director, Field Enablement | Mgr |
 | Kelley Shirazi | Director, Global Sales and Customer Success Enablement | Mgr |
-| Monica Gomez | Sr. Manager, Field Communications & Content | Mgr |
-| Emelie Rodriguez | Staff Program Manager, Global Enterprise Sales | IC |
-| Shannon Thompson | Sr. Field Communications Specialist | IC |
-| Pallavi Daliparthi | Sr. Program Manager, Customer Success / Solutions Architect Enablement | IC |
-| John Blevins | Sr Program Manager, Onboarding & Continuing Education | IC |
-| Cristian Enache | Sr. Program Manager, EMEA Commercial Enablement | IC |
-| Misty Martin-Zimmerman | Sr Program Manager, AMER Commercial Enablement | IC |
-| Amelia Zaglul | Sr. Program Manager, Executive Sponsorship Program & Field Events | IC |
+| Monica Gomez | Director, Enablement Operations | Mgr |
+| Steve Wilson | Sr. Manager, Product Enablenent | IC | 
+| Emelie Rodriguez | Staff Program Manager, GTM Enablement | IC |
+| Shannon Thompson | Sr. Field Communications Manager | IC |
+| Pallavi Daliparthi | Staff Program Manager, Customer Success / Solutions Architect Enablement | IC |
+| Cristian Enache | Staff Program Manager, EMEA Field Enablement | IC |
+| Jess Stetson | Staff Program Manager, AMER Field Enablement | IC | 
+| John Blevins | Sr. Program Manager, Onboarding & Continuing Education | IC |
+| Joshua Jones | Sr. Program Manager, Partner Enablement | IC |
 | Omnia Radwan | Associate Program Manager, Customer Success / Solutions Architect Enablement | IC |
-| Tess Dutton | Program Manager, Field Enablement | IC |
+| Tess Dutton | Program Manager, Field Enablement Content | IC |
+| Emily Hiett | Field Communications Manager | IC |
 
 ### How We Measure Success
 
@@ -90,7 +83,7 @@ The answer to the above questions will dictate how the Enablement team triages r
 
 The **[Field Announcement request issue](https://gitlab.com/gitlab-com/sales-team/field-operations/enablement/-/issues/new?issuable_template=field-announcement-request&_gl=1*jp1h94*_ga*NTUxMTYwMTU0LjE2MDIwOTI5Nzc.*_ga_ENFH3X7M5Y*MTY4OTM2ODc3NS4zMjQuMS4xNjg5MzY4OTQ1LjAuMC4w)** gathers requests from DRIs/stakeholders across the business to launch or announce something to the Field team – either the full team or a large segment of it. Segment-specific communications are currently out of scope and will require an [Field Enablement request flow](/handbook/sales/field-operations/field-enablement/#field-enablement-request-issue). **Requesters / DRIs should open an issue using this template to track:**
 
-1. Upcoming projects or initiatives that will impact the Field team’s processes or workflows
+1. Upcoming projects or initiatives that will impact the Field team's processes or workflows
 1. Announcements that teams would like the Field to be aware of (organizational or otherwise)
 1. New resources or tools the Field should know about
 1. Requests for feedback (i.e. surveys) from the Field team
@@ -109,7 +102,7 @@ The **[Field Enablement request issue](https://gitlab.com/gitlab-com/sales-team/
 
 The issue template includes questions and instructions to scope the intended audience(s) for the enablement activities, learning objectives and priority. It also includes questions to determine if Field Communications activities are also required. Please complete the required sections of the issue template in full, providing as much detail as possible. Note that ALL questions must be answered prior to Field Enablement triaging your request.
 
-Once the request has been triaged by Field Enablement program managers (PM), the PM will conduct any additional exploration with the requester/DRI to determine a workback plan.  
+Once the request has been triaged by Field Enablement program managers (PM), the PM will conduct any additional exploration with the requester/DRI to determine a workback plan.
 
 ### GTM Enablement Process
 
@@ -165,7 +158,7 @@ To reach the Field Enablement team on Slack, use #field-enablement-team
   - Use the GitLab.com group for epics that may include issues within and outside the Sales Team group
   - Use the GitLab Sales Team group for epics that may include issues within and outside the Field Operations group
 - **Projects**
-  - Create issues under the “Enablement” project
+  - Create issues under the "Enablement" project
 - **Labels**
   - **Team labels**
     - `field enablement` - issue initially created, used in templates, the starting point for any label that involved Field Enablement

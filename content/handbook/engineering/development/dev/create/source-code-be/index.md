@@ -102,6 +102,10 @@ As a team we strive to be responsive and accommodating when we communicate. When
 | ✅    | Task is complete                                                                                                    |
 | ⏭    | I've seen this but I don't think I'm the best person for the job. Ping me if no one else responds and you need help |
 
+### Merge Request reviews
+
+{{% include "includes/engineering/create/conventional-comments.md" %}}
+
 ### Triage process
 
 The weekly Triage Report is generated automatically by the [GitLab bot](https://gitlab.com/gitlab-bot) and this report is reviewed by the EM. Here is [an example](https://gitlab.com/gitlab-org/quality/triage-reports/-/issues/2700) of a previous report.
@@ -148,7 +152,7 @@ Create Source Code UX planning takes inputs from the following sources:
 
 ##### Planning issue
 
-Each month a planning issue is created by one of the EMs, using [automated tools](https://gitlab.com/gitlab-com/create-stage/source-code-be/-/blob/main/doc/planning/index.md)based on the [Source Code issue template](https://gitlab.com/gitlab-org/create-stage/-/blob/master/.gitlab/issue_templates/source-code-planning.md).
+Each month a planning issue is created by one of the EMs, using [automated tools](https://gitlab.com/gitlab-com/create-stage/source-code-be/-/blob/main/doc/planning/index.md) based on the [Source Code issue template](https://gitlab.com/gitlab-org/create-stage/-/blob/master/.gitlab/issue_templates/source-code-planning.md).
 
 ##### Planning board
 
@@ -214,14 +218,13 @@ If the problem is well-defined but too large (weight 5 or greater), either:
 
 - Don't assign a weight, instead add a comment indicating what needs clarification and ping the EM and PM.
 
-##### If the issue needs a spike
+###### If the issue needs a spike
 
 - Don't assign a weight, instead add a comment about the need for a spike (and possibly what would be investigated) and ping the EM or PM.
 - Spikes are scheduled with a weight of 2.
 - Spikes are scheduled with a weight of 2 (timeboxed).
-- The ~spike label is added
 
-When a spike is scheduled, the engineer performs research on what needs to be done. On completion of the investigation, the engineer has either closed the issue or developed a plan for the work needed, including a weight. A follow-up issue is created and the labels copied from the original issue, and the original issue then closed.
+See the [spike issues](#spike-issues) section for more details about these issues.
 
 ##### Security issues
 
@@ -286,6 +289,14 @@ You will begin to collect follow-up issues when you've worked on something in a 
 You should generally take on follow-up work that is part of our [definition of done](https://docs.gitlab.com/ee/development/contributing/merge_request_workflow.html#definition-of-done), preferably in the same milestone as the original work, or the one immediately following. If this represents a substantial amount of work, bring it to your manager's attention, as it may affect scheduling decisions.
 
 If there are many follow-up issues, consider creating an epic.
+
+#### Spike issues
+
+{{% include "includes/engineering/create/spike-issues.md" %}}
+
+##### Double-assign for overly-complex or time-sensitive issues
+
+As discussed in a [previous retrospective](https://gitlab.com/gl-retrospectives/create-stage/source-code/-/issues/74#note_1914857307), in addition to breaking down issues, we should assign two engineers to each task instead of just one for overly-complex or time-sensitive issues. This co-ownership will help parallelize efforts in multiple-MR tasks, speed up immediate code reviews, and ultimately lead to faster delivery of results.
 
 #### Backend and Frontend issues
 

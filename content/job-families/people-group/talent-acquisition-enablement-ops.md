@@ -21,7 +21,7 @@ The Progam Manager, TA Enablement is a [grade 6](/handbook/total-rewards/compens
 - Act as project manager for recruiting operations initiatives
 - Run our talent acquisition surveys
 - Work with Senior Manager, Enablement to develop bespoke reporting for the TA function and analyze recurring metrics
-- Understand end-to-end TA processes and employ a “continuous improvement & iteration” rhythm
+- Understand end-to-end TA processes and employ a "continuous improvement & iteration" rhythm
 - Manage procurement issues and certain external vendor relationships as it pertains to billing, action planning etc
 - Own all regular decks for Talent Acquisition team meetings, defining and collating content, and driving the meetings
 - Proactively suggest and run teambuilding and incentive programs for the team
@@ -54,7 +54,7 @@ The Senior Progam Manager, Global TA Enablement is a [grade 7](/handbook/total-r
 - Own and project manage talent acquisition surveys from initiation to execution to analysis
 - Oversee bespoke reporting for the TA function and analyze recurring metrics
 - Work closely with and appropriately message TA updates to team members  across all levels of the company
-- Act as subject matter expert in TA processes and employ a “continuous improvement & iteration” rhythm
+- Act as subject matter expert in TA processes and employ a "continuous improvement & iteration" rhythm
 - Manage some external vendor relationships
 - Act as project owner for Talent Acquisition team meetings
 - Proactively suggest and run teambuilding and incentive programs for the team
@@ -92,7 +92,7 @@ The Manager, Global TA Enablement is a [grade 8](/handbook/total-rewards/compens
 - Partner with finance and our PBP team to ensure that the necessary process flows are built for scale
 - Partner with our Data and Analytics team to build a solid reporting suite for the Head of TA, their leadership team and the hiring manager community
 - Provide coaching to improve performance of team members and drive accountability
-- Develop, own and run the GitLab hiring planning process in collaboration with the various operations teams, finance and the PBP’s
+- Develop, own and run the GitLab hiring planning process in collaboration with the various operations teams, finance and the PBP's
 - Build trusted partnerships within GitLab and externally to collaborate, drive alignment and stay on top of trends
 - Leverage our candidate facing teams to advocate for our employer brand and deliver a world-class experience
 - Help define and leverage data-focused metrics in order to develop and deliver on the goals
@@ -133,7 +133,7 @@ The Senior Manager, Global TA Enablement is a [grade 9](/handbook/total-rewards/
 - Partner with our Legal team to ensure our practices and processes are in line with employment laws in locations where we operate
 - Provide coaching to improve performance of team members and drive accountability
 - Onboard, mentor, and grow the careers of all team members in the TA Enablement and Candidate Experience teams
-- Develop, own and run the GitLab hiring planning process in collaboration with the various operations teams, finance and the PBP’s
+- Develop, own and run the GitLab hiring planning process in collaboration with the various operations teams, finance and the PBP's
 - Build trusted partnerships within GitLab and externally to collaborate, drive alignment and stay on top of trends
 - Leverage our candidate facing teams to advocate for our employer brand and deliver a world-class experience
 - Help define and leverage data-focused metrics in order to develop and deliver on the goals

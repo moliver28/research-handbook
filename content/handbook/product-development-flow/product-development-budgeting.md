@@ -1,7 +1,5 @@
 ---
 title: Product Development Budgeting Process
-aliases:
-- /handbook/product-development-budgeting/
 ---
 
 ## Pre-planning for potential new investments

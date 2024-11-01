@@ -29,7 +29,7 @@ To keep notes, we have an ongoing Google document and for topic inspiration, we 
 
 #### Myers-Briggs Personality type
 
-🔗[**“The Protagonist”** (ENFJ-A/ENFJ-T)](https://www.16personalities.com/articles/assertive-protagonist-enfj-a-vs-turbulent-protagonist-enfj-t)
+🔗[**"The Protagonist"** (ENFJ-A/ENFJ-T)](https://www.16personalities.com/articles/assertive-protagonist-enfj-a-vs-turbulent-protagonist-enfj-t)
 
 **Individual traits:**
 

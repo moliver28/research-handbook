@@ -1,5 +1,4 @@
 ---
-
 title: "Top Misused Terms - GitLab Communication"
 ---
 

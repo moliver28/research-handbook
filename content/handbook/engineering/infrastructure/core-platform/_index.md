@@ -16,9 +16,9 @@ Core Platform focuses on improving our capabilities and metrics in the following
 - [Distribution:Deploy](/handbook/engineering/infrastructure/core-platform/systems/distribution/#distribution-deploy)
 - [Geo](/handbook/engineering/infrastructure/core-platform/systems/geo/)
 - [Gitaly](/handbook/engineering/infrastructure/core-platform/systems/gitaly/)
-- [Cloud Connector](/handbook/engineering/infrastructure/core-platform/systems/cloud-connector/)
+- [Cloud Connector](/handbook/engineering/infrastructure/core-platform/data_stores/cloud-connector/)
 - [Global Search](/handbook/engineering/infrastructure/core-platform/data_stores/search/)
-- [Tenant Scale](/handbook/engineering/infrastructure/core-platform/data_stores/tenant-scale/)
+- [Tenant Scale](/handbook/engineering/infrastructure/core-platform/tenant-scale/)
 
 ## All Team Members
 
@@ -34,7 +34,7 @@ The following people are permanent members of teams that belong to the Core Plat
 
 ### Distribution:Build
 
-{{< team-by-manager-slug manager="sissiyao" team="Build" >}}
+{{< team-by-manager-slug manager="plu8" team="Build" >}}
 
 ### Distribution:Deploy
 
@@ -126,13 +126,13 @@ List of frontend collaborations:
 | Zack Cuddy | Tenant Scale | [Organization MVC](https://gitlab.com/groups/gitlab-org/-/epics/10649) | 16.2 - 16.10 | Part-time |
 | Zack Cuddy | Tenant Scale | [Organization MVC](https://gitlab.com/groups/gitlab-org/-/epics/10649) | 16.11 - Present | Full-time |
 
-The frontend roadmap items above are broken down into specific epics and issues, and they can also be labelled with `Core Platform-FE` tracked in the [Core Platform Frontend Backlog](https://gitlab.com/groups/gitlab-org/-/boards/5604213) board.
+The frontend roadmap items above are broken down into specific epics and issues, and they can also be labeled with `Core Platform-FE` tracked in the [Core Platform Frontend Backlog](https://gitlab.com/groups/gitlab-org/-/boards/5604213) board.
 
 ### Increasing Efficiency through Documenting Decisions
 
 Documenting development decisions is another way to increase efficiency.  These decisions can be either in an issue explicitly stating that we will not work on this issue, the product category page for your group or a more formal decision log in your group's section of the handbook.  Whatever your chosen desitination, each group should try to maintain a [single source of truth](/handbook/values/#single-source-of-truth) for the decisions.  A recent example (without mentioning specific product name) had a development team researching an open source product to accelerate development time only to find out later that this research had been previously completed and the product was eliminated from consideration.  If this decision had been discoverable via documentation or issue it would have saved precious development time.
 
-We have started creating decision logs to benefit our internal development team as well as our greater GitLab community.  It is up to each group to determine the best location for decision logs to be discoverable.  For example, the Database team has a decision log for [Sharding GitLab with CitusDB](/handbook/engineering/infrastructure/core-platform/data_stores/database/doc/citus.html) in the Core Platform/Database section of the handbook and a decision log for the [Sharding Working Group](/handbook/company/working-groups/sharding/#outcome---closed) in the working group section of the handbook.
+We have started creating decision logs to benefit our internal development team as well as our greater GitLab community.  It is up to each group to determine the best location for decision logs to be discoverable.  For example, the Database team has a decision log for [Sharding GitLab with CitusDB](/handbook/engineering/infrastructure/core-platform/data_stores/database/doc/citus/) in the Core Platform/Database section of the handbook and a decision log for the [Sharding Working Group](/handbook/company/working-groups/sharding/#outcome---closed) in the working group section of the handbook.
 
 For issues, a clear decision is when an issue is successfully closed.  However, if an issue is closed because we "won't do it" it may not be immediately clear.  We are adopting the `~won't do` label for those issues.  Often the pattern is to just stash these issues in the `~backlog`.  This can be misleading to those watching the issue and frustrating to the original author, especially if they are a community contributor.  When we apply a `won't do` label to an issue, we are making a clear decision.  If there is no pushback on the `won't do` label then we made the right decision.  If there is pushback and we need to reprioritize the issue, then that is a good outcome as well.
 
@@ -203,6 +203,35 @@ The Core Platform teams leverage the following software or SaaS services to deli
 | dependencies.io | [https://www.dropseed.io/](https://www.dropseed.io/ ) | Annual | November 1st | Distribution | Existing vendor, [last renewal issue](https://gitlab.com/gitlab-org/distribution/team-tasks/-/issues/514) |
 | postgres.ai     | [https://postgres.ai/](https://postgres.ai/)     | Annual  | May 28th          | Database     | Existing vendor, [last renewal issue](https://gitlab.com/gitlab-com/Finance-Division/procurement-team/procurement/-/issues/1310) |
 
+## Lunch and Learns
+
+We hold monthly "lunch and learn" knowledge sharing sessions where Core Platform team members can learn about work happening in other teams and gain experience presenting.
+
+In order to accommodate our globally distributed team, we have the following async/timezone considerations:
+
+- Schedule in a time slot that is convenient for whoever is presenting that month.
+- Share agenda with slide deck, recording, and any other relevant materials at least a couple of days before so that team members can review and add questions/comments ahead of time.
+
+These sessions were [intially proposed and piloted](https://gitlab.com/gitlab-org/core-platform-section/data-stores/-/issues/100) in the Data Stores stage and are now expanded to include the entire sub-department.
+
+Sessions are recorded and added to the [Monthly Lunch and Learn YouTube Playlist](https://www.youtube.com/playlist?list=PL05JrBw4t0Kr4pV627OR9u26ZXX3JrgSf).
+
+### 2024 Schedule
+
+To sign up for a month, simply open an MR to the schedule below to add yourself and assign `@nhxnguyen` for review.
+
+| Month | Presenter | Topic | Recording |
+| ----  | --------- | ----  | --------- |
+| April |     @bshah11       |  Postgress: [Zero-downtime Postgres Major Version Upgrade](https://postgresconf.org/conferences/2024/program/proposals/zero-downtime-postgres-major-version-upgrade)     | https://youtu.be/lv3otnWBMzY |
+| May   |  @manojmj | Progress: The story of how we leveraged housekeeper, YAML & GitLab Pages to build alignment | https://youtu.be/zUl5dMF5gz0  |
+| June  |           |       |          |
+| July  |     @terrichu     |   [Advanced search basics, integration, indexing and search](https://docs.google.com/presentation/d/1Fy3pfFIGK_2ZCoB93EksRKhaS7uuNp81I3L5_joWa04/edit?usp=sharing_)    | https://youtu.be/5OXK1isDaks |
+| August | @sxuereb | [PromQL Basics, Mimir and our exporters](https://docs.google.com/presentation/d/1BhH0Ga_gtwoaiILCQEWYo4XdFidznT5Uk2v6D3QF7hw)       | https://youtu.be/CPo1-__wdh8 |
+| September | @mkaeppler | [Life of a Cloud Connector request](https://docs.google.com/presentation/d/1-T6PNMBFhBJMtfGdfjMsgMcgSHXtLzDd4T8lrTMkDHg/edit#slide=id.g1e546bbceaf_0_1402) | https://youtu.be/DeTh9dhDrnw         |
+| October |  @bshah11     |    Kubernetes Operators for PostgreSQL  ||
+| November |        |       |          |
+| December |        |       |          |
+
 ## Internal Opportunities Pilot
 
 At GitLab, we encourage team members to explore their interests in other domains and generally support moves between teams. This helps with team member retention and career development. It can also help the receiving team gain valuable exposure to other parts of the product. However, we don't have a well-defined process to connect interested team members with available opportunities. For example, sometimes we execute borrow requests where specific engineers are requested for assignment and there is no opportunity for other engineers to express interest. We can encourage engineers interested in a move to look at job postings. But there could be other opportunities for temporary assignments or exchanges if we had an overview of interest across the organization.
@@ -221,4 +250,12 @@ The following conditions are followed when initiating the process:
 1. The applying candidate's last performance rating was `Performing` and there is no ongoing performance concerns at the time of application.
 2. The length of duration is what is defined by the Rapid Action and Borrow requests. For Internship, it is typically [6 weeks to 3 months](/handbook/people-group/learning-and-development/internship-for-learning/#:~:text=How%20long%20does%20an%20internship%20of%20this%20nature%20last%3F).
 3. At any time, the maximum concurrent temporary assignments cannot exceed 2 individuals for the roles within Core Platform. Note that there is no limit to roles for Rapid Actions and Borrows of company priority initiatives.
-4. Other specific requirements of each temporary arrangement, for example a condition of Internship says 'If your manager has coverage, you can spend a percentage of your time working (through an ‘Internship’) with another team.'
+4. Other specific requirements of each temporary arrangement, for example a condition of Internship says 'If your manager has coverage, you can spend a percentage of your time working (through an 'Internship') with another team.'
+
+## Collaborations and Requests For Help Cross Org
+
+We are piloting a process within Core Platform to standardize how we interact and respond to Collaboration requests from other organizations such as Professional Services or Customer Success Teams. Each team will use a template similar to [this](https://gitlab.com/gitlab-com/geo-customers/-/blob/master/.gitlab/issue_templates/Support%20Request%20-%20Collaboration%20Template.md) where specific information similar to an RFH template is used to help streamline any calls for Product/Engineering to participate in cross group collaborations or customer calls where engineer expertise is required.
+
+### Collaboration and RFH Templates
+
+Refer to https://gitlab.com/gitlab-com/enablement-sub-department/section-enable-request-for-help for details.

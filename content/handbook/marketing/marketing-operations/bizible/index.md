@@ -62,7 +62,7 @@ AMM tracks the position of a touchpoint based on its timing to other touchpoints
 
 GitLab uses [AMM's Custom Attribution model](/handbook/marketing/marketing-operations/bizible/#custom-attribution-based-on-bizible-machine-learning-algorithm) based on a unique machine learning algorithm from AMM. The Custom model uses our touchpoint data to calculate attribution weights for each stage based on how much each opportunity stage drove the deal to close.
 
-Adobe Marketo Mesure supports [other attribution methods](https://www.bizible.com/blog/marketing-attribution-models-complete-list) not used by GitLab.
+Adobe Marketo Mesure supports [other attribution methods](https://experienceleague.adobe.com/en/docs/marketo-measure/using/introduction-to-marketo-measure/overview-resources/marketo-measure-attribution-models) not used by GitLab.
 
 **How is the Machine Learning model Calculated?**
 
@@ -130,7 +130,7 @@ Once a Touchpoint is created, AMM uses a set of predefined [mapping rules](#amm-
 | Offline                 | Tradeshows; BrightTalk Webcasts (for Attended status TPs), Content syndication partner delivers a list of leads who engaged with your content | CRM Campaign membership by enabling Touchpoint Generation on the campaign Object, by configuring campaign sync rules in AMM, Brighttalk Webcasts via Marketo Programs Integration through Marketo Program Rules | By referencing Campaign Type or the Marketo Program Channel Mapping    |
 | Sales activity          | Outbound call by SDR                                                                                                                          | CRM Activity (Task or Event) record synced to AMM, through logic on the Activities page in AMM                                                                                                                  | By referencing the Campaign Name assigned on the Activities page        |
 
-AMM has more extensive documentation on how [Touchpoints are generated and mapped](https://docs.marketo.com/display/BIZ/Touchpoint+Generation+and+Mapping).
+AMM has more extensive documentation on how [Touchpoints are generated and mapped](https://experienceleague.adobe.com/en/docs/marketo-measure/using/configuration-and-setup/getting-started-with-marketo-measure/touchpoint-generation-and-mapping).
 
 ## AMM Channel and Subchannel Mapping
 
@@ -310,8 +310,8 @@ Training Video:
 
 The review of online touchpoints and of the rules governing the creation of touchpoints based on online activities takes place once per month and includes the following checks:
 
-- Pull a Marketo Measure Touchpoint SFDC report, grouped by channel and monitor for touchpoints associated to “Other” as the channel;
-- Review the Landing Page Raw field data for the “Other” touchpoints and identify if there are new or rogue utm parameters that need to be added to our online rule sheet;
+- Pull a Marketo Measure Touchpoint SFDC report, grouped by channel and monitor for touchpoints associated to "Other" as the channel;
+- Review the Landing Page Raw field data for the "Other" touchpoints and identify if there are new or rogue utm parameters that need to be added to our online rule sheet;
 - Additionally review the [UTM Generator spreadsheet](https://docs.google.com/spreadsheets/d/12jm8q13e3-JNDbJ5-DBJbSAGprLamrilWIBka875gDI/edit#gid=2043976569) which contains the urls that are used in our various online campaigns and make sure any newly added utm parameters are included in the online rules sheet;
 - Finalize all updates to the online touchpoint rules sheet and re-upload it back into Marketo Measure > Online Channels section;
 - Lastly, if the rule changes require any additions/substractions to our Channel/Sub-Channel mapping, make sure to have those included in the Marketo Measure > Create Channels section.

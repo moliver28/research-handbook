@@ -1,13 +1,6 @@
 ---
-
 title: R&D Tax Credits
 ---
-
-
-
-
-
-
 
 GitLab submits applications for R&D Tax Credits in a number of jurisdictions that implement reimbursement schemes for research and development. A subject-matter expert (SME) from engineering is appointed to each application to assist with data collection. A third-party tax agent prepares and submits the report. SMEs are usually Engineering Managers or Directors and located in, or with reasonable knowledge of, the jurisdiction under application.
 

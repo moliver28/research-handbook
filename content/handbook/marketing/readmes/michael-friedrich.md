@@ -1,6 +1,6 @@
 ---
-title: "Michael 'dnsmichi' Friedrich README (Senior Developer Advocate)"
-description: "Learn more about working with Michael 'dnsmichi' Friedrich, Senior Developer Advocate, GitLab"
+title: "Michael 'dnsmichi' Friedrich README (Staff Developer Advocate)"
+description: "Learn more about working with Michael 'dnsmichi' Friedrich, Staff Developer Advocate, GitLab"
 job: "Developer Advocate"
 ---
 
@@ -13,6 +13,10 @@ Please feel free to contribute to this page by opening a merge request.
 Grown up in Linz, Austria, I wanted to understand how a computer works in school. A 486 PC turbo-boost button that was not enabled by default inspired me to study Hardware/Software Systems Engineering, leading to circuit design, hardware and software programming languages, and more adventures with NFC and multimedia streaming in 2005. A student's dorm network project in Vienna, Austria, allowed me to dive into spanning trees (and loops!) and routing, which I expanded on with DNS and monitoring at the University of Vienna, Computer Center. Maintaining an open-source monitoring project for 11 years required me to understand how the software is used in production. CVEs raised awareness about security scanning. I therefore engaged with global events and community meetups to learn and understand the roles in modern DevSecOps and cloud-native workflows. My passion for open-source communities also inspired me to move to Nuremberg, Germany, in 2012, where I live today in the countryside. In March 2020, I started my all-remote adventure at GitLab.
 
 Outside of work, you'll find me building LEGO models, combining embedded hardware with home automation, exploring nature, and travelling. You can learn more on my personal website: https://dnsmichi.at/about/
+
+### Biography and headshots
+
+I have a detailed biography and CV available in different text lengths and languages, as well as professional headshot photos. You can find these resources in [this public document](https://docs.google.com/document/d/1UZVKbMgB-3dvOdahxpvSm94KBP6vu4fAHex937hlzQQ/edit#heading=h.2eg84apkwfv7).
 
 ## My work values
 
@@ -55,14 +59,14 @@ I bring my authentic-self to work every day -- can you spot all easter eggs in [
 - **I say yes too often.** I'm constantly challenged with many requests and my own ideas, and I sometimes overload myself with tasks and need to reprioritize. The printed [Eisenhower Matrix](https://slab.com/blog/eisenhower-matrix/) on my desk helps me `do, schedule, delegate, or delete` tasks. I might forget about requests that are not tracked in an issue with a due date and a to-do assignment (Google Docs, Slack, Email). Please be proactive and create [Developer Advocacy requests](/handbook/marketing/developer-relations/developer-advocacy/#want-to-work-with-the-team) and assign them to me.
 - **My native language is German, not English, sometimes leading to misunderstandings.** I have a vocabulary weakness for day-to-day items (e.g., kitchen and food). I'm learning through coffee chats, social conversations, and using Grammarly to improve my English. For example, when I share a tip to `make you more efficient`, it does not mean that you are not efficient. Instead, I am always looking for ways to help others benefit from my discovered efficiency tips, and need to word it differently.
 - **I'm not good at email communication.** If I should follow up on an external email conversation, you might have to remind me to do so, or create a tracking issue.
-- **I occasionally fall into old habits and aim for perfection and completeness.** Minimal viable changes, boring solutions, and [iteration](/handbook/values/#iteration) are challenging sometimes. If you see me writing a long tutorial blog post or a capture-everything issue, please jump in and remind me to break down the tasks.
+- **I occasionally fall into old habits and aim for perfection and completeness.** [Minimal valuable changes](/handbook/product/product-principles/#the-minimal-valuable-change-mvc), [boring solutions](/handbook/values/#boring-solutions), and [iteration](/handbook/values/#iteration) are challenging sometimes. If you see me writing a long tutorial blog post or a capture-everything issue, please jump in and remind me to break down the tasks.
 
 ## Working with me
 
 - I prefer asynchronous written communication over synchronous calls.
   - GitLab issues, merge requests, and forum topics are preferred over Slack or Discord.
   - I love [low-context communication](/handbook/communication/#top-tips-and-best-practices), providing all necessary context so that everyone can continue when I'm offline or focused on other tasks.
-  - Avoid live screensharing presentations in meetings. Instead, record a walkthrough video, upload it to GitLab Unfiltered on YouTube, and share the resources in advance for the synchronous meeting.
+  - Avoid live screen sharing presentations in meetings. Instead, record a walkthrough video, upload it to GitLab Unfiltered on YouTube, and share the resources in advance for the synchronous meeting.
 - Ask questions in [public Slack channels](/handbook/communication/#use-public-channels), so that everyone can contribute.
   - This helps loop in more team members, subject matter experts, and those responsible for specific areas (DRIs).
   - Please avoid direct messages (DMs) unless it's private feedback or confidential information. I'll respond to DMs with lower priority than public requests.
@@ -70,8 +74,8 @@ I bring my authentic-self to work every day -- can you spot all easter eggs in [
   - If I need to leave during a planned task, I will communicate the sign-off time and provide a handover summary.
 - My calendar invites are editable by guests.
   - Feel free to adjust the time to fit everyone's schedule.
-  - No worries on short notice reschedules. I always have a task or project to work on, or appreciate the short break.
-  - My default Zoom URL has a meeting room set up for external guests. If I don't show up in Zoom on time and let you in, ping me on Slack.
+  - No worries about short-notice reschedules. I always have a task or project to work on, or appreciate the short break.
+  - My default Zoom URL has a waiting room set up for external guests. If I don't show up in Zoom on time and let you in, ping me on Slack.
 - If you think a repeating coffee chat or a topic-specific 1:1 would be beneficial for efficient collaboration, propose a new calendar event and include an agenda document.
 - My work hours cover mostly AMER and EMEA time zones.
   - Meetings can be scheduled in my afternoon (5 AM to 10 AM PT, 2 PM CET to 7 PM CET). My mornings are reserved for focused work or personal time (shopping, extended lunch with friends).
@@ -81,7 +85,7 @@ I bring my authentic-self to work every day -- can you spot all easter eggs in [
 
 ### Finding me
 
-I go by `dnsmichi` everywhere: [Slack](https://gitlab.enterprise.slack.com/team/UUCF3K61G), [GitLab.com profile](https://gitlab.com/dnsmichi), [GitLab forum](https://forum.gitlab.com/u/dnsmichi/summary), social media, and my [personal website](https://dnsmichi.at/). However, for email and calendar, you need to find my full name `Michael Friedrich` or the short form `mfriedrich`. I love coffee chats, so please schedule one without asking for permission. :-)
+I go by `dnsmichi` everywhere: [Slack](https://gitlab.enterprise.slack.com/team/UUCF3K61G), [GitLab.com profile](https://gitlab.com/dnsmichi), [GitLab forum](https://forum.gitlab.com/u/dnsmichi/summary), [social media](https://dnsmichi.at/about/), and my [personal website](https://dnsmichi.at/). However, for email and calendar, you need to find my full name `Michael Friedrich` or the short form `mfriedrich`. I love coffee chats, so please schedule one without asking for permission. :-)
 
 I enjoy connecting with team members on [LinkedIn](https://www.linkedin.com/in/dnsmichi/), and amplifying your voice into my network (hiring, product/engineering insights, marketing, etc.). Tips for social media messaging are documented in the [Developer Advocacy on Social Media handbook](/handbook/marketing/developer-relations/developer-advocacy/social-media/). I'm active on social media, but I have push notifications disabled on my mobile devices. I'm not good at responding to many private messages or connection requests, so using a different channel is more efficient. I uninstall social media apps during vacations to relax and maintain my mental health.
 
@@ -106,10 +110,6 @@ My role as Developer Advocate enables me to take different hats: provide product
 I'm a leader within GitLab, and I'm happy to share my knowledge, expertise, and connections with everyone. I'm active in the [Global Voices TMRG](/handbook/company/culture/inclusion/tmrg-global-voices/), and I'm an ally, for example, by supporting underrepresented groups in my [mentoring and coaching activities](/handbook/marketing/developer-relations/developer-advocacy/mentoring-coaching/).
 
 ## Resources
-
-### Biography and headshots
-
-I have a detailed biography and CV available in different text lengths and languages, as well as professional headshot photos. You can find these resources in [this public document](https://docs.google.com/document/d/1UZVKbMgB-3dvOdahxpvSm94KBP6vu4fAHex937hlzQQ/edit#heading=h.2eg84apkwfv7).
 
 ### All-remote experience
 

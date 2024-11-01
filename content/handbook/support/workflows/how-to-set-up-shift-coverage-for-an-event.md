@@ -1,11 +1,8 @@
 ---
-
 title: Scheduling Support Coverage for a Company-wide Event
 category: References
 description: Use this workflow when you want to get a coverage schedule, including PD, going for an event like Contribute
 ---
-
-
 
 ##### Overview
 

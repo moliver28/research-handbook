@@ -14,13 +14,13 @@ The DRI might be a manager or team leader, they might even be an executive.
 Or, they may themselves be individually responsible for fulfilling all the needs of their project.
 The selection of a DRI and their specific role will vary based on their own skillset and the requirements of their assigned task.
 What's most important is that they're empowered.
-We may [disagree, commit, and disagree]({{< ref "values#disagree-and-commit" >}}), but we all have to achieve results on every decision while it stands, even when if trying to have it changed.
+We may [disagree, commit, and disagree](/handbook/values/#disagree-and-commit), but we all have to achieve results on every decision while it stands, even when if trying to have it changed.
 
 While the DRI is the individual who is ultimately held accountable for the success or failure of any given project, they are not necessarily the individual that does the tactical project work. The DRI should **consult and collaborate** with all teams and stakeholders involved to ensure they have all relevant context, to gather input/feedback from others, and to divide action items and tasks amongst those involved.
 
 ## Empowering DRIs
 
-It is important to understand that DRIs do not owe anyone an explanation for their decisions. If you force a DRI to explain too much, you'll create incentives to ship projects under the radar. The fear of falling into a perpetual loop of explaining can [derail a DRI]({{< ref "values#five-dysfunctions" >}}), and cause people to defer rather than working with a [bias for action]({{< ref "values#bias-for-action" >}}).
+It is important to understand that DRIs do not owe anyone an explanation for their decisions. If you force a DRI to explain too much, you'll create incentives to ship projects under the radar. The fear of falling into a perpetual loop of explaining can [derail a DRI](/handbook/values/#five-dysfunctions), and cause people to defer rather than working with a [bias for action](/handbook/values/#bias-for-action).
 
 We would much rather foster a culture where DRIs are willing to put their ideas in the open. This enables feedback from a broad range of diverse perspectives, which the DRI can take into account and choose how (if at all) it shapes their thinking.
 
@@ -51,10 +51,10 @@ While they're empowered to make all final decisions, they should know how and wh
 
 ## Characteristics of a Project DRI
 
-DRIs are most often assigned at the task-level. For example, when building a new product feature [the Product Manager is the DRI for the prioritization and the Engineering Manager is the DRI for delivery](/handbook/product/product-processes/#working-with-your-group). As [managers of one]({{< ref "values#managers-of-one" >}}) GitLab team members are most often the DRI for the tasks they accomplish.
+DRIs are most often assigned at the task-level. For example, when building a new product feature [the Product Manager is the DRI for the prioritization and the Engineering Manager is the DRI for delivery](/handbook/product/product-processes/#working-with-your-group). As [managers of one](/handbook/values/#managers-of-one) GitLab team members are most often the DRI for the tasks they accomplish.
 
 At times, someone may be a DRI for an entire process or project. Because this comes with additional responsibility, there are some suggested characteristics to keep in mind when assigning the DRI.
-[Mike Brown](https://www.brainzooming.com/team#MikeBrownBio) in his November 2015 article, [Project Management – 8 Characteristics of a DRI](http://brainzooming.com/project-management-8-chracteristics-of-a-dri/25340/), lists the following:
+[Mike Brown](https://www.brainzooming.com/team#MikeBrownBio) in his November 2015 article, [Project Management – 8 Characteristics of a DRI](https://www.brainzooming.com/blog/project-management-8-chracteristics-of-a-dri), lists the following:
 
 1. Detail-orientated without ever losing a strong strategic perspective.
 1. Calm under the pressure of implementation and deadlines.
@@ -104,7 +104,7 @@ Examples include:
 - A large cross-functional initiative that has significant reputational or financial implications for the GitLab and its users, such as a pricing initiative
 - The rollout of a major policy change that requires multiple functions to align on a coordinated response (for example, legal, marketing, finance), such as changes to the Terms of Service
 
-In these instances, another person may own the final decision, but this doesn't mean that key process steps should be skipped and other key stakeholders shouldn't be involved in ensuring a successful outcome. If a DRI is not considering key stakeholder feedback, executing without adequately planning for success, and saying, "the E-Group approved this," it is worth pausing and considering whether key steps are being missed or additional items should be considered. The DRI is still responsible for successful execution once a decision is made. If the DRI disagrees with a decision, it is this person's responsibility to make a compelling case to the decision maker in order to change the decision maker's mind. If this can't be done within a reasonable period of time, the DRI should [disagree and commit]({{< ref "values#transparency-competency" >}}).
+In these instances, another person may own the final decision, but this doesn't mean that key process steps should be skipped and other key stakeholders shouldn't be involved in ensuring a successful outcome. If a DRI is not considering key stakeholder feedback, executing without adequately planning for success, and saying, "the E-Group approved this," it is worth pausing and considering whether key steps are being missed or additional items should be considered. The DRI is still responsible for successful execution once a decision is made. If the DRI disagrees with a decision, it is this person's responsibility to make a compelling case to the decision maker in order to change the decision maker's mind. If this can't be done within a reasonable period of time, the DRI should [disagree and commit](/handbook/values/#transparency-competency).
 
 ## Further reading
 

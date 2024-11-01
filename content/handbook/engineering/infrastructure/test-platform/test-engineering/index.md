@@ -1,14 +1,7 @@
 ---
-
 title: "Test Engineering"
 description: "The Quality Engineering Sub-Department helps facilitate the test planning process for all things related to Engineering work."
 ---
-
-
-
-
-
-
 
 The Quality Engineering Sub-Department helps facilitate the test planning process for all things related to Engineering work.
 
@@ -53,11 +46,11 @@ The following guidelines provide more detail, as well as suggested responsibilit
   - Start the discussion by answering the questions in the Testing section of the [feature proposal template](https://gitlab.com/gitlab-org/gitlab/-/blob/master/.gitlab/issue_templates/Feature%20proposal%20-%20detailed.md). Note that those questions are not exhaustive.
   - [Optional] See the [Test Plan](#test-plan) section for advice on when a test plan might be useful.
 
-##### As a Product Manager, Product Designer, Engineer (of any type), user, or anyone else involved in the change
+##### As a Product Manager, Product Designer, Engineer, user, or anyone else involved in the change
 
 - Continue the discussion of quality and risk that was started in the issue description. Share any insights that you have that could help guide testing efforts.
 
-##### As an Engineer who will implement the change, or a Software Engineer in Test contributing to the change
+##### As an Engineer who will implement the change, or an SET contributing to the change
 
 - Use the issue to start a discussion about test strategy, to come up with clear test deliverables for tests at different levels.
   - List the test deliverables in the feature merge request(s).
@@ -95,7 +88,7 @@ There is no strict guideline for this and we defer this decision to each enginee
 - Certifying performance improvements for customers.
 - Upgrading underlying Rails version (e.g., the [Rails 5 migration](https://gitlab.com/gitlab-org/gitlab-ce/issues/51719)).
 
-GitLab's test plan is based on [Google’s 10 min test plan](https://testing.googleblog.com/2011/09/10-minute-test-plan.html).
+GitLab's test plan is based on [Google's 10 min test plan](https://testing.googleblog.com/2011/09/10-minute-test-plan.html).
 This test plan uses the ACC Framework (Attribute, Components and Capabilities matrix)
 
 - Attributes: qualities the product should have

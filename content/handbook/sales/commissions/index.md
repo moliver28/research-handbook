@@ -1,9 +1,6 @@
 ---
-
 title: Commissions
 ---
-
-
 
 ### **Charter**
 

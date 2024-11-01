@@ -25,7 +25,7 @@ Pointing you to this handbook page serves as our mechanism to provide the requir
 
 ### Arkansas
 
-- [Unemployment Insurance Information Handbook](https://dws.arkansas.gov/wp-content/uploads/Your-Unemployment-Insurance-Info-Handbook.pdf)
+- [Unemployment Insurance Information Handbook](https://dws.arkansas.gov/wp-content/uploads/UI-Handbook-2024-Final.pdf)
 
 ### California
 
@@ -54,12 +54,12 @@ Pointing you to this handbook page serves as our mechanism to provide the requir
 
 ### Indiana
 
-- [Unemployment Insurance Poster](https://www.in.gov/dwd/files/X-11.pdf)
+- [Unemployment Insurance Poster](https://www.in.gov/dwd/files/Employer-Poster.pdf)
 
 ### Iowa
 
-- [Notice of Separation 60-0154](https://www.iowaworkforcedevelopment.gov/sites/search.iowaworkforcedevelopment.gov/files/documents/60-0154%20Notice%20Of%20Separation%20Or%20Refusal%20Of%20Work.pdf)
-- [Unemployment Insurance](https://www.iowaworkforcedevelopment.gov/sites/search.iowaworkforcedevelopment.gov/files/documents/2018/UnemploymentFlyer70-8010.pdf)
+- [Notice of Separation 60-0154](https://uiclaims.iwd.iowa.gov/EmployerSeparation/)
+- [Important Resources on Unemployment](https://workforce.iowa.gov/unemployment/resources)
 
 ### Kansas
 
@@ -117,7 +117,7 @@ Pointing you to this handbook page serves as our mechanism to provide the requir
 
 ### Pennsylvania
 
-- [Unemployment Compensation UC-1609](https://www.uc.pa.gov/Documents/UC_Forms/UC-1609.pdf)
+- [Unemployment Compensation UC-1609](https://www.pa.gov/content/dam/copapwp-pagov/en/hrmoa/documents/hire-sep/separating/documents/uc-1609-benefits-employer-form.pdf)
 
 ### Rhode Island
 
@@ -141,9 +141,9 @@ Pointing you to this handbook page serves as our mechanism to provide the requir
 
 ### Washington
 
-- [Unemployment Benefits Poster](https://esdorchardstorage.blob.core.windows.net/esdwa/Default/ESDWAGOV/about-employees/ESD-unemployment-benefits-poster.pdf)
+- [Unemployment Benefits Poster](https://media.esd.wa.gov/esdwa/Default/ESDWAGOV/about-employees/ESD-unemployment-benefits-poster.pdf)
 
 ### West Virginia
 
-- [Unemployment Benefits Poster](https://workforcewv.org/wp-content/uploads/2022/10/UC-Benefits-Poster.pdf)
+- [Unemployment Claimant Handbook](https://workforcewv.org/wp-content/uploads/2024/05/WFWV-Claimant-Handbook-08.23-2.pdf)
 {{% /details %}}

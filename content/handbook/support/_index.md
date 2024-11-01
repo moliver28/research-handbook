@@ -131,26 +131,24 @@ At various times it's easy to over-optimize on one of the pillars to solve a pro
 The [Single Source of Truth](/handbook/company/culture/all-remote/remote-work-glossary/#single-source-of-truth-ssot)
 for information about Support Team Members - everything from email address and
 personal interests to product skills and group memberships - is the
-[support-team.yaml file](https://gitlab.com/gitlab-com/support/team/-/blob/master/data/support-team.yaml).
-The [Support Team Home Page](https://gitlab-com.gitlab.io/support/team/) is
+[support-team project](https://gitlab.com/gitlab-support-readiness/support-team).
+The [Support Team Home Page](https://gitlab-support-readiness.gitlab.io/support-team/) is
 built from the information in that file. Many other Support tools and
 automations make use of it also. See the
-[Support team entry page](https://gitlab.com/gitlab-com/support/team/-/wikis/Support-team-entry)
-of the [Support Team wiki](https://gitlab.com/gitlab-com/support/team/-/wikis/home)
+[Support team entry page](https://gitlab.com/gitlab-support-readiness/support-team/-/wikis/Support-team-entry)
+of the [Support Team wiki](https://gitlab.com/gitlab-support-readiness/support-team/-/wikis/home)
 for details of the structure of the file.
 
 Information for and about the different parts of the Support Team can be found in the following sections of the Support Handbook:
 
-- [/support/engineering](/handbook/support/engineering/index.html) is content that is for Support Engineers. Think: Zendesk workflows and technical resources.
-- [/support/license-and-renewals](/handbook/support/license-and-renewals/index.html) is content for the Licensing and Renewals Support Engineers and Managers. Think: [customers.gitlab.com](https://customers.gitlab.com) and working with the Fulfillment Product Team.
-- [/support/managers](/handbook/support/managers/index.html) is content that is for Support Managers. Think: how to manage issues, run 1:1s and leadership sync information.
+- [/support/engineering](/handbook/support/engineering/) is content that is for Support Engineers. Think: Zendesk workflows and technical resources.
+- [/support/license-and-renewals](/handbook/support/license-and-renewals/) is content for the Licensing and Renewals Support Engineers and Managers. Think: [customers.gitlab.com](https://customers.gitlab.com) and working with the Fulfillment Product Team.
+- [/support/managers](/handbook/support/managers/) is content that is for Support Managers. Think: how to manage issues, run 1:1s and leadership sync information.
 - [/support/readiness](/handbook/support/readiness/) is the landing page for Support Readiness. Think: how is the support team preparing for X?
   - [/support/support-ops](/handbook/support/readiness/operations/) is content that is for Support Operations. Think: how to change Zendesk forms and fields, and other ops details.
 
 Below we also have some commonly referenced pages:
 
-- [Support Global Groups](/handbook/support/support-global-groups/index.html) - all
-  about the smaller groups in which Support Engineers work on support tickets
 - [Support Engineer responsibilities](/handbook/support/support-engineer-responsibilities)
 - [Support Engineer knowledge areas](/handbook/support/workflows/knowledge_areas)
 - [Support Engineer career path](/handbook/support/support-engineer-career-path)
@@ -160,9 +158,9 @@ Below we also have some commonly referenced pages:
 
 ## FY25 Direction
 
-GitLab Support’s vision is to deliver a consistent, "delightful" experience to our customers. Our team members will collaborate across all timezones to seamlessly deliver the results our customers care about while continuing to strengthen and scale the team.
+GitLab Support's vision is to deliver a consistent, "delightful" experience to our customers. Our team members will collaborate across all timezones to seamlessly deliver the results our customers care about while continuing to strengthen and scale the team.
 
-The overall direction for Support in FY25 will continue to build from the foundations laid in FY24. We will continue to focus on KPI achievement and evolve and iterate our approach to support, keeping the customer centered in our outcomes. Following on to the company’s overall [strategic objectives](/handbook/company/strategy/), specific areas of focus are:
+The overall direction for Support in FY25 will continue to build from the foundations laid in FY24. We will continue to focus on KPI achievement and evolve and iterate our approach to support, keeping the customer centered in our outcomes. Following on to the company's overall [strategic objectives](/handbook/company/strategy/), specific areas of focus are:
 
 - [Our ability to achieve business aligned results for our customers](#improving-our-ability-to-achieve-results-for-our-customers)
 - [How our team structure supports that ability](#team-structure-and-how-it-supports-our-ability-to-achieve-results)
@@ -182,14 +180,14 @@ FY24 was a challenging year in many aspects. As the workload and customer expect
 
 ### Team structure and how it supports our ability to achieve results
 
-In FY23 / FY24 we moved towards dividing the team into globally distributed groups of engineers. In FY25 we’ll build on that foundation and extend towards differentiating support offerings to better align with customer requirements. This year, we will:
+In FY23 / FY24 we moved towards dividing the team into globally distributed groups of engineers. In FY25 we'll build on that foundation and extend towards differentiating support offerings to better align with customer requirements. This year, we will:
 
 - Progress enhanced support offerings while partnering more closely with the Customer Success Team to meet our customers' business needs.
 - Improve how we route and address customer tickets to an appropriate expert with a mind for growing individual engineers from just starting their support journey to complete stewardship of the support journey experience.
 
 ### Team culture and how it supports our ability to achieve results
 
-As GitLab grows, Support’s influence within the company as advocates for customers must also grow. We need to continue to strengthen the Values-driven cultural attributes that promote efficient collaboration and results for customers while maintaining GitLab Support as a great place to work. In FY25 we will:
+As GitLab grows, Support's influence within the company as advocates for customers must also grow. We need to continue to strengthen the Values-driven cultural attributes that promote efficient collaboration and results for customers while maintaining GitLab Support as a great place to work. In FY25 we will:
 
 - Build leaders and influencers within GitLab as advocates for customers.
 - Expand our enablement, training, and education to prepare the current and future generations of Support Engineers to meet the needs of our customers.
@@ -314,11 +312,13 @@ issue trackers or customer tickets.
 
 When naming channels, "spt" is meant for internal channels, meaning those that will be of use to the Support Team mainly. They should be public so others may join if they choose. If a channel has a "support" prefix, it is meant as a public interface where other teams will interact with the Support Team.
 
-The "spt_gg_" prefix is used for [Support Global Groups](https://gitlab.com/gitlab-com/support/support-team-meta/-/issues/3879) internal channels.
-
 #### Daily Stand-up bot
 
-The [SGG Slackbot's](https://gitlab.com/gitlab-com/support/support-ops/other-software/sgg-slackbot) Daily Stand-up posts at the commencement of each region's [Support Hours](https://about.gitlab.com/support/#definitions-of-gitlab-global-support-hours) regularly, in a number of channels to advise global groups of different information. For further details of the different variations, please refer to the SGG handbook page of the group you are curious about.
+The [Support Daily Slackbot](https://gitlab.com/gitlab-com/support/toolbox/support-daily-slackbot)
+is an automated tool designed to facilitate daily standup Slack threads across
+various teams and regions at GitLab. It posts customized messages to specific
+Slack channels based on type and target. For further details of the different
+variations, please refer to the [README file](https://gitlab.com/gitlab-com/support/toolbox/support-daily-slackbot/-/blob/main/README.md?ref_type=heads).
 
 #### Channels
 
@@ -331,9 +331,10 @@ The [SGG Slackbot's](https://gitlab.com/gitlab-com/support/support-ops/other-sof
 | [#support_ticket-attention-requests](https://gitlab.slack.com/archives/CBVAE1L48) | Discuss escalated tickets with the Support Manager On-Call |
 | [#support_operations](https://gitlab.slack.com/archives/C018ZGZAMPD) | Discuss operational items related to how Support works |
 | [#support_leadership](https://gitlab.slack.com/archives/C01F9S37AKT) | Discuss support team internal matters which require support managers' attention |
-| [#spt_hiring](https://gitlab.slack.com/archives/CE9S6JW4S) | Discuss support team hiring-related matters |
+| [#recruiting-support-engineering](https://gitlab.slack.com/archives/CE9S6JW4S) | Discuss support team hiring-related matters |
+| [#spt_amer_global](https://gitlab.enterprise.slack.com/archives/C07EYM9NNE4) | Discuss topics specific to Global SEs in AMER |
 | [#spt_pairing](https://gitlab.slack.com/archives/C03UW0HPBGD) | Used when working together on tickets and issues |
-| [#spt_us-federal](https://gitlab.slack.com/archives/C03RTN3JEJ2) | Discussion about topics pertaining to US Fed Support |
+| [#spt_us-government](https://gitlab.slack.com/archives/C03RTN3JEJ2) | Discussion about topics pertaining to US Fed Support |
 
 ##### Private Channels
 
@@ -597,21 +598,19 @@ Providing information by reacting to a message with a specific emoji.
 
 After getting promoted, make sure to update your title in:
 
-- our [Support team page](https://gitlab.com/gitlab-com/support/team/-/blob/master/data/support-team.yaml), and the change would be reflected in Zendesk
-- the company team page following the same steps in [Add yourself to the Team Page](/handbook/editing-handbook/#add-yourself-to-the-team-page)
+- our [Support team page](https://gitlab.com/gitlab-support-readiness/support-team), and the change would be reflected in Zendesk
+- the company team page following the same steps in [Add yourself to the Team Page](/handbook/about/editing-handbook/#add-yourself-to-the-team-page)
 
 Consider updating the title on Slack and on Zoom, following the guidelines in [Zoom name format](#zoom-name-format).
 
 ### Support Pods
 
-In GitLab Support, we have two mechanisms to organize support engineers as they work:
+In GitLab Support, we use `Support Pods` to organize support engineers as they
+work. Each Support Pod is a cross-region, single skill group of engineers who
+are interested in their Support Pod's specific product area. They are engineer-
+lead. To join or start a Support Pod you can read more below.
 
-- Support Global Groups: A cross-region, cross-skillset group of engineers that coordinate on issues and hand off tickets"
-- Support Pods: A cross,region, single skill group of engineers that are experts or soon to be experts on that specific product area.
-
-Global groups are organized by managers. Support Pods are engineer-lead. To join or start a Support Pod you can read more below.
-
-*See the [Working with Support Pods page](/handbook/support/workflows/working-with-pods) and [Support Pods project](https://gitlab.com/gitlab-com/support/support-pods).*
+*See the [Support Pods handbook page](/handbook/support/support-pods) and the [Working with Support Pods workflow page](/handbook/support/workflows/working-with-pods).*
 
 ### Improving our processes - 'Active Now' issue board
 
@@ -672,23 +671,22 @@ The [Support Slackbot (archived)](https://gitlab.com/gitlab-com/support/toolbox/
   - [GitLab Architecture Overview](https://docs.gitlab.com/ee/development/architecture.html)
   - [Requirements](https://docs.gitlab.com/ee/install/requirements.html)
   - [Installation methods for GitLab](https://about.gitlab.com/install/)
-  - [Backing up and restoring GitLab](https://docs.gitlab.com/ee/raketasks/backup_restore.html)
-  - [Omnibus configuration settings](https://docs.gitlab.com/omnibus/settings/README.html)
+  - [Backing up and restoring GitLab](https://docs.gitlab.com/ee/administration/backup_restore/index.html)
+  - [Omnibus configuration settings](https://docs.gitlab.com/omnibus/settings/)
   - [Omnibus Configuration options](https://docs.gitlab.com/omnibus/settings/configuration.html)
   - [Omnibus Database settings](https://docs.gitlab.com/omnibus/settings/database.html#seed-the-database-fresh-installs-only)
 - Debugging GitLab
-  - [Log system](https://docs.gitlab.com/ee/administration/logs.html)
+  - [Log system](https://docs.gitlab.com/ee/administration/logs/)
   - [Rake tasks](https://docs.gitlab.com/ee/raketasks/)
   - [Maintenance Rake Tasks](https://docs.gitlab.com/ee/administration/raketasks/maintenance.html)
-  - [Debugging Tips](https://docs.gitlab.com/ee/administration/troubleshooting/debug.html)
   - [Debugging resources for GitLab Support Engineers](https://docs.gitlab.com/ee/administration/index.html#support-team-docs)
   - [GitLab Rails Console Cheat Sheet](https://docs.gitlab.com/ee/administration/troubleshooting/gitlab_rails_cheat_sheet.html)
 - GitLab features
   - [Install GitLab Runner](https://docs.gitlab.com/runner/install/)
   - [GitLab CI example projects](https://gitlab.com/gitlab-examples)
-  - [Elasticsearch](https://docs.gitlab.com/ee/integration/elasticsearch.html)
+  - [Elasticsearch](https://docs.gitlab.com/ee/integration/advanced_search/elasticsearch.html)
   - [Connecting GitLab with a Kubernetes cluster](https://docs.gitlab.com/ee/user/project/clusters/)
 - Developing GitLab
   - [GitLab development utilities](https://docs.gitlab.com/ee/development/utilities.html)
   - [Feature flags](https://docs.gitlab.com/ee/development/feature_flags/index.html)
-  - [What requires downtime?](https://docs.gitlab.com/ee/development/what_requires_downtime.html)
+  - [What requires downtime?](https://docs.gitlab.com/ee/update/with_downtime.html)

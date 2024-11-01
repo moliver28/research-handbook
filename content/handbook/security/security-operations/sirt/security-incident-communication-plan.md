@@ -7,11 +7,11 @@ controlled_document: true
 
 ## Purpose
 
-GitLab takes the security of our clients’ information extremely seriously, regardless of whether it’s on GitLab.com or in a self-managed instance. In keeping with GitLab’s [value of transparency](/handbook/values/#transparency) we believe in communicating about security incidents clearly and promptly.
+GitLab takes the security of our clients' information extremely seriously, regardless of whether it's on GitLab.com or in a self-managed instance. In keeping with GitLab's [value of transparency](/handbook/values/#transparency) we believe in communicating about security incidents clearly and promptly.
 
 ## Scope
 
-This communication response plan maps out the who, what, when, and how of GitLab in notifying and engaging with internal stakeholders and external customers on security incidents. **This plan of action covers the strategy and approach for security events which have a ‘high’ or greater impact as outlined in [GitLab’s risk scoring matrix]({{< ref "storm-program#risk-factors-and-risk-scoring" >}}).**
+This communication response plan maps out the who, what, when, and how of GitLab in notifying and engaging with internal stakeholders and external customers on security incidents. **This plan of action covers the strategy and approach for security events which have a 'high' or greater impact as outlined in [GitLab's risk scoring matrix]({{< ref "storm-program#risk-factors-and-risk-scoring" >}}).**
 
 ## Roles & Responsibilities
 
@@ -50,7 +50,7 @@ The `Security Engineer On-Call` will determine the scope and [severity]({{< ref 
 | **Security Communications Manager on Call (SecCMOC):** | This is the Security Incident Manager On-Call (SIMOC), Security Incident Commander or Security Assurance Engineer who will coordinate external communications efforts according to this security incident response plan and liaise across the extended GitLab teams to ensure all parties are activated, updated and aligned. |
 | **Security External Communications:** | This function partners with and advises incident response teams in reviewing and improving messaging for external audiences (including customers, media, broader industry). This role laises with marketing teams for any necessary reviews or messaging deployment. This function should be engaged **once first draft content has been developed** using the [Security incident external response issue template](https://gitlab.com/gitlab-com/gl-security/security-communications/communications/-/blob/master/.gitlab/issue_templates/security-external-incident-or-event-response-template.md). |
 
-### <i class="fas fa-arrow-right" style="color:rgb(107,79,187); font-size:.85em" aria-hidden="true"></i> More about the CMOC responsibilities
+### More about the CMOC responsibilities
 
 As security practitioners and incident response engineers, our security assurance and security operations teams and engineers are best positioned to develop initial messaging and serve in the `CMOC`/`Communications manager on call` role.
 
@@ -63,18 +63,17 @@ As security practitioners and incident response engineers, our security assuranc
 - Routing and securing approvals from various parties (support, security/SIRT leadership, legal, etc)
 - Keeping stakeholders updated and informed on the progress of communications development in the related incident response slack channel and issue(s)
 
-### <i class="fas fa-arrow-right" style="color:rgb(107,79,187); font-size:.85em" aria-hidden="true"></i> More about the Security External Communications function responsibilities
+### More about the Security External Communications function responsibilities
 
 **The `Security External Communications function` is the DRI for:**
 
 - Editing and improving first drafts **provided by** `CMOC`
 - Advising on appropriate channels and forms of communication needed
-- Acting as an approval point on final messaging to ensure it’s ready for external use
+- Acting as an approval point on final messaging to ensure it's ready for external use
 - Liaising with PR and corporate communications for additional reviews and/or messaging needs (public/media statements)
 - Deploying the messaging via collaboration with our PR (media statement), Content Marketing (blog post) and Marketing Operations teams (email response)
 - Posting final communications materials to slack channels (`#developer-relations`, `#social_media_action`, `#sales`, `#security-department` and `#customer-success`) for awareness and use.
   - `Support manager on call` will manage support team awareness
-  - **The following groups are auto-tagged on each communications tracking issue: PR, Support, Field Security, Customer Success, Legal, Developer Relations and Security department leadership**
 
 ## Extended team roles, responsibilities and points of contact
 
@@ -128,9 +127,9 @@ Once it has been determined that external response is needed, the SIRT team shou
 
 ## Process for security incident external communications
 
-1. Once we’ve determined that we need to make an external statement or communicate with customers in some way, [open a new issue using the Security incident external response issue template](https://gitlab.com/gitlab-com/gl-security/security-communications/communications/-/blob/master/.gitlab/issue_templates/security-external-incident-or-event-response-template.md). This issue will be used by the `SIMOC/SecCMOC` to track content development, reviews and approvals.
+1. Once we've determined that we need to make an external statement or communicate with customers in some way, [open a new issue using the Security incident external response issue template](https://gitlab.com/gitlab-com/gl-security/security-communications/communications/-/blob/master/.gitlab/issue_templates/security-external-incident-or-event-response-template.md). This issue will be used by the `SIMOC/SecCMOC` to track content development, reviews and approvals.
 1. The new security incident external response issue should be assigned to the `SecCMOC`.
-1. Once all the actions under the “CMOC actions to take upon opening this issue” section are completed and a first draft(s) is/are in place, tag `@heather` into the issue for first review and consult on communications forms/channels (more details below).
+1. Once all the actions under the "CMOC actions to take upon opening this issue" section are completed and a first draft(s) is/are in place, tag `@heather` into the issue for first review and consult on communications forms/channels (more details below).
 
 ## Communications review, approval and deployment process
 
@@ -206,7 +205,7 @@ The communications channels and forms that should be used in an incident or even
 
 ## Preparing and enabling external facing teams
 
-It is important to keep in mind, **any time we are communicating externally, we need to advise our support, customer, social and developer relations teams that we’ll be making external communication about an issue that affects customers and/or the community**.
+It is important to keep in mind, **any time we are communicating externally, we need to advise our support, customer, social and developer relations teams that we'll be making external communication about an issue that affects customers and/or the community**.
 
 For this reason, each incident response (direct email, media statement, blog post, etc) should have accompanying:
 
@@ -219,7 +218,7 @@ For on-going, live site incidents on GitLab.com, updates are provided by the `SI
 
 ## External statements and other public, official communications
 
-Depending on scope, impact or risk associated with the incident, our Corporate Communications and Marketing team may determine that additional outreach is necessary. Any official statements about the security incident would be made by GitLab’s Director of Corporate Communications, VP of Corporate Marketing, CMO or VP of Security.
+Depending on scope, impact or risk associated with the incident, our Corporate Communications and Marketing team may determine that additional outreach is necessary. Any official statements about the security incident would be made by GitLab's Director of Corporate Communications, VP of Corporate Marketing, CMO or VP of Security.
 
 ## Other helpful information
 

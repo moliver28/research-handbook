@@ -1,13 +1,6 @@
 ---
-
 title: "Acquisition Integration"
 ---
-
-
-
-
-
-
 
 This is a detailed view of our acquisition integration process. For more information about
 our acquisitions approach visit our [acquisitions process](/handbook/acquisitions/acquisition-process/).
@@ -129,6 +122,15 @@ Once the above is completed, the team proceeds to enablement development and exe
 1. **Overview webcast** - A webcast for our field teams will be scheduled 1-2 months from announcement providing a more in-depth overview of the acquisition and its impact for our product, customers and prospects.
 1. **Technical webcast** - Scheduled around the delivery of the MVC of the integration efforts, a technical webcast for our field teams will be scheduled to provide a demo of the new functionality and new product workflows.
 1. **Field Communication Plan** - Field Communications will work with the Product DRI to create a communications plan using the [Field Communication Playbook](/handbook/sales/field-communications/#field-communications-playbook) that disseminates key resources and information to field team members.
+
+##### 4. Digital Experience (DEX) Ownership of Acquired Company Website
+
+The Digital Experience Team is responsible for the updated website banner of the acquired company announcing the acquisition if the communication plan is to publicly announce the deal. See the [Communications Acquisition Process](/handbook/acquisitions/acquisition-process/acquisition-process-communications/) for additinal detail. At deal close, DEX will also coordinate with GitLab Communications and Corporate Development to align on the acquired company's website takeover and ownership. An issue will be opened and owned by the Corporate Development Deal Process Manager to address and coordinate the website takeover and ownership by DEX. In addition to ensuring DEX has secured the necessary website credentials from the acquired company, example matters to consider and track will include: 
+
+1. Do we wish to deprecate the acquired company's website?
+    1. If yes, on what date?
+1. Do we want certain pages of the acquired company's website to redirect?
+    1. If yes, to where? And on what date?
 
 ### Document Management Process
 

@@ -21,13 +21,13 @@ Team members registered to the Social Insurance are also registered with the Emp
 
 ### Unemployment Insurance
 
-- All the Japanese team members are entitled to the government’s unemployment insurance system, known as koyou hoken (unemployment insurance). Koyou hoken, also known as shitsugyou hokken (unemployment benefit), is meant to help members, including foreign members, who have recently been unemployed.
+- All the Japanese team members are entitled to the government's unemployment insurance system, known as koyou hoken (unemployment insurance). Koyou hoken, also known as shitsugyou hokken (unemployment benefit), is meant to help members, including foreign members, who have recently been unemployed.
 - Members enrolling in unemployment insurance must be working at least 20 hours per week, and to expect to be employed for at least 31 days.
 - Unemployment Insurance covers Unemployment benefits, Childcare Leave Allowance, Nursing Care Leave Allowance and Education/Training Allowance.
 
 ### Annual Health Check Up
 
-- Members covered by the Social general insurance system “Kyokai Kenpo” are entitled to a benefit of an annual health check up in any of the hospitals designated under “Kyokai Kenpo”. The Japanese team members can also have a checkup in a non-designated institution.
+- Members covered by the Social general insurance system "Kyokai Kenpo" are entitled to a benefit of an annual health check up in any of the hospitals designated under "Kyokai Kenpo". The Japanese team members can also have a checkup in a non-designated institution.
 - In both the cases the team members can expense up to 15000 JPY against the actual bills via Navan Expense.
   - The invoice must be uploaded to Navan Expense to validate the total remiburseable amount. Please do not upload any personal medican data, only the invoice with the total amount due. If you have any questions or concerns please reach out to Total Rewards.
 
@@ -36,11 +36,11 @@ Team members registered to the Social Insurance are also registered with the Emp
 #### Sick Leave
 
 - When a person is unable to work because of injury or sickness and GitLab provides no pay, the Health Insurance Scheme provides 60% of the standard monthly remuneration (determined on the basis of the insured person's basic monthly salary/wage) as a sickness or injury benefit from the fourth day, for up to 18 months.
-- Team members must designate any time off for illness as `Out Sick` in Time Off by Deel to ensure that time off is properly tracked. In the event that a team member is out sick for greater than three consecutive calendar days, the team member must then follow the process with regard to [Communicating Illness-Related Leave]({{< ref "paid-time-off#communicating-illness-related-leave" >}}).
+- Team members must designate any time off for illness as `Out Sick` in Workday to ensure that time off is properly tracked. In the event that a team member is out sick for greater than three consecutive calendar days, the team member must then follow the process with regard to [Communicating Illness-Related Leave]({{< ref "paid-time-off#communicating-illness-related-leave" >}}).
 
 #### Annual/Vacation Leave
 
-A team member who has been continuously employed for six months is entitled to a minimum of ten days’ annual paid leave on the day after completing six months of employment. The entitlement increases by one day per year for the following two years and by two days per year thereafter, up to a maximum of 20 days per year. Annual paid leave runs concurrently with GitLab PTO. Team members must designate all vacation time taken as `Vacation` in Time Off by Deel to ensure that vacation entitlement is properly tracked. Unused annual paid leave expires after two years if not used. Team members are not entitled to payment for unused vacation time upon termination of employment.
+A team member who has been continuously employed for six months is entitled to a minimum of ten days' annual paid leave on the day after completing six months of employment. The entitlement increases by one day per year for the following two years and by two days per year thereafter, up to a maximum of 20 days per year. Annual paid leave runs concurrently with GitLab PTO. Team members must designate all vacation time taken as `Paid Time Off` in Workday to ensure that vacation entitlement is properly tracked. Unused annual paid leave expires after two years if not used. Team members are not entitled to payment for unused vacation time upon termination of employment.
 
 #### Statutory Maternity Leave
 

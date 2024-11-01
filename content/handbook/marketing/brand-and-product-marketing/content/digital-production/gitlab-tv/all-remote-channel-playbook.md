@@ -1,5 +1,4 @@
 ---
-
 title: "GitLab.tv All-Remote Channel Playbook"
 description: All Remote Channel Playbook
 twitter_image: "/images/opengraph/all-remote.jpg"
@@ -8,14 +7,9 @@ twitter_site: "@gitlab"
 twitter_creator: "@gitlab"
 ---
 
-
-
-
-
-
 ## Introduction
 
-![GitLab collaboration illustration](/images/all-remote/gitlab-collaboration.jpg){: .medium.center}
+![GitLab collaboration illustration](/images/all-remote/gitlab-collaboration.jpg)
 
 The [GitLab.tv All-Remote Channel](https://www.youtube.com/playlist?list=PLFGfElNsQthY6t1i0UXYr0wFW3DuvWww6) provides guidance and information to business owners, executives and managers on the ways in which they can transition to a remote workforce. Our audience of founders, CROs, CXOs, HR leaders, and managers work in all industries, particularly in tech and enterprise to midsize companies. For additional context, visit the GitLab [All-Remote Marketing Handbook](/handbook/ceo/office-of-the-ceo/workplace/).
 
@@ -43,7 +37,7 @@ Everyone can contribute content to the All-Remote Channel provided it follows th
 
 ## Audience
 
-![GitLab customer illustration](/images/all-remote/gitlab-customer-path.jpg){: .medium.center}
+![GitLab customer illustration](/images/all-remote/gitlab-customer-path.jpg)
 
 The [GitLab.tv All-Remote Channel](https://www.youtube.com/playlist?list=PLFGfElNsQthY6t1i0UXYr0wFW3DuvWww6) informs business leaders and stakeholders about the various aspects of implementing and managing remote teams. For the purposes of this channel, we split the audience into two groups:
 
@@ -52,7 +46,7 @@ The [GitLab.tv All-Remote Channel](https://www.youtube.com/playlist?list=PLFGfEl
 
 ## Content Types and Guidelines
 
-![GitLab values illustration](/images/all-remote/gitlab-values-tanukis.jpg){: .medium.center}
+![GitLab values illustration](/images/all-remote/gitlab-values-tanukis.jpg)
 
 To keep the All-Remote Channel focused on its intended [audience](/handbook/ceo/office-of-the-ceo/workplace/#our-audience), please adhere to the following content guidelines and content types. Specifically, we are looking for content that spotlights:
 
@@ -74,7 +68,7 @@ Interview videos can feature a 1-on-1 discussion or small group chat with GitLab
 
 Uploading criteria:
 
-- **Title:** Unless the interviewee(s) are very well known, don’t lead with their names. Lead with the title of the discussion. For example, “Common stumbling blocks to going remote: A panel discussion.” This will help the audience find your video based on their interests and let them know what style of video to expect.
+- **Title:** Unless the interviewee(s) are very well known, don't lead with their names. Lead with the title of the discussion. For example, "Common stumbling blocks to going remote: A panel discussion." This will help the audience find your video based on their interests and let them know what style of video to expect.
 - **Description:** Repeat the title of the video followed by the names and titles of the interviewee or panel members and 3-5 sentences explaining the key points of the discussion. Include timestamps if the video is over 10 minutes long.
 - **Call to action (CTA):** Interview/panel style videos should include a link to `https://about.gitlab.com/company/culture/all-remote/` in the video description. Creators may choose to include the verbal CTA to **"Download GitLab's complete Remote Playbook"** at the end of their video.
 - **UTM codes:** Please be sure to add a UTM code to your CTA in the video description when uploading your videos to YouTube. This **required** action is needed to track your video's performance. For videos related to All-Remote, the UTM code should follow this sequence: `?&utm_medium=social&utm_source=youtube&utm_campaign=allremote&utm_content={{video}}`
@@ -86,13 +80,13 @@ Uploading criteria:
 
 ### How-To Videos
 
-![GitLab journey illustration](/images/all-remote/gitlab-journey-and-navigation.jpg){: .medium.center}
+![GitLab journey illustration](/images/all-remote/gitlab-journey-and-navigation.jpg)
 
 All-remote how-to videos will provide viewers with quick, actionable tips on remote work. When creating a how-to video, remember to keep the video focused on a single action and outcome. The [all-remote audience](/handbook/ceo/office-of-the-ceo/workplace/#our-audience) tends to prefer presentation-style videos, so keep this in mind as you prepare your content. If you find yourself explaining how to do multiple things, consider breaking up the video down into smaller videos, with each video covering one aspect. As a general rule of thumb, try to keep how-to videos to under 10 minutes.
 
 Uploading criteria:
 
-- **Title:** The title of your video should describe exactly what you are showing in the video. For example, “How to submit a merge request on gitlab.com.”
+- **Title:** The title of your video should describe exactly what you are showing in the video. For example, "How to submit a merge request on gitlab.com."
 - **Description:** Repeat the title of the video followed by 3-5 sentences explaining what the viewer is going to learn from the video. If the video is longer than 10 minutes, include timestamps. If the video is referencing a contribution, link to the merge request.
 - **Call to action (CTA):** How-to videos should include a link to `https://about.gitlab.com/company/culture/all-remote/` in the video description. Creators may choose to include the verbal CTA to **Download GitLab's complete Remote Playbook** at the end of their video.
 - **UTM codes:** Please be sure to add a UTM code to your CTA in the video description when uploading your videos to YouTube. This **required** action is needed to track your video's performance. For All Remote-related videos, the UTM code should follow this sequence: `?&utm_medium=social&utm_source=youtube&utm_campaign=allremote&utm_content={{video}}`
@@ -111,7 +105,7 @@ Video contributions that meet the playbook criteria will be uploaded to the GitL
 1. Submit to [GitLab social team](/handbook/marketing/integrated-marketing/digital-strategy/social-marketing/) for consideration ([DRI](/handbook/people-group/directly-responsible-individuals/) must create issue to enable this step)
 1. Submit to GitLab editorial team for consideration on the blog and/or bi-weekly newsletter (DRI must create issue to enable this step)
 1. Third-party content platforms (e.g. like ITPro.tv, industry blogs, etc.)
-1. Highlighted on GitLab’s weekly “This Week at GitLab” video series
+1. Highlighted on GitLab's weekly "This Week at GitLab" video series
 1. Consideration for featuring in GitLab All-Remote video band
 1. Featured in GitLab event follow up email/s (DRI must create issue to enable this step)
 

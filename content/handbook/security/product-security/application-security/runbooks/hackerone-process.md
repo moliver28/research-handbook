@@ -1,7 +1,5 @@
 ---
 title: "HackerOne Process"
-aliases:
-- /handbook/security/security-engineering/hackerone-process
 ---
 
 GitLab utilizes [HackerOne](https://hackerone.com/gitlab) for its bug bounty program. Security researchers can report vulnerabilities in GitLab applications or the GitLab infrastructure via the HackerOne website. Team members authorized to respond to HackerOne reports use procedures outlined here.
@@ -20,6 +18,10 @@ The `#hackerone-feed` Slack channel receives notifications of report status chan
 - During onboarding, new GitLab security team members will be invited to join the HackerOne program if their role requires it.
 
 ## Working the Queue
+
+### Namespace with Ultimate license for triaging
+
+Please ensure that you use [this namespace](https://gitlab.com/gitlab-com/gl-security/product-security/appsec/bug-reproduction) to create projects and groups required for testing vulnerabilities. This namespace is dedicated to reproduction of HackerOne issues.
 
 ### HackerOne Triage Team
 
@@ -84,11 +86,11 @@ the responsible engineering team:
     - Optionally explain the CVSS to the researcher, mention that CVSS scores are validated by a peer, and link to our Awards process to avoid inefficient misunderstandings relating to severity and payouts
   - Verify and/or set the appropriate Weakness in H1
   - If the report is [permissions related](https://docs.gitlab.com/ee/development/secure_coding_guidelines.html#permissions), check for similar issues in the API, GraphQL, and Elasticsearch, as appropriate. Also check with alternate authentication mechanisms like Deploy Tokens, Deploy Keys, Trigger Tokens, etc.
-  - Add your initial [suggested bounty](https://docs.hackerone.com/programs/bounties.html#suggesting-bounties) in H1
+  - Add your initial [suggested bounty](https://docs.hackerone.com/en/articles/8524543-bounties#h_13d3d2c2b7) in H1
   - Import the report into a GitLab issue using `/h1 import <report> [project] [options]` in Slack
     - Note: by default a placeholder [CVE issue](https://gitlab.com/gitlab-org/cves/-/issues) is created and a brief note is added to the latest [bug bounty council issue](https://gitlab.com/gitlab-com/gl-security/security-department-meta/issues?scope=all&utf8=%E2%9C%93&state=opened&label_name[]=Bug%20Bounty%20Council). Pass `~no-cve` or `~no-bounty` respectively to the `/h1 import` command to prevent their creation.
   - On the imported GitLab issue:
-    - Verify the Severity/Priority assigned by `h1import` ([Severity and Priority](/handbook/security/engaging-with-security#severity-and-priority-labels-on-security-issues) and [Remediation SLAS](/handbook/security/threat-management/vulnerability-management#remediation-slas))
+    - Verify the Severity/Priority assigned by `h1import` ([Severity and Priority](/handbook/security/engaging-with-security#severity-and-priority-labels-on-security-issues) and [Remediation SLAS](/handbook/security/product-security/vulnerability-management/sla/#vulnerability-management-slas-and-labels))
     - Assign the appropriate [Due Date]({{< ref "engaging-with-security#due-date-on-security-issues" >}})
     - Have a proper [`How to reproduce`]({{< ref "engaging-with-security#reproducibility-on-security-issues" >}}) section, by for instance copying the final reproduction steps written by our HackerOne triager into the issue.
     - If the report is a security-related documentation change, add the `~documentation` label
@@ -126,7 +128,7 @@ the responsible engineering team:
     - [ ] [Revoke the token](https://docs.gitlab.com/ee/api/personal_access_tokens.html#using-a-request-header-1) and reach out to the owner of the token through Slack DM and in the SIRT issue that you will create in the steps below.
   - [ ] Post a comment in `#security-revocation-self-service` using [this message template](https://gitlab.com/gitlab-com/gl-security/security-operations/sirt/runbooks/-/blob/main/misc/exposed_secrets.md#general-revocation-template-for-secrets)
   - [ ] If the information was leaked in an issue, make the Issue confidential and leave an internal note explaining why it's been made confidential.
-- [ ] Use the `/security` slack command to [initiate](https://about.gitlab.com/handbook/security/security-operations/sirt/engaging-security-on-call.html#engage-the-security-engineer-on-call) an incident
+- [ ] Use the `/security` slack command to [initiate](/handbook/security/security-operations/sirt/engaging-security-on-call/#engage-the-security-engineer-on-call) an incident
   - [ ] In the description section, include a link to the HackerOne report and any other useful information
     - [ ] Share the reporter's IP address(es) and time(s) the reporter accessed the sensitive data to assist with incident response.
   - [ ] In the remediation section, document what time and from what IP used to revoke the token or validate the leak.
@@ -136,9 +138,9 @@ the responsible engineering team:
   - [ ] Update the Timeline section to include the date the secret was leaked, when HackerOne report came in, and when you took any actions.
   - [ ] Add any comments to the SIRT issue with context or information that might be helpful.
 - [ ] In the H1 report use the reference field to link to the SIRT issue (for example if the incident issue is `https://gitlab.com/gitlab-sirt/incident_XXXX/-/issues/1` the reference should be `gitlab-sirt/incident_XXXX/-/issues/1`)
-- [ ] Identify the most appropriate [non-CVSS bounty amount](https://gitlab-com.gitlab.io/gl-security/product-security/appsec/cvss-calculator/) and add your initial [suggested bounty](https://docs.hackerone.com/programs/bounties.html#suggesting-bounties) in H1
+- [ ] Identify the most appropriate [non-CVSS bounty amount](https://gitlab-com.gitlab.io/gl-security/product-security/appsec/cvss-calculator/) and add your initial [suggested bounty](https://docs.hackerone.com/en/articles/8524543-bounties#h_13d3d2c2b7) in H1
 - [ ] Use `/h1 bounty REPORT_ID` to create a comment on the Bug Bounty Council issue (this step should not be necessary if `/h1 import` was previously run without the `~no-bounty` option.)
-- [ ] Support SIRT as required and, if applicable, follow the process for [handling severity::1/priority::1 issues](./handling-s1p1.html)
+- [ ] Support SIRT as required and, if applicable, follow the process for [handling severity::1/priority::1 issues](handling-s1p1.html)
 - [ ] Investigate the location of the exposure, and locations like it, for further exposure.
   - [ ] Check the history on issue / MR descriptions
   - [ ] Check git commit history
@@ -161,7 +163,7 @@ Exposure of information and secrets is handled a little differently to vulnerabi
   - Post a comment in `#security-revocation-self-service` using [this message template](https://gitlab.com/gitlab-com/gl-security/security-operations/sirt/runbooks/-/blob/main/misc/exposed_secrets.md#general-revocation-template-for-secrets)
   - If the information was leaked in an issue, make the Issue confidential and leave an internal note explaining why it's been made confidential.
 - Use the `/security` slack command to initiate an incident
-  - Learn more about engaging the SEOC: https://about.gitlab.com/handbook/security/security-operations/sirt/engaging-security-on-call.html#engage-the-security-engineer-on-call
+  - Learn more about engaging the SEOC: https://handbook.gitlab.com/handbook/security/security-operations/sirt/engaging-security-on-call.html#engage-the-security-engineer-on-call
   - In the description section, include a link to the HackerOne report and any other useful information
     - Share the reporter's IP address(es) and time(s) the reporter accessed the sensitive data to assist with incident response.
   - In the remediation section, document what time and from what IP used to revoke the token or validate the leak.
@@ -171,9 +173,9 @@ Exposure of information and secrets is handled a little differently to vulnerabi
   - Update the Timeline section to include the date the secret was leaked, when HackerOne report came in, and when you took any actions.
   - Add any comments to the SIRT issue with context or information that might be helpful.
 - In the H1 report use the reference field to link to the SIRT issue (for example if the incident issue is `https://gitlab.com/gitlab-sirt/incident_XXXX/-/issues/1` the reference should be `gitlab-sirt/incident_XXXX/-/issues/1`)
-- Identify the most appropriate [non-CVSS bounty amount](https://gitlab-com.gitlab.io/gl-security/product-security/appsec/cvss-calculator/) and add your initial [suggested bounty](https://docs.hackerone.com/programs/bounties.html#suggesting-bounties) in H1
+- Identify the most appropriate [non-CVSS bounty amount](https://gitlab-com.gitlab.io/gl-security/product-security/appsec/cvss-calculator/) and add your initial [suggested bounty](https://docs.hackerone.com/en/articles/8524543-bounties#h_13d3d2c2b7) in H1
 - Use `/h1 bounty REPORT_ID` to create a comment on the Bug Bounty Council issue (this step should not be necessary if `/h1 import` was previously run without the `~no-bounty` option.
-- Support SIRT as required and, if applicable, follow the process for [handling severity::1/priority::1 issues](./handling-s1p1.html)
+- Support SIRT as required and, if applicable, follow the process for [handling severity::1/priority::1 issues](handling-s1p1.html)
 - Investigate the location of the exposure, and locations like it, for further exposure.
   - Check the history on issue / MR descriptions
   - Check git commit history
@@ -189,7 +191,7 @@ Similar to how we handle exposed secrets, we sometimes handle exposed personal d
   - If the information was leaked in an issue, make the Issue confidential and leave an internal note explaining why it's been made confidential.
   - :warning: Bear in mind that turning an issue confidential doesn't turn attachments confidential.
 - Use the `/security` slack command to initiate an incident
-  - Learn more about engaging the SEOC: https://about.gitlab.com/handbook/security/security-operations/sirt/engaging-security-on-call.html#engage-the-security-engineer-on-call
+  - Learn more about engaging the SEOC: https://handbook.gitlab.com/handbook/security/security-operations/sirt/engaging-security-on-call.html#engage-the-security-engineer-on-call
   - Pick "Information Disclosure" as the nature of incident
   - In the description section, include a link to the HackerOne report and any other useful information
     - If possible, share the reporter's IP address(es) and time(s) the reporter accessed the sensitive data to assist with incident response.
@@ -197,7 +199,7 @@ Similar to how we handle exposed secrets, we sometimes handle exposed personal d
 - Add information to the SIRT issue.
   - Add any comments to the SIRT issue with context or information that might be helpful.
 - In the H1 report use the reference field to link to the SIRT issue (for example if the incident issue is `https://gitlab.com/gitlab-sirt/incident_XXXX/-/issues/1` the reference should be `gitlab-sirt/incident_XXXX/-/issues/1`
-- Identify the most appropriate [non-CVSS bounty amount](https://gitlab-com.gitlab.io/gl-security/product-security/appsec/cvss-calculator/) and add your initial [suggested bounty](https://docs.hackerone.com/programs/bounties.html#suggesting-bounties) in H1
+- Identify the most appropriate [non-CVSS bounty amount](https://gitlab-com.gitlab.io/gl-security/product-security/appsec/cvss-calculator/) and add your initial [suggested bounty](https://docs.hackerone.com/en/articles/8524543-bounties#h_13d3d2c2b7) in H1
 - Use `/h1 bounty REPORT_ID` to create a comment on the Bug Bounty Council issue
   - Note that we are importing it using `bounty` only here.
 - Support SIRT as required and, if applicable, follow the process for [handling severity::1/priority::1 issues]({{< ref "handling-s1p1.html" >}})
@@ -211,7 +213,7 @@ Sometimes researchers will report a vulnerability in features behind a [feature 
 
 Pay attention to the full report to determine the `Attack Complexity`. The word `complex` in the bullet points below is as defined in the section **2.1.2 Attack Complexity** in [CVSS 3.1 Specification](https://www.first.org/cvss/v3.1/specification-document). Keep in mind, the aforementioned section says the following under the **2.1.2 Attack Complexity** section - ***"If a specific reasonable configuration is required for an attack to succeed, the Base metrics should be scored assuming the vulnerable component is in that configuration."***.
 
-- A vulnerability in a feature behind a feature flag that is not complex will be `AC:L` (this is after assuming the feature flag is enabled on a vulnerable instance)
+- A vulnerability in a feature behind a feature flag that is not complex will be paid out at `AC:L` (this is after assuming the feature flag is enabled on a vulnerable instance). However we will handle the report as if it's `AC:H` for triage and SLOs.
 - A vulnerability in a feature behind a feature flag that is quite complex will still be `AC:H` (this is after assuming the feature flag is enabled on a vulnerable instance)
 
 Vulnerabilities behind disabled-by-default feature flags do not need a CVE (use `~no-cve` when importing) as they are [patched in regular releases](https://docs.gitlab.com/ee/administration/feature_flags.html#risks-when-enabling-features-still-in-development), not security releases.
@@ -262,6 +264,8 @@ Remediation of this vulnerability happens within the SIRT issue and typically in
 
 We can award GitLab swag to reporters who have submitted a quality report that did not qualify for a monetary reward in our Bug Bounty program. To award swag, please follow the [swag nomination process](/handbook/marketing/developer-relations/contributor-success/community-appreciation/#nomination-process) that is managed by our Developer Relations team.
 
+We can also request to plant trees in the GitLab Forest as a non-monetary rewards, where reporters for various reasons can't accept swag or a monetary award. The amount varies based on the severity, please add a note in the request form based on the [list here](https://gitlab.com/gitlab-com/gl-security/hackerone/administration/-/issues/1#note_2139914536) (Internal link).
+
 ## Managing issues
 
 Discussion and remediation of vulnerabilities can sometimes take longer than we would prefer. Even so, frequent communication with reporters is far better than leaving reporters in the dark, even if our progress is slow. Therefore:
@@ -278,7 +282,7 @@ be notified of updates at least **monthly**.
 
 ## SLA exceptions
 
-The HackerOne bot will automatically assign the correct due date based on severity of the imported issue. However, sometimes the issues may for various reasons not be patched within that timeframe. When this happens, development teams should open a [SLA exception](/handbook/security/product-security/vulnerability-management/#sla-exception-procedures) and have it approved by the Vulnerability Management team. The Application Security team is available to assist by providing guidance on these exception requests, but the expectation is that development teams will submit these requests and provide the justification and exception type.
+The HackerOne bot will automatically assign the correct due date based on severity of the imported issue. However, sometimes the issues may for various reasons not be patched within that timeframe. When this happens, development teams should open a [SLA exception](/handbook/security/product-security/vulnerability-management/sla/) and have it approved by the Vulnerability Management team. The Application Security team is available to assist by providing guidance on these exception requests, but the expectation is that development teams will submit these requests and provide the justification and exception type.
 
 ## Closing out & disclosing issues
 
@@ -331,7 +335,7 @@ One the report has been clarified, follow the "regular flow" described above.
 
 ## Breakdown of Effective Communication
 
-Sometimes there will be a breakdown in effective communication with a reporter. While this could happen for multiple reasons, it is important that further communication follows [GitLab's Guidelines for Effective and Responsible Communication]({{< ref "communication#effective--responsible-communication-guidelines" >}}). If communication with a reporter has gotten to this point, the following steps should be taken to help meet this goal.
+Sometimes there will be a breakdown in effective communication with a reporter. While this could happen for multiple reasons, it is important that further communication follows [GitLab's Guidelines for Effective and Responsible Communication](/handbook/communication/#effective--responsible-communication-guidelines). If communication with a reporter has gotten to this point, the following steps should be taken to help meet this goal.
 
 - Take a step back from the situation. Do not respond immediately.
 - Seek advice from the H1 triage engineer or, if you are more comfortable, a manager on how best to move forward.

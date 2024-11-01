@@ -6,7 +6,7 @@ twitter_site: '@gitlab'
 twitter_creator: '@gitlab'
 ---
 
-## <i class="fab fa-gitlab fa-fw" style="color:rgb(252,109,38); font-size:.85em" aria-hidden="true"></i> Lifecycle Marketing
+## Lifecycle Marketing
 
 ## Overview
 <!-- DO NOT CHANGE THIS ANCHOR -->
@@ -28,7 +28,7 @@ Please reach out to Allie Klatzkin or Luis Diego D'ambrosio with any questions.
 ### Meet the Team
 <!-- DO NOT CHANGE THIS ANCHOR -->
 
-**Allie Klatzkin** _Staff Lifecycle Marketing Manager_
+**Allie Klatzkin** _Manager, Lifecycle Marketing_
 
 * **Free User Campaigns**: DRI for free user efficiency project, focused on progression of free users to trial to paid
 * **Trial User Campaigns**: DRI for trial nurture, focused on progressing trial users to paid
@@ -40,6 +40,16 @@ Please reach out to Allie Klatzkin or Luis Diego D'ambrosio with any questions.
 * **Email Best Practices, Processes & Optimization**: enable teams across GitLab (mainly Marketing and Sales Dev) on email best practices, as well as streamlining, scaling, and improving email performance
 * **GitLab Corporate Events**: Global templates and scaling process for promoting and following up from corporate events and conferences.
 * **Email point of contact/support**: Reviewing and optimizing AMER & Global events (fmm & corp), campaigns, and newsletter email sends to ensure best practices and compliance with the GitLab brand
+
+**Alison Lee** _Senior Customer Lifecycle Marketing Manager_
+
+* Customer upsell / cross sell / retention
+* Create and continuously optimize email marketing programs that leverage 3rd party signals (e.g. firmographic or demographic) as well as customer behavior data to drive revenue growth or prevent churn
+* Partner with Customer Success to coordinate marketing and support touchpoints for maximum revenue impact
+* Partner with Marketing Analytics to define customer lifecycle reporting and create dashboards to analyze tests, monitor performance against goals
+* Map GitLab’s customer lifecycle stages and create strategic initiatives for each stage of the customer journey, which include onboarding, expansion, and retention
+* Identify key measurable metrics (SKU upsell, license expansion, churn prevention, etc.) that these lifecycle programs can effectively influence
+* Build and maintain relationships with Product Marketing, Developer Relations, and Sales. Establish feedback loops to ensure messaging in our campaigns is accurate, differentiated, and meaningful to our target personas
 
 **Luis Diego D'Ambrosio** _Senior Lifecycle Marketing Manager_
 
@@ -208,7 +218,6 @@ Team manager completes daily review of [lifecycle marketing issues in triage](ht
 This will change the status to wip (work in progress), allow quick assignment and add to the appropriate milestone.
 
 ### Milestones
-<!-- DO NOT CHANGE THIS ANCHOR -->
 
 The lifecycle marketing team uses the overall 2-week marketing milestones (format of [Mktg: YYYY-MM-DD](https://gitlab.com/groups/gitlab-com/-/milestones?utf8=%E2%9C%93&search_title=mktg%3A+&state=&sort=)) to organize, prioritize, and balance campaigns, projects, and requests.
 
@@ -217,10 +226,8 @@ The lifecycle marketing team uses the overall 2-week marketing milestones (forma
 * If issues in a milestone are not closed out by end of milestone, they are pulled to the next milestone. We will document **total issues** and **total weight** moved, to understand relative commitment levels and avoid overcommitment as we begin using milestones.
 
 ### Boards and Lists
-<!-- DO NOT CHANGE THIS ANCHOR -->
 
 #### Boards
-<!-- DO NOT CHANGE THIS ANCHOR -->
 
 <b>[Lifecycle Marketing Team Current Milestone](https://gitlab.com/groups/gitlab-com/-/boards/1884920?milestone_title=%23started&&label_name[]=dg-campaigns)</b> - this board provides a high-level status view of issues in the current milestone by team member.
 
@@ -248,7 +255,6 @@ The lifecycle marketing team uses the overall 2-week marketing milestones (forma
 * [Upcoming MIlestone by Team Members](https://gitlab.com/groups/gitlab-com/-/boards/1948068?scope=all&label_name[]=dg-campaigns&milestone_title=%23upcoming)
 
 #### Lists
-<!-- DO NOT CHANGE THIS ANCHOR -->
 
 ##### Issue List Current Mile by Team Member
 
@@ -264,9 +270,10 @@ The lifecycle marketing team uses the overall 2-week marketing milestones (forma
 * [Issues in plan status (campaigns)](https://gitlab.com/gitlab-com/marketing/demand-generation/campaigns/-/issues?scope=all&utf8=%E2%9C%93&state=opened&label_name%5B%5D=mktg-status%3A%3Aplan)
 
 ### Key Resources
-<!-- DO NOT CHANGE THIS ANCHOR -->
-* [Lifecycle OKRs](https://gitlab.com/groups/gitlab-com/marketing/-/epics/3556)
-* [Overall Epic for Lifecycle Marketing](https://gitlab.com/groups/gitlab-com/marketing/-/epics/3823)
-* [FY24 Trial](https://gitlab.com/groups/gitlab-com/marketing/-/epics/3559)
-* [FY24 Intelligent Nurture](https://gitlab.com/groups/gitlab-com/marketing/-/epics/3557)
-* [FY24 - Personalized, efficient, and scaled email experiences](https://gitlab.com/groups/gitlab-com/marketing/-/epics/3551)
+
+* [Overall Epic for Lifecycle Marketing](https://gitlab.com/groups/gitlab-com/marketing/-/epics/4795)
+* [FY25 Trial](https://gitlab.com/groups/gitlab-com/marketing/-/epics/4797)
+* [FY25 Persona Nurture](https://gitlab.com/groups/gitlab-com/marketing/-/epics/4798)
+* [FY25 Email Template Work](https://gitlab.com/groups/gitlab-com/marketing/-/epics/5125)
+* [Email UTM generator](https://docs.google.com/spreadsheets/d/12jm8q13e3-JNDbJ5-DBJbSAGprLamrilWIBka875gDI/edit?gid=2078854818#gid=2078854818)
+* [Nurture documentation](https://docs.google.com/spreadsheets/d/1ra3jTCzYSZIE5nL_PsbDBSl9Bab9_Amr_sjLOJ-W1Ik/edit?usp=sharing)

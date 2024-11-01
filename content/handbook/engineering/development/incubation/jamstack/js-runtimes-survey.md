@@ -1,6 +1,4 @@
 ---
-aliases: /handbook/engineering/development/incubation/jamstack/js-runtimes-survey.html
-
 title: Jamstack - User Survey
 ---
 

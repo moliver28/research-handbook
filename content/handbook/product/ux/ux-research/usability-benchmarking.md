@@ -140,8 +140,8 @@ If participants *don't meet* the completion criteria for the task:
 For per-task metrics:
 
 - Report all metrics with a 95% confidence interval, unless you have a clear reason to do otherwise.
-- For completion rate, use the [adjusted Wald calculation](https://measuringu.com/calculators/wald/#:~:text=It%20uses%20the%20Wald%20Formula,of%201.96%20or%20approximately%202.) for the confidence interval.
-- For time on task, use a natural log calculation for confidence interval, and report geometric mean rather than the median as a recommended [best practice](https://measuringu.com/calculators/time_intervals/).
+- For completion rate, use the [adjusted Wald calculation](https://measuringu.com/calculators/wald/) for the confidence interval.
+- For time on task, use a natural log calculation for confidence interval, and report geometric mean rather than the median as a recommended [best practice](https://measuringu.com/calculators/ci-calc/).
 - Precisely defining and accurately counting errors is **tricky** and does not always need to be performed. If you plan to do it, you must be very clear about the definition for errors in your tasks.
 - If you collect error rate, report it per task. Count errors against all possible steps for that task, including multiple recorded errors from the same participant on the same part of a task (for example, clicking the same wrong link several times). This may leave you with an error rate greater than 100%.
 - For the Customer Effort Score (CES): If your sample is less than 30, use the population standard deviation to calculate your confidence interval. If N is greater than 30, use the standard deviation calculation. [Here's a handy calculator](https://www.calculator.net/standard-deviation-calculator.html) that includes both options and confidence intervals.
@@ -195,7 +195,7 @@ As noted above, triangulating the pain points identified during your benchmark s
 Take the following steps to triangulate your benchmark study findings with the SUS verbatim for your stage.
 
 1. Compile a set of verbatims from your stage to use in your analysis.
-1. Take out verbatims that are positive-only (e.g., “it’s pretty slick with ci”) and those that are so brief as not to be informative (e.g., “ci”)
+1. Take out verbatims that are positive-only (e.g., "it's pretty slick with ci") and those that are so brief as not to be informative (e.g., "ci")
 1. Take a random sample of 25% of your verbatims to develop your categories.
 1. Start with a list of the benchmark pain points for each task and UX theme and add categories as needed to capture new themes like Learnabilty and Documentation. Break-up complex verbatims that reflect multiple themes into separate verbatims. That will help you to apply the categories in a mutually exclusive manner, which is needed to represent the percentage of verbatims that align with different themes.
 1. You should have a general category of NA (not applicable) for verbatims that can't be categorized. It makes sense that not all verbatim align with benchmark tasks and themes.
@@ -229,7 +229,7 @@ Preparing and conducting a benchmarking study takes time. Below is a sample time
 | Plan: Test environment | Set up your test environment with any projects and [sample data](/handbook/product/ux/ux-research/ux-cloud-sandbox) you will use for testing | 2 weeks |
 | Recruitment | Open a research recruitment issue at least a month prior to when you wish to run your sessions. A typical benchmarking study uses about 20 participants. | Opening ticket: 1 day. Recruitment itself: 1 month |
 | Run Pilot(s) | The week before your sessions, run 1 or 2 pilot sessions to perfect your protocol and tasks. | 1-2 days |
-| Run Sessions | Benchmarking sessions typically last from 90 minutes to two hours. Meaning that for 20 participants, conducting two sessions per day, you are looking at a solid two to four weeks of conducting sessions. Note that you will need to invite more participants than necessary to fill 20 sessions, since not everyone who qualifies will accept the research invite. In order to maximize participant attendance and avoid late cancelations, send reminder emails within 24 hours of each session. | 2-4 weeks |
+| Run Sessions | Benchmarking sessions typically last from 90 minutes to two hours. Meaning that for 20 participants, conducting two sessions per day, you are looking at a solid two to four weeks of conducting sessions. Note that you will need to invite more participants than necessary to fill 20 sessions, since not everyone who qualifies will accept the research invite. In order to maximize participant attendance and avoid late cancellations, send reminder emails within 24 hours of each session. | 2-4 weeks |
 | Analyze the results. | Calculate metrics, extract recommendations, pull verbatim, put things into Dovetail, and so on.  | 2 weeks |
 | Prepare the report and share it. | Produce research report, slides, recordings, and so on to disseminate your findings. | 2 weeks |
 

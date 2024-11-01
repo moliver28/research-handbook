@@ -1,13 +1,6 @@
 ---
-
 title: "Use case: GitLab + Google Cloud"
 ---
-
-
-
-
-
-
 
 #### Who to contact
 
@@ -17,7 +10,7 @@ title: "Use case: GitLab + Google Cloud"
 
 ## The Market Viewpoint
 
-The landscape of software development is changing. Today’s users expect to interact with software applications that are always-on and accessible from every device. To keep up, businesses of all sizes that have traditionally built and managed centralized, monolithic applications are shifting to distributed cloud services. And these services are being built and run by distributed teams located all around the world. Modernizing the business through IT is a cultural and technological shift.
+The landscape of software development is changing. Today's users expect to interact with software applications that are always-on and accessible from every device. To keep up, businesses of all sizes that have traditionally built and managed centralized, monolithic applications are shifting to distributed cloud services. And these services are being built and run by distributed teams located all around the world. Modernizing the business through IT is a cultural and technological shift.
 
 With all of this complexity, software teams need DevOps tooling that works together with their cloud infrastructure to enable them to become faster and more efficient, while staying secure and reliable.
 

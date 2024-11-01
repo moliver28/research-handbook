@@ -1,15 +1,7 @@
 ---
-
 title: "Health Scoring - Calculations and Methodology"
 description: "How we measure a customer's health score for general GitLab and different use cases"
 ---
-
-
-
-
-
-
-
 
 ---
 
@@ -100,11 +92,11 @@ Adoption timeline: 1 months after license purchase.
 
 | Metric | Calculation | **Red** | **Yellow** | **Green** |
 |---|---|---|---|---|
-| CI Pipeline Utilization % | [CI Pipelines - User L28D](https://gitlab.com/gitlab-org/gitlab/-/blob/master/config/metrics/counts_28d/20210216175554_ci_pipelines.yml) ÷ [Billable Users](https://gitlab.com/gitlab-org/gitlab/-/blob/master/ee/config/metrics/license/20210531204603_license_billable_users.yml) | <25% | ≥25% - <50% | ≥50% |
+| CI Pipeline Utilization % | [CI Pipelines - User L28D](https://gitlab.com/gitlab-org/gitlab/-/blob/master/config/metrics/counts_28d/20210216175554_ci_pipelines.yml) ÷ [Billable Users](https://gitlab.com/gitlab-org/gitlab/-/blob/master/ee/config/metrics/license/20210531204603_license_billable_users.yml) | <25% | ≥25% - <33% | ≥33% |
 
 #### **Green Adoption Criteria:**
 
-When 50% or more of unique `Billable Users` have triggered a distinct `CI Pipeline` in the last 28 days, then CI is considered adopted.
+When 33% or more of unique `Billable Users` have triggered a distinct `CI Pipeline` in the last 28 days, then CI is considered adopted.
 
 ### Security (DevSecOps)
 
@@ -138,7 +130,7 @@ Due to equal weighting and Gainsight's defined scoring ranges, two (2) of the th
 ## Limitations
 
 1. Some customers have been given an exception for sending usage data.
-   1. [Cloud licensing and the support exemption process explained](/handbook/support/license-and-renewals/workflows/self-managed/cloud-licensing.html)
+   1. [Cloud licensing and the support exemption process explained](/handbook/support/license-and-renewals/workflows/self-managed/cloud-licensing/)
    1. [INTERNAL - Customer Availability, Eligibility & Opt-Out](https://internal.gitlab.com/handbook/product/fulfillment/cloudlicensing/cloud-licensing/#customer-availability-eligibility--opt-out)
    1. [Cloud Licensing Adoption Dashboard](https://10az.online.tableau.com/#/site/gitlab/views/WIPCloudLicensingPOC/CloudLicensingAdoption?:iid=1)
    1. **Resolution**: Exceptions are considered valid reasons for a customer to not be sending data. However, we have made more exceptions than planned and will be working on enablement on removing exceptions at time of renewal wherever possible.
@@ -172,7 +164,7 @@ Use this chart to understand how many use cases each of your customers have adop
 
 Gainsight Rules mark boolean fields as true on `Company` object for accounts with green scores. These boolean fields are named SCM Adoption, CI Adoption, CD Adoption and Security (DevSecOps) Adoption.
 
-Once marked, the number of “true” booleans for each account are summed. If an account has a green SCM, CI, CD and Security (DevSecOps), this would be a 4 score. If none of the use cases are green, this would be 0 and if all of the use case scores are N/A, this would be NULL to mean no usage stats have been recorded.
+Once marked, the number of "true" booleans for each account are summed. If an account has a green SCM, CI, CD and Security (DevSecOps), this would be a 4 score. If none of the use cases are green, this would be 0 and if all of the use case scores are N/A, this would be NULL to mean no usage stats have been recorded.
 </details>
 
 ## Product Health Score Drop CTA

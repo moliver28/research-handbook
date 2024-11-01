@@ -46,7 +46,7 @@ The Director, Field Marketing is a [grade 10](/handbook/total-rewards/compensati
 - Experience with supporting both direct sales and channel sales teams.
 - [Leadership at GitLab](/handbook/company/structure/#director-group)
 - Ability to use GitLab
-- Ability to travel if needed and comply with the company’s travel policy. If employed by GitLab Federal, LLC, team members need to also comply with the applicable vaccination policies.
+- Ability to travel if needed and comply with the company's travel policy. If employed by GitLab Federal, LLC, team members need to also comply with the applicable vaccination policies.
 
 ### Specialty
 
@@ -120,16 +120,46 @@ The Senior Director, Regional Marketing is a [grade 11](/handbook/total-rewards/
 
 ### Career Ladder
 
-The next step in the Field Marketing Leadership job family is to VP, Integrated Marketing.
+The next step in the Field Marketing Leadership job family is to VP, Regional Marketing.
+
+## VP, Regional Marketing
+
+### VP of Regional Marketing Job Grade
+
+The Senior Director, Regional Marketing is a [grade 12](/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades).
+
+### Responsibilities
+
+- Hire, develop and manage a global team of high-performing field marketers and partner marketing managers
+- Map the customer journey and identify the right strategies to attract and progress  prospects and customers through the pipeline
+- Own execution of the business plan, including scope, target outcomes, key metrics and measures, and required inputs and resources to deliver
+- Build systems and processes that will track and report on key performance metrics and use data to optimize field event and regional marketing  strategies continually
+- Continuously evaluate the performance and ROI of programs/events, adjusting tactics and strategy accordingly
+- Work closely with product marketing, marketing operations, and geo sales leaders to ensure message optimization and strategic and cross-functional alignment
+
+### Requirements
+
+- Experience in roles of increasing responsibility, managing $500MM-$5B in revenue pipeline in high-growth companies; Ideally with experience marketing to developers, IT, development operations and security
+- Experience running a global team of at least dozens of people with multiple levels of management
+- Must have a firm grasp of regional marketing best practices, yet have an innate curiosity to continually investigate new trends
+- Experience with field marketing, account based marketing and partner marketing in an Enterprise Software company; SaaS preferred
+- Familiarity with open-source, cloud native, cloud, and Kubernetes a plus
+- Excellent communication skills including the ability to communicate a clear sense of mission, purpose, priority and long-term direction for the function and across GitLab
+- Excellent collaboration and influencing skills cross functionally
+- Demonstrated success and comfort driving global programs in multiple languages
+- Ability to use GitLab
+
+### Career Ladder
+
+The next step in the Demand Generation job family is not yet defined at GitLab
 
 ### Hiring Process
 
 Candidates for this position can expect the hiring process to follow the order below. Please keep in mind that candidates can be declined from the position at any stage of the process. To learn more about someone who may be conducting the interview, find their job title on our [team page](/handbook/company/team/).
 
 - Qualified candidates will be invited to schedule a [screening call](/handbook/hiring/interviewing/#screening-call) with one of our Global Recruiters.
-- Next, candidates will be invited to schedule an interview with the VP, Integrated Marketing
 - Candidates will then be invited to schedule interviews with key stakeholders for the role at GitLab.
-- Finally, our CMO and People Business partner will conduct final interviews.
+- Finally, our CMO and Director, People Business partner will conduct final interviews.
 - Successful candidates will subsequently be made an offer via email.
 
 Additional details about our process can be found on our [hiring page](/handbook/hiring/).

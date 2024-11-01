@@ -1,15 +1,6 @@
 ---
-
 title: "OSS Contributions"
-aliases:
-- /handbook/marketing/developer-relations/developer-evangelism/oss-contributions/index.html
 ---
-
-
-
-
-
-
 
 ## Contributions to OSS
 

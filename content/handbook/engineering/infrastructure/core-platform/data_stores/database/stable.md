@@ -1,13 +1,6 @@
 ---
-aliases: /handbook/engineering/infrastructure/core-platform/data_stores/database/stable.html
 title: Database Group Stable Counterparts
 ---
-
-
-
-
-
-
 
 ## Overview
 

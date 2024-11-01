@@ -1,13 +1,6 @@
 ---
-
 title: "Sales Strategy and Analytics - Pipeline Management Tools"
 ---
-
-
-
-
-
-
 
 ## Pipeline Management Tools
 
@@ -46,7 +39,7 @@ and Remainder to Target is defined as
 `Target Net ARR` - `Booked Net ARR (to date in a given quarter)`.
 
 For future quarters, the calculation would be
-`Open Pipe Net ARR` / `Target Net ARR` as there won’t be any Booked Net ARR yet.
+`Open Pipe Net ARR` / `Target Net ARR` as there won't be any Booked Net ARR yet.
 
 Unless otherwise stated, Pipeline coverage is calculated with the definition above.
 
@@ -156,8 +149,8 @@ We iterate on the definition of Sales Accepted Opportunities (SAOs), Pipeline Ge
 Please refer to Permission Handling section below
 
 - **It is a little overwhelming with so many dashboards. Which one is the most important one that I should keep an eye on regularly?**
-  - If you are looking for insights related to current (and upcoming future quarters) and you want to know if your team (or globally) is on the right trajectory for achieving the target, you can leverage the “Pipeline X-Ray: Current & Next Quarters Overview” dashboard. After checking specific region/ order type, you might be interested in more granular detail and move on to the "SAE Heatmap" to check metrics per each SAE.
-  - If you would like to see metrics development for a longer timeframe (across multiple years and quarters) for various segments (Sales Segment, Order Type, Geo etc), you can check out the “Pipeline Velocity & Generation” dashboard.
+  - If you are looking for insights related to current (and upcoming future quarters) and you want to know if your team (or globally) is on the right trajectory for achieving the target, you can leverage the "Pipeline X-Ray: Current & Next Quarters Overview" dashboard. After checking specific region/ order type, you might be interested in more granular detail and move on to the "SAE Heatmap" to check metrics per each SAE.
+  - If you would like to see metrics development for a longer timeframe (across multiple years and quarters) for various segments (Sales Segment, Order Type, Geo etc), you can check out the "Pipeline Velocity & Generation" dashboard.
 
 - **Are there any SFDC reports that I can refer to, to cross-check numbers?** <br>
 Please have a look at `Readme` tab in Pipeline X-Ray tool for links for the related SFDC reports
@@ -204,7 +197,7 @@ The following list of models (with dbt Docs links) are in use for creating Pipel
 | [restricted_safe_workspace_sales.ssa_coverage_fitted_curves](https://gitlab-data.gitlab.io/analytics/#!/model/model.gitlab_snowflake.ssa_coverage_fitted_curves) <br> (model created from Jupyter Notebook export) | Model containing historical pipeline coverage (fitted curves) |
 | [workspace_sales.date_details](https://gitlab-data.gitlab.io/analytics/#!/model/model.gitlab_snowflake.date_details) | Helper table containing different date fields |
 | [restricted_safe_workspace_sales.report_agg_demo_sqs_ot_keys](https://gitlab-data.gitlab.io/analytics/#!/model/model.gitlab_snowflake.wk_sales_report_agg_demo_sqs_ot_keys) | Helper table containing different keys that can be used for aggregation |
-| ([EDM](/handbook/business-technology/data-team/platform/edw/) not `sales_workspace`) <br> [restricted_safe_common_mart_sales.mart_sales_funnel_target](https://gitlab-data.gitlab.io/analytics/#!/model/model.gitlab_snowflake.mart_sales_funnel_target) | Model with sales targets |
+| ([EDM](/handbook/enterprise-data/platform/edw/) not `sales_workspace`) <br> [restricted_safe_common_mart_sales.mart_sales_funnel_target](https://gitlab-data.gitlab.io/analytics/#!/model/model.gitlab_snowflake.mart_sales_funnel_target) | Model with sales targets |
 
 #### Models not Available in dbt
 
@@ -216,4 +209,4 @@ Each Google Sheet based dashboard has a `source` Google sheet pair which contain
 
 ### Permission Handling
 
-To comply with the [SAFE Framework](/handbook/legal/safe-framework/), please submit an [Access Request](/handbook/business-technology/end-user-services/onboarding-access-requests/access-requests/) to the Sisense SAFE Environment. Also for non-Sisense dashboards (e.g. Pipeline X-Ray), access is automatically granted for those to have access to SAFE dashboards in Sisense.
+To comply with the [SAFE Framework](/handbook/legal/safe-framework/), please submit an [Access Request](/handbook/it/end-user-services/onboarding-access-requests/access-requests/) to the Sisense SAFE Environment. Also for non-Sisense dashboards (e.g. Pipeline X-Ray), access is automatically granted for those to have access to SAFE dashboards in Sisense.

@@ -3,7 +3,7 @@ title: "Employee Privacy Policy"
 description: "This Employee Privacy Policy explains what types of personal data we may collect about our employees and how it may be used"
 ---
 
-This Employee Privacy Policy (“Privacy Policy”) explains what types of personal data we may collect about our employees and how it may be used.
+This Employee Privacy Policy ("Privacy Policy") explains what types of personal data we may collect about our employees and how it may be used.
 
 While this Privacy Policy is intended to describe the broadest range of our data processing activities globally, those processing activities may be more limited in some jurisdictions based on the restrictions of their laws. For example, the laws of a country may limit the types of personal data we can collect or the manner in which we process that data. In those instances, we adjust our internal policies and practices to reflect the requirements of local law.
 
@@ -15,7 +15,7 @@ GitLab, Inc. is a global company with its headquarters in the U.S. This means th
 
 The GitLab entity that is a party to your employment contract or contract for services or otherwise employs you will be the data controller of your personal data.  The following are the GitLab entities that act as controller:  GitLab, Inc., GitLab, LLC., GitLab BV, GitLab GK, GitLab GmbH, GitLab PTY Ltd, GitLab Canada Corp, GitLab IT BV, GitLab UK, Ltd., GitLab Ireland Ltd., GitLab Korea Limited, GitLab Singapore Pte Ltd., GitLab France S.A.S. and other GitLab subsidiaries throughout the globe (collectively "GitLab").
 
-GitLab affiliates may act as processors on behalf of other GitLab affiliates and/ or controllers.  Furthermore, GitLab, its affiliates and subsidiaries participate in a group-wide IT system in order to harmonize GitLab’s IT infrastructure and its use (the “System”). The System also may hold data on all employees, workers, individual contractors and contingent workers ("Staff"). Insofar the System serves to improve and harmonize most of the human resources (“HR”) processes within GitLab. GitLab, Inc. in the U.S. is responsible for the System.
+GitLab affiliates may act as processors on behalf of other GitLab affiliates and/ or controllers.  Furthermore, GitLab, its affiliates and subsidiaries participate in a group-wide IT system in order to harmonize GitLab's IT infrastructure and its use (the "System"). The System also may hold data on all employees, workers, individual contractors and contingent workers ("Staff"). Insofar the System serves to improve and harmonize most of the human resources ("HR") processes within GitLab. GitLab, Inc. in the U.S. is responsible for the System.
 
 *Applicability of Other GitLab Privacy Policies*
 
@@ -23,7 +23,7 @@ The websites of GitLab (e.g., [about.gitlab.com](https://about.gitlab.com/)) hav
 
 *Third Party Services*
 
-In some cases, you may provide personal data to third parties that GitLab works with or that provide services to GitLab.  This includes, those parties identified in the [Tech Stack Application YAML](https://gitlab.com/gitlab-com/www-gitlab-com/-/blob/master/data/tech_stack.yml) (“Third Parties”).
+In some cases, you may provide personal data to third parties that GitLab works with or that provide services to GitLab.  This includes, those parties identified in the [Tech Stack Application YAML](https://gitlab.com/gitlab-com/www-gitlab-com/-/blob/master/data/tech_stack.yml) ("Third Parties").
 
 The Tech Stack is updated periodically to ensure accurate, up-to-date disclosure of employee and customer third party applications used at GitLab.  This particular policy applies to those applications identified as relating to Employee applications.  The use of such Third Party websites may be governed by separate terms of use and privacy policies which are not under our control and are not subject to this Privacy Policy. Please contact such Third Parties for questions regarding their privacy practices, as well as if you would like to have them modify, update, alter or delete your personal data.  Please understand that there are exceptions to rights surrounding personal data relating to employment.  GitLab is required to maintain certain employment information by law.
 
@@ -33,7 +33,7 @@ Personal data, also known as personally identifiable information, for purposes o
 
 Examples of personal data include:
 
-- An individual’s name.
+- An individual's name.
 - Employee ID number.
 - Home address.
 - Home phone number.
@@ -148,7 +148,7 @@ We may on occasion process your personal data for the purpose of the legitimate 
 
 *Processing of Special Categories of Personal Data*
 
-“Special Categories of Personal Data” includes information revealing racial or ethnic origin, political opinions, religious or philosophical beliefs, trade union membership, health, sex life or sexual orientation, as well as genetic and biometric data.
+"Special Categories of Personal Data" includes information revealing racial or ethnic origin, political opinions, religious or philosophical beliefs, trade union membership, health, sex life or sexual orientation, as well as genetic and biometric data.
 
 From time to time you may provide us with information which constitutes Special Categories of Personal Data or information from which Special Categories of Personal Data may be deduced.  In such cases, where required by law, we will obtain your express written consent to our processing of Special Categories of Personal Data.  If separate consent is not required by local law, by providing this information to GitLab, you give your freely given, informed, explicit consent for us to process those Special Categories of Personal Data for the purposes set out in How We Process and Use Your Personal Data section above.
 

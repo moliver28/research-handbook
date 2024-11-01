@@ -1,7 +1,7 @@
 ##### Quality
 
 - Quad Planning & Test Coverage
-  - Lead [Quad planning](https://about.gitlab.com/handbook/engineering/infrastructure/test-platform/quad-planning/) efforts and optimize test coverage.
+  - Lead [Quad planning](/handbook/engineering/infrastructure/test-platform/quad-planning/) efforts and optimize test coverage.
   - Create test strategy and implement test automation for new features.
   - Provide risk analysis and input on test strategy.
   - Identify and communicate must-have test coverage for critical functionality.

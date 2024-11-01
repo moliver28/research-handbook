@@ -1,13 +1,6 @@
 ---
-
 title: Secure Engineering Refinement
 ---
-
-
-
-
-
-
 
 ## Overview
 
@@ -54,7 +47,7 @@ Unless specified differently for your team, every engineer should try to refine 
     - Ensure the issue title is accurate for the work being done.
     - Open up new issues for 'follow-up' work, or work that was forced out of scope.
 6. Assign a [weight](#weights) and set the label `~workflow::scheduling`
-7. Assign a [work type classification label](/handbook/engineering/metrics/#work-type-classification) e.g. `/label ~"type::feature" ~"feature::enhancement"`
+7. Assign a [work type classification label](/handbook/product/groups/product-analysis/engineering/dashboards/#work-type-classification) e.g. `/label ~"type::feature" ~"feature::enhancement"`
 8. Once refinement is done unassign yourself.
 
 When you are done refining, anyone should be able to read the issue description and should know what the issue is solving, how it is solving the problem,
@@ -123,7 +116,7 @@ as [velocity is more important than predictability](/handbook/engineering/develo
 
 - [Plan:Project Management BE Team Capacity Planning](/handbook/engineering/development/dev/plan/project-management/#capacity-planning)
 - [Create: Source Code BE Team Weights](/handbook/engineering/development/dev/create/source-code-be/#weights)
-- [Geo Team Weights](/handbook/engineering/infrastructure/core-platform/systems/geo/process.html#weights)
+- [Geo Team Weights](/handbook/engineering/infrastructure/core-platform/systems/geo/process/#weights)
 - [Enablement:Cloud Connector](/handbook/engineering/infrastructure/core-platform/systems/cloud-connector/)
 
 ## Implementation Plan

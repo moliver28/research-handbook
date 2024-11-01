@@ -1,13 +1,6 @@
 ---
-
 title: "Open Source at GitLab"
 ---
-
-
-
-
-
-
 
 ## We believe in Open Source
 

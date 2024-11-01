@@ -14,7 +14,7 @@ The following is a guide to go over the basics of what is recommended for instal
 
 ## Basic Setup
 
-Outside of the basics listed [here](/handbook/business-technology/it/security/system-configuration/#laptop-or-desktop-system-configuration) for all laptop and desktop systems, there are a few additional steps required for Linux. Currently, the recommended laptop for Linux is Dell running Ubuntu, which is discussed in detail [here](/handbook/business-technology/end-user-services/onboarding-access-requests/#laptop-configurations). These instructions assume that setup, so for alternate choices in hardware or Linux distribution it is recommended you use this as a general guideline but adapt as needed.
+Outside of the basics listed [here](/handbook/business-technology/it/security/system-configuration/#laptop-or-desktop-system-configuration) for all laptop and desktop systems, there are a few additional steps required for Linux. Currently, the recommended laptop for Linux is Dell running Ubuntu, which is discussed in detail [here](/handbook/it/end-user-services/onboarding-access-requests/#laptop-configurations). These instructions assume that setup, so for alternate choices in hardware or Linux distribution it is recommended you use this as a general guideline but adapt as needed.
 
 Dell maintains its own Ubuntu distribution. While not needed to use Linux on Dell, it does seem to offer direct support for various chipsets and hardware components. This means that for a stock Ubuntu (or other distribution) install, generic choices are often made by the installer, and if you wish to take advantage of drivers that better support the hardware, you may have to install and configure drivers for certain components. The Dell Ubuntu distribution removes that burden.
 
@@ -157,7 +157,7 @@ Some GitLab team members have experienced issues with the Nvidia drivers on Dell
 
 - Edit the line to look like this:
 
- `GRUB_CMDLINE_LINUX_DEFAULT="quiet splash mem_sleep_default=deep`
+ `GRUB_CMDLINE_LINUX_DEFAULT="quiet splash mem_sleep_default=deep"`
 
 - Then update grub:
 
@@ -272,7 +272,7 @@ Fingerprint login and authorization has now been enabled! Note that the sddm log
 
 ## Troubleshooting
 
-### Zoom screensharing on GNOME on Wayland
+### Zoom screen sharing on GNOME on Wayland
 
 In order to share the user's screen on GNOME on Wayland, Zoom uses a private schreenshot API to chain successive screenshots into a stream. [As GNOME 41, those private D-Bus APIs have been restricted to their intended callers for security reasons, so that hack no longer works.](https://gitlab.gnome.org/GNOME/gnome-shell/-/issues/4665#note_1283742).
 
@@ -281,9 +281,9 @@ As a workaround, you can use [looking glass](https://wiki.gnome.org/Projects/Gno
 Some caveats apply to this workaround.
 
 - You are disabling a security setting. (This is no worse than a default Xorg session.)
-- Zoom freezes for about 15 seconds when initiating a screensharing session. Wait through the "application not responding" dialogue if it appears, and the "select display" prompt will appear.
+- Zoom freezes for about 15 seconds when initiating a screen sharing session. Wait through the "application not responding" dialogue if it appears, and the "select display" prompt will appear.
 - You can share whole desktops, but you cannot share individual application windows.
-- Zoom freezes for about 5 seconds upon ending a screensharing session.
+- Zoom freezes for about 5 seconds upon ending a screen sharing session.
 - This workaround must be applied at each login.
 
 ### Common issues

@@ -1,13 +1,6 @@
 ---
-
 title: "Developer Relations workflow: Team Budgets"
 ---
-
-
-
-
-
-
 
 ## <i class="fas fa-receipt" id="biz-tech-icons"></i> Team Budgets
 

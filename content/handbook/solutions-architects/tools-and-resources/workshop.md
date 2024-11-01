@@ -1,9 +1,7 @@
 ---
-
 title: Hands-on Workshop
 description: Hands-on Workshop
 ---
-
 
 ## Hands-on Workshop
 

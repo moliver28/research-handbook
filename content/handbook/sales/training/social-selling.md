@@ -1,14 +1,7 @@
 ---
-
 title: "Social Selling"
 description: "How to use social media to build your professional brand and grow your business"
 ---
-
-
-
-
-
-
 
 ## Social Selling Basics
 

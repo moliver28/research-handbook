@@ -1,13 +1,11 @@
 ---
-
 title: Proof of Value (POV)
 description: Proof of Value (POV)
 ---
 
-
 ## Proof of Value (POV)
 
-Proof of value is a combination of technical evaluation and the communication of the expected business value of a solution.  The solution, its practical application, and how it drives specific business value are proven and documented through the POV process.
+Proof of value is a combination of [technical evaluation](/content/handbook/solutions-architects/processes/_index.md) and the communication of the expected business value of a solution.  The solution, its practical application, and how it drives specific business value are proven and documented through the POV process.
 
 Solution Architects are instrumental in guiding prospects and customers to carry out a successful Proof of **Value**. POV's should focus on specific prospect/customer business outcomes that cannot be achieved through other consultative interactions.
 
@@ -39,7 +37,7 @@ A POV is conducted with a GitLab trial license either using GitLab.com or a self
 
 - Top business drivers are identified with POV scope, success criteria of the POV are defined to execute the POV and subsequently drive next step in the deal process
 
-- Must identify the champion and economic buyers and they must be in agreement (e.g., “sign-off”) on the success criteria; faciliate the executive connection and sponsorship
+- Must identify the champion and economic buyers and they must be in agreement (e.g., "sign-off") on the success criteria; faciliate the executive connection and sponsorship
 
 - A Command Plan is populated in Salesforce for the opportunity with the following fields:
     Why Now
@@ -114,12 +112,12 @@ Solutions Architects are the owners of the POV, guiding prospects through a succ
 
 Many prospects are tempted to include implementation of GitLab high availability as part of a POV. In this case, the implementation components should comprise a separate POV entirely, separating GitLab functionality evaluations from implementation, load and performance components.
 
-Other best practices for POV’s:
+Other best practices for POV's:
 
-- SA’s must be part of proposing or committing to POV’s
-- POV’s should be a late-stage component that triggers the sale, not an early offering
+- SA's must be part of proposing or committing to POV's
+- POV's should be a late-stage component that triggers the sale, not an early offering
 - Ask WHY a POV is required vs Q&A or other considerations, since prospects are often using existing GitLab installations
-- Feature/function POV’s should be run in basic environments, not HA, unless the HA environment is already established and proven
+- Feature/function POV's should be run in basic environments, not HA, unless the HA environment is already established and proven
 - Required capabilities should be a limited number, 5 or less ideally - these should be purchase triggers and differentiators
 - Please work together(SA & SAE) to map required capabilities to decision criteria in the COM plan
 - A POV does not implement a fully designed and configured ecosystem in a customer environment, it is a product evaluation

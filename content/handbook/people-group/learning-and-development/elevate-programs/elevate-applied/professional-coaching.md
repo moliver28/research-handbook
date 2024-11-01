@@ -1,12 +1,11 @@
 ---
-
 title: Elevate Applied 1:1 Coaching
 
 ---
 
 ![visual displaying the content in each elevate+ module](/handbook/people-group/learning-and-development/elevate-programs/images/elevate-applied.png)
 
-Elevate Applied 1:1 Coaching is an opportunity for managers to work 1:1 with GitLab-trained professional coaches on specific skills. Eligibility is open to all people managers with priority given to applicants who have completed Elevate/Elevate+. This offering is covered by your [Growth and Development Fund](/handbook/total-rewards/benefits/general-and-entity-benefits/growth-and-development/) as a recommended coaching experience. Unlike other G&D submissions, participants will not cover costs up front; this will be directly billed to GitLab and covered by the G&D allocation for each participant.
+Elevate Applied 1:1 Coaching is an opportunity for managers to work 1:1 with GitLab-trained professional coaches on specific skills. Eligibility is open to all people managers with priority given to applicants who have completed Elevate/Elevate+. This offering is covered by your [Growth and Development Fund](/handbook/people-group/learning-and-development/growth-and-development/) as a recommended coaching experience. Unlike other G&D submissions, participants will not cover costs up front; this will be directly billed to GitLab and covered by the G&D allocation for each participant.
 
 Keep reading for information on the next Elevate Applied 1:1 Coaching Cohort.
 
@@ -25,7 +24,7 @@ Here's what to expect:
 
 During 1:1 coaching, you'll practice the following skills and plan to apply them to current accountability challenges on your team:
 
-![visual displaying the content in each elevate+ module](/handbook/people-group/learning-and-development/elevate-programs/images/coaching-for-accountability.png)
+![visual displaying the content in each elevate+ module](/handbook/people-group/learning-and-development/elevate-programs/images/coaching-for-accountability.jpg)
 
 ### Participant Requirements
 
@@ -42,7 +41,7 @@ Applications will open from 2024-06-05 through 2024-06-14. Use [this Google Form
 
 _Read testimonials below from managers who have received professional coaching from GitLab._
 
-![written testimonials from managers at gitlab who have recieved professional coaching](/handbook/people-group/learning-and-development/elevate-programs/images/testimonials.png)
+![written testimonials from managers at GitLab who have recieved professional coaching](/handbook/people-group/learning-and-development/elevate-programs/images/testimonials.png)
 
 #### Selection Criteria
 
@@ -55,7 +54,7 @@ The `Coaching for Accountability` cohort in FY25 will include 10 participants wh
 If you are not accepted into the FY25 cohort, consider these options for future coaching opportunities:
 
 1. Remain on the waitlist and be notified of future Elevate Applied coaching offerings
-1. Use your [Growth and Development fund](/handbook/total-rewards/benefits/general-and-entity-benefits/growth-and-development/#professional-coaching) to meet with a professional coach
+1. Use your [Growth and Development fund](/handbook/people-group/learning-and-development/growth-and-development/#professional-coaching) to meet with a professional coach
 
 ### Timeline
 
@@ -65,5 +64,5 @@ If you are not accepted into the FY25 cohort, consider these options for future 
 | 2024-06-14 | Applications Close |
 | 2024-06-21 | Selected participants notified |
 | 2024-07-15 | Coaching Begins |
-| 2024-08-30 | Coaching Ends |
-| 2024-08-02 | Participant feedback collected |
+| 2024-09-30 | Coaching Ends |
+| 2024-09-30 | Participant feedback collected |

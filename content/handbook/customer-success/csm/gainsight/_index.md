@@ -1,20 +1,13 @@
 ---
-
 title: "Using Gainsight as a CSM"
 description: "The key aspects of how Customer Success Managers use Gainsight to drive success for customers."
 ---
-
-
-
-
-
-
 
 *For an overview of Gainsight, and information about how to login, please refer to the [Gainsight Overview Page](/handbook/sales/gainsight/).*
 
 ## Gainsight for Customer Success Managers
 
-CSMs use Gainsight for a multitude of purposes, including logging their customer calls, updating their call-to-actions (CTAs), updating success plans, and gaining insights on their customer’s product usage data.
+CSMs use Gainsight for a multitude of purposes, including logging their customer calls, updating their call-to-actions (CTAs), updating success plans, and gaining insights on their customer's product usage data.
 
 One of our CSMs created an [8 minute video](https://youtu.be/yk95b6u26So) (internal-only) of her workflow and how she integrates Gainsight into her day to day tasks to reduce the lift and ensure her accounts stay up to date.
 
@@ -78,7 +71,7 @@ The table below represents the steps a CSM would typically take in Gainsight. Pl
 - [Product Usage Data FAQs](/handbook/customer-success/product-usage-data/using-product-usage-data-in-gainsight/)
 - [Use Case Adoption (definitions)](/handbook/customer-success/product-usage-data/use-case-adoption/)
 - [Customer Health Scoring](/handbook/customer-success/customer-health-scoring/)
-- [Product Usage Data - Data Team](/handbook/business-technology/data-team/data-catalog/product-usage-data/)
+- [Product Usage Data - Data Team](/handbook/enterprise-data/data-catalog/product-usage-data/)
 - [License Utilization](/handbook/customer-success/product-usage-data/use-case-adoption/)
 - [Maturity Scoring](/handbook/customer-success/product-usage-data/maturity-scoring/)
 - [Product usage playbooks with usage metrics](/handbook/customer-success/product-usage-data/metrics-based-playbooks/)
@@ -94,7 +87,7 @@ The table below represents the steps a CSM would typically take in Gainsight. Pl
 
 #### Technical Documentation
 
-- [Gainsight Technical Documentation](/handbook/sales/field-operations/customer-success-operations/gainsight/gainsight-gtm.html)
+- [Gainsight Technical Documentation](/handbook/sales/field-operations/customer-success-operations/gainsight/gainsight-gtm/)
 - [Gainsight Administration](/handbook/sales/field-operations/customer-success-operations/gainsight/)
 - [SalesForce and Zendesk Sync](/handbook/customer-success/csm/gainsight/#salesforce-and-zendesk-syncing)
 
