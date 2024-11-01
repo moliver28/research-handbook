@@ -7,7 +7,7 @@ description: Legal Operations supports Legal & Corporate Affairs processes with 
 
 ### Legal Operations Manager
 
-The Legal Operations Manager reports to the Sr. Director, Contracts and Legal Operations.
+The Legal Operations Manager reports to the Chief of Staff, CLO & Head of Corporate Affairs.
 
 #### Legal Operations Manager Job Grade
 
