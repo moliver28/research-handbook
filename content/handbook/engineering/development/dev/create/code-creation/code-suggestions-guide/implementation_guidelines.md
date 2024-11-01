@@ -50,13 +50,13 @@ further information about AIGW's Code Suggestions API.
 
 GitLab Rails _does not_ send requests directly to an AI Model. It sends requests to the AIGW, which in turn sends requests to AI models.
 
-GitLab Rails is the source of truth for which model to use for Code Completions or Code Generations. It toggles the current model through [Feature Flags](#introduce-behind-a-feature-flag).
+GitLab Rails is the source of truth for which model to use for Code Completions or Code Generations. It toggles the current model through [feature flags](#introduce-behind-a-feature-flag).
 
 For direct-to-AIGW requests, GitLab Rails specifies the model details through the Direct Access endpoint.
 For indirect-through-GitLab-Rails requests, GitLab Rails includes the model details in the payload for its request
 to the AIGW.
 
-### GitLab Rails API Endpoints
+### GitLab Rails API endpoints
 
 - [Direct Access endpoint](https://docs.gitlab.com/ee/api/code_suggestions.html#fetch-direct-connection-information) -
 for direct-to-AIGW requests, this endpoint provides the information necessary to send a request to AIGW
@@ -68,16 +68,16 @@ this is the endpoint used for indirect-through-GitLab-Rails requests
 These are guidelines for when you are ready to support a model for Code Suggestions,
 for example, after you have done evaluations and have considered the model to be acceptable.
 
-### Create an Epic
+### Create an epic
 
 Introducing a model usually spans several tasks, so it is best to create an epic or sub-epic for this work.
 
-### Create a Rollout Plan
+### Create a rollout plan
 
 You must create a rollout plan before deploying a new model.
 Refer to the [Rollout Guide](model_rollout_guide.md#create-a-rollout-plan) for more details.
 
-### Introduce behind a Feature Flag
+### Introduce behind a feature flag
 
 For both the direct-to-AIGW and indirect-through-GitLab-Rails requests, the decision on what model to use
 ultimately comes from GitLab Rails. When introducing a new model, you must

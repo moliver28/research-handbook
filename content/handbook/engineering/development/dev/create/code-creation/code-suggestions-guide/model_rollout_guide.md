@@ -30,27 +30,26 @@ Rollout of a new model is usually done in 3 phases:
 2. Rollout to all GitLab team members.
 3. Rollout to all users.
 
-### Rollout to Code Creation team members and other interested stakeholders
+### Roll out to Code Creation team members and other interested stakeholders
 
 This is an optional but recommended step before rolling out to all GitLab team members. Code Creation team members and interested stakeholders will have more knowledge of the currently used models, and they can give valuable feedback around latency and correctness in comparison to current models.
 
 Before rollout, make sure that an [internal feedback issue](https://gitlab.com/gitlab-org/code-creation/code-suggestions-model-evaluation-hub/-/blob/main/.gitlab/issue_templates/internal_feedback_template.md) has been created. Make sure to direct all feedback to the internal feedback issue.
 
-### Rollout to all GitLab team members
+### Roll out to all GitLab team members
 
 This is a required step before rolling out to all users. With dogfooding from GitLab team members, the larger volume of requests can help us determine if:
 
-- We need to increase the request quota for the model
-- Aadditional post-processing is needed for the completions coming from the model
-- We need to reach out to the model providers for bug fixes
-- and other considerations
+- We need to increase the request quota for the model.
+- Additional post-processing is needed for the completions coming from the model.
+- We need to reach out to the model providers for bug fixes and other considerations.
 
 Before rollout, make sure that the
 [internal rollout](https://gitlab.com/gitlab-org/code-creation/code-suggestions-model-evaluation-hub/-/blob/main/.gitlab/issue_templates/internal_rollout.md)
 and [internal feedback](https://gitlab.com/gitlab-org/code-creation/code-suggestions-model-evaluation-hub/-/blob/main/.gitlab/issue_templates/internal_feedback_template.md)
 issues have been created. Make sure to direct all feedback to the internal feedback issue.
 
-### Rollout to all users
+### Roll out to all users
 
 This step is done when the model is ready for widespread use. Rollout to all users can be done by percentage of actors (recommended), or you can roll out to all users at once.
 
