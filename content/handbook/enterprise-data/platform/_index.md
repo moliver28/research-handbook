@@ -205,14 +205,14 @@ We currently use [Snowflake](https://docs.snowflake.net/manuals/index.html) as o
 
 ### Snowplow nullify columns
 
-In order not to extract geo data into Snowplow, the following columns were nullified:
+In order not to extract geo data into Snowplow, the following columns were nullified:
 
 - `geo_zipcode`
 - `geo_latitude`
 - `geo_longitude`
 - `user_ipaddress`
 
-This nullified is applied in Snowplow from `2023-02-01` and the files have the same structure, just column values are set to `NULL`. The Data Team updated old files and set mentioned columns to `NULL`, and also set columns to `NULL` in Snowflake. This is applicable to the `RAW`, `PREP` and `PROD` layers in Snowflake.
+This nullified is applied in Snowplow from `2023-02-01` and the files have the same structure, just column values are set to `NULL`. The Data Team updated old files and set mentioned columns to `NULL`, and also set columns to `NULL` in Snowflake. This is applicable to the `RAW`, `PREP` and `PROD` layers in Snowflake.
 
 As desired to avoid a duplicate load of the updated files in the `S3` bucket as per [**Snowflake documentation**](https://docs.snowflake.com/en/user-guide/data-load-snowpipe-ts#unable-to-reload-modified-data-modified-data-loaded-unintentionally), the folder structure is modified from:
 
@@ -249,19 +249,23 @@ to the new structure:
 All new loads in the `S3` bucket will go into the same folder as before `gitlab-com-snowplow-events/output`.
 
 ### Snowflake support portal access
- 
+
 To get access to snowflake support portal, please follow the below steps.
 
-- Register using GitLab email id to [community portal](https://community.snowflake.com/CommunitiesSelfReg)
-- This registration will send a welcome email to GitLab mail with the subject `Welcome to the Snowflake Community`. In the mail it will ask you to finish the registration as part of that you will be asked to set your password for the community portal.
-- Once done login again to your snowflake community account and on the home page, click `submit case`. For the first time, the user who do not have access to submit a case with snowflake. It will ask you to fill in the form for access.
-- In the form select the access for already snowflake customer. On the next page, it will ask for information `Account Name`, `Cloud Name`, and  `Region Name`. Below is one way to pull this information from the snowflake console.
-  - `Account Name` - select CURRENT_ACCOUNT();
-  - `Region Name`- select CURRENT_REGION();
-  - `Cloud Name` - Based on the [region name](https://docs.snowflake.com/en/user-guide/admin-account-identifier.html#snowflake-region-ids)  value we can identify the cloud name.
+- When you are in your [Snowsight](https://docs.snowflake.com/en/user-guide/ui-snowsight) instance, open your account (bottom-left corner) and go to the Support option
 
-- Once done you should receive the acknowledgment mail with the subject `[Request received] Case#` instantly. In case you don't receive the mail resubmit the form.
-- Post that you will receive confirmation mail within 24 hours on your request with the subject line  `Case# -Self Register - Enable Case access`
+![support_sf_1.png](support_sf_1.png)
+
+- On the panel, you can see the already open cases
+
+![support_sf_2.png](support_sf_2.png)
+
+- In the top-right corner, to open a new case, press `+ Support Case` button
+- Fill in the data to describe your issue and the Snowflake team will handle it
+
+![support_sf_3.png](support_sf_3.png)
+
+- For each update on your case you will be informed by email
 
 ### Warehouse Access
 

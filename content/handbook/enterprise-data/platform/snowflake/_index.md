@@ -16,7 +16,7 @@ Snowflake contains all of our analytical data and [Data Sources](/handbook/enter
 ## Related Content
 
 - [Access](/handbook/enterprise-data/platform/#warehouse-access)
-- [Support Portal Access](/handbook/enterprise-data/platform/#data-warehouse)
+- [Support Portal Access](/handbook/enterprise-data/platform/#snowflake-support-portal-access)
 - [Compute Resources](/handbook/enterprise-data/platform/#compute-resources)
 - [Data Masking](/handbook/enterprise-data/platform/#data-masking)
 - [Backups](/handbook/enterprise-data/platform/#backups)
