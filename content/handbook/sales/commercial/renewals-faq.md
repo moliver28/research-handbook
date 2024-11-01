@@ -19,13 +19,13 @@ Q: When is my GitLab subscription going to renew?
 
 A: Sign in to the [Customers Portal](https://customers.gitlab.com/customers/sign_in) to see the renewal or expiry date.
 
-![renewal.due](/handbook/sales/images/when_is_my_renewal_due_v17_4.png)
+![renewal.due](/static/images/when_is_my_renewal_due_v17_4.png)
 
 Q: Where can I manage my GitLab subscription and upcoming renewal?
 
 A: Once signed into the [Customers Portal](https://customers.gitlab.com/customers/sign_in), you will see various options regarding your subscription, including *Upgrade Plan*, *Add More Seats*, and dropdown list option for additional actions like *Buy GitLab Duo Pro*.
 
-![manage.renewal](/handbook/sales/images/manage_renewal_v17_4.png)
+![manage.renewal](/static/images/manage_renewal_v17_4.png)
 
 Q: Will my GitLab subscription auto-renew?
 
@@ -41,7 +41,7 @@ A: 15 days before your subscription expires, you will see a *Renew* button under
 
 You cannot manually renew your subscription more than 15 days before the subscription expires. [Please review this section of GitLab documentation for instructions on how to manually renew.](https://docs.gitlab.com/ee/subscriptions/self_managed/#renew-subscription-manually).
 
-![manage.renewal](/handbook/sales/images/renew_15days_v17_4.png)
+![manage.renewal](/static/images/renew_15days_v17_4.png)
 
 Please be aware that if you do not renew manually, you will be [auto-renewed].(https://docs.gitlab.com/ee/subscriptions/self_managed/#automatic-subscription-renewal).
 
@@ -49,7 +49,7 @@ Q: I see I was charged for a Quarterly Subscription Reconciliation. What is this
 
 A: Quarterly reconciliation occurs when you exceed your license limit. You will be charged an overage based on the maximum number of seats you used during the quarter. If you ever go over the maximum, you will get a warning on your GitLab instance.
 
-![QSR.warning](/handbook/sales/images/QSR_disclaimer_v17_5.png)
+![QSR.warning](/static/images/QSR_disclaimer_v17_5.png)
 
 More information on this can be found [here](https://docs.gitlab.com/ee/subscriptions/quarterly_reconciliation.html).
 
@@ -63,7 +63,7 @@ Q: Will having add-ons affect my renewal process?
 
 A: Subscriptions with Duo Pro, Duo Enterprise, or Enterprise Agile Planning cannot auto-renew. You will see a banner asking you to contact the sales team for assistance. If you know your Account Executive, please contact them directly.
 
-![add-on.renewal](/handbook/sales/images/add_on_renewal_v17_4.png)
+![add-on.renewal](/static/images/add_on_renewal_v17_4.png)
 
 Q: My GitLab subscription is due for renewal, and I would like to renew. How do I do this?
 
@@ -107,7 +107,7 @@ Q: How can I check to see if my customer has successfully linked their GitLab.co
 
 A: Navigate to <https://customers.gitlab.com/admin/customer/> and search by customer email. Use the *Zuora* and *Impersonate* tabs to validate that the information in these portals matches the Customers Portal. *Provider* and *Uid* fields are also populated with values.
 
-![provider.uid.fields](/handbook/sales/images/link_subscription_v17_4.png)
+![provider.uid.fields](/static/images/link_subscription_v17_4.png)
 
 Q: How can I check to see if my customer has successfully linked their GitLab subscription to the GitLab namespace?
 
