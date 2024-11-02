@@ -15,29 +15,28 @@ Rate limited requests will return a `429 - Too Many Requests` response.
 - Request assistance for a user's rate limiting settings with [this issue template](https://gitlab.com/gitlab-com/gl-infra/production-engineering/-/issues/new?issuable_template=request-rate-limiting).
 - For internal teams seeking a bypass, please refer to the [Rate Limit Bypass Policy](/handbook/engineering/infrastructure/rate-limiting/bypass-policy/).
 
-## GitLab.com Rate Limit Architecture
+## GitLab Rate Limit Architecture
+
+### GitLab.com
 
 ```mermaid
 flowchart TD
     A[Internet]
     A -->|gitlab.com| D(Cloudflare WAF)
-    A -->|cloud.gitlab.com| E
     A -->|customers.gitlab.com| F
     subgraph ide3 [Cloudflare WAF]
         D[gitlab.com zone]
-        E[cloud.gitlab.com zone]
         F[customers.gitlab.com zone]
     end
     A -->|*.gitlab.io| C
     A -->|registry.gitlab.com| N
     D --> G
-    E --> G
     F --> H
     subgraph ide2 [GitLab]
         subgraph ide1 [HAProxy]
             C[pages_http]
             N[registry_https]
-            G[http + ssh]
+            G[https + ssh]
         end
         C --> K
         H[nginx]
@@ -48,6 +47,34 @@ flowchart TD
     end
     G --> I
     G --> J
+```
+
+### Cloud Connector
+
+```mermaid
+flowchart LR
+  A[Internet]
+  subgraph cf [Cloudflare WAF]
+      E[cloud.gitlab.com zone]
+  end
+  subgraph G [GitLab]
+    subgraph cc_be [CloudRun / GKE]
+      F[Cloud Connector backends]
+    end
+
+    subgraph GKE
+      C[gitlab.com]
+    end
+
+    subgraph AWS
+      D[GitLab Dedicated]
+    end
+  end
+
+  E --> F
+  A -->|cloud.gitlab.com| E
+  C -->|cloud.gitlab.com| E
+  D -->|cloud.gitlab.com| E
 ```
 
 Rate limits exist in multiple layers for GitLab.com, each boxed area above represents a place where rate limits are implemented.
@@ -66,6 +93,9 @@ Cloudflare
 - GitLab.com:
   - [Cloudflare Dashboard](https://dash.cloudflare.com/852e9d53d0f8adbd9205389356f2303d/gitlab.com/security/waf/rate-limiting-rules)
   - [Cloudflare Rules Terraform](https://ops.gitlab.net/gitlab-com/gl-infra/config-mgmt/-/blob/main/environments/gprd/cloudflare-rate-limits-waf-and-rules.tf)
+- Cloud Connector:
+  - [Cloudflare Dashboard](https://dash.cloudflare.com/852e9d53d0f8adbd9205389356f2303d/cloud.gitlab.com/security/waf/rate-limiting-rules)
+  - [Runbook + TF links](https://gitlab.com/gitlab-com/runbooks/-/blob/master/docs/cloud_connector/README.md#rate-limiting)
 
 </td>
 </tr>
@@ -102,7 +132,7 @@ How rate limits are applied in Cloudflare:
 <table>
 <tr>
 <th>
-Page Rules
+Gitlab.com Page Rules
 </th>
 <td>
 
@@ -116,7 +146,7 @@ Page Rules
 <tr>
 
 <th>
-Rate Limiting
+Gitlab.com Rate Limiting
 </th>
 <td>
 
@@ -129,6 +159,28 @@ Rate Limiting
 
 </td>
 </tr>
+
+<th>
+Cloud Connector Rate Limiting
+</th>
+<td>
+
+- Configured by Terraform (see [runbook links](https://gitlab.com/gitlab-com/runbooks/-/blob/master/docs/cloud_connector/README.md#cloudflare)).
+- Not based on IPs but application-specific HTTP header fields.
+- Throttles both end-user clients such as IDEs as well as GitLab Rails instances (GL.com, SM and Dedicated.)
+- Primarily used to throttle consumption of non-horizontally scalable resources such as AI vendor limits.
+- Can be configured for each Cloud Connector backend individually.
+- Backends can segment requests using custom selectors and map them to buckets. Each bucket:
+  - Might represent a certain user or customer cohort.
+  - Can define a per-user and per-instance rate limit.
+  - For example, we segment AI requests into `Small`, `Medium` and `Large` customers based on the number of Duo seats
+    they purchased from us. The more seats they have, the more requests they get.
+  - It is possible and allowed to define a single catch-all bucket that matches all requests,
+    in which case each request observes the same static rate limit.
+
+</td>
+</tr>
+
 </table>
 
 **Note:** Cloudflare is _not_ application aware and does not know how to map to our users and groups.
