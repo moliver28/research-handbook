@@ -96,6 +96,8 @@ If you're looking for templates, guides, customer 1-pagers, and other editable s
 
 **External training opportunities:** GitLab also has a robust [growth and development benefit](/handbook/total-rewards/benefits/general-and-entity-benefits/#growth-and-development-benefit) to help you supplement your learning. And if you want to stretch your technical muscle and hear customer feedback, you can sign up to join our audiences in our [CS webinars](/handbook/customer-success/csm/segment/scale/webinar-calendar/).
 
+You can also go to sales enablement resources on why GitLab wins.
+
 If you want to know more about what's available to help you be successful, reach out to your enablement lead in the #field-enablement Slack channel.
 
 ## Quick links to common tools
