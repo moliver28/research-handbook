@@ -111,11 +111,10 @@ At GitLab, we define them a bit differently:
   - This means we are waiting on the end-user to reply. We should only use this
     specifically when the user will reply back to the ticket (or it will
     auto-solve). If you need to keep a ticket in a "pending" like state for
-    lengthy periods of time, use `On-hold`.
+    lengthy periods of time, [use `On-hold`](../../../../workflows/working-on-tickets.md#what-if-the-customer-is-absent-and-wants-to-keep-the-ticket-open-until-they-return).
 - On-hold
   - This means the end-user is waiting on us, but we are waiting on something
-    that is blocking us from replying. We should only be using this in
-    situations where we are waiting on something such as a different department,
+    that is blocking us from replying. Primarily, we use this when waiting on a different department,
     time to pass (namesquatting requests as an example), or some other criteria
     that fits along the same concept.
 - Solved
