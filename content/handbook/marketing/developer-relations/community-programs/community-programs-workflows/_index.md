@@ -45,7 +45,7 @@ The verification process differs by program.
 See these handbook pages for more detail:
 
 - [GitLab for Education workflows](/handbook/marketing/developer-relations/community-programs/community-programs-workflows/edu-program-workflows)
-- [GitLab for Open Source workflows](/handbook/marketing/developer-relations/community-programs/community-programs-workflows/oss-program-verification/)
+- [GitLab for Open Source workflows](/handbook/marketing/developer-relations/community-programs/community-programs-workflows/oss-program-workflows/)
 - [GitLab for Startups workflows](/handbook/marketing/developer-relations/community-programs/community-programs-workflows/startups-program-workflows)
 
 Upon successful verification, applicants receive an email with instructions for obtaining their licenses.

@@ -49,11 +49,11 @@ When the promotion period ends, startups will have the option of becoming regula
 
 Here are some common workflows associated with managing the program, including qualifying a startup:
 
-### Review application within Zendesk "Startups" view
+### Review application within GitLab Service Desk
 
 Scenario: User did not submit complete application
 
-In **Zendesk**:
+In **Service Desk***:
 
 1. Apply the "Funding Info" macro.
 
@@ -70,7 +70,7 @@ Then, in **Salesforce**:
 If funding amount is less than $5 million USD, startup is deemed **Seed Stage**.
 Follow this flow.
 
-In **Zendesk**:
+In **Service Desk**:
 
 1. Apply the `Seed stage` macro to send welcome email to customer
 2. Insert a coupon code from the coupon code sheet within the macro
@@ -87,7 +87,7 @@ Then, in **Salesforce**:
 If funding amount is less than $20 Million USD and greater than $5 million USD, startup is deemed **Early Stage**.
 Follow this flow.
 
-In **Zendesk**:
+In **Service Desk**:
 
 1. Apply the `Early Stage` macro
 2. Set ticket status to `Open`
@@ -104,4 +104,4 @@ Then, in **Salesforce**:
 
 For more clarification regarding Startups sales process, please refer to this [highspot page](https://gitlab.highspot.com/items/6410e355fb9e0fe9d2823fcc?lfrm=irel.1#3)
 
-If they do not qualify, send them the [Startups:: Rejection macro](/handbook/marketing/developer-relations/community-programs/community-program-applications/email-and-zendesk-macros/#startups-startups-rejection) and offer to connect them to sales via the [Sales handoff process](/handbook/marketing/developer-relations/community-programs/community-program-applications/#handoff-process-to-sales).
+If they do not qualify, send them the [Startups:: Rejection macro](https://gitlab.com/gitlab-com/marketing/developer-relations/startups-program/startups-program-support) and offer to connect them to sales via the [Sales Case Routing process](https://docs.google.com/spreadsheets/d/1etzGAGH4n-pzA52xka_VAymMYSE44UBySblXhAEh6rM/edit?gid=0#gid=0).
