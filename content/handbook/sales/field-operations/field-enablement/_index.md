@@ -118,7 +118,7 @@ To reach the Field Enablement team on Slack, use #field-enablement-team
 
 ## Key Programs
 
-1. Sales Enablement
+1. Sales Enablement NOTE: We are updating enablement to reflect geo-based.
     - [Enterprise Enablement](/handbook/sales/playbook/)
     - [Commercial Enablement](/handbook/sales/commercial/enablement/)
 1. Customer Success Enablement
