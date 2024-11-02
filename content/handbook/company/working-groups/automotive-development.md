@@ -56,11 +56,9 @@ Automotive software development is characterized by a complex combination of:
 | Functional Lead Compliance | @hbenson | Hillary Benson | Senior Director of Product Management, Sec, Monitor, & Data Science |
 | Functional Lead Verify | @jreporter | Jackie Porter | Director of Product Management, Verify & Package |
 | Functional Lead Alliances | @DarwinJS | Darwin Sanoy | Principal Solutions Architect, GitLab Alliances |
-| Working Group DRI             | @mbruemmer | Martin Brümmer | Customer Success Engineer |
-| Facilitator                  | @bmarnane  | Bartek Marnane | VP of Incubation Engineering at GitLab |
-| Facilitator                  | @fsieverding  | Falko Sieverding | Customer Success Manager |
-| Facilitator                  | @jesswang_gitlab  | Jess Wang | Customer Success Manager |
-| Facilitator                  | @vchacon  | Vianney Chacon Madriz | Customer Success Manager |
-| Facilitator                  | @jgaetjens  | Julia Gätjens | Solutions Architect |
-| Facilitator                  | @svij  | Sujeevan Vijayakumaran | Solutions Architect |
-| Facilitator                  | @Heddy2022  | Hedayat Paktyan | Strategic Account Leader |
+| Working Group DRI             | @jmoverley | James Moverley | Senior Solutions Architect |
+| Facilitator                  | @fsieverding  | Falko Sieverding | Solutions Architect |
+| Facilitator                  | @jesswang_gitlab  | Jess Wang | Senior Customer Success Manager |
+| Facilitator                  | @vchacon  | Vianney Chacon Madriz | Senior Customer Success Architect |
+| Facilitator                  | @jgaetjens  | Julia Gätjens | Senior Solutions Architect |
+| Facilitator                  | @svij  | Sujeevan Vijayakumaran | Senior Solutions Architect |
