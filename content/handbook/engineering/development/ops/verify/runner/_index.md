@@ -84,6 +84,11 @@ is added to each project with maintainer permission. We also try to align tools 
 - [Docker Machine (fork)](https://gitlab.com/gitlab-org/ci-cd/docker-machine)
 - [Custom Executor Autoscaler](https://gitlab.com/gitlab-org/ci-cd/custom-executor-drivers/autoscaler)
 
+### CI Steps projects
+
+- [Step Runner](https://gitlab.com/gitlab-org/step-runner)
+- [Action Runner](https://gitlab.com/gitlab-org/components/action-runner)
+
 ### Helper projects
 
 - Linters
@@ -116,6 +121,7 @@ is added to each project with maintainer permission. We also try to align tools 
   - [Chef Runner Cookbook Wrapper](https://gitlab.com/gitlab-cookbooks/cookbook-wrapper-gitlab-runner)
   - [Ansible Playbooks](https://gitlab.com/gitlab-com/gl-infra/ci-runners/deployer)
   - [Windows Runners](https://ops.gitlab.net/gitlab-com/gl-infra/ci-infrastructure-windows/)
+  - [GRIT](https://gitlab.com/gitlab-org/ci-cd/runner-tools/grit.git)
 - Operations
   - [Runbooks](https://gitlab.com/gitlab-com/runbooks/-/tree/master/docs/ci-runners)
   - [MacOS Runbooks](https://gitlab.com/gitlab-org/ci-cd/shared-runners/macos) (deprecated)
@@ -320,7 +326,7 @@ Vulnerabilities usually appear in one of three flavors (ordered in most to least
 - The vulnerability exists in `gitlab-runner` in one of its dependencies.
 - The vulnerability exists in `gitlab-runner` in code we've written.
 
-### Third-party OS packages
+##### Third-party OS packages
 
 In this case, the vulnerability:
 
@@ -355,7 +361,7 @@ Once the deviation request issue is created, add:
 Eventually, a fix in the offending package will make its way to the OS package manager, and then both the
 `gitlab-runner` and deviation request issues can be closed.
 
-### `gitlab-runner` dependencies
+##### `gitlab-runner` dependencies
 
 The simplest course of action here is to update the dependency to the latest compatible version (or at least a version
 that addresses the vulnerability). Once the MR with the dependency update is merged, the `gitlab-runner` issue can be
@@ -369,10 +375,76 @@ there.
 - If possible, consider not using the dependency or replacing it with another similar dependency.
 - Create a [deviation request issue](#third-party-os-packages).
 
-### `gitlab-runner` source
+##### `gitlab-runner` source
 
 The only course of action here is to fix the vulnerable code. If the fix is not simple and will take time to implement
 (and prevent us from meeting CVE SLAs), it might be necessary to create a [deviation request issue](#third-party-os-packages).
+
+### Working with security forks
+
+When issues are marked confidential, the MR that fixes the issue should be made in a project's security fork (see
+[security-forks](https://gitlab.com/gitlab-org/security?filter=gitlab%20runner)). In general the process is identical to
+crating and merging MRs in the canonical project repo, with a couple of notable differences.
+
+Note that MRs in the security repo _must_ be reviewed/approved by a security counterpart in addition to a runner
+code-owner.
+
+The examples below are given for the [GitLab Runner](https://gitlab.com/gitlab-org/gitlab-runner) project, but apply
+equally to all [runner-related projects with security forks](https://gitlab.com/gitlab-org/security?filter=gitlab%20runner).
+
+#### Keeping the security fork synchronized with its canonical repo
+
+Security forks are configured to automatically synchronize with the canonical repo, but this can be disabled if changes
+exist in the security fork's `main` branch that do not exists in the canonical repo's `main` branch. This usually
+happens when a security MR is merged into the security fork's `main`, but not into the canonical repo's `main` branch.
+In this event, it is necessary to manually synchronize the security fork against the canonical repo.
+
+From a checked-out canonical repo:
+
+```shell
+git fetch # ensure you have the latest changes from the canonical repo.
+git remote add security git@gitlab.com:gitlab-org/security/gitlab-runner.git # add the security repo as a remote, be sure to use the git url.
+git fetch security # fetch the security fork repo references.
+git checkout -b security-main security/main # checkout the security fork's main branch.
+git rebase --rebase-merges origin/main # rebase the canoncial main onto the security main.
+git log --color --topo-order --oneline # ensure the resulting history is sane.
+git push --force # push the resulting local security main brnach to the security remote repo.
+```
+
+Notes:
+
+1. The security repos do/should not have force-push branch protection on the `main` branch, but if the one you are
+   working with does, temporarily disable it so you can perform the last step.
+2. If the security fork `main` branch becomes too out of date with the canonical repo `main` branch (specifically with
+   changes that exist only in the security repo), merge conflicts are likely to occur when rebasing the canonical repo
+   atop the security fork. You will have to resolve these.
+
+#### Merging merged security MRs back into the canonical repo
+
+Merging MRs from the security fork back into the canonical repo is done manually so when can control when they are done.
+To merge an MR already merged in the security fork `main` branch into the canonical repo, follow these steps:
+
+From a checked-out canonical repo:
+
+```shell
+git fetch # ensure you have the latest changes from the canonical repo.
+git remote add security git@gitlab.com:gitlab-org/security/gitlab-runner.git # add the security repo as a remote, be sure to use the git url.
+git fetch security # fetch the security fork repo references.
+git checkout -b name-of-working-branch origin/main # create a new branch into which you'll cherry-pick commits from the security repo.
+git cherry-pick sha-of-commit-in-security-repo # cherry-pick all commits from the relevant MR from the security repo into your branch in the canonical repo.
+```
+
+Repeat the final step for all commits in the relevant MR, in topographical order, _excluding the merge commit_. Do not
+include the MR's merge commit in the cherry-picked commits.
+
+Finally, create an MR from this branch as usual.
+
+Notes:
+
+1. If the security fork becomes too out of date with the canonical repo, merge conflicts are likely when
+cherry-picking the merge commit.
+2. You should manually synchronize the security repo as described above immediate after the MR is merged into the
+   canonical main.
 
 ## Issue Health Status Definitions
 
