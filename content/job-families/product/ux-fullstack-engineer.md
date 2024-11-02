@@ -69,6 +69,25 @@ The Senior Fullstack Engineer is a [grade 7](/handbook/total-rewards/compensatio
 - Improves content-authoring experience and tooling.
 - Performs and/or coordinates/delegates resolution of any other docs site issues related to infrastructure, code, architecture, projects, security, CI/CD, builds, deployments, upgrades, performance, scalability, metrics, monitoring, etc.
 
+### Staff Fullstack Engineer, Technical Writing
+The Staff Fullstack Engineer reports to the [Director, Technical Writing](/job-families/product/technical-writing-manager/#director-technical-writing).
+
+#### Staff Fullstack Engineer, Technical Writing Job Grade
+
+The Senior Fullstack Engineer is a [grade 8](/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades).
+
+#### Staff Fullstack Engineer, Technical Writing Responsibilities 
+
+- Mentors others on how to maintain and continue to raise the level of quality for the documentation and docs site.
+- Helps others across the organization understand the TW team domain and documentation site technology. Represents Technical Writing as a docs site domain expert when interfacing with other teams.
+- Exhibits a deep understanding of the documentation domain, how customers use the site, and how the site fits into the larger business. 
+- Has a broad skill-set with in-depth expertise in their team’s technical domain.
+- Analyzes impact of potential solutions and makes responsible decisions, evaluating trade offs impacting their team’s domain.
+- Leads or participates in processes to address complex technical challenges.
+- Reaches beyond immediate needs, independently considering the longer-term, and is always looking beyond for ways to have a broad impact.
+- Advocates for tech debt, customer issues, high severity bugs, and security.
+
+
 #### Performance Indicators
 
 The Senior UX Fullstack Engineer is included in the [Technical Writing MR rate](/handbook/product/ux/performance-indicators/#technical-writer-mr-rate).
