@@ -23,18 +23,20 @@ This poses a challenge how to manage GitLab Runners.
 There are 3 different types of runners:
 
 - Instance-wide: Runners that are registered globally with specific tags (selection criteria)
-- Group runners: Runners that execute jobs from a given top-level Group or Projects in that Group
+- Group runners: Runners that execute jobs from a given Group or Projects in that Group
 - Project runners: Runners that execute jobs from one Projects or many Projects: some runners might
   have Projects assigned from Projects in different top-level Groups.
 
-This, alongside with the existing data structure where `ci_runners` is a table describing all types of runners, poses a challenge as to how the `ci_runners` should be managed in a Cells environment.
+This, alongside with the existing data structure where `ci_runners` is a table
+describing all types of runners, poses a challenge as to how the `ci_runners`
+should be managed in a Cells environment.
 
 ## 2. Data flow
 
 GitLab runners use a set of globally scoped endpoints to:
 
 - Register a new runner via registration token `https://gitlab.com/api/v4/runners`
-  ([subject for removal](../../runner_tokens/)) (`registration token`)
+  ([subject for removal in 18.0](../../runner_tokens/)) (`registration token`)
 - Create a new runner in the context of a user `https://gitlab.com/api/v4/user/runners` (`runner token`)
 - Request jobs via an authenticated `https://gitlab.com/api/v4/jobs/request` endpoint (`runner token`)
 - Upload job status via `https://gitlab.com/api/v4/jobs/:job_id` (`build token`)
@@ -43,13 +45,15 @@ GitLab runners use a set of globally scoped endpoints to:
 
 Currently three types of authentication tokens are used:
 
-- Runner registration token ([subject for removal](../../runner_tokens/))
+- Runner registration token ([subject for removal in 18.0](../../runner_tokens/))
 - Runner token representing a registered runner in a system with specific configuration (`tags`, `locked`, etc.)
-- Build token representing an ephemeral token giving limited access to updating a specific job, uploading artifacts, downloading dependent artifacts, downloading and uploading container registry images
+- Build token representing an ephemeral token giving limited access to updating a specific job, uploading artifacts,
+  downloading dependent artifacts, downloading and uploading container registry images
 
 Each of those endpoints receive an authentication token via header (`JOB-TOKEN` for `/trace`, `token` all other endpoints).
 
-Since the CI pipeline would be created in the context of a specific Cell, it would be required that pick of a build would have to be processed by that particular Cell.
+Since the CI pipeline would be created in the context of a specific Cell, it would
+be required that pick of a build would have to be processed by that particular Cell.
 This requires that build picking depending on a solution would have to be either:
 
 - Routed to the correct Cell for the first time
@@ -64,9 +68,9 @@ Even though the paths for CI runners are not routable, they can be made routable
 - The `https://gitlab.com/api/v4/jobs/request` uses a long polling mechanism with
   a ticketing mechanism (based on `X-GitLab-Last-Update` header). When the runner first
   starts, it sends a request to GitLab to which GitLab responds with either a build to pick
-  by runner, or a `204 No job` with a `last_update` token. This value is completely controlled by GitLab. This allows GitLab
-  to use JWT or any other means to encode a `cell` identifier that could be easily
-  decodable by Router.
+  by runner, or a `204 No job` with a `last_update` token. This value is completely
+  controlled by GitLab. This allows GitLab to use JWT or any other means to encode
+  a `cell` identifier that could be easily decodable by Router.
 - The majority of communication (in terms of volume) is using `build token`, making it
   the easiest target to change since GitLab is the sole owner of the token that the runner later
   uses for a specific job. There were prior discussions about not storing the `build token`
@@ -89,60 +93,151 @@ The runner now sends the token in the HTTP headers in all requests with the
 We can pick a design where all runners are always registered and local to a given Cell:
 
 - Each Cell has its own set of instance-wide runners that are updated at its own pace
-- The Project runners can only be linked to Projects from the same Organization, creating strong isolation.
+- The Project runners can only be linked to Projects from the same Organization,
+  creating strong isolation.
+- Some Cells can have no instance runners at all, making sure that any job
+  executed within an Organization will not be by mistake routed to a
+  public runner.
 - In this model the `ci_runners` table is local to the Cell.
-- In this model we would require the above endpoints to be scoped to a Cell in some way, or be made routable. It might be via prefixing them, adding additional Cell parameters, or providing much more robust ways to decode runner tokens and match it to a Cell.
-- If a routable token is used, we could move away from cryptographic random stored in database to rather prefer to use JWT tokens.
+- In this model we would require the above endpoints to be scoped to a Cell in
+  some way, or be made routable. It might be via prefixing them, adding additional
+  Cell parameters, or providing much more robust ways to decode runner tokens
+  and match it to a Cell.
+- If a routable token is used, we could move away from cryptographic random
+  stored in database to rather prefer to use JWT tokens.
 - The Admin Area showing registered runners would have to be scoped to a Cell.
 
 This model might be desired because it provides strong isolation guarantees.
-This model does significantly increase maintenance overhead because each Cell is managed separately.
-This model may require adjustments to the runner tags feature so that Projects have a consistent runner experience across Cells.
+This model does significantly increase maintenance overhead because each Cell is
+managed separately.
+This model may require adjustments to the runner tags feature so that Projects
+have a consistent runner experience across Cells.
 
 ### 3.4. Instance-wide are cluster-wide
 
 Contrary to the proposal where all runners are Cell-local, we can consider that runners
 are global, or just instance-wide runners are global.
 
-However, this requires significant overhaul of the system and we would have to change the following aspects:
+However, this requires significant overhaul of the system and we would have to
+change the following aspects:
 
 - The `ci_runners` table would likely have to be decomposed into `ci_instance_runners`, ...
 - All interfaces would have to be adopted to use the correct table.
-- Build queuing would have to be reworked to be two-phased where each Cell would know of all pending and running builds, but the actual claim of a build would happen against a Cell containing data.
-- It is likely that `ci_pending_builds` and `ci_running_builds` would have to be made `cluster-wide` tables, increasing the likelihood of creating hotspots in a system related to CI queueing.
+- Build queuing would have to be reworked to be two-phased where each Cell would
+  know of all pending and running builds, but the actual claim of a build would
+  happen against a Cell containing data.
+- It is likely that `ci_pending_builds` and `ci_running_builds` would have to be
+  made `cluster-wide` tables, increasing the likelihood of creating hotspots in
+  a system related to CI queueing.
 
 This model is complex to implement from an engineering perspective.
 Some data are shared between Cells.
-It creates hotspots/scalability issues in a system that might impact the experience of Organizations on other Cells, for instance during abuse.
+It creates hotspots/scalability issues in a system that might impact the
+experience of Organizations on other Cells, for instance during abuse.
 
 ### 3.5. GitLab CI Daemon
 
-Another potential solution to explore is to have a dedicated service responsible for builds queueing, owning its database and working in a model of either sharded or Cell-ed service.
+Another potential solution to explore is to have a dedicated service responsible
+for builds queueing, owning its database and working in a model of either
+sharded or Cell-ed service.
+
 There were prior discussions about [CI/CD Daemon](https://gitlab.com/gitlab-org/gitlab/-/issues/19435).
 
 If the service is sharded:
 
-- Depending on the model, if runners are cluster-wide or Cell-local, this service would have to fetch data from all Cells.
-- We could adapt a model of sharing a database containing `ci_pending_builds/ci_running_builds` with the service.
-- We could consider a push model where each Cell pushes to CI/CD Daemon builds that should be picked by runner.
-- The sharded service would be aware which Cell is responsible for processing the given build and could route processing requests to the designated Cell.
+- Depending on the model, if runners are cluster-wide or Cell-local, this
+  service would have to fetch data from all Cells.
+- We could adapt a model of sharing a database containing
+  `ci_pending_builds/ci_running_builds` with the service.
+- We could consider a push model where each Cell pushes to CI/CD Daemon
+  builds that should be picked by runner.
+- The sharded service would be aware which Cell is responsible for processing
+  the given build and could route processing requests to the designated Cell.
 
 If the service is Cell-ed:
 
 - All expectations of routable endpoints are still valid.
 
 In general usage of CI Daemon does not help significantly with the stated problem.
-However, this offers a few upsides related to more efficient processing and decoupling model: push model and it opens a way to offer stateful communication with GitLab runners (ex. gRPC or Websockets).
+However, this offers a few upsides related to more efficient processing and
+decoupling model: push model and it opens a way to offer stateful
+communication with GitLab runners (ex. gRPC or Websockets).
+
+It may be worth review this idea as an improvement in Cells 1.5 or Cells 2.0.
 
 ## 4. Evaluation
 
 Considering all options it appears that the most promising solution is to:
 
 - Use [Instance-wide are Cell-local](#33-instance-wide-are-cell-local)
-- Refine endpoints to have routable identities (either via specific paths, or better tokens)
+- Refine endpoints to have routable identities (either via specific paths,
+  or better tokens)
 
-Another potential upside is to get rid of `ci_builds.token` and rather use a `JWT token` that can much better and easier encode a wider set of scopes allowed by CI runner.
+Another potential upside is to get rid of `ci_builds.token` and rather use a
+`JWT token` that can much better and easier encode a wider set of scopes
+allowed by CI runner.
 
 ## 4.1. Pros
 
 ## 4.2. Cons
+
+## 5. Plan
+
+Having in mind all that was written above, the plan for Cells 1.0
+target is:
+
+1. Use the `Instance-wide are Cell-local` approach.
+
+1. Update the runner token mechanism.
+
+    When existing runner token will be detected, Cells routing service
+    will pass that request to the Cell "0" (the one containing all existing
+    groups and projects). That provides backward compatibility with
+    all already registered runners.
+
+    Cell-registered runners will move to use a JWT as a runner token.
+
+    For the Cells 1.0 target we will make it very simple. We will use an
+    unsigned JWT. Within the JWT payload we will send the existing
+    runner token and the Cell identifier.
+
+    This approach will allow us to move forward slowly using the existing
+    authentication mechanisms, but will be open to future improvements
+    like the one described in the [GitLab Runner Identity design doc](https://gitlab.com/gitlab-org/architecture/gitlab-runner-identity/design-doc).
+
+    On the runner side the token will be stored as a simple string
+    in the existing `config.toml` entry. This will make it backward
+    compatible with the older version of GitLab Runner.
+
+    To easily recognize the new token, we will prefix the JWT string
+    with `glrjwt-` (GitLab Runner JWT).
+
+1. Switch to usage of the JWT token for job token.
+
+    That follow the same idea as for the runner token. Ee will
+    use an unsigned JWT, where the payload will contain the existing
+    job token and the identification of the Cell.
+
+    That makes it possible to improve job request JWT in the future,
+    for example by having a random, dedicated key pair created by the
+    Runner and sent with job request.
+
+    When the old token is detected, Cells routing service will pass that
+    request to the Cell "0". That provides backward compatibility with
+    all already registered runners.
+
+    New tokens would be passed to the Cell pointed by the identifier.
+
+    To easily recognize the new token, we will prefix the JWT string
+    with `gljjwt-` (GitLab Job JWT).
+
+1. Update the [Cells HTTP Router](https://gitlab.com/gitlab-org/cells/http-router)
+   to teach it how to route runner requests using the new token for
+   runner and job made requests.
+
+1. Register a `saas-linux-small-amd64` runner in the
+   first cell introduced for Cells 1.0 target.
+
+    We will use the existing deployment mechanism, basically making it a new
+    shard dedicated for that Cell, but using the Small AMD64 Linux runners
+    configuration.
