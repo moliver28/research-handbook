@@ -11,9 +11,9 @@ Renewals Managers --> visit the internal handbook [page](https://internal.gitlab
 
 ---
 
-## FY24 Renewals Opportunity Management
+## FY25 Renewals Opportunity Management
 
-In FY24, the Global Renewals team will manage more customer-facing transactions than any other team at GitLab. As such, the Renewals team manages Renewal Opportunities with the utmost level of rigor and data quality to ensure a high degree of organization, effective collaboration with account teams, and successful Renewal outcomes.
+In FY25, the Global Renewals team will manage more customer-facing transactions than any other team at GitLab. As such, the Renewals team manages Renewal Opportunities with the utmost level of rigor and data quality to ensure a high degree of organization, effective collaboration with account teams, and successful Renewal outcomes.
 
 The Renewals team primarily uses these key fields on Renewal Opportunities:
 
@@ -29,8 +29,8 @@ The Renewals team primarily uses these key fields on Renewal Opportunities:
 ## Deal Management
 
 - `Stage` [link](/handbook/sales/field-operations/gtm-resources/#opportunity-stages)- indicates where in the Renewal/Sales cycle the deal is
-- `Next Steps` - field to record critical information and actions that have occurred during the deal lifecycle and what and when the next step is to progress the deal forward
-- `Next Steps History` - the record of previous Next Steps
+- `Renewal Manager Next Steps` - field to record critical information and actions that have occurred during the deal lifecycle and what and when the next step is to progress the deal forward
+- `Renewal Manager Notes` - field to capture running notes specific to the Renewals Manager 
 
 ## Forecasting
 
@@ -55,15 +55,15 @@ The Renewals team primarily uses these key fields on Renewal Opportunities:
 ## Analytics
 
 - `Closed Won Reason` - the reason the deal was Closed Won
-- `Closed Lost Reason` - the reason the deal was Closed Lost
-- `Downgrade Reason` - the reason why the Customer renewed but reduced ARR
+- `Risk/Loss Reason Category` - the reason the deal was Closed Lost or the cause of contraction on an opportunity
+- `Risk/Loss Reason Sub Category` - additional details on why there was contraction or the opportunity was lost 
 - `Closed Won Details` - free-form field for additional information and insight as to why we won the deal
 - `Closed Lost Details` - free-form field for additional information and insight as to why we lost the deal
 - `Downgrade Details` - free-form field for additional information and insight as to why the customer reduced.
 
 ## Renewals Forecast Methodology
 
-In FY24 The Global Renewals team is responsible for providing the business with a renewal rate and churn forecast on a regular basis for the Enterprise-Growth (ENTG) Segment.
+In FY25 The Global Renewals team is responsible for providing the business with a renewal rate and churn forecast on a regular basis for the Enterprise-Growth (ENTG) and Commerical (COMM) Segment.
 
 Providing an accurate, data driven forecast is essential for GitLab's continued growth as it enables the business to:
 
@@ -73,7 +73,7 @@ Providing an accurate, data driven forecast is essential for GitLab's continued 
 
 ## Approach
 
-In partnership with AEs, the Renewals team will generate a "bottom-up" renewal rate and churn forecast whereby every ENTG Renewal Opportunity will contain a forecasted revenue range to predict the outcome or potential outcomes of the Renewal. With every Renewal Opportunity forecasting a "worst case" and a "best case" scenario Renewals Managers will be able to provide a forecast range for their worst case renewal rate and their best case renewal rate for a given time period, territory etc. As risk is identified, categorized, and forecasted, Renewals Managers will alert relevant parties (CSM, AE) using appropriate channels.
+In partnership with AEs, the Renewals team will generate a "bottom-up" renewal rate and churn forecast whereby every ENTG and COMM Renewal Opportunity will contain a forecasted revenue range to predict the outcome or potential outcomes of the Renewal. With every Renewal Opportunity forecasting a "worst case" and a "best case" scenario Renewals Managers will be able to provide a forecast range for their worst case renewal rate and their best case renewal rate for a given time period, territory etc. As risk is identified, categorized, and forecasted, Renewals Managers will alert relevant parties (CSM, AE) using appropriate channels.
 
 ## Key Renewal Forecasting Fields
 
@@ -146,7 +146,7 @@ These tactics/motions may not always be approved or appropriate for each risk sc
 1. **Allocate the current risk** to the opportunity (pre-quote using the `Amount` field, post-quote using the quote)
 2. **Categorize the risk** using the `Risk Renewal Category` and `Renewal Forecast Health` field (always red if the opp is at risk)
 3. **Describe the impact of a successful intervention** in the `Renewal Swing ARR` field
-4. **Articulate the intervention being actioned/requested** in the `Manager Notes` field using the following syntax:
+4. **Articulate the intervention being actioned/requested** in the `Renewal Manager Notes` field using the following syntax:
 
    - *Date*: The date of your update
 
@@ -158,7 +158,7 @@ These tactics/motions may not always be approved or appropriate for each risk sc
 
    - *LT Intervention Needed*: What intervention tactic is needed, mark N/A if one is "in process" and outlined in the above note.
 
-5. **Update the Renewal Manager note section with one or more of the following hashtags** to demonstrate the appropriate status
+5. **Update the Renewal Manager Notes section with one or more of the following hashtags** to demonstrate the appropriate status
    - A. [#UserMigration] - demonstrates C&C in a scenario where actual revenue is not leaving the company but rather being shifted to another opportunity (RM needs to document the opportunity where the revenue is captured by including the link in manager notes in accompaniment of the hashtag)
    - B. [#Risk] - leverage when the renewal opportunity should be on a "watch-list" but the risk is not vetted enough to be reflected in the forecasting fields. Also can be used to describe contraction risk when we cannot match the risk with the quote.
    - C. [#DeferredChurn] - leverage on renewal opportunities where a negative impact to renewal rate and/or arr basis occurred due to activity outside of standard practices. Example 1, we waive a true-up {at renewal prep stage} and add on the users, increasing the arr basis spend knowing the customer will likely decrease seat count at the next renewal. Example 2, we have two opportunities that are related due to a migration project and close win the opportunity with the nARR attached to it at the end of the quarter and wait to close loss the opportunity with negative arr in the new quarter.
