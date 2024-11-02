@@ -15,62 +15,61 @@ This page aims to answer the most commonly asked questions regarding a customers
 
 ### Customer Focused Questions
 
-Q: When is my GitLab subscription due for renewal?
+Q: When is my GitLab subscription going to renew?
 
-A: Login to customers.gitlab.com to see the renewal/ expiry date.
+A: Sign in to the [Customers Portal](https://customers.gitlab.com/customers/sign_in) to see the renewal or expiry date.
 
-![renewal.due](/handbook/sales/images/when.is.my.renewal.due.png)
+![renewal.due](/static/images/when_is_my_renewal_due_v17_4.png)
 
 Q: Where can I manage my GitLab subscription and upcoming renewal?
 
-A: Once logged into to customer.gitlab.com, you will see various options regarding your upcoming renewal, including *Upgrade Plan* & *Add More Seats*.
+A: Once signed into the [Customers Portal](https://customers.gitlab.com/customers/sign_in), you will see various options regarding your subscription, including *Upgrade Plan*, *Add More Seats*, and dropdown list option for additional actions like *Buy GitLab Duo Pro*.
 
-![manage.renewal](/handbook/sales/images/where.can.i.manage.png)
+![manage.renewal](/static/images/manage_renewal_v17_4.png)
 
-Q: Will my GitLab subscription auto renew?
+Q: Will my GitLab subscription auto-renew?
 
-A: Once logged into to customer.gitlab.com, you will see one of the following under your subscription name;
+A: [Please review this section of the GitLab documentation that explains where to check on your subscription card](https://docs.gitlab.com/ee/subscriptions/self_managed/#enable-or-disable-automatic-subscription-renewal).
 
-```text
-    Renews on XX/XX/XXXX
-    Expires on XX/XX/XXX
-```
+Q: Will I be notified about my upcoming renewal?
 
-*Renews* indicates Auto Renew is On, *Expire*s indicates Auto Renew is Off.  Should you wish to turn Auto Renew back on, you can select the *Resume Subscription* option.
-
-![manage.renewal](/handbook/sales/images/am.i.on.auto.renew.png)
+A: Yes! 30 days before a subscription expires, a banner with the subscription expiry date displays for administrators in the GitLab user interface. If your subscription is on auto-renew, you will also receive an [email notification](https://docs.gitlab.com/ee/subscriptions/self_managed/#email-notifications).
 
 Q: When my GitLab subscription is due for renewal, am I able to add or remove licenses?
 
-A: Yes!  Before you renewal is auto renewed, you can renew manually by selecting the *Renew* option, and from there you can adust the user quantity.
+A: 15 days before your subscription expires, you will see a *Renew* button under your existing subscription in the [Customers Portal](https://customers.gitlab.com/customers/sign_in). This will allow you to adjust your user quantity.
 
-Be aware that if you don't renew manually, you will be auto renewed at the current billable user quantity.
+You cannot manually renew your subscription more than 15 days before the subscription expires. [Please review this section of GitLab documentation for instructions on how to manually renew.](https://docs.gitlab.com/ee/subscriptions/self_managed/#renew-subscription-manually).
 
-More information on this can be found [here](https://docs.gitlab.com/ee/subscriptions/gitlab_com/#automatic-subscription-renewal).
+![manage.renewal](/static/images/renew_15days_v17_4.png)
+
+Please be aware that if you do not renew manually, you will be [auto-renewed](https://docs.gitlab.com/ee/subscriptions/self_managed/#automatic-subscription-renewal).
 
 Q: I see I was charged for a Quarterly Subscription Reconciliation. What is this for?
 
-A: Quarterly reconciliation occurs when you exceed your license limit. You will be charged an overage based on the maximum number of seats you used during the quarter.
+A: Quarterly reconciliation occurs when you exceed your license limit. You will be charged an overage based on the maximum number of seats you used during the quarter. If you ever go over the maximum, you will get a warning on your GitLab instance.
+
+![QSR.warning](/static/images/QSR_disclaimer_v17_5.png)
 
 More information on this can be found [here](https://docs.gitlab.com/ee/subscriptions/quarterly_reconciliation.html).
 
 If you want to contest these overages, you can open an [Support Ticket](https://support.gitlab.com/hc/en-us/requests/new?ticket_form_id=360000071293) and select the problem type *Quarterly Subscriptions Reconciliation (QSR) Related Problems*.
 
-Q: In the GitLab Customers Portal, I see the option to cancel my subscription. What happens if I click cancel?
+Q: In the GitLab Customers Portal, I see the option to cancel my subscription from the dropdown list. What happens if I click cancel?
 
-A: In customers.gitlab.com, if *Cancel subscription* is highlighted then this means auto-renew is turned on. Clicking *Cancel* turns off auto-renew. You will still have access to your paid features until the subscription expiration date.
+A: In the [Customers Portal](https://customers.gitlab.com/customers/sign_in), if the *Cancel subscription* option is available then this means auto-renew is turned on. Clicking *Cancel subscription* turns off auto-renew. You will still have access to your paid features until the subscription expiration date.
 
-![renewal.status](/handbook/sales/images/renewal.status.png)
+Q: Will having add-ons affect my renewal process?
 
-Q: In the GitLab Customers Portal, I see the option to resume my subscription. What happens if I click resume?
+A: Subscriptions with Duo Pro, Duo Enterprise, or Enterprise Agile Planning cannot auto-renew. You will see a banner asking you to contact the sales team for assistance. If you know your Account Executive, please contact them directly.
 
-A: In customers.gitlab.com,  if *Resume subscription* is highlighted then this means auto-renew is not enabled. Clicking *Resume* turns on auto-renew. When your subscription reaches its expiration date, it will be automatically renewed for another year and your credit card on file will be charged accordingly.
+![add-on.renewal](/static/images/add_on_renewal_v17_4.png)
 
 Q: My GitLab subscription is due for renewal, and I would like to renew. How do I do this?
 
 A: Please see the below content on how to renew, based on your hosting model.
 
-SaaS Subscription - [How to Renew](https://docs.gitlab.com/ee/subscriptions/gitlab_com/#renew-your-gitlab-saas-subscription)
+SaaS Subscription - [How to Renew](https://docs.gitlab.com/ee/subscriptions/gitlab_com/#renew-gitlabcom-subscription)
 
 Self Managed Subscription - [How to Renew](https://docs.gitlab.com/ee/subscriptions/self_managed/#renew-your-subscription)
 
@@ -78,9 +77,9 @@ Q: During my GitLab subscription term, am I able to remove unused licenses and r
 
 A: No, this is not possible at this time.
 
-Q: I purchased a GitLab subscription through a sales person. How do I activate my purchase and apply my paid licenses to my namespace?
+Q: I purchased a GitLab.com subscription through a sales person. How do I activate my purchase and apply my paid subscription to my group?
 
-A: See this short [video](https://www.youtube.com/watch?v=qAq8pyFP-a0) to learn how to link your GitLab subscription to your namespace. Before taking the steps described in the video, be sure that your gitlab.com user is an owner of the namespace.
+A: See [this short video](https://www.youtube.com/watch?v=qAq8pyFP-a0) to learn how to link your GitLab.com subscription to your group. Before taking the steps described in the video, be sure that you have the Owner role for the group.
 
 Q: If I add an Admin or Finance user to my group, will this take up a license even though they won't be using GitLab?
 
@@ -88,13 +87,13 @@ A: Yes, these users will count as a billable user, and will be charged for.
 
 Q: I would like to give another user access to my subscription account in the GitLab Customers Portal. How do I do this?
 
-A: It is possible you may be able to transfer ownership without GitLabs assistance. See this [workflow](/handbook/support/license-and-renewals/workflows/customersdot/associating_purchases/#self-service-option) for details. If the self-service options are unavailable to you, then please open a [Support Ticket](https://support.gitlab.com/hc/en-us/requests/new?ticket_form_id=360000071293). You will be required to provide ownership verification, after which Support will transfer the ownership.
+A: It is possible you may be able to transfer ownership without GitLabs assistance. See this [workflow](https://docs.gitlab.com/ee/subscriptions/gitlab_com/#add-or-change-subscription-contacts) for details. If the self-service options are unavailable to you, then please open a [Support Ticket](https://support.gitlab.com/hc/en-us/requests/new?ticket_form_id=360000071293). You will be required to provide ownership verification, after which Support will transfer the ownership.
 
 Q: I am part way through my GitLab subscription term and I would like to buy extra licenses for some recent hires. Am I able to do this?
 
 A:  Yes!  Please see the below content on how to add users, based on your hosting model.
 
-SaaS Subscription - [How to Add User](https://docs.gitlab.com/ee/subscriptions/gitlab_com/#add-seats-to-your-subscription)
+SaaS Subscription - [How to Add User](https://docs.gitlab.com/ee/subscriptions/gitlab_com/#add-seats-to-subscription)
 
 Self Managed Subscription - [How to Add User](https://docs.gitlab.com/ee/subscriptions/self_managed/#add-seats-to-a-subscription)
 
@@ -102,11 +101,13 @@ Self Managed Subscription - [How to Add User](https://docs.gitlab.com/ee/subscri
 
 Q: How can I check to see when my customers subscription is due for renewal?
 
-A: You can find when a Customer is up for renewal by checking the *Next Renewal Date* field on the Account. If an Account has multiple Subscriptions you can navigate to the relevant *Renewal Opportunit*y and check the *Subscription Renewal Date.*
+A: You can find when a Customer is up for renewal by checking the *Next Renewal Date* field on the Account. If an Account has multiple Subscriptions you can navigate to the relevant *Renewal Opportunity* and check the *Subscription Renewal Date.*
 
-Q: How can I check to see if my customer has successfully linked their GitLab.com user account to their CDot user account?
+Q: How can I check to see if my customer has successfully linked their GitLab.com user account to their Customers Portal user account?
 
-A: First, navigate to <https://customers.gitlab.com/admin/customer/>.  From this page, you can use the *Zuora* and *Impersonate* tabs to validate that the information in these portals matches CustomerDot
+A: Navigate to <https://customers.gitlab.com/admin/customer/> and search by customer email. Use the *Zuora* and *Impersonate* tabs to validate that the information in these portals matches the Customers Portal. *Provider* and *Uid* fields are also populated with values.
+
+![provider.uid.fields](/static/images/link_subscription_v17_4.png)
 
 Q: How can I check to see if my customer has successfully linked their GitLab subscription to the GitLab namespace?
 
@@ -158,7 +159,7 @@ A: If a customer is not on auto-renewal (Turn on Auto Renew = No) or if we know 
 
 Q: When should I direct a customer to renew online, and how can I help them do that?
 
-A: Advise them to log into the [Customers Portal](https://customers.gitlab.com/?_gl=1*2rhaas*_ga*MjAzMjU3NDY5NS4xNjY5NjU0NzM4*_ga_ENFH3X7M5Y*MTY3OTY3ODY4MS4xOTcuMS4xNjc5Njc4Nzk5LjAuMC4w) using their credentials. Once they have navigated to the *Manage Purchases* view, they should see an option to *Renew*. Once they have clicked on *Renew* and reviewed their order, they can proceed to checkout and select *Purchase*.
+A: Advise them to log into the [Customers Portal](https://customers.gitlab.com/customers/sign_in) using their credentials. Once they have navigated to the *Manage Purchases* view, they should see an option to *Renew*. Once they have clicked on *Renew* and reviewed their order, they can proceed to checkout and select *Purchase*.
 
 Q: How do I know if my customer has renewed via the online web store?
 
@@ -166,7 +167,7 @@ A: Once a customer follows the process outlined above, the renewal opportunity o
 
 Q: If my customer advised they want to purchase through the channel, what action should I take?
 
-A: You can renew a Direct customer via the Channel within the existing Renewal Opportunity and following the Quoting process of [Channel/Alliance quotes](/handbook/sales/field-operations/channel-operations/#quoting-partner-deals).
+A: You can renew a Direct customer via the Channel within the existing Renewal Opportunity and following the Quoting process of [Channel/Alliance quotes](/handbook/sales/field-operations/channel-operations/sales-faq/#quoting).
 
 Q: If my customer wants to move from Self-Managed to a SaaS instance or vice-versa, what steps do I need to take?
 
