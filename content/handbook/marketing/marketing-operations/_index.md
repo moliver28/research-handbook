@@ -426,7 +426,7 @@ Below are tools in the Marketing Technology stack, organized by tier.
 - [SEMRush](/handbook/marketing/inbound-marketing/search-marketing/seo-strategy/) (Search Marketing)
 - [SheerID](/handbook/business-technology/tech-stack/#sheerid) (Community Programs)
 - [Sprout Social + Bambu](/handbook/marketing/integrated-marketing/digital-strategy/social-marketing/team-member-social-advocacy/#team-member-social-media-advocacy-and-enablement)
-- [Vimeo](/handbook/marketing/marketing-operations/vimeo/) (Brand)
+- [Vimeo](/handbook/marketing/brand/vimeo/) (Brand)
 - [Zendesk Community](/handbook/marketing/developer-relations/workflows-tools/#tool-stack-overview)
 - [Typeform](/handbook/marketing/marketing-operations/typeform/)
 
