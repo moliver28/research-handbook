@@ -7,16 +7,37 @@ description: "The verify development group handbook page."
 
 We enable global software organizations and teams to make great decisions with [smart feedback loops](https://about.gitlab.com/direction/ops/#smart-feedback-loop) by delivering [speedy, reliable pipelines](https://about.gitlab.com/direction/ops/#speedy-reliable-pipelines) in a [comprehensive CI platform](https://about.gitlab.com/direction/ops/#verify) that embodies [Operations for All](https://about.gitlab.com/direction/ops/#operations-for-all).
 
-## Technical Roadmap for the Pipeline teams
+## Technical Roadmap
 
-### FY25
+### FY25 to FY26
 
-For this year's [technical roadmap](https://gitlab.com/gitlab-org/verify-stage/-/issues/515), we continue to focus on keeping GitLab CI reliable and performant. We're also looking at developing scalable solutions that would benefit both our .com and self-managed customers alike. The [product roadmap](https://gitlab.com/gitlab-com/Product/-/issues/12911) is also being planned by our Product Managers, with expected deliverables for this upcoming year.
+There are 3 Core Themes that continue to be a focus for GitLab CI:
 
-1. [Accelerating efforts](https://gitlab.com/gitlab-org/verify-stage/-/issues/508) to complete [CI Data Partitioning](https://gitlab.com/gitlab-org/gitlab/-/blob/master/doc/architecture/blueprints/ci_data_decay/pipeline_partitioning.md) - this does not only impacts CI, but addresses a critical availability need impacting all of gitlab.com.  This is a cross-stage effort with backend engineers across the pipeline teams who are able to parallelize the ongoing effort.
-1. Continued review of our [CI Data Retention policies](https://gitlab.com/gitlab-org/verify-stage/-/issues/440) - with the growth we are seeing with our CI database tables, we will be working with the Infrastructure teams to advise on managing CI data once partitioned. Upon further analysis and review, we will also be collaborating with Product to implement features that allows our self-managed users to configure CI data retention policies.
-1. [Pipeline speed improvements](https://gitlab.com/groups/gitlab-org/-/epics/7290) - benchmarking and instrumentation will be our focus as we investigate ways to [implement distributed tracing on our CI workers](https://gitlab.com/groups/gitlab-org/-/epics/11040#note_1568112854) or add more observability to better understand why pipeline creation/processing is slow, prior to determining the work involved to drive improvements. There is also a newly established [working group for CI/CD Build Speed](/handbook/company/working-groups/ci-build-speed/) to support this initiative.
-1. [CI Events](https://docs.gitlab.com/ee/architecture/blueprints/gitlab_ci_events/) - while listed on the Product roadmap, we'll continue to iterate on the blueprint within Engineering to better understand the scope and requirements of this initiative.
+1. Scalability
+1. Reliability & Availability
+1. Performance Improvements
+
+We aim to drive enhancements that benefit GitLab.com, Self-Managed and Dedicated customers.
+
+1. With [accelerated efforts](https://gitlab.com/gitlab-org/verify-stage/-/issues/508), we aim to complete [CI Data Partitioning](https://gitlab.com/gitlab-org/gitlab/-/blob/master/doc/architecture/blueprints/ci_data_decay/pipeline_partitioning.md) for our top 6 tables in the CI Database in FY25. Not only does this impact CI, this addresses a critical availability need impacting all of gitlab.com.  This is a cross-stage effort with backend engineers across Verify in order to parallelize the ongoing effort. (ETA: Q3)
+1. [CI Data Retention](https://gitlab.com/gitlab-org/verify-stage/-/issues/440): with the continued growth in our CI database tables, Verify and Infrastructure teams will work on removing data upon analysis of disk usage. This includes removal of both table records and indexes.  Engineering will also collaborate with Product to implement features that allow Self-Managed and Dedicated customers to configure their own CI data retention policies. (ETA: Analysis in Q3, Implementation in Q4 until FY26-Q1/Q2)
+1. CI Data Management (scope TBD): Determine the data management tools that provide the greatest flexibility to our customers to manage their own CI data. (For example, removal of old CI builds or artifacts that consume their disk usage). We will consult with Product and UX to understand the tools/feature set that are most requested. (ETA: Ongoing until FY26)
+1. [CI Minutes / Compute Units support](https://gitlab.com/gitlab-org/gitlab/-/issues/490681): Build better tooling for our Support and SRE teams when responding to incidents that require us to restore CI Minutes for customer namespaces on GitLab.com, and ensure domain knowledge is shared across the Verify and Fulfillment teams. (ETA: Q4)
+1. [Pipeline speed improvements](https://gitlab.com/groups/gitlab-org/-/epics/7290): benchmarking and instrumentation will be our focus in order to identify the bottlenecks and improve pipeline creation speeds. This will be critical for driving [Error Budget](https://handbook.gitlab.com/handbook/engineering/error-budgets/) improvements. (ETA: Ongoing efforts to FY26)
+1. Cells 1.0 [Database Support](https://gitlab.com/groups/gitlab-org/-/epics/12323): the goal is to complete the Verify dependencies by Q4.
+
+The [product roadmap](https://gitlab.com/gitlab-com/Product/-/issues/12911) outlines the expected deliverables for FY25.
+
+#### 3 Year Vision
+
+1. Continue to iterate on the Verify stage technical debt roadmap. How do we represent the highest priorities in a SSOT like an issue board?
+1. Tracking **Unplanned Work** and making that more visible, to account for this during Engineering capacity or headcount planning. (For example, incident response, requests for help issues, triaging questions on Slack)
+1. [Pipeline speed improvements](https://gitlab.com/groups/gitlab-org/-/epics/7290) - while benchmarking and instrumentation has been a focus, we have not:
+  1. [Implemented distributed tracing on our CI workers](https://gitlab.com/groups/gitlab-org/-/epics/11040#note_1568112854)
+  1. Prioritized further work in [CI/CD Build Speed working group](/handbook/company/working-groups/ci-build-speed/)
+  1. Built more observability related to Pipeline speed improvements.
+1. [CI Events](https://docs.gitlab.com/ee/architecture/blueprints/gitlab_ci_events/) - this is deferred from FY25 due to capacity constraints in Verify.
+1. CI Cache - TBD
 
 ### FY24
 
