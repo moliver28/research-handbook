@@ -164,7 +164,7 @@ To align our education and enablement with our product, each of the topics below
 - [CI/CD eBook](https://about.gitlab.com/resources/ebook-single-app-cicd/)
 - [CI/CD YouTube Demo Overview](https://about.gitlab.com/blog/2017/03/13/ci-cd-demo/)
 
-#### Intermeiate Level
+#### Intermediate Level
 
 - [Continuous Delivery Feature Overview](https://about.gitlab.com/features/continuous-integration/)
   - [See verify stage for full list of CI/CD resources](#verify-stage)
