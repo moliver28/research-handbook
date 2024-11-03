@@ -378,6 +378,7 @@ ElastiCache
 Elasticsearch
 Eleventy
 Elgato
+Elternzeit
 enablement
 Encrypt
 enqueued
@@ -827,6 +828,7 @@ PAMs
 parallelization
 parallelizations
 parsable
+Partnerschaftsbonus
 PascalCase
 PascalCased
 passthrough
@@ -1113,6 +1115,7 @@ Solargraph
 Solarized
 Sourcegraph
 SOWs
+Sozialgesetzbuch
 Spamcheck
 spammable
 sparkline
@@ -1395,6 +1398,7 @@ vCPUs
 vendored
 vendoring
 versionless
+Versichertennummer
 viewport
 viewports
 virtualized
