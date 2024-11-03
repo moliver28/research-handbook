@@ -131,6 +131,8 @@ Below are additional examples to guide you when questions arise about classifyin
 * `~"type::bug"`
   * Missing functionality that was part of original acceptance criteria
 * `~"type::maintenance"`
+  * Infrastructure scaling initiatives that do not involve direct
+    customer-facing updates
   * Upgrade of a dependency
   * Bumping a version without code changes
   * Docs only update
