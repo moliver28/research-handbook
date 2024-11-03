@@ -41,7 +41,7 @@ team calendar.
    'Additional calendars to include?'. The 'Support - Time Off' calendar ID is
    `gitlab.com_as6a088eo3mrvbo57n5kddmgdg@group.calendar.google.com`
 1. Verify the following calendars are shared with you. These are shared with the Support Team Google Group:
-   1. [Support OOO - AMER](https://calendar.google.com/calendar/u/0/embed?src=c_rt0g4ptj1nut4045lcgsm21chg@group.calendar.google.com)
+   1. [Support OOO - AMER](https://calendar.google.com/calendar/embed?src=c_9166d2302886c4ae23f34099eeb4015e2d520e1dd4029711becd8370be996513%40group.calendar.google.com)
    1. [Support OOO - APAC](https://calendar.google.com/calendar/embed?src=c_408bhp8a8j579lqr99j552u21s%40group.calendar.google.com)
    1. [Support OOO - EMEA](https://calendar.google.com/calendar/u/0/embed?src=c_ev56c9rgjd9l1sn291i368jn78@group.calendar.google.com)
 
