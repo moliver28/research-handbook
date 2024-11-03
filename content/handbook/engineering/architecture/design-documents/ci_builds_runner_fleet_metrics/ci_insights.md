@@ -122,7 +122,7 @@ get_jobs_statistics(project_id, job_name:, *etc)
 
 ### Revamping our charts
 
-Explore new color scheme and nicer look on our charts. Colaborate with UX to determine whether this is something we had on our mind or not and support any iniative to have nicer, more modern looking charts as our charts are quite forgettable.
+Explore new color scheme and nicer look on our charts. Colaborate with UX to determine whether this is something we had on our mind or not and support any initiative to have nicer, more modern looking charts as our charts are quite forgettable.
 
 ## Alternative Solutions
 
