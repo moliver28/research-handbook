@@ -106,7 +106,7 @@ Program type is included on the smart campaign meant to clear `dietary restricti
 | ------------- | ---------- | ------- |
 | No Action | default starting position for all records |  |
 | Sales Nominated | Sales indicated record to receive triggered event email sent by Marketing |  |
-| Waitlist | Holding state if registration is full will be moved to `Registered` if space opens |  |
+| Waitlisted | Holding state if registration is full will be moved to `Registered` if space opens |  |
 | Registered | Registered for the event |  |
 | Cancelled | Registered, but cancelled ahead of the event | |
 | No Show | Registered, but did not attend the event |  |
